@@ -4,6 +4,15 @@
       "href": "https://spring.io/blog.atom",
       "articles": [
         {
+          "description": "The Spring Cloud Gateway (SCG) open-source project has been extended and offered commercially for the Kubernetes platform. This new offering lets you automate the deployment of an API gateway service by applying YAML configuration objects to a Kubernetes cluster. You can also update the routes of API gateways in Kubernetes by applying YAML configuration to the cluster.\n\r\nSpring Cloud Gateway for Kubernetes supports routing to services that are written in any language, as long as they expose HTTP endpoints. …",
+          "link": "https://spring.io/blog/2021/05/04/spring-cloud-gateway-for-kubernetes",
+          "publishedOn": "2021-05-04T21:06:00.000Z",
+          "wordCount": 1356,
+          "sourceHref": "https://spring.io/blog.atom",
+          "sourceTitle": "Spring",
+          "title": "Spring Cloud Gateway for Kubernetes"
+        },
+        {
           "description": "On behalf of the community, I’m pleased to announce the release of Spring Security 5.5.0-RC2!\n\r\n\r\n\r\nAfter releasing 5.5.0-RC1 we received some feedback on our APIs that required further refinements. This release finalizes the APIs for the 5.5.0 release later this month.\n\r\n\r\n\r\nYou can find the complete details in the release notes.",
           "link": "https://spring.io/blog/2021/05/03/spring-security-5-5-0-rc2-released",
           "publishedOn": "2021-05-03T20:38:00.000Z",
@@ -173,15 +182,6 @@
           "sourceHref": "https://spring.io/blog.atom",
           "sourceTitle": "Spring",
           "title": "Spring Framework 5.3.6 and 5.2.14 available now"
-        },
-        {
-          "description": "On behalf of the community, I’m pleased to announce the release of Spring Security 5.5.0-RC1!\n\r\n\r\n\r\nIn addition to dependency upgrades, bug fixes, and minor enhancements, the release candidate contains a few noteworthy changes:\n\r\n\r\n\r\n\r\n\r\nJWT client authentication support for OAuth 2.0 clients\n\r\n\r\n\r\nJWT bearer authorization grant support for OAuth 2.0 clients\n\r\n\r\n\r\nAuthorizationManager, a new authorization API for filter security\n\r\n\r\n\r\nKotlin coroutine support for reactive method security\n\r\n\r\n\r\nOpenSAML 4 su…",
-          "link": "https://spring.io/blog/2021/04/12/spring-security-5-5-0-rc1-released",
-          "publishedOn": "2021-04-12T19:22:00.000Z",
-          "wordCount": 485,
-          "sourceHref": "https://spring.io/blog.atom",
-          "sourceTitle": "Spring",
-          "title": "Spring Security 5.5.0-RC1 released"
         }
       ]
     },
@@ -189,10 +189,37 @@
       "href": "https://www.hashicorp.com/blog/feed.xml",
       "articles": [
         {
+          "description": "HashiCorp Nomad 1.1 introduces several new resource control mechanisms to unlock higher efficiency and better performance, including memory oversubscription, reserved CPU cores, and improved UI visibility into resource utilization. This blog post takes a closer look at each of those new features.\nLearn more: Announcing HashiCorp Nomad 1.1. Beta\n»Memory Oversubscription\nSetting task memory limits is a challenging act of balance. Job authors must set a memory limit for each task — if it’s too low, the task ma…",
+          "link": "https://www.hashicorp.com/blog/managing-resources-for-workloads-with-nomad-1-1",
+          "publishedOn": "2021-05-04T18:00:00.000Z",
+          "wordCount": 1101,
+          "sourceHref": "https://www.hashicorp.com/blog/feed.xml",
+          "sourceTitle": "HashiCorp Blog",
+          "title": "Managing Resources for Workloads with Nomad 1.1"
+        },
+        {
+          "description": "There are many security challenges to consider when running an infrastructure provisioning workflow based on infrastructure as code. Assessing who has access to what information at every step of the workflow should be a primary focus. For example, state files can contain information such as passwords or private keys and, in many cases, should be considered sensitive. We recommend securely storing state files remotely through a backend, like Terraform Cloud, which offers encrypted transmission and storage. H…",
+          "link": "https://www.hashicorp.com/blog/announcing-controlled-remote-state-access-for-terraform-cloud-and-enterprise",
+          "publishedOn": "2021-05-04T16:00:00.000Z",
+          "wordCount": 807,
+          "sourceHref": "https://www.hashicorp.com/blog/feed.xml",
+          "sourceTitle": "HashiCorp Blog",
+          "title": "Announcing Controlled Remote State Access for Terraform Cloud and Enterprise"
+        },
+        {
+          "description": "As KubeCon + CloudNativeCon Europe Virtual kicks off this week, HashiCorp will once again be sponsoring the event, hosting informative deep-dive sessions, and answering questions at our digital booth. Our technical experts will also be on-hand to do product demos.\nHashiCorp continues to make Kubernetes a first-class citizen in our ecosystem with ongoing roadmaps for Kubernetes integrations within HashiCorp Terraform, Vault, and Consul. Over a year ago, we deepened our commitment with Kubernetes and many oth…",
+          "link": "https://www.hashicorp.com/blog/a-guide-to-hashicorp-at-kubecon-europe-virtual-2021",
+          "publishedOn": "2021-05-04T08:00:00.000Z",
+          "wordCount": 1083,
+          "sourceHref": "https://www.hashicorp.com/blog/feed.xml",
+          "sourceTitle": "HashiCorp Blog",
+          "title": "A Guide to HashiCorp at KubeCon Europe Virtual 2021"
+        },
+        {
           "description": "We are excited to announce that the beta release of HashiCorp Nomad 1.1 is now available. Nomad is a simple and flexible orchestrator used to deploy and manage containers and non-containerized applications across on-premises and cloud environments. Nomad is widely adopted and used in production by organizations such as Cloudflare, Roblox, Q2, Pandora, and GitHub.\nNomad 1.1 delivers more than 10 new features to enable more flexible scheduling and a simplified operator experience. The core Nomad scheduler has…",
           "link": "https://www.hashicorp.com/blog/announcing-hashicorp-nomad-1-1-beta",
           "publishedOn": "2021-05-03T16:30:00.000Z",
-          "wordCount": 1913,
+          "wordCount": 1927,
           "sourceHref": "https://www.hashicorp.com/blog/feed.xml",
           "sourceTitle": "HashiCorp Blog",
           "title": "Announcing HashiCorp Nomad 1.1 Beta"
@@ -201,7 +228,7 @@
           "description": "HashiCorp Consul is one of our most widely downloaded tools — it was downloaded some 16 million times in 2020. It doesn’t draw a lot of attention to itself in the IT world, but it quietly gets the job done and enjoys substantial popularity..\nTo bring Consul’s usefulness into greater focus, we wanted to ask users to tell us how they use Consul. We created a simple survey form to make it easy for you to tell us how you’re deploying Consul in production, your home labs, or in proof of concepts at work. It shou…",
           "link": "https://www.hashicorp.com/blog/user-survey-how-you-connect-consul",
           "publishedOn": "2021-04-30T16:00:00.000Z",
-          "wordCount": 882,
+          "wordCount": 886,
           "sourceHref": "https://www.hashicorp.com/blog/feed.xml",
           "sourceTitle": "HashiCorp Blog",
           "title": "User Survey: How Do You Connect with Consul?"
@@ -210,7 +237,7 @@
           "description": "This guest post was written by Hannes Lenke, co-founder and CEO at Checkly, the active monitoring platform for developers.\nHashiCorp Terraform Cloud enables you to seamlessly provision infrastructure as code, consolidating configurations in source control and bringing transparency and replayability to a previously manual workflow. The same approach can be used to define the way our APIs and web apps are monitored.\nIn this blog post, you will learn how to use Terraform together with Checkly to provision your…",
           "link": "https://www.hashicorp.com/blog/monitoring-as-code-with-terraform-cloud-and-checkly",
           "publishedOn": "2021-04-29T16:00:00.000Z",
-          "wordCount": 1865,
+          "wordCount": 1869,
           "sourceHref": "https://www.hashicorp.com/blog/feed.xml",
           "sourceTitle": "HashiCorp Blog",
           "title": "Monitoring as Code with Terraform Cloud and Checkly"
@@ -219,7 +246,7 @@
           "description": "For our final HashiTalks 2021 highlights blog, we're showcasing HashiCorp Terraform talks — our largest group of talks. If you've been following our highlights series, we've already published our videos covering HashiCorp Vagrant, Packer, Boundary, Waypoint, Nomad, Consul, and Vault.\nTo recap: this was our largest number of HashiTalks ever. We received so many high-quality submissions this year that we decided to increase the length of the virtual livestream from 24 hours to 48 hours. More than 10,000 peopl…",
           "link": "https://www.hashicorp.com/blog/hashitalks-2021-highlights-terraform",
           "publishedOn": "2021-04-28T16:00:00.000Z",
-          "wordCount": 1726,
+          "wordCount": 1730,
           "sourceHref": "https://www.hashicorp.com/blog/feed.xml",
           "sourceTitle": "HashiCorp Blog",
           "title": "HashiTalks 2021 Highlights: Terraform"
@@ -237,7 +264,7 @@
           "description": "Terraform Cloud’s Business Tier offering allows you to manage resources in private data centers using self-hosted agents. The standard Terraform Cloud setup requires that any resources managed by remote execution are accessible over public internet. With agents, you can also manage infrastructure in private environments without modifying your network perimeter to allow for public ingress. The agent runs within your environment and polls Terraform Cloud for workloads to execute. It is available as both a Doc…",
           "link": "https://www.hashicorp.com/blog/new-terraform-tutorial-manage-private-environments-using-terraform-cloud-agents",
           "publishedOn": "2021-04-23T16:00:00.000Z",
-          "wordCount": 493,
+          "wordCount": 497,
           "sourceHref": "https://www.hashicorp.com/blog/feed.xml",
           "sourceTitle": "HashiCorp Blog",
           "title": "New Terraform Tutorial: Manage Private Environments using Terraform Cloud Agents"
@@ -246,7 +273,7 @@
           "description": "When you update an application or system, you likely push the changes to production and manually verify whether or not it works. If the changes fail, they could have a wide impact across your system and users. Instead, you can use a canary deployment to send a small percentage of traffic to new versions of an application or system. This reduces the blast radius of any problems because you can check if the change failed with a smaller subset of users. But canary deployments often require someone to analyze a…",
           "link": "https://www.hashicorp.com/blog/automated-canary-deployment-with-hashicorp-consul-and-spinnaker",
           "publishedOn": "2021-04-22T19:00:00.000Z",
-          "wordCount": 2769,
+          "wordCount": 2773,
           "sourceHref": "https://www.hashicorp.com/blog/feed.xml",
           "sourceTitle": "HashiCorp Blog",
           "title": "Automated Canary Deployment with HashiCorp Consul and Spinnaker"
@@ -264,7 +291,7 @@
           "description": "We often get asked, “How does HashiCorp Consul scale when there is a large number of nodes and services?” The reason this comes up is because when talking about service mesh, we often have this idea of thousands of microservices seamlessly connecting through the mesh, but we don’t always talk about the expected performance of these environments. In an effort to test and document what running a Consul service mesh at enterprise scale would look like, we teamed up with our friends at Datadog and Amazon Web Se…",
           "link": "https://www.hashicorp.com/blog/hashicorp-consul-global-scale-benchmark",
           "publishedOn": "2021-04-21T19:00:00.000Z",
-          "wordCount": 836,
+          "wordCount": 840,
           "sourceHref": "https://www.hashicorp.com/blog/feed.xml",
           "sourceTitle": "HashiCorp Blog",
           "title": "HashiCorp Consul Global Scale Benchmark"
@@ -273,7 +300,7 @@
           "description": "HashiCorp Cloud Platform (HCP) Consul became generally available in early March. Since then, many users have leveraged this fully managed service mesh to discover and secure their services running on Amazon Web Services. Along the way, we’ve fielded some good questions from early users. Now we’re sharing the answers with you so that everyone’s HCP Consul onboarding experience is just a little bit smoother. We look forward to continued feedback and questions so we can all learn more as HCP Consul continues t…",
           "link": "https://www.hashicorp.com/blog/getting-started-with-hcp-consul-frequently-asked-questions",
           "publishedOn": "2021-04-20T17:00:00.000Z",
-          "wordCount": 1283,
+          "wordCount": 1289,
           "sourceHref": "https://www.hashicorp.com/blog/feed.xml",
           "sourceTitle": "HashiCorp Blog",
           "title": "Getting Started with  HCP Consul: Frequently Asked Questions"
@@ -282,7 +309,7 @@
           "description": "We are pleased to announce the beta release of HashiCorp Consul 1.10. This release is yet another step forward in our effort to help organizations run Consul efficiently at scale and seamlessly integrate service mesh into their application workflows. Consul 1.10 contains a number of exciting features that we will review in this blog. If you are interested in trying out the beta, it is now available on our GitHub release page.\n»Transparent Proxy\nAs with any service mesh, Consul facilitates secure service-to-…",
           "link": "https://www.hashicorp.com/blog/announcing-consul-1-10-beta",
           "publishedOn": "2021-04-19T20:00:00.000Z",
-          "wordCount": 883,
+          "wordCount": 889,
           "sourceHref": "https://www.hashicorp.com/blog/feed.xml",
           "sourceTitle": "HashiCorp Blog",
           "title": "Announcing Consul 1.10 Beta"
@@ -291,7 +318,7 @@
           "description": "Recruiting high-quality talent is the front line of the battle for corporate supremacy. Organizations of all sizes and across every industry are looking for new and inventive ways to identify and hire qualified candidates before their competitors do &mdash;&nbsp;and they&rsquo;re looking to HireVue for help.\nFor nearly 15 years, the company has provided enterprises large and small, as well as government contractors and agencies, with a range of AI-powered interview scheduling, video interviewing, and skills…",
           "link": "https://www.hashicorp.com/blog/how-hirevue-uses-hashicorp-vault-enable-faster-more-secure-candidate-recruitment",
           "publishedOn": "2021-04-19T19:00:00.000Z",
-          "wordCount": 1134,
+          "wordCount": 1145,
           "sourceHref": "https://www.hashicorp.com/blog/feed.xml",
           "sourceTitle": "HashiCorp Blog",
           "title": "How HireVue Uses HashiCorp Vault to Enable Faster, More Secure Candidate Recruitment"
@@ -309,7 +336,7 @@
           "description": "The Terraform Cloud Operator for Kubernetes (Operator) allows you to manage the lifecycle of cloud and on-premises infrastructure from within the Kubernetes control plane. Our new tutorial, Deploy Infrastructure with the Terraform Cloud Operator for Kubernetes, will guide you through deploying the Operator to your Kubernetes cluster and using it to provision application-related infrastructure\nThe Operator uses a Kubernetes Custom Resource Definition (CRD) to manage Terraform Cloud workspaces. These workspac…",
           "link": "https://www.hashicorp.com/blog/terraform-tutorial-terraform-cloud-operator-for-kubernetes",
           "publishedOn": "2021-04-16T15:00:00.000Z",
-          "wordCount": 536,
+          "wordCount": 553,
           "sourceHref": "https://www.hashicorp.com/blog/feed.xml",
           "sourceTitle": "HashiCorp Blog",
           "title": "New Terraform Tutorial: Deploy Infrastructure with the Terraform Cloud Operator for Kubernetes"
@@ -327,7 +354,7 @@
           "description": "We’re pleased to announce the release of HashiCorp Terraform 0.15. It is immediately available for download as well as for use in Terraform Cloud.\nThe Terraform 0.15 release marks the beginning of the pre-release period leading up to Terraform 1.0. Terraform 0.15 includes a number of improvements that solidify Terraform workflows and ensure the stability of Terraform’s feature set for the long term.\n»Terraform 0.15 Highlights\n»Remote State Data Source Compatibility\nIn order to help our practitioners adopt n…",
           "link": "https://www.hashicorp.com/blog/announcing-hashicorp-terraform-0-15-general-availability",
           "publishedOn": "2021-04-14T16:00:00.000Z",
-          "wordCount": 885,
+          "wordCount": 902,
           "sourceHref": "https://www.hashicorp.com/blog/feed.xml",
           "sourceTitle": "HashiCorp Blog",
           "title": "Announcing HashiCorp Terraform 0.15 General Availability"
@@ -336,43 +363,25 @@
           "description": "Many organizations continue to grow the amount of infrastructure that they manage as code. As a result, provisioned resources are growing exponentially, and there’s a need to have an easy way to view each particular workspace’s relevant information. Whether it’s configuration details, configuration outputs or overall status, you need fast access to the right information at the right time.\nHashiCorp Terraform Cloud provides organizations with a fast and easy way to adopt Terraform. This managed service offer…",
           "link": "https://www.hashicorp.com/blog/new-workspace-overview-for-terraform-cloud",
           "publishedOn": "2021-04-14T15:00:00.000Z",
-          "wordCount": 748,
+          "wordCount": 765,
           "sourceHref": "https://www.hashicorp.com/blog/feed.xml",
           "sourceTitle": "HashiCorp Blog",
           "title": "New Workspace Overview for Terraform Cloud"
-        },
-        {
-          "description": "In less than two months, infrastructure operators, administrators, developers, and architects will once again meet online for the next fully digital HashiConf Europe community conference. HashiConf Europe runs from June 8 to June 11, 2021—keynotes, product updates, and technical sessions will take place on June 8 and 9, followed by two days of product workshops on June 10 and 11.\nWe've created an extensive series of online tutorials to help you learn on your own, but a concentrated, hands-on course led by a…",
-          "link": "https://www.hashicorp.com/blog/hashiconf-europe-workshops-key-takeaways-and-how-to-book",
-          "publishedOn": "2021-04-13T07:00:00.000Z",
-          "wordCount": 1272,
-          "sourceHref": "https://www.hashicorp.com/blog/feed.xml",
-          "sourceTitle": "HashiCorp Blog",
-          "title": "HashiConf Europe Workshops: Key Takeaways and How to Book"
-        },
-        {
-          "description": "We introduced official support for Integrated Storage in HashiCorp Vault 1.4, which allows Vault admins to configure an internal storage option for storing Vault’s persistent data rather than using an external storage backend (via the Raft consensus protocol). With each subsequent Vault release, we have continued to improve the operational experience and we are pleased to announce a highly requested feature called Autopilot in Vault 1.7.\nIntegrated Storage eliminates much of the operational overhead of mana…",
-          "link": "https://www.hashicorp.com/blog/autopilot-simplifying-integrated-storage-with-hashicorp-vault",
-          "publishedOn": "2021-04-12T16:00:00.000Z",
-          "wordCount": 1182,
-          "sourceHref": "https://www.hashicorp.com/blog/feed.xml",
-          "sourceTitle": "HashiCorp Blog",
-          "title": "Autopilot: Simplifying the Integrated Storage Experience with HashiCorp Vault"
-        },
-        {
-          "description": "We are happy to announce version 0.3 of HashiCorp Waypoint, an open source project that gives developers a consistent workflow to build, deploy, and release applications across any platform. Waypoint enables developers to get their applications from development to production in a single file and deploy using a single command: waypoint up.\nWaypoint 0.3 features many major new features that enable GitOps workflows, deployment to AWS Lambda, remote runners for operations such as builds and deploys, and more. H…",
-          "link": "https://www.hashicorp.com/blog/announcing-hashicorp-waypoint-0-3-0",
-          "publishedOn": "2021-04-08T19:30:00.000Z",
-          "wordCount": 1363,
-          "sourceHref": "https://www.hashicorp.com/blog/feed.xml",
-          "sourceTitle": "HashiCorp Blog",
-          "title": "Announcing HashiCorp Waypoint 0.3"
         }
       ]
     },
     {
       "href": "https://www.elastic.co/blog/feed",
       "articles": [
+        {
+          "description": "In a recent post we showed you how to get started with the free and open tier of Elastic Observability. Today we'll walk through what you need to do to expand your deployment so you can start gathering metrics from application performance monitoring (APM), or \"tracing\" data in your observability cluster, for free.\n\nWhat is APM?\nApplication performance monitoring lets you see where your applications spend their time, what they are doing, what other applications or services they are calling, and what errors o…",
+          "link": "https://www.elastic.co/blog/adding-free-and-open-elastic-apm-as-part-of-your-elastic-observability-deployment",
+          "publishedOn": "2021-05-05T14:00:00.000Z",
+          "wordCount": 2603,
+          "sourceHref": "https://www.elastic.co/blog/feed",
+          "sourceTitle": "Elastic Blog - Elasticsearch, Kibana, and ELK Stack",
+          "title": "Adding free and open Elastic APM as part of your Elastic Observability deployment"
+        },
         {
           "description": "Last week we covered the essentials of event logging: Ensuring that all your systems are writing logs about the important events or activities occurring on them. This week we will cover the essentials of centrally collecting these Event Logs on a Window Event Collector (WEC) server, which then forwards all logs to Elastic Security. \n \nWEF and WEC\n \nModern versions of Windows include the Windows Remote Management (WinRM) services that implement the WS-Management (WSman) protocol, and just to add to the acron…",
           "link": "https://www.elastic.co/blog/the-essentials-of-central-log-collection-with-wef-wec",
@@ -543,15 +552,6 @@
           "sourceHref": "https://www.elastic.co/blog/feed",
           "sourceTitle": "Elastic Blog - Elasticsearch, Kibana, and ELK Stack",
           "title": "Driving business resilience as a CIO: It's all about people"
-        },
-        {
-          "description": "Today, we are pleased to announce a partnership with Confluent to jointly develop and deliver an enhanced product experience to the Kafka-Elasticsearch community. Apache Kafka® is — and has been since the very early days — an important component of the Elastic ecosystem. The new partnership will work on co-developing new capabilities and improving existing product integrations to make it easier for our joint users to use the Elastic Stack and Kafka together, including strengthening the native integration be…",
-          "link": "https://www.elastic.co/blog/elastic-and-confluent-partner-to-deliver-an-enhanced-kafka-elasticsearch-experience",
-          "publishedOn": "2021-04-08T19:30:00.000Z",
-          "wordCount": 679,
-          "sourceHref": "https://www.elastic.co/blog/feed",
-          "sourceTitle": "Elastic Blog - Elasticsearch, Kibana, and ELK Stack",
-          "title": "Elastic and Confluent partner to deliver an enhanced Kafka + Elasticsearch experience"
         }
       ]
     },
@@ -627,6 +627,15 @@
       "href": "https://devblogs.microsoft.com/devops/feed/",
       "articles": [
         {
+          "description": "Our customers have been wanting some more basic, getting started material on taking their on-prem applications and moving them to the cloud. This video series does just that. Starting with a simple on-prem solution, lifting and shifting and then slowly evolving the app through its many stages until it is a 100% cloud native app.\nThe post On-Prem To The Cloud (episode 7): Migrating to Azure SQL appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/on-prem-to-the-cloud-episode-7-migrating-to-azure-sql/",
+          "publishedOn": "2021-05-04T18:00:55.000Z",
+          "wordCount": 1470,
+          "sourceHref": "https://devblogs.microsoft.com/devops/feed/",
+          "sourceTitle": "Azure DevOps Blog",
+          "title": "On-Prem To The Cloud (episode 7): Migrating to Azure SQL"
+        },
+        {
           "description": "Companies are placing increasing importance on ensuring that only authorized team members are allowed to access valuable company resources on Azure DevOps. One such way they have been able to do so is through conditional access policies (CAPs) they have set in Azure Active Directory (Azure AD).\nThe post IPv6 fencing Conditional Access Policies now supported appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/ipv6-fencing-conditional-access-policies-now-supported/",
           "publishedOn": "2021-05-03T16:59:40.000Z",
@@ -639,7 +648,7 @@
           "description": "Happy Friday! If you didn&#8217;t catch it, we recently ran an online event &#8211; All Around Azure: DevOps with GitHub. The recorded sessions will be posted early next week, so check it out! Until then, there&#8217;s these great community posts to take us into the weekend.\nThe post Top Stories from the Microsoft DevOps Community – 2021.04.30 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-04-30/",
           "publishedOn": "2021-04-30T15:34:05.000Z",
-          "wordCount": 1072,
+          "wordCount": 1096,
           "sourceHref": "https://devblogs.microsoft.com/devops/feed/",
           "sourceTitle": "Azure DevOps Blog",
           "title": "Top Stories from the Microsoft DevOps Community – 2021.04.30"
@@ -648,7 +657,7 @@
           "description": "The Azure Boards team is thrilled to announce the GA of Delivery Plans in the Azure DevOps Service!\nThe post Delivery Plans 2.0 is now GA! appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/delivery-plans-2-0-is-now-ga/",
           "publishedOn": "2021-04-30T15:17:49.000Z",
-          "wordCount": 1707,
+          "wordCount": 1763,
           "sourceHref": "https://devblogs.microsoft.com/devops/feed/",
           "sourceTitle": "Azure DevOps Blog",
           "title": "Delivery Plans 2.0 is now GA!"
@@ -684,7 +693,7 @@
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It&#8217;s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes Episode 36 &#8211; Intro to Chaos Engineering with Ana Margarita Medina! appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-36-intro-to-chaos-engineering-with-ana-margarita-medina/",
           "publishedOn": "2021-04-19T15:00:32.000Z",
-          "wordCount": 1433,
+          "wordCount": 1435,
           "sourceHref": "https://devblogs.microsoft.com/devops/feed/",
           "sourceTitle": "Azure DevOps Blog",
           "title": "AzureFunBytes Episode 36 – Intro to Chaos Engineering with Ana Margarita Medina!"
@@ -706,15 +715,6 @@
           "sourceHref": "https://devblogs.microsoft.com/devops/feed/",
           "sourceTitle": "Azure DevOps Blog",
           "title": "Personal Access Token Lifecycle APIs now publicly available"
-        },
-        {
-          "description": "DevOps Fireside Chats is a monthly panel that discusses a different subject every month that&#8217;s related to DevOps.  Join us April 21, 2021 for a new conversation on Continuous Integration and Delivery.  We&#8217;ll take questions, have a discussion, and learn about good CI/CD habits.\nThe post DevOps Fireside Chats &#8211; March 2021 Review appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/devops-fireside-chats-march-2021-review/",
-          "publishedOn": "2021-04-15T18:00:10.000Z",
-          "wordCount": 1619,
-          "sourceHref": "https://devblogs.microsoft.com/devops/feed/",
-          "sourceTitle": "Azure DevOps Blog",
-          "title": "DevOps Fireside Chats – March 2021 Review"
         }
       ]
     },
@@ -813,6 +813,15 @@
       "articles": [
         {
           "description": "",
+          "link": "https://xkcd.com/2458/",
+          "publishedOn": "2021-05-03T00:00:00.000Z",
+          "wordCount": 185,
+          "sourceHref": "https://xkcd.com/atom.xml",
+          "sourceTitle": "xkcd.com",
+          "title": "Bubble Wrap"
+        },
+        {
+          "description": "",
           "link": "https://xkcd.com/2457/",
           "publishedOn": "2021-04-30T00:00:00.000Z",
           "wordCount": 187,
@@ -837,15 +846,6 @@
           "sourceHref": "https://xkcd.com/atom.xml",
           "sourceTitle": "xkcd.com",
           "title": "Virus Consulting"
-        },
-        {
-          "description": "",
-          "link": "https://xkcd.com/2454/",
-          "publishedOn": "2021-04-23T00:00:00.000Z",
-          "wordCount": 185,
-          "sourceHref": "https://xkcd.com/atom.xml",
-          "sourceTitle": "xkcd.com",
-          "title": "Fully Vaccinated"
         }
       ]
     },
@@ -1008,5 +1008,5 @@
       ]
     }
   ],
-  "cliVersion": "1.3.0"
+  "cliVersion": "1.3.1"
 }

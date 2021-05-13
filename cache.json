@@ -6,6 +6,24 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/05/12/spring-hateoas-1-2-6-and-1-3-1-released",
+          "author": null,
+          "description": "On behalf of the Spring community I&#8217;d like to announce the availability of Spring HATEOAS 1.2.6 and 1.3.1. The releases contain general bugfixes and are scheduled for inclusion in the upcoming Spring Boot service releases.\n\r\n\r\n\r\nFind the detailed changelogs for 1.2.6 here and the one for 1.3.1 here.\n\r\n\r\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
+          "link": "https://spring.io/blog/2021/05/12/spring-hateoas-1-2-6-and-1-3-1-released",
+          "publishedOn": "2021-05-12T15:10:00.000Z",
+          "wordCount": 448,
+          "title": "Spring HATEOAS 1.2.6 and 1.3.1 released"
+        },
+        {
+          "id": "https://spring.io/blog/2021/05/11/spring-framework-5-3-7-and-5-2-15-available-now",
+          "author": null,
+          "description": "On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework 5.3.7 and 5.2.15 are available now.\n\r\nSpring Framework 5.3.7 includes 45 fixes and improvements. Spring Framework 5.2.15 includes 9 selected fixes and improvements.\n\r\nStay tuned for follow-up Spring Boot releases later this week.\n\r\nProject Page | GitHub | Issues | Documentation",
+          "link": "https://spring.io/blog/2021/05/11/spring-framework-5-3-7-and-5-2-15-available-now",
+          "publishedOn": "2021-05-12T06:21:00.000Z",
+          "wordCount": 448,
+          "title": "Spring Framework 5.3.7 and 5.2.15 available now"
+        },
+        {
           "id": "https://spring.io/blog/2021/05/11/this-week-in-spring-may-11th-2021",
           "author": null,
           "description": "Hi, Spring fans! Welcome to another installment of This Week in Spring! First: a happy belated mother&rsquo;s day to you! Being a mom is already the hardest job, and it got considerably harder this last year as a global pandemic descended on the world forcing so many new complications on an already fraught enterprise: raising a family. So, thank you, moms. (Also: you deserve far more than just a day!) \n\r\n\r\n  \nHave you registered for tomorrow&rsquo;s brand new (_free_!) SpringOne Tour installment? Don&rsquo;…",
@@ -166,24 +184,6 @@
           "publishedOn": "2021-04-15T07:37:00.000Z",
           "wordCount": 492,
           "title": "Spring Boot 2.3.10 is now available"
-        },
-        {
-          "id": "https://spring.io/blog/2021/04/14/spring-integration-5-5-rc1-5-4-6-5-3-7-available",
-          "author": null,
-          "description": "Dear Spring community,\n\r\n\r\n\r\nOn behalf of the team and all the contributors, it&#8217;s my pleasure to announce a Release Candidate 1 for Spring Integration 5.5, plus Spring Integration 5.4.6 &amp; 5.3.7 patch versions.\n\r\n\r\n\r\nThe latest two can be downloaded from Maven Central and it is recommended to upgrade your projects or just pull them transitively from respective latest Spring Boot patch versions!\n\r\n\r\n\r\nThe Release Candidate is available from the https://repo.spring.io/milestone/ repository:\n\r\n\r\n\r\n\r\nc…",
-          "link": "https://spring.io/blog/2021/04/14/spring-integration-5-5-rc1-5-4-6-5-3-7-available",
-          "publishedOn": "2021-04-15T01:52:00.000Z",
-          "wordCount": 677,
-          "title": "Spring Integration 5.5 RC1, 5.4.6 & 5.3.7 Available"
-        },
-        {
-          "id": "https://spring.io/blog/2021/04/14/spring-for-apache-kafka-2-7-0-available",
-          "author": null,
-          "description": "I am pleased to announce that Spring for Apache Kafka 2.7.0 is now available.\n\r\n\r\n\r\nThis release contains a significant enhancement, which is a community contribution.\r\nFailed deliveries can be forwarded to a series of topics for delayed redelivery.\n\r\n\r\n\r\nIt is best described with an example:\n\r\n\r\n\r\n\r\n@RetryableTopic(attempts = \"5\", backoff = @Backoff(delay = 1000, multiplier = 2.0))\r\n@KafkaListener(id = \"sk270\", topics = \"sk270\")\r\npublic void listen(String in, @Header(KafkaHeaders.RECEIVED_TOPIC) String top…",
-          "link": "https://spring.io/blog/2021/04/14/spring-for-apache-kafka-2-7-0-available",
-          "publishedOn": "2021-04-14T17:00:00.000Z",
-          "wordCount": 633,
-          "title": "Spring for Apache Kafka 2.7.0 Available"
         }
       ]
     },
@@ -192,6 +192,15 @@
       "feedUrl": "https://www.hashicorp.com/blog/feed.xml",
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
+        {
+          "id": "https://www.hashicorp.com/blog/default-tags-in-the-terraform-aws-provider",
+          "author": null,
+          "description": "The HashiCorp Terraform AWS Provider contains over 700 resources to standardize your AWS infrastructure for configuration in accordance with best practices. One of the most common requests we’ve heard is for the ability to define default tags at the provider level of your Terraform configuration. We’re pleased to announce that as of v3.38.0 of the Terraform AWS provider, you are able to define default tags for all resources except Auto Scaling Groups.\n»Using Default Tags\nYou can set default tags in the prov…",
+          "link": "https://www.hashicorp.com/blog/default-tags-in-the-terraform-aws-provider",
+          "publishedOn": "2021-05-12T16:00:00.000Z",
+          "wordCount": 691,
+          "title": "Default Tags in the Terraform AWS Provider"
+        },
         {
           "id": "https://www.hashicorp.com/blog/explore-hashicorp-consul-with-docker-compose",
           "author": null,
@@ -243,7 +252,7 @@
           "description": "There are many security challenges to consider when running an infrastructure provisioning workflow based on infrastructure as code. Assessing who has access to what information at every step of the workflow should be a primary focus. For example, state files can contain information such as passwords or private keys and, in many cases, should be considered sensitive. We recommend securely storing state files remotely through a backend, like Terraform Cloud, which offers encrypted transmission and storage. H…",
           "link": "https://www.hashicorp.com/blog/announcing-controlled-remote-state-access-for-terraform-cloud-and-enterprise",
           "publishedOn": "2021-05-04T16:00:00.000Z",
-          "wordCount": 803,
+          "wordCount": 812,
           "title": "Announcing Controlled Remote State Access for Terraform Cloud and Enterprise"
         },
         {
@@ -279,7 +288,7 @@
           "description": "This guest post was written by Hannes Lenke, co-founder and CEO at Checkly, the active monitoring platform for developers.\nHashiCorp Terraform Cloud enables you to seamlessly provision infrastructure as code, consolidating configurations in source control and bringing transparency and replayability to a previously manual workflow. The same approach can be used to define the way our APIs and web apps are monitored.\nIn this blog post, you will learn how to use Terraform together with Checkly to provision your…",
           "link": "https://www.hashicorp.com/blog/monitoring-as-code-with-terraform-cloud-and-checkly",
           "publishedOn": "2021-04-29T16:00:00.000Z",
-          "wordCount": 1865,
+          "wordCount": 1874,
           "title": "Monitoring as Code with Terraform Cloud and Checkly"
         },
         {
@@ -288,7 +297,7 @@
           "description": "For our final HashiTalks 2021 highlights blog, we're showcasing HashiCorp Terraform talks — our largest group of talks. If you've been following our highlights series, we've already published our videos covering HashiCorp Vagrant, Packer, Boundary, Waypoint, Nomad, Consul, and Vault.\nTo recap: this was our largest number of HashiTalks ever. We received so many high-quality submissions this year that we decided to increase the length of the virtual livestream from 24 hours to 48 hours. More than 10,000 peopl…",
           "link": "https://www.hashicorp.com/blog/hashitalks-2021-highlights-terraform",
           "publishedOn": "2021-04-28T16:00:00.000Z",
-          "wordCount": 1726,
+          "wordCount": 1735,
           "title": "HashiTalks 2021 Highlights: Terraform"
         },
         {
@@ -306,7 +315,7 @@
           "description": "Terraform Cloud’s Business Tier offering allows you to manage resources in private data centers using self-hosted agents. The standard Terraform Cloud setup requires that any resources managed by remote execution are accessible over public internet. With agents, you can also manage infrastructure in private environments without modifying your network perimeter to allow for public ingress. The agent runs within your environment and polls Terraform Cloud for workloads to execute. It is available as both a Doc…",
           "link": "https://www.hashicorp.com/blog/new-terraform-tutorial-manage-private-environments-using-terraform-cloud-agents",
           "publishedOn": "2021-04-23T16:00:00.000Z",
-          "wordCount": 493,
+          "wordCount": 506,
           "title": "New Terraform Tutorial: Manage Private Environments using Terraform Cloud Agents"
         },
         {
@@ -362,15 +371,6 @@
           "publishedOn": "2021-04-19T19:00:00.000Z",
           "wordCount": 1141,
           "title": "How HireVue Uses HashiCorp Vault to Enable Faster, More Secure Candidate Recruitment"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/announcing-the-packer-data-source-component-type",
-          "author": null,
-          "description": "The HashiCorp Packer team is excited to announce the release of Data Source, a new component type to fetch or compute data for use elsewhere in a Packer configuration.\nStarting in Packer 1.7.0, users and plugin developers will use data source plugins within HCL2-enabled build templates. As we continue to focus on favoring HCL2 over legacy JSON templates, data source components will be the first Packer feature exclusively available to HCL2.\nData sources in Packer function similarly to Terraform’s data source…",
-          "link": "https://www.hashicorp.com/blog/announcing-the-packer-data-source-component-type",
-          "publishedOn": "2021-04-19T15:00:00.000Z",
-          "wordCount": 693,
-          "title": "Announcing the Packer Data Source Component Type"
         }
       ]
     },
@@ -572,7 +572,7 @@
           "description": "Red Hat Ansible Network Automation continues to be a popular domain for Red Hat Ansible Automation Platform. We have continually developed additional resource modules to make automating network appliances easier, and more approachable, for novices and experts alike. These resource modules provide a consistent experience across multiple network vendors. There are seven main state parameters for resource modules: merged, replaced, overridden, deleted, gathered, rendered and parsed. The Ansible network team is…",
           "link": "https://www.ansible.com/blog/ansible-network-resource-purge-parameter",
           "publishedOn": "2021-05-10T13:00:00.000Z",
-          "wordCount": 1415,
+          "wordCount": 1413,
           "title": "Ansible Network Resource Purge parameter"
         },
         {
@@ -581,7 +581,7 @@
           "description": "A comprehensive infrastructure as code (IaC) initiative should include monitoring and observability. Incorporating the active monitoring of the infrastructure under management results in a symbiotic relationship in which failures are detected automatically, enabling event-driven code changes and new deployments.",
           "link": "https://www.ansible.com/blog/monitoring-as-code-with-sensu-ansible",
           "publishedOn": "2021-05-05T13:00:00.000Z",
-          "wordCount": 3107,
+          "wordCount": 3105,
           "title": "Monitoring as code with Sensu + Ansible"
         },
         {
@@ -590,7 +590,7 @@
           "description": "In this blog I would like to showcase the power of Ansible Content Collections to build powerful abstractions. Collections are a distribution format for Ansible content that can include playbooks, roles, modules and plugins. For this blog post, let us address an Infrastructure as Code(IaC) use case for network configuration management of BGP. We will walk through examples for both Cisco IOS and Arista EOS devices. \nFirst, let us define a data-model that encapsulates the vendor-agnostic configuration.",
           "link": "https://www.ansible.com/blog/handling-oob-network-changes",
           "publishedOn": "2021-05-03T13:00:00.000Z",
-          "wordCount": 1979,
+          "wordCount": 1976,
           "title": "Handling OOB Network Changes"
         },
         {
@@ -599,7 +599,7 @@
           "description": "What does successful network automation look like? What are the metrics that can measure the effectiveness of this practice and its business value?",
           "link": "https://www.ansible.com/blog/network-mops-as-automated-workflows",
           "publishedOn": "2021-04-29T13:00:00.000Z",
-          "wordCount": 2451,
+          "wordCount": 2450,
           "title": "Network MOP's as automated workflows"
         },
         {
@@ -608,7 +608,7 @@
           "description": "At AnsibleFest 2020, we announced the extension of our security automation initiative to support endpoint protection use cases. If you have missed it, check out the recording of the talk “Automate your endpoint protection using Ansible” on the AnsibleFest page.",
           "link": "https://www.ansible.com/blog/deep-dive-into-trend-micro-deep-security-integration-modules",
           "publishedOn": "2021-04-21T13:00:00.000Z",
-          "wordCount": 1949,
+          "wordCount": 1948,
           "title": "Deep dive into Trend Micro Deep Security integration modules"
         },
         {
@@ -617,7 +617,7 @@
           "description": "Enterprise security isn’t a homogeneous entity; it’s a portfolio of multi-vendor solutions run by disparate and often siloed teams. With so many different layers, automation proved to be effective in helping security operations teams to integrate and share accountability.",
           "link": "https://www.ansible.com/blog/automating-endpoint-protection-with-ansible",
           "publishedOn": "2021-04-19T13:00:00.000Z",
-          "wordCount": 1796,
+          "wordCount": 1794,
           "title": "Automating Endpoint Protection with Ansible"
         },
         {
@@ -626,17 +626,8 @@
           "description": "IT service management (ITSM) is a collection of policies and processes for the management and support of IT services. The main focus of ITSM is increasing the value of the customers’ service chain. But without the proper automation support, providing IT services can quickly become a major time-sink.",
           "link": "https://www.ansible.com/blog/certified-collection-servicenow",
           "publishedOn": "2021-04-14T09:00:00.000Z",
-          "wordCount": 2135,
+          "wordCount": 2133,
           "title": "Automating ServiceNow with Red Hat Ansible Automation Platform"
-        },
-        {
-          "id": "https://www.ansible.com/blog/automating-a-rhel-8-installation-using-the-vmware-rest-ansible-collection",
-          "author": "Abhijeet Kasurde",
-          "description": "Managing virtual machines in an IT infrastructure is often a common task, specifically VMware virtualization technology has been around for over 20 years. VMware administrators spend a lot of their time in automating the creation, management, and removal of virtual instances that contain various operating systems. One operating system that often resides on VMware infrastructure is Red Hat Enterprise Linux.&nbsp;",
-          "link": "https://www.ansible.com/blog/automating-a-rhel-8-installation-using-the-vmware-rest-ansible-collection",
-          "publishedOn": "2021-04-12T18:30:00.000Z",
-          "wordCount": 1527,
-          "title": "Automating a RHEL 8 Installation Using the VMware REST Ansible Collection"
         }
       ]
     },
@@ -660,7 +651,7 @@
           "description": "This month, we are releasing fixes that impact our self-hosted product, Azure DevOps Server.\nInconsistent Test Results data when using Microsoft.TeamFoundation.TestManagement.Client.\nAzure DevOps Server 2020.0.1 Patch 3\nThe post May patches for Azure DevOps Server appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/may-patches-for-azure-devops-server/",
           "publishedOn": "2021-05-11T17:49:46.000Z",
-          "wordCount": 978,
+          "wordCount": 1101,
           "title": "May patches for Azure DevOps Server"
         },
         {
@@ -898,12 +889,21 @@
       "siteUrl": "https://softwareengineeringdaily.com/archives/",
       "articles": [
         {
+          "id": "https://softwareengineeringdaily.com/?p=10909",
+          "author": null,
+          "description": "An application programming interface, API for short, is the connector between 2 applications. For example, a user interface that needs user data will call an endpoint, like a special URL, with request parameters and receive the data back if the request is valid. Modern applications rely on APIs to send data back and forth to\nThe post Akita: Application Programming Interfaces with Jean Yang appeared first on Software Engineering Daily.",
+          "link": "https://softwareengineeringdaily.com/2021/05/12/akita-application-programming-interfaces-with-jean-yang/?utm_source=rss&utm_medium=rss&utm_campaign=akita-application-programming-interfaces-with-jean-yang",
+          "publishedOn": "2021-05-12T19:12:32.000Z",
+          "wordCount": 893,
+          "title": "Akita: Application Programming Interfaces with Jean Yang"
+        },
+        {
           "id": "https://softwareengineeringdaily.com/?p=10908",
           "author": null,
           "description": "The traveling salesman problem is a classic challenge of finding the shortest and most efficient route for a person to take given a list of destinations. This is one of many real-world optimization problems that companies encounter. How should they schedule product distribution, or promote product bundles, or define sales territories? The answers to these\nThe post Nextmv: Optimization in Fluid Work Environments with Carolyn Mooney appeared first on Software Engineering Daily.",
           "link": "https://softwareengineeringdaily.com/2021/05/10/nextmv-optimization-in-fluid-work-environments-with-carolyn-mooney/?utm_source=rss&utm_medium=rss&utm_campaign=nextmv-optimization-in-fluid-work-environments-with-carolyn-mooney",
           "publishedOn": "2021-05-11T02:04:30.000Z",
-          "wordCount": 848,
+          "wordCount": 846,
           "title": "Nextmv: Optimization in Fluid Work Environments with Carolyn Mooney"
         },
         {
@@ -912,7 +912,7 @@
           "description": "Microservice architecture has become very common over the past few years because of the availability of containers and container orchestrators like Kubernetes. While containers are overall positive for scaling apps and making them more available, they’ve also introduced hurdles like persisting data and state, and container restarts or pod failures. Development teams put significant work\nThe post Temporal Product: Managing State with Ryland Goldstein appeared first on Software Engineering Daily.",
           "link": "https://softwareengineeringdaily.com/2021/05/08/temporal-product-managing-state-with-ryland-goldstein/?utm_source=rss&utm_medium=rss&utm_campaign=temporal-product-managing-state-with-ryland-goldstein",
           "publishedOn": "2021-05-08T09:00:48.000Z",
-          "wordCount": 840,
+          "wordCount": 838,
           "title": "Temporal Product: Managing State with Ryland Goldstein"
         },
         {
@@ -921,7 +921,7 @@
           "description": "Natural Language Processing (NLP) is a branch of artificial intelligence concerned with giving computers the ability to understand text and spoken words. “Understanding” includes intent, sentiment, and what’s important in the message. NLP powers things like voice-operated software, digital assistants, customer service chat bots, and many other academic, consumer and enterprise tools. The company Botpress\nThe post Botpress: Natural Language Processing with Sylvain Perron appeared first on Software Engineerin…",
           "link": "https://softwareengineeringdaily.com/2021/05/07/botpress-natural-language-processing-with-sylvain-perron/?utm_source=rss&utm_medium=rss&utm_campaign=botpress-natural-language-processing-with-sylvain-perron",
           "publishedOn": "2021-05-07T22:07:47.000Z",
-          "wordCount": 791,
+          "wordCount": 789,
           "title": "Botpress: Natural Language Processing with Sylvain Perron"
         },
         {
@@ -930,7 +930,7 @@
           "description": "In software engineering, telemetry is the data that is collected about your applications. Unlike logging, which is used in the development of apps to pinpoint errors and code flows, telemetry data includes all operational data including logs, metrics, events, traces, usage, and other analytical data. Companies usually visualize this information to troubleshoot problems and understand\nThe post New Relic: Telemetry and Intelligent Observability with Zain Asgar and Ishan Mukherjee appeared first on Software En…",
           "link": "https://softwareengineeringdaily.com/2021/05/05/new-relic-telemetry-and-intelligent-observability-with-zain-asgar-and-ishan-mukherjee/?utm_source=rss&utm_medium=rss&utm_campaign=new-relic-telemetry-and-intelligent-observability-with-zain-asgar-and-ishan-mukherjee",
           "publishedOn": "2021-05-05T23:58:41.000Z",
-          "wordCount": 878,
+          "wordCount": 876,
           "title": "New Relic: Telemetry and Intelligent Observability with Zain Asgar and Ishan Mukherjee"
         },
         {
@@ -939,7 +939,7 @@
           "description": "Cloud computing provides tools, storage, servers, and software products through the internet. Securing these resources is a constant process for companies deploying new code to their cloud environments. It’s easy to overlook security flaws because company applications are very complex and many people work together to develop them. Wyze Labs, for example, had millions of\nThe post Bridgecrew: Cloud Security with Barak Schoster appeared first on Software Engineering Daily.",
           "link": "https://softwareengineeringdaily.com/2021/04/28/bridgecrew-cloud-security-with-barak-schoster/?utm_source=rss&utm_medium=rss&utm_campaign=bridgecrew-cloud-security-with-barak-schoster",
           "publishedOn": "2021-04-28T18:51:24.000Z",
-          "wordCount": 813,
+          "wordCount": 811,
           "title": "Bridgecrew: Cloud Security with Barak Schoster"
         },
         {
@@ -948,7 +948,7 @@
           "description": "Modern applications are increasingly built as large, distributed systems. A distributed system is a program where its components are located on different machines that communicate with one another to create a single cohesive app. Components may exist as multiple instances across “nodes,” the computers hosting them, which form clusters of nodes that span across geographic\nThe post Uber Mobile Engineering: Distributed Payment Systems with Gergely Orosz appeared first on Software Engineering Daily.",
           "link": "https://softwareengineeringdaily.com/2021/04/27/uber-mobile-engineering-distributed-payment-systems-with-gergely-orosz/?utm_source=rss&utm_medium=rss&utm_campaign=uber-mobile-engineering-distributed-payment-systems-with-gergely-orosz",
           "publishedOn": "2021-04-27T21:47:23.000Z",
-          "wordCount": 848,
+          "wordCount": 846,
           "title": "Uber Mobile Engineering: Distributed Payment Systems with Gergely Orosz"
         },
         {
@@ -957,7 +957,7 @@
           "description": "Geospatial technology impacts every person who uses a smartphone, drives a car, or flies in airplanes. It refers to all of the technology used to acquire and interpret geographic information. In more advanced settings, geospatial technology is used for constructing dynamic maps, 3D visualizations, and scientific and governmental simulations.  The company Makepath specializes in geospatial\nThe post Makepath: Geospatial Technology with Brendan Collins appeared first on Software Engineering Daily.",
           "link": "https://softwareengineeringdaily.com/2021/04/26/makepath-geospatial-technology-with-brendan-collins/?utm_source=rss&utm_medium=rss&utm_campaign=makepath-geospatial-technology-with-brendan-collins",
           "publishedOn": "2021-04-26T09:00:30.000Z",
-          "wordCount": 780,
+          "wordCount": 778,
           "title": "Makepath: Geospatial Technology with Brendan Collins"
         },
         {
@@ -966,7 +966,7 @@
           "description": "Large portions of software development budgets are dedicated for testing code. A new component may take weeks to thoroughly test, and even then mistakes happen. If you consider software defects as security issues then the concern goes well beyond an application temporarily crashing. Although even minor bugs can cost companies a lot of time to\nThe post Speedscale: Automated Testing with Ken Ahrens and Matt LeRay appeared first on Software Engineering Daily.",
           "link": "https://softwareengineeringdaily.com/2021/04/23/speedscale-automated-testing-with-ken-ahrens-and-matt-leray/?utm_source=rss&utm_medium=rss&utm_campaign=speedscale-automated-testing-with-ken-ahrens-and-matt-leray",
           "publishedOn": "2021-04-23T17:05:29.000Z",
-          "wordCount": 865,
+          "wordCount": 863,
           "title": "Speedscale: Automated Testing with Ken Ahrens and Matt LeRay"
         },
         {
@@ -975,7 +975,7 @@
           "description": "Encryption algorithms provide the means to secure and transfer sensitive information by taking input and transforming it into an unreadable output. Usually a special key, or multiple keys, are needed to unscramble the information back to the original input. These algorithms power the security of everything from our cell phone lock screens to Fortune 500\nThe post Skiff: Secure Document Collaboration with Andrew Milich appeared first on Software Engineering Daily.",
           "link": "https://softwareengineeringdaily.com/2021/04/22/skiff-secure-document-collaboration-with-andrew-milich/?utm_source=rss&utm_medium=rss&utm_campaign=skiff-secure-document-collaboration-with-andrew-milich",
           "publishedOn": "2021-04-22T09:00:04.000Z",
-          "wordCount": 826,
+          "wordCount": 824,
           "title": "Skiff: Secure Document Collaboration with Andrew Milich"
         },
         {
@@ -984,7 +984,7 @@
           "description": "A liquid market enables individuals or groups to quickly buy and sell assets. Decentralized platforms can struggle to execute trades when their platform does not have much liquidity for a specific token. Newer tokens or tokens with limited supply are most often the least liquid because there might be an imbalance of buyers and sellers.\nThe post Uniswap: Creating Liquidity in DeFi with Noah Zinsmeister appeared first on Software Engineering Daily.",
           "link": "https://softwareengineeringdaily.com/2021/04/21/uniswap-creating-liquidity-in-defi-with-noah-zinsmeister/?utm_source=rss&utm_medium=rss&utm_campaign=uniswap-creating-liquidity-in-defi-with-noah-zinsmeister",
           "publishedOn": "2021-04-21T19:20:03.000Z",
-          "wordCount": 821,
+          "wordCount": 819,
           "title": "Uniswap: Creating Liquidity in DeFi with Noah Zinsmeister"
         },
         {
@@ -993,7 +993,7 @@
           "description": "Non-fungible tokens are proofs of authenticity that are stored on a blockchain. Unlike fungible tokens, such as cryptocurrencies which are interchangeable, non-fungible tokens aren’t inherently equivalent to any other token. Because they are unique, they can be used to represent any unique asset. Their presence on a blockchain enables an NFT owner to trade the\nThe post Showtime: Crypto Art and NFTs with Alex Masmejean appeared first on Software Engineering Daily.",
           "link": "https://softwareengineeringdaily.com/2021/04/20/showtime-crypto-art-and-nfts-with-alex-masmejean/?utm_source=rss&utm_medium=rss&utm_campaign=showtime-crypto-art-and-nfts-with-alex-masmejean",
           "publishedOn": "2021-04-20T20:22:02.000Z",
-          "wordCount": 787,
+          "wordCount": 785,
           "title": "Showtime: Crypto Art and NFTs with Alex Masmejean"
         },
         {
@@ -1002,7 +1002,7 @@
           "description": "Volatility is the degree of fluctuation of something’s price. Highly volatile assets may see rapid and large price changes, while less volatile assets will maintain a steady price. This concept is important in decentralized finance because cryptocurrencies tend to be volatile assets.  The company Synthetix provides assets called Synths that provide exposure to an asset\nThe post Synthetix: Derivatives Trading in DeFi with Justin Moses appeared first on Software Engineering Daily.",
           "link": "https://softwareengineeringdaily.com/2021/04/19/synthetix-derivatives-trading-in-defi-with-justin-moses/?utm_source=rss&utm_medium=rss&utm_campaign=synthetix-derivatives-trading-in-defi-with-justin-moses",
           "publishedOn": "2021-04-19T09:00:39.000Z",
-          "wordCount": 802,
+          "wordCount": 800,
           "title": "Synthetix: Derivatives Trading in DeFi with Justin Moses"
         },
         {
@@ -1011,7 +1011,7 @@
           "description": "A decentralized exchange, usually referred to as a DEX, is a platform for exchanging cryptocurrencies. Depending on trading volume for different coins, some DEXs are more liquid than others. On the one hand you can freely swap unlisted tokens and maintain full control over your private keys and wallet information. On the other hand, without\nThe post 1inch Exchange: Decentralized Exchange Aggregation with Anton Bukov appeared first on Software Engineering Daily.",
           "link": "https://softwareengineeringdaily.com/2021/04/17/1inch-exchange-decentralized-exchange-aggregation-with-anton-bukov/?utm_source=rss&utm_medium=rss&utm_campaign=1inch-exchange-decentralized-exchange-aggregation-with-anton-bukov",
           "publishedOn": "2021-04-17T09:00:33.000Z",
-          "wordCount": 888,
+          "wordCount": 886,
           "title": "1inch Exchange: Decentralized Exchange Aggregation with Anton Bukov"
         },
         {
@@ -1020,7 +1020,7 @@
           "description": "A data warehouse is a data management system that often contains large amounts of historical data and is used for business intelligence activities like analytics. It centralizes customer data from multiple sources to be an organization’s single source of truth. Getting the data from your data warehouse into the different applications used by your organization\nThe post Census: Data Accessibility with Boris Jabes appeared first on Software Engineering Daily.",
           "link": "https://softwareengineeringdaily.com/2021/04/16/census-data-accessibility-with-boris-jabes/?utm_source=rss&utm_medium=rss&utm_campaign=census-data-accessibility-with-boris-jabes",
           "publishedOn": "2021-04-16T09:00:11.000Z",
-          "wordCount": 820,
+          "wordCount": 818,
           "title": "Census: Data Accessibility with Boris Jabes"
         },
         {
@@ -1038,7 +1038,7 @@
           "description": "Decentralized applications, termed “dApps,” are applications that feel like normal apps but are actually deployed (mostly) on the Ethereum blockchain. This means dApps can’t be taken down, can’t be censored or blocked, typically use Ethereum accounts as identity, and would only experience downtime if Ethereum itself went down. There are a lot of things you\nThe post Compound: Cryptocurrency Interest Rates with Jared Flatow appeared first on Software Engineering Daily.",
           "link": "https://softwareengineeringdaily.com/2021/04/14/compound-cryptocurrency-interest-rates-with-jared-flatow/?utm_source=rss&utm_medium=rss&utm_campaign=compound-cryptocurrency-interest-rates-with-jared-flatow",
           "publishedOn": "2021-04-14T09:00:56.000Z",
-          "wordCount": 859,
+          "wordCount": 857,
           "title": "Compound: Cryptocurrency Interest Rates with Jared Flatow"
         }
       ]

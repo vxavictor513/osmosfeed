@@ -6,6 +6,24 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/05/13/a-bootiful-podcast-axon-framework-founder-allard-buijze-on-cqrs-sagas-and-more",
+          "author": null,
+          "description": "Hi, Spring fans! In this installment Josh Long (@starbuxman)  talks to Axon founder Allard Buijze (@allardbz) about AxonIQ (@axoniq), the Axon framework, architecture patterns like CQRS and Sagas, and more.",
+          "link": "https://spring.io/blog/2021/05/13/a-bootiful-podcast-axon-framework-founder-allard-buijze-on-cqrs-sagas-and-more",
+          "publishedOn": "2021-05-13T18:30:00.000Z",
+          "wordCount": 431,
+          "title": "A Bootiful Podcast: Axon Framework Founder Allard Buijze on CQRS, Sagas, and more"
+        },
+        {
+          "id": "https://spring.io/blog/2021/05/13/automate-spring-boot-application-deployments-to-azure",
+          "author": null,
+          "description": "Today, we’re excited to announce the availability of the Azure Pipeline Task for deploying Spring Boot applications to Azure Spring Cloud. You can get started by building your pipelines using the Azure Spring Cloud task to automate Spring Boot application deployments to any number of environments and Azure Regions.\n\r\nOver the past 18 months, we worked with many enterprise customers to learn about their scenarios including thoughts on automating end-to-end from idea to provisioning Azure resources to buildin…",
+          "link": "https://spring.io/blog/2021/05/13/automate-spring-boot-application-deployments-to-azure",
+          "publishedOn": "2021-05-13T17:00:00.000Z",
+          "wordCount": 1568,
+          "title": "Automate Spring Boot application deployments to Azure!"
+        },
+        {
           "id": "https://spring.io/blog/2021/05/12/spring-hateoas-1-2-6-and-1-3-1-released",
           "author": null,
           "description": "On behalf of the Spring community I&#8217;d like to announce the availability of Spring HATEOAS 1.2.6 and 1.3.1. The releases contain general bugfixes and are scheduled for inclusion in the upcoming Spring Boot service releases.\n\r\n\r\n\r\nFind the detailed changelogs for 1.2.6 here and the one for 1.3.1 here.\n\r\n\r\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
@@ -166,24 +184,6 @@
           "publishedOn": "2021-04-16T02:51:00.000Z",
           "wordCount": 444,
           "title": "A Bootiful Podcast: Biden campaign CTO, Spinnaker cofounder, Target distinguished engineer, and all around epic guy Dan Woods"
-        },
-        {
-          "id": "https://spring.io/blog/2021/04/15/spring-boot-2-4-5-available-now",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I&rsquo;m happy to announce that Spring Boot 2.4.5 has been released and is now available from Maven Central.\n\r\nThis release includes 57 bug fixes, documentation improvements, and dependency upgrades. Thanks to all those who have contributed with issue reports and pull requests.\nHow can you help?\n\r\nIf you&rsquo;re interested in helping out, check out the &ldquo;ideal for contribution&rdquo; tag in the issue repository. If you have general questions, pl…",
-          "link": "https://spring.io/blog/2021/04/15/spring-boot-2-4-5-available-now",
-          "publishedOn": "2021-04-15T12:45:00.000Z",
-          "wordCount": 490,
-          "title": "Spring Boot 2.4.5 available now"
-        },
-        {
-          "id": "https://spring.io/blog/2021/04/15/spring-boot-2-3-10-is-now-available",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I&rsquo;m happy to announce that Spring Boot 2.3.10 has been released and is now available from Maven Central.\n\r\nThis release includes 78 bug fixes, documentation improvements, and dependency upgrades. Thanks to all those who have contributed with issue reports and pull requests.\nHow can you help?\n\r\nIf you&rsquo;re interested in helping out, check out the &ldquo;ideal for contribution&rdquo; tag in the issue repository. If you have general questions, p…",
-          "link": "https://spring.io/blog/2021/04/15/spring-boot-2-3-10-is-now-available",
-          "publishedOn": "2021-04-15T07:37:00.000Z",
-          "wordCount": 492,
-          "title": "Spring Boot 2.3.10 is now available"
         }
       ]
     },
@@ -193,12 +193,21 @@
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
         {
+          "id": "https://www.hashicorp.com/blog/building-azure-resources-with-typescript-using-the-cdk-for-terraform",
+          "author": null,
+          "description": "The CDK for Terraform is a tool used to define infrastructure using programming languages including TypeScript, Python, Java, and C#. It’s very useful for developers who want to provision with Terraform using a programming language that they’re more familiar with.\nFor this post, we'll be working with a client side app in TypeScript, with the goal of deploying the app to Microsoft Azure. If you're not experienced with HCL, or just want to manage your entire coding workflow in one language, can be useful to d…",
+          "link": "https://www.hashicorp.com/blog/building-azure-resources-with-typescript-using-the-cdk-for-terraform",
+          "publishedOn": "2021-05-13T16:00:00.000Z",
+          "wordCount": 1228,
+          "title": "Building Azure Resources with TypeScript Using the CDK for Terraform"
+        },
+        {
           "id": "https://www.hashicorp.com/blog/default-tags-in-the-terraform-aws-provider",
           "author": null,
           "description": "The HashiCorp Terraform AWS Provider contains over 700 resources to standardize your AWS infrastructure for configuration in accordance with best practices. One of the most common requests we’ve heard is for the ability to define default tags at the provider level of your Terraform configuration. We’re pleased to announce that as of v3.38.0 of the Terraform AWS provider, you are able to define default tags for all resources except Auto Scaling Groups.\n»Using Default Tags\nYou can set default tags in the prov…",
           "link": "https://www.hashicorp.com/blog/default-tags-in-the-terraform-aws-provider",
           "publishedOn": "2021-05-12T16:00:00.000Z",
-          "wordCount": 691,
+          "wordCount": 711,
           "title": "Default Tags in the Terraform AWS Provider"
         },
         {
@@ -252,7 +261,7 @@
           "description": "There are many security challenges to consider when running an infrastructure provisioning workflow based on infrastructure as code. Assessing who has access to what information at every step of the workflow should be a primary focus. For example, state files can contain information such as passwords or private keys and, in many cases, should be considered sensitive. We recommend securely storing state files remotely through a backend, like Terraform Cloud, which offers encrypted transmission and storage. H…",
           "link": "https://www.hashicorp.com/blog/announcing-controlled-remote-state-access-for-terraform-cloud-and-enterprise",
           "publishedOn": "2021-05-04T16:00:00.000Z",
-          "wordCount": 812,
+          "wordCount": 832,
           "title": "Announcing Controlled Remote State Access for Terraform Cloud and Enterprise"
         },
         {
@@ -288,7 +297,7 @@
           "description": "This guest post was written by Hannes Lenke, co-founder and CEO at Checkly, the active monitoring platform for developers.\nHashiCorp Terraform Cloud enables you to seamlessly provision infrastructure as code, consolidating configurations in source control and bringing transparency and replayability to a previously manual workflow. The same approach can be used to define the way our APIs and web apps are monitored.\nIn this blog post, you will learn how to use Terraform together with Checkly to provision your…",
           "link": "https://www.hashicorp.com/blog/monitoring-as-code-with-terraform-cloud-and-checkly",
           "publishedOn": "2021-04-29T16:00:00.000Z",
-          "wordCount": 1874,
+          "wordCount": 1894,
           "title": "Monitoring as Code with Terraform Cloud and Checkly"
         },
         {
@@ -297,7 +306,7 @@
           "description": "For our final HashiTalks 2021 highlights blog, we're showcasing HashiCorp Terraform talks — our largest group of talks. If you've been following our highlights series, we've already published our videos covering HashiCorp Vagrant, Packer, Boundary, Waypoint, Nomad, Consul, and Vault.\nTo recap: this was our largest number of HashiTalks ever. We received so many high-quality submissions this year that we decided to increase the length of the virtual livestream from 24 hours to 48 hours. More than 10,000 peopl…",
           "link": "https://www.hashicorp.com/blog/hashitalks-2021-highlights-terraform",
           "publishedOn": "2021-04-28T16:00:00.000Z",
-          "wordCount": 1735,
+          "wordCount": 1746,
           "title": "HashiTalks 2021 Highlights: Terraform"
         },
         {
@@ -315,7 +324,7 @@
           "description": "Terraform Cloud’s Business Tier offering allows you to manage resources in private data centers using self-hosted agents. The standard Terraform Cloud setup requires that any resources managed by remote execution are accessible over public internet. With agents, you can also manage infrastructure in private environments without modifying your network perimeter to allow for public ingress. The agent runs within your environment and polls Terraform Cloud for workloads to execute. It is available as both a Doc…",
           "link": "https://www.hashicorp.com/blog/new-terraform-tutorial-manage-private-environments-using-terraform-cloud-agents",
           "publishedOn": "2021-04-23T16:00:00.000Z",
-          "wordCount": 506,
+          "wordCount": 517,
           "title": "New Terraform Tutorial: Manage Private Environments using Terraform Cloud Agents"
         },
         {
@@ -362,15 +371,6 @@
           "publishedOn": "2021-04-19T20:00:00.000Z",
           "wordCount": 881,
           "title": "Announcing Consul 1.10 Beta"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/how-hirevue-uses-hashicorp-vault-enable-faster-more-secure-candidate-recruitment",
-          "author": null,
-          "description": "Recruiting high-quality talent is the front line of the battle for corporate supremacy. Organizations of all sizes and across every industry are looking for new and inventive ways to identify and hire qualified candidates before their competitors do &mdash;&nbsp;and they&rsquo;re looking to HireVue for help.\nFor nearly 15 years, the company has provided enterprises large and small, as well as government contractors and agencies, with a range of AI-powered interview scheduling, video interviewing, and skills…",
-          "link": "https://www.hashicorp.com/blog/how-hirevue-uses-hashicorp-vault-enable-faster-more-secure-candidate-recruitment",
-          "publishedOn": "2021-04-19T19:00:00.000Z",
-          "wordCount": 1141,
-          "title": "How HireVue Uses HashiCorp Vault to Enable Faster, More Secure Candidate Recruitment"
         }
       ]
     },
@@ -380,12 +380,39 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
+          "id": "https://www.elastic.co/blog/elastic-swimlane-partnership",
+          "author": "Nate Fick",
+          "description": "Today I’m happy to share more about our partnership with Swimlane, which further reinforces our commitment to empowering security teams everywhere. Today’s security teams rely on the power of Elastic’s high-speed, cloud-scale analytics to solve their most complex and pressing security issues. Swimlane’s security automation platform provides a way for these same teams to accelerate and optimize their workflows for max efficiency and to solve SOAR use cases.&nbsp; \n  \nThrough joint development of key integrat…",
+          "link": "https://www.elastic.co/blog/elastic-swimlane-partnership",
+          "publishedOn": "2021-05-13T22:04:00.000Z",
+          "wordCount": 697,
+          "title": "Elastic and Swimlane partner to deliver an extensible framework for the modern SOC"
+        },
+        {
+          "id": "https://www.elastic.co/blog/culture-owning-his-voice-no-matter-the-accent",
+          "author": "Jon Frazer",
+          "description": "An accent made Nikko Jocson’s mom stand out. An immigrant from the Philippines to the US, she spoke differently than his friends’ parents. Now a senior IT support technician, Nikko has learned that her voice helped to define his story.\n“Sometimes people teased her about her accent, but she was always so proud. She didn’t care. Her accent was her own. I have always looked for places that allow me to have my own accent as well. It hasn’t always been easy,” said Nikko.\nHe began his career in IT when he got a j…",
+          "link": "https://www.elastic.co/blog/culture-owning-his-voice-no-matter-the-accent",
+          "publishedOn": "2021-05-13T15:00:00.000Z",
+          "wordCount": 670,
+          "title": "Owning his voice, no matter the accent"
+        },
+        {
+          "id": "https://www.elastic.co/blog/overcoming-data-challenges-for-state-and-local-government-and-education-with-elastic",
+          "author": "Joe Mara",
+          "description": "With the surge of endpoints and growing demands for access to data, public sector organizations have seen an increase in security threats since the onset of the pandemic.  Against this backdrop, Elastic gathered industry leaders to learn how to manage these challenges and demands&nbsp;and build a path toward the future. The recent State and Local Government & Education ElasticON Public Sector event showcased the tech solutions that are delivering for constituents, faster. What should organizations keep&nbsp…",
+          "link": "https://www.elastic.co/blog/overcoming-data-challenges-for-state-and-local-government-and-education-with-elastic",
+          "publishedOn": "2021-05-13T14:00:00.000Z",
+          "wordCount": 1069,
+          "title": "Overcoming data challenges for state and local government and education with Elastic"
+        },
+        {
           "id": "https://www.elastic.co/blog/querying-a-petabyte-of-cloud-storage-in-10-minutes",
           "author": "Yannick Welsch,Dimitrios Liappis",
           "description": "Elastic's new frozen data tier decouples compute from storage and leverages low-cost object stores such as Google Cloud Storage, Azure Blob Storage, or Amazon S3 to directly power searches. It provides unlimited scaling of storage while preserving the ability to efficiently query the data without any need to rehydrate it first, making it easier and cheaper to manage data at scale.\n\nIn this blog post we compare search performance on the new frozen tier with the existing Elasticsearch data tiers, and we show …",
           "link": "https://www.elastic.co/blog/querying-a-petabyte-of-cloud-storage-in-10-minutes",
           "publishedOn": "2021-05-06T18:00:00.000Z",
-          "wordCount": 3397,
+          "wordCount": 3398,
           "title": "Querying a petabyte of cloud storage in 10 minutes"
         },
         {
@@ -394,7 +421,7 @@
           "description": "Elastic is committed to providing a flexible, balanced home life for our Elasticians. It’s in our Source Code. And part of that Source Code — Home, Dinner — has helped Kathy Chen, visual designer on our in-house design team, to reconnect with her mother’s cooking and her Chinese culture.\n\n“When I was a kid my mom used to make dumplings for my packed lunch,” says Kathy. “Other kids would make fun of it. At the time I was embarrassed, but now I appreciate how much effort she put into giving me those tastes of…",
           "link": "https://www.elastic.co/blog/culture-how-finding-time-for-cooking-and-culture-helps-forge-better-connections-at-work",
           "publishedOn": "2021-05-06T15:00:00.000Z",
-          "wordCount": 841,
+          "wordCount": 842,
           "title": "How finding time for cooking and culture helps forge better connections at work"
         },
         {
@@ -403,7 +430,7 @@
           "description": "After a year of accelerated change in the federal industry, the Federal Public Sector event focused on the progress you’ve made, the trends demanding your attention, and the Elastic capabilities that continue to guide federal agencies, offices, and departments towards a search-enabled future.&nbsp;\n\nWith a theme of&nbsp;Accelerate the mission. Start with search, the ElasticON US Federal event centered around some key takeaways:&nbsp;\n\nData volumes will increase regardless of the size, scape, or scope of you…",
           "link": "https://www.elastic.co/blog/perspectives-from-the-federal-public-sector-enable-mission-success-with-elastic",
           "publishedOn": "2021-05-05T18:00:00.000Z",
-          "wordCount": 1056,
+          "wordCount": 1057,
           "title": "Perspectives from the federal public sector: Enable mission success with Elastic"
         },
         {
@@ -412,7 +439,7 @@
           "description": "In a recent post we showed you how to get started with the free and open tier of Elastic Observability. Today we'll walk through what you need to do to expand your deployment so you can start gathering metrics from application performance monitoring (APM), or \"tracing\" data in your observability cluster, for free.\n\nWhat is APM?\nApplication performance monitoring lets you see where your applications spend their time, what they are doing, what other applications or services they are calling, and what errors o…",
           "link": "https://www.elastic.co/blog/adding-free-and-open-elastic-apm-as-part-of-your-elastic-observability-deployment",
           "publishedOn": "2021-05-05T14:00:00.000Z",
-          "wordCount": 2604,
+          "wordCount": 2605,
           "title": "Adding free and open Elastic APM as part of your Elastic Observability deployment"
         },
         {
@@ -421,7 +448,7 @@
           "description": "Last week we covered the essentials of event logging: Ensuring that all your systems are writing logs about the important events or activities occurring on them. This week we will cover the essentials of centrally collecting these Event Logs on a Window Event Collector (WEC) server, which then forwards all logs to Elastic Security. \n \nWEF and WEC\n \nModern versions of Windows include the Windows Remote Management (WinRM) services that implement the WS-Management (WSman) protocol, and just to add to the acron…",
           "link": "https://www.elastic.co/blog/the-essentials-of-central-log-collection-with-wef-wec",
           "publishedOn": "2021-04-29T18:00:00.000Z",
-          "wordCount": 2477,
+          "wordCount": 2478,
           "title": "The essentials of central log collection with WEF and WEC"
         },
         {
@@ -430,7 +457,7 @@
           "description": "What does a career journey into the inside sales team look like at Elastic? We talked to two of our own — Tom Wilde and Jan Kumorowicz — about moving from user success manager roles into cloud sales, and what it’s like to be at the start of a customer’s journey.\nTom Wilde, inside cloud account executive\n\nAfter about two years as a user success manager, I began to master the art of outbound sales — cold calling potential enterprise customers, working to find new leads via LinkedIn, and having proof-of-concep…",
           "link": "https://www.elastic.co/blog/culture-career-stories-tom-wilde-and-jan-kumorowicz-on-growing-their-sales-careers-with-cloud",
           "publishedOn": "2021-04-29T15:00:00.000Z",
-          "wordCount": 1114,
+          "wordCount": 1115,
           "title": "Elastic Career Stories | Tom Wilde and Jan Kumorowicz on growing their sales careers with cloud"
         },
         {
@@ -439,7 +466,7 @@
           "description": "Log exploration and analysis is a key step in troubleshooting performance issues in IT environments — from understanding application slow downs to investigating misbehaving containers. Did you get an alert that heap usage is spiking on a specific server? A quick search of the logs filtered from that host shows that cache misses started around the same time as the initial spike. Digging into the metadata (date and version) of the highlighted logs from that time period show us that this was likely due to a re…",
           "link": "https://www.elastic.co/blog/searching-logs-free-open-logs-app-kibana",
           "publishedOn": "2021-04-28T16:00:00.000Z",
-          "wordCount": 927,
+          "wordCount": 928,
           "title": "Searching through logs with the free and open Logs app in Kibana"
         },
         {
@@ -448,7 +475,7 @@
           "description": "Launched in May 2020, the Elastic for students and educators&nbsp;program provides the resources and support necessary to bring our products and solutions into classrooms around the world. Whether it’s through provisioning Elastic Cloud accounts for students to use during their course, extending access to premium features like&nbsp;machine learning to propel research, or working with universities to design partnership programs to help prepare students for their future careers, Elastic is committed to educat…",
           "link": "https://www.elastic.co/blog/elastic-for-education-how-we-support-students-and-educators",
           "publishedOn": "2021-04-28T15:00:00.000Z",
-          "wordCount": 1117,
+          "wordCount": 1118,
           "title": "Elastic for Education: How we support students and educators"
         },
         {
@@ -457,7 +484,7 @@
           "description": "Version 7.12.1 of the Elastic Stack was released today. We recommend you upgrade to this latest version.\nThe 7.12.1 patch contains fixes and small enhancements for the stack. Notable bug fixes are:\nKibana does not recognize a valid geo_shape index when attempting to create a Tracking Containment alert. (#95418\nKibana fails to update or delete sessions in non-default space (#96124\\\nFor a full list of changes for each product, please refer to the release notes:\n7.12.1 Release Notes\nElastic Stack\nElasticsearch…",
           "link": "https://www.elastic.co/blog/elastic-stack-7-12-1-released",
           "publishedOn": "2021-04-27T18:00:00.000Z",
-          "wordCount": 293,
+          "wordCount": 294,
           "title": "Elastic Stack 7.12.1 released"
         },
         {
@@ -466,7 +493,7 @@
           "description": "Hiya! With Elastic’s expansion of our Elasticsearch Service Cloud offering and automated onboarding, we’ve expanded the Elastic Stack audience from full ops teams to data engineers, security teams, and consultants. As an Elastic support rep, I’ve enjoyed interacting with more user backgrounds and with even wider use cases.&nbsp;\n\nWith a wider audience, I’m seeing more questions about managing resource allocation, in particular the mystical shard-heap ratio and avoiding circuit breakers. I get it! When I sta…",
           "link": "https://www.elastic.co/blog/managing-and-troubleshooting-elasticsearch-memory",
           "publishedOn": "2021-04-27T15:00:00.000Z",
-          "wordCount": 1788,
+          "wordCount": 1789,
           "title": "Managing and troubleshooting Elasticsearch memory"
         },
         {
@@ -475,7 +502,7 @@
           "description": "Alibaba Cloud is an important partner to us here at Elastic. We officially started our collaboration and strategic partnership with Alibaba Cloud back in 2017, when we announced the Alibaba Cloud Elasticsearch service. Since then, we’ve seen rapid adoption and growth of the service, which now supports more than 10 petabytes of data. This year, we’ve recognized Alibaba Cloud as our Ecosystem Partner of the Year to acknowledge their contributions in advocating for free and open technology and developing value…",
           "link": "https://www.elastic.co/blog/elastic-and-alibaba-cloud-reflecting-on-our-partnership-and-looking-to-the-future",
           "publishedOn": "2021-04-26T15:00:00.000Z",
-          "wordCount": 728,
+          "wordCount": 729,
           "title": "Elastic and Alibaba Cloud: Reflecting on our partnership and looking to the future"
         },
         {
@@ -484,7 +511,7 @@
           "description": "One of the most prevalent log sources in many enterprises is Windows Event Logs. Being able to collect and process these logs has a huge impact on the effectiveness of any cybersecurity team.\n\nIn this multi-part blog series, we will be looking at all things related to Windows Event Logs. We will begin our journey with audit policies and generating event logs, then move through collecting and analysing logs, and finally to building use cases such as detection rules, reports, and more.\n\nThe purpose of these i…",
           "link": "https://www.elastic.co/blog/the-essentials-of-windows-event-logging",
           "publishedOn": "2021-04-22T18:00:00.000Z",
-          "wordCount": 1343,
+          "wordCount": 1344,
           "title": "The essentials of Windows event logging"
         },
         {
@@ -493,7 +520,7 @@
           "description": "We’re pleased to announce you can now run Elastic Cloud on Microsoft Azure in the South Central US (Texas) region.\n\nElastic Cloud gives you the power of enterprise search, observability, and security in the South Central US (Texas) region of Azure. Easily search applications, websites, and workplace content platforms for information. Quickly gain deep insights into your environment by monitoring applications and uptime as well as analyzing centralized logs and metrics. You can also help protect your technol…",
           "link": "https://www.elastic.co/blog/elastic-cloud-is-now-available-on-microsoft-azure-in-south-central-us-texas",
           "publishedOn": "2021-04-22T16:00:00.000Z",
-          "wordCount": 495,
+          "wordCount": 496,
           "title": "Elastic Cloud is now available on Microsoft Azure in South Central US (Texas)"
         },
         {
@@ -502,7 +529,7 @@
           "description": "Elastic believes in giving back by supporting the communities in which we live and work and recognizing that participating in these activities can inspire and enrich our lives in unexpected ways. That’s why we offer our Elasticians volunteer time off (VTO) to foster a culture of caring.\nThe Helper Node blog series shines a light on the inspiring ways our Elasticians use their volunteer hours to help their community and the world at large. In this special Earth Day edition of the Helper Node series, we hear …",
           "link": "https://www.elastic.co/blog/culture-helper-node-series-diana-tuck-on-mycat-and-wolf-haven-international",
           "publishedOn": "2021-04-22T15:00:00.000Z",
-          "wordCount": 1077,
+          "wordCount": 1078,
           "title": "Helper Node Series | Diana Tuck on MYCAT and Wolf Haven International"
         },
         {
@@ -511,7 +538,7 @@
           "description": "Our journey with Elastic began with a search for a single monitoring platform service for all kinds of applications and infrastructure across geographies and in the cloud. Like many other organizations who use Elastic, our story does not end there.&nbsp; \n Instead, it has evolved to support new use cases and to secure us a managed security service provider partnership (MSSP) with Elastic so that we can help our own customers experience the same digital transformation success we’ve realized along the way.\n \n…",
           "link": "https://www.elastic.co/blog/how-a-customer-turned-digital-transformation-success-with-elastic-into-a-partnership-opportunity",
           "publishedOn": "2021-04-21T18:00:00.000Z",
-          "wordCount": 1051,
+          "wordCount": 1052,
           "title": "How a customer turned digital transformation success with Elastic into a partnership opportunity"
         },
         {
@@ -520,7 +547,7 @@
           "description": "Unify and contextualize your logs, metrics, application trace data, and availability data behind a single pane of glass. Elastic Observability provides a unified view into the health and performance of your entire digital ecosystem. With easy ingest of multiple kinds of data via pre-built collectors for hundreds of data sources, Elastic Observability delivers seamless integration between the facets of observability. Built-in alerting allows you to see when you're nearing your SLAs, and purpose-built applica…",
           "link": "https://www.elastic.co/blog/getting-started-with-free-and-open-elastic-observability",
           "publishedOn": "2021-04-21T15:00:00.000Z",
-          "wordCount": 3032,
+          "wordCount": 3033,
           "title": "Getting started with free and open Elastic Observability"
         },
         {
@@ -529,35 +556,8 @@
           "description": "Want to jump right into the MITRE Engenuity ATT&CK® Eval Round 3 Kibana dashboards? Skip ahead to see the results.\n\n\n\nFresh out: the latest MITRE Engenuity Evaluation\n\nWhether this is the third time you are looking at the MITRE Engenuity ATT&CK® evaluation results or your first, you may be asking yourself: what was unique about this year’s evaluation?\n\nWell, let’s first start with: who is MITRE Engenuity? They are a tech foundation that collaborates with the private sector on many initiatives — most notably…",
           "link": "https://www.elastic.co/blog/mitre-engenuity-attck-round-3-carbanak-fin7-vs-free-open-elastic-security",
           "publishedOn": "2021-04-21T00:00:00.000Z",
-          "wordCount": 1503,
+          "wordCount": 1504,
           "title": "MITRE Engenuity ATT&CK® Round 3: Carbanak + FIN7 vs. the free and open capabilities in Elastic Security"
-        },
-        {
-          "id": "https://www.elastic.co/blog/how-attackers-abuse-access-token-manipulation",
-          "author": "Will Burgess",
-          "description": "In our previous blog post on Windows access tokens for security practitioners, we covered:\n\n\n\t\nThe relationship between logon sessions and access tokens\nHow network authentication works in Windows environments\nHaving covered some of the key concepts in Windows security, we will now build on this knowledge and start to look at how attackers can abuse legitimate Windows functionality to move laterally and compromise Active Directory domains.\n\nThis blog has deliberately attempted to abstract away the workings …",
-          "link": "https://www.elastic.co/blog/how-attackers-abuse-access-token-manipulation",
-          "publishedOn": "2021-04-20T18:00:00.000Z",
-          "wordCount": 5969,
-          "title": "How attackers abuse Access Token Manipulation (ATT&CK T1134)"
-        },
-        {
-          "id": "https://www.elastic.co/blog/culture-meet-the-team-at-elastic-emea-go-to-market",
-          "author": "Elastic Culture",
-          "description": "Field Operations is an important team here at Elastic. They cover all go-to-market (GTM) functions related to customer acquisition, expansion, and retention. As a team, they think globally and act locally with teams covering every major international market.\n\nOur Europe, Middle East, and Africa (EMEA) sales team is rapidly growing, so we wanted to take a moment to highlight some of our GTM Elasticians working in the region and hear a bit about the work they do and why they value Elastic as an employer.\n\nCha…",
-          "link": "https://www.elastic.co/blog/culture-meet-the-team-at-elastic-emea-go-to-market",
-          "publishedOn": "2021-04-20T15:00:00.000Z",
-          "wordCount": 1466,
-          "title": "Meet the team @ Elastic | EMEA go-to-market"
-        },
-        {
-          "id": "https://www.elastic.co/blog/building-kibana-dashboards-more-efficiently",
-          "author": "Kent Marten,Kaarina Tungseth,Devon Thomson",
-          "description": "Creating dashboards is quicker and easier than before with a new streamlined navigation experience, now available in Kibana 7.12. This dashboard-first approach makes it simple for you to create and add visualizations without leaving your dashboard-building flow.&nbsp;\n\nGet started directly from a Kibana dashboard with a few simple steps: Select Create Panel and choose what type of visual you want to build. (In the following visual, we selected Kibana Lens.)&nbsp;Then once you’ve completed your analysis, sim…",
-          "link": "https://www.elastic.co/blog/building-kibana-dashboards-more-efficiently",
-          "publishedOn": "2021-04-15T16:00:00.000Z",
-          "wordCount": 731,
-          "title": "Building Kibana dashboards more efficiently"
         }
       ]
     },
@@ -566,6 +566,15 @@
       "feedUrl": "https://www.ansible.com/blog/rss.xml",
       "siteUrl": "https://www.ansible.com/blog",
       "articles": [
+        {
+          "id": "https://www.ansible.com/blog/getting-started-with-route-maps-resource-modules",
+          "author": "Nilashish Chakraborty",
+          "description": "Red Hat Ansible Engine v2.9 introduced the first set of Resource Modules that make network automation easier and more consistent, especially in multi-vendor environments. These network resource specific and opinionated Ansible modules help us avoid creating overly complex Jinja2 templates to render and push network configurations, thereby easing the adoption of network automation both in green and brownfield environments. The resource modules, along with the tools provided in ansible.utils, are highly focus…",
+          "link": "https://www.ansible.com/blog/getting-started-with-route-maps-resource-modules",
+          "publishedOn": "2021-05-13T13:00:00.000Z",
+          "wordCount": 4070,
+          "title": "Getting started with Route Maps Resource Modules"
+        },
         {
           "id": "https://www.ansible.com/blog/ansible-network-resource-purge-parameter",
           "author": "scavanau@redhat.com (Sean Cavanaugh)",
@@ -619,15 +628,6 @@
           "publishedOn": "2021-04-19T13:00:00.000Z",
           "wordCount": 1794,
           "title": "Automating Endpoint Protection with Ansible"
-        },
-        {
-          "id": "https://www.ansible.com/blog/certified-collection-servicenow",
-          "author": "steampunk@xlab.si (XLAB Steampunk)",
-          "description": "IT service management (ITSM) is a collection of policies and processes for the management and support of IT services. The main focus of ITSM is increasing the value of the customers’ service chain. But without the proper automation support, providing IT services can quickly become a major time-sink.",
-          "link": "https://www.ansible.com/blog/certified-collection-servicenow",
-          "publishedOn": "2021-04-14T09:00:00.000Z",
-          "wordCount": 2133,
-          "title": "Automating ServiceNow with Red Hat Ansible Automation Platform"
         }
       ]
     },
@@ -637,12 +637,21 @@
       "siteUrl": "https://devblogs.microsoft.com/devops",
       "articles": [
         {
+          "id": "https://devblogs.microsoft.com/devops/?p=61679",
+          "author": "Damian Brady",
+          "description": "In episode 2 of this series, Jay helped Abel migrate the Mercury Health application environment into Azure. So we&#8217;re in the cloud! But what about future changes? How do we get them out to customers? The answer is DevOps.\nRubbing Some DevOps on a &#8220;Legacy&#8221;\nThe post On Prem To the Cloud: Let&#8217;s Rub Some DevOps On It! (Ep 3) appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/on-prem-to-the-cloud-lets-rub-some-devops-on-it-ep-3/",
+          "publishedOn": "2021-05-13T18:00:50.000Z",
+          "wordCount": 1649,
+          "title": "On Prem To the Cloud: Let’s Rub Some DevOps On It! (Ep 3)"
+        },
+        {
           "id": "https://devblogs.microsoft.com/devops/?p=61625",
           "author": "Jay Gordon",
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It&#8217;s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific / 2 PM Eastern on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes &#8211; Microsoft Identity with Christos Matskas! appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-microsoft-identity-with-christos-matskas/",
           "publishedOn": "2021-05-11T18:00:38.000Z",
-          "wordCount": 1168,
+          "wordCount": 1158,
           "title": "AzureFunBytes – Microsoft Identity with Christos Matskas!"
         },
         {
@@ -651,7 +660,7 @@
           "description": "This month, we are releasing fixes that impact our self-hosted product, Azure DevOps Server.\nInconsistent Test Results data when using Microsoft.TeamFoundation.TestManagement.Client.\nAzure DevOps Server 2020.0.1 Patch 3\nThe post May patches for Azure DevOps Server appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/may-patches-for-azure-devops-server/",
           "publishedOn": "2021-05-11T17:49:46.000Z",
-          "wordCount": 1101,
+          "wordCount": 1118,
           "title": "May patches for Azure DevOps Server"
         },
         {
@@ -660,7 +669,7 @@
           "description": "Happy Friday everyone! This week was overflowing with awesome blog posts, and it was hard to narrow them down to just a handful! This week&#8217;s top posts cover reporting in Azure, publishing packages to Azure Pipelines, how we can create diagrams with code in Pipelines,\nThe post Top Stories from the Microsoft DevOps Community – 2021.05.07 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-05-07/",
           "publishedOn": "2021-05-07T18:49:06.000Z",
-          "wordCount": 1116,
+          "wordCount": 1120,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.05.07"
         },
         {
@@ -678,7 +687,7 @@
           "description": "Our customers have been wanting some more basic, getting started material on taking their on-prem applications and moving them to the cloud. This video series does just that. Starting with a simple on-prem solution, lifting and shifting and then slowly evolving the app through its many stages until it is a 100% cloud native app.\nThe post On-Prem To The Cloud (episode 7): Migrating to Azure SQL appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/on-prem-to-the-cloud-episode-7-migrating-to-azure-sql/",
           "publishedOn": "2021-05-04T18:00:55.000Z",
-          "wordCount": 1485,
+          "wordCount": 1512,
           "title": "On-Prem To The Cloud (episode 7): Migrating to Azure SQL"
         },
         {
@@ -687,7 +696,7 @@
           "description": "Companies are placing increasing importance on ensuring that only authorized team members are allowed to access valuable company resources on Azure DevOps. One such way they have been able to do so is through conditional access policies (CAPs) they have set in Azure Active Directory (Azure AD).\nThe post IPv6 fencing Conditional Access Policies now supported appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/ipv6-fencing-conditional-access-policies-now-supported/",
           "publishedOn": "2021-05-03T16:59:40.000Z",
-          "wordCount": 1256,
+          "wordCount": 1260,
           "title": "IPv6 fencing Conditional Access Policies now supported"
         },
         {
@@ -696,7 +705,7 @@
           "description": "Happy Friday! If you didn&#8217;t catch it, we recently ran an online event &#8211; All Around Azure: DevOps with GitHub. The recorded sessions will be posted early next week, so check it out! Until then, there&#8217;s these great community posts to take us into the weekend.\nThe post Top Stories from the Microsoft DevOps Community – 2021.04.30 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-04-30/",
           "publishedOn": "2021-04-30T15:34:05.000Z",
-          "wordCount": 1179,
+          "wordCount": 1183,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.04.30"
         },
         {
@@ -705,7 +714,7 @@
           "description": "The Azure Boards team is thrilled to announce the GA of Delivery Plans in the Azure DevOps Service!\nThe post Delivery Plans 2.0 is now GA! appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/delivery-plans-2-0-is-now-ga/",
           "publishedOn": "2021-04-30T15:17:49.000Z",
-          "wordCount": 2034,
+          "wordCount": 2144,
           "title": "Delivery Plans 2.0 is now GA!"
         },
         {
@@ -714,17 +723,8 @@
           "description": "Are you following our On-Prem to the Cloud Series via the DevOps Lab on Channel 9? If not, you should be! In this week&#8217;s episode, which falls right at number 8, we continue to build on the skills we have learned throughout each episode.\nThe post Rearchitecting for MicroServices: Featuring Windows &#038; Linux Containers appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/rearchitecting-for-microservices-featuring-windows-linux-containers/",
           "publishedOn": "2021-04-28T20:22:07.000Z",
-          "wordCount": 3105,
+          "wordCount": 3109,
           "title": "Rearchitecting for MicroServices: Featuring Windows & Linux Containers"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=61531",
-          "author": "Jay Gordon",
-          "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It&#8217;s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes &#8211; Azure Static Web Apps with Anthony Chu! appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/azurefunbytes-azure-static-web-apps-with-nthonychu/",
-          "publishedOn": "2021-04-26T18:00:49.000Z",
-          "wordCount": 1171,
-          "title": "AzureFunBytes – Azure Static Web Apps with Anthony Chu!"
         }
       ]
     },
@@ -846,6 +846,15 @@
       "siteUrl": "https://xkcd.com/",
       "articles": [
         {
+          "id": "https://xkcd.com/2462/",
+          "author": null,
+          "description": "",
+          "link": "https://xkcd.com/2462/",
+          "publishedOn": "2021-05-12T00:00:00.000Z",
+          "wordCount": 185,
+          "title": "NASA Award"
+        },
+        {
           "id": "https://xkcd.com/2461/",
           "author": null,
           "description": "",
@@ -871,15 +880,6 @@
           "publishedOn": "2021-05-05T00:00:00.000Z",
           "wordCount": 185,
           "title": "March 2020"
-        },
-        {
-          "id": "https://xkcd.com/2458/",
-          "author": null,
-          "description": "",
-          "link": "https://xkcd.com/2458/",
-          "publishedOn": "2021-05-03T00:00:00.000Z",
-          "wordCount": 185,
-          "title": "Bubble Wrap"
         }
       ]
     },
@@ -889,12 +889,21 @@
       "siteUrl": "https://softwareengineeringdaily.com/archives/",
       "articles": [
         {
+          "id": "https://softwareengineeringdaily.com/?p=10920",
+          "author": null,
+          "description": "Apache Hudi is an open-source data management framework used to simplify incremental data processing and data pipeline development. This framework more efficiently manages business requirements like data lifecycle and improves data quality. Some common use cases for Hudi is record-level insert, update, and delete, simplified file management and near real-time data access, and simplified CDC\nThe post Apache Hudi: Large Scale Data Systems with Vinoth Chandar appeared first on Software Engineering Daily.",
+          "link": "https://softwareengineeringdaily.com/2021/05/13/apache-hudi-large-scale-data-systems-with-vinoth-chandar/?utm_source=rss&utm_medium=rss&utm_campaign=apache-hudi-large-scale-data-systems-with-vinoth-chandar",
+          "publishedOn": "2021-05-13T09:00:21.000Z",
+          "wordCount": 831,
+          "title": "Apache Hudi: Large Scale Data Systems with Vinoth Chandar"
+        },
+        {
           "id": "https://softwareengineeringdaily.com/?p=10909",
           "author": null,
           "description": "An application programming interface, API for short, is the connector between 2 applications. For example, a user interface that needs user data will call an endpoint, like a special URL, with request parameters and receive the data back if the request is valid. Modern applications rely on APIs to send data back and forth to\nThe post Akita: Application Programming Interfaces with Jean Yang appeared first on Software Engineering Daily.",
           "link": "https://softwareengineeringdaily.com/2021/05/12/akita-application-programming-interfaces-with-jean-yang/?utm_source=rss&utm_medium=rss&utm_campaign=akita-application-programming-interfaces-with-jean-yang",
           "publishedOn": "2021-05-12T19:12:32.000Z",
-          "wordCount": 893,
+          "wordCount": 886,
           "title": "Akita: Application Programming Interfaces with Jean Yang"
         },
         {
@@ -903,7 +912,7 @@
           "description": "The traveling salesman problem is a classic challenge of finding the shortest and most efficient route for a person to take given a list of destinations. This is one of many real-world optimization problems that companies encounter. How should they schedule product distribution, or promote product bundles, or define sales territories? The answers to these\nThe post Nextmv: Optimization in Fluid Work Environments with Carolyn Mooney appeared first on Software Engineering Daily.",
           "link": "https://softwareengineeringdaily.com/2021/05/10/nextmv-optimization-in-fluid-work-environments-with-carolyn-mooney/?utm_source=rss&utm_medium=rss&utm_campaign=nextmv-optimization-in-fluid-work-environments-with-carolyn-mooney",
           "publishedOn": "2021-05-11T02:04:30.000Z",
-          "wordCount": 846,
+          "wordCount": 839,
           "title": "Nextmv: Optimization in Fluid Work Environments with Carolyn Mooney"
         },
         {
@@ -912,7 +921,7 @@
           "description": "Microservice architecture has become very common over the past few years because of the availability of containers and container orchestrators like Kubernetes. While containers are overall positive for scaling apps and making them more available, they’ve also introduced hurdles like persisting data and state, and container restarts or pod failures. Development teams put significant work\nThe post Temporal Product: Managing State with Ryland Goldstein appeared first on Software Engineering Daily.",
           "link": "https://softwareengineeringdaily.com/2021/05/08/temporal-product-managing-state-with-ryland-goldstein/?utm_source=rss&utm_medium=rss&utm_campaign=temporal-product-managing-state-with-ryland-goldstein",
           "publishedOn": "2021-05-08T09:00:48.000Z",
-          "wordCount": 838,
+          "wordCount": 831,
           "title": "Temporal Product: Managing State with Ryland Goldstein"
         },
         {
@@ -921,7 +930,7 @@
           "description": "Natural Language Processing (NLP) is a branch of artificial intelligence concerned with giving computers the ability to understand text and spoken words. “Understanding” includes intent, sentiment, and what’s important in the message. NLP powers things like voice-operated software, digital assistants, customer service chat bots, and many other academic, consumer and enterprise tools. The company Botpress\nThe post Botpress: Natural Language Processing with Sylvain Perron appeared first on Software Engineerin…",
           "link": "https://softwareengineeringdaily.com/2021/05/07/botpress-natural-language-processing-with-sylvain-perron/?utm_source=rss&utm_medium=rss&utm_campaign=botpress-natural-language-processing-with-sylvain-perron",
           "publishedOn": "2021-05-07T22:07:47.000Z",
-          "wordCount": 789,
+          "wordCount": 782,
           "title": "Botpress: Natural Language Processing with Sylvain Perron"
         },
         {
@@ -930,7 +939,7 @@
           "description": "In software engineering, telemetry is the data that is collected about your applications. Unlike logging, which is used in the development of apps to pinpoint errors and code flows, telemetry data includes all operational data including logs, metrics, events, traces, usage, and other analytical data. Companies usually visualize this information to troubleshoot problems and understand\nThe post New Relic: Telemetry and Intelligent Observability with Zain Asgar and Ishan Mukherjee appeared first on Software En…",
           "link": "https://softwareengineeringdaily.com/2021/05/05/new-relic-telemetry-and-intelligent-observability-with-zain-asgar-and-ishan-mukherjee/?utm_source=rss&utm_medium=rss&utm_campaign=new-relic-telemetry-and-intelligent-observability-with-zain-asgar-and-ishan-mukherjee",
           "publishedOn": "2021-05-05T23:58:41.000Z",
-          "wordCount": 876,
+          "wordCount": 869,
           "title": "New Relic: Telemetry and Intelligent Observability with Zain Asgar and Ishan Mukherjee"
         },
         {
@@ -939,7 +948,7 @@
           "description": "Cloud computing provides tools, storage, servers, and software products through the internet. Securing these resources is a constant process for companies deploying new code to their cloud environments. It’s easy to overlook security flaws because company applications are very complex and many people work together to develop them. Wyze Labs, for example, had millions of\nThe post Bridgecrew: Cloud Security with Barak Schoster appeared first on Software Engineering Daily.",
           "link": "https://softwareengineeringdaily.com/2021/04/28/bridgecrew-cloud-security-with-barak-schoster/?utm_source=rss&utm_medium=rss&utm_campaign=bridgecrew-cloud-security-with-barak-schoster",
           "publishedOn": "2021-04-28T18:51:24.000Z",
-          "wordCount": 811,
+          "wordCount": 804,
           "title": "Bridgecrew: Cloud Security with Barak Schoster"
         },
         {
@@ -948,7 +957,7 @@
           "description": "Modern applications are increasingly built as large, distributed systems. A distributed system is a program where its components are located on different machines that communicate with one another to create a single cohesive app. Components may exist as multiple instances across “nodes,” the computers hosting them, which form clusters of nodes that span across geographic\nThe post Uber Mobile Engineering: Distributed Payment Systems with Gergely Orosz appeared first on Software Engineering Daily.",
           "link": "https://softwareengineeringdaily.com/2021/04/27/uber-mobile-engineering-distributed-payment-systems-with-gergely-orosz/?utm_source=rss&utm_medium=rss&utm_campaign=uber-mobile-engineering-distributed-payment-systems-with-gergely-orosz",
           "publishedOn": "2021-04-27T21:47:23.000Z",
-          "wordCount": 846,
+          "wordCount": 839,
           "title": "Uber Mobile Engineering: Distributed Payment Systems with Gergely Orosz"
         },
         {
@@ -957,7 +966,7 @@
           "description": "Geospatial technology impacts every person who uses a smartphone, drives a car, or flies in airplanes. It refers to all of the technology used to acquire and interpret geographic information. In more advanced settings, geospatial technology is used for constructing dynamic maps, 3D visualizations, and scientific and governmental simulations.  The company Makepath specializes in geospatial\nThe post Makepath: Geospatial Technology with Brendan Collins appeared first on Software Engineering Daily.",
           "link": "https://softwareengineeringdaily.com/2021/04/26/makepath-geospatial-technology-with-brendan-collins/?utm_source=rss&utm_medium=rss&utm_campaign=makepath-geospatial-technology-with-brendan-collins",
           "publishedOn": "2021-04-26T09:00:30.000Z",
-          "wordCount": 778,
+          "wordCount": 771,
           "title": "Makepath: Geospatial Technology with Brendan Collins"
         },
         {
@@ -966,7 +975,7 @@
           "description": "Large portions of software development budgets are dedicated for testing code. A new component may take weeks to thoroughly test, and even then mistakes happen. If you consider software defects as security issues then the concern goes well beyond an application temporarily crashing. Although even minor bugs can cost companies a lot of time to\nThe post Speedscale: Automated Testing with Ken Ahrens and Matt LeRay appeared first on Software Engineering Daily.",
           "link": "https://softwareengineeringdaily.com/2021/04/23/speedscale-automated-testing-with-ken-ahrens-and-matt-leray/?utm_source=rss&utm_medium=rss&utm_campaign=speedscale-automated-testing-with-ken-ahrens-and-matt-leray",
           "publishedOn": "2021-04-23T17:05:29.000Z",
-          "wordCount": 863,
+          "wordCount": 856,
           "title": "Speedscale: Automated Testing with Ken Ahrens and Matt LeRay"
         },
         {
@@ -975,7 +984,7 @@
           "description": "Encryption algorithms provide the means to secure and transfer sensitive information by taking input and transforming it into an unreadable output. Usually a special key, or multiple keys, are needed to unscramble the information back to the original input. These algorithms power the security of everything from our cell phone lock screens to Fortune 500\nThe post Skiff: Secure Document Collaboration with Andrew Milich appeared first on Software Engineering Daily.",
           "link": "https://softwareengineeringdaily.com/2021/04/22/skiff-secure-document-collaboration-with-andrew-milich/?utm_source=rss&utm_medium=rss&utm_campaign=skiff-secure-document-collaboration-with-andrew-milich",
           "publishedOn": "2021-04-22T09:00:04.000Z",
-          "wordCount": 824,
+          "wordCount": 817,
           "title": "Skiff: Secure Document Collaboration with Andrew Milich"
         },
         {
@@ -984,7 +993,7 @@
           "description": "A liquid market enables individuals or groups to quickly buy and sell assets. Decentralized platforms can struggle to execute trades when their platform does not have much liquidity for a specific token. Newer tokens or tokens with limited supply are most often the least liquid because there might be an imbalance of buyers and sellers.\nThe post Uniswap: Creating Liquidity in DeFi with Noah Zinsmeister appeared first on Software Engineering Daily.",
           "link": "https://softwareengineeringdaily.com/2021/04/21/uniswap-creating-liquidity-in-defi-with-noah-zinsmeister/?utm_source=rss&utm_medium=rss&utm_campaign=uniswap-creating-liquidity-in-defi-with-noah-zinsmeister",
           "publishedOn": "2021-04-21T19:20:03.000Z",
-          "wordCount": 819,
+          "wordCount": 812,
           "title": "Uniswap: Creating Liquidity in DeFi with Noah Zinsmeister"
         },
         {
@@ -993,7 +1002,7 @@
           "description": "Non-fungible tokens are proofs of authenticity that are stored on a blockchain. Unlike fungible tokens, such as cryptocurrencies which are interchangeable, non-fungible tokens aren’t inherently equivalent to any other token. Because they are unique, they can be used to represent any unique asset. Their presence on a blockchain enables an NFT owner to trade the\nThe post Showtime: Crypto Art and NFTs with Alex Masmejean appeared first on Software Engineering Daily.",
           "link": "https://softwareengineeringdaily.com/2021/04/20/showtime-crypto-art-and-nfts-with-alex-masmejean/?utm_source=rss&utm_medium=rss&utm_campaign=showtime-crypto-art-and-nfts-with-alex-masmejean",
           "publishedOn": "2021-04-20T20:22:02.000Z",
-          "wordCount": 785,
+          "wordCount": 778,
           "title": "Showtime: Crypto Art and NFTs with Alex Masmejean"
         },
         {
@@ -1002,7 +1011,7 @@
           "description": "Volatility is the degree of fluctuation of something’s price. Highly volatile assets may see rapid and large price changes, while less volatile assets will maintain a steady price. This concept is important in decentralized finance because cryptocurrencies tend to be volatile assets.  The company Synthetix provides assets called Synths that provide exposure to an asset\nThe post Synthetix: Derivatives Trading in DeFi with Justin Moses appeared first on Software Engineering Daily.",
           "link": "https://softwareengineeringdaily.com/2021/04/19/synthetix-derivatives-trading-in-defi-with-justin-moses/?utm_source=rss&utm_medium=rss&utm_campaign=synthetix-derivatives-trading-in-defi-with-justin-moses",
           "publishedOn": "2021-04-19T09:00:39.000Z",
-          "wordCount": 800,
+          "wordCount": 793,
           "title": "Synthetix: Derivatives Trading in DeFi with Justin Moses"
         },
         {
@@ -1011,7 +1020,7 @@
           "description": "A decentralized exchange, usually referred to as a DEX, is a platform for exchanging cryptocurrencies. Depending on trading volume for different coins, some DEXs are more liquid than others. On the one hand you can freely swap unlisted tokens and maintain full control over your private keys and wallet information. On the other hand, without\nThe post 1inch Exchange: Decentralized Exchange Aggregation with Anton Bukov appeared first on Software Engineering Daily.",
           "link": "https://softwareengineeringdaily.com/2021/04/17/1inch-exchange-decentralized-exchange-aggregation-with-anton-bukov/?utm_source=rss&utm_medium=rss&utm_campaign=1inch-exchange-decentralized-exchange-aggregation-with-anton-bukov",
           "publishedOn": "2021-04-17T09:00:33.000Z",
-          "wordCount": 886,
+          "wordCount": 879,
           "title": "1inch Exchange: Decentralized Exchange Aggregation with Anton Bukov"
         },
         {
@@ -1020,7 +1029,7 @@
           "description": "A data warehouse is a data management system that often contains large amounts of historical data and is used for business intelligence activities like analytics. It centralizes customer data from multiple sources to be an organization’s single source of truth. Getting the data from your data warehouse into the different applications used by your organization\nThe post Census: Data Accessibility with Boris Jabes appeared first on Software Engineering Daily.",
           "link": "https://softwareengineeringdaily.com/2021/04/16/census-data-accessibility-with-boris-jabes/?utm_source=rss&utm_medium=rss&utm_campaign=census-data-accessibility-with-boris-jabes",
           "publishedOn": "2021-04-16T09:00:11.000Z",
-          "wordCount": 818,
+          "wordCount": 811,
           "title": "Census: Data Accessibility with Boris Jabes"
         },
         {
@@ -1029,17 +1038,8 @@
           "description": "IT infrastructure are the components required to operate IT environments, like networks, virtual machines or containers, an operating system, hardware, data storage, etc…. As companies build out different deployment environments with infrastructure configurations, they must maintain the different environments, replicate them, and update them. The management of infrastructure, often automated to some extent, is referred\nThe post Gold Fig Labs: Cloud Infrastructure Security with Vikrum Nijjar and Greg Soltis …",
           "link": "https://softwareengineeringdaily.com/2021/04/15/gold-fig-labs-cloud-infrastructure-security-with-vikrum-nijjar-and-greg-soltis/?utm_source=rss&utm_medium=rss&utm_campaign=gold-fig-labs-cloud-infrastructure-security-with-vikrum-nijjar-and-greg-soltis",
           "publishedOn": "2021-04-15T09:00:27.000Z",
-          "wordCount": 862,
+          "wordCount": null,
           "title": "Gold Fig Labs: Cloud Infrastructure Security with Vikrum Nijjar and Greg Soltis"
-        },
-        {
-          "id": "http://softwareengineeringdaily.com/?p=10754",
-          "author": null,
-          "description": "Decentralized applications, termed “dApps,” are applications that feel like normal apps but are actually deployed (mostly) on the Ethereum blockchain. This means dApps can’t be taken down, can’t be censored or blocked, typically use Ethereum accounts as identity, and would only experience downtime if Ethereum itself went down. There are a lot of things you\nThe post Compound: Cryptocurrency Interest Rates with Jared Flatow appeared first on Software Engineering Daily.",
-          "link": "https://softwareengineeringdaily.com/2021/04/14/compound-cryptocurrency-interest-rates-with-jared-flatow/?utm_source=rss&utm_medium=rss&utm_campaign=compound-cryptocurrency-interest-rates-with-jared-flatow",
-          "publishedOn": "2021-04-14T09:00:56.000Z",
-          "wordCount": 857,
-          "title": "Compound: Cryptocurrency Interest Rates with Jared Flatow"
         }
       ]
     }

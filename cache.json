@@ -6,6 +6,24 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/06/03/a-bootiful-podcast-jhipster-creator-and-microsoft-java-developer-advocacy-manager-julien-dubois",
+          "author": null,
+          "description": "Hi, Spring fans! In this installment Josh Long (@starbuxman) talks to JHipster creator and Microsoft Java Developer Advocacy manager Julien Dubois (@juliendubois)",
+          "link": "https://spring.io/blog/2021/06/03/a-bootiful-podcast-jhipster-creator-and-microsoft-java-developer-advocacy-manager-julien-dubois",
+          "publishedOn": "2021-06-03T08:00:00.000Z",
+          "wordCount": 423,
+          "title": "A Bootiful Podcast: JHipster creator and Microsoft Java Developer Advocacy manager Julien Dubois"
+        },
+        {
+          "id": "https://spring.io/blog/2021/06/02/wiremock-for-rsocket",
+          "author": null,
+          "description": "If you have an application that connects to an RSocket server at runtime, how do you test it? We need a way for a test to start a server and tell us where it is listening, and then we need to be able to register request and response examples (a.k.a. \"contracts\"). That’s what this project provides - it’s like Wiremock but for RSocket.\n\r\n\r\n\r\nGetting Started\n\r\n\r\n\r\nThe easiest way to use the project is as a JUnit (Jupiter) extension, e.g:\n\r\n\r\n\r\n\r\n@SpringBootTest\r\n@ExtendWith(RSocketServerExtension.class)\r\nclass SocketsApplicationTests {\r\n\t...\r\n}\n\r\n\r\n\r\n\r\nWith this extension installed the Spring Boot tests will run with an RSocket server listening on a port given by test.rsocket.server.port, so the test can connect directly to it, or (more likely) the code that it is testing will connect to it. …",
+          "link": "https://spring.io/blog/2021/06/02/wiremock-for-rsocket",
+          "publishedOn": "2021-06-02T19:52:00.000Z",
+          "wordCount": 1021,
+          "title": "\"Wiremock\" for RSocket"
+        },
+        {
           "id": "https://spring.io/blog/2021/06/01/this-week-in-spring-june-1st-2021",
           "author": null,
           "description": "Hi, Spring fans! Welcome to another installment of This Week in Spring! How’re you doing? I’m doing well! I hope you’re doing well, too. Can you believe we’ve just entered the month of June 2021? WHERE HAS THIS YEAR GONE ALREADY! It’s insane. But, the march of Spring continues, and with each passing week a ton of new stuff to talk about arrives. Let’s get into it!\n\r\n\r\n  \nIn last week’s episode of A Bootiful Podcast, I talked to Micrometer-lead Tommy Ludwig\n\r\n  \nAnnouncing the general availability of the Azure Spring Cloud Terraform provider\n\r\n  \nCool to see an Azure Spring Cloud success story in the MSBuild keynote\n\r\n  \nGet your reactive microservices to Kubernetes with Spring Boot and JHipster\n\r\n  \nMichael Coté asks on Twitter: What’s an API Gateway and why would you use it? Also, what does “business value” mean here? See the full interview with Rita Marinachi, Chris Sterling, and me to hear even more and also a how API gateways fit with service meshes.\n\r\n  \nProviding useful API error messages with Spring Boot\n\r\n  \nSpring Cloud 2020.0.3 (aka Ilford) Is Available\n\r\n  \nSpring Cloud Gateway for Kubernetes lead Chris Sterling on Redmonk\n\r\n  \nSpring Microservices Security Best Practices\n\r\n  \nSpring PetClinic Data JDBC upgraded to Java 16. Records do make a difference \n\r\n  \nCheck out this terminal application for the Spring Initializr: Spring Starter Terminal\n\r\n  \nThis is a reasonable JUnit test runner that hides the green test result logs so as to bring the errors to sharp relief\n\r\n  \nI found this old comic book about the amazing adventures of Java mascot Duke, and it is well worth a read: jcp-ec/AmazingAdventuresOfDuke.pdf at master · jcp-org/jcp-ec · GitHub\n\r\n  \nthis is an interesting blog on sending HTTP requests with WebClient",
@@ -166,24 +184,6 @@
           "publishedOn": "2021-05-14T22:07:00.000Z",
           "wordCount": 420,
           "title": "Spring LDAP 2.3.4 released"
-        },
-        {
-          "id": "https://spring.io/blog/2021/05/14/spring-data-2021-0-1-and-2020-0-9-released",
-          "author": null,
-          "description": "On behalf of the team, I’m pleased to announce the availability of the Spring Data service releases 2021.0.1 and 2020.0.9.\n\r\nBoth releases are built on top of Spring Framework 5.3.7. For your convenience, these releases can be consumed through Spring Boot 2.5.0 respective 2.4.6.\n\r\nThe service releases ship with mostly bug fixes and dependency upgrades.\n\r\nTo round things off, here are the links to the artifacts, changelogs, and documentation:\n2021.0.1\n\r\n\r\n  \nSpring Data Commons 2.5.1 - Artifacts - Javadoc - Documentation - Changelog\n\r\n  \nSpring Data JDBC 2.2.1 - Artifacts - Javadoc - Documentation - Changelog\n\r\n  \nSpring Data JPA 2.5.1 - Artifacts - Javadoc - Documentation - Changelog\n\r\n  \nSpring Data for Apache Geode 2.5.1 - Artifacts - Javadoc - Documentation - Changelog\n\r\n  \nSpring Data …",
-          "link": "https://spring.io/blog/2021/05/14/spring-data-2021-0-1-and-2020-0-9-released",
-          "publishedOn": "2021-05-14T17:38:00.000Z",
-          "wordCount": 839,
-          "title": "Spring Data 2021.0.1 and 2020.0.9 released"
-        },
-        {
-          "id": "https://spring.io/blog/2021/05/13/a-bootiful-podcast-axon-framework-founder-allard-buijze-on-cqrs-sagas-and-more",
-          "author": null,
-          "description": "Hi, Spring fans! In this installment Josh Long (@starbuxman)  talks to Axon founder Allard Buijze (@allardbz) about AxonIQ (@axoniq), the Axon framework, architecture patterns like CQRS and Sagas, and more.",
-          "link": "https://spring.io/blog/2021/05/13/a-bootiful-podcast-axon-framework-founder-allard-buijze-on-cqrs-sagas-and-more",
-          "publishedOn": "2021-05-14T01:30:00.000Z",
-          "wordCount": 431,
-          "title": "A Bootiful Podcast: Axon Framework Founder Allard Buijze on CQRS, Sagas, and more"
         }
       ]
     },
@@ -192,6 +192,15 @@
       "feedUrl": "https://www.hashicorp.com/blog/feed.xml",
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
+        {
+          "id": "https://www.hashicorp.com/blog/announcing-waypoint-0-4",
+          "author": null,
+          "description": "Waypoint 0.4 adds significant features, including mutable deployments and platform health reporting, among others.",
+          "link": "https://www.hashicorp.com/blog/announcing-waypoint-0-4",
+          "publishedOn": "2021-06-03T19:00:00.000Z",
+          "wordCount": 1007,
+          "title": "Announcing HashiCorp Waypoint 0.4"
+        },
         {
           "id": "https://www.hashicorp.com/blog/new-terraform-tutorials-on-hashicorp-learn",
           "author": null,
@@ -261,7 +270,7 @@
           "description": "Waypoint runners perform builds, deployments, poll for Git repository changes, and allow deployments for any platform.",
           "link": "https://www.hashicorp.com/blog/using-waypoint-runners-to-enable-gitops-workflows",
           "publishedOn": "2021-05-24T17:00:00.000Z",
-          "wordCount": 903,
+          "wordCount": 891,
           "title": "Using Waypoint Runners To Enable GitOps Workflows"
         },
         {
@@ -362,15 +371,6 @@
           "publishedOn": "2021-05-05T15:00:00.000Z",
           "wordCount": 2980,
           "title": "Retrieve HashiCorp Vault Secrets with Kubernetes CSI"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/managing-resources-for-workloads-with-nomad-1-1",
-          "author": null,
-          "description": "HashiCorp Nomad 1.1 introduces new resource control features to improve efficiency, including memory oversubscription, reserved CPU cores, and improved UI visibility into resource utilization.",
-          "link": "https://www.hashicorp.com/blog/managing-resources-for-workloads-with-nomad-1-1",
-          "publishedOn": "2021-05-04T18:00:00.000Z",
-          "wordCount": 1101,
-          "title": "Managing Resources for Workloads with Nomad 1.1"
         }
       ]
     },
@@ -379,6 +379,24 @@
       "feedUrl": "https://www.elastic.co/blog/feed",
       "siteUrl": "https://www.elastic.co",
       "articles": [
+        {
+          "id": "https://www.elastic.co/blog/how-to-use-transforms-to-track-your-most-recent-customer-orders",
+          "author": "Przemysław Witek",
+          "description": "Creating an entity-centric index that contains only the latest document for each entity can be useful in a number of situations. For example, maybe you're managing an ecommerce site and you want to track the latest order placed by each of your customers. Or maybe you want to run a campaign targeting customers who haven't been active over a certain period. What's the fastest and most efficient way to compile and organize such data?\n\nTransforms in Elasticsearch enable you to create and maintain an entity-centric index based on the event index and a transforming function. Until recently, the only possible function was pivot, which is a continuous group-by plus aggregations. In version 7.12, we’ve added one more transforming function, called latest. It transforms a source index into a destinat…",
+          "link": "https://www.elastic.co/blog/how-to-use-transforms-to-track-your-most-recent-customer-orders",
+          "publishedOn": "2021-06-03T18:00:00.000Z",
+          "wordCount": 1257,
+          "title": "How to use transforms to track your most recent customer orders"
+        },
+        {
+          "id": "https://www.elastic.co/blog/elastic-license-update",
+          "author": "Steve Kearns",
+          "description": "In January 2021, we announced that starting with version 7.11, we would be changing the Apache 2.0 portions of Elasticsearch and Kibana source code to be dual licensed under Elastic License and SSPL, at the users’ discretion. As part of that change, we created Elastic License 2.0 (ELv2) as a permissive,  fair-code license, which allows free use, redistribution, modification, and derivative works, with only three simple limitations, outlined in our original announcement.  \n  \n We've been happy to see the level of community support for this change.  While we would have preferred to collaborate with Amazon, we're glad that with their fork and commitment to rename the Amazon Elasticsearch Service, it means that they will no longer be the cause of confusion in the Elasticsearch and Kibana commu…",
+          "link": "https://www.elastic.co/blog/elastic-license-update",
+          "publishedOn": "2021-06-03T15:00:00.000Z",
+          "wordCount": 719,
+          "title": "Elastic License Update"
+        },
         {
           "id": "https://www.elastic.co/blog/cerner-depends-on-elastic-machine-learning-for-a-healthy-infrastructure",
           "author": "David Kravets",
@@ -540,24 +558,6 @@
           "publishedOn": "2021-05-20T06:00:00.000Z",
           "wordCount": 759,
           "title": "Why accessibility matters to someone like me"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-common-schema-the-journey-so-far",
-          "author": "Jamie Hynds",
-          "description": "It has been just over two years since we introduced the Elastic Common Schema (ECS), and what a journey it’s been. From categorization fields to request for comments to Threat Intelligence fields, ECS has evolved rapidly over the course of the last two years. In this blog post, I would like to reflect on the ECS journey so far, and look towards the future of ECS. \n You may by now be well experienced with ECS as a specification that provides a consistent and customizable way to structure your data in Elasticsearch, facilitating the analysis of data from diverse sources. With ECS, analytics content such as dashboards and machine learning jobs can be applied more broadly, searches can be crafted more narrowly, and field names are easier to remember. \n Back in 2019, ECS 1.0 started out with 27…",
-          "link": "https://www.elastic.co/blog/elastic-common-schema-the-journey-so-far",
-          "publishedOn": "2021-05-19T18:00:00.000Z",
-          "wordCount": 1297,
-          "title": "Elastic Common Schema: The journey so far"
-        },
-        {
-          "id": "https://www.elastic.co/blog/problemchild-detecting-living-off-the-land-attacks",
-          "author": "Apoorva Joshi,Disha Dasgupta,Craig Chamberlain",
-          "description": "When it comes to malware attacks, one of the more common techniques is “living off the land” (LOtL). Utilizing standard tools or features that already exist in the target environment allows these attacks to blend into the environment and avoid detection. While these techniques can appear normal in isolation, they start looking suspicious when observed in the parent-child context. This is where the ProblemChild framework can help. \n\nIn this blog, we will talk about how you can use Elastic machine learning to create your own ProblemChild framework to detect LOtL activity in Windows process event data (we will be referring to Windows process events as just “events” throughout this blog). We will talk in detail about the following:\n\nExtracting features from event metadata\nTraining a supervised…",
-          "link": "https://www.elastic.co/blog/problemchild-detecting-living-off-the-land-attacks",
-          "publishedOn": "2021-05-18T18:00:00.000Z",
-          "wordCount": 3206,
-          "title": "ProblemChild: Detecting living-off-the-land attacks using the Elastic Stack"
         }
       ]
     },
@@ -601,15 +601,6 @@
           "publishedOn": "2021-05-10T13:00:00.000Z",
           "wordCount": 1413,
           "title": "Ansible Network Resource Purge parameter"
-        },
-        {
-          "id": "https://www.ansible.com/blog/monitoring-as-code-with-sensu-ansible",
-          "author": "jef@sensu.io (Jef Spaleta)",
-          "description": "A comprehensive infrastructure as code (IaC) initiative should include monitoring and observability. Incorporating the active monitoring of the infrastructure under management results in a symbiotic relationship in which failures are detected automatically, enabling event-driven code changes and new deployments.",
-          "link": "https://www.ansible.com/blog/monitoring-as-code-with-sensu-ansible",
-          "publishedOn": "2021-05-05T13:00:00.000Z",
-          "wordCount": 3105,
-          "title": "Monitoring as code with Sensu + Ansible"
         }
       ]
     },
@@ -633,7 +624,7 @@
           "description": "Happy Friday, DevOps Friends!  Hope you had a great Microsoft Build, I know I did.  I really enjoyed a lot of the great sessions, Ask The Experts, and of course keynotes that were broadcast throughout the week.  One of my favorite sessions was Ask the Experts: Infra as Code –\nThe post Top Stories from the Microsoft DevOps Community – 2021.05.28 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-05-28/",
           "publishedOn": "2021-05-28T17:53:58.000Z",
-          "wordCount": 1149,
+          "wordCount": 1168,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.05.28"
         },
         {
@@ -651,7 +642,7 @@
           "description": "Today, we released Azure DevOps Server 2020.1 RTW. This is our final release of Azure DevOps Server 2020.1. You can upgrade from Azure DevOps Server 2020.1 RC or previous versions of TFS and Azure DevOps. You can find the full details in our release notes.\nThe post Now available: Azure DevOps Server 2020.1 RTW appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/now-available-azure-devops-server-2020-1-rtw/",
           "publishedOn": "2021-05-25T17:50:52.000Z",
-          "wordCount": 1032,
+          "wordCount": 1090,
           "title": "Now available: Azure DevOps Server 2020.1 RTW"
         },
         {
@@ -721,6 +712,15 @@
       "feedUrl": "http://feeds.feedburner.com/AmazonWebServicesBlog",
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
+        {
+          "id": "7abd88a50e7ca1187d62163688b6b675525deccb",
+          "author": "Ross Barich",
+          "description": "We at AWS continue to be impressed by the passion AWS enthusiasts have for knowledge sharing and supporting peer-to-peer learning in tech communities. A select few of the most influential and active community leaders in the world, who truly go above and beyond to create content and help others build better & faster on AWS, […]",
+          "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/gyB86BhvmFk/",
+          "publishedOn": "2021-06-03T18:24:06.000Z",
+          "wordCount": 1916,
+          "title": "Introducing the newest AWS Heroes – June, 2021"
+        },
         {
           "id": "a2bd2230a3cfaa594dc21e5b83c47a560eb39bf2",
           "author": "Marcia Villalba",
@@ -870,6 +870,23 @@
       "feedUrl": "https://softwareengineeringdaily.com/feed/podcast/",
       "siteUrl": "https://softwareengineeringdaily.com/archives/",
       "articles": [
+        {
+          "id": "https://softwareengineeringdaily.com/?p=11027",
+          "author": null,
+          "description": "Next week Corey Quinn will be guest hosting on Software Engineering Daily, presenting a Tour of the Cloud. Corey Quinn is the Chief Cloud Economist at The Duckbill Group, where he helps companies fix their AWS bill by making it smaller and less horrifying. If you’re looking to lower your AWS bill or negotiate a\nThe post Special Edition Repeat: AWS Analysis with Corey Quinn appeared first on Software Engineering Daily.",
+          "link": "https://softwareengineeringdaily.com/2021/06/03/special-edition-repeat-aws-analysis-with-corey-quinn/?utm_source=rss&utm_medium=rss&utm_campaign=special-edition-repeat-aws-analysis-with-corey-quinn",
+          "publishedOn": "2021-06-03T09:00:26.000Z",
+          "wordCount": null,
+          "title": "Special Edition Repeat: AWS Analysis with Corey Quinn",
+          "itunes": {
+            "duration": "1:06:18"
+          },
+          "enclosure": {
+            "url": "https://traffic.megaphone.fm/SED4087672822.mp3",
+            "length": "63691355",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "https://softwareengineeringdaily.com/?p=11011",
           "author": null,
@@ -1203,7 +1220,7 @@
           "description": "How do we make government tech work better for our citizens and our stakeholders? \nThe post Process Automation in Government: Challenges, Benefits, Best Practices appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/05/process-automation-in-government-challenges-benefits-best-practices/",
           "publishedOn": "2021-05-28T10:33:27.000Z",
-          "wordCount": 2089,
+          "wordCount": 2088,
           "title": "Process Automation in Government: Challenges, Benefits, Best Practices"
         },
         {
@@ -1248,7 +1265,7 @@
           "description": "Are you using a business process management (BPM) suite such as IBM Business Process Manager, Pega, Appian, jBPM, or Bonitasoft? If so, do any of these problems sound familiar? The software was hard to install, and we need specialized knowledge to maintain it We haven’t been able to fully integrate the software with other parts of our tech stack It’s hard to find developers who know how to make the software do what we need it to do Our developers have to work around the software’s technical or functional limitations These problems stem from the fact that many BPM suites are built on a closed architecture and take a proprietary approach to application development and process automation. That’s not just...\nThe post Why You’re Struggling with Your BPM Suite appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/05/why-youre-struggling-with-your-bpm-suite/",
           "publishedOn": "2021-05-17T12:17:15.000Z",
-          "wordCount": 2098,
+          "wordCount": 2099,
           "title": "Why You’re Struggling with Your BPM Suite"
         },
         {
@@ -1257,7 +1274,7 @@
           "description": "The Camunda Nation podcast is live. Hear all about Camunda Cloud going GA with the release of Camunda Cloud 1.0.\nThe post Camunda Cloud: Podcast Edition appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/05/camunda-cloud-podcast-edition/",
           "publishedOn": "2021-05-13T10:00:00.000Z",
-          "wordCount": 1488,
+          "wordCount": 1487,
           "title": "Camunda Cloud: Podcast Edition"
         },
         {
@@ -1275,7 +1292,7 @@
           "description": "We’re excited to announce the release of Camunda Cloud 1.0. Camunda Cloud 1.0 is a significant milestone for the product as well as for Camunda. Read in more detail what Daniel Meyer, CTO of Camunda, has to say about this release. We have run an extensive beta program for Camunda Cloud including Zeebe 0.26 as well as an early-access program. We’ve improved the product over this time with input from customers and are now ready to take the next step and make Camunda Cloud generally available. If you’re interested in trying out Camunda Cloud – Sign up here for a free 30-day trial. The remainder of this blog post will focus on the highlights of Camunda Cloud 1.0.The release notes can be found on GitHub. Camunda...\nThe post Camunda Cloud 1.0 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/05/camunda-cloud-10-released/",
           "publishedOn": "2021-05-11T13:00:00.000Z",
-          "wordCount": 3301,
+          "wordCount": 3302,
           "title": "Camunda Cloud 1.0 Released"
         }
       ]

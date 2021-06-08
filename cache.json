@@ -353,6 +353,24 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
+          "id": "https://www.elastic.co/blog/protecting-windows-protected-processes",
+          "author": "Gabriel Landau",
+          "description": "This quick blog is the first in a two-part series discussing a userland Windows exploit initially disclosed by James Forshaw and Alex Ionescu. The exploit enables attackers to perform highly privileged actions that typically require a kernel driver.\n\nProtected process light\nWindows 8.1 introduced the concept of Protected Process Light (PPL), which enables specially-signed programs to run in such a way that they are immune from tampering and termination, even by administrative users. The goal is to keep malware from running amok — tampering with critical system processes and terminating anti-malware applications. There is a hierarchy of PPL “levels,” with higher-privilege ones immune from tampering by lower-privilege ones, but not vice-versa. \n\nFor more information on PPL processes, please …",
+          "link": "https://www.elastic.co/blog/protecting-windows-protected-processes",
+          "publishedOn": "2021-06-07T18:00:00.000Z",
+          "wordCount": 905,
+          "title": "Protecting Windows protected processes"
+        },
+        {
+          "id": "https://www.elastic.co/blog/culture-pride-at-elastic-feeling-seen-and-safe-as-a-trans-woman",
+          "author": "Elastic Culture",
+          "description": "We all want to work for a company where we fit in. That’s why Elastic built a Source Code that encourages all to come as they are. In this Pride blog series, we highlight LGBTQIA+ Elasticians who have a unique story — one, perhaps, just as unique as yours.\n\nWe asked Kiley Davidson, IT Systems Engineer, to talk about her experience and share how Elastic’s culture allowed her to come out at work and thrive as a trans woman.\n \nHow did you know that Elastic was a safe place for you when you joined in 2018?\n\nWhen I joined Elastic in April of 2018, I knew I was trans, but wasn’t out to anyone but my wife and therapist. Even after starting my transition later that year, the idea of coming out at work was utterly terrifying: considering what often happens when transgender people transition at work…",
+          "link": "https://www.elastic.co/blog/culture-pride-at-elastic-feeling-seen-and-safe-as-a-trans-woman",
+          "publishedOn": "2021-06-07T15:00:00.000Z",
+          "wordCount": 1357,
+          "title": "Pride @ Elastic | Feeling seen and safe as a trans woman"
+        },
+        {
           "id": "https://www.elastic.co/blog/how-to-use-transforms-to-track-your-most-recent-customer-orders",
           "author": "Przemysław Witek",
           "description": "Creating an entity-centric index that contains only the latest document for each entity can be useful in a number of situations. For example, maybe you're managing an ecommerce site and you want to track the latest order placed by each of your customers. Or maybe you want to run a campaign targeting customers who haven't been active over a certain period. What's the fastest and most efficient way to compile and organize such data?\n\nTransforms in Elasticsearch enable you to create and maintain an entity-centric index based on the event index and a transforming function. Until recently, the only possible function was pivot, which is a continuous group-by plus aggregations. In version 7.12, we’ve added one more transforming function, called latest. It transforms a source index into a destinat…",
@@ -394,7 +412,7 @@
           "description": "In our last episode, I wrote about some speed improvements to date_histogram and I was beside myself with excitement to see if I could apply the same principles to other aggregations. I've spent most of the past few months playing a small part developing runtime fields but eventually I found time to take a look at the terms aggregation.\n \nIt's time for terms!\n\nWith the date_histogram aggregation we got a huge performance boost by rewriting it as a filters aggregation internally. Rewriting terms as filters has more mixed results. I often saw a wonderful speed up (454ms -> 131ms). Check the linked PR for more about \"often\". But now that we've rewritten the agg as filters, we can do much better! \n\nWe landed another optimization that I'm really excited about. It's such a great shortcut it feel…",
           "link": "https://www.elastic.co/blog/new-in-elasticsearch-7-13-even-faster-aggregations",
           "publishedOn": "2021-06-02T15:00:00.000Z",
-          "wordCount": 1152,
+          "wordCount": 1150,
           "title": "New in Elasticsearch 7.13: Even faster aggregations"
         },
         {
@@ -513,24 +531,6 @@
           "publishedOn": "2021-05-25T19:00:00.000Z",
           "wordCount": 1563,
           "title": "How to deploy and manage Elastic on Microsoft Azure"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-stack-6-8-16-released",
-          "author": "Ioana Tagirta",
-          "description": "Version 6.8.16 of the Elastic Stack was released today. We recommend you upgrade to this latest version.\nThe 6.8.16 patch contains fixes and small enhancements for the stack. \nFor a full list of changes for each product, please refer to the release notes:\n6.8.16 Release Notes\nElasticsearch\nKibana\nBeats\nLogstash",
-          "link": "https://www.elastic.co/blog/elastic-stack-6-8-16-released",
-          "publishedOn": "2021-05-25T19:00:00.000Z",
-          "wordCount": 260,
-          "title": "Elastic Stack 6.8.16 released"
-        },
-        {
-          "id": "https://www.elastic.co/blog/culture-why-accessibility-matters-to-someone-like-me",
-          "author": "Elastic Culture",
-          "description": "We all want to work for a company where we fit in. That’s why Elastic built a Source Code that encourages all to come as they are. In the Someone Like Me blog series, we highlight Elasticians who have a unique story — one, perhaps, just as unique as yours.\n\nIn this edition we revisit Bill McConaghy, senior manager of software engineering on Kibana, to talk about his experience with Elastic’s Accessibility Working Group, an employee resource and equity-seeking team that works to create and develop a disability inclusive workplace at Elastic.\n\nLast year we talked to you about the recently formed Accessibility Working Group, and the work they were planning to make Elastic more accessible. What has the group been able to accomplish?\n\nI’m proudest of the work we’ve accomplished with the recruit…",
-          "link": "https://www.elastic.co/blog/culture-why-accessibility-matters-to-someone-like-me",
-          "publishedOn": "2021-05-20T06:00:00.000Z",
-          "wordCount": 759,
-          "title": "Why accessibility matters to someone like me"
         }
       ]
     },
@@ -597,7 +597,7 @@
           "description": "Happy Friday, DevOps Friends!  Hope you had a great Microsoft Build, I know I did.  I really enjoyed a lot of the great sessions, Ask The Experts, and of course keynotes that were broadcast throughout the week.  One of my favorite sessions was Ask the Experts: Infra as Code –\nThe post Top Stories from the Microsoft DevOps Community – 2021.05.28 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-05-28/",
           "publishedOn": "2021-05-28T17:53:58.000Z",
-          "wordCount": 1168,
+          "wordCount": 1149,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.05.28"
         },
         {
@@ -642,7 +642,7 @@
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes – Demystifying Helm with @DonovanBrown appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-demystifying-helm-with-donovanbrown/",
           "publishedOn": "2021-05-18T18:00:43.000Z",
-          "wordCount": 1265,
+          "wordCount": 1267,
           "title": "AzureFunBytes – Demystifying Helm with @DonovanBrown"
         },
         {
@@ -660,7 +660,7 @@
           "description": "In episode 2 of this series, Jay helped Abel migrate the Mercury Health application environment into Azure. So we’re in the cloud! But what about future changes? How do we get them out to customers? The answer is DevOps.\nRubbing Some DevOps on a “Legacy”\nThe post On Prem To the Cloud: Let’s Rub Some DevOps On It! (Ep 3) appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/on-prem-to-the-cloud-lets-rub-some-devops-on-it-ep-3/",
           "publishedOn": "2021-05-13T18:00:50.000Z",
-          "wordCount": 1677,
+          "wordCount": 1679,
           "title": "On Prem To the Cloud: Let’s Rub Some DevOps On It! (Ep 3)"
         },
         {
@@ -669,7 +669,7 @@
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific / 2 PM Eastern on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes – Microsoft Identity with Christos Matskas! appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-microsoft-identity-with-christos-matskas/",
           "publishedOn": "2021-05-11T18:00:38.000Z",
-          "wordCount": 1168,
+          "wordCount": 1170,
           "title": "AzureFunBytes – Microsoft Identity with Christos Matskas!"
         }
       ]
@@ -685,6 +685,15 @@
       "feedUrl": "http://feeds.feedburner.com/AmazonWebServicesBlog",
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
+        {
+          "id": "26697c1bef85d014c81418b796139fe7d1cc07af",
+          "author": "Jeff Barr",
+          "description": "I made my first trip to China in late 2008. I was able to speak to developers and entrepreneurs and to get a sense of the then-nascent market for cloud computing. With over 900 million Internet users as of 2020 (according to a recent report from China Internet Network Information Center), China now has the […]",
+          "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/GU_WAN0eq7s/",
+          "publishedOn": "2021-06-07T23:54:52.000Z",
+          "wordCount": 1235,
+          "title": "Now Open Third Availability Zone in the AWS China (Beijing) Region"
+        },
         {
           "id": "7abd88a50e7ca1187d62163688b6b675525deccb",
           "author": "Ross Barich",
@@ -727,7 +736,7 @@
           "description": "The best way to get timely insights and react quickly to new information you receive from your business and your applications is to analyze streaming data. This is data that must usually be processed sequentially and incrementally on a record-by-record basis or over sliding time windows, and can be used for a variety of analytics […]",
           "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/1k3SgVOc2Ag/",
           "publishedOn": "2021-05-27T16:25:11.000Z",
-          "wordCount": 2453,
+          "wordCount": 2506,
           "title": "Introducing Amazon Kinesis Data Analytics Studio – Quickly Interact with Streaming Data Using SQL, Python, or Scala"
         },
         {
@@ -843,6 +852,23 @@
       "feedUrl": "https://softwareengineeringdaily.com/feed/podcast/",
       "siteUrl": "https://softwareengineeringdaily.com/archives/",
       "articles": [
+        {
+          "id": "https://softwareengineeringdaily.com/?p=11042",
+          "author": null,
+          "description": "Corey Quinn is guest hosting on Software Engineering Daily this week, presenting a Tour of the Cloud. Corey Quinn is the Chief Cloud Economist at The Duckbill Group, where he helps companies fix their AWS bill by making it smaller and less horrifying. If you’re looking to lower your AWS bill or negotiate a new\nThe post AWS with Pete Cheslock appeared first on Software Engineering Daily.",
+          "link": "https://softwareengineeringdaily.com/2021/06/07/aws-with-pete-cheslock/?utm_source=rss&utm_medium=rss&utm_campaign=aws-with-pete-cheslock",
+          "publishedOn": "2021-06-07T16:51:00.000Z",
+          "wordCount": null,
+          "title": "AWS with Pete Cheslock",
+          "itunes": {
+            "duration": "50:10"
+          },
+          "enclosure": {
+            "url": "https://traffic.megaphone.fm/SED6941410192.mp3",
+            "length": "48206233",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "https://softwareengineeringdaily.com/?p=11012",
           "author": null,
@@ -1186,7 +1212,7 @@
           "description": "When working with Cloud Native applications on top of Kubernetes, you might need to make some tough decisions about where to run the services and infrastructure that your applications need, which will directly impact your maintenance costs.\nThe post Camunda Cloud Zeebe K8s Operator appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/05/camunda-cloud-zeebe-k8s-operator/",
           "publishedOn": "2021-05-20T10:03:00.000Z",
-          "wordCount": 2797,
+          "wordCount": 2798,
           "title": "Camunda Cloud Zeebe K8s Operator"
         },
         {
@@ -1195,7 +1221,7 @@
           "description": "Camunda Platform Run, or Camunda Run for short, is a lightweight distribution of Camunda Platform that works straight out-of-the-box and comes pre-configured for production environments. Camunda Run is an excellent option if you’re just getting started with Camunda, or if you’re ready to use Camunda Platform in production. You can download the open-source Community Edition for free, and easily upgrade to the Enterprise Edition to access more features and support options. After you download and extract Camunda Run, you’ll find a configuration folder that contains a file called production.yml. The properties defined in this file are important for production environments and are derived from our guide to securing your Camunda Platform installation. To start Camunda Run with the production.yml configuration,...\nThe post What You Should Know About Using Camunda Platform Run in Production appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/05/what-you-should-know-about-using-camunda-platform-run-in-production/",
           "publishedOn": "2021-05-19T07:00:00.000Z",
-          "wordCount": 2111,
+          "wordCount": 2112,
           "title": "What You Should Know About Using Camunda Platform Run in Production"
         },
         {
@@ -1222,7 +1248,7 @@
           "description": "At Camunda, we have always pushed ourselves to innovate in the field of Process Automation. From our early days as a lightweight Java project, we’ve relentlessly innovated — engineering an end-to-end Process Automation tech stack that has helped organizations across the globe automate mission-critical processes. But innovation never stops and organizations continue to look for new ways to increase the velocity of business transformation. To address this need, more and more organizations are turning to the cloud, which is increasingly becoming a business transformation accelerator.  That being said, as enterprise applications are being built entirely in the cloud, organizations are struggling with automating processes across multiple systems, people, and devices in an end-to-end manner. These processes often include modern components...\nThe post Introducing Camunda Cloud – Industry-First Process Automation as a Service appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/05/relentless-innovation-introducing-camunda-cloud-10/",
           "publishedOn": "2021-05-11T13:00:00.000Z",
-          "wordCount": 2266,
+          "wordCount": 2267,
           "title": "Introducing Camunda Cloud – Industry-First Process Automation as a Service"
         },
         {
@@ -1269,16 +1295,6 @@
           "publishedOn": "2021-05-22T14:00:00.000Z",
           "wordCount": null,
           "title": "What is Observability",
-          "itunes": {}
-        },
-        {
-          "id": "http://www.brendangregg.com/blog/2021-05-09/poor-disk-performance.html",
-          "author": null,
-          "description": "People often tell me they don't understand performance tool output because they can't tell what's \"good\" or \"bad.\" It can be hard as performance is subjective. What's good for one user may be bad for another. There are also cases where I can't tell either: The tools only provide clues for further analysis.",
-          "link": "http://www.brendangregg.com/blog/2021-05-09/poor-disk-performance.html",
-          "publishedOn": "2021-05-08T14:00:00.000Z",
-          "wordCount": null,
-          "title": "Poor Disk Performance",
           "itunes": {}
         }
       ]

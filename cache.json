@@ -6,6 +6,15 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/06/14/spring-native-0-10-0-available-now",
+          "author": null,
+          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Native 0.10.0 has been released. It is based on Spring Boot 2.5 and GraalVM 21.1.\n\r\n\r\n\r\nThis release is packed with features, highlights include:\n\r\n\r\n\r\n\r\n\r\nIntroduction of native testing.\n\r\n\r\n\r\nA new official Gradle plugin from the GraalVM team.\n\r\n\r\n\r\nIntroduction of ahead-of-time proxies usable on classes.\n\r\n\r\n\r\n\r\n\r\nIt also includes 43 bug fixes, documentation improvements, and dependency upgrades. Thanks to all those who have contributed with issue reports and pull requests.\n\r\n\r\n\r\nJosh Long has crafted a great video to present those new features, so check this out:\n\r\n\r\n\r\n\r\nNative testing and Gradle plugin\n\r\n\r\n\r\nWe have been collaborating with the GraalVM team on bringing native image to the next lev…",
+          "link": "https://spring.io/blog/2021/06/14/spring-native-0-10-0-available-now",
+          "publishedOn": "2021-06-14T15:11:00.000Z",
+          "wordCount": 936,
+          "title": "Spring Native 0.10.0 available now"
+        },
+        {
           "id": "https://spring.io/blog/2021/06/10/a-bootiful-podcast-redgate-technical-lead-for-the-flyway-team-mikiel-agutu-on-database-migrations-and-continuous-delivery",
           "author": null,
           "description": "Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks to Mikiel Agutu, technical lead for the Flyway team at Redgate software about database migrations and continuous delivery.",
@@ -175,15 +184,6 @@
           "publishedOn": "2021-05-20T07:00:00.000Z",
           "wordCount": 555,
           "title": "Spring Web Services 3.1.1 is out!"
-        },
-        {
-          "id": "https://spring.io/blog/2021/05/19/spring-batch-4-2-7-and-4-3-3-are-out",
-          "author": null,
-          "description": "On behalf of the team and everyone who contributed, I am pleased to announce that Spring Batch 4.2.7 and 4.3.3 have been released and are available now from Maven Central repository. These patch releases come with a number of bug fixes, improvements and dependency updates. You can find the complete change logs here: 4.2.7 and 4.3.3.\n\r\nI would like to thank all contributors who had a role in these releases!\n\r\nSpring Batch Home | Source on GitHub | Reference Documentation",
-          "link": "https://spring.io/blog/2021/05/19/spring-batch-4-2-7-and-4-3-3-are-out",
-          "publishedOn": "2021-05-19T21:24:00.000Z",
-          "wordCount": 470,
-          "title": "Spring Batch 4.2.7 and 4.3.3 are out!"
         }
       ]
     },
@@ -362,6 +362,24 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
+          "id": "https://www.elastic.co/blog/adversary-emulation-with-prelude-operator-and-elastic-security",
+          "author": "James Spiteri,Prelude Team",
+          "description": "It’s no secret that organisations are up against skilled, relentless and determined adversaries. Security operations teams need to continuously test their detection capabilities by carrying out adversary emulation plans that are made up of varying tactics, techniques and procedures  (TTPs) and track key metrics of their coverage in order to close any existing gaps.\n\nThere are many tools available for running adversary emulation plans and performing purple team exercises. This blog will focus on how teams can use Prelude Operator in conjunction with Elastic Security.\n\nAt Elastic, we’ve been working closely with the team at Prelude as we have a very similar mission — we want to help security teams of all skill levels, arming all analysts and red teams alike. We want to protect the world’s da…",
+          "link": "https://www.elastic.co/blog/adversary-emulation-with-prelude-operator-and-elastic-security",
+          "publishedOn": "2021-06-14T18:00:00.000Z",
+          "wordCount": 1530,
+          "title": "Adversary emulation with Prelude Operator and Elastic Security"
+        },
+        {
+          "id": "https://www.elastic.co/blog/elastic-stack-7-13-2-released",
+          "author": "Tyler Smalley",
+          "description": "Elastic Stack 7.13.2 has been released. Read about the updates and bug fixes that have been included in Elasticsearch, Kibana, Beats, Logstash, Workplace Search, App Search, APM, Logs, Metrics, Uptime, SIEM, and Endpoint Security.",
+          "link": "https://www.elastic.co/blog/elastic-stack-7-13-2-released",
+          "publishedOn": "2021-06-14T07:30:00.000Z",
+          "wordCount": 300,
+          "title": "Elastic Stack 7.13.2 released"
+        },
+        {
           "id": "https://www.elastic.co/blog/how-to-configure-elastic-cloud-on-kubernetes-with-saml-and-hot-warm-cold-architecture",
           "author": "Francismara Souza",
           "description": "Elastic Cloud on Kubernetes (ECK) is an easy way to get the Elastic Stack up and running on top of Kubernetes. That’s because ECK automates the deployment, provisioning, management, and setup of Elasticsearch, Kibana, Beats, and more. \n\nAs logging and metric data — or time series data — has a predictable lifespan, you can use hot, warm, and cold architecture to easily manage your data over time as it ages and becomes less relevant.\n\nIn this guide, we’ll explain how to set up SAML with auth0 as an identity provider (IdP) as well as how to configure your deployment for hot-warm-cold architecture with ECK. We’ll use production features such as:\n\nDedicated nodes\nZone awareness\nPod and node affinity\nPodDisruption\nDedicated storage class\nBefore you get started, you should be familiar with SAML. …",
@@ -522,24 +540,6 @@
           "publishedOn": "2021-05-25T19:05:00.000Z",
           "wordCount": 1672,
           "title": "What’s new in Kibana 7.13: With great power comes great data exploration"
-        },
-        {
-          "id": "https://www.elastic.co/blog/whats-new-elastic-observability-7-13-0",
-          "author": "Jamie Smith",
-          "description": "We are excited to announce the release of Elastic Observability 7.13. An expanded partnership with Microsoft allows seamless integration between Elastic Observability and your Azure workloads, directly from the Azure console, the new Fleet Server paves the way for better scalability and flexibility, new workflows in APM help speed up root-cause analysis, and more. Let's dive in! \n Expanded Microsoft partnership enables seamless onboarding to Elastic Cloud via a native Azure console integration\n Through our strategic partnership with Microsoft, we are excited to announce that Elastic Cloud is now available as a native, first-class service, available directly from the Azure console. Now, users can easily discover, procure, and create Elastic deployments directly from the Azure console, just …",
-          "link": "https://www.elastic.co/blog/whats-new-elastic-observability-7-13-0",
-          "publishedOn": "2021-05-25T19:04:00.000Z",
-          "wordCount": 998,
-          "title": "What's new in Elastic Observability 7.13: Native Azure console integration, Fleet Server, and enhanced APM workflows"
-        },
-        {
-          "id": "https://www.elastic.co/blog/whats-new-elastic-security-7-13-0",
-          "author": "Mark Settle",
-          "description": "We are excited to share Elastic Security 7.13, which connects analysts to the information they need to make smart decisions. The release is a major step forward in our support for osquery, streamlining access to host data from across your environment. Threat intelligence is surfaced in new ways and new detection content spots concerning events. Last but not least, the release shares some developments in the endpoint area and support for new data sources.\n\nOsquery for everybody\nElastic Security 7.13 substantially broadens our support for osquery, the open source host instrumentation framework. Osquery is the not-so-secret weapon of many sophisticated security teams, augmenting numerous security, compliance, and operations use cases, such as:\n\nUnexpected changes in disk free space or memory …",
-          "link": "https://www.elastic.co/blog/whats-new-elastic-security-7-13-0",
-          "publishedOn": "2021-05-25T19:03:00.000Z",
-          "wordCount": 1565,
-          "title": "What’s new in Elastic Security 7.13: Equip analysts with vital context"
         }
       ]
     },
@@ -660,7 +660,7 @@
           "description": "Today, we released Azure DevOps Server 2020.1 RTW. This is our final release of Azure DevOps Server 2020.1. You can upgrade from Azure DevOps Server 2020.1 RC or previous versions of TFS and Azure DevOps. You can find the full details in our release notes.\nThe post Now available: Azure DevOps Server 2020.1 RTW appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/now-available-azure-devops-server-2020-1-rtw/",
           "publishedOn": "2021-05-25T17:50:52.000Z",
-          "wordCount": 1249,
+          "wordCount": 1271,
           "title": "Now available: Azure DevOps Server 2020.1 RTW"
         },
         {
@@ -810,6 +810,15 @@
       "siteUrl": "https://xkcd.com/",
       "articles": [
         {
+          "id": "https://xkcd.com/2476/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/base_rate.png\" title=\"Sure, you can talk about per-capita adjustment, but if you want to solve the problem, it's obvious that this is the group you need to focus on.\" alt=\"Sure, you can talk about per-capita adjustment, but if you want to solve the problem, it's obvious that this is the group you need to focus on.\" />",
+          "link": "https://xkcd.com/2476/",
+          "publishedOn": "2021-06-14T00:00:00.000Z",
+          "wordCount": 185,
+          "title": "Base Rate"
+        },
+        {
           "id": "https://xkcd.com/2475/",
           "author": null,
           "description": "<img src=\"https://imgs.xkcd.com/comics/health_drink.png\" title=\"You'd need to keep track of so many people! Would you use, like, Excel or something? Far too fancy for a simple country nanoenzyme developer like me.\" alt=\"You'd need to keep track of so many people! Would you use, like, Excel or something? Far too fancy for a simple country nanoenzyme developer like me.\" />",
@@ -835,15 +844,6 @@
           "publishedOn": "2021-06-07T00:00:00.000Z",
           "wordCount": 185,
           "title": "Product Launch"
-        },
-        {
-          "id": "https://xkcd.com/2472/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/fuzzy_blob.png\" title=\"If there's no dome, how do you explain the irregularities the board discovered in the zoning permits issued in that area!?\" alt=\"If there's no dome, how do you explain the irregularities the board discovered in the zoning permits issued in that area!?\" />",
-          "link": "https://xkcd.com/2472/",
-          "publishedOn": "2021-06-04T00:00:00.000Z",
-          "wordCount": 185,
-          "title": "Fuzzy Blob"
         }
       ]
     },
@@ -852,6 +852,23 @@
       "feedUrl": "https://softwareengineeringdaily.com/feed/podcast/",
       "siteUrl": "https://softwareengineeringdaily.com/archives/",
       "articles": [
+        {
+          "id": "https://softwareengineeringdaily.com/?p=11082",
+          "author": null,
+          "description": "Coinbase is a very popular and well trusted cryptocurrency platform for buying and selling digital assets like Bitcoin, Ethereum, and many more. With Coinbase you can manage your portfolio of cryptocurrencies in 1 place like you would for other investments. There are added features like scheduling recurring purchases of assets, time-delayed withdrawals from digital vaults,\nThe post Coinbase React Native: Building the Cryptocurrency Ecosystem with Brent Walter and Jacob Thornton appeared first on Software Engineering Daily.",
+          "link": "https://softwareengineeringdaily.com/2021/06/14/coinbase-rn-building-the-cryptocurrency-ecosystem-with-brent-walter-and-jacob-thornton/?utm_source=rss&utm_medium=rss&utm_campaign=coinbase-rn-building-the-cryptocurrency-ecosystem-with-brent-walter-and-jacob-thornton",
+          "publishedOn": "2021-06-14T09:00:11.000Z",
+          "wordCount": null,
+          "title": "Coinbase React Native: Building the Cryptocurrency Ecosystem with Brent Walter and Jacob Thornton",
+          "itunes": {
+            "duration": "56:28"
+          },
+          "enclosure": {
+            "url": "https://traffic.megaphone.fm/SED7754082961.mp3",
+            "length": "54252232",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "https://softwareengineeringdaily.com/?p=11073",
           "author": null,
@@ -1166,12 +1183,21 @@
       "siteUrl": "https://camunda.com",
       "articles": [
         {
+          "id": "https://camunda.com/?p=22263",
+          "author": "Charley Mann",
+          "description": "How did one of Germany’s leading insurers, handling insurance premiums in excess of six billion per year, undergo a complete digital transformation in less than six years?\nThe post Scaling Camunda Adoption at Provinzial appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2021/06/scaling-camunda-adoption-at-provinzial/",
+          "publishedOn": "2021-06-14T13:39:19.000Z",
+          "wordCount": 1892,
+          "title": "Scaling Camunda Adoption at Provinzial"
+        },
+        {
           "id": "https://camunda.com/?p=22069",
           "author": "Luca Buchholz",
           "description": "We’re thrilled to introduce our first cohort of Camunda Champions - individuals who demonstrate product expertise while actively supporting and contributing to developer communities.\nThe post Welcome, Camunda Champions appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/welcome-camunda-champions/",
           "publishedOn": "2021-06-10T08:59:42.000Z",
-          "wordCount": 1644,
+          "wordCount": 1654,
           "title": "Welcome, Camunda Champions"
         },
         {
@@ -1180,7 +1206,7 @@
           "description": "Our partner Novatec combined Business Process Management with Artificial Intelligence, and the result was awesome!\nThe post Intelligent Process Automation with Camunda and Amazon Comprehend appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/intelligent-process-automation-with-camunda-and-amazon-comprehend/",
           "publishedOn": "2021-06-09T09:25:59.000Z",
-          "wordCount": 2724,
+          "wordCount": 2735,
           "title": "Intelligent Process Automation with Camunda and Amazon Comprehend"
         },
         {
@@ -1216,7 +1242,7 @@
           "description": "The latest episode of the Camunda Nation podcast is live, and this time we’re talking all things BPMN Modeling with Camunda Platform engineer Maciej Barelkowski.\nThe post Modeling with Camunda: The Podcast appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/camunda-modeler-cawemo-bpmnio-the-podcast/",
           "publishedOn": "2021-06-02T16:58:06.000Z",
-          "wordCount": 1434,
+          "wordCount": 1433,
           "title": "Modeling with Camunda: The Podcast",
           "enclosure": {
             "url": "https://camunda.com/wp-content/uploads/2021/06/soundbite.mp4",
@@ -1230,7 +1256,7 @@
           "description": "How do we make government tech work better for our citizens and our stakeholders? \nThe post Process Automation in Government: Challenges, Benefits, Best Practices appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/05/process-automation-in-government-challenges-benefits-best-practices/",
           "publishedOn": "2021-05-28T10:33:27.000Z",
-          "wordCount": 1989,
+          "wordCount": 1998,
           "title": "Process Automation in Government: Challenges, Benefits, Best Practices"
         },
         {
@@ -1239,7 +1265,7 @@
           "description": "How did we see such a great increase in engagement during our busiest season, despite not participating in Hacktoberfest before?\nThe post How to Run a Successful Hacktoberfest Campaign with No Prior Experience appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/05/how-to-run-a-successful-hacktoberfest-campaign-with-no-prior-experience/",
           "publishedOn": "2021-05-26T17:44:11.000Z",
-          "wordCount": 3137,
+          "wordCount": 3149,
           "title": "How to Run a Successful Hacktoberfest Campaign with No Prior Experience"
         },
         {
@@ -1250,15 +1276,6 @@
           "publishedOn": "2021-05-21T15:43:28.000Z",
           "wordCount": 4801,
           "title": "Drafting Your Camunda Cloud Architecture – Part 2: Service Integration Patterns With BPMN And Camunda Cloud"
-        },
-        {
-          "id": "https://camunda.com/?p=20493",
-          "author": "Mauricio Salatino",
-          "description": "When working with Cloud Native applications on top of Kubernetes, you might need to make some tough decisions about where to run the services and infrastructure that your applications need, which will directly impact your maintenance costs.\nThe post Camunda Cloud Zeebe K8s Operator appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2021/05/camunda-cloud-zeebe-k8s-operator/",
-          "publishedOn": "2021-05-20T10:03:00.000Z",
-          "wordCount": 2798,
-          "title": "Camunda Cloud Zeebe K8s Operator"
         }
       ]
     },

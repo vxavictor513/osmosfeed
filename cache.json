@@ -193,6 +193,15 @@
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
         {
+          "id": "https://www.hashicorp.com/blog/announcing-hashicorp-boundary-0-3",
+          "author": null,
+          "description": "The latest release of HashiCorp Boundary includes managed groups and OIDC configuration improvements, while Boundary Desktop is now available on Windows.",
+          "link": "https://www.hashicorp.com/blog/announcing-hashicorp-boundary-0-3",
+          "publishedOn": "2021-06-15T16:00:00.000Z",
+          "wordCount": 786,
+          "title": "Announcing HashiCorp Boundary 0.3"
+        },
+        {
           "id": "https://www.hashicorp.com/blog/toward-vagrant-3-0",
           "author": null,
           "description": "In order to support its growing ecosystem and community as we move toward the 3.0 release, we are making changes to Vagrant that will maintain its Ruby-based features while being ported to Go.",
@@ -324,7 +333,7 @@
           "description": "Explore how Boundary provides secure access to hosts and services based on user identity with new tutorials on HashiCorp Learn.",
           "link": "https://www.hashicorp.com/blog/learn-secure-access-management-boundary",
           "publishedOn": "2021-05-20T16:00:00.000Z",
-          "wordCount": 785,
+          "wordCount": 795,
           "title": "Learn Secure Access Management with Boundary"
         },
         {
@@ -361,6 +370,15 @@
       "feedUrl": "https://www.elastic.co/blog/feed",
       "siteUrl": "https://www.elastic.co",
       "articles": [
+        {
+          "id": "https://www.elastic.co/blog/process-ghosting-a-new-executable-image-tampering-attack",
+          "author": "Gabriel Landau",
+          "description": "Security teams defending Windows environments often rely on anti-malware products as a first line of defense against malicious executables. Microsoft provides security vendors with the ability to register callbacks that will be invoked upon the creation of processes on the system. Driver developers can call APIs such as PsSetCreateProcessNotifyRoutineEx to receive such events.\n\nDespite the name, PsSetCreateProcessNotifyRoutineEx callbacks are not actually invoked upon the creation of processes, but rather upon the creation of the first threads within those processes. This creates a gap between when a process is created and when security products are notified of its creation. It also gives malware authors a window to tamper with the backing executable before security products can scan it. R…",
+          "link": "https://www.elastic.co/blog/process-ghosting-a-new-executable-image-tampering-attack",
+          "publishedOn": "2021-06-15T18:00:00.000Z",
+          "wordCount": 1911,
+          "title": "What you need to know about Process Ghosting, a new executable image tampering attack"
+        },
         {
           "id": "https://www.elastic.co/blog/adversary-emulation-with-prelude-operator-and-elastic-security",
           "author": "James Spiteri,Prelude Team",
@@ -531,15 +549,6 @@
           "publishedOn": "2021-05-25T19:06:00.000Z",
           "wordCount": 1637,
           "title": "Elasticsearch 7.13 released"
-        },
-        {
-          "id": "https://www.elastic.co/blog/whats-new-kibana-7-13-0",
-          "author": "Adeline Tan",
-          "description": "Kibana 7.13 is now available, bringing new capabilities that give you more flexibility in ad hoc analysis and faster speed in workflows, so you can focus on exploring your data and acting on insights. Highlights include:\n\nCreating, editing, and removing runtime fields in Discover, Kibana Lens, and index patterns via the Kibana runtime fields editor\nThe general availability of Elastic Maps Server and supervised machine learning\nStarting with Kibana Lens as the recommended visualization for ad hoc analysis\nSee how far you can go in your data exploration with the power of these features (and more) by signing up for a free trial of Elasticsearch Service on Elastic Cloud. You can also download the latest versions of Kibana and the Elastic Stack. \n\nFor a quick list of the new 7.13 features, take…",
-          "link": "https://www.elastic.co/blog/whats-new-kibana-7-13-0",
-          "publishedOn": "2021-05-25T19:05:00.000Z",
-          "wordCount": 1672,
-          "title": "What’s new in Kibana 7.13: With great power comes great data exploration"
         }
       ]
     },
@@ -548,6 +557,15 @@
       "feedUrl": "https://www.ansible.com/blog/rss.xml",
       "siteUrl": "https://www.ansible.com/blog",
       "articles": [
+        {
+          "id": "https://www.ansible.com/blog/whats-new-in-the-ansible-content-collection-for-kubernetes-2.0",
+          "author": "Mike Graves",
+          "description": "As the adoption of containers and Kubernetes increases to drive application modernization, IT organizations must find ways to easily deploy and manage multiple Kubernetes clusters across regions, both residing in the public cloud and/or on-premises, and all the way to the edge. As such, we continue to expand on the capabilities of our Certified Ansible Content Collection for kubernetes.core.",
+          "link": "https://www.ansible.com/blog/whats-new-in-the-ansible-content-collection-for-kubernetes-2.0",
+          "publishedOn": "2021-06-15T13:00:00.000Z",
+          "wordCount": 1785,
+          "title": "What’s New in the Ansible Content Collection for Kubernetes - 2.0"
+        },
         {
           "id": "https://www.ansible.com/blog/ansiblefest-2021-cfp-is-open",
           "author": "info@ansible.com (Ansible)",
@@ -583,12 +601,30 @@
       "siteUrl": "https://devblogs.microsoft.com/devops",
       "articles": [
         {
+          "id": "https://devblogs.microsoft.com/devops/?p=61853",
+          "author": "Gloridel Morales",
+          "description": "For the June patches, we are releasing fixes that impact our self-hosted product, Azure DevOps Server.\nRemoved references to stale test cases to help speed the data import process.\nThe post June patches for Azure DevOps Server appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/june-patches-for-azure-devops-server/",
+          "publishedOn": "2021-06-15T19:09:15.000Z",
+          "wordCount": 1247,
+          "title": "June patches for Azure DevOps Server"
+        },
+        {
+          "id": "https://devblogs.microsoft.com/devops/?p=61742",
+          "author": "Jay Gordon",
+          "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes – Intro to Azure Data Factory with @KromerBigData appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/azurefunbytes-intro-to-azure-data-factory-with-kromerbigdata/",
+          "publishedOn": "2021-06-14T18:00:01.000Z",
+          "wordCount": 1413,
+          "title": "AzureFunBytes – Intro to Azure Data Factory with @KromerBigData"
+        },
+        {
           "id": "https://devblogs.microsoft.com/devops/?p=61839",
           "author": "Jay Gordon",
           "description": "The top stories from the #AzureDevOps #community for 2021.06.11 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2021.06.11 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-06-11/",
           "publishedOn": "2021-06-11T08:00:44.000Z",
-          "wordCount": 1152,
+          "wordCount": 1123,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.06.11"
         },
         {
@@ -597,7 +633,7 @@
           "description": "In this series of posts, I will focus on how to prepare ourselves from having to do manual work to handle our database systems. Each post will provide you with a step to take to begin moving data into the cloud.\nThe post AzureFunBytes Presents: Migrating Your Data – Create Your Cosmos DB appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-presents-migrating-your-data-create-your-cosmos-db/",
           "publishedOn": "2021-06-10T18:00:44.000Z",
-          "wordCount": 2502,
+          "wordCount": 2535,
           "title": "AzureFunBytes Presents: Migrating Your Data – Create Your Cosmos DB"
         },
         {
@@ -606,7 +642,7 @@
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes Episode 42 – Hybrid Cloud on Azure with @ThomasMaurer appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-42-hybrid-cloud-on-azure-with-thomasmaurer/",
           "publishedOn": "2021-06-08T17:00:19.000Z",
-          "wordCount": 1381,
+          "wordCount": 1384,
           "title": "AzureFunBytes Episode 42 – Hybrid Cloud on Azure with @ThomasMaurer"
         },
         {
@@ -615,7 +651,7 @@
           "description": "The top stories from the #AzureDevOps #community for 2021.06.04 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2021.06.04 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-06-04/",
           "publishedOn": "2021-06-04T12:21:13.000Z",
-          "wordCount": 1202,
+          "wordCount": 1205,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.06.04"
         },
         {
@@ -624,7 +660,7 @@
           "description": "Personal access tokens (PATs) make it easy to authenticate against Azure Devops to integrate with your tools and services. However, leaked tokens could compromise your Azure DevOps account and data, putting your applications and services at significant risk.\nThe post New policies to restrict personal access token scope and lifespan appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/new-policies-to-restrict-personal-access-token-scope-and-lifespan/",
           "publishedOn": "2021-06-03T17:46:59.000Z",
-          "wordCount": 1270,
+          "wordCount": 1376,
           "title": "New policies to restrict personal access token scope and lifespan"
         },
         {
@@ -633,7 +669,7 @@
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes – Intro to Bicep appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-intro-to-bicep/",
           "publishedOn": "2021-06-02T14:33:53.000Z",
-          "wordCount": 1197,
+          "wordCount": 1200,
           "title": "AzureFunBytes – Intro to Bicep"
         },
         {
@@ -642,7 +678,7 @@
           "description": "Happy Friday, DevOps Friends!  Hope you had a great Microsoft Build, I know I did.  I really enjoyed a lot of the great sessions, Ask The Experts, and of course keynotes that were broadcast throughout the week.  One of my favorite sessions was Ask the Experts: Infra as Code –\nThe post Top Stories from the Microsoft DevOps Community – 2021.05.28 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-05-28/",
           "publishedOn": "2021-05-28T17:53:58.000Z",
-          "wordCount": 1163,
+          "wordCount": 1166,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.05.28"
         },
         {
@@ -651,26 +687,8 @@
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes – Containers and Kubernetes with @brendandburns appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-containers-and-kubernetes-with-brendandburns/",
           "publishedOn": "2021-05-25T18:00:58.000Z",
-          "wordCount": 1356,
+          "wordCount": 1359,
           "title": "AzureFunBytes – Containers and Kubernetes with @brendandburns"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=61768",
-          "author": "Gloridel Morales",
-          "description": "Today, we released Azure DevOps Server 2020.1 RTW. This is our final release of Azure DevOps Server 2020.1. You can upgrade from Azure DevOps Server 2020.1 RC or previous versions of TFS and Azure DevOps. You can find the full details in our release notes.\nThe post Now available: Azure DevOps Server 2020.1 RTW appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/now-available-azure-devops-server-2020-1-rtw/",
-          "publishedOn": "2021-05-25T17:50:52.000Z",
-          "wordCount": 1271,
-          "title": "Now available: Azure DevOps Server 2020.1 RTW"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=61759",
-          "author": "Martina",
-          "description": "The Azure Reporting and Analytics team is excited to announce the public preview of Copy Dashboard!\nThe post Copy Dashboard – Public Preview appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/copy-dashboard-public-preview/",
-          "publishedOn": "2021-05-24T17:54:02.000Z",
-          "wordCount": 1060,
-          "title": "Copy Dashboard – Public Preview"
         }
       ]
     },
@@ -685,6 +703,15 @@
       "feedUrl": "http://feeds.feedburner.com/AmazonWebServicesBlog",
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
+        {
+          "id": "2a373d1da673c370969bab9975909c889413e7b4",
+          "author": "Jeff Barr",
+          "description": "TL;DR – If you are using the ancient Feedburner feed for this blog, please change to the new one (https://aws.amazon.com/blogs/aws/feed/) ASAP. Back in the early days of AWS, I paid a visit to the Chicago headquarters of a cool startup called FeedBurner. My friend Matt Shobe demo’ed their new product to me and showed me […]",
+          "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/Xhu_RVZmQuY/",
+          "publishedOn": "2021-06-15T16:49:54.000Z",
+          "wordCount": 651,
+          "title": "Heads Up – AWS News Blog RSS Feed Change"
+        },
         {
           "id": "f057ea11c459d137b14bd39a8b215fd1b55c46d0",
           "author": "Jeff Barr",
@@ -852,6 +879,23 @@
       "feedUrl": "https://softwareengineeringdaily.com/feed/podcast/",
       "siteUrl": "https://softwareengineeringdaily.com/archives/",
       "articles": [
+        {
+          "id": "https://softwareengineeringdaily.com/?p=11083",
+          "author": null,
+          "description": "Amundsen was started at Lyft and is the leading open-source data catalog with the fastest-growing community and the most integrations. Amundsen enables you to search your entire organization by text search, see automated and curated metadata, share context with co workers, and learn from others by seeing most common queries on a table or frequently\nThe post Stemma: Understanding Big Data with Mark Grover appeared first on Software Engineering Daily.",
+          "link": "https://softwareengineeringdaily.com/2021/06/15/stemma-understanding-big-data-with-mark-grover/?utm_source=rss&utm_medium=rss&utm_campaign=stemma-understanding-big-data-with-mark-grover",
+          "publishedOn": "2021-06-15T09:00:32.000Z",
+          "wordCount": null,
+          "title": "Stemma: Understanding Big Data with Mark Grover",
+          "itunes": {
+            "duration": "40:33"
+          },
+          "enclosure": {
+            "url": "https://traffic.megaphone.fm/SED4548783756.mp3",
+            "length": "38968779",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "https://softwareengineeringdaily.com/?p=11082",
           "author": null,
@@ -1183,12 +1227,21 @@
       "siteUrl": "https://camunda.com",
       "articles": [
         {
+          "id": "https://camunda.com/?p=22086",
+          "author": "Felix Mueller",
+          "description": "What is Camunda Cloud, and why is the community so excited about the first ever on-demand SaaS process automation as a service?\nThe post Your Camunda Cloud Questions Answered appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2021/06/your-camunda-cloud-questions-answered/",
+          "publishedOn": "2021-06-15T08:00:00.000Z",
+          "wordCount": 2234,
+          "title": "Your Camunda Cloud Questions Answered"
+        },
+        {
           "id": "https://camunda.com/?p=22263",
           "author": "Charley Mann",
           "description": "How did one of Germany’s leading insurers, handling insurance premiums in excess of six billion per year, undergo a complete digital transformation in less than six years?\nThe post Scaling Camunda Adoption at Provinzial appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/scaling-camunda-adoption-at-provinzial/",
           "publishedOn": "2021-06-14T13:39:19.000Z",
-          "wordCount": 1892,
+          "wordCount": 1906,
           "title": "Scaling Camunda Adoption at Provinzial"
         },
         {
@@ -1197,7 +1250,7 @@
           "description": "We’re thrilled to introduce our first cohort of Camunda Champions - individuals who demonstrate product expertise while actively supporting and contributing to developer communities.\nThe post Welcome, Camunda Champions appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/welcome-camunda-champions/",
           "publishedOn": "2021-06-10T08:59:42.000Z",
-          "wordCount": 1654,
+          "wordCount": 1670,
           "title": "Welcome, Camunda Champions"
         },
         {
@@ -1206,7 +1259,7 @@
           "description": "Our partner Novatec combined Business Process Management with Artificial Intelligence, and the result was awesome!\nThe post Intelligent Process Automation with Camunda and Amazon Comprehend appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/intelligent-process-automation-with-camunda-and-amazon-comprehend/",
           "publishedOn": "2021-06-09T09:25:59.000Z",
-          "wordCount": 2735,
+          "wordCount": 2749,
           "title": "Intelligent Process Automation with Camunda and Amazon Comprehend"
         },
         {
@@ -1215,7 +1268,7 @@
           "description": "We’re excited to announce the release of Camunda Cloud 1.1.0-alpha1, which includes 1.1.0-alpha1  versions of Zeebe, Operate and\nThe post Camunda Cloud 1.1.0-alpha1 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/camunda-cloud-110-alpha1-released/",
           "publishedOn": "2021-06-08T15:08:51.000Z",
-          "wordCount": 1645,
+          "wordCount": 1554,
           "title": "Camunda Cloud 1.1.0-alpha1 Released"
         },
         {
@@ -1224,7 +1277,7 @@
           "description": "We’re excited to announce the release of Camunda Optimize 3.5.0-alpha2, featuring a new Elasticsearch header plugin, and Report embedding improvements. \nThe post Camunda Optimize 3.5.0-alpha2 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/camunda-optimize-3-5-0-alpha2-released/",
           "publishedOn": "2021-06-08T07:15:00.000Z",
-          "wordCount": 1647,
+          "wordCount": 1651,
           "title": "Camunda Optimize 3.5.0-alpha2 Released"
         },
         {
@@ -1233,7 +1286,7 @@
           "description": "We are pleased to announce the next alpha release of Camunda Platform Runtime 7.16. This release features the following improvements: Cockpit: Set Variables on Process Instance Migration (Enterprise) 7 Bug Fixes You can Download Camunda for free or Run it with Docker. For a complete list of all improvements, take a look at the release notes. Please also see the list of known issues. If you want to dig in deeper, you can find the source code on GitHub. Cockpit: Set Variables on Process Instance Migration This feature is only available in the Enterprise Edition of the Camunda Platform Runtime — try it out with a free trial. Our last alpha release featured the option to Set Variables on Process...\nThe post Camunda Platform Runtime 7.16.0-alpha2 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/camunda-platform-runtime-7160-alpha2-released/",
           "publishedOn": "2021-06-08T07:00:00.000Z",
-          "wordCount": 1395,
+          "wordCount": 1398,
           "title": "Camunda Platform Runtime 7.16.0-alpha2 Released"
         },
         {
@@ -1242,7 +1295,7 @@
           "description": "The latest episode of the Camunda Nation podcast is live, and this time we’re talking all things BPMN Modeling with Camunda Platform engineer Maciej Barelkowski.\nThe post Modeling with Camunda: The Podcast appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/camunda-modeler-cawemo-bpmnio-the-podcast/",
           "publishedOn": "2021-06-02T16:58:06.000Z",
-          "wordCount": 1433,
+          "wordCount": 1437,
           "title": "Modeling with Camunda: The Podcast",
           "enclosure": {
             "url": "https://camunda.com/wp-content/uploads/2021/06/soundbite.mp4",
@@ -1256,7 +1309,7 @@
           "description": "How do we make government tech work better for our citizens and our stakeholders? \nThe post Process Automation in Government: Challenges, Benefits, Best Practices appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/05/process-automation-in-government-challenges-benefits-best-practices/",
           "publishedOn": "2021-05-28T10:33:27.000Z",
-          "wordCount": 1998,
+          "wordCount": 2007,
           "title": "Process Automation in Government: Challenges, Benefits, Best Practices"
         },
         {
@@ -1265,17 +1318,8 @@
           "description": "How did we see such a great increase in engagement during our busiest season, despite not participating in Hacktoberfest before?\nThe post How to Run a Successful Hacktoberfest Campaign with No Prior Experience appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/05/how-to-run-a-successful-hacktoberfest-campaign-with-no-prior-experience/",
           "publishedOn": "2021-05-26T17:44:11.000Z",
-          "wordCount": 3149,
+          "wordCount": 3159,
           "title": "How to Run a Successful Hacktoberfest Campaign with No Prior Experience"
-        },
-        {
-          "id": "https://camunda.com/?p=20841",
-          "author": "Bernd Ruecker",
-          "description": "When automating processes you typically integrate systems and services, or in other words you orchestrate various APIs. In order to achieve this you not only have different technical possibilities, but also can choose between various modeling possibilities in BPMN. This post will give you an overview and advice on how to decide between alternatives.\nThe post Drafting Your Camunda Cloud Architecture – Part 2: Service Integration Patterns With BPMN And Camunda Cloud appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2021/05/drafting-your-camunda-cloud-architecture-part-2-service-integration-patterns-with-bpmn-and-camunda-cloud/",
-          "publishedOn": "2021-05-21T15:43:28.000Z",
-          "wordCount": 4801,
-          "title": "Drafting Your Camunda Cloud Architecture – Part 2: Service Integration Patterns With BPMN And Camunda Cloud"
         }
       ]
     },
@@ -1284,6 +1328,16 @@
       "feedUrl": "http://www.brendangregg.com/blog/rss.xml",
       "siteUrl": "http://www.brendangregg.com/blog",
       "articles": [
+        {
+          "id": "http://www.brendangregg.com/blog/2021-06-15/bpf-internals.html",
+          "author": null,
+          "description": "For USENIX LISA2021 I gave a 40 minute deep dive talk on BPF internals for Linux, focusing on observability tracing tools. Since there are already BPF internals references online (listed in this post) I used the opportunity to create some new content, showing how bpftrace instrumentation works from user space down to machine code. I break it down to all the small components involved, where you'll find it's actually quite easy.",
+          "link": "http://www.brendangregg.com/blog/2021-06-15/bpf-internals.html",
+          "publishedOn": "2021-06-14T14:00:00.000Z",
+          "wordCount": null,
+          "title": "USENIX LISA2021 BPF Internals (eBPF)",
+          "itunes": {}
+        },
         {
           "id": "http://www.brendangregg.com/blog/2021-06-04/an-unbelievable-demo.html",
           "author": null,

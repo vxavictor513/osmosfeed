@@ -6,6 +6,15 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/06/23/spring-tips-kubernetes-native-java",
+          "author": null,
+          "description": "Hi, Spring fans! In this installment, Josh Long (@starbuxman) looks at how to build Spring Boot applications destined for production on Kubernetes",
+          "link": "https://spring.io/blog/2021/06/23/spring-tips-kubernetes-native-java",
+          "publishedOn": "2021-06-23T07:00:00.000Z",
+          "wordCount": 407,
+          "title": "Spring Tips: Kubernetes Native Java"
+        },
+        {
           "id": "https://spring.io/blog/2021/06/22/this-week-in-spring-june-22nd-2021",
           "author": null,
           "description": "Hi, Spring fans! How’re y’all doing? Can you believe we’re almost halfway through this crazy little thing called 2021? Time sure flies when you’re having fun! This week was no exception. I joined the my buddy Matt Raible and Brian Demeers today for the OktaDev Twitch channel and we hacked on making the Spring Boot starter for Okta work with Spring Native. The goal is that you should be able to bring your application unchanged with Spring Native, and this is yet another example of that working. We didn’t know what issues we were going to face, but we managed to figure out the relatively minor things required to make it work within an hour and within two hours we had most a working, standalone “hints” .jar dependency that users can add to their spring-aot plugins dependencies. Hopefully they…",
@@ -175,15 +184,6 @@
           "publishedOn": "2021-05-27T07:00:00.000Z",
           "wordCount": 417,
           "title": "A Bootiful Podcast: Micrometer-lead Tommy Ludwig"
-        },
-        {
-          "id": "https://spring.io/blog/2021/05/24/this-week-in-spring-may-25th-2021",
-          "author": null,
-          "description": "Hi, Spring fans! Welcome to another installment of This Week in Spring! How’re you doing? I’m still fresh off my little vacation last week, feeling fantastic. I’ve spent the last several days working with Spring Boot and Spring Native and I have to tell you, they’re epic. \n\r\nIt’s gotten to the point where I sometimes spend time working on enabling Spring Native integrations for other projects - it really makes some third party abstractions come alive! It’s hard to know what the right comparison is. There’s not much you can do in this life that results in such an instantaneous, night-and-day difference in performance and memory profile with so few (user-visibile) changes. Imagine snapping your fingers and having your luxury hypercar (Spring Boot in this metaphor) transform into an equally c…",
-          "link": "https://spring.io/blog/2021/05/24/this-week-in-spring-may-25th-2021",
-          "publishedOn": "2021-05-25T06:00:00.000Z",
-          "wordCount": 937,
-          "title": "This Week in Spring - May 25th, 2021"
         }
       ]
     },
@@ -193,12 +193,39 @@
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
         {
+          "id": "https://www.hashicorp.com/blog/gke-cluster-setup-with-cdk-for-terraform",
+          "author": null,
+          "description": "Learn how to provision a Google Kubernetes Engine (GKE) cluster and prepare it for application deployment using TypeScript via CDK for Terraform.",
+          "link": "https://www.hashicorp.com/blog/gke-cluster-setup-with-cdk-for-terraform",
+          "publishedOn": "2021-06-23T20:00:00.000Z",
+          "wordCount": 3426,
+          "title": "GKE Cluster Setup with CDK for Terraform"
+        },
+        {
+          "id": "https://www.hashicorp.com/blog/announcing-consul-1-10",
+          "author": null,
+          "description": "Consul 1.10 adds exciting new features such as transparent proxy for service mesh, support for xDS v3, streaming, and observability enhancements.",
+          "link": "https://www.hashicorp.com/blog/announcing-consul-1-10",
+          "publishedOn": "2021-06-23T16:00:00.000Z",
+          "wordCount": 1026,
+          "title": "Announcing Consul 1.10 GA"
+        },
+        {
+          "id": "https://www.hashicorp.com/blog/announcing-the-google-workspace-provider-for-hashicorp-terraform-tech-preview",
+          "author": null,
+          "description": "A new Terraform provider allows you to manage users, groups, and domains in your Google Workspace (formerly G Suite).",
+          "link": "https://www.hashicorp.com/blog/announcing-the-google-workspace-provider-for-hashicorp-terraform-tech-preview",
+          "publishedOn": "2021-06-23T15:00:00.000Z",
+          "wordCount": 1292,
+          "title": "Announcing the Google Workspace Provider for HashiCorp Terraform Tech Preview"
+        },
+        {
           "id": "https://www.hashicorp.com/blog/announcing-general-availability-of-consul-terraform-sync-0-2",
           "author": null,
           "description": "CTS 0.2 includes Task Run Conditions, Terraform 0.15 Support, and more.",
           "link": "https://www.hashicorp.com/blog/announcing-general-availability-of-consul-terraform-sync-0-2",
           "publishedOn": "2021-06-22T19:00:00.000Z",
-          "wordCount": 979,
+          "wordCount": 983,
           "title": "Announcing General Availability of Consul-Terraform-Sync 0.2"
         },
         {
@@ -207,7 +234,7 @@
           "description": "Watch all 30+ videos HashiConf Europe 2021 with these on-demand videos of all the keynotes, sessions, and customer presentations.",
           "link": "https://www.hashicorp.com/blog/hashiconf-europe-2021-recap-and-videos",
           "publishedOn": "2021-06-21T18:30:00.000Z",
-          "wordCount": 1984,
+          "wordCount": 1996,
           "title": "HashiConf Europe 2021 Recap and Videos"
         },
         {
@@ -216,7 +243,7 @@
           "description": "We asked users how they are using HashiCorp Consul, here’s what they told us.",
           "link": "https://www.hashicorp.com/blog/survey-results-how-do-you-connect-with-consul",
           "publishedOn": "2021-06-17T16:00:00.000Z",
-          "wordCount": 1173,
+          "wordCount": 1166,
           "title": "Survey Results:  How Do You Connect with Consul?"
         },
         {
@@ -225,7 +252,7 @@
           "description": "Get a walkthrough of the code and workflow for setting up NIA with Consul-Terraform-Sync (CTS) and A10 ADC.",
           "link": "https://www.hashicorp.com/blog/how-build-network-infrastructure-automation-nia-hashicorp-terraform-consul-a10-adc",
           "publishedOn": "2021-06-16T16:00:00.000Z",
-          "wordCount": 2421,
+          "wordCount": 2440,
           "title": "How to Build Network Infrastructure Automation (NIA) with HashiCorp Terraform, Consul, and A10 ADC"
         },
         {
@@ -261,7 +288,7 @@
           "description": "The HashiCorp Cloud Platform (HCP) now has expanded capabilities for networking, single sign-on, and more. HCP will also support new configurations of HashiCorp Consul and HashiCorp Vault in the coming months.",
           "link": "https://www.hashicorp.com/blog/hashicorp-cloud-platform-adds-transit-gateway-okta-new-skus",
           "publishedOn": "2021-06-09T10:50:00.000Z",
-          "wordCount": 1384,
+          "wordCount": 1387,
           "title": "HashiCorp Cloud Platform Adds Transit Gateway, Okta Support, New Packages"
         },
         {
@@ -270,7 +297,7 @@
           "description": "Terraform 1.0 — now generally available — marks a major milestone for interoperability, ease of upgrades, and maintenance for your automation workflows.",
           "link": "https://www.hashicorp.com/blog/announcing-hashicorp-terraform-1-0-general-availability",
           "publishedOn": "2021-06-08T10:50:00.000Z",
-          "wordCount": 1103,
+          "wordCount": 1104,
           "title": "Announcing HashiCorp Terraform 1.0 General Availability"
         },
         {
@@ -279,7 +306,7 @@
           "description": "Announcing several improvements to HashiCorp Terraform Cloud, focusing on visibility and extensibility.",
           "link": "https://www.hashicorp.com/blog/terraform-cloud-improved-visibility-for-workflows",
           "publishedOn": "2021-06-08T10:50:00.000Z",
-          "wordCount": 974,
+          "wordCount": 975,
           "title": "Terraform Cloud Updates Improve Workflow Visibility"
         },
         {
@@ -297,7 +324,7 @@
           "description": "From working with providers, to managing resources, to working with Terraform on AWS, we have a lot of new hands-on Terraform exercises to try.",
           "link": "https://www.hashicorp.com/blog/new-terraform-tutorials-on-hashicorp-learn",
           "publishedOn": "2021-06-02T16:00:00.000Z",
-          "wordCount": 729,
+          "wordCount": 730,
           "title": "New Terraform Tutorials on HashiCorp Learn"
         },
         {
@@ -306,7 +333,7 @@
           "description": "The Terraform AWS provider now supports ECS Anywhere, a new capability in Amazon ECS that supports running and managing container-based applications on customers’ on-premises servers.",
           "link": "https://www.hashicorp.com/blog/announcing-launch-day-support-for-amazon-ecs-anywhere-terraform-aws-provider",
           "publishedOn": "2021-06-01T18:30:00.000Z",
-          "wordCount": 697,
+          "wordCount": 698,
           "title": "Announcing Support for Amazon ECS Anywhere in the Terraform AWS Provider"
         },
         {
@@ -315,7 +342,7 @@
           "description": "The redesigned interface for HashiCorp Terraform Cloud brings clarity to how your resources, state, and infrastructure operations are represented during a Terraform run.",
           "link": "https://www.hashicorp.com/blog/new-apply-user-interface-for-terraform-cloud",
           "publishedOn": "2021-06-01T16:00:00.000Z",
-          "wordCount": 650,
+          "wordCount": 651,
           "title": "New Apply User Interface for Terraform Cloud"
         },
         {
@@ -324,7 +351,7 @@
           "description": "The Cloud Development Kit for Terraform 0.4 introduces experimental Go language support, asset construct, and Terraform Cloud integration.",
           "link": "https://www.hashicorp.com/blog/announcing-cdk-for-terraform-0-4",
           "publishedOn": "2021-05-27T18:00:00.000Z",
-          "wordCount": 1147,
+          "wordCount": 1148,
           "title": "Announcing CDK for Terraform 0.4"
         },
         {
@@ -333,7 +360,7 @@
           "description": "AWS users may now select Consul as their service mesh for ECS deployments.",
           "link": "https://www.hashicorp.com/blog/announcing-consul-service-mesh-for-amazon-ecs",
           "publishedOn": "2021-05-26T18:00:00.000Z",
-          "wordCount": 1341,
+          "wordCount": 1344,
           "title": "Announcing Tech Preview of Consul Service Mesh for Amazon ECS"
         },
         {
@@ -344,24 +371,6 @@
           "publishedOn": "2021-05-26T08:00:00.000Z",
           "wordCount": 1189,
           "title": "The HashiConf Europe Highlights You Don’t Want to Miss"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/terraform-azuread-provider-now-supports-microsoft-graph",
-          "author": null,
-          "description": "Version 1.5.0 of the Terraform AzureAD provider lets you manage your Azure Active Directory resources using the Microsoft Graph API.",
-          "link": "https://www.hashicorp.com/blog/terraform-azuread-provider-now-supports-microsoft-graph",
-          "publishedOn": "2021-05-25T15:00:00.000Z",
-          "wordCount": 819,
-          "title": "Terraform AzureAD Provider Now Supports Microsoft Graph"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/using-waypoint-runners-to-enable-gitops-workflows",
-          "author": null,
-          "description": "Waypoint runners perform builds, deployments, poll for Git repository changes, and allow deployments for any platform.",
-          "link": "https://www.hashicorp.com/blog/using-waypoint-runners-to-enable-gitops-workflows",
-          "publishedOn": "2021-05-24T17:00:00.000Z",
-          "wordCount": 912,
-          "title": "Using Waypoint Runners To Enable GitOps Workflows"
         }
       ]
     },
@@ -370,6 +379,24 @@
       "feedUrl": "https://www.elastic.co/blog/feed",
       "siteUrl": "https://www.elastic.co",
       "articles": [
+        {
+          "id": "https://www.elastic.co/blog/improve-search-relevance-by-combining-elasticsearch-stemmers-and-synonyms",
+          "author": "Alex Marquardt",
+          "description": "In a previous blog, we covered how you can incorporate synonyms into your Elasticsearch-powered application. Here, I build upon that blog and show how you can combine stemmers and multi-word synonyms to take the quality of your search results to the next level. \n \nMotivation\n\nImagine that you are using Elasticsearch to power a search application for finding books, and in this application you want to treat the following words as synonyms:\n\nbrainstorm\nbrainstorming\nbrainstormed\nbrain storm\nbrain storming\nbrain stormed\nenvisage\nenvisaging\nenvisaged\netc.\nIt is tedious and error prone to explicitly use synonyms to define all possible conjugations, declensions, and inflections of a word or of a compound word.\n\nHowever, it is possible to reduce the size of the list of synonyms by making use of a …",
+          "link": "https://www.elastic.co/blog/improve-search-relevance-by-combining-elasticsearch-stemmers-and-synonyms",
+          "publishedOn": "2021-06-23T18:00:00.000Z",
+          "wordCount": 1184,
+          "title": "Improve search relevance by combining Elasticsearch stemmers and synonyms"
+        },
+        {
+          "id": "https://www.elastic.co/blog/elastic-cloud-enterprise-platform-redesign",
+          "author": "Omer Kushmaro",
+          "description": "We’re excited to introduce usability enhancements to the Elastic Cloud Enterprise (ECE) platform administration console to simplify your experience. \n\nAdministration is shifting to a host-based management and dedicated role pages for ECE proxies and control plane. Moreover, when you upgrade to ECE 2.10, you’ll see usability enhancements within the administration console, including:\n\nSimplified management of ECE host roles, streamlining your operations\nEasy access to a central view of all the physical or virtual hosts managed by ECE\nA dedicated proxy and control plane view\nThis is an important first step in streamlining tasks and workflows within ECE to make it easier for ECE administrators like you to understand and operate. Keep reading to learn more.\n\nRole names\n\n\t\nThe Coordinator role c…",
+          "link": "https://www.elastic.co/blog/elastic-cloud-enterprise-platform-redesign",
+          "publishedOn": "2021-06-23T16:00:00.000Z",
+          "wordCount": 763,
+          "title": "A new, more streamlined experience for Elastic Cloud Enterprise admins"
+        },
         {
           "id": "https://www.elastic.co/blog/culture-exponential-growth-experienced-leadership-values-define-growing-sales-organization",
           "author": "Riva Froymovich",
@@ -531,24 +558,6 @@
           "publishedOn": "2021-06-07T15:00:00.000Z",
           "wordCount": 1357,
           "title": "Pride @ Elastic | Feeling seen and safe as a trans woman"
-        },
-        {
-          "id": "https://www.elastic.co/blog/how-to-use-transforms-to-track-your-most-recent-customer-orders",
-          "author": "Przemysław Witek",
-          "description": "Creating an entity-centric index that contains only the latest document for each entity can be useful in a number of situations. For example, maybe you're managing an ecommerce site and you want to track the latest order placed by each of your customers. Or maybe you want to run a campaign targeting customers who haven't been active over a certain period. What's the fastest and most efficient way to compile and organize such data?\n\nTransforms in Elasticsearch enable you to create and maintain an entity-centric index based on the event index and a transforming function. Until recently, the only possible function was pivot, which is a continuous group-by plus aggregations. In version 7.12, we’ve added one more transforming function, called latest. It transforms a source index into a destinat…",
-          "link": "https://www.elastic.co/blog/how-to-use-transforms-to-track-your-most-recent-customer-orders",
-          "publishedOn": "2021-06-03T18:00:00.000Z",
-          "wordCount": 1272,
-          "title": "How to use transforms to track your most recent customer orders"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-license-update",
-          "author": "Steve Kearns",
-          "description": "In January 2021, we announced that starting with version 7.11, we would be changing the Apache 2.0 portions of Elasticsearch and Kibana source code to be dual licensed under Elastic License and SSPL, at the users’ discretion. As part of that change, we created Elastic License 2.0 (ELv2) as a permissive,  fair-code license, which allows free use, redistribution, modification, and derivative works, with only three simple limitations, outlined in our original announcement.  \n  \n We've been happy to see the level of community support for this change.  While we would have preferred to collaborate with Amazon, we're glad that with their fork and commitment to rename the Amazon Elasticsearch Service, it means that they will no longer be the cause of confusion in the Elasticsearch and Kibana commu…",
-          "link": "https://www.elastic.co/blog/elastic-license-update",
-          "publishedOn": "2021-06-03T15:00:00.000Z",
-          "wordCount": 719,
-          "title": "Elastic License Update"
         }
       ]
     },
@@ -615,7 +624,7 @@
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes – @Azure Data Factory Security with @narainabhishek appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-azure-data-factory-security-with-narainabhishek/",
           "publishedOn": "2021-06-21T16:00:42.000Z",
-          "wordCount": 1298,
+          "wordCount": 1318,
           "title": "AzureFunBytes – @Azure Data Factory Security with @narainabhishek"
         },
         {
@@ -624,7 +633,7 @@
           "description": "The top stories from the #AzureDevOps #community for 2021.06.18 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2021.06.18 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-06-18/",
           "publishedOn": "2021-06-18T14:00:22.000Z",
-          "wordCount": 1110,
+          "wordCount": 1130,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.06.18"
         },
         {
@@ -837,15 +846,6 @@
           "publishedOn": "2021-05-26T04:03:34.000Z",
           "wordCount": 990,
           "title": "In the Works – AWS Region in the United Arab Emirates (UAE)"
-        },
-        {
-          "id": "00cf76fbba9108f99f97d0a829f5da99bca9989e",
-          "author": "Channy Yun",
-          "description": "In October 2020, we announced the preview of AWS Lambda extensions, which you can use to easily integrate Lambda functions with your favorite tools for monitoring, observability, security, and governance. Today, I’m happy to announce the general availability of AWS Lambda Extensions which comes with new performance improvements and an expanded set of partners. As […]",
-          "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/Ojzzq6mN-AU/",
-          "publishedOn": "2021-05-24T16:24:35.000Z",
-          "wordCount": 2387,
-          "title": "AWS Lambda Extensions Are Now Generally Available – Get Started with Your Favorite Operations Tools Today"
         }
       ]
     },
@@ -854,6 +854,15 @@
       "feedUrl": "https://xkcd.com/atom.xml",
       "siteUrl": "https://xkcd.com/",
       "articles": [
+        {
+          "id": "https://xkcd.com/2480/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/no_the_other_one.png\" title=\"Key West, Virginia is not to be confused with Key, West Virginia.\" alt=\"Key West, Virginia is not to be confused with Key, West Virginia.\" />",
+          "link": "https://xkcd.com/2480/",
+          "publishedOn": "2021-06-23T00:00:00.000Z",
+          "wordCount": 189,
+          "title": "No, The Other One"
+        },
         {
           "id": "https://xkcd.com/2479/",
           "author": null,
@@ -880,15 +889,6 @@
           "publishedOn": "2021-06-16T00:00:00.000Z",
           "wordCount": 185,
           "title": "Alien Visitors"
-        },
-        {
-          "id": "https://xkcd.com/2476/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/base_rate.png\" title=\"Sure, you can talk about per-capita adjustment, but if you want to solve the problem, it's obvious that this is the group you need to focus on.\" alt=\"Sure, you can talk about per-capita adjustment, but if you want to solve the problem, it's obvious that this is the group you need to focus on.\" />",
-          "link": "https://xkcd.com/2476/",
-          "publishedOn": "2021-06-14T00:00:00.000Z",
-          "wordCount": 185,
-          "title": "Base Rate"
         }
       ]
     },
@@ -897,6 +897,23 @@
       "feedUrl": "https://softwareengineeringdaily.com/feed/podcast/",
       "siteUrl": "https://softwareengineeringdaily.com/archives/",
       "articles": [
+        {
+          "id": "https://softwareengineeringdaily.com/?p=11142",
+          "author": null,
+          "description": "The quantity and quality of a company’s data can mean the difference between a major success or major failure. Companies like Google have used big data from its earliest days to steer their product suite in the direction consumers need. Other companies, like Apple, didn’t always use big data analytics to drive product design, but\nThe post Axiom Browser Automation with Yaseer Sheriff appeared first on Software Engineering Daily.",
+          "link": "https://softwareengineeringdaily.com/2021/06/23/axiom-browser-automation-with-yaseer-sheriff/?utm_source=rss&utm_medium=rss&utm_campaign=axiom-browser-automation-with-yaseer-sheriff",
+          "publishedOn": "2021-06-23T09:00:19.000Z",
+          "wordCount": null,
+          "title": "Axiom Browser Automation with Yaseer Sheriff",
+          "itunes": {
+            "duration": "38:21"
+          },
+          "enclosure": {
+            "url": "https://traffic.megaphone.fm/SED3148267840.mp3",
+            "length": "36858179",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "https://softwareengineeringdaily.com/?p=11131",
           "author": null,
@@ -1219,23 +1236,6 @@
             "length": "60981604",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "https://softwareengineeringdaily.com/?p=10969",
-          "author": null,
-          "description": "Cloud data warehouses are databases hosted in cloud environments. They provide typical benefits of the cloud like flexible data access, scalability, and performance.  The company Firebolt provides a cloud data warehouse built for modern data environments. It decouples storage and compute to operate on top of existing data lakes like S3. It computes orders of\nThe post Firebolt: Data Warehouses with Eldad Farkash appeared first on Software Engineering Daily.",
-          "link": "https://softwareengineeringdaily.com/2021/05/25/firebolt-data-warehouses-with-eldad-farkash/?utm_source=rss&utm_medium=rss&utm_campaign=firebolt-data-warehouses-with-eldad-farkash",
-          "publishedOn": "2021-05-25T09:00:53.000Z",
-          "wordCount": null,
-          "title": "Firebolt: Data Warehouses with Eldad Farkash",
-          "itunes": {
-            "duration": "57:59"
-          },
-          "enclosure": {
-            "url": "https://traffic.megaphone.fm/SED5904677367.mp3",
-            "length": "55703875",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -1245,12 +1245,21 @@
       "siteUrl": "https://camunda.com",
       "articles": [
         {
+          "id": "https://camunda.com/?p=22625",
+          "author": "Charley Mann",
+          "description": "Automating the back-office with Camunda Platform - saving up to 30% of time previously spent handling electronic payment card requests.\nThe post Jyske Bank: From Emails to Automation appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2021/06/jyske-bank-from-emails-to-automation/",
+          "publishedOn": "2021-06-23T13:22:09.000Z",
+          "wordCount": 1851,
+          "title": "Jyske Bank: From Emails to Automation"
+        },
+        {
           "id": "https://camunda.com/?p=22408",
           "author": "Camunda Team",
           "description": "Camunda Platform is deployed by more than half of the top 15 banks in the U.S., including Morgan Stanley, Truist and Goldman Sachs.\nThe post Why Fortune 500 Banks use Camunda Platform appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/why-fortune-500-banks-use-camunda-platform/",
           "publishedOn": "2021-06-18T16:02:02.000Z",
-          "wordCount": 1612,
+          "wordCount": 1615,
           "title": "Why Fortune 500 Banks use Camunda Platform"
         },
         {
@@ -1259,7 +1268,7 @@
           "description": "What is Camunda Cloud, and why is the community so excited about the first ever on-demand SaaS process automation as a service?\nThe post Your Camunda Cloud Questions Answered appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/your-camunda-cloud-questions-answered/",
           "publishedOn": "2021-06-15T08:00:00.000Z",
-          "wordCount": 2238,
+          "wordCount": 2865,
           "title": "Your Camunda Cloud Questions Answered"
         },
         {
@@ -1268,7 +1277,7 @@
           "description": "How did one of Germany’s leading insurers, handling insurance premiums in excess of six billion per year, undergo a complete digital transformation in less than six years?\nThe post Scaling Camunda Adoption at Provinzial appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/scaling-camunda-adoption-at-provinzial/",
           "publishedOn": "2021-06-14T13:39:19.000Z",
-          "wordCount": 1910,
+          "wordCount": 1913,
           "title": "Scaling Camunda Adoption at Provinzial"
         },
         {
@@ -1277,7 +1286,7 @@
           "description": "We’re thrilled to introduce our first cohort of Camunda Champions - individuals who demonstrate product expertise while actively supporting and contributing to developer communities.\nThe post Welcome, Camunda Champions appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/welcome-camunda-champions/",
           "publishedOn": "2021-06-10T08:59:42.000Z",
-          "wordCount": 1673,
+          "wordCount": 8208,
           "title": "Welcome, Camunda Champions"
         },
         {
@@ -1286,7 +1295,7 @@
           "description": "Our partner Novatec combined Business Process Management with Artificial Intelligence, and the result was awesome!\nThe post Intelligent Process Automation with Camunda and Amazon Comprehend appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/intelligent-process-automation-with-camunda-and-amazon-comprehend/",
           "publishedOn": "2021-06-09T09:25:59.000Z",
-          "wordCount": 2758,
+          "wordCount": 2636,
           "title": "Intelligent Process Automation with Camunda and Amazon Comprehend"
         },
         {
@@ -1295,7 +1304,7 @@
           "description": "We’re excited to announce the release of Camunda Cloud 1.1.0-alpha1, which includes 1.1.0-alpha1  versions of Zeebe, Operate and\nThe post Camunda Cloud 1.1.0-alpha1 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/camunda-cloud-110-alpha1-released/",
           "publishedOn": "2021-06-08T15:08:51.000Z",
-          "wordCount": 1554,
+          "wordCount": 1553,
           "title": "Camunda Cloud 1.1.0-alpha1 Released"
         },
         {
@@ -1313,7 +1322,7 @@
           "description": "We are pleased to announce the next alpha release of Camunda Platform Runtime 7.16. This release features the following improvements: Cockpit: Set Variables on Process Instance Migration (Enterprise) 7 Bug Fixes You can Download Camunda for free or Run it with Docker. For a complete list of all improvements, take a look at the release notes. Please also see the list of known issues. If you want to dig in deeper, you can find the source code on GitHub. Cockpit: Set Variables on Process Instance Migration This feature is only available in the Enterprise Edition of the Camunda Platform Runtime — try it out with a free trial. Our last alpha release featured the option to Set Variables on Process...\nThe post Camunda Platform Runtime 7.16.0-alpha2 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/camunda-platform-runtime-7160-alpha2-released/",
           "publishedOn": "2021-06-08T07:00:00.000Z",
-          "wordCount": 1398,
+          "wordCount": 7938,
           "title": "Camunda Platform Runtime 7.16.0-alpha2 Released"
         },
         {
@@ -1322,22 +1331,13 @@
           "description": "The latest episode of the Camunda Nation podcast is live, and this time we’re talking all things BPMN Modeling with Camunda Platform engineer Maciej Barelkowski.\nThe post Modeling with Camunda: The Podcast appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/camunda-modeler-cawemo-bpmnio-the-podcast/",
           "publishedOn": "2021-06-02T16:58:06.000Z",
-          "wordCount": 1436,
+          "wordCount": 2652,
           "title": "Modeling with Camunda: The Podcast",
           "enclosure": {
             "url": "https://camunda.com/wp-content/uploads/2021/06/soundbite.mp4",
             "length": "1334214",
             "type": "video/mp4"
           }
-        },
-        {
-          "id": "https://camunda.com/?p=21613",
-          "author": "Camunda Team",
-          "description": "How do we make government tech work better for our citizens and our stakeholders? \nThe post Process Automation in Government: Challenges, Benefits, Best Practices appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2021/05/process-automation-in-government-challenges-benefits-best-practices/",
-          "publishedOn": "2021-05-28T10:33:27.000Z",
-          "wordCount": 2016,
-          "title": "Process Automation in Government: Challenges, Benefits, Best Practices"
         }
       ]
     },
@@ -1379,5 +1379,5 @@
       ]
     }
   ],
-  "cliVersion": "1.10.2"
+  "cliVersion": "1.11.0"
 }

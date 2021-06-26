@@ -6,6 +6,24 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/06/25/spring-integration-zip-2-0-0-available",
+          "author": null,
+          "description": "Dear Spring community,\n\r\n\r\n\r\nOn behalf of the team and everyone who contributed, it is my pleasure to announce 2.0.0 version for Spring Integration Zip extension.\n\r\n\r\n\r\nThis version is fully based on recently released Spring Integration 5.5.1 has upgraded other dependencies and  all the tests have been migrated to JUnit 5. The previously released released version 1.0.4 of spring-integration-zip is not compatible with Spring Integration 5th generation.\n\r\n\r\n\r\nThank you everyone who contributed!\n\r\n\r\n\r\nCheers, \n\r\nArtem\n\r\n\r\n\r\nProject Page | GitHub Issues | Contributing | Help | Chat",
+          "link": "https://spring.io/blog/2021/06/25/spring-integration-zip-2-0-0-available",
+          "publishedOn": "2021-06-25T18:55:28.000Z",
+          "wordCount": 469,
+          "title": "Spring Integration Zip 2.0.0 Available"
+        },
+        {
+          "id": "https://spring.io/blog/2021/06/24/spring-boot-2-5-2-is-now-available",
+          "author": null,
+          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 2.5.2 has been released and is now available from Maven Central.\n\r\nThis release includes 53 bug fixes, documentation improvements, and dependency upgrades. Thanks to all those who have contributed with issue reports and pull requests.\nHow can you help?\n\r\nIf you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
+          "link": "https://spring.io/blog/2021/06/24/spring-boot-2-5-2-is-now-available",
+          "publishedOn": "2021-06-25T02:00:00.000Z",
+          "wordCount": 492,
+          "title": "Spring Boot 2.5.2 is now available"
+        },
+        {
           "id": "https://spring.io/blog/2021/06/24/a-bootiful-podcast-webassembly-iot-data-science-and-java-guru-brian-sletten",
           "author": null,
           "description": "Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks to webassembly, IoT, data science, and Java guru Brian Sletten (@bsletten).",
@@ -166,24 +184,6 @@
           "publishedOn": "2021-06-03T08:00:00.000Z",
           "wordCount": 423,
           "title": "A Bootiful Podcast: JHipster creator and Microsoft Java Developer Advocacy manager Julien Dubois"
-        },
-        {
-          "id": "https://spring.io/blog/2021/06/02/wiremock-for-rsocket",
-          "author": null,
-          "description": "If you have an application that connects to an RSocket server at runtime, how do you test it? We need a way for a test to start a server and tell us where it is listening, and then we need to be able to register request and response examples (a.k.a. \"contracts\"). That’s what this project provides - it’s like Wiremock but for RSocket.\n\r\n\r\n\r\nGetting Started\n\r\n\r\n\r\nThe easiest way to use the project is as a JUnit (Jupiter) extension, e.g:\n\r\n\r\n\r\n\r\n@SpringBootTest\r\n@ExtendWith(RSocketServerExtension.class)\r\nclass SocketsApplicationTests {\r\n\t...\r\n}\n\r\n\r\n\r\n\r\nWith this extension installed the Spring Boot tests will run with an RSocket server listening on a port given by test.rsocket.server.port, so the test can connect directly to it, or (more likely) the code that it is testing will connect to it. …",
-          "link": "https://spring.io/blog/2021/06/02/wiremock-for-rsocket",
-          "publishedOn": "2021-06-02T19:52:00.000Z",
-          "wordCount": 1021,
-          "title": "\"Wiremock\" for RSocket"
-        },
-        {
-          "id": "https://spring.io/blog/2021/06/01/this-week-in-spring-june-1st-2021",
-          "author": null,
-          "description": "Hi, Spring fans! Welcome to another installment of This Week in Spring! How’re you doing? I’m doing well! I hope you’re doing well, too. Can you believe we’ve just entered the month of June 2021? WHERE HAS THIS YEAR GONE ALREADY! It’s insane. But, the march of Spring continues, and with each passing week a ton of new stuff to talk about arrives. Let’s get into it!\n\r\n\r\n  \nIn last week’s episode of A Bootiful Podcast, I talked to Micrometer-lead Tommy Ludwig\n\r\n  \nAnnouncing the general availability of the Azure Spring Cloud Terraform provider\n\r\n  \nCool to see an Azure Spring Cloud success story in the MSBuild keynote\n\r\n  \nGet your reactive microservices to Kubernetes with Spring Boot and JHipster\n\r\n  \nMichael Coté asks on Twitter: What’s an API Gateway and why would you use it? Also, what does “business value” mean here? See the full interview with Rita Marinachi, Chris Sterling, and me to hear even more and also a how API gateways fit with service meshes.\n\r\n  \nProviding useful API error messages with Spring Boot\n\r\n  \nSpring Cloud 2020.0.3 (aka Ilford) Is Available\n\r\n  \nSpring Cloud Gateway for Kubernetes lead Chris Sterling on Redmonk\n\r\n  \nSpring Microservices Security Best Practices\n\r\n  \nSpring PetClinic Data JDBC upgraded to Java 16. Records do make a difference \n\r\n  \nCheck out this terminal application for the Spring Initializr: Spring Starter Terminal\n\r\n  \nThis is a reasonable JUnit test runner that hides the green test result logs so as to bring the errors to sharp relief\n\r\n  \nI found this old comic book about the amazing adventures of Java mascot Duke, and it is well worth a read: jcp-ec/AmazingAdventuresOfDuke.pdf at master · jcp-org/jcp-ec · GitHub\n\r\n  \nthis is an interesting blog on sending HTTP requests with WebClient",
-          "link": "https://spring.io/blog/2021/06/01/this-week-in-spring-june-1st-2021",
-          "publishedOn": "2021-06-01T21:00:00.000Z",
-          "wordCount": 671,
-          "title": "This Week in Spring - June 1st, 2021"
         }
       ]
     },
@@ -192,6 +192,15 @@
       "feedUrl": "https://www.hashicorp.com/blog/feed.xml",
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
+        {
+          "id": "https://www.hashicorp.com/blog/hashicorp-certified-a-great-place-to-work",
+          "author": null,
+          "description": "93% of our employees say HashiCorp is a great place to work. In this blog, we share the results from our recent Great Place to Work Trust Index employee survey.",
+          "link": "https://www.hashicorp.com/blog/hashicorp-certified-a-great-place-to-work",
+          "publishedOn": "2021-06-25T16:00:00.000Z",
+          "wordCount": 745,
+          "title": "HashiCorp Certified a Great Place to Work"
+        },
         {
           "id": "https://www.hashicorp.com/blog/5-zero-trust-security-takeaways-from-hashiconf-europe",
           "author": null,
@@ -362,15 +371,6 @@
           "publishedOn": "2021-05-27T18:00:00.000Z",
           "wordCount": 1148,
           "title": "Announcing CDK for Terraform 0.4"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/announcing-consul-service-mesh-for-amazon-ecs",
-          "author": null,
-          "description": "AWS users may now select Consul as their service mesh for ECS deployments.",
-          "link": "https://www.hashicorp.com/blog/announcing-consul-service-mesh-for-amazon-ecs",
-          "publishedOn": "2021-05-26T18:00:00.000Z",
-          "wordCount": 1350,
-          "title": "Announcing Tech Preview of Consul Service Mesh for Amazon ECS"
         }
       ]
     },
@@ -619,12 +619,39 @@
       "siteUrl": "https://devblogs.microsoft.com/devops",
       "articles": [
         {
+          "id": "https://devblogs.microsoft.com/devops/?p=61913",
+          "author": "Jay Gordon",
+          "description": "The top stories from the #AzureDevOps #community for 2021.06.25 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2021.06.25 appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-06-25/",
+          "publishedOn": "2021-06-25T14:00:36.000Z",
+          "wordCount": 1141,
+          "title": "Top Stories from the Microsoft DevOps Community – 2021.06.25"
+        },
+        {
+          "id": "https://devblogs.microsoft.com/devops/?p=61877",
+          "author": "Jay Gordon",
+          "description": "Recently the Developer relations came together to create a video series to get all the essential knowledge to move your project forward with Static Web Apps.  This series provides you with 16 different cookbooks to begin building applications using Azure Static Web Apps.\nThe post How to create your personal blog with Gatsby & Azure Static Web Apps –  Azure Tips & Tricks appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/how-to-create-your-personal-blog-with-gatsby-azure-static-web-apps-azure-tips-tricks/",
+          "publishedOn": "2021-06-24T14:00:43.000Z",
+          "wordCount": 1360,
+          "title": "How to create your personal blog with Gatsby & Azure Static Web Apps –  Azure Tips & Tricks"
+        },
+        {
+          "id": "https://devblogs.microsoft.com/devops/?p=61906",
+          "author": "DevOps Dojo",
+          "description": "Learning is a very old topic. While developing Dojo, we learned that DevOps learning was very different from other types of skill learning because of its complexity, breadth, cultural context, team orientation, and difficulty to measure. As we promised in our first blog,\nThe post DevOps Dojo – Experiential Learning appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/devops-dojo-experiential-learning/",
+          "publishedOn": "2021-06-23T23:36:08.000Z",
+          "wordCount": 9850,
+          "title": "DevOps Dojo – Experiential Learning"
+        },
+        {
           "id": "https://devblogs.microsoft.com/devops/?p=61832",
           "author": "Jay Gordon",
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes – @Azure Data Factory Security with @narainabhishek appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-azure-data-factory-security-with-narainabhishek/",
           "publishedOn": "2021-06-21T16:00:42.000Z",
-          "wordCount": 1318,
+          "wordCount": 1334,
           "title": "AzureFunBytes – @Azure Data Factory Security with @narainabhishek"
         },
         {
@@ -633,7 +660,7 @@
           "description": "The top stories from the #AzureDevOps #community for 2021.06.18 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2021.06.18 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-06-18/",
           "publishedOn": "2021-06-18T14:00:22.000Z",
-          "wordCount": 1110,
+          "wordCount": 1130,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.06.18"
         },
         {
@@ -680,33 +707,6 @@
           "publishedOn": "2021-06-08T17:00:19.000Z",
           "wordCount": 1384,
           "title": "AzureFunBytes Episode 42 – Hybrid Cloud on Azure with @ThomasMaurer"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=61806",
-          "author": "Jay Gordon",
-          "description": "The top stories from the #AzureDevOps #community for 2021.06.04 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2021.06.04 appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-06-04/",
-          "publishedOn": "2021-06-04T12:21:13.000Z",
-          "wordCount": 1205,
-          "title": "Top Stories from the Microsoft DevOps Community – 2021.06.04"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=61796",
-          "author": "pazand",
-          "description": "Personal access tokens (PATs) make it easy to authenticate against Azure Devops to integrate with your tools and services. However, leaked tokens could compromise your Azure DevOps account and data, putting your applications and services at significant risk.\nThe post New policies to restrict personal access token scope and lifespan appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/new-policies-to-restrict-personal-access-token-scope-and-lifespan/",
-          "publishedOn": "2021-06-03T17:46:59.000Z",
-          "wordCount": 1434,
-          "title": "New policies to restrict personal access token scope and lifespan"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=61789",
-          "author": "Jay Gordon",
-          "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes – Intro to Bicep appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/azurefunbytes-intro-to-bicep/",
-          "publishedOn": "2021-06-02T14:33:53.000Z",
-          "wordCount": 1200,
-          "title": "AzureFunBytes – Intro to Bicep"
         }
       ]
     },
@@ -873,6 +873,15 @@
       "siteUrl": "https://xkcd.com/",
       "articles": [
         {
+          "id": "https://xkcd.com/2481/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/1991_and_2021.png\" title=\"\" alt=\"\" />",
+          "link": "https://xkcd.com/2481/",
+          "publishedOn": "2021-06-25T00:00:00.000Z",
+          "wordCount": 187,
+          "title": "1991 and 2021"
+        },
+        {
           "id": "https://xkcd.com/2480/",
           "author": null,
           "description": "<img src=\"https://imgs.xkcd.com/comics/no_the_other_one.png\" title=\"Key West, Virginia is not to be confused with Key, West Virginia.\" alt=\"Key West, Virginia is not to be confused with Key, West Virginia.\" />",
@@ -898,15 +907,6 @@
           "publishedOn": "2021-06-18T00:00:00.000Z",
           "wordCount": 187,
           "title": "Alien Visitors 2"
-        },
-        {
-          "id": "https://xkcd.com/2477/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/alien_visitors.png\" title=\"Stay right there, we'll be back in a minute. We've just gotta brainstorm some new wonders. Have you all figured out gears yet? Yes? Crap.\" alt=\"Stay right there, we'll be back in a minute. We've just gotta brainstorm some new wonders. Have you all figured out gears yet? Yes? Crap.\" />",
-          "link": "https://xkcd.com/2477/",
-          "publishedOn": "2021-06-16T00:00:00.000Z",
-          "wordCount": 185,
-          "title": "Alien Visitors"
         }
       ]
     },
@@ -915,6 +915,23 @@
       "feedUrl": "https://softwareengineeringdaily.com/feed/podcast/",
       "siteUrl": "https://softwareengineeringdaily.com/archives/",
       "articles": [
+        {
+          "id": "https://softwareengineeringdaily.com/?p=11141",
+          "author": null,
+          "description": "The cloud has delivered amazing benefits like on-demand infrastructure that’s easy to use, pay-as-you-go subscription plans, and effortless scaling of applications. This flexibility minimizes the growing pains for businesses and explains why today’s startups and established companies are both building apps on the cloud.  However, the costs of using the cloud stack up once companies\nThe post Cloud Cost with Martin Casado appeared first on Software Engineering Daily.",
+          "link": "https://softwareengineeringdaily.com/2021/06/25/cloud-cost-with-martin-casado/?utm_source=rss&utm_medium=rss&utm_campaign=cloud-cost-with-martin-casado",
+          "publishedOn": "2021-06-25T09:00:50.000Z",
+          "wordCount": null,
+          "title": "Cloud Cost with Martin Casado",
+          "itunes": {
+            "duration": "49:26"
+          },
+          "enclosure": {
+            "url": "https://traffic.megaphone.fm/SED6949261638.mp3",
+            "length": "47500344",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "https://softwareengineeringdaily.com/?p=11143",
           "author": null,
@@ -1237,40 +1254,6 @@
             "length": "45697991",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "https://softwareengineeringdaily.com/?p=10991",
-          "author": null,
-          "description": "Data exploration uses visual exploration to understand what is in a dataset and the characteristics of the data. Data scientists explore data to understand things like customer behavior and resource utilization. Some common programming languages used for data exploration are Python, R, and Matlab.  Doris Jung-Lin Lee is currently a Graduate Research Assistant at the\nThe post Data Exploration with a New Python Library with Doris Lee appeared first on Software Engineering Daily.",
-          "link": "https://softwareengineeringdaily.com/2021/05/27/data-exploration-with-a-new-python-library-with-doris-lee/?utm_source=rss&utm_medium=rss&utm_campaign=data-exploration-with-a-new-python-library-with-doris-lee",
-          "publishedOn": "2021-05-27T09:00:16.000Z",
-          "wordCount": null,
-          "title": "Data Exploration with a New Python Library with Doris Lee",
-          "itunes": {
-            "duration": "47:58"
-          },
-          "enclosure": {
-            "url": "https://traffic.megaphone.fm/SED1351893925.mp3",
-            "length": "46083032",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "https://softwareengineeringdaily.com/?p=10990",
-          "author": null,
-          "description": "Arun Kumar is an Assistant Professor in the Department of Computer Science and Engineering and the Halicioglu Data Science Institute at the University of California, San Diego. His primary research interests are in data management and systems for machine learning/artificial intelligence-based data analytics.  Systems and ideas based on his research have been released as part\nThe post Data Management Systems and Artificial Intelligence with Arun Kumar appeared first on Software Engineering Daily.",
-          "link": "https://softwareengineeringdaily.com/2021/05/26/data-management-systems-and-artificial-intelligence-with-arun-kumar/?utm_source=rss&utm_medium=rss&utm_campaign=data-management-systems-and-artificial-intelligence-with-arun-kumar",
-          "publishedOn": "2021-05-27T02:58:05.000Z",
-          "wordCount": null,
-          "title": "Data Management Systems and Artificial Intelligence with Arun Kumar",
-          "itunes": {
-            "duration": "1:03:29"
-          },
-          "enclosure": {
-            "url": "https://traffic.megaphone.fm/SED4209918231.mp3",
-            "length": "60981604",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -1280,12 +1263,21 @@
       "siteUrl": "https://camunda.com",
       "articles": [
         {
+          "id": "https://camunda.com/?p=22723",
+          "author": "Charley Mann",
+          "description": "Is it possible to digitize consultations with tax and legal experts in order to seamlessly guide decision-makers towards consistent and compliant decisions? \nThe post How Deloitte Digitizes Tax and Legal Consultations with DMN appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2021/06/how-deloitte-digitizes-tax-and-legal-consultations-with-dmn/",
+          "publishedOn": "2021-06-25T08:00:05.000Z",
+          "wordCount": 2044,
+          "title": "How Deloitte Digitizes Tax and Legal Consultations with DMN"
+        },
+        {
           "id": "https://camunda.com/?p=22625",
           "author": "Charley Mann",
           "description": "Automating the back-office with Camunda Platform - saving up to 30% of time previously spent handling electronic payment card requests.\nThe post Jyske Bank: From Emails to Automation appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/jyske-bank-from-emails-to-automation/",
           "publishedOn": "2021-06-23T13:22:09.000Z",
-          "wordCount": 1851,
+          "wordCount": 1858,
           "title": "Jyske Bank: From Emails to Automation"
         },
         {
@@ -1294,7 +1286,7 @@
           "description": "Camunda Platform is deployed by more than half of the top 15 banks in the U.S., including Morgan Stanley, Truist and Goldman Sachs.\nThe post Why Fortune 500 Banks use Camunda Platform appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/why-fortune-500-banks-use-camunda-platform/",
           "publishedOn": "2021-06-18T16:02:02.000Z",
-          "wordCount": 1615,
+          "wordCount": 1621,
           "title": "Why Fortune 500 Banks use Camunda Platform"
         },
         {
@@ -1303,7 +1295,7 @@
           "description": "What is Camunda Cloud, and why is the community so excited about the first ever on-demand SaaS process automation as a service?\nThe post Your Camunda Cloud Questions Answered appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/your-camunda-cloud-questions-answered/",
           "publishedOn": "2021-06-15T08:00:00.000Z",
-          "wordCount": 2241,
+          "wordCount": 2247,
           "title": "Your Camunda Cloud Questions Answered"
         },
         {
@@ -1312,7 +1304,7 @@
           "description": "How did one of Germany’s leading insurers, handling insurance premiums in excess of six billion per year, undergo a complete digital transformation in less than six years?\nThe post Scaling Camunda Adoption at Provinzial appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/scaling-camunda-adoption-at-provinzial/",
           "publishedOn": "2021-06-14T13:39:19.000Z",
-          "wordCount": 1914,
+          "wordCount": 1848,
           "title": "Scaling Camunda Adoption at Provinzial"
         },
         {
@@ -1321,7 +1313,7 @@
           "description": "We’re thrilled to introduce our first cohort of Camunda Champions - individuals who demonstrate product expertise while actively supporting and contributing to developer communities.\nThe post Welcome, Camunda Champions appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/welcome-camunda-champions/",
           "publishedOn": "2021-06-10T08:59:42.000Z",
-          "wordCount": 1667,
+          "wordCount": 1673,
           "title": "Welcome, Camunda Champions"
         },
         {
@@ -1330,7 +1322,7 @@
           "description": "Our partner Novatec combined Business Process Management with Artificial Intelligence, and the result was awesome!\nThe post Intelligent Process Automation with Camunda and Amazon Comprehend appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/intelligent-process-automation-with-camunda-and-amazon-comprehend/",
           "publishedOn": "2021-06-09T09:25:59.000Z",
-          "wordCount": 2751,
+          "wordCount": 2757,
           "title": "Intelligent Process Automation with Camunda and Amazon Comprehend"
         },
         {
@@ -1339,7 +1331,7 @@
           "description": "We’re excited to announce the release of Camunda Cloud 1.1.0-alpha1, which includes 1.1.0-alpha1  versions of Zeebe, Operate and\nThe post Camunda Cloud 1.1.0-alpha1 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/camunda-cloud-110-alpha1-released/",
           "publishedOn": "2021-06-08T15:08:51.000Z",
-          "wordCount": 1554,
+          "wordCount": 1563,
           "title": "Camunda Cloud 1.1.0-alpha1 Released"
         },
         {
@@ -1348,7 +1340,7 @@
           "description": "We’re excited to announce the release of Camunda Optimize 3.5.0-alpha2, featuring a new Elasticsearch header plugin, and Report embedding improvements. \nThe post Camunda Optimize 3.5.0-alpha2 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/camunda-optimize-3-5-0-alpha2-released/",
           "publishedOn": "2021-06-08T07:15:00.000Z",
-          "wordCount": 1651,
+          "wordCount": 2272,
           "title": "Camunda Optimize 3.5.0-alpha2 Released"
         },
         {
@@ -1357,22 +1349,8 @@
           "description": "We are pleased to announce the next alpha release of Camunda Platform Runtime 7.16. This release features the following improvements: Cockpit: Set Variables on Process Instance Migration (Enterprise) 7 Bug Fixes You can Download Camunda for free or Run it with Docker. For a complete list of all improvements, take a look at the release notes. Please also see the list of known issues. If you want to dig in deeper, you can find the source code on GitHub. Cockpit: Set Variables on Process Instance Migration This feature is only available in the Enterprise Edition of the Camunda Platform Runtime — try it out with a free trial. Our last alpha release featured the option to Set Variables on Process...\nThe post Camunda Platform Runtime 7.16.0-alpha2 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/camunda-platform-runtime-7160-alpha2-released/",
           "publishedOn": "2021-06-08T07:00:00.000Z",
-          "wordCount": 1398,
+          "wordCount": null,
           "title": "Camunda Platform Runtime 7.16.0-alpha2 Released"
-        },
-        {
-          "id": "https://camunda.com/?p=21776",
-          "author": "Josh Wulf",
-          "description": "The latest episode of the Camunda Nation podcast is live, and this time we’re talking all things BPMN Modeling with Camunda Platform engineer Maciej Barelkowski.\nThe post Modeling with Camunda: The Podcast appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2021/06/camunda-modeler-cawemo-bpmnio-the-podcast/",
-          "publishedOn": "2021-06-02T16:58:06.000Z",
-          "wordCount": 1437,
-          "title": "Modeling with Camunda: The Podcast",
-          "enclosure": {
-            "url": "https://camunda.com/wp-content/uploads/2021/06/soundbite.mp4",
-            "length": "1334214",
-            "type": "video/mp4"
-          }
         }
       ]
     },

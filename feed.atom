@@ -1,10 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-06-30T00:19:43.167Z</id>
+    <id>urn:2021-07-01T00:21:47.627Z</id>
     <title>osmos::feed</title>
-    <updated>2021-06-30T00:19:43.167Z</updated>
+    <updated>2021-07-01T00:21:47.627Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[How the Elastic InfoSec team uses Elastic Security]]></title>
+        <id>https://www.elastic.co/blog/how-the-elastic-infosec-team-uses-elastic-security</id>
+        <link href="https://www.elastic.co/blog/how-the-elastic-infosec-team-uses-elastic-security"/>
+        <updated>2021-06-30T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[At Elastic, we internally use, test, and provide feedback on all of our products. For example, the Information Security team is helping the Product team build a stronger solution for our customers.
+
+The InfoSec team is an extremely valuable resource who acts not only as an extension of Quality Assurance/Testing, but also as a data custodian. In fact, our internal detections team utilizes internal Elastic InfoSec data to help build and test detection rules that ultimately find their way into the Elastic Security product.
+Last month, I was afforded the wonderful opportunity of “riding along” with our InfoSec team to better understand how we use Elastic internally. Over the course of three days, spread across three weeks, I saw the underbelly of our internal systems, how they are used, and ho…]]></summary>
+        <author>
+            <name>MIchael Baldwin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Prime Day 2021 – Two Chart-Topping Days]]></title>
+        <id>0989c2f1a859a1e69d4d900252cc47ca4e779558</id>
+        <link href="http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/dZ110navB2M/"/>
+        <updated>2021-06-30T16:08:14.000Z</updated>
+        <summary type="html"><![CDATA[In what has now become an annual tradition (check out my 2016, 2017, 2019, and 2020 posts for a look back), I am happy to share some of the metrics from this year’s Prime Day and to tell you how AWS helped to make it happen. This year I bought all sorts of useful goodies […]]]></summary>
+        <author>
+            <name>Jeff Barr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Tips: Spring Retrosocket]]></title>
+        <id>https://spring.io/blog/2021/06/30/spring-tips-spring-retrosocket</id>
+        <link href="https://spring.io/blog/2021/06/30/spring-tips-spring-retrosocket"/>
+        <updated>2021-06-30T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hi, Spring fans! In this installment, Josh Long looks at Spring Retrosocket, an EXPERIMENTAL project designed to provide an OpenFeign- or Retrofit-like experience for RSocket clients.]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Monitoring Kubernetes with the Elastic Stack using Prometheus and Fluentd]]></title>
         <id>https://www.elastic.co/blog/monitoring-kubernetes-with-the-elastic-stack-using-prometheus-and-fluentd</id>
@@ -61,6 +94,47 @@ While blended work environments are likely here to stay, 58% of 1,000 US-based k
 The post Magic with Sean Li appeared first on Software Engineering Daily.]]></summary>
         <author>
             <name>Software Engineering Daily</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This Week in Spring - June 29th, 2021]]></title>
+        <id>https://spring.io/blog/2021/06/29/this-week-in-spring-june-29th-2021</id>
+        <link href="https://spring.io/blog/2021/06/29/this-week-in-spring-june-29th-2021"/>
+        <updated>2021-06-29T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hi, Spring fans! Welcome to another installment of This Week in Spring! How’re you doin’? I’ve been busy working on new Spring Tips videos! (You are subscribed to our YouTube channel, aren’t you?) I’ll be doing Tanzu Code tomorrow, so don’t miss that. We’re going to be hacking on Spring Native, Spring Cloud Square, Spring Integration, and so much more. 
+
+
+  
+Hi, Spring fans! In last week’s installment of Spring Tips, I look at Kubernetes Native Java
+
+  
+A Bootiful Podcast: webassembly, IoT, data science, and Java guru Brian Sletten
+
+  
+Blog: Announcing Kubernetes Community Group Annual Reports
+
+  
+CVE report published for Spring Security
+
+  
+I was on the Software-Defined Talk podcast with Michael Coté last week. Check it out: Developer Relations with Josh Long
+
+  
+A new version of GraalVM Native Image build tools is available!
+
+  
+Spring Boot 2.4.8 is now available
+
+  
+Spring Boot 2.5.2 is now available
+
+  
+Spring Integration Zip 2.0.0 Available
+
+  
+Meet the team that worked with many customers to build the Azure Spring Cloud reference architecture. Deploy Spring Boot apps with confidence using enterprise best practices]]></summary>
+        <author>
+            <name>Spring</name>
         </author>
     </entry>
     <entry>
@@ -1211,27 +1285,6 @@ The post AzureFunBytes Presents: Migrating Your Data – Create Your Cosmos DB a
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to configure Elastic Cloud on Kubernetes with SAML and hot-warm-cold architecture]]></title>
-        <id>https://www.elastic.co/blog/how-to-configure-elastic-cloud-on-kubernetes-with-saml-and-hot-warm-cold-architecture</id>
-        <link href="https://www.elastic.co/blog/how-to-configure-elastic-cloud-on-kubernetes-with-saml-and-hot-warm-cold-architecture"/>
-        <updated>2021-06-10T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Elastic Cloud on Kubernetes (ECK) is an easy way to get the Elastic Stack up and running on top of Kubernetes. That’s because ECK automates the deployment, provisioning, management, and setup of Elasticsearch, Kibana, Beats, and more. 
-
-As logging and metric data — or time series data — has a predictable lifespan, you can use hot, warm, and cold architecture to easily manage your data over time as it ages and becomes less relevant.
-
-In this guide, we’ll explain how to set up SAML with auth0 as an identity provider (IdP) as well as how to configure your deployment for hot-warm-cold architecture with ECK. We’ll use production features such as:
-
-Dedicated nodes
-Zone awareness
-Pod and node affinity
-PodDisruption
-Dedicated storage class
-Before you get started, you should be familiar with SAML. …]]></summary>
-        <author>
-            <name>Francismara Souza</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Spring Boot 2.4.7 available now]]></title>
         <id>https://spring.io/blog/2021/06/10/spring-boot-2-4-7-available-now</id>
         <link href="https://spring.io/blog/2021/06/10/spring-boot-2-4-7-available-now"/>
@@ -1356,47 +1409,6 @@ The post GCP with Liz Fong-Jones appeared first on Software Engineering Daily.]]
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[This Week in Spring - June 8th, 2021]]></title>
-        <id>https://spring.io/blog/2021/06/08/this-week-in-spring-june-8th-2021</id>
-        <link href="https://spring.io/blog/2021/06/08/this-week-in-spring-june-8th-2021"/>
-        <updated>2021-06-09T06:46:00.000Z</updated>
-        <summary type="html"><![CDATA[Hi, Spring fans! What’s shaking? It’s one of those weeks where, even though the thing I wanted to happen - a vacation with the family - didn’t happen, what did happen - accidentally lots of free time with no meetings - has turned out wonderfully. It was all I could do to pry myself from the IDE to pull together this week’s roundup, but I am glad I did! There’s a ton of great stuff there. Let’s dive into it.
-
-
-  
-I love this post by the good Dr. David Syer: “Wiremock” for RSocket
-
-  
-In this week’s installment of A Bootiful Podcast, JHipster creator and Microsoft Java Developer Advocacy manager Julien Dubois
-
-  
-Kotlin 1.5.0 Release Community Event
-
-  
-This is super interesting: OpenJDK on RISC-V - an update from Alibaba
-
-  
-To all the readers of my little book so far: Thank you! Schiko on Twitter: “Reactive Spring” by @starbuxman is without a doubt the best programming book i’ve ever read. Thanks Josh! https://t.co/nAzdK4kNyn #springboot #Java" / Twitter
-
-  
-Spring Integration AWS 2.5.1 and Spring Cloud Stream Kinesis Binder 2.2.0 Available
-
-  
-The presentation that Brian Sam Bodden and I did for RedisConf - “An application framework worthy of Redis” - is now available on YouTube! Check it out!
-
-  
-What’s new with content at VMworld 2021?
-
-  
-agschnitzer/multitenant: Multi-Tenant Spring Boot Application using Hibernate and H2
-
-  
-Got 30 minutes? Learn how to propel Java applications into the future with @AzureCosmosDB, a fast NoSQL database with open APIs for any scale! Start learning]]></summary>
-        <author>
-            <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[File Access Auditing Is Now Available for Amazon FSx for Windows File Server]]></title>
         <id>0a6f033f543473ec26043a249a9479efeac02c59</id>
         <link href="http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/RJ2Ne6UWkrg/"/>
@@ -1510,69 +1522,6 @@ The post Camunda Platform Runtime 7.16.0-alpha2 Released appeared first on Camun
 The post AWS with Pete Cheslock appeared first on Software Engineering Daily.]]></summary>
         <author>
             <name>Software Engineering Daily</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spring Integration AWS 2.5.1 and Spring Cloud Stream Kinesis Binder 2.2.0 Available]]></title>
-        <id>https://spring.io/blog/2021/06/04/spring-integration-aws-2-5-1-and-spring-cloud-stream-kinesis-binder-2-2-0-available</id>
-        <link href="https://spring.io/blog/2021/06/04/spring-integration-aws-2-5-1-and-spring-cloud-stream-kinesis-binder-2-2-0-available"/>
-        <updated>2021-06-04T17:51:28.000Z</updated>
-        <summary type="html"><![CDATA[Dear Spring Community,
-
-
-
-Today it’s my pleasure to announce releases of Spring Integration for Amazon Web Services extension versions 2.5.1 and Spring Cloud Stream Binder for AWS Kinesis 2.2.0.
-
-
-
-These releases can be downloaded from Maven Central:
-
-
-
-
-compile 'org.springframework.integration:spring-integration-aws:2.5.1'
-
-
-
-
-If you don’t use Kinesis Binder.
-Or via Binder dependency:
-
-
-
-
-compile 'org.springframework.cloud:spring-cloud-stream-binder-kinesis:2.2.0'
-
-
-
-
-Spring Integration for AWS extension of 2.5.1 has some minor bug fixes after the previous 2.5.0 announcement.
-
-
-
-The Spring Cloud Stream Binder for AWS Kinesis 2.2.0 is the first release in the project generation which is based on a new independent Spring Cloud for AWS artifact. It also was upgraded to the latest Spring Cloud 2020.0.3 and has some other bug fixes and improvements.
-
-
-
-Any feedback is welcome via all the available communication channels!
-
-
-
-Spring Integration for AWS resources:
-
-
-
-Project Page | Contributing | Help | Chat
-
-
-
-Spring Cloud Stream Binder for AWS Kinesis resources:
-
-
-
-Project Page | Contributing | Help | Chat]]></summary>
-        <author>
-            <name>Spring</name>
         </author>
     </entry>
     <entry>
@@ -1719,17 +1668,6 @@ The post Polygon: Connecting Ethereum Compatible Blockchain Networks with Denis 
         <summary type="html"><![CDATA[The redesigned interface for HashiCorp Terraform Cloud brings clarity to how your resources, state, and infrastructure operations are represented during a Terraform run.]]></summary>
         <author>
             <name>HashiCorp Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWS Outpost Engineering with Joshua Burgin]]></title>
-        <id>https://softwareengineeringdaily.com/?p=11003</id>
-        <link href="https://softwareengineeringdaily.com/2021/06/01/aws-outpost-engineering-with-joshua-burgin/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=aws-outpost-engineering-with-joshua-burgin"/>
-        <updated>2021-06-01T09:00:52.000Z</updated>
-        <summary type="html"><![CDATA[AWS Outposts is a fully managed service that offers the same AWS infrastructure, AWS services, APIs, and tools to virtually any datacenter, co-location space, or on-premises facility for a truly consistent hybrid experience. AWS Outposts is ideal for workloads that require low latency access to on-premises systems, local data processing, data residency, and migration of
-The post AWS Outpost Engineering with Joshua Burgin appeared first on Software Engineering Daily.]]></summary>
-        <author>
-            <name>Software Engineering Daily</name>
         </author>
     </entry>
 </feed>

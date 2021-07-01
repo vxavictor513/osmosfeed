@@ -6,6 +6,24 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/06/30/spring-tips-spring-retrosocket",
+          "author": null,
+          "description": "Hi, Spring fans! In this installment, Josh Long looks at Spring Retrosocket, an EXPERIMENTAL project designed to provide an OpenFeign- or Retrofit-like experience for RSocket clients.",
+          "link": "https://spring.io/blog/2021/06/30/spring-tips-spring-retrosocket",
+          "publishedOn": "2021-06-30T07:00:00.000Z",
+          "wordCount": 409,
+          "title": "Spring Tips: Spring Retrosocket"
+        },
+        {
+          "id": "https://spring.io/blog/2021/06/29/this-week-in-spring-june-29th-2021",
+          "author": null,
+          "description": "Hi, Spring fans! Welcome to another installment of This Week in Spring! How’re you doin’? I’ve been busy working on new Spring Tips videos! (You are subscribed to our YouTube channel, aren’t you?) I’ll be doing Tanzu Code tomorrow, so don’t miss that. We’re going to be hacking on Spring Native, Spring Cloud Square, Spring Integration, and so much more. \n\r\n\r\n  \nHi, Spring fans! In last week’s installment of Spring Tips, I look at Kubernetes Native Java\n\r\n  \nA Bootiful Podcast: webassembly, IoT, data science, and Java guru Brian Sletten\n\r\n  \nBlog: Announcing Kubernetes Community Group Annual Reports\n\r\n  \nCVE report published for Spring Security\n\r\n  \nI was on the Software-Defined Talk podcast with Michael Coté last week. Check it out: Developer Relations with Josh Long\n\r\n  \nA new version of GraalVM Native Image build tools is available!\n\r\n  \nSpring Boot 2.4.8 is now available\n\r\n  \nSpring Boot 2.5.2 is now available\n\r\n  \nSpring Integration Zip 2.0.0 Available\n\r\n  \nMeet the team that worked with many customers to build the Azure Spring Cloud reference architecture. Deploy Spring Boot apps with confidence using enterprise best practices",
+          "link": "https://spring.io/blog/2021/06/29/this-week-in-spring-june-29th-2021",
+          "publishedOn": "2021-06-29T08:00:00.000Z",
+          "wordCount": 566,
+          "title": "This Week in Spring - June 29th, 2021"
+        },
+        {
           "id": "https://spring.io/blog/2021/06/28/cve-report-published-for-spring-security",
           "author": null,
           "description": "We have released Spring Security 5.5.1, 5.4.7, 5.3.10 and 5.2.11 to address the following CVE report:\n\r\n\r\n  \nCVE-2021-22119: Denial-of-Service attack with spring-security-oauth2-client\n\r\n\r\nPlease review the information in the CVE report and upgrade immediately.\n\r\nSpring Boot users should upgrade to 2.5.2 or 2.4.8.",
@@ -166,24 +184,6 @@
           "publishedOn": "2021-06-09T09:57:00.000Z",
           "wordCount": 433,
           "title": "Spring Framework 5.3.8 available now"
-        },
-        {
-          "id": "https://spring.io/blog/2021/06/08/this-week-in-spring-june-8th-2021",
-          "author": null,
-          "description": "Hi, Spring fans! What’s shaking? It’s one of those weeks where, even though the thing I wanted to happen - a vacation with the family - didn’t happen, what did happen - accidentally lots of free time with no meetings - has turned out wonderfully. It was all I could do to pry myself from the IDE to pull together this week’s roundup, but I am glad I did! There’s a ton of great stuff there. Let’s dive into it.\n\r\n\r\n  \nI love this post by the good Dr. David Syer: “Wiremock” for RSocket\n\r\n  \nIn this week’s installment of A Bootiful Podcast, JHipster creator and Microsoft Java Developer Advocacy manager Julien Dubois\n\r\n  \nKotlin 1.5.0 Release Community Event\n\r\n  \nThis is super interesting: OpenJDK on RISC-V - an update from Alibaba\n\r\n  \nTo all the readers of my little book so far: Thank you! Schiko on Twitter: “Reactive Spring” by @starbuxman is without a doubt the best programming book i’ve ever read. Thanks Josh! https://t.co/nAzdK4kNyn #springboot #Java\" / Twitter\n\r\n  \nSpring Integration AWS 2.5.1 and Spring Cloud Stream Kinesis Binder 2.2.0 Available\n\r\n  \nThe presentation that Brian Sam Bodden and I did for RedisConf - “An application framework worthy of Redis” - is now available on YouTube! Check it out!\n\r\n  \nWhat’s new with content at VMworld 2021?\n\r\n  \nagschnitzer/multitenant: Multi-Tenant Spring Boot Application using Hibernate and H2\n\r\n  \nGot 30 minutes? Learn how to propel Java applications into the future with @AzureCosmosDB, a fast NoSQL database with open APIs for any scale! Start learning",
-          "link": "https://spring.io/blog/2021/06/08/this-week-in-spring-june-8th-2021",
-          "publishedOn": "2021-06-09T06:46:00.000Z",
-          "wordCount": 637,
-          "title": "This Week in Spring - June 8th, 2021"
-        },
-        {
-          "id": "https://spring.io/blog/2021/06/04/spring-integration-aws-2-5-1-and-spring-cloud-stream-kinesis-binder-2-2-0-available",
-          "author": null,
-          "description": "Dear Spring Community,\n\r\n\r\n\r\nToday it’s my pleasure to announce releases of Spring Integration for Amazon Web Services extension versions 2.5.1 and Spring Cloud Stream Binder for AWS Kinesis 2.2.0.\n\r\n\r\n\r\nThese releases can be downloaded from Maven Central:\n\r\n\r\n\r\n\r\ncompile 'org.springframework.integration:spring-integration-aws:2.5.1'\n\r\n\r\n\r\n\r\nIf you don’t use Kinesis Binder.\r\nOr via Binder dependency:\n\r\n\r\n\r\n\r\ncompile 'org.springframework.cloud:spring-cloud-stream-binder-kinesis:2.2.0'\n\r\n\r\n\r\n\r\nSpring Integration for AWS extension of 2.5.1 has some minor bug fixes after the previous 2.5.0 announcement.\n\r\n\r\n\r\nThe Spring Cloud Stream Binder for AWS Kinesis 2.2.0 is the first release in the project generation which is based on a new independent Spring Cloud for AWS artifact. It also was upgraded to the latest Spring Cloud 2020.0.3 and has some other bug fixes and improvements.\n\r\n\r\n\r\nAny feedback is welcome via all the available communication channels!\n\r\n\r\n\r\nSpring Integration for AWS resources:\n\r\n\r\n\r\nProject Page | Contributing | Help | Chat\n\r\n\r\n\r\nSpring Cloud Stream Binder for AWS Kinesis resources:\n\r\n\r\n\r\nProject Page | Contributing | Help | Chat",
-          "link": "https://spring.io/blog/2021/06/04/spring-integration-aws-2-5-1-and-spring-cloud-stream-kinesis-binder-2-2-0-available",
-          "publishedOn": "2021-06-04T17:51:28.000Z",
-          "wordCount": 553,
-          "title": "Spring Integration AWS 2.5.1 and Spring Cloud Stream Kinesis Binder 2.2.0 Available"
         }
       ]
     },
@@ -198,7 +198,7 @@
           "description": "Learn how to build an automated HashiCorp Vault onboarding system with Terraform using sensible naming standards, ACL policy templates, pre-created application entities, and workflows driven by VCS and CI/CD.",
           "link": "https://www.hashicorp.com/blog/onboarding-applications-to-vault-using-terraform-a-practical-guide",
           "publishedOn": "2021-06-29T16:00:00.000Z",
-          "wordCount": 2273,
+          "wordCount": 2278,
           "title": "Onboarding Applications to Vault Using Terraform: A Practical Guide"
         },
         {
@@ -207,7 +207,7 @@
           "description": "93% of our employees say HashiCorp is a great place to work. In this blog, we share the results from our recent Great Place to Work Trust Index employee survey.",
           "link": "https://www.hashicorp.com/blog/hashicorp-certified-a-great-place-to-work",
           "publishedOn": "2021-06-25T16:00:00.000Z",
-          "wordCount": 745,
+          "wordCount": 748,
           "title": "HashiCorp Certified a Great Place to Work"
         },
         {
@@ -216,7 +216,7 @@
           "description": "HashiConf Europe speakers from Starbucks and Roblox share how they leverage HashiCorp Vault, Consul, and Boundary to create a zero trust security model.",
           "link": "https://www.hashicorp.com/blog/5-zero-trust-security-takeaways-from-hashiconf-europe",
           "publishedOn": "2021-06-24T16:00:00.000Z",
-          "wordCount": 1283,
+          "wordCount": 1322,
           "title": "5 Zero Trust Security Takeaways From HashiConf Europe"
         },
         {
@@ -225,7 +225,7 @@
           "description": "Learn how to provision a Google Kubernetes Engine (GKE) cluster and prepare it for application deployment using TypeScript via CDK for Terraform.",
           "link": "https://www.hashicorp.com/blog/gke-cluster-setup-with-cdk-for-terraform",
           "publishedOn": "2021-06-23T20:00:00.000Z",
-          "wordCount": 3439,
+          "wordCount": 3442,
           "title": "GKE Cluster Setup with CDK for Terraform"
         },
         {
@@ -234,7 +234,7 @@
           "description": "Consul 1.10 adds exciting new features such as transparent proxy for service mesh, support for xDS v3, streaming, and observability enhancements.",
           "link": "https://www.hashicorp.com/blog/announcing-consul-1-10",
           "publishedOn": "2021-06-23T16:00:00.000Z",
-          "wordCount": 1035,
+          "wordCount": 1038,
           "title": "Announcing Consul 1.10 GA"
         },
         {
@@ -243,7 +243,7 @@
           "description": "A new Terraform provider allows you to manage users, groups, and domains in your Google Workspace (formerly G Suite).",
           "link": "https://www.hashicorp.com/blog/announcing-the-google-workspace-provider-for-hashicorp-terraform-tech-preview",
           "publishedOn": "2021-06-23T15:00:00.000Z",
-          "wordCount": 1305,
+          "wordCount": 1308,
           "title": "Announcing the Google Workspace Provider for HashiCorp Terraform Tech Preview"
         },
         {
@@ -252,7 +252,7 @@
           "description": "CTS 0.2 includes Task Run Conditions, Terraform 0.15 Support, and more.",
           "link": "https://www.hashicorp.com/blog/announcing-general-availability-of-consul-terraform-sync-0-2",
           "publishedOn": "2021-06-22T19:00:00.000Z",
-          "wordCount": 998,
+          "wordCount": 1001,
           "title": "Announcing General Availability of Consul-Terraform-Sync 0.2"
         },
         {
@@ -261,7 +261,7 @@
           "description": "Watch all 30+ videos HashiConf Europe 2021 with these on-demand videos of all the keynotes, sessions, and customer presentations.",
           "link": "https://www.hashicorp.com/blog/hashiconf-europe-2021-recap-and-videos",
           "publishedOn": "2021-06-21T18:30:00.000Z",
-          "wordCount": 2011,
+          "wordCount": 1982,
           "title": "HashiConf Europe 2021 Recap and Videos"
         },
         {
@@ -270,7 +270,7 @@
           "description": "We asked users how they are using HashiCorp Consul, here’s what they told us.",
           "link": "https://www.hashicorp.com/blog/survey-results-how-do-you-connect-with-consul",
           "publishedOn": "2021-06-17T16:00:00.000Z",
-          "wordCount": 1172,
+          "wordCount": 1175,
           "title": "Survey Results:  How Do You Connect with Consul?"
         },
         {
@@ -279,7 +279,7 @@
           "description": "Get a walkthrough of the code and workflow for setting up NIA with Consul-Terraform-Sync (CTS) and A10 ADC.",
           "link": "https://www.hashicorp.com/blog/how-build-network-infrastructure-automation-nia-hashicorp-terraform-consul-a10-adc",
           "publishedOn": "2021-06-16T16:00:00.000Z",
-          "wordCount": 2455,
+          "wordCount": 2458,
           "title": "How to Build Network Infrastructure Automation (NIA) with HashiCorp Terraform, Consul, and A10 ADC"
         },
         {
@@ -288,7 +288,7 @@
           "description": "The latest release of HashiCorp Boundary includes managed groups and OIDC configuration improvements, while Boundary Desktop is now available on Windows.",
           "link": "https://www.hashicorp.com/blog/announcing-hashicorp-boundary-0-3",
           "publishedOn": "2021-06-15T16:00:00.000Z",
-          "wordCount": 785,
+          "wordCount": 788,
           "title": "Announcing HashiCorp Boundary 0.3"
         },
         {
@@ -297,7 +297,7 @@
           "description": "In order to support its growing ecosystem and community as we move toward the 3.0 release, we are making changes to Vagrant that will maintain its Ruby-based features while being ported to Go.",
           "link": "https://www.hashicorp.com/blog/toward-vagrant-3-0",
           "publishedOn": "2021-06-11T16:00:00.000Z",
-          "wordCount": 1798,
+          "wordCount": 1801,
           "title": "Toward Vagrant 3.0"
         },
         {
@@ -306,7 +306,7 @@
           "description": "HCP Packer is a new cloud service designed to bridge the gap between image creation and deployment with image-management workflows. The service will be available for beta testing in the coming months.",
           "link": "https://www.hashicorp.com/blog/announcing-hcp-packer",
           "publishedOn": "2021-06-09T10:50:00.000Z",
-          "wordCount": 898,
+          "wordCount": 901,
           "title": "Announcing HCP Packer"
         },
         {
@@ -315,7 +315,7 @@
           "description": "The HashiCorp Cloud Platform (HCP) now has expanded capabilities for networking, single sign-on, and more. HCP will also support new configurations of HashiCorp Consul and HashiCorp Vault in the coming months.",
           "link": "https://www.hashicorp.com/blog/hashicorp-cloud-platform-adds-transit-gateway-okta-new-skus",
           "publishedOn": "2021-06-09T10:50:00.000Z",
-          "wordCount": 1414,
+          "wordCount": 1417,
           "title": "HashiCorp Cloud Platform Adds Transit Gateway, Okta Support, New Packages"
         },
         {
@@ -324,7 +324,7 @@
           "description": "Terraform 1.0 — now generally available — marks a major milestone for interoperability, ease of upgrades, and maintenance for your automation workflows.",
           "link": "https://www.hashicorp.com/blog/announcing-hashicorp-terraform-1-0-general-availability",
           "publishedOn": "2021-06-08T10:50:00.000Z",
-          "wordCount": 1125,
+          "wordCount": 1128,
           "title": "Announcing HashiCorp Terraform 1.0 General Availability"
         },
         {
@@ -333,7 +333,7 @@
           "description": "Announcing several improvements to HashiCorp Terraform Cloud, focusing on visibility and extensibility.",
           "link": "https://www.hashicorp.com/blog/terraform-cloud-improved-visibility-for-workflows",
           "publishedOn": "2021-06-08T10:50:00.000Z",
-          "wordCount": 996,
+          "wordCount": 999,
           "title": "Terraform Cloud Updates Improve Workflow Visibility"
         },
         {
@@ -342,7 +342,7 @@
           "description": "Waypoint 0.4 adds significant features, including mutable deployments and platform health reporting, among others.",
           "link": "https://www.hashicorp.com/blog/announcing-waypoint-0-4",
           "publishedOn": "2021-06-03T19:00:00.000Z",
-          "wordCount": 1107,
+          "wordCount": 1110,
           "title": "Announcing HashiCorp Waypoint 0.4"
         },
         {
@@ -351,7 +351,7 @@
           "description": "From working with providers, to managing resources, to working with Terraform on AWS, we have a lot of new hands-on Terraform exercises to try.",
           "link": "https://www.hashicorp.com/blog/new-terraform-tutorials-on-hashicorp-learn",
           "publishedOn": "2021-06-02T16:00:00.000Z",
-          "wordCount": 751,
+          "wordCount": 754,
           "title": "New Terraform Tutorials on HashiCorp Learn"
         },
         {
@@ -360,7 +360,7 @@
           "description": "The Terraform AWS provider now supports ECS Anywhere, a new capability in Amazon ECS that supports running and managing container-based applications on customers’ on-premises servers.",
           "link": "https://www.hashicorp.com/blog/announcing-launch-day-support-for-amazon-ecs-anywhere-terraform-aws-provider",
           "publishedOn": "2021-06-01T18:30:00.000Z",
-          "wordCount": 719,
+          "wordCount": 722,
           "title": "Announcing Support for Amazon ECS Anywhere in the Terraform AWS Provider"
         },
         {
@@ -369,7 +369,7 @@
           "description": "The redesigned interface for HashiCorp Terraform Cloud brings clarity to how your resources, state, and infrastructure operations are represented during a Terraform run.",
           "link": "https://www.hashicorp.com/blog/new-apply-user-interface-for-terraform-cloud",
           "publishedOn": "2021-06-01T16:00:00.000Z",
-          "wordCount": 672,
+          "wordCount": 675,
           "title": "New Apply User Interface for Terraform Cloud"
         }
       ]
@@ -379,6 +379,15 @@
       "feedUrl": "https://www.elastic.co/blog/feed",
       "siteUrl": "https://www.elastic.co",
       "articles": [
+        {
+          "id": "https://www.elastic.co/blog/how-the-elastic-infosec-team-uses-elastic-security",
+          "author": "MIchael Baldwin",
+          "description": "At Elastic, we internally use, test, and provide feedback on all of our products. For example, the Information Security team is helping the Product team build a stronger solution for our customers.\n\nThe InfoSec team is an extremely valuable resource who acts not only as an extension of Quality Assurance/Testing, but also as a data custodian. In fact, our internal detections team utilizes internal Elastic InfoSec data to help build and test detection rules that ultimately find their way into the Elastic Security product.\nLast month, I was afforded the wonderful opportunity of “riding along” with our InfoSec team to better understand how we use Elastic internally. Over the course of three days, spread across three weeks, I saw the underbelly of our internal systems, how they are used, and ho…",
+          "link": "https://www.elastic.co/blog/how-the-elastic-infosec-team-uses-elastic-security",
+          "publishedOn": "2021-06-30T18:00:00.000Z",
+          "wordCount": 1293,
+          "title": "How the Elastic InfoSec team uses Elastic Security"
+        },
         {
           "id": "https://www.elastic.co/blog/monitoring-kubernetes-with-the-elastic-stack-using-prometheus-and-fluentd",
           "author": "Yukiya Shimizu",
@@ -549,15 +558,6 @@
           "publishedOn": "2021-06-14T07:30:00.000Z",
           "wordCount": 300,
           "title": "Elastic Stack 7.13.2 released"
-        },
-        {
-          "id": "https://www.elastic.co/blog/how-to-configure-elastic-cloud-on-kubernetes-with-saml-and-hot-warm-cold-architecture",
-          "author": "Francismara Souza",
-          "description": "Elastic Cloud on Kubernetes (ECK) is an easy way to get the Elastic Stack up and running on top of Kubernetes. That’s because ECK automates the deployment, provisioning, management, and setup of Elasticsearch, Kibana, Beats, and more. \n\nAs logging and metric data — or time series data — has a predictable lifespan, you can use hot, warm, and cold architecture to easily manage your data over time as it ages and becomes less relevant.\n\nIn this guide, we’ll explain how to set up SAML with auth0 as an identity provider (IdP) as well as how to configure your deployment for hot-warm-cold architecture with ECK. We’ll use production features such as:\n\nDedicated nodes\nZone awareness\nPod and node affinity\nPodDisruption\nDedicated storage class\nBefore you get started, you should be familiar with SAML. …",
-          "link": "https://www.elastic.co/blog/how-to-configure-elastic-cloud-on-kubernetes-with-saml-and-hot-warm-cold-architecture",
-          "publishedOn": "2021-06-10T18:00:00.000Z",
-          "wordCount": 2636,
-          "title": "How to configure Elastic Cloud on Kubernetes with SAML and hot-warm-cold architecture"
         }
       ]
     },
@@ -721,6 +721,15 @@
       "feedUrl": "http://feeds.feedburner.com/AmazonWebServicesBlog",
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
+        {
+          "id": "0989c2f1a859a1e69d4d900252cc47ca4e779558",
+          "author": "Jeff Barr",
+          "description": "In what has now become an annual tradition (check out my 2016, 2017, 2019, and 2020 posts for a look back), I am happy to share some of the metrics from this year’s Prime Day and to tell you how AWS helped to make it happen. This year I bought all sorts of useful goodies […]",
+          "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/dZ110navB2M/",
+          "publishedOn": "2021-06-30T16:08:14.000Z",
+          "wordCount": 1183,
+          "title": "Prime Day 2021 – Two Chart-Topping Days"
+        },
         {
           "id": "c5a5694ebc6350153549c534be9a573abb574e54",
           "author": "Jeff Barr",
@@ -1236,23 +1245,6 @@
             "length": "44003958",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "https://softwareengineeringdaily.com/?p=11003",
-          "author": null,
-          "description": "AWS Outposts is a fully managed service that offers the same AWS infrastructure, AWS services, APIs, and tools to virtually any datacenter, co-location space, or on-premises facility for a truly consistent hybrid experience. AWS Outposts is ideal for workloads that require low latency access to on-premises systems, local data processing, data residency, and migration of\nThe post AWS Outpost Engineering with Joshua Burgin appeared first on Software Engineering Daily.",
-          "link": "https://softwareengineeringdaily.com/2021/06/01/aws-outpost-engineering-with-joshua-burgin/?utm_source=rss&utm_medium=rss&utm_campaign=aws-outpost-engineering-with-joshua-burgin",
-          "publishedOn": "2021-06-01T09:00:52.000Z",
-          "wordCount": null,
-          "title": "AWS Outpost Engineering with Joshua Burgin",
-          "itunes": {
-            "duration": "53:13"
-          },
-          "enclosure": {
-            "url": "https://traffic.megaphone.fm/SED5636536109.mp3",
-            "length": "51134103",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -1267,7 +1259,7 @@
           "description": "Is it possible to digitize consultations with tax and legal experts in order to seamlessly guide decision-makers towards consistent and compliant decisions? \nThe post How Deloitte Digitizes Tax and Legal Consultations with DMN appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/how-deloitte-digitizes-tax-and-legal-consultations-with-dmn/",
           "publishedOn": "2021-06-25T08:00:05.000Z",
-          "wordCount": 1982,
+          "wordCount": null,
           "title": "How Deloitte Digitizes Tax and Legal Consultations with DMN"
         },
         {
@@ -1276,7 +1268,7 @@
           "description": "Automating the back-office with Camunda Platform - saving up to 30% of time previously spent handling electronic payment card requests.\nThe post Jyske Bank: From Emails to Automation appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/jyske-bank-from-emails-to-automation/",
           "publishedOn": "2021-06-23T13:22:09.000Z",
-          "wordCount": 2361,
+          "wordCount": 1785,
           "title": "Jyske Bank: From Emails to Automation"
         },
         {
@@ -1285,7 +1277,7 @@
           "description": "Camunda Platform is deployed by more than half of the top 15 banks in the U.S., including Morgan Stanley, Truist and Goldman Sachs.\nThe post Why Fortune 500 Banks use Camunda Platform appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/why-fortune-500-banks-use-camunda-platform/",
           "publishedOn": "2021-06-18T16:02:02.000Z",
-          "wordCount": 1561,
+          "wordCount": 1547,
           "title": "Why Fortune 500 Banks use Camunda Platform"
         },
         {
@@ -1294,7 +1286,7 @@
           "description": "What is Camunda Cloud, and why is the community so excited about the first ever on-demand SaaS process automation as a service?\nThe post Your Camunda Cloud Questions Answered appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/your-camunda-cloud-questions-answered/",
           "publishedOn": "2021-06-15T08:00:00.000Z",
-          "wordCount": 2186,
+          "wordCount": 2174,
           "title": "Your Camunda Cloud Questions Answered"
         },
         {
@@ -1303,7 +1295,7 @@
           "description": "How did one of Germany’s leading insurers, handling insurance premiums in excess of six billion per year, undergo a complete digital transformation in less than six years?\nThe post Scaling Camunda Adoption at Provinzial appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/scaling-camunda-adoption-at-provinzial/",
           "publishedOn": "2021-06-14T13:39:19.000Z",
-          "wordCount": 4461,
+          "wordCount": 2519,
           "title": "Scaling Camunda Adoption at Provinzial"
         },
         {
@@ -1312,7 +1304,7 @@
           "description": "We’re thrilled to introduce our first cohort of Camunda Champions - individuals who demonstrate product expertise while actively supporting and contributing to developer communities.\nThe post Welcome, Camunda Champions appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/welcome-camunda-champions/",
           "publishedOn": "2021-06-10T08:59:42.000Z",
-          "wordCount": 6569,
+          "wordCount": 1599,
           "title": "Welcome, Camunda Champions"
         },
         {
@@ -1321,7 +1313,7 @@
           "description": "Our partner Novatec combined Business Process Management with Artificial Intelligence, and the result was awesome!\nThe post Intelligent Process Automation with Camunda and Amazon Comprehend appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/intelligent-process-automation-with-camunda-and-amazon-comprehend/",
           "publishedOn": "2021-06-09T09:25:59.000Z",
-          "wordCount": 11554,
+          "wordCount": 2604,
           "title": "Intelligent Process Automation with Camunda and Amazon Comprehend"
         },
         {
@@ -1330,7 +1322,7 @@
           "description": "We’re excited to announce the release of Camunda Cloud 1.1.0-alpha1, which includes 1.1.0-alpha1  versions of Zeebe, Operate and\nThe post Camunda Cloud 1.1.0-alpha1 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/camunda-cloud-110-alpha1-released/",
           "publishedOn": "2021-06-08T15:08:51.000Z",
-          "wordCount": 1503,
+          "wordCount": 1489,
           "title": "Camunda Cloud 1.1.0-alpha1 Released"
         },
         {
@@ -1339,7 +1331,7 @@
           "description": "We’re excited to announce the release of Camunda Optimize 3.5.0-alpha2, featuring a new Elasticsearch header plugin, and Report embedding improvements. \nThe post Camunda Optimize 3.5.0-alpha2 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/camunda-optimize-3-5-0-alpha2-released/",
           "publishedOn": "2021-06-08T07:15:00.000Z",
-          "wordCount": 5813,
+          "wordCount": 1586,
           "title": "Camunda Optimize 3.5.0-alpha2 Released"
         },
         {
@@ -1348,7 +1340,7 @@
           "description": "We are pleased to announce the next alpha release of Camunda Platform Runtime 7.16. This release features the following improvements: Cockpit: Set Variables on Process Instance Migration (Enterprise) 7 Bug Fixes You can Download Camunda for free or Run it with Docker. For a complete list of all improvements, take a look at the release notes. Please also see the list of known issues. If you want to dig in deeper, you can find the source code on GitHub. Cockpit: Set Variables on Process Instance Migration This feature is only available in the Enterprise Edition of the Camunda Platform Runtime — try it out with a free trial. Our last alpha release featured the option to Set Variables on Process...\nThe post Camunda Platform Runtime 7.16.0-alpha2 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/camunda-platform-runtime-7160-alpha2-released/",
           "publishedOn": "2021-06-08T07:00:00.000Z",
-          "wordCount": 1346,
+          "wordCount": 1333,
           "title": "Camunda Platform Runtime 7.16.0-alpha2 Released"
         }
       ]

@@ -6,6 +6,15 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/07/08/a-bootiful-podcast-matt-raible",
+          "author": null,
+          "description": "It’s Matt Raible! I love talking to Matt Raible, and I’ll bet you would too. He’s one of the good ones, people. One of the legends of the Java and JavaScript communities. One of the greats. Enjoy!",
+          "link": "https://spring.io/blog/2021/07/08/a-bootiful-podcast-matt-raible",
+          "publishedOn": "2021-07-08T07:00:00.000Z",
+          "wordCount": 422,
+          "title": "A Bootiful Podcast: Matt Raible"
+        },
+        {
           "id": "https://spring.io/blog/2021/07/07/spring-cloud-hoxton-sr12-has-been-released",
           "author": null,
           "description": "On behalf of the community, I am pleased to announce that the Service Release 12 (SR12) of the Spring Cloud Hoxton Release Train is available today. The release can be found in Maven Central. You can check out the Hoxton release notes for more information.\nNotable Changes in the Hoxton Release Train\n\r\nSee all issues included in this release here.\n\r\nThis was primarily a bug fix and documentation release. Hoxton.SR12 is compatible with Spring Boot 2.3.x and 2.2.x.\n\r\nNOTE: This will be the last regularly scheduled release of the Hoxton Release Train. It now enters a special maintenance period for security fixes and critical bugs until the end of Feb 2022 (which follows the lifecycle of Spring Boot 2.3.x). See the wiki for more information.\nSpring Cloud Commons\n\r\n\r\n  \nAdded TaskSchedulerWrappe…",
@@ -175,15 +184,6 @@
           "publishedOn": "2021-06-21T17:00:00.000Z",
           "wordCount": 624,
           "title": "Spring Tools 4.11.0 released"
-        },
-        {
-          "id": "https://spring.io/blog/2021/06/17/a-bootiful-podcast-azure-developer-advocate-rory-preddy-on-spring-java-azure-spring-cloud-and-more",
-          "author": null,
-          "description": "Hi, Spring fans! Welcome to another installment of a Bootiful Podcast! In this installment, Josh Long (@starbuxman) talks to Azure Developer Advocate Rory Preddy (@rorypreddy).",
-          "link": "https://spring.io/blog/2021/06/17/a-bootiful-podcast-azure-developer-advocate-rory-preddy-on-spring-java-azure-spring-cloud-and-more",
-          "publishedOn": "2021-06-17T11:00:00.000Z",
-          "wordCount": 432,
-          "title": "A Bootiful Podcast: Azure Developer Advocate Rory Preddy on Spring, Java, Azure Spring Cloud and more"
         }
       ]
     },
@@ -335,24 +335,6 @@
           "publishedOn": "2021-06-11T16:00:00.000Z",
           "wordCount": 1801,
           "title": "Toward Vagrant 3.0"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/announcing-hcp-packer",
-          "author": null,
-          "description": "HCP Packer is a new cloud service designed to bridge the gap between image creation and deployment with image-management workflows. The service will be available for beta testing in the coming months.",
-          "link": "https://www.hashicorp.com/blog/announcing-hcp-packer",
-          "publishedOn": "2021-06-09T10:50:00.000Z",
-          "wordCount": 901,
-          "title": "Announcing HCP Packer"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/hashicorp-cloud-platform-adds-transit-gateway-okta-new-skus",
-          "author": null,
-          "description": "The HashiCorp Cloud Platform (HCP) now has expanded capabilities for networking, single sign-on, and more. HCP will also support new configurations of HashiCorp Consul and HashiCorp Vault in the coming months.",
-          "link": "https://www.hashicorp.com/blog/hashicorp-cloud-platform-adds-transit-gateway-okta-new-skus",
-          "publishedOn": "2021-06-09T10:50:00.000Z",
-          "wordCount": 1403,
-          "title": "HashiCorp Cloud Platform Adds Transit Gateway, Okta Support, New Packages"
         }
       ]
     },
@@ -361,6 +343,33 @@
       "feedUrl": "https://www.elastic.co/blog/feed",
       "siteUrl": "https://www.elastic.co",
       "articles": [
+        {
+          "id": "https://www.elastic.co/blog/how-to-add-search-to-your-ios-app-part-2",
+          "author": "Ethan Groves",
+          "description": "In part one, we went over setting up your Elastic stack and ingesting data. In the second part of this blog series, we will be creating an iOS app that uses Elasticsearch for searching a movie database.\n\nNote: This tutorial is based on Elasticsearch version 7.12.x\n\nStarting a New Xcode Project\n\n\n\t\nOpen Xcode and create a new project.\nIn the iOS tab, select App and choose Next\nConfigure the options for setting up the new app\n\t\nProduct name: App-Search\nTeam: <your team name>\nOrganization Identifier: <your identifier>\nInterface: SwiftUI\nLife Cycle: SwiftUI App\nLanguage: Swift\nUse core data: No\nInclude tests: No\n\n\t\nSelect Next\nChoose where to save your project, and select Create\n \nBuilding the UI\n\nThe UI will be built out in the ContentView.swift file.\nThe basic structure of the UI will be as …",
+          "link": "https://www.elastic.co/blog/how-to-add-search-to-your-ios-app-part-2",
+          "publishedOn": "2021-07-08T18:01:00.000Z",
+          "wordCount": 2253,
+          "title": "How to add search to your iOS app with Elastic App Search: Part 2"
+        },
+        {
+          "id": "https://www.elastic.co/blog/how-to-add-search-to-your-ios-app-part-1",
+          "author": "Ethan Groves",
+          "description": "This is a short and sweet, to-the-point, tutorial series that shows how to add search functionality to an iOS app using Elasticsearch for free! More specifically, in this two-part blog series, we will be creating an iOS app that uses Elastic App Search for searching a movie database. By the end of this tutorial, whether you need to search through a small movie database or through petabytes of cloud metrics, you’ll have the knowledge you need to build an amazing search experience for iOS mobile users.\n\nNote: This tutorial is based on Elasticsearch version 7.12.x\n\nSetup Elastic Cloud trial\n\n\n\t\nNavigate to https://www.elastic.co/cloud/.\nChoose Start free trial.\nSign up and login.\nChoose Start your free trial.\nSelect the Enterprise Search option.\nChoose to Expand the settings.\nChoose version 7…",
+          "link": "https://www.elastic.co/blog/how-to-add-search-to-your-ios-app-part-1",
+          "publishedOn": "2021-07-08T18:00:00.000Z",
+          "wordCount": 627,
+          "title": "How to add search to your iOS app with Elastic App Search"
+        },
+        {
+          "id": "https://www.elastic.co/blog/practical-cpu-time-performance-tuning-for-security-software-part-2",
+          "author": "Yamin Tian",
+          "description": "In a previous blog, we discussed how to monitor, troubleshoot, and fix high %CPU issues. We also revealed a system API that could have an unexpected impact on CPU consumption. In this episode, we’ll discuss another time-related performance aspect that is unique to security software: application startup time. You don’t need to be a developer to benefit from this article. As long as you are curious to find out how the applications in your environment perform and why sometimes they seem to be very slow and want to improve that, you might find this blog post helpful.\n \nWhat is application startup time?\n\nSecurity software usually sits along the critical path an application takes when it is about to launch or execute. The software makes the decision either to block or allow the launching/executi…",
+          "link": "https://www.elastic.co/blog/practical-cpu-time-performance-tuning-for-security-software-part-2",
+          "publishedOn": "2021-07-08T15:00:00.000Z",
+          "wordCount": 1750,
+          "title": "Practical CPU time performance tuning for security software: Part 2"
+        },
         {
           "id": "https://www.elastic.co/blog/elastic-stack-7-13-3-released",
           "author": "João Duarte",
@@ -513,33 +522,6 @@
           "publishedOn": "2021-06-23T16:00:00.000Z",
           "wordCount": 763,
           "title": "A new, more streamlined experience for Elastic Cloud Enterprise admins"
-        },
-        {
-          "id": "https://www.elastic.co/blog/culture-exponential-growth-experienced-leadership-values-define-growing-sales-organization",
-          "author": "Riva Froymovich",
-          "description": "The sales organization at Elastic is growing exponentially as demand for our solutions rises. \n\nOur talent has the opportunity to build career-defining relationships and impact alongside newly recruited industry leaders. \n\nThe volume of data companies produce just keeps increasing, and Elastic is in a unique position to help our customers realize value through search experiences. Search enables employees and customers to access data easily, whether through a simple search box or a more sophisticated cloud monitoring infrastructure. That can improve decision-making, customer retention, and employee satisfaction. With Elastic’s industry-leading solutions, we have a total addressable market in the tens of billions of dollars, and we are on the path to becoming a $1 billion-plus company. \n\nAnd…",
-          "link": "https://www.elastic.co/blog/culture-exponential-growth-experienced-leadership-values-define-growing-sales-organization",
-          "publishedOn": "2021-06-22T19:00:00.000Z",
-          "wordCount": 1195,
-          "title": "Exponential growth, experienced leadership, values define growing sales organization"
-        },
-        {
-          "id": "https://www.elastic.co/blog/new-in-kibana-how-we-made-it-easier-manage-visualizations-and-build-dashboards",
-          "author": "Poff Poffenberger",
-          "description": "Our Kibana team has been hard at work implementing and executing on a new Kibana strategic vision to streamline the dashboard creation process and sand down the rough edges of creating visualizations for dashboards. We accomplished our goal and reduced the overall time it takes users to go from a blank slate to a meaningful dashboard that conveys insights about the data. \n In this post, I’m going to explain the technical concepts behind these improvements, and how they work to create a user-friendly and efficient dashboard creation process. My hope for this post is that it helps inform the mental models of our curious power users while they attempt to learn these new dashboard creation flows. For a high-level walkthrough of the Kibana features, check out our other blog post, Building Kiban…",
-          "link": "https://www.elastic.co/blog/new-in-kibana-how-we-made-it-easier-manage-visualizations-and-build-dashboards",
-          "publishedOn": "2021-06-22T16:00:00.000Z",
-          "wordCount": 1066,
-          "title": "New in Kibana: How we made it easier to manage visualizations and build dashboards"
-        },
-        {
-          "id": "https://www.elastic.co/blog/easily-ingest-data-to-elastic-via-splunk",
-          "author": "Jamie Hynds",
-          "description": "As organizations migrate to Elastic from incumbent vendors, quickly onboarding log data from their current solution into Elastic is one of the first orders of business. Data onboarding often involves having to adjust ingestion architecture and implement configuration changes across data sources. We want to ensure that users trialing or migrating to Elastic can get data in quickly to start seeing the power of Elastic solutions as quickly as possible. That’s why we built an integration that automatically maps Splunk-ingested data to Elastic Common Schema (ECS). \n In this blog post, we’ll be walking you through this experimental Splunk integration, released in version 7.12 of the Elastic Stack. This integration allows you to keep your Splunk universal forwarders and other Splunk ingest techno…",
-          "link": "https://www.elastic.co/blog/easily-ingest-data-to-elastic-via-splunk",
-          "publishedOn": "2021-06-22T15:00:00.000Z",
-          "wordCount": 783,
-          "title": "Easily ingest data to Elastic via Splunk"
         }
       ]
     },
@@ -548,6 +530,15 @@
       "feedUrl": "https://www.ansible.com/blog/rss.xml",
       "siteUrl": "https://www.ansible.com/blog",
       "articles": [
+        {
+          "id": "https://www.ansible.com/blog/mapping-saml-attributes-to-red-hat-ansible-automation-platform-organizations-and-teams",
+          "author": "Nicolas Leiva",
+          "description": "Two-Factor Authentication (2FA) is an additional layer of security that can be used to help protect enterprise applications from unauthorized access. While OAuth, and even some LDAP configs are viable options to enable 2FA in Ansible Automation Platform, users prefer to leverage Security Assertion Markup Language (SAML) for this purpose, as described in Using two-factor SAML with Red Hat Ansible Tower. On the other hand, 2FA to managed machines is discouraged.",
+          "link": "https://www.ansible.com/blog/mapping-saml-attributes-to-red-hat-ansible-automation-platform-organizations-and-teams",
+          "publishedOn": "2021-07-08T17:30:00.000Z",
+          "wordCount": 1666,
+          "title": "Mapping SAML attributes to Red Hat Ansible Automation Platform organizations and teams"
+        },
         {
           "id": "https://www.ansible.com/blog/aix-patch-management-with-ansible",
           "author": "Talor Holloway",
@@ -583,15 +574,6 @@
           "publishedOn": "2021-06-15T13:00:00.000Z",
           "wordCount": 1784,
           "title": "What’s New in the Ansible Content Collection for Kubernetes - 2.0"
-        },
-        {
-          "id": "https://www.ansible.com/blog/ansiblefest-2021-cfp-is-open",
-          "author": "info@ansible.com (Ansible)",
-          "description": "AnsibleFest will be a free, virtual two day event again this year on September 29-30. You can expect all the usual highlights, like customer keynotes, breakout sessions, direct access to Ansible experts and more. We will also be bringing back tracks from last year like Network, Security, Developer and more to give you exactly the type of information you need for wherever you are in your Ansible journey.",
-          "link": "https://www.ansible.com/blog/ansiblefest-2021-cfp-is-open",
-          "publishedOn": "2021-06-08T14:30:00.000Z",
-          "wordCount": 756,
-          "title": "AnsibleFest 2021 CFP is Open"
         }
       ]
     },
@@ -642,7 +624,7 @@
           "description": "Recently the Developer relations came together to create a video series to get all the essential knowledge to move your project forward with Static Web Apps.  This series provides you with 16 different cookbooks to begin building applications using Azure Static Web Apps.\nThe post How to create your personal blog with Gatsby & Azure Static Web Apps –  Azure Tips & Tricks appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/how-to-create-your-personal-blog-with-gatsby-azure-static-web-apps-azure-tips-tricks/",
           "publishedOn": "2021-06-24T14:00:43.000Z",
-          "wordCount": 1381,
+          "wordCount": 1363,
           "title": "How to create your personal blog with Gatsby & Azure Static Web Apps –  Azure Tips & Tricks"
         },
         {
@@ -651,7 +633,7 @@
           "description": "Learning is a very old topic. While developing Dojo, we learned that DevOps learning was very different from other types of skill learning because of its complexity, breadth, cultural context, team orientation, and difficulty to measure. As we promised in our first blog,\nThe post DevOps Dojo – Experiential Learning appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/devops-dojo-experiential-learning/",
           "publishedOn": "2021-06-23T23:36:08.000Z",
-          "wordCount": 9853,
+          "wordCount": 9852,
           "title": "DevOps Dojo – Experiential Learning"
         },
         {
@@ -660,7 +642,7 @@
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes – @Azure Data Factory Security with @narainabhishek appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-azure-data-factory-security-with-narainabhishek/",
           "publishedOn": "2021-06-21T16:00:42.000Z",
-          "wordCount": 1336,
+          "wordCount": 1337,
           "title": "AzureFunBytes – @Azure Data Factory Security with @narainabhishek"
         },
         {
@@ -669,7 +651,7 @@
           "description": "The top stories from the #AzureDevOps #community for 2021.06.18 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2021.06.18 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-06-18/",
           "publishedOn": "2021-06-18T14:00:22.000Z",
-          "wordCount": 1133,
+          "wordCount": 1132,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.06.18"
         },
         {
@@ -678,7 +660,7 @@
           "description": "For the June patches, we are releasing fixes that impact our self-hosted product, Azure DevOps Server.\nRemoved references to stale test cases to help speed the data import process.\nThe post June patches for Azure DevOps Server appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/june-patches-for-azure-devops-server/",
           "publishedOn": "2021-06-15T19:09:15.000Z",
-          "wordCount": 1658,
+          "wordCount": 1653,
           "title": "June patches for Azure DevOps Server"
         },
         {
@@ -687,7 +669,7 @@
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes – Intro to Azure Data Factory with @KromerBigData appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-intro-to-azure-data-factory-with-kromerbigdata/",
           "publishedOn": "2021-06-14T18:00:01.000Z",
-          "wordCount": 1416,
+          "wordCount": 1417,
           "title": "AzureFunBytes – Intro to Azure Data Factory with @KromerBigData"
         }
       ]
@@ -727,8 +709,8 @@
           "description": "Weather forecasting, genome sequencing, geoanalytics, computational fluid dynamics (CFD), and other types of high-performance computing (HPC) workloads can take advantage of massive amounts of compute power. These workloads are often spikey and massively parallel, and are used in situations where time to results is critical. Old Way Governments, well-funded research organizations, and Fortune 500 companies […]",
           "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/NjovUW5A61A/",
           "publishedOn": "2021-06-28T20:37:27.000Z",
-          "wordCount": 1612,
-          "title": "Planetary-Scale Computing – 9.95 PFLOPS & Position 41 on the TOP500 List"
+          "wordCount": 1644,
+          "title": "Planetary-Scale Computing – 9.95 PFLOPS & Position 40 on the TOP500 List"
         },
         {
           "id": "475c831d2c248a8fdb39225b19d7bff9dbed0463",
@@ -810,15 +792,6 @@
           "publishedOn": "2021-06-09T18:00:54.000Z",
           "wordCount": 878,
           "title": "Amazon SageMaker Named as the Outright Leader in Enterprise MLOps Platforms"
-        },
-        {
-          "id": "0a6f033f543473ec26043a249a9479efeac02c59",
-          "author": "Martin Beeby",
-          "description": "Amazon FSx for Windows File Server provides fully managed file storage that is accessible over the industry-standard Server Message Block (SMB) protocol. It is built on Windows Server and offers a rich set of enterprise storage capabilities with the scalability, reliability, and low cost that you have come to expect from AWS. In addition to […]",
-          "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/RJ2Ne6UWkrg/",
-          "publishedOn": "2021-06-08T21:04:51.000Z",
-          "wordCount": 1289,
-          "title": "File Access Auditing Is Now Available for Amazon FSx for Windows File Server"
         }
       ]
     },
@@ -870,6 +843,23 @@
       "feedUrl": "https://softwareengineeringdaily.com/feed/podcast/",
       "siteUrl": "https://softwareengineeringdaily.com/archives/",
       "articles": [
+        {
+          "id": "https://softwareengineeringdaily.com/?p=11209",
+          "author": null,
+          "description": "The company Dynatrace provides intelligent observability, continuous automation, and causation-based AI to help Cloud Ops, DevOps, and SRE teams transform faster, innovate more, and deliver better business outcomes. They offer application performance monitoring, infrastructure monitoring, cloud automation, application security, and much more. While being an industry leader in simplifying complex cloud applications, Dynatrace is continuously\nThe post Dynatrace for DevOps and SRE with Aloïs Reitbauer appeared first on Software Engineering Daily.",
+          "link": "https://softwareengineeringdaily.com/2021/07/08/dynatrace-for-devops-and-sre-with-alois-reitbauer/?utm_source=rss&utm_medium=rss&utm_campaign=dynatrace-for-devops-and-sre-with-alois-reitbauer",
+          "publishedOn": "2021-07-08T17:38:32.000Z",
+          "wordCount": null,
+          "title": "Dynatrace for DevOps and SRE with Aloïs Reitbauer",
+          "itunes": {
+            "duration": "1:03:24"
+          },
+          "enclosure": {
+            "url": "https://traffic.megaphone.fm/SED9335189731.mp3",
+            "length": "60910697",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "https://softwareengineeringdaily.com/?p=11203",
           "author": null,
@@ -1209,23 +1199,6 @@
             "length": "53851287",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "https://softwareengineeringdaily.com/?p=11059",
-          "author": null,
-          "description": "Corey Quinn is guest hosting on Software Engineering Daily this week, presenting a Tour of the Cloud. Corey Quinn is the Chief Cloud Economist at The Duckbill Group, where he helps companies fix their AWS bill by making it smaller and less horrifying. If you’re looking to lower your AWS bill or negotiate a new\nThe post GCP with Liz Fong-Jones appeared first on Software Engineering Daily.",
-          "link": "https://softwareengineeringdaily.com/2021/06/09/gcp-with-liz-fong-jones/?utm_source=rss&utm_medium=rss&utm_campaign=gcp-with-liz-fong-jones",
-          "publishedOn": "2021-06-09T09:00:12.000Z",
-          "wordCount": null,
-          "title": "GCP with Liz Fong-Jones",
-          "itunes": {
-            "duration": "55:49"
-          },
-          "enclosure": {
-            "url": "https://traffic.megaphone.fm/SED4121522002.mp3",
-            "length": "53633651",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -1240,7 +1213,7 @@
           "description": "How Europe's leading online fashion retailer serves 42 million active customers in 20 markets, leveraging Camunda for back-end logistics.\nThe post How Zalando Orchestrates its Sales Order Process with Camunda appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/07/how-zalando-orchestrates-its-sales-order-process-with-camunda/",
           "publishedOn": "2021-07-06T08:00:12.000Z",
-          "wordCount": 1573,
+          "wordCount": 1576,
           "title": "How Zalando Orchestrates its Sales Order Process with Camunda"
         },
         {
@@ -1249,7 +1222,7 @@
           "description": "Is it possible to digitize consultations with tax and legal experts in order to seamlessly guide decision-makers towards consistent and compliant decisions? \nThe post How Deloitte Digitizes Tax and Legal Consultations with DMN appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/how-deloitte-digitizes-tax-and-legal-consultations-with-dmn/",
           "publishedOn": "2021-06-25T08:00:05.000Z",
-          "wordCount": 1697,
+          "wordCount": 1965,
           "title": "How Deloitte Digitizes Tax and Legal Consultations with DMN"
         },
         {
@@ -1258,7 +1231,7 @@
           "description": "Automating the back-office with Camunda Platform - saving up to 30% of time previously spent handling electronic payment card requests.\nThe post Jyske Bank: From Emails to Automation appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/jyske-bank-from-emails-to-automation/",
           "publishedOn": "2021-06-23T13:22:09.000Z",
-          "wordCount": 1778,
+          "wordCount": 1779,
           "title": "Jyske Bank: From Emails to Automation"
         },
         {
@@ -1267,7 +1240,7 @@
           "description": "Camunda Platform is deployed by more than half of the top 15 banks in the U.S., including Morgan Stanley, Truist and Goldman Sachs.\nThe post Why Fortune 500 Banks use Camunda Platform appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/why-fortune-500-banks-use-camunda-platform/",
           "publishedOn": "2021-06-18T16:02:02.000Z",
-          "wordCount": 1540,
+          "wordCount": 1543,
           "title": "Why Fortune 500 Banks use Camunda Platform"
         },
         {
@@ -1276,7 +1249,7 @@
           "description": "What is Camunda Cloud, and why is the community so excited about the first ever on-demand SaaS process automation as a service?\nThe post Your Camunda Cloud Questions Answered appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/your-camunda-cloud-questions-answered/",
           "publishedOn": "2021-06-15T08:00:00.000Z",
-          "wordCount": 2168,
+          "wordCount": 2170,
           "title": "Your Camunda Cloud Questions Answered"
         },
         {
@@ -1285,7 +1258,7 @@
           "description": "How did one of Germany’s leading insurers, handling insurance premiums in excess of six billion per year, undergo a complete digital transformation in less than six years?\nThe post Scaling Camunda Adoption at Provinzial appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/scaling-camunda-adoption-at-provinzial/",
           "publishedOn": "2021-06-14T13:39:19.000Z",
-          "wordCount": 1841,
+          "wordCount": 1843,
           "title": "Scaling Camunda Adoption at Provinzial"
         },
         {
@@ -1294,26 +1267,8 @@
           "description": "We’re thrilled to introduce our first cohort of Camunda Champions - individuals who demonstrate product expertise while actively supporting and contributing to developer communities.\nThe post Welcome, Camunda Champions appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/welcome-camunda-champions/",
           "publishedOn": "2021-06-10T08:59:42.000Z",
-          "wordCount": 1595,
+          "wordCount": 1596,
           "title": "Welcome, Camunda Champions"
-        },
-        {
-          "id": "https://camunda.com/?p=21971",
-          "author": "Camunda Team",
-          "description": "Our partner Novatec combined Business Process Management with Artificial Intelligence, and the result was awesome!\nThe post Intelligent Process Automation with Camunda and Amazon Comprehend appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2021/06/intelligent-process-automation-with-camunda-and-amazon-comprehend/",
-          "publishedOn": "2021-06-09T09:25:59.000Z",
-          "wordCount": 2679,
-          "title": "Intelligent Process Automation with Camunda and Amazon Comprehend"
-        },
-        {
-          "id": "https://camunda.com/?p=22042",
-          "author": "Camunda Cloud Team",
-          "description": "We’re excited to announce the release of Camunda Cloud 1.1.0-alpha1, which includes 1.1.0-alpha1  versions of Zeebe, Operate and\nThe post Camunda Cloud 1.1.0-alpha1 Released appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2021/06/camunda-cloud-110-alpha1-released/",
-          "publishedOn": "2021-06-08T15:08:51.000Z",
-          "wordCount": 1490,
-          "title": "Camunda Cloud 1.1.0-alpha1 Released"
         }
       ]
     },

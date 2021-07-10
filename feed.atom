@@ -1,10 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-09T00:21:19.057Z</id>
+    <id>urn:2021-07-10T00:20:23.567Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-09T00:21:19.057Z</updated>
+    <updated>2021-07-10T00:20:23.567Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Introducing HashiTalks: Build, a Developer-Focused Edition of Our Community Event]]></title>
+        <id>https://www.hashicorp.com/blog/introducing-hashitalks-build-a-developer-focused-edition-of-our-community-event</id>
+        <link href="https://www.hashicorp.com/blog/introducing-hashitalks-build-a-developer-focused-edition-of-our-community-event"/>
+        <updated>2021-07-09T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Here’s what to expect from the first developer-focused edition of HashiTalks — and why you don't want to miss this virtual community event on July 21 and 22, 2021.]]></summary>
+        <author>
+            <name>HashiCorp Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Authorization Server 0.1.2 available now]]></title>
+        <id>https://spring.io/blog/2021/07/09/spring-authorization-server-0-1-2-available-now</id>
+        <link href="https://spring.io/blog/2021/07/09/spring-authorization-server-0-1-2-available-now"/>
+        <updated>2021-07-09T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[On behalf of the team and everyone who has contributed, it is my pleasure to announce the general availability of Spring Authorization Server 0.1.2.
+
+
+
+You can download it from Maven Central by using the module coordinates:
+
+
+
+
+compile 'org.springframework.security.experimental:spring-security-oauth2-authorization-server:0.1.2'
+
+
+
+
+For additional details on this new project, see the initial announcement and project page.
+
+
+
+The main features delivered in this release are:
+
+
+
+
+
+Ability to configure a custom Authorization Consent page (gh-283)
+
+
+
+JDBC implementation of RegisteredClientRepository (gh-265), OAuth2AuthorizationService (gh-245) and OAuth2AuthorizationConsentService (gh-313)
+
+
+
+Ability to configure the Authorization Endpoint (gh-342)
+
+
+
+Ability to configure the Token Endpoint (gh-319)
+
+
+
+
+
+See the release notes for complete details.
+
+
+
+To get started using Spring Authorization Server, see the sample to become familiar with setup and configuration.
+
+
+
+We would love to gather your feedback as we strive to improve and build upon this release.
+
+
+
+Project Page | GitHub Issues |  ZenHub Board]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Investment Strategy: Defining New Markets with Sarah Guo]]></title>
+        <id>https://softwareengineeringdaily.com/?p=11178</id>
+        <link href="https://softwareengineeringdaily.com/2021/07/09/investment-strategy-defining-new-markets-with-sarah-guo/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=investment-strategy-defining-new-markets-with-sarah-guo"/>
+        <updated>2021-07-09T09:00:05.000Z</updated>
+        <summary type="html"><![CDATA[We talk to a lot of exciting startups from all over the world about their tech products. Recently we’ve heard from people innovating in the blockchain space, cloud infrastructure, databases, and automation tools. However, in today’s episode, we’re going to talk about how these tech startups get investments to build their great products in the
+The post Investment Strategy: Defining New Markets with Sarah Guo appeared first on Software Engineering Daily.]]></summary>
+        <author>
+            <name>Software Engineering Daily</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How to add search to your iOS app with Elastic App Search: Part 2]]></title>
         <id>https://www.elastic.co/blog/how-to-add-search-to-your-ios-app-part-2</id>
@@ -1247,78 +1332,6 @@ The post Dark Forest: Transparency on Blockchains with Zero-Knowledge Proofs wit
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Spring Tools 4.11.0 released]]></title>
-        <id>https://spring.io/blog/2021/06/21/spring-tools-4-11-0-released</id>
-        <link href="https://spring.io/blog/2021/06/21/spring-tools-4-11-0-released"/>
-        <updated>2021-06-21T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Dear Spring Community,
-
-I am happy to announce the 4.11.0 release of the Spring Tools 4 for Eclipse, Visual Studio Code, and Theia.
-major changes to the Spring Tools 4 for Eclipse distribution
-
-
-  
-updated to Eclipse 2021-06 release (including support for Java 16) (new and noteworthy)
-
-  
-early-access builds for Apple Silicon platform (ARM M1) available
-
-
-reminder
-
-
-  
-the Eclipse-based distribution of the Spring Tools 4 requires a JDK11 (or newer) to run on
-
-  
-the Eclipse-based distribution ships with an embedded JDK16 runtime, no need to install or configure a specific JDK to run the IDE on anymore
-
-
-additional highlights
-
-
-  
-(VS Code, Spring Boot) new: new walkthrough contribution to get started with Spring Boot in VS Code
-
-  
-(VS Code, Spring Boot) fixed: not work when change LightWeight mode to Standard (#628)
-
-  
-(VS Code, Spring Boot) fixed: language server processes doesn’t get shutdown properly in VSCode (#636)
-
-  
-(VS Code, Spring Boot) fixed: VSCode extension JDK version (#612)
-
-  
-(Eclipse) improvement: Boot Dash: flexible and configurable filters (#614)
-
-  
-(Eclipse) improvement: hide projects without a main class from boot dashboard automatically (#605)
-
-  
-(Concourse) improvement: VSCode extension doesn’t understand glob patterns in group config (#639)
-
-  
-(Concourse) improvement: Step and properties not recognized (#633)
-
-
-To download the distribution for Eclipse and find links to the marketplace entries for Visual Studio Code and Theia, please go visit:
-
-
-  
-Spring Tools 4: https://spring.io/tools/
-
-
-Detailed changes can be found here: https://github.com/spring-projects/sts4/wiki/Changelog#2021-06-18-4110-release-incl-language-servers-version-1260
-
-Spring Tools 4.11.1 is scheduled to be released in early August 2021.
-
-Enjoy!]]></summary>
-        <author>
-            <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[AzureFunBytes – @Azure Data Factory Security with @narainabhishek]]></title>
         <id>https://devblogs.microsoft.com/devops/?p=61832</id>
         <link href="https://devblogs.microsoft.com/devops/azurefunbytes-azure-data-factory-security-with-narainabhishek/"/>
@@ -1570,38 +1583,6 @@ The post Oracle Cloud with Salman Paracha appeared first on Software Engineering
         <summary type="html"><![CDATA[We launched three AWS Regions (Italy, South Africa, and Japan) in the last 12 months, and are working on regions in Australia, Indonesia, Spain, India, Switzerland, and the United Arab Emirates. Tel Aviv, Israel in the Works Today I am happy to announce that the AWS Israel (Tel Aviv) Region is in the works and […]]]></summary>
         <author>
             <name>Jeff Barr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Digital Ocean with John Allspaw]]></title>
-        <id>https://softwareengineeringdaily.com/?p=11072</id>
-        <link href="https://softwareengineeringdaily.com/2021/06/10/digital-ocean-with-john-allspaw/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=digital-ocean-with-john-allspaw"/>
-        <updated>2021-06-10T09:00:28.000Z</updated>
-        <summary type="html"><![CDATA[Corey Quinn is guest hosting on Software Engineering Daily this week, presenting a Tour of the Cloud. Corey Quinn is the Chief Cloud Economist at The Duckbill Group, where he helps companies fix their AWS bill by making it smaller and less horrifying. If you’re looking to lower your AWS bill or negotiate a new
-The post Digital Ocean with John Allspaw appeared first on Software Engineering Daily.]]></summary>
-        <author>
-            <name>Software Engineering Daily</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Welcome, Camunda Champions]]></title>
-        <id>https://camunda.com/?p=22069</id>
-        <link href="https://camunda.com/blog/2021/06/welcome-camunda-champions/"/>
-        <updated>2021-06-10T08:59:42.000Z</updated>
-        <summary type="html"><![CDATA[We’re thrilled to introduce our first cohort of Camunda Champions - individuals who demonstrate product expertise while actively supporting and contributing to developer communities.
-The post Welcome, Camunda Champions appeared first on Camunda.]]></summary>
-        <author>
-            <name>Luca Buchholz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amazon SageMaker Named as the Outright Leader in Enterprise MLOps Platforms]]></title>
-        <id>0d87f068b55fc7843f4a16efa94e7f39317a52d1</id>
-        <link href="http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/XANxIh1DrHo/"/>
-        <updated>2021-06-09T18:00:54.000Z</updated>
-        <summary type="html"><![CDATA[Over the last few years, Machine Learning (ML) has proven its worth in helping organizations increase efficiency and foster innovation. As ML matures, the focus naturally shifts from experimentation to production. ML processes need to be streamlined, standardized, and automated to build, train, deploy, and manage models in a consistent and reliable way. Perennial IT […]]]></summary>
-        <author>
-            <name>Julien Simon</name>
         </author>
     </entry>
 </feed>

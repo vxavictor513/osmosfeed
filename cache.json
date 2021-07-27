@@ -193,6 +193,15 @@
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
         {
+          "id": "https://www.hashicorp.com/blog/building-an-event-based-ha-architecture-with-nomad-and-consul",
+          "author": null,
+          "description": "See how content moderation service Chatsight uses HashiCorp Nomad and Consul to speed deployment and maximize uptime.",
+          "link": "https://www.hashicorp.com/blog/building-an-event-based-ha-architecture-with-nomad-and-consul",
+          "publishedOn": "2021-07-26T19:00:00.000Z",
+          "wordCount": 1262,
+          "title": "Building an Event-Based HA Architecture with Nomad and Consul"
+        },
+        {
           "id": "https://www.hashicorp.com/blog/mitchell-s-new-role-at-hashicorp",
           "author": null,
           "description": "Mitchell Hashimoto takes on a new individual contributor role at HashiCorp.",
@@ -207,7 +216,7 @@
           "description": "Two approaches to injecting variability into your Nomad batch job template without having to modify the template in the future.",
           "link": "https://www.hashicorp.com/blog/running-duplicate-batch-jobs-in-hashicorp-nomad",
           "publishedOn": "2021-07-21T16:00:00.000Z",
-          "wordCount": 1957,
+          "wordCount": 1952,
           "title": "Running Duplicate Batch Jobs in HashiCorp Nomad"
         },
         {
@@ -216,7 +225,7 @@
           "description": "Here’s how to keep track of your Apache Camel services running throughout a deployment, and enable them to communicate with one another in a multi-cloud or hybrid cloud environment.",
           "link": "https://www.hashicorp.com/blog/herding-apache-camels-with-hashicorp-consul",
           "publishedOn": "2021-07-20T17:45:00.000Z",
-          "wordCount": 1467,
+          "wordCount": 1468,
           "title": "Herding (Apache) Camels with HashiCorp Consul"
         },
         {
@@ -261,7 +270,7 @@
           "description": "Consul 1.10 can transparently intercept and redirect traffic to sidecar proxies in the service mesh to allow applications to be deployed without modification.",
           "link": "https://www.hashicorp.com/blog/transparent-proxy-on-consul-service-mesh",
           "publishedOn": "2021-07-01T20:00:00.000Z",
-          "wordCount": 1943,
+          "wordCount": 1944,
           "title": "Transparent Proxy on Consul Service Mesh"
         },
         {
@@ -298,6 +307,24 @@
       "feedUrl": "https://www.elastic.co/blog/feed",
       "siteUrl": "https://www.elastic.co",
       "articles": [
+        {
+          "id": "https://www.elastic.co/blog/elastic-cloud-is-now-available-on-google-cloud-in-asia-pacific-northeast-3-seoul",
+          "author": "The Elastic Cloud Team",
+          "description": "We’re pleased to announce you can now run Elastic Cloud on Google Cloud in the Asia Pacific Northeast 3 (Seoul) region.  \n  \nElastic Cloud gives you the power of enterprise search, observability, and security in the Asia Pacific Northeast 3 (Seoul) region of Google Cloud. Easily search applications, websites, and workplace content platforms for information. Quickly gain deep insights into your environment by monitoring applications and uptime as well as analyzing centralized logs and metrics. You can also help protect your technology investment by layering endpoint security with security event monitoring (SIEM).  \n  \nDeploy your own way \n Elastic Cloud gives you the flexibility to run where and how you want. Deploy in the cloud on Amazon Web Services, Google Cloud, Microsoft Azure, or all the above. You can choose between our managed service offering, or manage the service yourself with built-in automation and orchestration tools. \n  \nWhen you log in to the Elastic Cloud console, simply select your preferred region and cloud service provider and choose how you want to optimize your deployment based on the compute, memory, or I/O requirements of your specific use case. Once you click “Create deployment,” your Elastic Cloud workload is provisioned in minutes.  \n  \nVisit our documentation to learn more. \n  \nElastic Cloud and marketplace integration \n If you are a Google Cloud customer, you can also subscribe to Elastic Cloud (Elasticsearch managed service) via the Google Cloud Marketplace. You can select between usage plans and integrated billing consolidates your Elastic Cloud usage charges into your existing Google Cloud bill. Your Elastic Cloud spend accrues towards your Google Cloud spending commitments. \n  \nGetting started is easy: Log in to the Elastic Cloud console or sign up for a free 14-day trial.",
+          "link": "https://www.elastic.co/blog/elastic-cloud-is-now-available-on-google-cloud-in-asia-pacific-northeast-3-seoul",
+          "publishedOn": "2021-07-26T16:00:00.000Z",
+          "wordCount": 518,
+          "title": "Elastic Cloud is now available on Google Cloud in Asia Pacific Northeast 3 (Seoul)"
+        },
+        {
+          "id": "https://www.elastic.co/blog/a-faster-more-seamless-way-to-engage-elastic-support",
+          "author": "Elastic Support",
+          "description": "As of July 25, 2021, we have launched a brand-new Elastic Support Portal. The new portal experience is fully integrated with Elastic Cloud and builds upon our previous update around login and authentication. For existing subscription users, the flow to get help stays the same — you’ll continue to access support.elastic.co with your Elastic Cloud account. This blog post explains some details around the new portal experience and how it will impact our users. \n\nWhat is changing?\nWe’ve built a new Support Portal experience where you can create cases, get updates, and engage with Elastic Support. With the new portal, the ability to create and review cases, download licenses, and check on subscription information all stays the same. We built the new portal with our Source Code in mind and adheri…",
+          "link": "https://www.elastic.co/blog/a-faster-more-seamless-way-to-engage-elastic-support",
+          "publishedOn": "2021-07-26T15:00:00.000Z",
+          "wordCount": 846,
+          "title": "A faster, more seamless way to engage Elastic Support"
+        },
         {
           "id": "https://www.elastic.co/blog/how-orange-business-services-is-building-a-better-siem-with-elastic",
           "author": "Jocelyn Renouf",
@@ -459,24 +486,6 @@
           "publishedOn": "2021-07-05T15:00:00.000Z",
           "wordCount": 699,
           "title": "Migrating the Certificate Authority (CA) for Elasticsearch Service to Let’s Encrypt"
-        },
-        {
-          "id": "https://www.elastic.co/blog/ingesting-threat-data-with-threat-intel-filebeat-module",
-          "author": "Elastic Security Intelligence & Analytics Team",
-          "description": "The ability for security teams to integrate threat data into their operations substantially helps their organization identify potentially malicious endpoint and network events using indicators identified by other threat research teams. In this blog, we’ll cover how to ingest threat data with the Threat Intel Filebeat module. In future blog posts, we'll cover enriching threat data with the Threat ECS fieldset and operationalizing threat data with Elastic Security.\n \nElastic Filebeat modules\n\nElastic Filebeat modules simplify the collection, parsing, and visualization of data stored in common log formats. Elastic publishes a variety of Filebeat modules that are focused on collecting the data you want for use within Elasticsearch. These modules provide a standardized and “turnkey” method to i…",
-          "link": "https://www.elastic.co/blog/ingesting-threat-data-with-threat-intel-filebeat-module",
-          "publishedOn": "2021-07-01T15:00:00.000Z",
-          "wordCount": 3598,
-          "title": "Ingesting threat data with the Threat Intel Filebeat module"
-        },
-        {
-          "id": "https://www.elastic.co/blog/how-the-elastic-infosec-team-uses-elastic-security",
-          "author": "Michael Baldwin",
-          "description": "At Elastic, we internally use, test, and provide feedback on all of our products. For example, the Information Security team is helping the Product team build a stronger solution for our customers.\n\nThe InfoSec team is an extremely valuable resource who acts not only as an extension of Quality Assurance/Testing, but also as a data custodian. In fact, our internal detections team utilizes internal Elastic InfoSec data to help build and test detection rules that ultimately find their way into the Elastic Security product.\nLast month, I was afforded the wonderful opportunity of “riding along” with our InfoSec team to better understand how we use Elastic internally. Over the course of three days, spread across three weeks, I saw the underbelly of our internal systems, how they are used, and ho…",
-          "link": "https://www.elastic.co/blog/how-the-elastic-infosec-team-uses-elastic-security",
-          "publishedOn": "2021-06-30T18:00:00.000Z",
-          "wordCount": 1293,
-          "title": "How the Elastic InfoSec team uses Elastic Security"
         }
       ]
     },
@@ -529,12 +538,21 @@
       "siteUrl": "https://devblogs.microsoft.com/devops",
       "articles": [
         {
+          "id": "https://devblogs.microsoft.com/devops/?p=62012",
+          "author": "Steven Murawski",
+          "description": "Happy Friday! With Jay out of the office this week, I’m back with some great community content to keep you going until he’s back.\nThe post Top Stories from the Microsoft DevOps Community – 2021.07.23 appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-07-23/",
+          "publishedOn": "2021-07-23T17:18:43.000Z",
+          "wordCount": 993,
+          "title": "Top Stories from the Microsoft DevOps Community – 2021.07.23"
+        },
+        {
           "id": "https://devblogs.microsoft.com/devops/?p=61948",
           "author": "Jay Gordon",
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes – @Azure Logic Apps with @ChloeCondon appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-azure-logic-apps-with-chloecondon/",
           "publishedOn": "2021-07-20T16:00:56.000Z",
-          "wordCount": 1378,
+          "wordCount": 1374,
           "title": "AzureFunBytes – @Azure Logic Apps with @ChloeCondon"
         },
         {
@@ -588,7 +606,7 @@
           "description": "The top stories from the #AzureDevOps #community for 2021.07.02 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2021.07.02 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-07-02/",
           "publishedOn": "2021-07-02T13:00:37.000Z",
-          "wordCount": 1148,
+          "wordCount": 1132,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.07.02"
         },
         {
@@ -735,6 +753,23 @@
       "feedUrl": "https://softwareengineeringdaily.com/feed/podcast/",
       "siteUrl": "https://softwareengineeringdaily.com/archives/",
       "articles": [
+        {
+          "id": "https://softwareengineeringdaily.com/?p=11299",
+          "author": null,
+          "description": "In the previous episode, Pulsar Revisited, we discussed how the company DataStax has added to their product stack Astra Streaming, their cloud-native messaging and event streaming service that’s built on top of Apache Pulsar. We discussed Apache Pulsar and the added features DataStax offers like injecting machine learning into your data streams and viewing real-time\nThe post Pulsar Rerevisted with Enrico Olivelli appeared first on Software Engineering Daily.",
+          "link": "https://softwareengineeringdaily.com/2021/07/26/pulsar-rerevisted-with-enrico-olivelli/?utm_source=rss&utm_medium=rss&utm_campaign=pulsar-rerevisted-with-enrico-olivelli",
+          "publishedOn": "2021-07-26T09:00:28.000Z",
+          "wordCount": null,
+          "title": "Pulsar Rerevisted with Enrico Olivelli",
+          "itunes": {
+            "duration": "48:21"
+          },
+          "enclosure": {
+            "url": "https://traffic.megaphone.fm/SED6512037887.mp3",
+            "length": "46451890",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "https://softwareengineeringdaily.com/?p=11289",
           "author": null,
@@ -1100,12 +1135,30 @@
       "siteUrl": "https://camunda.com",
       "articles": [
         {
+          "id": "https://camunda.com/?p=24939",
+          "author": "Charley Mann",
+          "description": "Learn how a novel software stack can reduce the gap between the production shop floor and enterprise-level management systems in Industry 4.0\nThe post Controlling Processes in a Smart Factory with the Camunda Platform appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2021/07/controlling-processes-in-a-smart-factory-with-the-camunda-platform/",
+          "publishedOn": "2021-07-26T14:26:06.000Z",
+          "wordCount": 2817,
+          "title": "Controlling Processes in a Smart Factory with the Camunda Platform"
+        },
+        {
+          "id": "https://camunda.com/?p=24764",
+          "author": "Camunda Team",
+          "description": "Learn how Camunda can be run as an embedded engine inside a Micronaut application, with the use of our open source integration project.\nThe post Automate any Process on Micronaut appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2021/07/automate-any-process-on-micronaut/",
+          "publishedOn": "2021-07-26T11:58:35.000Z",
+          "wordCount": 2828,
+          "title": "Automate any Process on Micronaut"
+        },
+        {
           "id": "https://camunda.com/?p=21705",
           "author": "Camunda Team",
           "description": "Camunda Optimize is maturing. New features and a better understanding of user needs required a refinement of the tool's UI and provided Camunda’s design team with an opportunity to improve the user experience.\nThe post Design for the future: Improving the Camunda Optimize Report builder experience appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/design-for-the-future-improving-the-camunda-optimize-report-builder-experience/",
           "publishedOn": "2021-07-16T10:38:05.000Z",
-          "wordCount": 2062,
+          "wordCount": 2063,
           "title": "Design for the future: Improving the Camunda Optimize Report builder experience",
           "enclosure": {
             "url": "https://camunda.com/wp-content/uploads/2021/05/Configuring-Aggregations.mov",
@@ -1119,7 +1172,7 @@
           "description": "Camunda Cloud 1.1.0, the next version of our innovative process automation SaaS offering, is here. \nThe post Camunda Cloud 1.1.0 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/07/camunda-cloud-110-released/",
           "publishedOn": "2021-07-13T10:42:22.000Z",
-          "wordCount": 2662,
+          "wordCount": 2661,
           "title": "Camunda Cloud 1.1.0 Released"
         },
         {
@@ -1128,7 +1181,7 @@
           "description": "Camunda Platform Runtime 7.16.0-alpha3 is here, featuring support for Java 15 & GraalVM JavaScript, and a new create deployment REST API. \nThe post Camunda Platform Runtime 7.16.0-alpha3 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/07/camunda-platform-runtime-7160-alpha3-released/",
           "publishedOn": "2021-07-13T07:30:04.000Z",
-          "wordCount": 1851,
+          "wordCount": 1850,
           "title": "Camunda Platform Runtime 7.16.0-alpha3 Released"
         },
         {

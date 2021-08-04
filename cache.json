@@ -6,6 +6,15 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/08/03/this-week-in-spring-august-3rd-2021",
+          "author": null,
+          "description": "Hi, Spring fans! Welcome to another installment of This Week in Spring! Can you believe it’s already August, 2021! We’re nearly to 2022! And I am, for better or for worse, back from vacation! I am so happy to be back, but I do miss the sunkissed beaches of Hawai’i. Sigh. Anyway, let’s get into it! We’ve got a ton of things to get into, so without further ado…\n\r\n\r\n  \nA Bootiful Podcast: Microsoft’s Asir V. Selvasingh on Spring Boot, Spring Cloud, Microsoft Azure, and Azure Spring Cloud\n\r\n  \nBlog: Roorkee robots, releases and racing: the Kubernetes 1.21 release interview\n\r\n  \nJoin Pure Storage at VMworld 2021\n\r\n  \nCassandre is an open-source framework that makes it easy to create your crypto trading bot in Java. Our Spring boot starter takes care of exchange connections, accounts, orders, trades, and positions so you can focus \n\r\n  \nCheck out this Spring Security Authorization Server example\n\r\n  \nJoin Confluent Developer advocate Viktor Gamov for this look at Spring and Apache Kafka 101\n\r\n  \nTracing logs with Spring Cloud Sleuth\n\r\n  \nHere’s another interesting look at using Spring Boot with Swagger\n\r\n  \nDid y’all see the latest installment of the SpringOne Tour. This was my favorite installment yet!\n\r\n  \nFlight Status: Oracle Cloud VMware Solution",
+          "link": "https://spring.io/blog/2021/08/03/this-week-in-spring-august-3rd-2021",
+          "publishedOn": "2021-08-03T07:00:00.000Z",
+          "wordCount": 591,
+          "title": "This Week in Spring - August 3rd, 2021"
+        },
+        {
           "id": "https://spring.io/blog/2021/07/30/spring-cloud-2021-0-0-m1-aka-jubilee-is-available",
           "author": null,
           "description": "On behalf of the community, I am pleased to announce that the Milestone 1 (M1) of the Spring Cloud 2021 Release Train is available today. The release can be found in Spring Milestone repository. You can check out the 2021 release notes for more information.\n\r\nThis release is compatible with Spring Boot 2.6.0-M1.\n\r\nThe GitHub Project for this release can be found here.\nNotable Changes in the 2021 Release Train\nSpring Cloud Gateway\n\r\n\r\n  \nStripPrefixFilter now defaults to 1 instead of 0 #2033\n\r\n  \nAdd new CacheRequestBodyFilter #1943\n\r\n  \nShare Routes across Gateway instances with Redis #1390\n\r\n\nSpring Cloud Sleuth\n\r\n\r\n  \nAdded JDBC support #1930\n\r\n  \nInstruments Tomcat Valve #1329\n\r\n  \nSupport for Spring Vault #1952\n\r\n  \nAutomatic tag table generation documentation #1950\n\r\n  \nSpring Cloud D…",
@@ -175,15 +184,6 @@
           "publishedOn": "2021-07-08T07:00:00.000Z",
           "wordCount": 422,
           "title": "A Bootiful Podcast: Matt Raible"
-        },
-        {
-          "id": "https://spring.io/blog/2021/07/07/spring-cloud-hoxton-sr12-has-been-released",
-          "author": null,
-          "description": "On behalf of the community, I am pleased to announce that the Service Release 12 (SR12) of the Spring Cloud Hoxton Release Train is available today. The release can be found in Maven Central. You can check out the Hoxton release notes for more information.\nNotable Changes in the Hoxton Release Train\n\r\nSee all issues included in this release here.\n\r\nThis was primarily a bug fix and documentation release. Hoxton.SR12 is compatible with Spring Boot 2.3.x and 2.2.x.\n\r\nNOTE: This will be the last regularly scheduled release of the Hoxton Release Train. It now enters a special maintenance period for security fixes and critical bugs until the end of Feb 2022 (which follows the lifecycle of Spring Boot 2.3.x). See the wiki for more information.\nSpring Cloud Commons\n\r\n\r\n  \nAdded TaskSchedulerWrappe…",
-          "link": "https://spring.io/blog/2021/07/07/spring-cloud-hoxton-sr12-has-been-released",
-          "publishedOn": "2021-07-07T16:35:47.000Z",
-          "wordCount": 708,
-          "title": "Spring Cloud Hoxton.SR12 has been released"
         }
       ]
     },
@@ -192,6 +192,24 @@
       "feedUrl": "https://www.hashicorp.com/blog/feed.xml",
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
+        {
+          "id": "https://www.hashicorp.com/blog/beta-support-for-crds-in-the-terraform-provider-for-kubernetes",
+          "author": null,
+          "description": "The kubernetes_manifest resource has now graduated into the official Kubernetes provider as a beta, bringing support for CRDs and custom resources.",
+          "link": "https://www.hashicorp.com/blog/beta-support-for-crds-in-the-terraform-provider-for-kubernetes",
+          "publishedOn": "2021-08-03T19:00:00.000Z",
+          "wordCount": 1284,
+          "title": "Beta Support for CRDs in the Terraform Provider for Kubernetes"
+        },
+        {
+          "id": "https://www.hashicorp.com/blog/announcing-hcp-consul-plus",
+          "author": null,
+          "description": "HCP Consul Plus allows users to federate Consul clusters across multiple regions for improved redundancy and resiliency of applications.",
+          "link": "https://www.hashicorp.com/blog/announcing-hcp-consul-plus",
+          "publishedOn": "2021-08-03T16:00:00.000Z",
+          "wordCount": 1072,
+          "title": "Announcing HCP Consul Plus"
+        },
         {
           "id": "https://www.hashicorp.com/blog/hcp-vault-starter",
           "author": null,
@@ -207,7 +225,7 @@
           "description": "Get helpful resources on a recent change to product license deployments and learn how to navigate this change.",
           "link": "https://www.hashicorp.com/blog/navigating-the-new-hashicorp-enterprise-license-deployment-process",
           "publishedOn": "2021-07-30T16:30:00.000Z",
-          "wordCount": 821,
+          "wordCount": 812,
           "title": "Navigating the New HashiCorp Enterprise License Deployment Process"
         },
         {
@@ -216,7 +234,7 @@
           "description": "The CDK for Terraform 0.5 introduces code generation from HCL and a new cdktf watch workflow for serverless workloads.",
           "link": "https://www.hashicorp.com/blog/announcing-cdk-for-terraform-0-5",
           "publishedOn": "2021-07-29T16:00:00.000Z",
-          "wordCount": 918,
+          "wordCount": 920,
           "title": "Announcing CDK for Terraform 0.5"
         },
         {
@@ -234,7 +252,7 @@
           "description": "Configure Kong Ingress Controller for Kubernetes with transparent proxy on HashiCorp Consul service mesh to manage traffic to and between your Kubernetes services.",
           "link": "https://www.hashicorp.com/blog/using-hashicorp-consul-with-kong-ingress-controller-for-kubernetes",
           "publishedOn": "2021-07-27T19:00:00.000Z",
-          "wordCount": 3409,
+          "wordCount": 3396,
           "title": "Using HashiCorp Consul with Kong Ingress Controller for Kubernetes"
         },
         {
@@ -243,7 +261,7 @@
           "description": "See how content moderation service Chatsight uses HashiCorp Nomad and Consul to speed deployment and maximize uptime.",
           "link": "https://www.hashicorp.com/blog/building-an-event-based-ha-architecture-with-nomad-and-consul",
           "publishedOn": "2021-07-26T19:00:00.000Z",
-          "wordCount": 1247,
+          "wordCount": 1243,
           "title": "Building an Event-Based HA Architecture with Nomad and Consul"
         },
         {
@@ -270,7 +288,7 @@
           "description": "Here’s how to keep track of your Apache Camel services running throughout a deployment, and enable them to communicate with one another in a multi-cloud or hybrid cloud environment.",
           "link": "https://www.hashicorp.com/blog/herding-apache-camels-with-hashicorp-consul",
           "publishedOn": "2021-07-20T17:45:00.000Z",
-          "wordCount": 1458,
+          "wordCount": 1455,
           "title": "Herding (Apache) Camels with HashiCorp Consul"
         },
         {
@@ -288,7 +306,7 @@
           "description": "Follow our new tutorial to build your summer playlist with Terraform using a community-authored Spotify provider. Hear from the author and share your playlist for a chance to win a free HashiCorp T-shirt.",
           "link": "https://www.hashicorp.com/blog/build-your-summer-spotify-playlist-with-terraform",
           "publishedOn": "2021-07-15T17:00:00.000Z",
-          "wordCount": 1096,
+          "wordCount": 1098,
           "title": "Build Your Summer Spotify Playlist with Terraform"
         },
         {
@@ -316,6 +334,105 @@
       "feedUrl": "https://www.elastic.co/blog/feed",
       "siteUrl": "https://www.elastic.co",
       "articles": [
+        {
+          "id": "https://www.elastic.co/blog/whats-new-elastic-7-14-0",
+          "author": "Steve Kearns,Angelos Kottas",
+          "description": "We are pleased to announce the general availability (GA) of Elastic 7.14, including our Elastic Enterprise Search, Observability, and Security solutions, which are built into the Elastic Stack — Elasticsearch and Kibana. \n\nElastic 7.14 empowers organizations with the first free and open Limitless XDR, which delivers unified SIEM and endpoint security capabilities in one platform. \n\nThe latest release makes it even easier to manage and monitor data from a growing volume of diverse sources. With Elastic Agent, security practitioners benefit from integrated ransomware and malware prevention as well as remediation on all of their hosts. Users of Elastic Observability can get better visibility across their applications and infrastructure, as well as secure centralized agent management, with Ela…",
+          "link": "https://www.elastic.co/blog/whats-new-elastic-7-14-0",
+          "publishedOn": "2021-08-03T16:07:00.000Z",
+          "wordCount": 1527,
+          "title": "Elastic 7.14.0 introduces the industry’s first free and open Limitless XDR"
+        },
+        {
+          "id": "https://www.elastic.co/blog/whats-new-elastic-security-7-14-0",
+          "author": "Mark Settle",
+          "description": "Elastic Security 7.14 introduces the industry’s first free and open Limitless XDR solution, unifying the capabilities of SIEM and endpoint security. It is made possible by the general availability of Elastic Agent, which helps equip it to prevent, detect, and respond to threats before adversaries can steal sensitive information or sabotage operations. Let’s dig into the best of what it brings.\nQuickly quarantine and inspect endpoints\nElastic Security 7.14 accelerates response by enabling analysts to invoke response actions with Elastic Agent. With the first native response action for Elastic Agent, host isolation, analysts can address malicious activity by quarantining a host from a network, containing the attack and preventing lateral movement to other hosts. Try it out with the Endpoint …",
+          "link": "https://www.elastic.co/blog/whats-new-elastic-security-7-14-0",
+          "publishedOn": "2021-08-03T16:06:00.000Z",
+          "wordCount": 1079,
+          "title": "What’s new in Elastic Security 7.14: Protect your company with Limitless XDR"
+        },
+        {
+          "id": "https://www.elastic.co/blog/whats-new-elastic-observability-7-14-0",
+          "author": "Amena Siddiqi",
+          "description": "Elastic Observability 7.14 introduces the general availability of unified telemetry and centralized agent management with Elastic Agent and Fleet, enabling faster and simpler data onboarding, and reduced security risk, in addition to enhanced correlations for accelerated root cause analysis in Elastic APM. \n\nThese new features allow customers to:\n\nCollect all forms of data from anywhere with a single unified agent per host, with just one agent to install, configure, and scale\nDeploy endpoint security seamlessly across their infrastructure, bringing DevOps and security teams into greater convergence\nQuickly surface factors that have the most significant impact on service performance\nElastic Observability 7.14 is available now on Elastic Cloud — the only hosted Elasticsearch offering to incl…",
+          "link": "https://www.elastic.co/blog/whats-new-elastic-observability-7-14-0",
+          "publishedOn": "2021-08-03T16:05:00.000Z",
+          "wordCount": 1097,
+          "title": "Elastic Observability 7.14: Unified telemetry and accelerated application root cause analysis"
+        },
+        {
+          "id": "https://www.elastic.co/blog/whats-new-elastic-enterprise-search-7-14-0",
+          "author": "Jessica Taylor",
+          "description": "Elastic Enterprise Search 7.14 now lets you manage all your Elastic products from a single management interface, so you can navigate to App Search and Workplace Search from Kibana without losing your way.\n\nWe’re also delivering more flexibility and configurability with precision tuning in App Search and content source flexibility and synonym support in Workplace Search. With all these enhancements, you can set up your teams and customers to find what they’re looking for faster than ever:\n\nGenerate more search experience insights with Kibana’s powerful visualizations\nGain tighter customization over your search results with adjustable precision and recall\nConfigure how you want to ingest data with our out-of-the-box content sources\nCreate synonyms so teams can find information faster\nElastic…",
+          "link": "https://www.elastic.co/blog/whats-new-elastic-enterprise-search-7-14-0",
+          "publishedOn": "2021-08-03T16:04:00.000Z",
+          "wordCount": 1103,
+          "title": "What's new in Elastic Enterprise Search 7.14: Kibana integration and precision tuning"
+        },
+        {
+          "id": "https://www.elastic.co/blog/whats-new-elastic-cloud-7-14-0",
+          "author": "The Elastic Cloud Team",
+          "description": "The latest updates to Elastic Cloud make it even easier for our customers to protect their data using Microsoft Azure Private Link, and offer new options for deployment location and hardware configuration in Google Cloud. \n \nNetwork security enhancements\n\nWe’re excited to announce that support for Microsoft Azure Private Link is now generally available. Private Link provides private connectivity from your Azure virtual network to your Elastic Cloud deployments. The traffic between your virtual network and your Elastic Cloud deployment on Azure travels only within the Azure network, utilizing Private Link endpoints and ensuring that your data stays off the Internet. Soon, you will also be able to leverage Google Cloud Private Service Connect to secure the network connection between your Goo…",
+          "link": "https://www.elastic.co/blog/whats-new-elastic-cloud-7-14-0",
+          "publishedOn": "2021-08-03T16:03:00.000Z",
+          "wordCount": 628,
+          "title": "What’s new in Elastic Cloud for 7.14: Connect securely to your public cloud environments with Azure Private Link"
+        },
+        {
+          "id": "https://www.elastic.co/blog/whats-new-kibana-7-14-0",
+          "author": "Adeline Tan",
+          "description": "Kibana 7.14 introduces more capabilities for ad hoc analytics to enable users to cut through the noise and discover insights faster and more easily. \n\nThese new features include custom formulas and time-shifted metrics in Kibana Lens and a time slider in Elastic Maps–all without compromising speed. In addition:\n\nTime-shifted metrics and a time slider in Kibana Lens and Elastic Maps allow users to compare data from different time periods at a glance.\nCustom formulas in Kibana Lens and edit tools in Elastic Maps give users the creative freedom to author metrics and add to geo indices.\nElastic Agent, a unified agent for collecting data from multiple sources and protecting your data and hosts, is generally available. Users can choose from 100+ out-of-the-box integrations that are pre-loaded wi…",
+          "link": "https://www.elastic.co/blog/whats-new-kibana-7-14-0",
+          "publishedOn": "2021-08-03T16:02:00.000Z",
+          "wordCount": 1332,
+          "title": "What’s new in Kibana 7.14: Formulas and time shifts for richer ad hoc analysis"
+        },
+        {
+          "id": "https://www.elastic.co/blog/whats-new-elasticsearch-7-14-0",
+          "author": "George Kobar",
+          "description": "We’re pleased to announce Elasticsearch 7.14.0, based on Apache Lucene 8.9.0. \n\nVersion 7.14 is the latest stable release of Elasticsearch and is now available for deployment via Elasticsearch Service on Elastic Cloud or via download for use in your own environment(s).\n\nReady to roll up your sleeves and get started? We have the links you need:\n\nStart Elasticsearch on Elastic Cloud \nDownload Elasticsearch\nElasticsearch 7.14.0 release notes\nElasticsearch 7.14.0 breaking changes\n \nSwing for the geofences with Elasticsearch 7.14 \nWhen searching data, “where” is a common and important question. Whether you’re trying to identify whether an outage is a local or global issue, locating adversaries attacking your network, or simply tracking where your food delivery is, Elasticsearch and the Elastic …",
+          "link": "https://www.elastic.co/blog/whats-new-elasticsearch-7-14-0",
+          "publishedOn": "2021-08-03T16:01:00.000Z",
+          "wordCount": 1509,
+          "title": "Elasticsearch 7.14 released"
+        },
+        {
+          "id": "https://www.elastic.co/blog/elastic-stack-6-8-18-released",
+          "author": "Pedro Jaramillo",
+          "description": "Elastic Stack 6.8.18 has been released. Read about the updates and bug fixes that have been included in Kibana, Elasticsearch, Beats, Logstash.",
+          "link": "https://www.elastic.co/blog/elastic-stack-6-8-18-released",
+          "publishedOn": "2021-08-03T16:00:00.000Z",
+          "wordCount": 261,
+          "title": "Elastic Stack 6.8.18 released"
+        },
+        {
+          "id": "https://www.elastic.co/blog/introducing-limitless-xdr",
+          "author": "Mike Nichols",
+          "description": "Elastic Security's newest features define the potential of XDR for cybersecurity teams. Our single platform brings together SIEM and endpoint security, allowing users to ingest and retain large volumes of data from diverse sources, store and search data for longer, and augment threat hunting with detections and machine learning.\nSecurity vendors are using the term “XDR” with increasing frequency, applying varied definitions to suit their respective technologies. The term began as an evolution of EDR (endpoint detection and response), and tried to encapsulate the need for varied data sources in the investigative process by using “X” for “eXtended.” Through all the varying definitions, the core concepts remain:\n\nVisibility: The exponential growth of data makes a security practitioner’s job i…",
+          "link": "https://www.elastic.co/blog/introducing-limitless-xdr",
+          "publishedOn": "2021-08-03T16:00:00.000Z",
+          "wordCount": 1709,
+          "title": "Limitless XDR defined: Ingest, retain, and analyze security data freely"
+        },
+        {
+          "id": "https://www.elastic.co/blog/save-10-percent-disk-space-on-your-logging-datasets-with-match-only-text",
+          "author": "Adrien Grand",
+          "description": "Elasticsearch 7.14 introduces match_only_text, a new field type that can be used as a drop-in replacement for the text field type in logging use cases with a much lower disk footprint, leading to lower costs.\n\nElasticsearch is attractive for log analysis thanks to its ability to index log messages. Want to count how many log messages contain access denied in the last 24 hours? Elasticsearch can give you the answer in milliseconds thanks to its index structures — but index structures take CPU time to build and need disk space. You could save this CPU and disk space by not indexing your message fields, but then you would also lose the ability to query your logging data in an interactive way.\n\nIn order to reduce disk space requirements, match_only_text only indexes a subset of the information…",
+          "link": "https://www.elastic.co/blog/save-10-percent-disk-space-on-your-logging-datasets-with-match-only-text",
+          "publishedOn": "2021-08-03T15:00:00.000Z",
+          "wordCount": 866,
+          "title": "Save 10% disk space on your logging datasets with match_only_text"
+        },
+        {
+          "id": "https://www.elastic.co/blog/elastic-agent-and-fleet-make-it-easier-to-integrate-your-systems-with-elastic",
+          "author": "Jason Skowronski",
+          "description": "Today, we are happy to announce three major improvements that will make it easier to integrate your systems and applications with the Elastic Stack. First, we are launching the generally available (GA) release of our Elastic Agent, which is a single, unified agent for both observability and security. A unified agent will simplify data onboarding with fewer things to configure and install.\n\nSecond, we are launching the GA release of Fleet, a new Kibana app that lets you centrally manage an entire fleet of Elastic Agents at scale. It acts as a control plane, giving you a real-time view into agent status, remotely upgrade agents, execute queries on each host, and contain security threats.\n\nThird, we are launching our new Integrations app in Kibana along with our first set of GA integrations. …",
+          "link": "https://www.elastic.co/blog/elastic-agent-and-fleet-make-it-easier-to-integrate-your-systems-with-elastic",
+          "publishedOn": "2021-08-03T15:00:00.000Z",
+          "wordCount": 1655,
+          "title": "Elastic Agent and Fleet make it easier to integrate your systems with Elastic"
+        },
         {
           "id": "https://www.elastic.co/blog/detecting-unusual-network-activity-with-elastic-security-and-machine-learning",
           "author": "Craig Chamberlain",
@@ -396,105 +513,6 @@
           "publishedOn": "2021-07-22T16:00:00.000Z",
           "wordCount": 1609,
           "title": "How Orange Business Services is building a better SIEM with Elastic"
-        },
-        {
-          "id": "https://www.elastic.co/blog/how-versatile-is-the-elastic-stack-ask-walmart-nasa-airbus",
-          "author": "Becky Quintal",
-          "description": "What do an airline, the world’s largest retailer, the French government, Adobe, and NASA’s JPL have in common? They use the Elastic Stack to empower customers, communities, and, even, interplanetary exploration.  \n With the Elastic Stack’s ability to take data from any source and in any format, and then search, analyze, and visualize it in real time, organizations can act quickly to improve customer experience and power critical systems. The flexibility of Elastic as a platform means that the same underlying technology can serve a broad range of challenges.  \n See how companies across the globe are using Elastic to... \n \nCombat fraud and save consumers millions\n \nWalmart’s Global Investigations team has used Elastic to ingest more than 4 billion metadata records over the past 5 years to co…",
-          "link": "https://www.elastic.co/blog/how-versatile-is-the-elastic-stack-ask-walmart-nasa-airbus",
-          "publishedOn": "2021-07-20T16:00:00.000Z",
-          "wordCount": 843,
-          "title": "How versatile is the Elastic Stack? Ask Walmart, NASA, or Airbus."
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-stack-7-13-4-released",
-          "author": "Colin Goodheart-Smithe",
-          "description": "Elastic Stack 7.13.4 has been released. Read about the updates and bug fixes that have been included in Elasticsearch, Kibana, Beats, Logstash, Workplace Search, App Search and APM.",
-          "link": "https://www.elastic.co/blog/elastic-stack-7-13-4-released",
-          "publishedOn": "2021-07-20T15:00:00.000Z",
-          "wordCount": 355,
-          "title": "Elastic Stack 7.13.4 released"
-        },
-        {
-          "id": "https://www.elastic.co/blog/bringing-customers-the-best-elastic-experience-on-alibaba-cloud",
-          "author": "Becky Quintal",
-          "description": "The partnership between Elastic and Alibaba Cloud has expanded our community of users and developers into thousands of commercial users. \n\t\n\nThis partnership is a leading example of Elastic’s commitment to partnering with companies that users trust with their cloud infrastructure and developing a cloud-native, flexible platform. Other partners include Microsoft Azure, Google Cloud, and AWS.\n\t\n\nNow, we are thrilled to be the recipient of Alibaba Cloud’s Walking Together Award. Here, Pankaj Khushani, Sr. Director of Partners at Elastic, explains how Elastic and Alibaba Cloud have overcome market and global challenges to drive growth. \n\nWhat is unique about the partnership?\nOne of the most unique things about our partnership is that Alibaba Elasticsearch is one of Alibaba’s self-developed sol…",
-          "link": "https://www.elastic.co/blog/bringing-customers-the-best-elastic-experience-on-alibaba-cloud",
-          "publishedOn": "2021-07-15T18:00:00.000Z",
-          "wordCount": 902,
-          "title": "Bringing customers the best Elastic experience on Alibaba Cloud"
-        },
-        {
-          "id": "https://www.elastic.co/blog/how-does-search-solve-data-problems",
-          "author": "Becky Quintal,Fermi Fang",
-          "description": "Is enterprise data a benefit or a burden?\n\nThink about all of the data your organization generates and consumes in the digital age — from security event logs to application error messages, energy consumption to vendor contracts. There is so much, and all of it is usually stored in silos, making the data difficult to synthesize to provide better services, identify signals proactively, or make stronger business decisions. How do organizations overcome the challenges of understanding their data so that they can finally derive value from it, allowing organizations to truly put their data to work? \n\nThe answer is to shift your organization’s thinking away from the complexity of consolidating data to how to better find the answers within it. More data can mean more insights, and those benefits h…",
-          "link": "https://www.elastic.co/blog/how-does-search-solve-data-problems",
-          "publishedOn": "2021-07-15T15:00:00.000Z",
-          "wordCount": 886,
-          "title": "How does search solve data problems?"
-        },
-        {
-          "id": "https://www.elastic.co/blog/free-training-fundamentals-courses-elastic-enterprise-search",
-          "author": "Tamara Rosini,Darren Meiss",
-          "description": "We recently released new free on-demand Elastic training courses for the products in the Elastic Enterprise Search solution: Elastic Workplace Search and Elastic App Search. \n\nOur on-demand courses provide the same immersive learning experience found in the classroom, but delivered in a convenient, remote environment. These self-paced courses include expertly designed materials, engaging demos, and hands-on lab exercises. They provide everything you need to start creating powerful search experiences for your workplace, websites, and apps.\n \nElastic Workplace Search and Elastic App Search are built on the Elastic Stack, so you can enjoy its speed, scale, and relevance without the heavy development and maintenance requirements of building your own search solution.\n \nApp Search Fundamentals\nE…",
-          "link": "https://www.elastic.co/blog/free-training-fundamentals-courses-elastic-enterprise-search",
-          "publishedOn": "2021-07-14T18:00:00.000Z",
-          "wordCount": 767,
-          "title": "Free training fundamentals courses from Elastic Enterprise Search"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-named-leader-forrester-wave-cognitive-search-2021",
-          "author": "Matt Riley",
-          "description": "We’re thrilled to announce that Elastic has been named a Leader in The Forrester Wave™: Cognitive Search, Q3 2021*, highlighting, in our opinion, our commitment to providing a set of tools that makes it quicker and easier to build great search experiences with Elasticsearch. \n\nIn addition to receiving the highest score possible in the strategy category, Elastic also received the highest scores possible in the operations and market awareness criteria. We believe this underlines the investments and rapid pace of product innovation Elastic has committed to Enterprise Search over the past year. For example, we’ve continued to deepen our integrations, including adding prebuilt connectivity for Slack, Box, and Gmail. \n\n“[Elastic’s] sweet spot is for enterprises that want fast, friendly, and affo…",
-          "link": "https://www.elastic.co/blog/elastic-named-leader-forrester-wave-cognitive-search-2021",
-          "publishedOn": "2021-07-12T16:00:00.000Z",
-          "wordCount": 761,
-          "title": "Elastic named a Leader in The Forrester Wave: Cognitive Search"
-        },
-        {
-          "id": "https://www.elastic.co/blog/how-to-add-search-to-your-ios-app-part-2",
-          "author": "Ethan Groves",
-          "description": "In part one, we went over setting up your Elastic stack and ingesting data. In the second part of this blog series, we will be creating an iOS app that uses Elasticsearch for searching a movie database.\n\nNote: This tutorial is based on Elasticsearch version 7.12.x\n\nStarting a New Xcode Project\n\n\n\t\nOpen Xcode and create a new project.\nIn the iOS tab, select App and choose Next\nConfigure the options for setting up the new app\n\t\nProduct name: App-Search\nTeam: <your team name>\nOrganization Identifier: <your identifier>\nInterface: SwiftUI\nLife Cycle: SwiftUI App\nLanguage: Swift\nUse core data: No\nInclude tests: No\n\n\t\nSelect Next\nChoose where to save your project, and select Create\n \nBuilding the UI\n\nThe UI will be built out in the ContentView.swift file.\nThe basic structure of the UI will be as …",
-          "link": "https://www.elastic.co/blog/how-to-add-search-to-your-ios-app-part-2",
-          "publishedOn": "2021-07-08T18:01:00.000Z",
-          "wordCount": 2253,
-          "title": "How to add search to your iOS app with Elastic App Search: Part 2"
-        },
-        {
-          "id": "https://www.elastic.co/blog/how-to-add-search-to-your-ios-app-part-1",
-          "author": "Ethan Groves",
-          "description": "This is a short and sweet, to-the-point, tutorial series that shows how to add search functionality to an iOS app using Elasticsearch for free! More specifically, in this two-part blog series, we will be creating an iOS app that uses Elastic App Search for searching a movie database. By the end of this tutorial, whether you need to search through a small movie database or through petabytes of cloud metrics, you’ll have the knowledge you need to build an amazing search experience for iOS mobile users.\n\nNote: This tutorial is based on Elasticsearch version 7.12.x\n\nSetup Elastic Cloud trial\n\n\n\t\nNavigate to https://www.elastic.co/cloud/.\nChoose Start free trial.\nSign up and login.\nChoose Start your free trial.\nSelect the Enterprise Search option.\nChoose to Expand the settings.\nChoose version 7…",
-          "link": "https://www.elastic.co/blog/how-to-add-search-to-your-ios-app-part-1",
-          "publishedOn": "2021-07-08T18:00:00.000Z",
-          "wordCount": 627,
-          "title": "How to add search to your iOS app with Elastic App Search"
-        },
-        {
-          "id": "https://www.elastic.co/blog/practical-cpu-time-performance-tuning-for-security-software-part-2",
-          "author": "Yamin Tian",
-          "description": "In a previous blog, we discussed how to monitor, troubleshoot, and fix high %CPU issues. We also revealed a system API that could have an unexpected impact on CPU consumption. In this episode, we’ll discuss another time-related performance aspect that is unique to security software: application startup time. You don’t need to be a developer to benefit from this article. As long as you are curious to find out how the applications in your environment perform and why sometimes they seem to be very slow and want to improve that, you might find this blog post helpful.\n \nWhat is application startup time?\n\nSecurity software usually sits along the critical path an application takes when it is about to launch or execute. The software makes the decision either to block or allow the launching/executi…",
-          "link": "https://www.elastic.co/blog/practical-cpu-time-performance-tuning-for-security-software-part-2",
-          "publishedOn": "2021-07-08T15:00:00.000Z",
-          "wordCount": 1750,
-          "title": "Practical CPU time performance tuning for security software: Part 2"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-stack-7-13-3-released",
-          "author": "João Duarte",
-          "description": "Elastic Stack 7.13.3 has been released. Read about the updates and bug fixes that have been included in Elasticsearch, Kibana, Beats, Logstash, Workplace Search, App Search and APM.",
-          "link": "https://www.elastic.co/blog/elastic-stack-7-13-3-released",
-          "publishedOn": "2021-07-07T18:01:00.000Z",
-          "wordCount": 280,
-          "title": "Elastic Stack 7.13.3 released"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-security-prevents-100-percent-of-revil-ransomware-samples",
-          "author": "Jamie Butler",
-          "description": "Users of Elastic Security are protected through numerous layers of protections against the REvil ransomware that affected Kaseya VSA and its customers. Elastic Security’s layered protections prevented 100% of the REvil ransomware samples tested before damage and loss could occur to the business.\n\nWe believe that detections and preventions must be layered, as no single protection works 100% of the time. There are times where detection in the SIEM/central analytics layer is the most effective, especially when you need to take signals from multiple places or correlate the activity to determine it is malicious. However, the most effective way to stop an attack is at the host. \n\nPrevention is paramount when it comes to ransomware. Teams cannot wait to be notified of an issue after their data is…",
-          "link": "https://www.elastic.co/blog/elastic-security-prevents-100-percent-of-revil-ransomware-samples",
-          "publishedOn": "2021-07-07T18:00:00.000Z",
-          "wordCount": 1288,
-          "title": "Elastic Security prevents 100% of REvil ransomware samples"
         }
       ]
     },
@@ -503,6 +521,15 @@
       "feedUrl": "https://www.ansible.com/blog/rss.xml",
       "siteUrl": "https://www.ansible.com/blog",
       "articles": [
+        {
+          "id": "https://www.ansible.com/blog/audit-your-vmware-vcenter-server-using-ansible",
+          "author": "Gonéri Le Bouder",
+          "description": "How you can use the modules available in Red Hat supported vmware.vmware_rest Ansible Content Collection to audit your vCenter Servers.",
+          "link": "https://www.ansible.com/blog/audit-your-vmware-vcenter-server-using-ansible",
+          "publishedOn": "2021-08-03T13:35:00.000Z",
+          "wordCount": 1707,
+          "title": "Audit your VMware vCenter Server using Ansible"
+        },
         {
           "id": "https://www.ansible.com/blog/getting-started-with-bgp-address-family-resource-modules",
           "author": "Rohit Thakur",
@@ -556,12 +583,21 @@
       "siteUrl": "https://devblogs.microsoft.com/devops",
       "articles": [
         {
+          "id": "https://devblogs.microsoft.com/devops/?p=62072",
+          "author": "Jay Gordon",
+          "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes Episode 49 – Intro to @Azure SQL with @StevenMurawski appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-49-intro-to-azure-sql-with-stevenmurawski/",
+          "publishedOn": "2021-08-03T14:00:39.000Z",
+          "wordCount": 1400,
+          "title": "AzureFunBytes Episode 49 – Intro to @Azure SQL with @StevenMurawski"
+        },
+        {
           "id": "https://devblogs.microsoft.com/devops/?p=62089",
           "author": "Peter De Tender",
           "description": "By using Azure Monitor, Azure Log Analytics and Application Insights, Azure cloud teams have access to a collection of end-to-end monitoring solutions, directly from the Azure Portal, allowing for Azure Services monitoring, as well as hybrid.\nThe post Monitoring Azure by using Grafana dashboards appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/monitoring-azure-by-using-grafana-dashboards/",
           "publishedOn": "2021-07-30T16:00:55.000Z",
-          "wordCount": 2062,
+          "wordCount": 2070,
           "title": "Monitoring Azure by using Grafana dashboards"
         },
         {
@@ -579,7 +615,7 @@
           "description": "Azure Static Web Apps Comparison\nThe post Comparing Azure Static Web Apps vs Azure WebApps vs Azure Blob Storage Static Sites appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/comparing-azure-static-web-apps-vs-azure-webapps-vs-azure-blob-storage-static-sites/",
           "publishedOn": "2021-07-29T15:27:59.000Z",
-          "wordCount": 1556,
+          "wordCount": 1558,
           "title": "Comparing Azure Static Web Apps vs Azure WebApps vs Azure Blob Storage Static Sites"
         },
         {
@@ -588,7 +624,7 @@
           "description": "In our 2nd blog DevOps Dojo – Experiential Learning, we shared with you that we couldn’t find a better example than showcasing how our Aspires leverage all the methods listed in the blog to advance their careers and learnings. Their way of learning is disruptive,\nThe post DevOps Dojo – People & Teams appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/devops-dojo-people-teams/",
           "publishedOn": "2021-07-28T21:11:11.000Z",
-          "wordCount": 7353,
+          "wordCount": 7355,
           "title": "DevOps Dojo – People & Teams"
         },
         {
@@ -597,7 +633,7 @@
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes – @Azure Arc Enabled Data Services with @sqldbawithbeard appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-azure-arc-enabled-data-services-with-sqldbawithbeard/",
           "publishedOn": "2021-07-27T16:00:10.000Z",
-          "wordCount": 1413,
+          "wordCount": 1415,
           "title": "AzureFunBytes – @Azure Arc Enabled Data Services with @sqldbawithbeard"
         },
         {
@@ -606,7 +642,7 @@
           "description": "Happy Friday! With Jay out of the office this week, I’m back with some great community content to keep you going until he’s back.\nThe post Top Stories from the Microsoft DevOps Community – 2021.07.23 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-07-23/",
           "publishedOn": "2021-07-23T17:18:43.000Z",
-          "wordCount": 1039,
+          "wordCount": 1041,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.07.23"
         },
         {
@@ -624,7 +660,7 @@
           "description": "The top stories from the #AzureDevOps #community for 2021.07.16 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2021.07.16 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-07-16/",
           "publishedOn": "2021-07-16T08:00:06.000Z",
-          "wordCount": 1203,
+          "wordCount": 1205,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.07.16"
         },
         {
@@ -633,17 +669,8 @@
           "description": "Today, we released Azure DevOps Server 2020.1.1 RC. This is our planned prerelease before our final release of Azure DevOps Server 2020.1.1. You can upgrade from Azure DevOps Server 2020.1 or previous versions of TFS and Azure DevOps. You can find the full details in our release notes.\nThe post Azure DevOps Server 2020.1.1 RC now available appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-1-rc-now-available/",
           "publishedOn": "2021-07-13T17:51:13.000Z",
-          "wordCount": 936,
+          "wordCount": 938,
           "title": "Azure DevOps Server 2020.1.1 RC now available"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=61890",
-          "author": "Jay Gordon",
-          "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes Episode 46 – OpenShift on @Azure with @jjasghar appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-46-openshift-on-azure-with-jjasghar/",
-          "publishedOn": "2021-07-13T14:00:15.000Z",
-          "wordCount": 1416,
-          "title": "AzureFunBytes Episode 46 – OpenShift on @Azure with @jjasghar"
         }
       ]
     },
@@ -807,6 +834,23 @@
       "feedUrl": "https://softwareengineeringdaily.com/feed/podcast/",
       "siteUrl": "https://softwareengineeringdaily.com/archives/",
       "articles": [
+        {
+          "id": "https://softwareengineeringdaily.com/?p=11339",
+          "author": null,
+          "description": "Blockchain protocols like Bitcoin and Ethereum have changed the cyber world dramatically in the last decade. They’ve created communities of like-minded developers, generated new financial markets, and popularized “decentralization” in computer networks. However, they require large resources to operate which makes scaling difficult and transactions expensive. Hedera is a decentralized public network that takes the\nThe post Hedera Hashgraph: Proof-of-Stake Public Networks with Leemon Baird appeared first on Software Engineering Daily.",
+          "link": "https://softwareengineeringdaily.com/2021/08/03/hedera-hashgraph-with-leemon-baird/?utm_source=rss&utm_medium=rss&utm_campaign=hedera-hashgraph-with-leemon-baird",
+          "publishedOn": "2021-08-03T09:00:22.000Z",
+          "wordCount": null,
+          "title": "Hedera Hashgraph: Proof-of-Stake Public Networks with Leemon Baird",
+          "itunes": {
+            "duration": "52:20"
+          },
+          "enclosure": {
+            "url": "https://traffic.megaphone.fm/SED5692476562.mp3",
+            "length": "50286946",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "https://softwareengineeringdaily.com/?p=11237",
           "author": null,
@@ -1177,7 +1221,7 @@
           "description": "Recently, I was painfully reminded of the Dark Lord’s failure when I discovered Harry Potter (the person, not the books) turns 40 tomorrow. To help get my mind off of it, I built a Sorting Hat.\nThe post The DMN-Powered Sorting Hat appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/07/the-dmn-powered-sorting-hat/",
           "publishedOn": "2021-07-30T12:40:53.000Z",
-          "wordCount": 2251,
+          "wordCount": 2261,
           "title": "The DMN-Powered Sorting Hat"
         },
         {
@@ -1186,7 +1230,7 @@
           "description": "Learn how Camunda can be run as an embedded engine inside a Micronaut application, with the use of our open source integration project.\nThe post Automate any Process on Micronaut appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/07/automate-any-process-on-micronaut/",
           "publishedOn": "2021-07-29T07:00:01.000Z",
-          "wordCount": 2828,
+          "wordCount": 2838,
           "title": "Automate any Process on Micronaut"
         },
         {
@@ -1195,7 +1239,7 @@
           "description": "The countdown has officially begun for CamundaCon 2021. Our agenda is now live, and registration is open for you to reserve your spot and join us September 22–23. \nThe post CamundaCon 2021: Get with the Program appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/07/camundacon-2021-get-with-the-program/",
           "publishedOn": "2021-07-27T12:48:37.000Z",
-          "wordCount": 1570,
+          "wordCount": 1579,
           "title": "CamundaCon 2021: Get with the Program"
         },
         {
@@ -1204,7 +1248,7 @@
           "description": "Learn how a novel software stack can reduce the gap between the production shop floor and enterprise-level management systems in Industry 4.0\nThe post Controlling Processes in a Smart Factory with the Camunda Platform appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/07/controlling-processes-in-a-smart-factory-with-the-camunda-platform/",
           "publishedOn": "2021-07-26T14:26:06.000Z",
-          "wordCount": 2818,
+          "wordCount": 2827,
           "title": "Controlling Processes in a Smart Factory with the Camunda Platform"
         },
         {
@@ -1213,7 +1257,7 @@
           "description": "Camunda Optimize is maturing. New features and a better understanding of user needs required a refinement of the tool's UI and provided Camunda’s design team with an opportunity to improve the user experience.\nThe post Design for the future: Improving the Camunda Optimize Report builder experience appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/06/design-for-the-future-improving-the-camunda-optimize-report-builder-experience/",
           "publishedOn": "2021-07-16T10:38:05.000Z",
-          "wordCount": 2074,
+          "wordCount": 2084,
           "title": "Design for the future: Improving the Camunda Optimize Report builder experience",
           "enclosure": {
             "url": "https://camunda.com/wp-content/uploads/2021/05/Configuring-Aggregations.mov",
@@ -1227,7 +1271,7 @@
           "description": "Camunda Cloud 1.1.0, the next version of our innovative process automation SaaS offering, is here. \nThe post Camunda Cloud 1.1.0 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/07/camunda-cloud-110-released/",
           "publishedOn": "2021-07-13T10:42:22.000Z",
-          "wordCount": 2662,
+          "wordCount": 2671,
           "title": "Camunda Cloud 1.1.0 Released"
         },
         {
@@ -1236,7 +1280,7 @@
           "description": "Camunda Platform Runtime 7.16.0-alpha3 is here, featuring support for Java 15 & GraalVM JavaScript, and a new create deployment REST API. \nThe post Camunda Platform Runtime 7.16.0-alpha3 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/07/camunda-platform-runtime-7160-alpha3-released/",
           "publishedOn": "2021-07-13T07:30:04.000Z",
-          "wordCount": 1850,
+          "wordCount": 1860,
           "title": "Camunda Platform Runtime 7.16.0-alpha3 Released"
         },
         {
@@ -1245,7 +1289,7 @@
           "description": "The Camunda Modeler 4.9 release ships with support for Camunda Cloud 1.1, improvements to the core editor UI, BPMN and DMN editor enhancements, and bug fixes.\nThe post Camunda Modeler 4.9 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/07/camunda-modeler-49-released/",
           "publishedOn": "2021-07-13T07:20:00.000Z",
-          "wordCount": 1423,
+          "wordCount": 1432,
           "title": "Camunda Modeler 4.9 Released"
         },
         {
@@ -1254,7 +1298,7 @@
           "description": "We’re excited to announce the release of Camunda Optimize 3.5.0. which ships with new capabilities including Multi Process Reports and an Elasticsearch headers plugin.\nThe post Camunda Optimize 3.5.0 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/07/camunda-optimize-350-released/",
           "publishedOn": "2021-07-13T07:10:02.000Z",
-          "wordCount": 2331,
+          "wordCount": 2340,
           "title": "Camunda Optimize 3.5.0 Released"
         },
         {
@@ -1263,7 +1307,7 @@
           "description": "We’re happy to announce the 1.7 release of Cawemo Enterprise On-Premises, including improvements like copy & paste between diagrams and smarter milestone autosaving.\nThe post Cawemo Enterprise (On-Premises) 1.7 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/07/cawemo-enterprise-on-premises-17-released/",
           "publishedOn": "2021-07-13T07:00:00.000Z",
-          "wordCount": 1469,
+          "wordCount": 1478,
           "title": "Cawemo Enterprise (On-Premises) 1.7 Released"
         }
       ]

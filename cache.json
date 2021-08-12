@@ -193,6 +193,15 @@
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
         {
+          "id": "https://www.hashicorp.com/blog/hashicorp-state-of-cloud-strategy-survey-welcome-to-the-multi-cloud-era",
+          "author": null,
+          "description": "Our inaugural cloud strategy survey reveals that multi-cloud is now the new normal, driven by digital transformation, with skill shortages, security, and COVID having complex impacts.",
+          "link": "https://www.hashicorp.com/blog/hashicorp-state-of-cloud-strategy-survey-welcome-to-the-multi-cloud-era",
+          "publishedOn": "2021-08-11T16:00:00.000Z",
+          "wordCount": 1112,
+          "title": "HashiCorp State of Cloud Strategy Survey: Welcome to the Multi-Cloud Era"
+        },
+        {
           "id": "https://www.hashicorp.com/blog/a-kubernetes-user-s-guide-to-hashicorp-nomad-secret-management",
           "author": null,
           "description": "Learn how secrets management in Kubernetes compares to HashiCorp Nomad, and see why HashiCorp Vault is a powerful solution for both.",
@@ -315,7 +324,7 @@
           "description": "Mitchell Hashimoto takes on a new individual contributor role at HashiCorp.",
           "link": "https://www.hashicorp.com/blog/mitchell-s-new-role-at-hashicorp",
           "publishedOn": "2021-07-22T21:00:00.000Z",
-          "wordCount": 1108,
+          "wordCount": 1110,
           "title": "Mitchell's New Role at HashiCorp"
         },
         {
@@ -361,6 +370,15 @@
       "feedUrl": "https://www.elastic.co/blog/feed",
       "siteUrl": "https://www.elastic.co",
       "articles": [
+        {
+          "id": "https://www.elastic.co/blog/read-active-log-files-more-quickly-and-easily-with-the-new-filestream-input-in-filebeat",
+          "author": "Noémi Ványi",
+          "description": "With Elastic 7.14, the filestream input, the successor of log input, is now generally available in Filebeat. This new, superior input provides better support for reading active log files, with faster reaction time when there is backpressure in the system, quicker registry updates, better cooperation with external log rotation tools, and more. \n \nImproved registry performance\n \nPreviously, when a registry file (the file used for saving the progress of publishing events) contained many entries, state updates became slower, even if Filebeat was only collecting a few files. The main problem was that the complete registry was serialized after every ACK from the outputs. That required an expensive fsync call per registry write. Now offset updates are written to the file in an append-only manner.…",
+          "link": "https://www.elastic.co/blog/read-active-log-files-more-quickly-and-easily-with-the-new-filestream-input-in-filebeat",
+          "publishedOn": "2021-08-11T15:00:00.000Z",
+          "wordCount": 836,
+          "title": "Read active log files more quickly and easily with the new filestream input in Filebeat"
+        },
         {
           "id": "https://www.elastic.co/blog/elastic-stack-8-0-0-alpha1-released",
           "author": "Philipp Krenn",
@@ -531,15 +549,6 @@
           "publishedOn": "2021-07-27T17:00:00.000Z",
           "wordCount": 3836,
           "title": "Collecting and operationalizing threat data from the Mozi botnet"
-        },
-        {
-          "id": "https://www.elastic.co/blog/defending-the-internet-of-things-from-hackers-and-viruses",
-          "author": "Leon Gubbels,Remco Sprooten",
-          "description": "Leon Gubbels is a Security Business Developer at ENGIE, an Elastic MSP. Remco Sprooten is the Product Owner for the security team. Together they describe how their team expanded their security-as-a-service offer to address operational technology (OT) as well as traditional IT systems. ENGIE is based in the Netherlands and active in 50+ countries across Europe, the Americas, and Asia-Pacific.\nThe 2010 Stuxnet malicious software attack on a uranium enrichment plant in Iran had all the twists and turns of a spy thriller. The plant was air gapped (not connected to the internet) so it couldn’t be targeted directly by an outsider. Instead, the attackers infected five of the plant’s partner organizations, hoping that an engineer from one of them would unknowingly introduce the malware to the netw…",
-          "link": "https://www.elastic.co/blog/defending-the-internet-of-things-from-hackers-and-viruses",
-          "publishedOn": "2021-07-27T16:00:00.000Z",
-          "wordCount": 1162,
-          "title": "Defending the Internet of Things from hackers and viruses"
         }
       ]
     },
@@ -592,6 +601,33 @@
       "siteUrl": "https://devblogs.microsoft.com/devops",
       "articles": [
         {
+          "id": "https://devblogs.microsoft.com/devops/?p=62165",
+          "author": "April Edwards",
+          "description": "Developer Best Practices – YAML Exposure in your pipeline\nThe post Developer Best Practices – Structuring Your Repository for Static Web Apps appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/developer-best-practices-structuring-your-repository-for-static-web-apps/",
+          "publishedOn": "2021-08-11T15:24:30.000Z",
+          "wordCount": 1487,
+          "title": "Developer Best Practices – Structuring Your Repository for Static Web Apps"
+        },
+        {
+          "id": "https://devblogs.microsoft.com/devops/?p=62180",
+          "author": "Gloridel Morales",
+          "description": "For the August patches, we are releasing fixes that impact our self-hosted product, Azure DevOps Server.\nFix build definition UI error.\nChanged browsing history to display files instead of the root repository.\nFix issue with email delivery jobs for some work item types.\nThe post August patches for Azure DevOps Server appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server/",
+          "publishedOn": "2021-08-10T20:08:44.000Z",
+          "wordCount": 1357,
+          "title": "August patches for Azure DevOps Server"
+        },
+        {
+          "id": "https://devblogs.microsoft.com/devops/?p=62077",
+          "author": "Jay Gordon",
+          "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes Episode 50 – Intro to @BicepLang with @adotfrank appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-50-intro-to-biceplang-with-adotfrank/",
+          "publishedOn": "2021-08-10T14:00:18.000Z",
+          "wordCount": 1425,
+          "title": "AzureFunBytes Episode 50 – Intro to @BicepLang with @adotfrank"
+        },
+        {
           "id": "https://devblogs.microsoft.com/devops/?p=62155",
           "author": "Jay Gordon",
           "description": "It’s Friday, and every Friday we try to bring you the latest and greatest in content about DevOps. This week we dedicate this list of community posts to our lost friend, Abel Wang. Abel was always about elevating the community and helping others do their best.\nThe post Top Stories from the Microsoft DevOps Community – 2021.08.06 appeared first on Azure DevOps Blog.",
@@ -606,7 +642,7 @@
           "description": "Last time, I showed you how to create a Cosmos DB account for your MongoDB data using an ARM template. This time, we’ll use the Azure Database Migration Service (DBMS) to migrate my data I have on a Virtual Machine into Cosmos DB.\nThe post AzureFunBytes Presents: Migrating Your Data – Migrate your MongoDB data to Cosmos DB appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-presents-migrating-your-data-migrate-your-mongodb-data-to-cosmos-db/",
           "publishedOn": "2021-08-05T15:00:23.000Z",
-          "wordCount": 2600,
+          "wordCount": 2604,
           "title": "AzureFunBytes Presents: Migrating Your Data – Migrate your MongoDB data to Cosmos DB"
         },
         {
@@ -624,7 +660,7 @@
           "description": "By using Azure Monitor, Azure Log Analytics and Application Insights, Azure cloud teams have access to a collection of end-to-end monitoring solutions, directly from the Azure Portal, allowing for Azure Services monitoring, as well as hybrid.\nThe post Monitoring Azure by using Grafana dashboards appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/monitoring-azure-by-using-grafana-dashboards/",
           "publishedOn": "2021-07-30T16:00:55.000Z",
-          "wordCount": 2083,
+          "wordCount": 2070,
           "title": "Monitoring Azure by using Grafana dashboards"
         },
         {
@@ -653,33 +689,6 @@
           "publishedOn": "2021-07-28T21:11:11.000Z",
           "wordCount": 7355,
           "title": "DevOps Dojo – People & Teams"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=61952",
-          "author": "Jay Gordon",
-          "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes – @Azure Arc Enabled Data Services with @sqldbawithbeard appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/azurefunbytes-azure-arc-enabled-data-services-with-sqldbawithbeard/",
-          "publishedOn": "2021-07-27T16:00:10.000Z",
-          "wordCount": 1415,
-          "title": "AzureFunBytes – @Azure Arc Enabled Data Services with @sqldbawithbeard"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=62012",
-          "author": "Steven Murawski",
-          "description": "Happy Friday! With Jay out of the office this week, I’m back with some great community content to keep you going until he’s back.\nThe post Top Stories from the Microsoft DevOps Community – 2021.07.23 appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-07-23/",
-          "publishedOn": "2021-07-23T17:18:43.000Z",
-          "wordCount": 1041,
-          "title": "Top Stories from the Microsoft DevOps Community – 2021.07.23"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=61948",
-          "author": "Jay Gordon",
-          "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes – @Azure Logic Apps with @ChloeCondon appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/azurefunbytes-azure-logic-apps-with-chloecondon/",
-          "publishedOn": "2021-07-20T16:00:56.000Z",
-          "wordCount": 1391,
-          "title": "AzureFunBytes – @Azure Logic Apps with @ChloeCondon"
         }
       ]
     },
@@ -806,6 +815,15 @@
       "siteUrl": "https://xkcd.com/",
       "articles": [
         {
+          "id": "https://xkcd.com/2501/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/average_familiarity.png\" title=\"How could anyone consider themselves a well-rounded adult without a basic understanding of silicate geochemistry? Silicates are everywhere! It's hard to throw a rock without throwing one!\" alt=\"How could anyone consider themselves a well-rounded adult without a basic understanding of silicate geochemistry? Silicates are everywhere! It's hard to throw a rock without throwing one!\" />",
+          "link": "https://xkcd.com/2501/",
+          "publishedOn": "2021-08-11T00:00:00.000Z",
+          "wordCount": 185,
+          "title": "Average Familiarity"
+        },
+        {
           "id": "https://xkcd.com/2500/",
           "author": null,
           "description": "<img src=\"https://imgs.xkcd.com/comics/global_temperature_over_my_lifetime.png\" title=\"I was really impressed by the accuracy of some of the report's predictions about fossil fuel consumption. Then I realized, oh, right, of course.\" alt=\"I was really impressed by the accuracy of some of the report's predictions about fossil fuel consumption. Then I realized, oh, right, of course.\" />",
@@ -831,15 +849,6 @@
           "publishedOn": "2021-08-04T00:00:00.000Z",
           "wordCount": 185,
           "title": "Forest Walk"
-        },
-        {
-          "id": "https://xkcd.com/2497/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/logic_gates.png\" title=\"In C, the multiocular O represents the bitwise norxondor gorgonax.\" alt=\"In C, the multiocular O represents the bitwise norxondor gorgonax.\" />",
-          "link": "https://xkcd.com/2497/",
-          "publishedOn": "2021-08-02T00:00:00.000Z",
-          "wordCount": 185,
-          "title": "Logic Gates"
         }
       ]
     },
@@ -848,6 +857,23 @@
       "feedUrl": "https://softwareengineeringdaily.com/feed/podcast/",
       "siteUrl": "https://softwareengineeringdaily.com/archives/",
       "articles": [
+        {
+          "id": "https://softwareengineeringdaily.com/?p=11405",
+          "author": null,
+          "description": "According to Fugue’s new State of Cloud Security 2020 report, cloud misconfiguration remains the top cause of data breaches in the cloud, and millions of database servers are currently exposed across cloud providers. Some of the leading reasons are a lack of adequate oversight and too many APIs and interfaces to govern. (securityaffairs.co).  Argos Security\nThe post Argos Security: Cloud Configuration Security with David O’Brien appeared first on Software Engineering Daily.",
+          "link": "https://softwareengineeringdaily.com/2021/08/11/argos-security-cloud-configuration-security-with-david-obrien/?utm_source=rss&utm_medium=rss&utm_campaign=argos-security-cloud-configuration-security-with-david-obrien",
+          "publishedOn": "2021-08-11T09:00:44.000Z",
+          "wordCount": null,
+          "title": "Argos Security: Cloud Configuration Security with David O’Brien",
+          "itunes": {
+            "duration": "48:07"
+          },
+          "enclosure": {
+            "url": "https://traffic.megaphone.fm/SED1458313249.mp3",
+            "length": "46240198",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "https://softwareengineeringdaily.com/?p=11425",
           "author": null,
@@ -1221,23 +1247,6 @@
             "length": "81390598",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "https://softwareengineeringdaily.com/?p=11210",
-          "author": null,
-          "description": "Big Data has exploded the past decade as cloud computing and more efficient hardware made scaling essentially limitless. Products like Uber revolve entirely around analyzing data to provide rides. According to an EMC/IDC study, there was approximately 5.2TB of data for every person in 2020. That estimate was made before the transition to remote work,\nThe post Data Lineage: Understanding Data Lineage at Scale with Julien Le Dem appeared first on Software Engineering Daily.",
-          "link": "https://softwareengineeringdaily.com/2021/07/12/data-lineage-understanding-data-lineage-at-scale-with-julien-le-dem/?utm_source=rss&utm_medium=rss&utm_campaign=data-lineage-understanding-data-lineage-at-scale-with-julien-le-dem",
-          "publishedOn": "2021-07-12T18:13:22.000Z",
-          "wordCount": null,
-          "title": "Data Lineage: Understanding Data Lineage at Scale with Julien Le Dem",
-          "itunes": {
-            "duration": "58:48"
-          },
-          "enclosure": {
-            "url": "https://traffic.megaphone.fm/SED5464256989.mp3",
-            "length": "56486918",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -1261,7 +1270,7 @@
           "description": "We’re excited to announce the release of Camunda Optimize 3.6.0-alpha1. Discover the highlights of the new capabilities introduced in Optimize 3.6.0-alpha1.\nThe post Camunda Optimize 3.6.0-alpha1 Release appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/08/camunda-optimize-3-6-0-alpha1-release/",
           "publishedOn": "2021-08-10T08:00:12.000Z",
-          "wordCount": 1619,
+          "wordCount": 1620,
           "title": "Camunda Optimize 3.6.0-alpha1 Release"
         },
         {
@@ -1331,15 +1340,6 @@
             "length": "2475603",
             "type": "video/quicktime"
           }
-        },
-        {
-          "id": "https://camunda.com/?p=24420",
-          "author": "Felix Mueller",
-          "description": "Camunda Cloud 1.1.0, the next version of our innovative process automation SaaS offering, is here. \nThe post Camunda Cloud 1.1.0 Released appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2021/07/camunda-cloud-110-released/",
-          "publishedOn": "2021-07-13T10:42:22.000Z",
-          "wordCount": 2677,
-          "title": "Camunda Cloud 1.1.0 Released"
         }
       ]
     },

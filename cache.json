@@ -193,12 +193,21 @@
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
         {
+          "id": "https://www.hashicorp.com/blog/new-terraform-planning-options-refresh-false-refresh-only-replace",
+          "author": null,
+          "description": "Make changes to your infrastructure in Terraform Cloud and Terraform Enterprise faster with the new -refresh=false, -refresh-only, and replace planning options.",
+          "link": "https://www.hashicorp.com/blog/new-terraform-planning-options-refresh-false-refresh-only-replace",
+          "publishedOn": "2021-08-20T16:00:00.000Z",
+          "wordCount": 1253,
+          "title": "New Terraform Planning Options: -refresh=false, -refresh-only, -replace"
+        },
+        {
           "id": "https://www.hashicorp.com/blog/new-workspace-tags-for-terraform-cloud",
           "author": null,
           "description": "HashiCorp Terraform Cloud gives you a quick and easy new way to search and filter workspaces based on tags.",
           "link": "https://www.hashicorp.com/blog/new-workspace-tags-for-terraform-cloud",
           "publishedOn": "2021-08-19T16:00:00.000Z",
-          "wordCount": 858,
+          "wordCount": 844,
           "title": "New Workspace Tags for Terraform Cloud"
         },
         {
@@ -288,7 +297,7 @@
           "description": "The kubernetes_manifest resource has now graduated into the official Kubernetes provider as a beta, bringing support for CRDs and custom resources.",
           "link": "https://www.hashicorp.com/blog/beta-support-for-crds-in-the-terraform-provider-for-kubernetes",
           "publishedOn": "2021-08-03T19:00:00.000Z",
-          "wordCount": 1271,
+          "wordCount": 1257,
           "title": "Beta Support for CRDs in the Terraform Provider for Kubernetes"
         },
         {
@@ -324,7 +333,7 @@
           "description": "The CDK for Terraform 0.5 introduces code generation from HCL and a new cdktf watch workflow for serverless workloads.",
           "link": "https://www.hashicorp.com/blog/announcing-cdk-for-terraform-0-5",
           "publishedOn": "2021-07-29T16:00:00.000Z",
-          "wordCount": 907,
+          "wordCount": 893,
           "title": "Announcing CDK for Terraform 0.5"
         },
         {
@@ -362,15 +371,6 @@
           "publishedOn": "2021-07-22T21:00:00.000Z",
           "wordCount": 1114,
           "title": "Mitchell's New Role at HashiCorp"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/running-duplicate-batch-jobs-in-hashicorp-nomad",
-          "author": null,
-          "description": "Two approaches to injecting variability into your Nomad batch job template without having to modify the template in the future.",
-          "link": "https://www.hashicorp.com/blog/running-duplicate-batch-jobs-in-hashicorp-nomad",
-          "publishedOn": "2021-07-21T16:00:00.000Z",
-          "wordCount": 1943,
-          "title": "Running Duplicate Batch Jobs in HashiCorp Nomad"
         }
       ]
     },
@@ -466,7 +466,7 @@
           "description": "Elastic Security 7.14 introduces the industry’s first free and open Limitless XDR solution, unifying the capabilities of SIEM and endpoint security. It is made possible by the general availability of Elastic Agent, which helps equip it to prevent, detect, and respond to threats before adversaries can steal sensitive information or sabotage operations. Let’s dig into the best of what it brings.\nQuickly quarantine and inspect endpoints\nElastic Security 7.14 accelerates response by enabling analysts to invoke response actions with Elastic Agent. With the first native response action for Elastic Agent, host isolation, analysts can address malicious activity by quarantining a host from a network, containing the attack and preventing lateral movement to other hosts. Try it out with the Endpoint …",
           "link": "https://www.elastic.co/blog/whats-new-elastic-security-7-14-0",
           "publishedOn": "2021-08-03T16:06:00.000Z",
-          "wordCount": 1084,
+          "wordCount": 1085,
           "title": "What’s new in Elastic Security 7.14: Protect your company with Limitless XDR"
         },
         {
@@ -597,7 +597,7 @@
           "description": "Today, we released Azure DevOps Server 2020.1.1 RTW. This is our final release of Azure DevOps Server 2020.1.1. You can directly install Azure DevOps Server 2020 Update 1.1 or upgrade from Azure DevOps Server 2020 or Team Foundation Server 2013 or newer.\nThe post Azure DevOps Server 2020.1.1 RTW now available appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-1-rtw-now-available/",
           "publishedOn": "2021-08-17T18:10:37.000Z",
-          "wordCount": 1177,
+          "wordCount": 1278,
           "title": "Azure DevOps Server 2020.1.1 RTW now available"
         },
         {
@@ -633,7 +633,7 @@
           "description": "For the August patches, we are releasing fixes that impact our self-hosted product, Azure DevOps Server.\nFix build definition UI error.\nChanged browsing history to display files instead of the root repository.\nFix issue with email delivery jobs for some work item types.\nThe post August patches for Azure DevOps Server appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server/",
           "publishedOn": "2021-08-10T20:08:44.000Z",
-          "wordCount": 1357,
+          "wordCount": 1352,
           "title": "August patches for Azure DevOps Server"
         },
         {
@@ -642,7 +642,7 @@
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes Episode 50 – Intro to @BicepLang with @adotfrank appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-50-intro-to-biceplang-with-adotfrank/",
           "publishedOn": "2021-08-10T14:00:18.000Z",
-          "wordCount": 1425,
+          "wordCount": 1427,
           "title": "AzureFunBytes Episode 50 – Intro to @BicepLang with @adotfrank"
         },
         {
@@ -660,7 +660,7 @@
           "description": "Last time, I showed you how to create a Cosmos DB account for your MongoDB data using an ARM template. This time, we’ll use the Azure Database Migration Service (DBMS) to migrate my data I have on a Virtual Machine into Cosmos DB.\nThe post AzureFunBytes Presents: Migrating Your Data – Migrate your MongoDB data to Cosmos DB appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-presents-migrating-your-data-migrate-your-mongodb-data-to-cosmos-db/",
           "publishedOn": "2021-08-05T15:00:23.000Z",
-          "wordCount": 2604,
+          "wordCount": 2606,
           "title": "AzureFunBytes Presents: Migrating Your Data – Migrate your MongoDB data to Cosmos DB"
         },
         {
@@ -669,7 +669,7 @@
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes Episode 49 – Intro to @Azure SQL with @StevenMurawski appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-49-intro-to-azure-sql-with-stevenmurawski/",
           "publishedOn": "2021-08-03T14:00:39.000Z",
-          "wordCount": 1417,
+          "wordCount": 1419,
           "title": "AzureFunBytes Episode 49 – Intro to @Azure SQL with @StevenMurawski"
         },
         {
@@ -779,15 +779,6 @@
           "publishedOn": "2021-07-27T21:50:08.000Z",
           "wordCount": 3408,
           "title": "Introducing Amazon Route 53 Application Recovery Controller"
-        },
-        {
-          "id": "00b7c611ad2f6105489605e59f50390273ecc710",
-          "author": "Sébastien Stormacq",
-          "description": "Earlier this week, I ordered from Amazon.fr a box of four toothpaste tubes, but only one was in the box. I called Amazon’s customer center. The agent immediately found my order without me having to share the long order number. She issued a refund and told me I even can keep the one tube I […]",
-          "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/9-I5Zf71gm0/",
-          "publishedOn": "2021-07-21T15:25:48.000Z",
-          "wordCount": 1354,
-          "title": "AWS Contact Center Day – July 2021"
         }
       ]
     },
@@ -796,6 +787,15 @@
       "feedUrl": "https://xkcd.com/atom.xml",
       "siteUrl": "https://xkcd.com/",
       "articles": [
+        {
+          "id": "https://xkcd.com/2505/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/news_story_reaction.png\" title=\"Unless the next line is, &quot;After we broke up, she blamed the painting and spent years planning her revenge, so my sorrow is mixed with relief that the dogs at least denied her that triumph.&quot;\" alt=\"Unless the next line is, &quot;After we broke up, she blamed the painting and spent years planning her revenge, so my sorrow is mixed with relief that the dogs at least denied her that triumph.&quot;\" />",
+          "link": "https://xkcd.com/2505/",
+          "publishedOn": "2021-08-20T00:00:00.000Z",
+          "wordCount": 187,
+          "title": "News Story Reaction"
+        },
         {
           "id": "https://xkcd.com/2504/",
           "author": null,
@@ -822,15 +822,6 @@
           "publishedOn": "2021-08-13T00:00:00.000Z",
           "wordCount": 187,
           "title": "Every Data Table"
-        },
-        {
-          "id": "https://xkcd.com/2501/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/average_familiarity.png\" title=\"How could anyone consider themselves a well-rounded adult without a basic understanding of silicate geochemistry? Silicates are everywhere! It's hard to throw a rock without throwing one!\" alt=\"How could anyone consider themselves a well-rounded adult without a basic understanding of silicate geochemistry? Silicates are everywhere! It's hard to throw a rock without throwing one!\" />",
-          "link": "https://xkcd.com/2501/",
-          "publishedOn": "2021-08-11T00:00:00.000Z",
-          "wordCount": 185,
-          "title": "Average Familiarity"
         }
       ]
     },
@@ -839,6 +830,23 @@
       "feedUrl": "https://softwareengineeringdaily.com/feed/podcast/",
       "siteUrl": "https://softwareengineeringdaily.com/archives/",
       "articles": [
+        {
+          "id": "https://softwareengineeringdaily.com/?p=11472",
+          "author": null,
+          "description": "“In October 1958, Physicist William Higinbotham created what is thought to be the first video game. It was a very simple tennis game, similar to the classic 1970s video game Pong, and it was quite a hit at a Brookhaven National Laboratory open house” (aps.org). 63 years have passed, and video games are prolific. The\nThe post Pragma: Video Games with Eden Chen appeared first on Software Engineering Daily.",
+          "link": "https://softwareengineeringdaily.com/2021/08/20/pragma-video-games-with-eden-chen/?utm_source=rss&utm_medium=rss&utm_campaign=pragma-video-games-with-eden-chen",
+          "publishedOn": "2021-08-20T09:00:30.000Z",
+          "wordCount": null,
+          "title": "Pragma: Video Games with Eden Chen",
+          "itunes": {
+            "duration": "51:13"
+          },
+          "enclosure": {
+            "url": "https://traffic.megaphone.fm/SED2257879477.mp3",
+            "length": "49204723",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "https://softwareengineeringdaily.com/?p=11450",
           "author": null,
@@ -1212,23 +1220,6 @@
             "length": "51317483",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "https://softwareengineeringdaily.com/?p=11280",
-          "author": null,
-          "description": "If you’ve ever googled a CS or programming question, you likely found an answer (or many) on Stack Overflow. Founded in 2008 and named after a common computing error, Stack Overflow empowers the world to develop technology through collective knowledge. More than 100 million people visit Stack Overflow every month making it one of the\nThe post Stack Overflow for Teams: A Centralized Knowledge Sharing and Collaboration Platform with Tom Limoncelli appeared first on Software Engineering Daily.",
-          "link": "https://softwareengineeringdaily.com/2021/07/22/stack-overflow-for-teams-a-centralized-knowledge-sharing-and-collaboration-platform-with-tom-limoncelli/?utm_source=rss&utm_medium=rss&utm_campaign=stack-overflow-for-teams-a-centralized-knowledge-sharing-and-collaboration-platform-with-tom-limoncelli",
-          "publishedOn": "2021-07-22T09:00:31.000Z",
-          "wordCount": null,
-          "title": "Stack Overflow for Teams: A Centralized Knowledge Sharing and Collaboration Platform with Tom Limoncelli",
-          "itunes": {
-            "duration": "46:29"
-          },
-          "enclosure": {
-            "url": "https://traffic.megaphone.fm/SED9052665781.mp3",
-            "length": "44659512",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -1238,12 +1229,21 @@
       "siteUrl": "https://camunda.com",
       "articles": [
         {
+          "id": "https://camunda.com/?p=27320",
+          "author": "Camunda Team",
+          "description": "All automation tools are not created equal. It’s important that you choose the right tool for the job.\nThe post How to Choose a Process Automation Tool appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2021/08/how-to-choose-a-process-automation-tool/",
+          "publishedOn": "2021-08-20T19:29:42.000Z",
+          "wordCount": 1725,
+          "title": "How to Choose a Process Automation Tool"
+        },
+        {
           "id": "https://camunda.com/?p=26096",
           "author": "Camunda Team",
           "description": "The latest episode of the Camunda Nation podcast is live. Join us on a journey through the BPMN Diagram to find your ideal Camunda Platform architecture. \nThe post Podcast: What Camunda Platform Architecture Are You? appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/08/podcast-what-camunda-platform-architecture-are-you/",
           "publishedOn": "2021-08-16T14:08:25.000Z",
-          "wordCount": 1317,
+          "wordCount": 1310,
           "title": "Podcast: What Camunda Platform Architecture Are You?"
         },
         {
@@ -1252,7 +1252,7 @@
           "description": "With Kubernetes being pretty ubiquitous today, we decided it was time to help you deploy Camunda Platform on Kubernetes in a snap, so we created the Community Helm Chart.\nThe post Releasing Camunda Platform Community Helm Chart appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/08/releasing-camunda-platform-community-helm-chart/",
           "publishedOn": "2021-08-13T13:19:27.000Z",
-          "wordCount": 2100,
+          "wordCount": 2101,
           "title": "Releasing Camunda Platform Community Helm Chart"
         },
         {
@@ -1261,7 +1261,7 @@
           "description": "We’re excited to share two new keynote speakers who we just added to our CamundaCon 2021 agenda, each of whom will be leading important discussions related to process automation. \nThe post CamundaCon 2021 Keynotes Revealed: Angie Jones & Hannah Fry appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/08/camundacon-2021-keynotes-revealedangie-jones-hannah-fry/",
           "publishedOn": "2021-08-12T14:00:00.000Z",
-          "wordCount": 1488,
+          "wordCount": 1481,
           "title": "CamundaCon 2021 Keynotes Revealed: Angie Jones & Hannah Fry"
         },
         {
@@ -1297,7 +1297,7 @@
           "description": "When Forrester Consulting spoke to six longtime Camunda Platform users, they learned how they’re delivering process automation projects faster, driving organizational efficiency and better customer service with massive, multi-million dollar impact to the business. Download the Total Economic Impact study commissioned by Camunda. \nThe post A Compelling ROI Case for Camunda appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/08/a-compelling-roi-case-for-camunda/",
           "publishedOn": "2021-08-04T08:00:06.000Z",
-          "wordCount": 1383,
+          "wordCount": 1380,
           "title": "A Compelling ROI Case for Camunda"
         },
         {
@@ -1317,15 +1317,6 @@
           "publishedOn": "2021-07-29T07:00:01.000Z",
           "wordCount": 2844,
           "title": "Automate any Process on Micronaut"
-        },
-        {
-          "id": "https://camunda.com/?p=25406",
-          "author": "Charley Mann",
-          "description": "The countdown has officially begun for CamundaCon 2021. Our agenda is now live, and registration is open for you to reserve your spot and join us September 22–23. \nThe post CamundaCon 2021: Get with the Program appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2021/07/camundacon-2021-get-with-the-program/",
-          "publishedOn": "2021-07-27T12:48:37.000Z",
-          "wordCount": 1590,
-          "title": "CamundaCon 2021: Get with the Program"
         }
       ]
     },

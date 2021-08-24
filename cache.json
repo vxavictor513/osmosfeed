@@ -6,6 +6,15 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/08/22/structuring-spring-boot-applications",
+          "author": null,
+          "description": "or: How To Build a Mental Framework for Spring Framework\n\r\nIt’s hard to think about structuring applications. There’s a lot to think about at the higher level - is it a batch job, a web application, a messaging application, etc. The frameworks - Spring Batch, Spring Webflux, Spring Integration, respectively - will guide those decisions. There are many other frameworks besides, and they are tailored made to help you build something worthy of production for a particular business vertical. We won’t explore those in this post. Instead, I want to answer the question: how do we structure our configuration? \n\r\nI can’t give you an opinionated answer and hope to fit it in one post, but we can discuss the technical dimensions of configuration in a Spring Boot application in 2021. It is easier to tal…",
+          "link": "https://spring.io/blog/2021/08/22/structuring-spring-boot-applications",
+          "publishedOn": "2021-08-23T05:02:00.000Z",
+          "wordCount": 1735,
+          "title": "Structuring Spring Boot Applications"
+        },
+        {
           "id": "https://spring.io/blog/2021/08/19/spring-boot-2-6-0-m2-is-now-available",
           "author": null,
           "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 2.6.0-M2 has been released and is now available from https://repo.spring.io/milestone.\n\r\nThis release includes more than a 100 bug fixes, documentation improvements, and dependency upgrades. Thanks to all those who have contributed with issue reports and pull requests.\nHow can you help?\n\r\nIf you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
@@ -180,7 +189,7 @@
           "description": "Make changes to your infrastructure in Terraform Cloud and Terraform Enterprise faster with the new -refresh=false, -refresh-only, and replace planning options.",
           "link": "https://www.hashicorp.com/blog/new-terraform-planning-options-refresh-false-refresh-only-replace",
           "publishedOn": "2021-08-20T16:00:00.000Z",
-          "wordCount": 1253,
+          "wordCount": 1264,
           "title": "New Terraform Planning Options: -refresh=false, -refresh-only, -replace"
         },
         {
@@ -198,7 +207,7 @@
           "description": "Based on the HashiCorp State of Cloud Strategy Survey, we take a deep dive into the business and technology factors driving — and blocking — multi-cloud adoption, including a look at the pandemic's complex effects.",
           "link": "https://www.hashicorp.com/blog/hashicorp-state-of-cloud-strategy-survey-offensive-defensive-drivers-multi-cloud",
           "publishedOn": "2021-08-18T16:00:00.000Z",
-          "wordCount": 1565,
+          "wordCount": 1564,
           "title": "Survey Finds Both Offensive, Defensive Drivers for Multi-Cloud"
         },
         {
@@ -225,7 +234,7 @@
           "description": "Our inaugural cloud strategy survey reveals that multi-cloud is now the new normal, driven by digital transformation, with skill shortages, security, and COVID having complex impacts.",
           "link": "https://www.hashicorp.com/blog/hashicorp-state-of-cloud-strategy-survey-welcome-to-the-multi-cloud-era",
           "publishedOn": "2021-08-11T16:00:00.000Z",
-          "wordCount": 1133,
+          "wordCount": 1132,
           "title": "HashiCorp State of Cloud Strategy Survey: Welcome to the Multi-Cloud Era"
         },
         {
@@ -352,6 +361,15 @@
       "feedUrl": "https://www.elastic.co/blog/feed",
       "siteUrl": "https://www.elastic.co",
       "articles": [
+        {
+          "id": "https://www.elastic.co/blog/elastic-and-build-security-shifting-left-together-to-secure-the-cloud",
+          "author": "Ashutosh Kulkarni",
+          "description": "Since its inception, Elastic Security has had a clear mission: to protect the world's data and systems from attack.\n\nWe started with SIEM, built on top of the Elastic Stack, applying its fast and scalable search capabilities to detect security vulnerabilities across all threat vectors. Next, we joined forces with Endgame to integrate endpoint security into Elastic Security, and allow customers to prevent, detect, and respond to attacks from a single, unified platform. With the recent release of Elastic Security Limitless XDR and the general availability of Elastic Agent, we furthered our mission.\n\nToday, we are excited to announce the next step in the Elastic Security journey: to extend security enforcement from every endpoint to every cloud workload.\n\nMillions of users trust Elastic for o…",
+          "link": "https://www.elastic.co/blog/elastic-and-build-security-shifting-left-together-to-secure-the-cloud",
+          "publishedOn": "2021-08-23T10:55:00.000Z",
+          "wordCount": 1497,
+          "title": "Elastic and build.security: Shifting left together to secure the cloud"
+        },
         {
           "id": "https://www.elastic.co/blog/kibana-10-common-questions-formulas-time-series-maps",
           "author": "Graham Hudgins,Adeline Tan",
@@ -522,15 +540,6 @@
           "publishedOn": "2021-08-03T15:00:00.000Z",
           "wordCount": 1660,
           "title": "Elastic Agent and Fleet make it easier to integrate your systems with Elastic"
-        },
-        {
-          "id": "https://www.elastic.co/blog/detecting-unusual-network-activity-with-elastic-security-and-machine-learning",
-          "author": "Craig Chamberlain",
-          "description": "As we’ve shown in a previous blog, search-based detection rules and Elastic’s machine learning-based anomaly detection can be a powerful way to identify rare and unusual activity in cloud API logs. Now, as of Elastic Security 7.13, we’ve introduced a new set of unsupervised machine learning jobs for network data, and accompanying alert rules, several of which look for geographic anomalies. In this blog post, we’ll explore a case study demonstrating how network data can yield important detections. \n\nBefore the advent of endpoint detection and response (EDR) tools, security teams relied heavily on network instrumentation like firewall logs and intrusion detection (IDS) alerts. Given the lack of process information or user context, in network logs, the false positive rate for network events c…",
-          "link": "https://www.elastic.co/blog/detecting-unusual-network-activity-with-elastic-security-and-machine-learning",
-          "publishedOn": "2021-07-29T17:00:00.000Z",
-          "wordCount": 1696,
-          "title": "Detecting unusual network activity with Elastic Security and machine learning"
         }
       ]
     },
@@ -570,7 +579,7 @@
           "description": "Today, we released Azure DevOps Server 2020.1.1 RTW. This is our final release of Azure DevOps Server 2020.1.1. You can directly install Azure DevOps Server 2020 Update 1.1 or upgrade from Azure DevOps Server 2020 or Team Foundation Server 2013 or newer.\nThe post Azure DevOps Server 2020.1.1 RTW now available appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-1-rtw-now-available/",
           "publishedOn": "2021-08-17T18:10:37.000Z",
-          "wordCount": 1278,
+          "wordCount": 1279,
           "title": "Azure DevOps Server 2020.1.1 RTW now available"
         },
         {
@@ -579,7 +588,7 @@
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes Episode 51 – Deploy With ARM Templates with @shankuehn appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-51-deploy-with-arm-templates-with-shankuehn/",
           "publishedOn": "2021-08-17T14:00:08.000Z",
-          "wordCount": 1589,
+          "wordCount": 1564,
           "title": "AzureFunBytes Episode 51 – Deploy With ARM Templates with @shankuehn"
         },
         {
@@ -588,7 +597,7 @@
           "description": "The top stories from the #AzureDevOps #community for 2021.08.13 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2021.08.13 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-08-13/",
           "publishedOn": "2021-08-13T12:00:17.000Z",
-          "wordCount": 1203,
+          "wordCount": 1205,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.08.13"
         },
         {
@@ -624,7 +633,7 @@
           "description": "It’s Friday, and every Friday we try to bring you the latest and greatest in content about DevOps. This week we dedicate this list of community posts to our lost friend, Abel Wang. Abel was always about elevating the community and helping others do their best.\nThe post Top Stories from the Microsoft DevOps Community – 2021.08.06 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-08-06/",
           "publishedOn": "2021-08-06T13:00:08.000Z",
-          "wordCount": 1215,
+          "wordCount": 1217,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.08.06"
         },
         {
@@ -642,7 +651,7 @@
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes Episode 49 – Intro to @Azure SQL with @StevenMurawski appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-49-intro-to-azure-sql-with-stevenmurawski/",
           "publishedOn": "2021-08-03T14:00:39.000Z",
-          "wordCount": 1419,
+          "wordCount": 1417,
           "title": "AzureFunBytes Episode 49 – Intro to @Azure SQL with @StevenMurawski"
         },
         {
@@ -667,6 +676,15 @@
       "feedUrl": "http://feeds.feedburner.com/AmazonWebServicesBlog",
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
+        {
+          "id": "26d642d9945ef477f9a2c6443e79a0d085ddbfad",
+          "author": "Jeff Barr",
+          "description": "Fifteen years ago today I wrote the blog post that launched the Amazon EC2 Beta. As I recall, the launch was imminent for quite some time as we worked to finalize the feature set, the pricing model, and innumerable other details. The launch date was finally chosen and it happened to fall in the middle […]",
+          "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/rwO2ynXIqF8/",
+          "publishedOn": "2021-08-23T15:09:54.000Z",
+          "wordCount": 1739,
+          "title": "Happy 15th Birthday Amazon EC2"
+        },
         {
           "id": "c0f4c867c6984fe656087db346b578b038cd1735",
           "author": "Danilo Poccia",
@@ -761,6 +779,15 @@
       "siteUrl": "https://xkcd.com/",
       "articles": [
         {
+          "id": "https://xkcd.com/2506/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/projecting.png\" title=\"This is something we all need to work on, but especially you all.\" alt=\"This is something we all need to work on, but especially you all.\" />",
+          "link": "https://xkcd.com/2506/",
+          "publishedOn": "2021-08-23T00:00:00.000Z",
+          "wordCount": 183,
+          "title": "Projecting"
+        },
+        {
           "id": "https://xkcd.com/2505/",
           "author": null,
           "description": "<img src=\"https://imgs.xkcd.com/comics/news_story_reaction.png\" title=\"Unless the next line is, &quot;After we broke up, she blamed the painting and spent years planning her revenge, so my sorrow is mixed with relief that the dogs at least denied her that triumph.&quot;\" alt=\"Unless the next line is, &quot;After we broke up, she blamed the painting and spent years planning her revenge, so my sorrow is mixed with relief that the dogs at least denied her that triumph.&quot;\" />",
@@ -786,15 +813,6 @@
           "publishedOn": "2021-08-16T00:00:00.000Z",
           "wordCount": 187,
           "title": "Memo Spike Connector"
-        },
-        {
-          "id": "https://xkcd.com/2502/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/every_data_table.png\" title=\"I'm hoping 2022 is relatively normal because I don't know what symbol comes after the asterisk and the dagger.\" alt=\"I'm hoping 2022 is relatively normal because I don't know what symbol comes after the asterisk and the dagger.\" />",
-          "link": "https://xkcd.com/2502/",
-          "publishedOn": "2021-08-13T00:00:00.000Z",
-          "wordCount": 187,
-          "title": "Every Data Table"
         }
       ]
     },
@@ -803,6 +821,23 @@
       "feedUrl": "https://softwareengineeringdaily.com/feed/podcast/",
       "siteUrl": "https://softwareengineeringdaily.com/archives/",
       "articles": [
+        {
+          "id": "https://softwareengineeringdaily.com/?p=11478",
+          "author": null,
+          "description": "Application security is usually done with a set of tools and services known as SIEM – Security Information and Event Management. SIEM tools usually try to provide visibility into an organization’s security systems, as well as event log management and security event notifications.  The company Panther takes traditional SIEM security a step further. Panther processes\nThe post Panther: Security as Code with Jack Naglieri appeared first on Software Engineering Daily.",
+          "link": "https://softwareengineeringdaily.com/2021/08/23/panther-security-as-code-with-jack-naglieri/?utm_source=rss&utm_medium=rss&utm_campaign=panther-security-as-code-with-jack-naglieri",
+          "publishedOn": "2021-08-23T19:09:44.000Z",
+          "wordCount": null,
+          "title": "Panther: Security as Code with Jack Naglieri",
+          "itunes": {
+            "duration": "47:18"
+          },
+          "enclosure": {
+            "url": "https://traffic.megaphone.fm/SED5018835007.mp3",
+            "length": "45456881",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "https://softwareengineeringdaily.com/?p=11475",
           "author": null,
@@ -829,11 +864,11 @@
           "wordCount": null,
           "title": "Pragma: Video Games with Eden Chen",
           "itunes": {
-            "duration": "51:13"
+            "duration": "58:55"
           },
           "enclosure": {
             "url": "https://traffic.megaphone.fm/SED2257879477.mp3",
-            "length": "49204723",
+            "length": "56595493",
             "type": "audio/mpeg"
           }
         },
@@ -1202,12 +1237,21 @@
       "siteUrl": "https://camunda.com",
       "articles": [
         {
+          "id": "https://camunda.com/?p=27174",
+          "author": "Nele Uhlemann",
+          "description": "Camunda Platform and Camunda Cloud are “same same, but different.” Find out the similarities and differences of these workflow engines.\nThe post Same Same, But Different (Workflow Engines) appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2021/08/same-same-but-different-workflow-engines/",
+          "publishedOn": "2021-08-23T14:00:01.000Z",
+          "wordCount": 2552,
+          "title": "Same Same, But Different (Workflow Engines)"
+        },
+        {
           "id": "https://camunda.com/?p=27320",
           "author": "Camunda Team",
           "description": "All automation tools are not created equal. It’s important that you choose the right tool for the job.\nThe post How to Choose a Process Automation Tool appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/08/how-to-choose-a-process-automation-tool/",
           "publishedOn": "2021-08-20T19:29:42.000Z",
-          "wordCount": 1725,
+          "wordCount": 1724,
           "title": "How to Choose a Process Automation Tool"
         },
         {
@@ -1243,7 +1287,7 @@
           "description": "We are happy to announce the fourth alpha release of Camunda Platform Runtime 7.16. This release features improvements such as Initial Quarkus 2.0 support, Liquibase support and 8 bug fixes.\nThe post Camunda Platform Runtime 7.16.0-alpha4 Release appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/08/camunda-platform-runtime-7160-alpha4-released/",
           "publishedOn": "2021-08-10T08:59:18.000Z",
-          "wordCount": 1757,
+          "wordCount": 1731,
           "title": "Camunda Platform Runtime 7.16.0-alpha4 Release"
         },
         {
@@ -1252,7 +1296,7 @@
           "description": "We’re excited to announce the release of Camunda Optimize 3.6.0-alpha1. Discover the highlights of the new capabilities introduced in Optimize 3.6.0-alpha1.\nThe post Camunda Optimize 3.6.0-alpha1 Release appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/08/camunda-optimize-3-6-0-alpha1-release/",
           "publishedOn": "2021-08-10T08:00:12.000Z",
-          "wordCount": 1622,
+          "wordCount": 1623,
           "title": "Camunda Optimize 3.6.0-alpha1 Release"
         },
         {
@@ -1270,7 +1314,7 @@
           "description": "When Forrester Consulting spoke to six longtime Camunda Platform users, they learned how they’re delivering process automation projects faster, driving organizational efficiency and better customer service with massive, multi-million dollar impact to the business. Download the Total Economic Impact study commissioned by Camunda. \nThe post A Compelling ROI Case for Camunda appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/08/a-compelling-roi-case-for-camunda/",
           "publishedOn": "2021-08-04T08:00:06.000Z",
-          "wordCount": 1380,
+          "wordCount": 1369,
           "title": "A Compelling ROI Case for Camunda"
         },
         {
@@ -1279,17 +1323,8 @@
           "description": "Recently, I was painfully reminded of the Dark Lord’s failure when I discovered Harry Potter (the person, not the books) turns 40 tomorrow. To help get my mind off of it, I built a Sorting Hat.\nThe post The DMN-Powered Sorting Hat appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/07/the-dmn-powered-sorting-hat/",
           "publishedOn": "2021-07-30T12:40:53.000Z",
-          "wordCount": 2267,
+          "wordCount": 2266,
           "title": "The DMN-Powered Sorting Hat"
-        },
-        {
-          "id": "https://camunda.com/?p=24764",
-          "author": "Camunda Team",
-          "description": "Learn how Camunda can be run as an embedded engine inside a Micronaut application, with the use of our open source integration project.\nThe post Automate any Process on Micronaut appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2021/07/automate-any-process-on-micronaut/",
-          "publishedOn": "2021-07-29T07:00:01.000Z",
-          "wordCount": 2844,
-          "title": "Automate any Process on Micronaut"
         }
       ]
     },

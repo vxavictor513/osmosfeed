@@ -1,10 +1,169 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-09-01T00:22:42.685Z</id>
+    <id>urn:2021-09-02T00:21:47.565Z</id>
     <title>osmos::feed</title>
-    <updated>2021-09-01T00:22:42.685Z</updated>
+    <updated>2021-09-02T00:21:47.565Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Join the Fun – Hacktoberfest 2021]]></title>
+        <id>https://camunda.com/?p=27992</id>
+        <link href="https://camunda.com/blog/2021/09/join-the-fun-hacktoberfest-2021/"/>
+        <updated>2021-09-01T18:59:53.000Z</updated>
+        <summary type="html"><![CDATA[This is Camunda’s second year participating in Hacktoberfest, and we are so excited to showcase bpmn.io and the Camunda Community Hub. 
+The post Join the Fun – Hacktoberfest 2021 appeared first on Camunda.]]></summary>
+        <author>
+            <name>Camunda Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Missing Readme with Chris Riccomini and Dmitriy Ryaboy]]></title>
+        <id>https://softwareengineeringdaily.com/?p=11522</id>
+        <link href="https://softwareengineeringdaily.com/2021/09/01/the-missing-readme-with-chris-riccomini-and-dmitriy-ryaboy/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-missing-readme-with-chris-riccomini-and-dmitriy-ryaboy"/>
+        <updated>2021-09-01T18:37:29.000Z</updated>
+        <summary type="html"><![CDATA[This episode is hosted by Kyle Polich of the Data Skeptic podcast. We’re glad to welcome Kyle to the Software Daily team. Becoming a contributor to an existing software project can be a daunting task for an engineer. A common convention is to add a README file to your repository to serve as a trailhead
+The post The Missing Readme with Chris Riccomini and Dmitriy Ryaboy appeared first on Software Engineering Daily.]]></summary>
+        <author>
+            <name>Software Engineering Daily</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing Consul-Terraform-Sync 0.3 for Terraform Enterprise]]></title>
+        <id>https://www.hashicorp.com/blog/announcing-consul-terraform-sync-0-3-for-terraform-enterprise</id>
+        <link href="https://www.hashicorp.com/blog/announcing-consul-terraform-sync-0-3-for-terraform-enterprise"/>
+        <updated>2021-09-01T17:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Compliance-driven network infrastructure automation with Consul-Terraform-Sync 0.3 is now generally available for HashiCorp Terraform Enterprise.]]></summary>
+        <author>
+            <name>HashiCorp Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Monitor Spring Boot applications end-to-end using Dynatrace in Azure Spring Cloud!]]></title>
+        <id>https://spring.io/blog/2021/09/01/monitor-spring-boot-applications-end-to-end-using-dynatrace-in-azure-spring-cloud</id>
+        <link href="https://spring.io/blog/2021/09/01/monitor-spring-boot-applications-end-to-end-using-dynatrace-in-azure-spring-cloud"/>
+        <updated>2021-09-01T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today, we are excited to announce the integration of the Dynatrace Software Intelligence Platform in Azure Spring Cloud.
+
+Over the past 18 months, we worked with many enterprise customers to learn about the scenarios they face. Many of these customers have thousands of Spring Boot applications running in on-premises data centers. As they migrate these applications to the cloud, they need to instrument them for application performance monitoring (APM) using solutions their developers are familiar with and have been using for years. In addition, they must ensure continuity for desktop and mobile applications that are already pre-instrumented for end-to-end monitoring using agents like Dynatrace OneAgent, which automatically discovers and maps all applications, microservices, and infrastruct…]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Elastic Stack 7.14.1 released]]></title>
+        <id>https://www.elastic.co/blog/elastic-stack-7-14-1-released</id>
+        <link href="https://www.elastic.co/blog/elastic-stack-7-14-1-released"/>
+        <updated>2021-09-01T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Version 7.14.1 of the Elastic Stack was released today. We recommend you upgrade to this latest version.
+The 7.14.1 patch contains fixes and small enhancements for the stack. One notable change in Elasticsearch fixes a memory leak that may have affected CCR users:
+Fix memory/breaker leaks for outbound responses #76474
+For a full list of changes for each product, please refer to the release notes: 
+7.14.1 Release Notes
+Elastic Stack
+Elasticsearch
+Kibana
+Beats
+Logstash
+Elastic Enterprise Search
+Enterprise Search
+Elastic Observability
+APM
+Elastic Security
+Elastic Security Solution]]></summary>
+        <author>
+            <name>David Kyle</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring GraphQL 1.0.0-M2 available now]]></title>
+        <id>https://spring.io/blog/2021/09/01/spring-graphql-1-0-0-m2-available-now</id>
+        <link href="https://spring.io/blog/2021/09/01/spring-graphql-1-0-0-m2-available-now"/>
+        <updated>2021-09-01T08:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Less than 2 months after the initial announcement of Spring GraphQL and its follow up intro blog,
+I’m happy to announce that the 1.0.0-M2 version has been released and is available from the Spring Milestone repository.
+
+The Spring GraphQL team would like to thank the early adopters and contributors - with your help, we’re making good progress towards a GA version!
+
+We’ve fixed a few issues and renamed a couple of concepts, but the most notable change is the introduction of a new annotation model for GraphQL Controllers.
+You can now annotate @Controller components to handle queries, mutations and subscriptions:
+
+@Controller
+public class GreetingController {
+
+        @QueryMapping 
+        public String hello() { 
+            return "Hello, world!";
+        }
+
+}
+
+
+This is a new feature and we can’t wait to hear your feedback - please give it a try and let us know what you think!
+Spring GraphQL at SpringOne!
+
+Don’t miss the Spring GraphQL presentation at SpringOne today!
+This will give a nice intro to this new Spring project and you’ll get a chance to chat with the team, live and on the dedicated SpringOne Slack.
+How can you help?
+
+If you’re interested in helping out, you can get started with Spring GraphQL and raise issues on our GitHub project.
+If you have general questions, please ask on stackoverflow.com using the spring-graphql tag.
+
+Project Page | GitHub | Issues | Documentation | Stack Overflow]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This Week in Spring - August 31st, 2021]]></title>
+        <id>https://spring.io/blog/2021/08/31/this-week-in-spring-august-31st-2021</id>
+        <link href="https://spring.io/blog/2021/08/31/this-week-in-spring-august-31st-2021"/>
+        <updated>2021-09-01T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hi, Spring fans! Can you believe it? SpringOne 2021 kicks off in less than 24 hours! Have you registered? It’s free and it’s virtual, but the talks are live and there’ll be ample opportunity to talk to the Spring and Tanzu teams behinds the scenes. And, of course, I’ll be there. Also, don’t miss tomorrow mornings opening keynote, which I’ll be emceeing. And please don’t miss my session on Azure Spring Cloud with Julien Dubois and Layla Porter. There are a ton of great talks over the next two days. Do not miss these! Alrigty my friends, we’ve got a ton of stuff to review so without further ado, let’s dive right in! 
+
+
+  
+Hi, Spring fans! In the last week’s installment of Bootiful Podcast, I talked to Richard North and Sergei Egorov on Testcontainers, their new company AtomicJar, and more
+
+  
+Get hands-on with Azure Spring Cloud in 90 minutes. Register today - space is limited! Brought to you by Microsoft and VMware
+
+  
+Are you ready to rapidly deploy and scale Spring Boot apps to Azure Spring Cloud? Register today!
+
+  
+This video seems like it’ll be worth a watch if you’re trying to learn Spring Boot
+
+  
+Here’s an interesting video that looks at streaming with the reactive Spring Webflux
+
+  
+This looks interesting: a video from Manning Publications on building and securing web applications with Spring Boot
+
+  
+Have you seen the Spring.io Community page? It’s a great place to find out about some of the external resources and portals in the wider community.
+
+  
+Instana has updated their documentation on how to monitor Spring Boot applications with their suite
+
+  
+The Baeldung article on embedding the Keycloak authorization and authentication server in a Spring  Boot application has been updated.
+
+  
+The Baeldung article on the fundamentals of dependency injection in Spring has also been updated]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazon Managed Grafana Is Now Generally Available with Many New Features]]></title>
+        <id>27dd22094272f325d6756471d5bfa893d3d13b25</id>
+        <link href="http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/bowFRHvvPxk/"/>
+        <updated>2021-09-01T01:17:06.000Z</updated>
+        <summary type="html"><![CDATA[In December, we introduced the preview of Amazon Managed Grafana, a fully managed service developed in collaboration with Grafana Labs that makes it easy to use the open-source and the enterprise versions of Grafana to visualize and analyze your data from multiple sources. With Amazon Managed Grafana, you can analyze your metrics, logs, and traces […]]]></summary>
+        <author>
+            <name>Danilo Poccia</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Cisco, Citrix, and Fortinet Among New Verified Terraform Providers]]></title>
         <id>https://www.hashicorp.com/blog/cisco-citrix-fortinet-among-new-verified-terraform-providers</id>
@@ -52,7 +211,7 @@ The post ClickUp: Workflow Vision with Zeb Evans appeared first on Software Engi
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Amazon VPC Routing Enhancements Allows to Inspect Traffic Between Subnets In a VPC]]></title>
+        <title type="html"><![CDATA[Amazon VPC Routing Enhancements Allow You to Inspect Traffic Between Subnets In a VPC]]></title>
         <id>77e52244f6e9441bcc3b1c7bc019a835f69a5973</id>
         <link href="http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/b4dMqFVtVK0/"/>
         <updated>2021-08-30T23:41:02.000Z</updated>
@@ -1426,17 +1585,6 @@ The post Okteto: Cloud-Native Applications on Kubernetes with Ramiro Berreleza a
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[A Compelling ROI Case for Camunda]]></title>
-        <id>https://camunda.com/?p=25892</id>
-        <link href="https://camunda.com/blog/2021/08/a-compelling-roi-case-for-camunda/"/>
-        <updated>2021-08-04T08:00:06.000Z</updated>
-        <summary type="html"><![CDATA[When Forrester Consulting spoke to six longtime Camunda Platform users, they learned how they’re delivering process automation projects faster, driving organizational efficiency and better customer service with massive, multi-million dollar impact to the business. Download the Total Economic Impact study commissioned by Camunda. 
-The post A Compelling ROI Case for Camunda appeared first on Camunda.]]></summary>
-        <author>
-            <name>Christopher Rogers</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Spring Tips: Better Data-Driven Applications with Spring Boot and Redis]]></title>
         <id>https://spring.io/blog/2021/08/04/spring-tips-better-data-driven-applications-with-spring-boot-and-redis</id>
         <link href="https://spring.io/blog/2021/08/04/spring-tips-better-data-driven-applications-with-spring-boot-and-redis"/>
@@ -1518,30 +1666,6 @@ Elastic…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[What’s new in Elastic Cloud for 7.14: Connect securely to your public cloud environments with Azure Private Link]]></title>
-        <id>https://www.elastic.co/blog/whats-new-elastic-cloud-7-14-0</id>
-        <link href="https://www.elastic.co/blog/whats-new-elastic-cloud-7-14-0"/>
-        <updated>2021-08-03T16:03:00.000Z</updated>
-        <summary type="html"><![CDATA[The latest updates to Elastic Cloud make it even easier for our customers to protect their data using Microsoft Azure Private Link, and offer new options for deployment location and hardware configuration in Google Cloud. 
- 
-Network security enhancements
-
-We’re excited to announce that support for Microsoft Azure Private Link is now generally available. Private Link provides private connectivity from your Azure virtual network to your Elastic Cloud deployments. The traffic between your virtual network and your Elastic Cloud deployment on Azure travels only within the Azure network, utilizing Private Link endpoints and ensuring that your data stays off the Internet. Soon, you will also be able to leverage Google Cloud Private Service Connect to secure the network connection between your Goo…]]></summary>
-        <author>
-            <name>The Elastic Cloud Team</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Announcing HCP Consul Plus]]></title>
-        <id>https://www.hashicorp.com/blog/announcing-hcp-consul-plus</id>
-        <link href="https://www.hashicorp.com/blog/announcing-hcp-consul-plus"/>
-        <updated>2021-08-03T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[HCP Consul Plus allows users to federate Consul clusters across multiple regions for improved redundancy and resiliency of applications.]]></summary>
-        <author>
-            <name>HashiCorp Blog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Audit your VMware vCenter Server using Ansible]]></title>
         <id>https://www.ansible.com/blog/audit-your-vmware-vcenter-server-using-ansible</id>
         <link href="https://www.ansible.com/blog/audit-your-vmware-vcenter-server-using-ansible"/>
@@ -1549,65 +1673,6 @@ We’re excited to announce that support for Microsoft Azure Private Link is now
         <summary type="html"><![CDATA[How you can use the modules available in Red Hat supported vmware.vmware_rest Ansible Content Collection to audit your vCenter Servers.]]></summary>
         <author>
             <name>Gonéri Le Bouder</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hedera Hashgraph: Proof-of-Stake Public Networks with Leemon Baird]]></title>
-        <id>https://softwareengineeringdaily.com/?p=11339</id>
-        <link href="https://softwareengineeringdaily.com/2021/08/03/hedera-hashgraph-with-leemon-baird/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=hedera-hashgraph-with-leemon-baird"/>
-        <updated>2021-08-03T09:00:22.000Z</updated>
-        <summary type="html"><![CDATA[Blockchain protocols like Bitcoin and Ethereum have changed the cyber world dramatically in the last decade. They’ve created communities of like-minded developers, generated new financial markets, and popularized “decentralization” in computer networks. However, they require large resources to operate which makes scaling difficult and transactions expensive. Hedera is a decentralized public network that takes the
-The post Hedera Hashgraph: Proof-of-Stake Public Networks with Leemon Baird appeared first on Software Engineering Daily.]]></summary>
-        <author>
-            <name>Software Engineering Daily</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This Week in Spring - August 3rd, 2021]]></title>
-        <id>https://spring.io/blog/2021/08/03/this-week-in-spring-august-3rd-2021</id>
-        <link href="https://spring.io/blog/2021/08/03/this-week-in-spring-august-3rd-2021"/>
-        <updated>2021-08-03T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hi, Spring fans! Welcome to another installment of This Week in Spring! Can you believe it’s already August, 2021! We’re nearly to 2022! And I am, for better or for worse, back from vacation! I am so happy to be back, but I do miss the sunkissed beaches of Hawai’i. Sigh. Anyway, let’s get into it! We’ve got a ton of things to get into, so without further ado…
-
-
-  
-A Bootiful Podcast: Microsoft’s Asir V. Selvasingh on Spring Boot, Spring Cloud, Microsoft Azure, and Azure Spring Cloud
-
-  
-Blog: Roorkee robots, releases and racing: the Kubernetes 1.21 release interview
-
-  
-Join Pure Storage at VMworld 2021
-
-  
-Cassandre is an open-source framework that makes it easy to create your crypto trading bot in Java. Our Spring boot starter takes care of exchange connections, accounts, orders, trades, and positions so you can focus 
-
-  
-Check out this Spring Security Authorization Server example
-
-  
-Join Confluent Developer advocate Viktor Gamov for this look at Spring and Apache Kafka 101
-
-  
-Here’s another interesting look at using Spring Boot with Swagger
-
-  
-Did y’all see the latest installment of the SpringOne Tour. This was my favorite installment yet!
-
-  
-Flight Status: Oracle Cloud VMware Solution]]></summary>
-        <author>
-            <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWS Named as a Leader for the 11th Consecutive Year in 2021 Gartner Magic Quadrant for Cloud Infrastructure & Platform Services (CIPS)]]></title>
-        <id>446271ecb9bf93846c19f7d2d60e450dedd2456a</id>
-        <link href="http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/GuZ2U5msR-8/"/>
-        <updated>2021-08-02T15:54:38.000Z</updated>
-        <summary type="html"><![CDATA[In my job at AWS I have the privilege of working with many different teams, all focused to help our customers lower costs, become more agile, and innovate faster. It’s greatly rewarding to see these efforts recognized by our customers and by leading analysts. Last year Gartner introduced a new Magic Quadrant for Cloud Infrastructure […]]]></summary>
-        <author>
-            <name>Danilo Poccia</name>
         </author>
     </entry>
 </feed>

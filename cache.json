@@ -6,6 +6,33 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/09/01/monitor-spring-boot-applications-end-to-end-using-dynatrace-in-azure-spring-cloud",
+          "author": null,
+          "description": "Today, we are excited to announce the integration of the Dynatrace Software Intelligence Platform in Azure Spring Cloud.\n\r\nOver the past 18 months, we worked with many enterprise customers to learn about the scenarios they face. Many of these customers have thousands of Spring Boot applications running in on-premises data centers. As they migrate these applications to the cloud, they need to instrument them for application performance monitoring (APM) using solutions their developers are familiar with and have been using for years. In addition, they must ensure continuity for desktop and mobile applications that are already pre-instrumented for end-to-end monitoring using agents like Dynatrace OneAgent, which automatically discovers and maps all applications, microservices, and infrastruct…",
+          "link": "https://spring.io/blog/2021/09/01/monitor-spring-boot-applications-end-to-end-using-dynatrace-in-azure-spring-cloud",
+          "publishedOn": "2021-09-01T16:00:00.000Z",
+          "wordCount": 1909,
+          "title": "Monitor Spring Boot applications end-to-end using Dynatrace in Azure Spring Cloud!"
+        },
+        {
+          "id": "https://spring.io/blog/2021/09/01/spring-graphql-1-0-0-m2-available-now",
+          "author": null,
+          "description": "Less than 2 months after the initial announcement of Spring GraphQL and its follow up intro blog,\nI’m happy to announce that the 1.0.0-M2 version has been released and is available from the Spring Milestone repository.\n\r\nThe Spring GraphQL team would like to thank the early adopters and contributors - with your help, we’re making good progress towards a GA version!\n\r\nWe’ve fixed a few issues and renamed a couple of concepts, but the most notable change is the introduction of a new annotation model for GraphQL Controllers.\nYou can now annotate @Controller components to handle queries, mutations and subscriptions:\n\r\n@Controller\r\r\npublic class GreetingController {\r\r\n\r\r\n        @QueryMapping \r\r\n        public String hello() { \r\r\n            return \"Hello, world!\";\r\r\n        }\r\r\n\r\r\n}\r\n\n\r\nThis is a new feature and we can’t wait to hear your feedback - please give it a try and let us know what you think!\nSpring GraphQL at SpringOne!\n\r\nDon’t miss the Spring GraphQL presentation at SpringOne today!\nThis will give a nice intro to this new Spring project and you’ll get a chance to chat with the team, live and on the dedicated SpringOne Slack.\nHow can you help?\n\r\nIf you’re interested in helping out, you can get started with Spring GraphQL and raise issues on our GitHub project.\nIf you have general questions, please ask on stackoverflow.com using the spring-graphql tag.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow",
+          "link": "https://spring.io/blog/2021/09/01/spring-graphql-1-0-0-m2-available-now",
+          "publishedOn": "2021-09-01T08:20:00.000Z",
+          "wordCount": 609,
+          "title": "Spring GraphQL 1.0.0-M2 available now"
+        },
+        {
+          "id": "https://spring.io/blog/2021/08/31/this-week-in-spring-august-31st-2021",
+          "author": null,
+          "description": "Hi, Spring fans! Can you believe it? SpringOne 2021 kicks off in less than 24 hours! Have you registered? It’s free and it’s virtual, but the talks are live and there’ll be ample opportunity to talk to the Spring and Tanzu teams behinds the scenes. And, of course, I’ll be there. Also, don’t miss tomorrow mornings opening keynote, which I’ll be emceeing. And please don’t miss my session on Azure Spring Cloud with Julien Dubois and Layla Porter. There are a ton of great talks over the next two days. Do not miss these! Alrigty my friends, we’ve got a ton of stuff to review so without further ado, let’s dive right in! \n\r\n\r\n  \nHi, Spring fans! In the last week’s installment of Bootiful Podcast, I talked to Richard North and Sergei Egorov on Testcontainers, their new company AtomicJar, and more\n\r\n  \nGet hands-on with Azure Spring Cloud in 90 minutes. Register today - space is limited! Brought to you by Microsoft and VMware\n\r\n  \nAre you ready to rapidly deploy and scale Spring Boot apps to Azure Spring Cloud? Register today!\n\r\n  \nThis video seems like it’ll be worth a watch if you’re trying to learn Spring Boot\n\r\n  \nHere’s an interesting video that looks at streaming with the reactive Spring Webflux\n\r\n  \nThis looks interesting: a video from Manning Publications on building and securing web applications with Spring Boot\n\r\n  \nHave you seen the Spring.io Community page? It’s a great place to find out about some of the external resources and portals in the wider community.\n\r\n  \nInstana has updated their documentation on how to monitor Spring Boot applications with their suite\n\r\n  \nThe Baeldung article on embedding the Keycloak authorization and authentication server in a Spring  Boot application has been updated.\n\r\n  \nThe Baeldung article on the fundamentals of dependency injection in Spring has also been updated",
+          "link": "https://spring.io/blog/2021/08/31/this-week-in-spring-august-31st-2021",
+          "publishedOn": "2021-09-01T02:00:00.000Z",
+          "wordCount": 691,
+          "title": "This Week in Spring - August 31st, 2021"
+        },
+        {
           "id": "https://spring.io/blog/2021/08/26/bootiful-podcast-richard-north-and-sergei-egorov-on-testcontainers-their-new-company-atomicjar-and-more",
           "author": null,
           "description": "Hi, Spring fans! Welcome to another installment of This Week in Spring! In this installment, Josh Long talks to Richard North (@whichrich) and Sergei Egorov (@bsideup) about Testcontainers, their new company AtomicJar, and software licensing, among other things.",
@@ -157,15 +184,6 @@
           "publishedOn": "2021-08-04T07:00:00.000Z",
           "wordCount": 440,
           "title": "Spring Tips: Better Data-Driven Applications with Spring Boot and Redis"
-        },
-        {
-          "id": "https://spring.io/blog/2021/08/03/this-week-in-spring-august-3rd-2021",
-          "author": null,
-          "description": "Hi, Spring fans! Welcome to another installment of This Week in Spring! Can you believe it’s already August, 2021! We’re nearly to 2022! And I am, for better or for worse, back from vacation! I am so happy to be back, but I do miss the sunkissed beaches of Hawai’i. Sigh. Anyway, let’s get into it! We’ve got a ton of things to get into, so without further ado…\n\r\n\r\n  \nA Bootiful Podcast: Microsoft’s Asir V. Selvasingh on Spring Boot, Spring Cloud, Microsoft Azure, and Azure Spring Cloud\n\r\n  \nBlog: Roorkee robots, releases and racing: the Kubernetes 1.21 release interview\n\r\n  \nJoin Pure Storage at VMworld 2021\n\r\n  \nCassandre is an open-source framework that makes it easy to create your crypto trading bot in Java. Our Spring boot starter takes care of exchange connections, accounts, orders, trades, and positions so you can focus \n\r\n  \nCheck out this Spring Security Authorization Server example\n\r\n  \nJoin Confluent Developer advocate Viktor Gamov for this look at Spring and Apache Kafka 101\n\r\n  \nHere’s another interesting look at using Spring Boot with Swagger\n\r\n  \nDid y’all see the latest installment of the SpringOne Tour. This was my favorite installment yet!\n\r\n  \nFlight Status: Oracle Cloud VMware Solution",
-          "link": "https://spring.io/blog/2021/08/03/this-week-in-spring-august-3rd-2021",
-          "publishedOn": "2021-08-03T07:00:00.000Z",
-          "wordCount": 585,
-          "title": "This Week in Spring - August 3rd, 2021"
         }
       ]
     },
@@ -175,12 +193,21 @@
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
         {
+          "id": "https://www.hashicorp.com/blog/announcing-consul-terraform-sync-0-3-for-terraform-enterprise",
+          "author": null,
+          "description": "Compliance-driven network infrastructure automation with Consul-Terraform-Sync 0.3 is now generally available for HashiCorp Terraform Enterprise.",
+          "link": "https://www.hashicorp.com/blog/announcing-consul-terraform-sync-0-3-for-terraform-enterprise",
+          "publishedOn": "2021-09-01T17:15:00.000Z",
+          "wordCount": 1786,
+          "title": "Announcing Consul-Terraform-Sync 0.3 for Terraform Enterprise"
+        },
+        {
           "id": "https://www.hashicorp.com/blog/cisco-citrix-fortinet-among-new-verified-terraform-providers",
           "author": null,
           "description": "We celebrate the growth of our ecosystem and welcome 27 new verified providers.",
           "link": "https://www.hashicorp.com/blog/cisco-citrix-fortinet-among-new-verified-terraform-providers",
           "publishedOn": "2021-08-31T16:00:00.000Z",
-          "wordCount": 1547,
+          "wordCount": 1544,
           "title": "Cisco, Citrix, and Fortinet Among New Verified Terraform Providers"
         },
         {
@@ -207,7 +234,7 @@
           "description": "Terraform AzureAD provider Version 2.0 exclusively uses the Microsoft Graph API and has numerous schema and behavioral changes to align with the new API.",
           "link": "https://www.hashicorp.com/blog/announcing-terraform-azuread-provider-2-0",
           "publishedOn": "2021-08-26T16:00:00.000Z",
-          "wordCount": 832,
+          "wordCount": 829,
           "title": "Announcing Terraform AzureAD Provider 2.0"
         },
         {
@@ -225,7 +252,7 @@
           "description": "HashiCorp Consul and Nomad use Azure managed identities  to authenticate against Azure in order to read tags and manage service principal information.",
           "link": "https://www.hashicorp.com/blog/azure-managed-identities-with-the-hashicorp-stack-part-3",
           "publishedOn": "2021-08-24T16:00:00.000Z",
-          "wordCount": 988,
+          "wordCount": 987,
           "title": "Azure Managed Identities with the HashiCorp Stack: Part 3"
         },
         {
@@ -243,7 +270,7 @@
           "description": "Make changes to your infrastructure in Terraform Cloud and Terraform Enterprise faster with the new -refresh=false, -refresh-only, and replace planning options.",
           "link": "https://www.hashicorp.com/blog/new-terraform-planning-options-refresh-false-refresh-only-replace",
           "publishedOn": "2021-08-20T16:00:00.000Z",
-          "wordCount": 1263,
+          "wordCount": 1260,
           "title": "New Terraform Planning Options: -refresh=false, -refresh-only, -replace"
         },
         {
@@ -252,7 +279,7 @@
           "description": "HashiCorp Terraform Cloud gives you a quick and easy new way to search and filter workspaces based on tags.",
           "link": "https://www.hashicorp.com/blog/new-workspace-tags-for-terraform-cloud",
           "publishedOn": "2021-08-19T16:00:00.000Z",
-          "wordCount": 843,
+          "wordCount": 837,
           "title": "New Workspace Tags for Terraform Cloud"
         },
         {
@@ -315,7 +342,7 @@
           "description": "Spend more time improving observability rather than maintaining infrastructure with HCP Consul and Datadog.",
           "link": "https://www.hashicorp.com/blog/application-observability-with-hcp-consul-and-datadog",
           "publishedOn": "2021-08-05T16:00:00.000Z",
-          "wordCount": 1014,
+          "wordCount": 1010,
           "title": "Application Observability with HCP Consul and Datadog"
         },
         {
@@ -342,17 +369,8 @@
           "description": "The kubernetes_manifest resource has now graduated into the official Kubernetes provider as a beta, bringing support for CRDs and custom resources.",
           "link": "https://www.hashicorp.com/blog/beta-support-for-crds-in-the-terraform-provider-for-kubernetes",
           "publishedOn": "2021-08-03T19:00:00.000Z",
-          "wordCount": 1262,
+          "wordCount": 1256,
           "title": "Beta Support for CRDs in the Terraform Provider for Kubernetes"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/announcing-hcp-consul-plus",
-          "author": null,
-          "description": "HCP Consul Plus allows users to federate Consul clusters across multiple regions for improved redundancy and resiliency of applications.",
-          "link": "https://www.hashicorp.com/blog/announcing-hcp-consul-plus",
-          "publishedOn": "2021-08-03T16:00:00.000Z",
-          "wordCount": 1068,
-          "title": "Announcing HCP Consul Plus"
         }
       ]
     },
@@ -361,6 +379,15 @@
       "feedUrl": "https://www.elastic.co/blog/feed",
       "siteUrl": "https://www.elastic.co",
       "articles": [
+        {
+          "id": "https://www.elastic.co/blog/elastic-stack-7-14-1-released",
+          "author": "David Kyle",
+          "description": "Version 7.14.1 of the Elastic Stack was released today. We recommend you upgrade to this latest version.\nThe 7.14.1 patch contains fixes and small enhancements for the stack. One notable change in Elasticsearch fixes a memory leak that may have affected CCR users:\nFix memory/breaker leaks for outbound responses #76474\nFor a full list of changes for each product, please refer to the release notes: \n7.14.1 Release Notes\nElastic Stack\nElasticsearch\nKibana\nBeats\nLogstash\nElastic Enterprise Search\nEnterprise Search\nElastic Observability\nAPM\nElastic Security\nElastic Security Solution",
+          "link": "https://www.elastic.co/blog/elastic-stack-7-14-1-released",
+          "publishedOn": "2021-09-01T15:00:00.000Z",
+          "wordCount": 304,
+          "title": "Elastic Stack 7.14.1 released"
+        },
         {
           "id": "https://www.elastic.co/blog/deterring-ransomware-for-state-and-local-government",
           "author": "Jared Pane",
@@ -531,15 +558,6 @@
           "publishedOn": "2021-08-03T16:04:00.000Z",
           "wordCount": 1122,
           "title": "What's new in Elastic Enterprise Search 7.14: Kibana integration and precision tuning"
-        },
-        {
-          "id": "https://www.elastic.co/blog/whats-new-elastic-cloud-7-14-0",
-          "author": "The Elastic Cloud Team",
-          "description": "The latest updates to Elastic Cloud make it even easier for our customers to protect their data using Microsoft Azure Private Link, and offer new options for deployment location and hardware configuration in Google Cloud. \n \nNetwork security enhancements\n\nWe’re excited to announce that support for Microsoft Azure Private Link is now generally available. Private Link provides private connectivity from your Azure virtual network to your Elastic Cloud deployments. The traffic between your virtual network and your Elastic Cloud deployment on Azure travels only within the Azure network, utilizing Private Link endpoints and ensuring that your data stays off the Internet. Soon, you will also be able to leverage Google Cloud Private Service Connect to secure the network connection between your Goo…",
-          "link": "https://www.elastic.co/blog/whats-new-elastic-cloud-7-14-0",
-          "publishedOn": "2021-08-03T16:03:00.000Z",
-          "wordCount": 659,
-          "title": "What’s new in Elastic Cloud for 7.14: Connect securely to your public cloud environments with Azure Private Link"
         }
       ]
     },
@@ -677,13 +695,22 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "27dd22094272f325d6756471d5bfa893d3d13b25",
+          "author": "Danilo Poccia",
+          "description": "In December, we introduced the preview of Amazon Managed Grafana, a fully managed service developed in collaboration with Grafana Labs that makes it easy to use the open-source and the enterprise versions of Grafana to visualize and analyze your data from multiple sources. With Amazon Managed Grafana, you can analyze your metrics, logs, and traces […]",
+          "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/bowFRHvvPxk/",
+          "publishedOn": "2021-09-01T01:17:06.000Z",
+          "wordCount": 1862,
+          "title": "Amazon Managed Grafana Is Now Generally Available with Many New Features"
+        },
+        {
           "id": "77e52244f6e9441bcc3b1c7bc019a835f69a5973",
           "author": "Sébastien Stormacq",
           "description": "Since December 2019, Amazon Virtual Private Cloud (VPC) has allowed you to route all ingress traffic (also known as north – south traffic) to a specific network interface. You might use this capability for a number of reasons. For example, to inspect incoming traffic using an intrusion detection system (IDS) appliance or to route ingress […]",
           "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/b4dMqFVtVK0/",
           "publishedOn": "2021-08-30T23:41:02.000Z",
-          "wordCount": 2134,
-          "title": "Amazon VPC Routing Enhancements Allows to Inspect Traffic Between Subnets In a VPC"
+          "wordCount": 2136,
+          "title": "Amazon VPC Routing Enhancements Allow You to Inspect Traffic Between Subnets In a VPC"
         },
         {
           "id": "1e4059819a26a3d337726ce8dcdb1a2df847c827",
@@ -770,15 +797,6 @@
             "type": "audio/mpeg",
             "url": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/20/demo-call.mp3"
           }
-        },
-        {
-          "id": "446271ecb9bf93846c19f7d2d60e450dedd2456a",
-          "author": "Danilo Poccia",
-          "description": "In my job at AWS I have the privilege of working with many different teams, all focused to help our customers lower costs, become more agile, and innovate faster. It’s greatly rewarding to see these efforts recognized by our customers and by leading analysts. Last year Gartner introduced a new Magic Quadrant for Cloud Infrastructure […]",
-          "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/GuZ2U5msR-8/",
-          "publishedOn": "2021-08-02T15:54:38.000Z",
-          "wordCount": 870,
-          "title": "AWS Named as a Leader for the 11th Consecutive Year in 2021 Gartner Magic Quadrant for Cloud Infrastructure & Platform Services (CIPS)"
         }
       ]
     },
@@ -830,6 +848,23 @@
       "feedUrl": "https://softwareengineeringdaily.com/feed/podcast/",
       "siteUrl": "https://softwareengineeringdaily.com/archives/",
       "articles": [
+        {
+          "id": "https://softwareengineeringdaily.com/?p=11522",
+          "author": null,
+          "description": "This episode is hosted by Kyle Polich of the Data Skeptic podcast. We’re glad to welcome Kyle to the Software Daily team. Becoming a contributor to an existing software project can be a daunting task for an engineer. A common convention is to add a README file to your repository to serve as a trailhead\nThe post The Missing Readme with Chris Riccomini and Dmitriy Ryaboy appeared first on Software Engineering Daily.",
+          "link": "https://softwareengineeringdaily.com/2021/09/01/the-missing-readme-with-chris-riccomini-and-dmitriy-ryaboy/?utm_source=rss&utm_medium=rss&utm_campaign=the-missing-readme-with-chris-riccomini-and-dmitriy-ryaboy",
+          "publishedOn": "2021-09-01T18:37:29.000Z",
+          "wordCount": null,
+          "title": "The Missing Readme with Chris Riccomini and Dmitriy Ryaboy",
+          "itunes": {
+            "duration": "47:27"
+          },
+          "enclosure": {
+            "url": "https://traffic.megaphone.fm/SED8757731657.mp3",
+            "length": "45586131",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "https://softwareengineeringdaily.com/?p=11517",
           "author": null,
@@ -1220,23 +1255,6 @@
             "length": "59042576",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "https://softwareengineeringdaily.com/?p=11339",
-          "author": null,
-          "description": "Blockchain protocols like Bitcoin and Ethereum have changed the cyber world dramatically in the last decade. They’ve created communities of like-minded developers, generated new financial markets, and popularized “decentralization” in computer networks. However, they require large resources to operate which makes scaling difficult and transactions expensive. Hedera is a decentralized public network that takes the\nThe post Hedera Hashgraph: Proof-of-Stake Public Networks with Leemon Baird appeared first on Software Engineering Daily.",
-          "link": "https://softwareengineeringdaily.com/2021/08/03/hedera-hashgraph-with-leemon-baird/?utm_source=rss&utm_medium=rss&utm_campaign=hedera-hashgraph-with-leemon-baird",
-          "publishedOn": "2021-08-03T09:00:22.000Z",
-          "wordCount": null,
-          "title": "Hedera Hashgraph: Proof-of-Stake Public Networks with Leemon Baird",
-          "itunes": {
-            "duration": "53:03"
-          },
-          "enclosure": {
-            "url": "https://traffic.megaphone.fm/SED5692476562.mp3",
-            "length": "50977833",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -1246,12 +1264,21 @@
       "siteUrl": "https://camunda.com",
       "articles": [
         {
+          "id": "https://camunda.com/?p=27992",
+          "author": "Camunda Team",
+          "description": "This is Camunda’s second year participating in Hacktoberfest, and we are so excited to showcase bpmn.io and the Camunda Community Hub. \nThe post Join the Fun – Hacktoberfest 2021 appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2021/09/join-the-fun-hacktoberfest-2021/",
+          "publishedOn": "2021-09-01T18:59:53.000Z",
+          "wordCount": 1499,
+          "title": "Join the Fun – Hacktoberfest 2021"
+        },
+        {
           "id": "https://camunda.com/?p=27670",
           "author": "Jakob Freund",
           "description": "Instead of dramatic, rip-and-replace events, Camunda CEO Jakob Freund describes how gradual digital transformation can be a more practical and strategic path to automation.\nThe post The Art of Gradual Digital Transformation appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/08/the-art-of-gradual-digital-transformation/",
           "publishedOn": "2021-08-26T16:57:46.000Z",
-          "wordCount": 1255,
+          "wordCount": 1264,
           "title": "The Art of Gradual Digital Transformation"
         },
         {
@@ -1260,7 +1287,7 @@
           "description": "Camunda Platform and Camunda Cloud are “same same, but different.” Find out the similarities and differences of these workflow engines.\nThe post Same Same, But Different (Workflow Engines) appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/08/same-same-but-different-workflow-engines/",
           "publishedOn": "2021-08-23T14:00:01.000Z",
-          "wordCount": 2550,
+          "wordCount": 2562,
           "title": "Same Same, But Different (Workflow Engines)"
         },
         {
@@ -1269,7 +1296,7 @@
           "description": "All automation tools are not created equal. It’s important that you choose the right tool for the job.\nThe post How to Choose a Process Automation Tool appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/08/how-to-choose-a-process-automation-tool/",
           "publishedOn": "2021-08-20T19:29:42.000Z",
-          "wordCount": 1721,
+          "wordCount": 1732,
           "title": "How to Choose a Process Automation Tool"
         },
         {
@@ -1278,7 +1305,7 @@
           "description": "The latest episode of the Camunda Nation podcast is live. Join us on a journey through the BPMN Diagram to find your ideal Camunda Platform architecture. \nThe post Podcast: What Camunda Platform Architecture Are You? appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/08/podcast-what-camunda-platform-architecture-are-you/",
           "publishedOn": "2021-08-16T14:08:25.000Z",
-          "wordCount": 1307,
+          "wordCount": 1319,
           "title": "Podcast: What Camunda Platform Architecture Are You?"
         },
         {
@@ -1287,7 +1314,7 @@
           "description": "With Kubernetes being pretty ubiquitous today, we decided it was time to help you deploy Camunda Platform on Kubernetes in a snap, so we created the Community Helm Chart.\nThe post Releasing Camunda Platform Community Helm Chart appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/08/releasing-camunda-platform-community-helm-chart/",
           "publishedOn": "2021-08-13T13:19:27.000Z",
-          "wordCount": 2097,
+          "wordCount": 2108,
           "title": "Releasing Camunda Platform Community Helm Chart"
         },
         {
@@ -1296,7 +1323,7 @@
           "description": "We’re excited to share two new keynote speakers who we just added to our CamundaCon 2021 agenda, each of whom will be leading important discussions related to process automation. \nThe post CamundaCon 2021 Keynotes Revealed: Angie Jones & Hannah Fry appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/08/camundacon-2021-keynotes-revealedangie-jones-hannah-fry/",
           "publishedOn": "2021-08-12T14:00:00.000Z",
-          "wordCount": 1469,
+          "wordCount": 1477,
           "title": "CamundaCon 2021 Keynotes Revealed: Angie Jones & Hannah Fry"
         },
         {
@@ -1305,7 +1332,7 @@
           "description": "We are happy to announce the fourth alpha release of Camunda Platform Runtime 7.16. This release features improvements such as Initial Quarkus 2.0 support, Liquibase support and 8 bug fixes.\nThe post Camunda Platform Runtime 7.16.0-alpha4 Release appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/08/camunda-platform-runtime-7160-alpha4-released/",
           "publishedOn": "2021-08-10T08:59:18.000Z",
-          "wordCount": 1722,
+          "wordCount": 1734,
           "title": "Camunda Platform Runtime 7.16.0-alpha4 Release"
         },
         {
@@ -1314,7 +1341,7 @@
           "description": "We’re excited to announce the release of Camunda Optimize 3.6.0-alpha1. Discover the highlights of the new capabilities introduced in Optimize 3.6.0-alpha1.\nThe post Camunda Optimize 3.6.0-alpha1 Release appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/08/camunda-optimize-3-6-0-alpha1-release/",
           "publishedOn": "2021-08-10T08:00:12.000Z",
-          "wordCount": 1603,
+          "wordCount": 1612,
           "title": "Camunda Optimize 3.6.0-alpha1 Release"
         },
         {
@@ -1325,15 +1352,6 @@
           "publishedOn": "2021-08-10T07:00:03.000Z",
           "wordCount": 1502,
           "title": "Camunda Cloud 1.2.0-alpha1 Release"
-        },
-        {
-          "id": "https://camunda.com/?p=25892",
-          "author": "Christopher Rogers",
-          "description": "When Forrester Consulting spoke to six longtime Camunda Platform users, they learned how they’re delivering process automation projects faster, driving organizational efficiency and better customer service with massive, multi-million dollar impact to the business. Download the Total Economic Impact study commissioned by Camunda. \nThe post A Compelling ROI Case for Camunda appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2021/08/a-compelling-roi-case-for-camunda/",
-          "publishedOn": "2021-08-04T08:00:06.000Z",
-          "wordCount": 1365,
-          "title": "A Compelling ROI Case for Camunda"
         }
       ]
     },

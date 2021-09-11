@@ -398,6 +398,15 @@
           "title": "Elastic and HashiCorp partner to bring infrastructure-as-code to Elastic Cloud"
         },
         {
+          "id": "https://www.elastic.co/blog/secure-your-deployments-on-elastic-cloud-with-google-cloud-private-service-connect",
+          "author": "Fermi Fang,Shubha Anjur Tupil",
+          "description": "We are pleased to announce the general availability of the Google Cloud Private Service Connect integration with Elastic Cloud. Elastic Cloud VPC connectivity is now available to all customers across all subscription tiers and cloud providers (AWS, Microsoft Azure, and Google Cloud).\nPrivate Service Connect allows you to create private and secure connections from your clients running in your Google Cloud environments to your Elastic Cloud deployment endpoints running on Google Cloud. Private Service Connect provides service endpoints in your virtual private cloud (VPC) that provide private connectivity and policy enforcement, allowing you to easily connect to services like Elastic Cloud. All the traffic remains within the Google network, and it’s easy to set up and scale. \n \nPrerequisite: …",
+          "link": "https://www.elastic.co/blog/secure-your-deployments-on-elastic-cloud-with-google-cloud-private-service-connect",
+          "publishedOn": "2021-09-09T13:00:00.000Z",
+          "wordCount": 691,
+          "title": "Secure your deployments on Elastic Cloud with Google Cloud Private Service Connect"
+        },
+        {
           "id": "https://www.elastic.co/blog/tracing-aws-lambdas-with-opentelemetry-and-elastic-observability",
           "author": "Michael Hyatt",
           "description": "Why OpenTelemetry?\nOpen Telemetry represents an effort to combine distributed tracing, metrics and logging into a single set of system components and language-specific libraries. Recently, OpenTelemetry became a CNCF incubating project, but it already enjoys quite a significant community and vendor support. OpenTelemetry defines itself as “an observability framework for cloud-native software”, although it should be able to cover more than what we know as “cloud-native software”. Quoting its mission statement, “OpenTelemetry is a collection of tools, APIs, and SDKs” that are used “to instrument, generate, collect, and export telemetry data (metrics, logs, and traces) for analysis to understand the software's performance and behaviour”.\n\nWe at Elastic find the mission statement of OpenTeleme…",
@@ -540,15 +549,6 @@
           "publishedOn": "2021-08-12T17:00:00.000Z",
           "wordCount": 1783,
           "title": "Establish robust threat intelligence with Elastic Security"
-        },
-        {
-          "id": "https://www.elastic.co/blog/read-active-log-files-more-quickly-and-easily-with-the-new-filestream-input-in-filebeat",
-          "author": "Noémi Ványi",
-          "description": "With Elastic 7.14, the filestream input, the successor of log input, is now generally available in Filebeat. This new, superior input provides better support for reading active log files, with faster reaction time when there is backpressure in the system, quicker registry updates, better cooperation with external log rotation tools, and more. \n \nImproved registry performance\n \nPreviously, when a registry file (the file used for saving the progress of publishing events) contained many entries, state updates became slower, even if Filebeat was only collecting a few files. The main problem was that the complete registry was serialized after every ACK from the outputs. That required an expensive fsync call per registry write. Now offset updates are written to the file in an append-only manner.…",
-          "link": "https://www.elastic.co/blog/read-active-log-files-more-quickly-and-easily-with-the-new-filestream-input-in-filebeat",
-          "publishedOn": "2021-08-11T15:00:00.000Z",
-          "wordCount": 898,
-          "title": "Read active log files more quickly and easily with the new filestream input in Filebeat"
         }
       ]
     },
@@ -635,15 +635,6 @@
           "publishedOn": "2021-08-13T12:00:17.000Z",
           "wordCount": 1206,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.08.13"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=62165",
-          "author": "April Edwards",
-          "description": "Developer Best Practices – YAML Exposure in your pipeline\nThe post Developer Best Practices – Structuring Your Repository for Static Web Apps appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/developer-best-practices-structuring-your-repository-for-static-web-apps/",
-          "publishedOn": "2021-08-11T15:24:30.000Z",
-          "wordCount": 1501,
-          "title": "Developer Best Practices – Structuring Your Repository for Static Web Apps"
         }
       ]
     },
@@ -673,7 +664,7 @@
           "description": "At AWS re:Invent 2020, we preannounced new deployment options of Amazon Elastic Container Service (Amazon ECS) Anywhere and Amazon Elastic Kubernetes Service (Amazon EKS) Anywhere in your own data center. Today, I am happy to announce the general availability of Amazon EKS Anywhere, a deployment option for Amazon EKS that enables you to easily create […]",
           "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/1iLrrIF_AjE/",
           "publishedOn": "2021-09-08T18:08:39.000Z",
-          "wordCount": 2119,
+          "wordCount": 2120,
           "title": "Amazon EKS Anywhere – Now Generally Available to Create and Manage Kubernetes Clusters on Premises"
         },
         {
@@ -870,6 +861,23 @@
       "feedUrl": "https://softwareengineeringdaily.com/feed/podcast/",
       "siteUrl": "https://softwareengineeringdaily.com/archives/",
       "articles": [
+        {
+          "id": "https://softwareengineeringdaily.com/?p=11566",
+          "author": null,
+          "description": "An application network is a way to connect applications, data and devices through APIs that expose some or all of their assets and data on the network. That network allows other consumers from other parts of the business to come in and discover and use those assets (mulesoft.com). The company Tetrate provides the tools necessary\nThe post Tetrate: Application Aware Networking with Varun Talwar appeared first on Software Engineering Daily.",
+          "link": "https://softwareengineeringdaily.com/2021/09/10/tetrate-application-aware-networking-with-varun-talwar/?utm_source=rss&utm_medium=rss&utm_campaign=tetrate-application-aware-networking-with-varun-talwar",
+          "publishedOn": "2021-09-10T09:00:19.000Z",
+          "wordCount": null,
+          "title": "Tetrate: Application Aware Networking with Varun Talwar",
+          "itunes": {
+            "duration": "50:31"
+          },
+          "enclosure": {
+            "url": "https://traffic.megaphone.fm/SED6975002663.mp3",
+            "length": "48538158",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "https://softwareengineeringdaily.com/?p=11561",
           "author": null,
@@ -1209,23 +1217,6 @@
             "length": "103687829",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "https://softwareengineeringdaily.com/?p=11403",
-          "author": null,
-          "description": "Serverless computing is a cloud computing solution that lets developers deploy applications to containers without managing the servers themselves. Servers and resources are provisioned automatically, pay only for what you use, and experience little to no errors or downtime (ionos). Google Cloud Run is a managed compute platform that enables you to run containers that\nThe post Cloud Run: Serverless Applications with Steren Giannini appeared first on Software Engineering Daily.",
-          "link": "https://softwareengineeringdaily.com/2021/08/12/cloud-run-serverless-applications-with-steren-giannini/?utm_source=rss&utm_medium=rss&utm_campaign=cloud-run-serverless-applications-with-steren-giannini",
-          "publishedOn": "2021-08-12T09:00:36.000Z",
-          "wordCount": null,
-          "title": "Cloud Run: Serverless Applications with Steren Giannini",
-          "itunes": {
-            "duration": "46:45"
-          },
-          "enclosure": {
-            "url": "https://traffic.megaphone.fm/SED9778839125.mp3",
-            "length": "44925173",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -1235,12 +1226,21 @@
       "siteUrl": "https://camunda.com",
       "articles": [
         {
+          "id": "https://camunda.com/?p=29366",
+          "author": "Brittany des Vignes",
+          "description": "Now live! Listen as Gabor explains why the BPMN-driven testing extension was created as an answer to some developer woes.\nThe post Podcast: ​​Introducing the BPMN-Driven Testing Extension appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2021/09/podcast-introducing-the-bpmn-driven-testing-extension/",
+          "publishedOn": "2021-09-10T15:20:12.000Z",
+          "wordCount": 1332,
+          "title": "Podcast: ​​Introducing the BPMN-Driven Testing Extension"
+        },
+        {
           "id": "https://camunda.com/?p=29008",
           "author": "Jakob Freund",
           "description": "Learn why Camunda CEO Jakob Freund thinks process automation can help organizations with legacy technology compete with startups.\nThe post Automation: A Recipe for Disruption appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/automation-a-recipe-for-disruption/",
           "publishedOn": "2021-09-09T14:13:20.000Z",
-          "wordCount": 1277,
+          "wordCount": 1271,
           "title": "Automation: A Recipe for Disruption"
         },
         {
@@ -1249,7 +1249,7 @@
           "description": "In this episode, follow Rin Oliver as he explains what he does at Camunda to enable developers to do what they do better and faster.\nThe post Podcast: Meet the Camundos – Rin Oliver appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/podcast-meet-the-camundos-rin-oliver/",
           "publishedOn": "2021-09-03T18:54:38.000Z",
-          "wordCount": 1325,
+          "wordCount": 1320,
           "title": "Podcast: Meet the Camundos – Rin Oliver"
         },
         {
@@ -1258,7 +1258,7 @@
           "description": "This is Camunda’s second year participating in Hacktoberfest, and we are so excited to showcase bpmn.io and the Camunda Community Hub. \nThe post Join the Fun – Hacktoberfest 2021 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/join-the-fun-hacktoberfest-2021/",
           "publishedOn": "2021-09-01T18:59:53.000Z",
-          "wordCount": 1513,
+          "wordCount": 1508,
           "title": "Join the Fun – Hacktoberfest 2021"
         },
         {
@@ -1267,7 +1267,7 @@
           "description": "Instead of dramatic, rip-and-replace events, Camunda CEO Jakob Freund describes how gradual digital transformation can be a more practical and strategic path to automation.\nThe post The Art of Gradual Digital Transformation appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/08/the-art-of-gradual-digital-transformation/",
           "publishedOn": "2021-08-26T16:57:46.000Z",
-          "wordCount": 1285,
+          "wordCount": 1288,
           "title": "The Art of Gradual Digital Transformation"
         },
         {
@@ -1276,7 +1276,7 @@
           "description": "Camunda Platform and Camunda Cloud are “same same, but different.” Find out the similarities and differences of these workflow engines.\nThe post Same Same, But Different (Workflow Engines) appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/08/same-same-but-different-workflow-engines/",
           "publishedOn": "2021-08-23T14:00:01.000Z",
-          "wordCount": 2579,
+          "wordCount": 2580,
           "title": "Same Same, But Different (Workflow Engines)"
         },
         {
@@ -1285,7 +1285,7 @@
           "description": "All automation tools are not created equal. It’s important that you choose the right tool for the job.\nThe post How to Choose a Process Automation Tool appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/08/how-to-choose-a-process-automation-tool/",
           "publishedOn": "2021-08-20T19:29:42.000Z",
-          "wordCount": 1750,
+          "wordCount": 1751,
           "title": "How to Choose a Process Automation Tool"
         },
         {
@@ -1312,7 +1312,7 @@
           "description": "We’re excited to share two new keynote speakers who we just added to our CamundaCon 2021 agenda, each of whom will be leading important discussions related to process automation. \nThe post CamundaCon 2021 Keynotes Revealed: Angie Jones & Hannah Fry appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/08/camundacon-2021-keynotes-revealedangie-jones-hannah-fry/",
           "publishedOn": "2021-08-12T14:00:00.000Z",
-          "wordCount": 1477,
+          "wordCount": 1480,
           "title": "CamundaCon 2021 Keynotes Revealed: Angie Jones & Hannah Fry"
         }
       ]

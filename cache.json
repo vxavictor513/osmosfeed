@@ -6,6 +6,24 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/09/14/this-week-in-spring-september-14th-2021",
+          "author": null,
+          "description": "Hi, Spring fans! It’s September 14th! I can’t believe it. I know this is a common refrain on my weekly posts, but can you believe it’s already nearly Fall and Winter? What is happening?? How’d we get here so quickly? \n\r\nAnyway, how are you doin’? I’m doing alright! It’s been kinda a crazy week. I was in the studio all day and some of the night yesterday filming a new Livelessons video that I can’t wait for y’all to see. (But be forewarned: there will be .YAML!) \n\r\nThen, at 3am my time, I did a presentation for the Japanese Java User Group. This would be one thing in of itself, but what made this special for me was that I was supposed to appear at the JJUG six weeks ago. Yes, that six weeks ago. The same six weeks ago when I was convalescing with COVID-19, six weeks ago. Needless to say (bu…",
+          "link": "https://spring.io/blog/2021/09/14/this-week-in-spring-september-14th-2021",
+          "publishedOn": "2021-09-14T10:00:00.000Z",
+          "wordCount": 973,
+          "title": "This Week in Spring - September 14th, 2021"
+        },
+        {
+          "id": "https://spring.io/blog/2021/09/14/efficient-parsing-of-reactive-buffer-streams",
+          "author": null,
+          "description": "It has been a while since Spring Framework 5.3 was released.\r\nOne of the features in that release was a major overhaul of our Reactive Multipart support.\r\nIn this blog post, we share some of the knowledge learned while working on this feature.\r\nSpecifically, we focus on finding a token within a stream of byte buffers.\n\r\n\r\n\r\nMultipart Form Data\n\r\n\r\n\r\nWhenever you upload a file, your browser sends it — and other fields in the form — to the server as a multipart/form-data message.\r\nThe exact format of these messages is described in RFC 7578.\r\nIf you submit a simple form with a single text field called foo and a file selector called file, the multipart/form-data message looks something like this:\n\r\n\r\n\r\n\r\nPOST / HTTP/1.1\r\nHost: example.com\r\nContent-Type: multipart/form-data;boundary=\"boundary\" …",
+          "link": "https://spring.io/blog/2021/09/14/efficient-parsing-of-reactive-buffer-streams",
+          "publishedOn": "2021-09-14T09:29:00.000Z",
+          "wordCount": 1265,
+          "title": "Efficient Parsing of Reactive Buffer Streams"
+        },
+        {
           "id": "https://spring.io/blog/2021/09/09/a-bootiful-podcast-spring-security-engineer-josh-cummings",
           "author": null,
           "description": "Hi, Spring fans! In this installment, Josh Long (@starbuman) talks about pumpkin spice lattes, COVID, labor day, and then gets to talk to Spring Security engineer Josh Cummings (@jzheaux)",
@@ -166,15 +184,6 @@
           "publishedOn": "2021-08-17T10:00:00.000Z",
           "wordCount": 601,
           "title": "This Week in Spring - August 17th, 2021"
-        },
-        {
-          "id": "https://spring.io/blog/2021/08/17/spring-authorization-server-officially-moves-to-spring-projects",
-          "author": null,
-          "description": "We are very excited to announce that Spring Authorization Server has officially moved out of experimental status and into the Spring project’s portfolio!\n\r\n\r\n\r\nThis move coincides with this week’s 0.2.0 release, which is the first officially supported production-ready version backed by our new support policy.\n\r\n\r\n\r\nSince announcing the Spring Authorization Server in April 2020, the implemented features provide support for a large portion of the OAuth 2.1 Authorization Framework and modest support for OpenID Connect 1.0. However, as we move onto the next phase of development, our focus changes to advancing the support for OpenID Connect 1.0.\n\r\n\r\n\r\nOn behalf of the team, I would like to thank everyone who has contributed and helped grow this project in this short time frame. We are confident in the base that we have built so far and are excited for the next phase of the project. We look forward to continuing this work together and ultimately making Spring Authorization Server the de facto framework for OAuth 2 Authorization Server support on the Java platform.\n\r\n\r\n\r\nLet’s get moving onto the next phase!",
-          "link": "https://spring.io/blog/2021/08/17/spring-authorization-server-officially-moves-to-spring-projects",
-          "publishedOn": "2021-08-17T10:00:00.000Z",
-          "wordCount": 557,
-          "title": "Spring Authorization Server officially moves to spring-projects"
         }
       ]
     },
@@ -183,6 +192,15 @@
       "feedUrl": "https://www.hashicorp.com/blog/feed.xml",
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
+        {
+          "id": "https://www.hashicorp.com/blog/terraform-enterprise-introduces-new-visibility-and-security-enhancements",
+          "author": null,
+          "description": "Terraform Enterprise increases visibility with a new workspace overview page, structured run output, and log forwarding, and adds support for consistent workload management with Terraform Agents.",
+          "link": "https://www.hashicorp.com/blog/terraform-enterprise-introduces-new-visibility-and-security-enhancements",
+          "publishedOn": "2021-09-14T19:00:00.000Z",
+          "wordCount": 849,
+          "title": "Terraform Enterprise Introduces New Visibility and Security Enhancements"
+        },
         {
           "id": "https://www.hashicorp.com/blog/announcing-hashicorp-boundary-0-6",
           "author": null,
@@ -198,7 +216,7 @@
           "description": "Learn about the enterprise scale and Cloud Adoption Framework (CAF)  Terraform modules for Azure adoption, and get a demo of the CAF module.",
           "link": "https://www.hashicorp.com/blog/go-big-or-go-small-building-in-azure-caf-with-terraform-cloud",
           "publishedOn": "2021-09-09T19:00:00.000Z",
-          "wordCount": 2012,
+          "wordCount": 2031,
           "title": "Go Big or Go Small? Building in Azure CAF with Terraform Cloud"
         },
         {
@@ -207,7 +225,7 @@
           "description": "HashiCorp Terraform Cloud run tasks allow you to integrate third-party tools into the pre-apply stage of a Terraform Cloud run. The feature is now available in beta access.",
           "link": "https://www.hashicorp.com/blog/terraform-cloud-run-tasks-beta-now-available",
           "publishedOn": "2021-09-09T16:00:00.000Z",
-          "wordCount": 781,
+          "wordCount": 793,
           "title": "Terraform Cloud Run Tasks Beta Now Available"
         },
         {
@@ -225,7 +243,7 @@
           "description": "We recently added a note to the HashiCorp Terraform contribution guidelines and this blog provides additional clarity and context for our community and commercial customers.",
           "link": "https://www.hashicorp.com/blog/terraform-community-contributions",
           "publishedOn": "2021-09-07T22:00:00.000Z",
-          "wordCount": 815,
+          "wordCount": 827,
           "title": "HashiCorp Terraform and Community Contributions"
         },
         {
@@ -270,7 +288,7 @@
           "description": "Compliance-driven network infrastructure automation with Consul-Terraform-Sync 0.3 is now generally available for HashiCorp Terraform Enterprise.",
           "link": "https://www.hashicorp.com/blog/announcing-consul-terraform-sync-0-3-for-terraform-enterprise",
           "publishedOn": "2021-09-01T17:15:00.000Z",
-          "wordCount": 1878,
+          "wordCount": 1885,
           "title": "Announcing Consul-Terraform-Sync 0.3 for Terraform Enterprise"
         },
         {
@@ -279,7 +297,7 @@
           "description": "We celebrate the growth of our ecosystem and welcome 27 new verified providers.",
           "link": "https://www.hashicorp.com/blog/cisco-citrix-fortinet-among-new-verified-terraform-providers",
           "publishedOn": "2021-08-31T16:00:00.000Z",
-          "wordCount": 1566,
+          "wordCount": 1569,
           "title": "Cisco, Citrix, and Fortinet Among New Verified Terraform Providers"
         },
         {
@@ -306,7 +324,7 @@
           "description": "Terraform AzureAD provider Version 2.0 exclusively uses the Microsoft Graph API and has numerous schema and behavioral changes to align with the new API.",
           "link": "https://www.hashicorp.com/blog/announcing-terraform-azuread-provider-2-0",
           "publishedOn": "2021-08-26T16:00:00.000Z",
-          "wordCount": 857,
+          "wordCount": 860,
           "title": "Announcing Terraform AzureAD Provider 2.0"
         },
         {
@@ -342,7 +360,7 @@
           "description": "Make changes to your infrastructure in Terraform Cloud and Terraform Enterprise faster with the new -refresh=false, -refresh-only, and replace planning options.",
           "link": "https://www.hashicorp.com/blog/new-terraform-planning-options-refresh-false-refresh-only-replace",
           "publishedOn": "2021-08-20T16:00:00.000Z",
-          "wordCount": 1287,
+          "wordCount": 1290,
           "title": "New Terraform Planning Options: -refresh=false, -refresh-only, -replace"
         },
         {
@@ -351,17 +369,8 @@
           "description": "HashiCorp Terraform Cloud gives you a quick and easy new way to search and filter workspaces based on tags.",
           "link": "https://www.hashicorp.com/blog/new-workspace-tags-for-terraform-cloud",
           "publishedOn": "2021-08-19T16:00:00.000Z",
-          "wordCount": 864,
+          "wordCount": 867,
           "title": "New Workspace Tags for Terraform Cloud"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/hashicorp-state-of-cloud-strategy-survey-offensive-defensive-drivers-multi-cloud",
-          "author": null,
-          "description": "Based on the HashiCorp State of Cloud Strategy Survey, we take a deep dive into the business and technology factors driving — and blocking — multi-cloud adoption, including a look at the pandemic's complex effects.",
-          "link": "https://www.hashicorp.com/blog/hashicorp-state-of-cloud-strategy-survey-offensive-defensive-drivers-multi-cloud",
-          "publishedOn": "2021-08-18T16:00:00.000Z",
-          "wordCount": 1577,
-          "title": "Survey Finds Both Offensive, Defensive Drivers for Multi-Cloud"
         }
       ]
     },
@@ -370,6 +379,15 @@
       "feedUrl": "https://www.elastic.co/blog/feed",
       "siteUrl": "https://www.elastic.co",
       "articles": [
+        {
+          "id": "https://www.elastic.co/blog/no-more-searching-for-a-needle-in-a-haystack-a-world-where-elastic-and-stackstate-team-up",
+          "author": "Ricardo Ferreira,Daliya Spasova",
+          "description": "Anthony Evans from StackState wrote this blog post. Anthony is a Solutions Engineer with StackState and a lifelong technologist. He has spent the last 15 years helping companies advance their software delivery capabilities while maintaining reliability, working extensively to support customers in the SaaS, AI, and Service Management landscapes.\n\nMeeting the goal of delivering great performance and reliability in the face of our ever-changing, increasingly autonomous IT environments is fundamentally challenged by a data problem. Sure, there’s lots of it - logs, metrics, and APM traces - but it is exceedingly hard to extract actionable information when there are so many fast moving parts.\n\nIf you’re already using Elastic Observability, you know the major advantage of bringing your monitoring…",
+          "link": "https://www.elastic.co/blog/no-more-searching-for-a-needle-in-a-haystack-a-world-where-elastic-and-stackstate-team-up",
+          "publishedOn": "2021-09-14T15:00:00.000Z",
+          "wordCount": 1529,
+          "title": "No more searching for a needle in a haystack: A world where Elastic & StackState team up"
+        },
         {
           "id": "https://www.elastic.co/blog/de-watergroep-and-devoteam-build-elastic-observability-pipeline-to-deliver-water-to-millions",
           "author": "David Kravets",
@@ -801,6 +819,15 @@
       "siteUrl": "https://xkcd.com/",
       "articles": [
         {
+          "id": "https://xkcd.com/2515/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/vaccine_research.png\" title=\"Honestly feel a little sheepish about the amount of time and effort I spent confirming &quot;yes, the vaccine helps protect people from getting sick and dying&quot; but I guess everyone needs a hobby.\" alt=\"Honestly feel a little sheepish about the amount of time and effort I spent confirming &quot;yes, the vaccine helps protect people from getting sick and dying&quot; but I guess everyone needs a hobby.\" />",
+          "link": "https://xkcd.com/2515/",
+          "publishedOn": "2021-09-13T00:00:00.000Z",
+          "wordCount": 185,
+          "title": "Vaccine Research"
+        },
+        {
           "id": "https://xkcd.com/2514/",
           "author": null,
           "description": "<img src=\"https://imgs.xkcd.com/comics/lab_equipment.png\" title=\"I've been working on chocolate bar annealing techniques to try to produce the perfect laser s'more. Maybe don't mention that on the grant application though.\" alt=\"I've been working on chocolate bar annealing techniques to try to produce the perfect laser s'more. Maybe don't mention that on the grant application though.\" />",
@@ -826,15 +853,6 @@
           "publishedOn": "2021-09-06T00:00:00.000Z",
           "wordCount": 183,
           "title": "Revelation"
-        },
-        {
-          "id": "https://xkcd.com/2511/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/recreate_the_conditions.png\" title=\"We've almost finished constructing the piña collider.\" alt=\"We've almost finished constructing the piña collider.\" />",
-          "link": "https://xkcd.com/2511/",
-          "publishedOn": "2021-09-03T00:00:00.000Z",
-          "wordCount": 187,
-          "title": "Recreate the Conditions"
         }
       ]
     },
@@ -843,6 +861,40 @@
       "feedUrl": "https://softwareengineeringdaily.com/feed/podcast/",
       "siteUrl": "https://softwareengineeringdaily.com/archives/",
       "articles": [
+        {
+          "id": "https://softwareengineeringdaily.com/?p=11621",
+          "author": null,
+          "description": "Modern companies leverage dozens or even hundreds of software solutions to solve specific needs of the business.  Organizations need to collect all these disparate data sources into a data warehouse in order to add value.  The raw data typically needs transformation before it can be analyzed.  In many cases, companies develop homegrown solutions, thus reinventing\nThe post Modern Data Stacks Optimized by Mozart Data with Peter Fishman and Dan Silberman appeared first on Software Engineering Daily.",
+          "link": "https://softwareengineeringdaily.com/2021/09/14/modern-data-stacks-optimized-by-mozart-data-with-peter-fishman-and-dan-silberman/?utm_source=rss&utm_medium=rss&utm_campaign=modern-data-stacks-optimized-by-mozart-data-with-peter-fishman-and-dan-silberman",
+          "publishedOn": "2021-09-14T20:00:36.000Z",
+          "wordCount": null,
+          "title": "Modern Data Stacks Optimized by Mozart Data with Peter Fishman and Dan Silberman",
+          "itunes": {
+            "duration": "44:23"
+          },
+          "enclosure": {
+            "url": "https://traffic.megaphone.fm/SED1092041333.mp3",
+            "length": "42649620",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "https://softwareengineeringdaily.com/?p=11618",
+          "author": null,
+          "description": "Please The Easy Thing about Easy Things\nThe post Andreessen Horowitz with Astasia Myers appeared first on Software Engineering Daily.",
+          "link": "https://softwareengineeringdaily.com/2021/09/14/andreessen-horowitz-with-astasia-myers/?utm_source=rss&utm_medium=rss&utm_campaign=andreessen-horowitz-with-astasia-myers",
+          "publishedOn": "2021-09-14T18:35:31.000Z",
+          "wordCount": null,
+          "title": "Andreessen Horowitz with Astasia Myers",
+          "itunes": {
+            "duration": "1:05:03"
+          },
+          "enclosure": {
+            "url": "https://traffic.megaphone.fm/SED1042633051.mp3",
+            "length": "93700848",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "https://softwareengineeringdaily.com/?p=11603",
           "author": null,
@@ -1165,23 +1217,6 @@
             "length": "73521406",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "https://softwareengineeringdaily.com/?p=11447",
-          "author": null,
-          "description": "Whether sending messages, shopping in an app, or watching videos, modern consumers expect information and responsiveness to be near-instant in their apps and devices. From a developer’s perspective, this means clean code and a fast database.  Apache Druid is a database built to power real-time analytic workloads for event-driven data, like user-facing applications, streaming, and\nThe post Druid: Event-Driven Data with Eric Tschetter appeared first on Software Engineering Daily.",
-          "link": "https://softwareengineeringdaily.com/2021/08/16/druid-event-driven-data-with-eric-tschetter/?utm_source=rss&utm_medium=rss&utm_campaign=druid-event-driven-data-with-eric-tschetter",
-          "publishedOn": "2021-08-16T09:00:22.000Z",
-          "wordCount": null,
-          "title": "Druid: Event-Driven Data with Eric Tschetter",
-          "itunes": {
-            "duration": "56:26"
-          },
-          "enclosure": {
-            "url": "https://traffic.megaphone.fm/SED6908668584.mp3",
-            "length": "54210337",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -1191,12 +1226,30 @@
       "siteUrl": "https://camunda.com",
       "articles": [
         {
+          "id": "https://camunda.com/?p=29579",
+          "author": "Brittany des Vignes",
+          "description": "We’re excited to announce the release of Camunda Cloud 1.2.0-alpha2. Camunda Cloud 1.2.0-alpha2 is the second alpha release for our next stable minor release in October. \nThe post Camunda Cloud 1.2.0-alpha2 Released appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2021/09/camunda-cloud-120-alpha2-released/",
+          "publishedOn": "2021-09-14T06:05:00.000Z",
+          "wordCount": 1663,
+          "title": "Camunda Cloud 1.2.0-alpha2 Released"
+        },
+        {
+          "id": "https://camunda.com/?p=28681&preview=true&preview_id=28681",
+          "author": "Maximilian Trumpf",
+          "description": "Add We are happy to announce the Camunda Modeler 4.9 release. This release ships with support for Camunda Cloud 1.1, improvements to the core editor UI, BPMN in color support, other smaller improvements, and bug fixes.\nThe post Camunda Modeler 4.10 Released appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2021/09/camunda-modeler-4-10-released/",
+          "publishedOn": "2021-09-14T06:00:00.000Z",
+          "wordCount": 1790,
+          "title": "Camunda Modeler 4.10 Released"
+        },
+        {
           "id": "https://camunda.com/?p=29366",
           "author": "Brittany des Vignes",
           "description": "Now live! Listen as Gabor explains why the BPMN-driven testing extension was created as an answer to some developer woes.\nThe post Podcast: ​​Introducing the BPMN-Driven Testing Extension appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/podcast-introducing-the-bpmn-driven-testing-extension/",
           "publishedOn": "2021-09-10T15:20:12.000Z",
-          "wordCount": 1326,
+          "wordCount": 1334,
           "title": "Podcast: ​​Introducing the BPMN-Driven Testing Extension"
         },
         {
@@ -1205,7 +1258,7 @@
           "description": "Learn why Camunda CEO Jakob Freund thinks process automation can help organizations with legacy technology compete with startups.\nThe post Automation: A Recipe for Disruption appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/automation-a-recipe-for-disruption/",
           "publishedOn": "2021-09-09T14:13:20.000Z",
-          "wordCount": 1272,
+          "wordCount": 1280,
           "title": "Automation: A Recipe for Disruption"
         },
         {
@@ -1214,7 +1267,7 @@
           "description": "In this episode, follow Rin Oliver as he explains what he does at Camunda to enable developers to do what they do better and faster.\nThe post Podcast: Meet the Camundos – Rin Oliver appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/podcast-meet-the-camundos-rin-oliver/",
           "publishedOn": "2021-09-03T18:54:38.000Z",
-          "wordCount": 1320,
+          "wordCount": 1328,
           "title": "Podcast: Meet the Camundos – Rin Oliver"
         },
         {
@@ -1223,7 +1276,7 @@
           "description": "This is Camunda’s second year participating in Hacktoberfest, and we are so excited to showcase bpmn.io and the Camunda Community Hub. \nThe post Join the Fun – Hacktoberfest 2021 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/join-the-fun-hacktoberfest-2021/",
           "publishedOn": "2021-09-01T18:59:53.000Z",
-          "wordCount": 1508,
+          "wordCount": 1510,
           "title": "Join the Fun – Hacktoberfest 2021"
         },
         {
@@ -1232,7 +1285,7 @@
           "description": "Instead of dramatic, rip-and-replace events, Camunda CEO Jakob Freund describes how gradual digital transformation can be a more practical and strategic path to automation.\nThe post The Art of Gradual Digital Transformation appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/08/the-art-of-gradual-digital-transformation/",
           "publishedOn": "2021-08-26T16:57:46.000Z",
-          "wordCount": 1288,
+          "wordCount": 1290,
           "title": "The Art of Gradual Digital Transformation"
         },
         {
@@ -1241,7 +1294,7 @@
           "description": "Camunda Platform and Camunda Cloud are “same same, but different.” Find out the similarities and differences of these workflow engines.\nThe post Same Same, But Different (Workflow Engines) appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/08/same-same-but-different-workflow-engines/",
           "publishedOn": "2021-08-23T14:00:01.000Z",
-          "wordCount": 2580,
+          "wordCount": 2560,
           "title": "Same Same, But Different (Workflow Engines)"
         },
         {

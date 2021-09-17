@@ -207,7 +207,7 @@
           "description": "Terraform Enterprise increases visibility with a new workspace overview page, structured run output, and log forwarding, and adds support for consistent workload management with Terraform Agents.",
           "link": "https://www.hashicorp.com/blog/terraform-enterprise-introduces-new-visibility-and-security-enhancements",
           "publishedOn": "2021-09-14T19:00:00.000Z",
-          "wordCount": 850,
+          "wordCount": 852,
           "title": "Terraform Enterprise Introduces New Visibility and Security Enhancements"
         },
         {
@@ -380,6 +380,33 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
+          "id": "https://www.elastic.co/blog/elastic-named-ema-top-3-award-winner-automatic-end-to-end-observability",
+          "author": "Gagan Singh",
+          "description": "We are excited to announce that Elastic Observability has earned the Enterprise Management Associates Top 3 Award for Observability in 2021, a recognition of our commitment to empowering customers with products and features that advance digital transformation and solve real-life problems.\n\n\n\"Elastic Observability with rich analytics and machine learning capabilities allows development and operations teams to get contextualized information that cuts through the complexity, enabling users to quickly find the root cause.\n\n\t\"Elastic leverages its industry-standard search platform that received over 56,000 GitHub stars to date to deliver a single solution for customers to observe and protect their systems.\"\nThis award is driven by EMA’s exhaustive, quantitative research into the top challenges …",
+          "link": "https://www.elastic.co/blog/elastic-named-ema-top-3-award-winner-automatic-end-to-end-observability",
+          "publishedOn": "2021-09-16T15:00:00.000Z",
+          "wordCount": 819,
+          "title": "Elastic named EMA Top 3 Award winner in Automatic End-to-End Observability"
+        },
+        {
+          "id": "https://www.elastic.co/blog/elasticians-unidos-month-2021-our-global-celebration-of-latinx-and-hispanic-heritages",
+          "author": "David Kravets",
+          "description": "We proudly celebrate Hispanic and Latinx-identified communities as part of Elasticians Unidos Month, a global expression of solidarity and appreciation of Hispanic Heritage Month.\n\nEmployees at Elastic have come together to extend the US Hispanic Heritage Month to communities around the world of Hispanic and Latinx identities through a series of virtual learning and sharing–from ceviche and tortilla making to folklore and history-telling, from music showcases to cocktail mixings. \n\nTo kick off the Sept 15th to Oct 15th festivities, we spoke with five Elasticians about what this month means to them and how they bring their heritage to work. \n \nUlly Sampaio\n\n\n\nUlly has been a Specialist for Community Programs at Elastic for three years. The native Portuguese-speaker, who lives in Maryland, m…",
+          "link": "https://www.elastic.co/blog/elasticians-unidos-month-2021-our-global-celebration-of-latinx-and-hispanic-heritages",
+          "publishedOn": "2021-09-16T15:00:00.000Z",
+          "wordCount": 1890,
+          "title": "Elasticians Unidos Month 2021 | Our global celebration of Latinx and Hispanic heritages"
+        },
+        {
+          "id": "https://www.elastic.co/blog/a-simplified-stack-monitoring-experience-in-elastic-cloud-on-kubernetes",
+          "author": "Kuniyasu Sen",
+          "description": "To monitor your Elastic Stack with Elastic Cloud on Kubernetes (ECK), you can deploy Metricbeat and Filebeat to collect metrics and logs and send them to the monitoring cluster, as mentioned in this blog. However, this requires understanding and managing the complexity of Beats configuration and Kubernetes role-based access control (RBAC).\n\nNow, in ECK 1.7, the Elasticsearch and Kibana resources have been enhanced to let us specify a reference to a monitoring cluster. When specified, sidecar containers are automatically set up by ECK to ship logs and metrics to the referenced Elasticsearch cluster.\n\nIf you are new to ECK\nIf you are new to ECK, here are the steps to start from scratch.\n\nSet up ECK\nFirst, let's deploy our ECK in Kubernetes.\n\nDeploy production and monitoring environment\nOnce …",
+          "link": "https://www.elastic.co/blog/a-simplified-stack-monitoring-experience-in-elastic-cloud-on-kubernetes",
+          "publishedOn": "2021-09-16T15:00:00.000Z",
+          "wordCount": 931,
+          "title": "A simplified stack monitoring experience in Elastic Cloud on Kubernetes"
+        },
+        {
           "id": "https://www.elastic.co/blog/whats-new-elastic-maps-geo-annotations-choropleth-maps-integrations",
           "author": "Thomas Neirynck",
           "description": "Sysadmins, cartographers, and dashboard designers can now personalize Elastic Maps to create richer geodata stories.\n\nThe 7.14 release of Elastic Maps has the geo capabilities to highlight points of interest, hide unnecessary details, and help you explore new trends in your data.\n\nElastic Maps is available now on Elastic Cloud — the only hosted Elasticsearch offering to include all of its latest features. You can also download the Elastic Stack and our cloud orchestration products, Elastic Cloud Enterprise (ECE) and Elastic Cloud for Kubernetes (ECK), for a self-managed experience.\n\nSimpler configuration and scaling in Elastic Maps Server\nIn case you missed it, the on-prem Elastic Maps Server, an offline version of the Elastic Maps Service to use with secure air-gapped settings or where in…",
@@ -529,35 +556,8 @@
           "description": "Since its inception, Elastic Security has had a clear mission: to protect the world's data and systems from attack.\n\nWe started with SIEM, built on top of the Elastic Stack, applying its fast and scalable search capabilities to detect security vulnerabilities across all threat vectors. Next, we joined forces with Endgame to integrate endpoint security into Elastic Security, and allow customers to prevent, detect, and respond to attacks from a single, unified platform. With the recent release of Elastic Security Limitless XDR and the general availability of Elastic Agent, we furthered our mission.\n\nToday, we are excited to announce the next step in the Elastic Security journey: to extend security enforcement from every endpoint to every cloud workload.\n\nMillions of users trust Elastic for o…",
           "link": "https://www.elastic.co/blog/elastic-and-build-security-shifting-left-together-to-secure-the-cloud",
           "publishedOn": "2021-08-23T10:55:00.000Z",
-          "wordCount": 1584,
+          "wordCount": 1593,
           "title": "Elastic and build.security: Shifting left together to secure the cloud"
-        },
-        {
-          "id": "https://www.elastic.co/blog/kibana-10-common-questions-formulas-time-series-maps",
-          "author": "Graham Hudgins,Adeline Tan",
-          "description": "Kibana creates easy ways to do powerful things with all of your data — to ask and answer questions and follow the flow of analysis. Many times the answer to your question requires calculations based on queried data. Formulas allow you to author your own metrics by combining multiple aggregated fields using math operations.\n\nIn addition, moving through and replaying your data in time and space are powerful ways to gain historical context and understand additional insight about the present.\n\nIn the below sections you’ll find 10 examples of questions you can answer with dashboard data and map visualizations in Kibana via formulas, time shifts, and moving through data in time. Try following along with your own data or using Kibana’s sample datasets. Have a question? Head on over to our discuss…",
-          "link": "https://www.elastic.co/blog/kibana-10-common-questions-formulas-time-series-maps",
-          "publishedOn": "2021-08-18T18:00:00.000Z",
-          "wordCount": 1896,
-          "title": "10 common questions answered with formulas and time travel in Kibana"
-        },
-        {
-          "id": "https://www.elastic.co/blog/introducing-new-google-cloud-instance-types-on-elastic-cloud",
-          "author": "Yoav Derazon,Fermi Fang",
-          "description": "We are excited to announce support for Google Compute Engine (GCE) N2 general purpose virtual machine (VM) types, and additional hardware configuration options powered by N2 custom machine types. \n\nN2 VMs leverage Intel 2nd Generation Xeon Scalable processors and provide a balance of compute, memory, and storage. N2 machine types also offer more than a 20% improvement in price-performance over the first-generation N1 machines.\n\n\n\nWhen you provision an Elastic deployment on Google Cloud you will automatically leverage N2 VM types. You can select the default configuration, or choose one of four custom configurations. This optionality allows you to select a combination of vCPU, RAM, and storage to deliver optimal performance for your specific use case. For example, you may select a configurat…",
-          "link": "https://www.elastic.co/blog/introducing-new-google-cloud-instance-types-on-elastic-cloud",
-          "publishedOn": "2021-08-18T15:00:00.000Z",
-          "wordCount": 616,
-          "title": "New Google Cloud instance types on Elastic Cloud"
-        },
-        {
-          "id": "https://www.elastic.co/blog/full-cycle-observability-with-the-elastic-stack-and-lightrun",
-          "author": "Daliya Spasova,Philipp Krenn",
-          "description": "This blog post was written in collaboration with the team at Lightrun: Itai Tieger, Roy Chen, and Tom Granot. Itai is an R&D team leader specializing in cybersecurity, with over 10 years of experience in the industry. Roy is a software engineer with over 6 years of diverse experience in multiple disciplines. Tom is a solution engineer and a former site reliability engineer.\n\nAn application running in production is a difficult beast to tame.\n\nMost experienced developers–ones who spent enough late nights or Saturday mornings trying to break apart a nasty production bug–will try and create the clearest possible picture for their later selves while writing their code, so that they could understand what’s actually going on in the system during an incident. \n\nTo make life easier, developers can …",
-          "link": "https://www.elastic.co/blog/full-cycle-observability-with-the-elastic-stack-and-lightrun",
-          "publishedOn": "2021-08-17T19:00:00.000Z",
-          "wordCount": 3339,
-          "title": "Full-cycle observability with the Elastic Stack and Lightrun"
         }
       ]
     },
@@ -566,6 +566,15 @@
       "feedUrl": "https://www.ansible.com/blog/rss.xml",
       "siteUrl": "https://www.ansible.com/blog",
       "articles": [
+        {
+          "id": "https://www.ansible.com/blog/what-you-can-expect-ansiblefest-2021-for-telco-customers",
+          "author": "Cindy Russell",
+          "description": "This year, we are adapting our signature automation event, AnsibleFest, into a free virtual experience. Seasoned pros and new Ansible enthusiasts alike can find answers and learn more about Red Hat Ansible Automation Platform, the platform for building and operating automation at scale and creating an enterprise automation strategy. This year, we have a content topic designed specifically for attendees from telecommunications and media companies with our Telco topic within the Network track.",
+          "link": "https://www.ansible.com/blog/what-you-can-expect-ansiblefest-2021-for-telco-customers",
+          "publishedOn": "2021-09-16T13:00:00.000Z",
+          "wordCount": 936,
+          "title": "What you can expect: AnsibleFest 2021 for Telco Customers"
+        },
         {
           "id": "https://www.ansible.com/blog/whats-new-automating-servicenow-with-ansible-automation-platform",
           "author": "steampunk@xlab.si (XLAB Steampunk)",
@@ -626,24 +635,6 @@
           "publishedOn": "2021-08-20T16:46:26.000Z",
           "wordCount": 1003,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.08.20"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=62215",
-          "author": "Gloridel Morales",
-          "description": "Update: We received feedback in the Developer Community about an issue after upgrading from Azure DevOps Server 2020.1 Patch 2 to Azure DevOps Server 2020.1.1. Today we are re-releasing Azure DevOps Server 2020.1.1 to fix this issue.\nThe post Updated: Azure DevOps Server 2020.1.1 RTW now available appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-1-rtw-now-available/",
-          "publishedOn": "2021-08-17T18:10:37.000Z",
-          "wordCount": 1550,
-          "title": "Updated: Azure DevOps Server 2020.1.1 RTW now available"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=62081",
-          "author": "Jay Gordon",
-          "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes Episode 51 – Deploy With ARM Templates with @shankuehn appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-51-deploy-with-arm-templates-with-shankuehn/",
-          "publishedOn": "2021-08-17T14:00:08.000Z",
-          "wordCount": 1565,
-          "title": "AzureFunBytes Episode 51 – Deploy With ARM Templates with @shankuehn"
         }
       ]
     },
@@ -658,6 +649,24 @@
       "feedUrl": "http://feeds.feedburner.com/AmazonWebServicesBlog",
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
+        {
+          "id": "463fda3f006fd0edaea98a78bc97c72836c2d0e0",
+          "author": "Danilo Poccia",
+          "description": "Apache Kafka is an open-source platform for building real-time streaming data pipelines and applications. At re:Invent 2018, we announced Amazon Managed Streaming for Apache Kafka, a fully managed service that makes it easy to build and run applications that use Apache Kafka to process streaming data. When you use Apache Kafka, you capture real-time data […]",
+          "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/svVVMIbpdhA/",
+          "publishedOn": "2021-09-16T21:56:18.000Z",
+          "wordCount": 2536,
+          "title": "Introducing Amazon MSK Connect – Stream Data to and from Your Apache Kafka Clusters Using Managed Connectors"
+        },
+        {
+          "id": "0fa5a817c4f6f2a5341a94c1356b3fe2ce38a48e",
+          "author": "Alex Casalboni",
+          "description": "AWS IQ launched in 2019 and has been helping customers worldwide engage thousands of AWS Certified third-party experts and consulting firms for on-demand project work. Whether you need to learn about AWS, plan your project, setup new services, migrate existing applications, or optimize your spend, AWS IQ connects you with experts and consulting firms who […]",
+          "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/m02Ke_uHVv0/",
+          "publishedOn": "2021-09-16T07:06:15.000Z",
+          "wordCount": 999,
+          "title": "AWS IQ expansion: Connect with Experts and Consulting Firms based in the UK and France"
+        },
         {
           "id": "7c764cdc91ce2648d3c73c3be6a1aed96d458b7b",
           "author": "AWS News Blog Team",
@@ -828,6 +837,15 @@
       "siteUrl": "https://xkcd.com/",
       "articles": [
         {
+          "id": "https://xkcd.com/2516/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/hubble_tension.png\" title=\"Oh, wait, I might've had it set to kph instead of mph. But that would make the discrepancy even wider!\" alt=\"Oh, wait, I might've had it set to kph instead of mph. But that would make the discrepancy even wider!\" />",
+          "link": "https://xkcd.com/2516/",
+          "publishedOn": "2021-09-15T00:00:00.000Z",
+          "wordCount": 185,
+          "title": "Hubble Tension"
+        },
+        {
           "id": "https://xkcd.com/2515/",
           "author": null,
           "description": "<img src=\"https://imgs.xkcd.com/comics/vaccine_research.png\" title=\"Honestly feel a little sheepish about the amount of time and effort I spent confirming &quot;yes, the vaccine helps protect people from getting sick and dying&quot; but I guess everyone needs a hobby.\" alt=\"Honestly feel a little sheepish about the amount of time and effort I spent confirming &quot;yes, the vaccine helps protect people from getting sick and dying&quot; but I guess everyone needs a hobby.\" />",
@@ -853,15 +871,6 @@
           "publishedOn": "2021-09-08T00:00:00.000Z",
           "wordCount": 185,
           "title": "Saturn Hexagon"
-        },
-        {
-          "id": "https://xkcd.com/2512/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/revelation.png\" title=\"And the heaven departed as a scroll when it is rolled together, but then more heaven kept appearing to replace it, as if the scroll was infinite.\" alt=\"And the heaven departed as a scroll when it is rolled together, but then more heaven kept appearing to replace it, as if the scroll was infinite.\" />",
-          "link": "https://xkcd.com/2512/",
-          "publishedOn": "2021-09-06T00:00:00.000Z",
-          "wordCount": 183,
-          "title": "Revelation"
         }
       ]
     },
@@ -870,6 +879,40 @@
       "feedUrl": "https://softwareengineeringdaily.com/feed/podcast/",
       "siteUrl": "https://softwareengineeringdaily.com/archives/",
       "articles": [
+        {
+          "id": "https://softwareengineeringdaily.com/?p=11674",
+          "author": null,
+          "description": "Facebook’s goal is to connect the world and allow every human to foster better relationships. Today is a rare treat. Mark Zuckerberg is the CEO of Facebook. After I spent nearly 3 years writing a book about how his company works, he has finally agreed to do an interview. Special thanks to Jennifer Li at\nThe post Facebook with Mark Zuckerberg appeared first on Software Engineering Daily.",
+          "link": "https://softwareengineeringdaily.com/2021/09/16/facebook-with-mark-zuckerberg/?utm_source=rss&utm_medium=rss&utm_campaign=facebook-with-mark-zuckerberg",
+          "publishedOn": "2021-09-16T10:23:24.000Z",
+          "wordCount": null,
+          "title": "Facebook with Mark Zuckerberg",
+          "itunes": {
+            "duration": "20:25"
+          },
+          "enclosure": {
+            "url": "https://traffic.megaphone.fm/SED3423391645.mp3",
+            "length": "29431666",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "https://softwareengineeringdaily.com/?p=11665",
+          "author": null,
+          "description": "Web applications often have some sort of login system, and once a user creates an account, they have access to features anonymous users can’t see.  In time, application designers will often add an admin level of access for special users.  This is often a slow trickle of technical debt.  Proper execution of a programmatic authorization\nThe post Authorization with Sam Scott appeared first on Software Engineering Daily.",
+          "link": "https://softwareengineeringdaily.com/2021/09/16/authorization-with-sam-scott/?utm_source=rss&utm_medium=rss&utm_campaign=authorization-with-sam-scott",
+          "publishedOn": "2021-09-16T09:00:13.000Z",
+          "wordCount": null,
+          "title": "Authorization with Sam Scott",
+          "itunes": {
+            "duration": "43:10"
+          },
+          "enclosure": {
+            "url": "https://traffic.megaphone.fm/SED3130489526.mp3",
+            "length": "103632730",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "https://softwareengineeringdaily.com/?p=11629",
           "author": null,
@@ -1209,23 +1252,6 @@
             "length": "42195358",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "https://softwareengineeringdaily.com/?p=11449",
-          "author": null,
-          "description": "Domain names are the address of your website that people type into the browser URL bar. Once purchased, a domain name is stored on your behalf by custodians like Google domains. Blockchain domains, on the other hand, are similar to regular domain names except they are stored and controlled in your cryptocurrency wallet. The company\nThe post Unstoppable Domains: Blockchain Domains with Matthew Gould appeared first on Software Engineering Daily.",
-          "link": "https://softwareengineeringdaily.com/2021/08/18/unstoppable-domains-blockchain-domains-with-matthew-gould/?utm_source=rss&utm_medium=rss&utm_campaign=unstoppable-domains-blockchain-domains-with-matthew-gould",
-          "publishedOn": "2021-08-18T09:00:26.000Z",
-          "wordCount": null,
-          "title": "Unstoppable Domains: Blockchain Domains with Matthew Gould",
-          "itunes": {
-            "duration": "51:18"
-          },
-          "enclosure": {
-            "url": "https://traffic.megaphone.fm/SED4380018449.mp3",
-            "length": "49282594",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -1258,7 +1284,7 @@
           "description": "We’re excited to announce the release of Camunda Cloud 1.2.0-alpha2. Camunda Cloud 1.2.0-alpha2 is the second alpha release for our next stable minor release in October. \nThe post Camunda Cloud 1.2.0-alpha2 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/camunda-cloud-120-alpha2-released/",
           "publishedOn": "2021-09-14T06:05:00.000Z",
-          "wordCount": 1676,
+          "wordCount": 1675,
           "title": "Camunda Cloud 1.2.0-alpha2 Released"
         },
         {
@@ -1285,7 +1311,7 @@
           "description": "Learn why Camunda CEO Jakob Freund thinks process automation can help organizations with legacy technology compete with startups.\nThe post Automation: A Recipe for Disruption appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/automation-a-recipe-for-disruption/",
           "publishedOn": "2021-09-09T14:13:20.000Z",
-          "wordCount": 1280,
+          "wordCount": 1279,
           "title": "Automation: A Recipe for Disruption"
         },
         {
@@ -1321,7 +1347,7 @@
           "description": "Camunda Platform and Camunda Cloud are “same same, but different.” Find out the similarities and differences of these workflow engines.\nThe post Same Same, But Different (Workflow Engines) appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/08/same-same-but-different-workflow-engines/",
           "publishedOn": "2021-08-23T14:00:01.000Z",
-          "wordCount": 2564,
+          "wordCount": 2563,
           "title": "Same Same, But Different (Workflow Engines)"
         }
       ]
@@ -1362,5 +1388,5 @@
       ]
     }
   ],
-  "cliVersion": "1.11.0"
+  "cliVersion": "1.11.1"
 }

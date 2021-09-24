@@ -6,6 +6,33 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/09/23/spring-boot-2-5-5-available-now",
+          "author": null,
+          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 2.5.5 has been released and is now available from Maven Central.\n\r\nThis release includes 41 bug fixes, documentation improvements, and dependency upgrades. Thanks to all those who have contributed with issue reports and pull requests.\nHow can you help?\n\r\nIf you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
+          "link": "https://spring.io/blog/2021/09/23/spring-boot-2-5-5-available-now",
+          "publishedOn": "2021-09-23T10:34:18.000Z",
+          "wordCount": 480,
+          "title": "Spring Boot 2.5.5 available now"
+        },
+        {
+          "id": "https://spring.io/blog/2021/09/23/spring-cloud-2020-0-4-has-been-released",
+          "author": null,
+          "description": "On behalf of the community, I am pleased to announce that the 2020.0.4 release of Spring Cloud is available today. The release can be found in Maven Central. You can check out the 2020.0 release notes for more information.\n\r\nSee all issues included in this release here.\n\r\nThis was primarily a bug fix and documentation release. 2020.0.4 is compatible with Spring Boot 2.4.x and 2.5.x.\nNotable Changes in the 2020.0.4 release\nSpring Cloud Commons\n\r\n\r\n  \nAllow passing group while creating reactive circuit breaker (#994 )\n\r\n\nSpring Cloud Config\n\r\n\r\n  \nReturn Boolean and Integer Properties when using JDBC backend ( #1952 )\n\r\n  \nProvide the git username/password at run time(dynamically) ( #1896 )\n\r\n\nSpring Cloud Contract\n\r\n\r\n  \nAdd explicit dependency to generateContractTests task for processContr…",
+          "link": "https://spring.io/blog/2021/09/23/spring-cloud-2020-0-4-has-been-released",
+          "publishedOn": "2021-09-23T08:00:00.000Z",
+          "wordCount": 715,
+          "title": "Spring Cloud 2020.0.4 has been released"
+        },
+        {
+          "id": "https://spring.io/blog/2021/09/22/spring-boot-2-4-11-available-now",
+          "author": null,
+          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 2.4.11 has been released and is now available from Maven Central.\n\r\nThis release includes 32 bug fixes, documentation improvements, and dependency upgrades. Thanks to all those who have contributed with issue reports and pull requests.\nHow can you help?\n\r\nIf you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
+          "link": "https://spring.io/blog/2021/09/22/spring-boot-2-4-11-available-now",
+          "publishedOn": "2021-09-23T06:54:20.000Z",
+          "wordCount": 480,
+          "title": "Spring Boot 2.4.11 available now"
+        },
+        {
           "id": "https://spring.io/blog/2021/09/22/spring-data-jdbc-how-do-i-make-bidirectional-relationships",
           "author": null,
           "description": "This is the second article of a series about how to tackle various challenges you might encounter when using Spring Data JDBC.\r\nThe series consists of\n\r\n\r\n\r\n\r\n\r\nSpring Data JDBC - How to use custom ID generation.\n\r\n\r\n\r\nSpring Data JDBC - How do I make bidirectional relationships? (this article).\n\r\n\r\n\r\n\r\n\r\nIf you are new to Spring Data JDBC, you should start by reading its introduction and this article, which explains the relevance of aggregates in the context of Spring Data JDBC. Trust me, it is important.\n\r\n\r\n\r\nThis article is based on part of a talk I did at Spring One 2021.\n\r\n\r\n\r\nSpring Data JDBC doesn’t have special support for bidirectional relationships.\r\nTo understand why you don’t really need any we have to look at to different kinds of relationships:\r\nWe distinguish references wit…",
@@ -157,33 +184,6 @@
           "publishedOn": "2021-09-01T16:00:00.000Z",
           "wordCount": 1899,
           "title": "Monitor Spring Boot applications end-to-end using Dynatrace in Azure Spring Cloud!"
-        },
-        {
-          "id": "https://spring.io/blog/2021/09/01/spring-graphql-1-0-0-m2-available-now",
-          "author": null,
-          "description": "Less than 2 months after the initial announcement of Spring GraphQL and its follow up intro blog,\nI’m happy to announce that the 1.0.0-M2 version has been released and is available from the Spring Milestone repository.\n\r\nThe Spring GraphQL team would like to thank the early adopters and contributors - with your help, we’re making good progress towards a GA version!\n\r\nWe’ve fixed a few issues and renamed a couple of concepts, but the most notable change is the introduction of a new annotation model for GraphQL Controllers.\nYou can now annotate @Controller components to handle queries, mutations and subscriptions:\n\r\n@Controller\r\r\npublic class GreetingController {\r\r\n\r\r\n        @QueryMapping \r\r\n        public String hello() { \r\r\n            return \"Hello, world!\";\r\r\n        }\r\r\n\r\r\n}\r\n\n\r\nThis is a new feature and we can’t wait to hear your feedback - please give it a try and let us know what you think!\nSpring GraphQL at SpringOne!\n\r\nDon’t miss the Spring GraphQL presentation at SpringOne today!\nThis will give a nice intro to this new Spring project and you’ll get a chance to chat with the team, live and on the dedicated SpringOne Slack.\nHow can you help?\n\r\nIf you’re interested in helping out, you can get started with Spring GraphQL and raise issues on our GitHub project.\nIf you have general questions, please ask on stackoverflow.com using the spring-graphql tag.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow",
-          "link": "https://spring.io/blog/2021/09/01/spring-graphql-1-0-0-m2-available-now",
-          "publishedOn": "2021-09-01T08:20:00.000Z",
-          "wordCount": 599,
-          "title": "Spring GraphQL 1.0.0-M2 available now"
-        },
-        {
-          "id": "https://spring.io/blog/2021/08/31/this-week-in-spring-august-31st-2021",
-          "author": null,
-          "description": "Hi, Spring fans! Can you believe it? SpringOne 2021 kicks off in less than 24 hours! Have you registered? It’s free and it’s virtual, but the talks are live and there’ll be ample opportunity to talk to the Spring and Tanzu teams behinds the scenes. And, of course, I’ll be there. Also, don’t miss tomorrow mornings opening keynote, which I’ll be emceeing. And please don’t miss my session on Azure Spring Cloud with Julien Dubois and Layla Porter. There are a ton of great talks over the next two days. Do not miss these! Alrigty my friends, we’ve got a ton of stuff to review so without further ado, let’s dive right in! \n\r\n\r\n  \nHi, Spring fans! In the last week’s installment of Bootiful Podcast, I talked to Richard North and Sergei Egorov on Testcontainers, their new company AtomicJar, and more\n\r\n  \nGet hands-on with Azure Spring Cloud in 90 minutes. Register today - space is limited! Brought to you by Microsoft and VMware\n\r\n  \nAre you ready to rapidly deploy and scale Spring Boot apps to Azure Spring Cloud? Register today!\n\r\n  \nThis video seems like it’ll be worth a watch if you’re trying to learn Spring Boot\n\r\n  \nHere’s an interesting video that looks at streaming with the reactive Spring Webflux\n\r\n  \nThis looks interesting: a video from Manning Publications on building and securing web applications with Spring Boot\n\r\n  \nHave you seen the Spring.io Community page? It’s a great place to find out about some of the external resources and portals in the wider community.\n\r\n  \nInstana has updated their documentation on how to monitor Spring Boot applications with their suite\n\r\n  \nThe Baeldung article on embedding the Keycloak authorization and authentication server in a Spring  Boot application has been updated.\n\r\n  \nThe Baeldung article on the fundamentals of dependency injection in Spring has also been updated",
-          "link": "https://spring.io/blog/2021/08/31/this-week-in-spring-august-31st-2021",
-          "publishedOn": "2021-09-01T02:00:00.000Z",
-          "wordCount": 681,
-          "title": "This Week in Spring - August 31st, 2021"
-        },
-        {
-          "id": "https://spring.io/blog/2021/08/26/bootiful-podcast-richard-north-and-sergei-egorov-on-testcontainers-their-new-company-atomicjar-and-more",
-          "author": null,
-          "description": "Hi, Spring fans! Welcome to another installment of This Week in Spring! In this installment, Josh Long talks to Richard North (@whichrich) and Sergei Egorov (@bsideup) about Testcontainers, their new company AtomicJar, and software licensing, among other things.",
-          "link": "https://spring.io/blog/2021/08/26/bootiful-podcast-richard-north-and-sergei-egorov-on-testcontainers-their-new-company-atomicjar-and-more",
-          "publishedOn": "2021-08-26T11:00:00.000Z",
-          "wordCount": 435,
-          "title": "Bootiful Podcast - Richard North and Sergei Egorov on Testcontainers, their new company AtomicJar, and more"
         }
       ]
     },
@@ -193,12 +193,21 @@
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
         {
+          "id": "https://www.hashicorp.com/blog/how-automated-provisioning-tools-pave-the-way-to-multi-cloud-adoption",
+          "author": null,
+          "description": "The HashiCorp State of Cloud Strategy Survey reveals that infrastructure as code and provisioning tools are at the forefront of the movement to multi-cloud.",
+          "link": "https://www.hashicorp.com/blog/how-automated-provisioning-tools-pave-the-way-to-multi-cloud-adoption",
+          "publishedOn": "2021-09-23T17:00:00.000Z",
+          "wordCount": 1041,
+          "title": "How Automated Provisioning Tools Pave the Way to Multi-Cloud Adoption"
+        },
+        {
           "id": "https://www.hashicorp.com/blog/new-at-hashiconf-global-hands-on-labs-hashicorp-zone-a-contest-and-more",
           "author": null,
           "description": "HashiConf Global takes place Tuesday–Thursday, October 19-21, 2021, and we are excited to introduce several new elements to the program.",
           "link": "https://www.hashicorp.com/blog/new-at-hashiconf-global-hands-on-labs-hashicorp-zone-a-contest-and-more",
           "publishedOn": "2021-09-22T15:00:00.000Z",
-          "wordCount": 853,
+          "wordCount": 855,
           "title": "New at HashiConf Global: Hands-on Labs, HashiCorp Zone, a Contest, and More"
         },
         {
@@ -216,7 +225,7 @@
           "description": "The inaugural HashiCorp State of Cloud Strategy survey highlights the importance — and the surprising complexity — of security issues in cloud and multi-cloud adoption.",
           "link": "https://www.hashicorp.com/blog/security-in-the-cloud-it-s-complicated",
           "publishedOn": "2021-09-20T17:00:00.000Z",
-          "wordCount": 1174,
+          "wordCount": 1176,
           "title": "Security in the Cloud: It’s Complicated"
         },
         {
@@ -297,7 +306,7 @@
           "description": "According to the HashiCorp State of Cloud Strategy Survey, software companies and telcos lead in getting value from cloud and multi-cloud, while the public sector lags.",
           "link": "https://www.hashicorp.com/blog/how-different-industries-deal-with-cloud-and-multi-cloud",
           "publishedOn": "2021-09-07T19:30:00.000Z",
-          "wordCount": 1923,
+          "wordCount": 1925,
           "title": "How Different Industries Deal with Cloud and Multi-Cloud"
         },
         {
@@ -324,7 +333,7 @@
           "description": "From maturity to security, take a closer look at the networking and service mesh trends uncovered in the new HashiCorp State of Cloud Strategy Survey.",
           "link": "https://www.hashicorp.com/blog/how-organizations-are-thinking-about-multi-cloud-networking",
           "publishedOn": "2021-09-02T16:00:00.000Z",
-          "wordCount": 1403,
+          "wordCount": 1404,
           "title": "How Organizations Are Thinking About Multi-Cloud Networking"
         },
         {
@@ -360,17 +369,8 @@
           "description": "According to the HashiCorp State of Cloud Strategy Survey, infrastructure tool buyers seek support, compliance, and management features — plus a faster ROI.",
           "link": "https://www.hashicorp.com/blog/when-free-isn-t-good-enough-why-companies-buy-infrastructure-tools",
           "publishedOn": "2021-08-27T16:00:00.000Z",
-          "wordCount": 1624,
+          "wordCount": 1625,
           "title": "When Free Isn’t Good Enough — Why Companies Buy Infrastructure Tools"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/announcing-terraform-azuread-provider-2-0",
-          "author": null,
-          "description": "Terraform AzureAD provider Version 2.0 exclusively uses the Microsoft Graph API and has numerous schema and behavioral changes to align with the new API.",
-          "link": "https://www.hashicorp.com/blog/announcing-terraform-azuread-provider-2-0",
-          "publishedOn": "2021-08-26T16:00:00.000Z",
-          "wordCount": 833,
-          "title": "Announcing Terraform AzureAD Provider 2.0"
         }
       ]
     },
@@ -379,6 +379,24 @@
       "feedUrl": "https://www.elastic.co/blog/feed",
       "siteUrl": "https://www.elastic.co",
       "articles": [
+        {
+          "id": "https://www.elastic.co/blog/elastic-apm-ios-agent-technical-preview-released",
+          "author": "Bryce Buchanan",
+          "description": "We are proud to announce the preview release of the Elastic APM iOS agent! This release is intended to elicit feedback from the community, while providing some initial functionality within the Elastic Observability stack and is not intended for production use. Now is your chance to influence the direction of this new iOS agent and let us know what you think on our discussion forum. If you find an issue, or would like to contribute yourself, visit the GitHub repository. \n Elastic APM is an Application Performance Monitoring solution from Elastic and alongside the iOS agent, there are official agents available for Java, Node.js, Python, Ruby, JavaScript/RUM, .NET, PHP, and Go. Elastic APM helps you to gain insight into the performance of your application, track errors, and gauge the end-user…",
+          "link": "https://www.elastic.co/blog/elastic-apm-ios-agent-technical-preview-released",
+          "publishedOn": "2021-09-23T18:00:00.000Z",
+          "wordCount": 904,
+          "title": "Elastic APM iOS agent technical preview released"
+        },
+        {
+          "id": "https://www.elastic.co/blog/how-the-french-ministry-of-agriculture-deploys-elastic-to-monitor-the-commercial-fishing-industry",
+          "author": "Sébastien Arnaud",
+          "description": "Within the French Ministry of Agriculture and Food (the Ministry), our team of architects in the Methods, Support and Quality office (BMSQ) evaluate and supply software solutions to resolve issues encountered by project teams that affect various disciplines.\n\nAs data specialists, one area we’ve been involved in includes reconfiguring the traceability of activities for the commercial fishing industry. The aim is to improve the quality, speed and precision of how we collect and analyze large volumes of data connected to the industry — from declared fish hauls, harbor exit manifests, to GPS data tracking vessel locations.\n\nThe challenge we have is to provide up-to-date information that is verified, complete, dynamic and can be viewed in various formats depending on the target audience, and El…",
+          "link": "https://www.elastic.co/blog/how-the-french-ministry-of-agriculture-deploys-elastic-to-monitor-the-commercial-fishing-industry",
+          "publishedOn": "2021-09-23T15:00:00.000Z",
+          "wordCount": 1311,
+          "title": "How the French Ministry of Agriculture deploys Elastic to monitor the commercial fishing industry"
+        },
         {
           "id": "https://www.elastic.co/blog/whats-new-elastic-7-15-0",
           "author": "Dan Courcy",
@@ -421,7 +439,7 @@
           "description": "Elastic Security 7.15 further arms the SOC to achieve extended detection and response (XDR). \nMalicious behavior protection applies behavior analytics to prevent attack techniques often leveraged by named threats by performing dynamic, stateful correlation of on-host events, and then reacting instantly to disrupt attacks before they cause damage.\nMemory threat protection now safeguards Windows hosts, stopping attacks designed to evade most other defenses.\nTo accelerate response and prevent damage and loss, 7.15 adds host isolation for cloud-native Linux systems, making the capability now available on every OS protected by Elastic Agent. \nLet’s dive in.\nEnd threats at the endpoint\nMalicious behavior protection for Linux, Windows, and macOS\nMalicious behavior protection, new in 7.15, buttres…",
           "link": "https://www.elastic.co/blog/whats-new-elastic-security-7-15-0",
           "publishedOn": "2021-09-22T16:00:00.000Z",
-          "wordCount": 1576,
+          "wordCount": 1577,
           "title": "What’s new in Elastic Security 7.15: End threats at the endpoint…and beyond"
         },
         {
@@ -540,24 +558,6 @@
           "publishedOn": "2021-09-08T17:00:00.000Z",
           "wordCount": 2367,
           "title": "Tracing AWS Lambdas with OpenTelemetry and Elastic Observability"
-        },
-        {
-          "id": "https://www.elastic.co/blog/with-elastic-cloud-on-aws-smarter-city-solutions-ensures-seamless-customer-experience-across-the-smarter-parking-platform",
-          "author": "Zack Shachar",
-          "description": "Ensuring a seamless customer experience is a growing challenge for digital technology providers. Yet, as functionality and a customer base scale, predictability can become challenging. \n\nAt Smarter City Solutions, which provides tens of thousands of drivers in Australia and New Zealand real-time parking related services through the flagship Smarter Parking Platform, our engineering team faced this challenge when scaling from a few deployments to dozens. Whether it was a scaling issue in infrastructure, a configuration gap in the server, or an update needed in an application, we realized that proactive, unified visibility of the entire stack to detect potential issues was critical if we wanted to ensure a consistent customer experience as we continue to grow. \n\nTo address this challenge, we…",
-          "link": "https://www.elastic.co/blog/with-elastic-cloud-on-aws-smarter-city-solutions-ensures-seamless-customer-experience-across-the-smarter-parking-platform",
-          "publishedOn": "2021-09-07T17:00:00.000Z",
-          "wordCount": 1418,
-          "title": "With Elastic Cloud on AWS, Smarter City Solutions ensures seamless customer experience across the Smarter Parking Platform"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-on-elastic-data-collected-to-the-infosec-siem",
-          "author": "Aaron Jewitt",
-          "description": "The Elastic Infosec Detections and Analytics team is responsible for building, tuning, and maintaining the security detections used to protect all Elastic systems. Within Elastic we call ourselves Customer Zero and we strive to always use the newest versions of our products.  \n  \nIn this series of blog posts we will provide an overview of our architecture, what data we send to our clusters, how and why we use Cross Cluster Search with the Security and Machine Learning (ML) applications, and how we tune, manage and notify analysts for those alerts. \n  \nIn the previous blog post we provided an overview of our internal Elastic infrastructure that we use in Infosec and how we use Cross Cluster Search to connect multiple clusters into a single interface for Security Analysts. In this blog post …",
-          "link": "https://www.elastic.co/blog/elastic-on-elastic-data-collected-to-the-infosec-siem",
-          "publishedOn": "2021-09-07T13:00:00.000Z",
-          "wordCount": 1660,
-          "title": "Elastic on Elastic Series: Data collected to the Infosec SIEM"
         }
       ]
     },
@@ -566,6 +566,15 @@
       "feedUrl": "https://www.ansible.com/blog/rss.xml",
       "siteUrl": "https://www.ansible.com/blog",
       "articles": [
+        {
+          "id": "https://www.ansible.com/blog/what-you-can-expect-ansiblefest-2021-for-it-leaders",
+          "author": "Michele Null",
+          "description": "This year, we are adapting our signature automation event, AnsibleFest, into a free virtual experience. Seasoned pros and new Ansible enthusiasts alike can find answers and learn more about Red Hat Ansible Automation Platform, the platform for building and operating automation at scale and creating an enterprise automation strategy. We are excited to offer a track designed specifically for IT leaders.",
+          "link": "https://www.ansible.com/blog/what-you-can-expect-ansiblefest-2021-for-it-leaders",
+          "publishedOn": "2021-09-23T14:00:00.000Z",
+          "wordCount": 1132,
+          "title": "What you can expect: AnsibleFest 2021 for IT Leaders"
+        },
         {
           "id": "https://www.ansible.com/blog/what-you-can-expect-ansiblefest-2021-for-telco-customers",
           "author": "Cindy Russell",
@@ -633,7 +642,7 @@
           "description": "For the September patches, we are releasing fixes that impact our self-hosted product, Azure DevOps Server, as well as Team Foundation Server 2017.\nResolve the issue reported in this Developer Community feedback ticket.\nThe post September patches for Azure DevOps Server and Team Foundation Server appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/september-patches-for-azure-devops-server-and-team-foundation-server-2/",
           "publishedOn": "2021-09-14T18:35:46.000Z",
-          "wordCount": 2172,
+          "wordCount": 2237,
           "title": "September patches for Azure DevOps Server and Team Foundation Server"
         },
         {
@@ -678,7 +687,7 @@
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes Episode 53 – Intro to @PulumiCorp with @mattstratton appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-53-intro-to-pulumicorp-with-mattstratton/",
           "publishedOn": "2021-08-31T13:00:23.000Z",
-          "wordCount": 1489,
+          "wordCount": 1490,
           "title": "AzureFunBytes Episode 53 – Intro to @PulumiCorp with @mattstratton"
         },
         {
@@ -704,12 +713,39 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "701147b345634ef37f028239c154531da9dae71e",
+          "author": "Jeff Barr",
+          "description": "Making sense of business data so that you can get value out of it is worthwhile yet still challenging. Even though the term Business Intelligence (BI) has been around since the mid-1800s (according to Wikipedia) adoption of contemporary BI tools within enterprises is still fairly low. Amazon QuickSight was designed to make it easier for […]",
+          "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/y5xKtRfDeRo/",
+          "publishedOn": "2021-09-23T23:26:07.000Z",
+          "wordCount": 1375,
+          "title": "Amazon QuickSight Q – Business Intelligence Using Natural Language Questions"
+        },
+        {
+          "id": "aaa9610a6d30f30168b9fb5803d4aaed4815e991",
+          "author": "Jeff Barr",
+          "description": "Long-time readers of this blog know that I firmly believe in the power of education to improve lives. AWS Training and Certification equips people and organizations around the world with cloud computing education to build and validate cloud computing skills. With demand for cloud skills and experience at an all-time high, there’s never been a […]",
+          "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/aC43vDdnvCM/",
+          "publishedOn": "2021-09-23T16:08:19.000Z",
+          "wordCount": 788,
+          "title": "AWS Cloud Builders – Career Transformation & Personal Growth"
+        },
+        {
+          "id": "71d9597f69dcd0af2b228f6aa58d647adbeb261c",
+          "author": "Danilo Poccia",
+          "description": "Last year before re:Invent, we introduced the public preview of AWS Distro for OpenTelemetry, a secure distribution of the OpenTelemetry project supported by AWS. OpenTelemetry provides tools, APIs, and SDKs to instrument, generate, collect, and export telemetry data to better understand the behavior and the performance of your applications. Yesterday, upstream OpenTelemetry announced tracing stability […]",
+          "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/Z6UVy7uC4qo/",
+          "publishedOn": "2021-09-23T15:35:41.000Z",
+          "wordCount": 2456,
+          "title": "New for AWS Distro for OpenTelemetry – Tracing Support is Now Generally Available"
+        },
+        {
           "id": "e444816ed2574dbf8497e030161de6a7e0995fe1",
           "author": "Jeff Barr",
           "description": "We are currently working on regions in Australia, India, Indonesia, Israel, Spain , Switzerland, and the United Arab Emirates. Auckland, New Zealand in the Works Today I am happy to announce that the new AWS Asia Pacific (Auckland) Region is in the works and will open in 2024. This region will have three Availability Zones […]",
           "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/u12rqAu3KlQ/",
           "publishedOn": "2021-09-22T22:37:15.000Z",
-          "wordCount": 860,
+          "wordCount": 862,
           "title": "In the Works – AWS Region in New Zealand"
         },
         {
@@ -844,7 +880,7 @@
           "description": "Since December 2019, Amazon Virtual Private Cloud (VPC) has allowed you to route all ingress traffic (also known as north – south traffic) to a specific network interface. You might use this capability for a number of reasons. For example, to inspect incoming traffic using an intrusion detection system (IDS) appliance or to route ingress […]",
           "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/b4dMqFVtVK0/",
           "publishedOn": "2021-08-30T23:41:02.000Z",
-          "wordCount": 2136,
+          "wordCount": 2138,
           "title": "Amazon VPC Routing Enhancements Allow You to Inspect Traffic Between Subnets In a VPC"
         },
         {
@@ -855,33 +891,6 @@
           "publishedOn": "2021-08-30T19:46:51.000Z",
           "wordCount": 2461,
           "title": "New for AWS CloudFormation – Quickly Retry Stack Operations from the Point of Failure"
-        },
-        {
-          "id": "ab1095ff6e13f6a555a78d4d5bb69e424da604a3",
-          "author": "Ross Barich",
-          "description": "AWS Heroes go above and beyond to share knowledge with the community and help others build better and faster on AWS. Last month we launched the AWS Heroes Content Library, a centralized place where Builders can find inspiration and learn from AWS Hero authored educational content including blogs, videos, slide presentations, podcasts, open source projects, […]",
-          "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/xhYbw-t0kDY/",
-          "publishedOn": "2021-08-26T18:28:12.000Z",
-          "wordCount": 1380,
-          "title": "Announcing the latest AWS Heroes – August 2021"
-        },
-        {
-          "id": "8a88d0376f1e7e50dc00438841148100887bbdaf",
-          "author": "Channy Yun",
-          "description": "Introduced at AWS re:Invent 2018, Amazon Textract is a machine learning service that automatically extracts text, handwriting and data from scanned documents that goes beyond simple optical character recognition (OCR) to identify, understand, and extract data from forms and tables. In the past few months, we introduced specialized support for processing invoices and receipts and […]",
-          "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/PeEIVdVuy9w/",
-          "publishedOn": "2021-08-26T16:03:49.000Z",
-          "wordCount": 1332,
-          "title": "Amazon Textract Updates: Up to 32% Price Reduction in 8 AWS Regions and Up to 50% Reduction in Asynchronous Job Processing Times"
-        },
-        {
-          "id": "67850536ae98d21f4ff66429ee314dfdad639c1c",
-          "author": "Steve Roberts",
-          "description": "Today, I’m happy to announce the availability of AWS Backup Audit Manager, a new feature of AWS Backup that helps you monitor and evaluate the compliance status of your backups to meet business and regulatory requirements, and enables you to generate reports that help demonstrate compliance to auditors and regulators. AWS Backup is a fully […]",
-          "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/Vn65TtQiSLo/",
-          "publishedOn": "2021-08-24T13:50:02.000Z",
-          "wordCount": 1855,
-          "title": "Monitor, Evaluate, and Demonstrate Backup Compliance with AWS Backup Audit Manager"
         }
       ]
     },
@@ -890,6 +899,15 @@
       "feedUrl": "https://xkcd.com/atom.xml",
       "siteUrl": "https://xkcd.com/",
       "articles": [
+        {
+          "id": "https://xkcd.com/2519/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/sloped_border.png\" title=\"&quot;The slope will be 74° at ground level.&quot; &quot;Okay, I think we can hack together a  ... wait, why did they specify ground level? It's 74° everywhere, right? ... Oh no, there's a whole section in the treaty labeled 'curvature.'&quot;\" alt=\"&quot;The slope will be 74° at ground level.&quot; &quot;Okay, I think we can hack together a  ... wait, why did they specify ground level? It's 74° everywhere, right? ... Oh no, there's a whole section in the treaty labeled 'curvature.'&quot;\" />",
+          "link": "https://xkcd.com/2519/",
+          "publishedOn": "2021-09-22T00:00:00.000Z",
+          "wordCount": 185,
+          "title": "Sloped Border"
+        },
         {
           "id": "https://xkcd.com/2518/",
           "author": null,
@@ -916,15 +934,6 @@
           "publishedOn": "2021-09-15T00:00:00.000Z",
           "wordCount": 185,
           "title": "Hubble Tension"
-        },
-        {
-          "id": "https://xkcd.com/2515/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/vaccine_research.png\" title=\"Honestly feel a little sheepish about the amount of time and effort I spent confirming &quot;yes, the vaccine helps protect people from getting sick and dying&quot; but I guess everyone needs a hobby.\" alt=\"Honestly feel a little sheepish about the amount of time and effort I spent confirming &quot;yes, the vaccine helps protect people from getting sick and dying&quot; but I guess everyone needs a hobby.\" />",
-          "link": "https://xkcd.com/2515/",
-          "publishedOn": "2021-09-13T00:00:00.000Z",
-          "wordCount": 185,
-          "title": "Vaccine Research"
         }
       ]
     },
@@ -942,11 +951,11 @@
           "wordCount": null,
           "title": "Virtual Agents for IT and HR with Dan Turchin",
           "itunes": {
-            "duration": "45:34"
+            "duration": "52:39"
           },
           "enclosure": {
             "url": "https://traffic.megaphone.fm/SED5167093286.mp3",
-            "length": "43786811",
+            "length": "50593274",
             "type": "audio/mpeg"
           }
         },
@@ -959,11 +968,11 @@
           "wordCount": null,
           "title": "LinearB with Dan Lines",
           "itunes": {
-            "duration": "37:50"
+            "duration": "45:40"
           },
           "enclosure": {
             "url": "https://traffic.megaphone.fm/SED3503196272.mp3",
-            "length": "36362210",
+            "length": "43877532",
             "type": "audio/mpeg"
           }
         },
@@ -1272,23 +1281,6 @@
             "length": "48916054",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "https://softwareengineeringdaily.com/?p=11486",
-          "author": null,
-          "description": "In the late 1970s a printer at MIT kept jamming, resulting in regular pileups of print jobs in the printer’s queue. To solve this problem, some computer scientists wrote a software program that alerted every user in the backed up queue “The printer is jammed, please fix it.” When a man named Richard Stallmen was\nThe post Publishing Open Source Code with William Morgan appeared first on Software Engineering Daily.",
-          "link": "https://softwareengineeringdaily.com/2021/08/25/publishing-open-source-code-with-william-morgan/?utm_source=rss&utm_medium=rss&utm_campaign=publishing-open-source-code-with-william-morgan",
-          "publishedOn": "2021-08-25T09:00:03.000Z",
-          "wordCount": null,
-          "title": "Publishing Open Source Code with William Morgan",
-          "itunes": {
-            "duration": "1:00:33"
-          },
-          "enclosure": {
-            "url": "https://traffic.megaphone.fm/SED2155281547.mp3",
-            "length": "58163405",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -1303,7 +1295,7 @@
           "description": "Register now to avoid experiencing the fear of missing out on CamundaCon 2021, the leading process automation conference created with YOU in mind. \nThe post 3 Reasons Why You Can’t Miss CamundaCon 2021 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/3-reasons-why-you-cant-miss-camundacon-2021/",
           "publishedOn": "2021-09-21T12:00:00.000Z",
-          "wordCount": 1498,
+          "wordCount": 1467,
           "title": "3 Reasons Why You Can’t Miss CamundaCon 2021"
         },
         {
@@ -1312,7 +1304,7 @@
           "description": "We're pleased to announce the last alpha release of Camunda Platform Runtime 7.16. You can download Camunda for free or run it with Docker.\nThe post Camunda Platform Runtime 7.16.0-alpha5 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/camunda-platform-runtime-7160-alpha5-released/",
           "publishedOn": "2021-09-20T06:00:00.000Z",
-          "wordCount": 2311,
+          "wordCount": 2280,
           "title": "Camunda Platform Runtime 7.16.0-alpha5 Released"
         },
         {
@@ -1321,7 +1313,7 @@
           "description": "Prepare for two days centered around helping you achieve your business goals with our software and showcasing your brilliant projects with it. \nThe post CamundaCon 2021: Know Before You Go appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/camundacon-2021-know-before-you-go/",
           "publishedOn": "2021-09-17T13:30:00.000Z",
-          "wordCount": 1599,
+          "wordCount": 1567,
           "title": "CamundaCon 2021: Know Before You Go"
         },
         {
@@ -1330,7 +1322,7 @@
           "description": "The Hype Cycle for Enterprise Architecture, 2021 reports that DigitalOps will provide a transformational benefit to organizations within the next five to 10 years. \nThe post Gartner Reports Rise of DigitalOps appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/gartner-reports-the-rise-of-digitalops/",
           "publishedOn": "2021-09-15T13:00:00.000Z",
-          "wordCount": 1800,
+          "wordCount": 1769,
           "title": "Gartner Reports Rise of DigitalOps"
         },
         {
@@ -1339,7 +1331,7 @@
           "description": "We’re excited to announce the release of Camunda Optimize 3.6.0-alpha2. Learn about the new capabilities introduced in Optimize 3.6.0-alpha2.\nThe post Camunda Optimize 3.6.0-alpha2 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/camunda-optimize-360-alpha2-released/",
           "publishedOn": "2021-09-14T13:17:00.000Z",
-          "wordCount": 1945,
+          "wordCount": 1914,
           "title": "Camunda Optimize 3.6.0-alpha2 Released"
         },
         {
@@ -1348,7 +1340,7 @@
           "description": "We’re excited to announce the release of Camunda Cloud 1.2.0-alpha2. Camunda Cloud 1.2.0-alpha2 is the second alpha release for our next stable minor release in October. \nThe post Camunda Cloud 1.2.0-alpha2 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/camunda-cloud-120-alpha2-released/",
           "publishedOn": "2021-09-14T06:05:00.000Z",
-          "wordCount": 1659,
+          "wordCount": 1628,
           "title": "Camunda Cloud 1.2.0-alpha2 Released"
         },
         {
@@ -1357,7 +1349,7 @@
           "description": "We're happy to announce the Camunda Modeler 4.10 release. This release adds new components for forms, a validation of forms to ensure they can be successfully executed on your target execution platform, an entirely overhauled properties panel for Camunda Cloud BPMN diagrams, and various smaller improvements and bug fixes.\nThe post Camunda Modeler 4.10 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/camunda-modeler-4-10-released/",
           "publishedOn": "2021-09-14T06:00:00.000Z",
-          "wordCount": 1798,
+          "wordCount": 1767,
           "title": "Camunda Modeler 4.10 Released"
         },
         {
@@ -1366,7 +1358,7 @@
           "description": "Now live! Listen as Gabor explains why the BPMN-driven testing extension was created as an answer to some developer woes.\nThe post Podcast: ​​Introducing the BPMN-Driven Testing Extension appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/podcast-introducing-the-bpmn-driven-testing-extension/",
           "publishedOn": "2021-09-10T15:20:12.000Z",
-          "wordCount": 1325,
+          "wordCount": 1294,
           "title": "Podcast: ​​Introducing the BPMN-Driven Testing Extension"
         },
         {
@@ -1375,7 +1367,7 @@
           "description": "Learn why Camunda CEO Jakob Freund thinks process automation can help organizations with legacy technology compete with startups.\nThe post Automation: A Recipe for Disruption appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/automation-a-recipe-for-disruption/",
           "publishedOn": "2021-09-09T14:13:20.000Z",
-          "wordCount": 1280,
+          "wordCount": 1249,
           "title": "Automation: A Recipe for Disruption"
         },
         {
@@ -1384,7 +1376,7 @@
           "description": "In this episode, follow Rin Oliver as he explains what he does at Camunda to enable developers to do what they do better and faster.\nThe post Podcast: Meet the Camundos – Rin Oliver appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/podcast-meet-the-camundos-rin-oliver/",
           "publishedOn": "2021-09-03T18:54:38.000Z",
-          "wordCount": 1323,
+          "wordCount": 1292,
           "title": "Podcast: Meet the Camundos – Rin Oliver"
         }
       ]

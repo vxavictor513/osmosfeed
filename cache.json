@@ -6,6 +6,15 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/09/27/spring-initializr-0-11-0-available-now",
+          "author": null,
+          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Initializr 0.11.0 has been released and is now available from Maven Central.\n\r\nThis release includes 15 fixes, improvements and dependency upgrades.\nThanks to all those who have contributed with issue reports and pull requests.\n\r\nFor full upgrade instructions and new and noteworthy features please see the release notes.\n\r\nGitHub | Issues | Documentation | Stack Overflow | Gitter",
+          "link": "https://spring.io/blog/2021/09/27/spring-initializr-0-11-0-available-now",
+          "publishedOn": "2021-09-27T16:38:08.000Z",
+          "wordCount": 448,
+          "title": "Spring Initializr 0.11.0 available now"
+        },
+        {
           "id": "https://spring.io/blog/2021/09/23/a-bootiful-podcast-spring-web-legend-rossen-stoyanchev-on-rsocket-graphql-and-more",
           "author": null,
           "description": "Hi, Spring fans! In this episode, Josh Long (@starbuxman) talks to Rossen Stoyanchev (@rstoya05) about Spring, RSocket, GraphQL, and so much more.",
@@ -175,15 +184,6 @@
           "publishedOn": "2021-09-07T10:00:00.000Z",
           "wordCount": 668,
           "title": "This Week in Spring - September 7th, 2021"
-        },
-        {
-          "id": "https://spring.io/blog/2021/09/02/a-bootiful-podcast-springone-2021-and-jackson-and-woodstox-creator-tatu-saloranta",
-          "author": null,
-          "description": "Hi, Spring fans! In this installment, Josh Long (@starbuxman ) breathlessly recaps some of the exciting news from the just-finished SpringOne 2021 event and then talks to Jackson and Woodstox creator Tatu Saloranta (@cowtowncoder)",
-          "link": "https://spring.io/blog/2021/09/02/a-bootiful-podcast-springone-2021-and-jackson-and-woodstox-creator-tatu-saloranta",
-          "publishedOn": "2021-09-02T23:00:00.000Z",
-          "wordCount": 423,
-          "title": "A Bootiful Podcast: SpringOne 2021 and Jackson and Woodstox creator Tatu Saloranta"
         }
       ]
     },
@@ -371,6 +371,15 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
+          "id": "https://www.elastic.co/blog/ingest-data-directly-from-google-pub-sub-into-elastic-using-google-dataflow",
+          "author": "Michael Yang,Suyog Rao,Adam Quan",
+          "description": "Today we’re excited to announce the latest development in our ongoing partnership with Google Cloud. Now developers, site reliability engineers (SREs), and security analysts can ingest data from Google Pub/Sub to the Elastic Stack with just a few clicks in the Google Cloud Console. By leveraging Google Dataflow templates, Elastic makes it easy to stream events and logs from Google Cloud services like Google Cloud Audit, VPC Flow, or firewall into the Elastic Stack. This allows customers to simplify their data pipeline architecture, eliminate operational overhead, and reduce the time required for troubleshooting.\n\nMany developers, SREs, and security analysts who use Google Cloud to develop applications and set up their infrastructure also use the Elastic Stack to troubleshoot, monitor, and …",
+          "link": "https://www.elastic.co/blog/ingest-data-directly-from-google-pub-sub-into-elastic-using-google-dataflow",
+          "publishedOn": "2021-09-27T17:00:00.000Z",
+          "wordCount": 1153,
+          "title": "Ingest data directly from Google Pub/Sub into Elastic using Google Dataflow"
+        },
+        {
           "id": "https://www.elastic.co/blog/elastic-apm-ios-agent-technical-preview-released",
           "author": "Bryce Buchanan",
           "description": "We are proud to announce the preview release of the Elastic APM iOS agent! This release is intended to elicit feedback from the community, while providing some initial functionality within the Elastic Observability stack and is not intended for production use. Now is your chance to influence the direction of this new iOS agent and let us know what you think on our discussion forum. If you find an issue, or would like to contribute yourself, visit the GitHub repository. \n Elastic APM is an Application Performance Monitoring solution from Elastic and alongside the iOS agent, there are official agents available for Java, Node.js, Python, Ruby, JavaScript/RUM, .NET, PHP, and Go. Elastic APM helps you to gain insight into the performance of your application, track errors, and gauge the end-user…",
@@ -412,7 +421,7 @@
           "description": "Elastic Cloud customers can now ingest data more simply, quickly, and securely, and the latest updates to the core Elastic Stack provide users with new tools for maximizing performance and exploring their data.\n\nThe 7.15 release of Elastic Cloud brings new integrations with Google Cloud that allow customers to ingest Google Cloud services data directly into their Elastic Cloud deployments and take advantage of additional network security with Google Cloud Private Service Connect. Plus, the Elastic Stack brings enhancements to Elasticsearch and Kibana including improved data transfer, better resiliency, and more flexible data ingest and analysis. \n\nReady to roll up your sleeves and get started? We have the links you need:\n\nTry out the new features on Elastic Cloud \nDownload the latest versi…",
           "link": "https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-7-15-0",
           "publishedOn": "2021-09-22T16:02:00.000Z",
-          "wordCount": 1856,
+          "wordCount": 1867,
           "title": "What’s new in Elasticsearch, Kibana, and Elastic Cloud for 7.15"
         },
         {
@@ -540,15 +549,6 @@
           "publishedOn": "2021-09-09T13:00:00.000Z",
           "wordCount": 692,
           "title": "Secure your deployments on Elastic Cloud with Google Cloud Private Service Connect"
-        },
-        {
-          "id": "https://www.elastic.co/blog/tracing-aws-lambdas-with-opentelemetry-and-elastic-observability",
-          "author": "Michael Hyatt",
-          "description": "Why OpenTelemetry?\nOpen Telemetry represents an effort to combine distributed tracing, metrics and logging into a single set of system components and language-specific libraries. Recently, OpenTelemetry became a CNCF incubating project, but it already enjoys quite a significant community and vendor support. OpenTelemetry defines itself as “an observability framework for cloud-native software”, although it should be able to cover more than what we know as “cloud-native software”. Quoting its mission statement, “OpenTelemetry is a collection of tools, APIs, and SDKs” that are used “to instrument, generate, collect, and export telemetry data (metrics, logs, and traces) for analysis to understand the software's performance and behaviour”.\n\nWe at Elastic find the mission statement of OpenTeleme…",
-          "link": "https://www.elastic.co/blog/tracing-aws-lambdas-with-opentelemetry-and-elastic-observability",
-          "publishedOn": "2021-09-08T17:00:00.000Z",
-          "wordCount": 2367,
-          "title": "Tracing AWS Lambdas with OpenTelemetry and Elastic Observability"
         }
       ]
     },
@@ -651,7 +651,7 @@
           "description": "The top stories from the #AzureDevOps #community for 2021.09.10 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2021.09.10 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-09-10/",
           "publishedOn": "2021-09-10T10:00:25.000Z",
-          "wordCount": 1127,
+          "wordCount": 1157,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.09.10"
         },
         {
@@ -694,6 +694,24 @@
       "feedUrl": "http://feeds.feedburner.com/AmazonWebServicesBlog",
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
+        {
+          "id": "6ba6437e1f536de9e1efe66deb59b74940f5bd37",
+          "author": "Danilo Poccia",
+          "description": "Less than 70 years separate us from one of the greatest discoveries of all time: the double helix structure of DNA. We now know that DNA is a sort of a twisted ladder composed of four types of compounds, called bases. These four bases are usually identified by an uppercase letter: adenine (A), guanine (G), […]",
+          "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/wE9aGkClpdg/",
+          "publishedOn": "2021-09-27T17:51:43.000Z",
+          "wordCount": 2901,
+          "title": "New – Amazon Genomics CLI Is Now Open Source and Generally Available"
+        },
+        {
+          "id": "2ffd0d8fddb47ee86afdbcfa8ab33909870bf899",
+          "author": "Sébastien Stormacq",
+          "description": "During the AWS re:Invent conference last year, I wrote about new capabilities added to Amazon Connect. Today, I am happy to announce the general availability of two of these capabilities, Voice ID and Wisdom, and the launch of a new one. High-volume outbound communications allows, as the name implies, the initiation and management of outbound […]",
+          "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/J94TeS2u8O4/",
+          "publishedOn": "2021-09-27T12:17:19.000Z",
+          "wordCount": 1583,
+          "title": "New for Amazon Connect: Voice ID, Wisdom, and Outbound Communications"
+        },
         {
           "id": "701147b345634ef37f028239c154531da9dae71e",
           "author": "Jeff Barr",
@@ -855,24 +873,6 @@
           "publishedOn": "2021-09-01T01:17:06.000Z",
           "wordCount": 1860,
           "title": "Amazon Managed Grafana Is Now Generally Available with Many New Features"
-        },
-        {
-          "id": "77e52244f6e9441bcc3b1c7bc019a835f69a5973",
-          "author": "Sébastien Stormacq",
-          "description": "Since December 2019, Amazon Virtual Private Cloud (VPC) has allowed you to route all ingress traffic (also known as north – south traffic) to a specific network interface. You might use this capability for a number of reasons. For example, to inspect incoming traffic using an intrusion detection system (IDS) appliance or to route ingress […]",
-          "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/b4dMqFVtVK0/",
-          "publishedOn": "2021-08-30T23:41:02.000Z",
-          "wordCount": 2138,
-          "title": "Amazon VPC Routing Enhancements Allow You to Inspect Traffic Between Subnets In a VPC"
-        },
-        {
-          "id": "1e4059819a26a3d337726ce8dcdb1a2df847c827",
-          "author": "Danilo Poccia",
-          "description": "One of the great advantages of cloud computing is that you have access to programmable infrastructure. This allows you to manage your infrastructure as code and apply the same practices of application code development to infrastructure provisioning. AWS CloudFormation gives you an easy way to model a collection of related AWS and third-party resources, provision […]",
-          "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/_4X51erKDSU/",
-          "publishedOn": "2021-08-30T19:46:51.000Z",
-          "wordCount": 2461,
-          "title": "New for AWS CloudFormation – Quickly Retry Stack Operations from the Point of Failure"
         }
       ]
     },
@@ -925,6 +925,23 @@
       "siteUrl": "https://softwareengineeringdaily.com/archives/",
       "articles": [
         {
+          "id": "https://softwareengineeringdaily.com/?p=11833",
+          "author": null,
+          "description": "The way we write, compile, and run software has continued to evolve since computer programming began.  The cloud, serverless, no-code, and CI/CD are all contemporary ideas introduced to help software engineers spend more time on their application and less time on the chores of running it.  Darklang is a new way of building serverless backends. \nThe post Darklang Deployless Applications with Paul Biggar appeared first on Software Engineering Daily.",
+          "link": "https://softwareengineeringdaily.com/2021/09/27/darklang-deployless-applications-with-paul-biggar/?utm_source=rss&utm_medium=rss&utm_campaign=darklang-deployless-applications-with-paul-biggar",
+          "publishedOn": "2021-09-27T23:20:30.000Z",
+          "wordCount": null,
+          "title": "Darklang Deployless Applications with Paul Biggar",
+          "itunes": {
+            "duration": "39:54"
+          },
+          "enclosure": {
+            "url": "https://traffic.megaphone.fm/SED1180909156.mp3",
+            "length": "38348460",
+            "type": "audio/mpeg"
+          }
+        },
+        {
           "id": "https://softwareengineeringdaily.com/?p=11818",
           "author": null,
           "description": "Tedious, repetitive tasks are better handled by machines.  Unless these tasks truly require human intelligence, repetitive tasks are often good candidates for automation.  Implementing process automation can be challenging and technical.  Increasingly, engineers are seeking out tools and platforms to facilitate faster, more reliable automation. In this episode I talk to Yaseer Sheriff, Co-Founder and\nThe post No Code Process Automation at Axiom with Yaseer Sheriff appeared first on Software Engineering Daily.",
@@ -932,10 +949,12 @@
           "publishedOn": "2021-09-24T20:38:51.000Z",
           "wordCount": null,
           "title": "No Code Process Automation at Axiom with Yaseer Sheriff",
-          "itunes": {},
+          "itunes": {
+            "duration": "43:49"
+          },
           "enclosure": {
             "url": "https://traffic.megaphone.fm/SED8579269736.mp3",
-            "length": "5242880",
+            "length": "42108844",
             "type": "audio/mpeg"
           }
         },
@@ -1236,12 +1255,21 @@
       "siteUrl": "https://camunda.com",
       "articles": [
         {
+          "id": "https://camunda.com/?p=30847",
+          "author": "Brittany des Vignes",
+          "description": "Some users have struggled with deploying a delegate class in Runtime. We know your pain. Take these suggestions on how to overcome this moving forward. \nThe post Q&A: The One with the Failing Delegate Class appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2021/09/qa-the-one-with-the-failing-delegate-class/",
+          "publishedOn": "2021-09-27T13:00:00.000Z",
+          "wordCount": 1671,
+          "title": "Q&A: The One with the Failing Delegate Class"
+        },
+        {
           "id": "https://camunda.com/?p=30620",
           "author": "Lars Lange",
           "description": "Learn why we're adopting JFrog Artifactory to enhance our artifact storage capabilities and what that means for you as a user.\nThe post Nexus to Artifactory – An Infrastructural Digest appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/nexus-to-artifactory-an-infrastructural-digest/",
           "publishedOn": "2021-09-24T06:00:00.000Z",
-          "wordCount": 1892,
+          "wordCount": 1900,
           "title": "Nexus to Artifactory – An Infrastructural Digest"
         },
         {
@@ -1259,7 +1287,7 @@
           "description": "We're pleased to announce the last alpha release of Camunda Platform Runtime 7.16. You can download Camunda for free or run it with Docker.\nThe post Camunda Platform Runtime 7.16.0-alpha5 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/camunda-platform-runtime-7160-alpha5-released/",
           "publishedOn": "2021-09-20T06:00:00.000Z",
-          "wordCount": 2282,
+          "wordCount": 2263,
           "title": "Camunda Platform Runtime 7.16.0-alpha5 Released"
         },
         {
@@ -1277,7 +1305,7 @@
           "description": "The Hype Cycle for Enterprise Architecture, 2021 reports that DigitalOps will provide a transformational benefit to organizations within the next five to 10 years. \nThe post Gartner Reports Rise of DigitalOps appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/gartner-reports-the-rise-of-digitalops/",
           "publishedOn": "2021-09-15T13:00:00.000Z",
-          "wordCount": 1769,
+          "wordCount": 1767,
           "title": "Gartner Reports Rise of DigitalOps"
         },
         {
@@ -1295,7 +1323,7 @@
           "description": "We’re excited to announce the release of Camunda Cloud 1.2.0-alpha2. Camunda Cloud 1.2.0-alpha2 is the second alpha release for our next stable minor release in October. \nThe post Camunda Cloud 1.2.0-alpha2 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/camunda-cloud-120-alpha2-released/",
           "publishedOn": "2021-09-14T06:05:00.000Z",
-          "wordCount": 1628,
+          "wordCount": 1629,
           "title": "Camunda Cloud 1.2.0-alpha2 Released"
         },
         {
@@ -1315,15 +1343,6 @@
           "publishedOn": "2021-09-10T15:20:12.000Z",
           "wordCount": 1298,
           "title": "Podcast: ​​Introducing the BPMN-Driven Testing Extension"
-        },
-        {
-          "id": "https://camunda.com/?p=29008",
-          "author": "Jakob Freund",
-          "description": "Learn why Camunda CEO Jakob Freund thinks process automation can help organizations with legacy technology compete with startups.\nThe post Automation: A Recipe for Disruption appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2021/09/automation-a-recipe-for-disruption/",
-          "publishedOn": "2021-09-09T14:13:20.000Z",
-          "wordCount": 1244,
-          "title": "Automation: A Recipe for Disruption"
         }
       ]
     },

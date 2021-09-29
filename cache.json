@@ -6,6 +6,15 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/09/28/this-week-in-spring-september-28th-2021",
+          "author": null,
+          "description": "Hi, Spring fans! Welcome to another installment of This Week in Spring! This week I’m with my buddy Matt Raible preparing for what I’m hoping will be an awesome San Francisco JUG joint appearance on Wednesday this week! \n\r\nI’ve got to get back to that! But I did want to get through this roundup because it’s enormous! So, without further ado:\n\r\n\r\n  \nSpring Initializr 0.11.0 available now\n\r\n  \nIn last week’s A Bootiful Podcast, I talked to Spring web legend Rossen Stoyanchev on RSocket, GraphQL and more\n\r\n  \nReassessing TestNG vs. Junit\n\r\n  \nSpring Boot 2.4.11 available now\n\r\n  \nSpring Boot 2.5.5 available now\n\r\n  \nSpring Boot 2.6.0-M3 available now\n\r\n  \nSpring Data JDBC - How do I make Bidirectional Relationships?\n\r\n  \nSpring Native in Action with the Okta Spring Boot Starter\n\r\n  \nTodoMVC with Spring Boot and Thymeleaf (Part 1) - Wim Deblauwe\n\r\n  \nTodoMVC with Spring Boot and Thymeleaf (Part 2) - Wim Deblauwe\n\r\n  \nTodoMVC with Spring Boot and Thymeleaf (Part 3) - Wim Deblauwe\n\r\n  \nNeat article on InfoQ.com: VMware Overhauls Spring 6 & Spring Boot 3 for Another Decade\n\r\n  \nCheck this resource on the Spring Security Authorization Server:",
+          "link": "https://spring.io/blog/2021/09/28/this-week-in-spring-september-28th-2021",
+          "publishedOn": "2021-09-28T17:00:00.000Z",
+          "wordCount": 562,
+          "title": "This Week in Spring - September 28th, 2021"
+        },
+        {
           "id": "https://spring.io/blog/2021/09/27/spring-initializr-0-11-0-available-now",
           "author": null,
           "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Initializr 0.11.0 has been released and is now available from Maven Central.\n\r\nThis release includes 15 fixes, improvements and dependency upgrades.\nThanks to all those who have contributed with issue reports and pull requests.\n\r\nFor full upgrade instructions and new and noteworthy features please see the release notes.\n\r\nGitHub | Issues | Documentation | Stack Overflow | Gitter",
@@ -175,15 +184,6 @@
           "publishedOn": "2021-09-09T18:00:00.000Z",
           "wordCount": 1536,
           "title": "Spring Data JDBC - How to use custom ID generation"
-        },
-        {
-          "id": "https://spring.io/blog/2021/09/07/this-week-in-spring-september-7th-2021",
-          "author": null,
-          "description": "Hi, Spring fans! I am still reeling from the craziness of last week’s SpringOne event! That doesn’t mean that the world’s stood still in the interim though! Quite the contrary! There’s a ton of things to get to this week so without further ado let’s go! \n\r\n\r\n  \nIn last week’s, A Bootiful Podcast, I briefly recap some of the excitement from SpringOne 2021 and then talked Jackson and Woodstox creator Tatu Saloranta\n\r\n  \nI loved Spring Framework lead Juergen Hoeller’s post A Java 17 and Jakarta EE 9 baseline for Spring Framework 6\n\r\n  \nAnnouncing Spring Data YugabyteDB - The Distributed SQL Blog\n\r\n  \nAnnouncing VMware Tanzu Application Platform: A Better Developer Experience on any Kubernetes\n\r\n  \nCheck out the SpringOne 2021 keynotes\n\r\n  \nSpeaking of SpringOne, I loved this silly moment in one of the talks from Jetbrains’ Hadi Hariri: Spring is not Spring without @starbuxman - LOL!\n\r\n  \nJonas Hecht’s article, Goodbye Dockerfile, looking at Cloud Native Buildpacks and Spring Boot, is featured in the summer edition of iXmagazin, a German language developer journal\n\r\n  \nKuassi Mensah has announced the latest official release of the R2DBC driver for Oracle database\n\r\n  \nMaciej Walkowiak lists some good choices for people who want options for feature toggles\n\r\n  \nMonitor Spring Boot applications end-to-end using Dynatrace in Azure Spring Cloud!\n\r\n  \nPiotr Mińkowski points the community to this interesting Spring Boot integration for Testcontainers that provides auto-configurations for Spring Boot-based integration tests\n\r\n  \nSpring Boot, Spring Security, JWT, React, and Ant Design - Polling App | GitHub\n\r\n  \nSpring GraphQL 1.0.0-M2 available now\n\r\n  \nSpringOne 2021: Day 2 Recap and Breakout Session Highlights\n\r\n  \nThe State of Spring 2021\n\r\n  \nVMware Tanzu Adds Enterprise Support for Spring Boot Native Applications Compiled with BellSoft Liberica NIK\n\r\n  \nVMware’s new Tanzu platform aims to unify Kubernetes development",
-          "link": "https://spring.io/blog/2021/09/07/this-week-in-spring-september-7th-2021",
-          "publishedOn": "2021-09-07T10:00:00.000Z",
-          "wordCount": 668,
-          "title": "This Week in Spring - September 7th, 2021"
         }
       ]
     },
@@ -371,6 +371,24 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
+          "id": "https://www.elastic.co/blog/implementing-academic-papers-lessons-learned-from-elasticsearch-and-lucene",
+          "author": "Julie Tibshirani",
+          "description": "While developing Elasticsearch, we occasionally come across an important problem with no simple or established approach to solving it. It's natural to ask “hmm, is there an academic paper that addresses this?” Other times, academic work is a source of inspiration. We'll encounter a paper proposing a new algorithm or data structure and think “this would be so useful!” Here are just a few examples of how Elasticsearch and Apache Lucene incorporate academic work:\n\nHyperLogLog++ for cardinality aggregations\nC3 algorithm for adaptive replica selection\nHierarchical Navigable Small World Graphs (HNSW) for nearest vector search in Lucene\nMIC statistic to improve machine learning classification\nBlock-max WAND for faster top-hits retrieval in Lucene\n... and many more\nAcademic papers are an invaluabl…",
+          "link": "https://www.elastic.co/blog/implementing-academic-papers-lessons-learned-from-elasticsearch-and-lucene",
+          "publishedOn": "2021-09-30T01:00:00.000Z",
+          "wordCount": 1934,
+          "title": "Implementing academic papers: lessons learned from Elasticsearch and Lucene"
+        },
+        {
+          "id": "https://www.elastic.co/blog/elastic-on-elastic-configuring-the-security-app-to-use-cross-cluster-search",
+          "author": "Aaron Jewitt",
+          "description": "Elastic on Elastic - Configuring the Security app to use Cross Cluster Search\nThe Elastic Infosec Detections and Analytics team is responsible for building, tuning, and maintaining the security detections used to protect all Elastic systems. Within Elastic we call ourselves Customer Zero and we strive to always use the newest versions of our products. \n\n\nIn the previous blog posts we gave an overview of our architecture and what data we send to our clusters. In this blog post we will provide instructions on how we use Cross Cluster Search (CCS) with the Security and Machine Learning (ML) applications\n\n\nConfiguring CCS\n\nGetting the Security app to work with CCS only requires a few minor changes. The first step is to configure the Security app so that it knows to look for the CCS index patte…",
+          "link": "https://www.elastic.co/blog/elastic-on-elastic-configuring-the-security-app-to-use-cross-cluster-search",
+          "publishedOn": "2021-09-28T15:00:00.000Z",
+          "wordCount": 1308,
+          "title": "Elastic on Elastic: Configuring the Security app to use Cross Cluster Search"
+        },
+        {
           "id": "https://www.elastic.co/blog/ingest-data-directly-from-google-pub-sub-into-elastic-using-google-dataflow",
           "author": "Michael Yang,Suyog Rao,Adam Quan",
           "description": "Today we’re excited to announce the latest development in our ongoing partnership with Google Cloud. Now developers, site reliability engineers (SREs), and security analysts can ingest data from Google Pub/Sub to the Elastic Stack with just a few clicks in the Google Cloud Console. By leveraging Google Dataflow templates, Elastic makes it easy to stream events and logs from Google Cloud services like Google Cloud Audit, VPC Flow, or firewall into the Elastic Stack. This allows customers to simplify their data pipeline architecture, eliminate operational overhead, and reduce the time required for troubleshooting.\n\nMany developers, SREs, and security analysts who use Google Cloud to develop applications and set up their infrastructure also use the Elastic Stack to troubleshoot, monitor, and …",
@@ -421,8 +439,8 @@
           "description": "Elastic Cloud customers can now ingest data more simply, quickly, and securely, and the latest updates to the core Elastic Stack provide users with new tools for maximizing performance and exploring their data.\n\nThe 7.15 release of Elastic Cloud brings new integrations with Google Cloud that allow customers to ingest Google Cloud services data directly into their Elastic Cloud deployments and take advantage of additional network security with Google Cloud Private Service Connect. Plus, the Elastic Stack brings enhancements to Elasticsearch and Kibana including improved data transfer, better resiliency, and more flexible data ingest and analysis. \n\nReady to roll up your sleeves and get started? We have the links you need:\n\nTry out the new features on Elastic Cloud \nDownload the latest versi…",
           "link": "https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-7-15-0",
           "publishedOn": "2021-09-22T16:02:00.000Z",
-          "wordCount": 1867,
-          "title": "What’s new in Elasticsearch, Kibana, and Elastic Cloud for 7.15"
+          "wordCount": 1866,
+          "title": "What’s new in Elasticsearch, Kibana, and Elastic&nbsp;Cloud<br>for&nbsp;7.15"
         },
         {
           "id": "https://www.elastic.co/blog/whats-new-elastic-observability-7-15-0",
@@ -531,24 +549,6 @@
           "publishedOn": "2021-09-09T13:00:00.000Z",
           "wordCount": 990,
           "title": "De Watergroep and Devoteam build Elastic Observability pipeline to deliver water to millions"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-hashicorp-partner-to-bring-infrastructure-as-code-to-elastic-cloud",
-          "author": "Omer Kushmaro",
-          "description": "Operations and SRE teams often rely on HashiCorp Terraform to safely manage production-related infrastructure using methodologies such as infrastructure as code, which allows you to apply peer-reviewed infrastructure changes in an automated and controlled fashion.\n\nWe’re expanding our partnership with HashiCorp, a leader in multi-cloud infrastructure automation software, to offer a verified Terraform provider — bringing you the best possible infrastructure-as-code experience when you use Terraform to deploy and manage Elastic Cloud.\n\nThe HashiCorp Terraform verified provider for  Elastic Cloud works with Elasticsearch Service on Elastic Cloud, Elastic Cloud Enterprise, and Elasticsearch Service Private environments.\n\nWith the Elastic Cloud Terraform provider, you can use the same automatio…",
-          "link": "https://www.elastic.co/blog/elastic-hashicorp-partner-to-bring-infrastructure-as-code-to-elastic-cloud",
-          "publishedOn": "2021-09-09T13:00:00.000Z",
-          "wordCount": 793,
-          "title": "Elastic and HashiCorp partner to bring infrastructure-as-code to Elastic Cloud"
-        },
-        {
-          "id": "https://www.elastic.co/blog/secure-your-deployments-on-elastic-cloud-with-google-cloud-private-service-connect",
-          "author": "Fermi Fang,Shubha Anjur Tupil",
-          "description": "We are pleased to announce the general availability of the Google Cloud Private Service Connect integration with Elastic Cloud. Elastic Cloud VPC connectivity is now available to all customers across all subscription tiers and cloud providers (AWS, Microsoft Azure, and Google Cloud).\nPrivate Service Connect allows you to create private and secure connections from your clients running in your Google Cloud environments to your Elastic Cloud deployment endpoints running on Google Cloud. Private Service Connect provides service endpoints in your virtual private cloud (VPC) that provide private connectivity and policy enforcement, allowing you to easily connect to services like Elastic Cloud. All the traffic remains within the Google network, and it’s easy to set up and scale. \n \nPrerequisite: …",
-          "link": "https://www.elastic.co/blog/secure-your-deployments-on-elastic-cloud-with-google-cloud-private-service-connect",
-          "publishedOn": "2021-09-09T13:00:00.000Z",
-          "wordCount": 692,
-          "title": "Secure your deployments on Elastic Cloud with Google Cloud Private Service Connect"
         }
       ]
     },
@@ -624,7 +624,7 @@
           "description": "This week, it’s all about Bicep!\nThe post Level up your skills with Bicep! appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/level-up-your-skills-with-bicep/",
           "publishedOn": "2021-09-16T15:58:24.000Z",
-          "wordCount": 1069,
+          "wordCount": 1067,
           "title": "Level up your skills with Bicep!"
         },
         {
@@ -633,7 +633,7 @@
           "description": "For the September patches, we are releasing fixes that impact our self-hosted product, Azure DevOps Server, as well as Team Foundation Server 2017.\nResolve the issue reported in this Developer Community feedback ticket.\nThe post September patches for Azure DevOps Server and Team Foundation Server appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/september-patches-for-azure-devops-server-and-team-foundation-server-2/",
           "publishedOn": "2021-09-14T18:35:46.000Z",
-          "wordCount": 2237,
+          "wordCount": 2310,
           "title": "September patches for Azure DevOps Server and Team Foundation Server"
         },
         {
@@ -882,6 +882,15 @@
       "siteUrl": "https://xkcd.com/",
       "articles": [
         {
+          "id": "https://xkcd.com/2521/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/toothpaste.png\" title=\"&quot;9 out of 10 dentists have banned me from their offices.&quot;\" alt=\"&quot;9 out of 10 dentists have banned me from their offices.&quot;\" />",
+          "link": "https://xkcd.com/2521/",
+          "publishedOn": "2021-09-27T00:00:00.000Z",
+          "wordCount": 183,
+          "title": "Toothpaste"
+        },
+        {
           "id": "https://xkcd.com/2520/",
           "author": null,
           "description": "<img src=\"https://imgs.xkcd.com/comics/symbols.png\" title=\"&quot;röntgen&quot; and &quot;rem&quot; are 20th-century physics terms that mean &quot;no trespassing.&quot;\" alt=\"&quot;röntgen&quot; and &quot;rem&quot; are 20th-century physics terms that mean &quot;no trespassing.&quot;\" />",
@@ -907,15 +916,6 @@
           "publishedOn": "2021-09-20T00:00:00.000Z",
           "wordCount": 187,
           "title": "Lumpers and Splitters"
-        },
-        {
-          "id": "https://xkcd.com/2517/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/rover_replies.png\" title=\"I'm so glad NASA let you take your phone to Mars!\" alt=\"I'm so glad NASA let you take your phone to Mars!\" />",
-          "link": "https://xkcd.com/2517/",
-          "publishedOn": "2021-09-17T00:00:00.000Z",
-          "wordCount": 185,
-          "title": "Rover Replies"
         }
       ]
     },
@@ -924,6 +924,23 @@
       "feedUrl": "https://softwareengineeringdaily.com/feed/podcast/",
       "siteUrl": "https://softwareengineeringdaily.com/archives/",
       "articles": [
+        {
+          "id": "https://softwareengineeringdaily.com/?p=11841",
+          "author": null,
+          "description": "Applications write data to persistent storage like a database.  The most popular database query language is SQL which has many similar dialects.  SQL is expressive and powerful for describing what data you want.  What you do with that data requires a solution in the form of a data pipeline.  Ideally, these analytical workflows can follow\nThe post DBT: Data Build Tool with Tristan Handy appeared first on Software Engineering Daily.",
+          "link": "https://softwareengineeringdaily.com/2021/09/28/dbt-data-build-tool-with-tristan-handy-2/?utm_source=rss&utm_medium=rss&utm_campaign=dbt-data-build-tool-with-tristan-handy-2",
+          "publishedOn": "2021-09-28T16:26:16.000Z",
+          "wordCount": null,
+          "title": "DBT: Data Build Tool with Tristan Handy",
+          "itunes": {
+            "duration": "44:56"
+          },
+          "enclosure": {
+            "url": "https://traffic.megaphone.fm/SED6065619322.mp3",
+            "length": "43174527",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "https://softwareengineeringdaily.com/?p=11833",
           "author": null,
@@ -1229,23 +1246,6 @@
             "length": "39338701",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "https://softwareengineeringdaily.com/?p=11513",
-          "author": null,
-          "description": "Kubernetes is an open source container orchestration service released by Google in 2014. It has quickly grown into a platform with a huge community of enthusiasts and professionals. Besides becoming the de facto standard for container orchestration, it has fostered an ecosystem of related tools and services with increasing power and sophistication (opensource.com). Argo, a\nThe post Argo: Kubernetes-Native Tools with Alex Collins appeared first on Software Engineering Daily.",
-          "link": "https://softwareengineeringdaily.com/2021/08/30/argo-kubernetes-native-tools-with-alex-collins/?utm_source=rss&utm_medium=rss&utm_campaign=argo-kubernetes-native-tools-with-alex-collins",
-          "publishedOn": "2021-08-30T09:00:33.000Z",
-          "wordCount": null,
-          "title": "Argo: Kubernetes-Native Tools with Alex Collins",
-          "itunes": {
-            "duration": "52:38"
-          },
-          "enclosure": {
-            "url": "https://traffic.megaphone.fm/SED8103700860.mp3",
-            "length": "50565579",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -1287,7 +1287,7 @@
           "description": "We're pleased to announce the last alpha release of Camunda Platform Runtime 7.16. You can download Camunda for free or run it with Docker.\nThe post Camunda Platform Runtime 7.16.0-alpha5 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/camunda-platform-runtime-7160-alpha5-released/",
           "publishedOn": "2021-09-20T06:00:00.000Z",
-          "wordCount": 2263,
+          "wordCount": 2262,
           "title": "Camunda Platform Runtime 7.16.0-alpha5 Released"
         },
         {

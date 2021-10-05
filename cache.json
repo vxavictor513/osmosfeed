@@ -6,6 +6,15 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/10/04/spring-cloud-2021-0-0-m2-codename-jubilee-is-available",
+          "author": null,
+          "description": "On behalf of the community, I am pleased to announce that the Milestone 2 (M2) of the Spring Cloud 2021.0 Release Train (codename Jubilee) is available today. The release can be found in Spring Milestone repository. You can check out the 2021.0.0-M2 release notes for more information.\nNotable Changes in the 2021.0.0-M2 Release Train\n\r\nMilestone 2 is compatible with Spring Boot 2.6.0-M3.\n\r\nSee the project page for all the issues and pull requests included in this release.\nSpring Cloud Commons\n\r\nAdjusts NamedContextFactory API for Sleuth.\nSpring Cloud Config\n\r\nAllow types in JDBC Environment repository besides String issue 1952\nSpring Cloud Contract\n\r\nUUID v4 and case insnsitivity issue 1688. Allow custom build.gradle when using standalone docker image issue 1672.\nSpring Cloud Gateway\n\r\nSupp…",
+          "link": "https://spring.io/blog/2021/10/04/spring-cloud-2021-0-0-m2-codename-jubilee-is-available",
+          "publishedOn": "2021-10-04T16:59:33.000Z",
+          "wordCount": 692,
+          "title": "Spring Cloud 2021.0.0-M2 (codename Jubilee) is Available."
+        },
+        {
           "id": "https://spring.io/blog/2021/09/30/a-bootiful-podcast-spring-data-engineer-christoph-strobl-on-mongodb-redis-graphql-and-spring-native",
           "author": null,
           "description": "Hi, Spring fans! In this installment Josh Long (@starbuxman) talks to Spring Data engineer Christoph Strobl (@stroblchristoph) about GraphQL, MongoDB, and Spring Native, among other things.",
@@ -175,15 +184,6 @@
           "publishedOn": "2021-09-14T10:00:00.000Z",
           "wordCount": 973,
           "title": "This Week in Spring - September 14th, 2021"
-        },
-        {
-          "id": "https://spring.io/blog/2021/09/14/efficient-parsing-of-reactive-buffer-streams",
-          "author": null,
-          "description": "It has been a while since Spring Framework 5.3 was released.\r\nOne of the features in that release was a major overhaul of our Reactive Multipart support.\r\nIn this blog post, we share some of the knowledge learned while working on this feature.\r\nSpecifically, we focus on finding a token within a stream of byte buffers.\n\r\n\r\n\r\nMultipart Form Data\n\r\n\r\n\r\nWhenever you upload a file, your browser sends it — and other fields in the form — to the server as a multipart/form-data message.\r\nThe exact format of these messages is described in RFC 7578.\r\nIf you submit a simple form with a single text field called foo and a file selector called file, the multipart/form-data message looks something like this:\n\r\n\r\n\r\n\r\nPOST / HTTP/1.1\r\nHost: example.com\r\nContent-Type: multipart/form-data;boundary=\"boundary\" …",
-          "link": "https://spring.io/blog/2021/09/14/efficient-parsing-of-reactive-buffer-streams",
-          "publishedOn": "2021-09-14T09:29:00.000Z",
-          "wordCount": 1265,
-          "title": "Efficient Parsing of Reactive Buffer Streams"
         }
       ]
     },
@@ -531,6 +531,15 @@
       "siteUrl": "https://www.ansible.com/blog",
       "articles": [
         {
+          "id": "https://www.ansible.com/blog/whats-new-in-ansible-automation-platform-2-automation-execution-environments",
+          "author": "Anshul Behl",
+          "description": "Red Hat Ansible Automation Platform 2 is now available to customers. This release expands the possibilities of automation across your organization, with a more secure, flexible foundation to build and deploy automation with greater acceleration, orchestration and innovation.",
+          "link": "https://www.ansible.com/blog/whats-new-in-ansible-automation-platform-2-automation-execution-environments",
+          "publishedOn": "2021-10-04T13:00:00.000Z",
+          "wordCount": 1799,
+          "title": "What's new in Ansible Automation Platform 2: automation execution environments"
+        },
+        {
           "id": "https://www.ansible.com/blog/introducing-ansible-automation-platform-2",
           "author": "andriusb@redhat.com (Andrius Benokraitis)",
           "description": "For the last two years, the Red Hat Ansible Automation Platform product team has been hard at work developing the next major release. We are incredibly excited to introduce Red Hat Ansible Automation Platform 2, which was just announced at AnsibleFest 2021.",
@@ -597,7 +606,7 @@
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes Episode 56 – Secretless Applications with @ChristosMatskas appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-56-secretless-applications-with-christosmatskas/",
           "publishedOn": "2021-09-21T15:35:32.000Z",
-          "wordCount": 1355,
+          "wordCount": 1357,
           "title": "AzureFunBytes Episode 56 – Secretless Applications with @ChristosMatskas"
         },
         {
@@ -642,7 +651,7 @@
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes Episode 55 – Programming for Accessibility with @rorypreddy appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-55-programming-for-accessibility-with-rorypreddy/",
           "publishedOn": "2021-09-14T10:00:13.000Z",
-          "wordCount": 1405,
+          "wordCount": 1407,
           "title": "AzureFunBytes Episode 55 – Programming for Accessibility with @rorypreddy"
         },
         {
@@ -709,7 +718,7 @@
           "description": "At AWS re:Invent 2020, we introduced the preview of Amazon Managed Service for Prometheus, an open source Prometheus-compatible monitoring service that makes it easy to monitor containerized applications at scale. With Amazon Managed Service for Prometheus, you can use the Prometheus query language (PromQL) to monitor the performance of containerized workloads without having to manage […]",
           "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/pTITSdH8m6E/",
           "publishedOn": "2021-09-29T20:57:17.000Z",
-          "wordCount": 1743,
+          "wordCount": 1755,
           "title": "Amazon Managed Service for Prometheus Is Now Generally Available with Alert Manager and Ruler"
         },
         {
@@ -914,11 +923,11 @@
           "wordCount": null,
           "title": "Cybersecurity Threats with Jason Pufahl and Russell Jancewicz",
           "itunes": {
-            "duration": "43:08"
+            "duration": "50:56"
           },
           "enclosure": {
             "url": "https://traffic.megaphone.fm/SED5100416268.mp3",
-            "length": "41455956",
+            "length": "48933242",
             "type": "audio/mpeg"
           }
         },
@@ -1224,16 +1233,16 @@
           "description": "mateo Camunda Bridge is our new out-of-the-box RPA Connector for Camunda. Learn how it addresses the RPA robot, mateo, directly from Camunda.\nThe post Introducing mateo Camunda Bridge appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/introducing-mateo-camunda-bridge/",
           "publishedOn": "2021-09-29T13:30:00.000Z",
-          "wordCount": 1947,
+          "wordCount": 1946,
           "title": "Introducing mateo Camunda Bridge"
         },
         {
           "id": "https://camunda.com/?p=30847",
-          "author": "Brittany des Vignes",
+          "author": "David Simmons",
           "description": "Some users have struggled with deploying a delegate class in Runtime. We know your pain. Take these suggestions on how to overcome this moving forward. \nThe post Q&A: The One with the Failing Delegate Class appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/qa-the-one-with-the-failing-delegate-class/",
           "publishedOn": "2021-09-27T13:00:00.000Z",
-          "wordCount": 1667,
+          "wordCount": 1666,
           "title": "Q&A: The One with the Failing Delegate Class"
         },
         {
@@ -1242,7 +1251,7 @@
           "description": "Learn why we're adopting JFrog Artifactory to enhance our artifact storage capabilities and what that means for you as a user.\nThe post Nexus to Artifactory – An Infrastructural Digest appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/nexus-to-artifactory-an-infrastructural-digest/",
           "publishedOn": "2021-09-24T06:00:00.000Z",
-          "wordCount": 1894,
+          "wordCount": 1893,
           "title": "Nexus to Artifactory – An Infrastructural Digest"
         },
         {
@@ -1251,12 +1260,12 @@
           "description": "Register now to avoid experiencing the fear of missing out on CamundaCon 2021, the leading process automation conference created with YOU in mind. \nThe post 3 Reasons Why You Can’t Miss CamundaCon 2021 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/3-reasons-why-you-cant-miss-camundacon-2021/",
           "publishedOn": "2021-09-21T12:00:00.000Z",
-          "wordCount": 1470,
+          "wordCount": 1469,
           "title": "3 Reasons Why You Can’t Miss CamundaCon 2021"
         },
         {
           "id": "https://camunda.com/?p=30135",
-          "author": "Camunda BPM Team",
+          "author": "Camunda Platform Team",
           "description": "We're pleased to announce the last alpha release of Camunda Platform Runtime 7.16. You can download Camunda for free or run it with Docker.\nThe post Camunda Platform Runtime 7.16.0-alpha5 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/camunda-platform-runtime-7160-alpha5-released/",
           "publishedOn": "2021-09-20T06:00:00.000Z",
@@ -1269,7 +1278,7 @@
           "description": "Prepare for two days centered around helping you achieve your business goals with our software and showcasing your brilliant projects with it. \nThe post CamundaCon 2021: Know Before You Go appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/camundacon-2021-know-before-you-go/",
           "publishedOn": "2021-09-17T13:30:00.000Z",
-          "wordCount": 1615,
+          "wordCount": 1614,
           "title": "CamundaCon 2021: Know Before You Go"
         },
         {
@@ -1278,7 +1287,7 @@
           "description": "The Hype Cycle for Enterprise Architecture, 2021 reports that DigitalOps will provide a transformational benefit to organizations within the next five to 10 years. \nThe post Gartner Reports Rise of DigitalOps appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/gartner-reports-the-rise-of-digitalops/",
           "publishedOn": "2021-09-15T13:00:00.000Z",
-          "wordCount": 1769,
+          "wordCount": 1768,
           "title": "Gartner Reports Rise of DigitalOps"
         },
         {
@@ -1287,7 +1296,7 @@
           "description": "We’re excited to announce the release of Camunda Optimize 3.6.0-alpha2. Learn about the new capabilities introduced in Optimize 3.6.0-alpha2.\nThe post Camunda Optimize 3.6.0-alpha2 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/camunda-optimize-360-alpha2-released/",
           "publishedOn": "2021-09-14T13:17:00.000Z",
-          "wordCount": 1916,
+          "wordCount": 1915,
           "title": "Camunda Optimize 3.6.0-alpha2 Released"
         },
         {
@@ -1296,7 +1305,7 @@
           "description": "We’re excited to announce the release of Camunda Cloud 1.2.0-alpha2. Camunda Cloud 1.2.0-alpha2 is the second alpha release for our next stable minor release in October. \nThe post Camunda Cloud 1.2.0-alpha2 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/camunda-cloud-120-alpha2-released/",
           "publishedOn": "2021-09-14T06:05:00.000Z",
-          "wordCount": 1631,
+          "wordCount": 1630,
           "title": "Camunda Cloud 1.2.0-alpha2 Released"
         },
         {
@@ -1305,7 +1314,7 @@
           "description": "We're happy to announce the Camunda Modeler 4.10 release. This release adds new components for forms, a validation of forms to ensure they can be successfully executed on your target execution platform, an entirely overhauled properties panel for Camunda Cloud BPMN diagrams, and various smaller improvements and bug fixes.\nThe post Camunda Modeler 4.10 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/camunda-modeler-4-10-released/",
           "publishedOn": "2021-09-14T06:00:00.000Z",
-          "wordCount": 1769,
+          "wordCount": 1768,
           "title": "Camunda Modeler 4.10 Released"
         }
       ]

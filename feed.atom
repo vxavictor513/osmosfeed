@@ -1,10 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-10-04T00:26:04.605Z</id>
+    <id>urn:2021-10-05T00:25:18.196Z</id>
     <title>osmos::feed</title>
-    <updated>2021-10-04T00:26:04.605Z</updated>
+    <updated>2021-10-05T00:25:18.196Z</updated>
     <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Spring Cloud 2021.0.0-M2 (codename Jubilee) is Available.]]></title>
+        <id>https://spring.io/blog/2021/10/04/spring-cloud-2021-0-0-m2-codename-jubilee-is-available</id>
+        <link href="https://spring.io/blog/2021/10/04/spring-cloud-2021-0-0-m2-codename-jubilee-is-available"/>
+        <updated>2021-10-04T16:59:33.000Z</updated>
+        <summary type="html"><![CDATA[On behalf of the community, I am pleased to announce that the Milestone 2 (M2) of the Spring Cloud 2021.0 Release Train (codename Jubilee) is available today. The release can be found in Spring Milestone repository. You can check out the 2021.0.0-M2 release notes for more information.
+Notable Changes in the 2021.0.0-M2 Release Train
+
+Milestone 2 is compatible with Spring Boot 2.6.0-M3.
+
+See the project page for all the issues and pull requests included in this release.
+Spring Cloud Commons
+
+Adjusts NamedContextFactory API for Sleuth.
+Spring Cloud Config
+
+Allow types in JDBC Environment repository besides String issue 1952
+Spring Cloud Contract
+
+UUID v4 and case insnsitivity issue 1688. Allow custom build.gradle when using standalone docker image issue 1672.
+Spring Cloud Gateway
+
+Supp…]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What's new in Ansible Automation Platform 2: automation execution environments]]></title>
+        <id>https://www.ansible.com/blog/whats-new-in-ansible-automation-platform-2-automation-execution-environments</id>
+        <link href="https://www.ansible.com/blog/whats-new-in-ansible-automation-platform-2-automation-execution-environments"/>
+        <updated>2021-10-04T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Red Hat Ansible Automation Platform 2 is now available to customers. This release expands the possibilities of automation across your organization, with a more secure, flexible foundation to build and deploy automation with greater acceleration, orchestration and innovation.]]></summary>
+        <author>
+            <name>Anshul Behl</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Software Daily Prospectus]]></title>
         <id>https://softwareengineeringdaily.com/?p=11926</id>
@@ -356,7 +393,7 @@ GitHub | Issues | Documentation | Stack Overflow | Gitter]]></summary>
         <summary type="html"><![CDATA[Some users have struggled with deploying a delegate class in Runtime. We know your pain. Take these suggestions on how to overcome this moving forward. 
 The post Q&A: The One with the Failing Delegate Class appeared first on Camunda.]]></summary>
         <author>
-            <name>Brittany des Vignes</name>
+            <name>David Simmons</name>
         </author>
     </entry>
     <entry>
@@ -1020,7 +1057,7 @@ The post Autonomous Driving Infrastructure with Vinoj Kumar appeared first on So
         <summary type="html"><![CDATA[We're pleased to announce the last alpha release of Camunda Platform Runtime 7.16. You can download Camunda for free or run it with Docker.
 The post Camunda Platform Runtime 7.16.0-alpha5 Released appeared first on Camunda.]]></summary>
         <author>
-            <name>Camunda BPM Team</name>
+            <name>Camunda Platform Team</name>
         </author>
     </entry>
     <entry>
@@ -1485,36 +1522,6 @@ The post AzureFunBytes Episode 55 – Programming for Accessibility with @rorypr
 Anyway, how are you doin’? I’m doing alright! It’s been kinda a crazy week. I was in the studio all day and some of the night yesterday filming a new Livelessons video that I can’t wait for y’all to see. (But be forewarned: there will be .YAML!) 
 
 Then, at 3am my time, I did a presentation for the Japanese Java User Group. This would be one thing in of itself, but what made this special for me was that I was supposed to appear at the JJUG six weeks ago. Yes, that six weeks ago. The same six weeks ago when I was convalescing with COVID-19, six weeks ago. Needless to say (bu…]]></summary>
-        <author>
-            <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Efficient Parsing of Reactive Buffer Streams]]></title>
-        <id>https://spring.io/blog/2021/09/14/efficient-parsing-of-reactive-buffer-streams</id>
-        <link href="https://spring.io/blog/2021/09/14/efficient-parsing-of-reactive-buffer-streams"/>
-        <updated>2021-09-14T09:29:00.000Z</updated>
-        <summary type="html"><![CDATA[It has been a while since Spring Framework 5.3 was released.
-One of the features in that release was a major overhaul of our Reactive Multipart support.
-In this blog post, we share some of the knowledge learned while working on this feature.
-Specifically, we focus on finding a token within a stream of byte buffers.
-
-
-
-Multipart Form Data
-
-
-
-Whenever you upload a file, your browser sends it — and other fields in the form — to the server as a multipart/form-data message.
-The exact format of these messages is described in RFC 7578.
-If you submit a simple form with a single text field called foo and a file selector called file, the multipart/form-data message looks something like this:
-
-
-
-
-POST / HTTP/1.1
-Host: example.com
-Content-Type: multipart/form-data;boundary="boundary" …]]></summary>
         <author>
             <name>Spring</name>
         </author>

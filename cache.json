@@ -6,6 +6,33 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/10/18/spring-data-2021-1-enters-rc-phase",
+          "author": null,
+          "description": "Dear Spring community,\n\r\nOn behalf of the Spring Data team and everyone who contributed, it is my pleasure to announce that Spring Data 2021.1.0 has entered its release candidate phase by releasing RC1 today. It is available from the milestone repository. This release ships with several tickets fixed. The most notable changes are:\n\r\n\r\n  \nDeprecate support for RxJava 2 in preparation for removal of RxJava 2 support with Spring Data 3.0.\n\r\n  \nFluent Query API for Querydsl and Query-by-Example, allowing for projections, pagination, and consuming results as a Stream.\n\r\n  \nSpring Data JDBC ships with a refined SQL DSL, accepting complex JOIN conditions and subselects.\n\r\n  \nSupport for exists and not empty keywords in Elasticsearch repository query methods and support for field exclusion in sour…",
+          "link": "https://spring.io/blog/2021/10/18/spring-data-2021-1-enters-rc-phase",
+          "publishedOn": "2021-10-18T14:08:52.000Z",
+          "wordCount": 832,
+          "title": "Spring Data 2021.1 enters RC phase"
+        },
+        {
+          "id": "https://spring.io/blog/2021/10/18/spring-data-jdbc-how-do-i-implement-caching",
+          "author": null,
+          "description": "This is the third article of a series about how to tackle various challenges you might encounter when using Spring Data JDBC.\r\nThe series consists of\n\r\n\r\n\r\n\r\n\r\nSpring Data JDBC - How to use custom ID generation.\n\r\n\r\n\r\nSpring Data JDBC - How do I make bidirectional relationships?\n\r\n\r\n\r\nSpring Data JDBC - How do I implement caching? (this article).\n\r\n\r\n\r\n\r\n\r\nIf you are new to Spring Data JDBC, you should start by reading its introduction and this article, which explains the relevance of aggregates in the context of Spring Data JDBC. Trust me, it is important.\n\r\n\r\n\r\nThis article is based on part of a talk I did at Spring One 2021.\n\r\n\r\n\r\nWhy Spring Data does no caching.\n\r\n\r\n\r\nOne important design decision for Spring Data JDBC was to NOT include caching.\r\nThe reason for this was as with so many…",
+          "link": "https://spring.io/blog/2021/10/18/spring-data-jdbc-how-do-i-implement-caching",
+          "publishedOn": "2021-10-18T13:00:00.000Z",
+          "wordCount": 1381,
+          "title": "Spring Data JDBC - How do I implement caching?"
+        },
+        {
+          "id": "https://spring.io/blog/2021/10/18/spring-data-2021-0-6-and-2020-0-14-released",
+          "author": null,
+          "description": "On behalf of the team, I’m pleased to announce the availability of the Spring Data 2021.0.6 and 2020.0.14 service releases.\n\r\nBoth releases are built on top of Spring Framework 5.3.11. For your convenience, you can consume Spring Data 2021.0.6 and 2020.0.14 through the upcoming Spring Boot releases 2.5.6 and 2.4.12, respectively. \n\r\nBoth service releases ship with mostly bug fixes and dependency upgrades.\n\r\nTo round things off, here are the links to the artifacts, changelogs, and documentation:\n2021.0.6\n\r\n\r\n  \nSpring Data Commons 2.5.6 - Artifacts - Javadoc - Documentation - Changelog\n\r\n  \nSpring Data JDBC 2.2.6 - Artifacts - Javadoc - Documentation - Changelog\n\r\n  \nSpring Data JPA 2.5.6 - Artifacts - Javadoc - Documentation - Changelog\n\r\n  \nSpring Data for Apache Geode 2.5.6 - Artifacts -…",
+          "link": "https://spring.io/blog/2021/10/18/spring-data-2021-0-6-and-2020-0-14-released",
+          "publishedOn": "2021-10-18T09:33:47.000Z",
+          "wordCount": 836,
+          "title": "Spring Data 2021.0.6 and 2020.0.14 released"
+        },
+        {
           "id": "https://spring.io/blog/2021/10/14/a-bootiful-podcast-net-legend-laylacodesit-on-azure-spring-cloud-steeltoe-net-and-more",
           "author": null,
           "description": "Hi, Spring fans! In this installment  Josh Long (@starbuxman) talks to teammate, .NET ecosystem legend and awesome human being Layla (@LaylaCodesIt).",
@@ -157,33 +184,6 @@
           "publishedOn": "2021-09-23T06:54:20.000Z",
           "wordCount": 480,
           "title": "Spring Boot 2.4.11 available now"
-        },
-        {
-          "id": "https://spring.io/blog/2021/09/22/spring-data-jdbc-how-do-i-make-bidirectional-relationships",
-          "author": null,
-          "description": "This is the second article of a series about how to tackle various challenges you might encounter when using Spring Data JDBC.\r\nThe series consists of\n\r\n\r\n\r\n\r\n\r\nSpring Data JDBC - How to use custom ID generation.\n\r\n\r\n\r\nSpring Data JDBC - How do I make bidirectional relationships? (this article).\n\r\n\r\n\r\n\r\n\r\nIf you are new to Spring Data JDBC, you should start by reading its introduction and this article, which explains the relevance of aggregates in the context of Spring Data JDBC. Trust me, it is important.\n\r\n\r\n\r\nThis article is based on part of a talk I did at Spring One 2021.\n\r\n\r\n\r\nSpring Data JDBC doesn’t have special support for bidirectional relationships.\r\nTo understand why you don’t really need any we have to look at to different kinds of relationships:\r\nWe distinguish references wit…",
-          "link": "https://spring.io/blog/2021/09/22/spring-data-jdbc-how-do-i-make-bidirectional-relationships",
-          "publishedOn": "2021-09-22T13:00:00.000Z",
-          "wordCount": 1151,
-          "title": "Spring Data JDBC - How do I make Bidirectional Relationships?"
-        },
-        {
-          "id": "https://spring.io/blog/2021/09/21/this-week-in-spring-september-21st-2021",
-          "author": null,
-          "description": "Hi, Spring fans! Welcome to another installment of This Week in Spring! As usual, it’s been another crazy awesome, and jam-packed week in Spring, so we’ve got a ton of stuff to get to and so very little time in which to do it. Andiamo! \n\r\n\r\n  \nA Bootiful Podcast: Dr. Mark Pollack on Physics, Spring Cloud Data Flow, Spring Data, Spring.NET, Spring XD, and so much more\n\r\n  \nChanging Spring Boot packaging to WAR and deploying to Tomcat and Jetty\n\r\n  \nDiscover Lenovo Innovation at VMworld: Smarter Technology for All\n\r\n  \nHow much faster is Java 17?\n\r\n  \nIn June, Okta’s Matt Raible, Brian Demers and I did a Twitch stream to figure out how to make the Okta Spring Boot starter work with Spring Native. We succeeded! However, it wasn’t easy. Watch our trials and tribulations in this video.\n\r\n  \nCheck out this massive commit kicking off the official Jakarta EE 9 migration within the Spring Framework codebase!\n\r\n  \nSpring Data 2021.0.5 and 2020.0.13 released\n\r\n  \nSpring Data 2021.1.0-M3 released\n\r\n  \nSpring Framework 5.3.10 and 5.2.17 available now\n\r\n  \nSpring Security 5.6.0-M3 released\n\r\n  \nSpring Tips: A Bootiful Look at SpringOne 2021\n\r\n  \nSpring Tools 4.12.0 released\n\r\n  \nVaadin Reaches Version 21\n\r\n  \nWhat are the implications for our applications if we reduced (or halved) the Java object header size ?\n\r\n  \nOracle recently proposed a two year cadence (instead of three) for long term releases. Microsoft’s Martijn Verburg’s onboard with the new proposal. This bodes well! ](https://mail.openjdk.java.net/pi)",
-          "link": "https://spring.io/blog/2021/09/21/this-week-in-spring-september-21st-2021",
-          "publishedOn": "2021-09-21T11:23:00.000Z",
-          "wordCount": 615,
-          "title": "This Week in Spring - September 21st, 2021"
-        },
-        {
-          "id": "https://spring.io/blog/2021/09/20/spring-security-5-6-0-m3-released",
-          "author": null,
-          "description": "On behalf of the community, I’m pleased to announce the release of Spring Security 5.6.0-M3!\n\r\n\r\n\r\nIn addition to dependency upgrades and minor enhancements, the milestone contains a few noteworthy changes:\n\r\n\r\n\r\n\r\n\r\nIntroduced SecurityContextChangedListener\n\r\n\r\n\r\nAdded SAML 2.0 Single Logout Support\n\r\n\r\n\r\nAdded RelyingPartyRegistrationResolver\n\r\n\r\n\r\nAdded support to propagate the TestSecurityContextHolder to SecurityContextHolder\n\r\n\r\n\r\n\r\n\r\nYou can find the complete details in the release notes.",
-          "link": "https://spring.io/blog/2021/09/20/spring-security-5-6-0-m3-released",
-          "publishedOn": "2021-09-21T02:01:00.000Z",
-          "wordCount": 431,
-          "title": "Spring Security 5.6.0-M3 released"
         }
       ]
     },
@@ -192,6 +192,15 @@
       "feedUrl": "https://www.hashicorp.com/blog/feed.xml",
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
+        {
+          "id": "https://www.hashicorp.com/blog/hashicorp-vault-surpasses-100-integrations-with-75-partners",
+          "author": null,
+          "description": "HashiCorp Vault now supports more than 100 integrations with 75 partners, including Cisco, Datadog, F5, MongoDB, Palo Alto Networks, Red Hat, ServiceNow, and Snowflake.",
+          "link": "https://www.hashicorp.com/blog/hashicorp-vault-surpasses-100-integrations-with-75-partners",
+          "publishedOn": "2021-10-18T14:30:00.000Z",
+          "wordCount": 1498,
+          "title": "HashiCorp Vault Surpasses 100 Integrations with 75 Partners"
+        },
         {
           "id": "https://www.hashicorp.com/blog/aws-hashicorp-collaborate-new-terraform-modules",
           "author": null,
@@ -243,7 +252,7 @@
           "description": "Read this curated list of HashiCorp learning resources to help practitioners and organizations better understand the cloud operating model.",
           "link": "https://www.hashicorp.com/blog/hashicorp-learning-resources-reference-guide",
           "publishedOn": "2021-10-11T16:00:00.000Z",
-          "wordCount": 1785,
+          "wordCount": 1793,
           "title": "HashiCorp Learning Resources Reference Guide"
         },
         {
@@ -252,7 +261,7 @@
           "description": "Learn about HashiCorp’s plans for the KubeCon North America 2021 conference and get updates on CNCF integrations with our tools.",
           "link": "https://www.hashicorp.com/blog/a-guide-to-hashicorp-at-kubecon-north-america-2021",
           "publishedOn": "2021-10-08T16:00:00.000Z",
-          "wordCount": 788,
+          "wordCount": 785,
           "title": "A Guide to HashiCorp at KubeCon North America 2021"
         },
         {
@@ -270,7 +279,7 @@
           "description": "Vault can now integrate with ServiceNow for credential management with the Vault Credential Resolver integration now available in the ServiceNow App Store.",
           "link": "https://www.hashicorp.com/blog/hashicorp-vault-integrates-with-servicenow-for-credential-management",
           "publishedOn": "2021-10-06T16:00:00.000Z",
-          "wordCount": 648,
+          "wordCount": 651,
           "title": "HashiCorp Vault Integrates with ServiceNow for Credential Management"
         },
         {
@@ -279,7 +288,7 @@
           "description": "Get a list of the 10 most interesting HashiConf Global sessions for enterprise cloud platform teams. Join us October 19 - 20, 2021.",
           "link": "https://www.hashicorp.com/blog/hashiconf-global-preview-sessions-for-cloud-platform-teams",
           "publishedOn": "2021-10-05T15:15:00.000Z",
-          "wordCount": 1586,
+          "wordCount": 1583,
           "title": "HashiConf Global Preview: Sessions for Cloud Platform Teams"
         },
         {
@@ -297,7 +306,7 @@
           "description": "From multi-cloud to COVID-19, we look at 5 key results of the HashiCorp State of Cloud Strategy survey, and how they stack up to other industry research.",
           "link": "https://www.hashicorp.com/blog/multi-cloud-in-context-comparing-cloud-survey-results",
           "publishedOn": "2021-09-29T19:00:00.000Z",
-          "wordCount": 1639,
+          "wordCount": 1636,
           "title": "Multi-Cloud in Context: Comparing Cloud Survey Results"
         },
         {
@@ -315,7 +324,7 @@
           "description": "The HashiCorp State of Cloud Strategy Survey reveals that infrastructure as code and provisioning tools are at the forefront of the movement to multi-cloud.",
           "link": "https://www.hashicorp.com/blog/how-automated-provisioning-tools-pave-the-way-to-multi-cloud-adoption",
           "publishedOn": "2021-09-23T17:00:00.000Z",
-          "wordCount": 1020,
+          "wordCount": 1018,
           "title": "How Automated Provisioning Tools Pave the Way to Multi-Cloud Adoption"
         },
         {
@@ -324,7 +333,7 @@
           "description": "HashiConf Global takes place Tuesday–Thursday, October 19-21, 2021, and we are excited to introduce several new elements to the program.",
           "link": "https://www.hashicorp.com/blog/new-at-hashiconf-global-hands-on-labs-hashicorp-zone-a-contest-and-more",
           "publishedOn": "2021-09-22T15:00:00.000Z",
-          "wordCount": 831,
+          "wordCount": 829,
           "title": "New at HashiConf Global: Hands-on Labs, HashiCorp Zone, a Contest, and More"
         },
         {
@@ -342,7 +351,7 @@
           "description": "The inaugural HashiCorp State of Cloud Strategy survey highlights the importance — and the surprising complexity — of security issues in cloud and multi-cloud adoption.",
           "link": "https://www.hashicorp.com/blog/security-in-the-cloud-it-s-complicated",
           "publishedOn": "2021-09-20T17:00:00.000Z",
-          "wordCount": 1151,
+          "wordCount": 1149,
           "title": "Security in the Cloud: It’s Complicated"
         }
       ]
@@ -418,10 +427,10 @@
         {
           "id": "https://www.elastic.co/blog/elastic-and-google-cloud-now-offer-tighter-data-integration",
           "author": "Bryan Nairn",
-          "description": "Learn about the latest developments in our ongoing partnership with Google Cloud. Solutions include application search for Firebase developers and streamlined data integration into Elastic for BigQuery, Google Cloud Storage and Pub/Sub developers.",
+          "description": "Learn about the latest developments in our ongoing partnership with Google Cloud. Solutions include application search for Firestore developers and streamlined data integration into Elastic for BigQuery, Google Cloud Storage and Pub/Sub developers.",
           "link": "https://www.elastic.co/blog/elastic-and-google-cloud-now-offer-tighter-data-integration",
           "publishedOn": "2021-10-12T15:00:00.000Z",
-          "wordCount": 585,
+          "wordCount": 582,
           "title": "Elastic and Google Cloud now offer tighter data integration"
         },
         {
@@ -837,6 +846,15 @@
       "siteUrl": "https://xkcd.com/",
       "articles": [
         {
+          "id": "https://xkcd.com/2530/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/clinical_trials.png\" title=\"We don't need to do a clinical trial of this change because the standard of care is to adopt new ideas without doing clinical trials.\" alt=\"We don't need to do a clinical trial of this change because the standard of care is to adopt new ideas without doing clinical trials.\" />",
+          "link": "https://xkcd.com/2530/",
+          "publishedOn": "2021-10-18T00:00:00.000Z",
+          "wordCount": 185,
+          "title": "Clinical Trials"
+        },
+        {
           "id": "https://xkcd.com/2529/",
           "author": null,
           "description": "<img src=\"https://imgs.xkcd.com/comics/unsolved_math_problems.png\" title=\"After decades of studying the curve and the procedure that generates it, the consensus explanation is &quot;it's just like that.&quot;\" alt=\"After decades of studying the curve and the procedure that generates it, the consensus explanation is &quot;it's just like that.&quot;\" />",
@@ -862,15 +880,6 @@
           "publishedOn": "2021-10-11T00:00:00.000Z",
           "wordCount": 187,
           "title": "New Nobel Prizes"
-        },
-        {
-          "id": "https://xkcd.com/2526/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/tsp_vs_tbsp.png\" title=\"It's like one teraspoon / when all you need is a kilonife\" alt=\"It's like one teraspoon / when all you need is a kilonife\" />",
-          "link": "https://xkcd.com/2526/",
-          "publishedOn": "2021-10-08T00:00:00.000Z",
-          "wordCount": 187,
-          "title": "TSP vs TBSP"
         }
       ]
     },
@@ -885,7 +894,7 @@
           "description": "Learn how to use Camunda Optimize to find and solve your bottlenecks with business processes, and apply best practices from the manufacturing industry. \nThe post The Ultimate Guide to Solving Bottlenecks with Camunda: Part 1 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/the-ultimate-guide-to-solving-bottlenecks-with-camunda-part-1/",
           "publishedOn": "2021-10-14T13:00:00.000Z",
-          "wordCount": 2200,
+          "wordCount": 2202,
           "title": "The Ultimate Guide to Solving Bottlenecks with Camunda: Part 1"
         },
         {
@@ -894,7 +903,7 @@
           "description": "We’re excited to announce the release of Camunda Platform 7.16.0. Join our webinar on Oct. 19, as Camunda experts discuss the advantages.\nThe post Align Human Workflows and Automation with Camunda Platform 7.16 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/align-human-workflows-and-automation-with-camunda-platform-716/",
           "publishedOn": "2021-10-12T07:00:00.000Z",
-          "wordCount": 1957,
+          "wordCount": 1960,
           "title": "Align Human Workflows and Automation with Camunda Platform 7.16"
         },
         {
@@ -903,7 +912,7 @@
           "description": "We’re excited to announce the release of Camunda Optimize 3.6.0 and that Optimize is now available as part of Camunda Cloud.\nThe post Camunda Optimize 3.6.0 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/camunda-optimize-360-released/",
           "publishedOn": "2021-10-12T06:30:00.000Z",
-          "wordCount": 2951,
+          "wordCount": 2954,
           "title": "Camunda Optimize 3.6.0 Released",
           "enclosure": {
             "url": "https://camunda.com/wp-content/uploads/2021/10/Bottleneck-Analysis-Dashboard-2.mov",
@@ -917,7 +926,7 @@
           "description": "We’re happy to announce our Cawemo Enterprise On-Premises 1.8.0 release. Sign up for a free trial of Camunda Enterprise Platform to learn more.\nThe post Cawemo Enterprise (On-Premises) 1.8.0 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/cawemo-enterprise-on-premises-1-8-0-released/",
           "publishedOn": "2021-10-12T06:15:00.000Z",
-          "wordCount": 1588,
+          "wordCount": 1590,
           "title": "Cawemo Enterprise (On-Premises) 1.8.0 Released"
         },
         {
@@ -926,7 +935,7 @@
           "description": "Our Camunda Cloud 1.2 release brings enhanced enterprise capabilities, open architecture and real-time monitoring for an exceptional user experience. \nThe post Camunda Cloud 1.2.0 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/camunda-cloud-1-2-0-released/",
           "publishedOn": "2021-10-12T06:00:00.000Z",
-          "wordCount": 2373,
+          "wordCount": 2377,
           "title": "Camunda Cloud 1.2.0 Released"
         },
         {
@@ -935,7 +944,7 @@
           "description": "We're excited to announce that Camunda Automation Platform 7.16.0 is now available, including many new features. Explore our latest release.\nThe post Camunda Automation Platform 7.16.0 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/camunda-platform-7-16-0-released/",
           "publishedOn": "2021-10-12T06:00:00.000Z",
-          "wordCount": 2508,
+          "wordCount": 2510,
           "title": "Camunda Automation Platform 7.16.0 Released"
         },
         {
@@ -944,7 +953,7 @@
           "description": "Follow how our product vision has evolved to help our customers achieve their business objectives with automation and orchestration.\nThe post Digital Transformation: Evolution or Revolution? appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/digital-transformation-evolution-or-revolution/",
           "publishedOn": "2021-10-08T13:30:00.000Z",
-          "wordCount": 2047,
+          "wordCount": 2049,
           "title": "Digital Transformation: Evolution or Revolution?"
         },
         {
@@ -953,7 +962,7 @@
           "description": "Get motivated to overcome your initial challenges and doubts. Plus, discover how Camunda Cloud does a great job at lowering the barrier to get started.\nThe post Falling in Love with Camunda Cloud appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/falling-in-love-with-camunda-cloud/",
           "publishedOn": "2021-10-07T16:00:00.000Z",
-          "wordCount": 2769,
+          "wordCount": 2772,
           "title": "Falling in Love with Camunda Cloud"
         },
         {
@@ -962,7 +971,7 @@
           "description": "Learn the impact of having a chief automation officer or CoE team to spearhead end-to-end process automation efforts across the enterprise. \nThe post Do You Need a Chief Automation Officer? appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/do-you-need-a-chief-automation-officer/",
           "publishedOn": "2021-10-06T14:58:40.000Z",
-          "wordCount": 1362,
+          "wordCount": 1365,
           "title": "Do You Need a Chief Automation Officer?"
         },
         {
@@ -971,7 +980,7 @@
           "description": "mateo Camunda Bridge is our new out-of-the-box RPA Connector for Camunda. Learn how it addresses the RPA robot, mateo, directly from Camunda.\nThe post Introducing mateo Camunda Bridge appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/09/introducing-mateo-camunda-bridge/",
           "publishedOn": "2021-09-29T13:30:00.000Z",
-          "wordCount": 1953,
+          "wordCount": 1955,
           "title": "Introducing mateo Camunda Bridge"
         }
       ]
@@ -1003,6 +1012,15 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/2021-10-18-meet-github-universe-hosts-start-building-schedule/",
+          "author": null,
+          "description": "We sat down with Universe hosts Lorena Mesa and Jarryd McCree for a quick Q&#038;A to help you make the most out of your conference experience this year.",
+          "link": "https://github.blog/2021-10-18-meet-github-universe-hosts-start-building-schedule/",
+          "publishedOn": "2021-10-18T16:10:49.000Z",
+          "wordCount": 1124,
+          "title": "Meet the GitHub Universe hosts, and start building your schedule"
+        },
+        {
           "id": "https://github.blog/2021-10-15-save-the-date-for-github-game-off-2021/",
           "author": null,
           "description": "Game Off is an annual game jam (or “hackathon for building games”) that’s a little different from most—it lasts for the entire month of November—not just a weekend or a few days. It’s the perfect",
@@ -1026,7 +1044,7 @@
           "description": "As part of our ongoing commitment to ensure GitHub’s conferences are accessible and inclusive to people from all walks of life, we’re offering 30-minute, 1:1 micro-mentoring sessions with GitHub employees.",
           "link": "https://github.blog/2021-10-12-apply-github-universe-2021-micro-mentoring/",
           "publishedOn": "2021-10-12T16:34:40.000Z",
-          "wordCount": 611,
+          "wordCount": 640,
           "title": "Apply now for GitHub Universe 2021 micro-mentoring"
         },
         {
@@ -1082,15 +1100,6 @@
           "publishedOn": "2021-10-05T16:00:31.000Z",
           "wordCount": 839,
           "title": "13 tiny and terrific entries from the js13kGames competition"
-        },
-        {
-          "id": "https://github.blog/2021-10-04-beta-github-releases-improving-release-experience/",
-          "author": null,
-          "description": "GitHub Releases has a new look and updated tools to make it easier for open source communities to create and share high-quality releases with auto-generated release notes.",
-          "link": "https://github.blog/2021-10-04-beta-github-releases-improving-release-experience/",
-          "publishedOn": "2021-10-04T18:07:00.000Z",
-          "wordCount": 762,
-          "title": "A new public beta of GitHub Releases: How we’re improving the release experience"
         }
       ]
     },

@@ -6,6 +6,15 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/10/19/this-week-in-spring-october-19th-2021",
+          "author": null,
+          "description": "Hi, Spring fans! Welcome to another installment of This Week in Spring! How’re you doing? Good? Keepin’ busy? Good. I’m doing alright, too. \n\r\n\r\n  \nLast week, I did a sort of smörgåsbord episode of Tanzu Code on twitch.tv/vmwaretanzu. It was super fun! I stream on VMWare Tanzu as well as on my own Twitch channel, twitch.tv/JavaJoshLong about all things Spring, Java, and more.\n\r\n  \nIn last week’s super short-and-to-the-point installment of Spring Tips, I looked at the Spring Plugin project\n\r\n  \nI also put out This Month in Spring - a newsletter digest version of this very weekly roundup that comes out every… month. Naturally.\n\r\n  \nDid you see this? Twitter is now using graphql-java, the very same project that underpins the Spring GraphQL project, for their APIs and they’re reporting incredible performance gains! twitter + graphql-java · Discussion #2591 · graphql-java/graphql-java\n\r\n  \nIn last week’s A Bootiful Podcast, I talked to .NET legend Layla Porter on Azure Spring Cloud, Steeltoe.NET, and more\n\r\n  \nAnnouncing: Knative 1.0 \n\r\n  \nHarden Performance of REST calls using Spring WebFlux\n\r\n  \nHow to upload/download file using Spring MVC and Spring Boot ? Example Tutorial\n\r\n  \n Matt Raible and I did a talk for the SF JUG about Spring Native and GraalVM with Spring Boot and JHipster. It was a ton of fun and I hope you’ll enjoy it.\n\r\n  \nMultiple Hierarchical Contexts in Spring Boot - DEV Community\n\r\n  \nDid you get your tickets for the Reactive Summit ? There are going to be some amazing talks this year!\n\r\n  \nRelease 1.16.1 · testcontainers/testcontainers-java\n\r\n  \nRelease Europium-SR12 (2020.0.12) · reactor/reactor\n\r\n  \nSpring Data 2021.0.6 and 2020.0.14 released\n\r\n  \nSpring Data 2021.1 enters RC phase\n\r\n  \nSpring Data JDBC - How do I implement caching?\n\r\n  \nSpring Framework 5.3.11 and 5.2.18 available now\n\r\n  \nThe State of Java 2021",
+          "link": "https://spring.io/blog/2021/10/19/this-week-in-spring-october-19th-2021",
+          "publishedOn": "2021-10-19T17:00:00.000Z",
+          "wordCount": 667,
+          "title": "This Week in Spring - October 19th, 2021"
+        },
+        {
           "id": "https://spring.io/blog/2021/10/18/spring-data-2021-1-enters-rc-phase",
           "author": null,
           "description": "Dear Spring community,\n\r\nOn behalf of the Spring Data team and everyone who contributed, it is my pleasure to announce that Spring Data 2021.1.0 has entered its release candidate phase by releasing RC1 today. It is available from the milestone repository. This release ships with several tickets fixed. The most notable changes are:\n\r\n\r\n  \nDeprecate support for RxJava 2 in preparation for removal of RxJava 2 support with Spring Data 3.0.\n\r\n  \nFluent Query API for Querydsl and Query-by-Example, allowing for projections, pagination, and consuming results as a Stream.\n\r\n  \nSpring Data JDBC ships with a refined SQL DSL, accepting complex JOIN conditions and subselects.\n\r\n  \nSupport for exists and not empty keywords in Elasticsearch repository query methods and support for field exclusion in sour…",
@@ -17,10 +26,10 @@
         {
           "id": "https://spring.io/blog/2021/10/18/spring-data-jdbc-how-do-i-implement-caching",
           "author": null,
-          "description": "This is the third article of a series about how to tackle various challenges you might encounter when using Spring Data JDBC.\r\nThe series consists of\n\r\n\r\n\r\n\r\n\r\nSpring Data JDBC - How to use custom ID generation.\n\r\n\r\n\r\nSpring Data JDBC - How do I make bidirectional relationships?\n\r\n\r\n\r\nSpring Data JDBC - How do I implement caching? (this article).\n\r\n\r\n\r\n\r\n\r\nIf you are new to Spring Data JDBC, you should start by reading its introduction and this article, which explains the relevance of aggregates in the context of Spring Data JDBC. Trust me, it is important.\n\r\n\r\n\r\nThis article is based on part of a talk I did at Spring One 2021.\n\r\n\r\n\r\nWhy Spring Data does no caching.\n\r\n\r\n\r\nOne important design decision for Spring Data JDBC was to NOT include caching.\r\nThe reason for this was as with so many…",
+          "description": "This is the third article of a series about how to tackle various challenges you might encounter when using Spring Data JDBC.\n\r\n\r\n\r\nThe series consists of\n\r\n\r\n\r\n\r\n\r\nSpring Data JDBC - How to use custom ID generation.\n\r\n\r\n\r\nSpring Data JDBC - How do I make bidirectional relationships?\n\r\n\r\n\r\nSpring Data JDBC - How do I implement caching? (this article).\n\r\n\r\n\r\n\r\n\r\nIf you are new to Spring Data JDBC, you should start by reading its introduction and this article, which explains the relevance of aggregates in the context of Spring Data JDBC. Trust me, it is important.\n\r\n\r\n\r\nThis article is based on part of a talk I did at Spring One 2021.\n\r\n\r\n\r\nWhy does Spring Data not cache?\n\r\n\r\n\r\nOne important design decision for Spring Data JDBC was to NOT include caching.\r\nThe reason for this was as with so …",
           "link": "https://spring.io/blog/2021/10/18/spring-data-jdbc-how-do-i-implement-caching",
           "publishedOn": "2021-10-18T13:00:00.000Z",
-          "wordCount": 1381,
+          "wordCount": 1377,
           "title": "Spring Data JDBC - How do I implement caching?"
         },
         {
@@ -175,15 +184,6 @@
           "publishedOn": "2021-09-23T08:00:00.000Z",
           "wordCount": 715,
           "title": "Spring Cloud 2020.0.4 has been released"
-        },
-        {
-          "id": "https://spring.io/blog/2021/09/22/spring-boot-2-4-11-available-now",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 2.4.11 has been released and is now available from Maven Central.\n\r\nThis release includes 32 bug fixes, documentation improvements, and dependency upgrades. Thanks to all those who have contributed with issue reports and pull requests.\nHow can you help?\n\r\nIf you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
-          "link": "https://spring.io/blog/2021/09/22/spring-boot-2-4-11-available-now",
-          "publishedOn": "2021-09-23T06:54:20.000Z",
-          "wordCount": 480,
-          "title": "Spring Boot 2.4.11 available now"
         }
       ]
     },
@@ -193,12 +193,30 @@
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
         {
+          "id": "https://www.hashicorp.com/blog/share-your-nomad-packs-for-a-pack-contest",
+          "author": null,
+          "description": "Get a HashiCorp backpack! Contributors who share their open source templates in the Nomad Pack Registry can win a variety of Nomad-themed prizes.",
+          "link": "https://www.hashicorp.com/blog/share-your-nomad-packs-for-a-pack-contest",
+          "publishedOn": "2021-10-19T17:00:00.000Z",
+          "wordCount": 573,
+          "title": "Share Your Nomad Packs for a Pack Contest"
+        },
+        {
+          "id": "https://www.hashicorp.com/blog/announcing-the-public-beta-of-hcp-packer",
+          "author": null,
+          "description": "The free public beta of HCP Packer lets DevOps teams track and automate build updates across their HashiCorp Packer and Terraform workflows.",
+          "link": "https://www.hashicorp.com/blog/announcing-the-public-beta-of-hcp-packer",
+          "publishedOn": "2021-10-19T16:00:00.000Z",
+          "wordCount": 1318,
+          "title": "Announcing the Public Beta of HCP Packer"
+        },
+        {
           "id": "https://www.hashicorp.com/blog/hashicorp-vault-surpasses-100-integrations-with-75-partners",
           "author": null,
           "description": "HashiCorp Vault now supports more than 100 integrations with 75 partners, including Cisco, Datadog, F5, MongoDB, Palo Alto Networks, Red Hat, ServiceNow, and Snowflake.",
           "link": "https://www.hashicorp.com/blog/hashicorp-vault-surpasses-100-integrations-with-75-partners",
           "publishedOn": "2021-10-18T14:30:00.000Z",
-          "wordCount": 1498,
+          "wordCount": 1494,
           "title": "HashiCorp Vault Surpasses 100 Integrations with 75 Partners"
         },
         {
@@ -207,7 +225,7 @@
           "description": "AWS and HashiCorp are collaborating to develop Terraform modules.",
           "link": "https://www.hashicorp.com/blog/aws-hashicorp-collaborate-new-terraform-modules",
           "publishedOn": "2021-10-15T07:00:00.000Z",
-          "wordCount": 630,
+          "wordCount": 631,
           "title": "AWS and HashiCorp Collaborate on New Terraform Modules"
         },
         {
@@ -216,7 +234,7 @@
           "description": "HashiCorp Waypoint 0.6 focuses on Kubernetes by integrating Helm, showing Kubernetes resources in the UI, adding pod auto-scaling, and supporting Ingresses.",
           "link": "https://www.hashicorp.com/blog/announcing-hashicorp-waypoint-0-6",
           "publishedOn": "2021-10-14T19:00:00.000Z",
-          "wordCount": 1868,
+          "wordCount": 1869,
           "title": "Announcing HashiCorp Waypoint 0.6"
         },
         {
@@ -225,7 +243,7 @@
           "description": "Nomad 1.2 and Nomad Pack deliver exciting new features, workflows, and tools to the HashiCorp Nomad ecosystem.",
           "link": "https://www.hashicorp.com/blog/announcing-hashicorp-nomad-1-2",
           "publishedOn": "2021-10-14T18:00:00.000Z",
-          "wordCount": 1467,
+          "wordCount": 1469,
           "title": "Announcing HashiCorp Nomad 1.2 Beta"
         },
         {
@@ -234,7 +252,7 @@
           "description": "Compliance-driven network infrastructure automation with Consul-Terraform-Sync 0.4 is now generally available for HashiCorp Terraform Cloud.",
           "link": "https://www.hashicorp.com/blog/announcing-consul-terraform-sync-0-4-for-terraform-cloud",
           "publishedOn": "2021-10-14T15:00:00.000Z",
-          "wordCount": 1441,
+          "wordCount": 1442,
           "title": "Announcing Consul-Terraform-Sync 0.4 for Terraform Cloud"
         },
         {
@@ -243,7 +261,7 @@
           "description": "With a live demo, two engineers from Mozilla’s Pocket show how they use CDK for Terraform to define and provision infrastructure in a TypeScript application.",
           "link": "https://www.hashicorp.com/blog/cdk-for-terraform-in-production-learning-from-pocket",
           "publishedOn": "2021-10-12T16:00:00.000Z",
-          "wordCount": 1074,
+          "wordCount": 1075,
           "title": "CDK for Terraform in Production: Learning from Pocket"
         },
         {
@@ -252,7 +270,7 @@
           "description": "Read this curated list of HashiCorp learning resources to help practitioners and organizations better understand the cloud operating model.",
           "link": "https://www.hashicorp.com/blog/hashicorp-learning-resources-reference-guide",
           "publishedOn": "2021-10-11T16:00:00.000Z",
-          "wordCount": 1793,
+          "wordCount": 1812,
           "title": "HashiCorp Learning Resources Reference Guide"
         },
         {
@@ -261,7 +279,7 @@
           "description": "Learn about HashiCorp’s plans for the KubeCon North America 2021 conference and get updates on CNCF integrations with our tools.",
           "link": "https://www.hashicorp.com/blog/a-guide-to-hashicorp-at-kubecon-north-america-2021",
           "publishedOn": "2021-10-08T16:00:00.000Z",
-          "wordCount": 785,
+          "wordCount": 786,
           "title": "A Guide to HashiCorp at KubeCon North America 2021"
         },
         {
@@ -270,7 +288,7 @@
           "description": "HashiCorp’s inaugural summer internship program is complete, here’s how it went and how you can apply for next year!",
           "link": "https://www.hashicorp.com/blog/hashicorp-s-early-career-program-a-year-in-review",
           "publishedOn": "2021-10-07T16:00:00.000Z",
-          "wordCount": 1077,
+          "wordCount": 1078,
           "title": "HashiCorp’s Early Career Program: A Year in Review"
         },
         {
@@ -279,7 +297,7 @@
           "description": "Vault can now integrate with ServiceNow for credential management with the Vault Credential Resolver integration now available in the ServiceNow App Store.",
           "link": "https://www.hashicorp.com/blog/hashicorp-vault-integrates-with-servicenow-for-credential-management",
           "publishedOn": "2021-10-06T16:00:00.000Z",
-          "wordCount": 651,
+          "wordCount": 652,
           "title": "HashiCorp Vault Integrates with ServiceNow for Credential Management"
         },
         {
@@ -288,7 +306,7 @@
           "description": "Get a list of the 10 most interesting HashiConf Global sessions for enterprise cloud platform teams. Join us October 19 - 20, 2021.",
           "link": "https://www.hashicorp.com/blog/hashiconf-global-preview-sessions-for-cloud-platform-teams",
           "publishedOn": "2021-10-05T15:15:00.000Z",
-          "wordCount": 1583,
+          "wordCount": 1584,
           "title": "HashiConf Global Preview: Sessions for Cloud Platform Teams"
         },
         {
@@ -297,7 +315,7 @@
           "description": "This new provider for HashiCorp Terraform — built around the AWS Cloud Control API — is designed to bring new services to Terraform faster.",
           "link": "https://www.hashicorp.com/blog/announcing-terraform-aws-cloud-control-provider-tech-preview",
           "publishedOn": "2021-09-30T20:00:00.000Z",
-          "wordCount": 1600,
+          "wordCount": 1601,
           "title": "Announcing Terraform AWS Cloud Control Provider Tech Preview"
         },
         {
@@ -306,7 +324,7 @@
           "description": "From multi-cloud to COVID-19, we look at 5 key results of the HashiCorp State of Cloud Strategy survey, and how they stack up to other industry research.",
           "link": "https://www.hashicorp.com/blog/multi-cloud-in-context-comparing-cloud-survey-results",
           "publishedOn": "2021-09-29T19:00:00.000Z",
-          "wordCount": 1636,
+          "wordCount": 1637,
           "title": "Multi-Cloud in Context: Comparing Cloud Survey Results"
         },
         {
@@ -315,7 +333,7 @@
           "description": "HashiCorp Consul now provides a reliable and secure service mesh on Amazon ECS.",
           "link": "https://www.hashicorp.com/blog/announcing-the-beta-release-of-consul-service-mesh-for-amazon-ecs",
           "publishedOn": "2021-09-29T16:00:00.000Z",
-          "wordCount": 986,
+          "wordCount": 987,
           "title": "Announcing the Beta Release of Consul Service Mesh for Amazon ECS"
         },
         {
@@ -324,7 +342,7 @@
           "description": "The HashiCorp State of Cloud Strategy Survey reveals that infrastructure as code and provisioning tools are at the forefront of the movement to multi-cloud.",
           "link": "https://www.hashicorp.com/blog/how-automated-provisioning-tools-pave-the-way-to-multi-cloud-adoption",
           "publishedOn": "2021-09-23T17:00:00.000Z",
-          "wordCount": 1018,
+          "wordCount": 1019,
           "title": "How Automated Provisioning Tools Pave the Way to Multi-Cloud Adoption"
         },
         {
@@ -333,7 +351,7 @@
           "description": "HashiConf Global takes place Tuesday–Thursday, October 19-21, 2021, and we are excited to introduce several new elements to the program.",
           "link": "https://www.hashicorp.com/blog/new-at-hashiconf-global-hands-on-labs-hashicorp-zone-a-contest-and-more",
           "publishedOn": "2021-09-22T15:00:00.000Z",
-          "wordCount": 829,
+          "wordCount": 830,
           "title": "New at HashiConf Global: Hands-on Labs, HashiCorp Zone, a Contest, and More"
         },
         {
@@ -342,7 +360,7 @@
           "description": "Learn how to use best practices-based modules to build Terraform deployments on AWS.",
           "link": "https://www.hashicorp.com/blog/terraform-modules-on-aws",
           "publishedOn": "2021-09-20T22:15:00.000Z",
-          "wordCount": 1125,
+          "wordCount": 1126,
           "title": "Terraform Modules on AWS"
         },
         {
@@ -351,7 +369,7 @@
           "description": "The inaugural HashiCorp State of Cloud Strategy survey highlights the importance — and the surprising complexity — of security issues in cloud and multi-cloud adoption.",
           "link": "https://www.hashicorp.com/blog/security-in-the-cloud-it-s-complicated",
           "publishedOn": "2021-09-20T17:00:00.000Z",
-          "wordCount": 1149,
+          "wordCount": 1150,
           "title": "Security in the Cloud: It’s Complicated"
         }
       ]
@@ -362,12 +380,21 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
+          "id": "https://www.elastic.co/blog/a-single-platform-for-us-government-security-and-logging-compliance",
+          "author": "John Harmon",
+          "description": "With event logging and endpoint security unified on a single platform, Elastic is helping the US Federal Government meet and exceed requirements of the Executive Order on Improving the Nation’s Cybersecurity with a more affordable business model.",
+          "link": "https://www.elastic.co/blog/a-single-platform-for-us-government-security-and-logging-compliance",
+          "publishedOn": "2021-10-19T13:00:00.000Z",
+          "wordCount": 903,
+          "title": "A single platform for US Government security and logging compliance"
+        },
+        {
           "id": "https://www.elastic.co/blog/master-the-elastic-stack-with-trainings-featured-at-elasticon-global",
           "author": "Nikki Jones",
           "description": "Elastic Training has certified Analysts and Engineers across more than 37 countries, and set out to certify many more as a result of industry leading live training sessions held at this year's ElasticOn Global event.",
           "link": "https://www.elastic.co/blog/master-the-elastic-stack-with-trainings-featured-at-elasticon-global",
           "publishedOn": "2021-10-15T13:00:00.000Z",
-          "wordCount": 392,
+          "wordCount": 428,
           "title": "Master the Elastic Stack with trainings featured at ElasticON Global"
         },
         {
@@ -376,7 +403,7 @@
           "description": "We are excited to announce that Elastic is joining forces with Optimyze, to accelerate our vision for unified, actionable observability and enhance the ability to detect and find root cause faster in complex distributed environments.",
           "link": "https://www.elastic.co/blog/elastic-and-optimyze-join-forces-to-deliver-always-on-continuous-profiling-of-infrastructure-applications-and-services",
           "publishedOn": "2021-10-14T20:05:00.000Z",
-          "wordCount": 1005,
+          "wordCount": 1041,
           "title": "Elastic and Optimyze join forces to deliver \"always on\" continuous profiling of infrastructure, applications, and services"
         },
         {
@@ -385,7 +412,7 @@
           "description": "We recently had a tricky date formatting bug. This is the story of how we traced it back to an error in the JDK date formatting library (now fixed for Java 17 & 18).",
           "link": "https://www.elastic.co/blog/how-elastic-traced-a-formatting-bug-in-elasticsearch",
           "publishedOn": "2021-10-14T15:00:00.000Z",
-          "wordCount": 1571,
+          "wordCount": 1607,
           "title": "How Elastic traced a formatting bug in Elasticsearch"
         },
         {
@@ -394,7 +421,7 @@
           "description": "Elastic Stack 6.8.20 has been released. Read about the updates and bug fixes that have been included in Kibana, Elasticsearch, Beats, Logstash.",
           "link": "https://www.elastic.co/blog/elastic-stack-6-8-20-released",
           "publishedOn": "2021-10-14T15:00:00.000Z",
-          "wordCount": 308,
+          "wordCount": 344,
           "title": "Elastic Stack 6.8.20 released"
         },
         {
@@ -403,7 +430,7 @@
           "description": "Elastic Stack 7.15.1 has been released. Read about the updates and bug fixes that have been included in Elasticsearch, Kibana, Logstash, Beats, APM, Enterprise Search, Elastic Security, and ECK.",
           "link": "https://www.elastic.co/blog/elastic-stack-7-15-1-released",
           "publishedOn": "2021-10-14T15:00:00.000Z",
-          "wordCount": 336,
+          "wordCount": 372,
           "title": "Elastic Stack 7.15.1 released"
         },
         {
@@ -412,7 +439,7 @@
           "description": "The integration with the new Kibana Alerting framework allows users to define custom logic and provides an easy and flexible way of setting up conditions. And users don’t have to worry about keeping the actual implementation up-to-date, as the framework will handle all the hard work.",
           "link": "https://www.elastic.co/blog/accelerate-actions-on-anomaly-detection-jobs-with-the-kibana-alerting-framework",
           "publishedOn": "2021-10-13T19:00:00.000Z",
-          "wordCount": 1495,
+          "wordCount": 1531,
           "title": "Accelerate actions on anomaly detection jobs with the Kibana alerting framework"
         },
         {
@@ -421,7 +448,7 @@
           "description": "At Elastic, we believe the best way to extract the full value of data is to put that data to work.  See how the Search Platform for Public Sector helps maximize data utility for enhanced mission delivery, citizen services, and education.",
           "link": "https://www.elastic.co/blog/the-elastic-search-platform-maximizing-data-utility-in-public-sector",
           "publishedOn": "2021-10-13T15:00:00.000Z",
-          "wordCount": 896,
+          "wordCount": 932,
           "title": "The Elastic Search Platform: Maximizing data utility in public sector"
         },
         {
@@ -430,7 +457,7 @@
           "description": "Learn about the latest developments in our ongoing partnership with Google Cloud. Solutions include application search for Firestore developers and streamlined data integration into Elastic for BigQuery, Google Cloud Storage and Pub/Sub developers.",
           "link": "https://www.elastic.co/blog/elastic-and-google-cloud-now-offer-tighter-data-integration",
           "publishedOn": "2021-10-12T15:00:00.000Z",
-          "wordCount": 582,
+          "wordCount": 618,
           "title": "Elastic and Google Cloud now offer tighter data integration"
         },
         {
@@ -439,17 +466,8 @@
           "description": "The Deimos implant was first reported in 2020 and has been in active development; employing advanced analysis countermeasures to frustrate analysis. This post details the campaign TTPs through the malware indicators.",
           "link": "https://www.elastic.co/blog/going-coast-to-coast-climbing-the-pyramid-with-the-deimos-implant",
           "publishedOn": "2021-10-12T13:00:00.000Z",
-          "wordCount": 3659,
+          "wordCount": 3695,
           "title": "Going Coast to Coast - Climbing the Pyramid with the Deimos Implant"
-        },
-        {
-          "id": "https://www.elastic.co/blog/accelerate-search-experiences-with-elastic-app-search-and-google-firebase",
-          "author": "Fermi Fang,Nick Chow",
-          "description": "Google Firebase developers can now easily build amazing search experiences straight into their applications with the Elastic App Search extension for Firestore.",
-          "link": "https://www.elastic.co/blog/accelerate-search-experiences-with-elastic-app-search-and-google-firebase",
-          "publishedOn": "2021-10-11T15:00:00.000Z",
-          "wordCount": 709,
-          "title": "Accelerate search experiences with Elastic App Search and Google Cloud Firestore"
         },
         {
           "id": "https://www.elastic.co/blog/implementing-academic-papers-lessons-learned-from-elasticsearch-and-lucene",
@@ -687,7 +705,7 @@
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes Episode 57 – Securing @Azure with @shehackspurple appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-57-securing-azure-with-shehackspurple/",
           "publishedOn": "2021-09-28T11:00:11.000Z",
-          "wordCount": 1663,
+          "wordCount": 1614,
           "title": "AzureFunBytes Episode 57 – Securing @Azure with @shehackspurple"
         },
         {
@@ -696,7 +714,7 @@
           "description": "The top stories from the #AzureDevOps #community for 2021.09.24 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2021.09.24 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-09-24/",
           "publishedOn": "2021-09-24T12:00:18.000Z",
-          "wordCount": 1256,
+          "wordCount": 1233,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.09.24"
         },
         {
@@ -705,7 +723,7 @@
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes Episode 56 – Secretless Applications with @ChristosMatskas appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-56-secretless-applications-with-christosmatskas/",
           "publishedOn": "2021-09-21T15:35:32.000Z",
-          "wordCount": 1357,
+          "wordCount": 1355,
           "title": "AzureFunBytes Episode 56 – Secretless Applications with @ChristosMatskas"
         }
       ]
@@ -721,6 +739,15 @@
       "feedUrl": "http://feeds.feedburner.com/AmazonWebServicesBlog",
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
+        {
+          "id": "c4673307b7ed8b0999036138fd06f046349261cb",
+          "author": "Jeff Barr",
+          "description": "Back in 2019 I told you about AWS Data Exchange and showed you how to Find, Subscribe To, and Use Data Products. Today, you can choose from over 3600 data products in ten categories: In my introductory post I showed you how could subscribe to data products and then download the data sets into an […]",
+          "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/e4hxlIIKsqk/",
+          "publishedOn": "2021-10-19T21:51:02.000Z",
+          "wordCount": 1556,
+          "title": "New – AWS Data Exchange for Amazon Redshift"
+        },
         {
           "id": "cc1604636a9a5bddcd177cc87efad781d3c4393a",
           "author": "Channy Yun",
@@ -889,12 +916,21 @@
       "siteUrl": "https://camunda.com",
       "articles": [
         {
+          "id": "https://camunda.com/?p=32773",
+          "author": "Garth Knudson",
+          "description": "Is less really more? Maximus embraced microservices orchestration to gain reduced software license, implementation and infrastructure costs.\nThe post Maximus Modernizing and Maximizing Their Potential appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2021/10/maximus-modernizing-and-maximizing-their-potential/",
+          "publishedOn": "2021-10-19T13:00:00.000Z",
+          "wordCount": 1628,
+          "title": "Maximus Modernizing and Maximizing Their Potential"
+        },
+        {
           "id": "https://camunda.com/?p=32691",
           "author": "Camunda Optimize Team",
           "description": "Learn how to use Camunda Optimize to find and solve your bottlenecks with business processes, and apply best practices from the manufacturing industry. \nThe post The Ultimate Guide to Solving Bottlenecks with Camunda: Part 1 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/the-ultimate-guide-to-solving-bottlenecks-with-camunda-part-1/",
           "publishedOn": "2021-10-14T13:00:00.000Z",
-          "wordCount": 2202,
+          "wordCount": 2197,
           "title": "The Ultimate Guide to Solving Bottlenecks with Camunda: Part 1"
         },
         {
@@ -903,7 +939,7 @@
           "description": "We’re excited to announce the release of Camunda Platform 7.16.0. Join our webinar on Oct. 19, as Camunda experts discuss the advantages.\nThe post Align Human Workflows and Automation with Camunda Platform 7.16 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/align-human-workflows-and-automation-with-camunda-platform-716/",
           "publishedOn": "2021-10-12T07:00:00.000Z",
-          "wordCount": 1960,
+          "wordCount": 1962,
           "title": "Align Human Workflows and Automation with Camunda Platform 7.16"
         },
         {
@@ -912,7 +948,7 @@
           "description": "We’re excited to announce the release of Camunda Optimize 3.6.0 and that Optimize is now available as part of Camunda Cloud.\nThe post Camunda Optimize 3.6.0 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/camunda-optimize-360-released/",
           "publishedOn": "2021-10-12T06:30:00.000Z",
-          "wordCount": 2954,
+          "wordCount": 2955,
           "title": "Camunda Optimize 3.6.0 Released",
           "enclosure": {
             "url": "https://camunda.com/wp-content/uploads/2021/10/Bottleneck-Analysis-Dashboard-2.mov",
@@ -926,7 +962,7 @@
           "description": "We’re happy to announce our Cawemo Enterprise On-Premises 1.8.0 release. Sign up for a free trial of Camunda Enterprise Platform to learn more.\nThe post Cawemo Enterprise (On-Premises) 1.8.0 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/cawemo-enterprise-on-premises-1-8-0-released/",
           "publishedOn": "2021-10-12T06:15:00.000Z",
-          "wordCount": 1590,
+          "wordCount": 1591,
           "title": "Cawemo Enterprise (On-Premises) 1.8.0 Released"
         },
         {
@@ -953,7 +989,7 @@
           "description": "Follow how our product vision has evolved to help our customers achieve their business objectives with automation and orchestration.\nThe post Digital Transformation: Evolution or Revolution? appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/digital-transformation-evolution-or-revolution/",
           "publishedOn": "2021-10-08T13:30:00.000Z",
-          "wordCount": 2049,
+          "wordCount": 2051,
           "title": "Digital Transformation: Evolution or Revolution?"
         },
         {
@@ -962,7 +998,7 @@
           "description": "Get motivated to overcome your initial challenges and doubts. Plus, discover how Camunda Cloud does a great job at lowering the barrier to get started.\nThe post Falling in Love with Camunda Cloud appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/falling-in-love-with-camunda-cloud/",
           "publishedOn": "2021-10-07T16:00:00.000Z",
-          "wordCount": 2772,
+          "wordCount": 2769,
           "title": "Falling in Love with Camunda Cloud"
         },
         {
@@ -971,17 +1007,8 @@
           "description": "Learn the impact of having a chief automation officer or CoE team to spearhead end-to-end process automation efforts across the enterprise. \nThe post Do You Need a Chief Automation Officer? appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/do-you-need-a-chief-automation-officer/",
           "publishedOn": "2021-10-06T14:58:40.000Z",
-          "wordCount": 1365,
+          "wordCount": 1360,
           "title": "Do You Need a Chief Automation Officer?"
-        },
-        {
-          "id": "https://camunda.com/?p=30846",
-          "author": "Marcel Flasskamp",
-          "description": "mateo Camunda Bridge is our new out-of-the-box RPA Connector for Camunda. Learn how it addresses the RPA robot, mateo, directly from Camunda.\nThe post Introducing mateo Camunda Bridge appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2021/09/introducing-mateo-camunda-bridge/",
-          "publishedOn": "2021-09-29T13:30:00.000Z",
-          "wordCount": 1955,
-          "title": "Introducing mateo Camunda Bridge"
         }
       ]
     },
@@ -1011,6 +1038,15 @@
       "feedUrl": "https://github.com/blog/all.atom",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/2021-10-19-whats-new-from-github-changelog-september-2021-recap/",
+          "author": null,
+          "description": "Catch up on 44 ships, including a colorblind-accessible theme, a public README.md for organizations, and customization of code review settings.",
+          "link": "https://github.blog/2021-10-19-whats-new-from-github-changelog-september-2021-recap/",
+          "publishedOn": "2021-10-19T19:44:33.000Z",
+          "wordCount": 2357,
+          "title": "What’s new from GitHub Changelog? September 2021 recap"
+        },
         {
           "id": "https://github.blog/2021-10-18-meet-github-universe-hosts-start-building-schedule/",
           "author": null,
@@ -1080,7 +1116,7 @@
           "description": "Today, we’re adding a proxy on top of the GitHub Advisory Database that speaks the `npm audit` protocol.  This means that every version of the npm CLI that supports security audits is now talking directly to the GitHub Advisory Database.",
           "link": "https://github.blog/2021-10-07-github-advisory-database-now-powers-npm-audit/",
           "publishedOn": "2021-10-07T16:05:05.000Z",
-          "wordCount": 670,
+          "wordCount": 661,
           "title": "GitHub Advisory Database now powers npm audit"
         },
         {
@@ -1091,15 +1127,6 @@
           "publishedOn": "2021-10-06T16:18:14.000Z",
           "wordCount": 269,
           "title": "GitHub Availability Report: September 2021"
-        },
-        {
-          "id": "https://github.blog/2021-10-05-13-tiny-and-terrific-entries-from-the-js13kgames-competition/",
-          "author": null,
-          "description": "If you think about it, 13kB isn’t really a lot. The image above is 81kB. This page weighs over 3MB (waaay more if you include the videos). That’s why it’s so incredibly impressive that the",
-          "link": "https://github.blog/2021-10-05-13-tiny-and-terrific-entries-from-the-js13kgames-competition/",
-          "publishedOn": "2021-10-05T16:00:31.000Z",
-          "wordCount": 839,
-          "title": "13 tiny and terrific entries from the js13kGames competition"
         }
       ]
     },

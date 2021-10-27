@@ -6,6 +6,42 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/10/26/this-week-in-spring-october-26th-2021",
+          "author": null,
+          "description": "Hi, Spring fans! Welcome to another installment of This Week in Spring! How are you? \n\r\nI’m doing well, as always. I literally just wrapped up presenting a fun session at the Russian Joker conference all about Spring and GraphQL. I got a ton of great questions from an enthusiastic audience. Thanks so much for joining me, everyone. I’ve got to get to other meetings, though, so let’s get this wonderful week in Spring out of the way! \n\r\n\r\n  \nSpring Tips: refreshable configuration with Spring Cloud Bus, and the Spring Cloud Config Monitor\n\r\n  \nIn last week’s A Bootiful Podcast, I talked to RabbitMQ and Weaveworks founder Alexis Richardson about RabbitMQ, Pivotal, Spring, Kubernetes, and FluxCD\n\r\n  \nA great article that @Javinpaul linked me to: What is @PropertySource in Spring Framework? \n\r\n  …",
+          "link": "https://spring.io/blog/2021/10/26/this-week-in-spring-october-26th-2021",
+          "publishedOn": "2021-10-26T18:00:00.000Z",
+          "wordCount": 779,
+          "title": "This Week in Spring - October 26th, 2021"
+        },
+        {
+          "id": "https://spring.io/blog/2021/10/26/security-reports-for-spring-framework-spring-data-rest-spring-amqp-and-spring-cloud-openfeign",
+          "author": null,
+          "description": "The recently released Spring Boot 2.5.6 and 2.4.12 releases contain fixes for the following security vulnerabilities:\n\r\n\r\n  \nCVE-2021-22096 for the Spring Framework\n\r\n  \nCVE-2021-22047 for Spring Data REST\n\r\n  \nCVE-2021-22097 for Spring AMQP\n\r\n\r\nIn addition, Spring Cloud OpenFeign has released versions 3.0.5 and 2.2.10, based on the same Spring Boot versions, and containing a fix for the following security vulnerability:\n\r\n\r\n  \nCVE-2021-22044 for Spring Cloud OpenFeign\n\r\n\r\nPlease, review the reports and upgrade!",
+          "link": "https://spring.io/blog/2021/10/26/security-reports-for-spring-framework-spring-data-rest-spring-amqp-and-spring-cloud-openfeign",
+          "publishedOn": "2021-10-26T17:00:00.000Z",
+          "wordCount": 461,
+          "title": "Security Reports for Spring Framework, Spring Data REST, Spring AMQP, and Spring Cloud OpenFeign"
+        },
+        {
+          "id": "https://spring.io/blog/2021/10/26/spring-cloud-openfeign-versions-2-2-10-release-3-0-5-and-3-1-0-m4-are-now-available",
+          "author": null,
+          "description": "On behalf of the community, I am pleased to announce that Spring Cloud OpenFeign versions 2.2.10.RELEASE, 3.0.5 and 3.1.0-M4 have been released.\n\r\nThese are primarily security releases with fixes for the CVE-2021-22044. \n\r\nApplications using type-level @RequestMappingannotations over Feign client interfaces, can be involuntarily exposing endpoints corresponding to @RequestMapping-annotated interface methods. Although a response is not returned for a request sent in this way, it does reach the corresponding server-side endpoint.\n\r\nThe practice of using a type-level @RequestMapping on a Feign client interface has been discouraged in the documentation, but we’re now taking the step to reject it completely.\n\r\nThese versions will be picked up later by the 2020.0.x and 2021.0.x release trains, however, we recommend you already upgrade Spring Cloud OpenFeign in your projects to these most recent versions.\n\r\nSee all issues included in 2.2.10.RELEASE here\nSee all issues included in 3.1.0-M4 here\nNo additional issues were included for 3.0.5.",
+          "link": "https://spring.io/blog/2021/10/26/spring-cloud-openfeign-versions-2-2-10-release-3-0-5-and-3-1-0-m4-are-now-available",
+          "publishedOn": "2021-10-26T17:00:00.000Z",
+          "wordCount": 535,
+          "title": "Spring Cloud OpenFeign versions 2.2.10.RELEASE, 3.0.5 and 3.1.0-M4 are now available"
+        },
+        {
+          "id": "https://spring.io/blog/2021/10/26/new-features-for-spring-cloud-kubernetes-in-spring-cloud-2021-0-0-m3",
+          "author": null,
+          "description": "When we got the results back from the latest State Of Spring survey, 67% of you said you would like to see better support for service discovery and configuration management on Kubernetes.\n\r\nWith the release of Spring Cloud 2021.0.0-M3, we are taking a big step forward to addressing both of these concerns!\n\r\nSpring Cloud Kubernetes has offered a DiscoveryClient implementation since its inception. However, the implementation required the application to have permissions to use the Kubernetes API server. This proved to be a major barrier for many Spring Cloud user’s, as Kubernetes administrators were hesitant to give apps permissions to make API requests to the Kubernetes API server.\n\r\nConfiguration management using Spring Cloud Kubernetes also suffered from the same requirement of needing acc…",
+          "link": "https://spring.io/blog/2021/10/26/new-features-for-spring-cloud-kubernetes-in-spring-cloud-2021-0-0-m3",
+          "publishedOn": "2021-10-26T07:00:00.000Z",
+          "wordCount": 1355,
+          "title": "New Features For Spring Cloud Kubernetes In Spring Cloud 2021.0.0-M3"
+        },
+        {
           "id": "https://spring.io/blog/2021/10/25/spot-every-spring-boot-application-issue-on-the-spot-using-appdynamics",
           "author": null,
           "description": "Today, we are excited to announce the integration of AppDynamics in the Azure Spring Cloud for full stack observability.\n\r\nOver the past 20 months, we worked with many enterprise customers to learn about the scenarios they face. Many of these customers have thousands of Spring Boot applications running in on-premises data centers. As they migrate these applications to the cloud, they need to instrument them for application performance monitoring (APM) using solutions their developers are familiar with and have been using for years. In addition, they must ensure continuity for desktop and mobile applications that are already pre-instrumented for end-to-end monitoring using agents like AppDynamics, which automatically discovers and maps all applications, microservices, and infrastructure as …",
@@ -44,28 +80,28 @@
         {
           "id": "https://spring.io/blog/2021/10/21/spring-boot-2-5-6-is-now-available",
           "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 2.5.6 has been released and is now available from Maven Central.\n\r\nThis release includes 43 bug fixes, documentation improvements, and dependency upgrades. Thanks to all those who have contributed with issue reports and pull requests.\nHow can you help?\n\r\nIf you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
+          "description": "Update (2021-10-26): Multiple Spring projects included in this release contain fixes for security issues. Please, read the related announcement.\n\r\nOn behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 2.5.6 has been released and is now available from Maven Central.\n\r\nThis release includes 43 bug fixes, documentation improvements, and dependency upgrades. Thanks to all those who have contributed with issue reports and pull requests.\nHow can you help?\n\r\nIf you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
           "link": "https://spring.io/blog/2021/10/21/spring-boot-2-5-6-is-now-available",
-          "publishedOn": "2021-10-21T13:17:51.000Z",
-          "wordCount": 482,
+          "publishedOn": "2021-10-21T13:17:00.000Z",
+          "wordCount": 501,
           "title": "Spring Boot 2.5.6 is now available"
         },
         {
           "id": "https://spring.io/blog/2021/10/21/spring-boot-2-4-12-is-now-available",
           "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 2.4.12 has been released and is now available from Maven Central.\n\r\nThis release includes 36 bug fixes, documentation improvements, and dependency upgrades. Thanks to all those who have contributed with issue reports and pull requests.\nHow can you help?\n\r\nIf you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
+          "description": "Update (2021-10-26): Multiple Spring projects included in this release contain fixes for security issues. Please, read the related announcement.\n\r\nOn behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 2.4.12 has been released and is now available from Maven Central.\n\r\nThis release includes 36 bug fixes, documentation improvements, and dependency upgrades. Thanks to all those who have contributed with issue reports and pull requests.\nHow can you help?\n\r\nIf you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
           "link": "https://spring.io/blog/2021/10/21/spring-boot-2-4-12-is-now-available",
           "publishedOn": "2021-10-21T12:20:00.000Z",
-          "wordCount": 482,
+          "wordCount": 501,
           "title": "Spring Boot 2.4.12 is now available"
         },
         {
           "id": "https://spring.io/blog/2021/10/21/spring-framework-5-3-12-available-now",
           "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework 5.3.12 is available now.\n\r\nSpring Framework 5.3.12 is a follow-up of the recent 5.3.11 release fixing 2 regressions in time for the Spring Boot releases.\n\r\nProject Page | GitHub | Issues | Documentation",
+          "description": "Update (2021-10-26): This release contains a fix for a security issue. Please, read the related announcement.\n\r\nOn behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework 5.3.12 is available now.\n\r\nSpring Framework 5.3.12 is a follow-up of the recent 5.3.11 release fixing 2 regressions in time for the Spring Boot releases.\n\r\nProject Page | GitHub | Issues | Documentation",
           "link": "https://spring.io/blog/2021/10/21/spring-framework-5-3-12-available-now",
-          "publishedOn": "2021-10-21T08:06:45.000Z",
-          "wordCount": 426,
+          "publishedOn": "2021-10-21T08:06:00.000Z",
+          "wordCount": 442,
           "title": "Spring Framework 5.3.12 available now"
         },
         {
@@ -143,47 +179,11 @@
         {
           "id": "https://spring.io/blog/2021/10/14/spring-framework-5-3-11-and-5-2-18-available-now",
           "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework 5.3.11 and 5.2.18 are available now.\n\r\nSpring Framework 5.3.11 includes 32 fixes and improvements. Spring Framework 5.2.18 includes 10 selected fixes and improvements.\n\r\nStay tuned for follow-up Spring Boot releases next week.\n\r\nProject Page | GitHub | Issues | Documentation",
+          "description": "Update (2021-10-26): These releases contain fixes for a security issue. Please, read the related announcement.\n\r\nOn behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework 5.3.11 and 5.2.18 are available now.\n\r\nSpring Framework 5.3.11 includes 32 fixes and improvements. Spring Framework 5.2.18 includes 10 selected fixes and improvements.\n\r\nStay tuned for follow-up Spring Boot releases next week.\n\r\nProject Page | GitHub | Issues | Documentation",
           "link": "https://spring.io/blog/2021/10/14/spring-framework-5-3-11-and-5-2-18-available-now",
-          "publishedOn": "2021-10-14T12:16:20.000Z",
-          "wordCount": 437,
+          "publishedOn": "2021-10-14T12:16:00.000Z",
+          "wordCount": 452,
           "title": "Spring Framework 5.3.11 and 5.2.18 available now"
-        },
-        {
-          "id": "https://spring.io/blog/2021/10/13/spring-tips-spring-plugin",
-          "author": null,
-          "description": "Hi, Spring fans! In this installment Josh Long (@starbuxman) looks at the little-known, often-used Spring Plugin project, which supports the strategy pattern",
-          "link": "https://spring.io/blog/2021/10/13/spring-tips-spring-plugin",
-          "publishedOn": "2021-10-13T07:00:00.000Z",
-          "wordCount": 395,
-          "title": "Spring Tips: Spring Plugin"
-        },
-        {
-          "id": "https://spring.io/blog/2021/10/12/this-week-in-spring-october-12th-2021",
-          "author": null,
-          "description": "Hi, Spring fans! Welcome to yet another installment of This Week in Spring where we recap - with apologies to The Times - all the news that’s fit to reprint in the Spring and Spring-adjacent ecosystems. First: it’s almost Halloween! Can you believe it?? This year has absolutely flown by! I need to dust off my PHP costume for Halloween. Maybe I’ll even start using this particularly ghastly VS Code theme on the day… \n\r\nAnyway, it’s been a busy week for me already and we’re only at the very beginning of Tuesday! I’ve been attending Kubecon (virtually), I spoke at the online I Code Java event at midnight and then this morning at 8am I was on the SnykLive discussion on the State of Java in 2021. Fun! \n\r\nThis week’s roundup also looks to be a fun one, so let’s get to it! \n\r\n\r\n  \nI looked at the …",
-          "link": "https://spring.io/blog/2021/10/12/this-week-in-spring-october-12th-2021",
-          "publishedOn": "2021-10-12T16:00:00.000Z",
-          "wordCount": 909,
-          "title": "This Week in Spring - October 12th, 2021"
-        },
-        {
-          "id": "https://spring.io/blog/2021/10/07/a-bootiful-podcast-heiko-scherrer-on-openwms-spring-spring-boot-spring-data-workflow-with-activiti-and-more",
-          "author": null,
-          "description": "Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks to OpenWMS founder Heiko Scherrer (@openwms) about OpenWMS, Spring, Spring Boot, Spring Data, workflow with Activiti and more.",
-          "link": "https://spring.io/blog/2021/10/07/a-bootiful-podcast-heiko-scherrer-on-openwms-spring-spring-boot-spring-data-workflow-with-activiti-and-more",
-          "publishedOn": "2021-10-07T19:00:00.000Z",
-          "wordCount": 427,
-          "title": "A Bootiful Podcast: Heiko Scherrer on OpenWMS, Spring, Spring Boot, Spring Data, workflow with Activiti and more"
-        },
-        {
-          "id": "https://spring.io/blog/2021/10/06/spring-tips-spring-graphql",
-          "author": null,
-          "description": "Hi, Spring fans! In this installment we look at the new Spring GraphQL project.",
-          "link": "https://spring.io/blog/2021/10/06/spring-tips-spring-graphql",
-          "publishedOn": "2021-10-06T07:00:00.000Z",
-          "wordCount": 387,
-          "title": "Spring Tips: Spring GraphQL"
         }
       ]
     },
@@ -380,6 +380,24 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
+          "id": "https://www.elastic.co/blog/culture-this-directors-two-step-approach-for-creating-a-burnout-resistant-engineering-culture",
+          "author": "Katherine Plumhoff",
+          "description": "",
+          "link": "https://www.elastic.co/blog/culture-this-directors-two-step-approach-for-creating-a-burnout-resistant-engineering-culture",
+          "publishedOn": "2021-10-26T13:00:00.000Z",
+          "wordCount": 2212,
+          "title": "This director’s 2-step approach for creating a burnout-resistant engineering culture"
+        },
+        {
+          "id": "https://www.elastic.co/blog/culture-this-directors-two-step-approach-for-creating-a-burnout-resistant-engineering-culture",
+          "author": "Katherine Plumhoff",
+          "description": ",\nStacey King Poling knows that tornadoes don’t really sneak up on you.\nGrowing up in Texas and living around the west, including in Oklahoma, Stacey knew what to look and listen for regarding the powerful storms: the National Weather Service warnings, the emergency sirens, the regular instructions on where to go and how to protect yourself. All that preparation and advanced warning helped Stacey and her family live through the 2013 El Reno tornado, the widest tornado ever recorded, and escape unscathed.\nIf only burnout had the same warning system.\nWith a 25-year career in engineering, Stacey, who is currently the Director of Engineering for Cloud Productivity at Elastic, has worked on her fair share of high-stress projects. She loves solving hard problems and always found herself energize…",
+          "link": "https://www.elastic.co/blog/culture-this-directors-two-step-approach-for-creating-a-burnout-resistant-engineering-culture",
+          "publishedOn": "2021-10-26T13:00:00.000Z",
+          "wordCount": 2212,
+          "title": "This director’s 2-step approach for creating a burnout-resistant engineering culture"
+        },
+        {
           "id": "https://www.elastic.co/blog/getting-started-with-elastic-package",
           "author": "Julien Lind",
           "description": "We will present and use elastic-package tool which is the official developer tool, used to create your own integrations that will be run by the Elastic Agent.",
@@ -466,7 +484,7 @@
           "description": "We will use an official builder tool for Elastic Integration, elastic-package, to bootstrap a new integration to observe an unsupported product or service. We will configure it to collect available logs and metrics and run under the Elastic Agent.",
           "link": "https://www.elastic.co/blog/use-elastic-package-to-create-and-bootstrap-a-new-elastic-integration",
           "publishedOn": "2021-10-21T13:00:00.000Z",
-          "wordCount": 873,
+          "wordCount": 2154,
           "title": "Use elastic-package to create and bootstrap a new Elastic integration"
         },
         {
@@ -502,7 +520,7 @@
           "description": ",\nAt Elastic we use elastic-package on a daily basis to create and maintain Integrations. Today we’ll learn how to quickly bootstrap a new Elastic Integration using a built-in creator, and how to start observing the service.\nElastic Integrations are a new way of using Elastic Agents to observe logs and metrics. By using Internet of Things smart devices, you can track data like electricity consumption, gas, or water usage in your household. However, there are countless IoT devices out there, and they all have proprietary apps or web pages to monitor data. What if you want to have a dashboard with all your IoT data in one place? That’s where Integrations come in.\nSay you want to monitor your home’s water usage for leaks. An Elastic Integration makes this easy. Your IoT device has a REST endp…",
           "link": "https://www.elastic.co/blog/use-elastic-package-to-create-and-bootstrap-a-new-elastic-integration",
           "publishedOn": "2021-10-21T13:00:00.000Z",
-          "wordCount": 873,
+          "wordCount": 2154,
           "title": "Use elastic-package to create and bootstrap a new Elastic integration"
         },
         {
@@ -540,24 +558,6 @@
           "publishedOn": "2021-10-19T13:00:00.000Z",
           "wordCount": 913,
           "title": "A single platform for US Government security and logging compliance"
-        },
-        {
-          "id": "https://www.elastic.co/blog/master-the-elastic-stack-with-trainings-featured-at-elasticon-global",
-          "author": "Nikki Jones",
-          "description": "Elastic Training has certified Analysts and Engineers across more than 37 countries, and set out to certify many more as a result of industry leading live training sessions held at this year's ElasticOn Global event.",
-          "link": "https://www.elastic.co/blog/master-the-elastic-stack-with-trainings-featured-at-elasticon-global",
-          "publishedOn": "2021-10-15T13:00:00.000Z",
-          "wordCount": 428,
-          "title": "Master the Elastic Stack with trainings featured at ElasticON Global"
-        },
-        {
-          "id": "https://www.elastic.co/blog/master-the-elastic-stack-with-trainings-featured-at-elasticon-global",
-          "author": "Nikki Jones",
-          "description": ",\nElasticON Global 2021 was an amazing opportunity to connect with the elastic community, participate in over countless sessions, and hear from industry leaders. It was also an opportunity to participate in one of our live, industry-leading training courses led by our team of expert instructors. Explore how these hands-on courses help build your Elastic skills to master the Elastic stack, enabling you to tackle any use case and explore what's possible with Elastic.\n,Now, let's take a deep dive into how you can enhance your professional visibility and support your organizations’ business objectives.\nTraining sessions overview\nWe are passionate about helping engineers and analysts succeed with Elastic solutions. Exceptional networking and exciting roadmaps aside, one of the best ways to make…",
-          "link": "https://www.elastic.co/blog/master-the-elastic-stack-with-trainings-featured-at-elasticon-global",
-          "publishedOn": "2021-10-15T13:00:00.000Z",
-          "wordCount": 428,
-          "title": "Master the Elastic Stack with trainings featured at ElasticON Global"
         },
         {
           "id": "https://www.elastic.co/blog/implementing-academic-papers-lessons-learned-from-elasticsearch-and-lucene",
@@ -700,12 +700,21 @@
       "siteUrl": "https://devblogs.microsoft.com/devops",
       "articles": [
         {
+          "id": "https://devblogs.microsoft.com/devops/?p=62622",
+          "author": "Jay Gordon",
+          "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes Episode 60 – DevOps Solutions on @Azure with @TheAprilEdwards appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-60-devops-solutions-on-azure-with-theapriledwards/",
+          "publishedOn": "2021-10-26T14:20:22.000Z",
+          "wordCount": 1597,
+          "title": "AzureFunBytes Episode 60 – DevOps Solutions on @Azure with @TheAprilEdwards"
+        },
+        {
           "id": "https://devblogs.microsoft.com/devops/?p=62603",
           "author": "Jay Gordon",
           "description": "The top stories from the #AzureDevOps #community for 2021.10.22 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2021.10.22 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-10-22/",
           "publishedOn": "2021-10-22T08:00:42.000Z",
-          "wordCount": 1352,
+          "wordCount": 1344,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.10.22"
         },
         {
@@ -714,7 +723,7 @@
           "description": "The top stories from the #AzureDevOps #community for 2021.10.15 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2021.10.15 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-10-15/",
           "publishedOn": "2021-10-15T11:00:53.000Z",
-          "wordCount": 1380,
+          "wordCount": 1372,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.10.15"
         },
         {
@@ -723,7 +732,7 @@
           "description": "Introduction\nThe post Hosted Pipelines Image Deprecation appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/hosted-pipelines-image-deprecation/",
           "publishedOn": "2021-10-14T08:30:24.000Z",
-          "wordCount": 1539,
+          "wordCount": 1570,
           "title": "Hosted Pipelines Image Deprecation"
         },
         {
@@ -732,7 +741,7 @@
           "description": "Microsoft’s Donovan Brown defines DevOps as, “the union of people, process, and products to enable continuous delivery of value to our end users.” Microsoft Create is back again and by popular demand, we are going to talk about everything DevOps. Join us at “Create: DevOps”\nThe post Join us at #MSCreate: DevOps on @LearnTV October 21, 2021 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/join-us-at-mscreate-devops-on-learntv-october-21-2021/",
           "publishedOn": "2021-10-14T08:00:51.000Z",
-          "wordCount": 1619,
+          "wordCount": 1617,
           "title": "Join us at #MSCreate: DevOps on @LearnTV October 21, 2021"
         },
         {
@@ -741,7 +750,7 @@
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes Episode 59 – Remote Possibilities with @burkeholland appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-59-remote-possibilities-with-burkeholland/",
           "publishedOn": "2021-10-12T20:22:39.000Z",
-          "wordCount": 1414,
+          "wordCount": 1412,
           "title": "AzureFunBytes Episode 59 – Remote Possibilities with @burkeholland"
         },
         {
@@ -750,7 +759,7 @@
           "description": "On September 28, 2021, Azure DevOps was notified by Axosoft of a vulnerability in a dependency of their popular git GUI client – GitKraken. This vulnerability led to the GitKraken client generating insecure SSH keys.\nThe post Azure DevOps Response to GitKraken SSH Bug appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azure-devops-response-to-gitkraken-ssh-bug/",
           "publishedOn": "2021-10-11T17:04:57.000Z",
-          "wordCount": 1137,
+          "wordCount": 1135,
           "title": "Azure DevOps Response to GitKraken SSH Bug"
         },
         {
@@ -759,7 +768,7 @@
           "description": "The top stories from the #AzureDevOps #community for 2021.10.08 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2021.10.08 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-10-08/",
           "publishedOn": "2021-10-08T09:00:27.000Z",
-          "wordCount": 1516,
+          "wordCount": 1540,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.10.08"
         },
         {
@@ -768,7 +777,7 @@
           "description": "Azure Boards Fall Update\nThe post Azure Boards Fall Update appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azure-boards-fall-update/",
           "publishedOn": "2021-10-05T17:55:08.000Z",
-          "wordCount": 1423,
+          "wordCount": 1443,
           "title": "Azure Boards Fall Update"
         },
         {
@@ -777,17 +786,8 @@
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes Episode 58 – Improve your Open Source Security with @WhiteSourceSoft appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-58-improve-your-open-source-security-with-whitesourcesoft/",
           "publishedOn": "2021-10-05T13:52:04.000Z",
-          "wordCount": 1345,
+          "wordCount": 1343,
           "title": "AzureFunBytes Episode 58 – Improve your Open Source Security with @WhiteSourceSoft"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=62461",
-          "author": "Jay Gordon",
-          "description": "The top stories from the #AzureDevOps #community for 2021.10.01 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2021.10.01 appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-10-01/",
-          "publishedOn": "2021-10-01T12:00:48.000Z",
-          "wordCount": 1425,
-          "title": "Top Stories from the Microsoft DevOps Community – 2021.10.01"
         }
       ]
     },
@@ -802,6 +802,33 @@
       "feedUrl": "http://feeds.feedburner.com/AmazonWebServicesBlog",
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
+        {
+          "id": "1286bfacea703cc5f6cf0a6ec9ec02e8da004157",
+          "author": "Jeff Barr",
+          "description": "There are more applications today for deep learning than ever before. Natural language processing, recommendation systems, image recognition, video recognition, and more can all benefit from high-quality, well-trained models. The process of building such a model is iterative: construct an initial model, train it on the ground truth data, do some test inferences, refine the […]",
+          "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/kT4AywJOLW8/",
+          "publishedOn": "2021-10-26T20:21:12.000Z",
+          "wordCount": 1064,
+          "title": "New – EC2 Instances Powered by Gaudi Accelerators for Training Deep Learning Models"
+        },
+        {
+          "id": "08e94bdba33ee3a9bde2a667e0c729331ea1712a",
+          "author": "Sébastien Stormacq",
+          "description": "Today, we are opening three new AWS Local Zones in Las Vegas, New York City (located in New Jersey), and Portland metro areas. We are now at a total of 14 Local Zones in 13 cities since Jeff Barr announced the first Local Zone in Los Angeles in December 2019. These three new Local Zones […]",
+          "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/MFSYp_zqmfo/",
+          "publishedOn": "2021-10-26T19:03:37.000Z",
+          "wordCount": 1276,
+          "title": "AWS Local Zones Are Now Open in Las Vegas, New York City, and Portland"
+        },
+        {
+          "id": "3b4cda05885324e5d32490bd1276e5a6555d06a9",
+          "author": "Channy Yun",
+          "description": "Managing databases in self-managed environments such as on premises or Amazon Elastic Compute Cloud (Amazon EC2) requires customers to spend time and resources doing database administration tasks such as provisioning, scaling, patching, backups, and configuring for high availability. So, hundreds of thousands of AWS customers use Amazon Relational Database Service (Amazon RDS) because it automates […]",
+          "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/pmaZP4xBz8Y/",
+          "publishedOn": "2021-10-26T17:48:20.000Z",
+          "wordCount": 1938,
+          "title": "Amazon RDS Custom for Oracle – New Control Capabilities in Database Environment"
+        },
         {
           "id": "77fab76e6d668a7c6a06a9119500629ac4ff9ade",
           "author": "Sean M. Tracey",
@@ -900,15 +927,6 @@
           "publishedOn": "2021-09-27T17:51:43.000Z",
           "wordCount": 2947,
           "title": "New – Amazon Genomics CLI Is Now Open Source and Generally Available"
-        },
-        {
-          "id": "2ffd0d8fddb47ee86afdbcfa8ab33909870bf899",
-          "author": "Sébastien Stormacq",
-          "description": "During the AWS re:Invent conference last year, I wrote about new capabilities added to Amazon Connect. Today, I am happy to announce the general availability of two of these capabilities, Voice ID and Wisdom, and the launch of a new one. High-volume outbound communications allows, as the name implies, the initiation and management of outbound […]",
-          "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/J94TeS2u8O4/",
-          "publishedOn": "2021-09-27T12:17:19.000Z",
-          "wordCount": 1585,
-          "title": "New for Amazon Connect: Voice ID, Wisdom, and Outbound Communications"
         }
       ]
     },
@@ -964,7 +982,7 @@
           "id": "https://camunda.com/?p=34955",
           "author": "Tassilo Weidner",
           "description": "Discover how our latest Camunda Platform Runtime 7.16.0 release introduces a new Quarkus Extension allowing you to add an embedded process engine.\nThe post Camunda Platform: Deploy a Process to Kubernetes with Quarkus appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2021/10/camunda-platform-engine-goes-kubernetes-native-with-quarkus/",
+          "link": "https://camunda.com/blog/2021/10/camunda-platform-deploy-a-process-to-kubernetes-with-quarkus/",
           "publishedOn": "2021-10-25T15:50:38.000Z",
           "wordCount": 2446,
           "title": "Camunda Platform: Deploy a Process to Kubernetes with Quarkus"
@@ -984,7 +1002,7 @@
           "description": "Are your models hard to understand? Find out why it's better to model everything and leave nothing out. Future you will thank you later.\nThe post Q&A: The One with the Model No One Understands appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/qa-the-one-with-the-model-no-one-understands/",
           "publishedOn": "2021-10-22T13:00:00.000Z",
-          "wordCount": 1748,
+          "wordCount": 1747,
           "title": "Q&A: The One with the Model No One Understands"
         },
         {
@@ -993,7 +1011,7 @@
           "description": "Tired of bottlenecks slowing down your productivity? Learn how to solve your bottleneck and provide proof to your team that it's fixed.\nThe post The Ultimate Guide to Solving Bottlenecks with Camunda: Part 2 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/the-ultimate-guide-to-solving-bottlenecks-with-camunda-part-2/",
           "publishedOn": "2021-10-21T07:00:00.000Z",
-          "wordCount": 2390,
+          "wordCount": 2391,
           "title": "The Ultimate Guide to Solving Bottlenecks with Camunda: Part 2"
         },
         {
@@ -1029,7 +1047,7 @@
           "description": "We’re excited to announce the release of Camunda Optimize 3.6.0 and that Optimize is now available as part of Camunda Cloud.\nThe post Camunda Optimize 3.6.0 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/camunda-optimize-360-released/",
           "publishedOn": "2021-10-12T06:30:00.000Z",
-          "wordCount": 2971,
+          "wordCount": 2972,
           "title": "Camunda Optimize 3.6.0 Released",
           "enclosure": {
             "url": "https://camunda.com/wp-content/uploads/2021/10/Bottleneck-Analysis-Dashboard-2.mov",
@@ -1043,7 +1061,7 @@
           "description": "We’re happy to announce our Cawemo Enterprise On-Premises 1.8.0 release. Sign up for a free trial of Camunda Enterprise Platform to learn more.\nThe post Cawemo Enterprise (On-Premises) 1.8.0 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/cawemo-enterprise-on-premises-1-8-0-released/",
           "publishedOn": "2021-10-12T06:15:00.000Z",
-          "wordCount": 1587,
+          "wordCount": 1588,
           "title": "Cawemo Enterprise (On-Premises) 1.8.0 Released"
         },
         {
@@ -1052,7 +1070,7 @@
           "description": "We're excited to announce that Camunda Automation Platform 7.16.0 is now available, including many new features. Explore our latest release.\nThe post Camunda Automation Platform 7.16.0 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/camunda-platform-7-16-0-released/",
           "publishedOn": "2021-10-12T06:00:00.000Z",
-          "wordCount": 2510,
+          "wordCount": 2511,
           "title": "Camunda Automation Platform 7.16.0 Released"
         }
       ]
@@ -1187,12 +1205,21 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
+          "id": "https://medium.com/p/6943995cf3a8",
+          "author": "Netflix Technology Blog",
+          "description": "Martin Tingley with Wenjing Zheng, Simon Ejdemyr, Stephanie Lane, and Colin McFarland",
+          "link": "https://netflixtechblog.com/interpreting-a-b-test-results-false-negatives-and-power-6943995cf3a8?source=rss----2615bd06b42e---4",
+          "publishedOn": "2021-10-26T15:45:24.000Z",
+          "wordCount": 2286,
+          "title": "Interpreting A/B test results: false negatives and power"
+        },
+        {
           "id": "https://medium.com/p/4c978b79843f",
           "author": "Netflix Technology Blog",
           "description": "By Ian Haken",
           "link": "https://netflixtechblog.com/revisiting-bettertls-certificate-path-building-4c978b79843f?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-10-14T18:56:19.000Z",
-          "wordCount": 4177,
+          "wordCount": 4167,
           "title": "Revisiting BetterTLS: Certificate Path Building"
         },
         {
@@ -1201,7 +1228,7 @@
           "description": "Joel Sole, Mariana Afonso, Lukas Krasula, Zhi Li, Pulkit Tandon",
           "link": "https://netflixtechblog.com/cambi-a-banding-artifact-detector-96777ae12fe2?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-10-14T17:00:33.000Z",
-          "wordCount": 2046,
+          "wordCount": 2069,
           "title": "CAMBI, a banding artifact detector"
         },
         {
@@ -1210,7 +1237,7 @@
           "description": "Quality of a client application is of paramount importance to global digital products, as it is the primary way customers interact with a…",
           "link": "https://netflixtechblog.com/safe-updates-of-client-applications-at-netflix-1d01c71a930c?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-10-07T18:23:30.000Z",
-          "wordCount": 2355,
+          "wordCount": 2354,
           "title": "Safe Updates of Client Applications at Netflix"
         },
         {
@@ -1219,7 +1246,7 @@
           "description": "Martin Tingley with Wenjing Zheng, Simon Ejdemyr, Stephanie Lane, and Colin McFarland",
           "link": "https://netflixtechblog.com/interpreting-a-b-test-results-false-positives-and-statistical-significance-c1522d0db27a?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-10-07T15:11:37.000Z",
-          "wordCount": 2937,
+          "wordCount": 2942,
           "title": "Interpreting A/B test results: false positives and statistical significance"
         },
         {
@@ -1228,7 +1255,7 @@
           "description": "A tiny framework that provides an abstraction layer for React web applications to leverage.",
           "link": "https://netflixtechblog.com/how-we-build-micro-frontends-with-lattice-22b8635f77ea?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-09-28T16:43:49.000Z",
-          "wordCount": 1901,
+          "wordCount": 1897,
           "title": "How We Build Micro Frontends With Lattice"
         }
       ]

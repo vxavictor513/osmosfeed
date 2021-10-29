@@ -6,6 +6,24 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/10/28/bootiful-podcast-daniel-mikusa-on-buildpacks-paketo-upx-tilt-graalvm-native-images-docker-containers-and-more",
+          "author": null,
+          "description": "Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks to Paketo contributor Daniel Mikusa about buildpacks, Paketo, containers, UPX, and so much more",
+          "link": "https://spring.io/blog/2021/10/28/bootiful-podcast-daniel-mikusa-on-buildpacks-paketo-upx-tilt-graalvm-native-images-docker-containers-and-more",
+          "publishedOn": "2021-10-28T22:00:00.000Z",
+          "wordCount": 421,
+          "title": "Bootiful Podcast: Daniel Mikusa on Buildpacks, Paketo, UPX, Tilt, GraalVM Native Images, Docker Containers and more"
+        },
+        {
+          "id": "https://spring.io/blog/2021/10/28/spring-graphql-1-0-0-m3-released",
+          "author": null,
+          "description": "The Spring GraphQL team is pleased to announce a 3rd milestone towards a 1.0.0 release, driven with great help from the community .\nBatch Mapping\n\r\nThe 2nd milestone introduced an annotation programming model for GraphQL data controllers with @SchemaMapping methods. The 3rd milestone adds a new @BatchMapping method.\n\r\nIf you’re familiar with GraphQL, you know that navigating an object graph can cause the “N+1 queries problem” if we’re not mapping carefully object relations. We could already leverage the Batching feature from GraphQL Java to solve that problem, but this release introduces dedicated support as well as an @BatchMapping annotation for a smoother experience:\n\r\n@Controller\r\r\npublic class BookController {\r\r\n\r\r\n    @BatchMapping\r\r\n    public Mono<Map<Book, Author>> author(List<Boo…",
+          "link": "https://spring.io/blog/2021/10/28/spring-graphql-1-0-0-m3-released",
+          "publishedOn": "2021-10-28T15:46:00.000Z",
+          "wordCount": 1046,
+          "title": "Spring GraphQL 1.0.0-M3 Released"
+        },
+        {
           "id": "https://spring.io/blog/2021/10/27/spring-tools-4-12-1-released",
           "author": null,
           "description": "Dear Spring Community,\n\r\nI am happy to announce the 4.12.1 release of the Spring Tools 4 for Eclipse, Visual Studio Code, and Theia.\nimportant updates to the Spring Tools 4 for Eclipse distribution\n\r\n\r\n  \nembedded runtime upgraded to JDK17 (across all distributions, including Apple Silicon)\n\r\n  \nJava 17 support available (via separate add-on)\n\r\n  \nearly-access builds for upcoming Eclipse 2021-12 release available\n\r\n  \nearly-access builds for Apple Silicon platform (ARM M1) available\n\r\n\nadditional changes\n\r\n\r\n  \n(Eclipse) fixed: Alway Download sources and javadoc when I open sts (distribution includes latest m2e 1.18.2 release now) (#692)\n\r\n  \n(Eclipse) fixed: docker integration doesn’t work on Apple Silicon (#684)\n\r\n  \n(Eclipse) fixed: Annoying error message on every eclipse startup if CF destination is not reachable (#688)\n\r\n\r\nTo download the distribution for Eclipse and find links to the marketplace entries for Visual Studio Code and Theia, please go visit:\n\r\n\r\n  \nSpring Tools 4: https://spring.io/tools/\n\r\n\r\nDetailed changes can be found here: https://github.com/spring-projects/sts4/wiki/Changelog#2021-10-27-4121-release-no-language-server-updates\n\r\nSpring Tools 4.13.0 is scheduled to be released in late December 2021.\n\r\nEnjoy!",
@@ -56,7 +74,7 @@
           "description": "When we got the results back from the latest State Of Spring survey, 67% of you said you would like to see better support for service discovery and configuration management on Kubernetes.\n\r\nWith the release of Spring Cloud 2021.0.0-M3, we are taking a big step forward to addressing both of these concerns!\n\r\nSpring Cloud Kubernetes has offered a DiscoveryClient implementation since its inception. However, the implementation required the application to have permissions to use the Kubernetes API server. This proved to be a major barrier for many Spring Cloud user’s, as Kubernetes administrators were hesitant to give apps permissions to make API requests to the Kubernetes API server.\n\r\nConfiguration management using Spring Cloud Kubernetes also suffered from the same requirement of needing acc…",
           "link": "https://spring.io/blog/2021/10/26/new-features-for-spring-cloud-kubernetes-in-spring-cloud-2021-0-0-m3",
           "publishedOn": "2021-10-26T07:00:00.000Z",
-          "wordCount": 1355,
+          "wordCount": 1443,
           "title": "New Features For Spring Cloud Kubernetes In Spring Cloud 2021.0.0-M3"
         },
         {
@@ -166,24 +184,6 @@
           "publishedOn": "2021-10-18T14:08:52.000Z",
           "wordCount": 832,
           "title": "Spring Data 2021.1 enters RC phase"
-        },
-        {
-          "id": "https://spring.io/blog/2021/10/18/spring-data-jdbc-how-do-i-implement-caching",
-          "author": null,
-          "description": "This is the third article of a series about how to tackle various challenges you might encounter when using Spring Data JDBC.\n\r\n\r\n\r\nThe series consists of\n\r\n\r\n\r\n\r\n\r\nSpring Data JDBC - How to use custom ID generation.\n\r\n\r\n\r\nSpring Data JDBC - How do I make bidirectional relationships?\n\r\n\r\n\r\nSpring Data JDBC - How do I implement caching? (this article).\n\r\n\r\n\r\n\r\n\r\nIf you are new to Spring Data JDBC, you should start by reading its introduction and this article, which explains the relevance of aggregates in the context of Spring Data JDBC. Trust me, it is important.\n\r\n\r\n\r\nThis article is based on part of a talk I did at Spring One 2021.\n\r\n\r\n\r\nWhy does Spring Data not cache?\n\r\n\r\n\r\nOne important design decision for Spring Data JDBC was to NOT include caching.\r\nThe reason for this was as with so …",
-          "link": "https://spring.io/blog/2021/10/18/spring-data-jdbc-how-do-i-implement-caching",
-          "publishedOn": "2021-10-18T13:00:00.000Z",
-          "wordCount": 1377,
-          "title": "Spring Data JDBC - How do I implement caching?"
-        },
-        {
-          "id": "https://spring.io/blog/2021/10/18/spring-data-2021-0-6-and-2020-0-14-released",
-          "author": null,
-          "description": "On behalf of the team, I’m pleased to announce the availability of the Spring Data 2021.0.6 and 2020.0.14 service releases.\n\r\nBoth releases are built on top of Spring Framework 5.3.11. For your convenience, you can consume Spring Data 2021.0.6 and 2020.0.14 through the upcoming Spring Boot releases 2.5.6 and 2.4.12, respectively. \n\r\nBoth service releases ship with mostly bug fixes and dependency upgrades.\n\r\nTo round things off, here are the links to the artifacts, changelogs, and documentation:\n2021.0.6\n\r\n\r\n  \nSpring Data Commons 2.5.6 - Artifacts - Javadoc - Documentation - Changelog\n\r\n  \nSpring Data JDBC 2.2.6 - Artifacts - Javadoc - Documentation - Changelog\n\r\n  \nSpring Data JPA 2.5.6 - Artifacts - Javadoc - Documentation - Changelog\n\r\n  \nSpring Data for Apache Geode 2.5.6 - Artifacts -…",
-          "link": "https://spring.io/blog/2021/10/18/spring-data-2021-0-6-and-2020-0-14-released",
-          "publishedOn": "2021-10-18T09:33:47.000Z",
-          "wordCount": 836,
-          "title": "Spring Data 2021.0.6 and 2020.0.14 released"
         }
       ]
     },
@@ -193,12 +193,21 @@
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
         {
+          "id": "https://www.hashicorp.com/blog/hcp-consul-updates-new-terraform-module-for-eks-and-ec2-ecs-guide",
+          "author": null,
+          "description": "New quickstart video demos walk you through our new Terraform module for Amazon EKS and EC2, and show how to test managing Consul features on Amazon ECS.",
+          "link": "https://www.hashicorp.com/blog/hcp-consul-updates-new-terraform-module-for-eks-and-ec2-ecs-guide",
+          "publishedOn": "2021-10-28T18:00:00.000Z",
+          "wordCount": 779,
+          "title": "HCP Consul Updates: New Terraform Module for EKS and EC2, and an ECS Learn Guide"
+        },
+        {
           "id": "https://www.hashicorp.com/blog/announcing-cdk-for-terraform-0-7",
           "author": null,
           "description": "Cloud Development Kit for Terraform 0.7 introduces a tech preview for compatibility with AWS CDK constructs, a simplified provider API, and improved documentation.",
           "link": "https://www.hashicorp.com/blog/announcing-cdk-for-terraform-0-7",
           "publishedOn": "2021-10-27T16:00:00.000Z",
-          "wordCount": 1017,
+          "wordCount": 1022,
           "title": "Announcing CDK for Terraform 0.7"
         },
         {
@@ -207,7 +216,7 @@
           "description": "Take the beta exam for the newest level of Vault certification — for free — and you’ll have a chance to be one of the first certified Vault Ops Pros.",
           "link": "https://www.hashicorp.com/blog/volunteer-for-hashicorp-certified-vault-operations-professional-beta-exam",
           "publishedOn": "2021-10-25T16:00:00.000Z",
-          "wordCount": 718,
+          "wordCount": 715,
           "title": "Volunteer for HashiCorp Certified: Vault Operations Professional Beta Exam"
         },
         {
@@ -216,7 +225,7 @@
           "description": "Watch the keynotes and some of the most informative sessions for practitioners from HashiConf Global 2021.",
           "link": "https://www.hashicorp.com/blog/hashicorp-global-2021-delivers-deep-learning-for-practitioners",
           "publishedOn": "2021-10-22T20:00:00.000Z",
-          "wordCount": 1034,
+          "wordCount": 1031,
           "title": "HashiCorp Global 2021 Delivers Deep Learning for Practitioners"
         },
         {
@@ -225,7 +234,7 @@
           "description": "The new Consul API Gateway is a dedicated ingress solution for intelligently routing traffic to applications running on the HashiCorp Consul service mesh.",
           "link": "https://www.hashicorp.com/blog/announcing-hashicorp-consul-api-gateway",
           "publishedOn": "2021-10-20T16:00:00.000Z",
-          "wordCount": 1019,
+          "wordCount": 1037,
           "title": "Introducing the Consul API Gateway"
         },
         {
@@ -234,7 +243,7 @@
           "description": "HashiCorp Consul 1.11 adds important new features: multi-tenancy with administrative partitions and a new installation-and-management Consul Kubernetes CLI.",
           "link": "https://www.hashicorp.com/blog/announcing-hashicorp-consul-1-11",
           "publishedOn": "2021-10-20T16:00:00.000Z",
-          "wordCount": 1045,
+          "wordCount": 1063,
           "title": "Announcing HashiCorp Consul 1.11 Beta"
         },
         {
@@ -243,7 +252,7 @@
           "description": "Get a HashiCorp backpack! Contributors who share their open source templates in the Nomad Pack Registry can win a variety of Nomad-themed prizes.",
           "link": "https://www.hashicorp.com/blog/share-your-nomad-packs-for-a-pack-contest",
           "publishedOn": "2021-10-19T17:00:00.000Z",
-          "wordCount": 579,
+          "wordCount": 576,
           "title": "Share Your Nomad Packs for a Pack Contest"
         },
         {
@@ -252,7 +261,7 @@
           "description": "The free public beta of HCP Packer lets DevOps teams track and automate build updates across their HashiCorp Packer and Terraform workflows.",
           "link": "https://www.hashicorp.com/blog/announcing-the-public-beta-of-hcp-packer",
           "publishedOn": "2021-10-19T16:00:00.000Z",
-          "wordCount": 1328,
+          "wordCount": 1325,
           "title": "Announcing the Public Beta of HCP Packer"
         },
         {
@@ -261,7 +270,7 @@
           "description": "HashiCorp Vault now supports more than 100 integrations with 75 partners, including Cisco, Datadog, F5, MongoDB, Palo Alto Networks, Red Hat, ServiceNow, and Snowflake.",
           "link": "https://www.hashicorp.com/blog/hashicorp-vault-surpasses-100-integrations-with-75-partners",
           "publishedOn": "2021-10-18T14:30:00.000Z",
-          "wordCount": 1497,
+          "wordCount": 1494,
           "title": "HashiCorp Vault Surpasses 100 Integrations with 75 Partners"
         },
         {
@@ -270,7 +279,7 @@
           "description": "AWS and HashiCorp are collaborating to develop Terraform modules.",
           "link": "https://www.hashicorp.com/blog/aws-hashicorp-collaborate-new-terraform-modules",
           "publishedOn": "2021-10-15T07:00:00.000Z",
-          "wordCount": 641,
+          "wordCount": 646,
           "title": "AWS and HashiCorp Collaborate on New Terraform Modules"
         },
         {
@@ -279,7 +288,7 @@
           "description": "HashiCorp Waypoint 0.6 focuses on Kubernetes by integrating Helm, showing Kubernetes resources in the UI, adding pod auto-scaling, and supporting Ingresses.",
           "link": "https://www.hashicorp.com/blog/announcing-hashicorp-waypoint-0-6",
           "publishedOn": "2021-10-14T19:00:00.000Z",
-          "wordCount": 1879,
+          "wordCount": 1876,
           "title": "Announcing HashiCorp Waypoint 0.6"
         },
         {
@@ -288,7 +297,7 @@
           "description": "Nomad 1.2 and Nomad Pack deliver exciting new features, workflows, and tools to the HashiCorp Nomad ecosystem.",
           "link": "https://www.hashicorp.com/blog/announcing-hashicorp-nomad-1-2",
           "publishedOn": "2021-10-14T18:00:00.000Z",
-          "wordCount": 1473,
+          "wordCount": 1470,
           "title": "Announcing HashiCorp Nomad 1.2 Beta"
         },
         {
@@ -297,7 +306,7 @@
           "description": "Compliance-driven network infrastructure automation with Consul-Terraform-Sync 0.4 is now generally available for HashiCorp Terraform Cloud.",
           "link": "https://www.hashicorp.com/blog/announcing-consul-terraform-sync-0-4-for-terraform-cloud",
           "publishedOn": "2021-10-14T15:00:00.000Z",
-          "wordCount": 1451,
+          "wordCount": 1467,
           "title": "Announcing Consul-Terraform-Sync 0.4 for Terraform Cloud"
         },
         {
@@ -306,7 +315,7 @@
           "description": "With a live demo, two engineers from Mozilla’s Pocket show how they use CDK for Terraform to define and provision infrastructure in a TypeScript application.",
           "link": "https://www.hashicorp.com/blog/cdk-for-terraform-in-production-learning-from-pocket",
           "publishedOn": "2021-10-12T16:00:00.000Z",
-          "wordCount": 1085,
+          "wordCount": 1107,
           "title": "CDK for Terraform in Production: Learning from Pocket"
         },
         {
@@ -315,7 +324,7 @@
           "description": "Read this curated list of HashiCorp learning resources to help practitioners and organizations better understand the cloud operating model.",
           "link": "https://www.hashicorp.com/blog/hashicorp-learning-resources-reference-guide",
           "publishedOn": "2021-10-11T16:00:00.000Z",
-          "wordCount": 1824,
+          "wordCount": 1841,
           "title": "HashiCorp Learning Resources Reference Guide"
         },
         {
@@ -324,7 +333,7 @@
           "description": "Learn about HashiCorp’s plans for the KubeCon North America 2021 conference and get updates on CNCF integrations with our tools.",
           "link": "https://www.hashicorp.com/blog/a-guide-to-hashicorp-at-kubecon-north-america-2021",
           "publishedOn": "2021-10-08T16:00:00.000Z",
-          "wordCount": 789,
+          "wordCount": 786,
           "title": "A Guide to HashiCorp at KubeCon North America 2021"
         },
         {
@@ -333,7 +342,7 @@
           "description": "HashiCorp’s inaugural summer internship program is complete, here’s how it went and how you can apply for next year!",
           "link": "https://www.hashicorp.com/blog/hashicorp-s-early-career-program-a-year-in-review",
           "publishedOn": "2021-10-07T16:00:00.000Z",
-          "wordCount": 1091,
+          "wordCount": 1088,
           "title": "HashiCorp’s Early Career Program: A Year in Review"
         },
         {
@@ -342,7 +351,7 @@
           "description": "Vault can now integrate with ServiceNow for credential management with the Vault Credential Resolver integration now available in the ServiceNow App Store.",
           "link": "https://www.hashicorp.com/blog/hashicorp-vault-integrates-with-servicenow-for-credential-management",
           "publishedOn": "2021-10-06T16:00:00.000Z",
-          "wordCount": 675,
+          "wordCount": 672,
           "title": "HashiCorp Vault Integrates with ServiceNow for Credential Management"
         },
         {
@@ -351,7 +360,7 @@
           "description": "Get a list of the 10 most interesting HashiConf Global sessions for enterprise cloud platform teams. Join us October 19 - 20, 2021.",
           "link": "https://www.hashicorp.com/blog/hashiconf-global-preview-sessions-for-cloud-platform-teams",
           "publishedOn": "2021-10-05T15:15:00.000Z",
-          "wordCount": 1587,
+          "wordCount": 1584,
           "title": "HashiConf Global Preview: Sessions for Cloud Platform Teams"
         },
         {
@@ -360,17 +369,8 @@
           "description": "This new provider for HashiCorp Terraform — built around the AWS Cloud Control API — is designed to bring new services to Terraform faster.",
           "link": "https://www.hashicorp.com/blog/announcing-terraform-aws-cloud-control-provider-tech-preview",
           "publishedOn": "2021-09-30T20:00:00.000Z",
-          "wordCount": 1606,
+          "wordCount": 1628,
           "title": "Announcing Terraform AWS Cloud Control Provider Tech Preview"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/multi-cloud-in-context-comparing-cloud-survey-results",
-          "author": null,
-          "description": "From multi-cloud to COVID-19, we look at 5 key results of the HashiCorp State of Cloud Strategy survey, and how they stack up to other industry research.",
-          "link": "https://www.hashicorp.com/blog/multi-cloud-in-context-comparing-cloud-survey-results",
-          "publishedOn": "2021-09-29T19:00:00.000Z",
-          "wordCount": 1643,
-          "title": "Multi-Cloud in Context: Comparing Cloud Survey Results"
         }
       ]
     },
@@ -379,6 +379,24 @@
       "feedUrl": "https://www.elastic.co/blog/feed",
       "siteUrl": "https://www.elastic.co",
       "articles": [
+        {
+          "id": "https://www.elastic.co/blog/elasticon-global-telco",
+          "author": "Rick Fernandez",
+          "description": "At this year’s ElasticON Global, we held several sessions showcasing how the Elastic Search Platform is solving top challenges across the telecommunications industry, as well as the benefits that organizations are realizing with Elastic.",
+          "link": "https://www.elastic.co/blog/elasticon-global-telco",
+          "publishedOn": "2021-10-28T15:00:00.000Z",
+          "wordCount": 637,
+          "title": "Powering real-time insights for telcos and media services like T-Mobile and Netflix"
+        },
+        {
+          "id": "https://www.elastic.co/blog/elasticon-global-telco",
+          "author": "Rick Fernandez",
+          "description": ",\nAt this year’s ElasticON Global, our annual user conference, we held several industry-specific sessions showcasing how the Elastic Search Platform is solving top challenges across the telecommunications and communications services industry, as well as the return on investment that organizations in all industries are realizing with Elastic.\nAll industries today are faced with an always-on and connected consumer, with expectations on the rise. In the telecommunications and communications services industry in particular, customers are comparing their experiences with service providers against other digital experiences. The advanced analytics, flexibility, and speed of the Elastic Search Platform can help telcos meet these rising needs.\nReal-time insights at scale\nThe session Enable real-tim…",
+          "link": "https://www.elastic.co/blog/elasticon-global-telco",
+          "publishedOn": "2021-10-28T15:00:00.000Z",
+          "wordCount": 637,
+          "title": "Powering real-time insights for telcos and media services like T-Mobile and Netflix"
+        },
         {
           "id": "https://www.elastic.co/blog/eglobal-banks-on-elastic-to-excel-as-a-leader-in-the-credit-card-transactions-sector",
           "author": "Ander Murillo Zohn",
@@ -542,24 +560,6 @@
           "title": "Use elastic-package to create and bootstrap a new Elastic integration"
         },
         {
-          "id": "https://www.elastic.co/blog/forrester-evaluation-limitless-xdr",
-          "author": "Mike Nichols",
-          "description": "Forrester has recognized Elastic as a Contender in the industry's first analysis of XDR vendors, recognizing our strong customizable SIEM offering.\nForrester Research is helping to increase end-user understanding of the emerging XDR space with the release of The Forrester New WaveTM: Extended Detection and Response (XDR) Providers, Q4 2021. While the XDR market is still being defined, we believe this report is important third-party validation to guide users in understanding which vendors they should spend time evaluating.\n“…[This] is your official notice: XDR is real. This market matters; practitioners like you are using XDR today,” writes Allie Mellen, Forrester’s lead analyst in this market.\nForrester evaluated the “14 most significant providers in the category” that met their definition…",
-          "link": "https://www.elastic.co/blog/forrester-evaluation-limitless-xdr",
-          "publishedOn": "2021-10-20T20:05:00.000Z",
-          "wordCount": 879,
-          "title": "Elastic recognized in first Forrester XDR report"
-        },
-        {
-          "id": "https://www.elastic.co/blog/forrester-evaluation-limitless-xdr",
-          "author": "Mike Nichols",
-          "description": ",\nForrester has recognized Elastic as a Contender in the industry's first analysis of XDR vendors, recognizing our strong customizable SIEM offering.\nForrester Research is helping to increase end-user understanding of the emerging XDR space with the release of The Forrester New WaveTM: Extended Detection and Response (XDR) Providers, Q4 2021. While the XDR market is still being defined, we believe this report is important third-party validation to guide users in understanding which vendors they should spend time evaluating.\n “...[This] is your official notice: XDR is real. This market matters; practitioners like you are using XDR today,” writes Allie Mellen, Forrester’s lead analyst in this market.\nForrester evaluated the “14 most significant providers in the category” that met their defin…",
-          "link": "https://www.elastic.co/blog/forrester-evaluation-limitless-xdr",
-          "publishedOn": "2021-10-20T20:05:00.000Z",
-          "wordCount": 879,
-          "title": "Elastic recognized in first Forrester XDR report"
-        },
-        {
           "id": "https://www.elastic.co/blog/implementing-academic-papers-lessons-learned-from-elasticsearch-and-lucene",
           "author": "Julie Tibshirani",
           "description": "While developing Elasticsearch, we occasionally come across an important problem with no simple or established approach to solving it. It's natural to ask “hmm, is there an academic paper that addresses this?” Other times, academic work is a source of inspiration. We'll encounter a paper proposing a new algorithm or data structure and think “this would be so useful!” Here are just a few examples of how Elasticsearch and Apache Lucene incorporate academic work:\n\nHyperLogLog++ for cardinality aggregations\nC3 algorithm for adaptive replica selection\nHierarchical Navigable Small World Graphs (HNSW) for nearest vector search in Lucene\nMIC statistic to improve machine learning classification\nBlock-max WAND for faster top-hits retrieval in Lucene\n... and many more\nAcademic papers are an invaluabl…",
@@ -576,24 +576,6 @@
           "publishedOn": "2021-09-30T01:00:00.000Z",
           "wordCount": 1913,
           "title": "Implementing academic papers: lessons learned from Elasticsearch and Lucene"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-on-elastic-configuring-the-security-app-to-use-cross-cluster-search",
-          "author": "Aaron Jewitt",
-          "description": "The Elastic Infosec Detections and Analytics team is responsible for building, tuning, and maintaining the security detections used to protect all Elastic systems. Within Elastic we call ourselves Customer Zero and we strive to always use the newest versions of our products. \n\nIn the previous blog posts we gave an overview of our architecture and what data we send to our clusters. In this blog post we will provide instructions on how we use Cross Cluster Search (CCS) with the Security and Machine Learning (ML) applications\n\nConfiguring CCS\n\nGetting the Security app to work with CCS only requires a few minor changes. The first step is to configure the Security app so that it knows to look for the CCS index patterns instead of local index patterns. To do this open the Kibana ‘Advanced Settin…",
-          "link": "https://www.elastic.co/blog/elastic-on-elastic-configuring-the-security-app-to-use-cross-cluster-search",
-          "publishedOn": "2021-09-28T15:00:00.000Z",
-          "wordCount": 1264,
-          "title": "Elastic on Elastic: Configuring the Security app to use Cross Cluster Search"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-on-elastic-configuring-the-security-app-to-use-cross-cluster-search",
-          "author": "Aaron Jewitt",
-          "description": "This blog is a guide to configuring Elastic’s Security App to work with Cross Cluster Search",
-          "link": "https://www.elastic.co/blog/elastic-on-elastic-configuring-the-security-app-to-use-cross-cluster-search",
-          "publishedOn": "2021-09-28T15:00:00.000Z",
-          "wordCount": 1264,
-          "title": "Elastic on Elastic: Configuring the Security app to use Cross Cluster Search"
         }
       ]
     },
@@ -602,6 +584,15 @@
       "feedUrl": "https://www.ansible.com/blog/rss.xml",
       "siteUrl": "https://www.ansible.com/blog",
       "articles": [
+        {
+          "id": "https://www.ansible.com/blog/boost-your-cloud-native-deployments-with-red-hat-openshift",
+          "author": "Alina Buzachis",
+          "description": "Cloud-native deployments are becoming the new normal. Being able to keep full control of the application lifecycle (deployment, updates, and integrations) is a strategic advantage. This article will explain how the latest release of the Ansible Content Collection for Red Hat OpenShift takes the redhat.openshift Collection to the next level, improving the performance of large automation tasks.",
+          "link": "https://www.ansible.com/blog/boost-your-cloud-native-deployments-with-red-hat-openshift",
+          "publishedOn": "2021-10-28T13:00:00.000Z",
+          "wordCount": 1497,
+          "title": "Boost your cloud-native deployments with Red Hat OpenShift"
+        },
         {
           "id": "https://www.ansible.com/blog/ansible-for-aws-introduction-to-spot-instance-automation",
           "author": "Mandar Vijay Kulkarni",
@@ -723,7 +714,7 @@
           "description": "The top stories from the #AzureDevOps #community for 2021.10.15 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2021.10.15 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-10-15/",
           "publishedOn": "2021-10-15T11:00:53.000Z",
-          "wordCount": 1372,
+          "wordCount": 1371,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.10.15"
         },
         {
@@ -741,7 +732,7 @@
           "description": "Microsoft’s Donovan Brown defines DevOps as, “the union of people, process, and products to enable continuous delivery of value to our end users.” Microsoft Create is back again and by popular demand, we are going to talk about everything DevOps. Join us at “Create: DevOps”\nThe post Join us at #MSCreate: DevOps on @LearnTV October 21, 2021 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/join-us-at-mscreate-devops-on-learntv-october-21-2021/",
           "publishedOn": "2021-10-14T08:00:51.000Z",
-          "wordCount": 1617,
+          "wordCount": 1616,
           "title": "Join us at #MSCreate: DevOps on @LearnTV October 21, 2021"
         },
         {
@@ -750,7 +741,7 @@
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes Episode 59 – Remote Possibilities with @burkeholland appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-59-remote-possibilities-with-burkeholland/",
           "publishedOn": "2021-10-12T20:22:39.000Z",
-          "wordCount": 1412,
+          "wordCount": 1411,
           "title": "AzureFunBytes Episode 59 – Remote Possibilities with @burkeholland"
         },
         {
@@ -759,7 +750,7 @@
           "description": "On September 28, 2021, Azure DevOps was notified by Axosoft of a vulnerability in a dependency of their popular git GUI client – GitKraken. This vulnerability led to the GitKraken client generating insecure SSH keys.\nThe post Azure DevOps Response to GitKraken SSH Bug appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azure-devops-response-to-gitkraken-ssh-bug/",
           "publishedOn": "2021-10-11T17:04:57.000Z",
-          "wordCount": 1135,
+          "wordCount": 1134,
           "title": "Azure DevOps Response to GitKraken SSH Bug"
         },
         {
@@ -768,7 +759,7 @@
           "description": "The top stories from the #AzureDevOps #community for 2021.10.08 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2021.10.08 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-10-08/",
           "publishedOn": "2021-10-08T09:00:27.000Z",
-          "wordCount": 1540,
+          "wordCount": 1539,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.10.08"
         },
         {
@@ -793,6 +784,24 @@
       "feedUrl": "http://feeds.feedburner.com/AmazonWebServicesBlog",
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
+        {
+          "id": "58ff26983ab74e9116e26ec67e44852d5ab372ce",
+          "author": "Channy Yun",
+          "description": "We recently introduced Amazon EC2 M6i instances powered by the latest generation Intel® Xeon® Scalable processors with an all-core turbo frequency of 3.5 GHz, which offer customers up to 15% improvement in price performance compared to M5 instances. Today, I am happy to announce the availability of the new compute-optimized Amazon EC2 C6i instances, which […]",
+          "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/PVgpgKzV2TM/",
+          "publishedOn": "2021-10-28T22:05:31.000Z",
+          "wordCount": 935,
+          "title": "New – Amazon EC2 C6i Instances Powered by the Latest Generation Intel Xeon Scalable Processors"
+        },
+        {
+          "id": "c49cbf1a684657d2d6c1cb4fa064a78b2ab04c08",
+          "author": "Sébastien Stormacq",
+          "description": "Many of our customers are telling us they want to move away from commercial database vendors to avoid expensive costs and burdensome licensing terms. But migrating away from commercial and legacy databases can be time-consuming and resource-intensive. When migrating your databases, you can automate the migration of your database schema and data using the AWS […]",
+          "link": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/EAA6v27KD08/",
+          "publishedOn": "2021-10-28T20:56:54.000Z",
+          "wordCount": 1907,
+          "title": "Goodbye Microsoft SQL Server, Hello Babelfish"
+        },
         {
           "id": "3d39d9ceb38f954d93ed92346f5c37e06ee363fe",
           "author": "Danilo Poccia",
@@ -927,6 +936,15 @@
       "siteUrl": "https://xkcd.com/",
       "articles": [
         {
+          "id": "https://xkcd.com/2534/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/retractable_rocket.png\" title=\"Hard to believe that for so many years once they were fully extended we just let them tip over.\" alt=\"Hard to believe that for so many years once they were fully extended we just let them tip over.\" />",
+          "link": "https://xkcd.com/2534/",
+          "publishedOn": "2021-10-27T00:00:00.000Z",
+          "wordCount": 185,
+          "title": "Retractable Rocket"
+        },
+        {
           "id": "https://xkcd.com/2533/",
           "author": null,
           "description": "<img src=\"https://imgs.xkcd.com/comics/slope_hypothesis_testing.png\" title=\"&quot;What? I can't hear--&quot; &quot;What? I said, are you sure--&quot; &quot;CAN YOU PLEASE SPEAK--&quot;\" alt=\"&quot;What? I can't hear--&quot; &quot;What? I said, are you sure--&quot; &quot;CAN YOU PLEASE SPEAK--&quot;\" />",
@@ -952,15 +970,6 @@
           "publishedOn": "2021-10-20T00:00:00.000Z",
           "wordCount": 185,
           "title": "Dark Arts"
-        },
-        {
-          "id": "https://xkcd.com/2530/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/clinical_trials.png\" title=\"We don't need to do a clinical trial of this change because the standard of care is to adopt new ideas without doing clinical trials.\" alt=\"We don't need to do a clinical trial of this change because the standard of care is to adopt new ideas without doing clinical trials.\" />",
-          "link": "https://xkcd.com/2530/",
-          "publishedOn": "2021-10-18T00:00:00.000Z",
-          "wordCount": 185,
-          "title": "Clinical Trials"
         }
       ]
     },
@@ -975,7 +984,7 @@
           "description": "Discover how our latest Camunda Platform Runtime 7.16.0 release introduces a new Quarkus Extension allowing you to add an embedded process engine.\nThe post Camunda Platform: Deploy a Process to Kubernetes with Quarkus appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/camunda-platform-deploy-a-process-to-kubernetes-with-quarkus/",
           "publishedOn": "2021-10-25T15:50:38.000Z",
-          "wordCount": 2446,
+          "wordCount": 2457,
           "title": "Camunda Platform: Deploy a Process to Kubernetes with Quarkus"
         },
         {
@@ -984,7 +993,7 @@
           "description": "Outgrowing your monolithic architecture? Explore our best practices and tips on leveraging microservices in your automation program.\nThe post Migrating from Monolith to Microservices appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/migrating-from-monolith-to-microservices/",
           "publishedOn": "2021-10-25T13:30:00.000Z",
-          "wordCount": 1509,
+          "wordCount": 1521,
           "title": "Migrating from Monolith to Microservices"
         },
         {
@@ -993,7 +1002,7 @@
           "description": "Are your models hard to understand? Find out why it's better to model everything and leave nothing out. Future you will thank you later.\nThe post Q&A: The One with the Model No One Understands appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/qa-the-one-with-the-model-no-one-understands/",
           "publishedOn": "2021-10-22T13:00:00.000Z",
-          "wordCount": 1748,
+          "wordCount": 1759,
           "title": "Q&A: The One with the Model No One Understands"
         },
         {
@@ -1002,7 +1011,7 @@
           "description": "Tired of bottlenecks slowing down your productivity? Learn how to solve your bottleneck and provide proof to your team that it's fixed.\nThe post The Ultimate Guide to Solving Bottlenecks with Camunda: Part 2 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/the-ultimate-guide-to-solving-bottlenecks-with-camunda-part-2/",
           "publishedOn": "2021-10-21T07:00:00.000Z",
-          "wordCount": 2391,
+          "wordCount": 2403,
           "title": "The Ultimate Guide to Solving Bottlenecks with Camunda: Part 2"
         },
         {
@@ -1011,7 +1020,7 @@
           "description": "Is less really more? Maximus embraced microservices orchestration to gain reduced software license, implementation and infrastructure costs.\nThe post Maximus Modernizing and Maximizing Their Potential appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/maximus-modernizing-and-maximizing-their-potential/",
           "publishedOn": "2021-10-19T13:00:00.000Z",
-          "wordCount": 1627,
+          "wordCount": 1638,
           "title": "Maximus Modernizing and Maximizing Their Potential"
         },
         {
@@ -1020,7 +1029,7 @@
           "description": "Learn how to use Camunda Optimize to find and solve your bottlenecks with business processes, and apply best practices from the manufacturing industry. \nThe post The Ultimate Guide to Solving Bottlenecks with Camunda: Part 1 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/the-ultimate-guide-to-solving-bottlenecks-with-camunda-part-1/",
           "publishedOn": "2021-10-14T13:00:00.000Z",
-          "wordCount": 2190,
+          "wordCount": 2201,
           "title": "The Ultimate Guide to Solving Bottlenecks with Camunda: Part 1"
         },
         {
@@ -1029,7 +1038,7 @@
           "description": "We’re excited to announce the release of Camunda Platform 7.16.0. Join our webinar on Oct. 19, as Camunda experts discuss the advantages.\nThe post Align Human Workflows and Automation with Camunda Platform 7.16 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/align-human-workflows-and-automation-with-camunda-platform-716/",
           "publishedOn": "2021-10-12T07:00:00.000Z",
-          "wordCount": 1961,
+          "wordCount": 1973,
           "title": "Align Human Workflows and Automation with Camunda Platform 7.16"
         },
         {
@@ -1038,7 +1047,7 @@
           "description": "We’re excited to announce the release of Camunda Optimize 3.6.0 and that Optimize is now available as part of Camunda Cloud.\nThe post Camunda Optimize 3.6.0 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/camunda-optimize-360-released/",
           "publishedOn": "2021-10-12T06:30:00.000Z",
-          "wordCount": 2972,
+          "wordCount": 2983,
           "title": "Camunda Optimize 3.6.0 Released",
           "enclosure": {
             "url": "https://camunda.com/wp-content/uploads/2021/10/Bottleneck-Analysis-Dashboard-2.mov",
@@ -1052,7 +1061,7 @@
           "description": "We’re happy to announce our Cawemo Enterprise On-Premises 1.8.0 release. Sign up for a free trial of Camunda Enterprise Platform to learn more.\nThe post Cawemo Enterprise (On-Premises) 1.8.0 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/cawemo-enterprise-on-premises-1-8-0-released/",
           "publishedOn": "2021-10-12T06:15:00.000Z",
-          "wordCount": 1588,
+          "wordCount": 1599,
           "title": "Cawemo Enterprise (On-Premises) 1.8.0 Released"
         },
         {
@@ -1061,7 +1070,7 @@
           "description": "We're excited to announce that Camunda Automation Platform 7.16.0 is now available, including many new features. Explore our latest release.\nThe post Camunda Automation Platform 7.16.0 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/camunda-platform-7-16-0-released/",
           "publishedOn": "2021-10-12T06:00:00.000Z",
-          "wordCount": 2511,
+          "wordCount": 2523,
           "title": "Camunda Automation Platform 7.16.0 Released"
         }
       ]
@@ -1196,12 +1205,21 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
+          "id": "https://medium.com/p/a1fcc5f64906",
+          "author": "Netflix Technology Blog",
+          "description": "As part of our “Data Engineers of Netflix” series, Pallavi Phadnis shares her journey to Data Engineering at Netflix.",
+          "link": "https://netflixtechblog.com/data-engineers-of-netflix-interview-with-pallavi-phadnis-a1fcc5f64906?source=rss----2615bd06b42e---4",
+          "publishedOn": "2021-10-28T17:30:19.000Z",
+          "wordCount": 936,
+          "title": "Data Engineers of Netflix — Interview with Pallavi Phadnis"
+        },
+        {
           "id": "https://medium.com/p/75ff465f0d60",
           "author": "Netflix Technology Blog",
           "description": "Netflix’s ML Platform has made a new addition to Open Source",
           "link": "https://netflixtechblog.com/open-sourcing-a-monitoring-gui-for-metaflow-75ff465f0d60?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-10-27T21:58:06.000Z",
-          "wordCount": 1937,
+          "wordCount": 2140,
           "title": "Open-Sourcing a Monitoring GUI for Metaflow"
         },
         {
@@ -1210,7 +1228,7 @@
           "description": "Martin Tingley with Wenjing Zheng, Simon Ejdemyr, Stephanie Lane, and Colin McFarland",
           "link": "https://netflixtechblog.com/interpreting-a-b-test-results-false-negatives-and-power-6943995cf3a8?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-10-26T15:45:24.000Z",
-          "wordCount": 2526,
+          "wordCount": 2510,
           "title": "Interpreting A/B test results: false negatives and power"
         },
         {
@@ -1219,7 +1237,7 @@
           "description": "By Ian Haken",
           "link": "https://netflixtechblog.com/revisiting-bettertls-certificate-path-building-4c978b79843f?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-10-14T18:56:19.000Z",
-          "wordCount": 4172,
+          "wordCount": 4190,
           "title": "Revisiting BetterTLS: Certificate Path Building"
         },
         {
@@ -1228,7 +1246,7 @@
           "description": "Joel Sole, Mariana Afonso, Lukas Krasula, Zhi Li, Pulkit Tandon",
           "link": "https://netflixtechblog.com/cambi-a-banding-artifact-detector-96777ae12fe2?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-10-14T17:00:33.000Z",
-          "wordCount": 2072,
+          "wordCount": 2059,
           "title": "CAMBI, a banding artifact detector"
         },
         {
@@ -1237,7 +1255,7 @@
           "description": "Quality of a client application is of paramount importance to global digital products, as it is the primary way customers interact with a…",
           "link": "https://netflixtechblog.com/safe-updates-of-client-applications-at-netflix-1d01c71a930c?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-10-07T18:23:30.000Z",
-          "wordCount": 2346,
+          "wordCount": 2354,
           "title": "Safe Updates of Client Applications at Netflix"
         },
         {
@@ -1246,17 +1264,8 @@
           "description": "Martin Tingley with Wenjing Zheng, Simon Ejdemyr, Stephanie Lane, and Colin McFarland",
           "link": "https://netflixtechblog.com/interpreting-a-b-test-results-false-positives-and-statistical-significance-c1522d0db27a?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-10-07T15:11:37.000Z",
-          "wordCount": 2924,
+          "wordCount": 2954,
           "title": "Interpreting A/B test results: false positives and statistical significance"
-        },
-        {
-          "id": "https://medium.com/p/22b8635f77ea",
-          "author": "Netflix Technology Blog",
-          "description": "A tiny framework that provides an abstraction layer for React web applications to leverage.",
-          "link": "https://netflixtechblog.com/how-we-build-micro-frontends-with-lattice-22b8635f77ea?source=rss----2615bd06b42e---4",
-          "publishedOn": "2021-09-28T16:43:49.000Z",
-          "wordCount": 1912,
-          "title": "How We Build Micro Frontends With Lattice"
         }
       ]
     },
@@ -1266,11 +1275,20 @@
       "siteUrl": "http://ai.googleblog.com/",
       "articles": [
         {
+          "id": "http://feedproxy.google.com/~r/blogspot/gJZg/~3/PmNQ5-q9nsU/goemotions-dataset-for-fine-grained.html",
+          "author": null,
+          "description": "Posted by Dana Alon and Jeongwoo Ko, Software Engineers, Google Research \nEmotions are a key aspect of social interactions, influencing the way people behave and shaping relationships. This is especially true with language — with only a few words, we're able to express a wide variety of subtle and complex emotions. As such, it’s been a long-term goal among the research community to enable machines to understand context and emotion, which would, in turn, enable a variety of applications, including empathetic chatbots, models to detect harmful online behavior, and improved customer support interactions. \nIn the past decade, the NLP research community has made available several datasets for language-based emotion classification. The majority of those are constructed manually and cover targete…",
+          "link": "http://feedproxy.google.com/~r/blogspot/gJZg/~3/PmNQ5-q9nsU/goemotions-dataset-for-fine-grained.html",
+          "publishedOn": "2021-10-28T18:14:00.003Z",
+          "wordCount": 2550,
+          "title": "GoEmotions: A Dataset for Fine-Grained Emotion Classification"
+        },
+        {
           "id": "http://feedproxy.google.com/~r/blogspot/gJZg/~3/eoT5Hz-uPuA/grammar-correction-as-you-type-on-pixel.html",
           "author": null,
           "description": "Posted by Tony Mak, Software Engineer, Google Research and Simon Tong, Principal Engineer, Google Research, Brain Team \nDespite the success and widespread adoption of smartphones, using them to compose longer pieces of text is still quite cumbersome. As one writes, grammatical errors can often creep into the text (especially undesirable in formal situations), and correcting these errors can be time consuming on a small display with limited controls. \n  \nTo address some of these challenges, we are launching a grammar correction feature that is directly built into Gboard on Pixel 6 that works entirely on-device to preserve privacy, detecting and suggesting corrections for grammatical errors while the user is typing. Building such functionality required addressing a few key obstacles: memory …",
           "link": "http://feedproxy.google.com/~r/blogspot/gJZg/~3/eoT5Hz-uPuA/grammar-correction-as-you-type-on-pixel.html",
-          "publishedOn": "2021-10-27T20:31:00.001Z",
+          "publishedOn": "2021-10-27T20:31:00.002Z",
           "wordCount": 2322,
           "title": "Grammar Correction as You Type, on Pixel 6"
         },

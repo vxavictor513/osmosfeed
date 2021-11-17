@@ -6,6 +6,15 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/11/16/this-week-in-spring-november-16th-2021",
+          "author": null,
+          "description": "Hi, Spring fans! Can you believe it’s nearly December 2021? I’m still getting used to the idea that we’re already in 2021 and now the year’s nearly behind us! Stop the world, I want off! Time’s flying. \n\r\nI’ve been up to my eyeballs in Spring Tips video production. I can’t wait for you to see tomorrow’s installment (@SpringTipsLive)!\n\r\nWe’ve also got some great podcast interviews lined up. As always, new episodes drop on Apple Podcasts, Spotify, etc., every Thursday night (California time)/Friday (for most of the world). Don’t miss it (@BootifulPodcast)!\n\r\nYou could also just check out my blog (joshlong.com) for the upcoming appearances, podcasts, Spring Tips videos, etc. The trouble is that the blog is otherwise pretty boring. My boring content notwithstanding, it’s a plain l’il page on t…",
+          "link": "https://spring.io/blog/2021/11/16/this-week-in-spring-november-16th-2021",
+          "publishedOn": "2021-11-16T17:00:00.000Z",
+          "wordCount": 1059,
+          "title": "This Week in Spring - November 16th, 2021"
+        },
+        {
           "id": "https://spring.io/blog/2021/11/12/spring-data-2021-1-0-goes-ga",
           "author": null,
           "description": "On behalf of the team, I’m pleased to announce the availability of the Spring Data 2021.1.0.\n\r\nThese are the most important changes:\n\r\n\r\n  \nUpgrade to Querydsl 5.0\n\r\n  \nSupport jMolecules’ @Identity Annotation for Identifiers\n\r\n  \nFluent Query API for Querydsl and Query-by-Example\n\r\n  \nDeprecated RxJava 2 Support\n\r\n  \nMongoDB @DocumentReference, schema derivation for encrypted fields, and MongoDB 5.0 Time Series support\n\r\n  \nRedis 6.2 support\n\r\n  \nSupport for streaming large result sets in Spring Data JDBC, Projections, and SQL Builder refinements around conditions, JOINs, and SELECT projections\n\r\n  \nSupport for Impersonation and support for Querydsl in Neo4j\n\r\n\r\nYou can find a more detailed description in the Release Notes.\nThis is the first time we offer release notes in this format, so …",
@@ -175,15 +184,6 @@
           "publishedOn": "2021-10-26T17:00:00.000Z",
           "wordCount": 461,
           "title": "Security Reports for Spring Framework, Spring Data REST, Spring AMQP, and Spring Cloud OpenFeign"
-        },
-        {
-          "id": "https://spring.io/blog/2021/10/26/spring-cloud-openfeign-versions-2-2-10-release-3-0-5-and-3-1-0-m4-are-now-available",
-          "author": null,
-          "description": "On behalf of the community, I am pleased to announce that Spring Cloud OpenFeign versions 2.2.10.RELEASE, 3.0.5 and 3.1.0-M4 have been released.\n\r\nThese are primarily security releases with fixes for the CVE-2021-22044. \n\r\nApplications using type-level @RequestMappingannotations over Feign client interfaces, can be involuntarily exposing endpoints corresponding to @RequestMapping-annotated interface methods. Although a response is not returned for a request sent in this way, it does reach the corresponding server-side endpoint.\n\r\nThe practice of using a type-level @RequestMapping on a Feign client interface has been discouraged in the documentation, but we’re now taking the step to reject it completely.\n\r\nThese versions will be picked up later by the 2020.0.x and 2021.0.x release trains, however, we recommend you already upgrade Spring Cloud OpenFeign in your projects to these most recent versions.\n\r\nSee all issues included in 2.2.10.RELEASE here\nSee all issues included in 3.1.0-M4 here\nNo additional issues were included for 3.0.5.",
-          "link": "https://spring.io/blog/2021/10/26/spring-cloud-openfeign-versions-2-2-10-release-3-0-5-and-3-1-0-m4-are-now-available",
-          "publishedOn": "2021-10-26T17:00:00.000Z",
-          "wordCount": 535,
-          "title": "Spring Cloud OpenFeign versions 2.2.10.RELEASE, 3.0.5 and 3.1.0-M4 are now available"
         }
       ]
     },
@@ -192,6 +192,15 @@
       "feedUrl": "https://www.hashicorp.com/blog/feed.xml",
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
+        {
+          "id": "https://www.hashicorp.com/blog/announcing-hashicorp-nomad-1-2",
+          "author": null,
+          "description": "Nomad 1.2 introduces Nomad Pack, which simplifies application deployment and lifecycle management on Nomad.",
+          "link": "https://www.hashicorp.com/blog/announcing-hashicorp-nomad-1-2",
+          "publishedOn": "2021-11-16T18:00:00.000Z",
+          "wordCount": 1527,
+          "title": "Announcing General Availability of HashiCorp Nomad 1.2"
+        },
         {
           "id": "https://www.hashicorp.com/blog/terraform-cloud-variable-sets-beta-now-available",
           "author": null,
@@ -306,7 +315,7 @@
           "description": "Get a HashiCorp backpack! Contributors who share their open source templates in the Nomad Pack Registry can win a variety of Nomad-themed prizes.",
           "link": "https://www.hashicorp.com/blog/share-your-nomad-packs-for-a-pack-contest",
           "publishedOn": "2021-10-19T17:00:00.000Z",
-          "wordCount": 578,
+          "wordCount": 577,
           "title": "Share Your Nomad Packs for a Pack Contest"
         },
         {
@@ -335,22 +344,40 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
+          "id": "https://www.elastic.co/blog/easily-share-kibana-assets-with-elastic-package",
+          "author": "Julien Lind",
+          "description": "Elastic-package is the official developer tool, used to create your own integrations that will be run by Elastic Agent.",
+          "link": "https://www.elastic.co/blog/easily-share-kibana-assets-with-elastic-package",
+          "publishedOn": "2021-11-16T14:00:00.000Z",
+          "wordCount": 608,
+          "title": "Easily share Kibana assets with elastic-package"
+        },
+        {
+          "id": "https://www.elastic.co/blog/easily-share-kibana-assets-with-elastic-package",
+          "author": "Julien Lind",
+          "description": ",\nAn invaluable way to share best practices across your company, teams, and network is by sharing assets. We will present the export option of the elastic-package tool that will make your asset sharing as easy as ABC. In this guide you will walk through the elastic-package export option and learn about sharing and spreading useful dashboards.\nInstead of reinventing the wheel, try to repurpose the work that has already been done. Some Kibana dashboards have already been created for you, but why not share yours as well.\nDashboard creation and export with elastic-package\nTo begin we will need to locally start a full elastic stack in order to access Kibana UI.\njulienlind@MacBook-Pro elastic-package % elastic-package stack up -d -v,\n“stack up” will start all needed containers, the -d option wil…",
+          "link": "https://www.elastic.co/blog/easily-share-kibana-assets-with-elastic-package",
+          "publishedOn": "2021-11-16T14:00:00.000Z",
+          "wordCount": 608,
+          "title": "Easily share Kibana assets with elastic-package"
+        },
+        {
           "id": "https://www.elastic.co/elastic-speed-scale-ease-to-real-time-situational-awareness-rtsa-command-control",
           "author": "Suzzanna Martinez",
           "description": "In this Q&A, find out how real-time situational awareness played a significant role in a former Air Operations Center operator’s daily workflow, and how technology speeds up the OODA loop in mission critical scenarios.",
           "link": "https://www.elastic.co/elastic-speed-scale-ease-to-real-time-situational-awareness-rtsa-command-control",
           "publishedOn": "2021-11-15T22:08:25.000Z",
-          "wordCount": 556,
-          "title": "How Elastic brings speed, scale, and ease to Real Time Situational Awareness"
+          "wordCount": 553,
+          "title": "How Elastic brings speed, scale, and ease to real-time situational awareness"
         },
         {
           "id": "https://www.elastic.co/elastic-speed-scale-ease-to-real-time-situational-awareness-rtsa-command-control",
           "author": "Suzzanna Martinez",
-          "description": ",\nReal-time situational awareness (RTSA) done right provides complete, actionable information about what is going on around the operating environment at the moment and enables accurate decision making and data sharing easily, rapidly, and securely. RTSA has real world impact on a number of use cases, including network management and cybersecurity, supply chain management, military operations, public safety and emergency response, port of entry and logistics security, and campus or facility security. \n\nIn this blog, we explore what RTSA done right means to someone who has had boots on the digital ground – a former command and control (C2) system operator.\nRTSA from the C2 operator’s perspective\n\nQ: As a former operator in an Air Operations Center (AOC) environment, what are the essential th…",
+          "description": ",\nReal-time situational awareness (RTSA) done right provides complete, actionable information about what is going on around the operating environment at the moment and enables accurate decision making and data sharing easily, rapidly, and securely. RTSA has real world impact on a number of use cases, including network management and cybersecurity, supply chain management, military operations, public safety and emergency response, port of entry and logistics security, and campus or facility security.\nIn this blog, we explore what RTSA done right means to someone who has had boots on the digital ground – a former command and control (C2) system operator.\nRTSA from the C2 operator’s perspective\nQ: As a former operator in an Air Operations Center (AOC) environment, what are the essential thing…",
           "link": "https://www.elastic.co/elastic-speed-scale-ease-to-real-time-situational-awareness-rtsa-command-control",
           "publishedOn": "2021-11-15T22:08:25.000Z",
-          "wordCount": 556,
-          "title": "How Elastic brings speed, scale, and ease to Real Time Situational Awareness"
+          "wordCount": 553,
+          "title": "How Elastic brings speed, scale, and ease to real-time situational awareness"
         },
         {
           "id": "https://www.elastic.co/blog/elastic-introduces-the-new-customer-success-website-to-accelerate-user-success",
@@ -495,24 +522,6 @@
           "publishedOn": "2021-11-08T19:47:12.000Z",
           "wordCount": 1012,
           "title": "How analytics better enables online learning, cost management, and cybersecurity in higher education"
-        },
-        {
-          "id": "https://www.elastic.co/blog/culture-someone-like-me-yannick-fhima-on-overcoming-differences-and-finding-fulfillment-in-tech",
-          "author": "David Kravets",
-          "description": "In this edition of our Someone Like Me series, we meet Yannick Fhima, Senior Manager, Solutions Architecture, EMEA South who although was born with a disability didn’t stop him from excelling in sports, finding a fulfilling career in tech which lead him to finding his passion for managing a team.",
-          "link": "https://www.elastic.co/blog/culture-someone-like-me-yannick-fhima-on-overcoming-differences-and-finding-fulfillment-in-tech",
-          "publishedOn": "2021-11-05T15:00:00.000Z",
-          "wordCount": 646,
-          "title": "Someone Like Me | Yannick Fhima on overcoming differences and finding fulfillment in tech"
-        },
-        {
-          "id": "https://www.elastic.co/blog/culture-someone-like-me-yannick-fhima-on-overcoming-differences-and-finding-fulfillment-in-tech",
-          "author": "David Kravets",
-          "description": ",\nWe all want to work for a company where we fit in. That’s why Elastic built a Source Code\n that encourages all to come as they are. In the Someone Like Me blog \nseries, we highlight Elasticians who have a unique story — one, perhaps,\n just as unique as yours.\nIn this edition, we meet Yannick Fhima, Senior Manager, Solutions \nArchitecture, EMEA South who although was born with a disability, was \nable to excel in sports and find a fulfilling career in tech which \neventually led him to finding his passion for managing a team.     \nBorn with a disability, Yannick faced multiple surgeries on his hands\n in addition to having to overcome his differences from classmates. \nWhile traditionally that may have impacted his ability to participate in\n and play sports, Yannick actually outperformed peer…",
-          "link": "https://www.elastic.co/blog/culture-someone-like-me-yannick-fhima-on-overcoming-differences-and-finding-fulfillment-in-tech",
-          "publishedOn": "2021-11-05T15:00:00.000Z",
-          "wordCount": 646,
-          "title": "Someone Like Me | Yannick Fhima on overcoming differences and finding fulfillment in tech"
         }
       ]
     },
@@ -597,7 +606,7 @@
           "description": "Welcome back! I am Jay Gordon and every week I try to bring you the latest updates from around the DevOps on Azure community. If you have a post you’d like to have me include, I am always listening. You can reach out on Twitter or LinkedIn and I will be sure to share your latest post with the community.\nThe post Top Stories from the Microsoft DevOps Community – 2021.11.12 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-11-12/",
           "publishedOn": "2021-11-12T10:00:58.000Z",
-          "wordCount": 1358,
+          "wordCount": 1421,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.11.12"
         },
         {
@@ -880,12 +889,21 @@
       "siteUrl": "https://camunda.com",
       "articles": [
         {
+          "id": "https://camunda.com/?p=36771",
+          "author": "Brittany des Vignes",
+          "description": "Dig into how Intuit used workflow automation to manage 396 transactions per second during its most demanding months.\nThe post How Intuit Managed 19M Processes During Peak Tax, Accounting Seasons appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2021/11/how-intuit-managed-19m-processes-during-peak-tax-accounting-seasons/",
+          "publishedOn": "2021-11-16T14:00:00.000Z",
+          "wordCount": 1818,
+          "title": "How Intuit Managed 19M Processes During Peak Tax, Accounting Seasons"
+        },
+        {
           "id": "https://camunda.com/?p=36489",
           "author": "Luca Buchholz",
           "description": "Our next cohort of Camunda Champions are about to begin. Take a look at our new recruits and learn how to join the program.\nThe post More Amazing Camunda Champions Loading… appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/11/more-amazing-camunda-champions-loading/",
           "publishedOn": "2021-11-11T07:05:00.000Z",
-          "wordCount": 1532,
+          "wordCount": 1533,
           "title": "More Amazing Camunda Champions Loading…"
         },
         {
@@ -894,7 +912,7 @@
           "description": "Get started with Camunda Cloud 1.3.0-alpha1 now! The alpha includes bug fixes and the preparations for the next 1.3.0 release. \nThe post Camunda Cloud 1.3.0-alpha1 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/11/camunda-cloud-1-3-0-alpha1-released/",
           "publishedOn": "2021-11-09T15:45:23.000Z",
-          "wordCount": 1600,
+          "wordCount": 1601,
           "title": "Camunda Cloud 1.3.0-alpha1 Released"
         },
         {
@@ -903,7 +921,7 @@
           "description": "We’re excited to announce the release of Camunda Optimize 3.7.0-alpha1. Get started by downloading the release or signing up for a free trial.\nThe post Camunda Optimize 3.7.0-alpha1 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/11/camunda-optimize-3-7-0-alpha1-released/",
           "publishedOn": "2021-11-09T07:15:00.000Z",
-          "wordCount": 1522,
+          "wordCount": 1523,
           "title": "Camunda Optimize 3.7.0-alpha1 Released"
         },
         {
@@ -912,7 +930,7 @@
           "description": "We're pleased to announce the next alpha release of Camunda Platform Runtime 7.17.0. Download Camunda for free or run it with Dock.\nThe post Camunda Automation Platform 7.17.0-alpha1 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/11/camunda-automation-platform-7170-alpha1-released/",
           "publishedOn": "2021-11-09T07:05:00.000Z",
-          "wordCount": 1489,
+          "wordCount": 1490,
           "title": "Camunda Automation Platform 7.17.0-alpha1 Released"
         },
         {
@@ -921,7 +939,7 @@
           "description": "Learn why companies are ditching BPMS and applying process modeling and automation practices to their customer-facing processes instead. \nThe post 5 Factors Impacting Your Business Process Management appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/11/how-process-automation-can-ignite-your-business-process-management/",
           "publishedOn": "2021-11-05T14:00:00.000Z",
-          "wordCount": 1927,
+          "wordCount": 1923,
           "title": "5 Factors Impacting Your Business Process Management"
         },
         {
@@ -930,7 +948,7 @@
           "description": "Having trouble setting your variable sometimes? Find out how to check if your variable is set and why it can occasionally appear non-existent.\nThe post Q&A: The One with the Non-existent Variable appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/11/qa-the-one-with-the-non-existent-variable/",
           "publishedOn": "2021-11-04T13:30:00.000Z",
-          "wordCount": 1567,
+          "wordCount": 1568,
           "title": "Q&A: The One with the Non-existent Variable"
         },
         {
@@ -939,7 +957,7 @@
           "description": "If you’re going to be communicating with the Camunda engine from any kind of third-party system, you’re going to need to know a little bit about what Camunda’s REST API can do out of the box.\nThe post Start and Step Through a Process with REST (feat. SwaggerUI) appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/start-and-step-through-a-process-with-rest-feat-swaggerui/",
           "publishedOn": "2021-11-01T08:00:04.000Z",
-          "wordCount": 2148,
+          "wordCount": 2149,
           "title": "Start and Step Through a Process with REST (feat. SwaggerUI)"
         },
         {
@@ -948,7 +966,7 @@
           "description": "Get the bonus insight and answers we didn't have time to share during our recent Camunda Platform 7.16 release webinar.\nThe post Camunda Platform 7.16 Webinar Recap appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/camunda-platform-7-16-webinar-recap/",
           "publishedOn": "2021-10-29T13:30:00.000Z",
-          "wordCount": 2203,
+          "wordCount": 2204,
           "title": "Camunda Platform 7.16 Webinar Recap"
         },
         {
@@ -957,17 +975,8 @@
           "description": "Discover how our latest Camunda Platform Runtime 7.16.0 release introduces a new Quarkus Extension allowing you to add an embedded process engine.\nThe post Camunda Platform: Deploy a Process to Kubernetes with Quarkus appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/camunda-platform-deploy-a-process-to-kubernetes-with-quarkus/",
           "publishedOn": "2021-10-25T15:50:38.000Z",
-          "wordCount": 2471,
+          "wordCount": 2472,
           "title": "Camunda Platform: Deploy a Process to Kubernetes with Quarkus"
-        },
-        {
-          "id": "https://camunda.com/?p=34809",
-          "author": "Bryan Grover",
-          "description": "Outgrowing your monolithic architecture? Explore our best practices and tips on leveraging microservices in your automation program.\nThe post Migrating from Monolith to Microservices appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2021/10/migrating-from-monolith-to-microservices/",
-          "publishedOn": "2021-10-25T13:30:00.000Z",
-          "wordCount": 1523,
-          "title": "Migrating from Monolith to Microservices"
         }
       ]
     },
@@ -1012,12 +1021,39 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/2021-11-16-graphql-global-id-migration-update/",
+          "author": null,
+          "description": "All newly created GraphQL objects now have IDs that conform to a new format, which we refer to as \"next IDs.\" Learn how to migrate older IDs to the new format and why we're making the change.",
+          "link": "https://github.blog/2021-11-16-graphql-global-id-migration-update/",
+          "publishedOn": "2021-11-16T21:00:47.000Z",
+          "wordCount": 990,
+          "title": "GraphQL global ID migration update"
+        },
+        {
+          "id": "https://github.blog/2021-11-16-adding-custom-codeql-queries-code-scanning/",
+          "author": null,
+          "description": "The Exiv2 team tightened our security by enabling GitHub’s code scanning feature and adding custom queries tailored to the Exiv2 code base.",
+          "link": "https://github.blog/2021-11-16-adding-custom-codeql-queries-code-scanning/",
+          "publishedOn": "2021-11-16T18:00:02.000Z",
+          "wordCount": 2700,
+          "title": "Blue-teaming for Exiv2: adding custom CodeQL queries to code scanning"
+        },
+        {
+          "id": "https://github.blog/2021-11-16-the-2021-state-of-the-octoverse/",
+          "author": null,
+          "description": "The State of the Octoverse analyzes data from millions of developers &#038; repos to share trends across working habits, productivity, and career satisfaction.",
+          "link": "https://github.blog/2021-11-16-the-2021-state-of-the-octoverse/",
+          "publishedOn": "2021-11-16T14:00:01.000Z",
+          "wordCount": 539,
+          "title": "The 2021 State of the Octoverse"
+        },
+        {
           "id": "https://github.blog/2021-11-15-githubs-commitment-to-npm-ecosystem-security/",
           "author": null,
           "description": "We're sharing details of recent incidents on the npm registry, our investigations, and how we’re continuing to invest in the security of npm.",
           "link": "https://github.blog/2021-11-15-githubs-commitment-to-npm-ecosystem-security/",
           "publishedOn": "2021-11-15T23:00:52.000Z",
-          "wordCount": 1402,
+          "wordCount": 1405,
           "title": "GitHub&#8217;s commitment to npm ecosystem security"
         },
         {
@@ -1026,7 +1062,7 @@
           "description": "To celebrate this most recent release, here's GitHub's look at some of the most interesting features and changes introduced since last time.",
           "link": "https://github.blog/2021-11-15-highlights-from-git-2-34/",
           "publishedOn": "2021-11-15T17:42:15.000Z",
-          "wordCount": 3644,
+          "wordCount": 3666,
           "title": "Highlights from Git 2.34"
         },
         {
@@ -1035,7 +1071,7 @@
           "description": "What an incredible month it&#8217;s been for GitHub and our communities. Whilst we&#8217;ve been busy with GitHub Universe, our communities have been busy coding. It&#8217;s been a successful year for Hacktoberfest, with many first-time contributors",
           "link": "https://github.blog/2021-11-12-release-radar-oct-2021/",
           "publishedOn": "2021-11-12T22:00:36.000Z",
-          "wordCount": 1166,
+          "wordCount": 1167,
           "title": "Release Radar · October 2021 Edition"
         },
         {
@@ -1044,7 +1080,7 @@
           "description": "During Universe, we received a number of security questions ranging from our strategy to our advisories. Here's what we've got planned!",
           "link": "https://github.blog/2021-11-12-highlights-github-security-roadmap-universe-2021/",
           "publishedOn": "2021-11-12T17:30:15.000Z",
-          "wordCount": 947,
+          "wordCount": 954,
           "title": "Highlights from GitHub&#8217;s security roadmap at Universe 2021"
         },
         {
@@ -1053,7 +1089,7 @@
           "description": "Here are a few ways our teams use GitHub Discussions internally to build community, simplify workflows, and get key insights into our work.",
           "link": "https://github.blog/2021-11-10-7-unique-software-collaboration-features-in-github-discussions/",
           "publishedOn": "2021-11-10T18:00:39.000Z",
-          "wordCount": 1328,
+          "wordCount": 1339,
           "title": "7 unique software collaboration features in GitHub Discussions"
         },
         {
@@ -1062,7 +1098,7 @@
           "description": "The new sparse index feature makes it feel like you are working in a small repository when working in a focused portion of a monorepo.",
           "link": "https://github.blog/2021-11-10-make-your-monorepo-feel-small-with-gits-sparse-index/",
           "publishedOn": "2021-11-10T16:27:54.000Z",
-          "wordCount": 5089,
+          "wordCount": 5090,
           "title": "Make your monorepo feel small with Git’s sparse index"
         },
         {
@@ -1071,35 +1107,8 @@
           "description": "This latest release sees the introduction of a new role, a new webhook for GitHub Actions, and a bright edge to dark mode.",
           "link": "https://github.blog/2021-11-09-github-enterprise-server-3-3-enhances-ci-cd-and-adds-a-new-security-manager-role/",
           "publishedOn": "2021-11-09T19:33:49.000Z",
-          "wordCount": 736,
+          "wordCount": 753,
           "title": "GitHub Enterprise Server 3.3 enhances CI/CD and adds a new security manager role"
-        },
-        {
-          "id": "https://github.blog/2021-11-09-three-rules-bug-fixing-better-oss-security/",
-          "author": null,
-          "description": "When you're fixing a bug, especially a security vulnerability, you should add a regression test, fix the bug, and find &#038; fix variants.",
-          "link": "https://github.blog/2021-11-09-three-rules-bug-fixing-better-oss-security/",
-          "publishedOn": "2021-11-09T18:00:46.000Z",
-          "wordCount": 1852,
-          "title": "Three rules of bug fixing for better OSS security"
-        },
-        {
-          "id": "https://github.blog/2021-11-04-github-availability-report-october-2021/",
-          "author": null,
-          "description": "In October, we experienced one incident resulting in significant impact and degraded state of availability for the GitHub Codespaces service.",
-          "link": "https://github.blog/2021-11-04-github-availability-report-october-2021/",
-          "publishedOn": "2021-11-04T20:37:09.000Z",
-          "wordCount": 465,
-          "title": "GitHub Availability Report: October 2021"
-        },
-        {
-          "id": "https://github.blog/2021-11-04-10-github-actions-resources-basics-ci-cd/",
-          "author": null,
-          "description": "Tips on how to get started using GitHub Actions and resources to learn more about making it work for you.",
-          "link": "https://github.blog/2021-11-04-10-github-actions-resources-basics-ci-cd/",
-          "publishedOn": "2021-11-04T15:57:06.000Z",
-          "wordCount": 1187,
-          "title": "10 GitHub Actions resources to bookmark from the basics to CI/CD"
         }
       ]
     },
@@ -1120,7 +1129,7 @@
           "description": "Martin Tingley with Wenjing Zheng, Simon Ejdemyr, Stephanie Lane, Michael Lindon, and Colin McFarland",
           "link": "https://netflixtechblog.com/building-confidence-in-a-decision-8705834e6fd8?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-11-15T16:20:05.000Z",
-          "wordCount": 2212,
+          "wordCount": 2441,
           "title": "Building confidence in a decision"
         },
         {
@@ -1129,7 +1138,7 @@
           "description": "by Liwei Guo, Ashwin Kumar Gopi Valliammal, Raymond Tam, Chris Pham, Agata Opalach, Weibo Ni",
           "link": "https://netflixtechblog.com/bringing-av1-streaming-to-netflix-members-tvs-b7fc88e42320?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-11-09T19:45:50.000Z",
-          "wordCount": 2316,
+          "wordCount": 2313,
           "title": "Bringing AV1 Streaming to Netflix Members’ TVs"
         },
         {
@@ -1138,7 +1147,7 @@
           "description": "by Christos G. Bampis, Chao Chen, Anush K. Moorthy and Zhi Li",
           "link": "https://netflixtechblog.com/netflix-video-quality-at-scale-with-cosmos-microservices-552be631c113?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-11-02T17:04:55.000Z",
-          "wordCount": 1984,
+          "wordCount": 1965,
           "title": "Netflix Video Quality at Scale with Cosmos Microservices"
         },
         {
@@ -1147,7 +1156,7 @@
           "description": "As part of our “Data Engineers of Netflix” series, Pallavi Phadnis shares her journey to Data Engineering at Netflix.",
           "link": "https://netflixtechblog.com/data-engineers-of-netflix-interview-with-pallavi-phadnis-a1fcc5f64906?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-10-28T17:30:19.000Z",
-          "wordCount": 1149,
+          "wordCount": 1154,
           "title": "Data Engineers of Netflix — Interview with Pallavi Phadnis"
         },
         {
@@ -1156,7 +1165,7 @@
           "description": "Netflix’s ML Platform has made a new addition to Open Source",
           "link": "https://netflixtechblog.com/open-sourcing-a-monitoring-gui-for-metaflow-75ff465f0d60?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-10-27T21:58:06.000Z",
-          "wordCount": 2144,
+          "wordCount": 2154,
           "title": "Open-Sourcing a Monitoring GUI for Metaflow"
         },
         {
@@ -1165,7 +1174,7 @@
           "description": "Martin Tingley with Wenjing Zheng, Simon Ejdemyr, Stephanie Lane, and Colin McFarland",
           "link": "https://netflixtechblog.com/interpreting-a-b-test-results-false-negatives-and-power-6943995cf3a8?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-10-26T15:45:24.000Z",
-          "wordCount": 2514,
+          "wordCount": 2544,
           "title": "Interpreting A/B test results: false negatives and power"
         }
       ]
@@ -1180,7 +1189,7 @@
           "author": null,
           "description": "Posted by Nal Kalchbrenner and Lasse Espeholt, Google Research  \nDeep learning has successfully been applied to a wide range of important challenges, such as cancer prevention and increasing accessibility. The application of deep learning models to weather forecasts can be relevant to people on a day-to-day basis, from helping people plan their day to managing food production, transportation systems, or the energy grid. Weather forecasts typically rely on traditional physics-based techniques powered by the world’s largest supercomputers. Such methods are constrained by high computational requirements and are sensitive to approximations of the physical laws on which they are based.  \n Deep learning offers a new approach to computing forecasts. Rather than incorporating explicit physical law…",
           "link": "http://ai.googleblog.com/2021/11/metnet-2-deep-learning-for-12-hour.html",
-          "publishedOn": "2021-11-15T21:56:00.000Z",
+          "publishedOn": "2021-11-15T21:56:00.001Z",
           "wordCount": 2291,
           "title": "MetNet-2: Deep Learning for 12-Hour Precipitation Forecasting"
         },
@@ -1189,9 +1198,9 @@
           "author": null,
           "description": "Posted by Artem Dementyev, Hardware Engineer, Google Research \nMost wearable smart devices and mobile phones have the means to communicate with the user through tactile feedback, enabling applications from simple notifications to sensory substitution for accessibility. Typically, they accomplish this using vibrotactile actuators, which are small electric vibration motors. However, designing a haptic system that is well-targeted and effective for a given task requires experimentation with the number of actuators and their locations in the device, yet most practical applications require standalone on-body devices and integration into small form factors. This combination of factors can be difficult to address outside of a laboratory as integrating these systems can be quite time-consuming and…",
           "link": "http://ai.googleblog.com/2021/11/an-open-source-vibrotactile-haptics.html",
-          "publishedOn": "2021-11-12T19:07:00.003Z",
+          "publishedOn": "2021-11-12T19:07:00.004Z",
           "wordCount": 2365,
-          "title": "An Open Source Vibrotactile Haptics Platform for On-Body Applications."
+          "title": "An Open Source Vibrotactile Haptics Platform for On-Body Applications"
         },
         {
           "id": "http://ai.googleblog.com/2021/11/making-better-future-predictions-by.html",

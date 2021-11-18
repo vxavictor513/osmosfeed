@@ -6,6 +6,24 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/11/17/spring-cloud-netflix-version-2-2-10-release-is-now-available",
+          "author": null,
+          "description": "On behalf of the community, I am pleased to announce that Spring Cloud Netflix version 2.2.10.RELEASE has been released.\n\r\nThis is primarily a security release that fixes the CVE-2021-22053. \n\r\nApplications using both spring-cloud-netflix-hystrix-dashboard and spring-boot-starter-thymeleaf exposed a way to execute code submitted within the request URI path during the resolution of view templates. When a request was made at /hystrix/monitor;[user-provided-data], the path elements following hystrix/monitor were being evaluated as SpringEL expressions, which could lead to code execution.\n\r\nThis release fixes the issue.",
+          "link": "https://spring.io/blog/2021/11/17/spring-cloud-netflix-version-2-2-10-release-is-now-available",
+          "publishedOn": "2021-11-17T16:00:00.000Z",
+          "wordCount": 463,
+          "title": "Spring Cloud Netflix version 2.2.10.RELEASE is now available"
+        },
+        {
+          "id": "https://spring.io/blog/2021/11/17/spring-tips-controllers-websockets",
+          "author": null,
+          "description": "Hi, Spring fans! In this installment of Spring Tips, we’re going to resume our series on Spring’s @Controller annotation, this time diving into Spring’s WebSocket support.\n\r\nThe code is here",
+          "link": "https://spring.io/blog/2021/11/17/spring-tips-controllers-websockets",
+          "publishedOn": "2021-11-17T08:00:00.000Z",
+          "wordCount": 403,
+          "title": "Spring Tips: @Controllers: WebSockets"
+        },
+        {
           "id": "https://spring.io/blog/2021/11/16/this-week-in-spring-november-16th-2021",
           "author": null,
           "description": "Hi, Spring fans! Can you believe it’s nearly December 2021? I’m still getting used to the idea that we’re already in 2021 and now the year’s nearly behind us! Stop the world, I want off! Time’s flying. \n\r\nI’ve been up to my eyeballs in Spring Tips video production. I can’t wait for you to see tomorrow’s installment (@SpringTipsLive)!\n\r\nWe’ve also got some great podcast interviews lined up. As always, new episodes drop on Apple Podcasts, Spotify, etc., every Thursday night (California time)/Friday (for most of the world). Don’t miss it (@BootifulPodcast)!\n\r\nYou could also just check out my blog (joshlong.com) for the upcoming appearances, podcasts, Spring Tips videos, etc. The trouble is that the blog is otherwise pretty boring. My boring content notwithstanding, it’s a plain l’il page on t…",
@@ -166,24 +184,6 @@
           "publishedOn": "2021-10-27T07:00:00.000Z",
           "wordCount": 415,
           "title": "Spring Tips: @Controllers (pt. 1): the \"C\" in Model 2 MVC"
-        },
-        {
-          "id": "https://spring.io/blog/2021/10/26/this-week-in-spring-october-26th-2021",
-          "author": null,
-          "description": "Hi, Spring fans! Welcome to another installment of This Week in Spring! How are you? \n\r\nI’m doing well, as always. I literally just wrapped up presenting a fun session at the Russian Joker conference all about Spring and GraphQL. I got a ton of great questions from an enthusiastic audience. Thanks so much for joining me, everyone. I’ve got to get to other meetings, though, so let’s get this wonderful week in Spring out of the way! \n\r\n\r\n  \nSpring Tips: refreshable configuration with Spring Cloud Bus, and the Spring Cloud Config Monitor\n\r\n  \nIn last week’s A Bootiful Podcast, I talked to RabbitMQ and Weaveworks founder Alexis Richardson about RabbitMQ, Pivotal, Spring, Kubernetes, and FluxCD\n\r\n  \nA great article that @Javinpaul linked me to: What is @PropertySource in Spring Framework? \n\r\n  …",
-          "link": "https://spring.io/blog/2021/10/26/this-week-in-spring-october-26th-2021",
-          "publishedOn": "2021-10-26T18:00:00.000Z",
-          "wordCount": 779,
-          "title": "This Week in Spring - October 26th, 2021"
-        },
-        {
-          "id": "https://spring.io/blog/2021/10/26/security-reports-for-spring-framework-spring-data-rest-spring-amqp-and-spring-cloud-openfeign",
-          "author": null,
-          "description": "The recently released Spring Boot 2.5.6 and 2.4.12 releases contain fixes for the following security vulnerabilities:\n\r\n\r\n  \nCVE-2021-22096 for the Spring Framework\n\r\n  \nCVE-2021-22047 for Spring Data REST\n\r\n  \nCVE-2021-22097 for Spring AMQP\n\r\n\r\nIn addition, Spring Cloud OpenFeign has released versions 3.0.5 and 2.2.10, based on the same Spring Boot versions, and containing a fix for the following security vulnerability:\n\r\n\r\n  \nCVE-2021-22044 for Spring Cloud OpenFeign\n\r\n\r\nPlease, review the reports and upgrade!",
-          "link": "https://spring.io/blog/2021/10/26/security-reports-for-spring-framework-spring-data-rest-spring-amqp-and-spring-cloud-openfeign",
-          "publishedOn": "2021-10-26T17:00:00.000Z",
-          "wordCount": 461,
-          "title": "Security Reports for Spring Framework, Spring Data REST, Spring AMQP, and Spring Cloud OpenFeign"
         }
       ]
     },
@@ -193,12 +193,30 @@
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
         {
+          "id": "https://www.hashicorp.com/blog/vault-1-9",
+          "author": null,
+          "description": "Vault 1.9 can act as an OIDC provider, includes general availability of a key management secrets engine for Google Cloud, and updates to Transform, Namespaces, and the UI.",
+          "link": "https://www.hashicorp.com/blog/vault-1-9",
+          "publishedOn": "2021-11-17T17:00:00.000Z",
+          "wordCount": 1675,
+          "title": "Announcing HashiCorp Vault 1.9"
+        },
+        {
+          "id": "https://www.hashicorp.com/blog/consul-service-mesh-on-amazon-ecs-now-generally-available",
+          "author": null,
+          "description": "HashiCorp Consul service mesh on Amazon ECS is now generally available and ready for production environments.",
+          "link": "https://www.hashicorp.com/blog/consul-service-mesh-on-amazon-ecs-now-generally-available",
+          "publishedOn": "2021-11-17T17:00:00.000Z",
+          "wordCount": 780,
+          "title": "Consul Service Mesh on Amazon ECS Now Generally Available"
+        },
+        {
           "id": "https://www.hashicorp.com/blog/announcing-hashicorp-nomad-1-2",
           "author": null,
           "description": "Nomad 1.2 introduces Nomad Pack, which simplifies application deployment and lifecycle management on Nomad.",
           "link": "https://www.hashicorp.com/blog/announcing-hashicorp-nomad-1-2",
           "publishedOn": "2021-11-16T18:00:00.000Z",
-          "wordCount": 1527,
+          "wordCount": 1530,
           "title": "Announcing General Availability of HashiCorp Nomad 1.2"
         },
         {
@@ -207,7 +225,7 @@
           "description": "HashiCorp Terraform Cloud variable sets let you simplify the management of reusable variables across an entire organization. This feature is now available in public beta.",
           "link": "https://www.hashicorp.com/blog/terraform-cloud-variable-sets-beta-now-available",
           "publishedOn": "2021-11-11T17:00:00.000Z",
-          "wordCount": 1127,
+          "wordCount": 1130,
           "title": "Terraform Cloud Variable Sets Beta Now Available"
         },
         {
@@ -216,7 +234,7 @@
           "description": "HashiCorp Terraform Cloud takes home the prize in the DevOps Platforms category of the 2021 CRN Tech Innovator Awards.",
           "link": "https://www.hashicorp.com/blog/hashicorp-terraform-cloud-wins-2021-crn-tech-innovator-award",
           "publishedOn": "2021-11-10T17:00:00.000Z",
-          "wordCount": 950,
+          "wordCount": 953,
           "title": "HashiCorp Terraform Cloud Wins 2021 CRN Tech Innovator Award"
         },
         {
@@ -225,7 +243,7 @@
           "description": "We plan to archive some unmaintained HashiCorp Packer provisioner plugins. Here’s what that means for practitioners.",
           "link": "https://www.hashicorp.com/blog/plans-to-archive-unmaintained-packer-provisioner-plugins",
           "publishedOn": "2021-11-05T16:00:00.000Z",
-          "wordCount": 861,
+          "wordCount": 864,
           "title": "Plans to Archive Unmaintained Packer Provisioner Plugins"
         },
         {
@@ -234,7 +252,7 @@
           "description": "Learn how HashiCorp’s Vault Agent can help you achieve zero trust security in a simple manner, consistently across all application teams.",
           "link": "https://www.hashicorp.com/blog/why-use-the-vault-agent-for-secrets-management",
           "publishedOn": "2021-11-03T16:00:00.000Z",
-          "wordCount": 1624,
+          "wordCount": 1620,
           "title": "Why Use the Vault Agent for Secrets Management?"
         },
         {
@@ -243,7 +261,7 @@
           "description": "New integrations with Datadog, Grafana Cloud, and Splunk offer pre-built dashboards for usage and performance monitoring in HCP Vault.",
           "link": "https://www.hashicorp.com/blog/hcp-vault-adds-3-new-observability-integrations",
           "publishedOn": "2021-11-02T16:30:00.000Z",
-          "wordCount": 906,
+          "wordCount": 902,
           "title": "HCP Vault Adds 3 New Observability Integrations"
         },
         {
@@ -252,7 +270,7 @@
           "description": "A recap of key announcements and presentations from HashiConf Global 2021 — focused on the needs and interests of enterprises.",
           "link": "https://www.hashicorp.com/blog/highlights-from-hashiconf-global-2021-for-enterprises",
           "publishedOn": "2021-10-29T16:00:00.000Z",
-          "wordCount": 2571,
+          "wordCount": 2574,
           "title": "Highlights From HashiConf Global 2021 for Enterprises"
         },
         {
@@ -261,7 +279,7 @@
           "description": "New quickstart video demos walk you through our new Terraform module for Amazon EKS and EC2, and show how to test managing Consul features on Amazon ECS.",
           "link": "https://www.hashicorp.com/blog/hcp-consul-updates-new-terraform-module-for-eks-and-ec2-ecs-guide",
           "publishedOn": "2021-10-28T18:00:00.000Z",
-          "wordCount": 786,
+          "wordCount": 789,
           "title": "HCP Consul Updates: New Terraform Module for EKS and EC2, and an ECS Learn Guide"
         },
         {
@@ -270,7 +288,7 @@
           "description": "Cloud Development Kit for Terraform 0.7 introduces a tech preview for compatibility with AWS CDK constructs, a simplified provider API, and improved documentation.",
           "link": "https://www.hashicorp.com/blog/announcing-cdk-for-terraform-0-7",
           "publishedOn": "2021-10-27T16:00:00.000Z",
-          "wordCount": 1026,
+          "wordCount": 1029,
           "title": "Announcing CDK for Terraform 0.7"
         },
         {
@@ -279,7 +297,7 @@
           "description": "Take the beta exam for the newest level of Vault certification — for free — and you’ll have a chance to be one of the first certified Vault Ops Pros.",
           "link": "https://www.hashicorp.com/blog/volunteer-for-hashicorp-certified-vault-operations-professional-beta-exam",
           "publishedOn": "2021-10-25T16:00:00.000Z",
-          "wordCount": 713,
+          "wordCount": 723,
           "title": "Volunteer for HashiCorp Certified: Vault Operations Professional Beta Exam"
         },
         {
@@ -288,7 +306,7 @@
           "description": "Watch the keynotes and some of the most informative sessions for practitioners from HashiConf Global 2021.",
           "link": "https://www.hashicorp.com/blog/hashicorp-global-2021-delivers-deep-learning-for-practitioners",
           "publishedOn": "2021-10-22T20:00:00.000Z",
-          "wordCount": 1028,
+          "wordCount": 1031,
           "title": "HashiCorp Global 2021 Delivers Deep Learning for Practitioners"
         },
         {
@@ -297,7 +315,7 @@
           "description": "The new Consul API Gateway is a dedicated ingress solution for intelligently routing traffic to applications running on the HashiCorp Consul service mesh.",
           "link": "https://www.hashicorp.com/blog/announcing-hashicorp-consul-api-gateway",
           "publishedOn": "2021-10-20T16:00:00.000Z",
-          "wordCount": 1038,
+          "wordCount": 1044,
           "title": "Introducing the Consul API Gateway"
         },
         {
@@ -306,7 +324,7 @@
           "description": "HashiCorp Consul 1.11 adds important new features: multi-tenancy with administrative partitions and a new installation-and-management Consul Kubernetes CLI.",
           "link": "https://www.hashicorp.com/blog/announcing-hashicorp-consul-1-11",
           "publishedOn": "2021-10-20T16:00:00.000Z",
-          "wordCount": 1062,
+          "wordCount": 1068,
           "title": "Announcing HashiCorp Consul 1.11 Beta"
         },
         {
@@ -315,7 +333,7 @@
           "description": "Get a HashiCorp backpack! Contributors who share their open source templates in the Nomad Pack Registry can win a variety of Nomad-themed prizes.",
           "link": "https://www.hashicorp.com/blog/share-your-nomad-packs-for-a-pack-contest",
           "publishedOn": "2021-10-19T17:00:00.000Z",
-          "wordCount": 577,
+          "wordCount": 580,
           "title": "Share Your Nomad Packs for a Pack Contest"
         },
         {
@@ -324,17 +342,8 @@
           "description": "The free public beta of HCP Packer lets DevOps teams track and automate build updates across their HashiCorp Packer and Terraform workflows.",
           "link": "https://www.hashicorp.com/blog/announcing-the-public-beta-of-hcp-packer",
           "publishedOn": "2021-10-19T16:00:00.000Z",
-          "wordCount": 1322,
+          "wordCount": 1325,
           "title": "Announcing the Public Beta of HCP Packer"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/hashicorp-vault-surpasses-100-integrations-with-75-partners",
-          "author": null,
-          "description": "HashiCorp Vault now supports more than 100 integrations with 75 partners, including Cisco, Datadog, F5, MongoDB, Palo Alto Networks, Red Hat, ServiceNow, and Snowflake.",
-          "link": "https://www.hashicorp.com/blog/hashicorp-vault-surpasses-100-integrations-with-75-partners",
-          "publishedOn": "2021-10-18T14:30:00.000Z",
-          "wordCount": 1491,
-          "title": "HashiCorp Vault Surpasses 100 Integrations with 75 Partners"
         }
       ]
     },
@@ -343,6 +352,24 @@
       "feedUrl": "https://www.elastic.co/blog/feed",
       "siteUrl": "https://www.elastic.co",
       "articles": [
+        {
+          "id": "https://www.elastic.co/blog/culture-how-two-elastic-community-contributor-award-winners-became-amazing-elasticians",
+          "author": "David Kravets",
+          "description": "We created the Elastic Contributor Program to recognize and reward folks for sharing code, organizing and presenting at community events, and for writing about Elastic. Two Elastic Contributor winners are now Elasticians. This is their journey.",
+          "link": "https://www.elastic.co/blog/culture-how-two-elastic-community-contributor-award-winners-became-amazing-elasticians",
+          "publishedOn": "2021-11-17T14:00:00.000Z",
+          "wordCount": 1048,
+          "title": "How two Elastic Community Contributor award winners became amazing Elasticians"
+        },
+        {
+          "id": "https://www.elastic.co/blog/culture-how-two-elastic-community-contributor-award-winners-became-amazing-elasticians",
+          "author": "David Kravets",
+          "description": ",\nEvery year Elastic recognizes exceptional community members from across the globe with the Elastic Contributor Program. These Elastic champions have earned points for organizing events, delivering presentations, contributing code, writing or translating articles, and creating video tutorials -- all to advance in their careers. \nTwo of our recent Elastic Contributor Program winners took their love of Elastic and our technology to the next level by becoming full-time Elasticians. We couldn’t be prouder to share the journeys of Peter Steenbergen and Philipp Kahr, from contributor to Elastician.\nPeter Steenbergen, Senior Solutions Architect, Netherlands \nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt47808c58035e16ae/618c608700783f138785de70/elastic-blog-Peter-Steenbergen.jpg…",
+          "link": "https://www.elastic.co/blog/culture-how-two-elastic-community-contributor-award-winners-became-amazing-elasticians",
+          "publishedOn": "2021-11-17T14:00:00.000Z",
+          "wordCount": 1048,
+          "title": "How two Elastic Community Contributor award winners became amazing Elasticians"
+        },
         {
           "id": "https://www.elastic.co/blog/easily-share-kibana-assets-with-elastic-package",
           "author": "Julien Lind",
@@ -504,24 +531,6 @@
           "publishedOn": "2021-11-09T16:00:00.000Z",
           "wordCount": 644,
           "title": "Preview Elastic 8.0 with the beta release: Stack security by default, natural language processing, and more"
-        },
-        {
-          "id": "https://www.elastic.co/blog/higher-education-analytics-elastic-stack-uptime-security-apm-enterprise-search-edtech",
-          "author": "Jared Pane",
-          "description": "Whether higher education IT leaders are looking to restore, evolve, or transform IT ecosystems as pandemic recovery continues, they can make strides in the areas of online learning, cost management and cybersecurity with deeper analytical insight.",
-          "link": "https://www.elastic.co/blog/higher-education-analytics-elastic-stack-uptime-security-apm-enterprise-search-edtech",
-          "publishedOn": "2021-11-08T19:47:12.000Z",
-          "wordCount": 1012,
-          "title": "How analytics better enables online learning, cost management, and cybersecurity in higher education"
-        },
-        {
-          "id": "https://www.elastic.co/blog/higher-education-analytics-elastic-stack-uptime-security-apm-enterprise-search-edtech",
-          "author": "Jared Pane",
-          "description": ",\nAs higher education institutions operate in a changed world, IT leaders in education continue to work through issues that came to the forefront during the pandemic. \nEducational technology plays a big role, especially when it comes to equitable access to education. But IT leaders are also focusing on the back end, and leveraging analytics to inform their decision making as they restore, evolve, or transform digital ecosystems for increasingly blended learning environments.\nThree areas where analytics from the existing digital ecosystem enable a better student experience are: online learning, cost management, and cyber and information security. Whether IT leaders tackle one or all three, they have the ability to make a lasting impact using the Elastic search and analytics platform.\nKeepin…",
-          "link": "https://www.elastic.co/blog/higher-education-analytics-elastic-stack-uptime-security-apm-enterprise-search-edtech",
-          "publishedOn": "2021-11-08T19:47:12.000Z",
-          "wordCount": 1012,
-          "title": "How analytics better enables online learning, cost management, and cybersecurity in higher education"
         }
       ]
     },
@@ -606,7 +615,7 @@
           "description": "Welcome back! I am Jay Gordon and every week I try to bring you the latest updates from around the DevOps on Azure community. If you have a post you’d like to have me include, I am always listening. You can reach out on Twitter or LinkedIn and I will be sure to share your latest post with the community.\nThe post Top Stories from the Microsoft DevOps Community – 2021.11.12 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-11-12/",
           "publishedOn": "2021-11-12T10:00:58.000Z",
-          "wordCount": 1421,
+          "wordCount": 1420,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.11.12"
         },
         {
@@ -615,7 +624,7 @@
           "description": "If you’ve run into trouble while trying to publish an Azure DevOps or Visual Studio extension to the Visual Studio Marketplace, please ask your administrator if they have enabled the new policy to restrict the creation of global personal access tokens (PATs).\nThe post Known issue with publishing extensions: “Your ability to create global personal access tokens (PATs) is restricted by your organization.” appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/issue-with-extension-publishing/",
           "publishedOn": "2021-11-09T19:04:40.000Z",
-          "wordCount": 1226,
+          "wordCount": 1220,
           "title": "Known issue with publishing extensions: “Your ability to create global personal access tokens (PATs) is restricted by your organization.”"
         },
         {
@@ -624,7 +633,7 @@
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes Episode 61 – Deploying to @Azure is one “git push” away with @juliendubois appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-61-deploying-to-azure-is-one-git-push-away-with-juliendubois/",
           "publishedOn": "2021-11-09T13:00:07.000Z",
-          "wordCount": 1454,
+          "wordCount": 1442,
           "title": "AzureFunBytes Episode 61 – Deploying to @Azure is one “git push” away with @juliendubois"
         },
         {
@@ -660,7 +669,7 @@
           "description": "The top stories from the #AzureDevOps #community for 2021.10.29 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2021.10.29 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-10-29/",
           "publishedOn": "2021-10-29T08:01:00.000Z",
-          "wordCount": 1331,
+          "wordCount": 1330,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.10.29"
         },
         {
@@ -678,7 +687,7 @@
           "description": "This month, we are releasing fixes that impact our self-hosted product, Azure DevOps Server.\nPreviously, Azure DevOps Server could only create connections to GitHub Enterprise Server. With this patch, project administrators can create connections between Azure DevOps Server and repositories on GitHub.com.\nThe post October patches for Azure DevOps Server appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/october-patches-for-azure-devops-server/",
           "publishedOn": "2021-10-26T18:55:50.000Z",
-          "wordCount": 2212,
+          "wordCount": 2264,
           "title": "October patches for Azure DevOps Server"
         },
         {
@@ -703,6 +712,15 @@
       "feedUrl": "http://feeds.feedburner.com/AmazonWebServicesBlog",
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
+        {
+          "id": "111da60866f9a347924784f64e58e320956b900b",
+          "author": "Steve Roberts",
+          "description": "Should disaster strike, business continuity can require more than just periodic data backups. A full recovery that meets the business’s recovery time objectives (RTOs) must also include the infrastructure, operating systems, applications, and configurations used to process their data. The growing threats of ransomware highlight the need to be able to perform a full point-in-time […]",
+          "link": "https://aws.amazon.com/blogs/aws/scalable-cost-effective-disaster-recovery-in-the-cloud/",
+          "publishedOn": "2021-11-17T20:39:34.000Z",
+          "wordCount": 2093,
+          "title": "Scalable, Cost-Effective Disaster Recovery in the Cloud"
+        },
         {
           "id": "97d2f389c7c961dc211c93272540ec3cec3578c2",
           "author": "Ross Barich",
@@ -890,11 +908,11 @@
       "articles": [
         {
           "id": "https://camunda.com/?p=36771",
-          "author": "Brittany des Vignes",
+          "author": "Christian Connors",
           "description": "Dig into how Intuit used workflow automation to manage 396 transactions per second during its most demanding months.\nThe post How Intuit Managed 19M Processes During Peak Tax, Accounting Seasons appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/11/how-intuit-managed-19m-processes-during-peak-tax-accounting-seasons/",
           "publishedOn": "2021-11-16T14:00:00.000Z",
-          "wordCount": 1818,
+          "wordCount": 1816,
           "title": "How Intuit Managed 19M Processes During Peak Tax, Accounting Seasons"
         },
         {
@@ -912,7 +930,7 @@
           "description": "Get started with Camunda Cloud 1.3.0-alpha1 now! The alpha includes bug fixes and the preparations for the next 1.3.0 release. \nThe post Camunda Cloud 1.3.0-alpha1 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/11/camunda-cloud-1-3-0-alpha1-released/",
           "publishedOn": "2021-11-09T15:45:23.000Z",
-          "wordCount": 1601,
+          "wordCount": 1600,
           "title": "Camunda Cloud 1.3.0-alpha1 Released"
         },
         {
@@ -921,7 +939,7 @@
           "description": "We’re excited to announce the release of Camunda Optimize 3.7.0-alpha1. Get started by downloading the release or signing up for a free trial.\nThe post Camunda Optimize 3.7.0-alpha1 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/11/camunda-optimize-3-7-0-alpha1-released/",
           "publishedOn": "2021-11-09T07:15:00.000Z",
-          "wordCount": 1523,
+          "wordCount": 1522,
           "title": "Camunda Optimize 3.7.0-alpha1 Released"
         },
         {
@@ -930,7 +948,7 @@
           "description": "We're pleased to announce the next alpha release of Camunda Platform Runtime 7.17.0. Download Camunda for free or run it with Dock.\nThe post Camunda Automation Platform 7.17.0-alpha1 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/11/camunda-automation-platform-7170-alpha1-released/",
           "publishedOn": "2021-11-09T07:05:00.000Z",
-          "wordCount": 1490,
+          "wordCount": 1489,
           "title": "Camunda Automation Platform 7.17.0-alpha1 Released"
         },
         {
@@ -939,7 +957,7 @@
           "description": "Learn why companies are ditching BPMS and applying process modeling and automation practices to their customer-facing processes instead. \nThe post 5 Factors Impacting Your Business Process Management appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/11/how-process-automation-can-ignite-your-business-process-management/",
           "publishedOn": "2021-11-05T14:00:00.000Z",
-          "wordCount": 1923,
+          "wordCount": 1921,
           "title": "5 Factors Impacting Your Business Process Management"
         },
         {
@@ -948,7 +966,7 @@
           "description": "Having trouble setting your variable sometimes? Find out how to check if your variable is set and why it can occasionally appear non-existent.\nThe post Q&A: The One with the Non-existent Variable appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/11/qa-the-one-with-the-non-existent-variable/",
           "publishedOn": "2021-11-04T13:30:00.000Z",
-          "wordCount": 1568,
+          "wordCount": 1567,
           "title": "Q&A: The One with the Non-existent Variable"
         },
         {
@@ -957,7 +975,7 @@
           "description": "If you’re going to be communicating with the Camunda engine from any kind of third-party system, you’re going to need to know a little bit about what Camunda’s REST API can do out of the box.\nThe post Start and Step Through a Process with REST (feat. SwaggerUI) appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/start-and-step-through-a-process-with-rest-feat-swaggerui/",
           "publishedOn": "2021-11-01T08:00:04.000Z",
-          "wordCount": 2149,
+          "wordCount": 2144,
           "title": "Start and Step Through a Process with REST (feat. SwaggerUI)"
         },
         {
@@ -1020,6 +1038,15 @@
       "feedUrl": "https://github.com/blog/all.atom",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/2021-11-17-githubs-developer-first-approach-to-content-moderation/",
+          "author": null,
+          "description": "GitHub puts the needs of developers at the core of our content moderation policies. Learn more about our approach and how you can contribute.",
+          "link": "https://github.blog/2021-11-17-githubs-developer-first-approach-to-content-moderation/",
+          "publishedOn": "2021-11-17T17:00:36.000Z",
+          "wordCount": 1246,
+          "title": "GitHub’s developer-first approach to content moderation"
+        },
         {
           "id": "https://github.blog/2021-11-16-graphql-global-id-migration-update/",
           "author": null,
@@ -1100,15 +1127,6 @@
           "publishedOn": "2021-11-10T16:27:54.000Z",
           "wordCount": 5090,
           "title": "Make your monorepo feel small with Git’s sparse index"
-        },
-        {
-          "id": "https://github.blog/2021-11-09-github-enterprise-server-3-3-enhances-ci-cd-and-adds-a-new-security-manager-role/",
-          "author": null,
-          "description": "This latest release sees the introduction of a new role, a new webhook for GitHub Actions, and a bright edge to dark mode.",
-          "link": "https://github.blog/2021-11-09-github-enterprise-server-3-3-enhances-ci-cd-and-adds-a-new-security-manager-role/",
-          "publishedOn": "2021-11-09T19:33:49.000Z",
-          "wordCount": 753,
-          "title": "GitHub Enterprise Server 3.3 enhances CI/CD and adds a new security manager role"
         }
       ]
     },
@@ -1129,7 +1147,7 @@
           "description": "Martin Tingley with Wenjing Zheng, Simon Ejdemyr, Stephanie Lane, Michael Lindon, and Colin McFarland",
           "link": "https://netflixtechblog.com/building-confidence-in-a-decision-8705834e6fd8?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-11-15T16:20:05.000Z",
-          "wordCount": 2441,
+          "wordCount": 2456,
           "title": "Building confidence in a decision"
         },
         {
@@ -1138,7 +1156,7 @@
           "description": "by Liwei Guo, Ashwin Kumar Gopi Valliammal, Raymond Tam, Chris Pham, Agata Opalach, Weibo Ni",
           "link": "https://netflixtechblog.com/bringing-av1-streaming-to-netflix-members-tvs-b7fc88e42320?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-11-09T19:45:50.000Z",
-          "wordCount": 2313,
+          "wordCount": 2324,
           "title": "Bringing AV1 Streaming to Netflix Members’ TVs"
         },
         {
@@ -1147,7 +1165,7 @@
           "description": "by Christos G. Bampis, Chao Chen, Anush K. Moorthy and Zhi Li",
           "link": "https://netflixtechblog.com/netflix-video-quality-at-scale-with-cosmos-microservices-552be631c113?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-11-02T17:04:55.000Z",
-          "wordCount": 1965,
+          "wordCount": 1959,
           "title": "Netflix Video Quality at Scale with Cosmos Microservices"
         },
         {
@@ -1156,7 +1174,7 @@
           "description": "As part of our “Data Engineers of Netflix” series, Pallavi Phadnis shares her journey to Data Engineering at Netflix.",
           "link": "https://netflixtechblog.com/data-engineers-of-netflix-interview-with-pallavi-phadnis-a1fcc5f64906?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-10-28T17:30:19.000Z",
-          "wordCount": 1154,
+          "wordCount": 1152,
           "title": "Data Engineers of Netflix — Interview with Pallavi Phadnis"
         },
         {
@@ -1165,7 +1183,7 @@
           "description": "Netflix’s ML Platform has made a new addition to Open Source",
           "link": "https://netflixtechblog.com/open-sourcing-a-monitoring-gui-for-metaflow-75ff465f0d60?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-10-27T21:58:06.000Z",
-          "wordCount": 2154,
+          "wordCount": 2147,
           "title": "Open-Sourcing a Monitoring GUI for Metaflow"
         },
         {
@@ -1174,7 +1192,7 @@
           "description": "Martin Tingley with Wenjing Zheng, Simon Ejdemyr, Stephanie Lane, and Colin McFarland",
           "link": "https://netflixtechblog.com/interpreting-a-b-test-results-false-negatives-and-power-6943995cf3a8?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-10-26T15:45:24.000Z",
-          "wordCount": 2544,
+          "wordCount": 2524,
           "title": "Interpreting A/B test results: false negatives and power"
         }
       ]
@@ -1184,6 +1202,24 @@
       "feedUrl": "http://feeds.feedburner.com/blogspot/gJZg",
       "siteUrl": "http://ai.googleblog.com/",
       "articles": [
+        {
+          "id": "http://ai.googleblog.com/2021/11/predicting-text-readability-from.html",
+          "author": null,
+          "description": "Posted by Sian Gooding, Intern, Google Research  \nIlliteracy affects at least 773 million people globally, both young and old. For these individuals, reading information from unfamiliar sources or on unfamiliar topics can be extremely difficult. Unfortunately, these inequalities have been further magnified by the global pandemic as a result of unequal access to education in reading and writing. In fact, UNESCO reports that over 100 million children are falling behind the minimum proficiency level in reading due to COVID-related school closures.  \n With increasing world-wide access to technology, reading on a device, such as a tablet or phone, has largely taken the place of traditional formats. This provides a unique opportunity to observe reading interactions, e.g., how a reader scrolls th…",
+          "link": "http://ai.googleblog.com/2021/11/predicting-text-readability-from.html",
+          "publishedOn": "2021-11-17T22:31:00.001Z",
+          "wordCount": 2191,
+          "title": "Predicting Text Readability from Scrolling Interactions"
+        },
+        {
+          "id": "http://ai.googleblog.com/2021/11/rliable-towards-reliable-evaluation.html",
+          "author": null,
+          "description": "Posted by Rishabh Agarwal, Research Scientist and Pablo Samuel Castro, Staff Software Engineer, Google Research, Brain Team   \n Reinforcement learning (RL) is an area of machine learning that focuses on learning from experiences to solve decision making tasks. While the field of RL has made great progress, resulting in impressive empirical results on complex tasks, such as playing video games, flying stratospheric balloons and designing hardware chips, it is becoming increasingly apparent that the current standards for empirical evaluation might give a false sense of fast scientific progress while slowing it down. \n  To that end, in “Deep RL at the Edge of the Statistical Precipice”, accepted as an oral presentation at NeurIPS 2021, we discuss how statistical uncertainty of results needs t…",
+          "link": "http://ai.googleblog.com/2021/11/rliable-towards-reliable-evaluation.html",
+          "publishedOn": "2021-11-17T18:32:00.001Z",
+          "wordCount": 2626,
+          "title": "RLiable: Towards Reliable Evaluation & Reporting in Reinforcement Learning"
+        },
         {
           "id": "http://ai.googleblog.com/2021/11/metnet-2-deep-learning-for-12-hour.html",
           "author": null,
@@ -1309,15 +1345,6 @@
           "publishedOn": "2021-10-20T20:45:00.000Z",
           "wordCount": 1647,
           "title": "Predicting Spreadsheet Formulas from Semi-structured Contexts"
-        },
-        {
-          "id": "http://ai.googleblog.com/2021/10/how-underspecification-presents.html",
-          "author": null,
-          "description": "Posted by Alex D’Amour and Katherine Heller, Research Scientists, Google Research \nMachine learning (ML) models are being used more widely today than ever before and are becoming increasingly impactful. However, they often exhibit unexpected behavior when they are used in real-world domains. For example, computer vision models can exhibit surprising sensitivity to irrelevant features, while natural language processing models can depend unpredictably on demographic correlations not directly indicated by the text. Some reasons for these failures are well-known: for example, training ML models on poorly curated data, or training models to solve prediction problems that are structurally mismatched with the application domain. Yet, even when these known problems are handled, model behavior can …",
-          "link": "http://ai.googleblog.com/2021/10/how-underspecification-presents.html",
-          "publishedOn": "2021-10-18T18:02:00.000Z",
-          "wordCount": 2534,
-          "title": "How Underspecification Presents Challenges for Machine Learning"
         }
       ]
     }

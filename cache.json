@@ -6,6 +6,15 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/11/22/spring-hateoas-1-4-released",
+          "author": null,
+          "description": "I am excited to announce that Spring HATEOAS 1.4 GA has been part of the cascade of releases that lead to the Spring Boot 2.6 last week.\r\nThe release ships a couple of new features and all bug fixes we have incorporated in the 1.3.x line.\r\nThe most notable new features are:\n\r\n\r\n\r\n\r\n\r\nFull support for level 4 URI templates\n\r\n\r\n\r\nSupport for non-composite request parameter rendering\n\r\n\r\n\r\nImproved HAL-FORMS support (additional property constraints, custom media types)\n\r\n\r\n\r\nAdditional HTML input types (checkbox, radio, file)\n\r\n\r\n\r\nGeneral dependency upgrades, including Spring Framework 5.3.13 and Jackson 2.13.9.\n\r\n\r\n\r\n\r\n\r\nFind more detailed information about all changes made in the 1.4 line in the release’s change log.\r\nThe release was included in the Spring Boot 2.6 release announced last week.\r\nIn other words, if you have upgraded to that, you’ve already successfully upgraded to Spring HATEOAS 1.4.\n\r\n\r\n\r\nWe have also released maintenance versions for the 1.3 and 1.2 lines.\r\nPlease note, that 1.2.11 is the last release of that branch and 1.2 is going out of OSS maintenance.\r\nFind more about the support timelines for each branch in the newly introduced tab of our project homepage.\n\r\n\r\n\r\nAlso note, that due to a typo during the release procedure for 1.2.11, a 1.12.11 release has made it onto Maven Central.\r\nThe binaries are logically equivalent to 1.2.11, but their presence is likely to cause trouble with tools automating library upgrades.\r\nWe’re currently working with Sonatype to investigate options to potentially remove the invalid artifacts.",
+          "link": "https://spring.io/blog/2021/11/22/spring-hateoas-1-4-released",
+          "publishedOn": "2021-11-22T21:00:00.000Z",
+          "wordCount": 616,
+          "title": "Spring HATEOAS 1.4 released"
+        },
+        {
           "id": "https://spring.io/blog/2021/11/19/spring-boot-2-6-is-now-available",
           "author": null,
           "description": "On behalf of the Spring Boot team and everyone that has contributed, I am pleased to announce that Spring Boot 2.6.0 has been released and is available from Maven Central. \n\r\nThis release adds a significant number of new features and improvements. For full upgrade instructions and new and noteworthy features please see the release notes.\nWhat’s new in 2.6\n\r\n\r\n  \nSupport for SameSite attributes on session cookies for servlet applications\n\r\n  \nSupport for configuring health groups on the main or management port\n\r\n  \nEnhanced /info endpoint with Java Runtime information\n\r\n  \nSupport for testing Spring MVC using WebTestClient\n\r\n  \nAuto-configuration for spring-rabbit-stream\n\r\n  \nSupport for pluggable rules for sanitizing properties in /env and configprops\n\r\n\nDependency upgrades\n\r\nSpring Boot 2.6 moves to new versions of several Spring projects:\n\r\n\r\n  \nSpring Data 2021.1\n\r\n  \nSpring HATEOAS 1.4\n\r\n  \nSpring AMQP 2.4\n\r\n  \nSpring Kafka 2.8\n\r\n  \nSpring Security 5.6\n\r\n  \nSpring Session 2021.1\n\r\n\r\nWe’ve also upgraded to the latest stable releases of other third-party libraries wherever possible. Please see the release notes for details.\nOther changes\n\r\nThere’s a whole host of other changes and improvements that are documented in the release notes. You can also find a list of deprecated classes and methods that we plan to remove in the next version.\n\r\nAdditionally, Spring Boot 2.4.0 has now reached end of OSS support. More information on Spring Boot’s support dates can be found here.\nThank you\n\r\nWe want to take this opportunity to again thank all our users and contributors.\n\r\nIf you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask at stackoverflow.com using the spring-boot tag or chat with the community on Gitter.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
@@ -175,15 +184,6 @@
           "publishedOn": "2021-11-08T19:00:00.000Z",
           "wordCount": 489,
           "title": "Update on EOL for Spring Security OAuth"
-        },
-        {
-          "id": "https://spring.io/blog/2021/11/05/spring-cloud-data-flow-2-8-4-and-2-9-1-released",
-          "author": null,
-          "description": "Spring Cloud Data Flow team is pleased to announce the release of 2.8.4 and 2.9.1\n\r\nReleases 2.9.1 and 2.8.4 contains a quick bug fix and more changes were made in 2.9.0 and 2.8.3. For complete list of changes for 2.9.x you can see its milestone and rc notes in releases.\nStay in touch…\n\r\nAs always, we welcome feedback and contributions, so please reach out to us on Stackoverflow or GitHub or via Gitter.",
-          "link": "https://spring.io/blog/2021/11/05/spring-cloud-data-flow-2-8-4-and-2-9-1-released",
-          "publishedOn": "2021-11-05T10:09:09.000Z",
-          "wordCount": 453,
-          "title": "Spring Cloud Data Flow 2.8.4 and 2.9.1 Released"
         }
       ]
     },
@@ -192,6 +192,15 @@
       "feedUrl": "https://www.hashicorp.com/blog/feed.xml",
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
+        {
+          "id": "https://www.hashicorp.com/blog/hashicorp-boundary-0-7",
+          "author": null,
+          "description": "Boundary 0.7 adds support for partner plugins, dynamic host catalogs, UI support for managed groups and resource filtering, and more.",
+          "link": "https://www.hashicorp.com/blog/hashicorp-boundary-0-7",
+          "publishedOn": "2021-11-22T17:00:00.000Z",
+          "wordCount": 887,
+          "title": "HashiCorp Boundary 0.7 Brings New Automated Host Discovery"
+        },
         {
           "id": "https://www.hashicorp.com/blog/pagerduty-palo-alto-networks-and-splunk-among-new-verified-terraform-providers",
           "author": null,
@@ -317,6 +326,60 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
+          "id": "https://www.elastic.co/blog/monitoring-elastic-enterprise-search-performance-using-elastic-apm",
+          "author": "Pius Fung",
+          "description": "New Elastic APM integration for Elastic Enterprise Search enables our developers to quickly pinpoint performance bottlenecks in Enterprise Search.",
+          "link": "https://www.elastic.co/blog/monitoring-elastic-enterprise-search-performance-using-elastic-apm",
+          "publishedOn": "2021-11-24T15:00:00.000Z",
+          "wordCount": 984,
+          "title": "Monitoring Elastic Enterprise Search performance using Elastic APM"
+        },
+        {
+          "id": "https://www.elastic.co/blog/monitoring-elastic-enterprise-search-performance-using-elastic-apm",
+          "author": "Pius Fung",
+          "description": ",\nElastic APM is a free, open and powerful observability tool that provides intelligence into application performance for a myriad of production applications (e.g., throughput, error rates, latency, resource usage, transaction traces).  You can now enable Elastic APM integration to gain deep insight into the performance behaviors of your Elastic Enterprise Search deployment! \nThis article provides step-by-step instructions for enabling the integration between Elastic's APM and Enterprise Search products and showcases how our Enterprise Search team leverages Elastic APM to capture additional intelligence to improve Enterprise Search performance during the development lifecycle.  \nThe data collected by the APM Ruby agent in Enterprise Search is shipped to an Elastic APM Server and indexed in…",
+          "link": "https://www.elastic.co/blog/monitoring-elastic-enterprise-search-performance-using-elastic-apm",
+          "publishedOn": "2021-11-24T15:00:00.000Z",
+          "wordCount": 984,
+          "title": "Monitoring Elastic Enterprise Search performance using Elastic APM"
+        },
+        {
+          "id": "https://www.elastic.co/blog/embracing-invokedynamic-to-tame-class-loaders-in-java-agents",
+          "author": "Felix Barnsteiner,Rafael Winterhalter",
+          "description": "Byte Buddy makes it easy to write Java agents without bytecode know-how. But class loaders and other complexities can still ruin your day. Here's a novel invokedynamic-based architecture that simplifies agent development.",
+          "link": "https://www.elastic.co/blog/embracing-invokedynamic-to-tame-class-loaders-in-java-agents",
+          "publishedOn": "2021-11-22T14:00:00.000Z",
+          "wordCount": 2588,
+          "title": "Embracing invokedynamic to tame class loaders in Java agents"
+        },
+        {
+          "id": "https://www.elastic.co/blog/embracing-invokedynamic-to-tame-class-loaders-in-java-agents",
+          "author": "Felix Barnsteiner,Rafael Winterhalter",
+          "description": ",\nOne of the nicest things about Byte Buddy is that it allows you to write a Java agent without manually having to deal with byte code. To instrument a method, agent authors can simply write the code they want to inject in pure Java. This makes writing Java agents much more accessible and avoids complicated on-boarding requirements.\nAfter the first successful experiments, agent authors often get hit by a wall of complexity that the JVM throws at them: class loaders (OSGi, oh my!), class visibility, dependence on internal APIs, class path scanners, and version conflicts to name a few. \nIn this article, we'll look at a relatively novel approach to break through this wall of complexity. The architecture, which is based on the invokedynamic bytecode instruction, a bytecode that is best known f…",
+          "link": "https://www.elastic.co/blog/embracing-invokedynamic-to-tame-class-loaders-in-java-agents",
+          "publishedOn": "2021-11-22T14:00:00.000Z",
+          "wordCount": 2588,
+          "title": "Embracing invokedynamic to tame class loaders in Java agents"
+        },
+        {
+          "id": "https://www.elastic.co/blog/elastic-and-aws-accelerate-your-cloud-migration-journey",
+          "author": "Uday Theepireddy,Amena Siddiqi",
+          "description": "Learn how Elastic enables organizations to monitor, analyze, and protect AWS and on-premise workloads within a single pane of glass — at every stage of a cloud adoption journey. This can help teams stay on budget and on time.",
+          "link": "https://www.elastic.co/blog/elastic-and-aws-accelerate-your-cloud-migration-journey",
+          "publishedOn": "2021-11-22T13:00:00.000Z",
+          "wordCount": 1414,
+          "title": "Elastic and AWS: Accelerating the cloud migration journey"
+        },
+        {
+          "id": "https://www.elastic.co/blog/elastic-and-aws-accelerate-your-cloud-migration-journey",
+          "author": "Uday Theepireddy,Amena Siddiqi",
+          "description": ",\nCloud offerings deliver cost-efficiency and agility; however, the migration process and management complexity can pose challenges. Elastic enables organizations to monitor, analyze, and protect their Amazon Web Services (AWS) and on-premises workloads within a single unified platform — at every stage of their cloud adoption journey — even as they migrate workloads. This can help ensure time-and-cost savings while reducing risk. \nIn this blog, we will discuss how Elastic and AWS work together to accelerate the workload migration journey and ensure a smooth transition to the cloud.\nBenefits and challenges of cloud adoption\nThere are many business drivers behind digital transformation, from delivering better customer outcomes and improved employee productivity to supporting application mode…",
+          "link": "https://www.elastic.co/blog/elastic-and-aws-accelerate-your-cloud-migration-journey",
+          "publishedOn": "2021-11-22T13:00:00.000Z",
+          "wordCount": 1414,
+          "title": "Elastic and AWS: Accelerating the cloud migration journey"
+        },
+        {
           "id": "https://www.elastic.co/blog/culture-elastic-puts-employee-safety-first-with-covid-19-vaccine-mandate",
           "author": "Shay Banon",
           "description": "Elastic CEO Shay Banon explains how the company decided on a vaccine mandate for in-office employees and why: “We’re putting the safety and comfort of our employees first.”",
@@ -389,21 +452,21 @@
           "title": "Easily share Kibana assets with elastic-package"
         },
         {
-          "id": "https://www.elastic.co/elastic-speed-scale-ease-to-real-time-situational-awareness-rtsa-command-control",
+          "id": "https://www.elastic.co/blog/elastic-speed-scale-ease-to-real-time-situational-awareness-rtsa-command-control",
           "author": "Suzzanna Martinez",
           "description": "In this Q&A, find out how real-time situational awareness played a significant role in a former Air Operations Center operator’s daily workflow, and how technology speeds up the OODA loop in mission critical scenarios.",
-          "link": "https://www.elastic.co/elastic-speed-scale-ease-to-real-time-situational-awareness-rtsa-command-control",
+          "link": "https://www.elastic.co/blog/elastic-speed-scale-ease-to-real-time-situational-awareness-rtsa-command-control",
           "publishedOn": "2021-11-15T22:08:25.000Z",
-          "wordCount": 553,
+          "wordCount": 560,
           "title": "How Elastic brings speed, scale, and ease to real-time situational awareness"
         },
         {
-          "id": "https://www.elastic.co/elastic-speed-scale-ease-to-real-time-situational-awareness-rtsa-command-control",
+          "id": "https://www.elastic.co/blog/elastic-speed-scale-ease-to-real-time-situational-awareness-rtsa-command-control",
           "author": "Suzzanna Martinez",
           "description": ",\nReal-time situational awareness (RTSA) done right provides complete, actionable information about what is going on around the operating environment at the moment and enables accurate decision making and data sharing easily, rapidly, and securely. RTSA has real world impact on a number of use cases, including network management and cybersecurity, supply chain management, military operations, public safety and emergency response, port of entry and logistics security, and campus or facility security.\nIn this blog, we explore what RTSA done right means to someone who has had boots on the digital ground – a former command and control (C2) system operator.\nRTSA from the C2 operator’s perspective\nQ: As a former operator in an Air Operations Center (AOC) environment, what are the essential thing…",
-          "link": "https://www.elastic.co/elastic-speed-scale-ease-to-real-time-situational-awareness-rtsa-command-control",
+          "link": "https://www.elastic.co/blog/elastic-speed-scale-ease-to-real-time-situational-awareness-rtsa-command-control",
           "publishedOn": "2021-11-15T22:08:25.000Z",
-          "wordCount": 553,
+          "wordCount": 560,
           "title": "How Elastic brings speed, scale, and ease to real-time situational awareness"
         },
         {
@@ -441,60 +504,6 @@
           "publishedOn": "2021-11-11T14:00:00.000Z",
           "wordCount": 575,
           "title": "At Elastic, Veterans Day is a family affair"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-stack-7-15-2-released",
-          "author": "Rob Bavey",
-          "description": "Elastic Stack 7.15.2 has been released. Read about the updates and bug fixes that have been included in Elasticsearch, Kibana, Logstash, Beats, APM, Elastic Enterprise Search, Elastic Security, and ECK.",
-          "link": "https://www.elastic.co/blog/elastic-stack-7-15-2-released",
-          "publishedOn": "2021-11-10T16:00:00.000Z",
-          "wordCount": 379,
-          "title": "Elastic Stack 7.15.2 released"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-stack-7-15-2-released",
-          "author": "Rob Bavey",
-          "description": ",\nVersion 7.15.2 of the Elastic Stack was released today. We recommend you upgrade to this latest version.\nThe 7.15.2 patch contains fixes and small enhancements for the stack\nFor a full list of changes for each product, please refer to the release notes:\n7.15.2 release notes\nElastic Stack\n\nElasticsearch\nKibana\nBeats\nLogstash\n\nElastic Enterprise Search\n\nEnterprise Search\n\nElastic Observability\n\nAPM\n\nElastic Security\n\nElastic Security solution",
-          "link": "https://www.elastic.co/blog/elastic-stack-7-15-2-released",
-          "publishedOn": "2021-11-10T16:00:00.000Z",
-          "wordCount": 379,
-          "title": "Elastic Stack 7.15.2 released"
-        },
-        {
-          "id": "https://www.elastic.co/blog/how-to-increase-website-engagement-with-search",
-          "author": "Darren Meiss",
-          "description": "Website visitors have high expectations for search. Make sure your search experiences meet (and beat) those expectations, boosting engagement, conversion, and user satisfaction along the way.",
-          "link": "https://www.elastic.co/blog/how-to-increase-website-engagement-with-search",
-          "publishedOn": "2021-11-10T13:00:00.000Z",
-          "wordCount": 963,
-          "title": "How to increase website engagement with search"
-        },
-        {
-          "id": "https://www.elastic.co/blog/how-to-increase-website-engagement-with-search",
-          "author": "Darren Meiss",
-          "description": ",\nThe search experience on your website is often the key driver of visitor satisfaction. Even on well-designed, well-organized websites, visitors frequently resort to search to find the exact products, services, content, and information they need. In fact, many visitors go immediately to the search box. The quality of search results they get back, and the ease with which they can customize and filter those results, can play an outsized role in engagement, conversion, and customer loyalty. \n\nWhy “good enough” search usually isn’t good enough\nIt’s just a search box, right? How important could it really be? Turns out, pretty important.\nAccording to a recent study, nearly a third of website visitors start with search. Customers are also willing to pay a 16% premium on products and services for…",
-          "link": "https://www.elastic.co/blog/how-to-increase-website-engagement-with-search",
-          "publishedOn": "2021-11-10T13:00:00.000Z",
-          "wordCount": 963,
-          "title": "How to increase website engagement with search"
-        },
-        {
-          "id": "https://www.elastic.co/blog/why-developers-are-putting-customer-experience-first",
-          "author": "Ron Wen",
-          "description": "Digital experiences have lifted expectations around service delivery for everyone. Devs are now front and center to the customer experience (CX). Embrace being CX-first, because being closer to the customer makes you more important to the business.",
-          "link": "https://www.elastic.co/blog/why-developers-are-putting-customer-experience-first",
-          "publishedOn": "2021-11-10T10:00:00.000Z",
-          "wordCount": 1113,
-          "title": "Why developers are putting customer experience first"
-        },
-        {
-          "id": "https://www.elastic.co/blog/why-developers-are-putting-customer-experience-first",
-          "author": "Ron Wen",
-          "description": ",\nUser digital experience has transformed expectations around how technology and services are delivered, further bringing developers front and center into the customer experience (CX) realm.\nMore recently, the inability to meet in person has forced us to rely more heavily on technology to assist with our basic household and business needs: ordering groceries online and food delivery, scheduling appointments, streaming entertainment services, and hosting virtual meetings and events. As a result, developers are in a position to directly impact and improve the day-to-day digital experience that customers expect. And developers that proactively move toward a customer-first approach and embrace that responsibility for CX will emerge as leaders in their field.\nCustomer expectations raise the bar…",
-          "link": "https://www.elastic.co/blog/why-developers-are-putting-customer-experience-first",
-          "publishedOn": "2021-11-10T10:00:00.000Z",
-          "wordCount": 1113,
-          "title": "Why developers are putting customer experience first"
         }
       ]
     },
@@ -503,6 +512,15 @@
       "feedUrl": "https://www.ansible.com/blog/rss.xml",
       "siteUrl": "https://www.ansible.com/blog",
       "articles": [
+        {
+          "id": "https://www.ansible.com/blog/2022-the-year-for-edge-automation",
+          "author": "Dafné Mendoza",
+          "description": "Seamlessly, every single day, we wake up and check our health statistics in smart watches, scan QR codes to validate information, pay using credit cards in different locations, use surveillance cameras to record our neighborhoods, and connect our smartphones to distributed WiFi access points in our restaurants or coffee shops. According to the Statista, in the Forecast number of mobile users worldwide 2020-2025[1] report, the number of mobile users worldwide reached 7.1 billion in 2021, and this number is projected to grow. This initiates a new set of use cases for edge devices due to the explosive growth of network-connected entry points.",
+          "link": "https://www.ansible.com/blog/2022-the-year-for-edge-automation",
+          "publishedOn": "2021-11-22T19:13:15.000Z",
+          "wordCount": 2415,
+          "title": "Why 2022 will be the year for edge automation"
+        },
         {
           "id": "https://www.ansible.com/blog/automation-for-the-cloud-cloud-field-day-12-recap",
           "author": "scavanau@redhat.com (Sean Cavanaugh)",
@@ -518,7 +536,7 @@
           "description": "Background: The Automation Controller Collection\n \r\nThe Automation Controller Collection allows Ansible Playbooks to automate the interaction with automation controller. For example, manually interacting via the Web-based UI or the API can now be automated just as the targets it manages.",
           "link": "https://www.ansible.com/blog/automation-controller-workflow-deployment-as-code",
           "publishedOn": "2021-11-15T14:00:00.000Z",
-          "wordCount": 2086,
+          "wordCount": 2089,
           "title": "Automation controller workflow deployment as code"
         },
         {
@@ -527,7 +545,7 @@
           "description": "Ansible Automation Platform 2 leverages containers dubbed automation execution environments which bundle in collection, python and platform dependencies to provide predictable, self-contained automation spaces that can be easily distributed across an organization.",
           "link": "https://www.ansible.com/blog/automating-execution-environment-image-builds-with-github-actions",
           "publishedOn": "2021-11-11T14:00:00.000Z",
-          "wordCount": 895,
+          "wordCount": 898,
           "title": "Automating execution environment image builds with GitHub Actions"
         },
         {
@@ -536,7 +554,7 @@
           "description": "A variety of industry experts cite Artificial Intelligence and Automation as key emerging trends.  But if you look around your organizations, you will see the evidence of AI projects and also an increasing focus on using automation in a variety of ways.  IBM and Red Hat together can help you build on and apply these trends to your IT operations.",
           "link": "https://www.ansible.com/blog/the-power-of-ai-and-the-science-of-operations-part-1",
           "publishedOn": "2021-11-04T13:00:00.000Z",
-          "wordCount": 1822,
+          "wordCount": 1825,
           "title": "The Power of AI and the Science of Operations (Part 1)"
         },
         {
@@ -545,7 +563,7 @@
           "description": "As the weather turns to Fall, the seasons seem to parallel that of the technology cycles. Over the past couple of decades, we have seen various transformations within the high-tech area:",
           "link": "https://www.ansible.com/blog/anisblefest-2021-what-means-for-partners",
           "publishedOn": "2021-11-02T15:00:00.000Z",
-          "wordCount": 1878,
+          "wordCount": 1881,
           "title": "AnisbleFest 2021 - What it means for Partners"
         },
         {
@@ -554,7 +572,7 @@
           "description": "Cloud-native deployments are becoming the new normal. Being able to keep full control of the application lifecycle (deployment, updates, and integrations) is a strategic advantage. This article will explain how the latest release of the Ansible Content Collection for Red Hat OpenShift takes the redhat.openshift Collection to the next level, improving the performance of large automation tasks.",
           "link": "https://www.ansible.com/blog/boost-your-cloud-native-deployments-with-red-hat-openshift",
           "publishedOn": "2021-10-28T13:00:00.000Z",
-          "wordCount": 1497,
+          "wordCount": 1500,
           "title": "Boost your cloud-native deployments with Red Hat OpenShift"
         },
         {
@@ -563,7 +581,7 @@
           "description": "What are Spot Instance and Spot Instance Requests?\n \r\nA Spot Instance is an instance that uses spare AWS EC2 capacity that is available for less than the On-Demand price. Because Spot Instances provide the ability to request unused EC2 instances at steep discounts, it can lower your Amazon EC2 costs significantly.",
           "link": "https://www.ansible.com/blog/ansible-for-aws-introduction-to-spot-instance-automation",
           "publishedOn": "2021-10-27T13:00:00.000Z",
-          "wordCount": 1719,
+          "wordCount": 1722,
           "title": "Ansible for AWS: Introduction to Spot Instance Automation"
         },
         {
@@ -572,7 +590,7 @@
           "description": "When it comes to Amazon Web Services (AWS) infrastructure automation, the latest release of the Ansible amazon.aws Collection brings a set of fresh features to build, manage and govern various public and hybrid cloud use cases while accelerating the process from development to production.",
           "link": "https://www.ansible.com/blog/whats-new-the-ansible-aws-collection-2.0-release",
           "publishedOn": "2021-10-25T13:00:00.000Z",
-          "wordCount": 2079,
+          "wordCount": 2082,
           "title": "What's New: The Ansible AWS Collection 2.0 Release"
         }
       ]
@@ -685,6 +703,15 @@
       "feedUrl": "http://feeds.feedburner.com/AmazonWebServicesBlog",
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
+        {
+          "id": "4efcf166415b8bd1cd8ec7aefa6b1d82fdc0a3a7",
+          "author": "Danilo Poccia",
+          "description": "In August, we introduced the general-purpose Amazon EC2 M6i instances powered by the latest generation Intel Xeon Scalable processors (code-named Ice Lake) with an all-core turbo frequency of 3.5 GHz. Compute-optimized EC2 C6i instances were also made available last month. Today, I am happy to share that we are expanding our sixth-generation x86-based offerings to […]",
+          "link": "https://aws.amazon.com/blogs/aws/new-amazon-ec2-r6i-memory-optimized-instances-powered-by-the-latest-generation-intel-xeon-scalable-processors/",
+          "publishedOn": "2021-11-22T22:29:43.000Z",
+          "wordCount": 998,
+          "title": "New – Amazon EC2 R6i Memory-Optimized Instances Powered by the Latest Generation Intel Xeon Scalable Processors"
+        },
         {
           "id": "111da60866f9a347924784f64e58e320956b900b",
           "author": "Steve Roberts",
@@ -819,6 +846,15 @@
       "siteUrl": "https://xkcd.com/",
       "articles": [
         {
+          "id": "https://xkcd.com/2545/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/bayes_theorem.png\" title=\"P((B|A)|(A|B)) represents the probability that you'll mix up the order of the terms when using Bayesian notation.\" alt=\"P((B|A)|(A|B)) represents the probability that you'll mix up the order of the terms when using Bayesian notation.\" />",
+          "link": "https://xkcd.com/2545/",
+          "publishedOn": "2021-11-22T00:00:00.000Z",
+          "wordCount": 185,
+          "title": "Bayes' Theorem"
+        },
+        {
           "id": "https://xkcd.com/2544/",
           "author": null,
           "description": "<img src=\"https://imgs.xkcd.com/comics/heart_stopping_texts.png\" title=\"Was this your car? [looping 'image loading' animation]\" alt=\"Was this your car? [looping 'image loading' animation]\" />",
@@ -844,15 +880,6 @@
           "publishedOn": "2021-11-15T00:00:00.000Z",
           "wordCount": 185,
           "title": "Daylight Calendar"
-        },
-        {
-          "id": "https://xkcd.com/2541/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/occam.png\" title=\"Oh no, Murphy just picked up the razor.\" alt=\"Oh no, Murphy just picked up the razor.\" />",
-          "link": "https://xkcd.com/2541/",
-          "publishedOn": "2021-11-12T00:00:00.000Z",
-          "wordCount": 183,
-          "title": "Occam"
         }
       ]
     },
@@ -867,7 +894,7 @@
           "description": "Wondering how to make a SSO implementation work in Camunda? Have no fear. The answer you've been waiting for is here! \nThe post Q&A: The One with the SSO Implementation in Camunda appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/11/qa-the-one-with-the-sso-implementation-in-camunda/",
           "publishedOn": "2021-11-18T14:30:00.000Z",
-          "wordCount": 2484,
+          "wordCount": 2483,
           "title": "Q&A: The One with the SSO Implementation in Camunda"
         },
         {
@@ -921,7 +948,7 @@
           "description": "Learn why companies are ditching BPMS and applying process modeling and automation practices to their customer-facing processes instead. \nThe post 5 Factors Impacting Your Business Process Management appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/11/how-process-automation-can-ignite-your-business-process-management/",
           "publishedOn": "2021-11-05T14:00:00.000Z",
-          "wordCount": 1922,
+          "wordCount": 1921,
           "title": "5 Factors Impacting Your Business Process Management"
         },
         {
@@ -939,7 +966,7 @@
           "description": "If you’re going to be communicating with the Camunda engine from any kind of third-party system, you’re going to need to know a little bit about what Camunda’s REST API can do out of the box.\nThe post Start and Step Through a Process with REST (feat. SwaggerUI) appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/start-and-step-through-a-process-with-rest-feat-swaggerui/",
           "publishedOn": "2021-11-01T08:00:04.000Z",
-          "wordCount": 2144,
+          "wordCount": 2143,
           "title": "Start and Step Through a Process with REST (feat. SwaggerUI)"
         },
         {
@@ -948,7 +975,7 @@
           "description": "Get the bonus insight and answers we didn't have time to share during our recent Camunda Platform 7.16 release webinar.\nThe post Camunda Platform 7.16 Webinar Recap appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/10/camunda-platform-7-16-webinar-recap/",
           "publishedOn": "2021-10-29T13:30:00.000Z",
-          "wordCount": 2203,
+          "wordCount": 2202,
           "title": "Camunda Platform 7.16 Webinar Recap"
         }
       ]
@@ -993,6 +1020,15 @@
       "feedUrl": "https://github.com/blog/all.atom",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/2021-11-22-accelerate-security-adoption-in-your-organization/",
+          "author": null,
+          "description": "The GitHub Services Engineers have released the Advanced Security Enforcer GitHub Action to enable organizations to utilize code scanning in a consistent and automated way.",
+          "link": "https://github.blog/2021-11-22-accelerate-security-adoption-in-your-organization/",
+          "publishedOn": "2021-11-22T17:27:15.000Z",
+          "wordCount": 700,
+          "title": "Accelerate security adoption in your organization"
+        },
         {
           "id": "https://github.blog/2021-11-19-in-case-you-missed-it-github-education-at-universe-2021/",
           "author": null,
@@ -1044,7 +1080,7 @@
           "description": "The Exiv2 team tightened our security by enabling GitHub’s code scanning feature and adding custom queries tailored to the Exiv2 code base.",
           "link": "https://github.blog/2021-11-16-adding-custom-codeql-queries-code-scanning/",
           "publishedOn": "2021-11-16T18:00:02.000Z",
-          "wordCount": 2702,
+          "wordCount": 2692,
           "title": "Blue-teaming for Exiv2: adding custom CodeQL queries to code scanning"
         },
         {
@@ -1062,7 +1098,7 @@
           "description": "We're sharing details of recent incidents on the npm registry, our investigations, and how we’re continuing to invest in the security of npm.",
           "link": "https://github.blog/2021-11-15-githubs-commitment-to-npm-ecosystem-security/",
           "publishedOn": "2021-11-15T23:00:52.000Z",
-          "wordCount": 1405,
+          "wordCount": 1395,
           "title": "GitHub&#8217;s commitment to npm ecosystem security"
         },
         {
@@ -1073,15 +1109,6 @@
           "publishedOn": "2021-11-15T17:42:15.000Z",
           "wordCount": 3666,
           "title": "Highlights from Git 2.34"
-        },
-        {
-          "id": "https://github.blog/2021-11-12-release-radar-oct-2021/",
-          "author": null,
-          "description": "What an incredible month it&#8217;s been for GitHub and our communities. Whilst we&#8217;ve been busy with GitHub Universe, our communities have been busy coding. It&#8217;s been a successful year for Hacktoberfest, with many first-time contributors",
-          "link": "https://github.blog/2021-11-12-release-radar-oct-2021/",
-          "publishedOn": "2021-11-12T22:00:36.000Z",
-          "wordCount": 1167,
-          "title": "Release Radar · October 2021 Edition"
         }
       ]
     },
@@ -1102,7 +1129,7 @@
           "description": "Martin Tingley with Wenjing Zheng, Simon Ejdemyr, Stephanie Lane, Michael Lindon, and Colin McFarland",
           "link": "https://netflixtechblog.com/building-confidence-in-a-decision-8705834e6fd8?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-11-15T16:20:05.000Z",
-          "wordCount": 2434,
+          "wordCount": 2441,
           "title": "Building confidence in a decision"
         },
         {
@@ -1111,7 +1138,7 @@
           "description": "by Liwei Guo, Ashwin Kumar Gopi Valliammal, Raymond Tam, Chris Pham, Agata Opalach, Weibo Ni",
           "link": "https://netflixtechblog.com/bringing-av1-streaming-to-netflix-members-tvs-b7fc88e42320?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-11-09T19:45:50.000Z",
-          "wordCount": 2328,
+          "wordCount": 2321,
           "title": "Bringing AV1 Streaming to Netflix Members’ TVs"
         },
         {
@@ -1120,7 +1147,7 @@
           "description": "by Christos G. Bampis, Chao Chen, Anush K. Moorthy and Zhi Li",
           "link": "https://netflixtechblog.com/netflix-video-quality-at-scale-with-cosmos-microservices-552be631c113?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-11-02T17:04:55.000Z",
-          "wordCount": 1960,
+          "wordCount": 1981,
           "title": "Netflix Video Quality at Scale with Cosmos Microservices"
         },
         {
@@ -1129,7 +1156,7 @@
           "description": "As part of our “Data Engineers of Netflix” series, Pallavi Phadnis shares her journey to Data Engineering at Netflix.",
           "link": "https://netflixtechblog.com/data-engineers-of-netflix-interview-with-pallavi-phadnis-a1fcc5f64906?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-10-28T17:30:19.000Z",
-          "wordCount": 1168,
+          "wordCount": 1150,
           "title": "Data Engineers of Netflix — Interview with Pallavi Phadnis"
         },
         {
@@ -1138,7 +1165,7 @@
           "description": "Netflix’s ML Platform has made a new addition to Open Source",
           "link": "https://netflixtechblog.com/open-sourcing-a-monitoring-gui-for-metaflow-75ff465f0d60?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-10-27T21:58:06.000Z",
-          "wordCount": 2146,
+          "wordCount": 2144,
           "title": "Open-Sourcing a Monitoring GUI for Metaflow"
         },
         {
@@ -1147,7 +1174,7 @@
           "description": "Martin Tingley with Wenjing Zheng, Simon Ejdemyr, Stephanie Lane, and Colin McFarland",
           "link": "https://netflixtechblog.com/interpreting-a-b-test-results-false-negatives-and-power-6943995cf3a8?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-10-26T15:45:24.000Z",
-          "wordCount": 2500,
+          "wordCount": 2508,
           "title": "Interpreting A/B test results: false negatives and power"
         }
       ]
@@ -1157,6 +1184,15 @@
       "feedUrl": "http://feeds.feedburner.com/blogspot/gJZg",
       "siteUrl": "http://ai.googleblog.com/",
       "articles": [
+        {
+          "id": "http://ai.googleblog.com/2021/11/predicting-text-selections-with.html",
+          "author": null,
+          "description": "Posted by Florian Hartmann, Software Engineer, Google Research \nSmart Text Selection, launched in 2017 as part of Android O, is one of Android’s most frequently used features, helping users select, copy, and use text easily and quickly by predicting the desired word or set of words around a user’s tap, and automatically expanding the selection appropriately. Through this feature, selections are automatically expanded, and for selections with defined classification types, e.g., addresses and phone numbers, users are offered an app with which to open the selection, saving users even more time. \n\n  Today we describe how we have improved the performance of Smart Text Selection by using federated learning to train the neural network model on user interactions responsibly while preserving user p…",
+          "link": "http://ai.googleblog.com/2021/11/predicting-text-selections-with.html",
+          "publishedOn": "2021-11-22T18:21:00.001Z",
+          "wordCount": 2252,
+          "title": "Predicting Text Selections with Federated Learning"
+        },
         {
           "id": "http://ai.googleblog.com/2021/11/decisiveness-in-imitation-learning-for.html",
           "author": null,

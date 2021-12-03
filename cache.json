@@ -6,6 +6,24 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/12/02/spring-cloud-2021-0-0-codename-jubilee-has-been-released",
+          "author": null,
+          "description": "On behalf of the community, I am pleased to announce the General Availability of the Spring Cloud 2021.0 Release Train, codename Jubilee, is available today. The release can be found in Maven Central. You can check out the 2021.0 release notes for more information.\nNotable Changes in the 2021.0 Release Train\n\r\n2021.0.0 is compatible with Spring Boot 2.6.1\n\r\nSee the project page for all the issues and pull requests included in this release.\nSpring Cloud Commons\n\r\n\r\n  \nSupport for per Load-balancer configuration properties (added as well to Gateway, Contract and Openfeign).\n\r\n\nSpring Cloud Config\n\r\n\r\n  \nIntegration with AWS Secrets Manager, AWS Parameter Store and GCP Secret Manager.\n\r\n\nSpring Cloud Gateway\n\r\n\r\n  \nRedis Route Repository\n\r\n  \nHTTP 2 Support\n\r\n  \ngRPC Support\n\r\n\nSpring Cloud K…",
+          "link": "https://spring.io/blog/2021/12/02/spring-cloud-2021-0-0-codename-jubilee-has-been-released",
+          "publishedOn": "2021-12-02T21:45:13.000Z",
+          "wordCount": 719,
+          "title": "Spring Cloud 2021.0.0 (codename Jubilee) Has Been Released"
+        },
+        {
+          "id": "https://spring.io/blog/2021/12/02/spring-cloud-function-3-2-is-out",
+          "author": null,
+          "description": "Spring Cloud 2021.0.0 is finally out (separate blog post is imminent) and with it you have Spring Cloud Function 3.2\n\r\nWhile the full list of features, enhancements and bug fixes is available here, I’d like to call out few of them in this post and provide some details.\ngRPC Support\n\r\nIn addition to an already existing support for invoking function via AWS Lambda, RSocket, Spring Cloud Stream etc., Spring Cloud Function now allows you to invoke function via gRPC.\nTwo ways to benefit from it. \nSpring Message\n\r\nGiven the wide adaption of Spring Messaging, one way of benefiting from gRPC support is by embracing Spring’s Message.\nSpring Cloud Function provides GrpcSpringMessage schema modeled after Spring’s Message. It is internally converted to Spring Message to benefit from all of the existin…",
+          "link": "https://spring.io/blog/2021/12/02/spring-cloud-function-3-2-is-out",
+          "publishedOn": "2021-12-02T18:54:00.000Z",
+          "wordCount": 1173,
+          "title": "Spring Cloud Function 3.2 is out!"
+        },
+        {
           "id": "https://spring.io/blog/2021/12/01/accelerate-spring-apps-to-cloud-at-scale-discussion-with-azure-spring-cloud-customers",
           "author": null,
           "description": "Hi, Spring fans! I love the Azure Spring Cloud platform - jointly developed with the Spring team and Microsoft - and I’m not alone! So do its users! Check out this panel discussion moderated by Adib Sakali and Asir Selvasingh with Morgan Stanley, Bosch, and Digital Realty Trust.",
@@ -166,24 +184,6 @@
           "publishedOn": "2021-11-17T19:36:00.000Z",
           "wordCount": 450,
           "title": "Spring Batch 4.3.4 and 4.2.8 available now!"
-        },
-        {
-          "id": "https://spring.io/blog/2021/11/17/spring-cloud-netflix-version-2-2-10-release-is-now-available",
-          "author": null,
-          "description": "On behalf of the community, I am pleased to announce that Spring Cloud Netflix version 2.2.10.RELEASE has been released.\n\r\nThis is primarily a security release that fixes the CVE-2021-22053. \n\r\nApplications using both spring-cloud-netflix-hystrix-dashboard and spring-boot-starter-thymeleaf exposed a way to execute code submitted within the request URI path during the resolution of view templates. When a request was made at /hystrix/monitor;[user-provided-data], the path elements following hystrix/monitor were being evaluated as SpringEL expressions, which could lead to code execution.\n\r\nThis release fixes the issue.",
-          "link": "https://spring.io/blog/2021/11/17/spring-cloud-netflix-version-2-2-10-release-is-now-available",
-          "publishedOn": "2021-11-17T16:00:00.000Z",
-          "wordCount": 463,
-          "title": "Spring Cloud Netflix version 2.2.10.RELEASE is now available"
-        },
-        {
-          "id": "https://spring.io/blog/2021/11/17/spring-tips-controllers-websockets",
-          "author": null,
-          "description": "Hi, Spring fans! In this installment of Spring Tips, we’re going to resume our series on Spring’s @Controller annotation, this time diving into Spring’s WebSocket support.\n\r\nThe code is here",
-          "link": "https://spring.io/blog/2021/11/17/spring-tips-controllers-websockets",
-          "publishedOn": "2021-11-17T08:00:00.000Z",
-          "wordCount": 403,
-          "title": "Spring Tips: @Controllers: WebSockets"
         }
       ]
     },
@@ -299,15 +299,6 @@
           "publishedOn": "2021-11-03T16:00:00.000Z",
           "wordCount": 1629,
           "title": "Why Use the Vault Agent for Secrets Management?"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/hcp-vault-adds-3-new-observability-integrations",
-          "author": null,
-          "description": "New integrations with Datadog, Grafana Cloud, and Splunk offer pre-built dashboards for usage and performance monitoring in HCP Vault.",
-          "link": "https://www.hashicorp.com/blog/hcp-vault-adds-3-new-observability-integrations",
-          "publishedOn": "2021-11-02T16:30:00.000Z",
-          "wordCount": 911,
-          "title": "HCP Vault Adds 3 New Observability Integrations"
         }
       ]
     },
@@ -504,6 +495,15 @@
       "siteUrl": "https://www.ansible.com/blog",
       "articles": [
         {
+          "id": "https://www.ansible.com/blog/introducing-red-hat-ansible-automation-platform-2.1",
+          "author": "scavanau@redhat.com (Sean Cavanaugh)",
+          "description": "We are thrilled to announce the general availability of Red Hat Ansible Automation Platform 2.1. This is the follow-on to the Ansible Automation Platform 2.0 Early Access released this summer, and announced at AnsibleFest 2021. Red Ansible Automation Platform 2.1 introduces major features that allow customers to onboard more easily with even more flexible automation architectures and use cases. Ansible Automation Platform 2.1 is the culmination of many years of reimagining how enterprise automators automate for today and tomorrow.",
+          "link": "https://www.ansible.com/blog/introducing-red-hat-ansible-automation-platform-2.1",
+          "publishedOn": "2021-12-02T13:30:00.000Z",
+          "wordCount": 2742,
+          "title": "Introducing Red Hat Ansible Automation Platform 2.1"
+        },
+        {
           "id": "https://www.ansible.com/blog/2022-the-year-for-edge-automation",
           "author": "Dafné Mendoza",
           "description": "Seamlessly, every single day, we wake up and check our health statistics in smart watches, scan QR codes to validate information, pay using credit cards in different locations, use surveillance cameras to record our neighborhoods, and connect our smartphones to distributed WiFi access points in our restaurants or coffee shops. According to the Statista, in the Forecast number of mobile users worldwide 2020-2025[1] report, the number of mobile users worldwide reached 7.1 billion in 2021, and this number is projected to grow. This initiates a new set of use cases for edge devices due to the explosive growth of network-connected entry points.",
@@ -518,7 +518,7 @@
           "description": "I recently had the opportunity to present our Red Hat Ansible Automation Platform cloud strategy at Cloud Field Day 12. \nCloud Field Day 12 was a three day event that focused on the impact of cloud on enterprise IT. As a presenter, you can use any combination of slides and live demos to foster a discussion with a group of thought leaders. This roundtable included people from many different companies, skill sets, backgrounds and favorite tools. Check out the Cloud Field Day website to see the delegate panel, their backgrounds and Twitter handles. I quite enjoyed, and preferred, the conversational tone of Cloud Field Day, and the delegates who asked questions during the demo made it a lot more interactive.",
           "link": "https://www.ansible.com/blog/automation-for-the-cloud-cloud-field-day-12-recap",
           "publishedOn": "2021-11-18T13:45:00.000Z",
-          "wordCount": 1214,
+          "wordCount": 1221,
           "title": "Automation for the cloud: Cloud Field Day 12 recap"
         },
         {
@@ -536,7 +536,7 @@
           "description": "Ansible Automation Platform 2 leverages containers dubbed automation execution environments which bundle in collection, python and platform dependencies to provide predictable, self-contained automation spaces that can be easily distributed across an organization.",
           "link": "https://www.ansible.com/blog/automating-execution-environment-image-builds-with-github-actions",
           "publishedOn": "2021-11-11T14:00:00.000Z",
-          "wordCount": 920,
+          "wordCount": 924,
           "title": "Automating execution environment image builds with GitHub Actions"
         },
         {
@@ -547,15 +547,6 @@
           "publishedOn": "2021-11-04T13:00:00.000Z",
           "wordCount": 1835,
           "title": "The Power of AI and the Science of Operations (Part 1)"
-        },
-        {
-          "id": "https://www.ansible.com/blog/anisblefest-2021-what-means-for-partners",
-          "author": "Nelson Hsu",
-          "description": "As the weather turns to Fall, the seasons seem to parallel that of the technology cycles. Over the past couple of decades, we have seen various transformations within the high-tech area:",
-          "link": "https://www.ansible.com/blog/anisblefest-2021-what-means-for-partners",
-          "publishedOn": "2021-11-02T15:00:00.000Z",
-          "wordCount": 1891,
-          "title": "AnisbleFest 2021 - What it means for Partners"
         }
       ]
     },
@@ -564,6 +555,24 @@
       "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
       "siteUrl": "https://devblogs.microsoft.com/devops",
       "articles": [
+        {
+          "id": "https://devblogs.microsoft.com/devops/?p=62906",
+          "author": "April Edwards",
+          "description": "Azure Static Web Apps were launched earlier in 2021 and out of the box they had the capability to integrate your existing repository and deploy your Static Web App from Azure DevOps. You can reference the full getting started guide for the end-to-end deployment setup.\nThe post Automating Azure Static Web Apps in Azure Pipelines appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/automating-azure-static-web-apps-in-azure-pipelines/",
+          "publishedOn": "2021-12-02T16:56:59.000Z",
+          "wordCount": 1144,
+          "title": "Automating Azure Static Web Apps in Azure Pipelines"
+        },
+        {
+          "id": "https://devblogs.microsoft.com/devops/?p=62880",
+          "author": "Jay Gordon",
+          "description": "After a short break for some Microsoft streaming events, AzureFunBytes returns to LearnTV for another fun conversation about the products, people, and services that make for a delightful Azure experience.\nThe post AzureFunBytes Episode 62 – Supercharge your Java Apps on Azure with @rorypreddy appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-62-supercharge-your-java-apps-on-azure-with-rorypreddy/",
+          "publishedOn": "2021-12-02T10:00:43.000Z",
+          "wordCount": 1593,
+          "title": "AzureFunBytes Episode 62 – Supercharge your Java Apps on Azure with @rorypreddy"
+        },
         {
           "id": "https://devblogs.microsoft.com/devops/?p=62891",
           "author": "Rajesh Ramamurthy (MSFT)",
@@ -579,7 +588,7 @@
           "description": "The team is excited to release the public preview of the Ux modernization for Azure Boards! The web platform has been updated to provide a faster Ux, consistency with other parts of the product, and accessibility compliance.\nThe post Azure Boards Ux Modernization – Public Preview appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azure-boards-ux-modernization-public-preview/",
           "publishedOn": "2021-11-29T16:41:30.000Z",
-          "wordCount": 2305,
+          "wordCount": 2291,
           "title": "Azure Boards Ux Modernization – Public Preview"
         },
         {
@@ -597,7 +606,7 @@
           "description": "Welcome back! I am Jay Gordon and every week I try to bring you the latest updates from around the DevOps on Azure community. If you have a post you’d like to have me include, I am always listening. You can reach out on Twitter or LinkedIn and I will be sure to share your latest post with the community.\nThe post Top Stories from the Microsoft DevOps Community – 2021.11.19 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-11-19/",
           "publishedOn": "2021-11-19T11:00:35.000Z",
-          "wordCount": 1454,
+          "wordCount": 1476,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.11.19"
         },
         {
@@ -635,24 +644,6 @@
           "publishedOn": "2021-11-08T22:15:18.000Z",
           "wordCount": 1647,
           "title": "Auditing Coming to General Availability (GA) Early 2022!"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=62736",
-          "author": "DevOps Dojo",
-          "description": "In DevOps Dojo first blog, we explained what trust really is—competency and character. In our conversations with customers, there are two surprising facts that top the list of trust. The 1st one is that we act with the customers’ best interests in mind,\nThe post DevOps Dojo – Customers & Trust appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/devops-dojo-customers-trust/",
-          "publishedOn": "2021-11-05T17:46:53.000Z",
-          "wordCount": 6392,
-          "title": "DevOps Dojo – Customers & Trust"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=62695",
-          "author": "Jay Gordon",
-          "description": "The top stories from the #AzureDevOps #community for 2021.11.05 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2021.11.05 appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-11-05/",
-          "publishedOn": "2021-11-05T09:00:33.000Z",
-          "wordCount": 1368,
-          "title": "Top Stories from the Microsoft DevOps Community – 2021.11.05"
         }
       ]
     },
@@ -677,6 +668,51 @@
       "feedUrl": "http://feeds.feedburner.com/AmazonWebServicesBlog",
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
+        {
+          "id": "7d40e463227e81077de707dea4aea2845e47e6b2",
+          "author": "Channy Yun",
+          "description": "Last AWS re:Invent 2020, we announced FreeRTOS Long Term Support (LTS) that offers a more stable foundation than standard releases, as manufacturers deploy and later update devices in the field. FreeRTOS is an open source, real-time operating system for microcontrollers that makes small, low-power edge devices easy to program, deploy, secure, connect, and manage. In […]",
+          "link": "https://aws.amazon.com/blogs/aws/new-freertos-extended-maintenance-plan-for-up-to-10-years/",
+          "publishedOn": "2021-12-02T18:21:16.000Z",
+          "wordCount": 1239,
+          "title": "New – FreeRTOS Extended Maintenance Plan for Up to 10 Years"
+        },
+        {
+          "id": "52c5a244baa151c58d56f8df62c2df1d96c3c3b5",
+          "author": "Steve Roberts",
+          "description": "The internet is an excellent resource for well-intentioned guidance and answers. However, it can sometimes be hard to tell if what you’re reading is, in fact, advice you should follow. Also, some users have a preference toward using a single, trusted online community rather than the open internet to provide them with reliable, vetted, and […]",
+          "link": "https://aws.amazon.com/blogs/aws/aws-repost-a-reimagined-qa-experience-for-the-aws-community/",
+          "publishedOn": "2021-12-02T18:06:29.000Z",
+          "wordCount": 1078,
+          "title": "AWS re:Post – A Reimagined Q&A Experience for the AWS Community"
+        },
+        {
+          "id": "f1fac23aefd780d5623728bb3569f0b331f5fa54",
+          "author": "Alex Casalboni",
+          "description": "The AWS Well-Architected Framework has been helping AWS customers improve their cloud architectures since 2015. The framework consists of design principles, questions, and best practices across multiple pillars: Operational Excellence, Security, Reliability, Performance Efficiency, and Cost Optimization. Today we are introducing a new Sustainability Pillar to help organizations learn, measure, and improve their workloads using […]",
+          "link": "https://aws.amazon.com/blogs/aws/sustainability-pillar-well-architected-framework/",
+          "publishedOn": "2021-12-02T18:05:16.000Z",
+          "wordCount": 1460,
+          "title": "New – Sustainability Pillar for AWS Well-Architected Framework"
+        },
+        {
+          "id": "baeea21fcb7d874432a757c3ba44fce9acd8b91b",
+          "author": "Steve Roberts",
+          "description": "Today, I’m happy to announce that both the Construct Hub and AWS Cloud Development Kit (AWS CDK) version 2 are now generally available (GA). The AWS CDK is an open-source framework that simplifies working with cloud resources using familiar programming languages: C#, TypeScript, Java, Python, and Go (in developer preview). Within their applications, developers create […]",
+          "link": "https://aws.amazon.com/blogs/aws/announcing-general-availability-of-construct-hub-and-aws-cloud-development-kit-version-2/",
+          "publishedOn": "2021-12-02T17:48:12.000Z",
+          "wordCount": 1669,
+          "title": "Announcing General Availability of Construct Hub and AWS Cloud Development Kit Version 2"
+        },
+        {
+          "id": "699ccea03204f481929c95c6a5aa2c90f42d3171",
+          "author": "Sébastien Stormacq",
+          "description": "Last year at AWS re:Invent, Jeff Barr wrote about the exciting availability of Amazon Elastic Compute Cloud (Amazon EC2) Mac instances. Today, we’re announcing the preview of a new EC2 M1 Mac instance. The introduction of EC2 Mac instances brought the flexibility, scalability, and cost benefits of AWS to all Apple developers. EC2 Mac instances […]",
+          "link": "https://aws.amazon.com/blogs/aws/use-amazon-ec2-m1-mac-instances-to-build-test-macos-ios-ipados-tvos-and-watchos-apps/",
+          "publishedOn": "2021-12-02T16:38:32.000Z",
+          "wordCount": 1316,
+          "title": "Use New Amazon EC2 M1 Mac Instances to Build & Test Apps for iPhone, iPad, Mac, Apple Watch, and Apple TV"
+        },
         {
           "id": "55ab2625372c8e72c8276741e6a5057f4a9040ab",
           "author": "Sébastien Stormacq",
@@ -719,7 +755,7 @@
           "description": "In 2016, we launched AWS Shield, a managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS. AWS Shield provides always-on detection and automatic inline mitigations that minimize application downtime and latency without needing to contact AWS Support. There are two tiers of AWS Shield: Standard and Advanced. All AWS customers […]",
           "link": "https://aws.amazon.com/blogs/aws/aws-shield-advanced-update-automatic-application-layer-ddos-mitigation/",
           "publishedOn": "2021-12-01T23:22:49.000Z",
-          "wordCount": 1363,
+          "wordCount": 1361,
           "title": "AWS Shield Advanced Update – Automatic Application Layer DDoS Mitigation"
         },
         {
@@ -746,7 +782,7 @@
           "description": "Today, we’re pleased to announce Amazon SageMaker Inference Recommender — a brand-new Amazon SageMaker Studio capability that automates load testing and optimizes model performance across machine learning (ML) instances. Ultimately, it reduces the time it takes to get ML models from development to production and optimizes the costs associated with their operation. Until now, no […]",
           "link": "https://aws.amazon.com/blogs/aws/announcing-amazon-sagemaker-inference-recommender/",
           "publishedOn": "2021-12-01T18:07:08.000Z",
-          "wordCount": 996,
+          "wordCount": 998,
           "title": "Announcing Amazon SageMaker Inference Recommender"
         },
         {
@@ -811,51 +847,6 @@
           "publishedOn": "2021-12-01T00:21:40.000Z",
           "wordCount": 2000,
           "title": "Enhanced Amazon S3 Integration for Amazon FSx for Lustre"
-        },
-        {
-          "id": "d7a23a44901bbb95b01a0a927c9c970c2deb3c0f",
-          "author": "Jeff Barr",
-          "description": "Over the years, we have given you a succession of increasingly powerful tools to help you migrate your data to the AWS Cloud. Starting with AWS Import/Export back in 2009, followed by Snowball in 2015, Snowmobile and Snowball Edge in 2016, and Snowcone in 2020, each new device has given you additional features to simplify […]",
-          "link": "https://aws.amazon.com/blogs/aws/new-offline-tape-migration-using-aws-snowball-edge/",
-          "publishedOn": "2021-12-01T00:19:31.000Z",
-          "wordCount": 1406,
-          "title": "New – Offline Tape Migration Using AWS Snowball Edge"
-        },
-        {
-          "id": "7f3008441904a79cd107a4ce73c782e71b444932",
-          "author": "Sébastien Stormacq",
-          "description": "Starting today, you can preview AWS Backup for Amazon Simple Storage Service (Amazon S3). AWS Backup is a fully managed, policy-based service that lets you to centralize and automate the backup and restore of your applications spanning across 12 AWS services: Amazon Elastic Compute Cloud (Amazon EC2) instances, Amazon Elastic Block Store (EBS) volumes, Amazon […]",
-          "link": "https://aws.amazon.com/blogs/aws/preview-aws-backup-adds-support-for-amazon-s3/",
-          "publishedOn": "2021-12-01T00:16:50.000Z",
-          "wordCount": 1786,
-          "title": "Preview – AWS Backup Adds Support for Amazon S3"
-        },
-        {
-          "id": "7e444c98428d024f3288b4fbeb40fc86d68abb77",
-          "author": "Marcia Villalba",
-          "description": "Today we are announcing the Amazon S3 Glacier Instant Retrieval storage class. This new archive storage class delivers the lowest cost storage for long-lived data that is rarely accessed and requires millisecond retrieval. We are also excited to announce that S3 Intelligent-Tiering now automatically optimizes storage costs for rarely accessed data that needs immediate retrieval […]",
-          "link": "https://aws.amazon.com/blogs/aws/amazon-s3-glacier-is-the-best-place-to-archive-your-data-introducing-the-s3-glacier-instant-retrieval-storage-class/",
-          "publishedOn": "2021-12-01T00:13:29.000Z",
-          "wordCount": 1845,
-          "title": "Amazon S3 Glacier is the Best Place to Archive Your Data – Introducing the S3 Glacier Instant Retrieval Storage Class"
-        },
-        {
-          "id": "e04178889fb69c8f1868c89fea8cb577a58b8e40",
-          "author": "Marcia Villalba",
-          "description": "Today, we are introducing a couple new features that simplify access management for data stored in Amazon Simple Storage Service (Amazon S3). First, we are introducing a new Amazon S3 Object Ownership setting that lets you disable access control lists (ACLs) to simplify access management for data stored in Amazon S3. Second, the Amazon S3 […]",
-          "link": "https://aws.amazon.com/blogs/aws/new-simplify-access-management-for-data-stored-in-amazon-s3/",
-          "publishedOn": "2021-12-01T00:06:02.000Z",
-          "wordCount": 1334,
-          "title": "New – Simplify Access Management for Data Stored in Amazon S3"
-        },
-        {
-          "id": "627608f1378cb46ff9f2366a79f614fba2578bc7",
-          "author": "Danilo Poccia",
-          "description": "Today, I am happy to announce AWS Backup support for VMware, a new capability that enables you to centralize and automate data protection of virtual machines (VMs) running on VMware on premises and VMware CloudTM on AWS. You can now use a single, centrally managed policy in AWS Backup to protect these VMware environments together […]",
-          "link": "https://aws.amazon.com/blogs/aws/new-for-aws-backup-support-for-vmware-and-vmware-cloud-on-aws/",
-          "publishedOn": "2021-12-01T00:02:38.000Z",
-          "wordCount": 1538,
-          "title": "New for AWS Backup – Support for VMware and VMware Cloud on AWS"
         }
       ]
     },
@@ -864,6 +855,15 @@
       "feedUrl": "https://xkcd.com/atom.xml",
       "siteUrl": "https://xkcd.com/",
       "articles": [
+        {
+          "id": "https://xkcd.com/2549/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/edge_cake.png\" title=\"Every time IERS adds or removes a leap second, they send me a birthday cake out of superstition.\" alt=\"Every time IERS adds or removes a leap second, they send me a birthday cake out of superstition.\" />",
+          "link": "https://xkcd.com/2549/",
+          "publishedOn": "2021-12-01T00:00:00.000Z",
+          "wordCount": 185,
+          "title": "Edge Cake"
+        },
         {
           "id": "https://xkcd.com/2548/",
           "author": null,
@@ -890,15 +890,6 @@
           "publishedOn": "2021-11-24T00:00:00.000Z",
           "wordCount": 187,
           "title": "Fiction vs Nonfiction"
-        },
-        {
-          "id": "https://xkcd.com/2545/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/bayes_theorem.png\" title=\"P((B|A)|(A|B)) represents the probability that you'll mix up the order of the terms when using Bayesian notation.\" alt=\"P((B|A)|(A|B)) represents the probability that you'll mix up the order of the terms when using Bayesian notation.\" />",
-          "link": "https://xkcd.com/2545/",
-          "publishedOn": "2021-11-22T00:00:00.000Z",
-          "wordCount": 185,
-          "title": "Bayes' Theorem"
         }
       ]
     },
@@ -907,6 +898,15 @@
       "feedUrl": "https://camunda.com/feed/",
       "siteUrl": "https://camunda.com",
       "articles": [
+        {
+          "id": "https://camunda.com/?p=37914",
+          "author": "Brittany des Vignes",
+          "description": "Get details on how solutions built with Camunda enabled Covea to organize data more effectively and create an even-stronger user experience.\nThe post The Secret Behind the IT Transformation of Covéa Insurance appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2021/12/the-secret-behind-the-it-transformation-of-covea-insurance/",
+          "publishedOn": "2021-12-02T14:00:00.000Z",
+          "wordCount": 1711,
+          "title": "The Secret Behind the IT Transformation of Covéa Insurance"
+        },
         {
           "id": "https://camunda.com/?p=37672",
           "author": "Niall Deehan",
@@ -949,7 +949,7 @@
           "description": "Our next cohort of Camunda Champions are about to begin. Take a look at our new recruits and learn how to join the program.\nThe post More Amazing Camunda Champions Loading… appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/11/more-amazing-camunda-champions-loading/",
           "publishedOn": "2021-11-11T07:05:00.000Z",
-          "wordCount": 1551,
+          "wordCount": 1550,
           "title": "More Amazing Camunda Champions Loading…"
         },
         {
@@ -958,7 +958,7 @@
           "description": "Get started with Camunda Cloud 1.3.0-alpha1 now! The alpha includes bug fixes and the preparations for the next 1.3.0 release. \nThe post Camunda Cloud 1.3.0-alpha1 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/11/camunda-cloud-1-3-0-alpha1-released/",
           "publishedOn": "2021-11-09T15:45:23.000Z",
-          "wordCount": 1617,
+          "wordCount": 1618,
           "title": "Camunda Cloud 1.3.0-alpha1 Released"
         },
         {
@@ -987,15 +987,6 @@
           "publishedOn": "2021-11-05T14:00:00.000Z",
           "wordCount": 1939,
           "title": "5 Factors Impacting Your Business Process Management"
-        },
-        {
-          "id": "https://camunda.com/?p=35654",
-          "author": "David Simmons",
-          "description": "Having trouble setting your variable sometimes? Find out how to check if your variable is set and why it can occasionally appear non-existent.\nThe post Q&A: The One with the Non-existent Variable appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2021/11/qa-the-one-with-the-non-existent-variable/",
-          "publishedOn": "2021-11-04T13:30:00.000Z",
-          "wordCount": 1583,
-          "title": "Q&A: The One with the Non-existent Variable"
         }
       ]
     },
@@ -1148,7 +1139,7 @@
           "description": "Martin Tingley with Wenjing Zheng, Simon Ejdemyr, Stephanie Lane, Michael Lindon, and Colin McFarland",
           "link": "https://netflixtechblog.com/building-confidence-in-a-decision-8705834e6fd8?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-11-15T16:20:05.000Z",
-          "wordCount": 2444,
+          "wordCount": 2438,
           "title": "Building confidence in a decision"
         },
         {
@@ -1157,17 +1148,8 @@
           "description": "by Liwei Guo, Ashwin Kumar Gopi Valliammal, Raymond Tam, Chris Pham, Agata Opalach, Weibo Ni",
           "link": "https://netflixtechblog.com/bringing-av1-streaming-to-netflix-members-tvs-b7fc88e42320?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-11-09T19:45:50.000Z",
-          "wordCount": 2301,
+          "wordCount": 2317,
           "title": "Bringing AV1 Streaming to Netflix Members’ TVs"
-        },
-        {
-          "id": "https://medium.com/p/552be631c113",
-          "author": "Netflix Technology Blog",
-          "description": "by Christos G. Bampis, Chao Chen, Anush K. Moorthy and Zhi Li",
-          "link": "https://netflixtechblog.com/netflix-video-quality-at-scale-with-cosmos-microservices-552be631c113?source=rss----2615bd06b42e---4",
-          "publishedOn": "2021-11-02T17:04:55.000Z",
-          "wordCount": 1963,
-          "title": "Netflix Video Quality at Scale with Cosmos Microservices"
         }
       ]
     },
@@ -1176,6 +1158,15 @@
       "feedUrl": "http://feeds.feedburner.com/blogspot/gJZg",
       "siteUrl": "http://ai.googleblog.com/",
       "articles": [
+        {
+          "id": "http://ai.googleblog.com/2021/12/evaluating-syntactic-abilities-of.html",
+          "author": null,
+          "description": "Posted by Jason Wei, AI Resident and Dan Garrette, Research Scientist, Google Research  \nIn recent years, pre-trained language models, such as BERT and GPT-3, have seen widespread use in natural language processing (NLP). By training on large volumes of text, language models acquire broad knowledge about the world, achieving strong performance on various NLP benchmarks. These models, however, are often opaque in that it may not be clear why they perform so well, which limits further hypothesis-driven improvement of the models. Hence, a new line of scientific inquiry has arisen: what linguistic knowledge is contained in these models? \n While there are many types of linguistic knowledge that one may want to investigate, a topic that provides a strong basis for analysis is the subject–verb ag…",
+          "link": "http://ai.googleblog.com/2021/12/evaluating-syntactic-abilities-of.html",
+          "publishedOn": "2021-12-02T18:23:00.000Z",
+          "wordCount": 2106,
+          "title": "Evaluating Syntactic Abilities of Language Models"
+        },
         {
           "id": "http://ai.googleblog.com/2021/12/rlds-ecosystem-to-generate-share-and.html",
           "author": null,

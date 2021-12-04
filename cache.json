@@ -6,21 +6,30 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/12/02/a-bootiful-podcast-datastax-s-christopher-bradford-on-the-apache-cassandra-operator-for-kubernetes-k8ssandra",
+          "author": null,
+          "description": "Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks to DataStax’s Christopher Bradford on the Apache Cassandra operator for Kubernetes, K8ssandra.\n\r\n\r\n  \nKubeCon Talk blogpost part 1\n\r\n  \nKubeCon Talk blogpost part 2\n\r\n  \nWe Pushed Helm to the Limit, then Built a Kubernetes Operator \n\r\n  \nA Case for Databases on Kubernetes from a Former Skeptic",
+          "link": "https://spring.io/blog/2021/12/02/a-bootiful-podcast-datastax-s-christopher-bradford-on-the-apache-cassandra-operator-for-kubernetes-k8ssandra",
+          "publishedOn": "2021-12-03T01:00:00.000Z",
+          "wordCount": 446,
+          "title": "A Bootiful Podcast: DataStax's Christopher Bradford on the Apache Cassandra operator for Kubernetes, K8ssandra"
+        },
+        {
           "id": "https://spring.io/blog/2021/12/02/spring-cloud-2021-0-0-codename-jubilee-has-been-released",
           "author": null,
-          "description": "On behalf of the community, I am pleased to announce the General Availability of the Spring Cloud 2021.0 Release Train, codename Jubilee, is available today. The release can be found in Maven Central. You can check out the 2021.0 release notes for more information.\nNotable Changes in the 2021.0 Release Train\n\r\n2021.0.0 is compatible with Spring Boot 2.6.1\n\r\nSee the project page for all the issues and pull requests included in this release.\nSpring Cloud Commons\n\r\n\r\n  \nSupport for per Load-balancer configuration properties (added as well to Gateway, Contract and Openfeign).\n\r\n\nSpring Cloud Config\n\r\n\r\n  \nIntegration with AWS Secrets Manager, AWS Parameter Store and GCP Secret Manager.\n\r\n\nSpring Cloud Gateway\n\r\n\r\n  \nRedis Route Repository\n\r\n  \nHTTP 2 Support\n\r\n  \ngRPC Support\n\r\n\nSpring Cloud K…",
+          "description": "On behalf of the community, I am pleased to announce the General Availability of the Spring Cloud 2021.0 Release Train, codename Jubilee, is available today. The release can be found in Maven Central. You can check out the 2021.0 release notes for more information.\nNotable Changes in the 2021.0 Release Train\n\r\n2021.0.0 is compatible with Spring Boot 2.6.1\n\r\nSee the project page for all the issues and pull requests included in this release.\nSpring Cloud Commons\n\r\n\r\n  \nSupport for per LoadBalancer configuration properties (added as well to Gateway, Contract and OpenFeign).\n\r\n\nSpring Cloud Config\n\r\n\r\n  \nIntegration with AWS Secrets Manager, AWS Parameter Store and GCP Secret Manager.\n\r\n\nSpring Cloud Function\n\r\n\r\n  \nSupport for gRPC, FunctionCatalog via actuator endpoint, AWS improvements, Clo…",
           "link": "https://spring.io/blog/2021/12/02/spring-cloud-2021-0-0-codename-jubilee-has-been-released",
-          "publishedOn": "2021-12-02T21:45:13.000Z",
-          "wordCount": 719,
+          "publishedOn": "2021-12-02T21:45:00.000Z",
+          "wordCount": 775,
           "title": "Spring Cloud 2021.0.0 (codename Jubilee) Has Been Released"
         },
         {
           "id": "https://spring.io/blog/2021/12/02/spring-cloud-function-3-2-is-out",
           "author": null,
-          "description": "Spring Cloud 2021.0.0 is finally out (separate blog post is imminent) and with it you have Spring Cloud Function 3.2\n\r\nWhile the full list of features, enhancements and bug fixes is available here, I’d like to call out few of them in this post and provide some details.\ngRPC Support\n\r\nIn addition to an already existing support for invoking function via AWS Lambda, RSocket, Spring Cloud Stream etc., Spring Cloud Function now allows you to invoke function via gRPC.\nTwo ways to benefit from it. \nSpring Message\n\r\nGiven the wide adaption of Spring Messaging, one way of benefiting from gRPC support is by embracing Spring’s Message.\nSpring Cloud Function provides GrpcSpringMessage schema modeled after Spring’s Message. It is internally converted to Spring Message to benefit from all of the existin…",
+          "description": "Spring Cloud 2021.0.0 is finally out and with it you have Spring Cloud Function 3.2\n\r\nWhile the full list of features, enhancements and bug fixes is available here, I’d like to call out few of them in this post and provide some details.\ngRPC Support\n\r\nIn addition to an already existing support for invoking function via AWS Lambda, RSocket, Spring Cloud Stream etc., Spring Cloud Function now allows you to invoke function via gRPC.\nTwo ways to benefit from it. \nSpring Message\n\r\nGiven the wide adaption of Spring Messaging, one way of benefiting from gRPC support is by embracing Spring’s Message.\nSpring Cloud Function provides GrpcSpringMessage schema modeled after Spring’s Message. It is internally converted to Spring Message to benefit from all of the existing support for Spring Messaging. \n…",
           "link": "https://spring.io/blog/2021/12/02/spring-cloud-function-3-2-is-out",
           "publishedOn": "2021-12-02T18:54:00.000Z",
-          "wordCount": 1173,
+          "wordCount": 1168,
           "title": "Spring Cloud Function 3.2 is out!"
         },
         {
@@ -175,15 +184,6 @@
           "publishedOn": "2021-11-18T09:12:00.000Z",
           "wordCount": 527,
           "title": "Spring Boot 2.4.13 available now"
-        },
-        {
-          "id": "https://spring.io/blog/2021/11/17/spring-batch-4-3-4-and-4-2-8-available-now",
-          "author": null,
-          "description": "I am pleased to announce that Spring Batch 4.2.8 and 4.3.4 have been released and are available now from Maven Central repository. These patch releases come with a number of bug fixes and dependency updates. You can find the complete change logs here: 4.2.8 and 4.3.4.\n\r\nI would like to thank all contributors who had a role in these releases!\n\r\nSpring Batch Home | Source on GitHub | Reference Documentation",
-          "link": "https://spring.io/blog/2021/11/17/spring-batch-4-3-4-and-4-2-8-available-now",
-          "publishedOn": "2021-11-17T19:36:00.000Z",
-          "wordCount": 450,
-          "title": "Spring Batch 4.3.4 and 4.2.8 available now!"
         }
       ]
     },
@@ -290,15 +290,6 @@
           "publishedOn": "2021-11-05T16:00:00.000Z",
           "wordCount": 864,
           "title": "Plans to Archive Unmaintained Packer Provisioner Plugins"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/why-use-the-vault-agent-for-secrets-management",
-          "author": null,
-          "description": "Learn how HashiCorp’s Vault Agent can help you achieve zero trust security in a simple manner, consistently across all application teams.",
-          "link": "https://www.hashicorp.com/blog/why-use-the-vault-agent-for-secrets-management",
-          "publishedOn": "2021-11-03T16:00:00.000Z",
-          "wordCount": 1629,
-          "title": "Why Use the Vault Agent for Secrets Management?"
         }
       ]
     },
@@ -307,6 +298,24 @@
       "feedUrl": "https://www.elastic.co/blog/feed",
       "siteUrl": "https://www.elastic.co",
       "articles": [
+        {
+          "id": "https://www.elastic.co/blog/detect-block-unknown-knowndlls-windows-acl-hardening-attacks-cache-poisoning-escalation",
+          "author": "Gabriel Landau",
+          "description": "This is the second in a two-part series discussing a still-unpatched userland Windows privilege escalation. The exploit enables attackers to perform highly privileged actions that typically require a kernel driver.",
+          "link": "https://www.elastic.co/blog/detect-block-unknown-knowndlls-windows-acl-hardening-attacks-cache-poisoning-escalation",
+          "publishedOn": "2021-12-03T14:00:00.000Z",
+          "wordCount": 1066,
+          "title": "Detecting and blocking unknown KnownDlls"
+        },
+        {
+          "id": "https://www.elastic.co/blog/detect-block-unknown-knowndlls-windows-acl-hardening-attacks-cache-poisoning-escalation",
+          "author": "Gabriel Landau",
+          "description": ",\nThis is the second in a two-part series discussing a still-unpatched userland Windows privilege escalation. The exploit enables attackers to perform highly privileged actions that typically require a kernel driver.\nPart 1 of this blog series showed how to block these attacks via ACL hardening. If you haven’t already, please read the first part of this series, because it lays an important foundation for this article. Interested readers can also check out the excellent Unknown Known DLLs ... and other Code Integrity Trust Violations for a deeper understanding of code integrity and protected processes.\nIn part 2 of this series, I’ll show how to detect these attacks in real time, gaining greater visibility into your environment.\nExploit refresher\nAt a high level, the exploit, previously desc…",
+          "link": "https://www.elastic.co/blog/detect-block-unknown-knowndlls-windows-acl-hardening-attacks-cache-poisoning-escalation",
+          "publishedOn": "2021-12-03T14:00:00.000Z",
+          "wordCount": 1066,
+          "title": "Detecting and blocking unknown KnownDlls"
+        },
         {
           "id": "https://www.elastic.co/blog/monitoring-elastic-enterprise-search-performance-using-elastic-apm",
           "author": "Pius Fung",
@@ -382,7 +391,7 @@
         {
           "id": "https://www.elastic.co/blog/elastic-cloud-with-aws-firelens-accelerate-time-to-insight-with-agentless-data-ingestion",
           "author": "Akshay Saraswat,Uday Theepireddy",
-          "description": "Learn how to ship logs directly to Elastic Cloud with AWS Firelens, a container log router for Amazon ECS EC2 and AWS Fargate. Monitor, manage, and secure your logs and events from FireLens with Elastic Observability and Elastic Security.",
+          "description": "Ship logs directly to Elastic Cloud with AWS FireLens, a container log router for Amazon ECS launch types: Amazon EC2 and AWS Fargate. Monitor, manage, and secure your logs and events from FireLens with Elastic Observability and Elastic Security.",
           "link": "https://www.elastic.co/blog/elastic-cloud-with-aws-firelens-accelerate-time-to-insight-with-agentless-data-ingestion",
           "publishedOn": "2021-11-22T13:30:00.000Z",
           "wordCount": 995,
@@ -468,24 +477,6 @@
           "publishedOn": "2021-11-17T14:00:00.000Z",
           "wordCount": 1045,
           "title": "How two Elastic Community Contributor award winners became amazing Elasticians"
-        },
-        {
-          "id": "https://www.elastic.co/blog/easily-share-kibana-assets-with-elastic-package",
-          "author": "Julien Lind",
-          "description": "Elastic-package is the official developer tool, used to create your own integrations that will be run by Elastic Agent.",
-          "link": "https://www.elastic.co/blog/easily-share-kibana-assets-with-elastic-package",
-          "publishedOn": "2021-11-16T14:00:00.000Z",
-          "wordCount": 605,
-          "title": "Easily share Kibana assets with elastic-package"
-        },
-        {
-          "id": "https://www.elastic.co/blog/easily-share-kibana-assets-with-elastic-package",
-          "author": "Julien Lind",
-          "description": ",\nAn invaluable way to share best practices across your company, teams, and network is by sharing assets. We will present the export option of the elastic-package tool that will make your asset sharing as easy as ABC. In this guide you will walk through the elastic-package export option and learn about sharing and spreading useful dashboards.\nInstead of reinventing the wheel, try to repurpose the work that has already been done. Some Kibana dashboards have already been created for you, but why not share yours as well.\nDashboard creation and export with elastic-package\nTo begin we will need to locally start a full elastic stack in order to access Kibana UI.\njulienlind@MacBook-Pro elastic-package % elastic-package stack up -d -v,\n“stack up” will start all needed containers, the -d option wil…",
-          "link": "https://www.elastic.co/blog/easily-share-kibana-assets-with-elastic-package",
-          "publishedOn": "2021-11-16T14:00:00.000Z",
-          "wordCount": 605,
-          "title": "Easily share Kibana assets with elastic-package"
         }
       ]
     },
@@ -556,6 +547,15 @@
       "siteUrl": "https://devblogs.microsoft.com/devops",
       "articles": [
         {
+          "id": "https://devblogs.microsoft.com/devops/?p=62907",
+          "author": "Jay Gordon",
+          "description": "Welcome back! I am Jay Gordon and every week I try to bring you the latest updates from around the DevOps on Azure community. If you have a post you’d like to have me include, I am always listening. You can reach out on Twitter or LinkedIn and I will be sure to share your latest post with the community.\nThe post Top Stories from the Microsoft DevOps Community – 2021.12.03 appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-12-03/",
+          "publishedOn": "2021-12-03T11:00:31.000Z",
+          "wordCount": 1494,
+          "title": "Top Stories from the Microsoft DevOps Community – 2021.12.03"
+        },
+        {
           "id": "https://devblogs.microsoft.com/devops/?p=62906",
           "author": "April Edwards",
           "description": "Azure Static Web Apps were launched earlier in 2021 and out of the box they had the capability to integrate your existing repository and deploy your Static Web App from Azure DevOps. You can reference the full getting started guide for the end-to-end deployment setup.\nThe post Automating Azure Static Web Apps in Azure Pipelines appeared first on Azure DevOps Blog.",
@@ -570,7 +570,7 @@
           "description": "After a short break for some Microsoft streaming events, AzureFunBytes returns to LearnTV for another fun conversation about the products, people, and services that make for a delightful Azure experience.\nThe post AzureFunBytes Episode 62 – Supercharge your Java Apps on Azure with @rorypreddy appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-62-supercharge-your-java-apps-on-azure-with-rorypreddy/",
           "publishedOn": "2021-12-02T10:00:43.000Z",
-          "wordCount": 1593,
+          "wordCount": 1608,
           "title": "AzureFunBytes Episode 62 – Supercharge your Java Apps on Azure with @rorypreddy"
         },
         {
@@ -606,7 +606,7 @@
           "description": "Welcome back! I am Jay Gordon and every week I try to bring you the latest updates from around the DevOps on Azure community. If you have a post you’d like to have me include, I am always listening. You can reach out on Twitter or LinkedIn and I will be sure to share your latest post with the community.\nThe post Top Stories from the Microsoft DevOps Community – 2021.11.19 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-11-19/",
           "publishedOn": "2021-11-19T11:00:35.000Z",
-          "wordCount": 1476,
+          "wordCount": 1456,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.11.19"
         },
         {
@@ -624,7 +624,7 @@
           "description": "If you’ve run into trouble while trying to publish an Azure DevOps or Visual Studio extension to the Visual Studio Marketplace, please ask your administrator if they have enabled the new policy to restrict the creation of global personal access tokens (PATs).\nThe post Known issue with publishing extensions: “Your ability to create global personal access tokens (PATs) is restricted by your organization.” appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/issue-with-extension-publishing/",
           "publishedOn": "2021-11-09T19:04:40.000Z",
-          "wordCount": 1253,
+          "wordCount": 1275,
           "title": "Known issue with publishing extensions: “Your ability to create global personal access tokens (PATs) is restricted by your organization.”"
         },
         {
@@ -635,15 +635,6 @@
           "publishedOn": "2021-11-09T13:00:07.000Z",
           "wordCount": 1454,
           "title": "AzureFunBytes Episode 61 – Deploying to @Azure is one “git push” away with @juliendubois"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=62765",
-          "author": "Angel Wong",
-          "description": "In the past couple of years, we’ve been gradually working on building out the Auditing features within Azure DevOps, from adding new billing and token events to the logs to releasing the ability to send auditing data downstream into a Security Incident and Event Management (SIEM) tool.\nThe post Auditing Coming to General Availability (GA) Early 2022! appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/auditing-coming-to-general-availability-ga-early-2022/",
-          "publishedOn": "2021-11-08T22:15:18.000Z",
-          "wordCount": 1647,
-          "title": "Auditing Coming to General Availability (GA) Early 2022!"
         }
       ]
     },
@@ -827,7 +818,7 @@
           "description": "On October 26, 2021, we launched Amazon RDS Custom for Oracle, a managed database service for applications that require customization of the underlying operating system and database environment. RDS Custom lets you access and customize your database server host and operating system, for example, by applying special patches and changing the database software settings to […]",
           "link": "https://aws.amazon.com/blogs/aws/new-amazon-rds-custom-for-sql-server-is-generally-available/",
           "publishedOn": "2021-12-01T16:54:46.000Z",
-          "wordCount": 1666,
+          "wordCount": 1689,
           "title": "New – Amazon RDS Custom for SQL Server Is Generally Available"
         },
         {
@@ -900,11 +891,11 @@
       "articles": [
         {
           "id": "https://camunda.com/?p=37914",
-          "author": "Brittany des Vignes",
+          "author": "Christian Connors",
           "description": "Get details on how solutions built with Camunda enabled Covea to organize data more effectively and create an even-stronger user experience.\nThe post The Secret Behind the IT Transformation of Covéa Insurance appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/12/the-secret-behind-the-it-transformation-of-covea-insurance/",
           "publishedOn": "2021-12-02T14:00:00.000Z",
-          "wordCount": 1711,
+          "wordCount": 1835,
           "title": "The Secret Behind the IT Transformation of Covéa Insurance"
         },
         {
@@ -931,7 +922,7 @@
           "description": "Wondering how to make a SSO implementation work in Camunda? Have no fear. The answer you've been waiting for is here! \nThe post Q&A: The One with the SSO Implementation in Camunda appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/11/qa-the-one-with-the-sso-implementation-in-camunda/",
           "publishedOn": "2021-11-18T14:30:00.000Z",
-          "wordCount": 2497,
+          "wordCount": 2496,
           "title": "Q&A: The One with the SSO Implementation in Camunda"
         },
         {
@@ -940,7 +931,7 @@
           "description": "Dig into how Intuit used workflow automation to manage 396 transactions per second during its most demanding months.\nThe post How Intuit Managed 19M Processes During Peak Tax, Accounting Seasons appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/11/how-intuit-managed-19m-processes-during-peak-tax-accounting-seasons/",
           "publishedOn": "2021-11-16T14:00:00.000Z",
-          "wordCount": 1834,
+          "wordCount": 1831,
           "title": "How Intuit Managed 19M Processes During Peak Tax, Accounting Seasons"
         },
         {
@@ -949,7 +940,7 @@
           "description": "Our next cohort of Camunda Champions are about to begin. Take a look at our new recruits and learn how to join the program.\nThe post More Amazing Camunda Champions Loading… appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/11/more-amazing-camunda-champions-loading/",
           "publishedOn": "2021-11-11T07:05:00.000Z",
-          "wordCount": 1550,
+          "wordCount": 1551,
           "title": "More Amazing Camunda Champions Loading…"
         },
         {
@@ -985,7 +976,7 @@
           "description": "Learn why companies are ditching BPMS and applying process modeling and automation practices to their customer-facing processes instead. \nThe post 5 Factors Impacting Your Business Process Management appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/11/how-process-automation-can-ignite-your-business-process-management/",
           "publishedOn": "2021-11-05T14:00:00.000Z",
-          "wordCount": 1939,
+          "wordCount": 1936,
           "title": "5 Factors Impacting Your Business Process Management"
         }
       ]
@@ -1031,6 +1022,15 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/2021-12-03-release-radar-nov-2021/",
+          "author": null,
+          "description": "The end of the year is getting closer, and our communities are busy working away on their projects. While you&#8217;ve all been busy maintaining open source projects and shipping releases, we&#8217;ve created a new open",
+          "link": "https://github.blog/2021-12-03-release-radar-nov-2021/",
+          "publishedOn": "2021-12-03T22:00:35.000Z",
+          "wordCount": 1236,
+          "title": "Release Radar · November 2021 Edition"
+        },
+        {
           "id": "https://github.blog/2021-12-01-github-availability-report-november-2021/",
           "author": null,
           "description": "In November, we experienced one incident resulting in significant impact and degraded state of availability for multiple services.",
@@ -1054,7 +1054,7 @@
           "description": "Are you a student in India? Applications are open for the GitHub Externships Winter Cohort!",
           "link": "https://github.blog/2021-11-30-github-externships-enabling-indias-next-generation-of-developers/",
           "publishedOn": "2021-12-01T03:30:25.000Z",
-          "wordCount": 734,
+          "wordCount": 749,
           "title": "GitHub Externships: enabling India’s next generation of developers"
         },
         {
@@ -1081,7 +1081,7 @@
           "description": "GitHub Actions now supports OpenID Connect for secure deployment to different cloud providers via short-lived, auto-rotated tokens.",
           "link": "https://github.blog/2021-11-23-secure-deployments-openid-connect-github-actions-generally-available/",
           "publishedOn": "2021-11-23T20:16:17.000Z",
-          "wordCount": 676,
+          "wordCount": 679,
           "title": "Secure deployments with OpenID Connect &#038; GitHub Actions now generally available"
         },
         {
@@ -1090,8 +1090,8 @@
           "description": "OSS-Fuzz is Google’s awesome fuzzing service for open source projects. GitHub Security Lab's @kevinbackhouse describes enrolling a project.",
           "link": "https://github.blog/2021-11-23-how-to-squash-bugs-by-enrolling-in-oss-fuzz/",
           "publishedOn": "2021-11-23T17:37:46.000Z",
-          "wordCount": 1637,
-          "title": "How to squash bugs by enrolling in OSS-Fuzz"
+          "wordCount": 1652,
+          "title": "Blue-teaming for Exiv2: how to squash bugs by enrolling in OSS-Fuzz"
         },
         {
           "id": "https://github.blog/2021-11-23-copyright-office-expands-security-research-rights/",
@@ -1110,15 +1110,6 @@
           "publishedOn": "2021-11-22T17:27:15.000Z",
           "wordCount": 676,
           "title": "Accelerate security adoption in your organization"
-        },
-        {
-          "id": "https://github.blog/2021-11-19-in-case-you-missed-it-github-education-at-universe-2021/",
-          "author": null,
-          "description": "A recap of all the GitHub Education news from Universe 2021, including the new Intro to Web Dev Experience.",
-          "link": "https://github.blog/2021-11-19-in-case-you-missed-it-github-education-at-universe-2021/",
-          "publishedOn": "2021-11-19T21:21:48.000Z",
-          "wordCount": 1017,
-          "title": "In case you missed it, GitHub Education at Universe 2021!"
         }
       ]
     },
@@ -1139,7 +1130,7 @@
           "description": "Martin Tingley with Wenjing Zheng, Simon Ejdemyr, Stephanie Lane, Michael Lindon, and Colin McFarland",
           "link": "https://netflixtechblog.com/building-confidence-in-a-decision-8705834e6fd8?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-11-15T16:20:05.000Z",
-          "wordCount": 2438,
+          "wordCount": 2431,
           "title": "Building confidence in a decision"
         },
         {
@@ -1148,7 +1139,7 @@
           "description": "by Liwei Guo, Ashwin Kumar Gopi Valliammal, Raymond Tam, Chris Pham, Agata Opalach, Weibo Ni",
           "link": "https://netflixtechblog.com/bringing-av1-streaming-to-netflix-members-tvs-b7fc88e42320?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-11-09T19:45:50.000Z",
-          "wordCount": 2317,
+          "wordCount": 2309,
           "title": "Bringing AV1 Streaming to Netflix Members’ TVs"
         }
       ]
@@ -1301,15 +1292,6 @@
           "publishedOn": "2021-11-05T19:03:00.001Z",
           "wordCount": 2320,
           "title": "Another Step Towards Breakeven Fusion"
-        },
-        {
-          "id": "http://ai.googleblog.com/2021/11/self-supervised-reversibility-aware.html",
-          "author": null,
-          "description": "Posted by Johan Ferret, Student Researcher, Google Research, Brain Team    \nAn approach commonly used to train agents for a range of applications from robotics to chip design is reinforcement learning (RL). While RL excels at discovering how to solve tasks from scratch, it can struggle in training an agent to understand the reversibility of its actions, which can be crucial to ensure that agents behave in a safe manner within their environment. For instance, robots are generally costly and require maintenance, so one wants to avoid taking actions that might lead to broken components. Estimating if an action is reversible or not (or better, how easily it can be reversed) requires a working knowledge of the physics of the environment in which the agent is operating. However, in the standard …",
-          "link": "http://ai.googleblog.com/2021/11/self-supervised-reversibility-aware.html",
-          "publishedOn": "2021-11-03T18:11:00.004Z",
-          "wordCount": 2946,
-          "title": "Self-Supervised Reversibility-Aware Reinforcement Learning"
         }
       ]
     }

@@ -6,6 +6,33 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/12/08/spring-tools-4-13-0-released",
+          "author": null,
+          "description": "Dear Spring Community,\n\r\nI am happy to announce the 4.13.0 release of the Spring Tools 4 for Eclipse, Visual Studio Code, and Theia.\nmajor changes to the Spring Tools 4 for Eclipse distribution\n\r\n\r\n  \nupdated to Eclipse 2021-12 release (including support for Java 17) (new and noteworthy)\n\r\n  \nbuilds for Apple Silicon platform (ARM M1) are available now from the regular download page\n\r\n\nadditional changes\n\r\n\r\n  \n(Spring Boot) fixed: STS 4.12.0 (for eclipse) *.yml can’t automatic prompt (#690)\r\n\r\n  \n(Spring Boot) fixed: A StackOverFlow error for serializable Kotlin data class for autocompletion in the Eclipse IDE (#693)\n\r\n  \n(Eclipse) fixed: Typescript comparison: An internal error occurred during: “LSP4E Linked Editing Highlight” (#700)\n\r\n  \n(Eclipse) fixed: js syntax highlight disabled by STS4 (#702)\n\r\n  \n(Eclipse) fixed: Cannot copy/paste from ANSI console without escape sequences (#667) - fixed in ANSI Color Console project thanks to @mihnita\n\r\n\r\nTo download the distribution for Eclipse and find links to the marketplace entries for Visual Studio Code and Theia, please go visit:\n\r\n\r\n  \nSpring Tools 4: https://spring.io/tools/\n\r\n\r\nIf you are updating an existing Spring Tools 4 installation, please make sure you to prepare your installation propertly this time: https://twitter.com/springtools4/status/1468587842838355980\n\r\nDetailed changes can be found here: https://github.com/spring-projects/sts4/wiki/Changelog#2021-12-08-4130-release-incl-language-servers-version-1290\n\r\nSpring Tools 4.13.1 is scheduled to be released in early Feb 2022.\n\r\nEnjoy!",
+          "link": "https://spring.io/blog/2021/12/08/spring-tools-4-13-0-released",
+          "publishedOn": "2021-12-08T19:30:00.000Z",
+          "wordCount": 577,
+          "title": "Spring Tools 4.13.0 released"
+        },
+        {
+          "id": "https://spring.io/blog/2021/12/08/secure-communications-end-to-end-for-spring-boot-apps-in-zero-trust-environment",
+          "author": null,
+          "description": "Secure communications end-to-end for Spring Boot apps - in a Zero Trust environment\n\r\nHi, Spring fans! Today, we are excited to announce the general availability of all the features to secure communications end-to-end for Spring Boot apps – in a Zero Trust environment. You can secure communications end-to-end or terminate transport level security at any communication point for Spring Boot apps. You can also automate the provisioning and configuration for all the Azure resources needed for securing communications.\n\r\nImplementing secure communications as part of your solution architecture can be challenging. Many customers manually rotate their certificates or create their own solutions to automate provisioning and configuration. Even then, there is still data exfiltration risk – say unautho…",
+          "link": "https://spring.io/blog/2021/12/08/secure-communications-end-to-end-for-spring-boot-apps-in-zero-trust-environment",
+          "publishedOn": "2021-12-08T18:00:00.000Z",
+          "wordCount": 1824,
+          "title": "Secure communications end-to-end for Spring Boot apps – in Zero Trust environment"
+        },
+        {
+          "id": "https://spring.io/blog/2021/12/08/spring-cloud-gateway-and-grpc",
+          "author": null,
+          "description": "Starting from version 3.1.0 as part of the Spring Cloud 2021.0.0 (aka Jubilee) release train, Spring Cloud Gateway included support for gRPC and HTTP/2.\n\r\n\r\n\r\nWe will introduce the basic concepts behind gRPC and how to configure it with two examples:\n\r\n\r\n\r\n\r\n\r\nOne that showcases how Spring Cloud Gateway can transparently re-route gRPC traffic without needing to know the proto definition and without having to modify our existing gRPC servers.\n\r\n\r\n\r\nAnother that showcases how we can create a custom filter in Spring Cloud Gateway to transform a JSON payload to a gRPC message.\n\r\n\r\n\r\n\r\n\r\nIntroduction to gRPC and HTTP/2\n\r\n\r\n\r\nHTTP/2 makes our applications faster, simpler, and more robust. Reducing latency by enabling request and response\r\nmultiplexing, adding efficient compression of HTTP header…",
+          "link": "https://spring.io/blog/2021/12/08/spring-cloud-gateway-and-grpc",
+          "publishedOn": "2021-12-08T17:00:00.000Z",
+          "wordCount": 1332,
+          "title": "Spring Cloud Gateway and gRPC"
+        },
+        {
           "id": "https://spring.io/blog/2021/12/07/this-week-in-spring-december-7th-2021",
           "author": null,
           "description": "Hi, Spring fans! Welcome to another installment of This Week in Spring! We’ve got a ton of stuff to dive into so let’s get goin’! \n\r\n\r\n  \nA Bootiful Podcast: DataStax’s Christopher Bradford on the Apache Cassandra operator for Kubernetes, K8ssandra\n\r\n  \nAccelerate Spring Apps to Cloud at Scale - Discussion with Azure Spring Cloud Customers\n\r\n  \nSpring Authorization Server 0.2.1 available now\n\r\n  \nSpring Cloud 2021.0.0 (codename Jubilee) Has Been Released\n\r\n  \nSpring Cloud Function 3.2 is out!\n\r\n  \nSpring Cloud Sleuth 3.1.0 is out!\n\r\n  \nSpring Tips: @Controllers and RSocket\n\r\n  \nJSON:API for Spring HATEOAS\n\r\n  \nLiving with Kubernetes: 12 Commands to Debug Your Workloads\n\r\n  \nHmm. I wonder what Mark Paluch’s cooking something awesome with the R2DBC SPI. I wonder what…?\n\r\n  \nNice job, Github Actions! There’s now integrated sigstore support! Safeguard your containers with new container signing capability in GitHub Actions\n\r\n  \nPull Request #762 adds Knative for incubation at CNCF - hurray!",
@@ -157,33 +184,6 @@
           "publishedOn": "2021-11-19T08:00:00.000Z",
           "wordCount": 2323,
           "title": "Get to Know a Kubernetes Operator!"
-        },
-        {
-          "id": "https://spring.io/blog/2021/11/18/spring-amqp-spring-for-rabbitmq-2-4-is-now-available",
-          "author": null,
-          "description": "I am pleased to announce that Spring AMQP 2.4.0 is now available.\n\r\n\r\n\r\nNotable Changes\n\r\n\r\n\r\n\r\nInitial support for the RabbitMQ Stream Plugin\n\r\n\r\n\r\nSupport for remoting using Spring Framework’s RMI support is deprecated\n\r\n\r\n\r\n\r\n\r\nFor information about all changes in this release, see What’s New.\n\r\n\r\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
-          "link": "https://spring.io/blog/2021/11/18/spring-amqp-spring-for-rabbitmq-2-4-is-now-available",
-          "publishedOn": "2021-11-19T01:36:00.000Z",
-          "wordCount": 438,
-          "title": "Spring AMQP (Spring for RabbitMQ) 2.4 is Now Available"
-        },
-        {
-          "id": "https://spring.io/blog/2021/11/18/spring-for-apache-kafka-2-8-is-now-available",
-          "author": null,
-          "description": "I am pleased to announce that Spring for Apache Kafka 2.8.0 is now available.\n\r\n\r\n\r\nNotable Changes\n\r\n\r\n\r\n\r\nThis version uses the 3.0.0 kafka-clients version\n\r\n\r\n\r\nOut of order manual commits are now supported\n\r\n\r\n\r\nThe same container factory can now be used for both batch and record listeners\n\r\n\r\n\r\nSeparate record and batch error handlers have been replaced with common error handlers\n\r\n\r\n\r\nKafkaTemplate can now be used to receive specific records from known partitions/offsets\n\r\n\r\n\r\n\r\n\r\nFor information about all changes in this release, see What’s New.\n\r\n\r\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
-          "link": "https://spring.io/blog/2021/11/18/spring-for-apache-kafka-2-8-is-now-available",
-          "publishedOn": "2021-11-19T01:28:00.000Z",
-          "wordCount": 475,
-          "title": "Spring for Apache Kafka 2.8 is Now Available"
-        },
-        {
-          "id": "https://spring.io/blog/2021/11/18/a-bootiful-podcast-fellow-java-champion-kate-stanley-on-kubernetes-and-apache-kafka",
-          "author": null,
-          "description": "Hi, Spring fans! Welcome to another installment of A Bootiful Podcast! This week - a week before Thanksgiving here in the US - Josh Long (@starbuxman) wants you to know he and the Spring team are_thankful_ for you, and then he talks to newly minted Java Champion and Java ecosystem legend Kate Stanley (@KateStanley91) about Kubernetes and Apache Kafka.",
-          "link": "https://spring.io/blog/2021/11/18/a-bootiful-podcast-fellow-java-champion-kate-stanley-on-kubernetes-and-apache-kafka",
-          "publishedOn": "2021-11-18T21:00:00.000Z",
-          "wordCount": 450,
-          "title": "A Bootiful Podcast: Fellow Java Champion Kate Stanley on Kubernetes and Apache Kafka"
         }
       ]
     },
@@ -193,12 +193,21 @@
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
         {
+          "id": "https://www.hashicorp.com/blog/terraform-1-1-improves-refactoring-and-the-cloud-cli-experience",
+          "author": null,
+          "description": "Now generally available, HashiCorp Terraform 1.1 offers easier and safer refactoring with ‘moved’ statements and improves the CLI for Terraform Cloud and Enterprise.",
+          "link": "https://www.hashicorp.com/blog/terraform-1-1-improves-refactoring-and-the-cloud-cli-experience",
+          "publishedOn": "2021-12-08T21:00:00.000Z",
+          "wordCount": 1542,
+          "title": "Terraform 1.1 Improves Refactoring and the Cloud CLI Experience"
+        },
+        {
           "id": "https://www.hashicorp.com/blog/build-a-quick-aks-cluster-the-easy-way-with-terraform-cloud",
           "author": null,
           "description": "Find providers in HashiCorp Terraform Cloud to help quickly spin up Kubernetes containers in Microsoft’s Azure Kubernetes Service.",
           "link": "https://www.hashicorp.com/blog/build-a-quick-aks-cluster-the-easy-way-with-terraform-cloud",
           "publishedOn": "2021-12-07T21:00:00.000Z",
-          "wordCount": 2105,
+          "wordCount": 2104,
           "title": "Build a Quick AKS Cluster the Easy Way with Terraform Cloud"
         },
         {
@@ -216,7 +225,7 @@
           "description": "AWS Control Tower Account Factory for HashiCorp Terraform (AFT), the evolution of Terraform Landing Zones, offers an easy way to set up and govern a secure, multi-account AWS environment.",
           "link": "https://www.hashicorp.com/blog/hashicorp-teams-with-aws-on-new-control-tower-account-factory-for-terraform",
           "publishedOn": "2021-11-29T23:45:00.000Z",
-          "wordCount": 927,
+          "wordCount": 926,
           "title": "HashiCorp Teams with AWS on New Control Tower Account Factory for Terraform"
         },
         {
@@ -225,7 +234,7 @@
           "description": "During 2021, HashiCorp and Amazon Web Services have partnered to bring hundreds of new services and features to the Terraform providers for AWS and AWS Cloud Control.",
           "link": "https://www.hashicorp.com/blog/terraform-aws-provider-continues-to-expand-coverage",
           "publishedOn": "2021-11-29T17:00:00.000Z",
-          "wordCount": 923,
+          "wordCount": 922,
           "title": "Terraform AWS Provider Continues to Expand Coverage"
         },
         {
@@ -252,7 +261,7 @@
           "description": "We welcome 17 new verified providers to the growing HashiCorp Terraform ecosystem.",
           "link": "https://www.hashicorp.com/blog/pagerduty-palo-alto-networks-and-splunk-among-new-verified-terraform-providers",
           "publishedOn": "2021-11-18T18:00:00.000Z",
-          "wordCount": 1116,
+          "wordCount": 1114,
           "title": "PagerDuty, Palo Alto Networks, and Splunk Among New Verified Terraform Providers"
         },
         {
@@ -288,7 +297,7 @@
           "description": "HashiCorp Terraform Cloud variable sets let you simplify the management of reusable variables across an entire organization. This feature is now available in public beta.",
           "link": "https://www.hashicorp.com/blog/terraform-cloud-variable-sets-beta-now-available",
           "publishedOn": "2021-11-11T17:00:00.000Z",
-          "wordCount": 1142,
+          "wordCount": 1140,
           "title": "Terraform Cloud Variable Sets Beta Now Available"
         },
         {
@@ -308,31 +317,112 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
-          "id": "https://www.elastic.co/blog/whats-new-elastic-enterprise-search-7-16-0",
-          "author": "Darren Meiss",
-          "description": "Highlights for Elastic Enterprise Search 7.16 include adaptive relevance for curated content suggestions, based on collected analytics, i.e., what your users have been searching for, plus, a unified Enterprise Search management interface within Kibana.",
-          "link": "https://www.elastic.co/blog/whats-new-elastic-enterprise-search-7-16-0",
-          "publishedOn": "2021-12-07T16:00:00.000Z",
-          "wordCount": 656,
-          "title": "Elastic Enterprise Search 7.16: Adaptive relevance and Kibana UI"
+          "id": "https://www.elastic.co/blog/why-usgovernment-scaling-cybervisibility-elastic-cdm-cybersecurity-analyze-data",
+          "author": "John Harmon",
+          "description": "The Continuous Diagnostics and Mitigation (CDM) program has evolved from a cyber-hygiene initiative to a proactive response toolkit powered by the CDM Dashboard. Learn how it enables civilian agencies to analyze cyber risk at speed & scale.",
+          "link": "https://www.elastic.co/blog/why-usgovernment-scaling-cybervisibility-elastic-cdm-cybersecurity-analyze-data",
+          "publishedOn": "2021-12-08T18:00:00.000Z",
+          "wordCount": 887,
+          "title": "Why the U.S. Government is scaling their cyber visibility practices with Elastic"
         },
         {
-          "id": "https://www.elastic.co/blog/whats-new-elastic-security-7-16-0",
-          "author": "Mark Settle",
-          "description": "Elastic Security 7.16 adds new data integrations for Elastic Agent, expanded malicious behavior protections, memory threat protection for every OS, and enhanced ECS support for Osquery Manager. Plus, new and enhanced ServiceNow workflow integrations.",
-          "link": "https://www.elastic.co/blog/whats-new-elastic-security-7-16-0",
-          "publishedOn": "2021-12-07T16:00:00.000Z",
-          "wordCount": 1100,
-          "title": "Elastic Security 7.16: Accelerate SecOps with the most powerful Elastic Security yet"
+          "id": "https://www.elastic.co/blog/why-usgovernment-scaling-cybervisibility-elastic-cdm-cybersecurity-analyze-data",
+          "author": "John Harmon",
+          "description": ",\nAmid a  growing network of endpoints to support telework and cloud-based applications, US federal civilian agencies are protecting government resilience and resources with a new Continuous Diagnostics and Mitigation Dashboard (CDM Dashboard) built on the Elastic search platform.\nAt a recent MeriTalk Cyber Central: Defenders Unite event, participants learned about how Elastic, in partnership with ECS, enables security operations center (SOC) teams with cyber visibility at speed and scale.\nHistorically, the CDM Dashboard was used by civilian agency cyber executives to get a read on cyber-hygiene compliance. Today, the dashboard enables civilian agency SOC teams to view massive amounts of data from disparate systems, query data where it resides, and share vulnerability and mitigation insigh…",
+          "link": "https://www.elastic.co/blog/why-usgovernment-scaling-cybervisibility-elastic-cdm-cybersecurity-analyze-data",
+          "publishedOn": "2021-12-08T18:00:00.000Z",
+          "wordCount": 887,
+          "title": "Why the U.S. Government is scaling their cyber visibility practices with Elastic"
         },
         {
           "id": "https://www.elastic.co/blog/whats-new-elastic-7-16-0",
           "author": "Dan Courcy",
           "description": "With the general availability of new Elastic Agent integrations and deeper integration with ServiceNow ITSM, ITOM, and SecOps, Elastic 7.16 extends visibility into complex cloud-native services and streamlines workflows to drive results that matter.",
           "link": "https://www.elastic.co/blog/whats-new-elastic-7-16-0",
-          "publishedOn": "2021-12-07T16:00:00.000Z",
+          "publishedOn": "2021-12-07T16:00:10.000Z",
           "wordCount": 1157,
           "title": "Elastic 7.16: Streamlined data integrations drive results that matter"
+        },
+        {
+          "id": "https://www.elastic.co/blog/whats-new-elastic-7-16-0",
+          "author": "Dan Courcy",
+          "description": ",\nWe are pleased to announce the general availability of Elastic 7.16, a release that brings a broad set of new capabilities to the Elastic Search Platform (including Elasticsearch and Kibana) and its three built-in solutions — Elastic Enterprise Search, Elastic Observability, and Elastic Security.\nElastic 7.16 streamlines the process of getting any type of data, from any source, into the Elastic Search Platform. The release extends visibility into complex and distributed cloud-native services with dozens of prebuilt Elastic Agent data integrations, observability tooling for continuous integration and continuous delivery (CI/CD) pipelines, two newly certified ServiceNow applications, and native data integration between Amazon Web Services (AWS) and Elastic Cloud.\nIn addition, the unified u…",
+          "link": "https://www.elastic.co/blog/whats-new-elastic-7-16-0",
+          "publishedOn": "2021-12-07T16:00:10.000Z",
+          "wordCount": 1157,
+          "title": "Elastic 7.16: Streamlined data integrations drive results that matter"
+        },
+        {
+          "id": "https://www.elastic.co/blog/whats-new-elastic-enterprise-search-7-16-0",
+          "author": "Darren Meiss",
+          "description": "Highlights for Elastic Enterprise Search 7.16 include adaptive relevance for curated content suggestions, based on collected analytics, i.e., what your users have been searching for, plus, a unified Enterprise Search management interface within Kibana.",
+          "link": "https://www.elastic.co/blog/whats-new-elastic-enterprise-search-7-16-0",
+          "publishedOn": "2021-12-07T16:00:05.000Z",
+          "wordCount": 656,
+          "title": "Elastic Enterprise Search 7.16: Adaptive relevance and Kibana UI"
+        },
+        {
+          "id": "https://www.elastic.co/blog/whats-new-elastic-enterprise-search-7-16-0",
+          "author": "Darren Meiss",
+          "description": ",\nThe 7.16 release of Elastic Enterprise Search features curations powered by adaptive relevance, the general availability (GA) of the unified management interface in Kibana, and a Google Cloud Firestore extension. These new features, plus a host of others, give users more power and flexibility than ever to create, tune, and manage their search experience:\n\nGet automatic recommendations for suggested results based on what real users are searching for\nEnjoy a single interface to manage search experiences, right next to all of the other tools inside Kibana\nUse the new Google Cloud Firestore extension to build premium search experiences with Elastic App Search\nTake advantage of more detailed performance monitoring, additional authentication mechanisms, and new API endpoints\n,\nElastic Enterpri…",
+          "link": "https://www.elastic.co/blog/whats-new-elastic-enterprise-search-7-16-0",
+          "publishedOn": "2021-12-07T16:00:05.000Z",
+          "wordCount": 656,
+          "title": "Elastic Enterprise Search 7.16: Adaptive relevance and Kibana UI"
+        },
+        {
+          "id": "https://www.elastic.co/blog/whats-new-elastic-observability-7-16-0",
+          "author": "Amena Siddiqi",
+          "description": "Elastic Observability 7.16 introduces powerful ad hoc analytics, further extends one-click visibility into complex environments, including build and deployment tools in CI/CD pipelines, and a new native data integration with AWS FireLens.",
+          "link": "https://www.elastic.co/blog/whats-new-elastic-observability-7-16-0",
+          "publishedOn": "2021-12-07T16:00:04.000Z",
+          "wordCount": 1485,
+          "title": "Elastic Observability 7.16: Ad hoc analytics and CI/CD pipeline visibility"
+        },
+        {
+          "id": "https://www.elastic.co/blog/whats-new-elastic-observability-7-16-0",
+          "author": "Amena Siddiqi",
+          "description": ",\nElastic Observability 7.16 introduces curated data exploration views for ad hoc analysis and further extends visibility into complex and distributed systems with the general availability (GA) of dozens of prebuilt Elastic Agent data integrations, observability tooling for continuous integration and continuous delivery (CI/CD) pipelines, and a new native data source integration with Amazon Web Services (AWS) FireLens.\nThese new features allow customers to:\n\nConduct ad hoc investigations to analyze “unknown unknowns” for observability\nFrictionlessly ingest data from complex, cloud-native environments\nBuild and deploy faster and automate more reliably with visibility into CI/CD pipelines\n\n\n\nElastic Observability 7.16 is available now on Elastic Cloud — the only hosted Elasticsearch offering…",
+          "link": "https://www.elastic.co/blog/whats-new-elastic-observability-7-16-0",
+          "publishedOn": "2021-12-07T16:00:04.000Z",
+          "wordCount": 1485,
+          "title": "Elastic Observability 7.16: Ad hoc analytics and CI/CD pipeline visibility"
+        },
+        {
+          "id": "https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-7-16-0",
+          "author": "Adeline Tan,Bianca Laurendine,George Kobar",
+          "description": "Elastic Integrations make it easy to collect, store, search and analyze all of your data securely and at scale. Ingest data easily, explore from an intuitive UI, and make your data actionable and streamline workflows across teams and systems.",
+          "link": "https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-7-16-0",
+          "publishedOn": "2021-12-07T16:00:03.000Z",
+          "wordCount": 1209,
+          "title": "Elasticsearch, Kibana, and Elastic Cloud 7.16: Integrations and more actionable insights"
+        },
+        {
+          "id": "https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-7-16-0",
+          "author": "Adeline Tan,Bianca Laurendine,George Kobar",
+          "description": ",\nWith the release of Elastic 7.16, it’s easier than ever to collect, store, search, and analyze data securely and at scale, no matter the use case. Explore third-party solutions like ServiceNow and cloud-native integrations like Amazon Web Services (AWS) FireLens to make your data actionable and streamline workflows across teams and systems.\nIn addition, 7.16 improves performance and maximizes resource consumption with enhancements to Elasticsearch, gives users the ability to add more context to Kibana visualizations, and more.\nReady to roll up your sleeves and get started? We have the links you need:\n\nTry out the new features on Elastic Cloud \nDownload the latest versions of Elasticsearch, Kibana, Elastic Cloud on Kubernetes\nDig deeper in the release notes: Elasticsearch, Kibana, Elastic…",
+          "link": "https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-7-16-0",
+          "publishedOn": "2021-12-07T16:00:03.000Z",
+          "wordCount": 1209,
+          "title": "Elasticsearch, Kibana, and Elastic Cloud 7.16: Integrations and more actionable insights"
+        },
+        {
+          "id": "https://www.elastic.co/blog/whats-new-elastic-security-7-16-0",
+          "author": "Mark Settle",
+          "description": "Elastic Security 7.16 adds new data integrations for Elastic Agent, expanded malicious behavior protections, memory threat protection for every OS, and enhanced ECS support for Osquery Manager. Plus, new and enhanced ServiceNow workflow integrations.",
+          "link": "https://www.elastic.co/blog/whats-new-elastic-security-7-16-0",
+          "publishedOn": "2021-12-07T16:00:02.000Z",
+          "wordCount": 1100,
+          "title": "Elastic Security 7.16: Accelerate SecOps with the most powerful Elastic Security yet"
+        },
+        {
+          "id": "https://www.elastic.co/blog/whats-new-elastic-security-7-16-0",
+          "author": "Mark Settle",
+          "description": ",\nIn Elastic Security 7.16, multiple new out-of-the-box data integrations for Elastic Agent streamline data ingestion and normalization, powering security operations. The release also introduces full production support for several existing data integrations.\nVersion 7.16 introduces an expanded set of malicious behavior protections, addressing methods related to initial access, privilege escalation, and defense evasion. It also brings memory threat protection to macOS and Linux, and enhances ECS support for Osquery Manager.\nPlus, power cross-org collaboration with new and enhanced workflow integrations for ServiceNow.\nLet’s jump in.\nAmplify visibility to accelerate detection and response\nExpansive environmental activity and context powers the work of modern security teams, but onboarding da…",
+          "link": "https://www.elastic.co/blog/whats-new-elastic-security-7-16-0",
+          "publishedOn": "2021-12-07T16:00:02.000Z",
+          "wordCount": 1100,
+          "title": "Elastic Security 7.16: Accelerate SecOps with the most powerful Elastic Security yet"
         },
         {
           "id": "https://www.elastic.co/blog/leverage-multi-user-access-on-elastic-cloud",
@@ -344,33 +434,6 @@
           "title": "How to invite teammates to access and manage Elastic Cloud deployments"
         },
         {
-          "id": "https://www.elastic.co/blog/whats-new-elastic-enterprise-search-7-16-0",
-          "author": "Darren Meiss",
-          "description": ",\nThe 7.16 release of Elastic Enterprise Search features curations powered by adaptive relevance, the general availability (GA) of the unified management interface in Kibana, and a Google Cloud Firestore extension. These new features, plus a host of others, give users more power and flexibility than ever to create, tune, and manage their search experience:\n\nGet automatic recommendations for suggested results based on what real users are searching for\nEnjoy a single interface to manage search experiences, right next to all of the other tools inside Kibana\nUse the new Google Cloud Firestore extension to build premium search experiences with Elastic App Search\nTake advantage of more detailed performance monitoring, additional authentication mechanisms, and new API endpoints\n,\nElastic Enterpri…",
-          "link": "https://www.elastic.co/blog/whats-new-elastic-enterprise-search-7-16-0",
-          "publishedOn": "2021-12-07T16:00:00.000Z",
-          "wordCount": 656,
-          "title": "Elastic Enterprise Search 7.16: Adaptive relevance and Kibana UI"
-        },
-        {
-          "id": "https://www.elastic.co/blog/whats-new-elastic-security-7-16-0",
-          "author": "Mark Settle",
-          "description": ",\nIn Elastic Security 7.16, multiple new out-of-the-box data integrations for Elastic Agent streamline data ingestion and normalization, powering security operations. The release also introduces full production support for several existing data integrations.\nVersion 7.16 introduces an expanded set of malicious behavior protections, addressing methods related to initial access, privilege escalation, and defense evasion. It also brings memory threat protection to macOS and Linux, and enhances ECS support for Osquery Manager.\nPlus, power cross-org collaboration with new and enhanced workflow integrations for ServiceNow.\nLet’s jump in.\nAmplify visibility to accelerate detection and response\nExpansive environmental activity and context powers the work of modern security teams, but onboarding da…",
-          "link": "https://www.elastic.co/blog/whats-new-elastic-security-7-16-0",
-          "publishedOn": "2021-12-07T16:00:00.000Z",
-          "wordCount": 1100,
-          "title": "Elastic Security 7.16: Accelerate SecOps with the most powerful Elastic Security yet"
-        },
-        {
-          "id": "https://www.elastic.co/blog/whats-new-elastic-7-16-0",
-          "author": "Dan Courcy",
-          "description": ",\nWe are pleased to announce the general availability of Elastic 7.16, a release that brings a broad set of new capabilities to the Elastic Search Platform (including Elasticsearch and Kibana) and its three built-in solutions — Elastic Enterprise Search, Elastic Observability, and Elastic Security.\nElastic 7.16 streamlines the process of getting any type of data, from any source, into the Elastic Search Platform. The release extends visibility into complex and distributed cloud-native services with dozens of prebuilt Elastic Agent data integrations, observability tooling for continuous integration and continuous delivery (CI/CD) pipelines, two newly certified ServiceNow applications, and native data integration between Amazon Web Services (AWS) and Elastic Cloud.\nIn addition, the unified u…",
-          "link": "https://www.elastic.co/blog/whats-new-elastic-7-16-0",
-          "publishedOn": "2021-12-07T16:00:00.000Z",
-          "wordCount": 1157,
-          "title": "Elastic 7.16: Streamlined data integrations drive results that matter"
-        },
-        {
           "id": "https://www.elastic.co/blog/leverage-multi-user-access-on-elastic-cloud",
           "author": "Omer Kushmaro,Bianca Laurendine",
           "description": ",\nDid you know you can invite your co-workers to access and manage your organization’s Elastic Cloud deployments? When you send teammates an invitation, they can create their own credentials to gain access. \nWhether you are a software developer adding search to an application or an IT professional providing Workplace Search to knowledge workers, you can invite your co-workers. This also applies to DevOps and SREs using Elastic Observability, as well as information security professionals protecting their IT investments with Elastic Security. \nWhichever cloud you prefer, AWS, Google Cloud, or Microsoft Azure, we’ve got you covered. Multi-user access enables your colleagues to create, deploy, and operate Elastic Cloud deployments in your account. Plus, you can view an activity log trail that …",
@@ -380,33 +443,6 @@
           "title": "How to invite teammates to access and manage Elastic Cloud deployments"
         },
         {
-          "id": "https://www.elastic.co/blog/whats-new-elastic-observability-7-16-0",
-          "author": "Amena Siddiqi",
-          "description": "Elastic Observability 7.16 introduces powerful ad hoc analytics, further extends one-click visibility into complex environments, including build and deployment tools in CI/CD pipelines, and a new native data integration with AWS FireLens.",
-          "link": "https://www.elastic.co/blog/whats-new-elastic-observability-7-16-0",
-          "publishedOn": "2021-12-07T15:00:00.000Z",
-          "wordCount": 1485,
-          "title": "Elastic Observability 7.16: Ad hoc analytics and CI/CD pipeline visibility"
-        },
-        {
-          "id": "https://www.elastic.co/blog/whats-new-elastic-observability-7-16-0",
-          "author": "Amena Siddiqi",
-          "description": ",\nElastic Observability 7.16 introduces curated data exploration views for ad hoc analysis and further extends visibility into complex and distributed systems with the general availability (GA) of dozens of prebuilt Elastic Agent data integrations, observability tooling for continuous integration and continuous delivery (CI/CD) pipelines, and a new native data source integration with Amazon Web Services (AWS) FireLens.\nThese new features allow customers to:\n\nConduct ad hoc investigations to analyze “unknown unknowns” for observability\nFrictionlessly ingest data from complex, cloud-native environments\nBuild and deploy faster and automate more reliably with visibility into CI/CD pipelines\n\n\n\nElastic Observability 7.16 is available now on Elastic Cloud — the only hosted Elasticsearch offering…",
-          "link": "https://www.elastic.co/blog/whats-new-elastic-observability-7-16-0",
-          "publishedOn": "2021-12-07T15:00:00.000Z",
-          "wordCount": 1485,
-          "title": "Elastic Observability 7.16: Ad hoc analytics and CI/CD pipeline visibility"
-        },
-        {
-          "id": "https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-7-16-0",
-          "author": "Adeline Tan,Bianca Laurendine,George Kobar",
-          "description": "Elastic Integrations make it easy to collect, store, search and analyze all of your data securely and at scale. Ingest data easily, explore from an intuitive UI, and make your data actionable and streamline workflows across teams and systems.",
-          "link": "https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-7-16-0",
-          "publishedOn": "2021-12-07T13:00:00.000Z",
-          "wordCount": 1209,
-          "title": "Elasticsearch, Kibana, and Elastic Cloud 7.16: Integrations and more actionable insights"
-        },
-        {
           "id": "https://www.elastic.co/blog/elastic-integrations-with-servicenow-itsm-sir-itom",
           "author": "Alex Francoeur",
           "description": "Elastic deepens integrations with ServiceNow ITSM, SIR, and ITOM streamlining observability and security workflows and enhancing practitioner productivity.",
@@ -414,15 +450,6 @@
           "publishedOn": "2021-12-07T13:00:00.000Z",
           "wordCount": 586,
           "title": "Elastic deepens workflow integrations with ServiceNow to improve team productivity"
-        },
-        {
-          "id": "https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-7-16-0",
-          "author": "Adeline Tan,Bianca Laurendine,George Kobar",
-          "description": ",\nWith the release of Elastic 7.16, it’s easier than ever to collect, store, search, and analyze data securely and at scale, no matter the use case. Explore third-party solutions like ServiceNow and cloud-native integrations like Amazon Web Services (AWS) FireLens to make your data actionable and streamline workflows across teams and systems.\nIn addition, 7.16 improves performance and maximizes resource consumption with enhancements to Elasticsearch, gives users the ability to add more context to Kibana visualizations, and more.\nReady to roll up your sleeves and get started? We have the links you need:\n\nTry out the new features on Elastic Cloud \nDownload the latest versions of Elasticsearch, Kibana, Elastic Cloud on Kubernetes\nDig deeper in the release notes: Elasticsearch, Kibana, Elastic…",
-          "link": "https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-7-16-0",
-          "publishedOn": "2021-12-07T13:00:00.000Z",
-          "wordCount": 1209,
-          "title": "Elasticsearch, Kibana, and Elastic Cloud 7.16: Integrations and more actionable insights"
         },
         {
           "id": "https://www.elastic.co/blog/elastic-integrations-with-servicenow-itsm-sir-itom",
@@ -468,24 +495,6 @@
           "publishedOn": "2021-11-24T15:00:00.000Z",
           "wordCount": 980,
           "title": "Monitoring Elastic Enterprise Search performance using Elastic APM"
-        },
-        {
-          "id": "https://www.elastic.co/blog/helping-elastic-customers-succeed-how-elastic-partners-with-organizations-to-maximise-their-investments",
-          "author": "Nikki Jones,Taha Derouiche",
-          "description": "Realizing business objectives and successful outcomes with our customers is at the core of what we do. In this series, learn some of the many ways Elastic Technical Account Managers partner with organizations to accomplish these goals.",
-          "link": "https://www.elastic.co/blog/helping-elastic-customers-succeed-how-elastic-partners-with-organizations-to-maximise-their-investments",
-          "publishedOn": "2021-11-24T06:00:00.000Z",
-          "wordCount": 899,
-          "title": "Helping Elastic Customers Succeed | How Elastic partners with organizations to maximise their investments"
-        },
-        {
-          "id": "https://www.elastic.co/blog/helping-elastic-customers-succeed-how-elastic-partners-with-organizations-to-maximise-their-investments",
-          "author": "Nikki Jones,Taha Derouiche",
-          "description": ",\nFrom improving safety in planes to reducing times to detect and respond to threats, Elastic Consulting helps our customers drive impactful business outcomes. \nTechnical\n Account Managers (TAM) play an essential role in supporting our \ncustomers throughout their journey. In this latest post from our series,\n Nikki Jones, Customer Success Lead interviews Taha Derouiche, Elastic \nTAM. \nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt91e834ee19477d83/619d2b6c9b3c850ceca03d3a/taha.jpg,taha.jpg,Can you give an example of what kind of business challenges you help our customers solve, and what value you help them unlock?\n\nWe are a trusted advisor who is a recurring touch point for technical questions that really allow our customers to find greater value in their Elastic investment…",
-          "link": "https://www.elastic.co/blog/helping-elastic-customers-succeed-how-elastic-partners-with-organizations-to-maximise-their-investments",
-          "publishedOn": "2021-11-24T06:00:00.000Z",
-          "wordCount": 899,
-          "title": "Helping Elastic Customers Succeed | How Elastic partners with organizations to maximise their investments"
         }
       ]
     },
@@ -570,7 +579,7 @@
           "description": "Azure Static Web Apps were launched earlier in 2021 and out of the box they had the capability to integrate your existing repository and deploy your Static Web App from Azure DevOps. You can reference the full getting started guide for the end-to-end deployment setup.\nThe post Automating Azure Static Web Apps in Azure Pipelines appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/automating-azure-static-web-apps-in-azure-pipelines/",
           "publishedOn": "2021-12-02T16:56:59.000Z",
-          "wordCount": 1144,
+          "wordCount": 1146,
           "title": "Automating Azure Static Web Apps in Azure Pipelines"
         },
         {
@@ -579,7 +588,7 @@
           "description": "After a short break for some Microsoft streaming events, AzureFunBytes returns to LearnTV for another fun conversation about the products, people, and services that make for a delightful Azure experience.\nThe post AzureFunBytes Episode 62 – Supercharge your Java Apps on Azure with @rorypreddy appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-62-supercharge-your-java-apps-on-azure-with-rorypreddy/",
           "publishedOn": "2021-12-02T10:00:43.000Z",
-          "wordCount": 1608,
+          "wordCount": 1594,
           "title": "AzureFunBytes Episode 62 – Supercharge your Java Apps on Azure with @rorypreddy"
         },
         {
@@ -606,7 +615,7 @@
           "description": "The top stories from the #AzureDevOps #community for 2021.11.26 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2021.11.26 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-11-26/",
           "publishedOn": "2021-11-26T11:00:58.000Z",
-          "wordCount": 1575,
+          "wordCount": 1564,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.11.26"
         },
         {
@@ -642,7 +651,7 @@
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes Episode 61 – Deploying to @Azure is one “git push” away with @juliendubois appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-61-deploying-to-azure-is-one-git-push-away-with-juliendubois/",
           "publishedOn": "2021-11-09T13:00:07.000Z",
-          "wordCount": 1442,
+          "wordCount": 1456,
           "title": "AzureFunBytes Episode 61 – Deploying to @Azure is one “git push” away with @juliendubois"
         }
       ]
@@ -899,6 +908,15 @@
       "siteUrl": "https://camunda.com",
       "articles": [
         {
+          "id": "https://camunda.com/?p=38076",
+          "author": "Bryan Grover",
+          "description": "Take a moment sit back and browse these interesting holiday reading recommendations from Camunda colleagues and our community.\nThe post The Camunda Holiday Reading List 2021 appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2021/12/the-camunda-holiday-reading-list-2021/",
+          "publishedOn": "2021-12-08T02:15:00.000Z",
+          "wordCount": 2307,
+          "title": "The Camunda Holiday Reading List 2021"
+        },
+        {
           "id": "https://camunda.com/?p=37914",
           "author": "Christian Connors",
           "description": "Get details on how solutions built with Camunda enabled Covea to organize data more effectively and create an even-stronger user experience.\nThe post The Secret Behind the IT Transformation of Covéa Insurance appeared first on Camunda.",
@@ -913,7 +931,7 @@
           "description": "Learn how using Camunda’s process engine in your Java application will make development easier and save you time. \nThe post How Developing Java Apps is Easier with a Process Engine appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/11/how-developing-java-apps-is-easier-with-a-process-engine/",
           "publishedOn": "2021-11-26T14:00:00.000Z",
-          "wordCount": 2219,
+          "wordCount": 2220,
           "title": "How Developing Java Apps is Easier with a Process Engine"
         },
         {
@@ -922,7 +940,7 @@
           "description": "All the questions we didn't have time to answer at the recent 3 Superpowers for Next Level Microservices Orchestration webinar \nThe post 3 Superpowers for Next Level Microservices Orchestration Recap appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/11/3-superpowers-for-next-level-microservices-orchestration-recap/",
           "publishedOn": "2021-11-23T14:31:00.000Z",
-          "wordCount": 1896,
+          "wordCount": 1890,
           "title": "3 Superpowers for Next Level Microservices Orchestration Recap"
         },
         {
@@ -960,24 +978,6 @@
           "publishedOn": "2021-11-09T15:45:23.000Z",
           "wordCount": 1618,
           "title": "Camunda Cloud 1.3.0-alpha1 Released"
-        },
-        {
-          "id": "https://camunda.com/?p=36192",
-          "author": "Camunda Optimize Team",
-          "description": "We’re excited to announce the release of Camunda Optimize 3.7.0-alpha1. Get started by downloading the release or signing up for a free trial.\nThe post Camunda Optimize 3.7.0-alpha1 Released appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2021/11/camunda-optimize-3-7-0-alpha1-released/",
-          "publishedOn": "2021-11-09T07:15:00.000Z",
-          "wordCount": 1540,
-          "title": "Camunda Optimize 3.7.0-alpha1 Released"
-        },
-        {
-          "id": "https://camunda.com/?p=35939",
-          "author": "Camunda Platform Team",
-          "description": "We're pleased to announce the next alpha release of Camunda Platform Runtime 7.17.0. Download Camunda for free or run it with Dock.\nThe post Camunda Automation Platform 7.17.0-alpha1 Released appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2021/11/camunda-automation-platform-7170-alpha1-released/",
-          "publishedOn": "2021-11-09T07:05:00.000Z",
-          "wordCount": 1490,
-          "title": "Camunda Automation Platform 7.17.0-alpha1 Released"
         }
       ]
     },
@@ -1036,6 +1036,24 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/2021-12-08-improving-github-code-search/",
+          "author": null,
+          "description": "Today, we are rolling out a technology preview for GitHub code search, the next iteration for search, discovery, and navigation on GitHub.",
+          "link": "https://github.blog/2021-12-08-improving-github-code-search/",
+          "publishedOn": "2021-12-08T17:00:01.000Z",
+          "wordCount": 912,
+          "title": "Improving GitHub code search"
+        },
+        {
+          "id": "https://github.blog/2021-12-07-github-enterprise-server-3-3-is-generally-available/",
+          "author": null,
+          "description": "GitHub Enterprise Server is now generally available for all customers. This release improves performance for CI/CD and for customers with large repositories.",
+          "link": "https://github.blog/2021-12-07-github-enterprise-server-3-3-is-generally-available/",
+          "publishedOn": "2021-12-08T01:04:26.000Z",
+          "wordCount": 545,
+          "title": "GitHub Enterprise Server 3.3 is generally available"
+        },
+        {
           "id": "https://github.blog/2021-12-07-enrolling-npm-publishers-enhanced-login-verification-two-factor-authentication-enforcement/",
           "author": null,
           "description": "Today we're introducing enhanced login verification to the npm registry, and we will begin a staged rollout to maintainers beginning Dec 7.",
@@ -1059,7 +1077,7 @@
           "description": "GitHub has partnered with the OpenSSF and Project Sigstore to add container image signing to our default “Publish Docker Container” workflow.",
           "link": "https://github.blog/2021-12-06-safeguard-container-signing-capability-actions/",
           "publishedOn": "2021-12-06T17:30:08.000Z",
-          "wordCount": 1107,
+          "wordCount": 1103,
           "title": "Safeguard your containers with new container signing capability in GitHub Actions"
         },
         {
@@ -1077,7 +1095,7 @@
           "description": "In November, we experienced one incident resulting in significant impact and degraded state of availability for multiple services.",
           "link": "https://github.blog/2021-12-01-github-availability-report-november-2021/",
           "publishedOn": "2021-12-01T20:14:04.000Z",
-          "wordCount": 658,
+          "wordCount": 666,
           "title": "GitHub Availability Report: November 2021"
         },
         {
@@ -1086,7 +1104,7 @@
           "description": "You can multiply the impact of your domain experts by building their common workflows into ChatOps.",
           "link": "https://github.blog/2021-12-01-using-chatops-to-help-actions-on-call-engineers/",
           "publishedOn": "2021-12-01T18:01:09.000Z",
-          "wordCount": 1627,
+          "wordCount": 1611,
           "title": "Using ChatOps to help Actions on-call engineers"
         },
         {
@@ -1104,26 +1122,8 @@
           "description": "From learning YAML to scripting with Bash, here are a few simple tips for developers who want to speed up their workflows.",
           "link": "https://github.blog/2021-11-30-5-devops-tips-to-speed-up-your-developer-workflow/",
           "publishedOn": "2021-11-30T17:09:28.000Z",
-          "wordCount": 2382,
+          "wordCount": 2391,
           "title": "5 DevOps tips to speed up your developer workflow"
-        },
-        {
-          "id": "https://github.blog/2021-11-29-github-actions-reusable-workflows-is-generally-available/",
-          "author": null,
-          "description": "DRY your Actions configuration with reusable workflows (and more!)",
-          "link": "https://github.blog/2021-11-29-github-actions-reusable-workflows-is-generally-available/",
-          "publishedOn": "2021-11-29T17:38:13.000Z",
-          "wordCount": 780,
-          "title": "GitHub Actions: reusable workflows is generally available"
-        },
-        {
-          "id": "https://github.blog/2021-11-23-secure-deployments-openid-connect-github-actions-generally-available/",
-          "author": null,
-          "description": "GitHub Actions now supports OpenID Connect for secure deployment to different cloud providers via short-lived, auto-rotated tokens.",
-          "link": "https://github.blog/2021-11-23-secure-deployments-openid-connect-github-actions-generally-available/",
-          "publishedOn": "2021-11-23T20:16:17.000Z",
-          "wordCount": 701,
-          "title": "Secure deployments with OpenID Connect &#038; GitHub Actions now generally available"
         }
       ]
     },
@@ -1139,12 +1139,21 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
+          "id": "https://medium.com/p/66726a1f4c80",
+          "author": "Netflix Technology Blog",
+          "description": "Project by Netflix’s Cloud Infrastructure Security team (Alex Bainbridge, Mike Grima, Nick Siow)",
+          "link": "https://netflixtechblog.com/snaring-the-bad-folks-66726a1f4c80?source=rss----2615bd06b42e---4",
+          "publishedOn": "2021-12-08T17:38:41.000Z",
+          "wordCount": 1470,
+          "title": "Snaring the Bad Folks"
+        },
+        {
           "id": "https://medium.com/p/8705834e6fd8",
           "author": "Netflix Technology Blog",
           "description": "Martin Tingley with Wenjing Zheng, Simon Ejdemyr, Stephanie Lane, Michael Lindon, and Colin McFarland",
           "link": "https://netflixtechblog.com/building-confidence-in-a-decision-8705834e6fd8?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-11-15T16:20:05.000Z",
-          "wordCount": 2445,
+          "wordCount": 2457,
           "title": "Building confidence in a decision"
         },
         {
@@ -1153,7 +1162,7 @@
           "description": "by Liwei Guo, Ashwin Kumar Gopi Valliammal, Raymond Tam, Chris Pham, Agata Opalach, Weibo Ni",
           "link": "https://netflixtechblog.com/bringing-av1-streaming-to-netflix-members-tvs-b7fc88e42320?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-11-09T19:45:50.000Z",
-          "wordCount": 2299,
+          "wordCount": 2300,
           "title": "Bringing AV1 Streaming to Netflix Members’ TVs"
         }
       ]
@@ -1163,6 +1172,15 @@
       "feedUrl": "http://feeds.feedburner.com/blogspot/gJZg",
       "siteUrl": "http://ai.googleblog.com/",
       "articles": [
+        {
+          "id": "http://ai.googleblog.com/2021/12/general-and-scalable-parallelization.html",
+          "author": null,
+          "description": "Posted by Yuanzhong Xu and Yanping Huang, Software Engineers; Google Research, Brain Team  \nScaling neural networks, whether it be the amount of training data used, the model size or the computation being utilized,  has been critical for improving model quality in many real-world machine learning applications, such as computer vision, language understanding and neural machine translation. This, in turn, has motivated recent studies to scrutinize the factors that play a critical role in the success of scaling a neural model. Although increasing model capacity can be a sound approach to improve model quality, doing so presents a number of systems and software engineering challenges that must be overcome. For instance, in order to train large models that exceed the memory capacity of an accel…",
+          "link": "http://ai.googleblog.com/2021/12/general-and-scalable-parallelization.html",
+          "publishedOn": "2021-12-08T19:30:00.002Z",
+          "wordCount": 2486,
+          "title": "General and Scalable Parallelization for Neural Networks"
+        },
         {
           "id": "http://ai.googleblog.com/2021/12/improving-vision-transformer-efficiency.html",
           "author": null,
@@ -1177,8 +1195,8 @@
           "author": null,
           "description": "Posted by Jaqui Herman and Cat Armato, Program Managers \nThis week marks the beginning of the 35th annual Conference on Neural Information Processing Systems (NeurIPS 2021), the biggest machine learning conference of the year. NeurIPS 2021 will be held virtually and includes invited talks, demonstrations and presentations of some of the latest in machine learning research. This year, NeurIPS also announced a new Datasets and Benchmarks track, which will include publications, talks, posters, and discussions related to this research area.   \n Google will have a strong presence with more than 170 accepted papers, additionally contributing to and learning from the broader academic research community via talks, posters, workshops, and tutorials. You can learn more about our work being presented…",
           "link": "http://ai.googleblog.com/2021/12/google-at-neurips-2021.html",
-          "publishedOn": "2021-12-06T19:38:00.000Z",
-          "wordCount": 5850,
+          "publishedOn": "2021-12-06T19:38:00.001Z",
+          "wordCount": 6081,
           "title": "Google at NeurIPS 2021"
         },
         {
@@ -1297,24 +1315,6 @@
           "publishedOn": "2021-11-09T14:40:00.001Z",
           "wordCount": 2285,
           "title": "Enhanced Sleep Sensing in Nest Hub"
-        },
-        {
-          "id": "http://ai.googleblog.com/2021/11/google-at-emnlp-2021.html",
-          "author": null,
-          "description": "Posted by Catherine Armato, Google Research  \nThis week, the annual conference on Empirical Methods in Natural Language Processing (EMNLP 2021) will be held both virtually and in Punta Cana, Dominican Republic. As a Diamond Level sponsor of EMNLP 2021, Google will contribute research on a diverse set of topics, including language interactions, causal inference, and question answering, additionally serving in various levels of organization in the conference.  \nBelow is a full list of Google’s involvement and publications being presented at EMNLP 2021. We congratulate these authors, and all other researchers who are presenting their work at the conference (Google affiliations presented in bold). \n Organizing Committee\nEthics Committee includes: Nyalleng Moorosi   \nPublications\nMATE: Multi-vi…",
-          "link": "http://ai.googleblog.com/2021/11/google-at-emnlp-2021.html",
-          "publishedOn": "2021-11-08T23:47:00.002Z",
-          "wordCount": 2066,
-          "title": "Google at EMNLP 2021"
-        },
-        {
-          "id": "http://ai.googleblog.com/2021/11/improved-on-device-ml-on-pixel-6-with.html",
-          "author": null,
-          "description": "Posted by Suyog Gupta and Marie White, Software Engineers, Google Research   \nThis fall Pixel 6 phones launched with Google Tensor, Google’s first mobile system-on-chip (SoC), bringing together various processing components (such as central/graphic/tensor processing units, image processors, etc.) onto a single chip, custom-built to deliver state-of-the-art innovations in machine learning (ML) to Pixel users. In fact, every aspect of Google Tensor was designed and optimized to run Google’s ML models, in alignment with our AI Principles. That starts with the custom-made TPU integrated in Google Tensor that allows us to fulfill our vision of what should be possible on a Pixel phone.  \nToday, we share the improvements in on-device machine learning made possible by designing the ML models for G…",
-          "link": "http://ai.googleblog.com/2021/11/improved-on-device-ml-on-pixel-6-with.html",
-          "publishedOn": "2021-11-08T20:02:00.002Z",
-          "wordCount": 3033,
-          "title": "Improved On-Device ML on Pixel 6, with Neural Architecture Search"
         }
       ]
     }

@@ -6,12 +6,39 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/12/14/this-week-in-spring-december-14th-2021",
+          "author": null,
+          "description": "Hi, Spring fans! How are you? Welcome to another installment of This Week in Spring! I’m doing alright! It’s noon as I write this, and I’ve got GSUG joint presentation with Matt Raible later today. Then, tonight at midnight my time to 5 am or 6 am, I’m kicking off a two-day workshop for GOTO! I look forward to seeing ya there! Anyway, we’ve got a lot to cover so let’s dive into it! \n\r\n\r\n  \nRead this first! If you’ve been living under a rock, you may not have heard of the recent Log4J2 vulnerability. If you’re using the default, out-of-the-box Spring Boot logging support, then this does not apply to you! But, if you are using Log4j2, specifically, then you need to read this post on Log4j2 and Spring Boot!\n\r\n  \nBruno Borges tweets this very simple workaround for those of you who are using Lo…",
+          "link": "https://spring.io/blog/2021/12/14/this-week-in-spring-december-14th-2021",
+          "publishedOn": "2021-12-14T19:00:00.000Z",
+          "wordCount": 959,
+          "title": "This Week in Spring - December 14th, 2021"
+        },
+        {
+          "id": "https://spring.io/blog/2021/12/14/spring-cloud-square-0-4-0-rc1-is-available",
+          "author": null,
+          "description": "On behalf of the community, I am pleased to announce that the Release Candidate 1 (RC1) of the Spring Cloud Square 0.4.0 is available today. The release can be found in Spring Milestone repository. You can check out the 0.4.0-RC1 release notes for more information.\n\r\nThis is primarily a bugfix release. See all issues included in this release here.\nNotable changes in RC1:\n\r\n\r\n  \nSpring Cloud Sleuth integration for OkHttpClient #36\n\r\n\r\nThe documentation for this milestone can be found here.",
+          "link": "https://spring.io/blog/2021/12/14/spring-cloud-square-0-4-0-rc1-is-available",
+          "publishedOn": "2021-12-14T18:24:22.000Z",
+          "wordCount": 455,
+          "title": "Spring Cloud Square 0.4.0-RC1 is available"
+        },
+        {
+          "id": "https://spring.io/blog/2021/12/14/spring-graphql-1-0-0-m4-released",
+          "author": null,
+          "description": "The Spring GraphQL team has just released the 4th milestone towards a 1.0.0 release. Thanks to all contributors!\n\r\nIn this milestone, we have further improved the annotation programming model and extended the Spring Data support that were provided in the previous milestones.\nInterface Projections for GraphQL Arguments\n\r\nIf you’re familiar with Spring Data’s Interface-based Projections, then this new feature will make perfect can sense: you can use a well-defined interface to work with GraphQL arguments, without the need for any Object implementation. \n\r\nFor example:\n\r\n@Controller\r\r\npublic class BookController {\r\r\n\r\r\n    @MutationMapping\r\r\n    public Book addBook(@Argument BookInputProjection bookInput) {\r\r\n        // ...\r\r\n    }\r\r\n}\r\r\n\r\r\n@ProjectedPayload\r\r\ninterface BookInputProjection {\r…",
+          "link": "https://spring.io/blog/2021/12/14/spring-graphql-1-0-0-m4-released",
+          "publishedOn": "2021-12-14T16:04:00.000Z",
+          "wordCount": 868,
+          "title": "Spring GraphQL 1.0.0-M4 Released"
+        },
+        {
           "id": "https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot",
           "author": null,
-          "description": "As you may have seen in the news, a new zero-day exploit has been reported against the popular Log4J2 library which can allow an attacker to remotely execute code. The vulnerability has been reported with CVE-2021-44228 against the log4j-core jar and has been fixed in Log4J v2.15.0.\n\r\nSpring Boot users are only affected by this vulnerability if they have switched the default logging system to Log4J2. The log4j-to-slf4j and log4j-api jars that we include in spring-boot-starter-logging cannot be exploited on their own. Only applications using log4j-core and including user input in log messages are vulnerable.\n\r\nOur upcoming v2.5.8 & v2.6.2 releases (due Dec 23, 2021) will pickup Log4J v2.15.0, but since this is such a serious vulnerability you may want to override our dependency management a…",
+          "description": "Update: Since this blog post has been published, a new logback 1.2.8 version has been published. While this fixes a security issue, prerequisites for exploits are very different as they “requires write access to logback’s configuration file”. Our upcoming releases will pick up this new version.\n\r\n\r\nAs you may have seen in the news, a new zero-day exploit has been reported against the popular Log4J2 library which can allow an attacker to remotely execute code. The vulnerability has been reported with CVE-2021-44228 against the log4j-core jar and has been fixed in Log4J v2.15.0.\n\r\nSpring Boot users are only affected by this vulnerability if they have switched the default logging system to Log4J2. The log4j-to-slf4j and log4j-api jars that we include in spring-boot-starter-logging cannot be e…",
           "link": "https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot",
           "publishedOn": "2021-12-10T20:00:00.000Z",
-          "wordCount": 685,
+          "wordCount": 781,
           "title": "Log4J2 Vulnerability and Spring Boot"
         },
         {
@@ -157,33 +184,6 @@
           "publishedOn": "2021-11-29T13:49:03.000Z",
           "wordCount": 480,
           "title": "Spring Boot 2.6.1 is now available"
-        },
-        {
-          "id": "https://spring.io/blog/2021/11/29/spring-data-mongodb-relation-modelling",
-          "author": null,
-          "description": "MongoDB’s flexible schema allows for multiple patterns when it comes to modeling relationships between entities. Also, for many use cases, a denormalized data model (storing related data right within a single document) might be the best choice, because all information is kept in one place, so that the application requires fewer queries to fetch all data. However, this approach also has its downsides, such as potential data duplication, larger documents, and the maximum document size.\n\r\n\r\n\r\nIn general, MongoDB recommends using normalized data models when the advantages of embedding are neglected by the implications of duplication. In this blog post, we take a look at the different possibilities of linking documents with manual references and DBRefs when the need occurs to work with relation…",
-          "link": "https://spring.io/blog/2021/11/29/spring-data-mongodb-relation-modelling",
-          "publishedOn": "2021-11-29T09:30:00.000Z",
-          "wordCount": 1825,
-          "title": "Spring Data MongoDB - Relation Modelling"
-        },
-        {
-          "id": "https://spring.io/blog/2021/11/25/a-bootiful-podcast-reactive-system-and-functional-programming-legend-debasish-ghosh",
-          "author": null,
-          "description": "Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks to functional programming- and reactive systems-legend Debasish Ghosh (@debasishg). And Happy Thanksgiving, if you celebrate!",
-          "link": "https://spring.io/blog/2021/11/25/a-bootiful-podcast-reactive-system-and-functional-programming-legend-debasish-ghosh",
-          "publishedOn": "2021-11-25T09:00:00.000Z",
-          "wordCount": 410,
-          "title": "A Bootiful Podcast: Reactive-System and Functional Programming legend Debasish Ghosh"
-        },
-        {
-          "id": "https://spring.io/blog/2021/11/23/this-week-in-spring-happy-thanksgiving-november-23rd-2021",
-          "author": null,
-          "description": "Hi, Spring fans! Welcome to another installment of This Week in Spring! \n\r\nHi, Spring fans! Welcome to another installment of This Week in Spring. This Thursday is Thanksgiving here in the US, where I live. it’s a time during which we Americans try to be thankful for what we have. And me, personally? I’ve got a lot of things for which I am grateful, this week and always. \n\r\nI am thankful for my family and friends. A person is the company they keep, and I am lucky to have excellent company in my life. \n\r\nI am thankful for my health. Right now, pandemic be danged, I’m healthy and happy, something for which I am endlessly grateful because I know what it’s like not to be healthy. \n\r\nI am thankful for the fantastic Spring ecosystem. It’s an endlessly replenishing fount of awesomeness. Have you …",
-          "link": "https://spring.io/blog/2021/11/23/this-week-in-spring-happy-thanksgiving-november-23rd-2021",
-          "publishedOn": "2021-11-23T09:00:00.000Z",
-          "wordCount": 866,
-          "title": "This Week in Spring (Happy Thanksgiving!) - November 23rd, 2021"
         }
       ]
     },
@@ -192,6 +192,15 @@
       "feedUrl": "https://www.hashicorp.com/blog/feed.xml",
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
+        {
+          "id": "https://www.hashicorp.com/blog/terraform-adds-support-for-gke-autopilot",
+          "author": null,
+          "description": "The Google Cloud Terraform provider now supports deployment of GKE Autopilot clusters. Learn how to use the new feature with a short example.",
+          "link": "https://www.hashicorp.com/blog/terraform-adds-support-for-gke-autopilot",
+          "publishedOn": "2021-12-14T17:00:00.000Z",
+          "wordCount": 1446,
+          "title": "Terraform Adds Support for GKE Autopilot"
+        },
         {
           "id": "https://www.hashicorp.com/blog/a-new-chapter-for-hashicorp",
           "author": null,
@@ -207,7 +216,7 @@
           "description": "Now generally available, HashiCorp Terraform 1.1 offers easier and safer refactoring with ‘moved’ statements and improves the CLI for Terraform Cloud and Enterprise.",
           "link": "https://www.hashicorp.com/blog/terraform-1-1-improves-refactoring-and-the-cloud-cli-experience",
           "publishedOn": "2021-12-08T21:00:00.000Z",
-          "wordCount": 1542,
+          "wordCount": 1536,
           "title": "Terraform 1.1 Improves Refactoring and the Cloud CLI Experience"
         },
         {
@@ -216,7 +225,7 @@
           "description": "Find providers in HashiCorp Terraform Cloud to help quickly spin up Kubernetes containers in Microsoft’s Azure Kubernetes Service.",
           "link": "https://www.hashicorp.com/blog/build-a-quick-aks-cluster-the-easy-way-with-terraform-cloud",
           "publishedOn": "2021-12-07T21:00:00.000Z",
-          "wordCount": 2104,
+          "wordCount": 2098,
           "title": "Build a Quick AKS Cluster the Easy Way with Terraform Cloud"
         },
         {
@@ -234,7 +243,7 @@
           "description": "AWS Control Tower Account Factory for HashiCorp Terraform (AFT), the evolution of Terraform Landing Zones, offers an easy way to set up and govern a secure, multi-account AWS environment.",
           "link": "https://www.hashicorp.com/blog/hashicorp-teams-with-aws-on-new-control-tower-account-factory-for-terraform",
           "publishedOn": "2021-11-29T23:45:00.000Z",
-          "wordCount": 926,
+          "wordCount": 920,
           "title": "HashiCorp Teams with AWS on New Control Tower Account Factory for Terraform"
         },
         {
@@ -243,7 +252,7 @@
           "description": "During 2021, HashiCorp and Amazon Web Services have partnered to bring hundreds of new services and features to the Terraform providers for AWS and AWS Cloud Control.",
           "link": "https://www.hashicorp.com/blog/terraform-aws-provider-continues-to-expand-coverage",
           "publishedOn": "2021-11-29T17:00:00.000Z",
-          "wordCount": 922,
+          "wordCount": 910,
           "title": "Terraform AWS Provider Continues to Expand Coverage"
         },
         {
@@ -270,7 +279,7 @@
           "description": "We welcome 17 new verified providers to the growing HashiCorp Terraform ecosystem.",
           "link": "https://www.hashicorp.com/blog/pagerduty-palo-alto-networks-and-splunk-among-new-verified-terraform-providers",
           "publishedOn": "2021-11-18T18:00:00.000Z",
-          "wordCount": 1114,
+          "wordCount": 1102,
           "title": "PagerDuty, Palo Alto Networks, and Splunk Among New Verified Terraform Providers"
         },
         {
@@ -331,7 +340,7 @@
           "description": "This blog post provides a summary of CVE-2021-44228 and provides Elastic Security users with detections to find active exploitation of the vulnerability in their environment. Further updates will be provided to this post as we learn more.",
           "link": "https://www.elastic.co/blog/detecting-log4j2-with-elastic-security",
           "publishedOn": "2021-12-10T15:00:00.000Z",
-          "wordCount": 881,
+          "wordCount": 944,
           "title": "Detecting Exploitation of CVE-2021-44228 (log4j2) with Elastic Security"
         },
         {
@@ -340,7 +349,7 @@
           "description": ",\nOverview\nThis blog post provides a summary of CVE-2021-44228 and provides Elastic Security users with detections to find active exploitation of the vulnerability in their environment.\nFurther updates will be provided to this post as we learn more. This version is accurate as of Monday, December 13, 2021. Updates from Apache may be investigated directly via the security page for Log4j2.\nSummary of CVE-2021-44228 (Log4Shell)\nLog4j2 is an open source logging framework incorporated into many Java based applications on both end-user systems and servers. In late November 2021, Chen Zhaojun of Alibaba identified a remote code execution vulnerability, ultimately being reported under the CVE ID : CVE-2021-44228, released to the public on December 10, 2021. The vulnerability is exploited through i…",
           "link": "https://www.elastic.co/blog/detecting-log4j2-with-elastic-security",
           "publishedOn": "2021-12-10T15:00:00.000Z",
-          "wordCount": 881,
+          "wordCount": 944,
           "title": "Detecting Exploitation of CVE-2021-44228 (log4j2) with Elastic Security"
         },
         {
@@ -495,12 +504,21 @@
       "siteUrl": "https://www.ansible.com/blog",
       "articles": [
         {
+          "id": "https://www.ansible.com/blog/new-reference-architecture-deploying-red-hat-ansible-automation-platform-2.1",
+          "author": "Roger Lopez",
+          "description": "With the release of Red Hat Ansible Automation Platform 2.1, we are proud to deliver the latest reference architecture on the best practices for deploying a highly available Ansible Automation Platform environment.",
+          "link": "https://www.ansible.com/blog/new-reference-architecture-deploying-red-hat-ansible-automation-platform-2.1",
+          "publishedOn": "2021-12-14T14:15:00.000Z",
+          "wordCount": 1501,
+          "title": "New reference architecture: Deploying Red Hat Ansible Automation Platform 2.1"
+        },
+        {
           "id": "https://www.ansible.com/blog/whats-new-in-ansible-automation-platform-2.1-automation-mesh",
           "author": "Craig Brandt",
           "description": "As part of the most recent Ansible Automation Platform 2.1 release announced December 2, 2021, we are excited to debut one of the most long-awaited features of the release: automation mesh.",
           "link": "https://www.ansible.com/blog/whats-new-in-ansible-automation-platform-2.1-automation-mesh",
           "publishedOn": "2021-12-07T14:30:00.000Z",
-          "wordCount": 1829,
+          "wordCount": 1831,
           "title": "What's new: an introduction to automation mesh"
         },
         {
@@ -509,7 +527,7 @@
           "description": "We are thrilled to announce the general availability of Red Hat Ansible Automation Platform 2.1. This is the follow-on to the Ansible Automation Platform 2.0 Early Access released this summer, and announced at AnsibleFest 2021. Red Ansible Automation Platform 2.1 introduces major features that allow customers to onboard more easily with even more flexible automation architectures and use cases. Ansible Automation Platform 2.1 is the culmination of many years of reimagining how enterprise automators automate for today and tomorrow.",
           "link": "https://www.ansible.com/blog/introducing-red-hat-ansible-automation-platform-2.1",
           "publishedOn": "2021-12-02T13:30:00.000Z",
-          "wordCount": 2743,
+          "wordCount": 2745,
           "title": "Introducing Red Hat Ansible Automation Platform 2.1"
         },
         {
@@ -518,7 +536,7 @@
           "description": "Seamlessly, every single day, we wake up and check our health statistics in smart watches, scan QR codes to validate information, pay using credit cards in different locations, use surveillance cameras to record our neighborhoods, and connect our smartphones to distributed WiFi access points in our restaurants or coffee shops. According to the Statista, in the Forecast number of mobile users worldwide 2020-2025[1] report, the number of mobile users worldwide reached 7.1 billion in 2021, and this number is projected to grow. This initiates a new set of use cases for edge devices due to the explosive growth of network-connected entry points.",
           "link": "https://www.ansible.com/blog/2022-the-year-for-edge-automation",
           "publishedOn": "2021-11-22T19:13:15.000Z",
-          "wordCount": 2429,
+          "wordCount": 2431,
           "title": "Why 2022 will be the year for edge automation"
         },
         {
@@ -527,7 +545,7 @@
           "description": "I recently had the opportunity to present our Red Hat Ansible Automation Platform cloud strategy at Cloud Field Day 12. \nCloud Field Day 12 was a three day event that focused on the impact of cloud on enterprise IT. As a presenter, you can use any combination of slides and live demos to foster a discussion with a group of thought leaders. This roundtable included people from many different companies, skill sets, backgrounds and favorite tools. Check out the Cloud Field Day website to see the delegate panel, their backgrounds and Twitter handles. I quite enjoyed, and preferred, the conversational tone of Cloud Field Day, and the delegates who asked questions during the demo made it a lot more interactive.",
           "link": "https://www.ansible.com/blog/automation-for-the-cloud-cloud-field-day-12-recap",
           "publishedOn": "2021-11-18T13:45:00.000Z",
-          "wordCount": 1222,
+          "wordCount": 1224,
           "title": "Automation for the cloud: Cloud Field Day 12 recap"
         },
         {
@@ -536,7 +554,7 @@
           "description": "Background: The Automation Controller Collection\n \r\nThe Automation Controller Collection allows Ansible Playbooks to automate the interaction with automation controller. For example, manually interacting via the Web-based UI or the API can now be automated just as the targets it manages.",
           "link": "https://www.ansible.com/blog/automation-controller-workflow-deployment-as-code",
           "publishedOn": "2021-11-15T14:00:00.000Z",
-          "wordCount": 2106,
+          "wordCount": 2108,
           "title": "Automation controller workflow deployment as code"
         }
       ]
@@ -650,6 +668,15 @@
       "feedUrl": "http://feeds.feedburner.com/AmazonWebServicesBlog",
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
+        {
+          "id": "f2939be25b70e1866f8b4c262cdd3a095b2fe38c",
+          "author": "Jeff Barr",
+          "description": "The AWS Region in Jakarta, Indonesia, is now open and you can start using it today. The official name is Asia Pacific (Jakarta) and the API name is ap-southeast-3. The AWS Asia Pacific (Jakarta) Region is the tenth active AWS Region in Asia Pacific and mainland China along with Beijing, Hong Kong, Mumbai, Ningxia, Osaka, […]",
+          "link": "https://aws.amazon.com/blogs/aws/now-open-aws-asia-pacific-jakarta-region/",
+          "publishedOn": "2021-12-14T05:31:17.000Z",
+          "wordCount": 1551,
+          "title": "Now Open – AWS Asia Pacific (Jakarta) Region"
+        },
         {
           "id": "7d40e463227e81077de707dea4aea2845e47e6b2",
           "author": "Channy Yun",
@@ -820,15 +847,6 @@
           "publishedOn": "2021-12-01T16:51:42.000Z",
           "wordCount": 1454,
           "title": "New – Amazon DevOps Guru for RDS to Detect, Diagnose, and Resolve Amazon Aurora-Related Issues using ML"
-        },
-        {
-          "id": "761df4d7e43dcf9cf7d21b7218211e17b9e6ca4a",
-          "author": "Sébastien Stormacq",
-          "description": "Today, we are announcing two additional capabilities of Amazon FSx for Lustre. First, a full bi-directional synchronization of your file systems with Amazon Simple Storage Service (Amazon S3), including deleted files and objects. Second, the ability to synchronize your file systems with multiple S3 buckets or prefixes. Lustre is a large scale, distributed parallel file […]",
-          "link": "https://aws.amazon.com/blogs/aws/enhanced-amazon-s3-integration-for-amazon-fsx-for-lustre/",
-          "publishedOn": "2021-12-01T00:21:40.000Z",
-          "wordCount": 2000,
-          "title": "Enhanced Amazon S3 Integration for Amazon FSx for Lustre"
         }
       ]
     },
@@ -880,6 +898,24 @@
       "feedUrl": "https://camunda.com/feed/",
       "siteUrl": "https://camunda.com",
       "articles": [
+        {
+          "id": "https://camunda.com/?p=38581",
+          "author": "Camunda Optimize Team",
+          "description": "We’re excited to announce the release of Camunda Optimize 3.7.0-alpha2. Use your Camunda Enterprise Platform credentials to get started now.\nThe post Camunda Optimize 3.7.0-alpha2 Released appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2021/12/camunda-optimize-3-7-0-alpha2-released/",
+          "publishedOn": "2021-12-14T08:45:00.000Z",
+          "wordCount": 2304,
+          "title": "Camunda Optimize 3.7.0-alpha2 Released"
+        },
+        {
+          "id": "https://camunda.com/?p=38579",
+          "author": "Camunda Cloud Team",
+          "description": "We’re excited to announce the release of Camunda Cloud 1.3.0-alpha3. Sign up now to get started with Camunda Cloud 1.3.0-alpha3 right away!\nThe post Camunda Cloud 1.3.0-alpha3 Released appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2021/12/camunda-cloud-1-3-0-alpha3-released/",
+          "publishedOn": "2021-12-14T08:30:00.000Z",
+          "wordCount": 1456,
+          "title": "Camunda Cloud 1.3.0-alpha3 Released"
+        },
         {
           "id": "https://camunda.com/?p=38461",
           "author": "Christian Connors",
@@ -986,12 +1022,30 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/2021-12-14-using-githubs-security-features-identify-log4j-exposure-codebase/",
+          "author": null,
+          "description": "Use GitHub’s security features to assess Apache Log4j exposure and, where possible, mitigate this vulnerability within your GitHub repositories.",
+          "link": "https://github.blog/2021-12-14-using-githubs-security-features-identify-log4j-exposure-codebase/",
+          "publishedOn": "2021-12-14T19:46:00.000Z",
+          "wordCount": 736,
+          "title": "Using GitHub’s security features to help identify Log4j exposure in your codebase"
+        },
+        {
+          "id": "https://github.blog/2021-12-14-how-to-define-security-requirements-for-your-oss-project/",
+          "author": null,
+          "description": "Defining your security requirements is the most important proactive control you can implement for your project. Here's how.",
+          "link": "https://github.blog/2021-12-14-how-to-define-security-requirements-for-your-oss-project/",
+          "publishedOn": "2021-12-14T17:11:00.000Z",
+          "wordCount": 1781,
+          "title": "How to define security requirements for your OSS project"
+        },
+        {
           "id": "https://github.blog/2021-12-13-githubs-response-to-log4j-vulnerability-cve-2021-44228/",
           "author": null,
           "description": "On Thursday, December 9, 2021, GitHub was made aware of a vulnerability in the Log4j logging framework, CVE-2021-44228.",
           "link": "https://github.blog/2021-12-13-githubs-response-to-log4j-vulnerability-cve-2021-44228/",
           "publishedOn": "2021-12-13T19:06:34.000Z",
-          "wordCount": 532,
+          "wordCount": 531,
           "title": "GitHub’s response to Log4j vulnerability CVE-2021-44228"
         },
         {
@@ -1009,7 +1063,7 @@
           "description": "Last week, GitHub joined the Internet Governance Forum to spread awareness of developers’ initiatives and public policy interests.",
           "link": "https://github.blog/2021-12-13-github-at-the-un-internet-governance-forum/",
           "publishedOn": "2021-12-13T17:01:07.000Z",
-          "wordCount": 1347,
+          "wordCount": 1334,
           "title": "GitHub at the UN Internet Governance Forum"
         },
         {
@@ -1018,7 +1072,7 @@
           "description": "Precise code navigation is powered by stack graphs, a new open source framework that lets you define the name binding rules for a programming language.",
           "link": "https://github.blog/2021-12-09-introducing-stack-graphs/",
           "publishedOn": "2021-12-09T17:00:40.000Z",
-          "wordCount": 2698,
+          "wordCount": 2688,
           "title": "Introducing stack graphs"
         },
         {
@@ -1054,26 +1108,8 @@
           "description": "Today we're introducing enhanced login verification to the npm registry, and we will begin a staged rollout to maintainers beginning Dec 7.",
           "link": "https://github.blog/2021-12-07-enrolling-npm-publishers-enhanced-login-verification-two-factor-authentication-enforcement/",
           "publishedOn": "2021-12-07T17:00:09.000Z",
-          "wordCount": 786,
+          "wordCount": 791,
           "title": "Enrolling all npm publishers in enhanced login verification and next steps for two-factor authentication enforcement"
-        },
-        {
-          "id": "https://github.blog/2021-12-06-write-more-secure-code-owasp-top-10-proactive-controls/",
-          "author": null,
-          "description": "This lesser-known OWASP project aims to help developers prevent vulnerabilities from being introduced in the first place.",
-          "link": "https://github.blog/2021-12-06-write-more-secure-code-owasp-top-10-proactive-controls/",
-          "publishedOn": "2021-12-06T22:30:11.000Z",
-          "wordCount": 1806,
-          "title": "Write more secure code with the OWASP Top 10 Proactive Controls"
-        },
-        {
-          "id": "https://github.blog/2021-12-06-safeguard-container-signing-capability-actions/",
-          "author": null,
-          "description": "GitHub has partnered with the OpenSSF and Project Sigstore to add container image signing to our default “Publish Docker Container” workflow.",
-          "link": "https://github.blog/2021-12-06-safeguard-container-signing-capability-actions/",
-          "publishedOn": "2021-12-06T17:30:08.000Z",
-          "wordCount": 1097,
-          "title": "Safeguard your containers with new container signing capability in GitHub Actions"
         }
       ]
     },
@@ -1094,7 +1130,7 @@
           "description": "Project by Netflix’s Cloud Infrastructure Security team (Alex Bainbridge, Mike Grima, Nick Siow)",
           "link": "https://netflixtechblog.com/snaring-the-bad-folks-66726a1f4c80?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-12-08T17:38:41.000Z",
-          "wordCount": 1709,
+          "wordCount": 1690,
           "title": "Snaring the Bad Folks"
         },
         {
@@ -1103,7 +1139,7 @@
           "description": "Martin Tingley with Wenjing Zheng, Simon Ejdemyr, Stephanie Lane, Michael Lindon, and Colin McFarland",
           "link": "https://netflixtechblog.com/building-confidence-in-a-decision-8705834e6fd8?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-11-15T16:20:05.000Z",
-          "wordCount": 2440,
+          "wordCount": 2426,
           "title": "Building confidence in a decision"
         }
       ]
@@ -1136,7 +1172,7 @@
           "author": null,
           "description": "Posted by Andrew M Dai and Nan Du, Research Scientists, Google Research, Brain Team  \nLarge language models (e.g., GPT-3) have many significant capabilities, such as performing few-shot learning across a wide array of tasks, including reading comprehension and question answering with very few or no training examples. While these models can perform better by simply using more parameters, training and serving these large models can be very computationally intensive. Is it possible to train and use these models more efficiently? \n  \nIn pursuit of that question, today we introduce the Generalist Language Model (GLaM), a trillion weight model that can be trained and served efficiently (in terms of computation and energy use) thanks to sparsity, and achieves competitive performance on multiple f…",
           "link": "http://ai.googleblog.com/2021/12/more-efficient-in-context-learning-with.html",
-          "publishedOn": "2021-12-09T20:22:00.002Z",
+          "publishedOn": "2021-12-09T20:22:00.003Z",
           "wordCount": 2592,
           "title": "More Efficient In-Context Learning with GLaM"
         },

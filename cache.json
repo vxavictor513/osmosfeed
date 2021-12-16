@@ -26,19 +26,19 @@
         {
           "id": "https://spring.io/blog/2021/12/14/spring-graphql-1-0-0-m4-released",
           "author": null,
-          "description": "The Spring GraphQL team has just released the 4th milestone towards a 1.0.0 release. Thanks to all contributors!\n\r\nIn this milestone, we have further improved the annotation programming model and extended the Spring Data support that were provided in the previous milestones.\nInterface Projections for GraphQL Arguments\n\r\nIf you’re familiar with Spring Data’s Interface-based Projections, then this new feature will make perfect can sense: you can use a well-defined interface to work with GraphQL arguments, without the need for any Object implementation. \n\r\nFor example:\n\r\n@Controller\r\r\npublic class BookController {\r\r\n\r\r\n    @MutationMapping\r\r\n    public Book addBook(@Argument BookInputProjection bookInput) {\r\r\n        // ...\r\r\n    }\r\r\n}\r\r\n\r\r\n@ProjectedPayload\r\r\ninterface BookInputProjection {\r…",
+          "description": "The Spring GraphQL team has just released the 4th milestone towards a 1.0.0 release. Thanks to all contributors!\n\r\nIn this milestone, we have further improved the annotation programming model and extended the Spring Data support that were provided in the previous milestones.\nInterface Projections for GraphQL Arguments\n\r\nIf you’re familiar with Spring Data’s Interface-based Projections, then this new feature will make perfect sense: you can use a well-defined interface to work with GraphQL arguments, without the need for any Object implementation. \n\r\nFor example:\n\r\n@Controller\r\r\npublic class BookController {\r\r\n\r\r\n    @MutationMapping\r\r\n    public Book addBook(@Argument BookInputProjection bookInput) {\r\r\n        // ...\r\r\n    }\r\r\n}\r\r\n\r\r\n@ProjectedPayload\r\r\ninterface BookInputProjection {\r\r\n\r\r…",
           "link": "https://spring.io/blog/2021/12/14/spring-graphql-1-0-0-m4-released",
           "publishedOn": "2021-12-14T16:04:00.000Z",
-          "wordCount": 868,
+          "wordCount": 872,
           "title": "Spring GraphQL 1.0.0-M4 Released"
         },
         {
           "id": "https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot",
           "author": null,
-          "description": "Update: Since this blog post has been published, a new logback 1.2.8 version has been published. While this fixes a security issue, prerequisites for exploits are very different as they “requires write access to logback’s configuration file”. Our upcoming releases will pick up this new version.\n\r\n\r\nAs you may have seen in the news, a new zero-day exploit has been reported against the popular Log4J2 library which can allow an attacker to remotely execute code. The vulnerability has been reported with CVE-2021-44228 against the log4j-core jar and has been fixed in Log4J v2.15.0.\n\r\nSpring Boot users are only affected by this vulnerability if they have switched the default logging system to Log4J2. The log4j-to-slf4j and log4j-api jars that we include in spring-boot-starter-logging cannot be e…",
+          "description": "Updates: Since this blog post has been published, a new logback 1.2.8 version has been published. While this fixes a security issue, prerequisites for exploits are very different as they “requires write access to logback’s configuration file”.\nLog4J also released a new 2.16.0 version with fixes for CVE-2021-45046.\nOur upcoming releases will pick up these new versions.\n\r\n\r\nAs you may have seen in the news, a new zero-day exploit has been reported against the popular Log4J2 library which can allow an attacker to remotely execute code. The vulnerability has been reported with CVE-2021-44228 against the log4j-core jar and has been fixed in Log4J v2.15.0.\n\r\nSpring Boot users are only affected by this vulnerability if they have switched the default logging system to Log4J2. The log4j-to-slf4j an…",
           "link": "https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot",
           "publishedOn": "2021-12-10T20:00:00.000Z",
-          "wordCount": 781,
+          "wordCount": 763,
           "title": "Log4J2 Vulnerability and Spring Boot"
         },
         {
@@ -193,12 +193,21 @@
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
         {
+          "id": "https://www.hashicorp.com/blog/deploying-helm-apps-to-kubernetes-with-waypoint-and-gitops",
+          "author": null,
+          "description": "You can use HashiCorp Waypoint to help simplify and automate your Helm application deployments.",
+          "link": "https://www.hashicorp.com/blog/deploying-helm-apps-to-kubernetes-with-waypoint-and-gitops",
+          "publishedOn": "2021-12-15T17:00:00.000Z",
+          "wordCount": 628,
+          "title": "Deploying Helm Apps to Kubernetes with Waypoint and GitOps"
+        },
+        {
           "id": "https://www.hashicorp.com/blog/terraform-adds-support-for-gke-autopilot",
           "author": null,
           "description": "The Google Cloud Terraform provider now supports deployment of GKE Autopilot clusters. Learn how to use the new feature with a short example.",
           "link": "https://www.hashicorp.com/blog/terraform-adds-support-for-gke-autopilot",
           "publishedOn": "2021-12-14T17:00:00.000Z",
-          "wordCount": 1446,
+          "wordCount": 1455,
           "title": "Terraform Adds Support for GKE Autopilot"
         },
         {
@@ -207,7 +216,7 @@
           "description": "As we officially enter the public markets, we plan to continue to do what we think we do best: solving problems for our end users.",
           "link": "https://www.hashicorp.com/blog/a-new-chapter-for-hashicorp",
           "publishedOn": "2021-12-09T18:00:00.000Z",
-          "wordCount": 1092,
+          "wordCount": 1101,
           "title": "A New Chapter for HashiCorp"
         },
         {
@@ -216,7 +225,7 @@
           "description": "Now generally available, HashiCorp Terraform 1.1 offers easier and safer refactoring with ‘moved’ statements and improves the CLI for Terraform Cloud and Enterprise.",
           "link": "https://www.hashicorp.com/blog/terraform-1-1-improves-refactoring-and-the-cloud-cli-experience",
           "publishedOn": "2021-12-08T21:00:00.000Z",
-          "wordCount": 1536,
+          "wordCount": 1545,
           "title": "Terraform 1.1 Improves Refactoring and the Cloud CLI Experience"
         },
         {
@@ -225,7 +234,7 @@
           "description": "Find providers in HashiCorp Terraform Cloud to help quickly spin up Kubernetes containers in Microsoft’s Azure Kubernetes Service.",
           "link": "https://www.hashicorp.com/blog/build-a-quick-aks-cluster-the-easy-way-with-terraform-cloud",
           "publishedOn": "2021-12-07T21:00:00.000Z",
-          "wordCount": 2098,
+          "wordCount": 2107,
           "title": "Build a Quick AKS Cluster the Easy Way with Terraform Cloud"
         },
         {
@@ -234,7 +243,7 @@
           "description": "A pair of new HCP Vault verified integrations and ten new self-managed HashiCorp Vault integrations add to the existing list of more than 100 partner Vault integrations.",
           "link": "https://www.hashicorp.com/blog/confluent-jfrog-servicenow-integrations-highlight-additions-vault-ecosystem",
           "publishedOn": "2021-12-06T17:00:00.000Z",
-          "wordCount": 1160,
+          "wordCount": 1169,
           "title": "Confluent, JFrog, and ServiceNow Integrations Highlight Additions to the Vault Ecosystem"
         },
         {
@@ -243,7 +252,7 @@
           "description": "AWS Control Tower Account Factory for HashiCorp Terraform (AFT), the evolution of Terraform Landing Zones, offers an easy way to set up and govern a secure, multi-account AWS environment.",
           "link": "https://www.hashicorp.com/blog/hashicorp-teams-with-aws-on-new-control-tower-account-factory-for-terraform",
           "publishedOn": "2021-11-29T23:45:00.000Z",
-          "wordCount": 920,
+          "wordCount": 929,
           "title": "HashiCorp Teams with AWS on New Control Tower Account Factory for Terraform"
         },
         {
@@ -252,7 +261,7 @@
           "description": "During 2021, HashiCorp and Amazon Web Services have partnered to bring hundreds of new services and features to the Terraform providers for AWS and AWS Cloud Control.",
           "link": "https://www.hashicorp.com/blog/terraform-aws-provider-continues-to-expand-coverage",
           "publishedOn": "2021-11-29T17:00:00.000Z",
-          "wordCount": 910,
+          "wordCount": 919,
           "title": "Terraform AWS Provider Continues to Expand Coverage"
         },
         {
@@ -261,7 +270,7 @@
           "description": "Visit us at AWS re:Invent 2021 in Las Vegas, Nov. 29 - Dec. 3 for breakout sessions, expert talks, and product demos to accelerate your cloud strategy.",
           "link": "https://www.hashicorp.com/blog/hashicorp-at-aws-re-invent-breakouts-experts-demos-and-more",
           "publishedOn": "2021-11-23T17:00:00.000Z",
-          "wordCount": 1226,
+          "wordCount": 1235,
           "title": "HashiCorp at AWS re:Invent: Breakouts, Experts, Demos, and More"
         },
         {
@@ -270,7 +279,7 @@
           "description": "Boundary 0.7 adds support for partner plugins, dynamic host catalogs, UI support for managed groups and resource filtering, and more.",
           "link": "https://www.hashicorp.com/blog/hashicorp-boundary-0-7",
           "publishedOn": "2021-11-22T17:00:00.000Z",
-          "wordCount": 889,
+          "wordCount": 898,
           "title": "HashiCorp Boundary 0.7 Brings New Automated Host Discovery"
         },
         {
@@ -279,7 +288,7 @@
           "description": "We welcome 17 new verified providers to the growing HashiCorp Terraform ecosystem.",
           "link": "https://www.hashicorp.com/blog/pagerduty-palo-alto-networks-and-splunk-among-new-verified-terraform-providers",
           "publishedOn": "2021-11-18T18:00:00.000Z",
-          "wordCount": 1102,
+          "wordCount": 1111,
           "title": "PagerDuty, Palo Alto Networks, and Splunk Among New Verified Terraform Providers"
         },
         {
@@ -288,7 +297,7 @@
           "description": "Vault 1.9 can act as an OIDC provider, includes general availability of a key management secrets engine for Google Cloud, and updates to Transform, Namespaces, and the UI.",
           "link": "https://www.hashicorp.com/blog/vault-1-9",
           "publishedOn": "2021-11-17T17:00:00.000Z",
-          "wordCount": 1696,
+          "wordCount": 1705,
           "title": "Announcing HashiCorp Vault 1.9"
         },
         {
@@ -297,7 +306,7 @@
           "description": "HashiCorp Consul service mesh on Amazon ECS is now generally available and ready for production environments.",
           "link": "https://www.hashicorp.com/blog/consul-service-mesh-on-amazon-ecs-now-generally-available",
           "publishedOn": "2021-11-17T17:00:00.000Z",
-          "wordCount": 789,
+          "wordCount": 798,
           "title": "Consul Service Mesh on Amazon ECS Now Generally Available"
         },
         {
@@ -306,7 +315,7 @@
           "description": "Nomad 1.2 introduces Nomad Pack, which simplifies application deployment and lifecycle management on Nomad.",
           "link": "https://www.hashicorp.com/blog/announcing-hashicorp-nomad-1-2",
           "publishedOn": "2021-11-16T18:00:00.000Z",
-          "wordCount": 1530,
+          "wordCount": 1539,
           "title": "Announcing General Availability of HashiCorp Nomad 1.2"
         }
       ]
@@ -316,6 +325,60 @@
       "feedUrl": "https://www.elastic.co/blog/feed",
       "siteUrl": "https://www.elastic.co",
       "articles": [
+        {
+          "id": "https://www.elastic.co/blog/analysis-of-log4shell-cve-2021-45046",
+          "author": "Jake King",
+          "description": "",
+          "link": "https://www.elastic.co/blog/analysis-of-log4shell-cve-2021-45046",
+          "publishedOn": "2021-12-15T18:00:00.000Z",
+          "wordCount": null,
+          "title": "Analysis of Log4Shell vulnerability CVE-2021-45046"
+        },
+        {
+          "id": "https://www.elastic.co/blog/analysis-of-log4shell-cve-2021-45046",
+          "author": "Jake King",
+          "description": ",\nIn recent days Log4Shell, or CVE-2021-44228, has dominated the news cycle in the world of information security and beyond. Elastic released an advisory detailing how Elastic products and users are impacted, and a blog post describing how our users can leverage Elastic Security to help defend their networks.\nMany readers have further questions as to how we’re tracking this issue within Elastic Security, what our coverage is now, and what we’re expecting to do next. This post outlines a few details for our current status, and provides details regarding a new, related vulnerability: CVE-2021-45046.\nElastic Security response\nAs you may imagine, the team has worked tirelessly to ensure that we’re developing detections for both active exploitation of the vulnerability, as well as post-compromi…",
+          "link": "https://www.elastic.co/blog/analysis-of-log4shell-cve-2021-45046",
+          "publishedOn": "2021-12-15T18:00:00.000Z",
+          "wordCount": null,
+          "title": "Analysis of Log4Shell vulnerability CVE-2021-45046"
+        },
+        {
+          "id": "https://www.elastic.co/blog/cios-are-changing-who-is-responsible-for-cybersecurity-devsecops-observability-securitytools",
+          "author": "Gagan Singh",
+          "description": "Security tools are becoming used as much by developers as by security specialists, according to data from 451 Research, part of S&P Global Market Intelligence. By recognizing the shared responsibility of protecting organizations, CIOs are remaking IT for the better and delivering improved services to customers.",
+          "link": "https://www.elastic.co/blog/cios-are-changing-who-is-responsible-for-cybersecurity-devsecops-observability-securitytools",
+          "publishedOn": "2021-12-15T17:00:00.000Z",
+          "wordCount": 1072,
+          "title": "DevSecOps trend accelerates: CIOs are changing who is responsible for cybersecurity"
+        },
+        {
+          "id": "https://www.elastic.co/blog/cios-are-changing-who-is-responsible-for-cybersecurity-devsecops-observability-securitytools",
+          "author": "Gagan Singh",
+          "description": ",\nCIOs are remaking the IT function — no longer will security and developer teams be siloed. \nRecent survey data from 451 Research, part of S&P Global Market Intelligence, and published by Elastic shows a major shift in who is using application security tools, suggesting that DevSecOps is not just an idea, but a growing reality for IT decision makers.\nIT decision-makers allocated application security tools to 48% of development teams in 2020, compared to just 29% in 2015. That’s nearly a two-fold jump. \nAccording to “The New Security Imperative for CIOs” report by 451 Research, “Opportunities abound for security to become more directly integrated into DevOps efforts, with CIOs leading the charge.” The report continues: “Security teams must become better versed in DevOps practices and tools…",
+          "link": "https://www.elastic.co/blog/cios-are-changing-who-is-responsible-for-cybersecurity-devsecops-observability-securitytools",
+          "publishedOn": "2021-12-15T17:00:00.000Z",
+          "wordCount": 1072,
+          "title": "DevSecOps trend accelerates: CIOs are changing who is responsible for cybersecurity"
+        },
+        {
+          "id": "https://www.elastic.co/blog/new-elastic-and-amazon-s3-storage-lens-integration-simplify-management-control-costs-and-reduce-risk",
+          "author": "Uday Theepireddy,Ravi Kesarwani",
+          "description": "Elastic Cloud enables organizations to get a holistic view of operations across Amazon S3 Storage Lens metrics and AWS and on-premises data sets to simplify management, contain costs, and reduce security risks.",
+          "link": "https://www.elastic.co/blog/new-elastic-and-amazon-s3-storage-lens-integration-simplify-management-control-costs-and-reduce-risk",
+          "publishedOn": "2021-12-15T13:30:00.000Z",
+          "wordCount": 1129,
+          "title": "New Elastic and Amazon S3 Storage Lens Integration: Simplify management, control costs, and reduce risk"
+        },
+        {
+          "id": "https://www.elastic.co/blog/new-elastic-and-amazon-s3-storage-lens-integration-simplify-management-control-costs-and-reduce-risk",
+          "author": "Uday Theepireddy,Ravi Kesarwani",
+          "description": ",\nAs data and applications grow at an exponential rate — they produce logs, metrics and traces at a rapid pace — making storage and management even more complex. The new Elastic and Amazon Simple Storage Service (Amazon S3) Storage Lens integration provides customers with a complete organization-wide view of Amazon S3 usage and activity metrics alongside their other AWS and on-premises data sets. \nSREs and DevOps engineers can now use the powerful search and analytics capabilities of the Elastic search platform — including dashboarding capabilities, built-in machine learning analysis, and threshold-based alerts — to identify trends and correlate their Amazon S3 Storage Lens data with other performance indicators across their environment. These insights can also be leveraged to optimize sto…",
+          "link": "https://www.elastic.co/blog/new-elastic-and-amazon-s3-storage-lens-integration-simplify-management-control-costs-and-reduce-risk",
+          "publishedOn": "2021-12-15T13:30:00.000Z",
+          "wordCount": 1129,
+          "title": "New Elastic and Amazon S3 Storage Lens Integration: Simplify management, control costs, and reduce risk"
+        },
         {
           "id": "https://www.elastic.co/blog/why-and-how-replace-end-to-end-tests-synthetic-monitors",
           "author": "Lucas da Costa",
@@ -346,7 +409,7 @@
         {
           "id": "https://www.elastic.co/blog/detecting-log4j2-with-elastic-security",
           "author": "Jake King,Samir Bousseaden",
-          "description": ",\nOverview\nThis blog post provides a summary of CVE-2021-44228 and provides Elastic Security users with detections to find active exploitation of the vulnerability in their environment.\nFurther updates will be provided to this post as we learn more. This version is accurate as of Monday, December 13, 2021. Updates from Apache may be investigated directly via the security page for Log4j2.\nSummary of CVE-2021-44228 (Log4Shell)\nLog4j2 is an open source logging framework incorporated into many Java based applications on both end-user systems and servers. In late November 2021, Chen Zhaojun of Alibaba identified a remote code execution vulnerability, ultimately being reported under the CVE ID : CVE-2021-44228, released to the public on December 10, 2021. The vulnerability is exploited through i…",
+          "description": ",\nOverview\nThis blog post provides a summary of CVE-2021-44228 and provides Elastic Security users with detections to find active exploitation of the vulnerability in their environment.\nFurther updates will be provided to this post as we learn more. This version is accurate as of Tuesday, December 14, 2021. Updates from Apache may be investigated directly via the security page for Log4j2.\nSummary of CVE-2021-44228 (Log4Shell)\nLog4j2 is an open source logging framework incorporated into many Java based applications on both end-user systems and servers. In late November 2021, Chen Zhaojun of Alibaba identified a remote code execution vulnerability, ultimately being reported under the CVE ID : CVE-2021-44228, released to the public on December 10, 2021. The vulnerability is exploited through …",
           "link": "https://www.elastic.co/blog/detecting-log4j2-with-elastic-security",
           "publishedOn": "2021-12-10T15:00:00.000Z",
           "wordCount": 944,
@@ -441,60 +504,6 @@
           "publishedOn": "2021-12-07T16:00:05.000Z",
           "wordCount": 639,
           "title": "Elastic Enterprise Search 7.16: Adaptive relevance and Kibana UI"
-        },
-        {
-          "id": "https://www.elastic.co/blog/whats-new-elastic-observability-7-16-0",
-          "author": "Amena Siddiqi",
-          "description": "Elastic Observability 7.16 introduces powerful ad hoc analytics, further extends one-click visibility into complex environments, including build and deployment tools in CI/CD pipelines, and a new native data integration with AWS FireLens.",
-          "link": "https://www.elastic.co/blog/whats-new-elastic-observability-7-16-0",
-          "publishedOn": "2021-12-07T16:00:04.000Z",
-          "wordCount": 1468,
-          "title": "Elastic Observability 7.16: Ad hoc analytics and CI/CD pipeline visibility"
-        },
-        {
-          "id": "https://www.elastic.co/blog/whats-new-elastic-observability-7-16-0",
-          "author": "Amena Siddiqi",
-          "description": ",\nElastic Observability 7.16 introduces curated data exploration views for ad hoc analysis and further extends visibility into complex and distributed systems with the general availability (GA) of dozens of prebuilt Elastic Agent data integrations, observability tooling for continuous integration and continuous delivery (CI/CD) pipelines, and a new native data source integration with Amazon Web Services (AWS) FireLens.\nThese new features allow customers to:\n\nConduct ad hoc investigations to analyze “unknown unknowns” for observability\nFrictionlessly ingest data from complex, cloud-native environments\nBuild and deploy faster and automate more reliably with visibility into CI/CD pipelines\n\n\n\nElastic Observability 7.16 is available now on Elastic Cloud — the only hosted Elasticsearch offering…",
-          "link": "https://www.elastic.co/blog/whats-new-elastic-observability-7-16-0",
-          "publishedOn": "2021-12-07T16:00:04.000Z",
-          "wordCount": 1468,
-          "title": "Elastic Observability 7.16: Ad hoc analytics and CI/CD pipeline visibility"
-        },
-        {
-          "id": "https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-7-16-0",
-          "author": "Adeline Tan,Bianca Laurendine,George Kobar",
-          "description": "Elastic Integrations make it easy to collect, store, search and analyze all of your data securely and at scale. Ingest data easily, explore from an intuitive UI, and make your data actionable and streamline workflows across teams and systems.",
-          "link": "https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-7-16-0",
-          "publishedOn": "2021-12-07T16:00:03.000Z",
-          "wordCount": 1192,
-          "title": "Elasticsearch, Kibana, and Elastic Cloud 7.16: Integrations and more actionable insights"
-        },
-        {
-          "id": "https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-7-16-0",
-          "author": "Adeline Tan,Bianca Laurendine,George Kobar",
-          "description": ",\nWith the release of Elastic 7.16, it’s easier than ever to collect, store, search, and analyze data securely and at scale, no matter the use case. Explore third-party solutions like ServiceNow and cloud-native integrations like Amazon Web Services (AWS) FireLens to make your data actionable and streamline workflows across teams and systems.\nIn addition, 7.16 improves performance and maximizes resource consumption with enhancements to Elasticsearch, gives users the ability to add more context to Kibana visualizations, and more.\nReady to roll up your sleeves and get started? We have the links you need:\n\nTry out the new features on Elastic Cloud \nDownload the latest versions of Elasticsearch, Kibana, Elastic Cloud on Kubernetes\nDig deeper in the release notes: Elasticsearch, Kibana, Elastic…",
-          "link": "https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-7-16-0",
-          "publishedOn": "2021-12-07T16:00:03.000Z",
-          "wordCount": 1192,
-          "title": "Elasticsearch, Kibana, and Elastic Cloud 7.16: Integrations and more actionable insights"
-        },
-        {
-          "id": "https://www.elastic.co/blog/whats-new-elastic-security-7-16-0",
-          "author": "Mark Settle",
-          "description": "Elastic Security 7.16 adds new data integrations for Elastic Agent, expanded malicious behavior protections, memory threat protection for every OS, and enhanced ECS support for Osquery Manager. Plus, new and enhanced ServiceNow workflow integrations.",
-          "link": "https://www.elastic.co/blog/whats-new-elastic-security-7-16-0",
-          "publishedOn": "2021-12-07T16:00:02.000Z",
-          "wordCount": 1083,
-          "title": "Elastic Security 7.16: Accelerate SecOps with the most powerful Elastic Security yet"
-        },
-        {
-          "id": "https://www.elastic.co/blog/whats-new-elastic-security-7-16-0",
-          "author": "Mark Settle",
-          "description": ",\nIn Elastic Security 7.16, multiple new out-of-the-box data integrations for Elastic Agent streamline data ingestion and normalization, powering security operations. The release also introduces full production support for several existing data integrations.\nVersion 7.16 introduces an expanded set of malicious behavior protections, addressing methods related to initial access, privilege escalation, and defense evasion. It also brings memory threat protection to macOS and Linux, and enhances ECS support for Osquery Manager.\nPlus, power cross-org collaboration with new and enhanced workflow integrations for ServiceNow.\nLet’s jump in.\nAmplify visibility to accelerate detection and response\nExpansive environmental activity and context powers the work of modern security teams, but onboarding da…",
-          "link": "https://www.elastic.co/blog/whats-new-elastic-security-7-16-0",
-          "publishedOn": "2021-12-07T16:00:02.000Z",
-          "wordCount": 1083,
-          "title": "Elastic Security 7.16: Accelerate SecOps with the most powerful Elastic Security yet"
         }
       ]
     },
@@ -547,15 +556,6 @@
           "publishedOn": "2021-11-18T13:45:00.000Z",
           "wordCount": 1224,
           "title": "Automation for the cloud: Cloud Field Day 12 recap"
-        },
-        {
-          "id": "https://www.ansible.com/blog/automation-controller-workflow-deployment-as-code",
-          "author": "Sean Sullivan",
-          "description": "Background: The Automation Controller Collection\n \r\nThe Automation Controller Collection allows Ansible Playbooks to automate the interaction with automation controller. For example, manually interacting via the Web-based UI or the API can now be automated just as the targets it manages.",
-          "link": "https://www.ansible.com/blog/automation-controller-workflow-deployment-as-code",
-          "publishedOn": "2021-11-15T14:00:00.000Z",
-          "wordCount": 2108,
-          "title": "Automation controller workflow deployment as code"
         }
       ]
     },
@@ -564,6 +564,24 @@
       "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
       "siteUrl": "https://devblogs.microsoft.com/devops",
       "articles": [
+        {
+          "id": "https://devblogs.microsoft.com/devops/?p=62998",
+          "author": "Gloridel Morales",
+          "description": "This month, we are releasing fixes that impact our self-hosted product, Azure DevOps Server.\nFix work item macro for queries with “Contains Words”. Previously, queries were returning incorrect results for values that contained a line break.\nThe post December patches for Azure DevOps Server appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/december-patches-for-azure-devops-server/",
+          "publishedOn": "2021-12-15T18:37:40.000Z",
+          "wordCount": 1448,
+          "title": "December patches for Azure DevOps Server"
+        },
+        {
+          "id": "https://devblogs.microsoft.com/devops/?p=62991",
+          "author": "Gloridel Morales",
+          "description": "For the most part, Azure DevOps (and Azure DevOps Server) are built on .NET and do not use the Apache log4j library whose vulnerabilities (CVE-2021-44228, CVE-2021-45046, Microsoft security blog post) have been the focus of so much recent attention. The Search feature in both Azure DevOps and Azure DevOps Server does use this library,\nThe post Azure DevOps (and Azure DevOps Server) and the log4j vulnerability appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/azure-devops-and-azure-devops-server-and-the-log4j-vulnerability/",
+          "publishedOn": "2021-12-15T02:11:40.000Z",
+          "wordCount": 1620,
+          "title": "Azure DevOps (and Azure DevOps Server) and the log4j vulnerability"
+        },
         {
           "id": "https://devblogs.microsoft.com/devops/?p=62942",
           "author": "Jay Gordon",
@@ -624,7 +642,7 @@
           "description": "The team is excited to release the public preview of the Ux modernization for Azure Boards! The web platform has been updated to provide a faster Ux, consistency with other parts of the product, and accessibility compliance.\nThe post Azure Boards Ux Modernization – Public Preview appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azure-boards-ux-modernization-public-preview/",
           "publishedOn": "2021-11-29T16:41:30.000Z",
-          "wordCount": 2291,
+          "wordCount": 2334,
           "title": "Azure Boards Ux Modernization – Public Preview"
         },
         {
@@ -635,15 +653,6 @@
           "publishedOn": "2021-11-26T11:00:58.000Z",
           "wordCount": 1564,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.11.26"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=62832",
-          "author": "Jay Gordon",
-          "description": "Welcome back! I am Jay Gordon and every week I try to bring you the latest updates from around the DevOps on Azure community. If you have a post you’d like to have me include, I am always listening. You can reach out on Twitter or LinkedIn and I will be sure to share your latest post with the community.\nThe post Top Stories from the Microsoft DevOps Community – 2021.11.19 appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-11-19/",
-          "publishedOn": "2021-11-19T11:00:35.000Z",
-          "wordCount": 1456,
-          "title": "Top Stories from the Microsoft DevOps Community – 2021.11.19"
         }
       ]
     },
@@ -818,8 +827,8 @@
           "description": "Today, we’re pleased to announce the latest service in the Amazon SageMaker suite that will make labeling datasets easier than ever before. Ground Truth Plus is a turn-key service that uses an expert workforce to deliver high-quality training datasets fast, and reduces costs by up to 40 percent. The Challenges of Machine Learning Model Creation […]",
           "link": "https://aws.amazon.com/blogs/aws/announcing-amazon-sagemaker-ground-truth-plus/",
           "publishedOn": "2021-12-01T18:00:17.000Z",
-          "wordCount": 1607,
-          "title": "Announcing Amazon SageMaker Ground Truth Plus"
+          "wordCount": 1622,
+          "title": "Announcing Amazon SageMaker Ground Truth Plus – Create Training Datasets Without Code or In-house Resources"
         },
         {
           "id": "0ca1e66606cb25277f37424382ba8f4fc650c532",
@@ -899,12 +908,30 @@
       "siteUrl": "https://camunda.com",
       "articles": [
         {
+          "id": "https://camunda.com/?p=38609",
+          "author": "Daniel Meyer",
+          "description": "Discover why Apendo partnered with Camunda to automate citizen services for several municipalities and counting all over Sweden. \nThe post Building Smarter Cities with Process Automation appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2021/12/building-smarter-cities-with-process-automation/",
+          "publishedOn": "2021-12-15T14:30:00.000Z",
+          "wordCount": 1944,
+          "title": "Building Smarter Cities with Process Automation"
+        },
+        {
+          "id": "https://camunda.com/?p=38438",
+          "author": "Camunda Platform Team",
+          "description": "We're pleased to announce the second alpha release of Camunda Platform Runtime 7.17.0. Download Camunda for free or run it with Docker today. \nThe post Camunda Automation Platform 7.17.0-alpha2 Released appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2021/12/camunda-automation-platform-7170-alpha2-released/",
+          "publishedOn": "2021-12-15T02:50:45.000Z",
+          "wordCount": 1695,
+          "title": "Camunda Automation Platform 7.17.0-alpha2 Released"
+        },
+        {
           "id": "https://camunda.com/?p=38581",
           "author": "Camunda Optimize Team",
           "description": "We’re excited to announce the release of Camunda Optimize 3.7.0-alpha2. Use your Camunda Enterprise Platform credentials to get started now.\nThe post Camunda Optimize 3.7.0-alpha2 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/12/camunda-optimize-3-7-0-alpha2-released/",
           "publishedOn": "2021-12-14T08:45:00.000Z",
-          "wordCount": 2304,
+          "wordCount": 2290,
           "title": "Camunda Optimize 3.7.0-alpha2 Released"
         },
         {
@@ -913,7 +940,7 @@
           "description": "We’re excited to announce the release of Camunda Cloud 1.3.0-alpha3. Sign up now to get started with Camunda Cloud 1.3.0-alpha3 right away!\nThe post Camunda Cloud 1.3.0-alpha3 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/12/camunda-cloud-1-3-0-alpha3-released/",
           "publishedOn": "2021-12-14T08:30:00.000Z",
-          "wordCount": 1456,
+          "wordCount": 1442,
           "title": "Camunda Cloud 1.3.0-alpha3 Released"
         },
         {
@@ -922,7 +949,7 @@
           "description": "Learn how the help of our process automation and support, made BT Media and Broadcast fully equipped to adapt for their clients' needs. \nThe post Behind the Scenes: BT Media and Broadcast Builds A Stronger Media Network with Camunda appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/12/behind-the-scenes-bt-media-and-broadcast-builds-a-stronger-media-network-with-camunda/",
           "publishedOn": "2021-12-13T14:15:00.000Z",
-          "wordCount": 1984,
+          "wordCount": 1969,
           "title": "Behind the Scenes: BT Media and Broadcast Builds A Stronger Media Network with Camunda"
         },
         {
@@ -931,7 +958,7 @@
           "description": "Take a moment sit back and browse these interesting holiday reading recommendations from Camunda colleagues and our community.\nThe post The Camunda Holiday Reading List 2021 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/12/the-camunda-holiday-reading-list-2021/",
           "publishedOn": "2021-12-08T02:15:00.000Z",
-          "wordCount": 2320,
+          "wordCount": 2303,
           "title": "The Camunda Holiday Reading List 2021"
         },
         {
@@ -940,7 +967,7 @@
           "description": "Get details on how solutions built with Camunda enabled Covea to organize data more effectively and create an even-stronger user experience.\nThe post The Secret Behind the IT Transformation of Covéa Insurance appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/12/the-secret-behind-the-it-transformation-of-covea-insurance/",
           "publishedOn": "2021-12-02T14:00:00.000Z",
-          "wordCount": 1841,
+          "wordCount": 1823,
           "title": "The Secret Behind the IT Transformation of Covéa Insurance"
         },
         {
@@ -949,7 +976,7 @@
           "description": "Learn how using Camunda’s process engine in your Java application will make development easier and save you time. \nThe post How Developing Java Apps is Easier with a Process Engine appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/11/how-developing-java-apps-is-easier-with-a-process-engine/",
           "publishedOn": "2021-11-26T14:00:00.000Z",
-          "wordCount": 2226,
+          "wordCount": 2208,
           "title": "How Developing Java Apps is Easier with a Process Engine"
         },
         {
@@ -958,7 +985,7 @@
           "description": "All the questions we didn't have time to answer at the recent 3 Superpowers for Next Level Microservices Orchestration webinar \nThe post 3 Superpowers for Next Level Microservices Orchestration Recap appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/11/3-superpowers-for-next-level-microservices-orchestration-recap/",
           "publishedOn": "2021-11-23T14:31:00.000Z",
-          "wordCount": 1898,
+          "wordCount": 1890,
           "title": "3 Superpowers for Next Level Microservices Orchestration Recap"
         },
         {
@@ -967,17 +994,8 @@
           "description": "Wondering how to make a SSO implementation work in Camunda? Have no fear. The answer you've been waiting for is here! \nThe post Q&A: The One with the SSO Implementation in Camunda appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/11/qa-the-one-with-the-sso-implementation-in-camunda/",
           "publishedOn": "2021-11-18T14:30:00.000Z",
-          "wordCount": 2503,
+          "wordCount": 2489,
           "title": "Q&A: The One with the SSO Implementation in Camunda"
-        },
-        {
-          "id": "https://camunda.com/?p=36771",
-          "author": "Christian Connors",
-          "description": "Dig into how Intuit used workflow automation to manage 396 transactions per second during its most demanding months.\nThe post How Intuit Managed 19M Processes During Peak Tax, Accounting Seasons appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2021/11/how-intuit-managed-19m-processes-during-peak-tax-accounting-seasons/",
-          "publishedOn": "2021-11-16T14:00:00.000Z",
-          "wordCount": 1840,
-          "title": "How Intuit Managed 19M Processes During Peak Tax, Accounting Seasons"
         }
       ]
     },
@@ -1022,6 +1040,15 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/2021-12-15-a-brief-history-of-code-search-at-github/",
+          "author": null,
+          "description": "This blog post tells the story of why we built a new search engine optimized for code.",
+          "link": "https://github.blog/2021-12-15-a-brief-history-of-code-search-at-github/",
+          "publishedOn": "2021-12-15T18:35:29.000Z",
+          "wordCount": 3094,
+          "title": "A brief history of code search at GitHub"
+        },
+        {
           "id": "https://github.blog/2021-12-14-using-githubs-security-features-identify-log4j-exposure-codebase/",
           "author": null,
           "description": "Use GitHub’s security features to assess Apache Log4j exposure and, where possible, mitigate this vulnerability within your GitHub repositories.",
@@ -1054,7 +1081,7 @@
           "description": "We shipped a ton of updates in November, from the push notification for PR review activities on the go, to an easy way to create Markdown links.",
           "link": "https://github.blog/2021-12-13-whats-new-from-github-changelog-november-2021-recap/",
           "publishedOn": "2021-12-13T17:45:31.000Z",
-          "wordCount": 1610,
+          "wordCount": 1606,
           "title": "What’s new from GitHub Changelog? November 2021 recap"
         },
         {
@@ -1072,7 +1099,7 @@
           "description": "Precise code navigation is powered by stack graphs, a new open source framework that lets you define the name binding rules for a programming language.",
           "link": "https://github.blog/2021-12-09-introducing-stack-graphs/",
           "publishedOn": "2021-12-09T17:00:40.000Z",
-          "wordCount": 2688,
+          "wordCount": 2687,
           "title": "Introducing stack graphs"
         },
         {
@@ -1081,7 +1108,7 @@
           "description": "Code navigation is now available in PRs, and code navigation results for Python are now more precise.",
           "link": "https://github.blog/2021-12-09-precise-code-navigation-python-code-navigation-pull-requests/",
           "publishedOn": "2021-12-09T17:00:28.000Z",
-          "wordCount": 599,
+          "wordCount": 595,
           "title": "Precise code navigation for Python, and code navigation in pull requests"
         },
         {
@@ -1090,7 +1117,7 @@
           "description": "Today, we are rolling out a technology preview for GitHub code search, the next iteration for search, discovery, and navigation on GitHub.",
           "link": "https://github.blog/2021-12-08-improving-github-code-search/",
           "publishedOn": "2021-12-08T17:00:01.000Z",
-          "wordCount": 919,
+          "wordCount": 916,
           "title": "Improving GitHub code search"
         },
         {
@@ -1099,17 +1126,8 @@
           "description": "GitHub Enterprise Server is now generally available for all customers. This release improves performance for CI/CD and for customers with large repositories.",
           "link": "https://github.blog/2021-12-07-github-enterprise-server-3-3-is-generally-available/",
           "publishedOn": "2021-12-08T01:04:26.000Z",
-          "wordCount": 553,
+          "wordCount": 552,
           "title": "GitHub Enterprise Server 3.3 is generally available"
-        },
-        {
-          "id": "https://github.blog/2021-12-07-enrolling-npm-publishers-enhanced-login-verification-two-factor-authentication-enforcement/",
-          "author": null,
-          "description": "Today we're introducing enhanced login verification to the npm registry, and we will begin a staged rollout to maintainers beginning Dec 7.",
-          "link": "https://github.blog/2021-12-07-enrolling-npm-publishers-enhanced-login-verification-two-factor-authentication-enforcement/",
-          "publishedOn": "2021-12-07T17:00:09.000Z",
-          "wordCount": 791,
-          "title": "Enrolling all npm publishers in enhanced login verification and next steps for two-factor authentication enforcement"
         }
       ]
     },
@@ -1130,17 +1148,8 @@
           "description": "Project by Netflix’s Cloud Infrastructure Security team (Alex Bainbridge, Mike Grima, Nick Siow)",
           "link": "https://netflixtechblog.com/snaring-the-bad-folks-66726a1f4c80?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-12-08T17:38:41.000Z",
-          "wordCount": 1690,
+          "wordCount": 1691,
           "title": "Snaring the Bad Folks"
-        },
-        {
-          "id": "https://medium.com/p/8705834e6fd8",
-          "author": "Netflix Technology Blog",
-          "description": "Martin Tingley with Wenjing Zheng, Simon Ejdemyr, Stephanie Lane, Michael Lindon, and Colin McFarland",
-          "link": "https://netflixtechblog.com/building-confidence-in-a-decision-8705834e6fd8?source=rss----2615bd06b42e---4",
-          "publishedOn": "2021-11-15T16:20:05.000Z",
-          "wordCount": 2426,
-          "title": "Building confidence in a decision"
         }
       ]
     },
@@ -1149,6 +1158,15 @@
       "feedUrl": "http://feeds.feedburner.com/blogspot/gJZg",
       "siteUrl": "http://ai.googleblog.com/",
       "articles": [
+        {
+          "id": "http://ai.googleblog.com/2021/12/training-machine-learning-models-more.html",
+          "author": null,
+          "description": "Posted by Timothy Nguyen1, Research Engineer and Jaehoon Lee, Senior Research Scientist, Google Research  \nFor a machine learning (ML) algorithm to be effective, useful features must be extracted from (often) large amounts of training data. However, this process can be made challenging due to the costs associated with training on such large datasets, both in terms of compute requirements and wall clock time. The idea of distillation plays an important role in these situations by reducing the resources required for the model to be effective. The most widely known form of distillation is model distillation (a.k.a. knowledge distillation), where the predictions of large, complex teacher models are distilled into smaller models.  \n An alternative option to this model-space approach is dataset …",
+          "link": "http://ai.googleblog.com/2021/12/training-machine-learning-models-more.html",
+          "publishedOn": "2021-12-15T19:26:00.000Z",
+          "wordCount": 2651,
+          "title": "Training Machine Learning Models More Efficiently with Dataset Distillation"
+        },
         {
           "id": "http://ai.googleblog.com/2021/12/interpretable-deep-learning-for-time.html",
           "author": null,
@@ -1170,10 +1188,10 @@
         {
           "id": "http://ai.googleblog.com/2021/12/more-efficient-in-context-learning-with.html",
           "author": null,
-          "description": "Posted by Andrew M Dai and Nan Du, Research Scientists, Google Research, Brain Team  \nLarge language models (e.g., GPT-3) have many significant capabilities, such as performing few-shot learning across a wide array of tasks, including reading comprehension and question answering with very few or no training examples. While these models can perform better by simply using more parameters, training and serving these large models can be very computationally intensive. Is it possible to train and use these models more efficiently? \n  \nIn pursuit of that question, today we introduce the Generalist Language Model (GLaM), a trillion weight model that can be trained and served efficiently (in terms of computation and energy use) thanks to sparsity, and achieves competitive performance on multiple f…",
+          "description": "Posted by Andrew M Dai and Nan Du, Research Scientists, Google Research, Brain Team  \nLarge language models (e.g., GPT-3) have many significant capabilities, such as performing few-shot learning across a wide array of tasks, including reading comprehension and question answering with very few or no training examples. While these models can perform better by simply using more parameters, training and serving these large models can be very computationally intensive. Is it possible to train and use these models more efficiently? \n  \nIn “GLaM: Efficient Scaling of Language Models with Mixture-of-Experts”, we introduce the Generalist Language Model (GLaM), a trillion weight model that can be trained and served efficiently (in terms of computation and energy use) thanks to sparsity, and achieves…",
           "link": "http://ai.googleblog.com/2021/12/more-efficient-in-context-learning-with.html",
-          "publishedOn": "2021-12-09T20:22:00.003Z",
-          "wordCount": 2592,
+          "publishedOn": "2021-12-09T20:22:00.004Z",
+          "wordCount": 2596,
           "title": "More Efficient In-Context Learning with GLaM"
         },
         {
@@ -1274,15 +1292,6 @@
           "publishedOn": "2021-11-17T18:32:00.001Z",
           "wordCount": 2628,
           "title": "RLiable: Towards Reliable Evaluation & Reporting in Reinforcement Learning"
-        },
-        {
-          "id": "http://ai.googleblog.com/2021/11/metnet-2-deep-learning-for-12-hour.html",
-          "author": null,
-          "description": "Posted by Nal Kalchbrenner and Lasse Espeholt, Google Research  \nDeep learning has successfully been applied to a wide range of important challenges, such as cancer prevention and increasing accessibility. The application of deep learning models to weather forecasts can be relevant to people on a day-to-day basis, from helping people plan their day to managing food production, transportation systems, or the energy grid. Weather forecasts typically rely on traditional physics-based techniques powered by the world’s largest supercomputers. Such methods are constrained by high computational requirements and are sensitive to approximations of the physical laws on which they are based.  \n Deep learning offers a new approach to computing forecasts. Rather than incorporating explicit physical law…",
-          "link": "http://ai.googleblog.com/2021/11/metnet-2-deep-learning-for-12-hour.html",
-          "publishedOn": "2021-11-15T21:56:00.001Z",
-          "wordCount": 2293,
-          "title": "MetNet-2: Deep Learning for 12-Hour Precipitation Forecasting"
         }
       ]
     }

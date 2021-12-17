@@ -6,6 +6,42 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/12/16/spring-framework-6-0-m1-released",
+          "author": null,
+          "description": "Dear Spring community,\n\r\nIt is my pleasure to announce that the first Spring Framework 6.0 milestone release is available from htts://repo.spring.io/milestone now. This initial milestone covers our baseline upgrade efforts, in particular requiring JDK 17+ and migrating to the Jakarta EE 9 APIs; see my recent baseline blog post for the rationale. At the same time, it removes many long-deprecated classes, including several support packages for outdated third-party infrastructure.\n\r\nFor current upgrade notes, please refer to our Upgrading to Spring Framework 6.0 page which we will keep updating. Follow our main branch on GitHub for the latest changes, as we prepare for 6.0 M2 and the corresponding Spring Boot 3.0 M1 release in January. At that point, you will also be able to consume Spring Framework 6.0 through https://start.spring.io/. For the time being, feel free to grab 6.0 M1 from https://repo.spring.io/ and let us know how it goes.\n\r\nCheers,\nJuergen",
+          "link": "https://spring.io/blog/2021/12/16/spring-framework-6-0-m1-released",
+          "publishedOn": "2021-12-16T16:00:32.000Z",
+          "wordCount": 524,
+          "title": "Spring Framework 6.0 M1 released"
+        },
+        {
+          "id": "https://spring.io/blog/2021/12/16/spring-framework-5-3-14-and-5-2-19-available-now",
+          "author": null,
+          "description": "On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework 5.3.14 and 5.2.19 are available now.\n\r\nSpring Framework 5.3.14 includes 36 fixes and improvements. Spring Framework 5.2.19 includes 11 selected fixes and improvements.\n\r\nStay tuned for the announcement of Spring Framework 6.0.0-M1 later today!\n\r\nProject Page | GitHub | Issues | Documentation",
+          "link": "https://spring.io/blog/2021/12/16/spring-framework-5-3-14-and-5-2-19-available-now",
+          "publishedOn": "2021-12-16T10:05:53.000Z",
+          "wordCount": 439,
+          "title": "Spring Framework 5.3.14 and 5.2.19 available now"
+        },
+        {
+          "id": "https://spring.io/blog/2021/12/16/spring-cloud-2020-0-5-ilford-has-been-released",
+          "author": null,
+          "description": "On behalf of the community, I am pleased to announce that the General Availability (RELEASE) of the Spring Cloud 2020.0.5 Release Train is available today. The release can be found in Maven Central. You can check out the 2020.0.5 release notes for more information.\nNotable Changes in the 2020.0.5 Release Train\nSpring Cloud Netflix\n\r\n\r\n  \nUpgraded Netflix/Eureka to 1.10.17 issue\n\r\n\nSpring Cloud Config\n\r\n\r\n  \nSupport Using HTTPS proxies for Git Repositories (1965)\n\r\n  \nSupport ordering AWS, Redis, and CredHub Repositories (1980)\n\r\n\nSpring Cloud Gateway\n\r\n\r\n  \nEnhancements for metrics: Netty connections, path as tag, and route definition count\n\r\n\nSpring Cloud Kubernetes\n\r\n\r\n  \nSpecify User Agent for Kubernetes API Client (898)\n\r\n  \nAllow activeProfile not to be appended (508)\n\r\n  \nUpgrade to …",
+          "link": "https://spring.io/blog/2021/12/16/spring-cloud-2020-0-5-ilford-has-been-released",
+          "publishedOn": "2021-12-16T08:00:00.000Z",
+          "wordCount": 695,
+          "title": "Spring Cloud 2020.0.5 (Ilford) Has Been Released"
+        },
+        {
+          "id": "https://spring.io/blog/2021/12/15/spring-tips-controllers-and-graphql",
+          "author": null,
+          "description": "Hi, Spring fans! In this installment, we continue our tour of all things @Controller by looking at the nascent Spring GraphQL project",
+          "link": "https://spring.io/blog/2021/12/15/spring-tips-controllers-and-graphql",
+          "publishedOn": "2021-12-16T04:00:00.000Z",
+          "wordCount": 397,
+          "title": "Spring Tips: @Controllers and GraphQL"
+        },
+        {
           "id": "https://spring.io/blog/2021/12/14/this-week-in-spring-december-14th-2021",
           "author": null,
           "description": "Hi, Spring fans! How are you? Welcome to another installment of This Week in Spring! I’m doing alright! It’s noon as I write this, and I’ve got GSUG joint presentation with Matt Raible later today. Then, tonight at midnight my time to 5 am or 6 am, I’m kicking off a two-day workshop for GOTO! I look forward to seeing ya there! Anyway, we’ve got a lot to cover so let’s dive into it! \n\r\n\r\n  \nRead this first! If you’ve been living under a rock, you may not have heard of the recent Log4J2 vulnerability. If you’re using the default, out-of-the-box Spring Boot logging support, then this does not apply to you! But, if you are using Log4j2, specifically, then you need to read this post on Log4j2 and Spring Boot!\n\r\n  \nBruno Borges tweets this very simple workaround for those of you who are using Lo…",
@@ -148,42 +184,6 @@
           "publishedOn": "2021-12-01T14:00:00.000Z",
           "wordCount": 464,
           "title": "Spring Authorization Server 0.2.1 available now"
-        },
-        {
-          "id": "https://spring.io/blog/2021/12/01/spring-tips-controllers-and-rsocket",
-          "author": null,
-          "description": "Hi, Spring fans! In this installment of Spring Tips (@SpringTipsLive), we continue our tour of all things @Controller, this time focusing on the Spring support for RSocket. You might also want to watch the expanded discussion of RSocket in earlier Spring Tips  videos: \n\r\n\r\n  \nThe RSocket Revolution - watch this next!\n\r\n  \nRaw RSocket support\n\r\n  \nRSocket Messaging and the @Controller component model\n\r\n  \nRSocket and Spring Security\n\r\n  \nSpring Retrosocket",
-          "link": "https://spring.io/blog/2021/12/01/spring-tips-controllers-and-rsocket",
-          "publishedOn": "2021-12-01T08:00:00.000Z",
-          "wordCount": 441,
-          "title": "Spring Tips: @Controllers and RSocket"
-        },
-        {
-          "id": "https://spring.io/blog/2021/11/30/this-week-in-spring-november-30th-2021",
-          "author": null,
-          "description": "Hi, Spring fans! Welcome to another installment of This Week in Spring! This last week’s been nutty! Here in the US, we just celebrated the Thanksgiving holiday, and I am fat with turkey and pie, and lazy. But happy. I hope you’re well fed and happy, too. Time’s flying. (Also: can you believe we’re a month away from the new year? I think there’s like four or five weeks (and thus _This Week in Spring_s!) left in the year!) \n\r\nWe’ve got a ton of stuff to get into this week, so let’s go:\n\r\n\r\n  \nSecurity Report for Spring AMQP (Spring for RabbitMQ)\n\r\n  \nSpring Boot 2.6.1 is now available\n\r\n  \nSpring Data MongoDB - Relation Modelling\n\r\n  \nThymeleaf 3.0.13 now available! This new version includes security improvements, make sure to check the release notes\n\r\n  \nIn last week’s installmetn of A Bootiful Podcast, I talked about reactive-systems with functional programming legend Debasish Ghosh\n\r\n  \nThe Apache Cassandra project is working hard to officially support JDK 17 in the next Apache Cassandra major release.\n\r\n  \nI love to see how far the JVM has come. One great indicator of its progress: its garbage collector. Check out this post on garbage collection progress from JDK 8 to JDK 17\n\r\n  \nThis is so cool! There’s now an Oracle Database Kubernetes Operator\n\r\n  \nJEP 420: Pattern Matching for switch (Second Preview)\n\r\n  \nJava on Visual Studio Code Update – October 2021\n\r\n  \nFor a lot of folks, the days of using Docker Desktop for free are numbered. You might be interested in this blog on Rancher Desktop - A Docker Desktop Replacement",
-          "link": "https://spring.io/blog/2021/11/30/this-week-in-spring-november-30th-2021",
-          "publishedOn": "2021-11-30T19:00:00.000Z",
-          "wordCount": 639,
-          "title": "This Week in Spring - November 30th, 2021"
-        },
-        {
-          "id": "https://spring.io/blog/2021/11/29/security-report-for-spring-amqp-spring-for-rabbitmq",
-          "author": null,
-          "description": "The recently released versions of Spring AMQP (2.4.0, 2.3.12, 2.2.20) contain a fix for CVE-2021-22095, which can cause a potential OutOfMemoryError for very large messages.\n\r\n\r\n\r\nSpring Boot version 2.6.0 and 2.5.7 will bring in the 2.4.0 and 2.3.12 versions of spring-amqp respectively. Users of Boot 2.4.x should override the spring-amqp and spring-rabbit versions to 2.3.12; users of Spring Boot 2.3.x should override the versions to 2.2.20.",
-          "link": "https://spring.io/blog/2021/11/29/security-report-for-spring-amqp-spring-for-rabbitmq",
-          "publishedOn": "2021-11-29T17:11:25.000Z",
-          "wordCount": 447,
-          "title": "Security Report for Spring AMQP (Spring for RabbitMQ)"
-        },
-        {
-          "id": "https://spring.io/blog/2021/11/29/spring-boot-2-6-1-is-now-available",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 2.6.1 has been released and is now available from Maven Central.\n\r\nThis release includes 11 bug fixes and documentation improvements. Thanks to all those who have contributed with issue reports and pull requests.\nHow can you help?\n\r\nIf you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
-          "link": "https://spring.io/blog/2021/11/29/spring-boot-2-6-1-is-now-available",
-          "publishedOn": "2021-11-29T13:49:03.000Z",
-          "wordCount": 480,
-          "title": "Spring Boot 2.6.1 is now available"
         }
       ]
     },
@@ -192,6 +192,24 @@
       "feedUrl": "https://www.hashicorp.com/blog/feed.xml",
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
+        {
+          "id": "https://www.hashicorp.com/blog/meet-the-hashicorp-partner-hackstravaganza-winners",
+          "author": null,
+          "description": "See the results of HashiCorp’s virtual partner hackathon held in the Asia-Pacific region.",
+          "link": "https://www.hashicorp.com/blog/meet-the-hashicorp-partner-hackstravaganza-winners",
+          "publishedOn": "2021-12-17T00:00:00.000Z",
+          "wordCount": 828,
+          "title": "Meet the HashiCorp Partner Hackstravaganza Winners"
+        },
+        {
+          "id": "https://www.hashicorp.com/blog/announcing-hashicorp-consul-1-11",
+          "author": null,
+          "description": "HashiCorp Consul 1.11 adds important new features: multi-tenancy with administrative partitions, new installation-and-management Consul Kubernetes CLI, and Vault integration on Consul Kubernetes.",
+          "link": "https://www.hashicorp.com/blog/announcing-hashicorp-consul-1-11",
+          "publishedOn": "2021-12-16T17:00:00.000Z",
+          "wordCount": 1376,
+          "title": "Announcing HashiCorp Consul 1.11 - Now Generally Available"
+        },
         {
           "id": "https://www.hashicorp.com/blog/deploying-helm-apps-to-kubernetes-with-waypoint-and-gitops",
           "author": null,
@@ -207,7 +225,7 @@
           "description": "The Google Cloud Terraform provider now supports deployment of GKE Autopilot clusters. Learn how to use the new feature with a short example.",
           "link": "https://www.hashicorp.com/blog/terraform-adds-support-for-gke-autopilot",
           "publishedOn": "2021-12-14T17:00:00.000Z",
-          "wordCount": 1455,
+          "wordCount": 1431,
           "title": "Terraform Adds Support for GKE Autopilot"
         },
         {
@@ -216,7 +234,7 @@
           "description": "As we officially enter the public markets, we plan to continue to do what we think we do best: solving problems for our end users.",
           "link": "https://www.hashicorp.com/blog/a-new-chapter-for-hashicorp",
           "publishedOn": "2021-12-09T18:00:00.000Z",
-          "wordCount": 1101,
+          "wordCount": 1093,
           "title": "A New Chapter for HashiCorp"
         },
         {
@@ -225,7 +243,7 @@
           "description": "Now generally available, HashiCorp Terraform 1.1 offers easier and safer refactoring with ‘moved’ statements and improves the CLI for Terraform Cloud and Enterprise.",
           "link": "https://www.hashicorp.com/blog/terraform-1-1-improves-refactoring-and-the-cloud-cli-experience",
           "publishedOn": "2021-12-08T21:00:00.000Z",
-          "wordCount": 1545,
+          "wordCount": 1521,
           "title": "Terraform 1.1 Improves Refactoring and the Cloud CLI Experience"
         },
         {
@@ -234,7 +252,7 @@
           "description": "Find providers in HashiCorp Terraform Cloud to help quickly spin up Kubernetes containers in Microsoft’s Azure Kubernetes Service.",
           "link": "https://www.hashicorp.com/blog/build-a-quick-aks-cluster-the-easy-way-with-terraform-cloud",
           "publishedOn": "2021-12-07T21:00:00.000Z",
-          "wordCount": 2107,
+          "wordCount": 2083,
           "title": "Build a Quick AKS Cluster the Easy Way with Terraform Cloud"
         },
         {
@@ -243,7 +261,7 @@
           "description": "A pair of new HCP Vault verified integrations and ten new self-managed HashiCorp Vault integrations add to the existing list of more than 100 partner Vault integrations.",
           "link": "https://www.hashicorp.com/blog/confluent-jfrog-servicenow-integrations-highlight-additions-vault-ecosystem",
           "publishedOn": "2021-12-06T17:00:00.000Z",
-          "wordCount": 1169,
+          "wordCount": 1156,
           "title": "Confluent, JFrog, and ServiceNow Integrations Highlight Additions to the Vault Ecosystem"
         },
         {
@@ -252,7 +270,7 @@
           "description": "AWS Control Tower Account Factory for HashiCorp Terraform (AFT), the evolution of Terraform Landing Zones, offers an easy way to set up and govern a secure, multi-account AWS environment.",
           "link": "https://www.hashicorp.com/blog/hashicorp-teams-with-aws-on-new-control-tower-account-factory-for-terraform",
           "publishedOn": "2021-11-29T23:45:00.000Z",
-          "wordCount": 929,
+          "wordCount": 917,
           "title": "HashiCorp Teams with AWS on New Control Tower Account Factory for Terraform"
         },
         {
@@ -261,7 +279,7 @@
           "description": "During 2021, HashiCorp and Amazon Web Services have partnered to bring hundreds of new services and features to the Terraform providers for AWS and AWS Cloud Control.",
           "link": "https://www.hashicorp.com/blog/terraform-aws-provider-continues-to-expand-coverage",
           "publishedOn": "2021-11-29T17:00:00.000Z",
-          "wordCount": 919,
+          "wordCount": 907,
           "title": "Terraform AWS Provider Continues to Expand Coverage"
         },
         {
@@ -270,7 +288,7 @@
           "description": "Visit us at AWS re:Invent 2021 in Las Vegas, Nov. 29 - Dec. 3 for breakout sessions, expert talks, and product demos to accelerate your cloud strategy.",
           "link": "https://www.hashicorp.com/blog/hashicorp-at-aws-re-invent-breakouts-experts-demos-and-more",
           "publishedOn": "2021-11-23T17:00:00.000Z",
-          "wordCount": 1235,
+          "wordCount": 1227,
           "title": "HashiCorp at AWS re:Invent: Breakouts, Experts, Demos, and More"
         },
         {
@@ -288,7 +306,7 @@
           "description": "We welcome 17 new verified providers to the growing HashiCorp Terraform ecosystem.",
           "link": "https://www.hashicorp.com/blog/pagerduty-palo-alto-networks-and-splunk-among-new-verified-terraform-providers",
           "publishedOn": "2021-11-18T18:00:00.000Z",
-          "wordCount": 1111,
+          "wordCount": 1099,
           "title": "PagerDuty, Palo Alto Networks, and Splunk Among New Verified Terraform Providers"
         },
         {
@@ -297,7 +315,7 @@
           "description": "Vault 1.9 can act as an OIDC provider, includes general availability of a key management secrets engine for Google Cloud, and updates to Transform, Namespaces, and the UI.",
           "link": "https://www.hashicorp.com/blog/vault-1-9",
           "publishedOn": "2021-11-17T17:00:00.000Z",
-          "wordCount": 1705,
+          "wordCount": 1692,
           "title": "Announcing HashiCorp Vault 1.9"
         },
         {
@@ -306,17 +324,8 @@
           "description": "HashiCorp Consul service mesh on Amazon ECS is now generally available and ready for production environments.",
           "link": "https://www.hashicorp.com/blog/consul-service-mesh-on-amazon-ecs-now-generally-available",
           "publishedOn": "2021-11-17T17:00:00.000Z",
-          "wordCount": 798,
+          "wordCount": 786,
           "title": "Consul Service Mesh on Amazon ECS Now Generally Available"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/announcing-hashicorp-nomad-1-2",
-          "author": null,
-          "description": "Nomad 1.2 introduces Nomad Pack, which simplifies application deployment and lifecycle management on Nomad.",
-          "link": "https://www.hashicorp.com/blog/announcing-hashicorp-nomad-1-2",
-          "publishedOn": "2021-11-16T18:00:00.000Z",
-          "wordCount": 1539,
-          "title": "Announcing General Availability of HashiCorp Nomad 1.2"
         }
       ]
     },
@@ -326,13 +335,67 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
+          "id": "https://www.elastic.co/blog/use-cross-cluster-search-elastic-cloud-observability",
+          "author": "Neil Brookes",
+          "description": "Elastic’s SRE team has used features and functionality from Elastic Cloud to build and deploy a global observability solution that allows vital visibility into the logs, metrics and traces that are collected across our globally distributed platform.",
+          "link": "https://www.elastic.co/blog/use-cross-cluster-search-elastic-cloud-observability",
+          "publishedOn": "2021-12-16T17:00:00.000Z",
+          "wordCount": 1261,
+          "title": "Use Cross Cluster Search with Elastic Cloud to improve observability"
+        },
+        {
+          "id": "https://www.elastic.co/blog/use-cross-cluster-search-elastic-cloud-observability",
+          "author": "Neil Brookes",
+          "description": ",\nLeveraging various tools and pieces of functionality, this blog describes how we have built a scalable cross-region and cross-provider Single Pane of Glass (SPOG) using cross-cluster search (CCS).\nThis blog will be useful if your Observability data is distributed across deployments, if you have multiple points of entry to view and analyze your data, and if you find yourself hopping from one Kibana instance to another to find the answers you’re looking for.\nSupporting customers across multiple providers and regions means we collect and observe data within each region. Technically, we operate each region in a largely stand-alone fashion. Logs, metrics and trace data collected within that region will remain in that region. While this provides the benefits of isolation and security, it can b…",
+          "link": "https://www.elastic.co/blog/use-cross-cluster-search-elastic-cloud-observability",
+          "publishedOn": "2021-12-16T17:00:00.000Z",
+          "wordCount": 1261,
+          "title": "Use Cross Cluster Search with Elastic Cloud to improve observability"
+        },
+        {
+          "id": "https://www.elastic.co/blog/upskilling-reskilling-it-key-strategies-success",
+          "author": "Howard Rabinowitz",
+          "description": "The IT talent gap shortage requires CIOs to make savvy investments in upskilling and reskilling. Here are the 4 key strategies IT practitioners recommend.",
+          "link": "https://www.elastic.co/blog/upskilling-reskilling-it-key-strategies-success",
+          "publishedOn": "2021-12-16T14:00:00.000Z",
+          "wordCount": 977,
+          "title": "Advice for CIOs from the IT frontlines: Design training programs for higher impact and retention"
+        },
+        {
+          "id": "https://www.elastic.co/blog/upskilling-reskilling-it-key-strategies-success",
+          "author": "Howard Rabinowitz",
+          "description": ",\nThe shortage of tech skills worsened during the pandemic, and the battle to hire and retain top IT talent is only getting more challenging. To close the IT talent gap, more CIOs are looking to expand the skills of their current workforce, according to a recent McKinsey Global Survey.\nBut effective upskilling and reskilling isn’t simply a matter of paying for IT practitioners to earn certifications in the latest technology. Leaders must decide what options align best with business objectives, specific skills gaps, and rapidly changing learning styles of knowledge workers.\nTo get a front-line perspective on these issues, we interviewed a group of seasoned IT pros for their insights into how enterprise leaders should approach employee training and reskilling challenges. Here are highlights …",
+          "link": "https://www.elastic.co/blog/upskilling-reskilling-it-key-strategies-success",
+          "publishedOn": "2021-12-16T14:00:00.000Z",
+          "wordCount": 977,
+          "title": "Advice for CIOs from the IT frontlines: Design training programs for higher impact and retention"
+        },
+        {
+          "id": "https://www.elastic.co/blog/how-observability-drives-better-customer-experiences",
+          "author": "David Rand",
+          "description": "New software tools can help CIOs identify, fix, and prevent service-impacting glitches in real time.",
+          "link": "https://www.elastic.co/blog/how-observability-drives-better-customer-experiences",
+          "publishedOn": "2021-12-16T07:00:00.000Z",
+          "wordCount": 989,
+          "title": "How observability drives better customer experiences"
+        },
+        {
+          "id": "https://www.elastic.co/blog/how-observability-drives-better-customer-experiences",
+          "author": "David Rand",
+          "description": ",\nAs marketing director of technology for Stanley Black & Decker, it’s no surprise that Colleen Romero is into power tools. But her favorite utility isn’t a jigsaw or cordless drill.\nIt’s observability technology.\nObservability—software that integrates data from various departments and applications —makes it possible to monitor how customers experience the performance of the 350 websites that Romero oversees. On her watch, the tools have spotted some problems before customers notice. \n“We no longer have customers calling us to say our websites are down,” says Romero. “Observability tools let us spot any degradation of performance and identify the root cause so we can address it proactively.”\nObservability enables businesses and IT teams to trace customer issues back to an offending applica…",
+          "link": "https://www.elastic.co/blog/how-observability-drives-better-customer-experiences",
+          "publishedOn": "2021-12-16T07:00:00.000Z",
+          "wordCount": 989,
+          "title": "How observability drives better customer experiences"
+        },
+        {
           "id": "https://www.elastic.co/blog/analysis-of-log4shell-cve-2021-45046",
           "author": "Jake King",
-          "description": "",
+          "description": "In this post, we cover next steps the Elastic Security team is taking for users to continue to protect themselves against CVE-2021-44228, or Log4Shell.",
           "link": "https://www.elastic.co/blog/analysis-of-log4shell-cve-2021-45046",
           "publishedOn": "2021-12-15T18:00:00.000Z",
-          "wordCount": null,
-          "title": "Analysis of Log4Shell vulnerability CVE-2021-45046"
+          "wordCount": 867,
+          "title": "Analysis of Log4Shell vulnerability & CVE-2021-45046"
         },
         {
           "id": "https://www.elastic.co/blog/analysis-of-log4shell-cve-2021-45046",
@@ -340,8 +403,8 @@
           "description": ",\nIn recent days Log4Shell, or CVE-2021-44228, has dominated the news cycle in the world of information security and beyond. Elastic released an advisory detailing how Elastic products and users are impacted, and a blog post describing how our users can leverage Elastic Security to help defend their networks.\nMany readers have further questions as to how we’re tracking this issue within Elastic Security, what our coverage is now, and what we’re expecting to do next. This post outlines a few details for our current status, and provides details regarding a new, related vulnerability: CVE-2021-45046.\nElastic Security response\nAs you may imagine, the team has worked tirelessly to ensure that we’re developing detections for both active exploitation of the vulnerability, as well as post-compromi…",
           "link": "https://www.elastic.co/blog/analysis-of-log4shell-cve-2021-45046",
           "publishedOn": "2021-12-15T18:00:00.000Z",
-          "wordCount": null,
-          "title": "Analysis of Log4Shell vulnerability CVE-2021-45046"
+          "wordCount": 867,
+          "title": "Analysis of Log4Shell vulnerability & CVE-2021-45046"
         },
         {
           "id": "https://www.elastic.co/blog/cios-are-changing-who-is-responsible-for-cybersecurity-devsecops-observability-securitytools",
@@ -404,7 +467,7 @@
           "link": "https://www.elastic.co/blog/detecting-log4j2-with-elastic-security",
           "publishedOn": "2021-12-10T15:00:00.000Z",
           "wordCount": 944,
-          "title": "Detecting Exploitation of CVE-2021-44228 (log4j2) with Elastic Security"
+          "title": "Detecting Exploitation of CVE-2021-44228 (Log4j2) with Elastic Security"
         },
         {
           "id": "https://www.elastic.co/blog/detecting-log4j2-with-elastic-security",
@@ -413,7 +476,7 @@
           "link": "https://www.elastic.co/blog/detecting-log4j2-with-elastic-security",
           "publishedOn": "2021-12-10T15:00:00.000Z",
           "wordCount": 944,
-          "title": "Detecting Exploitation of CVE-2021-44228 (log4j2) with Elastic Security"
+          "title": "Detecting Exploitation of CVE-2021-44228 (Log4j2) with Elastic Security"
         },
         {
           "id": "https://www.elastic.co/blog/elastic-security-recognized-customers-choice-gartner-peer-insights-report",
@@ -450,60 +513,6 @@
           "publishedOn": "2021-12-09T17:00:00.000Z",
           "wordCount": 1021,
           "title": "How Elastic can help banks compete in the booming payments industry"
-        },
-        {
-          "id": "https://www.elastic.co/blog/why-usgovernment-scaling-cybervisibility-elastic-cdm-cybersecurity-analyze-data",
-          "author": "John Harmon",
-          "description": "The Continuous Diagnostics and Mitigation (CDM) program has evolved from a cyber-hygiene initiative to a proactive response toolkit powered by the CDM Dashboard. Learn how it enables civilian agencies to analyze cyber risk at speed & scale.",
-          "link": "https://www.elastic.co/blog/why-usgovernment-scaling-cybervisibility-elastic-cdm-cybersecurity-analyze-data",
-          "publishedOn": "2021-12-08T18:00:00.000Z",
-          "wordCount": 870,
-          "title": "Why the U.S. Government is scaling their cyber visibility practices with Elastic"
-        },
-        {
-          "id": "https://www.elastic.co/blog/why-usgovernment-scaling-cybervisibility-elastic-cdm-cybersecurity-analyze-data",
-          "author": "John Harmon",
-          "description": ",\nAmid a  growing network of endpoints to support telework and cloud-based applications, US federal civilian agencies are protecting government resilience and resources with a new Continuous Diagnostics and Mitigation Dashboard (CDM Dashboard) built on the Elastic search platform.\nAt a recent MeriTalk Cyber Central: Defenders Unite event, participants learned about how Elastic, in partnership with ECS, enables security operations center (SOC) teams with cyber visibility at speed and scale.\nHistorically, the CDM Dashboard was used by civilian agency cyber executives to get a read on cyber-hygiene compliance. Today, the dashboard enables civilian agency SOC teams to view massive amounts of data from disparate systems, query data where it resides, and share vulnerability and mitigation insigh…",
-          "link": "https://www.elastic.co/blog/why-usgovernment-scaling-cybervisibility-elastic-cdm-cybersecurity-analyze-data",
-          "publishedOn": "2021-12-08T18:00:00.000Z",
-          "wordCount": 870,
-          "title": "Why the U.S. Government is scaling their cyber visibility practices with Elastic"
-        },
-        {
-          "id": "https://www.elastic.co/blog/whats-new-elastic-7-16-0",
-          "author": "Dan Courcy",
-          "description": "With the general availability of new Elastic Agent integrations and deeper integration with ServiceNow ITSM, ITOM, and SecOps, Elastic 7.16 extends visibility into complex cloud-native services and streamlines workflows to drive results that matter.",
-          "link": "https://www.elastic.co/blog/whats-new-elastic-7-16-0",
-          "publishedOn": "2021-12-07T16:00:10.000Z",
-          "wordCount": 1140,
-          "title": "Elastic 7.16: Streamlined data integrations drive results that matter"
-        },
-        {
-          "id": "https://www.elastic.co/blog/whats-new-elastic-7-16-0",
-          "author": "Dan Courcy",
-          "description": ",\nWe are pleased to announce the general availability of Elastic 7.16, a release that brings a broad set of new capabilities to the Elastic Search Platform (including Elasticsearch and Kibana) and its three built-in solutions — Elastic Enterprise Search, Elastic Observability, and Elastic Security.\nElastic 7.16 streamlines the process of getting any type of data, from any source, into the Elastic Search Platform. The release extends visibility into complex and distributed cloud-native services with dozens of prebuilt Elastic Agent data integrations, observability tooling for continuous integration and continuous delivery (CI/CD) pipelines, two newly certified ServiceNow applications, and native data integration between Amazon Web Services (AWS) and Elastic Cloud.\nIn addition, the unified u…",
-          "link": "https://www.elastic.co/blog/whats-new-elastic-7-16-0",
-          "publishedOn": "2021-12-07T16:00:10.000Z",
-          "wordCount": 1140,
-          "title": "Elastic 7.16: Streamlined data integrations drive results that matter"
-        },
-        {
-          "id": "https://www.elastic.co/blog/whats-new-elastic-enterprise-search-7-16-0",
-          "author": "Darren Meiss",
-          "description": "Highlights for Elastic Enterprise Search 7.16 include adaptive relevance for curated content suggestions, based on collected analytics, i.e., what your users have been searching for, plus, a unified Enterprise Search management interface within Kibana.",
-          "link": "https://www.elastic.co/blog/whats-new-elastic-enterprise-search-7-16-0",
-          "publishedOn": "2021-12-07T16:00:05.000Z",
-          "wordCount": 639,
-          "title": "Elastic Enterprise Search 7.16: Adaptive relevance and Kibana UI"
-        },
-        {
-          "id": "https://www.elastic.co/blog/whats-new-elastic-enterprise-search-7-16-0",
-          "author": "Darren Meiss",
-          "description": ",\nThe 7.16 release of Elastic Enterprise Search features curations powered by adaptive relevance, the general availability (GA) of the unified management interface in Kibana, and a Google Cloud Firestore extension. These new features, plus a host of others, give users more power and flexibility than ever to create, tune, and manage their search experience:\n\nGet automatic recommendations for suggested results based on what real users are searching for\nEnjoy a single interface to manage search experiences, right next to all of the other tools inside Kibana\nUse the new Google Cloud Firestore extension to build premium search experiences with Elastic App Search\nTake advantage of more detailed performance monitoring, additional authentication mechanisms, and new API endpoints\n,\nElastic Enterpri…",
-          "link": "https://www.elastic.co/blog/whats-new-elastic-enterprise-search-7-16-0",
-          "publishedOn": "2021-12-07T16:00:05.000Z",
-          "wordCount": 639,
-          "title": "Elastic Enterprise Search 7.16: Adaptive relevance and Kibana UI"
         }
       ]
     },
@@ -512,6 +521,15 @@
       "feedUrl": "https://www.ansible.com/blog/rss.xml",
       "siteUrl": "https://www.ansible.com/blog",
       "articles": [
+        {
+          "id": "https://www.ansible.com/blog/whats-new-network-automation-using-red-hat-ansible-automation-platform-2.1",
+          "author": "Dafné Mendoza",
+          "description": "A financial customer explained his first automation priority in the most visual and understandable way: “I want to paint all of my network devices with the color of the company.” What I like about that analogy is that it clearly describes the first rule for automation: customers must define their golden configurations (the color to paint) to be able to automate configurations and later assess compliance, and remediate any issues accordingly. \nA “golden configuration” usually refers to a Day 1 configuration, and covers the minimal settings needed for a network device to be configured after a fresh network operating system installation. This usually includes common services such as NTP, DNS, AAA, Syslog, SNMP, and ACLs for management connectivity.",
+          "link": "https://www.ansible.com/blog/whats-new-network-automation-using-red-hat-ansible-automation-platform-2.1",
+          "publishedOn": "2021-12-16T14:15:00.000Z",
+          "wordCount": 1935,
+          "title": "What's new: network automation using Red Hat Ansible Automation Platform 2.1"
+        },
         {
           "id": "https://www.ansible.com/blog/new-reference-architecture-deploying-red-hat-ansible-automation-platform-2.1",
           "author": "Roger Lopez",
@@ -570,7 +588,7 @@
           "description": "This month, we are releasing fixes that impact our self-hosted product, Azure DevOps Server.\nFix work item macro for queries with “Contains Words”. Previously, queries were returning incorrect results for values that contained a line break.\nThe post December patches for Azure DevOps Server appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/december-patches-for-azure-devops-server/",
           "publishedOn": "2021-12-15T18:37:40.000Z",
-          "wordCount": 1448,
+          "wordCount": 2087,
           "title": "December patches for Azure DevOps Server"
         },
         {
@@ -579,7 +597,7 @@
           "description": "For the most part, Azure DevOps (and Azure DevOps Server) are built on .NET and do not use the Apache log4j library whose vulnerabilities (CVE-2021-44228, CVE-2021-45046, Microsoft security blog post) have been the focus of so much recent attention. The Search feature in both Azure DevOps and Azure DevOps Server does use this library,\nThe post Azure DevOps (and Azure DevOps Server) and the log4j vulnerability appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azure-devops-and-azure-devops-server-and-the-log4j-vulnerability/",
           "publishedOn": "2021-12-15T02:11:40.000Z",
-          "wordCount": 1620,
+          "wordCount": 1750,
           "title": "Azure DevOps (and Azure DevOps Server) and the log4j vulnerability"
         },
         {
@@ -642,7 +660,7 @@
           "description": "The team is excited to release the public preview of the Ux modernization for Azure Boards! The web platform has been updated to provide a faster Ux, consistency with other parts of the product, and accessibility compliance.\nThe post Azure Boards Ux Modernization – Public Preview appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azure-boards-ux-modernization-public-preview/",
           "publishedOn": "2021-11-29T16:41:30.000Z",
-          "wordCount": 2334,
+          "wordCount": 2381,
           "title": "Azure Boards Ux Modernization – Public Preview"
         },
         {
@@ -865,6 +883,15 @@
       "siteUrl": "https://xkcd.com/",
       "articles": [
         {
+          "id": "https://xkcd.com/2555/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/notifications.png\" title=\"It's 10:34 PM for this user. They really need to get going, they have a thing early tomorrow. Are you sure you want to notify?\" alt=\"It's 10:34 PM for this user. They really need to get going, they have a thing early tomorrow. Are you sure you want to notify?\" />",
+          "link": "https://xkcd.com/2555/",
+          "publishedOn": "2021-12-15T00:00:00.000Z",
+          "wordCount": 183,
+          "title": "Notifications"
+        },
+        {
           "id": "https://xkcd.com/2554/",
           "author": null,
           "description": "<img src=\"https://imgs.xkcd.com/comics/gift_exchange.png\" title=\"In addition to having all their budgets in a spreadsheet with consistent formatting, they just love expressing preferences on a well-calibrated numerical scale.\" alt=\"In addition to having all their budgets in a spreadsheet with consistent formatting, they just love expressing preferences on a well-calibrated numerical scale.\" />",
@@ -890,15 +917,6 @@
           "publishedOn": "2021-12-08T00:00:00.000Z",
           "wordCount": 187,
           "title": "The Last Molecule"
-        },
-        {
-          "id": "https://xkcd.com/2551/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/debunking.png\" title=\"Mark Zuckerberg has only neutral feelings toward Peppa Pig, who he understands is a fictional character, and he blames the coronavirus pandemic on other factors.\" alt=\"Mark Zuckerberg has only neutral feelings toward Peppa Pig, who he understands is a fictional character, and he blames the coronavirus pandemic on other factors.\" />",
-          "link": "https://xkcd.com/2551/",
-          "publishedOn": "2021-12-06T00:00:00.000Z",
-          "wordCount": 183,
-          "title": "Debunking"
         }
       ]
     },
@@ -913,7 +931,7 @@
           "description": "Discover why Apendo partnered with Camunda to automate citizen services for several municipalities and counting all over Sweden. \nThe post Building Smarter Cities with Process Automation appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/12/building-smarter-cities-with-process-automation/",
           "publishedOn": "2021-12-15T14:30:00.000Z",
-          "wordCount": 1944,
+          "wordCount": 1943,
           "title": "Building Smarter Cities with Process Automation"
         },
         {
@@ -967,7 +985,7 @@
           "description": "Get details on how solutions built with Camunda enabled Covea to organize data more effectively and create an even-stronger user experience.\nThe post The Secret Behind the IT Transformation of Covéa Insurance appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/12/the-secret-behind-the-it-transformation-of-covea-insurance/",
           "publishedOn": "2021-12-02T14:00:00.000Z",
-          "wordCount": 1823,
+          "wordCount": 1822,
           "title": "The Secret Behind the IT Transformation of Covéa Insurance"
         },
         {
@@ -1040,12 +1058,30 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/2021-12-16-technical-interviews-via-codespaces/",
+          "author": null,
+          "description": "Codespaces is a great tool for technical hiring exercises and helps level the playing field for candidates.",
+          "link": "https://github.blog/2021-12-16-technical-interviews-via-codespaces/",
+          "publishedOn": "2021-12-16T17:59:56.000Z",
+          "wordCount": 1073,
+          "title": "Technical interviews via Codespaces"
+        },
+        {
+          "id": "https://github.blog/2021-12-16-5-automations-every-developer-should-be-running/",
+          "author": null,
+          "description": "Looking to avoid security vulnerabilities, buttons that don’t work, slow site speeds, or manually writing release notes? This one's for you.",
+          "link": "https://github.blog/2021-12-16-5-automations-every-developer-should-be-running/",
+          "publishedOn": "2021-12-16T17:04:20.000Z",
+          "wordCount": 1488,
+          "title": "5 automations every developer should be running"
+        },
+        {
           "id": "https://github.blog/2021-12-15-a-brief-history-of-code-search-at-github/",
           "author": null,
           "description": "This blog post tells the story of why we built a new search engine optimized for code.",
           "link": "https://github.blog/2021-12-15-a-brief-history-of-code-search-at-github/",
           "publishedOn": "2021-12-15T18:35:29.000Z",
-          "wordCount": 3094,
+          "wordCount": 3087,
           "title": "A brief history of code search at GitHub"
         },
         {
@@ -1099,7 +1135,7 @@
           "description": "Precise code navigation is powered by stack graphs, a new open source framework that lets you define the name binding rules for a programming language.",
           "link": "https://github.blog/2021-12-09-introducing-stack-graphs/",
           "publishedOn": "2021-12-09T17:00:40.000Z",
-          "wordCount": 2687,
+          "wordCount": 2682,
           "title": "Introducing stack graphs"
         },
         {
@@ -1110,24 +1146,6 @@
           "publishedOn": "2021-12-09T17:00:28.000Z",
           "wordCount": 595,
           "title": "Precise code navigation for Python, and code navigation in pull requests"
-        },
-        {
-          "id": "https://github.blog/2021-12-08-improving-github-code-search/",
-          "author": null,
-          "description": "Today, we are rolling out a technology preview for GitHub code search, the next iteration for search, discovery, and navigation on GitHub.",
-          "link": "https://github.blog/2021-12-08-improving-github-code-search/",
-          "publishedOn": "2021-12-08T17:00:01.000Z",
-          "wordCount": 916,
-          "title": "Improving GitHub code search"
-        },
-        {
-          "id": "https://github.blog/2021-12-07-github-enterprise-server-3-3-is-generally-available/",
-          "author": null,
-          "description": "GitHub Enterprise Server is now generally available for all customers. This release improves performance for CI/CD and for customers with large repositories.",
-          "link": "https://github.blog/2021-12-07-github-enterprise-server-3-3-is-generally-available/",
-          "publishedOn": "2021-12-08T01:04:26.000Z",
-          "wordCount": 552,
-          "title": "GitHub Enterprise Server 3.3 is generally available"
         }
       ]
     },
@@ -1148,7 +1166,7 @@
           "description": "Project by Netflix’s Cloud Infrastructure Security team (Alex Bainbridge, Mike Grima, Nick Siow)",
           "link": "https://netflixtechblog.com/snaring-the-bad-folks-66726a1f4c80?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-12-08T17:38:41.000Z",
-          "wordCount": 1691,
+          "wordCount": 1689,
           "title": "Snaring the Bad Folks"
         }
       ]
@@ -1158,6 +1176,15 @@
       "feedUrl": "http://feeds.feedburner.com/blogspot/gJZg",
       "siteUrl": "http://ai.googleblog.com/",
       "articles": [
+        {
+          "id": "http://ai.googleblog.com/2021/12/a-scalable-approach-for-partially-local.html",
+          "author": null,
+          "description": "Posted by Karan Singhal, Senior Software Engineer, Google Research  \nFederated learning enables users to train a model without sending raw data to a central server, thus avoiding the collection of privacy-sensitive data. Often this is done by learning a single global model for all users, even though the users may differ in their data distributions. For example, users of a mobile keyboard application may collaborate to train a suggestion model but have different preferences for the suggestions. This heterogeneity has motivated algorithms that can personalize a global model for each user.  \n However, in some settings privacy considerations may prohibit learning a fully global model. Consider models with user-specific embeddings, such as matrix factorization models for recommender systems. Tr…",
+          "link": "http://ai.googleblog.com/2021/12/a-scalable-approach-for-partially-local.html",
+          "publishedOn": "2021-12-16T18:11:00.000Z",
+          "wordCount": 2092,
+          "title": "A Scalable Approach for Partially Local Federated Learning"
+        },
         {
           "id": "http://ai.googleblog.com/2021/12/training-machine-learning-models-more.html",
           "author": null,

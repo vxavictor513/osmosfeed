@@ -6,6 +6,24 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/12/17/client-side-development-with-spring-boot-applications",
+          "author": null,
+          "description": "This article explores the different options that Spring Boot developers have for using Javascript and CSS on the client (browser) side of their application. Part of the plan is to explore some Javascript libraries that play well in the traditional server-side-rendered world of Spring web applications. Those libraries tend to have a light touch for the application developer, in the sense that they allow you to completely avoid Javascript, but still have nice a progressive \"modern\" UI. We also look at some more \"pure\" Javascript tools and frameworks. It’s kind of a spectrum, so as a TL;DR here is a list of the sample apps, in rough order of low to high Javascript content:\n\r\n\r\n\r\n\r\n\r\nhtmx: HTMX is a library that allows you to access modern browser features directly from HTML, rather than using…",
+          "link": "https://spring.io/blog/2021/12/17/client-side-development-with-spring-boot-applications",
+          "publishedOn": "2021-12-17T08:00:00.000Z",
+          "wordCount": 9227,
+          "title": "Client Side Development with Spring Boot Applications"
+        },
+        {
+          "id": "https://spring.io/blog/2021/12/16/a-bootiful-podcast-ronald-dehuysser-creator-of-the-distributed-job-scheduler-jobrunr",
+          "author": null,
+          "description": "Hi, Spring fans! In this installment, Josh Long talks to JobRunr.io creator Ronald Dehuysser (@rdehuyss) about JobRunr, which is a distributed job scheduling engine that plugs right into Spring Boot.",
+          "link": "https://spring.io/blog/2021/12/16/a-bootiful-podcast-ronald-dehuysser-creator-of-the-distributed-job-scheduler-jobrunr",
+          "publishedOn": "2021-12-17T00:00:00.000Z",
+          "wordCount": 419,
+          "title": "A Bootiful Podcast: Ronald Dehuysser, Creator of the Distributed Job Scheduler JobRunr"
+        },
+        {
           "id": "https://spring.io/blog/2021/12/16/spring-framework-6-0-m1-released",
           "author": null,
           "description": "Dear Spring community,\n\r\nIt is my pleasure to announce that the first Spring Framework 6.0 milestone release is available from htts://repo.spring.io/milestone now. This initial milestone covers our baseline upgrade efforts, in particular requiring JDK 17+ and migrating to the Jakarta EE 9 APIs; see my recent baseline blog post for the rationale. At the same time, it removes many long-deprecated classes, including several support packages for outdated third-party infrastructure.\n\r\nFor current upgrade notes, please refer to our Upgrading to Spring Framework 6.0 page which we will keep updating. Follow our main branch on GitHub for the latest changes, as we prepare for 6.0 M2 and the corresponding Spring Boot 3.0 M1 release in January. At that point, you will also be able to consume Spring Framework 6.0 through https://start.spring.io/. For the time being, feel free to grab 6.0 M1 from https://repo.spring.io/ and let us know how it goes.\n\r\nCheers,\nJuergen",
@@ -71,7 +89,7 @@
         {
           "id": "https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot",
           "author": null,
-          "description": "Updates: Since this blog post has been published, a new logback 1.2.8 version has been published. While this fixes a security issue, prerequisites for exploits are very different as they “requires write access to logback’s configuration file”.\nLog4J also released a new 2.16.0 version with fixes for CVE-2021-45046.\nOur upcoming releases will pick up these new versions.\n\r\n\r\nAs you may have seen in the news, a new zero-day exploit has been reported against the popular Log4J2 library which can allow an attacker to remotely execute code. The vulnerability has been reported with CVE-2021-44228 against the log4j-core jar and has been fixed in Log4J v2.15.0.\n\r\nSpring Boot users are only affected by this vulnerability if they have switched the default logging system to Log4J2. The log4j-to-slf4j an…",
+          "description": "Updates: Since this blog post has been published, a new logback 1.2.9 version has been published. While this fixes a security issue, prerequisites for exploits are very different as they “requires write access to logback’s configuration file”.\nLog4J also released a new 2.16.0 version with fixes for CVE-2021-45046.\nOur upcoming releases will pick up these new versions.\n\r\n\r\nAs you may have seen in the news, a new zero-day exploit has been reported against the popular Log4J2 library which can allow an attacker to remotely execute code. The vulnerability has been reported with CVE-2021-44228 against the log4j-core jar and has been fixed in Log4J v2.15.0.\n\r\nSpring Boot users are only affected by this vulnerability if they have switched the default logging system to Log4J2. The log4j-to-slf4j an…",
           "link": "https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot",
           "publishedOn": "2021-12-10T20:00:00.000Z",
           "wordCount": 763,
@@ -166,24 +184,6 @@
           "publishedOn": "2021-12-02T18:54:00.000Z",
           "wordCount": 1168,
           "title": "Spring Cloud Function 3.2 is out!"
-        },
-        {
-          "id": "https://spring.io/blog/2021/12/01/accelerate-spring-apps-to-cloud-at-scale-discussion-with-azure-spring-cloud-customers",
-          "author": null,
-          "description": "Hi, Spring fans! I love the Azure Spring Cloud platform - jointly developed with the Spring team and Microsoft - and I’m not alone! So do its users! Check out this panel discussion moderated by Adib Sakali and Asir Selvasingh with Morgan Stanley, Bosch, and Digital Realty Trust.",
-          "link": "https://spring.io/blog/2021/12/01/accelerate-spring-apps-to-cloud-at-scale-discussion-with-azure-spring-cloud-customers",
-          "publishedOn": "2021-12-01T18:00:00.000Z",
-          "wordCount": 441,
-          "title": "Accelerate Spring Apps to Cloud at Scale - Discussion with Azure Spring Cloud Customers"
-        },
-        {
-          "id": "https://spring.io/blog/2021/12/01/spring-authorization-server-0-2-1-available-now",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, it is my pleasure to announce the general availability of Spring Authorization Server 0.2.1.\n\r\n\r\n\r\nYou can download it from Maven Central by using the module coordinates:\n\r\n\r\n\r\n\r\ncompile 'org.springframework.security:spring-security-oauth2-authorization-server:0.2.1'\n\r\n\r\n\r\n\r\nSee the release notes for complete details.\n\r\n\r\n\r\nTo get started using Spring Authorization Server, see the sample to become familiar with setup and configuration.\n\r\n\r\n\r\nWe would love to gather your feedback as we strive to improve and build upon this release.\n\r\n\r\n\r\nProject Page | GitHub Issues |  ZenHub Board",
-          "link": "https://spring.io/blog/2021/12/01/spring-authorization-server-0-2-1-available-now",
-          "publishedOn": "2021-12-01T14:00:00.000Z",
-          "wordCount": 464,
-          "title": "Spring Authorization Server 0.2.1 available now"
         }
       ]
     },
@@ -308,24 +308,6 @@
           "publishedOn": "2021-11-18T18:00:00.000Z",
           "wordCount": 1099,
           "title": "PagerDuty, Palo Alto Networks, and Splunk Among New Verified Terraform Providers"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/vault-1-9",
-          "author": null,
-          "description": "Vault 1.9 can act as an OIDC provider, includes general availability of a key management secrets engine for Google Cloud, and updates to Transform, Namespaces, and the UI.",
-          "link": "https://www.hashicorp.com/blog/vault-1-9",
-          "publishedOn": "2021-11-17T17:00:00.000Z",
-          "wordCount": 1692,
-          "title": "Announcing HashiCorp Vault 1.9"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/consul-service-mesh-on-amazon-ecs-now-generally-available",
-          "author": null,
-          "description": "HashiCorp Consul service mesh on Amazon ECS is now generally available and ready for production environments.",
-          "link": "https://www.hashicorp.com/blog/consul-service-mesh-on-amazon-ecs-now-generally-available",
-          "publishedOn": "2021-11-17T17:00:00.000Z",
-          "wordCount": 786,
-          "title": "Consul Service Mesh on Amazon ECS Now Generally Available"
         }
       ]
     },
@@ -334,6 +316,42 @@
       "feedUrl": "https://www.elastic.co/blog/feed",
       "siteUrl": "https://www.elastic.co",
       "articles": [
+        {
+          "id": "https://www.elastic.co/blog/how-elastic-supports-fastpaced-growth-with-empathy-culture",
+          "author": "Lauren Peters",
+          "description": "In the spirit of our free and open heritage, we’re sharing some of the ways we’ve maintained our culture as we’ve grown, and what we’ve learned along the way.",
+          "link": "https://www.elastic.co/blog/how-elastic-supports-fastpaced-growth-with-empathy-culture",
+          "publishedOn": "2021-12-17T17:00:00.000Z",
+          "wordCount": 2081,
+          "title": "Better together: How Elastic supports fast-paced growth with empathy"
+        },
+        {
+          "id": "https://www.elastic.co/blog/how-cisos-better-manage-emerging-risk-unfilled-roles-insights-leadership",
+          "author": "Matt Palmquist",
+          "description": "Cybersecurity leaders are accelerating recruiting efforts to build organizational resilience.",
+          "link": "https://www.elastic.co/blog/how-cisos-better-manage-emerging-risk-unfilled-roles-insights-leadership",
+          "publishedOn": "2021-12-17T17:00:00.000Z",
+          "wordCount": 1336,
+          "title": "How CISOs can better manage an emerging risk: unfilled roles"
+        },
+        {
+          "id": "https://www.elastic.co/blog/how-elastic-supports-fastpaced-growth-with-empathy-culture",
+          "author": "Lauren Peters",
+          "description": ",\nOur ten-year anniversary is just around the corner. As I’m sure you can imagine, a lot has changed since our humble beginnings as a recipe app. For one, we’ve gone from a scrappy startup with our core Elastic Stack to becoming a publicly traded company with a full arsenal of search-powered solutions. \nSince our start, we’ve led with a human-centric approach to our culture and how we grow. It’s so integrated into what we do, it’s a part of our Source Code. \n“At the beginning of defining values for the company, it was difficult to determine what would actually inspire people.” says CEO and founder, Shay Banon when talking about how our Source Code came to be. “We didn’t want our set of values to be bland or common. We wanted it to be multidimensional, so people can find themselves in it. G…",
+          "link": "https://www.elastic.co/blog/how-elastic-supports-fastpaced-growth-with-empathy-culture",
+          "publishedOn": "2021-12-17T17:00:00.000Z",
+          "wordCount": 2081,
+          "title": "Better together: How Elastic supports fast-paced growth with empathy"
+        },
+        {
+          "id": "https://www.elastic.co/blog/how-cisos-better-manage-emerging-risk-unfilled-roles-insights-leadership",
+          "author": "Matt Palmquist",
+          "description": ",\nWhen Colonial Pipeline suffered a massive ransomware attack in early 2021, an internal vulnerability added to the crisis: The company was operating without its top cybersecurity manager. \nThe global security workforce needs to grow by 65% to become fully staffed, according to a new study by (ISC)², the world’s largest organization for cybersecurity pros. While modern IT platforms and tools can certainly automate many low-level tasks to help relieve overburdened security teams, chief information security officers must still find better ways to retain existing workers and recruit new ones.  \nIf they don’t, those unfilled positions represent a significant source of risk, security leaders say. Staff shortages are causing misconfigured systems, oversights in following security procedures, rus…",
+          "link": "https://www.elastic.co/blog/how-cisos-better-manage-emerging-risk-unfilled-roles-insights-leadership",
+          "publishedOn": "2021-12-17T17:00:00.000Z",
+          "wordCount": 1336,
+          "title": "How CISOs can better manage an emerging risk: unfilled roles"
+        },
         {
           "id": "https://www.elastic.co/blog/use-cross-cluster-search-elastic-cloud-observability",
           "author": "Neil Brookes",
@@ -394,7 +412,7 @@
           "description": "In this post, we cover next steps the Elastic Security team is taking for users to continue to protect themselves against CVE-2021-44228, or Log4Shell.",
           "link": "https://www.elastic.co/blog/analysis-of-log4shell-cve-2021-45046",
           "publishedOn": "2021-12-15T18:00:00.000Z",
-          "wordCount": 867,
+          "wordCount": 998,
           "title": "Analysis of Log4Shell vulnerability & CVE-2021-45046"
         },
         {
@@ -403,7 +421,7 @@
           "description": ",\nIn recent days Log4Shell, or CVE-2021-44228, has dominated the news cycle in the world of information security and beyond. Elastic released an advisory detailing how Elastic products and users are impacted, and a blog post describing how our users can leverage Elastic Security to help defend their networks.\nMany readers have further questions as to how we’re tracking this issue within Elastic Security, what our coverage is now, and what we’re expecting to do next. This post outlines a few details for our current status, and provides details regarding a new, related vulnerability: CVE-2021-45046.\nElastic Security response\nAs you may imagine, the team has worked tirelessly to ensure that we’re developing detections for both active exploitation of the vulnerability, as well as post-compromi…",
           "link": "https://www.elastic.co/blog/analysis-of-log4shell-cve-2021-45046",
           "publishedOn": "2021-12-15T18:00:00.000Z",
-          "wordCount": 867,
+          "wordCount": 998,
           "title": "Analysis of Log4Shell vulnerability & CVE-2021-45046"
         },
         {
@@ -466,7 +484,7 @@
           "description": "This blog post provides a summary of CVE-2021-44228 and provides Elastic Security users with detections to find active exploitation of the vulnerability in their environment. Further updates will be provided to this post as we learn more.",
           "link": "https://www.elastic.co/blog/detecting-log4j2-with-elastic-security",
           "publishedOn": "2021-12-10T15:00:00.000Z",
-          "wordCount": 944,
+          "wordCount": 1093,
           "title": "Detecting Exploitation of CVE-2021-44228 (Log4j2) with Elastic Security"
         },
         {
@@ -475,44 +493,8 @@
           "description": ",\nOverview\nThis blog post provides a summary of CVE-2021-44228 and provides Elastic Security users with detections to find active exploitation of the vulnerability in their environment.\nFurther updates will be provided to this post as we learn more. This version is accurate as of Tuesday, December 14, 2021. Updates from Apache may be investigated directly via the security page for Log4j2.\nSummary of CVE-2021-44228 (Log4Shell)\nLog4j2 is an open source logging framework incorporated into many Java based applications on both end-user systems and servers. In late November 2021, Chen Zhaojun of Alibaba identified a remote code execution vulnerability, ultimately being reported under the CVE ID : CVE-2021-44228, released to the public on December 10, 2021. The vulnerability is exploited through …",
           "link": "https://www.elastic.co/blog/detecting-log4j2-with-elastic-security",
           "publishedOn": "2021-12-10T15:00:00.000Z",
-          "wordCount": 944,
+          "wordCount": 1093,
           "title": "Detecting Exploitation of CVE-2021-44228 (Log4j2) with Elastic Security"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-security-recognized-customers-choice-gartner-peer-insights-report",
-          "author": "Jennifer Ellard,Mike Paquette",
-          "description": "Elastic has been recognized as a Customers’ Choice in the 2021 Gartner Peer Insights ‘Voice of the Customer’: Security Incident and Event Management (SIEM) report with an overall rating of 4.6 out of 5.",
-          "link": "https://www.elastic.co/blog/elastic-security-recognized-customers-choice-gartner-peer-insights-report",
-          "publishedOn": "2021-12-09T20:00:00.000Z",
-          "wordCount": 584,
-          "title": "Elastic Security was recognized as a Customers’ Choice in 2021 Gartner Peer Insights ‘Voice of Customer’: SIEM Report"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-security-recognized-customers-choice-gartner-peer-insights-report",
-          "author": "Jennifer Ellard,Mike Paquette",
-          "description": ",\nElastic has been recognized as a Customers’ Choice in the 2021 Gartner Peer Insights ‘Voice of the Customer’: Security Incident and Event Management (SIEM) report with an overall rating of 4.6 out of 5 based on 51 reviews as on November 25, 2021. \nThe report combines the feedback and experiences of more than 51 Elastic Security customers on Gartner Peer Insights™. Elastic’s Willingness to Recommend score was 98% — the highest of all vendors included in the report.\n\nElastic appreciates the wonderful community of security practitioners that use Elastic Security as their SIEM solution, and how readily they provide us with feedback to help make our solution even better. \n\n\nWhat customers have to say\n\"This product is already very mature and the expected features are going in the right directi…",
-          "link": "https://www.elastic.co/blog/elastic-security-recognized-customers-choice-gartner-peer-insights-report",
-          "publishedOn": "2021-12-09T20:00:00.000Z",
-          "wordCount": 584,
-          "title": "Elastic Security was recognized as a Customers’ Choice in 2021 Gartner Peer Insights ‘Voice of Customer’: SIEM Report"
-        },
-        {
-          "id": "https://www.elastic.co/blog/how-elastic-can-help-banks-compete-payment-experience-payments-industry",
-          "author": "Brandon Mavleos",
-          "description": "The payments industry is changing. There are new apps and technologies being used to send money seemingly every day. But banks have advantages in scale and sophistication that they use to innovate and compete.",
-          "link": "https://www.elastic.co/blog/how-elastic-can-help-banks-compete-payment-experience-payments-industry",
-          "publishedOn": "2021-12-09T17:00:00.000Z",
-          "wordCount": 1021,
-          "title": "How Elastic can help banks compete in the booming payments industry"
-        },
-        {
-          "id": "https://www.elastic.co/blog/how-elastic-can-help-banks-compete-payment-experience-payments-industry",
-          "author": "Brandon Mavleos",
-          "description": ",\nThe payments industry has evolved dramatically over the past decade. Traditional payment vehicles still make up the majority of transaction flows, but new apps and startups continue to grow in popularity, and billions of dollars move through their systems.\nAccording to a recent JPMorgan study, of the $240 trillion in global payments in 2020, ~$54 trillion can be attributed to emerging mega-themes; that is, trends that are reshaping the way money changes hands. These themes include super apps, e-commerce, digital wallets, wearables, BNPL (buy now, pay later), connected cars, and other payment vehicles. This environment has generated a rush of excitement for customers. However, it has also created a significant level of complexity that the financial community and regulators are grappling w…",
-          "link": "https://www.elastic.co/blog/how-elastic-can-help-banks-compete-payment-experience-payments-industry",
-          "publishedOn": "2021-12-09T17:00:00.000Z",
-          "wordCount": 1021,
-          "title": "How Elastic can help banks compete in the booming payments industry"
         }
       ]
     },
@@ -536,7 +518,7 @@
           "description": "With the release of Red Hat Ansible Automation Platform 2.1, we are proud to deliver the latest reference architecture on the best practices for deploying a highly available Ansible Automation Platform environment.",
           "link": "https://www.ansible.com/blog/new-reference-architecture-deploying-red-hat-ansible-automation-platform-2.1",
           "publishedOn": "2021-12-14T14:15:00.000Z",
-          "wordCount": 1501,
+          "wordCount": 1505,
           "title": "New reference architecture: Deploying Red Hat Ansible Automation Platform 2.1"
         },
         {
@@ -545,7 +527,7 @@
           "description": "As part of the most recent Ansible Automation Platform 2.1 release announced December 2, 2021, we are excited to debut one of the most long-awaited features of the release: automation mesh.",
           "link": "https://www.ansible.com/blog/whats-new-in-ansible-automation-platform-2.1-automation-mesh",
           "publishedOn": "2021-12-07T14:30:00.000Z",
-          "wordCount": 1831,
+          "wordCount": 1835,
           "title": "What's new: an introduction to automation mesh"
         },
         {
@@ -554,7 +536,7 @@
           "description": "We are thrilled to announce the general availability of Red Hat Ansible Automation Platform 2.1. This is the follow-on to the Ansible Automation Platform 2.0 Early Access released this summer, and announced at AnsibleFest 2021. Red Ansible Automation Platform 2.1 introduces major features that allow customers to onboard more easily with even more flexible automation architectures and use cases. Ansible Automation Platform 2.1 is the culmination of many years of reimagining how enterprise automators automate for today and tomorrow.",
           "link": "https://www.ansible.com/blog/introducing-red-hat-ansible-automation-platform-2.1",
           "publishedOn": "2021-12-02T13:30:00.000Z",
-          "wordCount": 2745,
+          "wordCount": 2749,
           "title": "Introducing Red Hat Ansible Automation Platform 2.1"
         },
         {
@@ -563,7 +545,7 @@
           "description": "Seamlessly, every single day, we wake up and check our health statistics in smart watches, scan QR codes to validate information, pay using credit cards in different locations, use surveillance cameras to record our neighborhoods, and connect our smartphones to distributed WiFi access points in our restaurants or coffee shops. According to the Statista, in the Forecast number of mobile users worldwide 2020-2025[1] report, the number of mobile users worldwide reached 7.1 billion in 2021, and this number is projected to grow. This initiates a new set of use cases for edge devices due to the explosive growth of network-connected entry points.",
           "link": "https://www.ansible.com/blog/2022-the-year-for-edge-automation",
           "publishedOn": "2021-11-22T19:13:15.000Z",
-          "wordCount": 2431,
+          "wordCount": 2435,
           "title": "Why 2022 will be the year for edge automation"
         },
         {
@@ -572,7 +554,7 @@
           "description": "I recently had the opportunity to present our Red Hat Ansible Automation Platform cloud strategy at Cloud Field Day 12. \nCloud Field Day 12 was a three day event that focused on the impact of cloud on enterprise IT. As a presenter, you can use any combination of slides and live demos to foster a discussion with a group of thought leaders. This roundtable included people from many different companies, skill sets, backgrounds and favorite tools. Check out the Cloud Field Day website to see the delegate panel, their backgrounds and Twitter handles. I quite enjoyed, and preferred, the conversational tone of Cloud Field Day, and the delegates who asked questions during the demo made it a lot more interactive.",
           "link": "https://www.ansible.com/blog/automation-for-the-cloud-cloud-field-day-12-recap",
           "publishedOn": "2021-11-18T13:45:00.000Z",
-          "wordCount": 1224,
+          "wordCount": 1228,
           "title": "Automation for the cloud: Cloud Field Day 12 recap"
         }
       ]
@@ -583,12 +565,21 @@
       "siteUrl": "https://devblogs.microsoft.com/devops",
       "articles": [
         {
+          "id": "https://devblogs.microsoft.com/devops/?p=63015",
+          "author": "Jay Gordon",
+          "description": "The top stories from the #AzureDevOps #community for 2021.12.17 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2021.12.17 appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-12-17/",
+          "publishedOn": "2021-12-17T11:00:06.000Z",
+          "wordCount": 1641,
+          "title": "Top Stories from the Microsoft DevOps Community – 2021.12.17"
+        },
+        {
           "id": "https://devblogs.microsoft.com/devops/?p=62998",
           "author": "Gloridel Morales",
           "description": "This month, we are releasing fixes that impact our self-hosted product, Azure DevOps Server.\nFix work item macro for queries with “Contains Words”. Previously, queries were returning incorrect results for values that contained a line break.\nThe post December patches for Azure DevOps Server appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/december-patches-for-azure-devops-server/",
           "publishedOn": "2021-12-15T18:37:40.000Z",
-          "wordCount": 2087,
+          "wordCount": 2169,
           "title": "December patches for Azure DevOps Server"
         },
         {
@@ -662,15 +653,6 @@
           "publishedOn": "2021-11-29T16:41:30.000Z",
           "wordCount": 2381,
           "title": "Azure Boards Ux Modernization – Public Preview"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=62849",
-          "author": "Jay Gordon",
-          "description": "The top stories from the #AzureDevOps #community for 2021.11.26 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2021.11.26 appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-11-26/",
-          "publishedOn": "2021-11-26T11:00:58.000Z",
-          "wordCount": 1564,
-          "title": "Top Stories from the Microsoft DevOps Community – 2021.11.26"
         }
       ]
     },
@@ -883,6 +865,15 @@
       "siteUrl": "https://xkcd.com/",
       "articles": [
         {
+          "id": "https://xkcd.com/2556/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/turing_complete.png\" title=\"Thanks to the ForcedEntry exploit, your company's entire tech stack can now be hosted out of a PDF you texted to someone.\" alt=\"Thanks to the ForcedEntry exploit, your company's entire tech stack can now be hosted out of a PDF you texted to someone.\" />",
+          "link": "https://xkcd.com/2556/",
+          "publishedOn": "2021-12-17T00:00:00.000Z",
+          "wordCount": 185,
+          "title": "Turing Complete"
+        },
+        {
           "id": "https://xkcd.com/2555/",
           "author": null,
           "description": "<img src=\"https://imgs.xkcd.com/comics/notifications.png\" title=\"It's 10:34 PM for this user. They really need to get going, they have a thing early tomorrow. Are you sure you want to notify?\" alt=\"It's 10:34 PM for this user. They really need to get going, they have a thing early tomorrow. Are you sure you want to notify?\" />",
@@ -908,15 +899,6 @@
           "publishedOn": "2021-12-10T00:00:00.000Z",
           "wordCount": 185,
           "title": "Incident Report"
-        },
-        {
-          "id": "https://xkcd.com/2552/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/the_last_molecule.png\" title=\"Biology is really struggling; they're barely at 93% and they keep finding more ants.\" alt=\"Biology is really struggling; they're barely at 93% and they keep finding more ants.\" />",
-          "link": "https://xkcd.com/2552/",
-          "publishedOn": "2021-12-08T00:00:00.000Z",
-          "wordCount": 187,
-          "title": "The Last Molecule"
         }
       ]
     },
@@ -931,7 +913,7 @@
           "description": "Discover why Apendo partnered with Camunda to automate citizen services for several municipalities and counting all over Sweden. \nThe post Building Smarter Cities with Process Automation appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/12/building-smarter-cities-with-process-automation/",
           "publishedOn": "2021-12-15T14:30:00.000Z",
-          "wordCount": 1943,
+          "wordCount": 1944,
           "title": "Building Smarter Cities with Process Automation"
         },
         {
@@ -985,7 +967,7 @@
           "description": "Get details on how solutions built with Camunda enabled Covea to organize data more effectively and create an even-stronger user experience.\nThe post The Secret Behind the IT Transformation of Covéa Insurance appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/12/the-secret-behind-the-it-transformation-of-covea-insurance/",
           "publishedOn": "2021-12-02T14:00:00.000Z",
-          "wordCount": 1822,
+          "wordCount": 1823,
           "title": "The Secret Behind the IT Transformation of Covéa Insurance"
         },
         {
@@ -994,7 +976,7 @@
           "description": "Learn how using Camunda’s process engine in your Java application will make development easier and save you time. \nThe post How Developing Java Apps is Easier with a Process Engine appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/11/how-developing-java-apps-is-easier-with-a-process-engine/",
           "publishedOn": "2021-11-26T14:00:00.000Z",
-          "wordCount": 2208,
+          "wordCount": 2209,
           "title": "How Developing Java Apps is Easier with a Process Engine"
         },
         {
@@ -1058,6 +1040,15 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/2021-12-17-getting-started-with-github-actions-just-got-easier/",
+          "author": null,
+          "description": "When you want to create a workflow in the Actions tab of your repository, the recommendations are now based on an analysis of repo content.",
+          "link": "https://github.blog/2021-12-17-getting-started-with-github-actions-just-got-easier/",
+          "publishedOn": "2021-12-17T17:35:29.000Z",
+          "wordCount": 506,
+          "title": "Getting started with GitHub Actions just got easier!"
+        },
+        {
           "id": "https://github.blog/2021-12-16-technical-interviews-via-codespaces/",
           "author": null,
           "description": "Codespaces is a great tool for technical hiring exercises and helps level the playing field for candidates.",
@@ -1081,7 +1072,7 @@
           "description": "This blog post tells the story of why we built a new search engine optimized for code.",
           "link": "https://github.blog/2021-12-15-a-brief-history-of-code-search-at-github/",
           "publishedOn": "2021-12-15T18:35:29.000Z",
-          "wordCount": 3087,
+          "wordCount": 3092,
           "title": "A brief history of code search at GitHub"
         },
         {
@@ -1108,7 +1099,7 @@
           "description": "On Thursday, December 9, 2021, GitHub was made aware of a vulnerability in the Log4j logging framework, CVE-2021-44228.",
           "link": "https://github.blog/2021-12-13-githubs-response-to-log4j-vulnerability-cve-2021-44228/",
           "publishedOn": "2021-12-13T19:06:34.000Z",
-          "wordCount": 531,
+          "wordCount": 849,
           "title": "GitHub’s response to Log4j vulnerability CVE-2021-44228"
         },
         {
@@ -1117,7 +1108,7 @@
           "description": "We shipped a ton of updates in November, from the push notification for PR review activities on the go, to an easy way to create Markdown links.",
           "link": "https://github.blog/2021-12-13-whats-new-from-github-changelog-november-2021-recap/",
           "publishedOn": "2021-12-13T17:45:31.000Z",
-          "wordCount": 1606,
+          "wordCount": 1613,
           "title": "What’s new from GitHub Changelog? November 2021 recap"
         },
         {
@@ -1137,15 +1128,6 @@
           "publishedOn": "2021-12-09T17:00:40.000Z",
           "wordCount": 2682,
           "title": "Introducing stack graphs"
-        },
-        {
-          "id": "https://github.blog/2021-12-09-precise-code-navigation-python-code-navigation-pull-requests/",
-          "author": null,
-          "description": "Code navigation is now available in PRs, and code navigation results for Python are now more precise.",
-          "link": "https://github.blog/2021-12-09-precise-code-navigation-python-code-navigation-pull-requests/",
-          "publishedOn": "2021-12-09T17:00:28.000Z",
-          "wordCount": 595,
-          "title": "Precise code navigation for Python, and code navigation in pull requests"
         }
       ]
     },
@@ -1166,7 +1148,7 @@
           "description": "Project by Netflix’s Cloud Infrastructure Security team (Alex Bainbridge, Mike Grima, Nick Siow)",
           "link": "https://netflixtechblog.com/snaring-the-bad-folks-66726a1f4c80?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-12-08T17:38:41.000Z",
-          "wordCount": 1689,
+          "wordCount": 1692,
           "title": "Snaring the Bad Folks"
         }
       ]
@@ -1301,24 +1283,6 @@
           "publishedOn": "2021-11-18T20:07:00.002Z",
           "wordCount": 2652,
           "title": "Permutation-Invariant Neural Networks for Reinforcement Learning"
-        },
-        {
-          "id": "http://ai.googleblog.com/2021/11/predicting-text-readability-from.html",
-          "author": null,
-          "description": "Posted by Sian Gooding, Intern, Google Research  \nIlliteracy affects at least 773 million people globally, both young and old. For these individuals, reading information from unfamiliar sources or on unfamiliar topics can be extremely difficult. Unfortunately, these inequalities have been further magnified by the global pandemic as a result of unequal access to education in reading and writing. In fact, UNESCO reports that over 100 million children are falling behind the minimum proficiency level in reading due to COVID-related school closures.  \n With increasing world-wide access to technology, reading on a device, such as a tablet or phone, has largely taken the place of traditional formats. This provides a unique opportunity to observe reading interactions, e.g., how a reader scrolls th…",
-          "link": "http://ai.googleblog.com/2021/11/predicting-text-readability-from.html",
-          "publishedOn": "2021-11-17T22:31:00.001Z",
-          "wordCount": 2193,
-          "title": "Predicting Text Readability from Scrolling Interactions"
-        },
-        {
-          "id": "http://ai.googleblog.com/2021/11/rliable-towards-reliable-evaluation.html",
-          "author": null,
-          "description": "Posted by Rishabh Agarwal, Research Scientist and Pablo Samuel Castro, Staff Software Engineer, Google Research, Brain Team   \n Reinforcement learning (RL) is an area of machine learning that focuses on learning from experiences to solve decision making tasks. While the field of RL has made great progress, resulting in impressive empirical results on complex tasks, such as playing video games, flying stratospheric balloons and designing hardware chips, it is becoming increasingly apparent that the current standards for empirical evaluation might give a false sense of fast scientific progress while slowing it down. \n  To that end, in “Deep RL at the Edge of the Statistical Precipice”, accepted as an oral presentation at NeurIPS 2021, we discuss how statistical uncertainty of results needs t…",
-          "link": "http://ai.googleblog.com/2021/11/rliable-towards-reliable-evaluation.html",
-          "publishedOn": "2021-11-17T18:32:00.001Z",
-          "wordCount": 2628,
-          "title": "RLiable: Towards Reliable Evaluation & Reporting in Reinforcement Learning"
         }
       ]
     }

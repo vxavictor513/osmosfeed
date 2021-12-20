@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-12-19T00:45:40.385Z</id>
+    <id>urn:2021-12-20T00:43:20.791Z</id>
     <title>osmos::feed</title>
-    <updated>2021-12-19T00:45:40.385Z</updated>
+    <updated>2021-12-20T00:43:20.791Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Introducing 7.16.2 and 6.8.22 releases of Elasticsearch and Logstash to upgrade Apache Log4j2]]></title>
+        <id>https://www.elastic.co/blog/new-elasticsearch-and-logstash-releases-upgrade-apache-log4j2</id>
+        <link href="https://www.elastic.co/blog/new-elasticsearch-and-logstash-releases-upgrade-apache-log4j2"/>
+        <updated>2021-12-19T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We are pleased to announce new versions of Elasticsearch and Logstash, 7.16.2 and 6.8.22, to upgrade to the latest release of Apache Log4j and address false positive concerns with some vulnerability scanners.]]></summary>
+        <author>
+            <name>Tom Callahan,Quin Hoxie,Rajiv Raghunarayan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing 7.16.2 and 6.8.22 releases of Elasticsearch and Logstash to upgrade Apache Log4j2]]></title>
+        <id>https://www.elastic.co/blog/new-elasticsearch-and-logstash-releases-upgrade-apache-log4j2</id>
+        <link href="https://www.elastic.co/blog/new-elasticsearch-and-logstash-releases-upgrade-apache-log4j2"/>
+        <updated>2021-12-19T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+We are pleased to announce new versions of Elasticsearch and Logstash, 7.16.2 and 6.8.22, to upgrade to the latest release of Apache Log4j and address false positive concerns with some vulnerability scanners. Elastic also maintains ongoing updates via our advisory to ensure our Elastic customers and our communities can stay up-to-date on the latest developments. 
+December 10th started with the public disclosure of the Apache Log4j vulnerability -  CVE-2021-44228 affecting the popular open source logging framework adopted by several Java based custom and commercial applications. This vulnerability, affecting versions 2.0-beta9 through 2.14.1 of Log4j2, and is already being exploited by nation state attackers and ransomware groups, such as APT35 and Hafnium. Research by Google using Open S…]]></summary>
+        <author>
+            <name>Tom Callahan,Quin Hoxie,Rajiv Raghunarayan</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Getting started with GitHub Actions just got easier!]]></title>
         <id>https://github.blog/2021-12-17-getting-started-with-github-actions-just-got-easier/</id>
@@ -770,31 +792,6 @@ As you may have seen in the news, a new zero-day exploit has been reported again
 Spring Boot users are only affected by this vulnerability if they have switched the default logging system to Log4J2. The…]]></summary>
         <author>
             <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Detecting Exploitation of CVE-2021-44228 (Log4j2) with Elastic Security]]></title>
-        <id>https://www.elastic.co/blog/detecting-log4j2-with-elastic-security</id>
-        <link href="https://www.elastic.co/blog/detecting-log4j2-with-elastic-security"/>
-        <updated>2021-12-10T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This blog post provides a summary of CVE-2021-44228 and provides Elastic Security users with detections to find active exploitation of the vulnerability in their environment. Further updates will be provided to this post as we learn more.]]></summary>
-        <author>
-            <name>Jake King,Samir Bousseaden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Detecting Exploitation of CVE-2021-44228 (Log4j2) with Elastic Security]]></title>
-        <id>https://www.elastic.co/blog/detecting-log4j2-with-elastic-security</id>
-        <link href="https://www.elastic.co/blog/detecting-log4j2-with-elastic-security"/>
-        <updated>2021-12-10T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-Overview
-This blog post provides a summary of CVE-2021-44228 and provides Elastic Security users with detections to find active exploitation of the vulnerability in their environment.
-Further updates will be provided to this post as we learn more. This version is accurate as of Tuesday, December 14, 2021. Updates from Apache may be investigated directly via the security page for Log4j2.
-Summary of CVE-2021-44228 (Log4Shell)
-Log4j2 is an open source logging framework incorporated into many Java based applications on both end-user systems and servers. In late November 2021, Chen Zhaojun of Alibaba identified a remote code execution vulnerability, ultimately being reported under the CVE ID : CVE-2021-44228, released to the public on December 10, 2021. The vulnerability is exploited through …]]></summary>
-        <author>
-            <name>Jake King,Samir Bousseaden</name>
         </author>
     </entry>
     <entry>
@@ -1700,17 +1697,6 @@ Smart Text Selection, launched in 2017 as part of Android O, is one of Android�
         <summary type="html"><![CDATA[Boundary 0.7 adds support for partner plugins, dynamic host catalogs, UI support for managed groups and resource filtering, and more.]]></summary>
         <author>
             <name>HashiCorp Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Decisiveness in Imitation Learning for Robots]]></title>
-        <id>http://ai.googleblog.com/2021/11/decisiveness-in-imitation-learning-for.html</id>
-        <link href="http://ai.googleblog.com/2021/11/decisiveness-in-imitation-learning-for.html"/>
-        <updated>2021-11-19T21:19:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted by Pete Florence, Research Scientist and Corey Lynch, Research Engineer, Robotics at Google   
-Despite considerable progress in robot learning over the past several years, some policies for robotic agents can still struggle to decisively choose actions when trying to imitate precise or complex behaviors. Consider a task in which a robot tries to slide a block across a table to precisely position it into a slot. There are many possible ways to solve this task, each requiring precise movements and corrections. The robot must commit to just one of these options, but must also be capable of changing plans each time the block ends up sliding farther than expected. Although one might expect such a task to be easy, that is often not the case for modern learning-based robots, which often le…]]></summary>
-        <author>
-            <name>Google AI Blog</name>
         </author>
     </entry>
 </feed>

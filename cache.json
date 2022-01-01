@@ -6,6 +6,33 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2021/12/30/a-bootiful-podcast-geertjan-wielenga-senior-director-of-opensource-projects-at-azul-systems-and-foojay-io-founder",
+          "author": null,
+          "description": "Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks (again!) to Java ecosystem legend and senior director of opensource projects at Azul Systems, Geertjan Wielenga (@GeertjanW). \n\r\nHappy new year, everyone!",
+          "link": "https://spring.io/blog/2021/12/30/a-bootiful-podcast-geertjan-wielenga-senior-director-of-opensource-projects-at-azul-systems-and-foojay-io-founder",
+          "publishedOn": "2021-12-30T10:25:00.000Z",
+          "wordCount": 428,
+          "title": "A Bootiful Podcast: Geertjan Wielenga, senior director of opensource projects at Azul Systems and Foojay.io founder"
+        },
+        {
+          "id": "https://spring.io/blog/2021/12/29/go-go-graalvm-with-spring-native-my-adventures-in-native-image-ville",
+          "author": null,
+          "description": "Hi, Spring fans! Happy new year! I can’t believe we quickly got this far, but we did. This last year’s been insanely busy, and one of the things I’ve most loved is all the opportunities to use Spring Native to build GraalVM-powered architecture-specific native images.\n\r\nWe released Spring Native 0.11, which is fantastic because it features a brand new AOT (ahead-of-time) engine that completely reworks how we transpile Spring Boot applications into GraalVM native images. I’ve been working with GraalVM a lot over the last two years, and this new release is a vast, revolutionary step in the story of Spring Native and a giant leap forward on the journey to Spring Framework 6 and Spring Boot 3, both of which will land in 2022. \n\r\nI’ve been tinkering with the new release a lot over the last mont…",
+          "link": "https://spring.io/blog/2021/12/29/go-go-graalvm-with-spring-native-my-adventures-in-native-image-ville",
+          "publishedOn": "2021-12-29T08:00:00.000Z",
+          "wordCount": 1472,
+          "title": "Go, Go, GraalVM with Spring Native: My Adventures in Native Image-ville"
+        },
+        {
+          "id": "https://spring.io/blog/2021/12/28/this-year-in-spring-december-28th-2021",
+          "author": null,
+          "description": "Hi, Spring fans! How’re you doin’? I’m fresh off a fantastic holiday spent with family in Los Angeles, California. Later today, the girls and I will drive home to San Francisco, California. I’ve enjoyed my visits with people here in Los Angeles, especially since it’s our first actual visit to Los Angeles before the pandemic. \n\r\nAnd now, (can you believe it?), we’re staring down the new year. As always, I will do my yearly This Year in Spring roundup, so stay tuned for that below, after our weekly roundup. So, without further ado, here’s the last This Week in Spring recap of 2021. \n\r\n\r\n  \nA Bootiful Podcast: HBase and Cassandra cofounder and Yugabyte CTO Karthik Ranganathan\n\r\n  \nMigrating a Spring Boot application to Java 17 – the hard way: Day 2\n\r\n  \nSpring Boot 2.5.8 available now\n\r\n  \nSp…",
+          "link": "https://spring.io/blog/2021/12/28/this-year-in-spring-december-28th-2021",
+          "publishedOn": "2021-12-28T08:00:00.000Z",
+          "wordCount": 1929,
+          "title": "This Year in Spring - December 28th, 2021"
+        },
+        {
           "id": "https://spring.io/blog/2021/12/23/a-bootiful-podcast-hbase-and-cassandra-cofounder-and-yugabyte-cto-karthik-ranganathan",
           "author": null,
           "description": "Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks to Yugabyte CTO, Apache HBase and Apache Cassandra co-founder, and distributed database legend Karthik Ranganathan. (Merry Christmas, if you celebrate!)",
@@ -157,33 +184,6 @@
           "publishedOn": "2021-12-14T18:24:22.000Z",
           "wordCount": 455,
           "title": "Spring Cloud Square 0.4.0-RC1 is available"
-        },
-        {
-          "id": "https://spring.io/blog/2021/12/14/spring-graphql-1-0-0-m4-released",
-          "author": null,
-          "description": "The Spring GraphQL team has just released the 4th milestone towards a 1.0.0 release. Thanks to all contributors!\n\r\nIn this milestone, we have further improved the annotation programming model and extended the Spring Data support that were provided in the previous milestones.\nInterface Projections for GraphQL Arguments\n\r\nIf you’re familiar with Spring Data’s Interface-based Projections, then this new feature will make perfect sense: you can use a well-defined interface to work with GraphQL arguments, without the need for any Object implementation. \n\r\nFor example:\n\r\n@Controller\r\r\npublic class BookController {\r\r\n\r\r\n    @MutationMapping\r\r\n    public Book addBook(@Argument BookInputProjection bookInput) {\r\r\n        // ...\r\r\n    }\r\r\n}\r\r\n\r\r\n@ProjectedPayload\r\r\ninterface BookInputProjection {\r\r\n\r\r…",
-          "link": "https://spring.io/blog/2021/12/14/spring-graphql-1-0-0-m4-released",
-          "publishedOn": "2021-12-14T16:04:00.000Z",
-          "wordCount": 872,
-          "title": "Spring GraphQL 1.0.0-M4 Released"
-        },
-        {
-          "id": "https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot",
-          "author": null,
-          "description": "Updates: Since this blog post has been published, a new logback 1.2.9 version has been published. While this fixes a security issue, prerequisites for exploits are very different as they “requires write access to logback’s configuration file”.\nLog4J also released a new 2.17.0 version with fixes for CVE-2021-45046 and CVE-2021-45105\nSpring Boot 2.5.8 and 2.6.2 haven been released and provide dependency management for logback 1.2.9 and Log4J 2.17.0.\n\r\n\r\nAs you may have seen in the news, a new zero-day exploit has been reported against the popular Log4J2 library which can allow an attacker to remotely execute code. The vulnerability has been reported with CVE-2021-44228 against the log4j-core jar and has been fixed in Log4J v2.15.0.\n\r\nSpring Boot users are only affected by this vulnerability …",
-          "link": "https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot",
-          "publishedOn": "2021-12-10T20:00:00.000Z",
-          "wordCount": 774,
-          "title": "Log4J2 Vulnerability and Spring Boot"
-        },
-        {
-          "id": "https://spring.io/blog/2021/12/09/a-bootiful-podcast-transformative-leader-brilliant-technologist-my-friend-patrick-chanezon",
-          "author": null,
-          "description": "Hi, Spring fans! This week, Josh Long (@starbuxman) talks to transformational leader, my old boss, legendary technologist, and friend Patrick Chanezon (@chanezon).",
-          "link": "https://spring.io/blog/2021/12/09/a-bootiful-podcast-transformative-leader-brilliant-technologist-my-friend-patrick-chanezon",
-          "publishedOn": "2021-12-09T20:00:00.000Z",
-          "wordCount": 409,
-          "title": "A Bootiful Podcast: Transformative leader, brilliant technologist, my friend, Patrick Chanezon"
         }
       ]
     },
@@ -281,24 +281,6 @@
           "publishedOn": "2021-12-06T17:00:00.000Z",
           "wordCount": 1156,
           "title": "Confluent, JFrog, and ServiceNow Integrations Highlight Additions to the Vault Ecosystem"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/hashicorp-teams-with-aws-on-new-control-tower-account-factory-for-terraform",
-          "author": null,
-          "description": "AWS Control Tower Account Factory for HashiCorp Terraform (AFT), the evolution of Terraform Landing Zones, offers an easy way to set up and govern a secure, multi-account AWS environment.",
-          "link": "https://www.hashicorp.com/blog/hashicorp-teams-with-aws-on-new-control-tower-account-factory-for-terraform",
-          "publishedOn": "2021-11-29T23:45:00.000Z",
-          "wordCount": 916,
-          "title": "HashiCorp Teams with AWS on New Control Tower Account Factory for Terraform"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/terraform-aws-provider-continues-to-expand-coverage",
-          "author": null,
-          "description": "During 2021, HashiCorp and Amazon Web Services have partnered to bring hundreds of new services and features to the Terraform providers for AWS and AWS Cloud Control.",
-          "link": "https://www.hashicorp.com/blog/terraform-aws-provider-continues-to-expand-coverage",
-          "publishedOn": "2021-11-29T17:00:00.000Z",
-          "wordCount": 906,
-          "title": "Terraform AWS Provider Continues to Expand Coverage"
         }
       ]
     },
@@ -529,15 +511,6 @@
           "publishedOn": "2021-12-07T14:30:00.000Z",
           "wordCount": 1835,
           "title": "What's new: an introduction to automation mesh"
-        },
-        {
-          "id": "https://www.ansible.com/blog/introducing-red-hat-ansible-automation-platform-2.1",
-          "author": "scavanau@redhat.com (Sean Cavanaugh)",
-          "description": "We are thrilled to announce the general availability of Red Hat Ansible Automation Platform 2.1. This is the follow-on to the Ansible Automation Platform 2.0 Early Access released this summer, and announced at AnsibleFest 2021. Red Ansible Automation Platform 2.1 introduces major features that allow customers to onboard more easily with even more flexible automation architectures and use cases. Ansible Automation Platform 2.1 is the culmination of many years of reimagining how enterprise automators automate for today and tomorrow.",
-          "link": "https://www.ansible.com/blog/introducing-red-hat-ansible-automation-platform-2.1",
-          "publishedOn": "2021-12-02T13:30:00.000Z",
-          "wordCount": 2749,
-          "title": "Introducing Red Hat Ansible Automation Platform 2.1"
         }
       ]
     },
@@ -546,6 +519,24 @@
       "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
       "siteUrl": "https://devblogs.microsoft.com/devops",
       "articles": [
+        {
+          "id": "https://devblogs.microsoft.com/devops/?p=63045",
+          "author": "DevOps Dojo",
+          "description": "Before we discuss culture and mindset in Dojo, let’s begin with quizzes on culture.\na. Using Agile Methodology\nThe post DevOps Dojo – Culture and Mindset appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/devops-dojo-culture-and-mindset/",
+          "publishedOn": "2021-12-31T11:36:05.000Z",
+          "wordCount": 6450,
+          "title": "DevOps Dojo – Culture and Mindset"
+        },
+        {
+          "id": "https://devblogs.microsoft.com/devops/?p=63121",
+          "author": "Jay Gordon",
+          "description": "The top stories from the #AzureDevOps #community for 2021.12.31 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2021.12.31 appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2021-12-31/",
+          "publishedOn": "2021-12-31T10:00:41.000Z",
+          "wordCount": 1530,
+          "title": "Top Stories from the Microsoft DevOps Community – 2021.12.31"
+        },
         {
           "id": "https://devblogs.microsoft.com/devops/?p=63015",
           "author": "Jay Gordon",
@@ -561,7 +552,7 @@
           "description": "This month, we are releasing fixes that impact our self-hosted product, Azure DevOps Server.\nFix work item macro for queries with “Contains Words”. Previously, queries were returning incorrect results for values that contained a line break.\nThe post December patches for Azure DevOps Server appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/december-patches-for-azure-devops-server/",
           "publishedOn": "2021-12-15T18:37:40.000Z",
-          "wordCount": 2397,
+          "wordCount": 2427,
           "title": "December patches for Azure DevOps Server"
         },
         {
@@ -599,42 +590,6 @@
           "publishedOn": "2021-12-03T11:00:31.000Z",
           "wordCount": 1554,
           "title": "Top Stories from the Microsoft DevOps Community – 2021.12.03"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=62906",
-          "author": "April Edwards",
-          "description": "Azure Static Web Apps were launched earlier in 2021 and out of the box they had the capability to integrate your existing repository and deploy your Static Web App from Azure DevOps. You can reference the full getting started guide for the end-to-end deployment setup.\nThe post Automating Azure Static Web Apps in Azure Pipelines appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/automating-azure-static-web-apps-in-azure-pipelines/",
-          "publishedOn": "2021-12-02T16:56:59.000Z",
-          "wordCount": 1169,
-          "title": "Automating Azure Static Web Apps in Azure Pipelines"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=62880",
-          "author": "Jay Gordon",
-          "description": "After a short break for some Microsoft streaming events, AzureFunBytes returns to LearnTV for another fun conversation about the products, people, and services that make for a delightful Azure experience.\nThe post AzureFunBytes Episode 62 – Supercharge your Java Apps on Azure with @rorypreddy appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-62-supercharge-your-java-apps-on-azure-with-rorypreddy/",
-          "publishedOn": "2021-12-02T10:00:43.000Z",
-          "wordCount": 1594,
-          "title": "AzureFunBytes Episode 62 – Supercharge your Java Apps on Azure with @rorypreddy"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=62891",
-          "author": "Rajesh Ramamurthy (MSFT)",
-          "description": "Due to the potential for future protocol downgrade attacks and other Transport Layer Security (TLS) protocol versions 1.0 and 1.1 vulnerabilities not specific to Microsoft’s implementation, it is required that dependencies on all security protocols older than TLS 1.2 be removed wherever possible.\nThe post Deprecating weak cryptographic standards (TLS 1.0 and TLS 1.1) in Azure DevOps appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/deprecating-weak-cryptographic-standards-tls-1-0-and-tls-1-1-in-azure-devops/",
-          "publishedOn": "2021-11-30T19:41:48.000Z",
-          "wordCount": 1740,
-          "title": "Deprecating weak cryptographic standards (TLS 1.0 and TLS 1.1) in Azure DevOps"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=62857",
-          "author": "Martina",
-          "description": "The team is excited to release the public preview of the Ux modernization for Azure Boards! The web platform has been updated to provide a faster Ux, consistency with other parts of the product, and accessibility compliance.\nThe post Azure Boards Ux Modernization – Public Preview appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/azure-boards-ux-modernization-public-preview/",
-          "publishedOn": "2021-11-29T16:41:30.000Z",
-          "wordCount": 2381,
-          "title": "Azure Boards Ux Modernization – Public Preview"
         }
       ]
     },
@@ -693,141 +648,6 @@
           "publishedOn": "2021-12-02T17:48:12.000Z",
           "wordCount": 1669,
           "title": "Announcing General Availability of Construct Hub and AWS Cloud Development Kit Version 2"
-        },
-        {
-          "id": "699ccea03204f481929c95c6a5aa2c90f42d3171",
-          "author": "Sébastien Stormacq",
-          "description": "Last year at AWS re:Invent, Jeff Barr wrote about the exciting availability of Amazon Elastic Compute Cloud (Amazon EC2) Mac instances. Today, we’re announcing the preview of a new EC2 M1 Mac instance. The introduction of EC2 Mac instances brought the flexibility, scalability, and cost benefits of AWS to all Apple developers. EC2 Mac instances […]",
-          "link": "https://aws.amazon.com/blogs/aws/use-amazon-ec2-m1-mac-instances-to-build-test-macos-ios-ipados-tvos-and-watchos-apps/",
-          "publishedOn": "2021-12-02T16:38:32.000Z",
-          "wordCount": 1316,
-          "title": "Use New Amazon EC2 M1 Mac Instances to Build & Test Apps for iPhone, iPad, Mac, Apple Watch, and Apple TV"
-        },
-        {
-          "id": "55ab2625372c8e72c8276741e6a5057f4a9040ab",
-          "author": "Sébastien Stormacq",
-          "description": "We are launching AWS Direct Connect SiteLink, a new capability of AWS Direct Connect that lets you create connections between your on-premises networks through the AWS global network backbone. Until today, when you needed direct connectivity between your data centers or branch offices, you had to rely on public internet or expensive and hard-to-deploy fixed […]",
-          "link": "https://aws.amazon.com/blogs/aws/new-site-to-site-connectivity-with-aws-direct-connect-sitelink/",
-          "publishedOn": "2021-12-01T23:35:03.000Z",
-          "wordCount": 1125,
-          "title": "New – Site-to-Site Connectivity with AWS Direct Connect SiteLink"
-        },
-        {
-          "id": "8644204a7230b8ce822a50054999a4a95a9027bb",
-          "author": "Alex Casalboni",
-          "description": "Hundreds of thousands of customers use Amazon Simple Queue Service (SQS) to build message-based applications to decouple and scale microservices, distributed systems, and serverless apps. When a message cannot be successfully processed by the queue consumer, you can configure SQS to store it in a dead-letter queue (DLQ). As a software developer or architect, you’d […]",
-          "link": "https://aws.amazon.com/blogs/aws/enhanced-dlq-management-sqs/",
-          "publishedOn": "2021-12-01T23:29:08.000Z",
-          "wordCount": 1685,
-          "title": "New – Enhanced Dead-letter Queue Management Experience for Amazon SQS Standard Queues"
-        },
-        {
-          "id": "91077886bb96f2e3b9a037e2c2d884a56171b3cb",
-          "author": "Steve Roberts",
-          "description": "Managing, monitoring, and auditing IP address allocation for at-scale networks, as the growth in cloud workloads and connected devices continues at a rapid pace, is a complex, time-consuming, and potentially error-prone task. Traditionally, network administrators have resorted to using combinations of spreadsheets, home-grown tools, and scripts to track address assignments across multiple accounts, virtual private […]",
-          "link": "https://aws.amazon.com/blogs/aws/network-address-management-and-auditing-at-scale-with-amazon-vpc-ip-address-manager/",
-          "publishedOn": "2021-12-01T23:25:37.000Z",
-          "wordCount": 1623,
-          "title": "Network Address Management and Auditing at Scale with Amazon VPC IP Address Manager"
-        },
-        {
-          "id": "82f2efc595c375405b34fa67c8fc70587c4a2d27",
-          "author": "Jeff Barr",
-          "description": "If you are a member of your organization’s networking, cloud operations, or security teams, you are going to love this new feature. The new Amazon VPC Network Access Analyzer helps you identify network configurations that lead to unintended network access. As you will see in a moment, it will point out ways that you can […]",
-          "link": "https://aws.amazon.com/blogs/aws/new-amazon-vpc-network-access-analyzer/",
-          "publishedOn": "2021-12-01T23:24:12.000Z",
-          "wordCount": 1562,
-          "title": "New – Amazon VPC Network Access Analyzer"
-        },
-        {
-          "id": "25af4ed6c26e6c324812d06b1d417d07416f6636",
-          "author": "Channy Yun",
-          "description": "In 2016, we launched AWS Shield, a managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS. AWS Shield provides always-on detection and automatic inline mitigations that minimize application downtime and latency without needing to contact AWS Support. There are two tiers of AWS Shield: Standard and Advanced. All AWS customers […]",
-          "link": "https://aws.amazon.com/blogs/aws/aws-shield-advanced-update-automatic-application-layer-ddos-mitigation/",
-          "publishedOn": "2021-12-01T23:22:49.000Z",
-          "wordCount": 1361,
-          "title": "AWS Shield Advanced Update – Automatic Application Layer DDoS Mitigation"
-        },
-        {
-          "id": "36dd9d3bf20f530368ca29c6cf90d04d91dc31f4",
-          "author": "Antje Barth",
-          "description": "As a woman working in information technology (IT) for many years, it has always been close to my heart to challenge long-standing gender stereotypes and inspire more young learners to consider a career in tech. With artificial intelligence (AI) and machine learning (ML) defining the future of technology, this future also depends on diverse representation. […]",
-          "link": "https://aws.amazon.com/blogs/aws/new-aws-scholarship-program-helps-underrepresented-and-underserved-students-prep-for-careers-in-ai-and-ml/",
-          "publishedOn": "2021-12-01T18:30:24.000Z",
-          "wordCount": 1518,
-          "title": "New AWS Scholarship Program Helps Underrepresented and Underserved Students Prep for Careers in AI and ML"
-        },
-        {
-          "id": "1927d6ce6648e935cc728859b8d14b9d628b7745",
-          "author": "Antje Barth",
-          "description": "Our mission at AWS is to make machine learning (ML) more accessible. Through many conversations over the past years, I learned about barriers that many ML beginners face. Existing ML environments are often too complex for beginners, or too limited to support modern ML experimentation. Beginners want to quickly start learning and not worry about […]",
-          "link": "https://aws.amazon.com/blogs/aws/now-in-preview-amazon-sagemaker-studio-lab-a-free-service-to-learn-and-experiment-with-ml/",
-          "publishedOn": "2021-12-01T18:25:48.000Z",
-          "wordCount": 1693,
-          "title": "Now in Preview – Amazon SageMaker Studio Lab, a Free Service to Learn and Experiment with ML"
-        },
-        {
-          "id": "57696c6a1a2c6cfda41e948287037f5b21ead2e8",
-          "author": "Sean M. Tracey",
-          "description": "Today, we’re pleased to announce Amazon SageMaker Inference Recommender — a brand-new Amazon SageMaker Studio capability that automates load testing and optimizes model performance across machine learning (ML) instances. Ultimately, it reduces the time it takes to get ML models from development to production and optimizes the costs associated with their operation. Until now, no […]",
-          "link": "https://aws.amazon.com/blogs/aws/announcing-amazon-sagemaker-inference-recommender/",
-          "publishedOn": "2021-12-01T18:07:08.000Z",
-          "wordCount": 998,
-          "title": "Announcing Amazon SageMaker Inference Recommender"
-        },
-        {
-          "id": "9062a6f94e60c2751154482eb447547bf95806bb",
-          "author": "Sean M. Tracey",
-          "description": "Today, we’re pleased to announce Amazon SageMaker Training Compiler, a new Amazon SageMaker capability that can accelerate the training of deep learning (DL) models by up to 50%. As DL models grow in complexity, so too does the time it can take to optimize and train them. For example, it can take 25,000 GPU-hours to […]",
-          "link": "https://aws.amazon.com/blogs/aws/new-introducing-sagemaker-training-compiler/",
-          "publishedOn": "2021-12-01T18:06:17.000Z",
-          "wordCount": 1238,
-          "title": "New – Introducing SageMaker Training Compiler"
-        },
-        {
-          "id": "15e2986b6ad7e2ed810c28b51458fd55c9ec0c01",
-          "author": "Sean M. Tracey",
-          "description": "Today, we’re very excited to offer three new enhancements to our Amazon SageMaker Studio service. As of now, users of SageMaker Studio can create, terminate, manage, discover, and connect to Amazon EMR clusters running within a single AWS account and in shared accounts across an organization—all directly from SageMaker Studio. Furthermore, SageMaker Studio Notebook users […]",
-          "link": "https://aws.amazon.com/blogs/aws/new-create-and-manage-emr-clusters-and-spark-jobs-with-amazon-sagemaker-studio/",
-          "publishedOn": "2021-12-01T18:03:48.000Z",
-          "wordCount": 1240,
-          "title": "New – Create and Manage EMR Clusters and Spark Jobs with Amazon SageMaker Studio"
-        },
-        {
-          "id": "90908fa995f0be9abc2109eedc874cd9fc8553ef",
-          "author": "Sean M. Tracey",
-          "description": "Today, we’re pleased to announce the latest service in the Amazon SageMaker suite that will make labeling datasets easier than ever before. Ground Truth Plus is a turn-key service that uses an expert workforce to deliver high-quality training datasets fast, and reduces costs by up to 40 percent. The Challenges of Machine Learning Model Creation […]",
-          "link": "https://aws.amazon.com/blogs/aws/announcing-amazon-sagemaker-ground-truth-plus/",
-          "publishedOn": "2021-12-01T18:00:17.000Z",
-          "wordCount": 1622,
-          "title": "Announcing Amazon SageMaker Ground Truth Plus – Create Training Datasets Without Code or In-house Resources"
-        },
-        {
-          "id": "0ca1e66606cb25277f37424382ba8f4fc650c532",
-          "author": "Marcia Villalba",
-          "description": "Today we are announcing Amazon DynamoDB Standard-Infrequent Access (DynamoDB Standard-IA). A new table class for DynamoDB that reduces storage costs by 60 percent compared to existing DynamoDB Standard tables, and that delivers the same performance, durability, and scaling. Nowadays, many customers are moving their infrequently accessed data between DynamoDB and Amazon Simple Storage Service (Amazon […]",
-          "link": "https://aws.amazon.com/blogs/aws/new-dynamodb-table-class-save-up-to-60-in-your-dynamodb-costs/",
-          "publishedOn": "2021-12-01T16:58:46.000Z",
-          "wordCount": 1042,
-          "title": "New DynamoDB Table Class – Save Up To 60% in Your DynamoDB Costs"
-        },
-        {
-          "id": "0a304ebf551106001072e05ee8faa86c88be77c3",
-          "author": "Channy Yun",
-          "description": "On October 26, 2021, we launched Amazon RDS Custom for Oracle, a managed database service for applications that require customization of the underlying operating system and database environment. RDS Custom lets you access and customize your database server host and operating system, for example, by applying special patches and changing the database software settings to […]",
-          "link": "https://aws.amazon.com/blogs/aws/new-amazon-rds-custom-for-sql-server-is-generally-available/",
-          "publishedOn": "2021-12-01T16:54:46.000Z",
-          "wordCount": 1689,
-          "title": "New – Amazon RDS Custom for SQL Server Is Generally Available"
-        },
-        {
-          "id": "0babac98dfd335531b1699c60e9d6bf5ef545aec",
-          "author": "Marcia Villalba",
-          "description": "Today we are announcing Amazon DevOps Guru for RDS, a new capability for Amazon DevOps Guru. It allows developers to easily detect, diagnose, and resolve performance and operational issues in Amazon Aurora. Hundreds of thousands of customers nowadays are using Amazon Aurora because it is highly available, scalable, and durable. But as applications grow in […]",
-          "link": "https://aws.amazon.com/blogs/aws/new-amazon-devops-guru-for-rds-to-detect-diagnose-and-resolve-amazon-aurora-related-issues-using-ml/",
-          "publishedOn": "2021-12-01T16:51:42.000Z",
-          "wordCount": 1454,
-          "title": "New – Amazon DevOps Guru for RDS to Detect, Diagnose, and Resolve Amazon Aurora-Related Issues using ML"
         }
       ]
     },
@@ -837,6 +657,33 @@
       "siteUrl": "https://xkcd.com/",
       "articles": [
         {
+          "id": "https://xkcd.com/2562/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/formatting_meeting.png\" title=\"Neither group uses iso 8601 because the big-endian enthusiasts were all at the meeting 20 years ago.\" alt=\"Neither group uses iso 8601 because the big-endian enthusiasts were all at the meeting 20 years ago.\" />",
+          "link": "https://xkcd.com/2562/",
+          "publishedOn": "2021-12-31T00:00:00.000Z",
+          "wordCount": 203,
+          "title": "Formatting Meeting"
+        },
+        {
+          "id": "https://xkcd.com/2561/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/moonfall.png\" title=\"Novel ideas and cool explosions are both good, but what I really want from a movie is novel ideas ABOUT cool explosions.\" alt=\"Novel ideas and cool explosions are both good, but what I really want from a movie is novel ideas ABOUT cool explosions.\" />",
+          "link": "https://xkcd.com/2561/",
+          "publishedOn": "2021-12-29T00:00:00.000Z",
+          "wordCount": 201,
+          "title": "Moonfall"
+        },
+        {
+          "id": "https://xkcd.com/2560/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/confounding_variables.png\" title=\"You can find a perfect correlation if you just control for the residual.\" alt=\"You can find a perfect correlation if you just control for the residual.\" />",
+          "link": "https://xkcd.com/2560/",
+          "publishedOn": "2021-12-27T00:00:00.000Z",
+          "wordCount": 203,
+          "title": "Confounding Variables"
+        },
+        {
           "id": "https://xkcd.com/2559/",
           "author": null,
           "description": "<img src=\"https://imgs.xkcd.com/comics/december_25th_launch.png\" title=\"Update: Santa has been destroyed by the range safety officer.\" alt=\"Update: Santa has been destroyed by the range safety officer.\" />",
@@ -844,33 +691,6 @@
           "publishedOn": "2021-12-24T00:00:00.000Z",
           "wordCount": 205,
           "title": "December 25th Launch"
-        },
-        {
-          "id": "https://xkcd.com/2558/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/rapid_test_results.png\" title=\"A solid red area with two white lines means that you have been infected with the anti-coronavirus, COVID+19, which will cure anyone you have close contact with.\" alt=\"A solid red area with two white lines means that you have been infected with the anti-coronavirus, COVID+19, which will cure anyone you have close contact with.\" />",
-          "link": "https://xkcd.com/2558/",
-          "publishedOn": "2021-12-22T00:00:00.000Z",
-          "wordCount": 205,
-          "title": "Rapid Test Results"
-        },
-        {
-          "id": "https://xkcd.com/2557/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/immunity.png\" title=\"This plan may sound appealing to people who know a little about the immune system, but the drawbacks are clear to people who know a lot about the immune system and also to people who don't know anything about it.\" alt=\"This plan may sound appealing to people who know a little about the immune system, but the drawbacks are clear to people who know a lot about the immune system and also to people who don't know anything about it.\" />",
-          "link": "https://xkcd.com/2557/",
-          "publishedOn": "2021-12-20T00:00:00.000Z",
-          "wordCount": 201,
-          "title": "Immunity"
-        },
-        {
-          "id": "https://xkcd.com/2556/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/turing_complete.png\" title=\"Thanks to the ForcedEntry exploit, your company's entire tech stack can now be hosted out of a PDF you texted to someone.\" alt=\"Thanks to the ForcedEntry exploit, your company's entire tech stack can now be hosted out of a PDF you texted to someone.\" />",
-          "link": "https://xkcd.com/2556/",
-          "publishedOn": "2021-12-17T00:00:00.000Z",
-          "wordCount": 203,
-          "title": "Turing Complete"
         }
       ]
     },
@@ -880,12 +700,21 @@
       "siteUrl": "https://camunda.com",
       "articles": [
         {
+          "id": "https://camunda.com/?p=15696",
+          "author": "Amy Johnston",
+          "description": "Explore the tools, technologies and sophistication that go into hyperautomation to evolve your automation strategy.\nThe post Three Things You Should Know About Hyperautomation appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2021/03/three-things-you-should-know-about-hyperautomation/",
+          "publishedOn": "2021-12-30T14:20:00.000Z",
+          "wordCount": 1820,
+          "title": "Three Things You Should Know About Hyperautomation"
+        },
+        {
           "id": "https://camunda.com/?p=39244",
           "author": "Bryan Grover",
           "description": "Legacy and homegrown infrastructure aren't keeping pace. Learn the 3 reasons why top enterprises are using automation to reach their goals. \nThe post 3 Reasons Why Top Enterprises Are Automating appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/12/3-reasons-why-top-enterprises-are-automating/",
           "publishedOn": "2021-12-21T14:45:00.000Z",
-          "wordCount": 2415,
+          "wordCount": 2413,
           "title": "3 Reasons Why Top Enterprises Are Automating"
         },
         {
@@ -894,7 +723,7 @@
           "description": "Discover why Apendo partnered with Camunda to automate citizen services for several municipalities and counting all over Sweden. \nThe post Building Smarter Cities with Process Automation appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/12/building-smarter-cities-with-process-automation/",
           "publishedOn": "2021-12-15T14:30:00.000Z",
-          "wordCount": 1921,
+          "wordCount": 1914,
           "title": "Building Smarter Cities with Process Automation"
         },
         {
@@ -903,7 +732,7 @@
           "description": "We're pleased to announce the second alpha release of Camunda Platform Runtime 7.17.0. Download Camunda for free or run it with Docker today. \nThe post Camunda Automation Platform 7.17.0-alpha2 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/12/camunda-automation-platform-7170-alpha2-released/",
           "publishedOn": "2021-12-15T02:50:45.000Z",
-          "wordCount": 1675,
+          "wordCount": 1678,
           "title": "Camunda Automation Platform 7.17.0-alpha2 Released"
         },
         {
@@ -912,7 +741,7 @@
           "description": "We’re excited to announce the release of Camunda Optimize 3.7.0-alpha2. Use your Camunda Enterprise Platform credentials to get started now.\nThe post Camunda Optimize 3.7.0-alpha2 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/12/camunda-optimize-3-7-0-alpha2-released/",
           "publishedOn": "2021-12-14T08:45:00.000Z",
-          "wordCount": 2265,
+          "wordCount": 2267,
           "title": "Camunda Optimize 3.7.0-alpha2 Released"
         },
         {
@@ -921,7 +750,7 @@
           "description": "We’re excited to announce the release of Camunda Cloud 1.3.0-alpha3. Sign up now to get started with Camunda Cloud 1.3.0-alpha3 right away!\nThe post Camunda Cloud 1.3.0-alpha3 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/12/camunda-cloud-1-3-0-alpha3-released/",
           "publishedOn": "2021-12-14T08:30:00.000Z",
-          "wordCount": 1423,
+          "wordCount": 1425,
           "title": "Camunda Cloud 1.3.0-alpha3 Released"
         },
         {
@@ -930,7 +759,7 @@
           "description": "Learn how the help of our process automation and support, made BT Media and Broadcast fully equipped to adapt for their clients' needs. \nThe post Behind the Scenes: BT Media and Broadcast Builds A Stronger Media Network with Camunda appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/12/behind-the-scenes-bt-media-and-broadcast-builds-a-stronger-media-network-with-camunda/",
           "publishedOn": "2021-12-13T14:15:00.000Z",
-          "wordCount": 1950,
+          "wordCount": 1952,
           "title": "Behind the Scenes: BT Media and Broadcast Builds A Stronger Media Network with Camunda"
         },
         {
@@ -939,26 +768,8 @@
           "description": "Take a moment sit back and browse these interesting holiday reading recommendations from Camunda colleagues and our community.\nThe post The Camunda Holiday Reading List 2021 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2021/12/the-camunda-holiday-reading-list-2021/",
           "publishedOn": "2021-12-08T02:15:00.000Z",
-          "wordCount": 2284,
+          "wordCount": 2286,
           "title": "The Camunda Holiday Reading List 2021"
-        },
-        {
-          "id": "https://camunda.com/?p=37914",
-          "author": "Christian Connors",
-          "description": "Get details on how solutions built with Camunda enabled Covea to organize data more effectively and create an even-stronger user experience.\nThe post The Secret Behind the IT Transformation of Covéa Insurance appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2021/12/the-secret-behind-the-it-transformation-of-covea-insurance/",
-          "publishedOn": "2021-12-02T14:00:00.000Z",
-          "wordCount": 1808,
-          "title": "The Secret Behind the IT Transformation of Covéa Insurance"
-        },
-        {
-          "id": "https://camunda.com/?p=37672",
-          "author": "Niall Deehan",
-          "description": "Learn how using Camunda’s process engine in your Java application will make development easier and save you time. \nThe post How Developing Java Apps is Easier with a Process Engine appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2021/11/how-developing-java-apps-is-easier-with-a-process-engine/",
-          "publishedOn": "2021-11-26T14:00:00.000Z",
-          "wordCount": 2189,
-          "title": "How Developing Java Apps is Easier with a Process Engine"
         }
       ]
     },
@@ -968,12 +779,26 @@
       "siteUrl": "https://tonarinoyj.jp/episode/13932016480028985383",
       "articles": [
         {
+          "id": "tonarino_yj:episode:3269754496666439231",
+          "author": "原作/ＯＮＥ/漫画/村田雄介",
+          "description": "ワンパンマン",
+          "link": "https://tonarinoyj.jp/episode/3269754496666439231",
+          "publishedOn": "2021-12-31T15:00:00.000Z",
+          "wordCount": 102,
+          "title": "[年賀状] ワンパンマン",
+          "enclosure": {
+            "url": "https://cdn-img.tonarinoyj.jp/public/episode-thumbnail/3269754496666439231-ef8f086ac68b55b5075bf20179af5de8",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
+        {
           "id": "tonarino_yj:episode:3269754496654874704",
           "author": "原作/ＯＮＥ/漫画/村田雄介",
           "description": "ワンパンマン",
           "link": "https://tonarinoyj.jp/episode/3269754496654874704",
           "publishedOn": "2021-12-17T15:00:00.000Z",
-          "wordCount": 103,
+          "wordCount": 102,
           "title": "[第200話] ワンパンマン",
           "enclosure": {
             "url": "https://cdn-img.tonarinoyj.jp/public/episode-thumbnail/3269754496654874704-9fa3d261b6ef62dc42e03a4a1b159e2e",
@@ -994,20 +819,6 @@
             "length": "0",
             "type": "image/jpeg"
           }
-        },
-        {
-          "id": "tonarino_yj:episode:3269754496620290741",
-          "author": "原作/ＯＮＥ/漫画/村田雄介",
-          "description": "ワンパンマン",
-          "link": "https://tonarinoyj.jp/episode/3269754496620290741",
-          "publishedOn": "2021-11-26T15:00:00.000Z",
-          "wordCount": 102,
-          "title": "[第198話] ワンパンマン",
-          "enclosure": {
-            "url": "https://cdn-img.tonarinoyj.jp/public/episode-thumbnail/3269754496620290741-5887ebef7d8cdda60fa72f308f75ba6b",
-            "length": "0",
-            "type": "image/jpeg"
-          }
         }
       ]
     },
@@ -1016,6 +827,15 @@
       "feedUrl": "https://github.com/blog/all.atom",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/2021-12-28-githubs-top-10-blog-posts-of-2021/",
+          "author": null,
+          "description": "As the year winds down, we're highlighting some of the incredible work from GitHub’s engineers, product teams, and security researchers.",
+          "link": "https://github.blog/2021-12-28-githubs-top-10-blog-posts-of-2021/",
+          "publishedOn": "2021-12-28T17:00:37.000Z",
+          "wordCount": 544,
+          "title": "GitHub’s top 10 blog posts of 2021"
+        },
         {
           "id": "https://github.blog/2021-12-21-how-github-contributed-santa-clara-principles-update/",
           "author": null,
@@ -1096,15 +916,6 @@
           "publishedOn": "2021-12-13T19:06:34.000Z",
           "wordCount": 838,
           "title": "GitHub’s response to Log4j vulnerability CVE-2021-44228"
-        },
-        {
-          "id": "https://github.blog/2021-12-13-whats-new-from-github-changelog-november-2021-recap/",
-          "author": null,
-          "description": "We shipped a ton of updates in November, from the push notification for PR review activities on the go, to an easy way to create Markdown links.",
-          "link": "https://github.blog/2021-12-13-whats-new-from-github-changelog-november-2021-recap/",
-          "publishedOn": "2021-12-13T17:45:31.000Z",
-          "wordCount": 1613,
-          "title": "What’s new from GitHub Changelog? November 2021 recap"
         }
       ]
     },
@@ -1125,7 +936,7 @@
           "description": "Project by Netflix’s Cloud Infrastructure Security team (Alex Bainbridge, Mike Grima, Nick Siow)",
           "link": "https://netflixtechblog.com/snaring-the-bad-folks-66726a1f4c80?source=rss----2615bd06b42e---4",
           "publishedOn": "2021-12-08T17:38:41.000Z",
-          "wordCount": 1670,
+          "wordCount": 1679,
           "title": "Snaring the Bad Folks"
         }
       ]
@@ -1215,24 +1026,6 @@
           "publishedOn": "2021-12-02T18:23:00.000Z",
           "wordCount": 2107,
           "title": "Evaluating Syntactic Abilities of Language Models"
-        },
-        {
-          "id": "http://ai.googleblog.com/2021/12/rlds-ecosystem-to-generate-share-and.html",
-          "author": null,
-          "description": "Posted by Sabela Ramos, Software Engineer and Léonard Hussenot, Student Researcher, Google Research, Brain Team \nMost reinforcement learning (RL) and sequential decision making algorithms require an agent to generate training data through large amounts of interactions with their environment to achieve optimal performance. This is highly inefficient, especially when generating those interactions is difficult, such as collecting data with a real robot or by interacting with a human expert. This issue can be mitigated by reusing external sources of knowledge, for example, the RL Unplugged Atari dataset, which includes data of a synthetic agent playing Atari games.  \n However, there are very few of these datasets and a variety of tasks and ways of generating data in sequential decision making …",
-          "link": "http://ai.googleblog.com/2021/12/rlds-ecosystem-to-generate-share-and.html",
-          "publishedOn": "2021-12-01T19:08:00.000Z",
-          "wordCount": 2134,
-          "title": "RLDS: An Ecosystem to Generate, Share, and Use Datasets in Reinforcement Learning"
-        },
-        {
-          "id": "http://ai.googleblog.com/2021/11/mural-multimodal-multi-task-retrieval.html",
-          "author": null,
-          "description": "Posted by Aashi Jain, AI Resident and Yinfei Yang, Staff Research Scientist, Google Research    \nFor many concepts, there is no direct one-to-one translation from one language to another, and even when there is, such translations often carry different associations and connotations that are easily lost for a non-native speaker. In such cases, however, the meaning may be more obvious when grounded in visual examples. Take, for instance, the word \"wedding\". In English, one often associates a bride in a white dress and a groom in a tuxedo, but when translated into Hindi (शादी), a more appropriate association may be a bride wearing vibrant colors and a groom wearing a sherwani. What each person associates with the word may vary considerably, but if they are shown an image of the intended concep…",
-          "link": "http://ai.googleblog.com/2021/11/mural-multimodal-multi-task-retrieval.html",
-          "publishedOn": "2021-11-30T21:03:00.001Z",
-          "wordCount": 2464,
-          "title": "MURAL: Multimodal, Multi-task Retrieval Across Languages"
         }
       ]
     }

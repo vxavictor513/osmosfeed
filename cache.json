@@ -6,6 +6,33 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2022/01/17/spring-rest-docs-3-0-0-m1",
+          "author": null,
+          "description": "On behalf of the team and everyone who has contributed, I am pleased to announce that Spring REST Docs 3.0.0-M1 is now available from https://repo.spring.io/milestone.\n\r\nThis initial 3.0 milestone contains 13 enhancements, documentation improvements, and dependency upgrades. It covers the baseline upgrade efforts, in particular requiring JDK 17 and Spring Framework 6 and migrating to the Jakarta EE 9 APIs as announced in this blog post.\n\r\nPlease note that support for REST Assured has been removed temporarily as it is not yet compatible with Jakarta EE 9. We hope to reinstate support in a subsequent milestone prior to 3.0’s release towards the end of this year.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
+          "link": "https://spring.io/blog/2022/01/17/spring-rest-docs-3-0-0-m1",
+          "publishedOn": "2022-01-17T17:51:06.000Z",
+          "wordCount": 492,
+          "title": "Spring REST Docs 3.0.0-M1"
+        },
+        {
+          "id": "https://spring.io/blog/2022/01/17/spring-security-6-0-0-m1-and-5-7-0-m1-available-now",
+          "author": null,
+          "description": "On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Security 6.0.0-M1 and 5.7.0-M1 are available now.\n\r\n\r\n\r\nThis initial 6.0 milestone covers the baseline upgrade efforts, in particular requiring JDK 17+ and migrating to the Jakarta EE 9 APIs, required by Spring Framework 6, as announced in this blog post.\n\r\n\r\n\r\nFor the release changes, please refer to the releases page.\n\r\n\r\n\r\nStay tuned for the announcement of Spring Boot 3.0.0-M1 this week!\n\r\n\r\n\r\nProject Site | Reference | Help",
+          "link": "https://spring.io/blog/2022/01/17/spring-security-6-0-0-m1-and-5-7-0-m1-available-now",
+          "publishedOn": "2022-01-17T16:00:00.000Z",
+          "wordCount": 465,
+          "title": "Spring Security 6.0.0-M1 and 5.7.0-M1 available now"
+        },
+        {
+          "id": "https://spring.io/blog/2022/01/17/spring-rest-docs-2-0-6-release",
+          "author": null,
+          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring REST Docs 2.0.6.RELEASE has been released and is now available from Maven Central.\n\r\nThis release includes 18 bug fixes and documentation improvements. Thanks to all those who have contributed with issue reports and pull requests.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
+          "link": "https://spring.io/blog/2022/01/17/spring-rest-docs-2-0-6-release",
+          "publishedOn": "2022-01-17T13:39:47.000Z",
+          "wordCount": 437,
+          "title": "Spring REST Docs 2.0.6.RELEASE"
+        },
+        {
           "id": "https://spring.io/blog/2022/01/14/spring-data-2021-1-sr1-and-2021-0-sr8-released",
           "author": null,
           "description": "On behalf of the team, I’m pleased to announce Spring Data service releases 2021.1.1 and 2020.0.8.\nBoth releases ship with mostly bug fixes and dependency upgrades.\nFor your convenience, Spring Boot will pick up the artifacts with its upcoming releases.\n\r\nTo round things off, here are the links to the artifacts, changelogs, and documentation:\n2021.1.1\n\r\n\r\n  \nSpring Data Commons 2.6.1 - Artifacts - Javadoc - Documentation - Changelog\n\r\n  \nSpring Data JDBC 2.3.1 - Artifacts - Javadoc - Documentation - Changelog\n\r\n  \nSpring Data JPA 2.6.1 - Artifacts - Javadoc - Documentation - Changelog\n\r\n  \nSpring Data MongoDB 3.3.1 - Artifacts - Javadoc - Documentation - Changelog\n\r\n  \nSpring Data KeyValue 2.6.1 - Artifacts - Javadoc - Documentation - Changelog\n\r\n  \nSpring Data for Apache Geode 2.6.1 - Art…",
@@ -157,33 +184,6 @@
           "publishedOn": "2021-12-21T21:25:00.000Z",
           "wordCount": 514,
           "title": "Spring Boot 2.6.2 available now"
-        },
-        {
-          "id": "https://spring.io/blog/2021/12/21/spring-boot-2-5-8-available-now",
-          "author": null,
-          "description": "Update Jan 5: 2022: The Spring Framework version in this release includes fixes for CVE-2021-22060 whose official publication was deferred until today since many people take time off at the end of the year.\n\r\nOn behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 2.5.8 has been released and is now available from Maven Central.\n\r\nThis release includes 46 bug fixes, documentation improvements, and dependency upgrades. Thanks to all those who have contributed with issue reports and pull requests.\nHow can you help?\n\r\nIf you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
-          "link": "https://spring.io/blog/2021/12/21/spring-boot-2-5-8-available-now",
-          "publishedOn": "2021-12-21T18:52:00.000Z",
-          "wordCount": 514,
-          "title": "Spring Boot 2.5.8 available now"
-        },
-        {
-          "id": "https://spring.io/blog/2021/12/21/spring-integration-5-5-7-available",
-          "author": null,
-          "description": "Dear Spring community,\n\r\n\r\n\r\nOn behalf of the team and all the contributors, it’s my pleasure to wish you a Merry Christmas and Happy New Year and present you a fresh Spring Integration 5.5.7 release.\n\r\n\r\n\r\nIt can be obtained from Maven Central and it is recommended to upgrade your projects or just pull it transitively from respective latest Spring Boot patch version!\n\r\n\r\n\r\n\r\ncompile 'org.springframework.integration:spring-integration-core:5.5.7'\n\r\n\r\n\r\n\r\nThe notable changes and important bug fixes are:\n\r\n\r\n\r\n\r\n\r\nJDBC message store SQL scripts now quote a CONDITION column name for those RDBMS vendors which have this word as reserved.\r\nIt is likely in the next major 6.0 version we will rename it to GROUP_CONDITION.\r\nSo, it is recommended to upgrade to this 5.5.7 version if you deal with Jdbc…",
-          "link": "https://spring.io/blog/2021/12/21/spring-integration-5-5-7-available",
-          "publishedOn": "2021-12-21T16:48:33.000Z",
-          "wordCount": 698,
-          "title": "Spring Integration 5.5.7 Available"
-        },
-        {
-          "id": "https://spring.io/blog/2021/12/21/this-week-in-spring-december-21st-2021",
-          "author": null,
-          "description": "Hi, Spring fans! What a crazy wonderful week it’s been and what a wonderful week it’ll be! It’s the holidays. I’ve set my out-of-office status and am already winding down for the year. You can expect new episodes of This Week in Spring and a Bootiful Podcast (@BootifulPodcast), of course, but I won’t be doing any new Spring Tips (@SpringTipsLive) videos until next year. That said, I can’t wait for you to see what I’m cooking up for the new installmetn of Spring Tips! It’s going to be a ton of fun! \n\r\nNow then, we’ve got a crazy amount of stuff to get to this week. Let’s dive right into it. It’ll be Christmas before we talk again, so Merry Christmas, if you celebrate that. Otherwise, I just hope you’re having a wonderful week. I look forward to next week’s installment where of course we’ll …",
-          "link": "https://spring.io/blog/2021/12/21/this-week-in-spring-december-21st-2021",
-          "publishedOn": "2021-12-21T08:00:00.000Z",
-          "wordCount": 724,
-          "title": "This Week in Spring - December 21st, 2021"
         }
       ]
     },
@@ -475,6 +475,15 @@
       "siteUrl": "https://devblogs.microsoft.com/devops",
       "articles": [
         {
+          "id": "https://devblogs.microsoft.com/devops/?p=63226",
+          "author": "Silviu",
+          "description": "Azure DevOps Server 2019 and 2020 use two different models for retaining builds. In Azure DevOps Server 2019, users configure retention settings for each pipeline. Organization-level defaults are applied if a pipeline is not explicitly configured for retention. Builds that are retained indefinitely or by releases are marked and handled using a common bit in the build record.\nThe post Safely Upgrade from Azure DevOps Server 2019 to Server 2020 appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/safely-upgrade-from-azure-devops-server-2019-to-server-2020/",
+          "publishedOn": "2022-01-17T16:00:58.000Z",
+          "wordCount": 1971,
+          "title": "Safely Upgrade from Azure DevOps Server 2019 to Server 2020"
+        },
+        {
           "id": "https://devblogs.microsoft.com/devops/?p=63237",
           "author": "Jay Gordon",
           "description": "The top stories from the #AzureDevOps #community for 2022.01.14 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2022.01.14 appeared first on Azure DevOps Blog.",
@@ -652,7 +661,7 @@
           "description": "We’re happy to announce the 1.9.0 release of Cawemo Enterprise On-Premises. If you’re not yet a Camunda customer, sign up for a free trial.\nThe post Cawemo Enterprise (On-Premises) 1.9.0 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/01/cawemo-enterprise-on-premises-1-9-0-released/",
           "publishedOn": "2022-01-11T08:20:00.000Z",
-          "wordCount": 1397,
+          "wordCount": 1398,
           "title": "Cawemo Enterprise (On-Premises) 1.9.0 Released"
         },
         {
@@ -661,7 +670,7 @@
           "description": "We’re excited to announce the release of Camunda Optimize 3.7.0. Download the release today or get a free 30-day trial.\nThe post Camunda Optimize 3.7.0 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/01/camunda-optimize-3-7-0-released/",
           "publishedOn": "2022-01-11T08:15:00.000Z",
-          "wordCount": 2875,
+          "wordCount": 2876,
           "title": "Camunda Optimize 3.7.0 Released"
         },
         {
@@ -679,7 +688,7 @@
           "description": "Learn how BuyBay worked with Camunda to enable more efficient operations of the reselling journey and automate key decision-making tasks.  \nThe post Reselling Made Easy: BuyBay Automates E-commerce Process with Camunda appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/01/reselling-made-easy-buybay-automates-e-commerce-process-with-camunda/",
           "publishedOn": "2022-01-06T14:30:00.000Z",
-          "wordCount": 2136,
+          "wordCount": 2137,
           "title": "Reselling Made Easy: BuyBay Automates E-commerce Process with Camunda"
         },
         {
@@ -861,7 +870,7 @@
           "description": "By Vikram Srivastava and Marcelo Mayworm",
           "link": "https://netflixtechblog.com/auto-diagnosis-and-remediation-in-netflix-data-platform-5bcc52d853d1?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-01-14T04:23:22.000Z",
-          "wordCount": 1574,
+          "wordCount": 1572,
           "title": "Auto-Diagnosis and Remediation in Netflix Data Platform"
         },
         {
@@ -870,7 +879,7 @@
           "description": "Martin Tingley with Wenjing Zheng, Simon Ejdemyr, Stephanie Lane, Colin McFarland, Andy Rhines, Sophia Liu, Mihir Tendulkar, Kevin…",
           "link": "https://netflixtechblog.com/experimentation-is-a-major-focus-of-data-science-across-netflix-f67923f8e985?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-01-11T16:09:13.000Z",
-          "wordCount": 4817,
+          "wordCount": 4834,
           "title": "Experimentation is a major focus of Data Science across Netflix"
         }
       ]
@@ -915,12 +924,21 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=42143",
+          "author": "Seth Godin",
+          "description": "That’s how culture perpetuates injustice and indignity. Because that’s just the way things are around here. But the status quo isn’t permanent. The world doesn’t stay the way it was. It changes. And it’s been changing faster than ever. It doesn’t change because the status quo sub-committee had a meeting and decided to change it. […]",
+          "link": "https://feeds.feedblitz.com/~/678378312/0/sethsblog~The-way-things-are/",
+          "publishedOn": "2022-01-17T09:15:00.000Z",
+          "wordCount": 233,
+          "title": "“The way things are”"
+        },
+        {
           "id": "https://seths.blog/?p=42159",
           "author": "Seth Godin",
           "description": "Freedom without consequences is a myth. Our actions always have consequences. The question is: who will bear them?",
           "link": "https://feeds.feedblitz.com/~/678279682/0/sethsblog~Whos-responsible/",
           "publishedOn": "2022-01-16T09:59:00.000Z",
-          "wordCount": 148,
+          "wordCount": 149,
           "title": "Who’s responsible?"
         },
         {
@@ -994,15 +1012,6 @@
           "publishedOn": "2022-01-08T09:35:00.000Z",
           "wordCount": 376,
           "title": "Coming soon"
-        },
-        {
-          "id": "https://seths.blog/?p=40112",
-          "author": "Seth Godin",
-          "description": "Technology is not neutral. It can’t be, because by definition, advances in tech create change, and change always creates positives and negatives. We now live in a time of rapid technological change, perhaps the biggest in 150 years. In the face of the overwhelming impact of tech, we might not be enjoying the ride. Sometimes […]",
-          "link": "https://feeds.feedblitz.com/~/677314222/0/sethsblog~Progress/",
-          "publishedOn": "2022-01-07T09:15:00.000Z",
-          "wordCount": 304,
-          "title": "Progress"
         }
       ]
     }

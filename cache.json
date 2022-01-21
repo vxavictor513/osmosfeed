@@ -6,6 +6,60 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2022/01/20/spring-boot-3-0-0-m1-is-now-available",
+          "author": null,
+          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 3.0.0-M1 has been released and is now available from https://repo.spring.io/milestone.\n\r\nThis milestone starts our exciting journey to the next generation of the Spring Framework and raises our baseline from Java 8 to Java 17. We are planning to release a new milestone of Spring Boot 3.0 every two months. M2 should arrive on March 24 and we are planning on a GA release in late November.\n\r\nIf you are trying an existing application with Spring Boot 3.0 you’ll need to be aware that we’ve migrated all Java EE APIs to their equivalent Jakarta EE variant. For most users, this means you’ll need to replace any javax imports with jakarta. For example, javax.servlet.Filter would be replaced with jakarta.servlet.Filter.\n\r\nWe’re still waiting for a few third-party libraries to release Jakarta EE compatible versions, so not all Spring Boot 2.x features are available with this first milestone. We plan to reintroduce features as and when libraries provide appropriate releases.\n\r\nPlease see the release notes for more details and upgrade instructions.\n\r\nIf you’re interested in trying this new release, you can easily generate a project from start.spring.io.\nThanks to all those who have contributed with issue reports and pull requests. \nHow can you help?\n\r\nIf you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
+          "link": "https://spring.io/blog/2022/01/20/spring-boot-3-0-0-m1-is-now-available",
+          "publishedOn": "2022-01-20T23:00:00.000Z",
+          "wordCount": 643,
+          "title": "Spring Boot 3.0.0-M1 is now available"
+        },
+        {
+          "id": "https://spring.io/blog/2022/01/20/a-bootiful-podcast-redhat-s-kate-stanley-on-the-distinction-between-traditional-brokers-and-apache-kafka",
+          "author": null,
+          "description": "Hi, Spring fans! In this installment Josh Long (@starbuxman) talks to returning guest RedHat’s Kate Stanley (@KateStanley91) on the distinction between traditional brokers and Apache Kafka.",
+          "link": "https://spring.io/blog/2022/01/20/a-bootiful-podcast-redhat-s-kate-stanley-on-the-distinction-between-traditional-brokers-and-apache-kafka",
+          "publishedOn": "2022-01-20T20:00:00.000Z",
+          "wordCount": 421,
+          "title": "A Bootiful Podcast: RedHat's Kate Stanley on the distinction between traditional brokers and Apache Kafka"
+        },
+        {
+          "id": "https://spring.io/blog/2022/01/20/spring-boot-2-7-0-m1-is-now-available",
+          "author": null,
+          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 2.7.0-M1 has been released and is now available from https://repo.spring.io/milestone.\n\r\nThis release includes 111 bug fixes, documentation improvements, and dependency upgrades. Notable new features include:\n\r\n\r\n  \nSpring GraphQL starter\n\r\n  \nOperating system and Java vendor information in actuator info endpoint\n\r\n  \nSupport for RabbitStreamTemplate\n\r\n\r\nPlease see the release notes for more details and upgrade instructions.\n\r\nThanks to all those who have contributed with issue reports and pull requests. \nHow can you help?\n\r\nIf you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
+          "link": "https://spring.io/blog/2022/01/20/spring-boot-2-7-0-m1-is-now-available",
+          "publishedOn": "2022-01-20T19:57:00.000Z",
+          "wordCount": 513,
+          "title": "Spring Boot 2.7.0-M1 is now available"
+        },
+        {
+          "id": "https://spring.io/blog/2022/01/20/spring-boot-2-6-3-is-now-available",
+          "author": null,
+          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 2.6.3 has been released and is now available from Maven Central.\n\r\nThis release includes 39 bug fixes, documentation improvements, and dependency upgrades. Thanks to all those who have contributed with issue reports and pull requests.\nHow can you help?\n\r\nIf you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
+          "link": "https://spring.io/blog/2022/01/20/spring-boot-2-6-3-is-now-available",
+          "publishedOn": "2022-01-20T15:25:35.000Z",
+          "wordCount": 482,
+          "title": "Spring Boot 2.6.3 is now available"
+        },
+        {
+          "id": "https://spring.io/blog/2022/01/20/spring-data-jdbc-how-can-i-do-a-partial-update-of-an-aggregate-root",
+          "author": null,
+          "description": "This is the fourth article of a series about how to tackle various challenges you might encounter when using Spring Data JDBC.\r\nThe series consists of:\n\r\n\r\n\r\n\r\n\r\nSpring Data JDBC - How to Use Custom ID Generation.\n\r\n\r\n\r\nSpring Data JDBC - How Do I Make Bidirectional Relationships?\n\r\n\r\n\r\nSpring Data JDBC - How Do I Implement Caching?\n\r\n\r\n\r\nSpring Data JDBC - How Can I Do a Partial Update of an Aggregate Root? (this article)\n\r\n\r\n\r\n\r\n\r\nIf you are new to Spring Data JDBC, you should start by reading introduction and this article, which explains the relevance of aggregates in the context of Spring Data JDBC. Trust me. It is important.\n\r\n\r\n\r\nSpring Data JDBC is built around the idea of aggregates and repositories.\r\nRepositories are collection-like objects that find, load, save, and delete aggreg…",
+          "link": "https://spring.io/blog/2022/01/20/spring-data-jdbc-how-can-i-do-a-partial-update-of-an-aggregate-root",
+          "publishedOn": "2022-01-20T13:18:00.000Z",
+          "wordCount": 1460,
+          "title": "Spring Data JDBC - How Can I Do a Partial Update of an Aggregate Root?"
+        },
+        {
+          "id": "https://spring.io/blog/2022/01/20/spring-boot-2-5-9-available-now",
+          "author": null,
+          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 2.5.9 has been released and is now available from Maven Central.\n\r\nThis release includes 32 bug fixes, documentation improvements, and dependency upgrades. Thanks to all those who have contributed with issue reports and pull requests.\nHow can you help?\n\r\nIf you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
+          "link": "https://spring.io/blog/2022/01/20/spring-boot-2-5-9-available-now",
+          "publishedOn": "2022-01-20T11:58:29.000Z",
+          "wordCount": 480,
+          "title": "Spring Boot 2.5.9 available now"
+        },
+        {
           "id": "https://spring.io/blog/2022/01/19/spring-batch-5-0-m1-released",
           "author": null,
           "description": "On behalf of the team and everyone who contributed, I am pleased to announce that the first milestone release of Spring Batch 5.0 is available now from https://repo.spring.io/milestone. This first milestone includes a number of major changes such as requiring Java 17+, migrating to Jakarta EE 9 APIs as well as upgrading our dependencies across the portfolio to major versions such as Spring Framework 6.0. For a complete list of changes, please check the change log.\n\r\nWe also took the opportunity of this major version to remove deprecated APIs and fix some issues that require non backward compatible changes. The migration guide contains more details about these changes and provides the upgrade instructions.\n\r\nAs we continue our work on Spring Batch 5, we look forward to your feedback on this first milestone!\n\r\nSpring Batch Home | Source on GitHub",
@@ -130,60 +184,6 @@
           "publishedOn": "2022-01-06T17:47:00.000Z",
           "wordCount": 817,
           "title": "Introducing Spring Integration Groovy DSL"
-        },
-        {
-          "id": "https://spring.io/blog/2022/01/05/spring-framework-cve-2021-22060-has-been-published",
-          "author": null,
-          "description": "The Spring Framework 5.3.14 and 5.2.19 releases on December 16 included fixes for CVE-2021-22060 and are a follow-up to CVE-2021-22096, to address additional types of input that can cause the issue. As the Spring Boot releases 2.6.2 and 2.5.8 picking up these Spring Framework versions were due the day before Christmas and given the medium severity, we postponed the announcement until after the new year, to avoid disclosure during a period when many take time off. Please, upgrade to those latest maintenance releases.",
-          "link": "https://spring.io/blog/2022/01/05/spring-framework-cve-2021-22060-has-been-published",
-          "publishedOn": "2022-01-06T00:00:00.000Z",
-          "wordCount": 460,
-          "title": "Spring Framework CVE-2021-22060 has been published"
-        },
-        {
-          "id": "https://spring.io/blog/2022/01/04/this-week-in-spring-11-year-anniversary-edition-january-4th-2022",
-          "author": null,
-          "description": "Hi, Spring fans! Welcome to another installment of This Week in Spring, the first in the new year! (Happy new year!) This week also marks the 11th anniversary of This Week in Spring, which I started writing on the first Tuesday of January 2011 thanks to a great idea from SpringSource co-founder and all-around good-guy Keith Donald (@kdonald). \n\r\nWhat a run! As always, I just wanna extend a heartfelt thanks to all of you who read (_suffer!_) my rambling writing every week. We’ve been lucky, as a community, to have presided over the most amazing and uplifting period in Spring and the JVM’s history… This roundup has reflected that with incredible stuff happening all the time. Where there’s smoke, there’s fire. The many blogs, articles, podcasts, YouTube (and ever so occasionally Vimeo) videos…",
-          "link": "https://spring.io/blog/2022/01/04/this-week-in-spring-11-year-anniversary-edition-january-4th-2022",
-          "publishedOn": "2022-01-04T11:00:00.000Z",
-          "wordCount": 884,
-          "title": "This Week in Spring (11 year anniversary edition!) - January 4th, 2022"
-        },
-        {
-          "id": "https://spring.io/blog/2021/12/30/a-bootiful-podcast-geertjan-wielenga-senior-director-of-opensource-projects-at-azul-systems-and-foojay-io-founder",
-          "author": null,
-          "description": "Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks (again!) to Java ecosystem legend and senior director of opensource projects at Azul Systems, Geertjan Wielenga (@GeertjanW). \n\r\nHappy new year, everyone!",
-          "link": "https://spring.io/blog/2021/12/30/a-bootiful-podcast-geertjan-wielenga-senior-director-of-opensource-projects-at-azul-systems-and-foojay-io-founder",
-          "publishedOn": "2021-12-30T10:25:00.000Z",
-          "wordCount": 428,
-          "title": "A Bootiful Podcast: Geertjan Wielenga, senior director of opensource projects at Azul Systems and Foojay.io founder"
-        },
-        {
-          "id": "https://spring.io/blog/2021/12/29/go-go-graalvm-with-spring-native-my-adventures-in-native-image-ville",
-          "author": null,
-          "description": "Hi, Spring fans! Happy new year! I can’t believe we quickly got this far, but we did. This last year’s been insanely busy, and one of the things I’ve most loved is all the opportunities to use Spring Native to build GraalVM-powered architecture-specific native images.\n\r\nWe released Spring Native 0.11, which is fantastic because it features a brand new AOT (ahead-of-time) engine that completely reworks how we transpile Spring Boot applications into GraalVM native images. I’ve been working with GraalVM a lot over the last two years, and this new release is a vast, revolutionary step in the story of Spring Native and a giant leap forward on the journey to Spring Framework 6 and Spring Boot 3, both of which will land in 2022. \n\r\nI’ve been tinkering with the new release a lot over the last mont…",
-          "link": "https://spring.io/blog/2021/12/29/go-go-graalvm-with-spring-native-my-adventures-in-native-image-ville",
-          "publishedOn": "2021-12-29T08:00:00.000Z",
-          "wordCount": 1472,
-          "title": "Go, Go, GraalVM with Spring Native: My Adventures in Native Image-ville"
-        },
-        {
-          "id": "https://spring.io/blog/2021/12/28/this-year-in-spring-december-28th-2021",
-          "author": null,
-          "description": "Hi, Spring fans! How’re you doin’? I’m fresh off a fantastic holiday spent with family in Los Angeles, California. Later today, the girls and I will drive home to San Francisco, California. I’ve enjoyed my visits with people here in Los Angeles, especially since it’s our first actual visit to Los Angeles before the pandemic. \n\r\nAnd now, (can you believe it?), we’re staring down the new year. As always, I will do my yearly This Year in Spring roundup, so stay tuned for that below, after our weekly roundup. So, without further ado, here’s the last This Week in Spring recap of 2021. \n\r\n\r\n  \nA Bootiful Podcast: HBase and Cassandra cofounder and Yugabyte CTO Karthik Ranganathan\n\r\n  \nMigrating a Spring Boot application to Java 17 – the hard way: Day 2\n\r\n  \nSpring Boot 2.5.8 available now\n\r\n  \nSp…",
-          "link": "https://spring.io/blog/2021/12/28/this-year-in-spring-december-28th-2021",
-          "publishedOn": "2021-12-28T08:00:00.000Z",
-          "wordCount": 1929,
-          "title": "This Year in Spring - December 28th, 2021"
-        },
-        {
-          "id": "https://spring.io/blog/2021/12/23/a-bootiful-podcast-hbase-and-cassandra-cofounder-and-yugabyte-cto-karthik-ranganathan",
-          "author": null,
-          "description": "Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks to Yugabyte CTO, Apache HBase and Apache Cassandra co-founder, and distributed database legend Karthik Ranganathan. (Merry Christmas, if you celebrate!)",
-          "link": "https://spring.io/blog/2021/12/23/a-bootiful-podcast-hbase-and-cassandra-cofounder-and-yugabyte-cto-karthik-ranganathan",
-          "publishedOn": "2021-12-23T12:00:00.000Z",
-          "wordCount": 419,
-          "title": "A Bootiful Podcast: HBase and Cassandra cofounder and Yugabyte CTO Karthik Ranganathan"
         }
       ]
     },
@@ -192,6 +192,15 @@
       "feedUrl": "https://www.hashicorp.com/blog/feed.xml",
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
+        {
+          "id": "https://www.hashicorp.com/blog/new-hcp-consul-ui-feature-speeds-setup-with-terraform",
+          "author": null,
+          "description": "HCP Consul users can now auto-generate ready-to-apply Terraform configurations to deploy HCP Consul end-to-end with a demo application in less than 20 minutes.",
+          "link": "https://www.hashicorp.com/blog/new-hcp-consul-ui-feature-speeds-setup-with-terraform",
+          "publishedOn": "2022-01-20T17:00:00.000Z",
+          "wordCount": 816,
+          "title": "New HCP Consul UI Feature Speeds Setup with Terraform"
+        },
         {
           "id": "https://www.hashicorp.com/blog/how-to-adopt-a-producer-consumer-model-for-hashicorp-vault",
           "author": null,
@@ -207,7 +216,7 @@
           "description": "HashiCorp has renewed its SOC II Type II report for HCP Vault and HCP Consul, and obtained ISO 27017 and ISO 27018 certificates for its cloud products.",
           "link": "https://www.hashicorp.com/blog/hashicorp-s-security-and-compliance-program-takes-another-step-forward",
           "publishedOn": "2022-01-14T17:00:00.000Z",
-          "wordCount": 673,
+          "wordCount": 670,
           "title": "HashiCorp’s Security and Compliance Program Takes Another Step Forward"
         },
         {
@@ -254,15 +263,6 @@
           "publishedOn": "2022-01-04T16:00:00.000Z",
           "wordCount": 576,
           "title": "HashiCorp Ambassador Call for Submissions 2022"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/hashitalks-2022-call-for-proposals",
-          "author": null,
-          "description": "HashiTalks, our annual, all-day virtual community event, returns for its fourth edition on Thursday, February 17, 2022. Submit your proposals now!",
-          "link": "https://www.hashicorp.com/blog/hashitalks-2022-call-for-proposals",
-          "publishedOn": "2021-12-21T17:00:00.000Z",
-          "wordCount": 742,
-          "title": "HashiTalks 2022 Call for Proposals"
         }
       ]
     },
@@ -271,6 +271,60 @@
       "feedUrl": "https://www.elastic.co/blog/feed",
       "siteUrl": "https://www.elastic.co",
       "articles": [
+        {
+          "id": "https://www.elastic.co/blog/bringing-home-the-beacon-cobalt-strike",
+          "author": "Derek Ditch,Daniel Stepanic,Andrew Pease,Elastic Security Intelligence & Analytics Team",
+          "description": "Learn how to extract Cobalt Strike beacon payloads from memory and use open source tools to analyze and group threat activity clusters.",
+          "link": "https://www.elastic.co/blog/bringing-home-the-beacon-cobalt-strike",
+          "publishedOn": "2022-01-20T18:00:00.000Z",
+          "wordCount": 543,
+          "title": "Bringing home the beacon (from Cobalt Strike)"
+        },
+        {
+          "id": "https://www.elastic.co/blog/bringing-home-the-beacon-cobalt-strike",
+          "author": "Derek Ditch,Daniel Stepanic,Andrew Pease,Elastic Security Intelligence & Analytics Team",
+          "description": ",\nElastic Security engineers have documented a less tedious way to find network beaconing from Cobalt Strike. In their full analysis ([1] [2]), Elastic Security team researchers Andrew Pease, Derek Ditch, and Daniel Stepanic walk users through the Elastic fleet policy, how to collect the beacon, beacon configuration, how to analyze its activity, and how you can set it up in your organization’s environment.\nThese two articles ([1] [2]) are ideal for helping security analysts identify, collect, and configure Cobalt Strike beacon payloads from an endpoint using Elastic. It is often difficult to collect the Cobalt Strike beacon payload from memory and extract its configuration to identify observables and cluster group activities, partially due to the tremendous amount of metadata the beacon’s configurations include.\nThe early stages of an intrusion usually include initial access, execution, persistence, and command-and-control (C2) beaconing. When structured threats use zero-days, these first two stages are often not detected, and it can often be challenging and time-consuming to identify persistence mechanisms left by an advanced adversary. \nThe information helps threat hunters and analysts monitor Cobalt Strike beaconing activity, but also provides useful indicators of compromise (IoCs) with which to start an investigation.\nIf you don’t have an Elastic Cloud cluster but would like to collect and configure the Cobalt Strike beacon, you can start a free 14-day trial of Elastic Cloud today.",
+          "link": "https://www.elastic.co/blog/bringing-home-the-beacon-cobalt-strike",
+          "publishedOn": "2022-01-20T18:00:00.000Z",
+          "wordCount": 543,
+          "title": "Bringing home the beacon (from Cobalt Strike)"
+        },
+        {
+          "id": "https://www.elastic.co/blog/three-ways-improved-elasticsearch-scalability",
+          "author": "Armin Braun,Leaf Lin",
+          "description": "Scale to new heights with Elasticsearch! In 7.16, we made several improvements for faster search, more stable clusters, and a reduced heap footprint.",
+          "link": "https://www.elastic.co/blog/three-ways-improved-elasticsearch-scalability",
+          "publishedOn": "2022-01-20T15:00:00.000Z",
+          "wordCount": 1466,
+          "title": "Three ways we've improved Elasticsearch scalability"
+        },
+        {
+          "id": "https://www.elastic.co/blog/three-ways-improved-elasticsearch-scalability",
+          "author": "Armin Braun,Leaf Lin",
+          "description": "One finds limits by pushing them. –Herbert A. Simon,,,\nAt Elastic, we focus on bringing value to users through fast results that operate at scale and are relevant — speed, scale, and relevance are in our DNA. In Elasticsearch 7.16, we focused on scale, pushing the limits of Elasticsearch to make search even faster, memory less demanding, and clusters more stable. Along the way, we uncovered a range of dimensions on sharding and in the process sped up Elasticsearch to new heights. \nHistorically, we’ve recommended avoiding creating a gazillion shards in your cluster due to the resource overhead involved. However, with the new data streams indexing strategy in Fleet, more and more smaller shards will be generated from security and observability use cases, so it’s essential that we find new wa…",
+          "link": "https://www.elastic.co/blog/three-ways-improved-elasticsearch-scalability",
+          "publishedOn": "2022-01-20T15:00:00.000Z",
+          "wordCount": 1466,
+          "title": "Three ways we've improved Elasticsearch scalability"
+        },
+        {
+          "id": "https://www.elastic.co/blog/new-range-enrich-policy-elasticsearch-contextual-data-analysis",
+          "author": "Michael Bischoff",
+          "description": "Elasticsearch 7.16 introduced a new enrich policy: range. We’ll showcase a fictional example matching incidents with on-call schedules using the date_range type.",
+          "link": "https://www.elastic.co/blog/new-range-enrich-policy-elasticsearch-contextual-data-analysis",
+          "publishedOn": "2022-01-20T07:00:00.000Z",
+          "wordCount": 1033,
+          "title": "Elasticsearch’s new range enrich policy enables a new level of contextual data analysis"
+        },
+        {
+          "id": "https://www.elastic.co/blog/new-range-enrich-policy-elasticsearch-contextual-data-analysis",
+          "author": "Michael Bischoff",
+          "description": ",\nElasticsearch 7.16 introduced a new enrich policy: range. The range policy allows one to match a number, date, or IP address in incoming documents to a range of the same type in the enrich index. Being able to match against an IP range can be specifically useful in security use cases where the additional metadata can be used to further refine detection rules. As we’ve already added an example to our documentation using IP ranges, we’ll go through an example here using the date_range type.\nOur fictional example: incidents and on-call schedules\nSay we have a number of on-call schedules and we want to add them to Elasticsearch so that each continuous shift is a document. Let’s introduce our fictional test cases: Bob, Alice, Dan, Matt and Lizzie.\nBob likes to work Nine-to-Six taking an hour …",
+          "link": "https://www.elastic.co/blog/new-range-enrich-policy-elasticsearch-contextual-data-analysis",
+          "publishedOn": "2022-01-20T07:00:00.000Z",
+          "wordCount": 1033,
+          "title": "Elasticsearch’s new range enrich policy enables a new level of contextual data analysis"
+        },
         {
           "id": "https://www.elastic.co/blog/elastic-security-verifies-operation-bleeding-bear",
           "author": "Elastic Security Intelligence & Analytics Team",
@@ -396,60 +450,6 @@
           "publishedOn": "2022-01-13T21:00:00.000Z",
           "wordCount": 988,
           "title": "Investigate Log4Shell exploits with Elastic Security and Observability"
-        },
-        {
-          "id": "https://www.elastic.co/blog/someone-like-me-marketing-leader-finds-support-during-child-transition",
-          "author": "Elastic Culture",
-          "description": "One of our Elasticians shares a personal story that exemplifies the power of  \"Come as YOU are\" at Elastic, and how Elastic truly supports its employees in giving them the time and space to be family-first.",
-          "link": "https://www.elastic.co/blog/someone-like-me-marketing-leader-finds-support-during-child-transition",
-          "publishedOn": "2022-01-13T18:00:00.000Z",
-          "wordCount": 694,
-          "title": "Someone Like Me:  A marketing leader finds support during her child’s transition"
-        },
-        {
-          "id": "https://www.elastic.co/blog/identifying-beaconing-malware-using-elastic",
-          "author": "Apoorva Joshi,Thomas Veasey,Craig Chamberlain",
-          "description": "In this blog, we walk users through identifying beaconing malware in their environment using our beaconing identification framework.",
-          "link": "https://www.elastic.co/blog/identifying-beaconing-malware-using-elastic",
-          "publishedOn": "2022-01-13T18:00:00.000Z",
-          "wordCount": 2333,
-          "title": "Identifying beaconing malware using Elastic"
-        },
-        {
-          "id": "https://www.elastic.co/blog/someone-like-me-marketing-leader-finds-support-during-child-transition",
-          "author": "Elastic Culture",
-          "description": ",My first week at Elastic, I showed up to orientation and sat next to a trans woman with bright blue hair. That evening, at a welcome reception with executives all in casual attire, a male colleague arrived wearing a black skirt and combat boots. It was pretty obvious from Day 1 that Come as YOU Are was not lip service, it was truly part of our source code. \nAs the years of my Elastic journey progressed, kindness, empathy and understanding for all employees has permeated the culture via emails, corporate policies and conversations. It’s always a pleasure to work in an inclusive and warm environment, but one day I found myself needing some extra understanding and a bit of breathing space. \nI consider myself a pretty buttoned-up person. I’m someone with dentist appointments booked six months…",
-          "link": "https://www.elastic.co/blog/someone-like-me-marketing-leader-finds-support-during-child-transition",
-          "publishedOn": "2022-01-13T18:00:00.000Z",
-          "wordCount": 694,
-          "title": "Someone Like Me:  A marketing leader finds support during her child’s transition"
-        },
-        {
-          "id": "https://www.elastic.co/blog/identifying-beaconing-malware-using-elastic",
-          "author": "Apoorva Joshi,Thomas Veasey,Craig Chamberlain",
-          "description": ",\nThe early stages of an intrusion usually include initial access, execution, persistence, and command-and-control (C2) beaconing. When structured threats use zero-days, these first two stages are often not detected. It can often be challenging and time-consuming to identify persistence mechanisms left by an advanced adversary as we saw in the 2020 SUNBURST supply chain compromise. Could we then have detected SUNBURST in the initial hours or days by finding its C2 beacon?\nThe potential for beaconing detection is that it can serve as an early warning system and help discover novel persistence mechanisms in the initial hours or days after execution. This allows defenders to disrupt or evict the threat actor before they can achieve their objectives. So, while we are not quite \"left of boom\" b…",
-          "link": "https://www.elastic.co/blog/identifying-beaconing-malware-using-elastic",
-          "publishedOn": "2022-01-13T18:00:00.000Z",
-          "wordCount": 2333,
-          "title": "Identifying beaconing malware using Elastic"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-stack-6-8-23-released",
-          "author": "Quin Hoxie",
-          "description": "Elastic Stack 6.8.23 has been released with Log4j updates. Read about the updates and bug fixes that have been included in Kibana, Elasticsearch, Beats, Logstash.",
-          "link": "https://www.elastic.co/blog/elastic-stack-6-8-23-released",
-          "publishedOn": "2022-01-13T17:00:00.000Z",
-          "wordCount": 361,
-          "title": "Elastic Stack 6.8.23 released with Log4j update"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-stack-6-8-23-released",
-          "author": "Quin Hoxie",
-          "description": ",\nVersion 6.8.23 of the Elastic Stack was released today. We recommend you upgrade to this latest version.\nThe 6.8.23 patch release contains an updated version of Log4j (2.17.1) for both Elasticsearch and Logstash.\nFor a full list of changes for each product, please refer to the release notes:\n6.8.23 release notes\nElastic Stack\n\nElasticsearch\nKibana\nBeats\nLogstash",
-          "link": "https://www.elastic.co/blog/elastic-stack-6-8-23-released",
-          "publishedOn": "2022-01-13T17:00:00.000Z",
-          "wordCount": 361,
-          "title": "Elastic Stack 6.8.23 released with Log4j update"
         }
       ]
     },
@@ -457,17 +457,7 @@
       "title": "Ansible Blog",
       "feedUrl": "https://www.ansible.com/blog/rss.xml",
       "siteUrl": "https://www.ansible.com/blog",
-      "articles": [
-        {
-          "id": "https://www.ansible.com/blog/top-5-ansible-automation-platform-blogs-2021",
-          "author": "trmcconn@redhat.com (Tricia McConnell)",
-          "description": "A end-of-year roundup of the most read blogs in 2021 for Red Hat Ansible Automation Platform.",
-          "link": "https://www.ansible.com/blog/top-5-ansible-automation-platform-blogs-2021",
-          "publishedOn": "2021-12-21T14:15:00.000Z",
-          "wordCount": 1300,
-          "title": "The top 5 Ansible Automation Platform blogs of 2021"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Azure DevOps Blog",
@@ -486,11 +476,11 @@
         {
           "id": "https://devblogs.microsoft.com/devops/?p=63226",
           "author": "Silviu",
-          "description": "Azure DevOps Server 2019 and 2020 use two different models for retaining builds. In Azure DevOps Server 2019, users configure retention settings for each pipeline. Organization-level defaults are applied if a pipeline is not explicitly configured for retention. Builds that are retained indefinitely or by releases are marked and handled using a common bit in the build record.\nThe post Safely Upgrade from Azure DevOps Server 2019 to Server 2020 appeared first on Azure DevOps Blog.",
+          "description": "Azure DevOps Server 2019 and 2020 use two different models for retaining builds. In Azure DevOps Server 2019, users configure retention settings for each pipeline. Organization-level defaults are applied if a pipeline is not explicitly configured for retention. Builds that are retained indefinitely or by releases are marked and handled using a common bit in the build record.\nThe post Safely Upgrade Your Pipelines from Azure DevOps Server 2019 to Server 2020 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/safely-upgrade-from-azure-devops-server-2019-to-server-2020/",
           "publishedOn": "2022-01-17T16:00:58.000Z",
-          "wordCount": 2506,
-          "title": "Safely Upgrade from Azure DevOps Server 2019 to Server 2020"
+          "wordCount": 2510,
+          "title": "Safely Upgrade Your Pipelines from Azure DevOps Server 2019 to Server 2020"
         },
         {
           "id": "https://devblogs.microsoft.com/devops/?p=63237",
@@ -498,7 +488,7 @@
           "description": "The top stories from the #AzureDevOps #community for 2022.01.14 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2022.01.14 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2022-01-14/",
           "publishedOn": "2022-01-14T09:00:19.000Z",
-          "wordCount": 1917,
+          "wordCount": 1936,
           "title": "Top Stories from the Microsoft DevOps Community – 2022.01.14"
         },
         {
@@ -647,12 +637,21 @@
       "siteUrl": "https://camunda.com",
       "articles": [
         {
+          "id": "https://camunda.com/?p=41026",
+          "author": "DevRels Team",
+          "description": "Dive into our answers for the top-ranked questions from our recent webinar, Looking Back to the Future: 5 Process Automation Trends in 2022.\nThe post 2022 Automation Trends, Questions and Answers appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2022/01/2022-automation-trends-questions-and-answers/",
+          "publishedOn": "2022-01-20T14:00:00.000Z",
+          "wordCount": 2382,
+          "title": "2022 Automation Trends, Questions and Answers"
+        },
+        {
           "id": "https://camunda.com/?p=40654",
           "author": "Camunda Platform Team",
           "description": "We are pleased to announce the third alpha release of Camunda Platform Runtime 7.17. This release features the following improvements: Camunda Run improvements 3 Bug Fixes You can download Camunda Platform Runtime 7.17.0 for free or run it with Docker. For a complete list of all improvements, take a look at the release notes. Please also see the list of known issues. If you want to dig in deeper, you can find the source code on GitHub. Camunda Run improvements We are constantly working to get the Camunda Run distro closer to what is offered from our other Camunda distros. The 7.17.0-alpha3 release provides a start to the improvements of the Camunda Run distro. Groovy scripting engine included A large...\nThe post Camunda Platform Runtime 7.17-alpha3 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/01/camunda-automation-platform-7170-alpha3-released/",
           "publishedOn": "2022-01-19T15:28:50.000Z",
-          "wordCount": 1493,
+          "wordCount": 1498,
           "title": "Camunda Platform Runtime 7.17-alpha3 Released"
         },
         {
@@ -661,7 +660,7 @@
           "description": "Let us help you make your external client claim a task, complete it, and return control to your Camunda process.\nThe post Q&A: How Can I Complete a Service Task via the REST API? appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/01/qa-how-can-i-complete-a-service-task-via-the-rest-api/",
           "publishedOn": "2022-01-18T14:00:00.000Z",
-          "wordCount": 2545,
+          "wordCount": 2549,
           "title": "Q&A: How Can I Complete a Service Task via the REST API?"
         },
         {
@@ -670,7 +669,7 @@
           "description": "Curious about security between components? Take a look at Zeebe’s communication channels and how to secure them in a production deployment.\nThe post Securing Zeebe’s gRPC Communication appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/01/securing-zeebes-grpc-communication/",
           "publishedOn": "2022-01-14T14:00:00.000Z",
-          "wordCount": 2616,
+          "wordCount": 2623,
           "title": "Securing Zeebe’s gRPC Communication"
         },
         {
@@ -679,7 +678,7 @@
           "description": "Introducing Zeebe-Process-Test featured in the 1.3.0 release. Learn how you can unit test BPMN processes for Camunda Cloud and Zeebe.\nThe post Testing Processes for Camunda Cloud and Zeebe appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/01/testing-processes-for-camunda-cloud-and-zeebe/",
           "publishedOn": "2022-01-11T21:54:38.000Z",
-          "wordCount": 1810,
+          "wordCount": 1817,
           "title": "Testing Processes for Camunda Cloud and Zeebe"
         },
         {
@@ -688,7 +687,7 @@
           "description": "We’re happy to announce the 1.9.0 release of Cawemo Enterprise On-Premises. If you’re not yet a Camunda customer, sign up for a free trial.\nThe post Cawemo Enterprise (On-Premises) 1.9.0 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/01/cawemo-enterprise-on-premises-1-9-0-released/",
           "publishedOn": "2022-01-11T08:20:00.000Z",
-          "wordCount": 1495,
+          "wordCount": 1499,
           "title": "Cawemo Enterprise (On-Premises) 1.9.0 Released"
         },
         {
@@ -697,7 +696,7 @@
           "description": "We’re excited to announce the release of Camunda Optimize 3.7.0. Download the release today or get a free 30-day trial.\nThe post Camunda Optimize 3.7.0 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/01/camunda-optimize-3-7-0-released/",
           "publishedOn": "2022-01-11T08:15:00.000Z",
-          "wordCount": 2973,
+          "wordCount": 2977,
           "title": "Camunda Optimize 3.7.0 Released"
         },
         {
@@ -706,7 +705,7 @@
           "description": "Learn how the Camunda Cloud 1.3.0 release allows Java developers to add automated testing of BPMN process diagrams to their CI/CD pipelines.\nThe post Camunda Cloud 1.3.0 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/01/camunda-cloud-1-3-0-released/",
           "publishedOn": "2022-01-11T08:00:00.000Z",
-          "wordCount": 2673,
+          "wordCount": 2677,
           "title": "Camunda Cloud 1.3.0 Released"
         },
         {
@@ -715,7 +714,7 @@
           "description": "Learn how BuyBay worked with Camunda to enable more efficient operations of the reselling journey and automate key decision-making tasks.  \nThe post Reselling Made Easy: BuyBay Automates E-commerce Process with Camunda appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/01/reselling-made-easy-buybay-automates-e-commerce-process-with-camunda/",
           "publishedOn": "2022-01-06T14:30:00.000Z",
-          "wordCount": 2139,
+          "wordCount": 2138,
           "title": "Reselling Made Easy: BuyBay Automates E-commerce Process with Camunda"
         },
         {
@@ -724,17 +723,8 @@
           "description": "Do you have a truly innovative enterprise? Explore what exactly a legacy mindset is, and how to overcome one in your organization.\nThe post How to Overcome a Legacy Mindset appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/01/how-to-overcome-a-legacy-mindset/",
           "publishedOn": "2022-01-04T14:30:00.000Z",
-          "wordCount": 2228,
+          "wordCount": 2227,
           "title": "How to Overcome a Legacy Mindset"
-        },
-        {
-          "id": "https://camunda.com/?p=15696",
-          "author": "Amy Johnston",
-          "description": "Explore the tools, technologies and sophistication that go into hyperautomation to evolve your automation strategy.\nThe post Three Things You Should Know About Hyperautomation appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2021/03/three-things-you-should-know-about-hyperautomation/",
-          "publishedOn": "2021-12-30T14:20:00.000Z",
-          "wordCount": 1869,
-          "title": "Three Things You Should Know About Hyperautomation"
         }
       ]
     },
@@ -779,12 +769,21 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/2022-01-20-open-source-creates-value-but-how-do-you-measure-it/",
+          "author": null,
+          "description": "When digital infrastructure is overlooked by governments, it isn't just a missed opportunity: policies may inadvertently endanger open source collaboration.",
+          "link": "https://github.blog/2022-01-20-open-source-creates-value-but-how-do-you-measure-it/",
+          "publishedOn": "2022-01-20T16:58:28.000Z",
+          "wordCount": 1576,
+          "title": "Open source creates value, but how do you measure it?"
+        },
+        {
           "id": "https://github.blog/2022-01-19-reducing-security-risk-oss-actions-opensff-scorecards-v4/",
           "author": null,
           "description": "We’re excited to announce the V4 release of the OpenSSF’s Scorecard project in partnership with Google.",
           "link": "https://github.blog/2022-01-19-reducing-security-risk-oss-actions-opensff-scorecards-v4/",
           "publishedOn": "2022-01-19T15:00:02.000Z",
-          "wordCount": 644,
+          "wordCount": 633,
           "title": "Reducing security risk in open source software with GitHub Actions and OpenSSF Scorecards V4"
         },
         {
@@ -793,7 +792,7 @@
           "description": "With the successful liftoff of the James Webb Space Telescope, we ask our very own Arfon Smith about the history of open source and space science.",
           "link": "https://github.blog/2022-01-18-how-open-source-is-supporting-nasas-new-eyes-in-space/",
           "publishedOn": "2022-01-18T17:41:41.000Z",
-          "wordCount": 1716,
+          "wordCount": 1718,
           "title": "How open source is supporting NASA’s new eyes in space"
         },
         {
@@ -802,7 +801,7 @@
           "description": "Here are the top games created in our annual game jam as rated and reviewed by the developers that made them. Game On! 🤘🏻",
           "link": "https://github.blog/2022-01-13-top-entries-from-game-off-2021/",
           "publishedOn": "2022-01-13T20:23:31.000Z",
-          "wordCount": 1944,
+          "wordCount": 1946,
           "title": "Top-rated entries from Game Off 2021"
         },
         {
@@ -820,7 +819,7 @@
           "description": "My colleague Stormy Peters and I are proud to represent GitHub at the White House’s Open Source Software Security Summit to share how securing open source begins by empowering developers.",
           "link": "https://github.blog/2022-01-13-open-source-software-security-summit-securing-the-worlds-code-together/",
           "publishedOn": "2022-01-13T10:00:24.000Z",
-          "wordCount": 904,
+          "wordCount": 905,
           "title": "The Open Source Software Security Summit: securing the world’s code together"
         },
         {
@@ -858,15 +857,6 @@
           "publishedOn": "2021-12-28T17:00:37.000Z",
           "wordCount": 544,
           "title": "GitHub’s top 10 blog posts of 2021"
-        },
-        {
-          "id": "https://github.blog/2021-12-21-how-github-contributed-santa-clara-principles-update/",
-          "author": null,
-          "description": "GitHub was honored to contribute to the Santa Clara Principles on Transparency and Accountability in Content Moderation 2.0.",
-          "link": "https://github.blog/2021-12-21-how-github-contributed-santa-clara-principles-update/",
-          "publishedOn": "2021-12-21T17:55:56.000Z",
-          "wordCount": 1162,
-          "title": "How GitHub contributed to the Santa Clara Principles update"
         }
       ]
     },
@@ -897,7 +887,7 @@
           "description": "By Vikram Srivastava and Marcelo Mayworm",
           "link": "https://netflixtechblog.com/auto-diagnosis-and-remediation-in-netflix-data-platform-5bcc52d853d1?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-01-14T04:23:22.000Z",
-          "wordCount": 1563,
+          "wordCount": 1579,
           "title": "Auto-Diagnosis and Remediation in Netflix Data Platform"
         },
         {
@@ -906,7 +896,7 @@
           "description": "Martin Tingley with Wenjing Zheng, Simon Ejdemyr, Stephanie Lane, Colin McFarland, Andy Rhines, Sophia Liu, Mihir Tendulkar, Kevin…",
           "link": "https://netflixtechblog.com/experimentation-is-a-major-focus-of-data-science-across-netflix-f67923f8e985?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-01-11T16:09:13.000Z",
-          "wordCount": 4819,
+          "wordCount": 4817,
           "title": "Experimentation is a major focus of Data Science across Netflix"
         }
       ]
@@ -948,8 +938,8 @@
           "author": null,
           "description": "Posted by Jeff Dean, Senior Fellow and SVP of Google Research, on behalf of the entire Google Research community\nOver the last several decades, I've witnessed a lot of change in the fields of machine learning (ML) and computer science. Early approaches, which often fell short, eventually gave rise to modern approaches that have been very successful. Following that long-arc pattern of progress, I think we'll see a number of exciting advances over the next several years, advances that will ultimately benefit the lives of billions of people with greater impact than ever before. In this post, I’ll highlight five areas where ML is poised to have such impact. For each, I’ll discuss related research (mostly from 2021) and the directions and progress we’ll likely see in the next few years. \n      …",
           "link": "http://ai.googleblog.com/2022/01/google-research-themes-from-2021-and.html",
-          "publishedOn": "2022-01-11T19:01:00.006Z",
-          "wordCount": 12011,
+          "publishedOn": "2022-01-11T19:01:00.007Z",
+          "wordCount": 12031,
           "title": "Google Research: Themes from 2021 and Beyond"
         }
       ]
@@ -960,12 +950,21 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=42172",
+          "author": "Seth Godin",
+          "description": "Why are we more likely to take off our masks or avoid social distancing with a group of friends at a party instead of strangers on the train? Why do we drive more carefully in a new neighborhood instead of near our home? Why trust the advice of a doctor who looks like us, or […]",
+          "link": "https://feeds.feedblitz.com/~/678728744/0/sethsblog~Fear-of-strangers/",
+          "publishedOn": "2022-01-20T09:27:00.000Z",
+          "wordCount": 228,
+          "title": "Fear of strangers"
+        },
+        {
           "id": "https://seths.blog/?p=41261",
           "author": "Seth Godin",
           "description": "In settings where sorting is difficult, half a bushel of perfect apples is worth more than a full bushel with a rotten apple in it. One bad apple can spoil a whole bunch. We pay a significant premium for pre-selection, confidence and a guarantee. Sorting adds value.",
           "link": "https://feeds.feedblitz.com/~/678594420/0/sethsblog~The-myth-about-the-apples/",
           "publishedOn": "2022-01-19T09:33:00.000Z",
-          "wordCount": 183,
+          "wordCount": 184,
           "title": "The myth about the apples"
         },
         {
@@ -1039,15 +1038,6 @@
           "publishedOn": "2022-01-11T09:31:00.000Z",
           "wordCount": 234,
           "title": "Flow (and progress)"
-        },
-        {
-          "id": "https://seths.blog-production.mystagingwebsite.com/?p=30765",
-          "author": "Seth Godin",
-          "description": "First, we have to see them. Some people, no matter how fast or slow their friends are walking, always walk a step behind. Or perhaps you need to live in the nicest house on the block, or drive the fanciest car. There are people who can’t rest until they know that they’re at the top […]",
-          "link": "https://feeds.feedblitz.com/~/677621776/0/sethsblog~Dancing-with-status-roles/",
-          "publishedOn": "2022-01-10T09:59:00.000Z",
-          "wordCount": 386,
-          "title": "Dancing with status roles"
         }
       ]
     }

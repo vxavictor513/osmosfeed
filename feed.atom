@@ -1,10 +1,264 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-01-20T01:15:15.061Z</id>
+    <id>urn:2022-01-21T01:02:06.467Z</id>
     <title>osmos::feed</title>
-    <updated>2022-01-20T01:15:15.061Z</updated>
+    <updated>2022-01-21T01:02:06.467Z</updated>
     <generator>osmosfeed 1.12.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Spring Boot 3.0.0-M1 is now available]]></title>
+        <id>https://spring.io/blog/2022/01/20/spring-boot-3-0-0-m1-is-now-available</id>
+        <link href="https://spring.io/blog/2022/01/20/spring-boot-3-0-0-m1-is-now-available"/>
+        <updated>2022-01-20T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 3.0.0-M1 has been released and is now available from https://repo.spring.io/milestone.
+
+This milestone starts our exciting journey to the next generation of the Spring Framework and raises our baseline from Java 8 to Java 17. We are planning to release a new milestone of Spring Boot 3.0 every two months. M2 should arrive on March 24 and we are planning on a GA release in late November.
+
+If you are trying an existing application with Spring Boot 3.0 you’ll need to be aware that we’ve migrated all Java EE APIs to their equivalent Jakarta EE variant. For most users, this means you’ll need to replace any javax imports with jakarta. For example, javax.servlet.Filter would be replaced with jakarta.servlet.Filter.
+
+We’re still waiting for a few third-party libraries to release Jakarta EE compatible versions, so not all Spring Boot 2.x features are available with this first milestone. We plan to reintroduce features as and when libraries provide appropriate releases.
+
+Please see the release notes for more details and upgrade instructions.
+
+If you’re interested in trying this new release, you can easily generate a project from start.spring.io.
+Thanks to all those who have contributed with issue reports and pull requests. 
+How can you help?
+
+If you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.
+
+Project Page | GitHub | Issues | Documentation | Stack Overflow | Gitter]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Bootiful Podcast: RedHat's Kate Stanley on the distinction between traditional brokers and Apache Kafka]]></title>
+        <id>https://spring.io/blog/2022/01/20/a-bootiful-podcast-redhat-s-kate-stanley-on-the-distinction-between-traditional-brokers-and-apache-kafka</id>
+        <link href="https://spring.io/blog/2022/01/20/a-bootiful-podcast-redhat-s-kate-stanley-on-the-distinction-between-traditional-brokers-and-apache-kafka"/>
+        <updated>2022-01-20T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hi, Spring fans! In this installment Josh Long (@starbuxman) talks to returning guest RedHat’s Kate Stanley (@KateStanley91) on the distinction between traditional brokers and Apache Kafka.]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Boot 2.7.0-M1 is now available]]></title>
+        <id>https://spring.io/blog/2022/01/20/spring-boot-2-7-0-m1-is-now-available</id>
+        <link href="https://spring.io/blog/2022/01/20/spring-boot-2-7-0-m1-is-now-available"/>
+        <updated>2022-01-20T19:57:00.000Z</updated>
+        <summary type="html"><![CDATA[On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 2.7.0-M1 has been released and is now available from https://repo.spring.io/milestone.
+
+This release includes 111 bug fixes, documentation improvements, and dependency upgrades. Notable new features include:
+
+
+  
+Spring GraphQL starter
+
+  
+Operating system and Java vendor information in actuator info endpoint
+
+  
+Support for RabbitStreamTemplate
+
+
+Please see the release notes for more details and upgrade instructions.
+
+Thanks to all those who have contributed with issue reports and pull requests. 
+How can you help?
+
+If you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.
+
+Project Page | GitHub | Issues | Documentation | Stack Overflow | Gitter]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bringing home the beacon (from Cobalt Strike)]]></title>
+        <id>https://www.elastic.co/blog/bringing-home-the-beacon-cobalt-strike</id>
+        <link href="https://www.elastic.co/blog/bringing-home-the-beacon-cobalt-strike"/>
+        <updated>2022-01-20T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn how to extract Cobalt Strike beacon payloads from memory and use open source tools to analyze and group threat activity clusters.]]></summary>
+        <author>
+            <name>Derek Ditch,Daniel Stepanic,Andrew Pease,Elastic Security Intelligence &amp; Analytics Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bringing home the beacon (from Cobalt Strike)]]></title>
+        <id>https://www.elastic.co/blog/bringing-home-the-beacon-cobalt-strike</id>
+        <link href="https://www.elastic.co/blog/bringing-home-the-beacon-cobalt-strike"/>
+        <updated>2022-01-20T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+Elastic Security engineers have documented a less tedious way to find network beaconing from Cobalt Strike. In their full analysis ([1] [2]), Elastic Security team researchers Andrew Pease, Derek Ditch, and Daniel Stepanic walk users through the Elastic fleet policy, how to collect the beacon, beacon configuration, how to analyze its activity, and how you can set it up in your organization’s environment.
+These two articles ([1] [2]) are ideal for helping security analysts identify, collect, and configure Cobalt Strike beacon payloads from an endpoint using Elastic. It is often difficult to collect the Cobalt Strike beacon payload from memory and extract its configuration to identify observables and cluster group activities, partially due to the tremendous amount of metadata the beacon’s configurations include.
+The early stages of an intrusion usually include initial access, execution, persistence, and command-and-control (C2) beaconing. When structured threats use zero-days, these first two stages are often not detected, and it can often be challenging and time-consuming to identify persistence mechanisms left by an advanced adversary. 
+The information helps threat hunters and analysts monitor Cobalt Strike beaconing activity, but also provides useful indicators of compromise (IoCs) with which to start an investigation.
+If you don’t have an Elastic Cloud cluster but would like to collect and configure the Cobalt Strike beacon, you can start a free 14-day trial of Elastic Cloud today.]]></summary>
+        <author>
+            <name>Derek Ditch,Daniel Stepanic,Andrew Pease,Elastic Security Intelligence &amp; Analytics Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New HCP Consul UI Feature Speeds Setup with Terraform]]></title>
+        <id>https://www.hashicorp.com/blog/new-hcp-consul-ui-feature-speeds-setup-with-terraform</id>
+        <link href="https://www.hashicorp.com/blog/new-hcp-consul-ui-feature-speeds-setup-with-terraform"/>
+        <updated>2022-01-20T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[HCP Consul users can now auto-generate ready-to-apply Terraform configurations to deploy HCP Consul end-to-end with a demo application in less than 20 minutes.]]></summary>
+        <author>
+            <name>HashiCorp Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Open source creates value, but how do you measure it?]]></title>
+        <id>https://github.blog/2022-01-20-open-source-creates-value-but-how-do-you-measure-it/</id>
+        <link href="https://github.blog/2022-01-20-open-source-creates-value-but-how-do-you-measure-it/"/>
+        <updated>2022-01-20T16:58:28.000Z</updated>
+        <summary type="html"><![CDATA[When digital infrastructure is overlooked by governments, it isn't just a missed opportunity: policies may inadvertently endanger open source collaboration.]]></summary>
+        <author>
+            <name>The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Boot 2.6.3 is now available]]></title>
+        <id>https://spring.io/blog/2022/01/20/spring-boot-2-6-3-is-now-available</id>
+        <link href="https://spring.io/blog/2022/01/20/spring-boot-2-6-3-is-now-available"/>
+        <updated>2022-01-20T15:25:35.000Z</updated>
+        <summary type="html"><![CDATA[On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 2.6.3 has been released and is now available from Maven Central.
+
+This release includes 39 bug fixes, documentation improvements, and dependency upgrades. Thanks to all those who have contributed with issue reports and pull requests.
+How can you help?
+
+If you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.
+
+Project Page | GitHub | Issues | Documentation | Stack Overflow | Gitter]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Three ways we've improved Elasticsearch scalability]]></title>
+        <id>https://www.elastic.co/blog/three-ways-improved-elasticsearch-scalability</id>
+        <link href="https://www.elastic.co/blog/three-ways-improved-elasticsearch-scalability"/>
+        <updated>2022-01-20T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Scale to new heights with Elasticsearch! In 7.16, we made several improvements for faster search, more stable clusters, and a reduced heap footprint.]]></summary>
+        <author>
+            <name>Armin Braun,Leaf Lin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Three ways we've improved Elasticsearch scalability]]></title>
+        <id>https://www.elastic.co/blog/three-ways-improved-elasticsearch-scalability</id>
+        <link href="https://www.elastic.co/blog/three-ways-improved-elasticsearch-scalability"/>
+        <updated>2022-01-20T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[One finds limits by pushing them. –Herbert A. Simon,,,
+At Elastic, we focus on bringing value to users through fast results that operate at scale and are relevant — speed, scale, and relevance are in our DNA. In Elasticsearch 7.16, we focused on scale, pushing the limits of Elasticsearch to make search even faster, memory less demanding, and clusters more stable. Along the way, we uncovered a range of dimensions on sharding and in the process sped up Elasticsearch to new heights. 
+Historically, we’ve recommended avoiding creating a gazillion shards in your cluster due to the resource overhead involved. However, with the new data streams indexing strategy in Fleet, more and more smaller shards will be generated from security and observability use cases, so it’s essential that we find new wa…]]></summary>
+        <author>
+            <name>Armin Braun,Leaf Lin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2022 Automation Trends, Questions and Answers]]></title>
+        <id>https://camunda.com/?p=41026</id>
+        <link href="https://camunda.com/blog/2022/01/2022-automation-trends-questions-and-answers/"/>
+        <updated>2022-01-20T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dive into our answers for the top-ranked questions from our recent webinar, Looking Back to the Future: 5 Process Automation Trends in 2022.
+The post 2022 Automation Trends, Questions and Answers appeared first on Camunda.]]></summary>
+        <author>
+            <name>DevRels Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Data JDBC - How Can I Do a Partial Update of an Aggregate Root?]]></title>
+        <id>https://spring.io/blog/2022/01/20/spring-data-jdbc-how-can-i-do-a-partial-update-of-an-aggregate-root</id>
+        <link href="https://spring.io/blog/2022/01/20/spring-data-jdbc-how-can-i-do-a-partial-update-of-an-aggregate-root"/>
+        <updated>2022-01-20T13:18:00.000Z</updated>
+        <summary type="html"><![CDATA[This is the fourth article of a series about how to tackle various challenges you might encounter when using Spring Data JDBC.
+The series consists of:
+
+
+
+
+
+Spring Data JDBC - How to Use Custom ID Generation.
+
+
+
+Spring Data JDBC - How Do I Make Bidirectional Relationships?
+
+
+
+Spring Data JDBC - How Do I Implement Caching?
+
+
+
+Spring Data JDBC - How Can I Do a Partial Update of an Aggregate Root? (this article)
+
+
+
+
+
+If you are new to Spring Data JDBC, you should start by reading introduction and this article, which explains the relevance of aggregates in the context of Spring Data JDBC. Trust me. It is important.
+
+
+
+Spring Data JDBC is built around the idea of aggregates and repositories.
+Repositories are collection-like objects that find, load, save, and delete aggreg…]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Boot 2.5.9 available now]]></title>
+        <id>https://spring.io/blog/2022/01/20/spring-boot-2-5-9-available-now</id>
+        <link href="https://spring.io/blog/2022/01/20/spring-boot-2-5-9-available-now"/>
+        <updated>2022-01-20T11:58:29.000Z</updated>
+        <summary type="html"><![CDATA[On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 2.5.9 has been released and is now available from Maven Central.
+
+This release includes 32 bug fixes, documentation improvements, and dependency upgrades. Thanks to all those who have contributed with issue reports and pull requests.
+How can you help?
+
+If you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.
+
+Project Page | GitHub | Issues | Documentation | Stack Overflow | Gitter]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fear of strangers]]></title>
+        <id>https://seths.blog/?p=42172</id>
+        <link href="https://feeds.feedblitz.com/~/678728744/0/sethsblog~Fear-of-strangers/"/>
+        <updated>2022-01-20T09:27:00.000Z</updated>
+        <summary type="html"><![CDATA[Why are we more likely to take off our masks or avoid social distancing with a group of friends at a party instead of strangers on the train? Why do we drive more carefully in a new neighborhood instead of near our home? Why trust the advice of a doctor who looks like us, or […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Elasticsearch’s new range enrich policy enables a new level of contextual data analysis]]></title>
+        <id>https://www.elastic.co/blog/new-range-enrich-policy-elasticsearch-contextual-data-analysis</id>
+        <link href="https://www.elastic.co/blog/new-range-enrich-policy-elasticsearch-contextual-data-analysis"/>
+        <updated>2022-01-20T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Elasticsearch 7.16 introduced a new enrich policy: range. We’ll showcase a fictional example matching incidents with on-call schedules using the date_range type.]]></summary>
+        <author>
+            <name>Michael Bischoff</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Elasticsearch’s new range enrich policy enables a new level of contextual data analysis]]></title>
+        <id>https://www.elastic.co/blog/new-range-enrich-policy-elasticsearch-contextual-data-analysis</id>
+        <link href="https://www.elastic.co/blog/new-range-enrich-policy-elasticsearch-contextual-data-analysis"/>
+        <updated>2022-01-20T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+Elasticsearch 7.16 introduced a new enrich policy: range. The range policy allows one to match a number, date, or IP address in incoming documents to a range of the same type in the enrich index. Being able to match against an IP range can be specifically useful in security use cases where the additional metadata can be used to further refine detection rules. As we’ve already added an example to our documentation using IP ranges, we’ll go through an example here using the date_range type.
+Our fictional example: incidents and on-call schedules
+Say we have a number of on-call schedules and we want to add them to Elasticsearch so that each continuous shift is a document. Let’s introduce our fictional test cases: Bob, Alice, Dan, Matt and Lizzie.
+Bob likes to work Nine-to-Six taking an hour …]]></summary>
+        <author>
+            <name>Michael Bischoff</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Spring Batch 5.0 M1 released]]></title>
         <id>https://spring.io/blog/2022/01/19/spring-batch-5-0-m1-released</id>
@@ -307,12 +561,12 @@ Project Page | GitHub | Issues | Documentation | Stack Overflow | Gitter]]></sum
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Safely Upgrade from Azure DevOps Server 2019 to Server 2020]]></title>
+        <title type="html"><![CDATA[Safely Upgrade Your Pipelines from Azure DevOps Server 2019 to Server 2020]]></title>
         <id>https://devblogs.microsoft.com/devops/?p=63226</id>
         <link href="https://devblogs.microsoft.com/devops/safely-upgrade-from-azure-devops-server-2019-to-server-2020/"/>
         <updated>2022-01-17T16:00:58.000Z</updated>
         <summary type="html"><![CDATA[Azure DevOps Server 2019 and 2020 use two different models for retaining builds. In Azure DevOps Server 2019, users configure retention settings for each pipeline. Organization-level defaults are applied if a pipeline is not explicitly configured for retention. Builds that are retained indefinitely or by releases are marked and handled using a common bit in the build record.
-The post Safely Upgrade from Azure DevOps Server 2019 to Server 2020 appeared first on Azure DevOps Blog.]]></summary>
+The post Safely Upgrade Your Pipelines from Azure DevOps Server 2019 to Server 2020 appeared first on Azure DevOps Blog.]]></summary>
         <author>
             <name>Silviu</name>
         </author>
@@ -632,50 +886,6 @@ However, the use of large models and datasets comes at the expense of significan
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Someone Like Me:  A marketing leader finds support during her child’s transition]]></title>
-        <id>https://www.elastic.co/blog/someone-like-me-marketing-leader-finds-support-during-child-transition</id>
-        <link href="https://www.elastic.co/blog/someone-like-me-marketing-leader-finds-support-during-child-transition"/>
-        <updated>2022-01-13T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[One of our Elasticians shares a personal story that exemplifies the power of  "Come as YOU are" at Elastic, and how Elastic truly supports its employees in giving them the time and space to be family-first.]]></summary>
-        <author>
-            <name>Elastic Culture</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Identifying beaconing malware using Elastic]]></title>
-        <id>https://www.elastic.co/blog/identifying-beaconing-malware-using-elastic</id>
-        <link href="https://www.elastic.co/blog/identifying-beaconing-malware-using-elastic"/>
-        <updated>2022-01-13T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this blog, we walk users through identifying beaconing malware in their environment using our beaconing identification framework.]]></summary>
-        <author>
-            <name>Apoorva Joshi,Thomas Veasey,Craig Chamberlain</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Someone Like Me:  A marketing leader finds support during her child’s transition]]></title>
-        <id>https://www.elastic.co/blog/someone-like-me-marketing-leader-finds-support-during-child-transition</id>
-        <link href="https://www.elastic.co/blog/someone-like-me-marketing-leader-finds-support-during-child-transition"/>
-        <updated>2022-01-13T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,My first week at Elastic, I showed up to orientation and sat next to a trans woman with bright blue hair. That evening, at a welcome reception with executives all in casual attire, a male colleague arrived wearing a black skirt and combat boots. It was pretty obvious from Day 1 that Come as YOU Are was not lip service, it was truly part of our source code. 
-As the years of my Elastic journey progressed, kindness, empathy and understanding for all employees has permeated the culture via emails, corporate policies and conversations. It’s always a pleasure to work in an inclusive and warm environment, but one day I found myself needing some extra understanding and a bit of breathing space. 
-I consider myself a pretty buttoned-up person. I’m someone with dentist appointments booked six months…]]></summary>
-        <author>
-            <name>Elastic Culture</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Identifying beaconing malware using Elastic]]></title>
-        <id>https://www.elastic.co/blog/identifying-beaconing-malware-using-elastic</id>
-        <link href="https://www.elastic.co/blog/identifying-beaconing-malware-using-elastic"/>
-        <updated>2022-01-13T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-The early stages of an intrusion usually include initial access, execution, persistence, and command-and-control (C2) beaconing. When structured threats use zero-days, these first two stages are often not detected. It can often be challenging and time-consuming to identify persistence mechanisms left by an advanced adversary as we saw in the 2020 SUNBURST supply chain compromise. Could we then have detected SUNBURST in the initial hours or days by finding its C2 beacon?
-The potential for beaconing detection is that it can serve as an early warning system and help discover novel persistence mechanisms in the initial hours or days after execution. This allows defenders to disrupt or evict the threat actor before they can achieve their objectives. So, while we are not quite "left of boom" b…]]></summary>
-        <author>
-            <name>Apoorva Joshi,Thomas Veasey,Craig Chamberlain</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How five open source communities are using GitHub Discussions]]></title>
         <id>https://github.blog/2022-01-13-how-five-open-source-communities-are-using-github-discussions/</id>
         <link href="https://github.blog/2022-01-13-how-five-open-source-communities-are-using-github-discussions/"/>
@@ -683,36 +893,6 @@ The potential for beaconing detection is that it can serve as an early warning s
         <summary type="html"><![CDATA[From answering questions about a new release to fielding feature requests, here’s how five open source communities use GitHub Discussions.]]></summary>
         <author>
             <name>The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Elastic Stack 6.8.23 released with Log4j update]]></title>
-        <id>https://www.elastic.co/blog/elastic-stack-6-8-23-released</id>
-        <link href="https://www.elastic.co/blog/elastic-stack-6-8-23-released"/>
-        <updated>2022-01-13T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Elastic Stack 6.8.23 has been released with Log4j updates. Read about the updates and bug fixes that have been included in Kibana, Elasticsearch, Beats, Logstash.]]></summary>
-        <author>
-            <name>Quin Hoxie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Elastic Stack 6.8.23 released with Log4j update]]></title>
-        <id>https://www.elastic.co/blog/elastic-stack-6-8-23-released</id>
-        <link href="https://www.elastic.co/blog/elastic-stack-6-8-23-released"/>
-        <updated>2022-01-13T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-Version 6.8.23 of the Elastic Stack was released today. We recommend you upgrade to this latest version.
-The 6.8.23 patch release contains an updated version of Log4j (2.17.1) for both Elasticsearch and Logstash.
-For a full list of changes for each product, please refer to the release notes:
-6.8.23 release notes
-Elastic Stack
-
-Elasticsearch
-Kibana
-Beats
-Logstash]]></summary>
-        <author>
-            <name>Quin Hoxie</name>
         </author>
     </entry>
     <entry>
@@ -837,7 +1017,7 @@ The post Testing Processes for Camunda Cloud and Zeebe appeared first on Camunda
         <title type="html"><![CDATA[Google Research: Themes from 2021 and Beyond]]></title>
         <id>http://ai.googleblog.com/2022/01/google-research-themes-from-2021-and.html</id>
         <link href="http://ai.googleblog.com/2022/01/google-research-themes-from-2021-and.html"/>
-        <updated>2022-01-11T19:01:00.006Z</updated>
+        <updated>2022-01-11T19:01:00.007Z</updated>
         <summary type="html"><![CDATA[Posted by Jeff Dean, Senior Fellow and SVP of Google Research, on behalf of the entire Google Research community
 Over the last several decades, I've witnessed a lot of change in the fields of machine learning (ML) and computer science. Early approaches, which often fell short, eventually gave rise to modern approaches that have been very successful. Following that long-arc pattern of progress, I think we'll see a number of exciting advances over the next several years, advances that will ultimately benefit the lives of billions of people with greater impact than ever before. In this post, I’ll highlight five areas where ML is poised to have such impact. For each, I’ll discuss related research (mostly from 2021) and the directions and progress we’ll likely see in the next few years. 
       …]]></summary>
@@ -947,16 +1127,6 @@ The post Camunda Cloud 1.3.0 Released appeared first on Camunda.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Dancing with status roles]]></title>
-        <id>https://seths.blog-production.mystagingwebsite.com/?p=30765</id>
-        <link href="https://feeds.feedblitz.com/~/677621776/0/sethsblog~Dancing-with-status-roles/"/>
-        <updated>2022-01-10T09:59:00.000Z</updated>
-        <summary type="html"><![CDATA[First, we have to see them. Some people, no matter how fast or slow their friends are walking, always walk a step behind. Or perhaps you need to live in the nicest house on the block, or drive the fanciest car. There are people who can’t rest until they know that they’re at the top […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Top Stories from the Microsoft DevOps Community – 2022.01.07]]></title>
         <id>https://devblogs.microsoft.com/devops/?p=63171</id>
         <link href="https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2022-01-07/"/>
@@ -1054,16 +1224,6 @@ The post Reselling Made Easy: BuyBay Automates E-commerce Process with Camunda a
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Spring Framework CVE-2021-22060 has been published]]></title>
-        <id>https://spring.io/blog/2022/01/05/spring-framework-cve-2021-22060-has-been-published</id>
-        <link href="https://spring.io/blog/2022/01/05/spring-framework-cve-2021-22060-has-been-published"/>
-        <updated>2022-01-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Spring Framework 5.3.14 and 5.2.19 releases on December 16 included fixes for CVE-2021-22060 and are a follow-up to CVE-2021-22096, to address additional types of input that can cause the issue. As the Spring Boot releases 2.6.2 and 2.5.8 picking up these Spring Framework versions were due the day before Christmas and given the medium severity, we postponed the announcement until after the new year, to avoid disclosure during a period when many take time off. Please, upgrade to those latest maintenance releases.]]></summary>
-        <author>
-            <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[GitHub Availability Report: December 2021]]></title>
         <id>https://github.blog/2022-01-05-github-availability-report-december-2021/</id>
         <link href="https://github.blog/2022-01-05-github-availability-report-december-2021/"/>
@@ -1125,18 +1285,6 @@ The post How to Overcome a Legacy Mindset appeared first on Camunda.]]></summary
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[This Week in Spring (11 year anniversary edition!) - January 4th, 2022]]></title>
-        <id>https://spring.io/blog/2022/01/04/this-week-in-spring-11-year-anniversary-edition-january-4th-2022</id>
-        <link href="https://spring.io/blog/2022/01/04/this-week-in-spring-11-year-anniversary-edition-january-4th-2022"/>
-        <updated>2022-01-04T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hi, Spring fans! Welcome to another installment of This Week in Spring, the first in the new year! (Happy new year!) This week also marks the 11th anniversary of This Week in Spring, which I started writing on the first Tuesday of January 2011 thanks to a great idea from SpringSource co-founder and all-around good-guy Keith Donald (@kdonald). 
-
-What a run! As always, I just wanna extend a heartfelt thanks to all of you who read (_suffer!_) my rambling writing every week. We’ve been lucky, as a community, to have presided over the most amazing and uplifting period in Spring and the JVM’s history… This roundup has reflected that with incredible stuff happening all the time. Where there’s smoke, there’s fire. The many blogs, articles, podcasts, YouTube (and ever so occasionally Vimeo) videos…]]></summary>
-        <author>
-            <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[AzureFunBytes Episode 63 – Getting Started with @Azure and WebAssembly with @StevenMurawski]]></title>
         <id>https://devblogs.microsoft.com/devops/?p=63156</id>
         <link href="https://devblogs.microsoft.com/devops/azurefunbytes-episode-63-getting-started-with-azure-and-webassembly-with-stevenmurawski/"/>
@@ -1191,43 +1339,6 @@ The post Top Stories from the Microsoft DevOps Community – 2021.12.31 appeared
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Three Things You Should Know About Hyperautomation]]></title>
-        <id>https://camunda.com/?p=15696</id>
-        <link href="https://camunda.com/blog/2021/03/three-things-you-should-know-about-hyperautomation/"/>
-        <updated>2021-12-30T14:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Explore the tools, technologies and sophistication that go into hyperautomation to evolve your automation strategy.
-The post Three Things You Should Know About Hyperautomation appeared first on Camunda.]]></summary>
-        <author>
-            <name>Amy Johnston</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Bootiful Podcast: Geertjan Wielenga, senior director of opensource projects at Azul Systems and Foojay.io founder]]></title>
-        <id>https://spring.io/blog/2021/12/30/a-bootiful-podcast-geertjan-wielenga-senior-director-of-opensource-projects-at-azul-systems-and-foojay-io-founder</id>
-        <link href="https://spring.io/blog/2021/12/30/a-bootiful-podcast-geertjan-wielenga-senior-director-of-opensource-projects-at-azul-systems-and-foojay-io-founder"/>
-        <updated>2021-12-30T10:25:00.000Z</updated>
-        <summary type="html"><![CDATA[Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks (again!) to Java ecosystem legend and senior director of opensource projects at Azul Systems, Geertjan Wielenga (@GeertjanW). 
-
-Happy new year, everyone!]]></summary>
-        <author>
-            <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Go, Go, GraalVM with Spring Native: My Adventures in Native Image-ville]]></title>
-        <id>https://spring.io/blog/2021/12/29/go-go-graalvm-with-spring-native-my-adventures-in-native-image-ville</id>
-        <link href="https://spring.io/blog/2021/12/29/go-go-graalvm-with-spring-native-my-adventures-in-native-image-ville"/>
-        <updated>2021-12-29T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hi, Spring fans! Happy new year! I can’t believe we quickly got this far, but we did. This last year’s been insanely busy, and one of the things I’ve most loved is all the opportunities to use Spring Native to build GraalVM-powered architecture-specific native images.
-
-We released Spring Native 0.11, which is fantastic because it features a brand new AOT (ahead-of-time) engine that completely reworks how we transpile Spring Boot applications into GraalVM native images. I’ve been working with GraalVM a lot over the last two years, and this new release is a vast, revolutionary step in the story of Spring Native and a giant leap forward on the journey to Spring Framework 6 and Spring Boot 3, both of which will land in 2022. 
-
-I’ve been tinkering with the new release a lot over the last mont…]]></summary>
-        <author>
-            <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[GitHub’s top 10 blog posts of 2021]]></title>
         <id>https://github.blog/2021-12-28-githubs-top-10-blog-posts-of-2021/</id>
         <link href="https://github.blog/2021-12-28-githubs-top-10-blog-posts-of-2021/"/>
@@ -1235,71 +1346,6 @@ I’ve been tinkering with the new release a lot over the last mont…]]></summa
         <summary type="html"><![CDATA[As the year winds down, we're highlighting some of the incredible work from GitHub’s engineers, product teams, and security researchers.]]></summary>
         <author>
             <name>The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This Year in Spring - December 28th, 2021]]></title>
-        <id>https://spring.io/blog/2021/12/28/this-year-in-spring-december-28th-2021</id>
-        <link href="https://spring.io/blog/2021/12/28/this-year-in-spring-december-28th-2021"/>
-        <updated>2021-12-28T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hi, Spring fans! How’re you doin’? I’m fresh off a fantastic holiday spent with family in Los Angeles, California. Later today, the girls and I will drive home to San Francisco, California. I’ve enjoyed my visits with people here in Los Angeles, especially since it’s our first actual visit to Los Angeles before the pandemic. 
-
-And now, (can you believe it?), we’re staring down the new year. As always, I will do my yearly This Year in Spring roundup, so stay tuned for that below, after our weekly roundup. So, without further ado, here’s the last This Week in Spring recap of 2021. 
-
-
-  
-A Bootiful Podcast: HBase and Cassandra cofounder and Yugabyte CTO Karthik Ranganathan
-
-  
-Migrating a Spring Boot application to Java 17 – the hard way: Day 2
-
-  
-Spring Boot 2.5.8 available now
-
-  
-Sp…]]></summary>
-        <author>
-            <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Bootiful Podcast: HBase and Cassandra cofounder and Yugabyte CTO Karthik Ranganathan]]></title>
-        <id>https://spring.io/blog/2021/12/23/a-bootiful-podcast-hbase-and-cassandra-cofounder-and-yugabyte-cto-karthik-ranganathan</id>
-        <link href="https://spring.io/blog/2021/12/23/a-bootiful-podcast-hbase-and-cassandra-cofounder-and-yugabyte-cto-karthik-ranganathan"/>
-        <updated>2021-12-23T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks to Yugabyte CTO, Apache HBase and Apache Cassandra co-founder, and distributed database legend Karthik Ranganathan. (Merry Christmas, if you celebrate!)]]></summary>
-        <author>
-            <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How GitHub contributed to the Santa Clara Principles update]]></title>
-        <id>https://github.blog/2021-12-21-how-github-contributed-santa-clara-principles-update/</id>
-        <link href="https://github.blog/2021-12-21-how-github-contributed-santa-clara-principles-update/"/>
-        <updated>2021-12-21T17:55:56.000Z</updated>
-        <summary type="html"><![CDATA[GitHub was honored to contribute to the Santa Clara Principles on Transparency and Accountability in Content Moderation 2.0.]]></summary>
-        <author>
-            <name>The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HashiTalks 2022 Call for Proposals]]></title>
-        <id>https://www.hashicorp.com/blog/hashitalks-2022-call-for-proposals</id>
-        <link href="https://www.hashicorp.com/blog/hashitalks-2022-call-for-proposals"/>
-        <updated>2021-12-21T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[HashiTalks, our annual, all-day virtual community event, returns for its fourth edition on Thursday, February 17, 2022. Submit your proposals now!]]></summary>
-        <author>
-            <name>HashiCorp Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The top 5 Ansible Automation Platform blogs of 2021]]></title>
-        <id>https://www.ansible.com/blog/top-5-ansible-automation-platform-blogs-2021</id>
-        <link href="https://www.ansible.com/blog/top-5-ansible-automation-platform-blogs-2021"/>
-        <updated>2021-12-21T14:15:00.000Z</updated>
-        <summary type="html"><![CDATA[A end-of-year roundup of the most read blogs in 2021 for Red Hat Ansible Automation Platform.]]></summary>
-        <author>
-            <name>trmcconn@redhat.com (Tricia McConnell)</name>
         </author>
     </entry>
 </feed>

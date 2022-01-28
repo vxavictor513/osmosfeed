@@ -193,6 +193,15 @@
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
         {
+          "id": "https://www.hashicorp.com/blog/consul-on-amazon-ecs-0-3-adds-extended-configuration",
+          "author": null,
+          "description": "The latest version of HashiCorp Consul on Amazon ECS adds extended configuration to support more deployment scenarios along with several other new features.",
+          "link": "https://www.hashicorp.com/blog/consul-on-amazon-ecs-0-3-adds-extended-configuration",
+          "publishedOn": "2022-01-27T17:15:00.000Z",
+          "wordCount": 673,
+          "title": "Consul on Amazon ECS 0.3 Adds Extended Configuration"
+        },
+        {
           "id": "https://www.hashicorp.com/blog/kubernetes-vault-integration-via-sidecar-agent-injector-vs-csi-provider",
           "author": null,
           "description": "A detailed comparison of two HashiCorp-supported methods for HashiCorp Vault and Kubernetes integration.",
@@ -207,7 +216,7 @@
           "description": "HCP Consul users can now auto-generate ready-to-apply Terraform configurations to deploy HCP Consul end-to-end with a demo application in less than 20 minutes.",
           "link": "https://www.hashicorp.com/blog/new-hcp-consul-ui-feature-speeds-setup-with-terraform",
           "publishedOn": "2022-01-20T17:00:00.000Z",
-          "wordCount": 821,
+          "wordCount": 822,
           "title": "HCP Consul UI Now Supports End-to-End Deployment with Terraform"
         },
         {
@@ -225,7 +234,7 @@
           "description": "HashiCorp has renewed its SOC II Type II report for HCP Vault and HCP Consul, and obtained ISO 27017 and ISO 27018 certificates for its cloud products.",
           "link": "https://www.hashicorp.com/blog/hashicorp-s-security-and-compliance-program-takes-another-step-forward",
           "publishedOn": "2022-01-14T17:00:00.000Z",
-          "wordCount": 664,
+          "wordCount": 669,
           "title": "HashiCorp’s Security and Compliance Program Takes Another Step Forward"
         },
         {
@@ -280,6 +289,24 @@
       "feedUrl": "https://www.elastic.co/blog/feed",
       "siteUrl": "https://www.elastic.co",
       "articles": [
+        {
+          "id": "https://www.elastic.co/blog/streamline-configuration-processes-with-official-elastic-stack-terraform-provider",
+          "author": "Omer Kushmaro",
+          "description": "The Elastic Stack Terraform provider allows operations and SRE teams to safely manage their production-related infrastructure and fully control the configuration of Elasticsearch, Kibana, Fleet, and any other component within the Elastic Stack.",
+          "link": "https://www.elastic.co/blog/streamline-configuration-processes-with-official-elastic-stack-terraform-provider",
+          "publishedOn": "2022-01-27T14:00:00.000Z",
+          "wordCount": 757,
+          "title": "Streamline configuration processes with an official Elastic Stack Terraform provider"
+        },
+        {
+          "id": "https://www.elastic.co/blog/streamline-configuration-processes-with-official-elastic-stack-terraform-provider",
+          "author": "Omer Kushmaro",
+          "description": ",\nWe’re excited to announce that operation and SRE teams can now take advantage of an official Elastic Stack Terraform provider to configure the Elastic Stack across all types of infrastructure, whether on Elastic Cloud, or on-premises and self-managed.\nThis Elastic Stack Terraform provider will allow you to fully control the configuration of Elasticsearch, Kibana, Fleet, and any other component within the Elastic Stack.\nThe Terraform provider helps you safely manage production-related infrastructure using methodologies like infrastructure as code, which allow you to apply peer-reviewed infrastructure changes in an automated and controlled fashion.\nLet’s walk through an example of how to spin up an Elastic Cloud deployment, then immediately configure it with an index lifecycle policy — usi…",
+          "link": "https://www.elastic.co/blog/streamline-configuration-processes-with-official-elastic-stack-terraform-provider",
+          "publishedOn": "2022-01-27T14:00:00.000Z",
+          "wordCount": 757,
+          "title": "Streamline configuration processes with an official Elastic Stack Terraform provider"
+        },
         {
           "id": "https://www.elastic.co/blog/elastic-diane-tetrault-what-parenting-scubadiving-productmarketing-have-in-common",
           "author": "Katherine Plumhoff",
@@ -441,24 +468,6 @@
           "publishedOn": "2022-01-19T13:30:00.000Z",
           "wordCount": 773,
           "title": "Elastic and Microsoft Azure: Unified observability for Spring Boot applications"
-        },
-        {
-          "id": "https://www.elastic.co/blog/understanding-evolution-volcano-eruption-elastic-maps",
-          "author": "Jorge Sanz",
-          "description": "La Palma, in the Canary Islands (Spain), faced a major natural disaster with the eruption of the Cumbre Vieja volcano. Learn how Elastic Maps and Kibana were used to display and animate the evolution of lava flows on top of drone imagery.",
-          "link": "https://www.elastic.co/blog/understanding-evolution-volcano-eruption-elastic-maps",
-          "publishedOn": "2022-01-19T07:00:00.000Z",
-          "wordCount": 1076,
-          "title": "How Elastic Maps can be used to track the devastating eruption of a volcano, or any natural event"
-        },
-        {
-          "id": "https://www.elastic.co/blog/understanding-evolution-volcano-eruption-elastic-maps",
-          "author": "Jorge Sanz",
-          "description": ",\nIt began with an earthquake swarm. More than 22,000 seismic events were recorded, at up to 3.5 on the Richter scale, beginning on September 11th, 2021. Just 8 days later, the first eruption on La Palma since 1971, and the largest in recorded history, commenced. For three months, lava ran out of the Cumbre Vieja volcano, pouring into the Atlantic Ocean surrounding the Canary Islands. \nThe eruption destroyed more than 3,000 homes in a torrent of fire and liquid rock and caused untold impact on the islands’ fragile ecosystem and economy. Mercifully, only one death has been linked to this devastating event.\nTo track the path of destruction so that experts could raise awareness of the ongoing impact of the geothermal event, employees at Elastic used Elastic Maps’ time slider feature, which wa…",
-          "link": "https://www.elastic.co/blog/understanding-evolution-volcano-eruption-elastic-maps",
-          "publishedOn": "2022-01-19T07:00:00.000Z",
-          "wordCount": 1076,
-          "title": "How Elastic Maps can be used to track the devastating eruption of a volcano, or any natural event"
         }
       ]
     },
@@ -495,10 +504,10 @@
         {
           "id": "https://devblogs.microsoft.com/devops/?p=63316",
           "author": "Gloridel Morales",
-          "description": "With this patch cycle, we are releasing fixes that impact our self-hosted product, Azure DevOps Server, as well as Team Foundation Server 2018.3.2.\nUpgraded Elasticsearch to the latest version (2.17.1).\nThe post Azure DevOps Server and Team Foundation Server patches appeared first on Azure DevOps Blog.",
+          "description": "With this patch cycle, we are releasing fixes that impact our self-hosted product, Azure DevOps Server, as well as Team Foundation Server 2018.3.2. Please see the release notes for additional installation instructions.\nUpgraded search plugins to use log4j core version 2.17.1.\nThe post Azure DevOps Server and Team Foundation Server patches appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azure-devops-server-and-team-foundation-server-patches/",
           "publishedOn": "2022-01-26T19:56:19.000Z",
-          "wordCount": 1513,
+          "wordCount": 2060,
           "title": "Azure DevOps Server and Team Foundation Server patches"
         },
         {
@@ -507,7 +516,7 @@
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes Episode 66 – Building real-time apps with @Azure SignalR with @chris_noring appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-66-building-real-time-apps-with-azure-signalr-with-chris_noring/",
           "publishedOn": "2022-01-26T17:26:18.000Z",
-          "wordCount": 1521,
+          "wordCount": 1509,
           "title": "AzureFunBytes Episode 66 – Building real-time apps with @Azure SignalR with @chris_noring"
         },
         {
@@ -516,7 +525,7 @@
           "description": "The top stories from the #AzureDevOps #community for 2022.01.21 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2022.01.21 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2022-01-21/",
           "publishedOn": "2022-01-21T09:00:45.000Z",
-          "wordCount": 1745,
+          "wordCount": 1766,
           "title": "Top Stories from the Microsoft DevOps Community – 2022.01.21"
         },
         {
@@ -525,7 +534,7 @@
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes Episode 65 – @Azure Durable Functions For Automation With @LBugnion appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-65-azure-durable-functions-for-automation-with-lbugnion/",
           "publishedOn": "2022-01-18T16:06:20.000Z",
-          "wordCount": 1779,
+          "wordCount": 1812,
           "title": "AzureFunBytes Episode 65 – @Azure Durable Functions For Automation With @LBugnion"
         },
         {
@@ -552,7 +561,7 @@
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes Episode 64 – Building SOC Efficiency with @Azure Sentinel with @rodtrent appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-64-building-soc-efficiency-with-azure-sentinel-with-rodtrent/",
           "publishedOn": "2022-01-12T16:00:03.000Z",
-          "wordCount": 1765,
+          "wordCount": 1767,
           "title": "AzureFunBytes Episode 64 – Building SOC Efficiency with @Azure Sentinel with @rodtrent"
         },
         {
@@ -733,7 +742,7 @@
           "description": "We are pleased to announce the third alpha release of Camunda Platform Runtime 7.17. This release features the following improvements: Camunda Run improvements 3 Bug Fixes You can download Camunda Platform Runtime 7.17.0 for free or run it with Docker. For a complete list of all improvements, take a look at the release notes. Please also see the list of known issues. If you want to dig in deeper, you can find the source code on GitHub. Camunda Run improvements We are constantly working to get the Camunda Run distro closer to what is offered from our other Camunda distros. The 7.17.0-alpha3 release provides a start to the improvements of the Camunda Run distro. Groovy scripting engine included A large...\nThe post Camunda Platform Runtime 7.17-alpha3 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/01/camunda-automation-platform-7170-alpha3-released/",
           "publishedOn": "2022-01-19T15:28:50.000Z",
-          "wordCount": 1498,
+          "wordCount": 1497,
           "title": "Camunda Platform Runtime 7.17-alpha3 Released"
         },
         {
@@ -769,7 +778,7 @@
           "description": "We’re happy to announce the 1.9.0 release of Cawemo Enterprise On-Premises. If you’re not yet a Camunda customer, sign up for a free trial.\nThe post Cawemo Enterprise (On-Premises) 1.9.0 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/01/cawemo-enterprise-on-premises-1-9-0-released/",
           "publishedOn": "2022-01-11T08:20:00.000Z",
-          "wordCount": 1499,
+          "wordCount": 1498,
           "title": "Cawemo Enterprise (On-Premises) 1.9.0 Released"
         },
         {
@@ -778,16 +787,16 @@
           "description": "We’re excited to announce the release of Camunda Optimize 3.7.0. Download the release today or get a free 30-day trial.\nThe post Camunda Optimize 3.7.0 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/01/camunda-optimize-3-7-0-released/",
           "publishedOn": "2022-01-11T08:15:00.000Z",
-          "wordCount": 2977,
+          "wordCount": 2976,
           "title": "Camunda Optimize 3.7.0 Released"
         },
         {
           "id": "https://camunda.com/?p=40556",
-          "author": "Camunda Cloud Team",
+          "author": "Thomas Heinrichs",
           "description": "Learn how the Camunda Cloud 1.3.0 release allows Java developers to add automated testing of BPMN process diagrams to their CI/CD pipelines.\nThe post Camunda Cloud 1.3.0 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/01/camunda-cloud-1-3-0-released/",
           "publishedOn": "2022-01-11T08:00:00.000Z",
-          "wordCount": 2670,
+          "wordCount": 2669,
           "title": "Camunda Cloud 1.3.0 Released"
         },
         {
@@ -863,7 +872,7 @@
           "description": "Martin Tingley with Wenjing Zheng, Simon Ejdemyr, Stephanie Lane, Colin McFarland, Mihir Tendulkar, and Travis Brooks",
           "link": "https://netflixtechblog.com/netflix-a-culture-of-learning-394bc7d0f94c?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-01-25T16:23:45.000Z",
-          "wordCount": 3512,
+          "wordCount": 3501,
           "title": "Netflix: A Culture of Learning"
         },
         {
@@ -872,7 +881,7 @@
           "description": "How the Netflix TVUI team implemented a robust strategy to quickly and easily detect performance anomalies before they a",
           "link": "https://netflixtechblog.com/fixing-performance-regressions-before-they-happen-eab2602b86fe?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-01-24T21:49:43.000Z",
-          "wordCount": 3104,
+          "wordCount": 3066,
           "title": "Fixing Performance Regressions Before they Happen"
         },
         {
@@ -881,7 +890,7 @@
           "description": "By Vikram Srivastava and Marcelo Mayworm",
           "link": "https://netflixtechblog.com/auto-diagnosis-and-remediation-in-netflix-data-platform-5bcc52d853d1?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-01-14T04:23:22.000Z",
-          "wordCount": 1583,
+          "wordCount": 1557,
           "title": "Auto-Diagnosis and Remediation in Netflix Data Platform"
         },
         {
@@ -890,7 +899,7 @@
           "description": "Martin Tingley with Wenjing Zheng, Simon Ejdemyr, Stephanie Lane, Colin McFarland, Andy Rhines, Sophia Liu, Mihir Tendulkar, Kevin…",
           "link": "https://netflixtechblog.com/experimentation-is-a-major-focus-of-data-science-across-netflix-f67923f8e985?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-01-11T16:09:13.000Z",
-          "wordCount": 4823,
+          "wordCount": 4810,
           "title": "Experimentation is a major focus of Data Science across Netflix"
         }
       ]
@@ -901,12 +910,21 @@
       "siteUrl": "http://ai.googleblog.com/",
       "articles": [
         {
+          "id": "http://ai.googleblog.com/2022/01/does-your-medical-image-classifier-know.html",
+          "author": null,
+          "description": "Posted by Abhijit Guha Roy, Research Software Engineer and Jie Ren, Research Scientist, Google Research    \nDeep machine learning (ML) systems have achieved considerable success in medical image analysis in recent years. One major contributing factor is access to abundant labeled datasets, which are used to train highly effective supervised deep learning models. However, in the real-world, these models may encounter samples exhibiting rare conditions that are individually too infrequent for per-condition classification. Nevertheless, such conditions can be collectively common because they follow a long-tail distribution and when taken together can represent a significant portion of cases — e.g., in a recent deep learning dermatological study, hundreds of rare conditions composed around 20%…",
+          "link": "http://ai.googleblog.com/2022/01/does-your-medical-image-classifier-know.html",
+          "publishedOn": "2022-01-27T18:01:00.001Z",
+          "wordCount": 2722,
+          "title": "Does Your Medical Image Classifier Know What It Doesn’t Know?"
+        },
+        {
           "id": "http://ai.googleblog.com/2022/01/resolving-high-energy-impacts-on.html",
           "author": null,
           "description": "Posted by Matt McEwen, Student Researcher, Google Quantum AI and Lara Faoro, Research Fellow, LPTHE- Sorbonne Université and CNRS (Paris) \nQuantum processors are made of superconducting quantum bits (qubits) that — being quantum objects — are highly susceptible to even tiny amounts of environmental noise. This noise can cause errors in quantum computation that need to be addressed to continue advancing quantum computers. Our Sycamore processors are installed in specially designed cryostats, where they are sealed away from stray light and electromagnetic fields and are cooled down to very low temperatures to reduce thermal noise.  \nHowever, the world is full of high-energy radiation. In fact, there’s a tiny background of high-energy gamma rays and muons that pass through everything around u…",
           "link": "http://ai.googleblog.com/2022/01/resolving-high-energy-impacts-on.html",
-          "publishedOn": "2022-01-26T19:57:00.000Z",
-          "wordCount": 2216,
+          "publishedOn": "2022-01-26T19:57:00.001Z",
+          "wordCount": 2219,
           "title": "Resolving High-Energy Impacts on Quantum Processors"
         },
         {
@@ -980,12 +998,21 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=41538",
+          "author": "Seth Godin",
+          "description": "Has this ever been done before? Why not? Did it work? Why not? If it’s new and useful, what problem is it solving? Why has the audience rejected similar innovations in the past? One day, this market will change. What will cause that change to happen?",
+          "link": "https://feeds.feedblitz.com/~/679725672/0/sethsblog~Innovation-and-domain-knowledge/",
+          "publishedOn": "2022-01-27T11:06:00.000Z",
+          "wordCount": 180,
+          "title": "Innovation and domain knowledge"
+        },
+        {
           "id": "https://seths.blog/?p=40254",
           "author": "Seth Godin",
           "description": "Do you have a script? Most of us do. Here’s a new piece of software. Do you immediately read the manual front to back? Dive in and see how it works? Tense up in fear and distaste? She’s going to give you some feedback. Is your first reaction to be defensive, or to lean into […]",
           "link": "https://feeds.feedblitz.com/~/679571510/0/sethsblog~Here-we-go-again/",
           "publishedOn": "2022-01-26T09:39:00.000Z",
-          "wordCount": 403,
+          "wordCount": 404,
           "title": "“Here we go again”"
         },
         {
@@ -1059,15 +1086,6 @@
           "publishedOn": "2022-01-18T09:06:00.000Z",
           "wordCount": 281,
           "title": "“The dog ate my homework”"
-        },
-        {
-          "id": "https://seths.blog/?p=42143",
-          "author": "Seth Godin",
-          "description": "That’s how culture perpetuates injustice and indignity. Because that’s just the way things are around here. But the status quo isn’t permanent. The world doesn’t stay the way it was. It changes. And it’s been changing faster than ever. It doesn’t change because the status quo sub-committee had a meeting and decided to change it. […]",
-          "link": "https://feeds.feedblitz.com/~/678378312/0/sethsblog~The-way-things-are/",
-          "publishedOn": "2022-01-17T09:15:00.000Z",
-          "wordCount": 234,
-          "title": "“The way things are”"
         }
       ]
     }

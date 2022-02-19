@@ -6,13 +6,43 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
-          "id": "https://spring.io/blog/2022/02/17/a-bootiful-podcast-java-team-luminary-sharat-chandler",
+          "id": "https://spring.io/blog/2022/02/18/spring-data-2021-2-0-m3-2021-1-2-and-2021-0-9-released",
           "author": null,
-          "description": "Hi, Spring fans! Welcome to another installment of A Bootiful Podcast! This week, Josh Long (@starbuxman)  talks to @Java team luminary and community legend Sharat Chandler (@Sharat_Chander).",
-          "link": "https://spring.io/blog/2022/02/17/a-bootiful-podcast-java-team-luminary-sharat-chandler",
+          "description": "On behalf of the team, I’m pleased to announce Spring Data service releases 2021.1.2 and 2020.0.9.\nBoth releases ship with mostly bug fixes and dependency upgrades.\nFor your convenience, Spring Boot 2.6.4 respective 2.5.10 are going to pick up these releases in the upcoming days.\n\r\nAlong with the service releases, we released the next milestone 2021.2.0-M3 of the 2021.2 release train. We have summarized the new and noteworthy changes in our release notes.\n\r\nTo round things off, here are the links to the individual modules, changelogs, and documentation:\n2021.2.0-M3\n\r\n\r\n  \nSpring Data Commons 2.7 M3 - Artifacts - Javadoc - Documentation - Changelog\n\r\n  \nSpring Data JDBC 2.4 M3 - Artifacts - Javadoc - Documentation - Changelog\n\r\n  \nSpring Data JPA 2.7 M3 - Artifacts - Javadoc - Documentation…",
+          "link": "https://spring.io/blog/2022/02/18/spring-data-2021-2-0-m3-2021-1-2-and-2021-0-9-released",
+          "publishedOn": "2022-02-18T10:41:03.000Z",
+          "wordCount": 1034,
+          "title": "Spring Data 2021.2.0-M3, 2021.1.2, and 2021.0.9 released",
+          "imageUrl": "https://avatars.githubusercontent.com/u/1035015?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2022/02/18/spring-cloud-2021-0-1-has-been-released",
+          "author": null,
+          "description": "On behalf of the community, I am pleased to announce that the Service Release 1 of the Spring Cloud 2021.0 Release Train is available today. This was primarily a bug fix release. The release can be found in Maven Central. You can check out the 2021.0.1 release notes for more information.\nNotable Changes in the 2021.0.1 Release Train\n\r\nSee the project page for all issues included in the release.\nSpring Cloud Config\n\r\n\r\n  \nFix pattern matching bug with JSON, YAML, and properties files (2020)\n\r\n\nSpring Cloud Sleuth\n\r\n\r\n  \nNumerous bug fixes\n\r\n\nSpring Cloud Contract\n\r\n\r\n  \nBug fixes\n\r\n\nSpring Cloud Gateway\n\r\n\r\n  \nA new route predicate that checks for allowed values for the X-Forwarded-For header, similar to the RemoteAddr predicate. (783)\n\r\n  \nAllows setting of the order of the Gateway Handler…",
+          "link": "https://spring.io/blog/2022/02/18/spring-cloud-2021-0-1-has-been-released",
+          "publishedOn": "2022-02-18T08:09:00.000Z",
+          "wordCount": 704,
+          "title": "Spring Cloud 2021.0.1 Has Been Released",
+          "imageUrl": "https://avatars.githubusercontent.com/u/524254?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2022/02/17/spring-ldap-2-3-6-and-2-4-0-m2-released",
+          "author": null,
+          "description": "On behalf of the team and everyone who has contributed, I am pleased to announce that Spring LDAP 2.3.6 (release notes) and 2.4.0-M2 (release notes) are available now.\n\r\n\r\n\r\nProject Page | GitHub | Issues | Documentation",
+          "link": "https://spring.io/blog/2022/02/17/spring-ldap-2-3-6-and-2-4-0-m2-released",
+          "publishedOn": "2022-02-18T04:15:00.000Z",
+          "wordCount": 413,
+          "title": "Spring LDAP 2.3.6 and 2.4.0-M2 released",
+          "imageUrl": "https://avatars.githubusercontent.com/u/3627351?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2022/02/17/a-bootiful-podcast-java-team-luminary-sharat-chander",
+          "author": null,
+          "description": "Hi, Spring fans! Welcome to another installment of A Bootiful Podcast! This week, Josh Long (@starbuxman)  talks to @Java team luminary and community legend Sharat Chander (@sharat_chander).",
+          "link": "https://spring.io/blog/2022/02/17/a-bootiful-podcast-java-team-luminary-sharat-chander",
           "publishedOn": "2022-02-17T20:00:00.000Z",
           "wordCount": 408,
-          "title": "A Bootiful Podcast: Java team luminary Sharat Chandler",
+          "title": "A Bootiful Podcast: Java team luminary Sharat Chander",
           "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
         },
         {
@@ -174,36 +204,6 @@
           "wordCount": 448,
           "title": "Spring Initializr 0.12.0 available now",
           "imageUrl": "https://avatars.githubusercontent.com/u/490484?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/01/20/spring-boot-3-0-0-m1-is-now-available",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 3.0.0-M1 has been released and is now available from https://repo.spring.io/milestone.\n\r\nThis milestone starts our exciting journey to the next generation of the Spring Framework and raises our baseline from Java 8 to Java 17. We are planning to release a new milestone of Spring Boot 3.0 every two months. M2 should arrive on March 24 and we are planning on a GA release in late November.\n\r\nIf you are trying an existing application with Spring Boot 3.0 you’ll need to be aware that we’ve migrated all Java EE APIs to their equivalent Jakarta EE variant. For most users, this means you’ll need to replace any javax imports with jakarta. For example, javax.servlet.Filter would be replaced with jakarta.servlet.Filter.\n\r\nWe’re still waiting for a few third-party libraries to release Jakarta EE compatible versions, so not all Spring Boot 2.x features are available with this first milestone. We plan to reintroduce features as and when libraries provide appropriate releases.\n\r\nPlease see the release notes for more details and upgrade instructions.\n\r\nIf you’re interested in trying this new release, you can easily generate a project from start.spring.io.\nThanks to all those who have contributed with issue reports and pull requests. \nHow can you help?\n\r\nIf you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
-          "link": "https://spring.io/blog/2022/01/20/spring-boot-3-0-0-m1-is-now-available",
-          "publishedOn": "2022-01-20T23:00:00.000Z",
-          "wordCount": 643,
-          "title": "Spring Boot 3.0.0-M1 is now available",
-          "imageUrl": "https://avatars.githubusercontent.com/u/519772?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/01/20/a-bootiful-podcast-redhat-s-kate-stanley-on-the-distinction-between-traditional-brokers-and-apache-kafka",
-          "author": null,
-          "description": "Hi, Spring fans! In this installment Josh Long (@starbuxman) talks to returning guest RedHat’s Kate Stanley (@KateStanley91) on the distinction between traditional brokers and Apache Kafka.",
-          "link": "https://spring.io/blog/2022/01/20/a-bootiful-podcast-redhat-s-kate-stanley-on-the-distinction-between-traditional-brokers-and-apache-kafka",
-          "publishedOn": "2022-01-20T20:00:00.000Z",
-          "wordCount": 421,
-          "title": "A Bootiful Podcast: RedHat's Kate Stanley on the distinction between traditional brokers and Apache Kafka",
-          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/01/20/spring-boot-2-7-0-m1-is-now-available",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 2.7.0-M1 has been released and is now available from https://repo.spring.io/milestone.\n\r\nThis release includes 111 bug fixes, documentation improvements, and dependency upgrades. Notable new features include:\n\r\n\r\n  \nSpring GraphQL starter\n\r\n  \nOperating system and Java vendor information in actuator info endpoint\n\r\n  \nSupport for RabbitStreamTemplate\n\r\n\r\nPlease see the release notes for more details and upgrade instructions.\n\r\nThanks to all those who have contributed with issue reports and pull requests. \nHow can you help?\n\r\nIf you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
-          "link": "https://spring.io/blog/2022/01/20/spring-boot-2-7-0-m1-is-now-available",
-          "publishedOn": "2022-01-20T19:57:00.000Z",
-          "wordCount": 513,
-          "title": "Spring Boot 2.7.0-M1 is now available",
-          "imageUrl": "https://avatars.githubusercontent.com/u/60661?v=4?s=200"
         }
       ]
     },
@@ -213,12 +213,22 @@
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
         {
+          "id": "https://www.hashicorp.com/blog/network-security-automation-using-cisco-secure-firewall-and-hashicorp-consul",
+          "author": null,
+          "description": "Learn how  Consul-Terraform-Sync can be used to auto-update values of objects in Cisco Secure Firewall Management Center (FMC).",
+          "link": "https://www.hashicorp.com/blog/network-security-automation-using-cisco-secure-firewall-and-hashicorp-consul",
+          "publishedOn": "2022-02-18T20:00:00.000Z",
+          "wordCount": 837,
+          "title": "Network Security Automation using Cisco Secure Firewall and HashiCorp Consul",
+          "imageUrl": "https://www.datocms-assets.com/2885/1639970674-hashicorp-cisco.png"
+        },
+        {
           "id": "https://www.hashicorp.com/blog/hpe-servicenow-jfrog-among-new-verified-terraform-providers",
           "author": null,
           "description": "We welcome 15 new verified providers to the growing HashiCorp Terraform ecosystem.",
           "link": "https://www.hashicorp.com/blog/hpe-servicenow-jfrog-among-new-verified-terraform-providers",
           "publishedOn": "2022-02-17T20:15:00.000Z",
-          "wordCount": 1147,
+          "wordCount": 1202,
           "title": "HPE, ServiceNow, JFrog Among New Verified Terraform Providers",
           "imageUrl": "https://www.datocms-assets.com/2885/1645129490-verified-blog-visual.png"
         },
@@ -238,7 +248,7 @@
           "description": "Version 4.0 of the HashiCorp Terraform AWS provider brings usability improvements to data sources and attribute validations along with a refactored S3 bucket resource.",
           "link": "https://www.hashicorp.com/blog/terraform-aws-provider-4-0-refactors-s3-bucket-resource",
           "publishedOn": "2022-02-10T17:00:00.000Z",
-          "wordCount": 1192,
+          "wordCount": 1183,
           "title": "Terraform AWS Provider 4.0 Refactors S3 Bucket Resource",
           "imageUrl": "https://www.datocms-assets.com/2885/1620155432-blog-library-product-terraform-aws-logomarks-dark.jpg"
         },
@@ -248,7 +258,7 @@
           "description": "Using multiple dedicated service meshes can pose resource-inefficiency challenges — learn how HashiCorp Consul’s new Administrative Partitions can help solve them.",
           "link": "https://www.hashicorp.com/blog/achieving-multi-tenancy-with-consul-administrative-partitions",
           "publishedOn": "2022-02-07T17:00:00.000Z",
-          "wordCount": 2339,
+          "wordCount": 2335,
           "title": "Achieving Multi-Tenancy with Consul Administrative Partitions",
           "imageUrl": "https://www.datocms-assets.com/2885/1620083627-blog-library-product-consul-dark-graphics.jpg"
         },
@@ -278,7 +288,7 @@
           "description": "Cloud Development Kit for Terraform 0.9 (CDKTF) enables cross-stack references and improves generated resources for providers and modules.",
           "link": "https://www.hashicorp.com/blog/cdk-for-terraform-0-9-adds-cross-stack-references-and-more",
           "publishedOn": "2022-01-28T17:00:00.000Z",
-          "wordCount": 1141,
+          "wordCount": 1132,
           "title": "CDK for Terraform 0.9 Adds Cross-Stack References and More",
           "imageUrl": "https://www.datocms-assets.com/2885/1620083068-blog-library-product-terraform-black.jpg"
         },
@@ -288,7 +298,7 @@
           "description": "The Consul API Gateway has now reached its first beta release, adding TCPRoute support, Helm chart support, and a new HashiCorp Learn tutorial.",
           "link": "https://www.hashicorp.com/blog/consul-api-gateway-now-in-beta",
           "publishedOn": "2022-01-28T16:00:00.000Z",
-          "wordCount": 860,
+          "wordCount": 856,
           "title": "Consul API Gateway Now in Beta",
           "imageUrl": "https://www.datocms-assets.com/2885/1620083627-blog-library-product-consul-dark-graphics.jpg"
         },
@@ -298,7 +308,7 @@
           "description": "The latest version of HashiCorp Consul on Amazon ECS adds extended configuration to support more deployment scenarios along with several other new features.",
           "link": "https://www.hashicorp.com/blog/consul-on-amazon-ecs-0-3-adds-extended-configuration",
           "publishedOn": "2022-01-27T17:15:00.000Z",
-          "wordCount": 659,
+          "wordCount": 655,
           "title": "Consul on Amazon ECS 0.3 Adds Extended Configuration",
           "imageUrl": "https://www.datocms-assets.com/2885/1620155270-blog-library-product-consul-aws-dark.jpg"
         },
@@ -318,19 +328,9 @@
           "description": "HCP Consul users can now auto-generate ready-to-apply Terraform configurations to deploy HCP Consul end-to-end with a demo application in less than 20 minutes.",
           "link": "https://www.hashicorp.com/blog/new-hcp-consul-ui-feature-speeds-setup-with-terraform",
           "publishedOn": "2022-01-20T17:00:00.000Z",
-          "wordCount": 808,
+          "wordCount": 805,
           "title": "HCP Consul UI Now Supports End-to-End Deployment with Terraform",
           "imageUrl": "https://www.datocms-assets.com/2885/1620082176-blog-library-product-terraform-consul-dark.jpg"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/how-to-adopt-a-producer-consumer-model-for-hashicorp-vault",
-          "author": null,
-          "description": "Learn our best practices and get customer-tested templates that help HashiCorp Vault users adopt efficient producer-consumer models.",
-          "link": "https://www.hashicorp.com/blog/how-to-adopt-a-producer-consumer-model-for-hashicorp-vault",
-          "publishedOn": "2022-01-19T16:00:00.000Z",
-          "wordCount": 1870,
-          "title": "How to Adopt a Producer-Consumer Model for HashiCorp Vault",
-          "imageUrl": "https://www.datocms-assets.com/2885/1620083006-blog-library-product-vault-dark-gradient.jpg"
         }
       ]
     },
@@ -624,6 +624,16 @@
       "siteUrl": "https://devblogs.microsoft.com/devops",
       "articles": [
         {
+          "id": "https://devblogs.microsoft.com/devops/?p=63477",
+          "author": "Jay Gordon",
+          "description": "The top stories from the #AzureDevOps #community for 2022.02.18 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2022.02.18 appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2022-02-18/",
+          "publishedOn": "2022-02-18T09:00:27.000Z",
+          "wordCount": 1339,
+          "title": "Top Stories from the Microsoft DevOps Community – 2022.02.18",
+          "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2019/02/agile-culture.png"
+        },
+        {
           "id": "https://devblogs.microsoft.com/devops/?p=63458",
           "author": "April Edwards",
           "description": "On this week’s episode of The DevOps Lab we have Kat Cosgrove and Matty Stratton from Pulumi joining us!\n02:45 –\nThe post Deploy Into Azure Using Pulumi and GitHub Actions appeared first on Azure DevOps Blog.",
@@ -689,7 +699,7 @@
           "description": "With this patch cycle, we are releasing fixes that impact our self-hosted product, Azure DevOps Server, as well as Team Foundation Server 2018.3.2. Please see the release notes for additional installation instructions.\nUpgraded search plugins to use log4j core version 2.17.1.\nThe post Updated: Azure DevOps Server and Team Foundation Server patches appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azure-devops-server-and-team-foundation-server-patches/",
           "publishedOn": "2022-01-26T19:56:19.000Z",
-          "wordCount": 3576,
+          "wordCount": 3689,
           "title": "Updated: Azure DevOps Server and Team Foundation Server patches",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2019/05/Stock-image.jpg"
         },
@@ -726,6 +736,16 @@
       "feedUrl": "http://feeds.feedburner.com/AmazonWebServicesBlog",
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
+        {
+          "id": "6a6363a6fd2f05ad00504fbee779ecb0f06a2c82",
+          "author": "Sébastien Stormacq",
+          "description": "On January 18th 2012, Jeff and Werner announced the general availability of Amazon DynamoDB, a fully managed flexible NoSQL database service for single-digit millisecond performance at any scale. During the last 10 years, hundreds of thousands of customers have adopted DynamoDB. It regularly reaches new peaks of performance and scalability. For example, during the last […]",
+          "link": "https://aws.amazon.com/blogs/aws/happy-birthday-dynamodb/",
+          "publishedOn": "2022-02-18T23:49:10.000Z",
+          "wordCount": 1987,
+          "title": "Happy 10th Birthday, DynamoDB! 🎉🎂🎁",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/02/18/DynamoDB-event-illustration.png"
+        },
         {
           "id": "4431491871a4ee3d928576163daaa289ff9714db",
           "author": "Danilo Poccia",
@@ -936,7 +956,7 @@
           "description": "We're happy to announce the Camunda Modeler 5.0 release. It provides Camunda Cloud 1.1 support, BPMN in color support, and more improvements.\nThe post Camunda Modeler 5.0.0-alpha.0 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/01/camunda-modeler-5-0-0-alpha-0-released/",
           "publishedOn": "2022-01-28T08:15:00.000Z",
-          "wordCount": 2400,
+          "wordCount": 2399,
           "title": "Camunda Modeler 5.0.0-alpha.0 Released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/01/Blog_CategoryImages_V3_Modeler.png"
         },
@@ -946,7 +966,7 @@
           "description": "Learn how to update Camunda Modeler plugins to benefit from its new features and make them compatible with Camunda Modeler 5 and subsequent versions. \nThe post How to Migrate Your Camunda Modeler Plugins to Work with Camunda Modeler 5.0 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/01/how-to-migrate-your-camunda-modeler-plugins-to-work-with-camunda-modeler-5-x/",
           "publishedOn": "2022-01-28T08:05:00.000Z",
-          "wordCount": 1816,
+          "wordCount": 1815,
           "title": "How to Migrate Your Camunda Modeler Plugins to Work with Camunda Modeler 5.0",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/01/Blog_CategoryImages_V3_Modeler.png"
         },
@@ -1128,12 +1148,22 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
+          "id": "https://medium.com/p/6deb1d2b57d1",
+          "author": "Netflix Technology Blog",
+          "description": "This blog post gives an overview of the Rapid Event Notification System at Netflix and shares some of the learnings gained while building it",
+          "link": "https://netflixtechblog.com/rapid-event-notification-system-at-netflix-6deb1d2b57d1?source=rss----2615bd06b42e---4",
+          "publishedOn": "2022-02-18T15:30:24.000Z",
+          "wordCount": 2012,
+          "title": "Rapid Event Notification System at Netflix",
+          "imageUrl": "https://miro.medium.com/max/1030/0*i6o12AqlvqZDMcAj"
+        },
+        {
           "id": "https://medium.com/p/86525b3e21ca",
           "author": "Netflix Technology Blog",
           "description": "by Sam Setegne, Jai Balani, Olek Gorajek",
           "link": "https://netflixtechblog.com/data-pipeline-asset-management-with-dataflow-86525b3e21ca?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-02-09T17:33:22.000Z",
-          "wordCount": 3170,
+          "wordCount": 3168,
           "title": "Data pipeline asset management with Dataflow",
           "imageUrl": "https://miro.medium.com/max/976/0*DwP-Z_4MrdAz5UTG"
         },
@@ -1143,7 +1173,7 @@
           "description": "By Karen Casella, Director of Engineering, Access & Identity Management",
           "link": "https://netflixtechblog.com/demystifying-interviewing-for-backend-engineers-netflix-aceb26a83495?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-02-01T14:24:18.000Z",
-          "wordCount": 1790,
+          "wordCount": 1793,
           "title": "Demystifying Interviewing for Backend Engineers @ Netflix",
           "imageUrl": "https://miro.medium.com/max/1200/0*7zWnpCdZ_OTjyo-6"
         },
@@ -1153,7 +1183,7 @@
           "description": "Martin Tingley with Wenjing Zheng, Simon Ejdemyr, Stephanie Lane, Colin McFarland, Mihir Tendulkar, and Travis Brooks",
           "link": "https://netflixtechblog.com/netflix-a-culture-of-learning-394bc7d0f94c?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-01-25T16:23:45.000Z",
-          "wordCount": 3521,
+          "wordCount": 3512,
           "title": "Netflix: A Culture of Learning",
           "imageUrl": "https://miro.medium.com/max/1200/0*9RDYcxBOXJ0o04Xb"
         },
@@ -1163,7 +1193,7 @@
           "description": "How the Netflix TVUI team implemented a robust strategy to quickly and easily detect performance anomalies before they a",
           "link": "https://netflixtechblog.com/fixing-performance-regressions-before-they-happen-eab2602b86fe?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-01-24T21:49:43.000Z",
-          "wordCount": 3090,
+          "wordCount": 3058,
           "title": "Fixing Performance Regressions Before they Happen",
           "imageUrl": "https://miro.medium.com/max/1200/1*admHu1DuoaSrYF3Sx3_n9w.png"
         }
@@ -1174,6 +1204,16 @@
       "feedUrl": "http://feeds.feedburner.com/blogspot/gJZg",
       "siteUrl": "http://ai.googleblog.com/",
       "articles": [
+        {
+          "id": "http://ai.googleblog.com/2022/02/robust-routing-using-electrical-flows.html",
+          "author": null,
+          "description": "Posted by Ali Kemal Sinop and Kostas Kollias, Research Scientists, Google Research \nIn the world of networks, there are models that can explain observations across a diverse collection of applications. These include simple tasks such as computing the shortest path, which has obvious applications to routing networks but also applies in biology, e.g., where the slime mold Physarum is able to find shortest paths in mazes. Another example is Braess’s paradox — the observation that adding resources to a network can have an effect opposite to the one expected — which manifests not only in road networks but also in mechanical and electrical systems. For instance, constructing a new road can increase traffic congestion or adding a new link in an electrical circuit can increase voltage. Such connec…",
+          "link": "http://ai.googleblog.com/2022/02/robust-routing-using-electrical-flows.html",
+          "publishedOn": "2022-02-18T19:58:00.006Z",
+          "wordCount": 2532,
+          "title": "Robust Routing Using Electrical Flows",
+          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
+        },
         {
           "id": "http://ai.googleblog.com/2022/02/machine-learning-for-mechanical.html",
           "author": null,
@@ -1342,12 +1382,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=42340",
+          "author": "Seth Godin",
+          "description": "It’s easy to accept the limits that are implied when someone asks us for advice and feedback. Fix the typos, sure. That’s important. But perhaps you have something bigger to add. A friend shares plans to launch a new retail website. It’s tempting to fix the small errors on the page, but perhaps it’s more […]",
+          "link": "https://feeds.feedblitz.com/~/682819008/0/sethsblog~The-Oxford-comma-trap/",
+          "publishedOn": "2022-02-18T09:01:00.000Z",
+          "wordCount": 290,
+          "title": "The Oxford comma, trap",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061312.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=42254",
           "author": "Seth Godin",
           "description": "It’s something I’ve been working on as a full-time volunteer for the last five months. And it’s something that three hundred people are building together. But I say “our” because it’s bigger than me or the three hundred of us or even the people who are reading this blog. Like it or not, this is […]",
           "link": "https://feeds.feedblitz.com/~/682709050/0/sethsblog~Our-new-project/",
           "publishedOn": "2022-02-17T09:24:00.000Z",
-          "wordCount": 315,
+          "wordCount": 316,
           "title": "Our new project",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg"
         },
@@ -1430,16 +1480,6 @@
           "wordCount": 295,
           "title": "It’s easy to do (if you know how to do it)",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg"
-        },
-        {
-          "id": "https://seths.blog-production.mystagingwebsite.com/?p=29904",
-          "author": "Seth Godin",
-          "description": "Infinity is a great idea, but unless you’re doing math, it’s mostly an idea. Everything else in our world has limits. It’s the limits that make it interesting, the limits that give us an edge to the box, something to leverage against. Instead of denying the existence of limits and the trade-offs that they bring […]",
-          "link": "https://feeds.feedblitz.com/~/681346150/0/sethsblog~Limitless/",
-          "publishedOn": "2022-02-08T09:16:00.000Z",
-          "wordCount": 208,
-          "title": "Limitless",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061314.jpg"
         }
       ]
     },
@@ -1449,12 +1489,42 @@
       "siteUrl": "https://blog.jetbrains.com",
       "articles": [
         {
+          "id": "https://blog.jetbrains.com/?post_type=kotlin&p=230823",
+          "author": "Ksenia Shneyveys",
+          "description": "Kotlin Heroes is our Kotlin-only contest hosted by the Codeforces. It is a great way to play around with Kotlin’s features, learn something new, and practice using the language by solving fun problems. It is great for programmers of any level! Everyone has a chance to win some cool prizes: exclusive Kotlin Heroes t-shirts, stickers, […]",
+          "link": "https://blog.jetbrains.com/kotlin/2022/02/kotlin-heroes-episode-9/",
+          "publishedOn": "2022-02-17T17:13:41.000Z",
+          "wordCount": 869,
+          "title": "Here Comes Kotlin Heroes:  Episode 9!",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/02/Kotlin-Heroes-Episode-9.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=go&p=230494",
+          "author": "Sergey Kozlovskiy",
+          "description": "Go is undoubtedly one of the most popular languages for writing microservices. In this EAP build, you will find some great features that will make working with microservices easier.  You can get the EAP build via the Toolbox App, download it from our website, use a snap package (for Ubuntu), or from inside GoLand select […]",
+          "link": "https://blog.jetbrains.com/go/2022/02/17/goland-2022-1-eap-3-is-out-with-new-features-for-working-with-microservices/",
+          "publishedOn": "2022-02-17T13:19:28.000Z",
+          "wordCount": 1285,
+          "title": "GoLand 2022.1 EAP #3 is Out with New Features for Working with Microservices",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/02/GoLand_blog_featured.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=228047",
+          "author": "Maarten Balliauw",
+          "description": "It’s that time of the year again! Back in 2019, we held our first JetBrains .NET Day Online — a free, live, virtual event where community speakers cover topics they are passionate about, ranging from deep technical .NET content and speakers’ experiences with specific tools and technologies, to personal development. After a successful 2020 and […]",
+          "link": "https://blog.jetbrains.com/dotnet/2022/02/17/jetbrains-net-day-online-2022-call-for-speakers/",
+          "publishedOn": "2022-02-17T07:12:49.000Z",
+          "wordCount": 922,
+          "title": "JetBrains .NET Day Online 2022 – Call for Speakers",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/02/jb-news-share.png"
+        },
+        {
           "id": "https://blog.jetbrains.com/?post_type=clion&p=230331",
           "author": "Anastasia Kazakova",
           "description": "We have all of the January news for you in our latest monthly C++ Annotated digest and its companion, the No Diagnostic Required show. If you have already subscribed, feel free to skip straight to the news. If this is your first time here, let us quickly take you through all the formats we offer. […]",
           "link": "https://blog.jetbrains.com/clion/2022/02/cpp-annotated-january-2022/",
           "publishedOn": "2022-02-16T21:17:34.000Z",
-          "wordCount": 3937,
+          "wordCount": 3979,
           "title": "C++ Annotated January 2022: C++20 to Eliminate Runtime Bugs and Achieve Better Design, Full Test Coverage, and a New QML Compiler",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2021/12/cpp_annotated_social.png"
         },
@@ -1537,36 +1607,6 @@
           "wordCount": 965,
           "title": "5 Techniques for Insightful Analytics With SQL",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/02/DSGN-13239-Create-banner-for-DataGrip-newsletter-and-blogpost_social_share.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=226281",
-          "author": "Khalid Abuhakmeh",
-          "description": "Join us Tuesday, March 1, 2022, 15:00 – 16:00 UTC (check other timezones) for our free live webinar, Working with SQL and databases in Rider with DataGrip’s team lead Maksim Sobolevskiy. Register now and get a reminder, or join on YouTube In this webinar, we’ll see the basics of writing SQL queries and working with […]",
-          "link": "https://blog.jetbrains.com/dotnet/2022/02/15/webinar-working-with-sql-and-databases-in-rider/",
-          "publishedOn": "2022-02-15T09:43:51.000Z",
-          "wordCount": 624,
-          "title": "Webinar: Working with SQL and databases in Rider",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/02/DSGN-13186-Webinar-Rider-Working-with-SQL-and-databases-in-Rider_twitter-1200x675-1.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=datalore&p=228021",
-          "author": "Alena Guzharina",
-          "description": "Why you need to combine SQL and Python inside Jupyter notebooks SQL is extremely good for data retrieval and calculating basic statistics, whereas Python comes into its own when you need in-depth, flexible exploratory data analysis or data science. What if you could use both programming languages inside of one tool? In this post you […]",
-          "link": "https://blog.jetbrains.com/datalore/2022/02/14/how-to-run-sql-from-jupyter-notebook-two-easy-ways/",
-          "publishedOn": "2022-02-14T14:59:05.000Z",
-          "wordCount": 1038,
-          "title": "How to Run SQL from Jupyter Notebook – Two Easy Ways",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/02/Blog_Social_share_image_1280x720-1-1.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=objc&p=228216",
-          "author": "Stanislav Dombrovsky",
-          "description": "Hi everyone, Today we are starting the Early Access Program for AppCode 2022.1, and the first build is already available for download. Language support Starting with this build, AppCode supports async sequences (SE-0298). Other improvements and bug fixes Separate color settings for associated types (OC-22414) Ability to indent contents of a multiline string (OC-22121) Slow […]",
-          "link": "https://blog.jetbrains.com/objc/2022/02/appcode-starts-2022-1-eap/",
-          "publishedOn": "2022-02-11T22:46:00.000Z",
-          "wordCount": 470,
-          "title": "AppCode Starts 2022.1 EAP: Swift Support Improvements and Bug Fixes",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/02/AppCode_blog_featured-2x.png"
         }
       ]
     }

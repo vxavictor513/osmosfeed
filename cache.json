@@ -6,6 +6,36 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2022/02/21/spring-security-5-7-0-m2-released",
+          "author": null,
+          "description": "On behalf of the team and everyone who has contributed, I am pleased to announce the release of Spring Security 5.7.0-M2.\n\r\n\r\n\r\nYou can find the complete list of dependency updates, bug fixes and enhancements in the release notes.\n\r\n\r\n\r\nAmong the enhancements you will find we have deprecated the WebSecurityConfigurerAdapter. For additional details you can check out this blog post on the future of Spring Security without the WebSecurityConfigurerAdapter.\n\r\n\r\n\r\nWe look forward to hearing your feedback.\n\r\n\r\n\r\nProject Site | Reference | Help",
+          "link": "https://spring.io/blog/2022/02/21/spring-security-5-7-0-m2-released",
+          "publishedOn": "2022-02-21T15:52:00.000Z",
+          "wordCount": 454,
+          "title": "Spring Security 5.7.0-M2 released",
+          "imageUrl": "https://avatars.githubusercontent.com/u/6599803?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2022/02/21/spring-security-5-5-5-and-5-6-2-released",
+          "author": null,
+          "description": "On behalf of the community, I’m pleased to announce the release of Spring Security 5.5.5 (release notes) and Spring Security 5.6.2 (release notes). These releases deliver bug fixes along with some minor improvements. Users are encouraged to update to the latest patch release.\n\r\n\r\n\r\nProject Site | Reference | Help",
+          "link": "https://spring.io/blog/2022/02/21/spring-security-5-5-5-and-5-6-2-released",
+          "publishedOn": "2022-02-21T15:00:00.000Z",
+          "wordCount": 426,
+          "title": "Spring Security 5.5.5 and 5.6.2 released",
+          "imageUrl": "https://avatars.githubusercontent.com/u/6599803?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2022/02/21/spring-security-without-the-websecurityconfigureradapter",
+          "author": null,
+          "description": "In Spring Security 5.7.0-M2 we deprecated the WebSecurityConfigurerAdapter, as we encourage users to move towards a component-based security configuration.\n\r\nTo assist with the transition to this new style of configuration, we have compiled a list of common use-cases and the suggested alternatives going forward.\n\r\nIn the examples below we follow best practice by using the Spring Security lambda DSL and the method HttpSecurity#authorizeHttpRequests to define our authorization rules. If you are new to the lambda DSL you can read about it in this blog post. If you would like to learn more about why we choose to use HttpSecurity#authorizeHttpRequests you can check out the reference documentation.\nConfiguring HttpSecurity\n\r\nIn Spring Security 5.4 we introduced the ability to configure HttpSecur…",
+          "link": "https://spring.io/blog/2022/02/21/spring-security-without-the-websecurityconfigureradapter",
+          "publishedOn": "2022-02-21T15:00:00.000Z",
+          "wordCount": 1217,
+          "title": "Spring Security without the WebSecurityConfigurerAdapter",
+          "imageUrl": "https://avatars.githubusercontent.com/u/6599803?v=4?s=200"
+        },
+        {
           "id": "https://spring.io/blog/2022/02/18/spring-data-2021-2-0-m3-2021-1-2-and-2021-0-9-released",
           "author": null,
           "description": "On behalf of the team, I’m pleased to announce Spring Data service releases 2021.1.2 and 2020.0.9.\nBoth releases ship with mostly bug fixes and dependency upgrades.\nFor your convenience, Spring Boot 2.6.4 respective 2.5.10 are going to pick up these releases in the upcoming days.\n\r\nAlong with the service releases, we released the next milestone 2021.2.0-M3 of the 2021.2 release train. We have summarized the new and noteworthy changes in our release notes.\n\r\nTo round things off, here are the links to the individual modules, changelogs, and documentation:\n2021.2.0-M3\n\r\n\r\n  \nSpring Data Commons 2.7 M3 - Artifacts - Javadoc - Documentation - Changelog\n\r\n  \nSpring Data JDBC 2.4 M3 - Artifacts - Javadoc - Documentation - Changelog\n\r\n  \nSpring Data JPA 2.7 M3 - Artifacts - Javadoc - Documentation…",
@@ -174,36 +204,6 @@
           "wordCount": 464,
           "title": "Spring Authorization Server 0.2.2 available now",
           "imageUrl": "https://avatars.githubusercontent.com/u/10884212?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/01/26/spring-native-0-11-2-available-now",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Native 0.11.2 has been released and is now available from https://repo.spring.io/release.\n\r\nThis release includes 30 bug fixes, documentation improvements, and dependency upgrades. Thanks to all those who have contributed with issue reports and pull requests.\n\r\nGitHub | Issues | Documentation",
-          "link": "https://spring.io/blog/2022/01/26/spring-native-0-11-2-available-now",
-          "publishedOn": "2022-01-26T08:00:00.000Z",
-          "wordCount": 431,
-          "title": "Spring Native 0.11.2 available now",
-          "imageUrl": "https://avatars.githubusercontent.com/u/141109?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/01/25/this-week-in-spring-january-25th-2022",
-          "author": null,
-          "description": "Hi, Spring fans! Can you believe it’s already the 25th of the first month of a brand new year!? And we’re fast approaching the Lunar New Year, often also called the Chinese New Year, which will arrive next Tuesday. Reunion dinner will be on the 31st of January, and the two weeks of celebration will begin. All that to say that this is my last real chance, speaking I’m sure for the entire Tanzu team, to wish everyone around the planet (billions of people!) who celebrates a very happy Lunar New Year (Mandarin: 新年快乐 (pronounced: xin nian kauai le ) / Cantonese: 新年快乐 (pronounced: san nin fai lok )) and to say that we hope you enjoy prosperity in the new year (Mandarin: 恭喜发财 (pronounced: gong xi fa cai) / Cantonese: 恭喜发财 (pronounced: gong hei fat choy))! \n\r\nThat said, let’s get into this week’s …",
-          "link": "https://spring.io/blog/2022/01/25/this-week-in-spring-january-25th-2022",
-          "publishedOn": "2022-01-25T23:00:00.000Z",
-          "wordCount": 735,
-          "title": "This Week in Spring - January 25th, 2022",
-          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/01/24/spring-initializr-0-12-0-available-now",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Initializr 0.12.0 has been released and is now available from Maven Central.\n\r\nThis release includes 10 fixes, improvements and dependency upgrades.\nThanks to all those who have contributed with issue reports and pull requests.\n\r\nFor full upgrade instructions and new and noteworthy features please see the release notes.\n\r\nGitHub | Issues | Documentation | Stack Overflow | Gitter",
-          "link": "https://spring.io/blog/2022/01/24/spring-initializr-0-12-0-available-now",
-          "publishedOn": "2022-01-24T14:47:29.000Z",
-          "wordCount": 448,
-          "title": "Spring Initializr 0.12.0 available now",
-          "imageUrl": "https://avatars.githubusercontent.com/u/490484?v=4?s=200"
         }
       ]
     },
@@ -329,6 +329,26 @@
       "feedUrl": "https://www.elastic.co/blog/feed",
       "siteUrl": "https://www.elastic.co",
       "articles": [
+        {
+          "id": "https://www.elastic.co/blog/exploring-windows-uac-bypasses-techniques-and-detection-strategies",
+          "author": "Elastic Security Intelligence & Analytics Team",
+          "description": "The Elastic Security Research team has identified new detection strategies to overcome the bypass methodologies used by adversaries to silently deploy malware onto an endpoint and elevate privileges without the end-user knowing.",
+          "link": "https://www.elastic.co/blog/exploring-windows-uac-bypasses-techniques-and-detection-strategies",
+          "publishedOn": "2022-02-21T00:00:00.000Z",
+          "wordCount": 546,
+          "title": "Exploring Windows UAC bypasses: Techniques and detection strategies",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt1c85cc41b2320aa9/613107598e16ab655b348d21/blog-thumb-blind-spots.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/exploring-windows-uac-bypasses-techniques-and-detection-strategies",
+          "author": "Elastic Security Intelligence & Analytics Team",
+          "description": ",\nThe Elastic Security Research team has identified new detection strategies to overcome the bypass methodologies used by adversaries to silently deploy malware onto an endpoint and elevate privileges without the end-user knowing. Malware often requires full administrative privileges on a machine to perform more impactful actions, such as adding an antivirus exclusion, encrypting secured files, or injecting code into system processes. Even if the targeted user has administrative privileges, the prevalence of User Account Control (UAC) means that the malicious application will often default to medium integrity, preventing write access to resources with higher integrity levels. Mandatory Integrity Levels (MIC) provides a mechanism for controlling access to securable objects.\nThis work builds…",
+          "link": "https://www.elastic.co/blog/exploring-windows-uac-bypasses-techniques-and-detection-strategies",
+          "publishedOn": "2022-02-21T00:00:00.000Z",
+          "wordCount": 546,
+          "title": "Exploring Windows UAC bypasses: Techniques and detection strategies",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt1c85cc41b2320aa9/613107598e16ab655b348d21/blog-thumb-blind-spots.png"
+        },
         {
           "id": "https://www.elastic.co/blog/aws-elastic-observability-monitoring-cloud",
           "author": "Paul Smalera",
@@ -500,16 +520,6 @@
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt1887707f9bd12d87/61aa8e4e0a2c0d3da1c16cb6/blog-thumb-cloud-blue.png"
         },
         {
-          "id": "https://www.elastic.co/blog/maximizing-elasticsearch-performance-when-adding-nodes-to-a-cluster",
-          "author": "Ryan Eno",
-          "description": "Understanding common configuration mistakes ensures adding Elasticsearch nodes will improve performance. Don’t let new nodes cause performance bottlenecks when scaling a cluster.",
-          "link": "https://www.elastic.co/blog/maximizing-elasticsearch-performance-when-adding-nodes-to-a-cluster",
-          "publishedOn": "2022-02-09T00:00:00.000Z",
-          "wordCount": 879,
-          "title": "Maximizing Elasticsearch performance when adding nodes to a cluster",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt894b0d90d3b3ab68/5ee7cbc53f04b94a186c8020/blog-thumb-elasticsearch-gears-light-blue.png"
-        },
-        {
           "id": "https://www.elastic.co/blog/5-ways-to-enhance-your-elastic-experience-with-the-cloud",
           "author": "Fermi Fang",
           "description": ",\nOrganizations are increasingly moving to the cloud to tap into more flexible, affordable, and scalable infrastructure. Elastic can be deployed across on-premises and cloud environments to help people find what they need faster, monitor mission-critical applications, and protect against cyber threats. \nWhen deciding on the optimal environment to deploy Elastic workloads, there are several essential factors that CIOs, IT managers, and cloud engineers should consider — elasticity, security, cost, reliability, and geographic coverage. \nIn this blog, we will discuss how these five characteristics of cloud computing can be leveraged to maximize your Elastic experience and achieve the best return on your investment.\nOn-demand scalability and elasticity\nCloud computing is scalable, so you can fr…",
@@ -518,16 +528,6 @@
           "wordCount": 1391,
           "title": "5 ways to enhance your Elastic experience with the cloud",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt1887707f9bd12d87/61aa8e4e0a2c0d3da1c16cb6/blog-thumb-cloud-blue.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/maximizing-elasticsearch-performance-when-adding-nodes-to-a-cluster",
-          "author": "Ryan Eno",
-          "description": ",\nAdding nodes to an Elasticsearch cluster allows it to scale to enormous workloads. It is critical to understand the optimal ways to expand the Elasticsearch cluster so not to impair performance.\nElasticsearch is a fast and powerful search technology. As your data grows you will need to take advantage of it’s impressive scalability. Adding more nodes to a cluster not only increases how much data the cluster can hold, it improves how many requests it handles at once, and reduces the time needed to return results–usually. \nIt makes for one terrible weekend trying to uncover why adding nodes to your Elasticsearch cluster caused instability, downtime, mounting frustration and lost revenue. So let’s discuss some common configurations where scaling up a cluster can hit significant performance b…",
-          "link": "https://www.elastic.co/blog/maximizing-elasticsearch-performance-when-adding-nodes-to-a-cluster",
-          "publishedOn": "2022-02-09T00:00:00.000Z",
-          "wordCount": 879,
-          "title": "Maximizing Elasticsearch performance when adding nodes to a cluster",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt894b0d90d3b3ab68/5ee7cbc53f04b94a186c8020/blog-thumb-elasticsearch-gears-light-blue.png"
         }
       ]
     },
@@ -536,6 +536,16 @@
       "feedUrl": "https://www.ansible.com/blog/rss.xml",
       "siteUrl": "https://www.ansible.com/blog",
       "articles": [
+        {
+          "id": "https://www.ansible.com/blog/five-ways-to-get-started-with-network-automation",
+          "author": "scavanau@redhat.com (Sean Cavanaugh)",
+          "description": "As many of you know, Red Hat Ansible Automation Platform is a highly flexible IT automation platform that can automate your Linux and Windows instances, your VMware private cloud, your AWS, Azure or Google public cloud, and even your security infrastructure.  Today I want to write about one of my favorite use-cases; using Ansible Automation Platform for network automation. It provides easy, highly customizable automation for your routers and switches so you can automate them just like any other IT infrastructure.",
+          "link": "https://www.ansible.com/blog/five-ways-to-get-started-with-network-automation",
+          "publishedOn": "2022-02-21T14:00:00.000Z",
+          "wordCount": 1318,
+          "title": "Five ways to get started with network automation",
+          "imageUrl": "https://www.ansible.com/hubfs/Images/Red-Hat-Ansible_OG_1200x630.png"
+        },
         {
           "id": "https://www.ansible.com/blog/migrating-from-python-virtual-environments-to-automation-execution-environments-in-ansible-automation-platform-2",
           "author": "Anshul Behl",
@@ -866,7 +876,7 @@
           "description": "Prefer embedded workflow engines? So did we. Learn our reasoning behind why we now recommend a remote engine instead. \nThe post Moving from Embedded to Remote Workflow Engines appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/02/moving-from-embedded-to-remote-workflow-engines/",
           "publishedOn": "2022-02-15T14:00:00.000Z",
-          "wordCount": 3346,
+          "wordCount": 3345,
           "title": "Moving from Embedded to Remote Workflow Engines",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/02/Embedded-to-Remore-Workflow-image-1.png"
         },
@@ -876,7 +886,7 @@
           "description": "Learn more about our search and discovery of a solution to protect the integrity of the web apps for all our users. \nThe post Ensuring Continuous Support of AngularJS in Camunda Platform 7.17 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/02/ensuring-continuous-support-of-angularjs-in-camunda-platform-7-17/",
           "publishedOn": "2022-02-11T14:00:00.000Z",
-          "wordCount": 1982,
+          "wordCount": 1983,
           "title": "Ensuring Continuous Support of AngularJS in Camunda Platform 7.17",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/02/Blog_Camunda-Platform-Image_V3-1.jpg"
         },
@@ -886,7 +896,7 @@
           "description": "We’re excited to announce the release of Camunda Optimize 3.8.0-alpha1. Download the release or sign up for a free 30-day trial. today. \nThe post Camunda Optimize 3.8.0-alpha1 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/02/camunda-optimize-3-8-0-alpha1-released/",
           "publishedOn": "2022-02-08T08:15:00.000Z",
-          "wordCount": 1597,
+          "wordCount": 1596,
           "title": "Camunda Optimize 3.8.0-alpha1 Released",
           "imageUrl": null
         },
@@ -1113,7 +1123,7 @@
           "description": "This blog post gives an overview of the Rapid Event Notification System at Netflix and shares some of the learnings gained while building it",
           "link": "https://netflixtechblog.com/rapid-event-notification-system-at-netflix-6deb1d2b57d1?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-02-18T15:30:24.000Z",
-          "wordCount": 2235,
+          "wordCount": 2252,
           "title": "Rapid Event Notification System at Netflix",
           "imageUrl": "https://miro.medium.com/max/1030/0*i6o12AqlvqZDMcAj"
         },
@@ -1123,7 +1133,7 @@
           "description": "by Sam Setegne, Jai Balani, Olek Gorajek",
           "link": "https://netflixtechblog.com/data-pipeline-asset-management-with-dataflow-86525b3e21ca?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-02-09T17:33:22.000Z",
-          "wordCount": 3176,
+          "wordCount": 3163,
           "title": "Data pipeline asset management with Dataflow",
           "imageUrl": "https://miro.medium.com/max/976/0*DwP-Z_4MrdAz5UTG"
         },
@@ -1133,7 +1143,7 @@
           "description": "By Karen Casella, Director of Engineering, Access & Identity Management",
           "link": "https://netflixtechblog.com/demystifying-interviewing-for-backend-engineers-netflix-aceb26a83495?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-02-01T14:24:18.000Z",
-          "wordCount": 1807,
+          "wordCount": 1823,
           "title": "Demystifying Interviewing for Backend Engineers @ Netflix",
           "imageUrl": "https://miro.medium.com/max/1200/0*7zWnpCdZ_OTjyo-6"
         },
@@ -1143,7 +1153,7 @@
           "description": "Martin Tingley with Wenjing Zheng, Simon Ejdemyr, Stephanie Lane, Colin McFarland, Mihir Tendulkar, and Travis Brooks",
           "link": "https://netflixtechblog.com/netflix-a-culture-of-learning-394bc7d0f94c?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-01-25T16:23:45.000Z",
-          "wordCount": 3532,
+          "wordCount": 3533,
           "title": "Netflix: A Culture of Learning",
           "imageUrl": "https://miro.medium.com/max/1200/0*9RDYcxBOXJ0o04Xb"
         },
@@ -1153,7 +1163,7 @@
           "description": "How the Netflix TVUI team implemented a robust strategy to quickly and easily detect performance anomalies before they a",
           "link": "https://netflixtechblog.com/fixing-performance-regressions-before-they-happen-eab2602b86fe?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-01-24T21:49:43.000Z",
-          "wordCount": 3070,
+          "wordCount": 3094,
           "title": "Fixing Performance Regressions Before they Happen",
           "imageUrl": "https://miro.medium.com/max/1200/1*admHu1DuoaSrYF3Sx3_n9w.png"
         }
@@ -1332,12 +1342,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=41493",
+          "author": "Seth Godin",
+          "description": "“Twenty-four ninety-five.” I was on the phone hearing a pitch for a service I needed. I had reached out to a recommended vendor, and was now sitting through a pitch from a salesperson who had a script but no listening skills. I had figured that the service was probably $300 if I shopped around, but […]",
+          "link": "https://feeds.feedblitz.com/~/683077539/0/sethsblog~Sales-and-the-story-of-money/",
+          "publishedOn": "2022-02-21T10:32:00.000Z",
+          "wordCount": 362,
+          "title": "Sales and the story of money",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_180613-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=42323",
           "author": "Seth Godin",
           "description": "Social niceties are easy to do half-heartedly. But they’re not for us, they’re for the other person. When you show up begrudgingly, it’s not half-hearted, it’s cold hearted. A handshake, a greeting, the way we sit in a meeting or wear a mask–it’s a chance to connect and to make a difference for the person […]",
           "link": "https://feeds.feedblitz.com/~/682989502/0/sethsblog~Begrudgingly/",
           "publishedOn": "2022-02-20T09:54:00.000Z",
-          "wordCount": 191,
+          "wordCount": 192,
           "title": "Begrudgingly",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061311.jpg"
         },
@@ -1420,16 +1440,6 @@
           "wordCount": 310,
           "title": "“We don’t care” (you won’t let us)",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806133-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=41429",
-          "author": "Seth Godin",
-          "description": "Groups rarely say this. They often (and loudly) state “we are right,” but when the future arrives, and it always does, it’s not surprising that it turns out that many projections and predictions turned out to be wrong. When smoking was banned in New York restaurants and bars, the trade associations vehemently protested, insisting that […]",
-          "link": "https://feeds.feedblitz.com/~/681793470/0/sethsblog~We-were-wrong/",
-          "publishedOn": "2022-02-11T09:46:00.000Z",
-          "wordCount": 257,
-          "title": "“We were wrong”",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061311.jpg"
         }
       ]
     },

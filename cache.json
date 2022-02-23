@@ -6,6 +6,16 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2022/02/22/announcing-listcrudrepository-friends-for-spring-data-3-0",
+          "author": null,
+          "description": "The Spring Data CrudRepository has various methods that return multiple instances of the entity managed by the repository.\r\nIt does so by using Iterable and not List, as one might expect.\r\nIn many cases, that is of no consequence, since you typically want to iterate over the result anyway.\r\nHowever, you might occasionally prefer a List. In these cases, Iterable is annoying.\n\r\n\r\n\r\nI will write more about why that choice was made in the first place and how you can deal with it as long as you are on Spring Data 2.x. However, let me get the good news out first:\n\r\n\r\n\r\nRepositories returning Lists\n\r\n\r\n\r\nSpring Data 3.0.0-M2 now offers a ListCrudRepository,\r\nwhich returns a List where CrudRepository returns an Iterable.\n\r\n\r\n\r\nExample 1. CrudRepository versus ListCrudRepository\n\r\n\r\n\r\n\r\n@NoReposito…",
+          "link": "https://spring.io/blog/2022/02/22/announcing-listcrudrepository-friends-for-spring-data-3-0",
+          "publishedOn": "2022-02-22T09:09:00.000Z",
+          "wordCount": 1207,
+          "title": "Announcing ListCrudRepository & Friends for Spring Data 3.0",
+          "imageUrl": "https://avatars.githubusercontent.com/u/136683?v=4?s=200"
+        },
+        {
           "id": "https://spring.io/blog/2022/02/21/spring-security-5-7-0-m2-released",
           "author": null,
           "description": "On behalf of the team and everyone who has contributed, I am pleased to announce the release of Spring Security 5.7.0-M2.\n\r\n\r\n\r\nYou can find the complete list of dependency updates, bug fixes and enhancements in the release notes.\n\r\n\r\n\r\nAmong the enhancements you will find we have deprecated the WebSecurityConfigurerAdapter. For additional details you can check out this blog post on the future of Spring Security without the WebSecurityConfigurerAdapter.\n\r\n\r\n\r\nWe look forward to hearing your feedback.\n\r\n\r\n\r\nProject Site | Reference | Help",
@@ -194,16 +204,6 @@
           "wordCount": 443,
           "title": "A Bootiful Podcast: Spring Framework cofounder and project lead, friend, and all around amazing human being, Juergen Hoeller",
           "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/01/26/spring-authorization-server-0-2-2-available-now",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, it is my pleasure to announce the general availability of Spring Authorization Server 0.2.2.\n\r\n\r\n\r\nYou can download it from Maven Central by using the module coordinates:\n\r\n\r\n\r\n\r\ncompile 'org.springframework.security:spring-security-oauth2-authorization-server:0.2.2'\n\r\n\r\n\r\n\r\nSee the release notes for complete details.\n\r\n\r\n\r\nTo get started using Spring Authorization Server, see the sample to become familiar with setup and configuration.\n\r\n\r\n\r\nWe would love to gather your feedback as we strive to improve and build upon this release.\n\r\n\r\n\r\nProject Page | GitHub Issues |  ZenHub Board",
-          "link": "https://spring.io/blog/2022/01/26/spring-authorization-server-0-2-2-available-now",
-          "publishedOn": "2022-01-26T16:00:00.000Z",
-          "wordCount": 464,
-          "title": "Spring Authorization Server 0.2.2 available now",
-          "imageUrl": "https://avatars.githubusercontent.com/u/10884212?v=4?s=200"
         }
       ]
     },
@@ -212,6 +212,16 @@
       "feedUrl": "https://www.hashicorp.com/blog/feed.xml",
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
+        {
+          "id": "https://www.hashicorp.com/blog/multi-region-replication-now-available-with-hcp-vault",
+          "author": null,
+          "description": "New HCP Vault Plus Clusters adds high availability replication of secrets and policies across cloud regions.",
+          "link": "https://www.hashicorp.com/blog/multi-region-replication-now-available-with-hcp-vault",
+          "publishedOn": "2022-02-22T17:30:00.000Z",
+          "wordCount": 1171,
+          "title": "Multi-Region Replication Now Available with HCP Vault",
+          "imageUrl": "https://www.datocms-assets.com/2885/1628607726-blog-library-product-hcp-vault.png"
+        },
         {
           "id": "https://www.hashicorp.com/blog/network-security-automation-using-cisco-secure-firewall-and-hashicorp-consul",
           "author": null,
@@ -238,7 +248,7 @@
           "description": "Learn how to achieve machine authentication to HashiCorp Vault with the Azure auth method using Microsoft Azure managed identity — and set it up with Terraform.",
           "link": "https://www.hashicorp.com/blog/integrating-azure-ad-identity-vault-part-3-azure-managed-identity-via-azure-auth-method",
           "publishedOn": "2022-02-11T15:00:00.000Z",
-          "wordCount": 1686,
+          "wordCount": 1685,
           "title": "Integrating Azure AD Identity with HashiCorp Vault — Part 3: Azure Managed Identity Auth via Azure Auth Method",
           "imageUrl": "https://www.datocms-assets.com/2885/1608228062-blog-library-product-vault-azure.png"
         },
@@ -278,7 +288,7 @@
           "description": "Learn how HashiCorp Vault can help secure data in Microsoft SQL Server using a defense-in-depth encryption strategy.",
           "link": "https://www.hashicorp.com/blog/enabling-transparent-data-encryption-for-microsoft-sql-with-vault",
           "publishedOn": "2022-02-01T17:00:00.000Z",
-          "wordCount": 1214,
+          "wordCount": 1213,
           "title": "Enabling Transparent Data Encryption for Microsoft SQL with Vault",
           "imageUrl": "https://www.datocms-assets.com/2885/1620083006-blog-library-product-vault-dark-gradient.jpg"
         },
@@ -318,7 +328,7 @@
           "description": "A detailed comparison of two HashiCorp-supported methods for HashiCorp Vault and Kubernetes integration.",
           "link": "https://www.hashicorp.com/blog/kubernetes-vault-integration-via-sidecar-agent-injector-vs-csi-provider",
           "publishedOn": "2022-01-26T17:00:00.000Z",
-          "wordCount": 1902,
+          "wordCount": 1899,
           "title": "Kubernetes Vault Integration via Sidecar Agent Injector vs. CSI Provider",
           "imageUrl": "https://www.datocms-assets.com/2885/1643214710-csi-vs-sidecar-chart.png"
         }
@@ -329,6 +339,26 @@
       "feedUrl": "https://www.elastic.co/blog/feed",
       "siteUrl": "https://www.elastic.co",
       "articles": [
+        {
+          "id": "https://www.elastic.co/blog/observability-a-swiss-army-knife-for-success-in-the-cloud",
+          "author": "Matt Palmquist",
+          "description": "In the cloud era, this rising capability can make digital experiences more reliable, innovative and profitable",
+          "link": "https://www.elastic.co/blog/observability-a-swiss-army-knife-for-success-in-the-cloud",
+          "publishedOn": "2022-02-22T00:00:00.000Z",
+          "wordCount": 1106,
+          "title": "Observability: A Swiss Army knife for success in the cloud",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt82ab53547da75ddc/62151a5223d8fd714a7a4838/Elastic_Swiss_Army_1440x840_CMS.jpg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/observability-a-swiss-army-knife-for-success-in-the-cloud",
+          "author": "Matt Palmquist",
+          "description": ",\nWhen a kid gets a Swiss Army knife, she can suddenly accomplish more tasks more quickly — from whittling a stick to mending clothes to any job requiring a plastic toothpick. Observability, one of the hottest trends in IT, gives a growing number of IT organizations a similar empowered feeling: an ability to improve their systems and applications in a multiplicity of ways.\nObservability is a software layer that can be built into a company’s IT infrastructure to better understand the performance of its systems and applications, including ones running in the cloud. Observability tools gather data from a multiplicity of sources to generate insights that were not previously possible. As a result, IT teams can spend less time hunting for needles in digital haystacks when problems arise and can …",
+          "link": "https://www.elastic.co/blog/observability-a-swiss-army-knife-for-success-in-the-cloud",
+          "publishedOn": "2022-02-22T00:00:00.000Z",
+          "wordCount": 1106,
+          "title": "Observability: A Swiss Army knife for success in the cloud",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt82ab53547da75ddc/62151a5223d8fd714a7a4838/Elastic_Swiss_Army_1440x840_CMS.jpg"
+        },
         {
           "id": "https://www.elastic.co/blog/exploring-windows-uac-bypasses-techniques-and-detection-strategies",
           "author": "Elastic Security Intelligence & Analytics Team",
@@ -508,26 +538,6 @@
           "wordCount": 2955,
           "title": "Building Software Reliability with Distributed Tracing",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltf57a751242bc5493/61f46a2565ceda6b20b4b050/illustration-protect-at-scale-social-1200x628.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/5-ways-to-enhance-your-elastic-experience-with-the-cloud",
-          "author": "Fermi Fang",
-          "description": "Learn how these five key benefits of cloud computing — elasticity, security, cost, reliability, and geographic coverage— can be leveraged to maximize your Elastic experience and deliver the best return on your investment.",
-          "link": "https://www.elastic.co/blog/5-ways-to-enhance-your-elastic-experience-with-the-cloud",
-          "publishedOn": "2022-02-09T00:00:00.000Z",
-          "wordCount": 1391,
-          "title": "5 ways to enhance your Elastic experience with the cloud",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt1887707f9bd12d87/61aa8e4e0a2c0d3da1c16cb6/blog-thumb-cloud-blue.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/5-ways-to-enhance-your-elastic-experience-with-the-cloud",
-          "author": "Fermi Fang",
-          "description": ",\nOrganizations are increasingly moving to the cloud to tap into more flexible, affordable, and scalable infrastructure. Elastic can be deployed across on-premises and cloud environments to help people find what they need faster, monitor mission-critical applications, and protect against cyber threats. \nWhen deciding on the optimal environment to deploy Elastic workloads, there are several essential factors that CIOs, IT managers, and cloud engineers should consider — elasticity, security, cost, reliability, and geographic coverage. \nIn this blog, we will discuss how these five characteristics of cloud computing can be leveraged to maximize your Elastic experience and achieve the best return on your investment.\nOn-demand scalability and elasticity\nCloud computing is scalable, so you can fr…",
-          "link": "https://www.elastic.co/blog/5-ways-to-enhance-your-elastic-experience-with-the-cloud",
-          "publishedOn": "2022-02-09T00:00:00.000Z",
-          "wordCount": 1391,
-          "title": "5 ways to enhance your Elastic experience with the cloud",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt1887707f9bd12d87/61aa8e4e0a2c0d3da1c16cb6/blog-thumb-cloud-blue.png"
         }
       ]
     },
@@ -649,7 +659,7 @@
           "description": "The top stories from the #AzureDevOps #community for 2022.02.11 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2022.02.11 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2022-02-11/",
           "publishedOn": "2022-02-11T10:00:53.000Z",
-          "wordCount": 1893,
+          "wordCount": 1878,
           "title": "Top Stories from the Microsoft DevOps Community – 2022.02.11",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2018/08/vstsfeature.png"
         },
@@ -734,7 +744,7 @@
           "publishedOn": "2022-02-18T23:49:10.000Z",
           "wordCount": 1988,
           "title": "Happy 10th Birthday, DynamoDB! 🎉🎂🎁",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/02/18/DynamoDB-event-illustration.png"
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/02/22/ebc357c9ad706bcf885c09d68771fcb828bf13728d89105cf605df7cf2e08f03_882e04c5-9d5a-4dc1-be26-75e96d410bff.png"
         },
         {
           "id": "4431491871a4ee3d928576163daaa289ff9714db",
@@ -824,6 +834,16 @@
       "siteUrl": "https://xkcd.com/",
       "articles": [
         {
+          "id": "https://xkcd.com/2584/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/headline_words.png\" title=\"Roundly-condemned headlinese initiative shuttered indefinitely.\" alt=\"Roundly-condemned headlinese initiative shuttered indefinitely.\" />",
+          "link": "https://xkcd.com/2584/",
+          "publishedOn": "2022-02-21T00:00:00.000Z",
+          "wordCount": 197,
+          "title": "Headline Words",
+          "imageUrl": "https://imgs.xkcd.com/comics/headline_words_2x.png"
+        },
+        {
           "id": "https://xkcd.com/2583/",
           "author": null,
           "description": "<img src=\"https://imgs.xkcd.com/comics/chorded_keyboard.png\" title=\"And even though it all went wrong / I'll stand before the lord of song / with nothing on my tongue but 'I don't understand, I swear I backed up my keyboard config before messing with it'\" alt=\"And even though it all went wrong / I'll stand before the lord of song / with nothing on my tongue but 'I don't understand, I swear I backed up my keyboard config before messing with it'\" />",
@@ -852,16 +872,6 @@
           "wordCount": 197,
           "title": "Health Stats",
           "imageUrl": "https://imgs.xkcd.com/comics/health_stats_2x.png"
-        },
-        {
-          "id": "https://xkcd.com/2580/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/rest_and_fluids.png\" title=\"Remember not to take it easy. Put a hot washcloth on your forehead, remain standing, and breathe dry air while taking lots of histamines. You need to give your body a chance to get sick again.\" alt=\"Remember not to take it easy. Put a hot washcloth on your forehead, remain standing, and breathe dry air while taking lots of histamines. You need to give your body a chance to get sick again.\" />",
-          "link": "https://xkcd.com/2580/",
-          "publishedOn": "2022-02-11T00:00:00.000Z",
-          "wordCount": 199,
-          "title": "Rest and Fluids",
-          "imageUrl": "https://imgs.xkcd.com/comics/rest_and_fluids_2x.png"
         }
       ]
     },
@@ -871,12 +881,22 @@
       "siteUrl": "https://camunda.com",
       "articles": [
         {
+          "id": "https://camunda.com/?p=43978",
+          "author": "Bernd Ruecker",
+          "description": "Learn about the benefits of external tasks in Camunda Cloud and how you can still call your service endpoints via any protocol.\nThe post How to Write Glue Code without Java Delegates in Camunda Cloud appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2022/02/how-to-write-glue-code-without-java-delegates-in-camunda-cloud/",
+          "publishedOn": "2022-02-22T17:15:00.000Z",
+          "wordCount": 2384,
+          "title": "How to Write Glue Code without Java Delegates in Camunda Cloud",
+          "imageUrl": "https://camunda.com/wp-content/uploads/2022/02/Glue-code-image-1.png"
+        },
+        {
           "id": "https://camunda.com/?p=43376",
           "author": "Bernd Ruecker",
           "description": "Prefer embedded workflow engines? So did we. Learn our reasoning behind why we now recommend a remote engine instead. \nThe post Moving from Embedded to Remote Workflow Engines appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/02/moving-from-embedded-to-remote-workflow-engines/",
           "publishedOn": "2022-02-15T14:00:00.000Z",
-          "wordCount": 3345,
+          "wordCount": 3350,
           "title": "Moving from Embedded to Remote Workflow Engines",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/02/Embedded-to-Remore-Workflow-image-1.png"
         },
@@ -886,7 +906,7 @@
           "description": "Learn more about our search and discovery of a solution to protect the integrity of the web apps for all our users. \nThe post Ensuring Continuous Support of AngularJS in Camunda Platform 7.17 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/02/ensuring-continuous-support-of-angularjs-in-camunda-platform-7-17/",
           "publishedOn": "2022-02-11T14:00:00.000Z",
-          "wordCount": 1983,
+          "wordCount": 1981,
           "title": "Ensuring Continuous Support of AngularJS in Camunda Platform 7.17",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/02/Blog_Camunda-Platform-Image_V3-1.jpg"
         },
@@ -926,7 +946,7 @@
           "description": "Get the technical details about the challenges we faced while building advanced declarative pipelines for our workflow and decision engine. \nThe post How We Overcame Long-Running Job Limitations in Jenkins Declarative Pipelines appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/02/how-we-overcame-long-running-job-limitations-in-jenkins-declarative-pipelines/",
           "publishedOn": "2022-02-02T21:50:00.000Z",
-          "wordCount": 2954,
+          "wordCount": 2953,
           "title": "How We Overcame Long-Running Job Limitations in Jenkins Declarative Pipelines",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/02/Overcome-Long-running-Job-02022022-image-2.png"
         },
@@ -936,7 +956,7 @@
           "description": "We're happy to announce the Camunda Modeler 5.0 release. It provides Camunda Cloud 1.1 support, BPMN in color support, and more improvements.\nThe post Camunda Modeler 5.0.0-alpha.0 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/01/camunda-modeler-5-0-0-alpha-0-released/",
           "publishedOn": "2022-01-28T08:15:00.000Z",
-          "wordCount": 2400,
+          "wordCount": 2399,
           "title": "Camunda Modeler 5.0.0-alpha.0 Released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/01/Blog_CategoryImages_V3_Modeler.png"
         },
@@ -956,7 +976,7 @@
           "description": "New to the enterprise edition of Spring Boot? Let us walk you through each task involved with upgrading from the community edition. \nThe post Q&A: How Can I Upgrade Spring Boot Maven Dependencies for the Enterprise Edition? appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/01/qa-how-can-i-upgrade-spring-boot-maven-dependencies-for-the-enterprise-edition/",
           "publishedOn": "2022-01-25T14:00:00.000Z",
-          "wordCount": 1543,
+          "wordCount": 1546,
           "title": "Q&A: How Can I Upgrade Spring Boot Maven Dependencies for the Enterprise Edition?",
           "imageUrl": "https://camunda.com/wp-content/uploads/2021/11/Questions-That-Need-Answers-Blog-Series-Featured-Image.png"
         }
@@ -1005,12 +1025,32 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/2022-02-22-get-started-using-security-workflows/",
+          "author": null,
+          "description": "In-line with the other categories, workflows in the Security category will be recommended based on a repository's content.",
+          "link": "https://github.blog/2022-02-22-get-started-using-security-workflows/",
+          "publishedOn": "2022-02-22T17:18:57.000Z",
+          "wordCount": 577,
+          "title": "Get started with ease using security workflows!",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/02/Product_green@2x.png"
+        },
+        {
+          "id": "https://github.blog/2022-02-22-github-advisory-database-now-open-to-community-contributions/",
+          "author": null,
+          "description": "Anyone can now provide additional information to further the community’s understanding and awareness of security advisories.",
+          "link": "https://github.blog/2022-02-22-github-advisory-database-now-open-to-community-contributions/",
+          "publishedOn": "2022-02-22T17:00:43.000Z",
+          "wordCount": 771,
+          "title": "GitHub Advisory Database now open to community contributions",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/02/Security-Product-Open-Source@2x.png"
+        },
+        {
           "id": "https://github.blog/2022-02-17-code-scanning-finds-vulnerabilities-using-machine-learning/",
           "author": null,
           "description": "Today we launched new code scanning analysis features powered by machine learning. The experimental analysis finds more of the most common types of vulnerabilities.",
           "link": "https://github.blog/2022-02-17-code-scanning-finds-vulnerabilities-using-machine-learning/",
           "publishedOn": "2022-02-17T18:00:03.000Z",
-          "wordCount": 933,
+          "wordCount": 934,
           "title": "Code scanning finds more vulnerabilities using machine learning",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/02/experimental-alert-screenshot.png"
         },
@@ -1020,7 +1060,7 @@
           "description": "A behind-the-scenes peek into the machine learning framework powering new code scanning security alerts.",
           "link": "https://github.blog/2022-02-17-leveraging-machine-learning-find-security-vulnerabilities/",
           "publishedOn": "2022-02-17T17:59:19.000Z",
-          "wordCount": 1982,
+          "wordCount": 1979,
           "title": "Leveraging machine learning to find security vulnerabilities",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/02/diagram.png"
         },
@@ -1040,7 +1080,7 @@
           "description": "Practical tips on how to apply OWASP Top 10 Proactive Control C4.",
           "link": "https://github.blog/2022-02-16-encoding-escaping-untrusted-data-prevent-injection-attacks/",
           "publishedOn": "2022-02-16T17:38:40.000Z",
-          "wordCount": 1753,
+          "wordCount": 1756,
           "title": "Encoding and escaping untrusted data to prevent injection attacks",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/02/Security-Community2@2x.png"
         },
@@ -1050,7 +1090,7 @@
           "description": "The GitHub Enterprise Server 3.4 release candidate delivers enhancements to make life easier and more productive.",
           "link": "https://github.blog/2022-02-15-ghes-3-4-developer-productivity-reusable-workflows-ci-cd/",
           "publishedOn": "2022-02-15T23:23:39.000Z",
-          "wordCount": 1000,
+          "wordCount": 1006,
           "title": "GitHub Enterprise Server 3.4 improves developer productivity and adds reusable workflows to CI/CD",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/02/ghes-3-4-rc_banner.png"
         },
@@ -1083,26 +1123,6 @@
           "wordCount": 751,
           "title": "Include diagrams in your Markdown files with Mermaid",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/02/mvp2.png"
-        },
-        {
-          "id": "https://github.blog/2022-02-11-getting-started-with-project-planning-on-github/",
-          "author": null,
-          "description": "Stop context switching. Keep your team’s project planning next to your code.",
-          "link": "https://github.blog/2022-02-11-getting-started-with-project-planning-on-github/",
-          "publishedOn": "2022-02-11T17:30:43.000Z",
-          "wordCount": 1359,
-          "title": "Getting started with project planning on GitHub",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/02/GitHub-Issues-project-planning_banner.png"
-        },
-        {
-          "id": "https://github.blog/2022-02-10-using-reusable-workflows-github-actions/",
-          "author": null,
-          "description": "Reusable workflows offer a simple and powerful way to avoid copying and pasting workflows across your repositories.",
-          "link": "https://github.blog/2022-02-10-using-reusable-workflows-github-actions/",
-          "publishedOn": "2022-02-10T17:56:42.000Z",
-          "wordCount": 1453,
-          "title": "How to start using reusable workflows with GitHub Actions",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/02/Product-Community.png"
         }
       ]
     },
@@ -1123,7 +1143,7 @@
           "description": "This blog post gives an overview of the Rapid Event Notification System at Netflix and shares some of the learnings gained while building it",
           "link": "https://netflixtechblog.com/rapid-event-notification-system-at-netflix-6deb1d2b57d1?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-02-18T15:30:24.000Z",
-          "wordCount": 2252,
+          "wordCount": 2241,
           "title": "Rapid Event Notification System at Netflix",
           "imageUrl": "https://miro.medium.com/max/1030/0*i6o12AqlvqZDMcAj"
         },
@@ -1133,7 +1153,7 @@
           "description": "by Sam Setegne, Jai Balani, Olek Gorajek",
           "link": "https://netflixtechblog.com/data-pipeline-asset-management-with-dataflow-86525b3e21ca?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-02-09T17:33:22.000Z",
-          "wordCount": 3163,
+          "wordCount": 3158,
           "title": "Data pipeline asset management with Dataflow",
           "imageUrl": "https://miro.medium.com/max/976/0*DwP-Z_4MrdAz5UTG"
         },
@@ -1143,7 +1163,7 @@
           "description": "By Karen Casella, Director of Engineering, Access & Identity Management",
           "link": "https://netflixtechblog.com/demystifying-interviewing-for-backend-engineers-netflix-aceb26a83495?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-02-01T14:24:18.000Z",
-          "wordCount": 1823,
+          "wordCount": 1817,
           "title": "Demystifying Interviewing for Backend Engineers @ Netflix",
           "imageUrl": "https://miro.medium.com/max/1200/0*7zWnpCdZ_OTjyo-6"
         },
@@ -1153,7 +1173,7 @@
           "description": "Martin Tingley with Wenjing Zheng, Simon Ejdemyr, Stephanie Lane, Colin McFarland, Mihir Tendulkar, and Travis Brooks",
           "link": "https://netflixtechblog.com/netflix-a-culture-of-learning-394bc7d0f94c?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-01-25T16:23:45.000Z",
-          "wordCount": 3533,
+          "wordCount": 3535,
           "title": "Netflix: A Culture of Learning",
           "imageUrl": "https://miro.medium.com/max/1200/0*9RDYcxBOXJ0o04Xb"
         },
@@ -1163,7 +1183,7 @@
           "description": "How the Netflix TVUI team implemented a robust strategy to quickly and easily detect performance anomalies before they a",
           "link": "https://netflixtechblog.com/fixing-performance-regressions-before-they-happen-eab2602b86fe?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-01-24T21:49:43.000Z",
-          "wordCount": 3094,
+          "wordCount": 3066,
           "title": "Fixing Performance Regressions Before they Happen",
           "imageUrl": "https://miro.medium.com/max/1200/1*admHu1DuoaSrYF3Sx3_n9w.png"
         }
@@ -1342,12 +1362,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=40558",
+          "author": "Seth Godin",
+          "description": "A friend is selling his house. Apparently, real estate brokers now have a way of reporting the comments (reviews) from potential buyers at open houses, and he was crazy enough to read them. Of course, this is incredibly unhelpful. He can’t rebuild his house to sell it. Hearing that people don’t like his custom cabinets […]",
+          "link": "https://feeds.feedblitz.com/~/683199344/0/sethsblog~A-second-opinion/",
+          "publishedOn": "2022-02-22T10:56:00.000Z",
+          "wordCount": 289,
+          "title": "A second opinion",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806134-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=41493",
           "author": "Seth Godin",
           "description": "“Twenty-four ninety-five.” I was on the phone hearing a pitch for a service I needed. I had reached out to a recommended vendor, and was now sitting through a pitch from a salesperson who had a script but no listening skills. I had figured that the service was probably $300 if I shopped around, but […]",
           "link": "https://feeds.feedblitz.com/~/683077539/0/sethsblog~Sales-and-the-story-of-money/",
           "publishedOn": "2022-02-21T10:32:00.000Z",
-          "wordCount": 362,
+          "wordCount": 363,
           "title": "Sales and the story of money",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_180613-1.jpg"
         },
@@ -1387,7 +1417,7 @@
           "description": "It’s something I’ve been working on as a full-time volunteer for the last five months. And it’s something that three hundred people are building together. But I say “our” because it’s bigger than me or the three hundred of us or even the people who are reading this blog. Like it or not, this is […]",
           "link": "https://feeds.feedblitz.com/~/682709050/0/sethsblog~Our-new-project/",
           "publishedOn": "2022-02-17T09:24:00.000Z",
-          "wordCount": 316,
+          "wordCount": 313,
           "title": "Our new project",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg"
         },
@@ -1430,16 +1460,6 @@
           "wordCount": 233,
           "title": "The thing about a gold rush",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=41434",
-          "author": "Seth Godin",
-          "description": "The customer service from the freight shipping company that came to my home a few months ago was truly terrible. Not simply a lack of care, but an aggressive embrace of uncaring. Every interaction was offputting and inefficient. This is the result of sort by price. It turns out that a lot of freight shipping […]",
-          "link": "https://feeds.feedblitz.com/~/681922650/0/sethsblog~We-dont-care-you-wont-let-us/",
-          "publishedOn": "2022-02-12T09:46:00.000Z",
-          "wordCount": 310,
-          "title": "“We don’t care” (you won’t let us)",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806133-1.jpg"
         }
       ]
     },

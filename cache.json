@@ -6,6 +6,36 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2022/03/01/this-week-in-spring-march-1st-2022",
+          "author": null,
+          "description": "Hi, Spring fans! Welcome to another installment of This Week in Spring! We’ve got a lot to cover this week so let’s get right into it!\n\r\n\r\n  \nA Bootiful Podcast: InfoQ editor and Java Champion, Dr. Alex Blewitt\n\r\n  \nAdvanced Spring: Spring Boot Actuator Online Class\n\r\n  \nGraphQL with Spring Boot java\n\r\n  \nLeverage Java 17 New Features to Create Your Wordle Checker - JEP Café #10\n\r\n  \nWe’ve just released Micrometer 1.7.9, 1.8.3, 1.9.0-M3, 2.0.0-M2, Micrometer Tracing 1.0.0-M2, and Micrometer Docs Generator 1.0.0-M1 \n\r\n  \nSpring Boot 2.5.10 available now\n\r\n  \nSpring Boot 2.6.4 available now\n\r\n  \nSpring Boot 2.7.0-M2 available now\n\r\n  \nSpring Cloud Gateway CVE reports published\n\r\n  \nSpring Native 0.11.3 available now\n\r\n  \nSpring Session 2021.0.5 and 2021.1.2 released\n\r\n  \nSpring Shell 2.1.0-M3 is now available\n\r\n  \nSpring Tips: easy IOT integration with HiveMQ, Spring Integration MQTT, and Spring Native\n\r\n  \ntoedter/spring-hateoas-jsonapi: A JSON:API media type implementation for Spring HATEOAS has a new release!",
+          "link": "https://spring.io/blog/2022/03/01/this-week-in-spring-march-1st-2022",
+          "publishedOn": "2022-03-01T18:00:00.000Z",
+          "wordCount": 524,
+          "title": "This Week in Spring - March 1st, 2022",
+          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2022/03/01/spring-cloud-gateway-cve-reports-published",
+          "author": null,
+          "description": "Two vulnerabilities in Spring Cloud Gateway have been identified and fixed. Versions 3.1.1 and 3.0.7 were released to address the vulnerabilities. Please see the CVE reports below for specific upgrade and mitigation instructions:\n\r\n\r\n  \nCVE-2022-22947: Spring Cloud Gateway Code Injection Vulnerability\n\r\n  \nCVE-2022-22946: Spring Cloud Gateway HTTP2 Insecure TrustManager\n\r\n\r\nSpring Cloud users should upgrade to 2021.0.1 (which includes 3.1.1) or for 2020.0.x users should upgrade Spring Cloud Gateway to 3.0.7.",
+          "link": "https://spring.io/blog/2022/03/01/spring-cloud-gateway-cve-reports-published",
+          "publishedOn": "2022-03-01T17:50:29.000Z",
+          "wordCount": 445,
+          "title": "Spring Cloud Gateway CVE reports published",
+          "imageUrl": "https://avatars.githubusercontent.com/u/594085?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2022/03/01/spring-native-0-11-3-available-now",
+          "author": null,
+          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Native 0.11.3 has been released and is now available from https://repo.spring.io/release.\n\r\nThis release includes 25 bug fixes, documentation improvements, and dependency upgrades with GraalVM 22.0, Spring Boot 2.6.4 and Spring Cloud 2021.0.1. Thanks to all those who have contributed with issue reports and pull requests.\n\r\nGitHub | Issues | Documentation",
+          "link": "https://spring.io/blog/2022/03/01/spring-native-0-11-3-available-now",
+          "publishedOn": "2022-03-01T08:00:00.000Z",
+          "wordCount": 441,
+          "title": "Spring Native 0.11.3 available now",
+          "imageUrl": "https://avatars.githubusercontent.com/u/141109?v=4?s=200"
+        },
+        {
           "id": "https://spring.io/blog/2022/02/25/spring-shell-2-1-0-m3-is-now-available",
           "author": null,
           "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Shell 2.1.0-M3 has been released and is now available from https://repo.spring.io/milestone.\n\r\nNotable changes include:\n\r\n\r\n  \nUsual small fixes\n\r\n  \nUI Component model\n\r\n\r\n\n\r\nPlease see the release notes for more details.\n\r\nThanks to all those who have contributed with issue reports and pull requests.\nHow can you help?\n\r\nProject Page | GitHub | Issues | Documentation",
@@ -98,10 +128,10 @@
         {
           "id": "https://spring.io/blog/2022/02/22/announcing-listcrudrepository-friends-for-spring-data-3-0",
           "author": null,
-          "description": "The Spring Data CrudRepository has various methods that return multiple instances of the entity managed by the repository.\r\nIt does so by using Iterable and not List, as one might expect.\r\nIn many cases, that is of no consequence, since you typically want to iterate over the result anyway.\r\nHowever, you might occasionally prefer a List. In these cases, Iterable is annoying.\n\r\n\r\n\r\nI will write more about why that choice was made in the first place and how you can deal with it as long as you are on Spring Data 2.x. However, let me get the good news out first:\n\r\n\r\n\r\nRepositories returning Lists\n\r\n\r\n\r\nSpring Data 3.0.0-M2 now offers a ListCrudRepository,\r\nwhich returns a List where CrudRepository returns an Iterable.\n\r\n\r\n\r\nExample 1. CrudRepository versus ListCrudRepository\n\r\n\r\n\r\n\r\n@NoReposito…",
+          "description": "The Spring Data CrudRepository has various methods that return multiple instances of the entity managed by the repository.\r\nIt does so by using Iterable and not List, as one might expect.\r\nIn many cases, that is of no consequence, since you typically want to iterate over the result anyway.\r\nHowever, you might occasionally prefer a List. In these cases, Iterable is annoying.\n\r\n\r\n\r\nI will write more about why that choice was made in the first place and how you can deal with it as long as you are on Spring Data 2.x. However, let me get the good news out first:\n\r\n\r\n\r\nRepositories returning Lists\n\r\n\r\n\r\nSpring Data 3.0.0 now offers a ListCrudRepository in the latest snapshot releases,\r\nwhich returns a List where CrudRepository returns an Iterable.\n\r\n\r\n\r\nExample 1. CrudRepository versus ListCrudR…",
           "link": "https://spring.io/blog/2022/02/22/announcing-listcrudrepository-friends-for-spring-data-3-0",
           "publishedOn": "2022-02-22T09:09:00.000Z",
-          "wordCount": 1207,
+          "wordCount": 1212,
           "title": "Announcing ListCrudRepository & Friends for Spring Data 3.0",
           "imageUrl": "https://avatars.githubusercontent.com/u/136683?v=4?s=200"
         },
@@ -174,36 +204,6 @@
           "wordCount": 408,
           "title": "A Bootiful Podcast: Java team luminary Sharat Chander",
           "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/02/17/spring-framework-5-3-16-available-now",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework 5.3.16 is available now.\n\r\nSpring Framework 5.3.16 includes 33 fixes and improvements.\n\r\nStay tuned for follow-up Spring Boot releases next week.\n\r\nProject Page | GitHub | Issues | Documentation",
-          "link": "https://spring.io/blog/2022/02/17/spring-framework-5-3-16-available-now",
-          "publishedOn": "2022-02-17T09:15:34.000Z",
-          "wordCount": 422,
-          "title": "Spring Framework 5.3.16 available now",
-          "imageUrl": "https://avatars.githubusercontent.com/u/490484?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/02/16/azure-spring-cloud-enterprise-is-now-available-in-preview",
-          "author": null,
-          "description": "Hi, Spring fans! I wanted to share this post by Julia Liuson, President, Developer Division at Microsoft. \n\r\nWhen we launched Azure Spring Cloud with VMware in 2019, we set out to solve common challenges developers, IT operators, and DevOps teams face when running Spring Boot applications at scale. Since then we’ve had the opportunity to work with many customers to help them adopt the service including Bosch, Digital Realty, Kroger, Liantis, Morgan Stanley, National Life, Raley’s, and Swiss Re. They value the fully managed infrastructure of Azure Spring Cloud that lets them focus on their apps, while the service manages dynamic scaling, security patching, out-of-the-box instrumentation for monitoring, and more.\n\r\nMany organizations are running thousands of Spring Boot applications on-premi…",
-          "link": "https://spring.io/blog/2022/02/16/azure-spring-cloud-enterprise-is-now-available-in-preview",
-          "publishedOn": "2022-02-16T16:00:00.000Z",
-          "wordCount": 1616,
-          "title": "Azure Spring Cloud Enterprise is now available in preview",
-          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/02/16/spring-tips-spring-native-and-mybatis",
-          "author": null,
-          "description": "Hi, Spring fans! In this installment, we look at how to use the MyBatis data mapper project’s new Spring Native hints to build GraalVM native images",
-          "link": "https://spring.io/blog/2022/02/16/spring-tips-spring-native-and-mybatis",
-          "publishedOn": "2022-02-16T09:00:00.000Z",
-          "wordCount": 403,
-          "title": "Spring Tips: Spring Native and MyBatis",
-          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
         }
       ]
     },
@@ -213,12 +213,22 @@
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
         {
+          "id": "https://www.hashicorp.com/blog/for-developers-and-operators-all-paths-lead-to-consul",
+          "author": null,
+          "description": "See how Consul can help you achieve the right DevOps workflow whether you’re a developer or an operator.",
+          "link": "https://www.hashicorp.com/blog/for-developers-and-operators-all-paths-lead-to-consul",
+          "publishedOn": "2022-03-01T05:12:00.000Z",
+          "wordCount": 1171,
+          "title": "For Developers and Operators, All Paths Lead to Consul",
+          "imageUrl": "https://www.datocms-assets.com/2885/1620083633-blog-library-product-consul-black.jpg"
+        },
+        {
           "id": "https://www.hashicorp.com/blog/observability-cts-nomad-video-highlights-from-hashitalks-2022",
           "author": null,
           "description": "Observability, Consul-Terraform-Sync use cases, and deep-level Nomad explorations were popular at this year’s HashiTalks. Watch our highlighted videos from the virtual event.",
           "link": "https://www.hashicorp.com/blog/observability-cts-nomad-video-highlights-from-hashitalks-2022",
           "publishedOn": "2022-02-28T05:12:00.000Z",
-          "wordCount": 792,
+          "wordCount": 791,
           "title": "Observability, CTS & Nomad Video Highlights from HashiTalks 2022",
           "imageUrl": "https://www.datocms-assets.com/2885/1633705692-hashistack.png"
         },
@@ -228,7 +238,7 @@
           "description": "HashiCorp Consul-Terraform-Sync (CTS) 0.5 adds improvements to task lifecycle management and new ecosystem integrations.",
           "link": "https://www.hashicorp.com/blog/consul-terraform-sync-0-5-adds-new-apis-and-ux-improvements",
           "publishedOn": "2022-02-25T17:00:00.000Z",
-          "wordCount": 1412,
+          "wordCount": 1411,
           "title": "Consul-Terraform-Sync 0.5 Adds New APIs and UX Improvements",
           "imageUrl": "https://www.datocms-assets.com/2885/1620082169-blog-library-product-terraform-consul-dark-logomark-lockup.jpg"
         },
@@ -248,7 +258,7 @@
           "description": "The Consul API Gateway has now reached its first GA release, adding TCPRoute support, Helm chart support, and a new HashiCorp Learn tutorial.",
           "link": "https://www.hashicorp.com/blog/consul-api-gateway-now-generally-available",
           "publishedOn": "2022-02-24T20:15:00.000Z",
-          "wordCount": 1022,
+          "wordCount": 1021,
           "title": "Consul API Gateway Now Generally Available",
           "imageUrl": "https://www.datocms-assets.com/2885/1620083627-blog-library-product-consul-dark-graphics.jpg"
         },
@@ -278,7 +288,7 @@
           "description": "Learn how  Consul-Terraform-Sync can be used to auto-update values of objects in Cisco Secure Firewall Management Center (FMC).",
           "link": "https://www.hashicorp.com/blog/network-security-automation-using-cisco-secure-firewall-and-hashicorp-consul",
           "publishedOn": "2022-02-18T20:00:00.000Z",
-          "wordCount": 840,
+          "wordCount": 838,
           "title": "Network Security Automation using Cisco Secure Firewall and HashiCorp Consul",
           "imageUrl": "https://www.datocms-assets.com/2885/1639970674-hashicorp-cisco.png"
         },
@@ -318,7 +328,7 @@
           "description": "Using multiple dedicated service meshes can pose resource-inefficiency challenges — learn how HashiCorp Consul’s new Administrative Partitions can help solve them.",
           "link": "https://www.hashicorp.com/blog/achieving-multi-tenancy-with-consul-administrative-partitions",
           "publishedOn": "2022-02-07T17:00:00.000Z",
-          "wordCount": 2330,
+          "wordCount": 2328,
           "title": "Achieving Multi-Tenancy with Consul Administrative Partitions",
           "imageUrl": "https://www.datocms-assets.com/2885/1620083627-blog-library-product-consul-dark-graphics.jpg"
         },
@@ -349,6 +359,66 @@
       "feedUrl": "https://www.elastic.co/blog/feed",
       "siteUrl": "https://www.elastic.co",
       "articles": [
+        {
+          "id": "https://www.elastic.co/blog/5-questions-about-ansible-that-elastic-observability-can-answer",
+          "author": "Johan Swanepoel",
+          "description": "Elastic observability features, using open standards and Ansible, will enable automation teams to identify areas for process improvement and communicate business value.",
+          "link": "https://www.elastic.co/blog/5-questions-about-ansible-that-elastic-observability-can-answer",
+          "publishedOn": "2022-03-01T01:48:54.000Z",
+          "wordCount": 811,
+          "title": "5 questions about Ansible that Elastic Observability can answer",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt22e723be0010edc0/603674987737ce7794e655ff/blog-thumb-cloud-observability-midnight.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/5-questions-about-ansible-that-elastic-observability-can-answer",
+          "author": "Johan Swanepoel",
+          "description": ",\nWhile  automating systems is seen as an imperative in boardrooms around the globe, automation teams — the teams on the ground — often lack the data to help them to industrialize their automation efforts and move from ad-hoc automation to strategic automation. \nIn this automation-focused blog post, we will show how to instrument infrastructure automation with Elastic Observability. With Elastic Observability, automation teams can produce information that will help them identify areas for optimization, and develop dashboards that communicate business value to stakeholders and the c-suite.\nWe will demonstrate how observability can help automation teams answer five critical questions to determine how their processes are performing, namely:\n\nHow are the performance of my automation services t…",
+          "link": "https://www.elastic.co/blog/5-questions-about-ansible-that-elastic-observability-can-answer",
+          "publishedOn": "2022-03-01T01:48:54.000Z",
+          "wordCount": 811,
+          "title": "5 questions about Ansible that Elastic Observability can answer",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt22e723be0010edc0/603674987737ce7794e655ff/blog-thumb-cloud-observability-midnight.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/elastic-stack-8.0.1-released",
+          "author": "Martijn Laarman",
+          "description": "Version 8.0.1 of the Elastic Stack was released today. We recommend you upgrade to this latest version.\nThe 8.0.1 patch contains fixes and small enhancements for the stack. For a full list of changes for each product, please refer to the release notes:\n8.0.1 Release Notes\nElastic Stack\nElasticsearch\nKibana\nBeats\nLogstash\nElastic Enterprise Search\nEnterprise Search\nElastic Observability\nAPM\nElastic Security\nElastic Security Solution",
+          "link": "https://www.elastic.co/blog/elastic-stack-8.0.1-released",
+          "publishedOn": "2022-03-01T00:00:00.000Z",
+          "wordCount": 366,
+          "title": "Elastic Stack 8.0.1 released with Log4j update",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c35d17afad9d20d/5f122812c31823015df6ef0a/blog-thumb-rocket-launch.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/ergs-encourage-you-to-come-as-you-are-blasticians-introduction",
+          "author": "Elastic Culture",
+          "description": "Part of our global DEI initiatives are our employee resource groups. These groups are aligned to shared identities and allow Elasticians to build a sense of community and belonging at work. Here, we discuss their origin and meet the Blasticians.",
+          "link": "https://www.elastic.co/blog/ergs-encourage-you-to-come-as-you-are-blasticians-introduction",
+          "publishedOn": "2022-03-01T00:00:00.000Z",
+          "wordCount": 1087,
+          "title": "ERGs encourage you to come as you are: Blasticians introduction",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt982568e4a2a860ee/61fae7de8520e07d80fce7ef/blog-thumb-diverse-hands.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/elastic-stack-8.0.1-released",
+          "author": "Martijn Laarman",
+          "description": "Elastic Stack 8.0.1 has been released. Read about the updates and bug fixes that have been included in Elasticsearch, Kibana, Logstash, Beats, APM, Enterprise Search, Elastic Security, and ECK.",
+          "link": "https://www.elastic.co/blog/elastic-stack-8.0.1-released",
+          "publishedOn": "2022-03-01T00:00:00.000Z",
+          "wordCount": 366,
+          "title": "Elastic Stack 8.0.1 released with Log4j update",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c35d17afad9d20d/5f122812c31823015df6ef0a/blog-thumb-rocket-launch.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/ergs-encourage-you-to-come-as-you-are-blasticians-introduction",
+          "author": "Elastic Culture",
+          "description": ",\nEmployee resource groups, or as we like to call them, Elastician resource groups, have been a part of Elastic’s culture since 2016. They started as organic Slack channels that Elasticians could join to connect with others from similar backgrounds or experiences. \nIn 2021, we formalized these ERGs to ensure that the members would have structure, budget, and ultimately, a voice based on any dimension of diversity, allyship, and advocacy. Formalizing these ERGs was an important step in broadening the impact of our collective diversity, equity and inclusion (DEI) initiatives. \nERGs are aligned to shared identities, interests, affinities, or allyships and have visions and goals they are working towards. They allow Elasticians to build a sense of community and belonging outside of their immedi…",
+          "link": "https://www.elastic.co/blog/ergs-encourage-you-to-come-as-you-are-blasticians-introduction",
+          "publishedOn": "2022-03-01T00:00:00.000Z",
+          "wordCount": 1087,
+          "title": "ERGs encourage you to come as you are: Blasticians introduction",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt982568e4a2a860ee/61fae7de8520e07d80fce7ef/blog-thumb-diverse-hands.png"
+        },
         {
           "id": "https://www.elastic.co/blog/elastic-stack-7-17-1-released",
           "author": "William Chaparro",
@@ -488,66 +558,6 @@
           "wordCount": 546,
           "title": "Exploring Windows UAC bypasses: Techniques and detection strategies",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt1c85cc41b2320aa9/613107598e16ab655b348d21/blog-thumb-blind-spots.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/aws-elastic-observability-monitoring-cloud",
-          "author": "Paul Smalera",
-          "description": "Elastic’s solution works with Amazon’s AWS S3 service to ingest and read performance data and metrics, to create a clear, actionable dashboard of system performance, allowing developers to see baseline performance and instantly detect anomalies.",
-          "link": "https://www.elastic.co/blog/aws-elastic-observability-monitoring-cloud",
-          "publishedOn": "2022-02-17T00:56:33.000Z",
-          "wordCount": 886,
-          "title": "Don’t run AWS without monitoring it with Elastic Observability",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt27e178dbf52ee270/5f89fe15dcf0e74b7cbf6ecf/illustration-partners-aws-1400x1100.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/aws-elastic-observability-monitoring-cloud",
-          "author": "Paul Smalera",
-          "description": ",\nIn 2022, it’s hard to find places in the business and technology ecosystem where performance is not measured, where lots of data is not collected and where insights are not analyzed to improve operational and business performance and trace accountability.\nIn a world where every click and interaction matters, business leaders know it’s not enough to have retrospective reports of infrastructure and application performance impact on business KPIs, or worse, long drawn post-mortems when systems fail. They need live windows into their business and systems performance , to catch  issues before they start to degrade the customer experience.\nCloud adoption has mushroomed, with Gartner estimating public cloud spending will approach half a trillion dollars this year. The shift to the cloud provide…",
-          "link": "https://www.elastic.co/blog/aws-elastic-observability-monitoring-cloud",
-          "publishedOn": "2022-02-17T00:56:33.000Z",
-          "wordCount": 886,
-          "title": "Don’t run AWS without monitoring it with Elastic Observability",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt27e178dbf52ee270/5f89fe15dcf0e74b7cbf6ecf/illustration-partners-aws-1400x1100.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-and-amazon-reach-agreement-on-trademark-infringement-lawsuit",
-          "author": "Shay Banon,Ashutosh Kulkarni",
-          "description": "We’re pleased to share that Elastic and Amazon have resolved the trademark infringement lawsuit related to the term Elasticsearch. Now the only Elasticsearch service on AWS and the AWS Marketplace is Elastic Cloud.",
-          "link": "https://www.elastic.co/blog/elastic-and-amazon-reach-agreement-on-trademark-infringement-lawsuit",
-          "publishedOn": "2022-02-16T21:07:00.000Z",
-          "wordCount": 647,
-          "title": "Elastic and Amazon Reach Agreement on Trademark Infringement Lawsuit",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt11797b8c899b0a4f/620d211200f003242ae1138e/announcement-elastic-aws-blog-1680x980.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-and-amazon-reach-agreement-on-trademark-infringement-lawsuit",
-          "author": "Shay Banon,Ashutosh Kulkarni",
-          "description": ",\nWe’re pleased to share that Elastic and Amazon have resolved the trademark infringement lawsuit related to the term Elasticsearch. Now the only Elasticsearch service on AWS and the AWS Marketplace is Elastic Cloud. \nThis resolution follows the change to the license of Elasticsearch and Kibana in 2021, and Amazon’s subsequent actions, including renaming their service. We believe this resolution will remove confusion in the marketplace and provide much-needed clarity to our community and customers.  \nThere is only one Elasticsearch, and it comes from Elastic. This means when you use Elasticsearch, whether as the Elastic Cloud service in AWS, Azure, or Google Cloud, or when you download and run Elasticsearch yourself, you can be sure that you’re getting the best possible experience because …",
-          "link": "https://www.elastic.co/blog/elastic-and-amazon-reach-agreement-on-trademark-infringement-lawsuit",
-          "publishedOn": "2022-02-16T21:07:00.000Z",
-          "wordCount": 647,
-          "title": "Elastic and Amazon Reach Agreement on Trademark Infringement Lawsuit",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt11797b8c899b0a4f/620d211200f003242ae1138e/announcement-elastic-aws-blog-1680x980.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/what-is-observability-why-use-elastic",
-          "author": "Paul Smalera",
-          "description": "Elastic Observability helps DevOps organizations correlate limitless telemetry data, including metrics, logs and traces, using the power of search to break down silos and turn data into insights. Elastic Observability is built on the Elastic Stack, a proven, search-based solution used by customers all over the world in mission-critical applications.",
-          "link": "https://www.elastic.co/blog/what-is-observability-why-use-elastic",
-          "publishedOn": "2022-02-16T16:00:00.000Z",
-          "wordCount": 1111,
-          "title": "What is Elastic Observability?",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt75ebbc12a186b316/61f4511765ceda6b20b4b01e/observability.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/what-is-observability-why-use-elastic",
-          "author": "Paul Smalera",
-          "description": ",\nWelcome to Elastic’s observability information and resource hub. Here you’ll find the latest and most important blogs, resources, web content and information about Elastic Observability.\nWe’ll provide information for how your IT DevOps (or DevSecOps) teams can use observability to detect and solve issues across complex environments, including single and multi-cloud. We’ll also explain what observability is and why it is critical to the success of your business or organization.\nWhat is observability?\nObservability is the method by which IT organizations gain actionable insights across the increasingly complex distributed systems and applications they develop, deploy and manage.\nObservability is a key initiative of any organization’s application and infrastructure modernization journey. Co…",
-          "link": "https://www.elastic.co/blog/what-is-observability-why-use-elastic",
-          "publishedOn": "2022-02-16T16:00:00.000Z",
-          "wordCount": 1111,
-          "title": "What is Elastic Observability?",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt75ebbc12a186b316/61f4511765ceda6b20b4b01e/observability.png"
         }
       ]
     },
@@ -644,6 +654,16 @@
       "siteUrl": "https://devblogs.microsoft.com/devops",
       "articles": [
         {
+          "id": "https://devblogs.microsoft.com/devops/?p=63503",
+          "author": "Jay Gordon",
+          "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes Episode 69 – What’s New In @AzureStaticApps with @simona_cotin and @nthonyChu appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-69-whats-new-in-azurestaticapps-with-simona_cotin-and-nthonychu/",
+          "publishedOn": "2022-03-01T16:25:49.000Z",
+          "wordCount": 1408,
+          "title": "AzureFunBytes Episode 69 – What’s New In @AzureStaticApps with @simona_cotin and @nthonyChu",
+          "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/02/uZjCy4b.jpg"
+        },
+        {
           "id": "https://devblogs.microsoft.com/devops/?p=63512",
           "author": "April Edwards",
           "description": "Welcome back! I am April Edwards and every week I try to bring you the latest updates from around the DevOps on Azure community. If you have a post you’d like to have me include, I am always listening. You can reach out on Twitter or LinkedIn and I will be sure to share your latest post with the community.\nThe post Top stories from the #AzureDevOps #community for 2022.25.02 are here! appeared first on Azure DevOps Blog.",
@@ -659,7 +679,7 @@
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes Episode 68 – Progressive Delivery with @SplitSoftware and @AzureDevOps appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-68-progressive-delivery-with-splitsoftware-and-azuredevops/",
           "publishedOn": "2022-02-23T16:24:58.000Z",
-          "wordCount": 1331,
+          "wordCount": 1368,
           "title": "AzureFunBytes Episode 68 – Progressive Delivery with @SplitSoftware and @AzureDevOps",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/02/z61vnWkZ.jpg"
         },
@@ -679,7 +699,7 @@
           "description": "On this week’s episode of The DevOps Lab we have Kat Cosgrove and Matty Stratton from Pulumi joining us!\n02:45 –\nThe post Deploy Into Azure Using Pulumi and GitHub Actions appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/deploy-into-azure-using-pulumi-and-github-actions/",
           "publishedOn": "2022-02-11T14:50:09.000Z",
-          "wordCount": 5037,
+          "wordCount": 5039,
           "title": "Deploy Into Azure Using Pulumi and GitHub Actions",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/02/pulumi_logo.png"
         },
@@ -699,7 +719,7 @@
           "description": "AzureFunBytes is a weekly opportunity to learn more about the fundamentals and foundations that make up Azure. It’s a chance for me to understand more about what people across the Azure organization do and how they do it. Every week we get together at 11 AM Pacific on Microsoft LearnTV and learn more about Azure.\nThe post AzureFunBytes Episode 67 – What’s New With @AzureCosmosDB? appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azurefunbytes-episode-67-whats-new-with-azurecosmosdb/",
           "publishedOn": "2022-02-09T16:01:15.000Z",
-          "wordCount": 1667,
+          "wordCount": 1669,
           "title": "AzureFunBytes Episode 67 – What’s New With @AzureCosmosDB?",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/02/cosmos_db_slate.png"
         },
@@ -709,7 +729,7 @@
           "description": "The Copy Dashboard public preview now includes the ability to select a folder to store queries and configuration carried over with the copy operation. It took a little longer than expected, sorry about that, and thanks for your patience.\nThe post Copy Dashboard Public Preview Part 3 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/copy-dashboard-public-preview-part-3/",
           "publishedOn": "2022-02-07T17:50:13.000Z",
-          "wordCount": 1159,
+          "wordCount": 1161,
           "title": "Copy Dashboard Public Preview Part 3",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2018/08/vstsfeature.png"
         },
@@ -719,7 +739,7 @@
           "description": "The top stories from the #AzureDevOps #community for 2022.02.04 are here!\nThe post Top Stories from the Microsoft DevOps Community – 2022.02.04 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2022-02-04/",
           "publishedOn": "2022-02-04T11:00:45.000Z",
-          "wordCount": 1725,
+          "wordCount": 1727,
           "title": "Top Stories from the Microsoft DevOps Community – 2022.02.04",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2019/02/agile-culture.png"
         }
@@ -736,6 +756,16 @@
       "feedUrl": "http://feeds.feedburner.com/AmazonWebServicesBlog",
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
+        {
+          "id": "d83dde763cc072586117e0edc83562050f1ab1a2",
+          "author": "Jeff Barr",
+          "description": "Carbon is the fourth-most abundant element in the universe, and is also a primary component of all known life on Earth. When combined with oxygen it creates carbon dioxide (CO2). Many industrial activities, including the burning of fossil fuels such as coal and oil, release CO2 into the atmosphere and cause climate change. As part […]",
+          "link": "https://aws.amazon.com/blogs/aws/new-customer-carbon-footprint-tool/",
+          "publishedOn": "2022-03-01T08:35:05.000Z",
+          "wordCount": 1169,
+          "title": "New – Customer Carbon Footprint Tool",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/03/01/Site-Merch_AWS-Customer-Carbon-Footprint-Tool_Blog.png"
+        },
         {
           "id": "e1b359af295167726a228a6bd6d6b6af7809afec",
           "author": "Sébastien Stormacq",
@@ -881,12 +911,22 @@
       "siteUrl": "https://camunda.com",
       "articles": [
         {
+          "id": "https://camunda.com/?p=44946",
+          "author": "Annie Talvasto",
+          "description": "Learn all that's featured in the release of Camunda Web Modeler, a new modeling tool that's part of Camunda Cloud.  \nThe post Introducing a New Modeler for Camunda Cloud appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2022/03/introducing-a-new-modeler-for-camunda-cloud/",
+          "publishedOn": "2022-03-01T07:05:00.000Z",
+          "wordCount": 1726,
+          "title": "Introducing a New Modeler for Camunda Cloud",
+          "imageUrl": "https://camunda.com/wp-content/uploads/2022/02/Camunda-Web-Modeler-Released-image-2.png"
+        },
+        {
           "id": "https://camunda.com/?p=44607",
           "author": "Bernd Ruecker",
           "description": "Want to learn how to integrate multiple components without the help of ACID transaction managers? We'll teach you.\nThe post Achieving Consistency without Transaction Managers appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/02/achieving-consistency-without-transaction-managers/",
           "publishedOn": "2022-02-28T14:00:00.000Z",
-          "wordCount": 3087,
+          "wordCount": 3086,
           "title": "Achieving Consistency without Transaction Managers",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/02/2022-Camunda-Blog-Graphics-Template.jpg"
         },
@@ -926,7 +966,7 @@
           "description": "Learn more about our search and discovery of a solution to protect the integrity of the web apps for all our users. \nThe post Ensuring Continuous Support of AngularJS in Camunda Platform 7.17 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/02/ensuring-continuous-support-of-angularjs-in-camunda-platform-7-17/",
           "publishedOn": "2022-02-11T14:00:00.000Z",
-          "wordCount": 1979,
+          "wordCount": 1974,
           "title": "Ensuring Continuous Support of AngularJS in Camunda Platform 7.17",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/02/Blog_Camunda-Platform-Image_V3-1.jpg"
         },
@@ -946,7 +986,7 @@
           "description": "We're pleased to announce the next alpha release of Camunda Platform Runtime 7.17.0. You can download it for free or run it with Docker. \nThe post Camunda Platform Runtime 7.17.0-alpha4 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/02/camunda-platform-runtime-7-17-0-alpha4-released/",
           "publishedOn": "2022-02-08T08:05:00.000Z",
-          "wordCount": 1512,
+          "wordCount": 1510,
           "title": "Camunda Platform Runtime 7.17.0-alpha4 Released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/02/Blog_Camunda-Platform-Image_V3-1.jpg"
         },
@@ -956,7 +996,7 @@
           "description": "We’re excited about the release of Camunda Cloud 1.4.0-alpha1. Get started with it now, or sign up for Camunda Cloud!\nThe post Camunda Cloud 1.4.0-alpha1 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/02/camunda-cloud-1-4-0-alpha1-released/",
           "publishedOn": "2022-02-08T08:00:00.000Z",
-          "wordCount": 1389,
+          "wordCount": 1384,
           "title": "Camunda Cloud 1.4.0-alpha1 Released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/02/Blog_CategoryImages_Cloud.jpg"
         },
@@ -1133,7 +1173,7 @@
           "description": "This blog post gives an overview of the Rapid Event Notification System at Netflix and shares some of the learnings gained while building it",
           "link": "https://netflixtechblog.com/rapid-event-notification-system-at-netflix-6deb1d2b57d1?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-02-18T15:30:24.000Z",
-          "wordCount": 2222,
+          "wordCount": 2231,
           "title": "Rapid Event Notification System at Netflix",
           "imageUrl": "https://miro.medium.com/max/1030/0*i6o12AqlvqZDMcAj"
         },
@@ -1143,7 +1183,7 @@
           "description": "by Sam Setegne, Jai Balani, Olek Gorajek",
           "link": "https://netflixtechblog.com/data-pipeline-asset-management-with-dataflow-86525b3e21ca?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-02-09T17:33:22.000Z",
-          "wordCount": 3164,
+          "wordCount": 3172,
           "title": "Data pipeline asset management with Dataflow",
           "imageUrl": "https://miro.medium.com/max/976/0*DwP-Z_4MrdAz5UTG"
         },
@@ -1153,7 +1193,7 @@
           "description": "By Karen Casella, Director of Engineering, Access & Identity Management",
           "link": "https://netflixtechblog.com/demystifying-interviewing-for-backend-engineers-netflix-aceb26a83495?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-02-01T14:24:18.000Z",
-          "wordCount": 1808,
+          "wordCount": 1801,
           "title": "Demystifying Interviewing for Backend Engineers @ Netflix",
           "imageUrl": "https://miro.medium.com/max/1200/0*7zWnpCdZ_OTjyo-6"
         }
@@ -1165,12 +1205,22 @@
       "siteUrl": "http://ai.googleblog.com/",
       "articles": [
         {
+          "id": "http://ai.googleblog.com/2022/03/co-training-transformer-with-videos-and.html",
+          "author": null,
+          "description": "Posted by Bowen Zhang, Student Researcher and Jiahui Yu, Senior Research Scientist, Google Research, Brain Team   \nAction recognition has become a major focus area for the research community because many applications can benefit from improved modeling, such as video retrieval, video captioning, video question-answering, etc. Transformer-based approaches have recently demonstrated state-of-the-art performance on several benchmarks. While Transformer models require data to learn better visual priors compared to ConvNets, action recognition datasets are relatively small in scale. Large Transformer models are typically first trained on image datasets and later fine-tuned on a target action recognition dataset. \n While the current pre-training and fine-tuning action recognition paradigm is stra…",
+          "link": "http://ai.googleblog.com/2022/03/co-training-transformer-with-videos-and.html",
+          "publishedOn": "2022-03-01T18:10:00.000Z",
+          "wordCount": 2201,
+          "title": "Co-training Transformer with Videos and Images Improves Action Recognition",
+          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
+        },
+        {
           "id": "http://ai.googleblog.com/2022/02/federated-learning-with-formal.html",
           "author": null,
           "description": "Posted by Brendan McMahan and Abhradeep Thakurta, Research Scientists, Google Research \nIn 2017, Google introduced federated learning (FL), an approach that enables mobile devices to collaboratively train machine learning (ML) models while keeping the raw training data on each user's device, decoupling the ability to do ML from the need to store the data in the cloud. Since its introduction, Google has continued to actively engage in FL research and deployed FL to power many features in Gboard, including next word prediction, emoji suggestion and out-of-vocabulary word discovery. Federated learning is improving the “Hey Google” detection models in Assistant, suggesting replies in Google Messages, predicting text selections, and more. \nWhile FL allows ML without raw data collection, differe…",
           "link": "http://ai.googleblog.com/2022/02/federated-learning-with-formal.html",
-          "publishedOn": "2022-02-28T21:55:00.000Z",
-          "wordCount": 2476,
+          "publishedOn": "2022-02-28T21:55:00.001Z",
+          "wordCount": 2475,
           "title": "Federated Learning with Formal Differential Privacy Guarantees",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         },
@@ -1180,7 +1230,7 @@
           "description": "Posted by Abhishek Kumar and Ehsan Amid, Research Scientists, Google Research, Brain Team \nOver the past several years, deep neural networks (DNNs) have been quite successful in driving impressive performance gains in several real-world applications, from image recognition to genomics. However, modern DNNs often have far more trainable model parameters than the number of training examples and the resulting overparameterized networks can easily overfit to noisy or corrupted labels (i.e., examples that are assigned a wrong class label). As a consequence, training with noisy labels often leads to degradation in accuracy of the trained model on clean test data. Unfortunately, noisy labels can appear in several real-world scenarios due to multiple factors, such as errors and inconsistencies in …",
           "link": "http://ai.googleblog.com/2022/02/constrained-reweighting-for-training.html",
           "publishedOn": "2022-02-28T17:56:00.000Z",
-          "wordCount": 2584,
+          "wordCount": 2585,
           "title": "Constrained Reweighting for Training Deep Neural Nets with Noisy Labels",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         },
@@ -1190,7 +1240,7 @@
           "description": "Posted by AJ Piergiovanni and Anelia Angelova, Research Scientists, Google Research \nWhile not immediately obvious, all of us experience the world in four dimensions (4D). For example, when walking or driving down the street we observe a stream of visual inputs, snapshots of the 3D world, which, when taken together in time, creates a 4D visual input. Today’s autonomous vehicles and robots are able to capture much of this information through various onboard sensing mechanisms, such as LiDAR and cameras. \n LiDAR is a ubiquitous sensor that uses light pulses to reliably measure the 3D coordinates of objects in a scene, however, it is also sparse and has a limited range — the farther one is from a sensor, the fewer points will be returned. This means that far-away objects might only get a hand…",
           "link": "http://ai.googleblog.com/2022/02/4d-net-learning-multi-modal-alignment.html",
           "publishedOn": "2022-02-23T20:59:00.000Z",
-          "wordCount": 2274,
+          "wordCount": 2275,
           "title": "4D-Net: Learning Multi-Modal Alignment for 3D and Image Inputs in Time",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         },
@@ -1200,7 +1250,7 @@
           "description": "Posted by Ali Kemal Sinop and Kostas Kollias, Research Scientists, Google Research \nIn the world of networks, there are models that can explain observations across a diverse collection of applications. These include simple tasks such as computing the shortest path, which has obvious applications to routing networks but also applies in biology, e.g., where the slime mold Physarum is able to find shortest paths in mazes. Another example is Braess’s paradox — the observation that adding resources to a network can have an effect opposite to the one expected — which manifests not only in road networks but also in mechanical and electrical systems. For instance, constructing a new road can increase traffic congestion or adding a new link in an electrical circuit can increase voltage. Such connec…",
           "link": "http://ai.googleblog.com/2022/02/robust-routing-using-electrical-flows.html",
           "publishedOn": "2022-02-18T19:58:00.006Z",
-          "wordCount": 2532,
+          "wordCount": 2533,
           "title": "Robust Routing Using Electrical Flows",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         },
@@ -1210,7 +1260,7 @@
           "description": "Posted by Daniel Suo, Software Engineer and Elad Hazan, Research Scientist, Google Research, on behalf of the Google AI Princeton Team \n  Mechanical ventilators provide critical support for patients who have difficulty breathing or are unable to breathe on their own. They see frequent use in scenarios ranging from routine anesthesia, to neonatal intensive care and life support during the COVID-19 pandemic. A typical ventilator consists of a compressed air source, valves to control the flow of air into and out of the lungs, and a \"respiratory circuit\" that connects the ventilator to the patient. In some cases, a sedated patient may be connected to the ventilator via a tube inserted through the trachea to their lungs, a process called invasive ventilation. \n\n\nA mechanical ventilator takes br…",
           "link": "http://ai.googleblog.com/2022/02/machine-learning-for-mechanical.html",
           "publishedOn": "2022-02-17T21:00:00.000Z",
-          "wordCount": 2643,
+          "wordCount": 2644,
           "title": "Machine Learning for Mechanical Ventilation Control",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         },
@@ -1220,7 +1270,7 @@
           "description": "Posted by Joshua Greaves, Software Engineer and Pablo Samuel Castro, Staff Software Engineer, Google Research, Brain Team \nBenchmark challenges have been a driving force in the advancement of machine learning (ML). In particular, difficult benchmark environments for reinforcement learning (RL) have been crucial for the rapid progress of the field by challenging researchers to overcome increasingly difficult tasks. The Arcade Learning Environment, Mujoco, and others have been used to push the envelope in RL algorithms, representation learning, exploration, and more.  \n In “Autonomous Navigation of Stratospheric Balloons Using Reinforcement Learning”, published in Nature two years ago, we demonstrated how deep RL can be used to create a high-performing flight agent that can control stratosph…",
           "link": "http://ai.googleblog.com/2022/02/the-balloon-learning-environment.html",
           "publishedOn": "2022-02-17T18:11:00.001Z",
-          "wordCount": 1925,
+          "wordCount": 1926,
           "title": "The Balloon Learning Environment",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         },
@@ -1230,7 +1280,7 @@
           "description": "Posted by David Patterson, Distinguished Engineer, Google Research, Brain Team  \nMachine learning (ML) has become prominent in information technology, which has led some to raise concerns about the associated rise in the costs of computation, primarily the carbon footprint, i.e., total greenhouse gas emissions. While these assertions rightfully elevated the discussion around carbon emissions in ML, they also highlight the need for accurate data to assess true carbon footprint, which can help identify strategies to mitigate carbon emission in ML.\n \nIn “The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink”, accepted for publication in IEEE Computer, we focus on operational carbon emissions — i.e., the energy cost of operating ML hardware, including data center overhead…",
           "link": "http://ai.googleblog.com/2022/02/good-news-about-carbon-footprint-of.html",
           "publishedOn": "2022-02-15T20:36:00.005Z",
-          "wordCount": 2354,
+          "wordCount": 2355,
           "title": "Good News About the Carbon Footprint of Machine Learning Training",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         },
@@ -1240,7 +1290,7 @@
           "description": "Posted by Po-Hsuan Cameron Chen, Software Engineer, Google Health and Maggie Demkin, Program Manager, Kaggle \nIn recent years, machine learning (ML) competitions in health have attracted ML scientists to work together to solve challenging clinical problems. These competitions provide access to relevant data and well-defined problems where experienced data scientists come to compete for solutions and learn new methods. However, a fundamental difficulty in organizing such challenges is obtaining and curating high quality datasets for model development and independent datasets for model evaluation. Importantly, to reduce the risk of bias and to ensure broad applicability of the algorithm, evaluation of the generalisability of resulting algorithms should ideally be performed on multiple indepe…",
           "link": "http://ai.googleblog.com/2022/02/an-international-scientific-challenge.html",
           "publishedOn": "2022-02-11T18:35:00.000Z",
-          "wordCount": 1857,
+          "wordCount": 1858,
           "title": "An International Scientific Challenge for the Diagnosis and Gleason Grading of Prostate Cancer",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         },
@@ -1250,7 +1300,7 @@
           "description": "Posted by Brian Lester, AI Resident and Noah Constant, Senior Staff Software Engineer, Google Research \nLarge pre-trained language models, which are continuing to grow in size, achieve state-of-art results on many natural language processing (NLP) benchmarks. Since the development of GPT and BERT, standard practice has been to fine-tune models on downstream tasks, which involves adjusting every weight in the network (i.e., model tuning). However, as models become larger, storing and serving a tuned copy of the model for each downstream task becomes impractical. \n An appealing alternative is to share across all downstream tasks a single frozen pre-trained language model, in which all weights are fixed. In an exciting development, GPT-3 showed convincingly that a frozen model can be conditio…",
           "link": "http://ai.googleblog.com/2022/02/guiding-frozen-language-models-with.html",
           "publishedOn": "2022-02-10T23:22:00.002Z",
-          "wordCount": 2065,
+          "wordCount": 2066,
           "title": "Guiding Frozen Language Models with Learned Soft Prompts",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         },
@@ -1260,7 +1310,7 @@
           "description": "Posted by Zizhao Zhang, Software Engineer, Google Research, Cloud AI Team \nIn visual understanding, the Vision Transformer (ViT) and its variants have received significant attention recently due to their superior performance on many core visual applications, such as image classification, object detection, and video understanding. The core idea of ViT is to utilize the power of self-attention layers to learn global relationships between small patches of images. However, the number of connections between patches increases quadratically with image size. Such a design has been observed to be data inefficient — although the original ViT can perform better than convolutional networks with hundreds of millions of images for pre-training, such a data requirement is not always practical, and it sti…",
           "link": "http://ai.googleblog.com/2022/02/nested-hierarchical-transformer-towards.html",
           "publishedOn": "2022-02-09T19:34:00.002Z",
-          "wordCount": 2475,
+          "wordCount": 2476,
           "title": "Nested Hierarchical Transformer: Towards Accurate, Data-Efficient, and Interpretable Visual Understanding",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         },
@@ -1270,7 +1320,7 @@
           "description": "Posted by Kevin Zakka, Student Researcher and Andy Zeng, Research Scientist, Robotics at Google \nPeople learn to do things by watching others — from mimicking new dance moves, to watching YouTube cooking videos. We’d like robots to do the same, i.e., to learn new skills by watching people do things during training. Today, however, the predominant paradigm for teaching robots is to remote control them using specialized hardware for teleoperation and then train them to imitate pre-recorded demonstrations. This limits both who can provide the demonstrations (programmers & roboticists) and where they can be provided (lab settings). If robots could instead self-learn new tasks by watching humans, this capability could allow them to be deployed in more unstructured settings like the home, and ma…",
           "link": "http://ai.googleblog.com/2022/02/robot-see-robot-do.html",
           "publishedOn": "2022-02-08T21:00:00.000Z",
-          "wordCount": 2645,
+          "wordCount": 2646,
           "title": "Robot See, Robot Do",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         },
@@ -1280,7 +1330,7 @@
           "description": "Posted by Sheng Li, Staff Software Engineer and Norman P. Jouppi, Google Fellow, Google Research    \nContinuing advances in the design and implementation of datacenter (DC) accelerators for machine learning (ML), such as TPUs and GPUs, have been critical for powering modern ML models and applications at scale. These improved accelerators exhibit peak performance (e.g., FLOPs) that is orders of magnitude better than traditional computing systems. However, there is a fast-widening gap between the available peak performance offered by state-of-the-art hardware and the actual achieved performance when ML models run on that hardware.  \n One approach to address this gap is to design hardware-specific ML models that optimize both performance (e.g., throughput and latency) and model quality. Recen…",
           "link": "http://ai.googleblog.com/2022/02/unlocking-full-potential-of-datacenter.html",
           "publishedOn": "2022-02-08T18:18:00.000Z",
-          "wordCount": 2021,
+          "wordCount": 2022,
           "title": "Unlocking the Full Potential of Datacenter ML Accelerators with Platform-Aware Neural Architecture Search",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         },
@@ -1290,7 +1340,7 @@
           "description": "Posted by Chelsea Finn, Research Adviser and Eric Jang, Senior Research Scientist, Robotics at Google \nPeople can flexibly maneuver objects in their physical surroundings to accomplish various goals. One of the grand challenges in robotics is to successfully train robots to do the same, i.e., to develop a general-purpose robot capable of performing a multitude of tasks based on arbitrary user commands. Robots that are faced with the real world will also inevitably encounter new user instructions and situations that were not seen during training. Therefore, it is imperative for robots to be trained to perform multiple tasks in a variety of situations and, more importantly, to be capable of solving new tasks as requested by human users, even if the robot was not explicitly trained on those t…",
           "link": "http://ai.googleblog.com/2022/02/can-robots-follow-instructions-for-new.html",
           "publishedOn": "2022-02-02T18:47:00.005Z",
-          "wordCount": 2239,
+          "wordCount": 2240,
           "title": "Can Robots Follow Instructions for New Tasks?",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         },
@@ -1300,7 +1350,7 @@
           "description": "Posted by Alexey Kurakin, Software Engineer and Roxana Geambasu, Visiting Faculty Researcher, Google Research \nMachine learning (ML) models are becoming increasingly valuable for improved performance across a variety of consumer products, from recommendations to automatic image classification.  However, despite aggregating large amounts of data, in theory it is possible for models to encode characteristics of individual entries from the training set.  For example, experiments in controlled settings have shown that language models trained using email datasets may sometimes encode sensitive information included in the training data and may have the potential to reveal the presence of a particular user’s data in the training set. As such, it is important to prevent the encoding of such charac…",
           "link": "http://ai.googleblog.com/2022/02/applying-differential-privacy-to-large.html",
           "publishedOn": "2022-02-01T18:01:00.000Z",
-          "wordCount": 2145,
+          "wordCount": 2146,
           "title": "Applying Differential Privacy to Large Scale Image Classification",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         }
@@ -1312,12 +1362,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=41552",
+          "author": "Seth Godin",
+          "description": "Reassurance always runs out. Reassurance implies that the only reason to go forward is because it’s certain to work. Reassurance is futile. Encouragement means that someone sees us, understands us and believes in us. Even (especially) when things don’t turn out as we hoped. Encouragement lasts. Encouragement is self-fueling and self-fulfilling.",
+          "link": "https://feeds.feedblitz.com/~/684195218/0/sethsblog~Encouragement-and-reassurance/",
+          "publishedOn": "2022-03-01T08:59:00.000Z",
+          "wordCount": 183,
+          "title": "Encouragement and reassurance",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061315.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=41547",
           "author": "Seth Godin",
           "description": "When a client, a boss or an employee makes a special request, it’s okay to get a little bent out of shape. It might cost you extra time or money, it might be a hassle, it might not be deserved. And then you can say no. But if you say yes, then it pays to […]",
           "link": "https://feeds.feedblitz.com/~/684051257/0/sethsblog~One-sigh-per-yes/",
           "publishedOn": "2022-02-28T11:53:00.000Z",
-          "wordCount": 226,
+          "wordCount": 227,
           "title": "One sigh per yes",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806135-1.jpg"
         },
@@ -1399,16 +1459,6 @@
           "publishedOn": "2022-02-20T09:54:00.000Z",
           "wordCount": 192,
           "title": "Begrudgingly",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061311.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=42353",
-          "author": "Seth Godin",
-          "description": "When Google or Facebook or Spotify decide what you’ll see next, they’re making a choice. That’s very different from an open platform like “podcasting” or “blogging” (in quotes with no capital letters, because no one is in charge.) Being in charge implies that choices are being made. And people who are in charge–even if it’s […]",
-          "link": "https://feeds.feedblitz.com/~/682905153/0/sethsblog~Who-chooses/",
-          "publishedOn": "2022-02-19T09:55:00.000Z",
-          "wordCount": 442,
-          "title": "Who chooses?",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061311.jpg"
         }
       ]
@@ -1494,7 +1544,7 @@
           "description": "Kotlin Heroes is our Kotlin-only contest hosted by the Codeforces. It is a great way to play around with Kotlin’s features, learn something new, and practice using the language by solving fun problems. It is great for programmers of any level! Everyone has a chance to win some cool prizes: exclusive Kotlin Heroes t-shirts, stickers, […]",
           "link": "https://blog.jetbrains.com/kotlin/2022/02/kotlin-heroes-episode-9/",
           "publishedOn": "2022-02-17T17:13:41.000Z",
-          "wordCount": 870,
+          "wordCount": 890,
           "title": "Here Comes Kotlin Heroes:  Episode 9!",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/02/Kotlin-Heroes-Episode-9.png"
         },
@@ -1514,7 +1564,7 @@
           "description": "It’s that time of the year again! Back in 2019, we held our first JetBrains .NET Day Online — a free, live, virtual event where community speakers cover topics they are passionate about, ranging from deep technical .NET content and speakers’ experiences with specific tools and technologies, to personal development. After a successful 2020 and […]",
           "link": "https://blog.jetbrains.com/dotnet/2022/02/17/jetbrains-net-day-online-2022-call-for-speakers/",
           "publishedOn": "2022-02-17T07:12:49.000Z",
-          "wordCount": 922,
+          "wordCount": 916,
           "title": "JetBrains .NET Day Online 2022 – Call for Speakers",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/02/jb-news-share.png"
         },

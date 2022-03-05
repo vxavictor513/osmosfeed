@@ -6,6 +6,26 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2022/03/04/spring-cloud-data-flow-2-10-0-m1-released",
+          "author": null,
+          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Cloud Dataflow 2.10.0-M1 has been released and is now available from https://repo.spring.io/milestone.\n\r\nThis preview release contains many improvements and bug fixes - check out the release notes for more information.\nNotable Changes in 2.10.0-M1\n\r\n\r\n  \nUpdate to Spring Boot 2.6.3 and Spring Cloud 2021.0.0\n\r\n  \nProvide a Carvel package for easy installation into k8s\n\r\n  \nStarting from 2.10, dropping support for mysql database in favour of MariaDB\n\r\n\nStay in touch…\n\r\nAs always, we welcome feedback and contributions, so please reach out to us on Stackoverflow or GitHub.",
+          "link": "https://spring.io/blog/2022/03/04/spring-cloud-data-flow-2-10-0-m1-released",
+          "publishedOn": "2022-03-05T00:55:00.000Z",
+          "wordCount": 476,
+          "title": "Spring Cloud Data Flow 2.10.0-M1 Released",
+          "imageUrl": "https://avatars.githubusercontent.com/u/28907971?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2022/03/04/spring-cloud-square-0-4-1-has-been-released",
+          "author": null,
+          "description": "On behalf of the community, I am pleased to announce that the 0.4.1 release of Spring Cloud Square is available today. The release can be found in Maven Central. You can check out the 0.4.1 release notes for more information.\n\r\nThis is primarily a bug fix release.\nNotable changes in 0.4.1:\n\r\n\r\n  \nSupport for configuring custom WebClient.Builder beans for non-load-balanced scenarios (#44)\n\r\n\r\nThe documentation for this release can be found here.",
+          "link": "https://spring.io/blog/2022/03/04/spring-cloud-square-0-4-1-has-been-released",
+          "publishedOn": "2022-03-04T13:00:00.000Z",
+          "wordCount": 448,
+          "title": "Spring Cloud Square 0.4.1 has been released",
+          "imageUrl": "https://avatars.githubusercontent.com/u/4328892?v=4?s=200"
+        },
+        {
           "id": "https://spring.io/blog/2022/03/03/a-bootiful-podcast-reactive-streams-cofounder-former-deputy-cto-at-lightbend-and-legend-viktor-klang",
           "author": null,
           "description": "Hi, Spring fans! In this installment Josh Long (@starbuxman) talks to former Akka lead and deputy CTO at Lightbend, engineering director at Sinch, Reactive Streams cofounder, the one and only legendary Viktor Klang (@viktorklang)",
@@ -184,26 +204,6 @@
           "wordCount": 1217,
           "title": "Spring Security without the WebSecurityConfigurerAdapter",
           "imageUrl": "https://avatars.githubusercontent.com/u/6599803?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/02/18/spring-data-2021-2-0-m3-2021-1-2-and-2021-0-9-released",
-          "author": null,
-          "description": "On behalf of the team, I’m pleased to announce Spring Data service releases 2021.1.2 and 2020.0.9.\nBoth releases ship with mostly bug fixes and dependency upgrades.\nFor your convenience, Spring Boot 2.6.4 respective 2.5.10 are going to pick up these releases in the upcoming days.\n\r\nAlong with the service releases, we released the next milestone 2021.2.0-M3 of the 2021.2 release train. We have summarized the new and noteworthy changes in our release notes.\n\r\nTo round things off, here are the links to the individual modules, changelogs, and documentation:\n2021.2.0-M3\n\r\n\r\n  \nSpring Data Commons 2.7 M3 - Artifacts - Javadoc - Documentation - Changelog\n\r\n  \nSpring Data JDBC 2.4 M3 - Artifacts - Javadoc - Documentation - Changelog\n\r\n  \nSpring Data JPA 2.7 M3 - Artifacts - Javadoc - Documentation…",
-          "link": "https://spring.io/blog/2022/02/18/spring-data-2021-2-0-m3-2021-1-2-and-2021-0-9-released",
-          "publishedOn": "2022-02-18T10:41:03.000Z",
-          "wordCount": 1034,
-          "title": "Spring Data 2021.2.0-M3, 2021.1.2, and 2021.0.9 released",
-          "imageUrl": "https://avatars.githubusercontent.com/u/1035015?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/02/18/spring-cloud-2021-0-1-has-been-released",
-          "author": null,
-          "description": "On behalf of the community, I am pleased to announce that the Service Release 1 of the Spring Cloud 2021.0 Release Train is available today. This was primarily a bug fix release. The release can be found in Maven Central. You can check out the 2021.0.1 release notes for more information.\nNotable Changes in the 2021.0.1 Release Train\n\r\nSee the project page for all issues included in the release.\nSpring Cloud Config\n\r\n\r\n  \nFix pattern matching bug with JSON, YAML, and properties files (2020)\n\r\n\nSpring Cloud Sleuth\n\r\n\r\n  \nNumerous bug fixes\n\r\n\nSpring Cloud Contract\n\r\n\r\n  \nBug fixes\n\r\n\nSpring Cloud Gateway\n\r\n\r\n  \nA new route predicate that checks for allowed values for the X-Forwarded-For header, similar to the RemoteAddr predicate. (783)\n\r\n  \nAllows setting of the order of the Gateway Handler…",
-          "link": "https://spring.io/blog/2022/02/18/spring-cloud-2021-0-1-has-been-released",
-          "publishedOn": "2022-02-18T08:09:00.000Z",
-          "wordCount": 704,
-          "title": "Spring Cloud 2021.0.1 Has Been Released",
-          "imageUrl": "https://avatars.githubusercontent.com/u/524254?v=4?s=200"
         }
       ]
     },
@@ -351,16 +351,6 @@
           "wordCount": 2329,
           "title": "Achieving Multi-Tenancy with Consul Administrative Partitions",
           "imageUrl": "https://www.datocms-assets.com/2885/1620083627-blog-library-product-consul-dark-graphics.jpg"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/hcp-vault-observability-at-scale-using-datadog-s-vector",
-          "author": null,
-          "description": "Get technical insight into how HCP Vault uses Datadog’s Vector integration to meet the observability needs of customers.",
-          "link": "https://www.hashicorp.com/blog/hcp-vault-observability-at-scale-using-datadog-s-vector",
-          "publishedOn": "2022-02-02T17:00:00.000Z",
-          "wordCount": 1072,
-          "title": "HCP Vault Observability at Scale Using Datadog’s Vector",
-          "imageUrl": "https://www.datocms-assets.com/2885/1643669249-hcpv-vector.png"
         }
       ]
     },
@@ -884,6 +874,16 @@
       "siteUrl": "https://xkcd.com/",
       "articles": [
         {
+          "id": "https://xkcd.com/2589/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/outlet_denier.png\" title=\"There are regularly placed bumps on the underside just the right size to press the rocker switch on the power strip.\" alt=\"There are regularly placed bumps on the underside just the right size to press the rocker switch on the power strip.\" />",
+          "link": "https://xkcd.com/2589/",
+          "publishedOn": "2022-03-04T00:00:00.000Z",
+          "wordCount": 197,
+          "title": "Outlet Denier",
+          "imageUrl": "https://imgs.xkcd.com/comics/outlet_denier_2x.png"
+        },
+        {
           "id": "https://xkcd.com/2588/",
           "author": null,
           "description": "<img src=\"https://imgs.xkcd.com/comics/party_quadrants.png\" title=\"Single-elimination might provide more drama, but I think we can all agree that a comprehensive numerical scoring system will let us better judge the party's winner.\" alt=\"Single-elimination might provide more drama, but I think we can all agree that a comprehensive numerical scoring system will let us better judge the party's winner.\" />",
@@ -912,16 +912,6 @@
           "wordCount": 197,
           "title": "Greek Letters",
           "imageUrl": "https://imgs.xkcd.com/comics/greek_letters_2x.png"
-        },
-        {
-          "id": "https://xkcd.com/2585/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/rounding.png\" title=\"I've developed a novel propulsion system powered by loss of precision in unit conversion.\" alt=\"I've developed a novel propulsion system powered by loss of precision in unit conversion.\" />",
-          "link": "https://xkcd.com/2585/",
-          "publishedOn": "2022-02-23T00:00:00.000Z",
-          "wordCount": 195,
-          "title": "Rounding",
-          "imageUrl": "https://imgs.xkcd.com/comics/rounding_2x.png"
         }
       ]
     },
@@ -936,7 +926,7 @@
           "description": "We are shocked and saddened by the Russian invasion of Ukraine. We join the many individuals and companies supporting them, with our own contributions.\nThe post Responding to the Russian Invasion of Ukraine appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/03/responding-to-the-russian-invasion-of-ukraine/",
           "publishedOn": "2022-03-02T16:00:00.000Z",
-          "wordCount": 1525,
+          "wordCount": 1524,
           "title": "Responding to the Russian Invasion of Ukraine",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/03/Camunda-support-ukraine.png"
         },
@@ -946,7 +936,7 @@
           "description": "Learn all that's featured in the release of Camunda Web Modeler, a new modeling tool that's part of Camunda Cloud.  \nThe post Introducing a New Modeler for Camunda Cloud appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/03/introducing-a-new-modeler-for-camunda-cloud/",
           "publishedOn": "2022-03-01T07:05:00.000Z",
-          "wordCount": 1726,
+          "wordCount": 1725,
           "title": "Introducing a New Modeler for Camunda Cloud",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/02/Camunda-Web-Modeler-Released-image-2.png"
         },
@@ -966,7 +956,7 @@
           "description": "As much as we’d all like to operate at the automation levels of an organization like Amazon, most organizations are relatively early in their process automation maturity journey. That’s where a universal process orchestrator like the Camunda Platform comes in.\nThe post What’s in Your Hyperautomation Tech Stack? appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/02/whats-in-your-hyperautomation-tech-stack/",
           "publishedOn": "2022-02-24T16:00:00.000Z",
-          "wordCount": 1912,
+          "wordCount": 1911,
           "title": "What’s in Your Hyperautomation Tech Stack?",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/02/2022_HyperAutomation_Tech_Stack.png"
         },
@@ -976,7 +966,7 @@
           "description": "Learn about the benefits of external tasks in Camunda Cloud and how you can still call your service endpoints via any protocol.\nThe post How to Write Glue Code without Java Delegates in Camunda Cloud appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/02/how-to-write-glue-code-without-java-delegates-in-camunda-cloud/",
           "publishedOn": "2022-02-22T17:15:00.000Z",
-          "wordCount": 2366,
+          "wordCount": 2365,
           "title": "How to Write Glue Code without Java Delegates in Camunda Cloud",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/02/Glue-code-image-1.png"
         },
@@ -1016,7 +1006,7 @@
           "description": "We're pleased to announce the next alpha release of Camunda Platform Runtime 7.17.0. You can download it for free or run it with Docker. \nThe post Camunda Platform Runtime 7.17.0-alpha4 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/02/camunda-platform-runtime-7-17-0-alpha4-released/",
           "publishedOn": "2022-02-08T08:05:00.000Z",
-          "wordCount": 1511,
+          "wordCount": 1510,
           "title": "Camunda Platform Runtime 7.17.0-alpha4 Released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/02/Blog_Camunda-Platform-Image_V3-1.jpg"
         },
@@ -1026,7 +1016,7 @@
           "description": "We’re excited about the release of Camunda Cloud 1.4.0-alpha1. Get started with it now, or sign up for Camunda Cloud!\nThe post Camunda Cloud 1.4.0-alpha1 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/02/camunda-cloud-1-4-0-alpha1-released/",
           "publishedOn": "2022-02-08T08:00:00.000Z",
-          "wordCount": 1384,
+          "wordCount": 1383,
           "title": "Camunda Cloud 1.4.0-alpha1 Released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/02/Blog_CategoryImages_Cloud.jpg"
         }
@@ -1110,7 +1100,7 @@
           "description": "The ability to prebuild codespaces is entering public beta. Enable fast environment creation times, regardless of the size and complexity of your repositories.",
           "link": "https://github.blog/2022-02-23-codespaces-largest-repositories-faster/",
           "publishedOn": "2022-02-23T18:10:01.000Z",
-          "wordCount": 1008,
+          "wordCount": 1026,
           "title": "Codespaces for the largest repositories just got faster",
           "imageUrl": "https://github.blog/wp-content/uploads/2021/08/1200x630-codespaces-social-3.png"
         },
@@ -1120,7 +1110,7 @@
           "description": "GitHub Actions workflows in the Security category will now appear among the workflow recommendations based on a repository's content.",
           "link": "https://github.blog/2022-02-22-get-started-using-security-workflows/",
           "publishedOn": "2022-02-22T17:18:57.000Z",
-          "wordCount": 580,
+          "wordCount": 598,
           "title": "Get started with ease using security workflows!",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/02/Product_green@2x.png"
         },
@@ -1193,7 +1183,7 @@
           "description": "This blog post gives an overview of the Rapid Event Notification System at Netflix and shares some of the learnings gained while building it",
           "link": "https://netflixtechblog.com/rapid-event-notification-system-at-netflix-6deb1d2b57d1?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-02-18T15:30:24.000Z",
-          "wordCount": 2236,
+          "wordCount": 2216,
           "title": "Rapid Event Notification System at Netflix",
           "imageUrl": "https://miro.medium.com/max/1030/0*i6o12AqlvqZDMcAj"
         },
@@ -1203,7 +1193,7 @@
           "description": "by Sam Setegne, Jai Balani, Olek Gorajek",
           "link": "https://netflixtechblog.com/data-pipeline-asset-management-with-dataflow-86525b3e21ca?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-02-09T17:33:22.000Z",
-          "wordCount": 3180,
+          "wordCount": 3172,
           "title": "Data pipeline asset management with Dataflow",
           "imageUrl": "https://miro.medium.com/max/976/0*DwP-Z_4MrdAz5UTG"
         }
@@ -1219,8 +1209,8 @@
           "author": null,
           "description": "Posted by Joel Shor, Staff Software Engineer, Google Research   \nIn recent years, we have seen dramatic improvements on lexical tasks such as automatic speech recognition (ASR). However, machine systems still struggle to understand paralinguistic aspects — such as tone, emotion, whether a speaker is wearing a mask, etc. Understanding these aspects represents one of the remaining difficult problems in machine hearing. In addition, state-of-the-art results often come from ultra-large models trained on private data, making them impractical to run on mobile devices or to release publicly.  \n In “Universal Paralinguistic Speech Representations Using Self-Supervised Conformers”, to appear in ICASSP 2022, we introduce CAP12— the 12th layer of a 600M parameter model trained on the YT-U training da…",
           "link": "http://ai.googleblog.com/2022/03/trillsson-small-universal-speech.html",
-          "publishedOn": "2022-03-03T20:39:00.000Z",
-          "wordCount": 2393,
+          "publishedOn": "2022-03-03T20:39:00.001Z",
+          "wordCount": 2394,
           "title": "TRILLsson: Small, Universal Speech Representations for Paralinguistic Tasks",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         },
@@ -1363,16 +1353,6 @@
           "wordCount": 2022,
           "title": "Unlocking the Full Potential of Datacenter ML Accelerators with Platform-Aware Neural Architecture Search",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
-        },
-        {
-          "id": "http://ai.googleblog.com/2022/02/can-robots-follow-instructions-for-new.html",
-          "author": null,
-          "description": "Posted by Chelsea Finn, Research Adviser and Eric Jang, Senior Research Scientist, Robotics at Google \nPeople can flexibly maneuver objects in their physical surroundings to accomplish various goals. One of the grand challenges in robotics is to successfully train robots to do the same, i.e., to develop a general-purpose robot capable of performing a multitude of tasks based on arbitrary user commands. Robots that are faced with the real world will also inevitably encounter new user instructions and situations that were not seen during training. Therefore, it is imperative for robots to be trained to perform multiple tasks in a variety of situations and, more importantly, to be capable of solving new tasks as requested by human users, even if the robot was not explicitly trained on those t…",
-          "link": "http://ai.googleblog.com/2022/02/can-robots-follow-instructions-for-new.html",
-          "publishedOn": "2022-02-02T18:47:00.005Z",
-          "wordCount": 2240,
-          "title": "Can Robots Follow Instructions for New Tasks?",
-          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         }
       ]
     },
@@ -1382,12 +1362,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=41576",
+          "author": "Seth Godin",
+          "description": "The map might be correct, but that doesn’t mean it will work. The sign might be legal, but that doesn’t mean it’s going to be effective. We’re surrounded by instruction manuals, videos, announcements and all sorts of other forms of instruction. But a map only works if it helps. Finding our way, getting the job […]",
+          "link": "https://feeds.feedblitz.com/~/684575988/0/sethsblog~Wayfinding/",
+          "publishedOn": "2022-03-04T09:09:00.000Z",
+          "wordCount": 244,
+          "title": "Wayfinding",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061310-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=41554",
           "author": "Seth Godin",
           "description": "“I’d like corn for dinner.” So, six months ago, you’ll need to plant the corn so you can harvest it today and cook it tonight. Or you can drive to the farmer’s market this morning, buy a few ears and have it tonight. Or you can walk over to the supermarket and get a can. […]",
           "link": "https://feeds.feedblitz.com/~/684473448/0/sethsblog~Outsourcing/",
           "publishedOn": "2022-03-03T10:47:00.000Z",
-          "wordCount": 361,
+          "wordCount": 362,
           "title": "Outsourcing",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806132-1.jpg"
         },
@@ -1470,16 +1460,6 @@
           "wordCount": 215,
           "title": "A little more or a little less",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806139-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=40558",
-          "author": "Seth Godin",
-          "description": "A friend is selling his house. Apparently, real estate brokers now have a way of reporting the comments (reviews) from potential buyers at open houses, and he was crazy enough to read them. Of course, this is incredibly unhelpful. He can’t rebuild his house to sell it. Hearing that people don’t like his custom cabinets […]",
-          "link": "https://feeds.feedblitz.com/~/683199344/0/sethsblog~A-second-opinion/",
-          "publishedOn": "2022-02-22T10:56:00.000Z",
-          "wordCount": 290,
-          "title": "A second opinion",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806134-1.jpg"
         }
       ]
     },
@@ -1514,7 +1494,7 @@
           "description": "In this blog post, we’ve collected the most significant changes implemented in January 2022, as well as a few from December 2021.  If you haven’t heard about the new features, this is a great opportunity to learn about them and try them out: More IntelliJ-based IDEs in Space dev environments Docker support in dev environment […]",
           "link": "https://blog.jetbrains.com/space/2022/03/01/space-product-updates-in-january-2022/",
           "publishedOn": "2022-03-01T09:06:10.000Z",
-          "wordCount": 893,
+          "wordCount": 899,
           "title": "Space Product Updates in January 2022",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/02/product-updates-jan-22.png"
         },
@@ -1534,7 +1514,7 @@
           "description": "Hi, The new CLion 2022.1 EAP build, 221.4501.161, is now available from our website, via the Toolbox App, or as a snap package (if you are using Ubuntu). Note that if you are on macOS, there is a separate build for Apple Silicon (M1 chip). Those who are already using EAP2 can apply a patch […]",
           "link": "https://blog.jetbrains.com/clion/2022/02/clion-2022-1-eap3/",
           "publishedOn": "2022-02-18T20:35:57.000Z",
-          "wordCount": 687,
+          "wordCount": 760,
           "title": "CLion 2022.1 EAP3: Enhanced Type Hints, Fixes in Auto-Import and Navigation, and More Flexible Reset Options in Embedded GDB Server Configurations",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/01/CLion_blog_featured-2x.png"
         },
@@ -1544,7 +1524,7 @@
           "description": "The third build of our Early Access Program for PhpStorm 2022.1 is now available! This blog post will cover enhanced support for array shape annotations that improve code completion for object-like arrays. The Toolbox App is the easiest way to get the EAP builds and keep your stable and EAP versions up to date. You […]",
           "link": "https://blog.jetbrains.com/phpstorm/2022/02/phpstorm-2022-1-eap-3/",
           "publishedOn": "2022-02-18T17:52:24.000Z",
-          "wordCount": 864,
+          "wordCount": 873,
           "title": "PhpStorm 2022.1 EAP #3: Enhanced Array Shapes",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/01/PhpStorm_blog_featured-2x.png"
         },
@@ -1564,7 +1544,7 @@
           "description": "The third week of the IntelliJ IDEA 2022.1 Early Access Program is underway! The new EAP build brings the bundled Kotlin 1.6.20-M1 plugin, UI enhancements to the Debugger, improvements for the Markdown editor, and more. You can get the latest build from our website, the free Toolbox App, or via snaps for Ubuntu users. Read […]",
           "link": "https://blog.jetbrains.com/idea/2022/02/intellij-idea-2022-1-eap-3/",
           "publishedOn": "2022-02-18T12:29:29.000Z",
-          "wordCount": 1001,
+          "wordCount": 1010,
           "title": "IntelliJ IDEA 2022.1 EAP 3: Kotlin 1.6.20-M1 Plugin, Enhanced Markdown Editor, and More",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/02/intellij-idea_social.png"
         },
@@ -1574,7 +1554,7 @@
           "description": "WebStorm 2022.1 EAP build #3 is now available! To catch up on all the new features, check out our previous EAP blog posts. The Toolbox App is the easiest way to get the EAP builds and keep both your stable and EAP versions up to date. You can also manually download the EAP builds from […]",
           "link": "https://blog.jetbrains.com/webstorm/2022/02/webstorm-2022-1-eap-3/",
           "publishedOn": "2022-02-18T12:02:19.000Z",
-          "wordCount": 602,
+          "wordCount": 603,
           "title": "WebStorm 2022.1 EAP #3",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/01/WebStorm_blog_featured.png"
         },

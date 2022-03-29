@@ -6,6 +6,26 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2022/03/28/an-update-on-java-17-adoption",
+          "author": null,
+          "description": "As a follow-up to my blog post from last year’s SpringOne, it is time for an update on our Java 17+ baseline efforts!\n\r\nWe established the new baseline on our main branches, with a few milestones out already. The feedback has been very positive, not only in terms of framework improvements but also in terms of the motivation for a Java upgrade at the application level. Of course, it does not end with JDK 17 LTS: JDK 18 is an immediate option already, JDK 19 will be the current release when we go final later this year, with JDK 20 to be in early access by then - and JDK 21 LTS on the horizon already…\n\r\nOn a related note, the recent JRebel 2022 Java Developer Productivity Report included some interesting numbers on JDK 17: 62% of the participants indicated a plan for a JDK 17 upgrade within t…",
+          "link": "https://spring.io/blog/2022/03/28/an-update-on-java-17-adoption",
+          "publishedOn": "2022-03-28T14:11:57.000Z",
+          "wordCount": 833,
+          "title": "An update on Java 17+ adoption",
+          "imageUrl": "https://avatars.githubusercontent.com/u/1263688?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2022/03/28/cve-report-published-for-spring-framework",
+          "author": null,
+          "description": "We have released Spring Framework 5.3.17 to address the following CVE report.\n\r\n\r\n  \nCVE-2022-22950: Spring Expression DoS Vulnerability\n\r\n\r\nPlease review the information in the CVE report and upgrade immediately.\n\r\nSpring Boot users should upgrade to 2.5.11 or 2.6.5.",
+          "link": "https://spring.io/blog/2022/03/28/cve-report-published-for-spring-framework",
+          "publishedOn": "2022-03-28T08:00:00.000Z",
+          "wordCount": 414,
+          "title": "CVE report published for Spring Framework",
+          "imageUrl": "https://avatars.githubusercontent.com/u/104798?v=4?s=200"
+        },
+        {
           "id": "https://spring.io/blog/2022/03/24/a-bootiful-podcast-event-streaming-guru-jan-svoboda-on-apache-kafka-design-patterns",
           "author": null,
           "description": "Hi, Spring fans! In this installment Josh Long (@starbuxman) talks to event streaming guru at Confluent, the company behind Apache Kafka, Jan Svoboda about Apache Kafka design patterns. \n\r\n\r\n  \nKafka summit in London Europe end of April 2022 Kafka Summit London 2022 | April 25-26 | London, UK\n\r\n  \nthe Confluent Developer Education Portal: Your Apache Kafka® Journey begins here\n\r\n  \ncheck out the upcoming Kafka Summit London event April 25-26, 2022",
@@ -158,10 +178,10 @@
         {
           "id": "https://spring.io/blog/2022/03/17/spring-framework-6-0-0-m3-and-5-3-17-available-now",
           "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework 6.0.0-M3 and 5.3.17 are available now.\n\r\nSpring Framework 5.3.17 includes 17 fixes and improvements as a recommended upgrade for all Spring production scenarios. Spring Framework 6.0.0-M3 includes 33 additional fixes and improvements specific to the 6.0 branch.\n\r\nThis milestone brings a first batch of migration of our AOT (Ahead Of Time) efforts from Spring Native, paving the way for Native support in the wider Spring ecosystem. Stay tuned for a follow-up blog post detailing these and what’s next to come.\n\r\nProject Page | GitHub | Issues | Documentation",
+          "description": "On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework 6.0.0-M3 and 5.3.17 are available now.\n\r\nSpring Framework 5.3.17 includes 17 fixes and improvements as well as a fix for CVE-2022-22950: Spring Expression DoS Vulnerability and is a recommended upgrade for all Spring production scenarios.\n\r\nSpring Framework 6.0.0-M3 includes 33 additional fixes and improvements specific to the 6.0 branch.\n\r\nThis milestone brings a first batch of migration of our AOT (Ahead Of Time) efforts from Spring Native, paving the way for Native support in the wider Spring ecosystem. See the follow-up blog post detailing these and what’s next to come.\n\r\nProject Page | GitHub | Issues | Documentation",
           "link": "https://spring.io/blog/2022/03/17/spring-framework-6-0-0-m3-and-5-3-17-available-now",
           "publishedOn": "2022-03-17T11:38:00.000Z",
-          "wordCount": 485,
+          "wordCount": 495,
           "title": "Spring Framework 6.0.0-M3 and 5.3.17 available now",
           "imageUrl": "https://avatars.githubusercontent.com/u/490484?v=4?s=200"
         },
@@ -184,26 +204,6 @@
           "wordCount": 407,
           "title": "Spring Tips: Spring Shell and Spring Native",
           "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/03/15/this-week-in-spring-march-15th-2022",
-          "author": null,
-          "description": "Hi, Spring fans! Welcome to another installment of This Week in Spring! We’ve got a good amount of stuff to get to this week so let’s dive right in! \n\r\n\r\n  \nIntroducing Spring Cloud Alibaba 2021.0.1.0\n\r\n  \nIn this installment of Spring Tips, I look at Hilla, an amazing new web framework from Vaadin\n\r\n  \nA Bootiful Podcast: Microsoft Azure Developer Advocate Mark Heckler\n\r\n  \nOG Cloud-Native Cora Iberkleid put together a really nice look on how to get resources in Kubernetes to “explain themselves”\n\r\n  \nKai Tödter announced that he’s released version 1.3.0 of JSON:API for Spring HATEOAS\n\r\n  \nI’m honored to be counted among many amazing folks in this list of The Top 100 Influencers in #DevRel\n\r\n  \n Binaries for #OpenJDK 11.0.14.1 are out. This release addresses an issue with the HttpClient API in Java SE that missed a patch during the release of 11.0.14. \n\r\n  \nIn this video, Dan Vega looks at what’s new in Spring Boot 2.6. Dan just recently joined our team!\n\r\n  \nwrite your first Spring Batch Tasklet",
-          "link": "https://spring.io/blog/2022/03/15/this-week-in-spring-march-15th-2022",
-          "publishedOn": "2022-03-15T18:00:00.000Z",
-          "wordCount": 545,
-          "title": "This Week in Spring - March 15th, 2022",
-          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/03/10/a-bootiful-podcast-microsoft-azure-developer-advocate-mark-heckler",
-          "author": null,
-          "description": "Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks to former fellow Spring Developer Advocate at Tanzu, and current Java Developer Advocate at Microsoft, friend, ally, and altogether amazing human being, Mark Heckler (@mkheck).",
-          "link": "https://spring.io/blog/2022/03/10/a-bootiful-podcast-microsoft-azure-developer-advocate-mark-heckler",
-          "publishedOn": "2022-03-10T12:00:00.000Z",
-          "wordCount": 418,
-          "title": "A Bootiful Podcast: Microsoft Azure Developer Advocate Mark Heckler",
-          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
         }
       ]
     },
@@ -212,6 +212,16 @@
       "feedUrl": "https://www.hashicorp.com/blog/feed.xml",
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
+        {
+          "id": "https://www.hashicorp.com/blog/how-hashicorp-women-leaders-got-into-tech",
+          "author": null,
+          "description": "Four women leaders at HashiCorp talk about their journey to a career in tech and offer lessons, inspiration, and advice.",
+          "link": "https://www.hashicorp.com/blog/how-hashicorp-women-leaders-got-into-tech",
+          "publishedOn": "2022-03-28T15:00:00.000Z",
+          "wordCount": 1758,
+          "title": "How HashiCorp Women Leaders Got Into Tech",
+          "imageUrl": "https://www.datocms-assets.com/2885/1646697341-woh_blog_index_1600x900.png"
+        },
         {
           "id": "https://www.hashicorp.com/blog/terraform-azurerm-3-0-brings-enhanced-azure-function-support",
           "author": null,
@@ -370,6 +380,26 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
+          "id": "https://www.elastic.co/blog/3-best-practices-for-using-and-troubleshooting-the-reindex-api",
+          "author": "Camilo Sierra",
+          "description": "In this blog post you you will learn about the power of Reindex API  and how to use those to run it confidently. We will review potential errors and give you best practice tips and tricks.",
+          "link": "https://www.elastic.co/blog/3-best-practices-for-using-and-troubleshooting-the-reindex-api",
+          "publishedOn": "2022-03-28T00:00:00.000Z",
+          "wordCount": 1104,
+          "title": "3 best practices for using and troubleshooting the Reindex API",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta2a9365cf050a664/5ffdc90ada1b7963accafa0e/blog-thumb-search-results-white.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/3-best-practices-for-using-and-troubleshooting-the-reindex-api",
+          "author": "Camilo Sierra",
+          "description": ",\nWhen using Elasticsearch you may want to move data from one index to another, or even from one Elasticsearch cluster to another Elasticsearch cluster. There are multiple variations and features that could be used, and the Reindex API is one of them.\nIn this blog post, I will be discussing the reindex API, how to know if the API works, what can cause potential failures, and how to troubleshoot.\nBy the end of this blog post, you will understand the options the Reindex API has and how to run it confidently.\nThe reindex API is one of the most useful APIs across multiple use cases:\n\nTransferring data between clusters (Reindex from a remote cluster)\nRe-define, change, and/or update mappings\nProcess and index through ingestion pipelines\nClearing deleted documents to reclaim storage space\nSplit …",
+          "link": "https://www.elastic.co/blog/3-best-practices-for-using-and-troubleshooting-the-reindex-api",
+          "publishedOn": "2022-03-28T00:00:00.000Z",
+          "wordCount": 1104,
+          "title": "3 best practices for using and troubleshooting the Reindex API",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta2a9365cf050a664/5ffdc90ada1b7963accafa0e/blog-thumb-search-results-white.png"
+        },
+        {
           "id": "https://www.elastic.co/blog/benefits-and-best-practices-for-migrating-workloads-to-elastic-cloud-on-aws-google-cloud-or-microsoft-azure",
           "author": "Nicole Williams",
           "description": "Choose a migration path to smoothly transition your existing Elastic workloads to Elastic Cloud to realize a faster time to value and lower your TCO. Get started quickly with the cloud provider of your choice and leverage migration resources.",
@@ -380,10 +410,10 @@
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt5232f9030648ff0d/62280957225c6a0d139d9109/blog-thumb-cloud-midnight.png"
         },
         {
-          "id": "https://www.elastic.co/blog/someone-like-me-tanisha-l-turner-on-breaking-the-bias-for-women-in-tech",
+          "id": "https://www.elastic.co/blog/culture-someone-like-me-tanisha-l-turner-on-breaking-the-bias-for-women-in-tech",
           "author": "Elastic Culture",
           "description": "Tanisha L. Turner is a black woman in tech, cybersecurity to be exact, and it’s her goal to break the bias and encourage other women and girls to consider a career in the industry.",
-          "link": "https://www.elastic.co/blog/someone-like-me-tanisha-l-turner-on-breaking-the-bias-for-women-in-tech",
+          "link": "https://www.elastic.co/blog/culture-someone-like-me-tanisha-l-turner-on-breaking-the-bias-for-women-in-tech",
           "publishedOn": "2022-03-24T00:00:00.000Z",
           "wordCount": 1013,
           "title": "Someone Like Me: Tanisha L. Turner on breaking the bias for women in tech",
@@ -400,14 +430,34 @@
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt5232f9030648ff0d/62280957225c6a0d139d9109/blog-thumb-cloud-midnight.png"
         },
         {
-          "id": "https://www.elastic.co/blog/someone-like-me-tanisha-l-turner-on-breaking-the-bias-for-women-in-tech",
+          "id": "https://www.elastic.co/blog/culture-someone-like-me-tanisha-l-turner-on-breaking-the-bias-for-women-in-tech",
           "author": "Elastic Culture",
           "description": ",\nTanisha L. Turner didn’t set out to create a career in technology, or more specifically, cybersecurity. She wanted to go to medical school to become a cardiologist and was computer programming as a hobby. With support from her then boyfriend, now husband, she turned her hobby into an exceptional career.\n\n“I just thought it was fun,” Turner, now a Senior QA Engineer at Elastic, says. \n\nShe eagerly completed a few computer science courses and then went a step further and pursued cybersecurity. She was already encrypting data in Linux in her spare time, she says.\n\nTurner has since been in the cybersecurity world for more than 10 years, and with Elastic for four. And recently, she was featured among a global list of women in cybersecurity you need to know.\n\nWhen she is not busy helping to pr…",
-          "link": "https://www.elastic.co/blog/someone-like-me-tanisha-l-turner-on-breaking-the-bias-for-women-in-tech",
+          "link": "https://www.elastic.co/blog/culture-someone-like-me-tanisha-l-turner-on-breaking-the-bias-for-women-in-tech",
           "publishedOn": "2022-03-24T00:00:00.000Z",
           "wordCount": 1013,
           "title": "Someone Like Me: Tanisha L. Turner on breaking the bias for women in tech",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt859d1fa408df75ad/623c80c8947d5227848d9185/3.25-blog-spotlight-tanisha-turner-blog-1680x980-3_(2).jpg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/elastic-and-microsoft-azure:-optimize-performance-and-cost-with-new-virtual-machine-types-on-elastic-cloud",
+          "author": "Yuvraj Gupta",
+          "description": "Take advantage of expanded support for Microsoft Azure Virtual Machine types on Elastic Cloud. Optimize performance and cost based on your custom use cases with these additional combinations of compute, memory, and disk configurations.",
+          "link": "https://www.elastic.co/blog/elastic-and-microsoft-azure:-optimize-performance-and-cost-with-new-virtual-machine-types-on-elastic-cloud",
+          "publishedOn": "2022-03-23T12:30:00.000Z",
+          "wordCount": 478,
+          "title": "Elastic and Microsoft Azure: Optimize performance and cost with new virtual machine types on Elastic Cloud",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt8ba8e49371931a31/5ffe1178fee93e550328c4b1/blog-thumb-cloud-azure.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/elastic-and-microsoft-azure:-optimize-performance-and-cost-with-new-virtual-machine-types-on-elastic-cloud",
+          "author": "Yuvraj Gupta",
+          "description": ",Many organizations are looking for ways to improve price-performance across their use cases. That is why we are excited to announce expanded support for Microsoft Azure Virtual Machine (VM) types on Elastic Cloud. You can now select new hardware profiles backed by Edsv4, Ddv4 and Fsv2 VM series for deployments in Azure. These additional combinations of compute, memory, and disk configurations allow you to utilize hardware that best fits your custom use cases — to optimize performance and cost. https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0c678915dd2d16c8/622f46b7638e1304348432da/azure-launch-video_(1).gif,azure-launch-video_(1).gif,\nLet’s go over how you can get started with these new VMs by logging into Elastic Cloud and creating a new deployment or migrating an existin…",
+          "link": "https://www.elastic.co/blog/elastic-and-microsoft-azure:-optimize-performance-and-cost-with-new-virtual-machine-types-on-elastic-cloud",
+          "publishedOn": "2022-03-23T12:30:00.000Z",
+          "wordCount": 478,
+          "title": "Elastic and Microsoft Azure: Optimize performance and cost with new virtual machine types on Elastic Cloud",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt8ba8e49371931a31/5ffe1178fee93e550328c4b1/blog-thumb-cloud-azure.png"
         },
         {
           "id": "https://www.elastic.co/blog/auto-instrumentation-elastic-apm-net-agent",
@@ -450,10 +500,10 @@
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt8eb410499d8645b9/61aa334981fe8f3ca269a15f/blog-security-detection-720x420.png"
         },
         {
-          "id": "https://www.elastic.co/blog/ergs-encourage-you-to-come-as-you-are-meet-women-of-elastic",
+          "id": "https://www.elastic.co/blog/culture-ergs-encourage-you-to-come-as-you-are-meet-women-of-elastic",
           "author": "Elastic Culture",
           "description": "We have employee resource groups aligned with a variety of shared identities that allow Elasticians to build a sense of community and belonging at work. Here, we meet Women of Elastic.",
-          "link": "https://www.elastic.co/blog/ergs-encourage-you-to-come-as-you-are-meet-women-of-elastic",
+          "link": "https://www.elastic.co/blog/culture-ergs-encourage-you-to-come-as-you-are-meet-women-of-elastic",
           "publishedOn": "2022-03-22T00:00:00.000Z",
           "wordCount": 983,
           "title": "ERGs encourage you to come as you are: Meet Women of Elastic",
@@ -470,10 +520,10 @@
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c35d17afad9d20d/5f122812c31823015df6ef0a/blog-thumb-rocket-launch.png"
         },
         {
-          "id": "https://www.elastic.co/blog/ergs-encourage-you-to-come-as-you-are-meet-women-of-elastic",
+          "id": "https://www.elastic.co/blog/culture-ergs-encourage-you-to-come-as-you-are-meet-women-of-elastic",
           "author": "Elastic Culture",
           "description": ",\nEmployee resource groups, or as we like to call them, Elastician resource groups, have been an informal part of Elastic’s culture since 2016. They started as Slack channels that any Elastician could join.\n\nThese ERGs were formalized in 2021 to ensure that the members would have structure, budget, and ultimately, a voice based on any dimension of diversity, allyship, and advocacy. This was an important step in our global diversity, equity, and inclusion strategy.\n\nOur ERGs are aligned to shared identities, interests, affinities, or allyships. The goal is to create a community of people with something in common and to encourage sharing, learning, and networking. Each has visions and goals they are working towards besides building a sense of community and belonging.\nOur Core ERGs\nWe have se…",
-          "link": "https://www.elastic.co/blog/ergs-encourage-you-to-come-as-you-are-meet-women-of-elastic",
+          "link": "https://www.elastic.co/blog/culture-ergs-encourage-you-to-come-as-you-are-meet-women-of-elastic",
           "publishedOn": "2022-03-22T00:00:00.000Z",
           "wordCount": 983,
           "title": "ERGs encourage you to come as you are: Meet Women of Elastic",
@@ -508,66 +558,6 @@
           "wordCount": 777,
           "title": "Elastic Security Research Roundup",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt1c85cc41b2320aa9/613107598e16ab655b348d21/blog-thumb-blind-spots.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-and-microsoft-azure:-optimize-performance-and-cost-with-new-virtual-machine-types-on-elastic-cloud",
-          "author": "Yuvraj Gupta",
-          "description": "Take advantage of expanded support for Microsoft Azure Virtual Machine types on Elastic Cloud. Optimize performance and cost based on your custom use cases with these additional combinations of compute, memory, and disk configurations.",
-          "link": "https://www.elastic.co/blog/elastic-and-microsoft-azure:-optimize-performance-and-cost-with-new-virtual-machine-types-on-elastic-cloud",
-          "publishedOn": "2022-03-18T12:30:00.000Z",
-          "wordCount": 478,
-          "title": "Elastic and Microsoft Azure: Optimize performance and cost with new virtual machine types on Elastic Cloud",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt8ba8e49371931a31/5ffe1178fee93e550328c4b1/blog-thumb-cloud-azure.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-and-microsoft-azure:-optimize-performance-and-cost-with-new-virtual-machine-types-on-elastic-cloud",
-          "author": "Yuvraj Gupta",
-          "description": ",Many organizations are looking for ways to improve price-performance across their use cases. That is why we are excited to announce expanded support for Microsoft Azure Virtual Machine (VM) types on Elastic Cloud. You can now select new hardware profiles backed by Edsv4, Ddv4 and Fsv2 VM series for deployments in Azure. These additional combinations of compute, memory, and disk configurations allow you to utilize hardware that best fits your custom use cases — to optimize performance and cost. https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0c678915dd2d16c8/622f46b7638e1304348432da/azure-launch-video_(1).gif,azure-launch-video_(1).gif,\nLet’s go over how you can get started with these new VMs by logging into Elastic Cloud and creating a new deployment or migrating an existin…",
-          "link": "https://www.elastic.co/blog/elastic-and-microsoft-azure:-optimize-performance-and-cost-with-new-virtual-machine-types-on-elastic-cloud",
-          "publishedOn": "2022-03-18T12:30:00.000Z",
-          "wordCount": 478,
-          "title": "Elastic and Microsoft Azure: Optimize performance and cost with new virtual machine types on Elastic Cloud",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt8ba8e49371931a31/5ffe1178fee93e550328c4b1/blog-thumb-cloud-azure.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/search-can-modernize-digital-experiences-in-public-sector-government",
-          "author": "Suzzanna Martinez",
-          "description": "Customer experience (CX) is a growing field in the public sector. Offices like Technology Transformation Services are charged with designing and delivering a digital government with and for the public. As such, customer experience strategists, user experience designers, technical innovation analysts, and others are integral to modernizing digital experiences and in many cases helping agencies meet requirements outlined in the Executive Order on Transforming Federal Customer Experience and Service Delivery to Rebuild Trust in Government. \nIn their roles within government or educational institutions, CX professionals apply human-centered design principles. How does search fit into the equation? In this blog, we discuss five ways CX professionals can use search to transform public sector webs…",
-          "link": "https://www.elastic.co/blog/search-can-modernize-digital-experiences-in-public-sector-government",
-          "publishedOn": "2022-03-17T00:26:42.000Z",
-          "wordCount": 1121,
-          "title": "5 ways search can modernize digital experiences in public sector",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta7cdb102cb93e01f/622a7c20a1f0a74aa7ae11ac/illustration-financial-services-public-sector.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/search-can-modernize-digital-experiences-in-public-sector-government",
-          "author": "Suzzanna Martinez",
-          "description": "In their roles within government or educational institutions, Customer Experience (CX) professionals apply human-centered design principles. How does search fit into the equation? Elastic outlines five ways.",
-          "link": "https://www.elastic.co/blog/search-can-modernize-digital-experiences-in-public-sector-government",
-          "publishedOn": "2022-03-17T00:26:42.000Z",
-          "wordCount": 1121,
-          "title": "5 ways search can modernize digital experiences in public sector",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta7cdb102cb93e01f/622a7c20a1f0a74aa7ae11ac/illustration-financial-services-public-sector.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/how-to-analyze-and-optimize-the-storage-footprint-of-your-elastic-deployment-disk-usage-api",
-          "author": "Mattias Brunnert",
-          "description": "Have you ever looked at your indices and wanted more detail on what is driving storage consumption in your Elastic deployment? Perhaps you have ingested custom data using default settings and would like to know where your data modeling efforts could make the largest impact? In this blog post we will look at how to use Elastic’s recently introduced disk usage API to answer such questions. \nHere at Elastic, when we work with our customers, one of the most common areas of improvement is index mapping configuration. A lack of mappings, or using the wrong types, can increase storage usage in your Elastic deployment. This post will help you understand what fields are most influential in driving your storage footprint and how you can optimize consumption through best-practice configuration. \nGett…",
-          "link": "https://www.elastic.co/blog/how-to-analyze-and-optimize-the-storage-footprint-of-your-elastic-deployment-disk-usage-api",
-          "publishedOn": "2022-03-15T22:45:38.000Z",
-          "wordCount": 1934,
-          "title": "How to analyze and optimize the storage footprint of your Elastic deployment",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt7d4ad2c13a8a0253/6036725ace4a0d12c3ec1c42/blog-thumb-cloud-white.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/how-to-analyze-and-optimize-the-storage-footprint-of-your-elastic-deployment-disk-usage-api",
-          "author": "Mattias Brunnert",
-          "description": "Have you ever looked at your indices and would like more detail on what is driving storage consumption in your Elastic deployment? Perhaps you have ingested custom data using default settings and would like to know where your data modeling efforts could make the largest impact? In this blog post we will look at how to use the recently introduced disk usage API to answer such questions.",
-          "link": "https://www.elastic.co/blog/how-to-analyze-and-optimize-the-storage-footprint-of-your-elastic-deployment-disk-usage-api",
-          "publishedOn": "2022-03-15T22:45:38.000Z",
-          "wordCount": 1934,
-          "title": "How to analyze and optimize the storage footprint of your Elastic deployment",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt7d4ad2c13a8a0253/6036725ace4a0d12c3ec1c42/blog-thumb-cloud-white.png"
         }
       ]
     },
@@ -576,6 +566,16 @@
       "feedUrl": "https://www.ansible.com/blog/rss.xml",
       "siteUrl": "https://www.ansible.com/blog",
       "articles": [
+        {
+          "id": "https://www.ansible.com/blog/inside-the-newest-features-in-the-red-hat-ansible-certified-content-collection-for-servicenow-itsm",
+          "author": "cmcnaugh@redhat.com (Colin McNaughton)",
+          "description": "The Red Hat Ansible Certified Content Collection for ServiceNow helps you create automated workflows targeting IT service management (ITSM) tasks faster while establishing and maintaining a single source of truth in the ServiceNow configuration management database (CMDB). In this blog, I’ll share the latest features we’ve added to the Collection, and you can find additional resources about existing features at the end of this blog.",
+          "link": "https://www.ansible.com/blog/inside-the-newest-features-in-the-red-hat-ansible-certified-content-collection-for-servicenow-itsm",
+          "publishedOn": "2022-03-28T16:00:00.000Z",
+          "wordCount": 1690,
+          "title": "Inside the newest features in the Red Hat Ansible Certified Content Collection for ServiceNow ITSM",
+          "imageUrl": "https://www.ansible.com/hubfs/migration%20blog.png"
+        },
         {
           "id": "https://www.ansible.com/blog/lets-level-set-at-the-edge",
           "author": "Chad Ferman",
@@ -654,6 +654,16 @@
       "siteUrl": "https://devblogs.microsoft.com/devops",
       "articles": [
         {
+          "id": "https://devblogs.microsoft.com/devops/?p=63721",
+          "author": "Dan Hellem",
+          "description": "In December we posted about the “New Boards Hub” being available for everyone as an opt-in experience. We got a lot of feedback from our users. You let us know the experience was far from ready. As a result, we buckled down and spent the last 3 months fixing bugs (over 300) and tightening it up.\nThe post “New Boards Hub” Public Preview appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/new-boards-hub-public-preview/",
+          "publishedOn": "2022-03-28T19:48:54.000Z",
+          "wordCount": 1153,
+          "title": "“New Boards Hub” Public Preview",
+          "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/03/agile.png"
+        },
+        {
           "id": "https://devblogs.microsoft.com/devops/?p=63598",
           "author": "Michael Omokoh",
           "description": "As Azure Artifacts continues to be a central place where thousands of developers host, consume, manage packages and share build artifacts, it remains imperative that our user interfaces are accessible.\nThe post Azure Artifacts feed continues to make product accessible to everyone appeared first on Azure DevOps Blog.",
@@ -717,12 +727,27 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "36fca099d51da2eb5217d3b6cd96385675ea994c",
+          "author": "Marcia Villalba",
+          "description": "This post is part of our Week in Review series. Check back each week for a quick round up of interesting news and announcements from AWS! Welcome to another round up of the most significant AWS launches from the previous week. Among the most relevant news, we have improvements done in AWS Lambda, a new […]",
+          "link": "https://aws.amazon.com/blogs/aws/aws-week-in-review-march-28-2022/",
+          "publishedOn": "2022-03-28T19:05:05.000Z",
+          "wordCount": 1172,
+          "title": "AWS Week in Review – March 28, 2022",
+          "enclosure": {
+            "length": "45405",
+            "type": "audio/mpeg",
+            "url": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/03/25/pollyspeech_20220325072159595.mp3"
+          },
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/03/28/AWS-WIR-3.28.22.png"
+        },
+        {
           "id": "57c25c20e6d01488a25def63e79d1c56dd2638df",
           "author": "Channy Yun",
           "description": "Serverless applications are event-driven, using ephemeral compute functions ranging from web APIs, mobile backends, and streaming analytics to data processing stages in machine learning (ML) and high-performance applications. While AWS Lambda includes a 512 MB temporary file system (/tmp) for your code, this is an ephemeral scratch resource not intended for durable storage such as […]",
           "link": "https://aws.amazon.com/blogs/aws/aws-lambda-now-supports-up-to-10-gb-ephemeral-storage/",
           "publishedOn": "2022-03-24T20:27:11.000Z",
-          "wordCount": 1286,
+          "wordCount": 1318,
           "title": "AWS Lambda Now Supports Up to 10 GB Ephemeral Storage",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/01/28/2022-aws-lambda-ephemeral-storage-2-new-1223x630.png"
         },
@@ -844,6 +869,16 @@
       "siteUrl": "https://xkcd.com/",
       "articles": [
         {
+          "id": "https://xkcd.com/2599/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/spacecraft_debris_odds_ratio.png\" title=\"You say this daily walk will reduce my risk of death from cardiovascular disease by 30%, but also increase my risk of death by bear attack by 300%? That's a 280% increased! I'm not a sucker; I'm staying inside.\" alt=\"You say this daily walk will reduce my risk of death from cardiovascular disease by 30%, but also increase my risk of death by bear attack by 300%? That's a 280% increased! I'm not a sucker; I'm staying inside.\" />",
+          "link": "https://xkcd.com/2599/",
+          "publishedOn": "2022-03-28T00:00:00.000Z",
+          "wordCount": 201,
+          "title": "Spacecraft Debris Odds Ratio",
+          "imageUrl": "https://imgs.xkcd.com/comics/spacecraft_debris_odds_ratio_2x.png"
+        },
+        {
           "id": "https://xkcd.com/2598/",
           "author": null,
           "description": "<img src=\"https://imgs.xkcd.com/comics/graphic_designers.png\" title=\"They might make it past that first line of defense. For the second, you'll need some picture frames, a level, and a protractor that can do increments of less than a degree.\" alt=\"They might make it past that first line of defense. For the second, you'll need some picture frames, a level, and a protractor that can do increments of less than a degree.\" />",
@@ -872,16 +907,6 @@
           "wordCount": 195,
           "title": "Galaxies",
           "imageUrl": "https://imgs.xkcd.com/comics/galaxies_2x.png"
-        },
-        {
-          "id": "https://xkcd.com/2595/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/advanced_techniques.png\" title=\"A blow from Emmy's Cutlass of Variations will transport the dragon to a corresponding symmetric position in the Noetherworld.\" alt=\"A blow from Emmy's Cutlass of Variations will transport the dragon to a corresponding symmetric position in the Noetherworld.\" />",
-          "link": "https://xkcd.com/2595/",
-          "publishedOn": "2022-03-18T00:00:00.000Z",
-          "wordCount": 197,
-          "title": "Advanced Techniques",
-          "imageUrl": "https://imgs.xkcd.com/comics/advanced_techniques_2x.png"
         }
       ]
     },
@@ -890,6 +915,16 @@
       "feedUrl": "https://camunda.com/feed/",
       "siteUrl": "https://camunda.com",
       "articles": [
+        {
+          "id": "https://camunda.com/?p=46342",
+          "author": "Chaima Mansouri",
+          "description": "Make sure to switch to the new domain between April 1 - Sept. 30, 2022, before the old URLs will be shut down. \nThe post A New Domain Name for Camunda Artifactory appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2022/03/a-new-domain-name-for-camunda-artifactory/",
+          "publishedOn": "2022-03-28T13:35:00.000Z",
+          "wordCount": 1476,
+          "title": "A New Domain Name for Camunda Artifactory",
+          "imageUrl": "https://camunda.com/wp-content/uploads/2022/03/2022_Mar_Camunda_Blog_Featured-image_Domain-name-artifactory_1200x630.png"
+        },
         {
           "id": "https://camunda.com/?p=46316",
           "author": "David Simmons",
@@ -916,7 +951,7 @@
           "description": "Get the details behind Goldman Sachs' new platform to provide microservice orchestration across all of its teams and meet client demands.\nThe post Why Goldman Sachs Built a Brand New Platform on Camunda Cloud appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/03/why-goldman-sachs-built-a-brand-new-platform-on-camunda-cloud/",
           "publishedOn": "2022-03-22T13:30:00.000Z",
-          "wordCount": 1864,
+          "wordCount": 1865,
           "title": "Why Goldman Sachs Built a Brand New Platform on Camunda Cloud",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/03/2022_March_Camunda_Blog_Goldman-Sachs-CamundaCon-2021-Presentation-Recap_Camunda-Cloud.png"
         },
@@ -926,7 +961,7 @@
           "description": "How do you go about retrieving a variable in your process instance that you’re not sure what or where it is? Let us show you.\nThe post Q&A: The One Where You’re Retrieving Process Variables from an External Task Worker appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/03/qa-the-one-where-youre-retrieving-process-variables-from-an-external-task-worker/",
           "publishedOn": "2022-03-17T13:00:00.000Z",
-          "wordCount": 1715,
+          "wordCount": 1716,
           "title": "Q&A: The One Where You’re Retrieving Process Variables from an External Task Worker",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/03/2022-Camunda-Blog-Graphics-Template-12.jpg"
         },
@@ -946,7 +981,7 @@
           "description": "Our Expert Sessions agenda is now live for you to preview. Join us on April 26 - 28 for our virtual, interactive conference.\nThe post Camunda Community Summit 2022: Dedicated to Developers appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/03/camunda-community-summit-2022-dedicated-to-developers/",
           "publishedOn": "2022-03-09T22:00:00.000Z",
-          "wordCount": 1772,
+          "wordCount": 1771,
           "title": "Camunda Community Summit 2022: Dedicated to Developers",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/03/Camunda_CCS-2022-Blog_agenda-preview.png"
         },
@@ -956,7 +991,7 @@
           "description": "We're pleased to announce the next alpha release of Camunda Automation Platform 7.17.0. Check out the improvements featured in this release.\nThe post Camunda Automation Platform 7.17.0-alpha5 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/03/camunda-automation-platform-7-17-0-alpha5-released/",
           "publishedOn": "2022-03-08T08:00:00.000Z",
-          "wordCount": 1695,
+          "wordCount": 1696,
           "title": "Camunda Automation Platform 7.17.0-alpha5 Released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/03/2022-Camunda-Blog-Graphics-Template-9.jpg"
         },
@@ -966,7 +1001,7 @@
           "description": "Explore the new features we're introducing to expand on our existing functionality and make the interface more user-friendly.\nThe post Camunda Optimize 3.8.0-alpha2 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/03/camunda-optimize-3-8-0-alpha2-released/",
           "publishedOn": "2022-03-08T08:00:00.000Z",
-          "wordCount": 1715,
+          "wordCount": 1716,
           "title": "Camunda Optimize 3.8.0-alpha2 Released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/03/2022-Camunda-Blog-Graphics-Template-5.jpg"
         },
@@ -976,19 +1011,9 @@
           "description": "We’re excited to announce the release of Camunda Cloud 1.4.0-alpha2. You can sign up for a free trial now to get started right away.\nThe post Camunda Cloud 1.4.0-alpha2 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/03/camunda-cloud-1-4-0-alpha2-released/",
           "publishedOn": "2022-03-08T08:00:00.000Z",
-          "wordCount": 1747,
+          "wordCount": 1745,
           "title": "Camunda Cloud 1.4.0-alpha2 Released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/03/2022-Camunda-Blog-Graphics-Template-8.jpg"
-        },
-        {
-          "id": "https://camunda.com/?p=43528",
-          "author": "Luca Buchholz",
-          "description": "Discover some of the most important lessons learned to establish and grow your own developer champion program. \nThe post How to Build and Grow a Developer Champion Program appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2022/03/how-to-build-and-grow-a-developer-champion-program/",
-          "publishedOn": "2022-03-07T14:00:00.000Z",
-          "wordCount": 2495,
-          "title": "How to Build and Grow a Developer Champion Program",
-          "imageUrl": "https://camunda.com/wp-content/uploads/2022/02/20190912_CAMUNDACON2019_0033-scaled.jpg"
         }
       ]
     },
@@ -1035,6 +1060,16 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/2022-03-28-how-to-secure-your-end-to-end-supply-chain-on-github/",
+          "author": null,
+          "description": "Securing your projects is no easy task, but end-to-end supply chain security is more top of mind than ever. We&#8217;ve seen bad actors expand their focus to taking over user accounts, commonly used dependencies, and also build systems. Defending against these attacks is hard, because there&#8217;s no one thing you can do to protect your [&#8230;]",
+          "link": "https://github.blog/2022-03-28-how-to-secure-your-end-to-end-supply-chain-on-github/",
+          "publishedOn": "2022-03-28T17:00:12.000Z",
+          "wordCount": 716,
+          "title": "How to secure your end-to-end supply chain on GitHub",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/03/Security-Product@2x.png"
+        },
+        {
           "id": "https://github.blog/2022-03-25-unlock-github-secrets-next-techs-break-the-code-2/",
           "author": null,
           "description": "GitHub Education is fired up for the return of .Tech Domains developer community competition: Break The Code 2. We've hacked in some new enigmas, cheat codes, and easter eggs for digital sleuths to uncover!",
@@ -1060,7 +1095,7 @@
           "description": "You can now enforce consistent usage of self-hosted runner groups across your organization and enterprise.",
           "link": "https://github.blog/2022-03-23-github-actions-secure-self-hosted-runners-specific-workflows/",
           "publishedOn": "2022-03-23T16:30:24.000Z",
-          "wordCount": 588,
+          "wordCount": 595,
           "title": "GitHub Actions: secure self-hosted runners by limiting them to specific workflows",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/03/Enterprise-Product@2x-3.png"
         },
@@ -1080,7 +1115,7 @@
           "description": "If you're a GHES customer with heavy read traffic on your monorepo, check out the repository cache, especially if you have CI workloads distributed around the world.",
           "link": "https://github.blog/2022-03-22-introducing-the-ghes-repository-cache/",
           "publishedOn": "2022-03-22T17:48:06.000Z",
-          "wordCount": 819,
+          "wordCount": 826,
           "title": "Introducing the GHES repository cache",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/03/159021568-9d5667a2-f7ac-4fa0-9f9f-19b44a45f13f.png"
         },
@@ -1090,7 +1125,7 @@
           "description": "You can now create a branch to work on an issue directly from the issue page so that it's easier to get started right away.",
           "link": "https://github.blog/2022-03-21-start-working-on-github-issues-faster/",
           "publishedOn": "2022-03-21T21:20:42.000Z",
-          "wordCount": 679,
+          "wordCount": 686,
           "title": "Start working on GitHub Issues faster",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/02/create-branch-from-issue.png"
         },
@@ -1100,7 +1135,7 @@
           "description": "If there's one habit that can make software more secure, it's probably input validation. Here's how to apply OWASP Proactive Control C5 (Validate All Inputs) to your code.",
           "link": "https://github.blog/2022-03-21-validate-all-things-input-validation/",
           "publishedOn": "2022-03-21T17:41:59.000Z",
-          "wordCount": 1295,
+          "wordCount": 1306,
           "title": "Validate all the things: improve your security with input validation!",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/03/Security-Community@2x.png"
         },
@@ -1120,19 +1155,9 @@
           "description": "It is now possible to re-run only failed jobs or a single job in GitHub Actions workflows.",
           "link": "https://github.blog/2022-03-16-save-time-partial-re-runs-github-actions/",
           "publishedOn": "2022-03-16T14:37:06.000Z",
-          "wordCount": 741,
+          "wordCount": 748,
           "title": "Save time with partial re-runs in GitHub Actions",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/03/partial-re-runs-github-actions-social-card.png"
-        },
-        {
-          "id": "https://github.blog/2022-03-10-improved-management-github-enterprise-owners/",
-          "author": null,
-          "description": "We've introduced several new features to help enterprise owners more easily manage their accounts, including two features now in public beta.",
-          "link": "https://github.blog/2022-03-10-improved-management-github-enterprise-owners/",
-          "publishedOn": "2022-03-10T18:36:50.000Z",
-          "wordCount": 581,
-          "title": "Improved management for GitHub Enterprise owners",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/03/Enterprise-Product@2x-1.png"
         }
       ]
     },
@@ -1291,12 +1316,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=41688",
+          "author": "Seth Godin",
+          "description": "When an entrepreneur gets funded, it’s often difficult for them to start spending money on assets–the old limits fade slowly. What used to be smart is now dumb. What used to too risky is now the safe thing to do. When someone gets older or is injured, one of the dangers is that they’ll fail […]",
+          "link": "https://feeds.feedblitz.com/~/687915014/0/sethsblog~Recalibrating/",
+          "publishedOn": "2022-03-28T08:33:00.000Z",
+          "wordCount": 242,
+          "title": "Re-calibrating",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061311.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=41683",
           "author": "Seth Godin",
           "description": "Bad drivers do this often, everywhere I’ve ever been in the world. Instead of gracefully and safely slowing for a light they know will be red by the time they get there, or even a stop sign, they hit the gas and then slam the brakes. One big reason is that the certainty of on-then-off […]",
           "link": "https://feeds.feedblitz.com/~/687775406/0/sethsblog~Speeding-up-for-the-red-light/",
           "publishedOn": "2022-03-27T08:51:00.000Z",
-          "wordCount": 248,
+          "wordCount": 249,
           "title": "Speeding up for the red light",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg"
         },
@@ -1379,16 +1414,6 @@
           "wordCount": 235,
           "title": "Question authority",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806133-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=42491",
-          "author": "Seth Godin",
-          "description": "Whenever there’s a speculative bubble going on (or a cultural one, for that matter) life inside the bubble seems rational and normal. And so artists at Miami:Basel are talking about minting NFTs. Not because they understand them (they don’t) or because they provide actual utility (they don’t) but because that’s what life is like inside […]",
-          "link": "https://feeds.feedblitz.com/~/686660780/0/sethsblog~Inside-the-bubble/",
-          "publishedOn": "2022-03-18T08:31:00.000Z",
-          "wordCount": 355,
-          "title": "Inside the bubble",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061315.jpg"
         }
       ]
     },
@@ -1397,6 +1422,36 @@
       "feedUrl": "https://blog.jetbrains.com/feed/",
       "siteUrl": "https://blog.jetbrains.com",
       "articles": [
+        {
+          "id": "https://blog.jetbrains.com/?post_type=idea&p=236318",
+          "author": "Olga Klisho",
+          "description": "Java 18 has now been released, and starting from version 2022.1, IntelliJ IDEA offers support for it. Support for code snippets The @snippet tag for JavaDoc’s Standard Doclet was introduced in JDK 18 to simplify the inclusion of example source code in API documentation. Even without an explicit wrapper, the snippet fragment is still recognized […]",
+          "link": "https://blog.jetbrains.com/idea/2022/03/java-18-features-support/",
+          "publishedOn": "2022-03-28T15:42:10.000Z",
+          "wordCount": 752,
+          "title": "Java 18 Features Support",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/02/intellij-idea_social.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=phpstorm&p=236247",
+          "author": "Roman Pronskiy",
+          "description": "PhpStorm 2022.1 EAP build #7 is now available. To catch up on all the new features coming to PhpStorm 2022.1, check out our previous EAP blog posts. The Toolbox App is the easiest way to get the latest EAP builds and keep both your stable and EAP versions up to date. You can also manually […]",
+          "link": "https://blog.jetbrains.com/phpstorm/2022/03/phpstorm-2022-1-eap-7/",
+          "publishedOn": "2022-03-28T14:25:26.000Z",
+          "wordCount": 1047,
+          "title": "PhpStorm 2022.1 EAP #7",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/01/PhpStorm_blog_featured-2x.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=234306",
+          "author": "Rachel Appel",
+          "description": "GitHub is an online hosting service for the Git version control system. It surfaces many features of Git, plus many of its own, including some social coding features. In this blog post, we’ll take a look at the essentials of using GitHub in Rider. Get to know GitHub Before we continue, it’s important to know […]",
+          "link": "https://blog.jetbrains.com/dotnet/2022/03/28/github-essentials-with-rider/",
+          "publishedOn": "2022-03-28T12:49:21.000Z",
+          "wordCount": 2030,
+          "title": "GitHub Essentials with Rider",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/03/rd-how-tos-share.png"
+        },
         {
           "id": "https://blog.jetbrains.com/?post_type=webstorm&p=235809",
           "author": "Ekaterina Ryabukha",
@@ -1443,7 +1498,7 @@
           "description": "The Beta version of IntelliJ IDEA 2022.1 is now available. You can download the latest build from our website, from the free Toolbox App, or by using snaps for Ubuntu. IntelliJ IDEA 2022.1 Beta includes features and improvements that were covered in our recent blog posts under the IntelliJ IDEA 2022.1 tag. Here are some […]",
           "link": "https://blog.jetbrains.com/idea/2022/03/intellij-idea-2022-1-beta/",
           "publishedOn": "2022-03-24T13:30:51.000Z",
-          "wordCount": 667,
+          "wordCount": 671,
           "title": "IntelliJ IDEA 2022.1 Goes Beta",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/02/intellij-idea_social.png"
         },
@@ -1463,7 +1518,7 @@
           "description": "PhpStorm 2022.1 EAP build #6 is now available. To catch up on all the new features, check out our previous EAP blog posts. The Toolbox App is the easiest way to get the latest EAP builds and keep both your stable and EAP versions up to date. Or you can manually download the EAP builds […]",
           "link": "https://blog.jetbrains.com/phpstorm/2022/03/phpstorm-2022-1-eap-6/",
           "publishedOn": "2022-03-22T12:51:55.000Z",
-          "wordCount": 767,
+          "wordCount": 812,
           "title": "PhpStorm 2022.1 EAP #6",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/01/PhpStorm_blog_featured-2x.png"
         },
@@ -1486,36 +1541,6 @@
           "wordCount": 500,
           "title": "WebStorm 2022.1 EAP #6",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/01/WebStorm_blog_featured.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=blog&p=234543",
-          "author": "Roman Poborchiy",
-          "description": "The JetBrains full line code completion plugin for Python is now available as a public beta. We would like to talk about some of the technologies and algorithms used to create the plugin and share statistics about Python programming that we’ve collected in the process. What is “full line code completion?” You are probably already […]",
-          "link": "https://blog.jetbrains.com/blog/2022/03/21/looking-at-python-through-the-eyes-of-a-neural-net/",
-          "publishedOn": "2022-03-21T11:47:14.000Z",
-          "wordCount": 2857,
-          "title": "Looking at Python through the eyes of a neural net",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/03/DSGN-13413-Featured-image-for-an-article-related-to-full-line-code-completion_social_share.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=go&p=234824",
-          "author": "Sergey Kozlovskiy",
-          "description": "GoLand 2022.1 EAP #6 is available.  You can get the EAP build via the Toolbox App, download it from our website, use a snap package (for Ubuntu), or from inside GoLand select Check IDE updates for Early Access Program in Preferences / Settings | Appearance & Behavior | System Settings | Updates.   Download GoLand 2022.1 […]",
-          "link": "https://blog.jetbrains.com/go/2022/03/18/goland-2022-1-eap-6-updated-structural-search-and-replace-dialog-evenly-split-tabs-and-more/",
-          "publishedOn": "2022-03-18T19:10:32.000Z",
-          "wordCount": 858,
-          "title": "GoLand 2022.1 EAP #6: Updated Structural Search and Replace Dialog, Evenly Split Tabs, and More",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/02/GoLand_blog_featured.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=idea&p=234755",
-          "author": "Maria Kosukhina",
-          "description": "The final EAP build before IntelliJ IDEA 2022.1 Beta is now available. This version includes the Dependency Analyzer, a redesigned Structural Search and Replace dialog, better support for Thymeleaf, a few UI/UX updates, and more. You can download the latest EAP build from our website, get it from the free Toolbox App, or use snaps […]",
-          "link": "https://blog.jetbrains.com/idea/2022/03/intellij-idea-2022-1-eap-6/",
-          "publishedOn": "2022-03-18T18:05:40.000Z",
-          "wordCount": 1002,
-          "title": "IntelliJ IDEA 2022.1 EAP 6: Dependency Analyzer, Updated Structural Search and Replace Dialog, Improved Thymeleaf Support, and More",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/02/intellij-idea_social.png"
         }
       ]
     }

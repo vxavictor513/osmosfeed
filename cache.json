@@ -6,6 +6,26 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2022/03/29/cve-report-published-for-spring-cloud-function",
+          "author": null,
+          "description": "We have released Spring Cloud Function 3.1.7 & 3.2.3 to address the following CVE report.\n\r\n\r\n  \nCVE-2022-22963: Spring Expression Resource Access Vulnerability\n\r\n\r\nPlease review the information in the CVE report and upgrade immediately.",
+          "link": "https://spring.io/blog/2022/03/29/cve-report-published-for-spring-cloud-function",
+          "publishedOn": "2022-03-30T00:53:00.000Z",
+          "wordCount": 411,
+          "title": "CVE report published for Spring Cloud Function",
+          "imageUrl": "https://avatars.githubusercontent.com/u/172397?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2022/03/29/this-week-in-spring-march-29th-2022",
+          "author": null,
+          "description": "Aloha, Spring fans, from beautiful Maui, Hawaii, where I am with my family on a bit of vacation. It’s our daughter’s Spring break and so we’re enjoying the family time while we can get it! I wanted to take a brief interlude in between the never-enough time on the beach and all the rum to get this week’s installment out for y’all, so let’s dive right into it! \n\r\n\r\n  \nA Bootiful Podcast: Event streaming guru Jan Svoboda on Apache Kafka Design Patterns\n\r\n  \nAn update on Java 17 adoption\n\r\n  \nBuild To Manage: Proper Exception Handling Makes Your Applications Easier to Build and Manage\n\r\n  \nCVE report published for Spring Framework\n\r\n  \nGetting Started with Spring WebFlux\n\r\n  \nInitial AOT support in Spring Framework 6.0.0-M3\n\r\n  \nJava 18 is out! Get the bits while they’re hot! Or at least get Java 17. Wouldn’t want to be two major versions behind, would ya?\n\r\n  \nJava Records tortured with Lombok yet again (builder edition)\n\r\n  \nWant an industrial grade Kubernetes distribution? Check out this blog on how to run Tanzu Application Platform locally on your laptop \n\r\n  \nSpring Authorization Server 0.2.3 available now\n\r\n  \nSpring Batch 5.0 M2 available now\n\r\n  \nSpring Boot 2.5.11 available now\n\r\n  \nSpring Boot 2.6.5 available now\n\r\n  \nSpring Boot 2.7.0-M3 available now\n\r\n  \nSpring Boot 3.0.0-M2 available now\n\r\n  \nSpring Security 6.0.0-M3 and 5.7.0-M3 available now\n\r\n  \nSpring Security and Thymeleaf - a great post over on the Okta blog\n\r\n  \nIn this installment of Spring Tips , I look at: Multitenant JDBC: enjoy!\n\r\n  \nSpring for GraphQL 1.0 Milestone 6 Released\n\r\n  \nThe Spring for GraphQL Team  is now on Twitter! AND they took the occasion recently to announce that there will soon be Spring GraphQL on RSocket support available! Huzzah!\n\r\n  \nI dig this: kagkarlsson/db-scheduler is a persistent cluster-friendly scheduler for Java\n\r\n  \nand this: digitalfondue/npjt-extra: A small layer over Spring’s NamedParameterJdbcTemplate",
+          "link": "https://spring.io/blog/2022/03/29/this-week-in-spring-march-29th-2022",
+          "publishedOn": "2022-03-29T07:00:00.000Z",
+          "wordCount": 677,
+          "title": "This Week in Spring - March 29th, 2022",
+          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
+        },
+        {
           "id": "https://spring.io/blog/2022/03/28/an-update-on-java-17-adoption",
           "author": null,
           "description": "As a follow-up to my blog post from last year’s SpringOne, it is time for an update on our Java 17+ baseline efforts!\n\r\nWe established the new baseline on our main branches, with a few milestones out already. The feedback has been very positive, not only in terms of framework improvements but also in terms of the motivation for a Java upgrade at the application level. Of course, it does not end with JDK 17 LTS: JDK 18 is an immediate option already, JDK 19 will be the current release when we go final later this year, with JDK 20 to be in early access by then - and JDK 21 LTS on the horizon already…\n\r\nOn a related note, the recent JRebel 2022 Java Developer Productivity Report included some interesting numbers on JDK 17: 62% of the participants indicated a plan for a JDK 17 upgrade within t…",
@@ -184,26 +204,6 @@
           "wordCount": 495,
           "title": "Spring Framework 6.0.0-M3 and 5.3.17 available now",
           "imageUrl": "https://avatars.githubusercontent.com/u/490484?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/03/16/spring-tools-4-14-0-released",
-          "author": null,
-          "description": "Dear Spring Community,\n\r\nI am happy to announce the 4.14.0 release of the Spring Tools 4 for Eclipse, Visual Studio Code, and Theia.\nmajor changes to the Spring Tools 4 for Eclipse distribution\n\r\n\r\n  \nupdated to Eclipse 2022-03 release (new and noteworthy)\n\r\n\nfixes and improvements\n\r\n\r\n  \n(VSCode) fixed: VSCode Spring boot tools 1.30.0 error trying to find JVM (#726)\n\r\n  \n(VSCode) fixed: vscode “Problems” diagnostic entries lack “source” field (#725)\n\r\n  \n(VSCode) fixed: orphan vscode extension processes left running (#704)\n\r\n  \n(VSCode) fixed: deadlock in language server process avoids process to be shutdown (#741)\n\r\n  \n(VSCode) fixed: Outline View is broken again on Windows (#742)\n\r\n  \n(VSCode) fixed: boot-java.live-information.automatic-tracking.on is not working on vscode (#733)\n\r\n  \n(VSCode) fixed: Java 17 is mis-identified as Java 8 (#713)\n\r\n  \n(Eclipse) fixed: Deadlock with Spring LSP in Eclipse 4.23 with STS 4.23 nightlies (#729)\n\r\n\r\nTo download the distribution for Eclipse and find links to the marketplace entries for Visual Studio Code and Theia, please go visit:\n\r\n\r\n  \nSpring Tools 4: https://spring.io/tools/\n\r\n\r\nDetailed changes can be found here: https://github.com/spring-projects/sts4/wiki/Changelog#2022-03-16-4140-release-incl-language-servers-version-1320\n\r\nSpring Tools 4.14.1 is scheduled to be released in late April 2022.\n\r\nEnjoy!",
-          "link": "https://spring.io/blog/2022/03/16/spring-tools-4-14-0-released",
-          "publishedOn": "2022-03-16T17:54:24.000Z",
-          "wordCount": 550,
-          "title": "Spring Tools 4.14.0 released",
-          "imageUrl": "https://avatars.githubusercontent.com/u/107705?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/03/16/spring-tips-spring-shell-and-spring-native",
-          "author": null,
-          "description": "Hi, Spring fans! In this episode Josh Long (@starbuxman) looks at the joy of writing fast, native CLI applications with Spring Boot, Spring Shell, GraalVM, and Spring Native",
-          "link": "https://spring.io/blog/2022/03/16/spring-tips-spring-shell-and-spring-native",
-          "publishedOn": "2022-03-16T07:00:00.000Z",
-          "wordCount": 407,
-          "title": "Spring Tips: Spring Shell and Spring Native",
-          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
         }
       ]
     },
@@ -213,13 +213,33 @@
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
         {
+          "id": "https://www.hashicorp.com/blog/terraform-cloud-simplifies-reusable-variable-management",
+          "author": null,
+          "description": "HashiCorp Terraform Cloud variable sets let you simplify the management of reusable variables across an entire organization — the feature is now generally available.",
+          "link": "https://www.hashicorp.com/blog/terraform-cloud-simplifies-reusable-variable-management",
+          "publishedOn": "2022-03-29T17:00:00.000Z",
+          "wordCount": 924,
+          "title": "Terraform Cloud Simplifies Reusable Variable Management",
+          "imageUrl": "https://www.datocms-assets.com/2885/1620073839-blog-library-product-terraform-cloud-tfc-black-corner-iconography.jpg"
+        },
+        {
+          "id": "https://www.hashicorp.com/blog/new-and-updated-vault-tutorials-for-1-10-release",
+          "author": null,
+          "description": "Try out the new and enhanced features introduced in Vault 1.10 with step-by-step tutorials on HashiCorp Learn.",
+          "link": "https://www.hashicorp.com/blog/new-and-updated-vault-tutorials-for-1-10-release",
+          "publishedOn": "2022-03-29T15:00:00.000Z",
+          "wordCount": 916,
+          "title": "New and Updated Vault Tutorials for 1.10 Release",
+          "imageUrl": "https://www.datocms-assets.com/2885/1620082983-blog-library-product-vault-dark-graphics.jpg"
+        },
+        {
           "id": "https://www.hashicorp.com/blog/how-hashicorp-women-leaders-got-into-tech",
           "author": null,
-          "description": "Four women leaders at HashiCorp talk about their journey to a career in tech and offer lessons, inspiration, and advice.",
+          "description": "Four women at HashiCorp talk about their journey to a career in tech and offer lessons, inspiration, and advice.",
           "link": "https://www.hashicorp.com/blog/how-hashicorp-women-leaders-got-into-tech",
           "publishedOn": "2022-03-28T15:00:00.000Z",
-          "wordCount": 1758,
-          "title": "How HashiCorp Women Leaders Got Into Tech",
+          "wordCount": 1756,
+          "title": "How Four HashiCorp Women Got Into Tech",
           "imageUrl": "https://www.datocms-assets.com/2885/1646697341-woh_blog_index_1600x900.png"
         },
         {
@@ -228,7 +248,7 @@
           "description": "AzureRM 3.0 brings significant parity between the Azure provider for Terraform and Azure services currently available. Review the breaking changes as you prepare to upgrade.",
           "link": "https://www.hashicorp.com/blog/terraform-azurerm-3-0-brings-enhanced-azure-function-support",
           "publishedOn": "2022-03-24T16:00:00.000Z",
-          "wordCount": 1642,
+          "wordCount": 1645,
           "title": "Terraform AzureRM 3.0 Brings Enhanced Azure Function Support",
           "imageUrl": "https://www.datocms-assets.com/2885/1620082218-blog-library-product-terraform-azure-dark-logomark-lockup.jpg"
         },
@@ -238,7 +258,7 @@
           "description": "HashiCorp Vault 1.10 improves Vault’s core workflows and makes key features production-ready to better serve your use cases.",
           "link": "https://www.hashicorp.com/blog/vault-1-10",
           "publishedOn": "2022-03-23T16:00:00.000Z",
-          "wordCount": 1912,
+          "wordCount": 1908,
           "title": "HashiCorp Vault 1.10 Adds Login MFA, PKI to Use HSMs, Usage Metrics, and More",
           "imageUrl": "https://www.datocms-assets.com/2885/1620082983-blog-library-product-vault-dark-graphics.jpg"
         },
@@ -248,7 +268,7 @@
           "description": "Learn how using policy as code to enforce governance for certificate creation inside HashiCorp Vault reduces cost of ownership and lowers risk.",
           "link": "https://www.hashicorp.com/blog/elegant-cert-governance-with-vault-identity-and-sentinel-policy",
           "publishedOn": "2022-03-22T15:00:00.000Z",
-          "wordCount": 2397,
+          "wordCount": 2393,
           "title": "Elegant Cert Governance with Vault Identity and Sentinel Policy",
           "imageUrl": "https://www.datocms-assets.com/2885/1620083006-blog-library-product-vault-dark-gradient.jpg"
         },
@@ -258,7 +278,7 @@
           "description": "In honor of Women’s History Month, five women at HashiCorp share stories on how they work to make a difference in their communities.",
           "link": "https://www.hashicorp.com/blog/women-s-history-month-stories-of-making-a-difference",
           "publishedOn": "2022-03-16T16:00:00.000Z",
-          "wordCount": 2019,
+          "wordCount": 2018,
           "title": "Women’s History Month: Stories of Making a Difference",
           "imageUrl": "https://www.datocms-assets.com/2885/1647369432-woh_blog_header_2a_2500x625-1.png"
         },
@@ -268,7 +288,7 @@
           "description": "Several of this year’s HashiTalks speakers presented useful Terraform, Packer, and CI/CD tips and tricks. Learn from this list of highlights.",
           "link": "https://www.hashicorp.com/blog/terraform-packer-and-ci-cd-videos-from-hashitalks-2022",
           "publishedOn": "2022-03-14T16:00:00.000Z",
-          "wordCount": 1058,
+          "wordCount": 1050,
           "title": "Terraform, Packer, and CI/CD Videos from HashiTalks 2022",
           "imageUrl": "https://www.datocms-assets.com/2885/1620083068-blog-library-product-terraform-black.jpg"
         },
@@ -278,7 +298,7 @@
           "description": "Several of this year’s HashiTalks showcased useful strategies and use cases for HashiCorp Vault and Boundary. Watch the videos here.",
           "link": "https://www.hashicorp.com/blog/vault-boundary-and-zero-trust-videos-from-hashitalks-2022",
           "publishedOn": "2022-03-11T17:00:00.000Z",
-          "wordCount": 819,
+          "wordCount": 811,
           "title": "Vault, Boundary, and Zero Trust Videos from HashiTalks 2022",
           "imageUrl": "https://www.datocms-assets.com/2885/1620082983-blog-library-product-vault-dark-graphics.jpg"
         },
@@ -298,7 +318,7 @@
           "description": "Insightful case-study sessions were plentiful at this year’s HashiTalks. Check them out in these user-story video highlights from the virtual conference.",
           "link": "https://www.hashicorp.com/blog/user-story-videos-from-hashitalks-2022",
           "publishedOn": "2022-03-09T17:00:00.000Z",
-          "wordCount": 923,
+          "wordCount": 915,
           "title": "User Story Videos from HashiTalks 2022",
           "imageUrl": "https://www.datocms-assets.com/2885/1610395464-hashitalks-2021-twitter-photo.jpg"
         },
@@ -308,7 +328,7 @@
           "description": "In honor of International Women’s Day, three HashiCorp leaders talk about their inspirations, their challenges, and their hopes for the future.",
           "link": "https://www.hashicorp.com/blog/international-women-s-day-hashicorp-leaders-share-their-stories",
           "publishedOn": "2022-03-08T08:00:00.000Z",
-          "wordCount": 1663,
+          "wordCount": 1662,
           "title": "International Women's Day: HashiCorp Leaders Share Their Stories",
           "imageUrl": "https://www.datocms-assets.com/2885/1646697341-woh_blog_index_1600x900.png"
         },
@@ -328,7 +348,7 @@
           "description": "Tencent Cloud has announced new HashiCorp Vault integrations. See how they are implemented in this guest post.",
           "link": "https://www.hashicorp.com/blog/managing-tencent-cloud-secrets-engine-authentication-method-in-hashicorp-vault",
           "publishedOn": "2022-03-07T05:08:00.000Z",
-          "wordCount": 1435,
+          "wordCount": 1430,
           "title": "Managing Tencent Cloud Secrets Engine and Authentication Method in HashiCorp Vault",
           "imageUrl": "https://www.datocms-assets.com/2885/1646413546-blog-image-1.jpg"
         },
@@ -338,7 +358,7 @@
           "description": "HashiCorp’s first lab-based certification exam lets Vault professionals vet their knowledge of configuring, managing, and monitoring a production Vault environment.",
           "link": "https://www.hashicorp.com/blog/hashicorp-s-new-vault-operations-pro-certification-is-lab-based",
           "publishedOn": "2022-03-03T05:12:00.000Z",
-          "wordCount": 978,
+          "wordCount": 973,
           "title": "HashiCorp’s New Vault Operations Pro Certification Is Lab-Based",
           "imageUrl": "https://www.datocms-assets.com/2885/1620083006-blog-library-product-vault-dark-gradient.jpg"
         },
@@ -348,7 +368,7 @@
           "description": "There were many popular Kubernetes sessions at this year’s HashiTalks. Watch the highlights from the virtual conference here.",
           "link": "https://www.hashicorp.com/blog/kubernetes-video-highlights-from-hashitalks-2022",
           "publishedOn": "2022-03-02T05:12:00.000Z",
-          "wordCount": 818,
+          "wordCount": 810,
           "title": "Kubernetes Video Highlights from HashiTalks 2022",
           "imageUrl": "https://www.datocms-assets.com/2885/1608227988-blog-library-product-kubernetes.png"
         },
@@ -361,16 +381,6 @@
           "wordCount": 1249,
           "title": "For Developers and Operators, All Paths Lead to Consul",
           "imageUrl": "https://www.datocms-assets.com/2885/1620083633-blog-library-product-consul-black.jpg"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/observability-cts-nomad-video-highlights-from-hashitalks-2022",
-          "author": null,
-          "description": "Observability, Consul-Terraform-Sync use cases, and deep-level Nomad explorations were popular at this year’s HashiTalks. Watch our highlighted videos from the virtual event.",
-          "link": "https://www.hashicorp.com/blog/observability-cts-nomad-video-highlights-from-hashitalks-2022",
-          "publishedOn": "2022-02-28T05:12:00.000Z",
-          "wordCount": 882,
-          "title": "Observability, CTS & Nomad Video Highlights from HashiTalks 2022",
-          "imageUrl": "https://www.datocms-assets.com/2885/1633705692-hashistack.png"
         }
       ]
     },
@@ -689,7 +699,7 @@
           "description": "Azure DevOps team needed to partially rollback the previous release of TLS 1.0/1.1 deprecation that was run on Jan 31st, 2022. This was due to unexpected issues caused by the change. Here’s a link to the previous blog post related to that release.\nThe post Deprecating weak cryptographic standards (TLS 1.0 and 1.1) in Azure DevOps Services appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/deprecating-weak-cryptographic-standards-tls-1-0-and-1-1-in-azure-devops-services/",
           "publishedOn": "2022-03-15T11:04:49.000Z",
-          "wordCount": 4125,
+          "wordCount": 4173,
           "title": "Deprecating weak cryptographic standards (TLS 1.0 and 1.1) in Azure DevOps Services",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/03/pipelinetaskPS.png"
         },
@@ -921,7 +931,7 @@
           "description": "Make sure to switch to the new domain between April 1 - Sept. 30, 2022, before the old URLs will be shut down. \nThe post A New Domain Name for Camunda Artifactory appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/03/a-new-domain-name-for-camunda-artifactory/",
           "publishedOn": "2022-03-28T13:35:00.000Z",
-          "wordCount": 1476,
+          "wordCount": 1477,
           "title": "A New Domain Name for Camunda Artifactory",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/03/2022_Mar_Camunda_Blog_Featured-image_Domain-name-artifactory_1200x630.png"
         },
@@ -931,7 +941,7 @@
           "description": "Is there a process definition cluttering up your deployment? Learn how to delete it once you no longer want to run it anymore. \nThe post Q&A: The One Where You Completely Delete a Process Definition appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/03/qa-the-one-where-you-completely-delete-a-process-definition/",
           "publishedOn": "2022-03-25T13:30:00.000Z",
-          "wordCount": 1773,
+          "wordCount": 1774,
           "title": "Q&A: The One Where You Completely Delete a Process Definition",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/03/2022-Camunda-Blog-Graphics-Template-17.jpg"
         },
@@ -941,7 +951,7 @@
           "description": "Discover what we're doing to provide more options for enterprises to connect their legacy apps to other components of their modern IT stack.\nThe post Why Aren’t There Legacy App Stores? appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/03/why-arent-there-legacy-app-stores/",
           "publishedOn": "2022-03-24T13:00:00.000Z",
-          "wordCount": 1348,
+          "wordCount": 1349,
           "title": "Why Aren’t There Legacy App Stores?",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/03/2022_March_Camunda_Blog_Legacy-App-Stores_1200x630-2.png"
         },
@@ -971,7 +981,7 @@
           "description": "Learn how the CLI allows you to troubleshoot and get information from your Camunda Cloud cluster, deploy processes, and run job workers. \nThe post Managing Camunda Cloud in a (Nut)shell appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/03/managing-camunda-cloud-in-a-nutshell/",
           "publishedOn": "2022-03-15T07:30:00.000Z",
-          "wordCount": 2401,
+          "wordCount": 2402,
           "title": "Managing Camunda Cloud in a (Nut)shell",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/03/Managing-Caminda-in-a-Nutshell-Featured-image-15032022-1024x683.png"
         },
@@ -1060,12 +1070,32 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/2022-03-29-github-copilot-now-available-for-visual-studio-2022/",
+          "author": null,
+          "description": "GitHub Copilot is now available from Visual Studio 2022 for everyone in the technical preview.",
+          "link": "https://github.blog/2022-03-29-github-copilot-now-available-for-visual-studio-2022/",
+          "publishedOn": "2022-03-29T16:30:04.000Z",
+          "wordCount": 715,
+          "title": "GitHub Copilot now available for Visual Studio 2022",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/02/154491850-80b62272-da07-4653-9875-bae9247bf314.png?fit=1200%2C630"
+        },
+        {
+          "id": "https://github.blog/2022-03-29-career-tips-for-beginner-developers/",
+          "author": null,
+          "description": "Advice on fundamentals, picking languages to learn, social media presence, interviewing, and more",
+          "link": "https://github.blog/2022-03-29-career-tips-for-beginner-developers/",
+          "publishedOn": "2022-03-29T10:00:17.000Z",
+          "wordCount": 1961,
+          "title": "Career tips for beginner developers",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/02/Community-Company_teal-orange@2x.png"
+        },
+        {
           "id": "https://github.blog/2022-03-28-how-to-secure-your-end-to-end-supply-chain-on-github/",
           "author": null,
           "description": "Securing your projects is no easy task, but end-to-end supply chain security is more top of mind than ever. We&#8217;ve seen bad actors expand their focus to taking over user accounts, commonly used dependencies, and also build systems. Defending against these attacks is hard, because there&#8217;s no one thing you can do to protect your [&#8230;]",
           "link": "https://github.blog/2022-03-28-how-to-secure-your-end-to-end-supply-chain-on-github/",
           "publishedOn": "2022-03-28T17:00:12.000Z",
-          "wordCount": 716,
+          "wordCount": 708,
           "title": "How to secure your end-to-end supply chain on GitHub",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/03/Security-Product@2x.png"
         },
@@ -1075,7 +1105,7 @@
           "description": "GitHub Education is fired up for the return of .Tech Domains developer community competition: Break The Code 2. We've hacked in some new enigmas, cheat codes, and easter eggs for digital sleuths to uncover!",
           "link": "https://github.blog/2022-03-25-unlock-github-secrets-next-techs-break-the-code-2/",
           "publishedOn": "2022-03-25T18:00:04.000Z",
-          "wordCount": 544,
+          "wordCount": 532,
           "title": "Unlock all the GitHub secrets within .Tech Domains newest experience: Break The Code 2!",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/03/break-the-code-2.png"
         },
@@ -1095,7 +1125,7 @@
           "description": "You can now enforce consistent usage of self-hosted runner groups across your organization and enterprise.",
           "link": "https://github.blog/2022-03-23-github-actions-secure-self-hosted-runners-specific-workflows/",
           "publishedOn": "2022-03-23T16:30:24.000Z",
-          "wordCount": 595,
+          "wordCount": 587,
           "title": "GitHub Actions: secure self-hosted runners by limiting them to specific workflows",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/03/Enterprise-Product@2x-3.png"
         },
@@ -1105,7 +1135,7 @@
           "description": "Today, we are rolling out a new beta version of GitHub’s home feed, making it easier to discover projects, developers and more across GitHub.",
           "link": "https://github.blog/2022-03-22-improving-your-github-feed/",
           "publishedOn": "2022-03-22T23:47:44.000Z",
-          "wordCount": 609,
+          "wordCount": 600,
           "title": "Improving your GitHub feed",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/03/github-new-feeds-beta-social.png"
         },
@@ -1115,7 +1145,7 @@
           "description": "If you're a GHES customer with heavy read traffic on your monorepo, check out the repository cache, especially if you have CI workloads distributed around the world.",
           "link": "https://github.blog/2022-03-22-introducing-the-ghes-repository-cache/",
           "publishedOn": "2022-03-22T17:48:06.000Z",
-          "wordCount": 826,
+          "wordCount": 824,
           "title": "Introducing the GHES repository cache",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/03/159021568-9d5667a2-f7ac-4fa0-9f9f-19b44a45f13f.png"
         },
@@ -1125,7 +1155,7 @@
           "description": "You can now create a branch to work on an issue directly from the issue page so that it's easier to get started right away.",
           "link": "https://github.blog/2022-03-21-start-working-on-github-issues-faster/",
           "publishedOn": "2022-03-21T21:20:42.000Z",
-          "wordCount": 686,
+          "wordCount": 684,
           "title": "Start working on GitHub Issues faster",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/02/create-branch-from-issue.png"
         },
@@ -1135,29 +1165,9 @@
           "description": "If there's one habit that can make software more secure, it's probably input validation. Here's how to apply OWASP Proactive Control C5 (Validate All Inputs) to your code.",
           "link": "https://github.blog/2022-03-21-validate-all-things-input-validation/",
           "publishedOn": "2022-03-21T17:41:59.000Z",
-          "wordCount": 1306,
+          "wordCount": 1297,
           "title": "Validate all the things: improve your security with input validation!",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/03/Security-Community@2x.png"
-        },
-        {
-          "id": "https://github.blog/2022-03-17-release-radar-feb-2022/",
-          "author": null,
-          "description": "Our community has shipped lots of open source project updates in the last month. Here's a few of our staff picks.",
-          "link": "https://github.blog/2022-03-17-release-radar-feb-2022/",
-          "publishedOn": "2022-03-17T23:05:05.000Z",
-          "wordCount": 1506,
-          "title": "Release Radar · February 2022 Edition",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/03/Release-Radar-February.jpg"
-        },
-        {
-          "id": "https://github.blog/2022-03-16-save-time-partial-re-runs-github-actions/",
-          "author": null,
-          "description": "It is now possible to re-run only failed jobs or a single job in GitHub Actions workflows.",
-          "link": "https://github.blog/2022-03-16-save-time-partial-re-runs-github-actions/",
-          "publishedOn": "2022-03-16T14:37:06.000Z",
-          "wordCount": 748,
-          "title": "Save time with partial re-runs in GitHub Actions",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/03/partial-re-runs-github-actions-social-card.png"
         }
       ]
     },
@@ -1183,8 +1193,8 @@
           "author": null,
           "description": "Posted by Boris Babenko, Software Engineer and Naama Hammel, Clinical Research Scientist, Google Health \nThree years ago we wrote about our work on predicting a number of cardiovascular risk factors from fundus photos (i.e., photos of the back of the eye)1 using deep learning. That such risk factors could be extracted from fundus photos was a novel discovery and thus a surprising outcome to clinicians and laypersons alike. Since then, we and other researchers have discovered additional novel biomarkers from fundus photos, such as markers for chronic kidney disease and diabetes, and hemoglobin levels to detect anemia.  \nA unifying goal of work like this is to develop new disease detection or monitoring approaches that are less invasive, more accurate, cheaper and more readily available. How…",
           "link": "http://ai.googleblog.com/2022/03/detecting-signs-of-disease-from.html",
-          "publishedOn": "2022-03-24T17:10:00.000Z",
-          "wordCount": 2096,
+          "publishedOn": "2022-03-24T17:10:00.001Z",
+          "wordCount": 2095,
           "title": "Detecting Signs of Disease from External Images of the Eye",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         },
@@ -1316,12 +1326,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=42503",
+          "author": "Seth Godin",
+          "description": "What’s the variance in customer service at your organization? Even if there’s just one employee, the question is: If an issue is handled by a committed employee having a good attitude, vs a cranky one who is a bit off–can the customer tell? One philosophy is to make this gap as small as possible. Create […]",
+          "link": "https://feeds.feedblitz.com/~/688072492/0/sethsblog~The-hospitality-systems-gap/",
+          "publishedOn": "2022-03-29T08:39:00.000Z",
+          "wordCount": 278,
+          "title": "The hospitality systems gap",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=41688",
           "author": "Seth Godin",
           "description": "When an entrepreneur gets funded, it’s often difficult for them to start spending money on assets–the old limits fade slowly. What used to be smart is now dumb. What used to too risky is now the safe thing to do. When someone gets older or is injured, one of the dangers is that they’ll fail […]",
           "link": "https://feeds.feedblitz.com/~/687915014/0/sethsblog~Recalibrating/",
           "publishedOn": "2022-03-28T08:33:00.000Z",
-          "wordCount": 242,
+          "wordCount": 243,
           "title": "Re-calibrating",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061311.jpg"
         },
@@ -1404,16 +1424,6 @@
           "wordCount": 256,
           "title": "The things you can’t see",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg"
-        },
-        {
-          "id": "https://seths.blog-production.mystagingwebsite.com/?p=32256",
-          "author": "Seth Godin",
-          "description": "Lock-in persists. That’s why it’s so valued by monopolists, tyrants and cults. The ability to speak up always creates inefficiency. It’s easier to just shut up and drive. Or be driven. But the ability to speak up is a self-cleaning algorithm. Our freedom to move on, to criticize and to suggest creates the conditions for […]",
-          "link": "https://feeds.feedblitz.com/~/686802770/0/sethsblog~Question-authority/",
-          "publishedOn": "2022-03-19T08:46:00.000Z",
-          "wordCount": 235,
-          "title": "Question authority",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806133-1.jpg"
         }
       ]
     },

@@ -410,26 +410,6 @@
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltb32fd2bb6a2cdb2e/62584638102a0b4e934e16fe/fao-1200x628-stack-drag-and-drop-white.jpg"
         },
         {
-          "id": "https://www.elastic.co/blog/how-to-deploy-natural-language-processing-nlp-getting-started",
-          "author": "David Kyle",
-          "description": "This blog describes the process for getting up and running with deep learning models for natural language processing (NLP) in Elasticsearch using HuggingFace and PyTorch.",
-          "link": "https://www.elastic.co/blog/how-to-deploy-natural-language-processing-nlp-getting-started",
-          "publishedOn": "2022-04-15T00:00:00.000Z",
-          "wordCount": 587,
-          "title": "How to deploy natural language processing (NLP): Getting started",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt012c68154c83cc3b/5ffdb718fee93e550328c2b6/blog-thumb-community-discussion.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/how-to-deploy-nlp-sentiment-analysis-example",
-          "author": "David Kyle",
-          "description": "Taking Sentiment Analysis as the example task, this blog describes the process for getting up and running using deep learning models for Natural Language Processing in Elasticsearch.",
-          "link": "https://www.elastic.co/blog/how-to-deploy-nlp-sentiment-analysis-example",
-          "publishedOn": "2022-04-15T00:00:00.000Z",
-          "wordCount": 1199,
-          "title": "How to deploy NLP: Sentiment Analysis Example",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt680bbcd6229c1faf/620d8aa46c53c5684497f8bc/illustration-industries-retail.png"
-        },
-        {
           "id": "https://www.elastic.co/blog/using-spring-boot-with-elastic-app-search",
           "author": "Alexander Reelsen",
           "description": ",\nIn this article we will go from nothing to a fully running Spring Boot application querying Elastic App Search, which has crawled the contents of a website. We will start up the cluster and configure the application step by step.\ngit clone https://github.com/spinscale/spring-boot-app-search,\nIn order to have an example up and running, we have to create an API key in Elastic Cloud as described in the terraform provider setup.\nOnce that is done, run\nterraform init\nterraform validate\nterraform apply,\nand grab a coffee before the serious work begins. After a few minutes you should see your instance in the Elastic Cloud UI up and running like this\nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt59d116a581c56493/625748c11c67524fc6889299/screenshot-springboot-with-elasticsearch-s…",
@@ -438,26 +418,6 @@
           "wordCount": 2611,
           "title": "Using Spring Boot with Elastic App Search",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltb32fd2bb6a2cdb2e/62584638102a0b4e934e16fe/fao-1200x628-stack-drag-and-drop-white.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/how-to-deploy-natural-language-processing-nlp-getting-started",
-          "author": "David Kyle",
-          "description": ",\nThe release of the Elastic Stack 8.0 introduced the ability to upload PyTorch machine learning models into Elasticsearch to provide modern natural language processing (NLP) in the Elastic Stack. NLP opens up opportunities to extract information, classify text, and provide better search relevance through dense vectors and approximate nearest neighbor search.\nIn this multi-part blog series, we will walk through end-to-end examples using a variety of PyTorch NLP models.\nPart 1: Getting started with NLP models\nPart 2: Named entity recognition (NER)\nPart 3: Sentiment analysis\nIn each example we will use a prebuilt NLP model from the Hugging Face model hub. Then we will follow the Elastic documented instructions for deploying an NLP model and adding NLP inference to an ingest pipeline.  Because it’s always a good idea to start with a defined use case and an understanding of the text data to process in the model, we’ll start by defining the objective for using NLP and a shared data set for anyone to try out.\nTo prepare for the NLP example, we will need an Elasticsearch cluster running at least version 8.0, an ML node with at least 2GB RAM, and for the named entity recognition (NER) example we’ll use the required mapper-annotated-text plugin. One of the easiest ways to get started is by following along with these NLP examples with your own free 14-day trial cluster on Elastic Cloud. Cloud trials are able to scale to a max of two 2GB ML nodes, which will allow you to deploy one or two of examples at any one time in this multi-part blog series.",
-          "link": "https://www.elastic.co/blog/how-to-deploy-natural-language-processing-nlp-getting-started",
-          "publishedOn": "2022-04-15T00:00:00.000Z",
-          "wordCount": 587,
-          "title": "How to deploy natural language processing (NLP): Getting started",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt012c68154c83cc3b/5ffdb718fee93e550328c2b6/blog-thumb-community-discussion.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/how-to-deploy-nlp-sentiment-analysis-example",
-          "author": "David Kyle",
-          "description": ",\nAs part of our multi-blog series on natural language processing (NLP), we will walk through an example using a sentiment analysis NLP model to evaluate if comment (text) fields contain positive or negative sentiments. Using a publicly available model, we will show you how to deploy that model to Elasticsearch and use the model in an ingest pipeline to classify customer reviews as being either a positive or negative.\nSentiment analysis is a type of binary classification where the field is predicted to be either one value or the other. There is typically a probability score for that prediction between 0 and 1, with scores closer to 1 indicating more-confident predictions. This type of NLP analysis can be usefully applied to many data sets such as product reviews or customer feedback.\nThe c…",
-          "link": "https://www.elastic.co/blog/how-to-deploy-nlp-sentiment-analysis-example",
-          "publishedOn": "2022-04-15T00:00:00.000Z",
-          "wordCount": 1199,
-          "title": "How to deploy NLP: Sentiment Analysis Example",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt680bbcd6229c1faf/620d8aa46c53c5684497f8bc/illustration-industries-retail.png"
         },
         {
           "id": "https://www.elastic.co/blog/3-technologies-cisos-should-adopt-next-to-drive-organizational-resilience-and-growth",
@@ -598,6 +558,46 @@
           "wordCount": 1752,
           "title": "Elastic working with AWS to accelerate results that matter",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltacbcd67685f3bad4/61b7ae9bf6adbe75ea5e17fa/blog-thumb-cloud-aws.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/elastic-joins-data-cloud-alliance-as-founding-member",
+          "author": "Paul Smalera",
+          "description": "This partnership brings together the most widely-adopted and fastest-growing enterprise data platforms to enable organizations to accelerate the pace of digital transformation with new data integrations, common industry models, and talent training.",
+          "link": "https://www.elastic.co/blog/elastic-joins-data-cloud-alliance-as-founding-member",
+          "publishedOn": "2022-04-05T00:00:00.000Z",
+          "wordCount": 739,
+          "title": "Elastic joins Data Cloud Alliance as founding member",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltbf1cb3af2e33ff3d/624c620812ae2d0559532248/Cloud_s_Data_Cloud_Alliance_copy_2.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/elastic-joins-data-cloud-alliance-as-founding-member",
+          "author": "Paul Smalera",
+          "description": ",\nElastic is partnering with Google Cloud and eight other data organizations to launch the Data Cloud Alliance–an initiative to accelerate the pace of digital transformation for organizations around the world by expanding data accessibility, integrations for better insights and action.\n\nEvery business is facing growing pressure to reach new customers, develop new products, and adhere to complex regulatory environments. The Data Cloud Alliance has been designed to provide businesses with easier access to their data, along with the analytical and AI capabilities they need to scale, with the most widely-adopted and fastest-growing enterprise data platforms. \nElastic is committed to supporting the cloud migration of our customers and expanding the accessibility, reliability, and security of da…",
+          "link": "https://www.elastic.co/blog/elastic-joins-data-cloud-alliance-as-founding-member",
+          "publishedOn": "2022-04-05T00:00:00.000Z",
+          "wordCount": 739,
+          "title": "Elastic joins Data Cloud Alliance as founding member",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltbf1cb3af2e33ff3d/624c620812ae2d0559532248/Cloud_s_Data_Cloud_Alliance_copy_2.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/primer-to-understanding-observability-elastic",
+          "author": "Ron Wen,Jamie Smith",
+          "description": "The one certainty you will find in IT, developer, and SRE roles is that things always change! One hot topic in DevOps communities is observability. A long word, you may be wondering what it really means and how you can add it to your skillset. Here’s a quick primer to get you going on your path to observability.\nWhere did the term “observability” come from?\nThe concept of observability dates back to the mid-20th century, where it was originally used in control theory to describe how the internal states of a system can be inferred from knowledge of the system’s external outputs. Rudolf E. Kalman, a Hungarian-American electrical engineer and mathematician, coined the term in the 1960s in several seminal papers around dynamical and observable systems. \nWhile the term is still used in the math…",
+          "link": "https://www.elastic.co/blog/primer-to-understanding-observability-elastic",
+          "publishedOn": "2022-04-04T19:00:00.000Z",
+          "wordCount": 2474,
+          "title": "A primer to understanding observability",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltef3f66f8945f529e/624b7c2c401a330923990b76/unnamed.jpg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/primer-to-understanding-observability-elastic",
+          "author": "Ron Wen,Jamie Smith",
+          "description": "A long word, you may be wondering what it really means and how you can add it to your skill set. Here’s a quick primer to get you going on your path to observability.",
+          "link": "https://www.elastic.co/blog/primer-to-understanding-observability-elastic",
+          "publishedOn": "2022-04-04T19:00:00.000Z",
+          "wordCount": 2474,
+          "title": "A primer to understanding observability",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltef3f66f8945f529e/624b7c2c401a330923990b76/unnamed.jpg"
         }
       ]
     },
@@ -689,7 +689,7 @@
           "description": "It’s April in April! It’s no joke, the top stories from the #AzureDevOps #Community are back this week! We have been on a short hiatus in support of the people in Ukraine. We do hope that everyone out there is safe and healthy.\nThe post Top Stories from the Microsoft DevOps Community – 2022.01.04 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2022-01-04/",
           "publishedOn": "2022-04-01T18:51:35.000Z",
-          "wordCount": 1706,
+          "wordCount": 1708,
           "title": "Top Stories from the Microsoft DevOps Community – 2022.01.04",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2021/01/headerblog.png"
         },
@@ -709,29 +709,9 @@
           "description": "We are excited to officially announce the public preview for the \"New Boards Hub\". We look forward to having you try it and sending us your feedback.\nThe post “New Boards Hub” Public Preview appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/new-boards-hub-public-preview/",
           "publishedOn": "2022-03-28T19:48:54.000Z",
-          "wordCount": 1308,
+          "wordCount": 1310,
           "title": "“New Boards Hub” Public Preview",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/03/agile.png"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=63598",
-          "author": "Michael Omokoh",
-          "description": "Azure Artifacts feeds continues to make products accessible for everyone with support for WCAG 2.1\nThe post Azure Artifacts feed continues to make product accessible to everyone appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/azure-artifacts-feed-continues-to-make-product-accessible-to-everyone/",
-          "publishedOn": "2022-03-17T18:33:31.000Z",
-          "wordCount": 1050,
-          "title": "Azure Artifacts feed continues to make product accessible to everyone",
-          "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2019/11/Artifacts.jpg"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=63606",
-          "author": "Michael Omokoh",
-          "description": "Artifacts now natively supports Google Maven Repository, Gradle Plugins, and Jitpack as upstream sources. Azure Artifacts also added native support upstreaming to PowerShell Gallery.\nThe post Azure Artifacts now provides native support to use packages from more repositories appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/azure-artifacts-now-provides-native-support-to-use-packages-from-more-repositories/",
-          "publishedOn": "2022-03-17T17:39:19.000Z",
-          "wordCount": 1129,
-          "title": "Azure Artifacts now provides native support to use packages from more repositories",
-          "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/03/Native-upstream-support.png"
         }
       ]
     },
@@ -911,7 +891,7 @@
           "description": "Thank you for your submissions! From now until April 16, cast your vote for the discussion topics you want on the Unconference agenda.\nThe post #CamundaSummit Unconference: Cast Your Vote appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/04/camunda-summit-unconference-cast-your-vote/",
           "publishedOn": "2022-04-13T15:25:00.000Z",
-          "wordCount": 707,
+          "wordCount": 706,
           "title": "#CamundaSummit Unconference: Cast Your Vote",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/04/Camunda_CCS_2022_Blog_Voting-Unconference_1200x630.png"
         },
@@ -931,7 +911,7 @@
           "description": "Camunda Platform 8 brings what you love about Camunda with added performance, scalability, availability, connectivity, and collaboration.\nThe post Camunda Platform 8.0 Released – What’s New appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/04/camunda-platform-8-0-released-whats-new/",
           "publishedOn": "2022-04-12T12:40:00.000Z",
-          "wordCount": 4247,
+          "wordCount": 4246,
           "title": "Camunda Platform 8.0 Released – What’s New",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/04/2022_Apr_Camunda_Blog_Featured-image_Camunda-Platform-8-Release-Notes-Whats-New_1200x630.png"
         },
@@ -961,7 +941,7 @@
           "description": "We're excited to announce that Camunda Automation Platform 7.17.0 is now available with many new features.\nThe post Camunda Automation Platform 7.17.0 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/04/camunda-automation-platform-7-17-0-released/",
           "publishedOn": "2022-04-12T07:00:00.000Z",
-          "wordCount": 1817,
+          "wordCount": 1816,
           "title": "Camunda Automation Platform 7.17.0 Released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/04/2022-Camunda-Blog-Graphics-Template-20.jpg"
         },
@@ -1148,7 +1128,7 @@
           "description": "By Alex Hutter, Falguni Jhaveri and Senthil Sayeebaba",
           "link": "https://netflixtechblog.com/how-netflix-content-engineering-makes-a-federated-graph-searchable-5c0c1c7d7eaf?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-04-12T17:16:41.000Z",
-          "wordCount": 2210,
+          "wordCount": 2173,
           "title": "How Netflix Content Engineering makes a federated graph searchable",
           "imageUrl": "https://miro.medium.com/max/1200/0*LfYcAWOrhjbp9mA7"
         }
@@ -1268,16 +1248,6 @@
           "wordCount": 2259,
           "title": "Auto-generated Summaries in Google Docs",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
-        },
-        {
-          "id": "http://ai.googleblog.com/2022/03/offline-optimization-for-architecting.html",
-          "author": null,
-          "description": "Posted by Amir Yazdanbakhsh, Research Scientist and Aviral Kumar, Student Researcher, Google Research \nAdvances in machine learning (ML) often come with advances in hardware and computing systems. For example, the growth of ML-based approaches in solving various problems in vision and language has led to the development of application-specific hardware accelerators (e.g., Google TPUs and Edge TPUs). While promising, standard procedures for designing accelerators customized towards a target application require manual effort to devise a reasonably accurate simulator of hardware, followed by performing many time-intensive simulations to optimize the desired objective (e.g., optimizing for low power usage or latency when running a particular application). This involves identifying the right ba…",
-          "link": "http://ai.googleblog.com/2022/03/offline-optimization-for-architecting.html",
-          "publishedOn": "2022-03-17T18:04:00.002Z",
-          "wordCount": 2762,
-          "title": "Offline Optimization for Architecting Hardware Accelerators",
-          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         }
       ]
     },
@@ -1287,12 +1257,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=41859",
+          "author": "Seth Godin",
+          "description": "What’s better, a phone call or a zoom call? Which creates more intimacy, a meeting in person or a hand-written letter? The only answer is: it depends. It’s tempting to believe that being in a store, surrounded by sights, smells, packaging, crowds and helpful salespeople delivers more interaction and sales than a catalog. But a […]",
+          "link": "https://feeds.feedblitz.com/~/691534446/0/sethsblog~The-resolution-of-communication/",
+          "publishedOn": "2022-04-16T09:03:00.000Z",
+          "wordCount": 294,
+          "title": "The resolution of communication",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806134-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=42726",
           "author": "Seth Godin",
           "description": "You might have a list of them. In fact, many of us do, and consult it quite often. The list is defective for a number of reasons: It’s not accurate. There are things that aren’t right in our world that don’t appear on the list. Our personal list tends to be organized around things that […]",
           "link": "https://feeds.feedblitz.com/~/691411296/0/sethsblog~Things-to-feel-bad-about/",
           "publishedOn": "2022-04-15T08:19:00.000Z",
-          "wordCount": 363,
+          "wordCount": 364,
           "title": "Things to feel bad about",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061311.jpg"
         },
@@ -1375,16 +1355,6 @@
           "wordCount": 284,
           "title": "An opportunity for significant organizations",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806134-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=41748",
-          "author": "Seth Godin",
-          "description": "To feel sufficient, to be satisfied with what we have: Chisoku in Japanese. Of course, by some measures, there’s never enough. We can always come up with a reason why more is better, or better is better, or new is better or different is better. Enough becomes a choice, not a measure of science. The […]",
-          "link": "https://feeds.feedblitz.com/~/689783688/0/sethsblog~And-maybe-its-enough/",
-          "publishedOn": "2022-04-06T09:40:00.000Z",
-          "wordCount": 241,
-          "title": "And maybe it’s enough",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg"
         }
       ]
     },

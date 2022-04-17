@@ -22,6 +22,54 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-04-16 datetime="2022-04-16T09:03:00.000Z">2022-04-16</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-04-16 datetime="2022-04-16T09:03:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Seth Godin&#x27;s Blog on marketing, tribes and respect</button>
+                  <a class="source-heading__link" href="https://seths.blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://seths.blog/?p&#x3D;41859"
+                        open
+                      >
+                        <summary class="article-expander__title">The resolution of communication</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://feeds.feedblitz.com/~/691534446/0/sethsblog~The-resolution-of-communication/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806134-1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>What’s better, a phone call or a zoom call? Which creates more intimacy, a meeting in person or a hand-written letter? The only answer is: it depends. It’s tempting to believe that being in a store, surrounded by sights, smells, packaging, crowds and helpful salespeople delivers more interaction and sales than a catalog. But a […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-04-15 datetime="2022-04-15T22:35:02.000Z">2022-04-15</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-04-15 datetime="2022-04-15T22:35:02.000Z"></time>
           </button>
@@ -199,46 +247,6 @@ The post Code Studio: A Hands-on Guided Tour of Camunda Platform 8 appeared firs
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/how-to-deploy-natural-language-processing-nlp-getting-started"
-                        open
-                      >
-                        <summary class="article-expander__title">How to deploy natural language processing (NLP): Getting started</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/how-to-deploy-natural-language-processing-nlp-getting-started">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt012c68154c83cc3b/5ffdb718fee93e550328c2b6/blog-thumb-community-discussion.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>This blog describes the process for getting up and running with deep learning models for natural language processing (NLP) in Elasticsearch using HuggingFace and PyTorch.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/how-to-deploy-nlp-sentiment-analysis-example"
-                        open
-                      >
-                        <summary class="article-expander__title">How to deploy NLP: Sentiment Analysis Example</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/how-to-deploy-nlp-sentiment-analysis-example">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt680bbcd6229c1faf/620d8aa46c53c5684497f8bc/illustration-industries-retail.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Taking Sentiment Analysis as the example task, this blog describes the process for getting up and running using deep learning models for Natural Language Processing in Elasticsearch.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.elastic.co/blog/using-spring-boot-with-elastic-app-search"
                         open
                       >
@@ -258,56 +266,6 @@ terraform apply,
 and grab a coffee before the serious work begins. After a few minutes you should see your instance in the Elastic Cloud UI up and running like this
 https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt59d116a581c56493/625748c11c67524fc6889299/screenshot-springboot-with-elasticsearch-s…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/how-to-deploy-natural-language-processing-nlp-getting-started"
-                        open
-                      >
-                        <summary class="article-expander__title">How to deploy natural language processing (NLP): Getting started</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/how-to-deploy-natural-language-processing-nlp-getting-started">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt012c68154c83cc3b/5ffdb718fee93e550328c2b6/blog-thumb-community-discussion.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>,
-The release of the Elastic Stack 8.0 introduced the ability to upload PyTorch machine learning models into Elasticsearch to provide modern natural language processing (NLP) in the Elastic Stack. NLP opens up opportunities to extract information, classify text, and provide better search relevance through dense vectors and approximate nearest neighbor search.
-In this multi-part blog series, we will walk through end-to-end examples using a variety of PyTorch NLP models.
-Part 1: Getting started with NLP models
-Part 2: Named entity recognition (NER)
-Part 3: Sentiment analysis
-In each example we will use a prebuilt NLP model from the Hugging Face model hub. Then we will follow the Elastic documented instructions for deploying an NLP model and adding NLP inference to an ingest pipeline.  Because it’s always a good idea to start with a defined use case and an understanding of the text data to process in the model, we’ll start by defining the objective for using NLP and a shared data set for anyone to try out.
-To prepare for the NLP example, we will need an Elasticsearch cluster running at least version 8.0, an ML node with at least 2GB RAM, and for the named entity recognition (NER) example we’ll use the required mapper-annotated-text plugin. One of the easiest ways to get started is by following along with these NLP examples with your own free 14-day trial cluster on Elastic Cloud. Cloud trials are able to scale to a max of two 2GB ML nodes, which will allow you to deploy one or two of examples at any one time in this multi-part blog series.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/how-to-deploy-nlp-sentiment-analysis-example"
-                        open
-                      >
-                        <summary class="article-expander__title">How to deploy NLP: Sentiment Analysis Example</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/how-to-deploy-nlp-sentiment-analysis-example">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt680bbcd6229c1faf/620d8aa46c53c5684497f8bc/illustration-industries-retail.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>,
-As part of our multi-blog series on natural language processing (NLP), we will walk through an example using a sentiment analysis NLP model to evaluate if comment (text) fields contain positive or negative sentiments. Using a publicly available model, we will show you how to deploy that model to Elasticsearch and use the model in an ingest pipeline to classify customer reviews as being either a positive or negative.
-Sentiment analysis is a type of binary classification where the field is predicted to be either one value or the other. There is typically a probability score for that prediction between 0 and 1, with scores closer to 1 indicating more-confident predictions. This type of NLP analysis can be usefully applied to many data sets such as product reviews or customer feedback.
-The c…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2850,40 +2808,6 @@ Since the agent receives no intermediary rewards, it cannot measure how close it
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Seth Godin&#x27;s Blog on marketing, tribes and respect</button>
-                  <a class="source-heading__link" href="https://seths.blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://seths.blog/?p&#x3D;41748"
-                        open
-                      >
-                        <summary class="article-expander__title">And maybe it’s enough</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://feeds.feedblitz.com/~/689783688/0/sethsblog~And-maybe-its-enough/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>To feel sufficient, to be satisfied with what we have: Chisoku in Japanese. Of course, by some measures, there’s never enough. We can always come up with a reason why more is better, or better is better, or new is better or different is better. Enough becomes a choice, not a measure of science. The […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >Spring</button>
                   <a class="source-heading__link" href="https://spring.io/blog">Open</a>
                 </h3>
@@ -3190,6 +3114,50 @@ Elastic Cloud on AWS helps you innovate faster with cloud-native features that a
                         </a>
                       </details>
                     </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/elastic-joins-data-cloud-alliance-as-founding-member"
+                        open
+                      >
+                        <summary class="article-expander__title">Elastic joins Data Cloud Alliance as founding member</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/elastic-joins-data-cloud-alliance-as-founding-member">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltbf1cb3af2e33ff3d/624c620812ae2d0559532248/Cloud_s_Data_Cloud_Alliance_copy_2.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>This partnership brings together the most widely-adopted and fastest-growing enterprise data platforms to enable organizations to accelerate the pace of digital transformation with new data integrations, common industry models, and talent training.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/elastic-joins-data-cloud-alliance-as-founding-member"
+                        open
+                      >
+                        <summary class="article-expander__title">Elastic joins Data Cloud Alliance as founding member</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/elastic-joins-data-cloud-alliance-as-founding-member">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltbf1cb3af2e33ff3d/624c620812ae2d0559532248/Cloud_s_Data_Cloud_Alliance_copy_2.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>,
+Elastic is partnering with Google Cloud and eight other data organizations to launch the Data Cloud Alliance–an initiative to accelerate the pace of digital transformation for organizations around the world by expanding data accessibility, integrations for better insights and action.
+
+Every business is facing growing pressure to reach new customers, develop new products, and adhere to complex regulatory environments. The Data Cloud Alliance has been designed to provide businesses with easier access to their data, along with the analytical and AI capabilities they need to scale, with the most widely-adopted and fastest-growing enterprise data platforms. 
+Elastic is committed to supporting the cloud migration of our customers and expanding the accessibility, reliability, and security of da…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                 </section>
               </section>
             </li>
@@ -3232,6 +3200,63 @@ Elastic Cloud on AWS helps you innovate faster with cloud-native features that a
                             <span class="media-object__text">
                               <span>This post is part of our Week in Review series. Check back each week for a quick round up of interesting news and announcements from AWS! Welcome to the April 4 edition of the AWS Week in Review. This week, alongside the main launches, I also captured a couple of new capabilities, such as a […]</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Elastic Blog - Elasticsearch, Kibana, and ELK Stack</button>
+                  <a class="source-heading__link" href="https://www.elastic.co">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/primer-to-understanding-observability-elastic"
+                        open
+                      >
+                        <summary class="article-expander__title">A primer to understanding observability</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/primer-to-understanding-observability-elastic">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltef3f66f8945f529e/624b7c2c401a330923990b76/unnamed.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>The one certainty you will find in IT, developer, and SRE roles is that things always change! One hot topic in DevOps communities is observability. A long word, you may be wondering what it really means and how you can add it to your skillset. Here’s a quick primer to get you going on your path to observability.
+Where did the term “observability” come from?
+The concept of observability dates back to the mid-20th century, where it was originally used in control theory to describe how the internal states of a system can be inferred from knowledge of the system’s external outputs. Rudolf E. Kalman, a Hungarian-American electrical engineer and mathematician, coined the term in the 1960s in several seminal papers around dynamical and observable systems. 
+While the term is still used in the math…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/primer-to-understanding-observability-elastic"
+                        open
+                      >
+                        <summary class="article-expander__title">A primer to understanding observability</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/primer-to-understanding-observability-elastic">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltef3f66f8945f529e/624b7c2c401a330923990b76/unnamed.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>A long word, you may be wondering what it really means and how you can add it to your skill set. Here’s a quick primer to get you going on your path to observability.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4758,115 +4783,10 @@ Typically when people hear the word edge, everyone gets a little apprehensive of
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-03-17 datetime="2022-03-17T18:33:31.000Z">2022-03-17</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-03-17 datetime="2022-03-17T18:33:31.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Azure DevOps Blog</button>
-                  <a class="source-heading__link" href="https://devblogs.microsoft.com/devops">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://devblogs.microsoft.com/devops/?p&#x3D;63598"
-                        open
-                      >
-                        <summary class="article-expander__title">Azure Artifacts feed continues to make product accessible to everyone</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://devblogs.microsoft.com/devops/azure-artifacts-feed-continues-to-make-product-accessible-to-everyone/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2019/11/Artifacts.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Azure Artifacts feeds continues to make products accessible for everyone with support for WCAG 2.1
-The post Azure Artifacts feed continues to make product accessible to everyone appeared first on Azure DevOps Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://devblogs.microsoft.com/devops/?p&#x3D;63606"
-                        open
-                      >
-                        <summary class="article-expander__title">Azure Artifacts now provides native support to use packages from more repositories</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://devblogs.microsoft.com/devops/azure-artifacts-now-provides-native-support-to-use-packages-from-more-repositories/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/03/Native-upstream-support.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Artifacts now natively supports Google Maven Repository, Gradle Plugins, and Jitpack as upstream sources. Azure Artifacts also added native support upstreaming to PowerShell Gallery.
-The post Azure Artifacts now provides native support to use packages from more repositories appeared first on Azure DevOps Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Google AI Blog</button>
-                  <a class="source-heading__link" href="http://ai.googleblog.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://ai.googleblog.com/2022/03/offline-optimization-for-architecting.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Offline Optimization for Architecting Hardware Accelerators</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://ai.googleblog.com/2022/03/offline-optimization-for-architecting.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Posted by Amir Yazdanbakhsh, Research Scientist and Aviral Kumar, Student Researcher, Google Research 
-Advances in machine learning (ML) often come with advances in hardware and computing systems. For example, the growth of ML-based approaches in solving various problems in vision and language has led to the development of application-specific hardware accelerators (e.g., Google TPUs and Edge TPUs). While promising, standard procedures for designing accelerators customized towards a target application require manual effort to devise a reasonably accurate simulator of hardware, followed by performing many time-intensive simulations to optimize the desired objective (e.g., optimizing for low power usage or latency when running a particular application). This involves identifying the right ba…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/vxavictor513/osmosfeed/actions/runs/2175161489">
-        <time id="build-timestamp" datetime="2022-04-16T01:36:07.170Z">2022-04-16T01:36:07.170Z</time>
+      <a class="footer-link" href="https://github.com/vxavictor513/osmosfeed/actions/runs/2178526215">
+        <time id="build-timestamp" datetime="2022-04-17T01:42:40.383Z">2022-04-17T01:42:40.383Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.14.4</a>
     </footer>

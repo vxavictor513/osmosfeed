@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-04-16T01:36:07.218Z</id>
+    <id>urn:2022-04-17T01:42:40.411Z</id>
     <title>osmos::feed</title>
-    <updated>2022-04-16T01:36:07.218Z</updated>
+    <updated>2022-04-17T01:42:40.411Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The resolution of communication]]></title>
+        <id>https://seths.blog/?p=41859</id>
+        <link href="https://feeds.feedblitz.com/~/691534446/0/sethsblog~The-resolution-of-communication/"/>
+        <updated>2022-04-16T09:03:00.000Z</updated>
+        <summary type="html"><![CDATA[What’s better, a phone call or a zoom call? Which creates more intimacy, a meeting in person or a hand-written letter? The only answer is: it depends. It’s tempting to believe that being in a store, surrounded by sights, smells, packaging, crowds and helpful salespeople delivers more interaction and sales than a catalog. But a […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Security alert: Attack campaign involving stolen OAuth user tokens issued to two third-party integrators]]></title>
         <id>https://github.blog/2022-04-15-security-alert-stolen-oauth-user-tokens/</id>
@@ -57,26 +67,6 @@ The post Code Studio: A Hands-on Guided Tour of Camunda Platform 8 appeared firs
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to deploy natural language processing (NLP): Getting started]]></title>
-        <id>https://www.elastic.co/blog/how-to-deploy-natural-language-processing-nlp-getting-started</id>
-        <link href="https://www.elastic.co/blog/how-to-deploy-natural-language-processing-nlp-getting-started"/>
-        <updated>2022-04-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This blog describes the process for getting up and running with deep learning models for natural language processing (NLP) in Elasticsearch using HuggingFace and PyTorch.]]></summary>
-        <author>
-            <name>David Kyle</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to deploy NLP: Sentiment Analysis Example]]></title>
-        <id>https://www.elastic.co/blog/how-to-deploy-nlp-sentiment-analysis-example</id>
-        <link href="https://www.elastic.co/blog/how-to-deploy-nlp-sentiment-analysis-example"/>
-        <updated>2022-04-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Taking Sentiment Analysis as the example task, this blog describes the process for getting up and running using deep learning models for Natural Language Processing in Elasticsearch.]]></summary>
-        <author>
-            <name>David Kyle</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Using Spring Boot with Elastic App Search]]></title>
         <id>https://www.elastic.co/blog/using-spring-boot-with-elastic-app-search</id>
         <link href="https://www.elastic.co/blog/using-spring-boot-with-elastic-app-search"/>
@@ -93,36 +83,6 @@ and grab a coffee before the serious work begins. After a few minutes you should
 https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt59d116a581c56493/625748c11c67524fc6889299/screenshot-springboot-with-elasticsearch-s…]]></summary>
         <author>
             <name>Alexander Reelsen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to deploy natural language processing (NLP): Getting started]]></title>
-        <id>https://www.elastic.co/blog/how-to-deploy-natural-language-processing-nlp-getting-started</id>
-        <link href="https://www.elastic.co/blog/how-to-deploy-natural-language-processing-nlp-getting-started"/>
-        <updated>2022-04-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-The release of the Elastic Stack 8.0 introduced the ability to upload PyTorch machine learning models into Elasticsearch to provide modern natural language processing (NLP) in the Elastic Stack. NLP opens up opportunities to extract information, classify text, and provide better search relevance through dense vectors and approximate nearest neighbor search.
-In this multi-part blog series, we will walk through end-to-end examples using a variety of PyTorch NLP models.
-Part 1: Getting started with NLP models
-Part 2: Named entity recognition (NER)
-Part 3: Sentiment analysis
-In each example we will use a prebuilt NLP model from the Hugging Face model hub. Then we will follow the Elastic documented instructions for deploying an NLP model and adding NLP inference to an ingest pipeline.  Because it’s always a good idea to start with a defined use case and an understanding of the text data to process in the model, we’ll start by defining the objective for using NLP and a shared data set for anyone to try out.
-To prepare for the NLP example, we will need an Elasticsearch cluster running at least version 8.0, an ML node with at least 2GB RAM, and for the named entity recognition (NER) example we’ll use the required mapper-annotated-text plugin. One of the easiest ways to get started is by following along with these NLP examples with your own free 14-day trial cluster on Elastic Cloud. Cloud trials are able to scale to a max of two 2GB ML nodes, which will allow you to deploy one or two of examples at any one time in this multi-part blog series.]]></summary>
-        <author>
-            <name>David Kyle</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to deploy NLP: Sentiment Analysis Example]]></title>
-        <id>https://www.elastic.co/blog/how-to-deploy-nlp-sentiment-analysis-example</id>
-        <link href="https://www.elastic.co/blog/how-to-deploy-nlp-sentiment-analysis-example"/>
-        <updated>2022-04-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-As part of our multi-blog series on natural language processing (NLP), we will walk through an example using a sentiment analysis NLP model to evaluate if comment (text) fields contain positive or negative sentiments. Using a publicly available model, we will show you how to deploy that model to Elasticsearch and use the model in an ingest pipeline to classify customer reviews as being either a positive or negative.
-Sentiment analysis is a type of binary classification where the field is predicted to be either one value or the other. There is typically a probability score for that prediction between 0 and 1, with scores closer to 1 indicating more-confident predictions. This type of NLP analysis can be usefully applied to many data sets such as product reviews or customer feedback.
-The c…]]></summary>
-        <author>
-            <name>David Kyle</name>
         </author>
     </entry>
     <entry>
@@ -1047,16 +1007,6 @@ Since the agent receives no intermediary rewards, it cannot measure how close it
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[And maybe it’s enough]]></title>
-        <id>https://seths.blog/?p=41748</id>
-        <link href="https://feeds.feedblitz.com/~/689783688/0/sethsblog~And-maybe-its-enough/"/>
-        <updated>2022-04-06T09:40:00.000Z</updated>
-        <summary type="html"><![CDATA[To feel sufficient, to be satisfied with what we have: Chisoku in Japanese. Of course, by some measures, there’s never enough. We can always come up with a reason why more is better, or better is better, or new is better or different is better. Enough becomes a choice, not a measure of science. The […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Spring Cloud Data Flow 2.9.4 Released]]></title>
         <id>https://spring.io/blog/2022/04/05/spring-cloud-data-flow-2-9-4-released</id>
         <link href="https://spring.io/blog/2022/04/05/spring-cloud-data-flow-2-9-4-released"/>
@@ -1219,6 +1169,30 @@ Elastic Cloud on AWS helps you innovate faster with cloud-native features that a
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Elastic joins Data Cloud Alliance as founding member]]></title>
+        <id>https://www.elastic.co/blog/elastic-joins-data-cloud-alliance-as-founding-member</id>
+        <link href="https://www.elastic.co/blog/elastic-joins-data-cloud-alliance-as-founding-member"/>
+        <updated>2022-04-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This partnership brings together the most widely-adopted and fastest-growing enterprise data platforms to enable organizations to accelerate the pace of digital transformation with new data integrations, common industry models, and talent training.]]></summary>
+        <author>
+            <name>Paul Smalera</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Elastic joins Data Cloud Alliance as founding member]]></title>
+        <id>https://www.elastic.co/blog/elastic-joins-data-cloud-alliance-as-founding-member</id>
+        <link href="https://www.elastic.co/blog/elastic-joins-data-cloud-alliance-as-founding-member"/>
+        <updated>2022-04-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+Elastic is partnering with Google Cloud and eight other data organizations to launch the Data Cloud Alliance–an initiative to accelerate the pace of digital transformation for organizations around the world by expanding data accessibility, integrations for better insights and action.
+
+Every business is facing growing pressure to reach new customers, develop new products, and adhere to complex regulatory environments. The Data Cloud Alliance has been designed to provide businesses with easier access to their data, along with the analytical and AI capabilities they need to scale, with the most widely-adopted and fastest-growing enterprise data platforms. 
+Elastic is committed to supporting the cloud migration of our customers and expanding the accessibility, reliability, and security of da…]]></summary>
+        <author>
+            <name>Paul Smalera</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[AWS Week in Review – April 4, 2022]]></title>
         <id>6e8469ff0f01ab8c8b1e0c9ad99babde49d94aea</id>
         <link href="https://aws.amazon.com/blogs/aws/aws-week-in-review-april-4-2022/"/>
@@ -1226,6 +1200,29 @@ Elastic Cloud on AWS helps you innovate faster with cloud-native features that a
         <summary type="html"><![CDATA[This post is part of our Week in Review series. Check back each week for a quick round up of interesting news and announcements from AWS! Welcome to the April 4 edition of the AWS Week in Review. This week, alongside the main launches, I also captured a couple of new capabilities, such as a […]]]></summary>
         <author>
             <name>Sébastien Stormacq</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A primer to understanding observability]]></title>
+        <id>https://www.elastic.co/blog/primer-to-understanding-observability-elastic</id>
+        <link href="https://www.elastic.co/blog/primer-to-understanding-observability-elastic"/>
+        <updated>2022-04-04T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The one certainty you will find in IT, developer, and SRE roles is that things always change! One hot topic in DevOps communities is observability. A long word, you may be wondering what it really means and how you can add it to your skillset. Here’s a quick primer to get you going on your path to observability.
+Where did the term “observability” come from?
+The concept of observability dates back to the mid-20th century, where it was originally used in control theory to describe how the internal states of a system can be inferred from knowledge of the system’s external outputs. Rudolf E. Kalman, a Hungarian-American electrical engineer and mathematician, coined the term in the 1960s in several seminal papers around dynamical and observable systems. 
+While the term is still used in the math…]]></summary>
+        <author>
+            <name>Ron Wen,Jamie Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A primer to understanding observability]]></title>
+        <id>https://www.elastic.co/blog/primer-to-understanding-observability-elastic</id>
+        <link href="https://www.elastic.co/blog/primer-to-understanding-observability-elastic"/>
+        <updated>2022-04-04T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A long word, you may be wondering what it really means and how you can add it to your skill set. Here’s a quick primer to get you going on your path to observability.]]></summary>
+        <author>
+            <name>Ron Wen,Jamie Smith</name>
         </author>
     </entry>
     <entry>
@@ -1779,39 +1776,6 @@ Typically when people hear the word edge, everyone gets a little apprehensive of
         <summary type="html"><![CDATA[With increased adoption of container automation, IT organizations continue to expand their requirements when it comes to deploying and managing their Kubernetes clusters. As such, we at Red Hat continue to add new features and capabilities to meet those demands by announcing the availability of kubernetes.core version 2.3, our Red Hat Ansible Certified Content Collection for Kubernetes and Helm.]]></summary>
         <author>
             <name>Roger Lopez</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Azure Artifacts feed continues to make product accessible to everyone]]></title>
-        <id>https://devblogs.microsoft.com/devops/?p=63598</id>
-        <link href="https://devblogs.microsoft.com/devops/azure-artifacts-feed-continues-to-make-product-accessible-to-everyone/"/>
-        <updated>2022-03-17T18:33:31.000Z</updated>
-        <summary type="html"><![CDATA[Azure Artifacts feeds continues to make products accessible for everyone with support for WCAG 2.1
-The post Azure Artifacts feed continues to make product accessible to everyone appeared first on Azure DevOps Blog.]]></summary>
-        <author>
-            <name>Michael Omokoh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Offline Optimization for Architecting Hardware Accelerators]]></title>
-        <id>http://ai.googleblog.com/2022/03/offline-optimization-for-architecting.html</id>
-        <link href="http://ai.googleblog.com/2022/03/offline-optimization-for-architecting.html"/>
-        <updated>2022-03-17T18:04:00.002Z</updated>
-        <summary type="html"><![CDATA[Posted by Amir Yazdanbakhsh, Research Scientist and Aviral Kumar, Student Researcher, Google Research 
-Advances in machine learning (ML) often come with advances in hardware and computing systems. For example, the growth of ML-based approaches in solving various problems in vision and language has led to the development of application-specific hardware accelerators (e.g., Google TPUs and Edge TPUs). While promising, standard procedures for designing accelerators customized towards a target application require manual effort to devise a reasonably accurate simulator of hardware, followed by performing many time-intensive simulations to optimize the desired objective (e.g., optimizing for low power usage or latency when running a particular application). This involves identifying the right ba…]]></summary>
-        <author>
-            <name>Google AI Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Azure Artifacts now provides native support to use packages from more repositories]]></title>
-        <id>https://devblogs.microsoft.com/devops/?p=63606</id>
-        <link href="https://devblogs.microsoft.com/devops/azure-artifacts-now-provides-native-support-to-use-packages-from-more-repositories/"/>
-        <updated>2022-03-17T17:39:19.000Z</updated>
-        <summary type="html"><![CDATA[Artifacts now natively supports Google Maven Repository, Gradle Plugins, and Jitpack as upstream sources. Azure Artifacts also added native support upstreaming to PowerShell Gallery.
-The post Azure Artifacts now provides native support to use packages from more repositories appeared first on Azure DevOps Blog.]]></summary>
-        <author>
-            <name>Michael Omokoh</name>
         </author>
     </entry>
 </feed>

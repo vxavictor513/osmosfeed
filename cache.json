@@ -6,6 +6,16 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2022/05/02/ever-wanted-to-rewrite-a-query-in-spring-data-jpa",
+          "author": null,
+          "description": "Sometimes, no matter how many features you try to apply, it seems impossible to get Spring Data JPA to apply every thing\r\nyou’d like to a query before it is sent to the EntityManager.\n\r\n\r\n\r\nWith 3.0.0-SNAPSHOT (and targeted for the next milestone release train of Spring Data), you now have the ability to get your hands on the query, right before it’s sent to the EntityManager and \"rewrite\" it. That is, you can make any alterations at the last moment.\n\r\n\r\n\r\nCheck it out below:\n\r\n\r\n\r\nExample 1. Declare a QueryRewriter using @Query\n\r\n\r\n\r\n\r\npublic interface MyRepository extends JpaRepository<User, Long> {\r\n\r\n    @Query(value = \"select original_user_alias.* from SD_USER original_user_alias\",\r\n                    nativeQuery = true, queryRewriter = MyQueryRewriter.class) // (1)\r\n    List<User> f…",
+          "link": "https://spring.io/blog/2022/05/02/ever-wanted-to-rewrite-a-query-in-spring-data-jpa",
+          "publishedOn": "2022-05-03T00:03:00.000Z",
+          "wordCount": 862,
+          "title": "Ever wanted to rewrite a query in Spring Data JPA?",
+          "imageUrl": "https://avatars.githubusercontent.com/u/311040?v=4?s=200"
+        },
+        {
           "id": "https://spring.io/blog/2022/04/28/a-bootiful-podcast-simon-ritter-java-champion-and-deputy-cto-at-azul",
           "author": null,
           "description": "Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks to Azul Deputy CTO and Java’s own mad scientist and luminary Simon Ritter (@speakjava)",
@@ -194,16 +204,6 @@
           "wordCount": 620,
           "title": "This Week in Spring - April 12th, 2022 (Devnexus 2022 Edition!!)",
           "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/04/07/a-bootiful-podcast-graphql-java-founder-andi-marek",
-          "author": null,
-          "description": "Hi, Spring fans! In this installment of a Bootiful Podcast, Josh Long (@starbuxman) talks to the GraphQL Java project founder and lead, Atlassian engineer, and Spring GraphQL cofounder Andi Marek (@andimarek).",
-          "link": "https://spring.io/blog/2022/04/07/a-bootiful-podcast-graphql-java-founder-andi-marek",
-          "publishedOn": "2022-04-07T20:00:00.000Z",
-          "wordCount": 412,
-          "title": "A Bootiful Podcast: GraphQL Java founder Andi Marek",
-          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
         }
       ]
     },
@@ -218,7 +218,7 @@
           "description": "Consul API Gateway 0.2, now generally available, enhances the gateway’s traffic management capabilities by adding cross-namespace reference policy enforcement.",
           "link": "https://www.hashicorp.com/blog/consul-api-gateway-0-2-brings-new-cross-namespace-controls",
           "publishedOn": "2022-04-27T19:00:00.000Z",
-          "wordCount": 752,
+          "wordCount": 753,
           "title": "Consul API Gateway 0.2 Brings New Cross-Namespace Controls",
           "imageUrl": "https://www.datocms-assets.com/2885/1620082422-blog-library-product-kubernetes-consul-dark.jpg"
         },
@@ -228,7 +228,7 @@
           "description": "The 2022 HashiCorp Partner Network Awards for Systems Integrators and Resellers have been announced. Find out who the winners are in our five categories this year.",
           "link": "https://www.hashicorp.com/blog/announcing-the-2022-hashicorp-si-reseller-partner-network-award-winners",
           "publishedOn": "2022-04-27T16:00:00.000Z",
-          "wordCount": 815,
+          "wordCount": 816,
           "title": "Announcing the 2022 HashiCorp SI & Reseller Partner Network Award Winners",
           "imageUrl": "https://www.datocms-assets.com/2885/1651074437-hpn_systems_integrator_partner_award_winners_01-2.png"
         },
@@ -238,7 +238,7 @@
           "description": "A new search capability available for all tiers in Terraform Cloud will allow you to easily switch between workspaces and organizations in the UI.",
           "link": "https://www.hashicorp.com/blog/new-terraform-cloud-search-to-streamline-workspace-search-and-switching",
           "publishedOn": "2022-04-25T16:00:00.000Z",
-          "wordCount": 800,
+          "wordCount": 801,
           "title": "New Terraform Cloud Search to Streamline Workspace Search and Switching",
           "imageUrl": "https://www.datocms-assets.com/2885/1620073839-blog-library-product-terraform-cloud-tfc-black-corner-iconography.jpg"
         },
@@ -248,7 +248,7 @@
           "description": "This release strengthens zero trust security architecture by leveraging HashiCorp Vault to reduce secrets sprawl and automate server TLS certificate rotation.",
           "link": "https://www.hashicorp.com/blog/consul-1-12-hardens-security-on-kubernetes-with-vault",
           "publishedOn": "2022-04-22T16:00:00.000Z",
-          "wordCount": 1198,
+          "wordCount": 1199,
           "title": "Consul 1.12 Hardens Security on Kubernetes with Vault",
           "imageUrl": "https://www.datocms-assets.com/2885/1620082415-blog-library-product-kubernetes-consul-dark-logomark-lockup.jpg"
         },
@@ -258,7 +258,7 @@
           "description": "Learn how download metrics are calculated in the HashiCorp Terraform Registry, and how that count has evolved over time.",
           "link": "https://www.hashicorp.com/blog/how-we-count-downloads-in-the-public-terraform-registry",
           "publishedOn": "2022-04-21T16:00:00.000Z",
-          "wordCount": 1616,
+          "wordCount": 1617,
           "title": "How We Count Downloads in the Public Terraform Registry",
           "imageUrl": "https://www.datocms-assets.com/2885/1620081857-blog-library-product-terraform-dark-gradient.jpg"
         },
@@ -268,7 +268,7 @@
           "description": "HashiCorp has partnered with AWS to enhance security on Amazon Elastic Kubernetes Service with Vault.",
           "link": "https://www.hashicorp.com/blog/vault-and-aws-partner-to-enhance-kubernetes-security",
           "publishedOn": "2022-04-20T18:00:00.000Z",
-          "wordCount": 1026,
+          "wordCount": 1027,
           "title": "HashiCorp and AWS Make it Easier to Secure Workloads in EKS with Vault",
           "imageUrl": "https://www.datocms-assets.com/2885/1608228058-blog-library-product-vault-aws.png"
         },
@@ -278,7 +278,7 @@
           "description": "For Kubernetes users looking to learn HashiCorp Nomad concepts and commands  — or vice versa — we’ve designed a cheat sheet for quick reference and a fast onramp.",
           "link": "https://www.hashicorp.com/blog/the-kubernetes-to-nomad-cheat-sheet",
           "publishedOn": "2022-04-19T16:00:00.000Z",
-          "wordCount": 670,
+          "wordCount": 671,
           "title": "The Kubernetes to Nomad Cheat Sheet",
           "imageUrl": "https://www.datocms-assets.com/2885/1620083839-blog-library-product-nomad-dark-graphics.jpg"
         },
@@ -288,7 +288,7 @@
           "description": "The all-new AWS DevSecOps Competency includes HashiCorp as a Day 1 launch partner.",
           "link": "https://www.hashicorp.com/blog/hashicorp-achieves-aws-devops-competency-status",
           "publishedOn": "2022-04-14T20:00:00.000Z",
-          "wordCount": 940,
+          "wordCount": 941,
           "title": "HashiCorp Achieves AWS DevOps Competency Status",
           "imageUrl": "https://www.datocms-assets.com/2885/1608227931-blog-library-product-aws.png"
         },
@@ -298,7 +298,7 @@
           "description": "The HashiCorp Consul ecosystem has experienced rapid growth in the past six months, recording a total of 10 new integrations.",
           "link": "https://www.hashicorp.com/blog/cisco-datadog-fortinet-vmware-others-add-consul-integrations",
           "publishedOn": "2022-04-13T16:00:00.000Z",
-          "wordCount": 1047,
+          "wordCount": 1048,
           "title": "Cisco, Datadog, Fortinet, VMware & Others Add Consul Integrations",
           "imageUrl": "https://www.datocms-assets.com/2885/1649864338-q1consulintegrationsgraphic.png"
         },
@@ -308,7 +308,7 @@
           "description": "The latest version of HashiCorp Consul on Amazon ECS adds support for multi-tenancy with administrative partitions and namespaces.",
           "link": "https://www.hashicorp.com/blog/consul-on-amazon-ecs-0-4-now-supports-multi-tenancy",
           "publishedOn": "2022-04-12T16:00:00.000Z",
-          "wordCount": 1090,
+          "wordCount": 1091,
           "title": "Consul on Amazon ECS 0.4 Now Supports Multi-Tenancy",
           "imageUrl": "https://www.datocms-assets.com/2885/1620155275-blog-library-product-consul-aws-logomarks-dark.jpg"
         },
@@ -318,7 +318,7 @@
           "description": "Learn how to retrieve static secrets from HashiCorp Vault in a real-world setting using a new sample application.",
           "link": "https://www.hashicorp.com/blog/how-to-integrate-your-application-with-vault-static-secrets",
           "publishedOn": "2022-04-11T17:00:00.000Z",
-          "wordCount": 1060,
+          "wordCount": 1061,
           "title": "How to Integrate Your Application with Vault: Static Secrets",
           "imageUrl": "https://www.datocms-assets.com/2885/1620082999-blog-library-product-vault-black.jpg"
         },
@@ -328,7 +328,7 @@
           "description": "HashiCorp Waypoint 0.8 introduces targetable runners, secret values for input variables, and a new command line tool that adds new insight to Waypoint operations.",
           "link": "https://www.hashicorp.com/blog/waypoint-0-8-adds-secret-values-for-input-variables",
           "publishedOn": "2022-04-07T18:00:00.000Z",
-          "wordCount": 2013,
+          "wordCount": 2014,
           "title": "Waypoint 0.8 Adds Secret Values for Input Variables",
           "imageUrl": "https://www.datocms-assets.com/2885/1620083911-blog-library-product-waypoint-black.jpg"
         },
@@ -338,7 +338,7 @@
           "description": "Nomad 1.3 includes built-in service discovery, improved edge compute support, Container Storage Interface (CSI) general availability, and more.",
           "link": "https://www.hashicorp.com/blog/nomad-1-3-adds-native-service-discovery-and-edge-workload-support",
           "publishedOn": "2022-04-07T16:00:00.000Z",
-          "wordCount": 2595,
+          "wordCount": 2596,
           "title": "Nomad 1.3 Beta Adds Native Service Discovery and Edge Workload Support",
           "imageUrl": "https://www.datocms-assets.com/2885/1620083839-blog-library-product-nomad-dark-graphics.jpg"
         },
@@ -348,7 +348,7 @@
           "description": "HashiCorp expands MFA support across open source and all HCP Vault tiers, previously available only through Vault Enterprise.",
           "link": "https://www.hashicorp.com/blog/login-mfa-support-added-to-vault-open-source-and-hcp-vault",
           "publishedOn": "2022-04-07T13:00:00.000Z",
-          "wordCount": 878,
+          "wordCount": 879,
           "title": "Login MFA Support Added to Vault Open Source and HCP Vault",
           "imageUrl": "https://www.datocms-assets.com/2885/1620082999-blog-library-product-vault-black.jpg"
         },
@@ -358,7 +358,7 @@
           "description": "Configure the Secrets Store CSI driver with HashiCorp Vault to securely inject secrets into Flux or other GitOps tools on Kubernetes.",
           "link": "https://www.hashicorp.com/blog/manage-kubernetes-secrets-for-flux-with-hashicorp-vault",
           "publishedOn": "2022-04-04T16:00:00.000Z",
-          "wordCount": 3009,
+          "wordCount": 3010,
           "title": "Manage Kubernetes Secrets for Flux with HashiCorp Vault",
           "imageUrl": "https://www.datocms-assets.com/2885/1643221905-product-vault-kubernetes.jpg"
         }
@@ -677,6 +677,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "650b6b46711677bb46ba175a4d35a12387ae3f6a",
+          "author": "Steve Roberts",
+          "description": "This post is part of our Week in Review series. Check back each week for a quick roundup of interesting news and announcements from AWS! Wow, May already! Here in the Pacific Northwest, spring is in full bloom and nature has emerged completely from her winter slumbers. It feels that way here at AWS, too, […]",
+          "link": "https://aws.amazon.com/blogs/aws/aws-week-in-review-may-2-2022/",
+          "publishedOn": "2022-05-02T19:39:04.000Z",
+          "wordCount": 1732,
+          "title": "AWS Week in Review – May 2, 2022",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/05/02/AWS-WIR-5.2.22.png"
+        },
+        {
           "id": "305f11c2d5084adabac03bcf0422320fe63911fe",
           "author": "Marcia Villalba",
           "description": "Today we are making Amazon MSK Serverless generally available to help you reduce even more the operational overhead of managing an Apache Kafka cluster by offloading the capacity planning and scaling to AWS. In May 2019, we launched Amazon Managed Streaming for Apache Kafka to help our customers stream data using Apache Kafka. Apache Kafka […]",
@@ -844,6 +854,16 @@
       "siteUrl": "https://xkcd.com/",
       "articles": [
         {
+          "id": "https://xkcd.com/2614/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/2.png\" title=\"It's like sigma summation notation, except instead of summing the argument over all values of i, you 2 the argument over all values of 2.\" alt=\"It's like sigma summation notation, except instead of summing the argument over all values of i, you 2 the argument over all values of 2.\" />",
+          "link": "https://xkcd.com/2614/",
+          "publishedOn": "2022-05-02T00:00:00.000Z",
+          "wordCount": 195,
+          "title": "2",
+          "imageUrl": "https://imgs.xkcd.com/comics/2_2x.png"
+        },
+        {
           "id": "https://xkcd.com/2613/",
           "author": null,
           "description": "<img src=\"https://imgs.xkcd.com/comics/bad_map_projection_madagascator.png\" title=\"The projection's north pole is in a small lake on the island of Mahé in the Seychelles, which is off the top of the map and larger than the rest of the Earth's land area combined.\" alt=\"The projection's north pole is in a small lake on the island of Mahé in the Seychelles, which is off the top of the map and larger than the rest of the Earth's land area combined.\" />",
@@ -872,16 +892,6 @@
           "wordCount": 199,
           "title": "Cutest-Sounding Scientific Effects",
           "imageUrl": "https://imgs.xkcd.com/comics/cutest_sounding_scientific_effects_2x.png"
-        },
-        {
-          "id": "https://xkcd.com/2610/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/assigning_numbers.png\" title=\"Gödel should do an article on which branches of math have the lowest average theorem number.\" alt=\"Gödel should do an article on which branches of math have the lowest average theorem number.\" />",
-          "link": "https://xkcd.com/2610/",
-          "publishedOn": "2022-04-22T00:00:00.000Z",
-          "wordCount": 197,
-          "title": "Assigning Numbers",
-          "imageUrl": "https://imgs.xkcd.com/comics/assigning_numbers_2x.png"
         }
       ]
     },
@@ -890,6 +900,16 @@
       "feedUrl": "https://camunda.com/feed/",
       "siteUrl": "https://camunda.com",
       "articles": [
+        {
+          "id": "https://camunda.com/?p=52174",
+          "author": "Bernd Ruecker",
+          "description": "Learn about our interesting journey with benchmarking and how to run a benchmark to figure out what your Zeebe cluster can do.\nThe post How to Benchmark Your Camunda Platform 8 Cluster appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2022/05/how-to-benchmark-your-camunda-platform-8-cluster/",
+          "publishedOn": "2022-05-02T13:00:00.000Z",
+          "wordCount": 2772,
+          "title": "How to Benchmark Your Camunda Platform 8 Cluster",
+          "imageUrl": "https://camunda.com/wp-content/uploads/2022/05/2022_May_Camunda_Blog_Benchmark-Camunda-8-Cluster.png"
+        },
         {
           "id": "https://camunda.com/?p=51911",
           "author": "Christian Connors",
@@ -916,7 +936,7 @@
           "description": "Ready for a digital transformation? Learn why Swiss Re selected Camunda Platform 8 as its cloud-native process orchestration solution.\nThe post Swiss Re’s Journey Toward a Cloud-Native Orchestration Solution appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/04/swiss-res-journey-toward-a-cloud-native-orchestration-solution/",
           "publishedOn": "2022-04-22T18:00:00.000Z",
-          "wordCount": 1148,
+          "wordCount": 1143,
           "title": "Swiss Re’s Journey Toward a Cloud-Native Orchestration Solution",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/04/image1.png"
         },
@@ -926,7 +946,7 @@
           "description": "Ever struggled to notify the right people during an emergency? Learn how a fire service notification system was built with BPMN and Camunda Platform 8.\nThe post Implementing My Fire Service Notification System with Camunda Platform 8 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/04/implementing-my-fire-service-notification-system-with-camunda-platform-8/",
           "publishedOn": "2022-04-21T23:00:00.000Z",
-          "wordCount": 2054,
+          "wordCount": 2050,
           "title": "Implementing My Fire Service Notification System with Camunda Platform 8",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/04/2022-Camunda-Blog-Graphics-Template-25.jpg"
         },
@@ -946,7 +966,7 @@
           "description": "Learn about the fundamental redesigns we've made to Camunda Platform 8 to avoid some challenges present in Camunda Platform 7. \nThe post Why Performance of Parallel Tasks in Camunda Platform 8 is so Good appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/04/why-performance-of-parallel-tasks-in-camunda-platform-8-is-so-good/",
           "publishedOn": "2022-04-19T10:00:00.000Z",
-          "wordCount": 1990,
+          "wordCount": 1986,
           "title": "Why Performance of Parallel Tasks in Camunda Platform 8 is so Good",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/04/2022_Apr_Camunda_Blog_Featured-image_Performance-of-parallel-tasks-camunda-8_1200x630-1.png"
         },
@@ -979,16 +999,6 @@
           "wordCount": 693,
           "title": "#CamundaSummit Unconference: Cast Your Vote",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/04/Camunda_CCS_2022_Blog_Voting-Unconference_1200x630.png"
-        },
-        {
-          "id": "https://camunda.com/?p=48495",
-          "author": "Daniel Levy",
-          "description": "Camunda Platform 8 is here! Find out why we built Camunda Platform 8, what problems it solves, and why it’s a universal process orchestrator. \nThe post Camunda Platform 8 – Orchestrate All the Things appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2022/04/camunda-platform-8-orchestrate-all-the-things/",
-          "publishedOn": "2022-04-12T12:50:00.000Z",
-          "wordCount": 1931,
-          "title": "Camunda Platform 8 – Orchestrate All the Things",
-          "imageUrl": "https://camunda.com/wp-content/uploads/2022/04/2022_April_Camunda_Blog_Camunda-Platform-8_1200x630.png"
         }
       ]
     },
@@ -1035,12 +1045,22 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/2022-05-02-friend-zone-strategies-friendly-fork-management/",
+          "author": null,
+          "description": "This is the second and final post in a series describing friendly forks and alternative strategies for managing them.",
+          "link": "https://github.blog/2022-05-02-friend-zone-strategies-friendly-fork-management/",
+          "publishedOn": "2022-05-02T16:26:29.000Z",
+          "wordCount": 2382,
+          "title": "Being friendly: Strategies for friendly fork management",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/04/friendly-forks-.png?fit=1200%2C630"
+        },
+        {
           "id": "https://github.blog/2022-04-29-bringing-code-navigation-to-communities/",
           "author": null,
           "description": "Thanks to the efforts of the Elixir community, GitHub supports code navigation for Elixir repositories. Read how favorite language can add this support too!",
           "link": "https://github.blog/2022-04-29-bringing-code-navigation-to-communities/",
           "publishedOn": "2022-04-29T15:00:02.000Z",
-          "wordCount": 787,
+          "wordCount": 792,
           "title": "Bringing code navigation to communities",
           "imageUrl": "https://github.blog/wp-content/uploads/2021/11/GitHub-Engineering_blog-social-teal.png?fit=1200%2C630"
         },
@@ -1070,8 +1090,8 @@
           "description": "This is the first post in a two-part series describing friendly forks and alternative strategies for managing them. Stay tuned for part two coming in May!",
           "link": "https://github.blog/2022-04-25-the-friend-zone-friendly-forks-101/",
           "publishedOn": "2022-04-25T17:29:10.000Z",
-          "wordCount": 1567,
-          "title": "Friendly forks 101",
+          "wordCount": 1595,
+          "title": "Being friendly: Friendly forks 101",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/04/friendly-forks-.png"
         },
         {
@@ -1080,7 +1100,7 @@
           "description": "The ZX Spectrum, one of the best-selling microcomputers of all time, celebrates its 40 years anniversary today. Read more about how the community is still active - creating new content, archiving old content, and hacking on all sorts of hardware.",
           "link": "https://github.blog/2022-04-23-zx-spectrum-40-year-anniversary/",
           "publishedOn": "2022-04-23T07:01:13.000Z",
-          "wordCount": 1580,
+          "wordCount": 1576,
           "title": "Celebrating 40 years of ZX Spectrum ❤️ 💛 💚 💙",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/04/social-card-40yr-spectrum-zx.png"
         },
@@ -1120,19 +1140,9 @@
           "description": "The history of pre-receive hooks, how we discovered that the performance was problematic, and how we went about safely replacing them.",
           "link": "https://github.blog/2022-04-21-improving-git-push-times-through-faster-server-side-hooks/",
           "publishedOn": "2022-04-21T16:30:04.000Z",
-          "wordCount": 1349,
+          "wordCount": 1354,
           "title": "Improving Git push times through faster server side hooks",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/04/Engineering-Product@2x.png?fit=2400%2C1260"
-        },
-        {
-          "id": "https://github.blog/2022-04-20-organization-profiles-leading-the-way/",
-          "author": null,
-          "description": "Organization profiles can now display custom content visible only to members of the organization. A new Member view can be tailored to show an alternative README and pinned private repositories.",
-          "link": "https://github.blog/2022-04-20-organization-profiles-leading-the-way/",
-          "publishedOn": "2022-04-20T18:38:24.000Z",
-          "wordCount": 654,
-          "title": "Organization profiles leading the way",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/04/Engineering-Security.png?fit=1200%2C630"
         }
       ]
     },
@@ -1153,7 +1163,7 @@
           "description": "by Vivek Kaushal",
           "link": "https://netflixtechblog.com/evolution-of-ml-fact-store-5941d3231762?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-04-26T20:44:04.000Z",
-          "wordCount": 2830,
+          "wordCount": 2845,
           "title": "Evolution of ML Fact Store",
           "imageUrl": "https://miro.medium.com/max/1200/0*a37mfb9KtcdEL_mn"
         },
@@ -1163,7 +1173,7 @@
           "description": "By Alex Hutter, Falguni Jhaveri and Senthil Sayeebaba",
           "link": "https://netflixtechblog.com/how-netflix-content-engineering-makes-a-federated-graph-searchable-5c0c1c7d7eaf?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-04-12T17:16:41.000Z",
-          "wordCount": 2219,
+          "wordCount": 2215,
           "title": "How Netflix Content Engineering makes a federated graph searchable",
           "imageUrl": "https://miro.medium.com/max/1200/0*LfYcAWOrhjbp9mA7"
         }
@@ -1322,12 +1332,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=42845",
+          "author": "Seth Godin",
+          "description": "For skilled information workers, job mobility has never been easier or more profitable. And yet, countless people stay where they are, without ever considering why. For example, there are hundreds of senior leaders and contributors at Twitter who haven’t quit their jobs in the last week. Even though they have a financial cushion, a technical […]",
+          "link": "https://feeds.feedblitz.com/~/693901112/0/sethsblog~Sunk-costs-at-work/",
+          "publishedOn": "2022-05-02T09:02:00.000Z",
+          "wordCount": 344,
+          "title": "Sunk costs at work",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806137-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=42852",
           "author": "Seth Godin",
           "description": "Launching today, a free ebook: Generation Carbon: A Carbon Almanac for Kids. A worldwide team of volunteers wrote, designed and illustrated this free PDF. The hope is that you’ll grab a copy and share it with ten people. That you’ll read it to your parents or to your kids. There are all sorts of bonuses […]",
           "link": "https://feeds.feedblitz.com/~/693746912/0/sethsblog~Read-to-your-kidsread-to-your-parents/",
           "publishedOn": "2022-05-01T09:18:00.000Z",
-          "wordCount": 226,
+          "wordCount": 227,
           "title": "Read to your kids/read to your parents",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg"
         },
@@ -1410,16 +1430,6 @@
           "wordCount": 228,
           "title": "“Because it’s more convenient”",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061315.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=41890",
-          "author": "Seth Godin",
-          "description": "Your mileage may vary. Speeding up to get to a red light faster just wastes energy. Honking doesn’t make traffic go away. Doesn’t matter how fancy your car is, it’s not worth very much if they close the road. One of the worst ways to get to where you’re going is to always drive in […]",
-          "link": "https://feeds.feedblitz.com/~/692313834/0/sethsblog~The-traffic-metaphors/",
-          "publishedOn": "2022-04-22T08:45:00.000Z",
-          "wordCount": 303,
-          "title": "The traffic metaphors",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg"
         }
       ]
     },

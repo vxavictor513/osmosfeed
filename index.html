@@ -22,6 +22,261 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-05-03 datetime="2022-05-03T00:03:00.000Z">2022-05-03</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-05-03 datetime="2022-05-03T00:03:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Spring</button>
+                  <a class="source-heading__link" href="https://spring.io/blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://spring.io/blog/2022/05/02/ever-wanted-to-rewrite-a-query-in-spring-data-jpa"
+                        open
+                      >
+                        <summary class="article-expander__title">Ever wanted to rewrite a query in Spring Data JPA?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://spring.io/blog/2022/05/02/ever-wanted-to-rewrite-a-query-in-spring-data-jpa">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://avatars.githubusercontent.com/u/311040?v&#x3D;4?s&#x3D;200" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Sometimes, no matter how many features you try to apply, it seems impossible to get Spring Data JPA to apply every thing
+you’d like to a query before it is sent to the EntityManager.
+
+
+
+With 3.0.0-SNAPSHOT (and targeted for the next milestone release train of Spring Data), you now have the ability to get your hands on the query, right before it’s sent to the EntityManager and &quot;rewrite&quot; it. That is, you can make any alterations at the last moment.
+
+
+
+Check it out below:
+
+
+
+Example 1. Declare a QueryRewriter using @Query
+
+
+
+
+public interface MyRepository extends JpaRepository {
+
+    @Query(value &#x3D; &quot;select original_user_alias.* from SD_USER original_user_alias&quot;,
+                    nativeQuery &#x3D; true, queryRewriter &#x3D; MyQueryRewriter.class) // (1)
+    List f…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-05-02 datetime="2022-05-02T19:39:04.000Z">2022-05-02</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-05-02 datetime="2022-05-02T19:39:04.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >AWS News Blog</button>
+                  <a class="source-heading__link" href="https://aws.amazon.com/blogs/aws/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="650b6b46711677bb46ba175a4d35a12387ae3f6a"
+                        open
+                      >
+                        <summary class="article-expander__title">AWS Week in Review – May 2, 2022</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://aws.amazon.com/blogs/aws/aws-week-in-review-may-2-2022/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/05/02/AWS-WIR-5.2.22.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>This post is part of our Week in Review series. Check back each week for a quick roundup of interesting news and announcements from AWS! Wow, May already! Here in the Pacific Northwest, spring is in full bloom and nature has emerged completely from her winter slumbers. It feels that way here at AWS, too, […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >The GitHub Blog</button>
+                  <a class="source-heading__link" href="https://github.blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://github.blog/2022-05-02-friend-zone-strategies-friendly-fork-management/"
+                        open
+                      >
+                        <summary class="article-expander__title">Being friendly: Strategies for friendly fork management</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://github.blog/2022-05-02-friend-zone-strategies-friendly-fork-management/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://github.blog/wp-content/uploads/2022/04/friendly-forks-.png?fit&#x3D;1200%2C630" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>This is the second and final post in a series describing friendly forks and alternative strategies for managing them.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Camunda</button>
+                  <a class="source-heading__link" href="https://camunda.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://camunda.com/?p&#x3D;52174"
+                        open
+                      >
+                        <summary class="article-expander__title">How to Benchmark Your Camunda Platform 8 Cluster</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://camunda.com/blog/2022/05/how-to-benchmark-your-camunda-platform-8-cluster/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://camunda.com/wp-content/uploads/2022/05/2022_May_Camunda_Blog_Benchmark-Camunda-8-Cluster.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Learn about our interesting journey with benchmarking and how to run a benchmark to figure out what your Zeebe cluster can do.
+The post How to Benchmark Your Camunda Platform 8 Cluster appeared first on Camunda.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Seth Godin&#x27;s Blog on marketing, tribes and respect</button>
+                  <a class="source-heading__link" href="https://seths.blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://seths.blog/?p&#x3D;42845"
+                        open
+                      >
+                        <summary class="article-expander__title">Sunk costs at work</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://feeds.feedblitz.com/~/693901112/0/sethsblog~Sunk-costs-at-work/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806137-1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>For skilled information workers, job mobility has never been easier or more profitable. And yet, countless people stay where they are, without ever considering why. For example, there are hundreds of senior leaders and contributors at Twitter who haven’t quit their jobs in the last week. Even though they have a financial cushion, a technical […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >xkcd.com</button>
+                  <a class="source-heading__link" href="https://xkcd.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://xkcd.com/2614/"
+                        open
+                      >
+                        <summary class="article-expander__title">2</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://xkcd.com/2614/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://imgs.xkcd.com/comics/2_2x.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-05-01 datetime="2022-05-01T09:18:00.000Z">2022-05-01</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-05-01 datetime="2022-05-01T09:18:00.000Z"></time>
           </button>
@@ -1629,7 +1884,7 @@ The 10th International Conference on Learning Representations (ICLR 2022) kicks 
                         data-accordion-key="https://github.blog/2022-04-25-the-friend-zone-friendly-forks-101/"
                         open
                       >
-                        <summary class="article-expander__title">Friendly forks 101</summary>
+                        <summary class="article-expander__title">Being friendly: Friendly forks 101</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://github.blog/2022-04-25-the-friend-zone-friendly-forks-101/">
                           <div class="article-summary-box-inner media-object">
                               <img src="https://github.blog/wp-content/uploads/2022/04/friendly-forks-.png" loading="lazy" class="media-object__media article-image" />
@@ -2160,40 +2415,6 @@ The post Swiss Re’s Journey Toward a Cloud-Native Orchestration Solution appea
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Seth Godin&#x27;s Blog on marketing, tribes and respect</button>
-                  <a class="source-heading__link" href="https://seths.blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://seths.blog/?p&#x3D;41890"
-                        open
-                      >
-                        <summary class="article-expander__title">The traffic metaphors</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://feeds.feedblitz.com/~/692313834/0/sethsblog~The-traffic-metaphors/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Your mileage may vary. Speeding up to get to a red light faster just wastes energy. Honking doesn’t make traffic go away. Doesn’t matter how fancy your car is, it’s not worth very much if they close the road. One of the worst ways to get to where you’re going is to always drive in […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >Spring</button>
                   <a class="source-heading__link" href="https://spring.io/blog">Open</a>
                 </h3>
@@ -2211,40 +2432,6 @@ The post Swiss Re’s Journey Toward a Cloud-Native Orchestration Solution appea
                               <img src="https://avatars.githubusercontent.com/u/54473?v&#x3D;4?s&#x3D;200" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Hi, Spring fans! Welcome to another installment of A Bootiful Podcast! In this installment Josh Long (@starbuxman) talks to Spring Cloud luminary and all around lovable guy Glenn Renfro (@cppwfs) about batch processing, tasks, messaging, integration, data flow, and a million other things. Also: t-shirts!</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >xkcd.com</button>
-                  <a class="source-heading__link" href="https://xkcd.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://xkcd.com/2610/"
-                        open
-                      >
-                        <summary class="article-expander__title">Assigning Numbers</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://xkcd.com/2610/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://imgs.xkcd.com/comics/assigning_numbers_2x.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>No content preview</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
@@ -2484,7 +2671,7 @@ Project Page | GitHub | Issues | Documentation | Stack Overflow | Gitter</span>
                               <img src="https://github.blog/wp-content/uploads/2022/04/Engineering-Product@2x.png?fit&#x3D;2400%2C1260" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>The history of pre-receive hooks, how we discovered that the performance was problematic, and how we went about safely replacing them.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                &ensp;<span class="article-reading-time">(&hairsp;5
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2934,40 +3121,6 @@ Form-based document understanding is a growing research topic because of its pra
                             <span class="media-object__text">
                               <span>The Unconference agenda is now live! Check out the lineup of peer-led sessions we have in store for you on April 27.
 The post #CamundaSummit: Unconference Agenda Announced appeared first on Camunda.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >The GitHub Blog</button>
-                  <a class="source-heading__link" href="https://github.blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://github.blog/2022-04-20-organization-profiles-leading-the-way/"
-                        open
-                      >
-                        <summary class="article-expander__title">Organization profiles leading the way</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://github.blog/2022-04-20-organization-profiles-leading-the-way/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://github.blog/wp-content/uploads/2022/04/Engineering-Security.png?fit&#x3D;1200%2C630" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Organization profiles can now display custom content visible only to members of the organization. A new Member view can be tailored to show an alternative README and pinned private repositories.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
@@ -4444,41 +4597,6 @@ LiDAR and visual cameras are two types of complementary sensors used for 3D obje
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Camunda</button>
-                  <a class="source-heading__link" href="https://camunda.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://camunda.com/?p&#x3D;48495"
-                        open
-                      >
-                        <summary class="article-expander__title">Camunda Platform 8 – Orchestrate All the Things</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://camunda.com/blog/2022/04/camunda-platform-8-orchestrate-all-the-things/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://camunda.com/wp-content/uploads/2022/04/2022_April_Camunda_Blog_Camunda-Platform-8_1200x630.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Camunda Platform 8 is here! Find out why we built Camunda Platform 8, what problems it solves, and why it’s a universal process orchestrator. 
-The post Camunda Platform 8 – Orchestrate All the Things appeared first on Camunda.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -4686,40 +4804,6 @@ The post Top Stories from the Microsoft DevOps Community – 2022.08.04 appeared
                               <span>Posted by Tal Remez, Software Engineer, Google Research and Micheal Hassid, Software Engineer Intern, Google Research   
 Recent years have seen a tremendous increase in the creation and serving of video content to users across the world in a variety of languages and over numerous platforms. The process of creating high quality content can include several stages from video capturing and captioning to  video and audio editing. In some cases dialogue is re-recorded (referred to as dialog replacement, post-sync or dubbing) in a studio in order to achieve high quality and replace original audio that might have been recorded in noisy conditions. However, the dialog replacement process can be difficult and tedious because the newly recorded audio needs to be well synced with the video, requiring …</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Spring</button>
-                  <a class="source-heading__link" href="https://spring.io/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://spring.io/blog/2022/04/07/a-bootiful-podcast-graphql-java-founder-andi-marek"
-                        open
-                      >
-                        <summary class="article-expander__title">A Bootiful Podcast: GraphQL Java founder Andi Marek</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://spring.io/blog/2022/04/07/a-bootiful-podcast-graphql-java-founder-andi-marek">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://avatars.githubusercontent.com/u/54473?v&#x3D;4?s&#x3D;200" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Hi, Spring fans! In this installment of a Bootiful Podcast, Josh Long (@starbuxman) talks to the GraphQL Java project founder and lead, Atlassian engineer, and Spring GraphQL cofounder Andi Marek (@andimarek).</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -5131,8 +5215,8 @@ In recent years, large neural networks trained for language understanding and ge
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/vxavictor513/osmosfeed/actions/runs/2255616692">
-        <time id="build-timestamp" datetime="2022-05-02T01:57:21.266Z">2022-05-02T01:57:21.266Z</time>
+      <a class="footer-link" href="https://github.com/vxavictor513/osmosfeed/actions/runs/2261469672">
+        <time id="build-timestamp" datetime="2022-05-03T01:57:28.440Z">2022-05-03T01:57:28.440Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.14.4</a>
     </footer>

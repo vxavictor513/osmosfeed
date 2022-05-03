@@ -1,10 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-05-02T01:57:21.302Z</id>
+    <id>urn:2022-05-03T01:57:28.477Z</id>
     <title>osmos::feed</title>
-    <updated>2022-05-02T01:57:21.302Z</updated>
+    <updated>2022-05-03T01:57:28.477Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Ever wanted to rewrite a query in Spring Data JPA?]]></title>
+        <id>https://spring.io/blog/2022/05/02/ever-wanted-to-rewrite-a-query-in-spring-data-jpa</id>
+        <link href="https://spring.io/blog/2022/05/02/ever-wanted-to-rewrite-a-query-in-spring-data-jpa"/>
+        <updated>2022-05-03T00:03:00.000Z</updated>
+        <summary type="html"><![CDATA[Sometimes, no matter how many features you try to apply, it seems impossible to get Spring Data JPA to apply every thing
+you’d like to a query before it is sent to the EntityManager.
+
+
+
+With 3.0.0-SNAPSHOT (and targeted for the next milestone release train of Spring Data), you now have the ability to get your hands on the query, right before it’s sent to the EntityManager and "rewrite" it. That is, you can make any alterations at the last moment.
+
+
+
+Check it out below:
+
+
+
+Example 1. Declare a QueryRewriter using @Query
+
+
+
+
+public interface MyRepository extends JpaRepository<User, Long> {
+
+    @Query(value = "select original_user_alias.* from SD_USER original_user_alias",
+                    nativeQuery = true, queryRewriter = MyQueryRewriter.class) // (1)
+    List<User> f…]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AWS Week in Review – May 2, 2022]]></title>
+        <id>650b6b46711677bb46ba175a4d35a12387ae3f6a</id>
+        <link href="https://aws.amazon.com/blogs/aws/aws-week-in-review-may-2-2022/"/>
+        <updated>2022-05-02T19:39:04.000Z</updated>
+        <summary type="html"><![CDATA[This post is part of our Week in Review series. Check back each week for a quick roundup of interesting news and announcements from AWS! Wow, May already! Here in the Pacific Northwest, spring is in full bloom and nature has emerged completely from her winter slumbers. It feels that way here at AWS, too, […]]]></summary>
+        <author>
+            <name>Steve Roberts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Being friendly: Strategies for friendly fork management]]></title>
+        <id>https://github.blog/2022-05-02-friend-zone-strategies-friendly-fork-management/</id>
+        <link href="https://github.blog/2022-05-02-friend-zone-strategies-friendly-fork-management/"/>
+        <updated>2022-05-02T16:26:29.000Z</updated>
+        <summary type="html"><![CDATA[This is the second and final post in a series describing friendly forks and alternative strategies for managing them.]]></summary>
+        <author>
+            <name>The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Benchmark Your Camunda Platform 8 Cluster]]></title>
+        <id>https://camunda.com/?p=52174</id>
+        <link href="https://camunda.com/blog/2022/05/how-to-benchmark-your-camunda-platform-8-cluster/"/>
+        <updated>2022-05-02T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn about our interesting journey with benchmarking and how to run a benchmark to figure out what your Zeebe cluster can do.
+The post How to Benchmark Your Camunda Platform 8 Cluster appeared first on Camunda.]]></summary>
+        <author>
+            <name>Bernd Ruecker</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sunk costs at work]]></title>
+        <id>https://seths.blog/?p=42845</id>
+        <link href="https://feeds.feedblitz.com/~/693901112/0/sethsblog~Sunk-costs-at-work/"/>
+        <updated>2022-05-02T09:02:00.000Z</updated>
+        <summary type="html"><![CDATA[For skilled information workers, job mobility has never been easier or more profitable. And yet, countless people stay where they are, without ever considering why. For example, there are hundreds of senior leaders and contributors at Twitter who haven’t quit their jobs in the last week. Even though they have a financial cushion, a technical […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2]]></title>
+        <id>https://xkcd.com/2614/</id>
+        <link href="https://xkcd.com/2614/"/>
+        <updated>2022-05-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/2.png" title="It's like sigma summation notation, except instead of summing the argument over all values of i, you 2 the argument over all values of 2." alt="It's like sigma summation notation, except instead of summing the argument over all values of i, you 2 the argument over all values of 2." />]]></summary>
+        <author>
+            <name>xkcd.com</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Read to your kids/read to your parents]]></title>
         <id>https://seths.blog/?p=42852</id>
@@ -622,7 +705,7 @@ The 10th International Conference on Learning Representations (ICLR 2022) kicks 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Friendly forks 101]]></title>
+        <title type="html"><![CDATA[Being friendly: Friendly forks 101]]></title>
         <id>https://github.blog/2022-04-25-the-friend-zone-friendly-forks-101/</id>
         <link href="https://github.blog/2022-04-25-the-friend-zone-friendly-forks-101/"/>
         <updated>2022-04-25T17:29:10.000Z</updated>
@@ -776,16 +859,6 @@ The post Swiss Re’s Journey Toward a Cloud-Native Orchestration Solution appea
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The traffic metaphors]]></title>
-        <id>https://seths.blog/?p=41890</id>
-        <link href="https://feeds.feedblitz.com/~/692313834/0/sethsblog~The-traffic-metaphors/"/>
-        <updated>2022-04-22T08:45:00.000Z</updated>
-        <summary type="html"><![CDATA[Your mileage may vary. Speeding up to get to a red light faster just wastes energy. Honking doesn’t make traffic go away. Doesn’t matter how fancy your car is, it’s not worth very much if they close the road. One of the worst ways to get to where you’re going is to always drive in […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[A Bootiful Podcast: Spring Cloud legend Glenn Renfro about batch processing, tasks, stream processing, data flow, and t-shirts]]></title>
         <id>https://spring.io/blog/2022/04/21/a-bootiful-podcast-spring-cloud-legend-glenn-renfro-about-batch-processing-tasks-stream-processing-data-flow-and-t-shirts</id>
         <link href="https://spring.io/blog/2022/04/21/a-bootiful-podcast-spring-cloud-legend-glenn-renfro-about-batch-processing-tasks-stream-processing-data-flow-and-t-shirts"/>
@@ -793,16 +866,6 @@ The post Swiss Re’s Journey Toward a Cloud-Native Orchestration Solution appea
         <summary type="html"><![CDATA[Hi, Spring fans! Welcome to another installment of A Bootiful Podcast! In this installment Josh Long (@starbuxman) talks to Spring Cloud luminary and all around lovable guy Glenn Renfro (@cppwfs) about batch processing, tasks, messaging, integration, data flow, and a million other things. Also: t-shirts!]]></summary>
         <author>
             <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Assigning Numbers]]></title>
-        <id>https://xkcd.com/2610/</id>
-        <link href="https://xkcd.com/2610/"/>
-        <updated>2022-04-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/assigning_numbers.png" title="Gödel should do an article on which branches of math have the lowest average theorem number." alt="Gödel should do an article on which branches of math have the lowest average theorem number." />]]></summary>
-        <author>
-            <name>xkcd.com</name>
         </author>
     </entry>
     <entry>
@@ -1109,16 +1172,6 @@ Form-based document understanding is a growing research topic because of its pra
 The post #CamundaSummit: Unconference Agenda Announced appeared first on Camunda.]]></summary>
         <author>
             <name>Niall Deehan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Organization profiles leading the way]]></title>
-        <id>https://github.blog/2022-04-20-organization-profiles-leading-the-way/</id>
-        <link href="https://github.blog/2022-04-20-organization-profiles-leading-the-way/"/>
-        <updated>2022-04-20T18:38:24.000Z</updated>
-        <summary type="html"><![CDATA[Organization profiles can now display custom content visible only to members of the organization. A new Member view can be tailored to show an alternative README and pinned private repositories.]]></summary>
-        <author>
-            <name>The GitHub Blog</name>
         </author>
     </entry>
     <entry>
@@ -1747,17 +1800,6 @@ LiDAR and visual cameras are two types of complementary sensors used for 3D obje
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Camunda Platform 8 – Orchestrate All the Things]]></title>
-        <id>https://camunda.com/?p=48495</id>
-        <link href="https://camunda.com/blog/2022/04/camunda-platform-8-orchestrate-all-the-things/"/>
-        <updated>2022-04-12T12:50:00.000Z</updated>
-        <summary type="html"><![CDATA[Camunda Platform 8 is here! Find out why we built Camunda Platform 8, what problems it solves, and why it’s a universal process orchestrator. 
-The post Camunda Platform 8 – Orchestrate All the Things appeared first on Camunda.]]></summary>
-        <author>
-            <name>Daniel Levy</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[AWS Week in Review – April 11, 2022]]></title>
         <id>6021dc6654c0552b04372a3d6090b690a95a121e</id>
         <link href="https://aws.amazon.com/blogs/aws/aws-week-in-review-april-11-2022/"/>
@@ -1809,16 +1851,6 @@ The post Top Stories from the Microsoft DevOps Community – 2022.08.04 appeared
 Recent years have seen a tremendous increase in the creation and serving of video content to users across the world in a variety of languages and over numerous platforms. The process of creating high quality content can include several stages from video capturing and captioning to  video and audio editing. In some cases dialogue is re-recorded (referred to as dialog replacement, post-sync or dubbing) in a studio in order to achieve high quality and replace original audio that might have been recorded in noisy conditions. However, the dialog replacement process can be difficult and tedious because the newly recorded audio needs to be well synced with the video, requiring …]]></summary>
         <author>
             <name>Google AI Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Bootiful Podcast: GraphQL Java founder Andi Marek]]></title>
-        <id>https://spring.io/blog/2022/04/07/a-bootiful-podcast-graphql-java-founder-andi-marek</id>
-        <link href="https://spring.io/blog/2022/04/07/a-bootiful-podcast-graphql-java-founder-andi-marek"/>
-        <updated>2022-04-07T20:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hi, Spring fans! In this installment of a Bootiful Podcast, Josh Long (@starbuxman) talks to the GraphQL Java project founder and lead, Atlassian engineer, and Spring GraphQL cofounder Andi Marek (@andimarek).]]></summary>
-        <author>
-            <name>Spring</name>
         </author>
     </entry>
     <entry>

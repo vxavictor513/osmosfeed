@@ -6,6 +6,16 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2022/05/03/this-week-in-spring-may-3rd-2022",
+          "author": null,
+          "description": "Hi, Spring fans! Welcome to another installment of This Week in Spring! How are you doin’? \n\r\nI’m excited! This week I’m speaking at the ArabJUG, and I’ll be speaking at Microsoft’s huuuge JDConf event. Both of these are virtual. Then, next Monday, I’m on a plane bound for London, UK, where I’ll be speaking at Devoxx UK 2022. Then, not even two weeks later, I’ll be speaking at Spring IO, in Barcelona, Spain! Then a week later, I’ll be speaking at JNation, in Lisbon, Portugal. To say that I am excited would be an understatement, my friends. \n\r\nAnd all of that ignores the great stuff since last week. Let’s dive right into it! \n\r\n\r\n  \nLast week I talked to fellow Java Champion, Sun veteran, and industry legend Simon Ritter on A Bootiful Podcast: Simon Ritter, Java Champion, and deputy CTO at …",
+          "link": "https://spring.io/blog/2022/05/03/this-week-in-spring-may-3rd-2022",
+          "publishedOn": "2022-05-03T18:00:00.000Z",
+          "wordCount": 762,
+          "title": "This Week in Spring - May 3rd, 2022",
+          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
+        },
+        {
           "id": "https://spring.io/blog/2022/05/02/ever-wanted-to-rewrite-a-query-in-spring-data-jpa",
           "author": null,
           "description": "Sometimes, no matter how many features you try to apply, it seems impossible to get Spring Data JPA to apply every thing\r\nyou’d like to a query before it is sent to the EntityManager.\n\r\n\r\n\r\nWith 3.0.0-SNAPSHOT (and targeted for the next milestone release train of Spring Data), you now have the ability to get your hands on the query, right before it’s sent to the EntityManager and \"rewrite\" it. That is, you can make any alterations at the last moment.\n\r\n\r\n\r\nCheck it out below:\n\r\n\r\n\r\nExample 1. Declare a QueryRewriter using @Query\n\r\n\r\n\r\n\r\npublic interface MyRepository extends JpaRepository<User, Long> {\r\n\r\n    @Query(value = \"select original_user_alias.* from SD_USER original_user_alias\",\r\n                    nativeQuery = true, queryRewriter = MyQueryRewriter.class) // (1)\r\n    List<User> f…",
@@ -113,7 +123,7 @@
           "publishedOn": "2022-04-20T23:21:00.000Z",
           "wordCount": 585,
           "title": "Spring Session 2021.2.0-RC1, 2021.1.3 and 2021.0.6 released",
-          "imageUrl": "https://avatars.githubusercontent.com/u/6599803?v=4?s=200"
+          "imageUrl": "https://gravatar.com/avatar/e8b360fd12da3973ace64f40fdb06a3a?s=200"
         },
         {
           "id": "https://spring.io/blog/2022/04/20/spring-for-graphql-1-0-rc1-released",
@@ -194,16 +204,6 @@
           "wordCount": 455,
           "title": "Spring Framework 5.3.19 and 5.2.21 available now",
           "imageUrl": "https://avatars.githubusercontent.com/u/490484?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/04/12/this-week-in-spring-april-12th-2022-devnexus-2022-edition",
-          "author": null,
-          "description": "This Week in Spring - Devnexus Edition\n\r\nHi, Spring fans! Welcome to another installment of This Week in Spring - I’m at my first in-person event since the virus: Devnexus! WOOHOOO!! Well, technically I’m still in San Francisco as I write this, but I’ll be in Atlanta, GA tomorrow for… Devnexus! I hope if you’re there that you’ll reach out! \n\r\nFriends, colleagues, and community members from the Spring, Tanzu, and adjoining communities will also be there! Here are some of the people I hope to nab a selfie with and whose talks I hope to see! \n\r\n\r\n  \nGlenn Renfro\n\r\n  \nAdib Saikali\n\r\n  \nJoe Grandja\n\r\n  \nWhitney Lee\n\r\n  \nHillmer Chona\n\r\n  \nJonatan Ivanov\n\r\n  \nJosh Cummings\n\r\n  \nAlberto C. Rios\n\r\n  \nSimon Brown\n\r\n\r\nAnd of course I’ll be doing two talks, as well, (one on GraalVm and another on edge services) and I hope you’ll come see those, too! \n\r\nAnd with that out of the way, let’s get on with our regularly scheduled roundup!\n\r\n\r\n  \nA Bootiful Podcast: GraphQL Java founder Andi Marek\n\r\n  \nAsir V Selvasingh on Twitter\n\r\n  \nBlog: Kubernetes Removals and Deprecations In 1.24\n\r\n  \nCongrats to the Hibernate team for reaching Hibernate 6.0\n\r\n  \nSivaLabs has a nice post called, “My attempt to understand why people perceive Java as complex.”  What do you think?\n\r\n  \nSpring Cloud Data Flow 2.9.4 Released\n\r\n  \n Spring Cloud Azure 4.0 integrations are generally available.  Congrats to the teams at Microsoft and the community on such an epic release!",
-          "link": "https://spring.io/blog/2022/04/12/this-week-in-spring-april-12th-2022-devnexus-2022-edition",
-          "publishedOn": "2022-04-12T22:00:00.000Z",
-          "wordCount": 620,
-          "title": "This Week in Spring - April 12th, 2022 (Devnexus 2022 Edition!!)",
-          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
         }
       ]
     },
@@ -370,6 +370,186 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
+          "id": "https://www.elastic.co/blog/whats-new-elastic-security-8-2-0",
+          "author": "Mark Settle",
+          "description": "Elastic Security 8.2 arms analysts with powerful insights and enhanced attack visibility. The release delivers alert contextualization, host inspection directly from an alert, new investigation guides, and the GA of threat intelligence.",
+          "link": "https://www.elastic.co/blog/whats-new-elastic-security-8-2-0",
+          "publishedOn": "2022-05-03T18:00:00.000Z",
+          "wordCount": 1617,
+          "title": "What’s new in Elastic Security 8.2: Streamline analyst workflows with context and expertise",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt69323019f723d794/5ffe0811f093203f68d42e54/blog-thumb-release-security.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/whats-new-elastic-security-8-2-0",
+          "author": "Mark Settle",
+          "description": ",\nElastic Security 8.2 powers the efficiency and effectiveness of security teams, arming analysts with invaluable insights and deep visibility into the attacks targeting their organization. The release delivers rich alert contextualization, osquery host inspection directly from an alert, new investigation guides, and the general availability of threat intelligence.\nLet’s jump in.\nStreamline analyst workflows with context and expertise\nCurated UI for analyzing user activity\nElastic Security 8.2 provides new visibility into user activity, helping practitioners address insider threats, account takeover, privilege abuse, and related vectors. The experience is consistent with existing analyst workflows for exploring host and network data. \nUsers View supports security monitoring by presenting e…",
+          "link": "https://www.elastic.co/blog/whats-new-elastic-security-8-2-0",
+          "publishedOn": "2022-05-03T18:00:00.000Z",
+          "wordCount": 1617,
+          "title": "What’s new in Elastic Security 8.2: Streamline analyst workflows with context and expertise",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt69323019f723d794/5ffe0811f093203f68d42e54/blog-thumb-release-security.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/whats-new-elastic-enterprise-search-8-2-0",
+          "author": "Jessica Taylor,Jonas Lavoie",
+          "description": "Elastic Enterprise Search 8.2 brings the best relevance tooling, analytics, and query security to any Elasticsearch index. Automatically monitor the health of your search deployment and audit your engine activity with one click on Elastic Cloud.",
+          "link": "https://www.elastic.co/blog/whats-new-elastic-enterprise-search-8-2-0",
+          "publishedOn": "2022-05-03T16:00:00.000Z",
+          "wordCount": 1028,
+          "title": "Elastic Enterprise Search 8.2: Relevance controls for Elasticsearch",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltbb4996d39a786d20/5ffe05b822252d41f72866fc/blog-thumb-release-enterprise-search.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/whats-new-elastic-enterprise-search-8-2-0",
+          "author": "Jessica Taylor,Jonas Lavoie",
+          "description": ",\nElastic Enterprise Search 8.2 introduces new ways to ingest, search, and monitor data, giving developers the productivity benefits of using out-of-the-box capabilities along with the power and flexibility inherent in Elastic Stack tools. Operators also gain even more transparency for managing search experiences and observing search performance. For a visual walkthrough of some of the key capabilities in 8.2, check out the latest installment of What’s new in Enterprise Search on YouTube.\n\nElastic 8.2 brings new ways to:\n\nIngest and search over existing Elasticsearch indices while using prebuilt Enterprise Search tools like relevance tuning and search analytics without moving or migrating data and existing indexing pipelines.\nMonitor Enterprise Search logs and metrics on Elastic Cloud to e…",
+          "link": "https://www.elastic.co/blog/whats-new-elastic-enterprise-search-8-2-0",
+          "publishedOn": "2022-05-03T16:00:00.000Z",
+          "wordCount": 1028,
+          "title": "Elastic Enterprise Search 8.2: Relevance controls for Elasticsearch",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltbb4996d39a786d20/5ffe05b822252d41f72866fc/blog-thumb-release-enterprise-search.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/secure-your-cloud-with-cloud-workload-protection-in-elastic-security",
+          "author": "Sneha Sachidananda",
+          "description": "Elastic Security 8.2 introduces our nascent Cloud Security capabilities with Cloud Workload Protection use cases within Elastic Security",
+          "link": "https://www.elastic.co/blog/secure-your-cloud-with-cloud-workload-protection-in-elastic-security",
+          "publishedOn": "2022-05-03T07:00:00.000Z",
+          "wordCount": 1091,
+          "title": "Secure your cloud with Cloud Workload Protection in Elastic Security",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte21ddedce08464b6/61e1de94c5ff2e754efb027e/blog-security-lock-720x420.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/secure-your-cloud-with-cloud-workload-protection-in-elastic-security",
+          "author": "Sneha Sachidananda",
+          "description": "Getting Started with Cloud Workload Protection in Elastic Security,\nWith the Elastic 8.2 release, we are excited to introduce the beginning of Cloud Security capabilities, with Cloud Workload Protection use cases, within Elastic Security. When Cmd joined forces with Elastic Security last August, we set out on a journey to bring cloud workload runtime security capabilities that allow customers to detect, prevent and respond to attacks on their workloads —- whether running on the cloud or in data centers.\nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9a13f0306d471a99/6271a9e2deee7329767e6386/diagram-cloud-workload-protection-in-elastic-security.png,diagram-cloud-workload-protection-in-elastic-security.png,\nNow with 8.2, you get instant access to the new workload protection c…",
+          "link": "https://www.elastic.co/blog/secure-your-cloud-with-cloud-workload-protection-in-elastic-security",
+          "publishedOn": "2022-05-03T07:00:00.000Z",
+          "wordCount": 1091,
+          "title": "Secure your cloud with Cloud Workload Protection in Elastic Security",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte21ddedce08464b6/61e1de94c5ff2e754efb027e/blog-security-lock-720x420.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/whats-new-elastic-8-2-0",
+          "author": "Dan Courcy",
+          "description": "By enabling our users to build seamless search experiences, accelerate troubleshooting of cloud-native services, and enhance the security analyst experience —  Elastic 8.2 is helping the world’s leading organizations search, solve, and succeed.",
+          "link": "https://www.elastic.co/blog/whats-new-elastic-8-2-0",
+          "publishedOn": "2022-05-03T00:00:00.000Z",
+          "wordCount": 1778,
+          "title": "Build seamless, search-powered customer experiences with Elastic 8.2",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt878ebe7fdc0cc140/61f95869d8212f3e7b5e99ce/blog-thumbnail-generic-release.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/whats-new-elastic-observability-8-2-0",
+          "author": "Amena Siddiqi",
+          "description": "Elastic Observability 8.2 delivers enhanced support for cloud-native environments with the ability to fine-tune distributed tracing with smarter tail-based sampling, capture serverless traces from AWS Lambda, and further simplify ingest of AWS logs.",
+          "link": "https://www.elastic.co/blog/whats-new-elastic-observability-8-2-0",
+          "publishedOn": "2022-05-03T00:00:00.000Z",
+          "wordCount": 1674,
+          "title": "Elastic Observability 8.2: Tail-based sampling, plus more serverless visibility for AWS",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt44910d88c864d1cb/5ffdd3955b28c33f6281ce94/blog-thumb-observability-pattern-color.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-8-2-0",
+          "author": "Adeline Tan,George Kobar,Bianca Laurendine",
+          "description": "In 8.2, explore your data landscape with new options in Kibana’s Discover app and improve your speed with Elasticsearch’s random sampler aggregation and enhanced vector search. Plus, leverage the PCI certification for compliance in Elastic Cloud.",
+          "link": "https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-8-2-0",
+          "publishedOn": "2022-05-03T00:00:00.000Z",
+          "wordCount": 1772,
+          "title": "Elasticsearch, Kibana, Elastic Cloud 8.2: Boost insights with data exploration in Discover",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltd2a15f40173ad17d/6149134eee502d0e1337d186/thumbnail.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/elasticsearch-search-api-a-new-way-to-locate-app-search-documents",
+          "author": "Irina Truong",
+          "description": "In 8.2, Elastic has newly introduced support for the Elasticsearch query syntax for all Enterprise Search engines allow which you to take it to the next level when your search experience needs extra configurability.",
+          "link": "https://www.elastic.co/blog/elasticsearch-search-api-a-new-way-to-locate-app-search-documents",
+          "publishedOn": "2022-05-03T00:00:00.000Z",
+          "wordCount": 2085,
+          "title": "Elasticsearch Search API: A new way to locate App Search documents",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt1e6d5146b2e18cf1/620133f1d96fa00bff5eeb0c/thumb-sea-of-documents.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/search-ui-1-1-0-makes-building-search-experiences-for-elasticsearch-even-easier",
+          "author": "Jason Stoltzfus",
+          "description": "In the latest version of Search UI, version 1.10, we introduced a slew of new functionality, including being extended Elasticsearch features as well as Typescript support. Follow along with code samples to get started today.",
+          "link": "https://www.elastic.co/blog/search-ui-1-1-0-makes-building-search-experiences-for-elasticsearch-even-easier",
+          "publishedOn": "2022-05-03T00:00:00.000Z",
+          "wordCount": 1612,
+          "title": "Search UI 1.10 makes building search experiences for Elasticsearch even easier",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt3284cac2b1db6082/62472b9080fcca09d1b99b96/illustration-search-results-1-608x420.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/elastic-cloud-pci-dss-compliance",
+          "author": "Bianca Laurendine",
+          "description": "Elastic Cloud receives PCI DSS compliance certification as a PCI Data Security Standards Level 1 Service Provider. Details here!",
+          "link": "https://www.elastic.co/blog/elastic-cloud-pci-dss-compliance",
+          "publishedOn": "2022-05-03T00:00:00.000Z",
+          "wordCount": 552,
+          "title": "Announcing Payment Card Industry Data Security Standard (PCI DSS) compliance for Elastic Cloud",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt680bbcd6229c1faf/620d8aa46c53c5684497f8bc/illustration-industries-retail.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/whats-new-elastic-8-2-0",
+          "author": "Dan Courcy",
+          "description": ",\nToday, we are pleased to announce the latest iteration of the world’s leading platform for search-powered solutions with the general availability of Elastic 8.2.\nElastic 8.2 enables our customers and community to build seamless search experiences, faster. From “low code” to “full control,” Elastic 8.2 gives users greater flexibility to dial in their own preferred approach to building search-powered solutions. \nIn addition, Elastic 8.2 further extends visibility into highly distributed, high-volume cloud-native services with tail-based sampling and enriches the security analyst experience with contextualized alerts, streamlined host inspection, new investigation guides, and the general availability of our threat intelligence solution.\nIrrespective of how users elect to put their data to w…",
+          "link": "https://www.elastic.co/blog/whats-new-elastic-8-2-0",
+          "publishedOn": "2022-05-03T00:00:00.000Z",
+          "wordCount": 1778,
+          "title": "Build seamless, search-powered customer experiences with Elastic 8.2",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt878ebe7fdc0cc140/61f95869d8212f3e7b5e99ce/blog-thumbnail-generic-release.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/whats-new-elastic-observability-8-2-0",
+          "author": "Amena Siddiqi",
+          "description": ",\nAs more organizations adopt cloud-native technologies and microservices-based architectures, application troubleshooting is becoming increasingly complex. With so many moving parts in an environment that is both dynamic and distributed, it is difficult to get the full picture. Yet complete visibility is crucial in order to find and fix issues quickly — especially ones that impact the bottom line. \nWith Elastic Observability 8.2, DevOps and SRE teams can now more effectively support modern cloud-native environments with the ability to fine-tune distributed tracing with smarter “tail-based” sampling, capture application traces from AWS Lambda, and further simplify ingest of AWS logs with serverless support for additional cloud services.\nThese new features allow customers to:\n\nEliminate bli…",
+          "link": "https://www.elastic.co/blog/whats-new-elastic-observability-8-2-0",
+          "publishedOn": "2022-05-03T00:00:00.000Z",
+          "wordCount": 1674,
+          "title": "Elastic Observability 8.2: Tail-based sampling, plus more serverless visibility for AWS",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt44910d88c864d1cb/5ffdd3955b28c33f6281ce94/blog-thumb-observability-pattern-color.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-8-2-0",
+          "author": "Adeline Tan,George Kobar,Bianca Laurendine",
+          "description": ",\nIn 8.2, accelerate time to insights with an updated document explorer, in the Discover app in Kibana. Quickly and easily evaluate data fields and distributions, and slice and dice data subsets. Elasticsearch delivers speed, scale, relevance, and simplicity with enhancements to vector search, the new random sampler aggregation, and more. \nIn addition, Elastic Cloud has achieved Payment Card Industry Data Security Standard (PCI DSS) Certification as a Level 1 Service Provider so you can ensure the security and safety of your payment data.\nReady to dive in and get started? We have the links you need:\n\nTry the new features on Elastic Cloud\nDownload the latest versions of Elasticsearch, Kibana, Elastic Cloud on Kubernetes\nRefer to the release notes: Elasticsearch, Kibana, Elastic Cloud, Elast…",
+          "link": "https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-8-2-0",
+          "publishedOn": "2022-05-03T00:00:00.000Z",
+          "wordCount": 1772,
+          "title": "Elasticsearch, Kibana, Elastic Cloud 8.2: Boost insights with data exploration in Discover",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltd2a15f40173ad17d/6149134eee502d0e1337d186/thumbnail.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/elasticsearch-search-api-a-new-way-to-locate-app-search-documents",
+          "author": "Irina Truong",
+          "description": ",\nElastic 8.2 introduces a new search API for App Search. The Elasticsearch Search API, now in beta, brings more of the flexibility and power of Elasticsearch to App Search. Elastic 8.2 also introduces a Search Explain API for App Search, which exposes the Elasticsearch queries generated by App Search. Use these Elasticsearch queries as the basis for your own.\n\nIn this post, we'll look at the new APIs and explore the following use cases:\n\nI want to count how many documents would match my query, without the overhead of the search results payload\nI want to count how many documents match my query, grouped by a certain field or fields\nI want to search for documents that are like a specific document in the same index\nI want to use a custom function to calculate document scores\nI want to retriev…",
+          "link": "https://www.elastic.co/blog/elasticsearch-search-api-a-new-way-to-locate-app-search-documents",
+          "publishedOn": "2022-05-03T00:00:00.000Z",
+          "wordCount": 2085,
+          "title": "Elasticsearch Search API: A new way to locate App Search documents",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt1e6d5146b2e18cf1/620133f1d96fa00bff5eeb0c/thumb-sea-of-documents.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/search-ui-1-1-0-makes-building-search-experiences-for-elasticsearch-even-easier",
+          "author": "Jason Stoltzfus",
+          "description": ",\nWe just published Search UI version 1.10, and we're excited to share it with you.\nSearch UI 1.10 adds two important features that make building search even easier:\n\nFirst-class support for Elasticsearch\nTypescript support\n\nRead on to learn more.\nWhat is Search UI again?\nThere are two essential parts of building a search experience; managing your data (indexing, relevance tuning, analytics) and creating an interface so that users can search your data. Elastic's Search UI is a purpose-built library that helps you build user-facing search experiences.\n\nSearch UI is not a new project. In fact, we introduced our 1.0 and 1.2 releases back in 2019. \nOne fact that remains as true today as it was in 2019 – Search UI is by far the fastest way to build a Search Experience with Elastic, and we’re re…",
+          "link": "https://www.elastic.co/blog/search-ui-1-1-0-makes-building-search-experiences-for-elasticsearch-even-easier",
+          "publishedOn": "2022-05-03T00:00:00.000Z",
+          "wordCount": 1612,
+          "title": "Search UI 1.10 makes building search experiences for Elasticsearch even easier",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt3284cac2b1db6082/62472b9080fcca09d1b99b96/illustration-search-results-1-608x420.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/elastic-cloud-pci-dss-compliance",
+          "author": "Bianca Laurendine",
+          "description": ",\nElastic is happy to announce Payment Card Industry Data Security Standard (PCI DSS) compliance for Elastic Cloud. You can now use Elastic Cloud services for cardholder data storage in a PCI-compliant manner across all Elastic Cloud regions.\n\nPCI DSS outlines a set of security standards for organizations that accept, transmit, or store cardholder data. Providers must maintain a vulnerability management program, implement strong access controls, regularly monitor and test networks, and follow other standards that cover technical and operational system components.\nElastic, in conjunction with a third-party auditor, completed a PCI Data Security Standards Level 1 Service Provider assessment and was found to be compliant by the PCI Security Standards Committee’s Cloud Computing Guidelines. Elastic customers may request our PCI Responsibility Matrix, which details how compliance roles and responsibilities are shared between Elastic and its customers when working with PCI data.\nCustomers also have the option to request our PCI DSS Attestation of Compliance (AOC), an attestation completed by a Qualified Security Assessor (QSA) that documents the evidence that Elastic upholds security best practices to protect cardholder data. Upon request, customers receive a copy of our Report on Compliance (ROC), detailing Elastic’s security posture, environment, systems, and protection of cardholder data.\nHave an Elastic Cloud use case that requires PCI DSS compliance? Contact your Account Executive to request these documents and bring the power of the Elastic Cloud platform to all your PCI data.",
+          "link": "https://www.elastic.co/blog/elastic-cloud-pci-dss-compliance",
+          "publishedOn": "2022-05-03T00:00:00.000Z",
+          "wordCount": 552,
+          "title": "Announcing Payment Card Industry Data Security Standard (PCI DSS) compliance for Elastic Cloud",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt680bbcd6229c1faf/620d8aa46c53c5684497f8bc/illustration-industries-retail.png"
+        },
+        {
           "id": "https://www.elastic.co/blog/elastic-observability-clusters-upgrade-latest-release-save-money",
           "author": "George Kobar",
           "description": "Let's start with the bottom line: When we upgraded to Elasticsearch 7.15 last year, our internal observability clusters saw a reduction in inter-node traffic from 464TB to 204.5TB per day. We monitored this reduction through subsequent upgrades and noticed its impact on our data transfer and storage costs. So here it is: upgrading saved Elastic $3,500 per day, or approximately $100,000 a month, or $1.2 million annually. We are excited to see these innovations directly lower the total cost of ownership and potentially save money for our customers. Here's a closer look at how we did it, and how you can, too.\nNote: As of the date of this blog post, the latest Elastic release is 8.1 — however rest assured that if you're upgrading to the latest release, you're getting the data (and cost) saving…",
@@ -388,186 +568,6 @@
           "wordCount": 1317,
           "title": "Elastic on Elastic: How we saved $100,000/month by keeping our own software up to date",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt2978b11d0fd056a7/625776da00a8bb4b7796064a/unnamed-10.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/detect-credential-access-with-elastic-security",
-          "author": "Elastic Security Intelligence & Analytics Team",
-          "description": "In this post, we detail a series of tactics for hunting with new data types and fields within Elastic and how to leverage Elastic Security to its fullest potential.",
-          "link": "https://www.elastic.co/blog/detect-credential-access-with-elastic-security",
-          "publishedOn": "2022-04-27T16:00:00.000Z",
-          "wordCount": 615,
-          "title": "Detect Credential Access with Elastic Security",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt1c85cc41b2320aa9/613107598e16ab655b348d21/blog-thumb-blind-spots.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/detect-credential-access-with-elastic-security",
-          "author": "Elastic Security Intelligence & Analytics Team",
-          "description": ",\nWithin our Elastic Security research group, a strong area of focus is implementing detection mechanisms for capabilities we understand adversaries are currently exploiting within environments. We’ll often wait to see the impact that bringing these capabilities to market will have from a detection standpoint. This allows our researchers to explore different detection strategies through these additions, providing deep insight into how effective the Elastic Security platform can be.\n\nWhen we released Elastic Endpoint Security, our team added new file and registry events to provide defenders with better visibility on techniques and procedures involving some form of sensitive files and/or registry objects access:\n\nT1555.003 Credentials from Web Browsers\nT1003.002 Security Account Manager\nT100…",
-          "link": "https://www.elastic.co/blog/detect-credential-access-with-elastic-security",
-          "publishedOn": "2022-04-27T16:00:00.000Z",
-          "wordCount": 615,
-          "title": "Detect Credential Access with Elastic Security",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt1c85cc41b2320aa9/613107598e16ab655b348d21/blog-thumb-blind-spots.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/nimbuspwn-leveraging-vulnerabilities-to-exploit-linux-via-privilege-escalation",
-          "author": "Elastic Security Team",
-          "description": "The Microsofts’ 365 Defender team released a post detailing several identified vulnerabilities. that allow adversarial groups to easily privilege escalate on Linux systems allowing deployment of payloads, ransomware, or other malicious actions. The vulnerabilities, now collectively known as Nimbuspwn include a series of security issues within networkd-dispatcher, specifically directory traversal, symlink race, and TOCTU race conditions.",
-          "link": "https://www.elastic.co/blog/nimbuspwn-leveraging-vulnerabilities-to-exploit-linux-via-privilege-escalation",
-          "publishedOn": "2022-04-27T00:00:00.000Z",
-          "wordCount": 759,
-          "title": "Nimbuspwn: Leveraging vulnerabilities to exploit Linux via Privilege Escalation",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blteec137b891736af5/5f725974747ff04fb7900d5c/thumb-report-threat-hunting.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/nimbuspwn-leveraging-vulnerabilities-to-exploit-linux-via-privilege-escalation",
-          "author": "Elastic Security Team",
-          "description": ",\nSummary\n\nThe Microsoft 365 Defender team released a post detailing several identified vulnerabilities. These vulnerabilities allow adversarial groups to easily escalate privileges on Linux systems, allowing for deployment of payloads, ransomware, or other malicious actions. Collectively known as Nimbuspwn, these vulnerabilities include a series of security issues within networkd-dispatcher, specifically directory traversal, symlink race, and TOCTU race conditions.\n\nDetails are covered in their detailed post, and further information will be available within the two requested CVEs: CVE-2022-29799 and CVE-2022-29800. At the time of publication these CVE IDs are still reserved.\n\nWhile this class of vulnerability requires local shell access to exploit, it should be considered important for th…",
-          "link": "https://www.elastic.co/blog/nimbuspwn-leveraging-vulnerabilities-to-exploit-linux-via-privilege-escalation",
-          "publishedOn": "2022-04-27T00:00:00.000Z",
-          "wordCount": 759,
-          "title": "Nimbuspwn: Leveraging vulnerabilities to exploit Linux via Privilege Escalation",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blteec137b891736af5/5f725974747ff04fb7900d5c/thumb-report-threat-hunting.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/culture-what-your-coworkers-with-autistic-children-want-you-to-know",
-          "author": "Elastic Culture",
-          "description": "Supporting our Elasticians that have children with special needs starts with understanding, empathy, and support.\nHere are a few things to know in order to better understand and support your co-workers who are raising an autistic child.",
-          "link": "https://www.elastic.co/blog/culture-what-your-coworkers-with-autistic-children-want-you-to-know",
-          "publishedOn": "2022-04-26T00:00:00.000Z",
-          "wordCount": 1059,
-          "title": "What your co-workers with autistic children want you to know",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt46468ccd2471b877/6266d196bb76126379f69c2d/4.20-autism-awareness-2022-blog-2-1680x980.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-cloud-is-now-available-on-microsoft-azure-in-4-new-regions",
-          "author": "The Elastic Cloud Team",
-          "description": "Elastic Cloud helps you quickly and easily find information, gain insights, and protect your technology investments across Microsoft Azure.",
-          "link": "https://www.elastic.co/blog/elastic-cloud-is-now-available-on-microsoft-azure-in-4-new-regions",
-          "publishedOn": "2022-04-26T00:00:00.000Z",
-          "wordCount": 633,
-          "title": "Elastic Cloud is now available on Microsoft Azure in 4 new regions",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt496cf542893a33a3/624342a896ee250ebe231973/blog-thumb-cloud-azure.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/culture-what-your-coworkers-with-autistic-children-want-you-to-know",
-          "author": "Elastic Culture",
-          "description": ",,\nAutism isn’t one size fits all\nApril is Autism Awareness Month in the United States and according to the Centers for Disease Control, 1 in 44 children will be diagnosed with autism in the U.S. Supporting our Elasticians that have children with special needs starts with understanding, empathy, and support.\n\nAt Elastic we believe in flexibility. In fact, it’s part of our Source Code. We believe in our employees having the flexibility to work and care for their responsibilities at home. \n\nFor those with a child with autism, those responsibilities outside of work might look a lot different (and more demanding) than yours. Here are a few things to know in order to better understand and support your co-workers who are raising an autistic child.\nThings are constantly changing\nWhile those on th…",
-          "link": "https://www.elastic.co/blog/culture-what-your-coworkers-with-autistic-children-want-you-to-know",
-          "publishedOn": "2022-04-26T00:00:00.000Z",
-          "wordCount": 1059,
-          "title": "What your co-workers with autistic children want you to know",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt46468ccd2471b877/6266d196bb76126379f69c2d/4.20-autism-awareness-2022-blog-2-1680x980.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-cloud-is-now-available-on-microsoft-azure-in-4-new-regions",
-          "author": "The Elastic Cloud Team",
-          "description": ",\nWe’re pleased to announce you can now run Elastic Cloud on Microsoft Azure in the following regions to help you accelerate results that matter, securely and at cloud scale:\n\nAzure Brazil South (São Paulo State)\nAzure Canada Central (Toronto)\nAzure South Africa North (Johannesburg)\nAzure Central India (Pune)\n\nWith solutions in Enterprise Search, Observability, and Security, Elastic helps you enhance customer and employee search experiences, keep mission-critical applications running smoothly, and protect against cyber threats.\n\nEasily search applications, websites, and workplace content platforms for information. Quickly gain deep insights into your environment by monitoring applications and uptime as well as analyzing centralized logs and metrics. You can also help protect your technolog…",
-          "link": "https://www.elastic.co/blog/elastic-cloud-is-now-available-on-microsoft-azure-in-4-new-regions",
-          "publishedOn": "2022-04-26T00:00:00.000Z",
-          "wordCount": 633,
-          "title": "Elastic Cloud is now available on Microsoft Azure in 4 new regions",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt496cf542893a33a3/624342a896ee250ebe231973/blog-thumb-cloud-azure.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/embracing-the-future-of-search-relevance",
-          "author": "Isaac Levin",
-          "description": "In an effort to provide the most relevant, accurate search possible, developers must learn how to integrate machine learning into thier solutions. Starting in Elastic 8.0, the story around machine learning and how to embrace it is more clear.",
-          "link": "https://www.elastic.co/blog/embracing-the-future-of-search-relevance",
-          "publishedOn": "2022-04-21T00:00:00.000Z",
-          "wordCount": 1026,
-          "title": "Embracing the future of search relevance",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte1ce554ae4dc0ea7/62472c651da0ac09296dd9dc/illustration-search-results-2-608x420.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/embracing-the-future-of-search-relevance",
-          "author": "Isaac Levin",
-          "description": ",\nWhen looking for new opportunities to innovate and compete, companies today need to look no further than search, which has come a long way from the search bar of old. Whether you’re enabling search across integrations your business relies on or building a state-of-the-art website experience, search is on the critical path to research and discovery. \nThe canonical search bar in mobile apps and websites is only the first step in the journey though. Additional value gets added when intelligent, robust solutions come together to build visually engaging customer experiences.\n\nWith the release of Elastic 8.0, we lowered the barrier of entry for teams to build intelligent, relevant search. This release brings more machine learning (ML) capabilities into the core of the Elastic Search Platform, …",
-          "link": "https://www.elastic.co/blog/embracing-the-future-of-search-relevance",
-          "publishedOn": "2022-04-21T00:00:00.000Z",
-          "wordCount": 1026,
-          "title": "Embracing the future of search relevance",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte1ce554ae4dc0ea7/62472c651da0ac09296dd9dc/illustration-search-results-2-608x420.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-stack-7-17-3-released",
-          "author": "Silvia Mitter",
-          "description": "Version 7.17.3 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 7.17.3 over the previous patch versions in 7.17.x.\nThe 7.17.3 patch release contains a fix for a potential security vulnerability. Please see our security announcement for more details.\nFor details of the issues that have been fixed and a full list of changes for each product in this version, refer to the release notes: \n7.17.3 Release Notes\nElastic Stack\nElasticsearch\nKibana\nBeats\nLogstash\nElastic Enterprise Search\nEnterprise Search\nElastic Observability\nAPM\nElastic Security\nElastic Security Solution",
-          "link": "https://www.elastic.co/blog/elastic-stack-7-17-3-released",
-          "publishedOn": "2022-04-20T00:00:00.000Z",
-          "wordCount": 386,
-          "title": "Elastic Stack 7.17.3 released",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6a26a8ec94e87272/6001ac6a96de49101cfb1e46/cta-illustration-space-launch-white-bg.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-stack-8-1-3-released",
-          "author": "Silvia Mitter",
-          "description": "Version 8.1.3 of the Elastic Stack was released today. We recommend you upgrade to this latest version.\nThe 8.1.3 patch release contains a fix for a potential security vulnerability. Please see our security announcement for more details.\nThis release addresses some notable issues in our Observability and Security solutions:\nA bug where the APM Server might run out of memory when overloaded by too many incoming requests. Users running APM Server versions 8.0.0 up to 8.1.2 are advised to upgrade immediately.\nMultiple issues that impacted Elastic Security UI performance in environments with a high number of field mappings.\nA bug where the binary verification will fail when upgrading the Elastic Agent through the upgrade cli command or through the Fleet UI upgrade feature. The bug was impacting 8.1.1 and 8.1.2 releases.\nThis 8.1.3 patch release contains other fixes and small enhancements for the stack. For more details and a full list of changes for each product, please refer to the release notes:\n8.1.3 Release Notes\nElastic Stack\nElasticsearch\nKibana\nBeats\nLogstash\nElastic Enterprise Search\nEnterprise Search\nElastic Observability\nAPM\nElastic Security\nElastic Security Solution",
-          "link": "https://www.elastic.co/blog/elastic-stack-8-1-3-released",
-          "publishedOn": "2022-04-20T00:00:00.000Z",
-          "wordCount": 472,
-          "title": "Elastic Stack 8.1.3 released",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltb48892ebdc688e5f/6092ab901671db1046c1af06/blog-rocket-720x420.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-stack-7-17-3-released",
-          "author": "Silvia Mitter",
-          "description": "Elastic Stack 7.17.3 has been released. Read about the updates and bug fixes that have been included in Elasticsearch, Kibana, Logstash, Beats, APM, Enterprise Search, Elastic Security, and ECK.",
-          "link": "https://www.elastic.co/blog/elastic-stack-7-17-3-released",
-          "publishedOn": "2022-04-20T00:00:00.000Z",
-          "wordCount": 386,
-          "title": "Elastic Stack 7.17.3 released",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6a26a8ec94e87272/6001ac6a96de49101cfb1e46/cta-illustration-space-launch-white-bg.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-stack-8-1-3-released",
-          "author": "Silvia Mitter",
-          "description": "Elastic Stack 8.1.3 has been released. Read about the updates and bug fixes that have been included in Elasticsearch, Kibana, Logstash, Beats, APM, Enterprise Search, Elastic Security, and ECK.",
-          "link": "https://www.elastic.co/blog/elastic-stack-8-1-3-released",
-          "publishedOn": "2022-04-20T00:00:00.000Z",
-          "wordCount": 472,
-          "title": "Elastic Stack 8.1.3 released",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltb48892ebdc688e5f/6092ab901671db1046c1af06/blog-rocket-720x420.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-announces-tisax-certification-security-connected-vehicles",
-          "author": "Suranjeeta Choudhury",
-          "description": "Today, connected vehicles are proliferating, smart cities are translating from vision to reality, and cloud-based connectivity services are increasing. Advanced connectivity solutions like 5G, cloud-based services and automations, and personalization are redefining in-vehicle experiences. In addition, the growth of an intelligent Edge, smart infrastructure, and the Internet of Things are pushing the boundaries of the connected car. \nAutomakers worldwide have slowly but steadily come to terms with what is commonly known as the “software-defined vehicle.” It will not be an exaggeration to say that the car of the future will be primarily software-driven, and the digital chassis will control every element within the car from autonomy to driver assistance to cockpit and telematics. \n“Security b…",
-          "link": "https://www.elastic.co/blog/elastic-announces-tisax-certification-security-connected-vehicles",
-          "publishedOn": "2022-04-19T21:05:41.000Z",
-          "wordCount": 1150,
-          "title": "Elastic announces TISAX certification, enhancing security in connected vehicles",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta84294e3e10ee781/6036803bf54af27503f2d629/blog-thumb-cloud-security-blue.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-announces-tisax-certification-security-connected-vehicles",
-          "author": "Suranjeeta Choudhury",
-          "description": "Elastic is excited to add TISAX certification to the list of several key information security standards and regulations that it has acquired.",
-          "link": "https://www.elastic.co/blog/elastic-announces-tisax-certification-security-connected-vehicles",
-          "publishedOn": "2022-04-19T21:05:41.000Z",
-          "wordCount": 1150,
-          "title": "Elastic announces TISAX certification, enhancing security in connected vehicles",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta84294e3e10ee781/6036803bf54af27503f2d629/blog-thumb-cloud-security-blue.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/simplify-your-elastic-on-aws-deployment-with-the-elastic-cloud-quick-start",
-          "author": "Udayasimha Theepireddy,Antony Prasad Thevaraj, AWS,Battulga Purevragchaa",
-          "description": "Streamline your Elastic on AWS deployment with the Elastic Cloud Quick Start — an automated reference deployment — with just a few steps. And easily migrate your on-prem Elastic workloads into Elastic on AWS after your deployment.",
-          "link": "https://www.elastic.co/blog/simplify-your-elastic-on-aws-deployment-with-the-elastic-cloud-quick-start",
-          "publishedOn": "2022-04-19T12:30:00.000Z",
-          "wordCount": 1291,
-          "title": "Simplify your Elastic on AWS deployment with the Elastic Cloud Quick Start",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltacbcd67685f3bad4/61b7ae9bf6adbe75ea5e17fa/blog-thumb-cloud-aws.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/simplify-your-elastic-on-aws-deployment-with-the-elastic-cloud-quick-start",
-          "author": "Udayasimha Theepireddy,Antony Prasad Thevaraj, AWS,Battulga Purevragchaa",
-          "description": ",\nNow it is even easier to deploy, ingest, and migrate data into Elastic within your Amazon Web Services (AWS) environment,  so you can quickly capture, store, and search your data. Quickly build and start your environment by leveraging the Elastic Cloud Quick Start — an automated reference deployment — that significantly reduces prior manual procedures to just a few steps. \n\nIn this blog we will go over the details of the deployment environment, benefits of Elastic on AWS, and resources available if you require migration.\nDeploy Elastic on AWS with ease\nStreamline your deployment with the Elastic Cloud Quick Start. If you have on-prem Elastic workloads, you can easily migrate them into Elastic on AWS after your deployment. \nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte6…",
-          "link": "https://www.elastic.co/blog/simplify-your-elastic-on-aws-deployment-with-the-elastic-cloud-quick-start",
-          "publishedOn": "2022-04-19T12:30:00.000Z",
-          "wordCount": 1291,
-          "title": "Simplify your Elastic on AWS deployment with the Elastic Cloud Quick Start",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltacbcd67685f3bad4/61b7ae9bf6adbe75ea5e17fa/blog-thumb-cloud-aws.png"
         }
       ]
     },
@@ -576,6 +576,16 @@
       "feedUrl": "https://www.ansible.com/blog/rss.xml",
       "siteUrl": "https://www.ansible.com/blog",
       "articles": [
+        {
+          "id": "https://www.ansible.com/blog/automating-applications-and-servers-at-the-edge-with-red-hat-ansible-automation-platform",
+          "author": "Dafné Mendoza",
+          "description": "In my previous blog, Why 2022 will be the year for edge automation, we discussed the objective of edge solutions to bring resources closer to the end user or data source.",
+          "link": "https://www.ansible.com/blog/automating-applications-and-servers-at-the-edge-with-red-hat-ansible-automation-platform",
+          "publishedOn": "2022-05-03T18:00:00.000Z",
+          "wordCount": 1808,
+          "title": "Automating Applications and Servers at the Edge with Red Hat Ansible Automation Platform",
+          "imageUrl": "https://www.ansible.com/hubfs/Screen%20Shot%202022-05-03%20at%2010.32.12%20AM.png"
+        },
         {
           "id": "https://www.ansible.com/blog/event-driven-remediation-with-systemd-and-red-hat-ansible-automation-platform",
           "author": "nmartins@redhat.com (Nuno Martins)",
@@ -623,6 +633,16 @@
       "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
       "siteUrl": "https://devblogs.microsoft.com/devops",
       "articles": [
+        {
+          "id": "https://devblogs.microsoft.com/devops/?p=63957",
+          "author": "Angel Wong",
+          "description": "Multiple on-prem customers have reported that after upgrading Git LFS to version 3.0 (or higher), they are no longer able to authenticate against Azure DevOps Server. This is because Git LFS has dropped support for NTLM authentication in version 3.0 (Changelog from 24th September 2021).\nThe post Reconfigure Azure DevOps Server to use Kerberos instead of NTLM appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/reconfigure-azure-devops-server-to-use-kerberos-instead-of-ntlm/",
+          "publishedOn": "2022-05-03T17:36:56.000Z",
+          "wordCount": 1157,
+          "title": "Reconfigure Azure DevOps Server to use Kerberos instead of NTLM",
+          "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/05/Frame-2.png"
+        },
         {
           "id": "https://devblogs.microsoft.com/devops/?p=63912",
           "author": "April Edwards",
@@ -966,7 +986,7 @@
           "description": "Learn about the fundamental redesigns we've made to Camunda Platform 8 to avoid some challenges present in Camunda Platform 7. \nThe post Why Performance of Parallel Tasks in Camunda Platform 8 is so Good appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/04/why-performance-of-parallel-tasks-in-camunda-platform-8-is-so-good/",
           "publishedOn": "2022-04-19T10:00:00.000Z",
-          "wordCount": 1986,
+          "wordCount": 1985,
           "title": "Why Performance of Parallel Tasks in Camunda Platform 8 is so Good",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/04/2022_Apr_Camunda_Blog_Featured-image_Performance-of-parallel-tasks-camunda-8_1200x630-1.png"
         },
@@ -1163,7 +1183,7 @@
           "description": "by Vivek Kaushal",
           "link": "https://netflixtechblog.com/evolution-of-ml-fact-store-5941d3231762?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-04-26T20:44:04.000Z",
-          "wordCount": 2845,
+          "wordCount": 2841,
           "title": "Evolution of ML Fact Store",
           "imageUrl": "https://miro.medium.com/max/1200/0*a37mfb9KtcdEL_mn"
         },
@@ -1173,7 +1193,7 @@
           "description": "By Alex Hutter, Falguni Jhaveri and Senthil Sayeebaba",
           "link": "https://netflixtechblog.com/how-netflix-content-engineering-makes-a-federated-graph-searchable-5c0c1c7d7eaf?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-04-12T17:16:41.000Z",
-          "wordCount": 2215,
+          "wordCount": 2199,
           "title": "How Netflix Content Engineering makes a federated graph searchable",
           "imageUrl": "https://miro.medium.com/max/1200/0*LfYcAWOrhjbp9mA7"
         }
@@ -1185,12 +1205,22 @@
       "siteUrl": "http://ai.googleblog.com/",
       "articles": [
         {
+          "id": "http://ai.googleblog.com/2022/05/alpa-automated-model-parallel-deep.html",
+          "author": null,
+          "description": "Posted by Zhuohan Li, Student Researcher, Google Research, and Yu Emma Wang, Senior Software Engineer, Google Core  \nOver the last several years, the rapidly growing size of deep learning models has quickly exceeded the memory capacity of single accelerators. Earlier models like BERT (with a parameter size of < 1GB) can efficiently scale across accelerators by leveraging data parallelism in which model weights are duplicated across accelerators while only partitioning and distributing the training data. However, recent large models like GPT-3 (with a parameter size of 175GB) can only scale using model parallel training, where a single model is partitioned across different devices.  \n While model parallelism strategies make it possible to train large models, they are more complex in that th…",
+          "link": "http://ai.googleblog.com/2022/05/alpa-automated-model-parallel-deep.html",
+          "publishedOn": "2022-05-03T21:30:00.057Z",
+          "wordCount": 2439,
+          "title": "Alpa: Automated Model-Parallel Deep Learning",
+          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
+        },
+        {
           "id": "http://ai.googleblog.com/2022/04/extracting-skill-centric-state.html",
           "author": null,
           "description": "Posted by Dhruv Shah, Intern, and Brian Ichter, Research Scientist, Robotics at Google \nAdvances in reinforcement learning (RL) for robotics have enabled robotic agents to perform increasingly complex tasks in challenging environments. Recent results show that robots can learn to fold clothes, dexterously manipulate a rubik’s cube, sort objects by color, navigate complex environments and walk on difficult, uneven terrain. But \"short-horizon\" tasks such as these, which require very little long-term planning and provide immediate failure feedback, are relatively easy to train compared to many tasks that may confront a robot in a real-world setting. Unfortunately, scaling such short-horizon skills to the abstract, long horizons of real-world tasks is difficult. For example, how would one trai…",
           "link": "http://ai.googleblog.com/2022/04/extracting-skill-centric-state.html",
           "publishedOn": "2022-04-29T17:02:00.001Z",
-          "wordCount": 2139,
+          "wordCount": 2140,
           "title": "Extracting Skill-Centric State Abstractions from Value Functions",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         },
@@ -1199,8 +1229,8 @@
           "author": null,
           "description": "Posted by Cat Armato and Callan Hajosy, Program Managers \nThe 10th International Conference on Learning Representations (ICLR 2022) kicks off this week, bringing together researchers, entrepreneurs, engineers and students alike to discuss and explore the rapidly advancing field of deep learning. Entirely virtual this year, ICLR 2022 offers conference and workshop tracks that present some of the latest research in deep learning and its applications to areas ranging from computer vision, speech recognition and text understanding to robotics, computational biology, and more. \n As a Platinum Sponsor of ICLR 2022 and Champion DEI Action Fund contributor, Google will have a robust presence with nearly 100 accepted publications and extensive participation on organizing committees and in workshops…",
           "link": "http://ai.googleblog.com/2022/04/google-at-iclr-2022.html",
-          "publishedOn": "2022-04-25T19:46:00.001Z",
-          "wordCount": 3494,
+          "publishedOn": "2022-04-25T19:46:00.003Z",
+          "wordCount": 3495,
           "title": "Google at ICLR 2022",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         },
@@ -1210,7 +1240,7 @@
           "description": "Posted by Ting Chen and David Fleet, Research Scientists, Google Research, Brain Team \nObject detection is a long-standing computer vision task that attempts to recognize and localize all objects of interest in an image. The complexity arises when trying to identify or localize all object instances while also avoiding duplication. Existing approaches, like Faster R-CNN and DETR, are carefully designed and highly customized in the choice of architecture and loss function. This specialization of existing systems has created two major barriers: (1) it adds complexity in tuning and training the different parts of the system (e.g., region proposal network, graph matching with GIOU loss, etc.), and (2), it can reduce the ability of a model to generalize, necessitating a redesign of the model for…",
           "link": "http://ai.googleblog.com/2022/04/pix2seq-new-language-interface-for.html",
           "publishedOn": "2022-04-22T20:17:00.000Z",
-          "wordCount": 2099,
+          "wordCount": 2100,
           "title": "Pix2Seq: A New Language Interface for Object Detection",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         },
@@ -1220,7 +1250,7 @@
           "description": "Posted by Alex Olwal, Research Scientist, Google Augmented Reality and Artem Dementyev, Hardware Engineer, Google Research \nAs consumer electronics and internet-connected appliances are becoming more common, homes are beginning to embrace various types of connected devices that offer functionality like music control, voice assistance, and home automation. A graceful integration of devices requires adaptation to existing aesthetics and user styles rather than simply adding screens, which can easily disrupt a visual space, especially when they become monolithic surfaces or black screens when powered down or not actively used. Thus there is an increasing desire to create connected ambient computing devices and appliances that can preserve the aesthetics of everyday materials, while providing …",
           "link": "http://ai.googleblog.com/2022/04/hidden-interfaces-for-ambient-computing.html",
           "publishedOn": "2022-04-21T19:59:00.003Z",
-          "wordCount": 2076,
+          "wordCount": 2077,
           "title": "Hidden Interfaces for Ambient Computing",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         },
@@ -1230,7 +1260,7 @@
           "description": "Posted by Chen-Yu Lee and Chun-Liang Li, Research Scientists, Google Research, Cloud AI Team \nForm-based document understanding is a growing research topic because of its practical potential for automatically converting unstructured text data into structured information to gain insight about a document’s contents. Recent sequence modeling, which is a self-attention mechanism that directly models relationships between all words in a selection of text, has demonstrated state-of-the-art performance on natural language tasks. A natural approach to handle form document understanding tasks is to first serialize the form documents (usually in a left-to-right, top-to-bottom fashion) and then apply state-of-the-art sequence models to them.  \n However, form documents often have more complex layouts …",
           "link": "http://ai.googleblog.com/2022/04/formnet-beyond-sequential-modeling-for.html",
           "publishedOn": "2022-04-20T20:36:00.000Z",
-          "wordCount": 2463,
+          "wordCount": 2464,
           "title": "FormNet: Beyond Sequential Modeling for Form-Based Document Understanding",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         },
@@ -1240,7 +1270,7 @@
           "description": "Posted by Zifeng Wang, Student Researcher, and Zizhao Zhang, Software Engineer, Google Research\nSupervised learning is a common approach to machine learning (ML) in which the model is trained using data that is labeled appropriately for the task at hand. Ordinary supervised learning trains on independent and identically distributed (IID) data, where all training examples are sampled from a fixed set of classes, and the model has access to these examples throughout the entire training phase. In contrast, continual learning tackles the problem of training a single model on changing data distributions where different classification tasks are presented sequentially. This is particularly important, for example, to enable autonomous agents to process and interpret continuous streams of informati…",
           "link": "http://ai.googleblog.com/2022/04/learning-to-prompt-for-continual.html",
           "publishedOn": "2022-04-19T17:00:00.002Z",
-          "wordCount": 2213,
+          "wordCount": 2214,
           "title": "Learning to Prompt for Continual Learning",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         },
@@ -1250,7 +1280,7 @@
           "description": "Posted by Andreas Steiner and Basil Mustafa, Research Software Engineers at Google Research, Brain team \nThe ability to classify images into categories has been transformed by deep learning. It has also been significantly accelerated by transfer learning, whereby models are first pre-trained on large datasets, like ImageNet, to learn visual representations that are then transferred via fine-tuning to a new task with less data (e.g., classifying animals). Previous works such as BiT and ViT employed these methods to achieve state-of-the-art performance on a wide range of classification tasks, such as the VTAB benchmark. \nHowever, fine-tuning has some downsides: though pre-training is done only once, fine-tuning is necessary on every new dataset for which task-specific data is needed. Multimo…",
           "link": "http://ai.googleblog.com/2022/04/locked-image-tuning-adding-language.html",
           "publishedOn": "2022-04-14T21:41:00.001Z",
-          "wordCount": 2116,
+          "wordCount": 2117,
           "title": "Locked-Image Tuning: Adding Language Understanding to Image Models",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         },
@@ -1260,7 +1290,7 @@
           "description": "Posted by Jeffrey Zhao and Raghav Gupta, Software Engineers, Google Research \nModern conversational agents need to integrate with an ever-increasing number of services to perform a wide variety of tasks, from booking flights and finding restaurants, to playing music and telling jokes. Adding this functionality can be difficult — for each new task, one needs to collect new data and retrain the models that power the conversational agent. This is because most task-oriented dialogue (TOD) models are trained on a single task-specific ontology. An ontology is generally represented as a list of possible user intents (e.g., if the user wants to book a flight, if the user wants to play some music, etc.) and possible parameter slots to extract from the conversation (e.g., the date of the flight, the…",
           "link": "http://ai.googleblog.com/2022/04/simple-and-effective-zero-shot-task.html",
           "publishedOn": "2022-04-13T17:06:00.001Z",
-          "wordCount": 2336,
+          "wordCount": 2337,
           "title": "Simple and Effective Zero-Shot Task-Oriented Dialogue",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         },
@@ -1270,7 +1300,7 @@
           "description": "Posted by Yingwei Li, Student Researcher, Google Cloud and Adams Wei Yu, Research Scientist, Google Research, Brain Team  \nLiDAR and visual cameras are two types of complementary sensors used for 3D object detection in autonomous vehicles and robots. LiDAR, which is a remote sensing technique that uses light in the form of a pulsed laser to measure ranges, provides low-resolution shape and depth information, while cameras provide high-resolution shape and texture information. While the features captured by LiDAR and cameras should be merged together to provide optimal 3D object detection, it turns out that most state-of-the-art 3D object detectors use LiDAR as the only input. The main reason is that to develop robust 3D object detection models, most methods need to augment and transform th…",
           "link": "http://ai.googleblog.com/2022/04/lidar-camera-deep-fusion-for-multi.html",
           "publishedOn": "2022-04-12T19:58:00.000Z",
-          "wordCount": 2297,
+          "wordCount": 2298,
           "title": "Lidar-Camera Deep Fusion for Multi-Modal 3D Detection",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         },
@@ -1280,7 +1310,7 @@
           "description": "Posted by Harsh Mehta, Software Engineer, Google Research \nMatrix factorization is one of the oldest, yet still widely used, techniques for learning how to recommend items such as songs or movies from user ratings. In its basic form, it approximates a large, sparse (i.e., mostly empty) matrix of user-item interactions with a product of two smaller, denser matrices representing learned item and user features. These dense matrices, in turn, can be used to recommend items to a user with which they haven't interacted before. \nDespite its algorithmic simplicity, matrix factorization can still achieve competitive performance in recommender benchmarks. Alternating least squares (ALS), and especially its implicit variation, is a fundamental algorithm to learn the parameters of matrix factorization…",
           "link": "http://ai.googleblog.com/2022/04/large-scale-matrix-factorization-on-tpus.html",
           "publishedOn": "2022-04-08T17:52:00.006Z",
-          "wordCount": 2555,
+          "wordCount": 2556,
           "title": "Large-Scale Matrix Factorization on TPUs",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         },
@@ -1290,7 +1320,7 @@
           "description": "Posted by Tal Remez, Software Engineer, Google Research and Micheal Hassid, Software Engineer Intern, Google Research   \nRecent years have seen a tremendous increase in the creation and serving of video content to users across the world in a variety of languages and over numerous platforms. The process of creating high quality content can include several stages from video capturing and captioning to  video and audio editing. In some cases dialogue is re-recorded (referred to as dialog replacement, post-sync or dubbing) in a studio in order to achieve high quality and replace original audio that might have been recorded in noisy conditions. However, the dialog replacement process can be difficult and tedious because the newly recorded audio needs to be well synced with the video, requiring …",
           "link": "http://ai.googleblog.com/2022/04/vdtts-visually-driven-text-to-speech.html",
           "publishedOn": "2022-04-07T20:45:00.000Z",
-          "wordCount": 2033,
+          "wordCount": 2034,
           "title": "VDTTS: Visually-Driven Text-To-Speech",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         },
@@ -1300,7 +1330,7 @@
           "description": "Posted by Ikechukwu Uchendu, AI Resident and Ted Xiao, Software Engineer, Robotics at Google \nReinforcement learning (RL) can be used to train a policy to perform a task via trial and error, but a major challenge in RL is learning policies from scratch in environments with hard exploration challenges. For example, consider the setting depicted in the door-binary-v0 environment from the adroit manipulation suite, where an RL agent must control a hand in 3D space to open a door placed in front of it. \n   \n\n\nAn RL agent must control a hand in 3D space to open a door placed in front of it. The agent receives a reward signal only when the door is completely open.\n\n   \nSince the agent receives no intermediary rewards, it cannot measure how close it is to completing the task, and so must explore …",
           "link": "http://ai.googleblog.com/2022/04/efficiently-initializing-reinforcement.html",
           "publishedOn": "2022-04-06T14:38:00.002Z",
-          "wordCount": 2291,
+          "wordCount": 2292,
           "title": "Efficiently Initializing Reinforcement Learning With Prior Policies",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         },
@@ -1310,7 +1340,7 @@
           "description": "Posted by Gil Shamir and Dong Lin, Research Software Engineers, Google Research \nEver queried a recommender system and found that the same search only a few moments later or on a different device yields very different results? This is not uncommon and can be frustrating if a person is looking for something specific. As a designer of such a system, it is also not uncommon for the metrics measured to change from design and testing to deployment, bringing into question the utility of the experimental testing phase. Some level of such irreproducibility can be expected as the world changes and new models are deployed. However, this also happens regularly as requests hit duplicates of the same model or models are being refreshed.  \nLack of replicability, where researchers are unable to reproduce…",
           "link": "http://ai.googleblog.com/2022/04/reproducibility-in-deep-learning-and.html",
           "publishedOn": "2022-04-05T17:41:00.000Z",
-          "wordCount": 2730,
+          "wordCount": 2731,
           "title": "Reproducibility in Deep Learning and Smooth Activations",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         },
@@ -1320,7 +1350,7 @@
           "description": "Posted by Sharan Narang and Aakanksha Chowdhery, Software Engineers, Google Research \nIn recent years, large neural networks trained for language understanding and generation have achieved impressive results across a wide range of tasks. GPT-3 first showed that large language models (LLMs) can be used for few-shot learning and can achieve impressive results without large-scale task-specific data collection or model parameter updating. More recent LLMs, such as GLaM, LaMDA, Gopher, and Megatron-Turing NLG, achieved state-of-the-art few-shot results on many tasks by scaling model size, using sparsely activated modules, and training on larger datasets from more diverse sources. Yet much work remains in understanding the capabilities that emerge with few-shot learning as we push the limits of …",
           "link": "http://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html",
           "publishedOn": "2022-04-04T16:01:00.008Z",
-          "wordCount": 2739,
+          "wordCount": 2740,
           "title": "Pathways Language Model (PaLM): Scaling to 540 Billion Parameters for Breakthrough Performance",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         }
@@ -1332,12 +1362,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=40974",
+          "author": "Seth Godin",
+          "description": "The original expression implies that preaching to the converted is a waste of time. After all, why bother marketing to people who are already on the team? The reality is that the people who aren’t enrolled in the journey are going to ignore you. They’re simply not open to being marketed to, taught, talked at […]",
+          "link": "https://feeds.feedblitz.com/~/694063970/0/sethsblog~Preaching-to-the-choir/",
+          "publishedOn": "2022-05-03T08:01:00.000Z",
+          "wordCount": 280,
+          "title": "Preaching to the choir",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=42845",
           "author": "Seth Godin",
           "description": "For skilled information workers, job mobility has never been easier or more profitable. And yet, countless people stay where they are, without ever considering why. For example, there are hundreds of senior leaders and contributors at Twitter who haven’t quit their jobs in the last week. Even though they have a financial cushion, a technical […]",
           "link": "https://feeds.feedblitz.com/~/693901112/0/sethsblog~Sunk-costs-at-work/",
           "publishedOn": "2022-05-02T09:02:00.000Z",
-          "wordCount": 344,
+          "wordCount": 345,
           "title": "Sunk costs at work",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806137-1.jpg"
         },
@@ -1420,16 +1460,6 @@
           "wordCount": 264,
           "title": "The win-win fallacy",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806132-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=42787",
-          "author": "Seth Godin",
-          "description": "This is a terrible reason to do something that makes things a little worse for other people. And a common one, of course. Much of the time, we’re willing to go out of our way to do work we’re proud of. Unless it would be inconvenient to do so. One of the reasons our best […]",
-          "link": "https://feeds.feedblitz.com/~/692449354/0/sethsblog~Because-its-more-convenient/",
-          "publishedOn": "2022-04-23T09:06:00.000Z",
-          "wordCount": 228,
-          "title": "“Because it’s more convenient”",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061315.jpg"
         }
       ]
     },
@@ -1438,6 +1468,36 @@
       "feedUrl": "https://blog.jetbrains.com/feed/",
       "siteUrl": "https://blog.jetbrains.com",
       "articles": [
+        {
+          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=244394",
+          "author": "Rachel Appel",
+          "description": "Did you know? Screensavers were introduced to stop images getting burned into your PC screens. It’s true! Older screens weren’t nearly as nice as they are now. If you left your monitor on for long periods of time and left a wallpaper or program visible, it would burn traces of it into the screen. Much like […]",
+          "link": "https://blog.jetbrains.com/dotnet/2022/05/03/net-annotated-monthly-may-2022/",
+          "publishedOn": "2022-05-03T10:54:12.000Z",
+          "wordCount": 2351,
+          "title": ".NET Annotated Monthly | May 2022",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2020/10/dotnet-NET_Annotated_blog_1600x800.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=space&p=244202",
+          "author": "Evgenia Verbina",
+          "description": "The Space team has brought another set of useful updates to improve your experience with IDE integration, documents, calendars, and more. If you haven’t heard about what was new to Space in March and April, this blog post will give you a quick overview. Dive in to learn about the latest updates: Choose when to […]",
+          "link": "https://blog.jetbrains.com/space/2022/05/02/product-updates-in-april-2022/",
+          "publishedOn": "2022-05-02T10:51:44.000Z",
+          "wordCount": 1093,
+          "title": "Space Product Updates in April 2022",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/april-updates.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=qodana&p=241903",
+          "author": "Anastasia Khramushina",
+          "description": "Even though legal fees and reputational risks for invalid or inappropriately used licenses are extremely costly, nearly all organizations involved in software or hardware development still have no license auditing process for their codebase. If your business relies on open-source components or outsource development in your services, or if you as a developer reuse code […]",
+          "link": "https://blog.jetbrains.com/qodana/2022/05/keep-your-dependency-licenses-in-check/",
+          "publishedOn": "2022-05-02T08:46:16.000Z",
+          "wordCount": 1098,
+          "title": "Keep Your Dependency Licenses in Check",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/Blog_Social_share_image_1280x720-1-1.png"
+        },
         {
           "id": "https://blog.jetbrains.com/?post_type=phpstorm&p=243994",
           "author": "Brent Roose",
@@ -1464,7 +1524,7 @@
           "description": "Hello everyone, The ReSharper and Rider 2022.1.1 bug-fix releases are now available! Let’s go over the most important updates. ReSharper Fixed the Stack Trace Explorer that had difficulty working with multitarget projects (RSRP-488300). Fixed an error that emerged when the test method’s name is set to the same as the value of the [TestName] attribute […]",
           "link": "https://blog.jetbrains.com/dotnet/2022/04/29/resharper-rider-2022-1-1-bug-fixes/",
           "publishedOn": "2022-04-29T11:43:52.000Z",
-          "wordCount": 700,
+          "wordCount": 704,
           "title": "ReSharper and Rider 2022.1.1 bug fixes have landed",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/01/preview_1280x800.png"
         },
@@ -1494,7 +1554,7 @@
           "description": "The recording for our webinar, Phone Calls with .NET and Twilio with software engineer and technical content creator at Twilio – Niels Swimberghe, is now available. Subscribe to our community newsletter to receive notifications about future webinars. In this webinar, learn how to add phone calls to your .NET applications using Twilio APIs! In this […]",
           "link": "https://blog.jetbrains.com/dotnet/2022/04/28/phone-calls-with-net-and-twilio-webinar-recording/",
           "publishedOn": "2022-04-28T11:37:33.000Z",
-          "wordCount": 675,
+          "wordCount": 674,
           "title": "Phone Calls with .NET and Twilio – Webinar Recording",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/04/DSGN-13173-Webinar-Rider-Phone-Calls-with-.NET-and-Twilio-NEW_Facebook_1200-630.png"
         },
@@ -1527,36 +1587,6 @@
           "wordCount": 578,
           "title": "Live Stream Recording: WebStorm’s Power User Manual",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/04/WebStorm_Power_User_Manual_Social_share.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=mps&p=243311",
-          "author": "Oscar Rodriguez",
-          "description": "MPS 2022.1 was supposed to be released this month, but we unfortunately have to announce that this is not going to happen. The previous release, MPS 2021.3, was released late, which gave us a shorter time frame for fixing the bugs of the new features, while also developing functionality for MPS 2022.1. Rather than risk […]",
-          "link": "https://blog.jetbrains.com/mps/2022/04/mps-is-skipping-the-2022-1-release/",
-          "publishedOn": "2022-04-27T14:26:52.000Z",
-          "wordCount": 554,
-          "title": "MPS Is Skipping the 2022.1 Release",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/01/MPS.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=objc&p=236850",
-          "author": "Stanislav Dombrovsky",
-          "description": "Please welcome our first major update this year – AppCode 2022.1! Swift Language support AppCode 2022.1 includes support for the following Swift features: SE-0298: async sequences First part of SE-0313: support for isolation control specifiers in Swift parser SE-0308: #if for postfix member expressions Swift Package Manager We’ve added an ability to update Swift Package […]",
-          "link": "https://blog.jetbrains.com/appcode/2022/04/appcode-2022-1/",
-          "publishedOn": "2022-04-27T13:13:39.000Z",
-          "wordCount": 727,
-          "title": "AppCode 2022.1: Swift Support Improvements, Xcode 13.3 Support, and More",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/03/Release_Blog_Social_share_image_1280x720_AppCode-2x.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=240045",
-          "author": "Maarten Balliauw",
-          "description": "If you’re developing ASP.NET Core applications, and are looking at building a rich client-side experience, you’re in luck. We just published a new tutorial to the JetBrains .NET Guide: HTMX for ASP.NET Core Developers In this tutorial, our developer advocate Khalid Abuhakmeh introduces you to HTMX, and how to integrate it into your ASP.NET Core […]",
-          "link": "https://blog.jetbrains.com/dotnet/2022/04/27/htmx-for-asp-net-core-developers-tutorial/",
-          "publishedOn": "2022-04-27T13:04:20.000Z",
-          "wordCount": 787,
-          "title": "HTMX for ASP.NET Core Developers – Tutorial",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/04/rd-how-tos-share.png"
         }
       ]
     }

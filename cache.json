@@ -6,6 +6,26 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2022/05/12/spring-framework-6-0-0-m4-available-now",
+          "author": null,
+          "description": "On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework 6.0.0-M4 is available now.\n\r\nSpring Framework 6.0.0-M4 ships with all the fixes from 5.3.20 released yesterday, and also includes 39 fixes and improvements specific to the 6.0 branch.\n\r\nProject Page | GitHub | Issues | Documentation",
+          "link": "https://spring.io/blog/2022/05/12/spring-framework-6-0-0-m4-available-now",
+          "publishedOn": "2022-05-12T15:19:00.000Z",
+          "wordCount": 429,
+          "title": "Spring Framework 6.0.0-M4 available now",
+          "imageUrl": "https://avatars.githubusercontent.com/u/103264?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2022/05/12/a-bootiful-podcast-easymock-contributor-java-champion-and-java-luminary-henri-tremblay",
+          "author": null,
+          "description": "Hi, Spring fans! In this episode, Josh Long (@starbuxman) talks to fellow Java Champion, EasyMock engineer, and Java luminary, JUG leader, and legend Henri Tremblay (@henri_tremblay)",
+          "link": "https://spring.io/blog/2022/05/12/a-bootiful-podcast-easymock-contributor-java-champion-and-java-luminary-henri-tremblay",
+          "publishedOn": "2022-05-12T07:00:00.000Z",
+          "wordCount": 415,
+          "title": "A Bootiful Podcast: EasyMock contributor, Java Champion, and Java luminary Henri Tremblay",
+          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
+        },
+        {
           "id": "https://spring.io/blog/2022/05/11/spring-framework-5-3-20-and-5-2-22-available-now",
           "author": null,
           "description": "On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework 5.3.20 and 5.2.22 are available now.\n\r\nSpring Framework 5.3.20 includes 14 fixes and improvements.\nSpring Framework 5.2.22 includes 2 backports.\n\r\nIn addition, these releases include fixes for 2 vulnerabilities:\n\r\n\r\n  \n\r\n  \nCVE-2022-22970\n “Spring Framework DoS via Data Binding to MultipartFile or Servlet Part”\n Denial of Service (DoS) attack in Spring MVC or Spring WebFlux applications that handle file uploads and rely on data binding to set a MultipartFile or javax.servlet.Part to a field in a model object.\n Severity: Medium\n\r\n  \n\r\n  \nCVE-2022-22971\n “Spring Framework DoS with STOMP over WebSocket”\n Denial of service (DoS) attack by authenticated users in Spring applications with a STOMP over WebSocket endpoint.\n Severity: Medium\n\r\n\r\nThese new versions are recommended upgrades for all Spring production scenarios.\n\r\nProject Page | GitHub | Issues | Documentation",
@@ -184,26 +204,6 @@
           "wordCount": 1012,
           "title": "Spring Data 2021.2.0-RC1, 2021.1.4, and 2021.0.11 released",
           "imageUrl": "https://avatars.githubusercontent.com/u/2317257?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/04/18/spring-security-5-7-0-rc1-released",
-          "author": null,
-          "description": "On behalf of the community, I’m pleased to announce the release of Spring Security 5.7.0-RC1!\n\r\n\r\n\r\nIn addition to dependency upgrades, bug fixes, and minor enhancements, the release candidate contains a few noteworthy changes:\n\r\n\r\n\r\n\r\n\r\nIntroduced SecurityContextHolderFilter - Ability to require explicit saving of the SecurityContext\n\r\n\r\n\r\nAdded DSL support for Cross Origin Policies headers\n\r\n\r\n\r\nAllow configuring PKCE for confidential clients\n\r\n\r\n\r\nAdded SAML 2.0 Login & Single Logout XML support\n\r\n\r\n\r\n\r\n\r\nThis release candidate is a good opportunity to give feedback before the actual GA release in mid-May. We look forward to hearing from you.\n\r\n\r\n\r\nYou can find the complete details in the release notes.",
-          "link": "https://spring.io/blog/2022/04/18/spring-security-5-7-0-rc1-released",
-          "publishedOn": "2022-04-18T20:51:00.000Z",
-          "wordCount": 476,
-          "title": "Spring Security 5.7.0-RC1 released",
-          "imageUrl": "https://avatars.githubusercontent.com/u/13255302?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/04/18/spring-security-5-6-3-and-5-5-6-available-now",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Security 5.6.3 and 5.5.6 are available now.\n\r\n\r\n\r\nYou can find more details about the respective releases here and\r\n here.",
-          "link": "https://spring.io/blog/2022/04/18/spring-security-5-6-3-and-5-5-6-available-now",
-          "publishedOn": "2022-04-18T20:49:00.000Z",
-          "wordCount": 417,
-          "title": "Spring Security 5.6.3 and 5.5.6 available now",
-          "imageUrl": "https://avatars.githubusercontent.com/u/13255302?v=4?s=200"
         }
       ]
     },
@@ -218,7 +218,7 @@
           "description": "Nomad 1.3 includes built-in service discovery, improved edge compute support, Container Storage Interface (CSI) general availability, and more.",
           "link": "https://www.hashicorp.com/blog/nomad-1-3-adds-native-service-discovery-and-edge-workload-support",
           "publishedOn": "2022-05-11T19:00:00.000Z",
-          "wordCount": 2700,
+          "wordCount": 2689,
           "title": "Nomad 1.3 Adds Native Service Discovery and Edge Workload Support",
           "imageUrl": "https://www.datocms-assets.com/2885/1620083839-blog-library-product-nomad-dark-graphics.jpg"
         },
@@ -371,16 +371,6 @@
           "wordCount": 1055,
           "title": "Cisco, Datadog, Fortinet, VMware & Others Add Consul Integrations",
           "imageUrl": "https://www.datocms-assets.com/2885/1649864338-q1consulintegrationsgraphic.png"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/consul-on-amazon-ecs-0-4-now-supports-multi-tenancy",
-          "author": null,
-          "description": "The latest version of HashiCorp Consul on Amazon ECS adds support for multi-tenancy with administrative partitions and namespaces.",
-          "link": "https://www.hashicorp.com/blog/consul-on-amazon-ecs-0-4-now-supports-multi-tenancy",
-          "publishedOn": "2022-04-12T16:00:00.000Z",
-          "wordCount": 1095,
-          "title": "Consul on Amazon ECS 0.4 Now Supports Multi-Tenancy",
-          "imageUrl": "https://www.datocms-assets.com/2885/1620155275-blog-library-product-consul-aws-logomarks-dark.jpg"
         }
       ]
     },
@@ -389,6 +379,46 @@
       "feedUrl": "https://www.elastic.co/blog/feed",
       "siteUrl": "https://www.elastic.co",
       "articles": [
+        {
+          "id": "https://www.elastic.co/blog/observability-apm-aws-lambda-serverless-functions",
+          "author": "Akhilesh Pokhariyal,Amena Siddiqi",
+          "description": "An overview of Elastic Observability’s new capabilities around monitoring AWS Lambda functions in your cloud-native environment. Get detailed insights into your distributed, microservices architecture and applications through our APM capabilities.",
+          "link": "https://www.elastic.co/blog/observability-apm-aws-lambda-serverless-functions",
+          "publishedOn": "2022-05-12T00:00:00.000Z",
+          "wordCount": 2232,
+          "title": "Get visibility into AWS Lambda serverless functions with Elastic Observability",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltf3bacfd8b17347df/609971747ee89a47ff539f7b/blog-observability-720x420.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/culture-mental-health-awareness",
+          "author": "Elastic Culture",
+          "description": "As the pandemic continues to evolve, mental health is very much in the spotlight. To support our Elasticians, we offer a variety of benefits related to mental health.",
+          "link": "https://www.elastic.co/blog/culture-mental-health-awareness",
+          "publishedOn": "2022-05-12T00:00:00.000Z",
+          "wordCount": 926,
+          "title": "Make time for your mental health this May, here’s how",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt816e8140c453763e/627d4cd40d4d8e1d7f124edb/blog-thumb-mental-health-awareness.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/observability-apm-aws-lambda-serverless-functions",
+          "author": "Akhilesh Pokhariyal,Amena Siddiqi",
+          "description": ",\nAdoption of AWS Lambda functions in cloud-native applications has increased exponentially over the past few years. Serverless functions, such as the AWS Lambda service, provide a high level of abstraction from the underlying infrastructure and orchestration, given these tasks are managed by the cloud provider. Software development teams can then focus on the implementation of business and application logic. \nSome additional benefits include billing for serverless functions based on the actual compute and memory resources consumed, along with automatic on-demand scaling. One difficulty in using serverless functions, however, is making them observable in the wider end-to-end microservices architecture context. \n,Elastic APM for AWS Lambda: The architecture\nIn a previous blog post, we showe…",
+          "link": "https://www.elastic.co/blog/observability-apm-aws-lambda-serverless-functions",
+          "publishedOn": "2022-05-12T00:00:00.000Z",
+          "wordCount": 2232,
+          "title": "Get visibility into AWS Lambda serverless functions with Elastic Observability",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltf3bacfd8b17347df/609971747ee89a47ff539f7b/blog-observability-720x420.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/culture-mental-health-awareness",
+          "author": "Elastic Culture",
+          "description": ",\nMay is Mental Health Awareness Month in the United States, and as we continue into the third year of the COVID-19 pandemic and start to see some aspects of life return to ‘normal’, our collective mental health deserves to be continually looked after. \nWhile the switch to primarily working from home wasn’t a huge departure from pre-pandemic life for our distributed team, other aspects of life moving into the home caused a huge shift for many—especially parents. With kids learning from home, parents working from home, and no option for outside help, the situation was ripe for anxiety, stress, and ultimately burnout. \nOne study reports that 63% of moms, “feel like they’ve worked a full day after handling their family’s needs in the morning”, and 48% of those women feel like burnout is keepi…",
+          "link": "https://www.elastic.co/blog/culture-mental-health-awareness",
+          "publishedOn": "2022-05-12T00:00:00.000Z",
+          "wordCount": 926,
+          "title": "Make time for your mental health this May, here’s how",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt816e8140c453763e/627d4cd40d4d8e1d7f124edb/blog-thumb-mental-health-awareness.png"
+        },
         {
           "id": "https://www.elastic.co/blog/elastic-and-tines-partner-to-detect-security-threats-and-reduce-mean-time-to-respond",
           "author": "James Spiteri",
@@ -548,46 +578,6 @@
           "wordCount": 558,
           "title": "Deep dive on the BLISTER loader",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt64ac6f0006f42861/6092aafd162d47104df4b8b9/blog-security-timeseries-radar-720x420.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/break-down-data-silos-to-unlock-great-customer-experience",
-          "author": "David Rand",
-          "description": "3 recommendations to put idle or siloed data to work in the enterprise where it matters most — for your customers",
-          "link": "https://www.elastic.co/blog/break-down-data-silos-to-unlock-great-customer-experience",
-          "publishedOn": "2022-05-05T00:00:00.000Z",
-          "wordCount": 1268,
-          "title": "Break down data silos to unlock great customer experience",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt23dd0fcd04c0c6a5/6272c3d10cffdf1eb1369a00/Unsilo_d-Data-1440x840.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/break-down-data-silos-to-unlock-great-customer-experience",
-          "author": "David Rand",
-          "description": ",\nFor all the zettabytes of data companies have amassed to date, surprisingly little of it influences how customers interact with and use products and services.\nThat’s because most of the data winds up in silos of various kinds, never to inform those experiences. Indeed, eight in 10 businesses today still lack a comprehensive data strategy, according to Accenture–and just as many do not have a centralized digital platform to manage data. Conversely, organizations that are able to draw on a broader range of data can discover unexpected insights about what customers want or don’t want, and when and how.\n“Companies can create amazing experiences if they pull the right data from their silos and get it to the right people in their organization,” says Isabelle Zdatny, an experience management le…",
-          "link": "https://www.elastic.co/blog/break-down-data-silos-to-unlock-great-customer-experience",
-          "publishedOn": "2022-05-05T00:00:00.000Z",
-          "wordCount": 1268,
-          "title": "Break down data silos to unlock great customer experience",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt23dd0fcd04c0c6a5/6272c3d10cffdf1eb1369a00/Unsilo_d-Data-1440x840.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/whats-new-elastic-security-8-2-0",
-          "author": "Mark Settle",
-          "description": "Elastic Security 8.2 arms analysts with powerful insights and enhanced attack visibility. The release delivers alert contextualization, host inspection directly from an alert, new investigation guides, and the GA of threat intelligence.",
-          "link": "https://www.elastic.co/blog/whats-new-elastic-security-8-2-0",
-          "publishedOn": "2022-05-03T18:00:00.000Z",
-          "wordCount": 1620,
-          "title": "What’s new in Elastic Security 8.2: Streamline analyst workflows with context and expertise",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt69323019f723d794/5ffe0811f093203f68d42e54/blog-thumb-release-security.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/whats-new-elastic-security-8-2-0",
-          "author": "Mark Settle",
-          "description": ",\nElastic Security 8.2 powers the efficiency and effectiveness of security teams, arming analysts with invaluable insights and deep visibility into the attacks targeting their organization. The release delivers rich alert contextualization, osquery host inspection directly from an alert, new investigation guides, and the general availability of threat intelligence.\nLet’s jump in.\nStreamline analyst workflows with context and expertise\nCurated UI for analyzing user activity\nElastic Security 8.2 provides new visibility into user activity, helping practitioners address insider threats, account takeover, privilege abuse, and related vectors. The experience is consistent with existing analyst workflows for exploring host and network data. \nUsers View supports security monitoring by presenting e…",
-          "link": "https://www.elastic.co/blog/whats-new-elastic-security-8-2-0",
-          "publishedOn": "2022-05-03T18:00:00.000Z",
-          "wordCount": 1620,
-          "title": "What’s new in Elastic Security 8.2: Streamline analyst workflows with context and expertise",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt69323019f723d794/5ffe0811f093203f68d42e54/blog-thumb-release-security.png"
         }
       ]
     },
@@ -599,11 +589,11 @@
         {
           "id": "https://www.ansible.com/blog/introducing-a-brand-new-way-to-automate-your-azure-cloud",
           "author": "Hicham Mourad",
-          "description": "In December of 2021, Red Hat and Microsoft announced the Red Hat Ansible Automation Platform on Microsoft Azure.",
+          "description": "In December of 2021, Red Hat and Microsoft announced Red Hat Ansible Automation Platform on Microsoft Azure.",
           "link": "https://www.ansible.com/blog/introducing-a-brand-new-way-to-automate-your-azure-cloud",
           "publishedOn": "2022-05-10T13:07:46.000Z",
-          "wordCount": 1522,
-          "title": "Introducing a brand new way to automate your Azure Cloud",
+          "wordCount": 1590,
+          "title": "Introducing a brand new way to automate your Azure cloud",
           "imageUrl": "https://lh5.googleusercontent.com/6CPitNcrDnyJBvZptP4c7SVFOhi5gv_wFt-93ok5k6IPx22JuAg0E9naCYr9kL_tBEBUEVg5iCW3PgkvH0Yv23lj4vjZrPLfsjo4p-vSs7oalKXri4kNReqywJ4YhjCxtdDJjLLCzn8yR5Hwsg"
         },
         {
@@ -655,16 +645,6 @@
           "wordCount": 2282,
           "title": "Deep dive on Ansible VScode extension",
           "imageUrl": "https://lh4.googleusercontent.com/jysdtN7z0-uhXwBLGo5H0jjZIVKYKhxRPxV_cMCfkma0kW24DDycvpsP2pUZDbLOoeFBxrWATHzuW3lqD7TZ-b6_mOpmz4ZSLZIizo12A8o9ttxORZsdvNFb7irqe6FsNfd0b3GK"
-        },
-        {
-          "id": "https://www.ansible.com/blog/red-hat-insights-for-ansible-automation-platform-new-report-modules",
-          "author": "jhardy@redhat.com (John Hardy)",
-          "description": "Red Hat Insights is a suite of cloud services available on the Red Hat Hybrid Cloud Console, powered by an expert system that is built upon years of data collected from across Red Hat’s worldwide customer base. For Red Hat Ansible Automation Platform customers, it provides predictive analytical reporting of your Ansible automation.",
-          "link": "https://www.ansible.com/blog/red-hat-insights-for-ansible-automation-platform-new-report-modules",
-          "publishedOn": "2022-04-13T13:00:00.000Z",
-          "wordCount": 1298,
-          "title": "Red Hat Insights for Ansible Automation Platform New Report : Modules",
-          "imageUrl": "https://lh3.googleusercontent.com/3qy6Fw28jto5JcVe4v2rYH33mAIYlz7gpbieUgkrrdO90CcxoTJ3XT5c4EzuDg06DIRH2JBP1AmAfYPGb-9Ssoy10mwWj774LKVpdmE8kD1U_q8bIAP_D0cxWJa4kpGrs3MHt0VP"
         }
       ]
     },
@@ -679,7 +659,7 @@
           "description": "The top stories from the #AzureDevOps #community for 2022.06.05 are here!\nI am April Edwards and every week I try to bring you the latest updates from around the DevOps on Azure community.\nThe post Top Stories from the Microsoft DevOps Community – 2022.06.05 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-2022-06-05/",
           "publishedOn": "2022-05-06T15:14:01.000Z",
-          "wordCount": 1307,
+          "wordCount": 1539,
           "title": "Top Stories from the Microsoft DevOps Community – 2022.06.05",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/04/R.png"
         },
@@ -931,6 +911,16 @@
       "siteUrl": "https://camunda.com",
       "articles": [
         {
+          "id": "https://camunda.com/?p=53306",
+          "author": "Amy Johnston",
+          "description": "Discover how these features support better IT and business collaboration, more efficient process execution, and instant troubleshooting. \nThe post 10 Cool Features of Camunda Platform 8 appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2022/05/10-cool-features-of-camunda-platform-8/",
+          "publishedOn": "2022-05-11T12:08:00.000Z",
+          "wordCount": 1523,
+          "title": "10 Cool Features of Camunda Platform 8",
+          "imageUrl": "https://camunda.com/wp-content/uploads/2022/05/2022_May_Camunda_Blog_Top-10-Features-Camunda-Platform-8_1200x630-1.png"
+        },
+        {
           "id": "https://camunda.com/?p=53158",
           "author": "Camunda Optimize Team",
           "description": "We’re excited to announce the release of Camunda Optimize 3.9.0-alpha1. Check out the latest improvements and bug fixes with this release.\nThe post Camunda Optimize 3.9.0-alpha1 Released appeared first on Camunda.",
@@ -946,7 +936,7 @@
           "description": "We're pleased to announce the first alpha release of Camunda Automation Platform 7.18.0. Learn about the improvements made in this release. \nThe post Camunda Automation Platform 7.18.0-alpha1 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/05/camunda-automation-platform-7-18-0-alpha1-released/",
           "publishedOn": "2022-05-10T06:45:00.000Z",
-          "wordCount": 921,
+          "wordCount": 920,
           "title": "Camunda Automation Platform 7.18.0-alpha1 Released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/05/2022-Camunda-Blog-Graphics-Template-31.jpg"
         },
@@ -966,7 +956,7 @@
           "description": "Camunda Platform 8 only just arrived, and there’s already a lot of excitement around this new release. Early adopters share their highlights.\nThe post Camunda Platform 8 Highlights from  #CamundaSummit appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/05/camunda-platform-8-highlights-from-camundasummit/",
           "publishedOn": "2022-05-06T13:00:00.000Z",
-          "wordCount": 1653,
+          "wordCount": 1647,
           "title": "Camunda Platform 8 Highlights from  #CamundaSummit",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/05/2022_May_Camunda_Blog_C8-Highlights-from-Camunda-Summit_1200x630.png"
         },
@@ -976,7 +966,7 @@
           "description": "Getting familiar with Camunda Platform 8? Learn why GraphQL is replacing REST API as the interface technology and how it works.\nThe post Getting Started with Camunda Platform 8’s GraphQL API appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/05/getting-started-with-camunda-platform-8s-graphql-api/",
           "publishedOn": "2022-05-04T16:00:00.000Z",
-          "wordCount": 1466,
+          "wordCount": 1460,
           "title": "Getting Started with Camunda Platform 8’s GraphQL API",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/05/2022-Camunda-Blog-Graphics-Template-30.jpg"
         },
@@ -986,7 +976,7 @@
           "description": "Learn about our interesting journey with benchmarking and how to run a benchmark to figure out what your Zeebe cluster can do.\nThe post How to Benchmark Your Camunda Platform 8 Cluster appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/05/how-to-benchmark-your-camunda-platform-8-cluster/",
           "publishedOn": "2022-05-02T13:00:00.000Z",
-          "wordCount": 2776,
+          "wordCount": 2771,
           "title": "How to Benchmark Your Camunda Platform 8 Cluster",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/05/2022_May_Camunda_Blog_Benchmark-Camunda-8-Cluster.png"
         },
@@ -1016,19 +1006,9 @@
           "description": "Ready for a digital transformation? Learn why Swiss Re selected Camunda Platform 8 as its cloud-native process orchestration solution.\nThe post Swiss Re’s Journey Toward a Cloud-Native Orchestration Solution appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/04/swiss-res-journey-toward-a-cloud-native-orchestration-solution/",
           "publishedOn": "2022-04-22T18:00:00.000Z",
-          "wordCount": 1149,
+          "wordCount": 1142,
           "title": "Swiss Re’s Journey Toward a Cloud-Native Orchestration Solution",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/04/image1.png"
-        },
-        {
-          "id": "https://camunda.com/?p=51389",
-          "author": "Thomas Heinrichs",
-          "description": "Ever struggled to notify the right people during an emergency? Learn how a fire service notification system was built with BPMN and Camunda Platform 8.\nThe post Implementing My Fire Service Notification System with Camunda Platform 8 appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2022/04/implementing-my-fire-service-notification-system-with-camunda-platform-8/",
-          "publishedOn": "2022-04-21T23:00:00.000Z",
-          "wordCount": 2058,
-          "title": "Implementing My Fire Service Notification System with Camunda Platform 8",
-          "imageUrl": "https://camunda.com/wp-content/uploads/2022/04/2022-Camunda-Blog-Graphics-Template-25.jpg"
         }
       ]
     },
@@ -1178,19 +1158,9 @@
           "description": "by Vivek Kaushal",
           "link": "https://netflixtechblog.com/evolution-of-ml-fact-store-5941d3231762?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-04-26T20:44:04.000Z",
-          "wordCount": 2843,
+          "wordCount": 2826,
           "title": "Evolution of ML Fact Store",
           "imageUrl": "https://miro.medium.com/max/1200/0*a37mfb9KtcdEL_mn"
-        },
-        {
-          "id": "https://medium.com/p/5c0c1c7d7eaf",
-          "author": "Netflix Technology Blog",
-          "description": "By Alex Hutter, Falguni Jhaveri and Senthil Sayeebaba",
-          "link": "https://netflixtechblog.com/how-netflix-content-engineering-makes-a-federated-graph-searchable-5c0c1c7d7eaf?source=rss----2615bd06b42e---4",
-          "publishedOn": "2022-04-12T17:16:41.000Z",
-          "wordCount": 2193,
-          "title": "How Netflix Content Engineering makes a federated graph searchable",
-          "imageUrl": "https://miro.medium.com/max/1200/0*LfYcAWOrhjbp9mA7"
         }
       ]
     },
@@ -1199,6 +1169,16 @@
       "feedUrl": "http://feeds.feedburner.com/blogspot/gJZg",
       "siteUrl": "http://ai.googleblog.com/",
       "articles": [
+        {
+          "id": "http://ai.googleblog.com/2022/05/challenges-in-multi-objective.html",
+          "author": null,
+          "description": "Posted by Sara Ahmadian and Matthew Fahrbach, Research Scientists, Google Research, Large-Scale Optimization Team \nEconomics, combinatorics, physics, and signal processing conspire to make it difficult to design, build, and operate high-quality, cost-effective wireless networks. The radio transceivers that communicate with our mobile phones, the equipment that supports them (such as power and wired networking), and the physical space they occupy are all expensive, so it’s important to be judicious in choosing sites for new transceivers. Even when the set of available sites is limited, there are exponentially many possible networks that can be built. For example, given only 50 sites, there are 250 (over a million billion) possibilities!  \nFurther complicating things, for every location wher…",
+          "link": "http://ai.googleblog.com/2022/05/challenges-in-multi-objective.html",
+          "publishedOn": "2022-05-12T18:02:00.000Z",
+          "wordCount": 2485,
+          "title": "Challenges in Multi-objective Optimization for Automatic Wireless Network Planning",
+          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
+        },
         {
           "id": "http://ai.googleblog.com/2022/05/language-models-perform-reasoning-via.html",
           "author": null,
@@ -1214,7 +1194,7 @@
           "author": null,
           "description": "Posted by Isaac Caswell and Ankur Bapna, Research Scientists, Google Translate  \nMachine translation (MT) technology has made significant advances in recent years, as deep learning has been integrated with natural language processing (NLP). Performance on research benchmarks like WMT have soared, and translation services have improved in quality and expanded to include new languages. Nevertheless, while existing translation services cover languages spoken by the majority of people world wide, they only include around 100 languages in total, just over 1% of those actively spoken globally. Moreover, the languages that are currently represented are overwhelmingly European, largely overlooking regions of high linguistic diversity, like Africa and the Americas. \n There are two key bottlenecks t…",
           "link": "http://ai.googleblog.com/2022/05/24-new-languages-google-translate.html",
-          "publishedOn": "2022-05-11T17:07:00.001Z",
+          "publishedOn": "2022-05-11T17:07:00.002Z",
           "wordCount": 2681,
           "title": "Unlocking Zero-Resource Machine Translation to Support New Languages in Google Translate",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
@@ -1328,16 +1308,6 @@
           "wordCount": 2337,
           "title": "Simple and Effective Zero-Shot Task-Oriented Dialogue",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
-        },
-        {
-          "id": "http://ai.googleblog.com/2022/04/lidar-camera-deep-fusion-for-multi.html",
-          "author": null,
-          "description": "Posted by Yingwei Li, Student Researcher, Google Cloud and Adams Wei Yu, Research Scientist, Google Research, Brain Team  \nLiDAR and visual cameras are two types of complementary sensors used for 3D object detection in autonomous vehicles and robots. LiDAR, which is a remote sensing technique that uses light in the form of a pulsed laser to measure ranges, provides low-resolution shape and depth information, while cameras provide high-resolution shape and texture information. While the features captured by LiDAR and cameras should be merged together to provide optimal 3D object detection, it turns out that most state-of-the-art 3D object detectors use LiDAR as the only input. The main reason is that to develop robust 3D object detection models, most methods need to augment and transform th…",
-          "link": "http://ai.googleblog.com/2022/04/lidar-camera-deep-fusion-for-multi.html",
-          "publishedOn": "2022-04-12T19:58:00.000Z",
-          "wordCount": 2298,
-          "title": "Lidar-Camera Deep Fusion for Multi-Modal 3D Detection",
-          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         }
       ]
     },
@@ -1347,12 +1317,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=42000",
+          "author": "Seth Godin",
+          "description": "Many knowledge-economy employees say that the main cause of dissatisfaction at work is lack of agency. Lack of control over our time and our decisions and our output is demeaning. It turns people into cogs. As the nature of work changes, innovation and small groups are adding far more value than the race to the […]",
+          "link": "https://feeds.feedblitz.com/~/695648564/0/sethsblog~The-postindustrial-collision/",
+          "publishedOn": "2022-05-12T08:17:00.000Z",
+          "wordCount": 282,
+          "title": "The post-industrial collision",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061318.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=41984",
           "author": "Seth Godin",
           "description": "This is a great excuse for racing to the bottom. Corporations with power go ahead and take advantage of customers. “Well, if we don’t do it, a competitor will.” The public markets don’t require companies to throw out their principles to succeed. In fact, they reward companies that do the opposite. People exploit vulnerabilities in […]",
           "link": "https://feeds.feedblitz.com/~/695479513/0/sethsblog~somebody-else-will/",
           "publishedOn": "2022-05-11T08:29:00.000Z",
-          "wordCount": 242,
+          "wordCount": 243,
           "title": "“…somebody else will.”",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806137-1.jpg"
         },
@@ -1435,16 +1415,6 @@
           "wordCount": 281,
           "title": "Preaching to the choir",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=42845",
-          "author": "Seth Godin",
-          "description": "For skilled information workers, job mobility has never been easier or more profitable. And yet, countless people stay where they are, without ever considering why. For example, there are hundreds of senior leaders and contributors at Twitter who haven’t quit their jobs in the last week. Even though they have a financial cushion, a technical […]",
-          "link": "https://feeds.feedblitz.com/~/693901112/0/sethsblog~Sunk-costs-at-work/",
-          "publishedOn": "2022-05-02T09:02:00.000Z",
-          "wordCount": 345,
-          "title": "Sunk costs at work",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806137-1.jpg"
         }
       ]
     },
@@ -1453,6 +1423,46 @@
       "feedUrl": "https://blog.jetbrains.com/feed/",
       "siteUrl": "https://blog.jetbrains.com",
       "articles": [
+        {
+          "id": "https://blog.jetbrains.com/?post_type=datagrip&p=245660",
+          "author": "Alisa Lukonina",
+          "description": "The new DataGrip 2022.1.4 bug-fix update is now available. DBE-15552: We’ve fixed a bug that was causing the names and icons of DDL data sources to be missing from the Database Explorer. Thanks! DataGrip team.",
+          "link": "https://blog.jetbrains.com/datagrip/2022/05/12/datagrip-2022-1-4/",
+          "publishedOn": "2022-05-12T14:53:00.000Z",
+          "wordCount": 376,
+          "title": "DataGrip 2022.1.4",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/02/datagrip_social.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=pycharm&p=245676",
+          "author": "Valeria Letusheva",
+          "description": "The first minor update to PyCharm 2022.1 is here. You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are an Ubuntu user. You can also download it from our website. PEP 617: The syntax for Python 3.9’s parenthesized context managers is now fully supported. [PY-42200] […]",
+          "link": "https://blog.jetbrains.com/pycharm/2022/05/2022-1-1/",
+          "publishedOn": "2022-05-12T14:26:49.000Z",
+          "wordCount": 490,
+          "title": "PyCharm 2022.1.1 Is Now Available",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/02/pycharm_social.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=qodana&p=244853",
+          "author": "Anastasia Khramushina",
+          "description": "We are continuously adding new functionality and improving Qodana, our code quality platform. To keep you updated about what’s new, we’re starting a series of regular release blog posts with the major release of Qodana 2022.1. License audit has been an extra linter that had to be configured separately from the main linters. It now […]",
+          "link": "https://blog.jetbrains.com/qodana/2022/05/qodana-2022-1-is-available/",
+          "publishedOn": "2022-05-12T13:06:40.000Z",
+          "wordCount": 1207,
+          "title": "Qodana 2022.1 Is Available",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/DSGN-13658_Qodana_Release_20221_Blog_Social_share_image_1280x720.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=245598",
+          "author": "Khalid Abuhakmeh",
+          "description": "The recording for our webinar, Using the BFF pattern to secure SPA and Blazor Applications with Duende Software co-founder Dominick Baier, is now available. Subscribe to our community newsletter to receive notifications about future webinars. Modern web development means that more and more application code is running in the browser. Traditionally this has been JavaScript […]",
+          "link": "https://blog.jetbrains.com/dotnet/2022/05/12/securing-spas-and-blazor-applications-using-the-bff-pattern-recording/",
+          "publishedOn": "2022-05-12T05:53:31.000Z",
+          "wordCount": 756,
+          "title": "Securing SPAs and Blazor Applications using the BFF Pattern – Recording",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/04/DSGN-13282_Securing_SPAs_Blazor_Applications_JB_Blog_Social_share_image_1280-720.png"
+        },
         {
           "id": "https://blog.jetbrains.com/?post_type=idea&p=245570",
           "author": "Maria Kosukhina",
@@ -1469,7 +1479,7 @@
           "description": "Whether you’re starting out with a new project or refactoring a mature codebase, good folder and file organization makes your life less stressful. Having a good structure for your project creates an atmosphere that enables reading comprehension and fluid navigation. In this blog post, we’ll look at some ways to organize and streamline your .NET […]",
           "link": "https://blog.jetbrains.com/dotnet/2022/05/11/structure-and-organize-net-projects-with-rider/",
           "publishedOn": "2022-05-11T12:51:15.000Z",
-          "wordCount": 1717,
+          "wordCount": 1719,
           "title": "Structure and Organize .NET Projects with Rider",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/04/rd-how-tos-share-1.png"
         },
@@ -1499,7 +1509,7 @@
           "description": "Join us Tuesday, May 17, 2022, 9:00 – 10:30 CEST (17:00 – 18:30 AEST or check other timezones) for our free live webinar, OSS PowerUps – Serilog, with Nicholas Blumhardt. This is the tenth episode of our series of OSS Power-Ups, where we put a spotlight on open-source .NET projects. Register now and get a […]",
           "link": "https://blog.jetbrains.com/dotnet/2022/05/09/webinar-oss-power-ups-serilog/",
           "publishedOn": "2022-05-09T13:24:09.000Z",
-          "wordCount": 658,
+          "wordCount": 650,
           "title": "Webinar – OSS Power-Ups: Serilog",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/04/DSGN-13566-Webinar_OSS_Power-Ups_Serilog_JB_Blog_Social_share_image_1280-720.png"
         },
@@ -1519,7 +1529,7 @@
           "description": "Hello! We have released the third bug-fix update for DataGrip 2022.1. DBE-15456: [SQL Server] Windows authentication is operational again. DBE-15179: Read-only icons are again available for data sources. DBE-15494: Introspection no longer fails with an Unknown column ‘generation_expression’ in ‘field list’ error. DBE-15354: Dates are now saved correctly after you edit them via the text field. […]",
           "link": "https://blog.jetbrains.com/datagrip/2022/05/09/datagrip-2022-1-3/",
           "publishedOn": "2022-05-09T12:37:51.000Z",
-          "wordCount": 414,
+          "wordCount": 387,
           "title": "DataGrip 2022.1.3",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/02/datagrip_social.png"
         },
@@ -1532,46 +1542,6 @@
           "wordCount": 1961,
           "title": "Guest Post: The Plugin Obfuscation Experience",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/mp-news-share.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=education&p=245055",
-          "author": "Anastasia Khramushina",
-          "description": "This April we focused on adding more JavaScript content and released a brand-new JavaScript for Beginners track, along with 5 new JavaScript projects! So if you are thinking about learning this popular language, you know what to do. We’ve also published several new Python and Kotlin projects and added more than 40 new educational topics […]",
-          "link": "https://blog.jetbrains.com/education/2022/05/06/jetbrains-academy-new-projects-and-topics-in-april-2/",
-          "publishedOn": "2022-05-06T12:28:19.000Z",
-          "wordCount": 1212,
-          "title": "JetBrains Academy: New Projects and Topics in April",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/DSGN-12918_JB_Academy_Updated2022_x72_April_Blog_Social_share_image_1280x720-1.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=phpstorm&p=245013",
-          "author": "Roman Pronskiy",
-          "description": "Greetings everyone, It has been a while since the PHP Annotated Monthly was online, so hopefully we are back on track. With Brent joining the PhpStorm team we want to experiment with some new things, so stay tuned! In this edition, we’ll catch up on the most interesting things that have happened in the PHP […]",
-          "link": "https://blog.jetbrains.com/phpstorm/2022/05/php-annotated-2022-spring-catch-up/",
-          "publishedOn": "2022-05-06T09:06:25.000Z",
-          "wordCount": 2105,
-          "title": "PHP Annotated — 2022 Spring Catch-up",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2020/06/phpstorm-PHP_Annotated_share_1280x800.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=kotlin&p=244629",
-          "author": "Ksenia Shneyveys",
-          "description": "Try Kotlin 1.7.0-Beta The first preview of the 1.7.0 release is out. Try Kotlin 1.7.0-Beta, evaluate upcoming features, and share your feedback with us. This preview includes: Changes to builder inference. The return of the min() and max() collection functions. Stabilizing of definitely non-nullable types. Updates for the new Kotlin/Native Memory Manager. Read more in […]",
-          "link": "https://blog.jetbrains.com/kotlin/2022/05/kotlin-digest-spring/",
-          "publishedOn": "2022-05-05T14:52:20.000Z",
-          "wordCount": 943,
-          "title": "Kotlin Digest Spring: 1.7.0-Beta, Ktor 2.0, Surveys, Videos, and More",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/Monthly-digest-2-Spring-2022-01-1.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=blog&p=244419",
-          "author": "Aleksei Dievskii",
-          "description": "TL;DR: We’ve introduced a new Services tab, which contains the JetBrains team tools, added a new tool to your box – JetBrains Space, and released some performance improvements and bug fixes. Download now New Services Tab We are introducing a new Services tab that contains the team tools or SaaS applications. It includes a new […]",
-          "link": "https://blog.jetbrains.com/blog/2022/05/05/toolbox-app-1-24-adds-a-new-services-tab/",
-          "publishedOn": "2022-05-05T11:00:03.000Z",
-          "wordCount": 988,
-          "title": "Toolbox App 1.24 Adds a New “Services” Tab",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/Blog_Social_share_image_1280x720.png"
         }
       ]
     }

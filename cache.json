@@ -6,6 +6,36 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2022/05/15/cve-2022-22976-bcrypt-skips-salt-rounds-for-work-factor-of-31",
+          "author": null,
+          "description": "Severity\n\r\n\r\n\r\nMedium - 5.3\n\r\n\r\n\r\n\r\n\r\nVendor\n\r\n\r\n\r\nSpring by VMWare\n\r\n\r\n\r\n\r\n\r\nAffected VMWare Products and Versions\n\r\n\r\n\r\n\r\n\r\nSpring Security 5.5.x prior to 5.5.7\n\r\n\r\n\r\nSpring Security 5.6.x prior to 5.6.4\n\r\n\r\n\r\nEarlier unsupported versions\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nDescription\n\r\n\r\n\r\nSpring Security versions 5.5.x prior to 5.5.7, 5.6.x prior to 5.6.4, and earlier unsupported versions contain an integer overflow vulnerability. When using the BCrypt class with the maximum work factor (31), the encoder does not perform any salt rounds, due to an integer overflow error.\n\r\n\r\n\r\nThe default settings are not affected by this CVE.\n\r\n\r\n\r\nOnly in circumstances where the BCryptPasswordEncoder has been configured with the maximum work factor are affected. Due to current limitations in computer hardware, the use of such a high work factor is computationally impractical.\n\r\n\r\n\r\nYou need to be using BCrypt with a work factor of 31 to be impacted. You can check whether or not your passwords are impacted by using the following mitigation tool.\n\r\n\r\n\r\n\r\n\r\nMitigation\n\r\n\r\n\r\nPrior to updating to the latest, please update your BCryptPasswordEncoder to use a lower number of rounds. At the time of this writing, OWASP recommends a value of 10.\n\r\n\r\n\r\nThen, use the above-referenced mitigation tool to update your password hashes.\n\r\n\r\n\r\nOnce your password hashes are updated, you should update your version according to the following table:\n\r\n\r\n\r\n\r\n\r\n5.5.x users should upgrade to 5.5.7\n\r\n\r\n\r\n5.6.x users should upgrade to 5.6.4\n\r\n\r\n\r\nOr users should upgrade to 5.7.0\n\r\n\r\n\r\n\r\n\r\nAfter upgrading your Spring Security dependency, you should advise affected users to change their password.\n\r\n\r\n\r\nA mitigation FAQ can also be found in the mitigation tool.\n\r\n\r\n\r\n\r\n\r\nCredit\n\r\n\r\n\r\nThis issue was identified and responsibly reported by Eyal Kaspi.\n\r\n\r\n\r\n\r\n\r\nReferences\n\r\n\r\n\r\n\r\n\r\nPassword Encoder documentation.\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nHistory\n\r\n\r\n\r\n2021-04-10: Initial vulnerability report published.",
+          "link": "https://spring.io/blog/2022/05/15/cve-2022-22976-bcrypt-skips-salt-rounds-for-work-factor-of-31",
+          "publishedOn": "2022-05-16T05:32:00.000Z",
+          "wordCount": 655,
+          "title": "CVE-2022-22976: BCrypt skips salt rounds for work factor of 31",
+          "imageUrl": "https://avatars.githubusercontent.com/u/362503?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2022/05/15/cve-2022-22975-authorization-bypass-in-regexrequestmatcher",
+          "author": null,
+          "description": "Severity\n\r\n\r\n\r\nHigh\n\r\n\r\n\r\n\r\n\r\nVendor\n\r\n\r\n\r\nSpring by VMware\n\r\n\r\n\r\n\r\n\r\nDescription\n\r\n\r\n\r\nIn Spring Security versions 5.5.6 and 5.5.7 and older unsupported versions, RegexRequestMatcher can easily be misconfigured to be bypassed on some servlet containers.\n\r\n\r\n\r\nApplications using RegexRequestMatcher with . in the regular expression are possibly vulnerable to an authorization bypass.\n\r\n\r\n\r\n\r\n\r\nAffected VMware Products and Versions\n\r\n\r\n\r\nApplications using RegexRequestMatcher with a regular expression that contains . are likely vulnerable to an authorization bypass for versions:\n\r\n\r\n\r\n\r\n\r\nSpring Security 5.5.x prior to 5.5.7\n\r\n\r\n\r\nSpring Security 5.6.x prior to 5.6.4\n\r\n\r\n\r\nEarlier unsupported versions\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nMitigation\n\r\n\r\n\r\nUsers should update to a version that includes fixes. Releases that have fixed this issue include Spring Security:\n\r\n\r\n\r\n5.5.x users should upgrade to 5.5.7 or greater\r\n5.6.x users should upgrade to 5.6.4 or greater\n\r\n\r\n\r\n\r\n\r\nCredit\n\r\n\r\n\r\nThis vulnerability was discovered and responsibly reported by:\n\r\n\r\n\r\n\r\n\r\nHiroki Nishino (LINE Corporation)\n\r\n\r\n\r\nToshiki Sasazaki (LINE Corporation)\n\r\n\r\n\r\nYoshinori Hayashi (LINE Corporation)\n\r\n\r\n\r\nJonghwan Kim (LINE Corporation)",
+          "link": "https://spring.io/blog/2022/05/15/cve-2022-22975-authorization-bypass-in-regexrequestmatcher",
+          "publishedOn": "2022-05-16T05:27:00.000Z",
+          "wordCount": 520,
+          "title": "CVE-2022-22975: Authorization Bypass in RegexRequestMatcher",
+          "imageUrl": "https://avatars.githubusercontent.com/u/362503?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2022/05/15/spring-security-5-7-0-5-6-4-5-5-7-released-fixes-cve-2022-22975-cve-2022-22976",
+          "author": null,
+          "description": "Spring Security 5.7.0  (release notes), 5.6.4  (release notes), 5.5.7 (release notes) have been released which fix\n\r\n\r\n\r\n\r\n\r\nCVE-2022-22975\n\r\n\r\n\r\nCVE-2022-22976.\n\r\n\r\n\r\n\r\n\r\nPlease update as soon as possible.\n\r\n\r\n\r\nProject Site | Reference | Help",
+          "link": "https://spring.io/blog/2022/05/15/spring-security-5-7-0-5-6-4-5-5-7-released-fixes-cve-2022-22975-cve-2022-22976",
+          "publishedOn": "2022-05-15T19:00:00.000Z",
+          "wordCount": 417,
+          "title": "Spring Security 5.7.0, 5.6.4, 5.5.7 Released - Fixes CVE-2022-22975 & CVE-2022-22976",
+          "imageUrl": "https://avatars.githubusercontent.com/u/362503?v=4?s=200"
+        },
+        {
           "id": "https://spring.io/blog/2022/05/13/spring-data-2021-2-and-2022-0-m4-released",
           "author": null,
           "description": "On behalf of the Data Team and everyone who contributed, I’m pleased to announce the GA release of the 2021.2 release train as well as the 4th Milestone of the 2022.0 one.\n\r\nAlready working on the 2022.0 train, based on Spring Framework 6, Java17 and Jakarta EE 9, the 2021.2 release ships bug fixes and selected back ported features.\n\r\nOther than dependency upgrades, these are some of the major changes:\n\r\n\r\n  \nInfrastructure to introspect a projection type.\n\r\n  \nCommon infrastructure for property-specific value converters.\n\r\n  \nImproved support for IdClass handling in data-jpa.\n\r\n  \nDeclarative Update methods in data-mongodb.\n\r\n  \nReindexing support in data-elasticsearch.\n\r\n  \nDirect projections for data-cassandra.\n\r\n  \nACL support for Redis Sentinels.\n\r\n  \nLock and Null precedence support …",
@@ -174,36 +204,6 @@
           "wordCount": 480,
           "title": "Spring Boot 2.5.13 available now",
           "imageUrl": "https://avatars.githubusercontent.com/u/98899556?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/04/20/spring-session-2021-2-0-rc1-2021-1-3-and-2021-0-6-released",
-          "author": null,
-          "description": "On behalf of the team, I’m pleased to announce the release of Spring Session 2021.2.0-RC1, 2021.1.3 and 2021.0.6.\nThe 2021.2.0 release train is entering the RC phase. If you haven’t done so yet, please give it a try!\nThe 2021.1.3 and 2021.0.6 releases deliver bug fixes and dependency upgrades.\nFor your convenience, Spring Boot will pick up these artifacts with its upcoming releases.\n\r\nThe following modules were updated as part of 2021.2.0-RC1:\n\r\n\r\n  \nSpring Session Core 2.7.0-RC1 - release notes\n\r\n  \nSpring Session Data Redis 2.7.0-RC1 - release notes\n\r\n  \nSpring Session JDBC 2.7.0-RC1 - release notes\n\r\n  \nSpring Session Hazelcast 2.7.0-RC1 - release notes\n\r\n  \nSpring Session MongoDB 2.7.0-RC1 - release notes\n\r\n  \nSpring Session for Apache Geode 2.7.0-RC1\n\r\n\r\nThe following modules were updated as part of 2021.1.3:\n\r\n\r\n  \nSpring Session Core 2.6.3 - release notes\n\r\n  \nSpring Session Data Redis 2.6.3 - release notes\n\r\n  \nSpring Session JDBC 2.6.3 - release notes\n\r\n  \nSpring Session Hazelcast 2.6.3 - release notes\n\r\n  \nSpring Session MongoDB 2.6.3 - release notes\n\r\n  \nSpring Session for Apache Geode 2.6.1\n\r\n\r\nThe following modules were updated as part of 2021.0.6:\n\r\n\r\n  \nSpring Session Core 2.5.6 - release notes\n\r\n  \nSpring Session Data Redis 2.5.6 - release notes\n\r\n  \nSpring Session JDBC 2.5.6 - release notes\n\r\n  \nSpring Session Hazelcast 2.5.6 - release notes\n\r\n  \nSpring Session for Apache Geode 2.5.6",
-          "link": "https://spring.io/blog/2022/04/20/spring-session-2021-2-0-rc1-2021-1-3-and-2021-0-6-released",
-          "publishedOn": "2022-04-20T23:21:00.000Z",
-          "wordCount": 585,
-          "title": "Spring Session 2021.2.0-RC1, 2021.1.3 and 2021.0.6 released",
-          "imageUrl": "https://gravatar.com/avatar/e8b360fd12da3973ace64f40fdb06a3a?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/04/20/spring-for-graphql-1-0-rc1-released",
-          "author": null,
-          "description": "On behalf of everyone involved, I’m pleased to announce the availability of the first and final release candidate of Spring for GraphQL 1.0. We’re finally going to release a 1.0 version on May 17, the reference version for Spring Boot 2.7.0. We’ve shipped a few noteworthy changes and one important new feature in this release.\n\r\nNote: The Spring for GraphqL Boot starter is up-to-date with the changes discussed in this post and Spring Boot 2.7.0-RC1 is scheduled to be released on Thursday this week.\nGraphQL over RSocket\n\r\nSpring for GraphQL started out with the HTTP and WebSocket transports - must haves in the GraphQL world. Our programming model allows adding others too, and our existing infrastructure pointed at another clear candidate: the RSocket protocol. In RC1 we’ve added client and s…",
-          "link": "https://spring.io/blog/2022/04/20/spring-for-graphql-1-0-rc1-released",
-          "publishedOn": "2022-04-20T09:45:00.000Z",
-          "wordCount": 1284,
-          "title": "Spring for GraphQL 1.0 RC1 Released",
-          "imageUrl": "https://avatars.githubusercontent.com/u/103264?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/04/19/this-week-in-spring-april-19th-2022",
-          "author": null,
-          "description": "Hi, Spring fans! Welcome to another installment of This Week in Spring! It’s been quite the week since we last talked! I flew to Atlanta, GA, for my first in-person show since the pandemic - Devnexus 2022. I loved the experience! Hopefully, the only souvenirs I’ll have are the amazing memories and not COVID. I loved to see so many smiling faces. Thanks so much for having me, Devnexus, and for running an amazing show. It was a privilege to return. \n\r\nAnd now, without further ado, let’s dive right into the roundup. \n\r\n\r\n  \nA Bootiful Podcast: Cloud guru Tiffany Jernigan\n\r\n  \nJacky Chan on Twitter: “My new open source tool httpx, CLI and IDE plugins to test REST API, GraphQL, gRPC, RSocket, Kafka etc services with HTTP DSL https://t.co/jkvJG2syff JetBrains/Neovim plugins are all ready. Support by @java and @graalvm” / Twitter\n\r\n  \nNgrok Spring Boot Starter - Tunneling The Easy Way\n\r\n  \nSpring Boot with Drools Engine. In this blog we would see how Spring integrates with Drools Engine. | CodeX\n\r\n  \nSpring Data 2021.2.0-RC1, 2021.1.4, and 2021.0.11 released\n\r\n  \nSpring Framework 5.3.19 and 5.2.21 available now\n\r\n  \nSpring Framework Data Binding Rules Vulnerability (CVE-2022-22968)\n\r\n  \nSpring Security 5.6.3 and 5.5.6 available now\n\r\n  \nSpring Security 5.7.0-RC1 released\n\r\n  \nBuild or migrate great applications that deliver great value to your customers. Register now",
-          "link": "https://spring.io/blog/2022/04/19/this-week-in-spring-april-19th-2022",
-          "publishedOn": "2022-04-19T19:00:00.000Z",
-          "wordCount": 594,
-          "title": "This Week in Spring - April 19th, 2022",
-          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
         }
       ]
     },
@@ -359,6 +359,26 @@
       "feedUrl": "https://www.elastic.co/blog/feed",
       "siteUrl": "https://www.elastic.co",
       "articles": [
+        {
+          "id": "https://www.elastic.co/blog/cybersecurity-is-a-data-challenge,-and-better-search-technology-is-key-to-improving-visibility-and-action",
+          "author": "David Rand",
+          "description": "From customer-facing search boxes to database search crawlers, enterprise search technology can strengthen cybersecurity threat and risk management",
+          "link": "https://www.elastic.co/blog/cybersecurity-is-a-data-challenge,-and-better-search-technology-is-key-to-improving-visibility-and-action",
+          "publishedOn": "2022-05-16T07:22:30.000Z",
+          "wordCount": 1150,
+          "title": "Cybersecurity is a data challenge, and better search technology is key to improving visibility and action",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt518d58c000517b46/6281fd46a4aac35766f2f0c2/search-security-1440x840.jpg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/cybersecurity-is-a-data-challenge,-and-better-search-technology-is-key-to-improving-visibility-and-action",
+          "author": "David Rand",
+          "description": ",\nData security is increasingly under threat inside the enterprise amid three converging forces: the proliferation of cloud tools and platforms; the many different types of data that they generate, and the need to correlate all of it for analytics.\n\nWhile cloud platforms are the critical infrastructure for how technology teams scale and operate today, many companies still don’t have a clear or complete view of all their digital assets in this emerging environment. Advanced enterprise search capabilities, however, can eliminate blind spots and add an important layer of cybersecurity. \n\n“Today, enterprises need to be able to query their environment, and they need to be able to query their data,” says Katie Teitler, senior product marketer at Axonius, a cybersecurity asset management company,…",
+          "link": "https://www.elastic.co/blog/cybersecurity-is-a-data-challenge,-and-better-search-technology-is-key-to-improving-visibility-and-action",
+          "publishedOn": "2022-05-16T07:22:30.000Z",
+          "wordCount": 1150,
+          "title": "Cybersecurity is a data challenge, and better search technology is key to improving visibility and action",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt518d58c000517b46/6281fd46a4aac35766f2f0c2/search-security-1440x840.jpg"
+        },
         {
           "id": "https://www.elastic.co/blog/introducing-the-new-php-client-for-elasticsearch-8",
           "author": "Enrico Zimuel",
@@ -530,16 +550,6 @@
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt388c942a19e2973e/627919c9deee7329767ea9da/elastic-blog-crn-channel-awards.png"
         },
         {
-          "id": "https://www.elastic.co/blog/shell-evasion-an-insider-threat",
-          "author": "Shashank K S",
-          "description": "Cloud users can gain unprecedented visibility and context into their data, along with cluster compliance, cloud workloads, and cloud architecture — all with Elastic Security. Through the unified solution, they can detect threats and respond quickly to secure their data, applications, users, and, ultimately, their business. The blog highlights the use cases of spawning interactive shells from various Linux binaries in evasive manners from regular monitoring, leading to an insider threat pattern.",
-          "link": "https://www.elastic.co/blog/shell-evasion-an-insider-threat",
-          "publishedOn": "2022-05-09T00:00:00.000Z",
-          "wordCount": 1688,
-          "title": "Shell Evasion: An Insider Threat",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltf43c99d661aee915/5ffdd44f1ae93152b725f4f4/blog-thumb-security-radar.png"
-        },
-        {
           "id": "https://www.elastic.co/blog/elasticians-honored-for-outstanding-achievement-in-cloud-partner-marketing",
           "author": "Trish Sammer",
           "description": ",\nAdrienne Cohen and Isabelle Li lead cloud-partner marketing efforts for Microsoft and Google\n\nWe’re so proud that two Elasticians have been named to the 2022 CRN Women of the Channel list. Adrienne Cohen and Isabelle Li are both Director of Partner Marketing at Elastic, leading efforts with Microsoft and Google, respectively.\n\nWe spoke with Adrienne and Isabelle to get their insights on why building productive channel relationships with cloud partners is so important for our customers. \nMaking things as easy as possible for the customer\n\nHow does Elastic’s focus on cloud partners benefit customers? Do you have some examples that are particularly meaningful to you?\n\nAdrienne: Giving customers quick and easy access to Elastic Cloud on Microsoft’s Azure Marketplace has been so cool and rewa…",
@@ -548,16 +558,6 @@
           "wordCount": 1114,
           "title": "Elasticians honored for outstanding achievement in cloud-partner marketing",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt388c942a19e2973e/627919c9deee7329767ea9da/elastic-blog-crn-channel-awards.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/shell-evasion-an-insider-threat",
-          "author": "Shashank K S",
-          "description": ",\nCybersecurity strategies within cloud environments are often seen as a complicated landscape with rapidly developing technologies, architectures, and terms. Simultaneously, there are continuously motivated individuals and groups trying to utilize vulnerabilities for illicit uses such as to increase access to the data, install malware, disrupt services, and more.\nMore recently, a series of observed threat actors have taken advantage of Shell Evasion tactics to evade detection and target unknowing victims — often to successful outcomes given the lack of visibility most organizations have within their infrastructure.\nShell evasion\nCybercriminals are increasingly using stealthy shells to stay undetected on their victims’ computers. A shell evasion attack technique can be used to install malw…",
-          "link": "https://www.elastic.co/blog/shell-evasion-an-insider-threat",
-          "publishedOn": "2022-05-09T00:00:00.000Z",
-          "wordCount": 1688,
-          "title": "Shell Evasion: An Insider Threat",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltf43c99d661aee915/5ffdd44f1ae93152b725f4f4/blog-thumb-security-radar.png"
         }
       ]
     },
@@ -566,6 +566,16 @@
       "feedUrl": "https://www.ansible.com/blog/rss.xml",
       "siteUrl": "https://www.ansible.com/blog",
       "articles": [
+        {
+          "id": "https://www.ansible.com/blog/ask-me-anything-recap-april",
+          "author": "scavanau@redhat.com (Sean Cavanaugh)",
+          "description": "For this webinar, we had an awesome group of individuals with a diverse talent range across multiple skill sets from Product Management, Technical Marketing and Engineering.",
+          "link": "https://www.ansible.com/blog/ask-me-anything-recap-april",
+          "publishedOn": "2022-05-16T13:00:00.000Z",
+          "wordCount": 2134,
+          "title": "Ask me Anything Recap - April",
+          "imageUrl": "https://www.ansible.com/hubfs/ask%20me%20anything.png"
+        },
         {
           "id": "https://www.ansible.com/blog/introducing-a-brand-new-way-to-automate-your-azure-cloud",
           "author": "Hicham Mourad",
@@ -686,6 +696,16 @@
       "feedUrl": "http://feeds.feedburner.com/AmazonWebServicesBlog",
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
+        {
+          "id": "188f6fbb789cd4b216b2e97a6340bddf3499db79",
+          "author": "Marcia Villalba",
+          "description": "This post is part of our Week in Review series. Check back each week for a quick roundup of interesting news and announcements from AWS! I had been on the road for the last five weeks and attended many of the AWS Summits in Europe. It was great to talk to so many of you […]",
+          "link": "https://aws.amazon.com/blogs/aws/aws-week-in-review-may-16-2022/",
+          "publishedOn": "2022-05-16T19:10:54.000Z",
+          "wordCount": 1252,
+          "title": "AWS Week in Review – May 16, 2022",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/05/13/AWS-WIR-5.16.22.png"
+        },
         {
           "id": "43dd6308bbff890b8b4acc020ae36428fe8fba36",
           "author": "Sébastien Stormacq",
@@ -844,6 +864,16 @@
       "siteUrl": "https://xkcd.com/",
       "articles": [
         {
+          "id": "https://xkcd.com/2620/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/health_data.png\" title=\"Donate now to help us find a cure for causality. No one should have to suffer through events because of other events.\" alt=\"Donate now to help us find a cure for causality. No one should have to suffer through events because of other events.\" />",
+          "link": "https://xkcd.com/2620/",
+          "publishedOn": "2022-05-16T00:00:00.000Z",
+          "wordCount": 197,
+          "title": "Health Data",
+          "imageUrl": "https://imgs.xkcd.com/comics/health_data_2x.png"
+        },
+        {
           "id": "https://xkcd.com/2619/",
           "author": null,
           "description": "<img src=\"https://imgs.xkcd.com/comics/crepe.png\" title=\"A medicine that makes you put two dots over your letters more often is a diäretic.\" alt=\"A medicine that makes you put two dots over your letters more often is a diäretic.\" />",
@@ -872,16 +902,6 @@
           "wordCount": 195,
           "title": "Maps",
           "imageUrl": "https://imgs.xkcd.com/comics/maps_2x.png"
-        },
-        {
-          "id": "https://xkcd.com/2616/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/deep_end.png\" title=\"Hey! No running in the back-arc basin!\" alt=\"Hey! No running in the back-arc basin!\" />",
-          "link": "https://xkcd.com/2616/",
-          "publishedOn": "2022-05-06T00:00:00.000Z",
-          "wordCount": 197,
-          "title": "Deep End",
-          "imageUrl": "https://imgs.xkcd.com/comics/deep_end_2x.png"
         }
       ]
     },
@@ -1035,6 +1055,36 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/2022-05-16-how-to-measure-innersource-across-your-organization/",
+          "author": null,
+          "description": "The innersource contribution percentage is the rate of contributions from people outside the team that originally authored the software. Let’s dive into what it can look like for your organization.",
+          "link": "https://github.blog/2022-05-16-how-to-measure-innersource-across-your-organization/",
+          "publishedOn": "2022-05-16T22:29:48.000Z",
+          "wordCount": 952,
+          "title": "How to measure innersource across your organization",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/03/Enterprise-Product@2x-3.png"
+        },
+        {
+          "id": "https://github.blog/2022-05-16-how-were-using-projects-to-build-projects/",
+          "author": null,
+          "description": "At GitHub we use GitHub to build our own products, and the new projects experience is no different. Check out how our team uses projects to build powerful project planning for developers.",
+          "link": "https://github.blog/2022-05-16-how-were-using-projects-to-build-projects/",
+          "publishedOn": "2022-05-16T16:02:19.000Z",
+          "wordCount": 1656,
+          "title": "How we’re using projects to build projects",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/05/blog-header-image.png"
+        },
+        {
+          "id": "https://github.blog/2022-05-16-github-achieves-iso-iec-270012013-certification/",
+          "author": null,
+          "description": "GitHub’s Information Security Management System (ISMS) has been certified against ISO 27001:2013, an internationally recognized standard for security program best practices.",
+          "link": "https://github.blog/2022-05-16-github-achieves-iso-iec-270012013-certification/",
+          "publishedOn": "2022-05-16T16:00:51.000Z",
+          "wordCount": 661,
+          "title": "GitHub Achieves ISO/IEC 27001:2013 Certification!",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/02/Security-Product-Open-Source@2x.png?fit=2400%2C1260"
+        },
+        {
           "id": "https://github.blog/2022-05-11-graduation-is-here-celebrate-the-class-of-2022-and-join-github-on-june-11/",
           "author": null,
           "description": "This year, thousands of students from around the world came together and redefined the world we live in, how we learn, and how we move forward. We are honored to be part of the experience and eager to celebrate this milestone. So on June 11 we celebrate the Class of 2022 and welcome them to [&#8230;]",
@@ -1060,7 +1110,7 @@
           "description": "Late last year, in response to an unprecedented series of account takeovers resulting from the compromise of developer accounts without 2FA enabled, we committed to a variety of enhancements to the npm registry to make two-factor authentication (2FA) adoption easier for developers. Today, we are launching a public beta for a significantly improved 2FA experience [&#8230;]",
           "link": "https://github.blog/2022-05-10-enhanced-2fa-experience-for-your-npm-account/",
           "publishedOn": "2022-05-10T16:00:41.000Z",
-          "wordCount": 404,
+          "wordCount": 407,
           "title": "Enhanced 2FA experience for your npm account",
           "imageUrl": "https://github.blog/wp-content/uploads/2021/02/npm-github.png"
         },
@@ -1070,7 +1120,7 @@
           "description": "You can now output and group custom Markdown content on the Actions run summary page.",
           "link": "https://github.blog/2022-05-09-supercharging-github-actions-with-job-summaries/",
           "publishedOn": "2022-05-09T16:00:53.000Z",
-          "wordCount": 795,
+          "wordCount": 798,
           "title": "Supercharging GitHub Actions with Job Summaries",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/05/166843725-62d183c8-91d7-4d3f-8ceb-4e3be5a08e45.png"
         },
@@ -1090,7 +1140,7 @@
           "description": "We're taking a look at some of the most common security vulnerabilities and detailing how developers can best protect themselves.",
           "link": "https://github.blog/2022-05-06-todays-most-common-security-vulnerabilities-explained/",
           "publishedOn": "2022-05-06T15:52:42.000Z",
-          "wordCount": 1393,
+          "wordCount": 1401,
           "title": "Today’s most common security vulnerabilities explained",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/05/Security-Product@2x-1.png"
         },
@@ -1103,36 +1153,6 @@
           "wordCount": 1159,
           "title": "20 of our favorite games + source code from Ludum Dare 50",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/04/ld50-staff-picks.png"
-        },
-        {
-          "id": "https://github.blog/2022-05-05-the-readme-project-qa-what-you-need-to-know-about-teaching-technical-skills/",
-          "author": null,
-          "description": "Teaching is a great way to not only help others but to better learn a topic yourself.",
-          "link": "https://github.blog/2022-05-05-the-readme-project-qa-what-you-need-to-know-about-teaching-technical-skills/",
-          "publishedOn": "2022-05-05T17:00:25.000Z",
-          "wordCount": 1631,
-          "title": "The ReadME Project Q&#038;A: What you need to know about teaching technical skills",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/05/2400x1260-ReadMe-Blog-Banner-031122@2x.jpg?fit=2000%2C1050"
-        },
-        {
-          "id": "https://github.blog/2022-05-04-github-availability-report-april-2022/",
-          "author": null,
-          "description": "In April, we experienced three distinct incidents resulting in significant impact and degraded state of availability for Codespaces and GitHub Packages.",
-          "link": "https://github.blog/2022-05-04-github-availability-report-april-2022/",
-          "publishedOn": "2022-05-04T22:01:17.000Z",
-          "wordCount": 960,
-          "title": "GitHub Availability Report: April 2022",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/04/Engineering-Enterprise@2x-1.png"
-        },
-        {
-          "id": "https://github.blog/2022-05-04-software-security-starts-with-the-developer-securing-developer-accounts-with-2fa/",
-          "author": null,
-          "description": "GitHub will require all users who contribute code on GitHub.com to enable one or more forms of two-factor authentication (2FA) by the end of 2023.",
-          "link": "https://github.blog/2022-05-04-software-security-starts-with-the-developer-securing-developer-accounts-with-2fa/",
-          "publishedOn": "2022-05-04T15:04:37.000Z",
-          "wordCount": 1336,
-          "title": "Software security starts with the developer: Securing developer accounts with 2FA",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/05/Security-Product@2x.png"
         }
       ]
     },
@@ -1153,7 +1173,7 @@
           "description": "by Vivek Kaushal",
           "link": "https://netflixtechblog.com/evolution-of-ml-fact-store-5941d3231762?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-04-26T20:44:04.000Z",
-          "wordCount": 2855,
+          "wordCount": 2829,
           "title": "Evolution of ML Fact Store",
           "imageUrl": "https://miro.medium.com/max/1200/0*a37mfb9KtcdEL_mn"
         }
@@ -1292,12 +1312,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=42020",
+          "author": "Seth Godin",
+          "description": "The paradox of most tightly-knit communities is that they have an internal culture. And that culture often makes it difficult for a new person to join. It’s hard to have insiders if you don’t have outsiders. This is true for guilds of copy editors, fans of anime or branches of science. The key transition point […]",
+          "link": "https://feeds.feedblitz.com/~/696281996/0/sethsblog~Newbies-welcome/",
+          "publishedOn": "2022-05-16T08:28:00.000Z",
+          "wordCount": 228,
+          "title": "Newbies welcome",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806135-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=42013",
           "author": "Seth Godin",
           "description": "Well, not everyone. Just most people. When you do something that everyone else is doing, you’re likely to get what everyone else is getting. But in almost every population, “everyone” leaves out the people who go first, who change things, who are weird and who challenge the status quo. That’s an option, even when it […]",
           "link": "https://feeds.feedblitz.com/~/696132578/0/sethsblog~Everyone-else-is/",
           "publishedOn": "2022-05-15T08:06:00.000Z",
-          "wordCount": 203,
+          "wordCount": 204,
           "title": "Everyone else is",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg"
         },
@@ -1380,16 +1410,6 @@
           "wordCount": 237,
           "title": "Defining the enemy",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061310-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=41979",
-          "author": "Seth Godin",
-          "description": "If you care about a creative practice, my guess is that you’ve already seen Peter Jackson’s new Beatles movie. If not, go check it out. It’s a miracle that the movie exists at all. I mean, four of the most famous creative humans who ever lived, tenuously holding on to a fracturing association, agree to […]",
-          "link": "https://feeds.feedblitz.com/~/694534616/0/sethsblog~Half-baked/",
-          "publishedOn": "2022-05-06T08:03:00.000Z",
-          "wordCount": 524,
-          "title": "Half baked",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061315.jpg"
         }
       ]
     },
@@ -1414,7 +1434,7 @@
           "description": "WebStorm 2022.1.1, the first bug-fix update for WebStorm 2022.1, is now available! It’s packed with fixes and improvements, including long-awaited support for Vite and a fix for the bug affecting the running and debugging of npm scripts. You can update to v2022.1.1 by using the Toolbox App, installing it right from the IDE, or downloading […]",
           "link": "https://blog.jetbrains.com/webstorm/2022/05/webstorm-2022-1-1/",
           "publishedOn": "2022-05-13T15:14:39.000Z",
-          "wordCount": 507,
+          "wordCount": 509,
           "title": "WebStorm 2022.1.1 Is Available",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/ws-bug-fix-share.png"
         },
@@ -1456,7 +1476,7 @@
           "publishedOn": "2022-05-12T23:18:57.000Z",
           "wordCount": 693,
           "title": "CLion Bug-Fix Update 2022.1.1",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/cl-release-share.png"
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/cl-bug-fix-share.png"
         },
         {
           "id": "https://blog.jetbrains.com/?post_type=datagrip&p=245660",
@@ -1494,7 +1514,7 @@
           "description": "The recording for our webinar, Using the BFF pattern to secure SPA and Blazor Applications with Duende Software co-founder Dominick Baier, is now available. Subscribe to our community newsletter to receive notifications about future webinars. Modern web development means that more and more application code is running in the browser. Traditionally this has been JavaScript […]",
           "link": "https://blog.jetbrains.com/dotnet/2022/05/12/securing-spas-and-blazor-applications-using-the-bff-pattern-recording/",
           "publishedOn": "2022-05-12T05:53:31.000Z",
-          "wordCount": 756,
+          "wordCount": 781,
           "title": "Securing SPAs and Blazor Applications using the BFF Pattern – Recording",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/DSGN-13282_Securing_SPAs_Blazor_Applications_JB_Blog_Social_share_image_1280-720.png"
         },
@@ -1504,7 +1524,7 @@
           "description": "We’ve just released the first minor update for IntelliJ IDEA 2022.1.  You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are an Ubuntu user. You can also download it from our website. Here is the list of the most important fixes that you’ll find in […]",
           "link": "https://blog.jetbrains.com/idea/2022/05/intellij-idea-2022-1-1/",
           "publishedOn": "2022-05-11T18:03:41.000Z",
-          "wordCount": 688,
+          "wordCount": 693,
           "title": "IntelliJ IDEA 2022.1.1 Is Here!",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/02/intellij-idea_social.png"
         },
@@ -1514,7 +1534,7 @@
           "description": "Whether you’re starting out with a new project or refactoring a mature codebase, good folder and file organization makes your life less stressful. Having a good structure for your project creates an atmosphere that enables reading comprehension and fluid navigation. In this blog post, we’ll look at some ways to organize and streamline your .NET […]",
           "link": "https://blog.jetbrains.com/dotnet/2022/05/11/structure-and-organize-net-projects-with-rider/",
           "publishedOn": "2022-05-11T12:51:15.000Z",
-          "wordCount": 1719,
+          "wordCount": 1731,
           "title": "Structure and Organize .NET Projects with Rider",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/04/rd-how-tos-share-1.png"
         }

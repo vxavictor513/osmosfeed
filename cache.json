@@ -6,33 +6,43 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2022/05/17/this-week-in-spring-may-17th-2022",
+          "author": null,
+          "description": "Hi, Spring fans! Welcome to another installment of This Week in Spring! I am in beautiful Barcelona, Spain, this week, ahead of the upcoming Spring I/O show. I just spent a wonderful week in amazing England, meeting old friends, speaking at Devoxx UK, etc. \n\r\n\r\n  \nA Bootiful Podcast: EasyMock contributor, Java Champion, and Java luminary Henri Tremblay\n\r\n  \nAlso, while we’re on the topic of Spring Boot 2.7, remember that Spring for GraphQL is also 1.0 this week! I’m so excited :)\n\r\n  \nExample of Spring Cloud Function with AWS Lambda\n\r\n  \nI love this - the Activiti 7 developer’s guide - showcases some cool patterns and principles for building service-centric workflow solutions with Spring Boot and Activiti \n\r\n  \na handy tip from Maciej Walkowiak on Twitter that Spring Boot 2.7 (due - :checks notes: - this week!) adds native support for Jackson Mixins with @JsonMixin annotation\n\r\n  \nSpeed time to developer productivity with v0.12 release of VMware Tanzu Community Edition\n\r\n  \nSpring Boot — Serverless AWS Lambda With API Gateway | by Apurv Sheth | May, 2022 | Medium\n\r\n  \nSpring Data 2021.2 and 2022.0 M4 released.\n\r\n  \nSpring Framework 5.3.20 and 5.2.22 available now\n\r\n  \nSpring Framework 6.0.0-M4 available now\n\r\n  \nSpring Transaction Debugging in Production with Lightrun\n\r\n  \nthis article by our own dr. Mark Pollack was written in 1999 and laid the groundwork for what would become EJBDoclet and XDoclet\n\r\n  \n🚀 New in Spring Framework 6: HTTP Interfaces\n\r\n  \nBlog: Kubernetes 1.24: Volume Populators Graduate to Beta\n\r\n  \nBlog: Kubernetes 1.24: gRPC container probes in beta",
+          "link": "https://spring.io/blog/2022/05/17/this-week-in-spring-may-17th-2022",
+          "publishedOn": "2022-05-17T23:05:00.000Z",
+          "wordCount": 627,
+          "title": "This Week in Spring - May 17th, 2022",
+          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
+        },
+        {
           "id": "https://spring.io/blog/2022/05/15/cve-2022-22976-bcrypt-skips-salt-rounds-for-work-factor-of-31",
           "author": null,
-          "description": "Severity\n\r\n\r\n\r\nMedium - 5.3\n\r\n\r\n\r\n\r\n\r\nVendor\n\r\n\r\n\r\nSpring by VMWare\n\r\n\r\n\r\n\r\n\r\nAffected VMWare Products and Versions\n\r\n\r\n\r\n\r\n\r\nSpring Security 5.5.x prior to 5.5.7\n\r\n\r\n\r\nSpring Security 5.6.x prior to 5.6.4\n\r\n\r\n\r\nEarlier unsupported versions\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nDescription\n\r\n\r\n\r\nSpring Security versions 5.5.x prior to 5.5.7, 5.6.x prior to 5.6.4, and earlier unsupported versions contain an integer overflow vulnerability. When using the BCrypt class with the maximum work factor (31), the encoder does not perform any salt rounds, due to an integer overflow error.\n\r\n\r\n\r\nThe default settings are not affected by this CVE.\n\r\n\r\n\r\nOnly in circumstances where the BCryptPasswordEncoder has been configured with the maximum work factor are affected. Due to current limitations in computer hardware, the use of such a high work factor is computationally impractical.\n\r\n\r\n\r\nYou need to be using BCrypt with a work factor of 31 to be impacted. You can check whether or not your passwords are impacted by using the following mitigation tool.\n\r\n\r\n\r\n\r\n\r\nMitigation\n\r\n\r\n\r\nPrior to updating to the latest, please update your BCryptPasswordEncoder to use a lower number of rounds. At the time of this writing, OWASP recommends a value of 10.\n\r\n\r\n\r\nThen, use the above-referenced mitigation tool to update your password hashes.\n\r\n\r\n\r\nOnce your password hashes are updated, you should update your version according to the following table:\n\r\n\r\n\r\n\r\n\r\n5.5.x users should upgrade to 5.5.7\n\r\n\r\n\r\n5.6.x users should upgrade to 5.6.4\n\r\n\r\n\r\nOr users should upgrade to 5.7.0\n\r\n\r\n\r\n\r\n\r\nAfter upgrading your Spring Security dependency, you should advise affected users to change their password.\n\r\n\r\n\r\nA mitigation FAQ can also be found in the mitigation tool.\n\r\n\r\n\r\n\r\n\r\nCredit\n\r\n\r\n\r\nThis issue was identified and responsibly reported by Eyal Kaspi.\n\r\n\r\n\r\n\r\n\r\nReferences\n\r\n\r\n\r\n\r\n\r\nPassword Encoder documentation.\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nHistory\n\r\n\r\n\r\n2021-04-10: Initial vulnerability report published.",
+          "description": "Spring Security 5.7.0, 5.6.4, 5.5.7 were released to fix CVE-2022-22976: BCrypt skips salt rounds for work factor of 31. Please update as soon as possible.",
           "link": "https://spring.io/blog/2022/05/15/cve-2022-22976-bcrypt-skips-salt-rounds-for-work-factor-of-31",
           "publishedOn": "2022-05-16T05:32:00.000Z",
-          "wordCount": 655,
+          "wordCount": 410,
           "title": "CVE-2022-22976: BCrypt skips salt rounds for work factor of 31",
           "imageUrl": "https://avatars.githubusercontent.com/u/362503?v=4?s=200"
         },
         {
-          "id": "https://spring.io/blog/2022/05/15/cve-2022-22975-authorization-bypass-in-regexrequestmatcher",
+          "id": "https://spring.io/blog/2022/05/15/cve-2022-22978-authorization-bypass-in-regexrequestmatcher",
           "author": null,
-          "description": "Severity\n\r\n\r\n\r\nHigh\n\r\n\r\n\r\n\r\n\r\nVendor\n\r\n\r\n\r\nSpring by VMware\n\r\n\r\n\r\n\r\n\r\nDescription\n\r\n\r\n\r\nIn Spring Security versions 5.5.6 and 5.5.7 and older unsupported versions, RegexRequestMatcher can easily be misconfigured to be bypassed on some servlet containers.\n\r\n\r\n\r\nApplications using RegexRequestMatcher with . in the regular expression are possibly vulnerable to an authorization bypass.\n\r\n\r\n\r\n\r\n\r\nAffected VMware Products and Versions\n\r\n\r\n\r\nApplications using RegexRequestMatcher with a regular expression that contains . are likely vulnerable to an authorization bypass for versions:\n\r\n\r\n\r\n\r\n\r\nSpring Security 5.5.x prior to 5.5.7\n\r\n\r\n\r\nSpring Security 5.6.x prior to 5.6.4\n\r\n\r\n\r\nEarlier unsupported versions\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nMitigation\n\r\n\r\n\r\nUsers should update to a version that includes fixes. Releases that have fixed this issue include Spring Security:\n\r\n\r\n\r\n5.5.x users should upgrade to 5.5.7 or greater\r\n5.6.x users should upgrade to 5.6.4 or greater\n\r\n\r\n\r\n\r\n\r\nCredit\n\r\n\r\n\r\nThis vulnerability was discovered and responsibly reported by:\n\r\n\r\n\r\n\r\n\r\nHiroki Nishino (LINE Corporation)\n\r\n\r\n\r\nToshiki Sasazaki (LINE Corporation)\n\r\n\r\n\r\nYoshinori Hayashi (LINE Corporation)\n\r\n\r\n\r\nJonghwan Kim (LINE Corporation)",
-          "link": "https://spring.io/blog/2022/05/15/cve-2022-22975-authorization-bypass-in-regexrequestmatcher",
+          "description": "UPDATES\n\r\n\r\n\r\n\r\n\r\n[05-17] Due to a mixup CVE-2022-22975 should have been CVE-2022-22978. The blog has been updated to reflect this correction.\n\r\n\r\n\r\n\r\nCVE-2022-22978 : Authorization Bypass in RegexRequestMatcher\n\r\n\r\nSpring Security 5.7.0, 5.6.4, 5.5.7 were released to fix CVE-2022-22978 : Authorization Bypass in RegexRequestMatcher. Please update as soon as possible.",
+          "link": "https://spring.io/blog/2022/05/15/cve-2022-22978-authorization-bypass-in-regexrequestmatcher",
           "publishedOn": "2022-05-16T05:27:00.000Z",
-          "wordCount": 520,
-          "title": "CVE-2022-22975: Authorization Bypass in RegexRequestMatcher",
+          "wordCount": 422,
+          "title": "CVE-2022-22978: Authorization Bypass in RegexRequestMatcher",
           "imageUrl": "https://avatars.githubusercontent.com/u/362503?v=4?s=200"
         },
         {
-          "id": "https://spring.io/blog/2022/05/15/spring-security-5-7-0-5-6-4-5-5-7-released-fixes-cve-2022-22975-cve-2022-22976",
+          "id": "https://spring.io/blog/2022/05/15/spring-security-5-7-0-5-6-4-5-5-7-released-fixes-cve-2022-22978-cve-2022-22976",
           "author": null,
-          "description": "Spring Security 5.7.0  (release notes), 5.6.4  (release notes), 5.5.7 (release notes) have been released which fix\n\r\n\r\n\r\n\r\n\r\nCVE-2022-22975\n\r\n\r\n\r\nCVE-2022-22976.\n\r\n\r\n\r\n\r\n\r\nPlease update as soon as possible.\n\r\n\r\n\r\nProject Site | Reference | Help",
-          "link": "https://spring.io/blog/2022/05/15/spring-security-5-7-0-5-6-4-5-5-7-released-fixes-cve-2022-22975-cve-2022-22976",
+          "description": "UPDATES\n\r\n\r\n\r\n\r\n\r\n[05-17] Due to a mixup CVE-2022-22975 should have been CVE-2022-22978. The blog has been updated to reflect this correction.\n\r\n\r\n\r\n\r\n\r\nSpring Security 5.7.0  (release notes), 5.6.4  (release notes), 5.5.7 (release notes) have been released which fix\n\r\n\r\n\r\n\r\n\r\nCVE-2022-22978 \n\r\n\r\n\r\nCVE-2022-22976.\n\r\n\r\n\r\n\r\n\r\nPlease update as soon as possible.\n\r\n\r\n\r\nProject Site | Reference | Help",
+          "link": "https://spring.io/blog/2022/05/15/spring-security-5-7-0-5-6-4-5-5-7-released-fixes-cve-2022-22978-cve-2022-22976",
           "publishedOn": "2022-05-15T19:00:00.000Z",
-          "wordCount": 417,
-          "title": "Spring Security 5.7.0, 5.6.4, 5.5.7 Released - Fixes CVE-2022-22975 & CVE-2022-22976",
+          "wordCount": 437,
+          "title": "Spring Security 5.7.0, 5.6.4, 5.5.7 Released - Fixes CVE-2022-22978 & CVE-2022-22976",
           "imageUrl": "https://avatars.githubusercontent.com/u/362503?v=4?s=200"
         },
         {
@@ -194,16 +204,6 @@
           "wordCount": 416,
           "title": "CVE report published for Spring Security OAuth",
           "imageUrl": "https://avatars.githubusercontent.com/u/10884212?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/04/21/spring-boot-2-5-13-available-now",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 2.5.13 has been released and is now available from Maven Central.\n\r\nThis release includes 31 bug fixes, documentation improvements, and dependency upgrades. Thanks to all those who have contributed with issue reports and pull requests.\nHow can you help?\n\r\nIf you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
-          "link": "https://spring.io/blog/2022/04/21/spring-boot-2-5-13-available-now",
-          "publishedOn": "2022-04-21T08:51:00.000Z",
-          "wordCount": 480,
-          "title": "Spring Boot 2.5.13 available now",
-          "imageUrl": "https://avatars.githubusercontent.com/u/98899556?v=4?s=200"
         }
       ]
     },
@@ -359,6 +359,46 @@
       "feedUrl": "https://www.elastic.co/blog/feed",
       "siteUrl": "https://www.elastic.co",
       "articles": [
+        {
+          "id": "https://www.elastic.co/blog/elastic-maps-now-supports-the-machine-learning-anomalies-layer",
+          "author": "Melissa Alvarez",
+          "description": "Results from machine learning (ML) anomaly detection jobs that use geographical functions can now be viewed in Elastic Maps. The 8.1.0 release of Elastic Maps can generate a map of the anomalies by location and help you explore new trends in your data.",
+          "link": "https://www.elastic.co/blog/elastic-maps-now-supports-the-machine-learning-anomalies-layer",
+          "publishedOn": "2022-05-17T00:00:00.000Z",
+          "wordCount": 1165,
+          "title": "Elastic Maps now supports the Machine Learning Anomalies Layer",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt2a6d45daae98f016/5d6edc53706da43c80618192/blog-maps-top-10-thumbnail.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/culture-someone-like-me-cami-lewis-on-being-a-work-at-home-mom",
+          "author": "Elastic Culture",
+          "description": "Cami Lewis, Global Security Lead - Community at Elastic, knows a thing or two about having to be flexible and innovative about how you work. She describes herself as a WAHM (Work at Home Mom) and has two boys—8 and 2 years old. Read her story.",
+          "link": "https://www.elastic.co/blog/culture-someone-like-me-cami-lewis-on-being-a-work-at-home-mom",
+          "publishedOn": "2022-05-17T00:00:00.000Z",
+          "wordCount": 960,
+          "title": "Someone Like Me: Cami Lewis on being a “work at home mom”",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt762dd9e0cfba41b6/6282b7a1bd980555189d31e0/5.3-Blog-Someone-like-me-Cami-blog-1680_×_980.jpg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/elastic-maps-now-supports-the-machine-learning-anomalies-layer",
+          "author": "Melissa Alvarez",
+          "description": ",\nResults from Machine Learning (ML) anomaly detection jobs that use geographical functions can now be viewed in Elastic Maps. The 8.1.0 release of Elastic Maps can generate a map of the anomalies by location and help you explore new trends in your data.\nElastic Maps is available on Elastic Cloud. You can also download the Elastic Stack and our cloud orchestration products, Elastic Cloud Enterprise (ECE) and Elastic Cloud for Kubernetes (ECK), for a self-managed experience.\nIn this example, we will use General Transit Feed Specification (GTFS) data. GTFS defines a common format for public transportation schedules and associated geographic information.\nAbout the data\nThis data is a collection of approximately 2 months of gtfs-realtime data streamed from San Antonio, TX. This data consists s…",
+          "link": "https://www.elastic.co/blog/elastic-maps-now-supports-the-machine-learning-anomalies-layer",
+          "publishedOn": "2022-05-17T00:00:00.000Z",
+          "wordCount": 1165,
+          "title": "Elastic Maps now supports the Machine Learning Anomalies Layer",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt2a6d45daae98f016/5d6edc53706da43c80618192/blog-maps-top-10-thumbnail.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/culture-someone-like-me-cami-lewis-on-being-a-work-at-home-mom",
+          "author": "Elastic Culture",
+          "description": ",\nYou can’t be a distributed company like us and not believe inherently in flexibility. We’ve worked flexibility into our Source Code—as part of our Home, Dinner tenet, we empower Elasticians to find balance through innovation and efficiency (and yes, be home for dinner).\n\n\nCami Lewis, Global Security Lead - Community at Elastic, knows a thing or two about having to be flexible and innovative about how you work. She describes herself as a WAHM (Work at Home Mom) and has two boys—8 and 2 years old. \n“I’m a working (at home) mom balancing work and kids and doing all of the things,” she says. \n\n\nBut the flexibility and leave options that Elastic offers has allowed her to easily balance career and family. \n\n“It is Elastic’s culture that makes it possible,” Lewis says. “The working from home as…",
+          "link": "https://www.elastic.co/blog/culture-someone-like-me-cami-lewis-on-being-a-work-at-home-mom",
+          "publishedOn": "2022-05-17T00:00:00.000Z",
+          "wordCount": 960,
+          "title": "Someone Like Me: Cami Lewis on being a “work at home mom”",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt762dd9e0cfba41b6/6282b7a1bd980555189d31e0/5.3-Blog-Someone-like-me-Cami-blog-1680_×_980.jpg"
+        },
         {
           "id": "https://www.elastic.co/blog/cybersecurity-is-a-data-challenge,-and-better-search-technology-is-key-to-improving-visibility-and-action",
           "author": "David Rand",
@@ -518,46 +558,6 @@
           "wordCount": 1497,
           "title": "Elastic Expands Strategic Partnership with Microsoft to Benefit Customers in the Cloud",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltfb83ed3ccee4ec81/627c1dac0cffdf1eb13792ae/elastic_msft-twitter_LI-1200x628.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/how-top-global-cisos-protect-their-organizations-amid-rising-threats",
-          "author": "Rajiv Raghunarayan",
-          "description": "New research highlights where organizations need to accelerate process and technology changes to improve the effectiveness of cybersecurity strategies — or risk falling behind.",
-          "link": "https://www.elastic.co/blog/how-top-global-cisos-protect-their-organizations-amid-rising-threats",
-          "publishedOn": "2022-05-10T00:00:00.000Z",
-          "wordCount": 1711,
-          "title": "How top global CISOs protect their organizations amid rising threats",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt8fff57a2b18b6c50/5ffddd58092adc41f184bb0e/blog-thumb-security-shielf-simple.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/how-top-global-cisos-protect-their-organizations-amid-rising-threats",
-          "author": "Rajiv Raghunarayan",
-          "description": ",\nNew data shows a leading group of cybersecurity executives are investing in an emerging set of capabilities — think, next-generation security information and event management (SIEM), endpoint detection and response (EDR), and extended detection and response (XDR) — and have practices in place that are far ahead of most organizations’, highlighting a growing resilience gap.  \nThe study co-sponsored by Elastic, “Cybersecurity Solutions for a Riskier World,” reveals how 1,200 organizations across 16 countries and 14 industries, with a combined cybersecurity spend of $125.2 billion, are investing in their defenses in response to the mounting threat landscape. It is an urgent call to action by research firm ThoughtLab, who identified a small set of leading organizations. However, the majority…",
-          "link": "https://www.elastic.co/blog/how-top-global-cisos-protect-their-organizations-amid-rising-threats",
-          "publishedOn": "2022-05-10T00:00:00.000Z",
-          "wordCount": 1711,
-          "title": "How top global CISOs protect their organizations amid rising threats",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt8fff57a2b18b6c50/5ffddd58092adc41f184bb0e/blog-thumb-security-shielf-simple.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elasticians-honored-for-outstanding-achievement-in-cloud-partner-marketing",
-          "author": "Trish Sammer",
-          "description": "Q&A with Adrienne Cohen and Isabelle Li, who were just named to 2022 CRN Women of the Channel list.",
-          "link": "https://www.elastic.co/blog/elasticians-honored-for-outstanding-achievement-in-cloud-partner-marketing",
-          "publishedOn": "2022-05-09T00:00:00.000Z",
-          "wordCount": 1114,
-          "title": "Elasticians honored for outstanding achievement in cloud-partner marketing",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt388c942a19e2973e/627919c9deee7329767ea9da/elastic-blog-crn-channel-awards.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elasticians-honored-for-outstanding-achievement-in-cloud-partner-marketing",
-          "author": "Trish Sammer",
-          "description": ",\nAdrienne Cohen and Isabelle Li lead cloud-partner marketing efforts for Microsoft and Google\n\nWe’re so proud that two Elasticians have been named to the 2022 CRN Women of the Channel list. Adrienne Cohen and Isabelle Li are both Director of Partner Marketing at Elastic, leading efforts with Microsoft and Google, respectively.\n\nWe spoke with Adrienne and Isabelle to get their insights on why building productive channel relationships with cloud partners is so important for our customers. \nMaking things as easy as possible for the customer\n\nHow does Elastic’s focus on cloud partners benefit customers? Do you have some examples that are particularly meaningful to you?\n\nAdrienne: Giving customers quick and easy access to Elastic Cloud on Microsoft’s Azure Marketplace has been so cool and rewa…",
-          "link": "https://www.elastic.co/blog/elasticians-honored-for-outstanding-achievement-in-cloud-partner-marketing",
-          "publishedOn": "2022-05-09T00:00:00.000Z",
-          "wordCount": 1114,
-          "title": "Elasticians honored for outstanding achievement in cloud-partner marketing",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt388c942a19e2973e/627919c9deee7329767ea9da/elastic-blog-crn-channel-awards.png"
         }
       ]
     },
@@ -625,16 +625,6 @@
           "wordCount": 1364,
           "title": "New reference architecture: Red Hat Ansible Automation Platform 1.2 to 2 Migration Guide",
           "imageUrl": "https://www.ansible.com/hubfs/migration-1.png"
-        },
-        {
-          "id": "https://www.ansible.com/blog/deep-dive-on-ansible-vscode-extension",
-          "author": "Ganesh Nalawade",
-          "description": "Ansible as part of the Red Hat Ansible Automation Platform continues to grow and mature. Recent enhancements include Ansible Content Collections, automation execution environments, and an increasing list of integrations using plugins and modules. It is more important than ever that both new and experienced content creators have access to tools that help them write better content faster. The newly created Ansible Devtools initiative focuses on developing and enhancing tools like ansible-navigator, Ansible VScode extension, ansible-lint and so on to help ease the Ansible automation content creator experience. In this blog, we will do a deep dive into the Ansible VSCode extension, giving an overview of how it works and the initial setup required to get it working after installation.",
-          "link": "https://www.ansible.com/blog/deep-dive-on-ansible-vscode-extension",
-          "publishedOn": "2022-04-18T13:00:00.000Z",
-          "wordCount": 2282,
-          "title": "Deep dive on Ansible VScode extension",
-          "imageUrl": "https://lh4.googleusercontent.com/jysdtN7z0-uhXwBLGo5H0jjZIVKYKhxRPxV_cMCfkma0kW24DDycvpsP2pUZDbLOoeFBxrWATHzuW3lqD7TZ-b6_mOpmz4ZSLZIizo12A8o9ttxORZsdvNFb7irqe6FsNfd0b3GK"
         }
       ]
     },
@@ -643,6 +633,26 @@
       "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
       "siteUrl": "https://devblogs.microsoft.com/devops",
       "articles": [
+        {
+          "id": "https://devblogs.microsoft.com/devops/?p=64002",
+          "author": "Gloridel Morales",
+          "description": "This month, we are releasing fixes that impact Azure DevOps Server 2019.0.1, as well as the following older Team Foundation Server (TFS) releases: TFS 2015.4.2, TFS 2017.3.1 and TFS 2018.3.2.\nRevoke all personal access tokens after a user’s Active Directory account is disabled.\nThe post May patches for Azure DevOps Server and Team Foundation Server appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/may-patches-for-azure-devops-server-and-team-foundation-server/",
+          "publishedOn": "2022-05-17T22:33:38.000Z",
+          "wordCount": 1199,
+          "title": "May patches for Azure DevOps Server and Team Foundation Server",
+          "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2019/02/index-hero.jpg"
+        },
+        {
+          "id": "https://devblogs.microsoft.com/devops/?p=64015",
+          "author": "Gloridel Morales",
+          "description": "Today, we are releasing multiple versions of our self-hosted product, Azure DevOps Server. You can find the details of the fixes in the release notes for each version.\nAzure DevOps Server 2020.1.2 ISO\nAzure DevOps Server 2020.1.2 Web Install\nRelease Notes\nAzure DevOps Server 2020.0.2\nAzure DevOps Server 2020.0.2 ISO\nAzure DevOps Server 2020.0.2 Web Install\nRelease Notes\nAzure DevOps Server 2019.1.2\nAzure DevOps Server 2019.1.2 ISO\nAzure DevOps Server 2019.1.2 Web Install\nRelease Notes\nThe post Azure DevOps Server 2020.1.2, 2020.0.2 and 2019.1.2 releases appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-2-2020-0-2-and-2019-1-2-releases/",
+          "publishedOn": "2022-05-17T18:41:58.000Z",
+          "wordCount": 954,
+          "title": "Azure DevOps Server 2020.1.2, 2020.0.2 and 2019.1.2 releases",
+          "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2019/05/Stock-image.jpg"
+        },
         {
           "id": "https://devblogs.microsoft.com/devops/?p=64029",
           "author": "April Edwards",
@@ -742,7 +752,7 @@
           "description": "Today we are making Amazon MSK Serverless generally available to help you reduce even more the operational overhead of managing an Apache Kafka cluster by offloading the capacity planning and scaling to AWS. In May 2019, we launched Amazon Managed Streaming for Apache Kafka to help our customers stream data using Apache Kafka. Apache Kafka […]",
           "link": "https://aws.amazon.com/blogs/aws/amazon-msk-serverless-now-generally-available-no-more-capacity-planning-for-your-managed-kafka-clusters/",
           "publishedOn": "2022-04-28T18:18:41.000Z",
-          "wordCount": 2132,
+          "wordCount": 2138,
           "title": "Amazon MSK Serverless Now Generally Available–No More Capacity Planning for Your Managed Kafka Clusters",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/04/13/Site-Merch_Full-Build_Tidewater_Blog.png"
         },
@@ -911,6 +921,16 @@
       "siteUrl": "https://camunda.com",
       "articles": [
         {
+          "id": "https://camunda.com/?p=53853",
+          "author": "Thomas Heinrichs",
+          "description": "Everything you need to know to install, configure, and run Camunda Platform 8 Helm charts. \nThe post Using Helm and Kubernetes to deploy Camunda 8 appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2022/05/using-helm-and-kubernetes-to-deploy-camunda-8/",
+          "publishedOn": "2022-05-17T13:45:00.000Z",
+          "wordCount": 1389,
+          "title": "Using Helm and Kubernetes to deploy Camunda 8",
+          "imageUrl": "https://camunda.com/wp-content/uploads/2022/05/Camunda_Blog_2022-05MAY_Thomas-Heinrichs_Kubernetes-Helm_Featured_charts-1.png"
+        },
+        {
           "id": "https://camunda.com/?p=53306",
           "author": "Amy Johnston",
           "description": "Discover how these features support better IT and business collaboration, more efficient process execution, and instant troubleshooting. \nThe post 10 Cool Features of Camunda Platform 8 appeared first on Camunda.",
@@ -926,7 +946,7 @@
           "description": "We’re excited to announce the release of Camunda Optimize 3.9.0-alpha1. Check out the latest improvements and bug fixes with this release.\nThe post Camunda Optimize 3.9.0-alpha1 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/05/camunda-optimize-3-9-0-alpha1-released/",
           "publishedOn": "2022-05-10T07:00:00.000Z",
-          "wordCount": 773,
+          "wordCount": 772,
           "title": "Camunda Optimize 3.9.0-alpha1 Released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/05/2022-Camunda-Blog-Graphics-Template-33.jpg"
         },
@@ -936,7 +956,7 @@
           "description": "We're pleased to announce the first alpha release of Camunda Automation Platform 7.18.0. Learn about the improvements made in this release. \nThe post Camunda Automation Platform 7.18.0-alpha1 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/05/camunda-automation-platform-7-18-0-alpha1-released/",
           "publishedOn": "2022-05-10T06:45:00.000Z",
-          "wordCount": 921,
+          "wordCount": 920,
           "title": "Camunda Automation Platform 7.18.0-alpha1 Released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/05/2022-Camunda-Blog-Graphics-Template-31.jpg"
         },
@@ -946,7 +966,7 @@
           "description": "We now offer follow-the-sun support. Pick your preferred time zone and get expert help to resolve any issue.\nThe post Supporting You Around the Globe appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/05/supporting-you-around-the-globe/",
           "publishedOn": "2022-05-09T16:00:00.000Z",
-          "wordCount": 963,
+          "wordCount": 962,
           "title": "Supporting You Around the Globe",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/05/2022-Camunda-Blog-Graphics-Template-32.jpg"
         },
@@ -966,7 +986,7 @@
           "description": "Getting familiar with Camunda Platform 8? Learn why GraphQL is replacing REST API as the interface technology and how it works.\nThe post Getting Started with Camunda Platform 8’s GraphQL API appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/05/getting-started-with-camunda-platform-8s-graphql-api/",
           "publishedOn": "2022-05-04T16:00:00.000Z",
-          "wordCount": 1461,
+          "wordCount": 1455,
           "title": "Getting Started with Camunda Platform 8’s GraphQL API",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/05/2022-Camunda-Blog-Graphics-Template-30.jpg"
         },
@@ -999,16 +1019,6 @@
           "wordCount": 889,
           "title": "4 Tips for Making the Most of Camunda Community Summit",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/04/2022-Camunda-Blog-Graphics-Template-29.jpg"
-        },
-        {
-          "id": "https://camunda.com/?p=51662",
-          "author": "Christian Connors",
-          "description": "Ready for a digital transformation? Learn why Swiss Re selected Camunda Platform 8 as its cloud-native process orchestration solution.\nThe post Swiss Re’s Journey Toward a Cloud-Native Orchestration Solution appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2022/04/swiss-res-journey-toward-a-cloud-native-orchestration-solution/",
-          "publishedOn": "2022-04-22T18:00:00.000Z",
-          "wordCount": 1143,
-          "title": "Swiss Re’s Journey Toward a Cloud-Native Orchestration Solution",
-          "imageUrl": "https://camunda.com/wp-content/uploads/2022/04/image1.png"
         }
       ]
     },
@@ -1173,7 +1183,7 @@
           "description": "by Vivek Kaushal",
           "link": "https://netflixtechblog.com/evolution-of-ml-fact-store-5941d3231762?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-04-26T20:44:04.000Z",
-          "wordCount": 2829,
+          "wordCount": 2830,
           "title": "Evolution of ML Fact Store",
           "imageUrl": "https://miro.medium.com/max/1200/0*a37mfb9KtcdEL_mn"
         }
@@ -1184,6 +1194,16 @@
       "feedUrl": "http://feeds.feedburner.com/blogspot/gJZg",
       "siteUrl": "http://ai.googleblog.com/",
       "articles": [
+        {
+          "id": "http://ai.googleblog.com/2022/05/contextual-rephrasing-in-google.html",
+          "author": null,
+          "description": "Posted by Aurelien Boffy, Senior Staff Software Engineer, and Roberto Pieraccini, Engineering Director, Google Assistant \nWhen people converse with one another, context and references play a critical role in driving their conversation more efficiently. For instance, if one asks the question “Who wrote Romeo and Juliet?” and, after receiving an answer, asks “Where was he born?”, it is clear that ‘he’ is referring to William Shakespeare without the need to explicitly mention him. Or if someone mentions “python” in a sentence, one can use the context from the conversation to determine whether they are referring to a type of snake or a computer language. If a virtual assistant cannot robustly handle context and references, users would be required to adapt to the limitation of the technology by…",
+          "link": "http://ai.googleblog.com/2022/05/contextual-rephrasing-in-google.html",
+          "publishedOn": "2022-05-17T19:38:00.001Z",
+          "wordCount": 1998,
+          "title": "Contextual Rephrasing in Google Assistant",
+          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
+        },
         {
           "id": "http://ai.googleblog.com/2022/05/challenges-in-multi-objective.html",
           "author": null,
@@ -1312,12 +1332,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=42939",
+          "author": "Seth Godin",
+          "description": "Krispy Kreme grew to become a doughnut behemoth in the US. The formula was simple: Scarce supply, high short-term taste satisfaction, and a dozen priced almost the same as just four. As a result, most people bought a dozen. But few could eat a dozen, and you can’t really save them, so you realized that […]",
+          "link": "https://feeds.feedblitz.com/~/696445464/0/sethsblog~Please-share-the-extra-with-a-friend/",
+          "publishedOn": "2022-05-17T10:05:00.000Z",
+          "wordCount": 414,
+          "title": "Please share the extra with a friend",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061313.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=42020",
           "author": "Seth Godin",
           "description": "The paradox of most tightly-knit communities is that they have an internal culture. And that culture often makes it difficult for a new person to join. It’s hard to have insiders if you don’t have outsiders. This is true for guilds of copy editors, fans of anime or branches of science. The key transition point […]",
           "link": "https://feeds.feedblitz.com/~/696281996/0/sethsblog~Newbies-welcome/",
           "publishedOn": "2022-05-16T08:28:00.000Z",
-          "wordCount": 228,
+          "wordCount": 229,
           "title": "Newbies welcome",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806135-1.jpg"
         },
@@ -1400,16 +1430,6 @@
           "wordCount": 236,
           "title": "Resilient markets",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061318.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=39809",
-          "author": "Seth Godin",
-          "description": "Some situations seem to call for an opponent. It might be our personality, the structure of the engagement or the way we’ve been taught to behave, but having an enemy seems to focus individuals and groups. For fifty years, America decided that the USSR was the enemy, and spent a great deal of time and […]",
-          "link": "https://feeds.feedblitz.com/~/694726016/0/sethsblog~Defining-the-enemy/",
-          "publishedOn": "2022-05-07T08:16:00.000Z",
-          "wordCount": 237,
-          "title": "Defining the enemy",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061310-1.jpg"
         }
       ]
     },
@@ -1418,6 +1438,46 @@
       "feedUrl": "https://blog.jetbrains.com/feed/",
       "siteUrl": "https://blog.jetbrains.com",
       "articles": [
+        {
+          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=240879",
+          "author": "Roman Emelin",
+          "description": "Today, we would like to share a few user stories about using the dotTrace performance profiler. We will tell you how a flaw was found in the new Intel CPUs’ architecture, as well as how to find application performance problems when testing in the conventional sense is impossible. We’ll also share some tips and tricks […]",
+          "link": "https://blog.jetbrains.com/dotnet/2022/05/16/case-study-how-the-profiler-uncovers-critical-issues-that-mimic-apps-normal-behavior/",
+          "publishedOn": "2022-05-16T15:39:01.000Z",
+          "wordCount": 2404,
+          "title": "Case Study – How the Profilers Uncover Critical Issues That Mimic Apps’ Normal Behavior",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/Blog_Social_share_image_1280x720-1-2.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=ruby&p=245665",
+          "author": "Artem Sarkisov",
+          "description": "Hi all, RubyMine 2022.1.1, the first bug-fix update for the current major version, is now available. You can update using the Toolbox App, right from inside the IDE, or by downloading RubyMine 2022.1.1 from our website. With this update we fixed the issues that were caused when Rails 3 support was discontinued. Please read our […]",
+          "link": "https://blog.jetbrains.com/ruby/2022/05/rubymine-2022-1-1-is-available/",
+          "publishedOn": "2022-05-16T13:29:56.000Z",
+          "wordCount": 567,
+          "title": "RubyMine 2022.1.1 Is Available",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/04/RM_2022.1_release_featured_1280x600.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=ruby&p=245668",
+          "author": "Artem Sarkisov",
+          "description": "Dear all, As some of you already know, RubyMine 2022.1 was shipped without support for Rails 3. The reason for this decision was quite simple: Rails 3 reached End Of Life many years ago, and most of you had long since switched to the newer Rails releases. Hence, continuing to support Rails 3 in RubyMine […]",
+          "link": "https://blog.jetbrains.com/ruby/2022/05/rubymine-to-retire-rails-3-and-other-outdated-features/",
+          "publishedOn": "2022-05-16T13:28:00.000Z",
+          "wordCount": 842,
+          "title": "RubyMine Plans to Retire Support for Rails 3 and Other Outdated Features",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/02/rubymine_social.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=idea&p=244458",
+          "author": "Ida Bzowska",
+          "description": "Each month, we take a dive into the latest Java community news. Grab a cup of your favorite beverage, have a seat, and let’s go! Java News JEP 425: Virtual Threads – Learn about the introduction of virtual threads to the Java Platform. Virtual threads are lightweight threads that dramatically reduce the effort of writing, […]",
+          "link": "https://blog.jetbrains.com/idea/2022/05/java-annotated-monthly-may-2022/",
+          "publishedOn": "2022-05-16T10:03:03.000Z",
+          "wordCount": 1367,
+          "title": "Java Annotated Monthly – May 2022",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/Blog_Social_share_image_1280x720-4.png"
+        },
         {
           "id": "https://blog.jetbrains.com/?post_type=dataspell&p=246027",
           "author": "Valeria Letusheva",
@@ -1497,46 +1557,6 @@
           "wordCount": 490,
           "title": "PyCharm 2022.1.1 Is Now Available",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/02/pycharm_social.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=qodana&p=244853",
-          "author": "Anastasia Khramushina",
-          "description": "We are continuously adding new functionality and improving Qodana, our code quality platform. To keep you updated about what’s new, we’re starting a series of regular release blog posts with the major release of Qodana 2022.1. License audit has been an extra linter that had to be configured separately from the main linters. It now […]",
-          "link": "https://blog.jetbrains.com/qodana/2022/05/qodana-2022-1-is-available/",
-          "publishedOn": "2022-05-12T13:06:40.000Z",
-          "wordCount": 1160,
-          "title": "Qodana 2022.1 Is Available",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/DSGN-13658_Qodana_Release_20221_Blog_Social_share_image_1280x720.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=245598",
-          "author": "Khalid Abuhakmeh",
-          "description": "The recording for our webinar, Using the BFF pattern to secure SPA and Blazor Applications with Duende Software co-founder Dominick Baier, is now available. Subscribe to our community newsletter to receive notifications about future webinars. Modern web development means that more and more application code is running in the browser. Traditionally this has been JavaScript […]",
-          "link": "https://blog.jetbrains.com/dotnet/2022/05/12/securing-spas-and-blazor-applications-using-the-bff-pattern-recording/",
-          "publishedOn": "2022-05-12T05:53:31.000Z",
-          "wordCount": 781,
-          "title": "Securing SPAs and Blazor Applications using the BFF Pattern – Recording",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/DSGN-13282_Securing_SPAs_Blazor_Applications_JB_Blog_Social_share_image_1280-720.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=idea&p=245570",
-          "author": "Maria Kosukhina",
-          "description": "We’ve just released the first minor update for IntelliJ IDEA 2022.1.  You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are an Ubuntu user. You can also download it from our website. Here is the list of the most important fixes that you’ll find in […]",
-          "link": "https://blog.jetbrains.com/idea/2022/05/intellij-idea-2022-1-1/",
-          "publishedOn": "2022-05-11T18:03:41.000Z",
-          "wordCount": 693,
-          "title": "IntelliJ IDEA 2022.1.1 Is Here!",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/02/intellij-idea_social.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=241707",
-          "author": "Rachel Appel",
-          "description": "Whether you’re starting out with a new project or refactoring a mature codebase, good folder and file organization makes your life less stressful. Having a good structure for your project creates an atmosphere that enables reading comprehension and fluid navigation. In this blog post, we’ll look at some ways to organize and streamline your .NET […]",
-          "link": "https://blog.jetbrains.com/dotnet/2022/05/11/structure-and-organize-net-projects-with-rider/",
-          "publishedOn": "2022-05-11T12:51:15.000Z",
-          "wordCount": 1731,
-          "title": "Structure and Organize .NET Projects with Rider",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/04/rd-how-tos-share-1.png"
         }
       ]
     }

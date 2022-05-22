@@ -1,213 +1,6 @@
 {
   "sources": [
     {
-      "title": "Spring",
-      "feedUrl": "https://spring.io/blog.atom",
-      "siteUrl": "https://spring.io/blog",
-      "articles": [
-        {
-          "id": "https://spring.io/blog/2022/05/19/spring-boot-3-0-0-m3-available-now",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 3.0.0-M3 has been released and is now available from https://repo.spring.io/milestone.\n\r\nThis release includes 74 bug fixes, documentation improvements, and dependency upgrades. Notable new features include:\n\r\n\r\n  \nAuto-configuration for Micrometer Observation, Tracing, and OtlpMeterRegistry\n\r\n  \nReinstated Support for REST Assured and Pooled JMS\n\r\n\r\nPlease see the release notes for more details and upgrade instructions.\n\r\nThanks to all those who have contributed with issue reports and pull requests.\nHow can you help?\n\r\nIf you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
-          "link": "https://spring.io/blog/2022/05/19/spring-boot-3-0-0-m3-available-now",
-          "publishedOn": "2022-05-19T20:58:26.000Z",
-          "wordCount": 509,
-          "title": "Spring Boot 3.0.0-M3 available now",
-          "imageUrl": "https://avatars.githubusercontent.com/u/60661?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/05/19/spring-boot-2-7-0-available-now",
-          "author": null,
-          "description": "On behalf of the Spring Boot team and everyone that has contributed, I am pleased to announce that Spring Boot 2.7.0 has been released and is available from Maven Central. \n\r\nThis release adds a significant number of new features and improvements. For full upgrade instructions and new and noteworthy features please see the release notes.\nWhat’s new in 2.7\n\r\nThe highlights of the 2.7 release include:\n\r\n\r\n  \nAuto-configuration and metrics for Spring for GraphQL; see related 1.0 release announcement\n\r\n  \nNew @DataCouchbaseTest and @DataElasticsearchTest support\n\r\n  \nPodman can now be used when building images using Cloud Native Buildpacks\n\r\n  \nSupport for Cache2k\n\r\n  \nSimplified registration of Jackson Mixins\n\r\n  \nWeb server SSL configuration using PEM-encoded certs\n\r\n\nDependency upgrades\n\r\nSpring Boot 2.7 moves to new versions of several Spring projects:\n\r\n\r\n  \nSpring Data 2021.2\n\r\n  \nSpring HATEOAS 1.5\n\r\n  \nSpring LDAP 2.4\n\r\n  \nSpring Security 5.7\n\r\n  \nSpring Session 2021.2\n\r\n\r\nWe’ve also upgraded to the latest stable releases of other third-party libraries wherever possible. Please see the release notes for details.\nOther changes\n\r\nThere’s a whole host of other changes and improvements that are documented in the release notes. You can also find a list of deprecated classes and methods that we plan to remove in the next version.\n\r\nAdditionally, Spring Boot 2.5 has now reached the end of its OSS support period. More information on Spring Boot’s support dates can be found here.\nThank you\n\r\nWe want to take this opportunity to again thank all our users and contributors.\n\r\nIf you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask at stackoverflow.com using the spring-boot tag or chat with the community on Gitter.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
-          "link": "https://spring.io/blog/2022/05/19/spring-boot-2-7-0-available-now",
-          "publishedOn": "2022-05-19T13:38:00.000Z",
-          "wordCount": 660,
-          "title": "Spring Boot 2.7.0 available now",
-          "imageUrl": "https://avatars.githubusercontent.com/u/914682?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/05/19/a-bootiful-podcast-devoxx-uk-organizer-and-voxxeddays-cofounder-mark-hazell-on-running-great-conferences",
-          "author": null,
-          "description": "Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks to Devoxx UK organizer and Voxxed Days cofounder Mark Hazell (@mrhazell).",
-          "link": "https://spring.io/blog/2022/05/19/a-bootiful-podcast-devoxx-uk-organizer-and-voxxeddays-cofounder-mark-hazell-on-running-great-conferences",
-          "publishedOn": "2022-05-19T12:00:00.000Z",
-          "wordCount": 416,
-          "title": "A Bootiful Podcast: Devoxx UK organizer and VoxxedDays cofounder Mark Hazell on running great conferences",
-          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/05/19/spring-boot-2-6-8-available-now",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 2.6.8 has been released and is now available from Maven Central.\n\r\nThis release includes 35 bug fixes, documentation improvements, and dependency upgrades. Thanks to all those who have contributed with issue reports and pull requests.\nHow can you help?\n\r\nIf you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
-          "link": "https://spring.io/blog/2022/05/19/spring-boot-2-6-8-available-now",
-          "publishedOn": "2022-05-19T11:19:36.000Z",
-          "wordCount": 480,
-          "title": "Spring Boot 2.6.8 available now",
-          "imageUrl": "https://avatars.githubusercontent.com/u/914682?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/05/19/spring-for-graphql-1-0-release",
-          "author": null,
-          "description": "On behalf of the Spring for GraphQL team and every contributor, it is my pleasure to announce the 1.0 GA release. It’s been 10 months since the project was announced and under 2 years since the first commit, unremarkably called “first commit”. The project began with the modest goal to replace the (now archived) minimal GraphQL Java Spring integration, but has since moved significantly beyond through community feedback and collaboration across Spring Boot, Spring Framework, Spring Data, and Spring Security. \n\r\nThe following are highlights from the release:\n\r\n\r\n  \nAnnotation-based programming model for data fetchers\n\r\n  \nData binding from input arguments with validation\n\r\n  \nField-level security through annotations on data @Controller methods\n\r\n  \nServer handlers and interception over HTTP, …",
-          "link": "https://spring.io/blog/2022/05/19/spring-for-graphql-1-0-release",
-          "publishedOn": "2022-05-19T10:56:00.000Z",
-          "wordCount": 731,
-          "title": "Spring for GraphQL 1.0 Release",
-          "imageUrl": "https://avatars.githubusercontent.com/u/401908?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/05/19/spring-boot-2-5-14-available-now",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 2.5.14 has been released and is now available from Maven Central.\n\r\nThis release includes 29 bug fixes, documentation improvements, and dependency upgrades. Thanks to all those who have contributed with issue reports and pull requests.\nEnd of OSS Support\n\r\n2.5.x has now reached the end of its OSS support period and regular releases will no longer be made. If you are still on this version, please consider upgrading at your earliest convenience. If you cannot upgrade at this time, commercial support is available.\nHow can you help?\n\r\nIf you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
-          "link": "https://spring.io/blog/2022/05/19/spring-boot-2-5-14-available-now",
-          "publishedOn": "2022-05-19T09:21:10.000Z",
-          "wordCount": 527,
-          "title": "Spring Boot 2.5.14 available now",
-          "imageUrl": "https://avatars.githubusercontent.com/u/490484?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/05/18/spring-session-2021-2-available",
-          "author": null,
-          "description": "On behalf of the team, I’m please to announce the release of Spring Session 2021.2. This release upgrades to Spring Data 2021.2 and provides dependency upgrades, minor enhancements, bug fixes, and strategic changes to prepare Spring Session and it’s users for the next generation of Spring Session built on Spring Framework 6.\n\r\n\r\n\r\nProject Site | Reference | Help",
-          "link": "https://spring.io/blog/2022/05/18/spring-session-2021-2-available",
-          "publishedOn": "2022-05-19T01:45:00.000Z",
-          "wordCount": 431,
-          "title": "Spring Session 2021.2 Available",
-          "imageUrl": "https://avatars.githubusercontent.com/u/362503?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/05/18/spring-security-6-0-0-m5-available-now",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Security 6.0.0-M5 is available now.\n\r\n\r\n\r\nThis release includes dependency upgrades, bug fixes, and minor enhancements as well as a fix for a bug where the StrictHttpFirewall incorrectly rejects valid CJKV characters. The milestone contains a few noteworthy changes:\n\r\n\r\n\r\n\r\n\r\nAuthorization on Every Dispatch Type\n\r\n\r\n\r\nChange the default of shouldFilterAllDispatchTypes to true\n\r\n\r\n\r\nDefault to SecurityContextHolderFilter instead of SecurityContextPersistenceFilter\n\r\n\r\n\r\nRemove SAML Deprecations\n\r\n\r\n\r\n\r\n\r\nSee the release notes here and here for more details.\n\r\n\r\n\r\nProject Site | Reference | Help",
-          "link": "https://spring.io/blog/2022/05/18/spring-security-6-0-0-m5-available-now",
-          "publishedOn": "2022-05-18T19:00:00.000Z",
-          "wordCount": 467,
-          "title": "Spring Security 6.0.0-M5 available now",
-          "imageUrl": "https://avatars.githubusercontent.com/u/5248162?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/05/18/spring-batch-4-3-6-and-5-0-0-m3-available-now",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Batch 4.3.6 has been released to Maven Central and that Spring Batch 5.0.0-M3 is now available from our milestone repository.\n\r\nSpring Batch 4.3.6 is a patch release that comes with a number of bug fixes, enhancements, and dependency updates. For more details about the changes, see the change log.\n\r\nThis blog post is more about 5.0.0-M3, which comes with three major features:\n\r\n\r\n  \nNative support improvements\n\r\n  \nUTF-8 by default\n\r\n  \nNew Maven Bill of Materials\n\r\n\r\nMoreover, this milestone release comes with a number of enhancements, bug fixes, and dependency updates. See the change log for more details about the content of this milestone.\nNative support improvements\n\r\nOur effort towards providi…",
-          "link": "https://spring.io/blog/2022/05/18/spring-batch-4-3-6-and-5-0-0-m3-available-now",
-          "publishedOn": "2022-05-18T18:18:00.000Z",
-          "wordCount": 906,
-          "title": "Spring Batch 4.3.6 and 5.0.0-M3 available now",
-          "imageUrl": "https://avatars.githubusercontent.com/u/1210553?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/05/18/spring-security-5-7-1-5-6-5-5-5-8-released",
-          "author": null,
-          "description": "A new round of releases for Spring Security is available now. The new releases fix a bug where the StrictHttpFirewall incorrectly rejects valid CJKV characters.\n\r\n\r\n\r\nPlease take a look at the release notes for more information.",
-          "link": "https://spring.io/blog/2022/05/18/spring-security-5-7-1-5-6-5-5-5-8-released",
-          "publishedOn": "2022-05-18T11:00:00.000Z",
-          "wordCount": 415,
-          "title": "Spring Security 5.7.1, 5.6.5, 5.5.8 Released",
-          "imageUrl": "https://avatars.githubusercontent.com/u/13255302?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/05/17/this-week-in-spring-may-17th-2022",
-          "author": null,
-          "description": "Hi, Spring fans! Welcome to another installment of This Week in Spring! I am in beautiful Barcelona, Spain, this week, ahead of the upcoming Spring I/O show. I just spent a wonderful week in amazing England, meeting old friends, speaking at Devoxx UK, etc. \n\r\n\r\n  \nA Bootiful Podcast: EasyMock contributor, Java Champion, and Java luminary Henri Tremblay\n\r\n  \nAlso, while we’re on the topic of Spring Boot 2.7, remember that Spring for GraphQL is also 1.0 this week! I’m so excited :)\n\r\n  \nExample of Spring Cloud Function with AWS Lambda\n\r\n  \nI love this - the Activiti 7 developer’s guide - showcases some cool patterns and principles for building service-centric workflow solutions with Spring Boot and Activiti \n\r\n  \na handy tip from Maciej Walkowiak on Twitter that Spring Boot 2.7 (due - :checks notes: - this week!) adds native support for Jackson Mixins with @JsonMixin annotation\n\r\n  \nSpeed time to developer productivity with v0.12 release of VMware Tanzu Community Edition\n\r\n  \nSpring Boot — Serverless AWS Lambda With API Gateway | by Apurv Sheth | May, 2022 | Medium\n\r\n  \nSpring Data 2021.2 and 2022.0 M4 released.\n\r\n  \nSpring Framework 5.3.20 and 5.2.22 available now\n\r\n  \nSpring Framework 6.0.0-M4 available now\n\r\n  \nSpring Transaction Debugging in Production with Lightrun\n\r\n  \nthis article by our own dr. Mark Pollack was written in 1999 and laid the groundwork for what would become EJBDoclet and XDoclet\n\r\n  \n🚀 New in Spring Framework 6: HTTP Interfaces\n\r\n  \nBlog: Kubernetes 1.24: Volume Populators Graduate to Beta\n\r\n  \nBlog: Kubernetes 1.24: gRPC container probes in beta",
-          "link": "https://spring.io/blog/2022/05/17/this-week-in-spring-may-17th-2022",
-          "publishedOn": "2022-05-17T23:05:00.000Z",
-          "wordCount": 627,
-          "title": "This Week in Spring - May 17th, 2022",
-          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/05/15/cve-2022-22976-bcrypt-skips-salt-rounds-for-work-factor-of-31",
-          "author": null,
-          "description": "Spring Security 5.7.0, 5.6.4, 5.5.7 were released to fix CVE-2022-22976: BCrypt skips salt rounds for work factor of 31. Please update as soon as possible.",
-          "link": "https://spring.io/blog/2022/05/15/cve-2022-22976-bcrypt-skips-salt-rounds-for-work-factor-of-31",
-          "publishedOn": "2022-05-16T05:32:00.000Z",
-          "wordCount": 410,
-          "title": "CVE-2022-22976: BCrypt skips salt rounds for work factor of 31",
-          "imageUrl": "https://avatars.githubusercontent.com/u/362503?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/05/15/cve-2022-22978-authorization-bypass-in-regexrequestmatcher",
-          "author": null,
-          "description": "UPDATES\n\r\n\r\n\r\n\r\n\r\n[05-17] Due to a mixup CVE-2022-22975 should have been CVE-2022-22978. The blog has been updated to reflect this correction.\n\r\n\r\n\r\n\r\nCVE-2022-22978 : Authorization Bypass in RegexRequestMatcher\n\r\n\r\nSpring Security 5.7.0, 5.6.4, 5.5.7 were released to fix CVE-2022-22978 : Authorization Bypass in RegexRequestMatcher. Please update as soon as possible.",
-          "link": "https://spring.io/blog/2022/05/15/cve-2022-22978-authorization-bypass-in-regexrequestmatcher",
-          "publishedOn": "2022-05-16T05:27:00.000Z",
-          "wordCount": 422,
-          "title": "CVE-2022-22978: Authorization Bypass in RegexRequestMatcher",
-          "imageUrl": "https://avatars.githubusercontent.com/u/362503?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/05/15/spring-security-5-7-0-5-6-4-5-5-7-released-fixes-cve-2022-22978-cve-2022-22976",
-          "author": null,
-          "description": "UPDATES\n\r\n\r\n\r\n\r\n\r\n[05-17] Due to a mixup CVE-2022-22975 should have been CVE-2022-22978. The blog has been updated to reflect this correction.\n\r\n\r\n\r\n\r\n\r\nSpring Security 5.7.0  (release notes), 5.6.4  (release notes), 5.5.7 (release notes) have been released which fix\n\r\n\r\n\r\n\r\n\r\nCVE-2022-22978 \n\r\n\r\n\r\nCVE-2022-22976.\n\r\n\r\n\r\n\r\n\r\nPlease update as soon as possible.\n\r\n\r\n\r\nProject Site | Reference | Help",
-          "link": "https://spring.io/blog/2022/05/15/spring-security-5-7-0-5-6-4-5-5-7-released-fixes-cve-2022-22978-cve-2022-22976",
-          "publishedOn": "2022-05-15T19:00:00.000Z",
-          "wordCount": 437,
-          "title": "Spring Security 5.7.0, 5.6.4, 5.5.7 Released - Fixes CVE-2022-22978 & CVE-2022-22976",
-          "imageUrl": "https://avatars.githubusercontent.com/u/362503?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/05/13/spring-data-2021-2-and-2022-0-m4-released",
-          "author": null,
-          "description": "On behalf of the Data Team and everyone who contributed, I’m pleased to announce the GA release of the 2021.2 release train as well as the 4th Milestone of the 2022.0 one.\n\r\nAlready working on the 2022.0 train, based on Spring Framework 6, Java17 and Jakarta EE 9, the 2021.2 release ships bug fixes and selected back ported features.\n\r\nOther than dependency upgrades, these are some of the major changes:\n\r\n\r\n  \nInfrastructure to introspect a projection type.\n\r\n  \nCommon infrastructure for property-specific value converters.\n\r\n  \nImproved support for IdClass handling in data-jpa.\n\r\n  \nDeclarative Update methods in data-mongodb.\n\r\n  \nReindexing support in data-elasticsearch.\n\r\n  \nDirect projections for data-cassandra.\n\r\n  \nACL support for Redis Sentinels.\n\r\n  \nLock and Null precedence support …",
-          "link": "https://spring.io/blog/2022/05/13/spring-data-2021-2-and-2022-0-m4-released",
-          "publishedOn": "2022-05-13T09:20:00.000Z",
-          "wordCount": 908,
-          "title": "Spring Data 2021.2 and 2022.0 M4 released.",
-          "imageUrl": "https://avatars.githubusercontent.com/u/2317257?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/05/12/spring-framework-6-0-0-m4-available-now",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework 6.0.0-M4 is available now.\n\r\nSpring Framework 6.0.0-M4 ships with all the fixes from 5.3.20 released yesterday, and also includes 39 fixes and improvements specific to the 6.0 branch.\n\r\nProject Page | GitHub | Issues | Documentation",
-          "link": "https://spring.io/blog/2022/05/12/spring-framework-6-0-0-m4-available-now",
-          "publishedOn": "2022-05-12T15:19:00.000Z",
-          "wordCount": 429,
-          "title": "Spring Framework 6.0.0-M4 available now",
-          "imageUrl": "https://avatars.githubusercontent.com/u/103264?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/05/12/a-bootiful-podcast-easymock-contributor-java-champion-and-java-luminary-henri-tremblay",
-          "author": null,
-          "description": "Hi, Spring fans! In this episode, Josh Long (@starbuxman) talks to fellow Java Champion, EasyMock engineer, and Java luminary, JUG leader, and legend Henri Tremblay (@henri_tremblay)",
-          "link": "https://spring.io/blog/2022/05/12/a-bootiful-podcast-easymock-contributor-java-champion-and-java-luminary-henri-tremblay",
-          "publishedOn": "2022-05-12T07:00:00.000Z",
-          "wordCount": 415,
-          "title": "A Bootiful Podcast: EasyMock contributor, Java Champion, and Java luminary Henri Tremblay",
-          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/05/11/spring-framework-5-3-20-and-5-2-22-available-now",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework 5.3.20 and 5.2.22 are available now.\n\r\nSpring Framework 5.3.20 includes 14 fixes and improvements.\nSpring Framework 5.2.22 includes 2 backports.\n\r\nIn addition, these releases include fixes for 2 vulnerabilities:\n\r\n\r\n  \n\r\n  \nCVE-2022-22970\n “Spring Framework DoS via Data Binding to MultipartFile or Servlet Part”\n Denial of Service (DoS) attack in Spring MVC or Spring WebFlux applications that handle file uploads and rely on data binding to set a MultipartFile or javax.servlet.Part to a field in a model object.\n Severity: Medium\n\r\n  \n\r\n  \nCVE-2022-22971\n “Spring Framework DoS with STOMP over WebSocket”\n Denial of service (DoS) attack by authenticated users in Spring applications with a STOMP over WebSocket endpoint.\n Severity: Medium\n\r\n\r\nThese new versions are recommended upgrades for all Spring production scenarios.\n\r\nProject Page | GitHub | Issues | Documentation",
-          "link": "https://spring.io/blog/2022/05/11/spring-framework-5-3-20-and-5-2-22-available-now",
-          "publishedOn": "2022-05-11T08:43:00.000Z",
-          "wordCount": 519,
-          "title": "Spring Framework 5.3.20 and 5.2.22 available now",
-          "imageUrl": "https://avatars.githubusercontent.com/u/103264?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/05/10/this-week-in-spring-may-10th-2022",
-          "author": null,
-          "description": "Hi, Spring fans! I’m writing this from - I can’t believe I get to say this - abroad! I’m in London, UK! Now, this is not particularly noteworthy for those millions who already live here. But I don’t live here. I’m a visitor! I live in San Francisco. I had to fly here! On a plane! With other people! ACROSS THE OCEAN. This is my first international flight since March of 2020, and I couldn’t be more excited to be here for Devoxx UK and also just to catch up with old friends I haven’t seen in nearly three years. If you know me, and how I used to travel, you’ll appreciate how odd it is for me to be this excited to have crossed a border. It’s been sooo long! I’ve missed the process. I’ve missed seeing people. I’ve missed all of it. \n\r\nOne thing I haven’t missed is a lot of this week’s new and noteworthy, which I recap in this week’s This Week in Spring roundup. Let’s goooo! \n\r\n\r\n  \nA Bootiful Podcast: Java Champion and Spring Katas legend Chandra Guntur\n\r\n  \nApr 28 - What’s New in Spring Cloud Gateway Commercial?\n\r\n  \nBlog: Kubernetes 1.24: Volume Expansion Now A Stable Feature\n\r\n  \nBlog: Storage Capacity Tracking reaches GA in Kubernetes 1.24\n\r\n  \nBuild a Goodreads Clone with Spring Boot and Astra DB — Part 1\n\r\n  \nHow to enable mutual TLS in a Spring Boot Application | by Salar Ahmadi | Mar, 2022 | Medium\n\r\n  \nSchedule a task in Spring Boot. Spring Boot is the most popular… | by Aleksandar Grujic | Mar, 2022 | Medium\n\r\n  \nRSocket Broker HTTP Bridge 0.3.0 has been released. Check out this SpringOne presentation and an updated sample\n\r\n  \nthey updated the tutorial showing how to create your first application in IntellIJ IDEA  and it’s even nicer!",
-          "link": "https://spring.io/blog/2022/05/10/this-week-in-spring-may-10th-2022",
-          "publishedOn": "2022-05-10T11:00:00.000Z",
-          "wordCount": 679,
-          "title": "This Week in Spring - May 10th, 2022",
-          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/05/05/a-bootiful-podcast-java-champion-and-spring-katas-legend-chandra-guntur",
-          "author": null,
-          "description": "Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks to fellow Java Champion and Java ecosystem luminary Chandra Guntur (@cguntur) about Java, Spring, and the Spring Katas, among other things.",
-          "link": "https://spring.io/blog/2022/05/05/a-bootiful-podcast-java-champion-and-spring-katas-legend-chandra-guntur",
-          "publishedOn": "2022-05-06T00:00:00.000Z",
-          "wordCount": 418,
-          "title": "A Bootiful Podcast: Java Champion and Spring Katas legend Chandra Guntur",
-          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
-        }
-      ]
-    },
-    {
       "title": "HashiCorp Blog",
       "feedUrl": "https://www.hashicorp.com/blog/feed.xml",
       "siteUrl": "https://hashicorp.com/blog",
@@ -361,16 +154,6 @@
           "wordCount": 1265,
           "title": "Consul 1.12 Hardens Security on Kubernetes with Vault",
           "imageUrl": "https://www.datocms-assets.com/2885/1620082415-blog-library-product-kubernetes-consul-dark-logomark-lockup.jpg"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/how-we-count-downloads-in-the-public-terraform-registry",
-          "author": null,
-          "description": "Learn how download metrics are calculated in the HashiCorp Terraform Registry, and how that count has evolved over time.",
-          "link": "https://www.hashicorp.com/blog/how-we-count-downloads-in-the-public-terraform-registry",
-          "publishedOn": "2022-04-21T16:00:00.000Z",
-          "wordCount": 1700,
-          "title": "How We Count Downloads in the Public Terraform Registry",
-          "imageUrl": "https://www.datocms-assets.com/2885/1620081857-blog-library-product-terraform-dark-gradient.jpg"
         }
       ]
     },
@@ -689,7 +472,7 @@
           "description": "Join us for episode 1 in our series for DevOps for Java Shops! In this episode Brian Benz walks us through how to deploy a Java application to Azure App Service using GitHub Actions. Brian also covers off feature flags!\nApril: Welcome to this week’s episode of the dev ops lab.\nThe post Deploy a Java application to Azure App Service using GitHub Actions appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/deploy-a-java-application-to-azure-app-service-using-github-actions/",
           "publishedOn": "2022-05-19T07:50:51.000Z",
-          "wordCount": 2442,
+          "wordCount": 2456,
           "title": "Deploy a Java application to Azure App Service using GitHub Actions",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/05/java_logo_640.jpg"
         },
@@ -709,7 +492,7 @@
           "description": "Azure loves Java, bring your favorite tools and frameworks to Azure!\nThe post DevOps for Java on Azure appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/devops-for-java-on-azure/",
           "publishedOn": "2022-05-18T08:02:12.000Z",
-          "wordCount": 1066,
+          "wordCount": 1065,
           "title": "DevOps for Java on Azure",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/05/java_logo_640.jpg"
         },
@@ -739,7 +522,7 @@
           "description": "We’re back this week for another top stories from the #AzureDevOps #Community!\nThe post Top Stories from the Microsoft DevOps Community – 13.05.2022 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/top-stories-from-the-microsoft-devops-community-06-13-2022/",
           "publishedOn": "2022-05-13T12:01:51.000Z",
-          "wordCount": 1364,
+          "wordCount": 1358,
           "title": "Top Stories from the Microsoft DevOps Community – 13.05.2022",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/03/agile.png"
         },
@@ -855,56 +638,6 @@
           "wordCount": 1661,
           "title": "AWS Week in Review – April 25, 2022",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/04/25/AWS-WIR-4.25.22.png"
-        },
-        {
-          "id": "3f2dde001172ce44e72138f038da17f0191c2c33",
-          "author": "Antje Barth",
-          "description": "In December 2021, we introduced Amazon SageMaker Serverless Inference (in preview) as a new option in Amazon SageMaker to deploy machine learning (ML) models for inference without having to configure or manage the underlying infrastructure. Today, I’m happy to announce that Amazon SageMaker Serverless Inference is now generally available (GA). Different ML inference use cases […]",
-          "link": "https://aws.amazon.com/blogs/aws/amazon-sagemaker-serverless-inference-machine-learning-inference-without-worrying-about-servers/",
-          "publishedOn": "2022-04-21T17:30:10.000Z",
-          "wordCount": 2535,
-          "title": "Amazon SageMaker Serverless Inference – Machine Learning Inference without Worrying about Servers",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/04/11/amazon_sagemaker_serverless_inference.png"
-        },
-        {
-          "id": "94931a6d5038a338992ac375a270cfd3a1a2c213",
-          "author": "Marcia Villalba",
-          "description": "Today we are very excited to announce that Amazon Aurora Serverless v2 is generally available for both Aurora PostgreSQL and MySQL. Aurora Serverless is an on-demand, auto-scaling configuration for Amazon Aurora that allows your database to scale capacity up or down based on your application’s needs. Amazon Aurora is a MySQL- and PostgreSQL-compatible relational database […]",
-          "link": "https://aws.amazon.com/blogs/aws/amazon-aurora-serverless-v2-is-generally-available-instant-scaling-for-demanding-workloads/",
-          "publishedOn": "2022-04-21T16:54:02.000Z",
-          "wordCount": 2249,
-          "title": "Amazon Aurora Serverless v2 is Generally Available: Instant Scaling for Demanding Workloads",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/11/08/Site-Merch_Amazon-Aurora-Serverless-v2_Blog.png"
-        },
-        {
-          "id": "a646396f947ba813c8558c3ba67d16b8e63ee6bd",
-          "author": "Steve Roberts",
-          "description": "Amplify Studio is a visual interface that simplifies front- and backend development for web and mobile applications. We released it as a preview during AWS re:Invent 2021, and today, I’m happy to announce that it is now generally available (GA). A key feature of Amplify Studio is integration with Figma, helping designers and front-end developers […]",
-          "link": "https://aws.amazon.com/blogs/aws/announcing-the-general-availability-of-aws-amplify-studio/",
-          "publishedOn": "2022-04-21T16:35:16.000Z",
-          "wordCount": 1865,
-          "title": "Announcing the General Availability of AWS Amplify Studio",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/04/21/Site-Merch_Full-Build_New-AWS-Amplify-Studio_Blog.png"
-        },
-        {
-          "id": "0bc74371fc1afc6c01a04e5c726c01a6a266613e",
-          "author": "Channy Yun",
-          "description": "Last year at AWS re:Invent 2021, we introduced the preview of AWS IoT TwinMaker, a new AWS IoT service that makes it faster and easier to create digital twins of real-world systems and use them to monitor and optimize industrial operations. A digital twin is a living digital representation of an individual physical system that […]",
-          "link": "https://aws.amazon.com/blogs/aws/aws-iot-twinmaker-is-now-generally-available/",
-          "publishedOn": "2022-04-21T16:30:52.000Z",
-          "wordCount": 1511,
-          "title": "AWS IoT TwinMaker Is Now Generally Available",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/04/19/Site-Merch_AWS-IoT-TwinMaker_Blog.png"
-        },
-        {
-          "id": "8268d306374a02f09df77e136e38f9dbf78c0766",
-          "author": "Marcia Villalba",
-          "description": "Today we are announcing Amazon DevOps Guru for Serverless, a new capability for Amazon DevOps Guru. It allows developers to improve the operational performance and availability of serverless applications. AWS pioneered the serverless computing space with the launch of AWS Lambda in 2014. Today, hundreds of thousands of customers are using AWS Lambda. Lambda allows […]",
-          "link": "https://aws.amazon.com/blogs/aws/automatically-detect-operational-issues-in-lambda-functions-with-amazon-devops-guru-for-serverless/",
-          "publishedOn": "2022-04-21T15:16:37.000Z",
-          "wordCount": 1779,
-          "title": "Automatically Detect Operational Issues in Lambda Functions with Amazon DevOps Guru for Serverless",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/04/20/Site-Merch_Amazon-DevOps-Guru_Blog.png"
         }
       ]
     },
@@ -966,7 +699,7 @@
           "description": "Have you heard of our Camunda Connect program? Learn how it's enabling our partners to make process automation more accessible to our clients.\nThe post The Power of Partners: How Camunda’s Partners are Making an Impact appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/05/the-power-of-partners-how-camundas-partners-are-making-an-impact/",
           "publishedOn": "2022-05-19T20:00:00.000Z",
-          "wordCount": 1381,
+          "wordCount": 1382,
           "title": "The Power of Partners: How Camunda’s Partners are Making an Impact",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/05/2022-Camunda-Blog-Graphics-Template.png"
         },
@@ -986,7 +719,7 @@
           "description": "Discover how these features support better IT and business collaboration, more efficient process execution, and instant troubleshooting. \nThe post 10 Cool Features of Camunda Platform 8 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/05/10-cool-features-of-camunda-platform-8/",
           "publishedOn": "2022-05-11T12:08:00.000Z",
-          "wordCount": 1523,
+          "wordCount": 1524,
           "title": "10 Cool Features of Camunda Platform 8",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/05/2022_May_Camunda_Blog_Top-10-Features-Camunda-Platform-8_1200x630-1.png"
         },
@@ -1006,7 +739,7 @@
           "description": "We're pleased to announce the first alpha release of Camunda Automation Platform 7.18.0. Learn about the improvements made in this release. \nThe post Camunda Automation Platform 7.18.0-alpha1 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/05/camunda-automation-platform-7-18-0-alpha1-released/",
           "publishedOn": "2022-05-10T06:45:00.000Z",
-          "wordCount": 920,
+          "wordCount": 921,
           "title": "Camunda Automation Platform 7.18.0-alpha1 Released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/05/2022-Camunda-Blog-Graphics-Template-31.jpg"
         },
@@ -1016,7 +749,7 @@
           "description": "We now offer follow-the-sun support. Pick your preferred time zone and get expert help to resolve any issue.\nThe post Supporting You Around the Globe appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/05/supporting-you-around-the-globe/",
           "publishedOn": "2022-05-09T16:00:00.000Z",
-          "wordCount": 964,
+          "wordCount": 965,
           "title": "Supporting You Around the Globe",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/05/2022-Camunda-Blog-Graphics-Template-32.jpg"
         },
@@ -1026,7 +759,7 @@
           "description": "Camunda Platform 8 only just arrived, and there’s already a lot of excitement around this new release. Early adopters share their highlights.\nThe post Camunda Platform 8 Highlights from  #CamundaSummit appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/05/camunda-platform-8-highlights-from-camundasummit/",
           "publishedOn": "2022-05-06T13:00:00.000Z",
-          "wordCount": 1647,
+          "wordCount": 1648,
           "title": "Camunda Platform 8 Highlights from  #CamundaSummit",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/05/2022_May_Camunda_Blog_C8-Highlights-from-Camunda-Summit_1200x630.png"
         },
@@ -1036,7 +769,7 @@
           "description": "Getting familiar with Camunda Platform 8? Learn why GraphQL is replacing REST API as the interface technology and how it works.\nThe post Getting Started with Camunda Platform 8’s GraphQL API appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/05/getting-started-with-camunda-platform-8s-graphql-api/",
           "publishedOn": "2022-05-04T16:00:00.000Z",
-          "wordCount": 1454,
+          "wordCount": 1451,
           "title": "Getting Started with Camunda Platform 8’s GraphQL API",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/05/2022-Camunda-Blog-Graphics-Template-30.jpg"
         },
@@ -1046,7 +779,7 @@
           "description": "Learn about our interesting journey with benchmarking and how to run a benchmark to figure out what your Zeebe cluster can do.\nThe post How to Benchmark Your Camunda Platform 8 Cluster appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/05/how-to-benchmark-your-camunda-platform-8-cluster/",
           "publishedOn": "2022-05-02T13:00:00.000Z",
-          "wordCount": 2770,
+          "wordCount": 2771,
           "title": "How to Benchmark Your Camunda Platform 8 Cluster",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/05/2022_May_Camunda_Blog_Benchmark-Camunda-8-Cluster.png"
         },
@@ -1218,12 +951,22 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
+          "id": "https://medium.com/p/b62d25175e6f",
+          "author": "Netflix Technology Blog",
+          "description": "At Netflix, we want to entertain the world through creating engaging content and helping members discover the titles they will love. Key to…",
+          "link": "https://netflixtechblog.com/a-survey-of-causal-inference-applications-at-netflix-b62d25175e6f?source=rss----2615bd06b42e---4",
+          "publishedOn": "2022-05-21T15:02:49.000Z",
+          "wordCount": 1563,
+          "title": "A Survey of Causal Inference Applications at Netflix",
+          "imageUrl": "https://miro.medium.com/max/1200/0*-C41nO6__c1UwCHK"
+        },
+        {
           "id": "https://medium.com/p/5941d3231762",
           "author": "Netflix Technology Blog",
           "description": "by Vivek Kaushal",
           "link": "https://netflixtechblog.com/evolution-of-ml-fact-store-5941d3231762?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-04-26T20:44:04.000Z",
-          "wordCount": 2826,
+          "wordCount": 2840,
           "title": "Evolution of ML Fact Store",
           "imageUrl": "https://miro.medium.com/max/1200/0*a37mfb9KtcdEL_mn"
         }
@@ -1343,16 +1086,6 @@
           "wordCount": 2100,
           "title": "Pix2Seq: A New Language Interface for Object Detection",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
-        },
-        {
-          "id": "http://ai.googleblog.com/2022/04/hidden-interfaces-for-ambient-computing.html",
-          "author": null,
-          "description": "Posted by Alex Olwal, Research Scientist, Google Augmented Reality and Artem Dementyev, Hardware Engineer, Google Research \nAs consumer electronics and internet-connected appliances are becoming more common, homes are beginning to embrace various types of connected devices that offer functionality like music control, voice assistance, and home automation. A graceful integration of devices requires adaptation to existing aesthetics and user styles rather than simply adding screens, which can easily disrupt a visual space, especially when they become monolithic surfaces or black screens when powered down or not actively used. Thus there is an increasing desire to create connected ambient computing devices and appliances that can preserve the aesthetics of everyday materials, while providing …",
-          "link": "http://ai.googleblog.com/2022/04/hidden-interfaces-for-ambient-computing.html",
-          "publishedOn": "2022-04-21T19:59:00.003Z",
-          "wordCount": 2077,
-          "title": "Hidden Interfaces for Ambient Computing",
-          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         }
       ]
     },
@@ -1362,12 +1095,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog-production.mystagingwebsite.com/?p=29537",
+          "author": "Seth Godin",
+          "description": "What if organizations had a division that simply did the bad stuff? The people who were responsible for creating system updates that slow down old computers, that cover up bad behavior by employees, the people who dump pollution into the river when no one is watching… If all the folks who invent dark patterns, lobby […]",
+          "link": "https://feeds.feedblitz.com/~/697139758/0/sethsblog~The-department-of-bad-behavior/",
+          "publishedOn": "2022-05-21T08:19:00.000Z",
+          "wordCount": 255,
+          "title": "The department of bad behavior",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061315.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=42044",
           "author": "Seth Godin",
           "description": "In 1993, when I was raising investment for one of the first internet companies, there weren’t any firms that specialized in this sort of thing. They were VCs from a different era, looking for the next Fedex or pharma company. I pitched dozens of them, and the answer was consistent, “get back to us when […]",
           "link": "https://feeds.feedblitz.com/~/696990664/0/sethsblog~Switch-before-perfect/",
           "publishedOn": "2022-05-20T08:39:00.000Z",
-          "wordCount": 302,
+          "wordCount": 303,
           "title": "Switch before perfect",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061318.jpg"
         },
@@ -1450,16 +1193,6 @@
           "wordCount": 230,
           "title": "Five beats",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_180613-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=42000",
-          "author": "Seth Godin",
-          "description": "Many knowledge-economy employees say that the main cause of dissatisfaction at work is lack of agency. Lack of control over our time and our decisions and our output is demeaning. It turns people into cogs. As the nature of work changes, innovation and small groups are adding far more value than the race to the […]",
-          "link": "https://feeds.feedblitz.com/~/695648564/0/sethsblog~The-postindustrial-collision/",
-          "publishedOn": "2022-05-12T08:17:00.000Z",
-          "wordCount": 283,
-          "title": "The post-industrial collision",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061318.jpg"
         }
       ]
     },
@@ -1468,6 +1201,56 @@
       "feedUrl": "https://blog.jetbrains.com/feed/",
       "siteUrl": "https://blog.jetbrains.com",
       "articles": [
+        {
+          "id": "https://blog.jetbrains.com/?post_type=phpstorm&p=247909",
+          "author": "Brent Roose",
+          "description": "There’s a new preview available of PhpStorm 2022.1.2, the upcoming minor release of PhpStorm. It brings a bunch of bug fixes and quality-of-life improvements. These are the most notable changes and bug fixes: Broken keyboard navigation in the create new class dialog has been fixed (WI-66414) Invalid suggestion to add a return type to destructors […]",
+          "link": "https://blog.jetbrains.com/phpstorm/2022/05/phpstorm-2022-1-2-preview/",
+          "publishedOn": "2022-05-20T14:04:35.000Z",
+          "wordCount": 538,
+          "title": "PhpStorm 2022.1.2 Preview",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/ps-youtube-video-youtubethumbnail-3.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=big-data-tools&p=246633",
+          "author": "Anna Maltceva",
+          "description": "Big Data Tools 1.6 EAP is now available. You can try the newly added features right away by installing the latest plugin version to the 2022.2 EAP of your IDE. Please note this is an Early Access Program build, meaning it’s not fully tested. Hive Metastore support Ability to create a Hive metastore connection from the […]",
+          "link": "https://blog.jetbrains.com/big-data-tools/2022/05/20/big-data-tools-1-6-eap/",
+          "publishedOn": "2022-05-20T13:01:08.000Z",
+          "wordCount": 563,
+          "title": "Big Data Tools 1.6 EAP: What’s New?",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/bdt-social.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=go&p=247925",
+          "author": "Sergey Kozlovskiy",
+          "description": "We’re starting our Early Access Program for the 2022.2 release. If you want to learn what we have planned for v2022.2, check out our roadmap. You can get this EAP build via the Toolbox App, download it from our website, use a snap package (for Ubuntu), or from inside GoLand, select Check IDE updates for: […]",
+          "link": "https://blog.jetbrains.com/go/2022/05/20/goland-2022-2-early-access-program-is-now-open/",
+          "publishedOn": "2022-05-20T12:45:28.000Z",
+          "wordCount": 1609,
+          "title": "GoLand 2022.2 Early Access Program Is Now Open!",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/Blog_Social_share_image_1280x720_GoLand.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=webstorm&p=246638",
+          "author": "David Watson",
+          "description": "We’re ready to kick off WebStorm 2022.2 with a new Early Access Program (EAP). If you’re not familiar with how our EAP works, check out this blog post where we explain what it is and the benefits of participating. If you haven’t already seen what to expect in WebStorm 2022.2, have a look at our […]",
+          "link": "https://blog.jetbrains.com/webstorm/2022/05/webstorm-2022-2-eap-1/",
+          "publishedOn": "2022-05-20T10:24:47.000Z",
+          "wordCount": 1116,
+          "title": "WebStorm 2022.2 Early Access Program Is Now Open!",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/ws-release-share.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=idea&p=246220",
+          "author": "Maria Kosukhina",
+          "description": "We’re announcing the next Early Access Program and we invite you to take part in testing and validating new features that are expected to be included in the IntelliJ IDEA 2022.2 release. The first IntelliJ IDEA 2022.2 EAP build brings a number of useful improvements to various parts of the product along with moving the […]",
+          "link": "https://blog.jetbrains.com/idea/2022/05/intellij-idea-2022-2-eap-1/",
+          "publishedOn": "2022-05-20T09:00:39.000Z",
+          "wordCount": 965,
+          "title": "IntelliJ IDEA 2022.2 EAP Is Open!",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/Blog_Social_share_image_1280x720_IntelliJIDEA-2x.png"
+        },
         {
           "id": "https://blog.jetbrains.com/?post_type=dotnet&p=246280",
           "author": "Alexander Kurakin",
@@ -1537,56 +1320,6 @@
           "wordCount": 1494,
           "title": "What’s New in IntelliJ Rust for 2022.1",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/Blog_Social_share_image_1280x720-8.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=big-data-tools&p=246941",
-          "author": "Pasha Finkelshteyn",
-          "description": "Long time no see! Sorry about the silence, but luckily we’re back. Hi, I’m Pasha Finkelshteyn, and I’ll be your guide through this month’s news. I’ll offer my impressions of recent developments in the data engineering space and highlight new ideas from the wider community. If you think I missed something worthwhile, catch me on […]",
-          "link": "https://blog.jetbrains.com/big-data-tools/2022/05/19/data-engineering-annotated-monthly-april-2022/",
-          "publishedOn": "2022-05-19T11:08:50.000Z",
-          "wordCount": 1578,
-          "title": "Data Engineering Annotated Monthly – April 2022",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/Blog_Social_share_image_1280x720-7.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=education&p=246664",
-          "author": "Anastasia Khramushina",
-          "description": "We live in a world of data. Almost everyone works with data in some form or another. In particular, spreadsheets have become an essential part of our work and databases have become a business-critical asset. But what matters most is not the volume of data, but rather knowing how to derive insights from it. This […]",
-          "link": "https://blog.jetbrains.com/education/2022/05/19/sql-fundamentals-on-jetbrains-academy/",
-          "publishedOn": "2022-05-19T09:36:18.000Z",
-          "wordCount": 643,
-          "title": "SQL Fundamentals on JetBrains Academy",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/DSGN-13697_JetBrains_Academy_SQL-Fundamentals_for_BeginnersSocial_share_image_1280x720.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=246029",
-          "author": "Rachel Appel",
-          "description": "We’ve released Rider 2022.1 a while ago, and with that we’d like to share our roadmap for Rider 2022.2. With our Early Access Program (EAP), you can try out these features as they are developed. The EAP is not there yet, but it will be soon. Check our blog regularly or subscribe for updates. For […]",
-          "link": "https://blog.jetbrains.com/dotnet/2022/05/18/rider-2022-2-roadmap/",
-          "publishedOn": "2022-05-18T11:58:43.000Z",
-          "wordCount": 1051,
-          "title": "Rider 2022.2 Roadmap",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/rd-how-tos-share-1.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=245818",
-          "author": "Maarten Balliauw",
-          "description": "ReSharper 2022.1 was released just a couple of weeks ago, bringing a lot of improvements and bug fixes to Blazor development, C# support and more. We’re already gearing up for the next Early Access Preview (EAP), which we’ll start publishing soon. That means it’s high time to share what the team will be focusing on […]",
-          "link": "https://blog.jetbrains.com/dotnet/2022/05/18/resharper-2022-2-roadmap/",
-          "publishedOn": "2022-05-18T11:55:36.000Z",
-          "wordCount": 918,
-          "title": "ReSharper 2022.2 Roadmap",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/rs-how-tos-share.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=240879",
-          "author": "Roman Emelin",
-          "description": "Today, we would like to share a few user stories about using the dotTrace performance profiler. We will tell you how a flaw was found in the new Intel CPUs’ architecture, as well as how to find application performance problems when testing in the conventional sense is impossible. We’ll also share some tips and tricks […]",
-          "link": "https://blog.jetbrains.com/dotnet/2022/05/16/case-study-how-the-profiler-uncovers-critical-issues-that-mimic-apps-normal-behavior/",
-          "publishedOn": "2022-05-16T15:39:01.000Z",
-          "wordCount": 2408,
-          "title": "Case Study – How the Profilers Uncover Critical Issues That Mimic Apps’ Normal Behavior",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/Blog_Social_share_image_1280x720-1-2.png"
         }
       ]
     }

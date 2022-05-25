@@ -6,6 +6,36 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2022/05/24/preparing-for-spring-boot-3-0",
+          "author": null,
+          "description": "Spring Boot 2.0 was the first release in the 2.x line and was published on Feburary 28th 2018.\r\nWe’ve just released Spring Boot 2.7 which means that, so far, we’ve been maintaining the 2.x line for just over 4 years.\r\nIn total we’ve published 95 distinct releases over that timeframe!\n\r\n\r\n\r\nThe entire Spring team, and many in our community of contributors, are now preparing for the next generation of Spring.\r\nWe are planning to release Spring Boot 3.0 in November 2022.\r\nThis next major revision will be based on Spring Framework 6.0 and will require Java 17 or above.\r\nIt will also be the first version of Spring Boot that makes use of Jakarta EE 9 APIs (jakarta.*)  instead of EE 8 (javax.*).\n\r\n\r\n\r\nThe next six months offer an ideal opportunity to prepare your own projects for this major relea…",
+          "link": "https://spring.io/blog/2022/05/24/preparing-for-spring-boot-3-0",
+          "publishedOn": "2022-05-24T16:00:00.000Z",
+          "wordCount": 1320,
+          "title": "Preparing for Spring Boot 3.0",
+          "imageUrl": "https://avatars.githubusercontent.com/u/519772?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2022/05/24/azure-spring-apps-enterprise-is-now-generally-available",
+          "author": null,
+          "description": "Hi, Spring fans! This is a guest post by Julia Liuson, President, Developer Division, Microsoft \nAzure Spring Cloud is now Azure Spring Apps\n\r\nWe launched Azure Spring Cloud with VMware in 2019 to solve common challenges developers, IT operators, and DevOps teams face when running Spring Boot applications at scale. Since then we’ve helped many customers adopt the service including Bosch, Digital Realty, FedEx, Kroger, Liantis, Morgan Stanley, National Life, Raley’s, and Swiss Re. They value the fully managed infrastructure of Azure Spring Cloud that lets them focus on their apps, while the service manages dynamic scaling, security patching, out-of-the-box instrumentation for monitoring, and more. Through customer feedback. we have expanded the capabilities of the service, including the Ent…",
+          "link": "https://spring.io/blog/2022/05/24/azure-spring-apps-enterprise-is-now-generally-available",
+          "publishedOn": "2022-05-24T15:00:00.000Z",
+          "wordCount": 2726,
+          "title": "Azure Spring Apps Enterprise is now generally available",
+          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2022/05/24/this-week-in-spring-may-24th-2022",
+          "author": null,
+          "description": "Hi, Spring fans! I’m in Spain for business and not just a little pleasure. Yesterday, my partner, her mother, and I went to Formentera, Spain, a little island off of Ibiza, Spain. It was amazing. We’re now in Ibiza, Spain, which is a little island not far from Barcelona, Spain, on the mainland of Spain. It feels a bit like that Inception movie. We traveled by boat to Formentera for a little vacation inside of another little vacation (Ibiza) and inside of another little vacation (Barcelona). Tomorrow I’ll return to Barcelona for the Spring IO event. Yes, technically, this is work. But it’s an oh-so-much pleasure, too. I can’t wait! It’ll be the first time I’ve seen a ton of these people in years! I hope to see y’all there or los vemos!\n\r\n\r\n  \nHappily, Spring for GraphQL 1.0 has been release…",
+          "link": "https://spring.io/blog/2022/05/24/this-week-in-spring-may-24th-2022",
+          "publishedOn": "2022-05-24T07:00:00.000Z",
+          "wordCount": 826,
+          "title": "This Week in Spring - May 24th, 2022",
+          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
+        },
+        {
           "id": "https://spring.io/blog/2022/05/19/spring-boot-3-0-0-m3-available-now",
           "author": null,
           "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 3.0.0-M3 has been released and is now available from https://repo.spring.io/milestone.\n\r\nThis release includes 74 bug fixes, documentation improvements, and dependency upgrades. Notable new features include:\n\r\n\r\n  \nAuto-configuration for Micrometer Observation, Tracing, and OtlpMeterRegistry\n\r\n  \nReinstated Support for REST Assured and Pooled JMS\n\r\n\r\nPlease see the release notes for more details and upgrade instructions.\n\r\nThanks to all those who have contributed with issue reports and pull requests.\nHow can you help?\n\r\nIf you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
@@ -174,36 +204,6 @@
           "wordCount": 415,
           "title": "A Bootiful Podcast: EasyMock contributor, Java Champion, and Java luminary Henri Tremblay",
           "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/05/11/spring-framework-5-3-20-and-5-2-22-available-now",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework 5.3.20 and 5.2.22 are available now.\n\r\nSpring Framework 5.3.20 includes 14 fixes and improvements.\nSpring Framework 5.2.22 includes 2 backports.\n\r\nIn addition, these releases include fixes for 2 vulnerabilities:\n\r\n\r\n  \n\r\n  \nCVE-2022-22970\n “Spring Framework DoS via Data Binding to MultipartFile or Servlet Part”\n Denial of Service (DoS) attack in Spring MVC or Spring WebFlux applications that handle file uploads and rely on data binding to set a MultipartFile or javax.servlet.Part to a field in a model object.\n Severity: Medium\n\r\n  \n\r\n  \nCVE-2022-22971\n “Spring Framework DoS with STOMP over WebSocket”\n Denial of service (DoS) attack by authenticated users in Spring applications with a STOMP over WebSocket endpoint.\n Severity: Medium\n\r\n\r\nThese new versions are recommended upgrades for all Spring production scenarios.\n\r\nProject Page | GitHub | Issues | Documentation",
-          "link": "https://spring.io/blog/2022/05/11/spring-framework-5-3-20-and-5-2-22-available-now",
-          "publishedOn": "2022-05-11T08:43:00.000Z",
-          "wordCount": 519,
-          "title": "Spring Framework 5.3.20 and 5.2.22 available now",
-          "imageUrl": "https://avatars.githubusercontent.com/u/103264?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/05/10/this-week-in-spring-may-10th-2022",
-          "author": null,
-          "description": "Hi, Spring fans! I’m writing this from - I can’t believe I get to say this - abroad! I’m in London, UK! Now, this is not particularly noteworthy for those millions who already live here. But I don’t live here. I’m a visitor! I live in San Francisco. I had to fly here! On a plane! With other people! ACROSS THE OCEAN. This is my first international flight since March of 2020, and I couldn’t be more excited to be here for Devoxx UK and also just to catch up with old friends I haven’t seen in nearly three years. If you know me, and how I used to travel, you’ll appreciate how odd it is for me to be this excited to have crossed a border. It’s been sooo long! I’ve missed the process. I’ve missed seeing people. I’ve missed all of it. \n\r\nOne thing I haven’t missed is a lot of this week’s new and noteworthy, which I recap in this week’s This Week in Spring roundup. Let’s goooo! \n\r\n\r\n  \nA Bootiful Podcast: Java Champion and Spring Katas legend Chandra Guntur\n\r\n  \nApr 28 - What’s New in Spring Cloud Gateway Commercial?\n\r\n  \nBlog: Kubernetes 1.24: Volume Expansion Now A Stable Feature\n\r\n  \nBlog: Storage Capacity Tracking reaches GA in Kubernetes 1.24\n\r\n  \nBuild a Goodreads Clone with Spring Boot and Astra DB — Part 1\n\r\n  \nHow to enable mutual TLS in a Spring Boot Application | by Salar Ahmadi | Mar, 2022 | Medium\n\r\n  \nSchedule a task in Spring Boot. Spring Boot is the most popular… | by Aleksandar Grujic | Mar, 2022 | Medium\n\r\n  \nRSocket Broker HTTP Bridge 0.3.0 has been released. Check out this SpringOne presentation and an updated sample\n\r\n  \nthey updated the tutorial showing how to create your first application in IntellIJ IDEA  and it’s even nicer!",
-          "link": "https://spring.io/blog/2022/05/10/this-week-in-spring-may-10th-2022",
-          "publishedOn": "2022-05-10T11:00:00.000Z",
-          "wordCount": 679,
-          "title": "This Week in Spring - May 10th, 2022",
-          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/05/05/a-bootiful-podcast-java-champion-and-spring-katas-legend-chandra-guntur",
-          "author": null,
-          "description": "Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks to fellow Java Champion and Java ecosystem luminary Chandra Guntur (@cguntur) about Java, Spring, and the Spring Katas, among other things.",
-          "link": "https://spring.io/blog/2022/05/05/a-bootiful-podcast-java-champion-and-spring-katas-legend-chandra-guntur",
-          "publishedOn": "2022-05-06T00:00:00.000Z",
-          "wordCount": 418,
-          "title": "A Bootiful Podcast: Java Champion and Spring Katas legend Chandra Guntur",
-          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
         }
       ]
     },
@@ -230,7 +230,7 @@
           "publishedOn": "2022-05-20T17:00:00.000Z",
           "wordCount": 1500,
           "title": "Auth0, Fortinet, and Vercel Among New Verified Terraform Providers",
-          "imageUrl": "https://www.datocms-assets.com/2885/1653061930-verified-blog-visual-2.png"
+          "imageUrl": "https://www.datocms-assets.com/2885/1653430998-verified-blog-visual-3.png"
         },
         {
           "id": "https://www.hashicorp.com/blog/how-we-do-accessible-design-and-engineering-at-hashicorp",
@@ -370,6 +370,126 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
+          "id": "https://www.elastic.co/blog/using-eck-with-helm",
+          "author": "Fram Souza",
+          "description": "Using ECK with helm-charts",
+          "link": "https://www.elastic.co/blog/using-eck-with-helm",
+          "publishedOn": "2022-05-24T00:00:00.000Z",
+          "wordCount": 670,
+          "title": "Using ECK with helm",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt23bfd15a9c05b228/5e3090c7507d2f74fb78c86e/eck-blog-thumb.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/installing-eck-with-terraform-on-gcp",
+          "author": "Fram Souza",
+          "description": "Learn how-to spin up ECK using terraform",
+          "link": "https://www.elastic.co/blog/installing-eck-with-terraform-on-gcp",
+          "publishedOn": "2022-05-24T00:00:00.000Z",
+          "wordCount": 644,
+          "title": "Installing ECK with Terraform on GCP",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt23bfd15a9c05b228/5e3090c7507d2f74fb78c86e/eck-blog-thumb.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/6-cybersecurity-must-haves-for-innovative-public-sector-leaders",
+          "author": "Suzzanna Martinez",
+          "description": "As digital risks escalate, public sector leaders take the actions necessary to protect people, systems, and data. A new cybersecurity benchmark study reveals where these leaders should focus their time and attention.",
+          "link": "https://www.elastic.co/blog/6-cybersecurity-must-haves-for-innovative-public-sector-leaders",
+          "publishedOn": "2022-05-24T00:00:00.000Z",
+          "wordCount": 1216,
+          "title": "6 cybersecurity must-haves for innovative public sector leaders",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt741994bc79ce7bd9/611fc5ff6768907ea9764dba/blog-security-laptop-720x420.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/elastic-stack-7-17-4-released",
+          "author": "Norrie Taylor",
+          "description": "Version 7.17.4 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 7.17.4 over the previous patch versions in 7.17.x.\nThe 7.17.4 patch release contains a fix for a potential security vulnerability. Please see our security advisory for more details.\nFor details of the issues that have been fixed and a full list of changes for each product in this version, refer to the release notes: \n7.17.4 Release Notes\nElastic Stack\nElasticsearch\nKibana\nBeats\nLogstash\nElastic Enterprise Search\nEnterprise Search\nElastic Observability\nAPM\nElastic Security\nElastic Security Solution\n-Fixes a trusted applications path bug that caused a timeout error when users defined matching Path value without wildcards (https://github.com/elastic/kibana/pull/131085)",
+          "link": "https://www.elastic.co/blog/elastic-stack-7-17-4-released",
+          "publishedOn": "2022-05-24T00:00:00.000Z",
+          "wordCount": 405,
+          "title": "Elastic Stack 7.17.4 released",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6a26a8ec94e87272/6001ac6a96de49101cfb1e46/cta-illustration-space-launch-white-bg.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/elastic-stack-8-2-1-released",
+          "author": "Tarek Ziadé",
+          "description": "Read about the updates and bug fixes that have been included in this release.",
+          "link": "https://www.elastic.co/blog/elastic-stack-8-2-1-released",
+          "publishedOn": "2022-05-24T00:00:00.000Z",
+          "wordCount": 396,
+          "title": "Elastic Stack 8.2.1 released",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c35d17afad9d20d/5f122812c31823015df6ef0a/blog-thumb-rocket-launch.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/using-eck-with-helm",
+          "author": "Fram Souza",
+          "description": ",\nIf you want a solution where you can run only 4 commands and have your Kubernetes observability (logs & metrics, dashboards …) automatically set up, this guide is for you. Here we will use helm to spin up Elastic Stack on ECK (Elastic on Kubernetes), with automatically Kubernetes observability. We are going to run only 4 commands and we will have Elasticsearch, Kibana, Fleet & Elastic Agents (with System & Metrics of Kubernetes enabled). Once you follow this guide, at the end, you can access Kibana and quickly check your Kubernetes healthy, as the image below:\nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltb1a6d3e2b38b49cd/628c057db4fa6b61ed70c686/blog-elastic-elk.png,blog-elastic-elk.png,\nThis page will give a generic way on how to set up ECK resources via helm. Keep in …",
+          "link": "https://www.elastic.co/blog/using-eck-with-helm",
+          "publishedOn": "2022-05-24T00:00:00.000Z",
+          "wordCount": 670,
+          "title": "Using ECK with helm",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt23bfd15a9c05b228/5e3090c7507d2f74fb78c86e/eck-blog-thumb.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/installing-eck-with-terraform-on-gcp",
+          "author": "Fram Souza",
+          "description": ",\nOn this page, you will find a how-to spin up ECK using Terraform. The main idea is to have a Kubernetes cluster and ECK installed by running only 3 commands.\nDemo\nTo see the demo, please access https://github.com/framsouza/eck-terraform\nFeatures\nEvery feature will be deployed via Terraform:\n\nInstall GKE (Google Kubernetes Engine) cluster\nIt will contain 1 node pool with 3 nodes (One in each zone) running on region europe-west1\nIt contains a helm provider that will be responsible to install the ECK operator\nElasticsearch cluster with 3 nodes\nOne Kibana instance\n\nRequirements\nBefore starting you should have the following commands installed:\n\nterraform\ngcloud\n\nLet's play\nAs you probably know, Terraform is an infrastructure as code tool, which means we can describe our infrastructure desire …",
+          "link": "https://www.elastic.co/blog/installing-eck-with-terraform-on-gcp",
+          "publishedOn": "2022-05-24T00:00:00.000Z",
+          "wordCount": 644,
+          "title": "Installing ECK with Terraform on GCP",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt23bfd15a9c05b228/5e3090c7507d2f74fb78c86e/eck-blog-thumb.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/6-cybersecurity-must-haves-for-innovative-public-sector-leaders",
+          "author": "Suzzanna Martinez",
+          "description": ",\nThoughtLab’s newly released cybersecurity benchmark study revealed that cybersecurity is at a critical inflection point across industries. Although 60% of public sector organizations studied scored at the mid-implementation level according to the NIST maturity framework, mutually reinforcing megatrends such as digital transformation, remote work, platform economy, IoT, multi-clouds, institutionalized cybercrime, cyber warfare, and new regulations make the cybersecurity landscape more complex than ever before. \n\nIt’s no surprise, then, that 34% of these organizations do not consider themselves well prepared for the rapidly changing threat landscape. \n\nWhere should public sector leaders make pivots to bolster their cybersecurity performance in an era of escalating digital risks? We break d…",
+          "link": "https://www.elastic.co/blog/6-cybersecurity-must-haves-for-innovative-public-sector-leaders",
+          "publishedOn": "2022-05-24T00:00:00.000Z",
+          "wordCount": 1216,
+          "title": "6 cybersecurity must-haves for innovative public sector leaders",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt741994bc79ce7bd9/611fc5ff6768907ea9764dba/blog-security-laptop-720x420.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/elastic-stack-7-17-4-released",
+          "author": "Norrie Taylor",
+          "description": "Read about the updates and bug fixes that have been included in this release.",
+          "link": "https://www.elastic.co/blog/elastic-stack-7-17-4-released",
+          "publishedOn": "2022-05-24T00:00:00.000Z",
+          "wordCount": 405,
+          "title": "Elastic Stack 7.17.4 released",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6a26a8ec94e87272/6001ac6a96de49101cfb1e46/cta-illustration-space-launch-white-bg.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/elastic-stack-8-2-1-released",
+          "author": "Tarek Ziadé",
+          "description": ",\n​Version 8.2.1 of the Elastic Stack was released today. We recommend you upgrade to this latest version. \n\nThis release contains a fix for a potential security vulnerability. Please see our security announcement for more details\n\nThis release also contains fixes and small enhancements for the Stack:\n\n\nAPM – Fixes a bug that caused events within batches with metadata.labels set to contain labels from other events in the same batch 8081\n\n\nFor a full list of changes for each product, please refer to the release notes:\n8.2.1 Release Notes\nElastic Stack\nElasticsearch\n\n\nKibana\n\n\nBeats\n\n\nLogstash\n\n\nElastic Enterprise Search\n\n\nEnterprise Search\n\n\nElastic Observability\n\n\nAPM\n\n\nElastic Security\n\n\nElastic Security Solution",
+          "link": "https://www.elastic.co/blog/elastic-stack-8-2-1-released",
+          "publishedOn": "2022-05-24T00:00:00.000Z",
+          "wordCount": 396,
+          "title": "Elastic Stack 8.2.1 released",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c35d17afad9d20d/5f122812c31823015df6ef0a/blog-thumb-rocket-launch.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/eck-in-production-environment",
+          "author": "Fram Souza",
+          "description": "Running ECK with Kubernertes monitoring and logs integration, cert-manager, ingress controller, SAML and much more.",
+          "link": "https://www.elastic.co/blog/eck-in-production-environment",
+          "publishedOn": "2022-05-23T00:00:00.000Z",
+          "wordCount": 850,
+          "title": "ECK in production environment",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt23bfd15a9c05b228/5e3090c7507d2f74fb78c86e/eck-blog-thumb.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/eck-in-production-environment",
+          "author": "Fram Souza",
+          "description": ",\nThis article will guide you on how to spin up an ECK environment ready for production which contains,\n\ndedicated stack monitoring,\nfleet-server & elastic-agent (with kubernetes integration),\nelasticsearch autoscaling,\nnodeAffinity & nodeSelector,\nSAML with auth0,\nhot, warm, cold, frozen architecture,\nheartbeat monitor SSL certificate expiration,\nexternal-dns (with CloudFlare integration),\ncert-manager (with let's encrypt integration),\ningress controller (using Cloudflare to register the endpoints),\nOptional: esrally to validate autoscaling and run benchmark against es cluster\n\nRemember you must have basic or enterprise license to run ECK.\nDemo\nTo see the demo and files, please access https://github.com/framsouza/eck-ready-for-production\ncert-manager\ncert-manager adds certificates and cer…",
+          "link": "https://www.elastic.co/blog/eck-in-production-environment",
+          "publishedOn": "2022-05-23T00:00:00.000Z",
+          "wordCount": 850,
+          "title": "ECK in production environment",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt23bfd15a9c05b228/5e3090c7507d2f74fb78c86e/eck-blog-thumb.png"
+        },
+        {
           "id": "https://www.elastic.co/blog/how-to-deploy-natural-language-processing-nlp-getting-started",
           "author": "David Kyle",
           "description": "This blog describes the process for getting up and running with deep learning models for natural language processing (NLP) in Elasticsearch using HuggingFace and PyTorch.",
@@ -395,7 +515,7 @@
           "description": "Taking Sentiment Analysis as the example task, this blog describes the process for getting up and running using deep learning models for Natural Language Processing in Elasticsearch.",
           "link": "https://www.elastic.co/blog/how-to-deploy-nlp-text-embeddings-and-vector-search",
           "publishedOn": "2022-05-20T00:00:00.000Z",
-          "wordCount": 4021,
+          "wordCount": 4019,
           "title": "How to deploy NLP: Text Embeddings and Vector Search",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt680bbcd6229c1faf/620d8aa46c53c5684497f8bc/illustration-industries-retail.png"
         },
@@ -408,16 +528,6 @@
           "wordCount": 1856,
           "title": "How to deploy NLP: Named entity recognition (NER) example",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt2f0b11c8d740e212/6022ec7e61513a1aa7475bd5/illustration-a-new-state-of-find-campaign-image-608x440-2x.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/venturebeat-once-frenemies-elastic-and-aws-are-now-besties",
-          "author": null,
-          "description": "An article recently published in VentureBeat details the transformation of the relationship between Elastic and AWS.",
-          "link": "https://www.elastic.co/blog/venturebeat-once-frenemies-elastic-and-aws-are-now-besties",
-          "publishedOn": "2022-05-20T00:00:00.000Z",
-          "wordCount": 445,
-          "title": "VentureBeat: 'Once frenemies, Elastic and AWS are now besties’",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt817b6732d555104d/6287e6d4ce671353d50815aa/blog-elastic-cloud-on-prem-1.png"
         },
         {
           "id": "https://www.elastic.co/blog/how-to-deploy-natural-language-processing-nlp-getting-started",
@@ -445,7 +555,7 @@
           "description": ",\nAs part of our natural language processing (NLP) blog series, we will walk through an example of using a text embedding model to generate vector representations of textual contents and demonstrating vector similarity search on generated vectors. We will deploy a publicly available model on Elasticsearch and use it in an ingest pipeline to generate embeddings from textual documents. We will then show how to use those embeddings in the vector similarity search to find semantically similar documents for a given query.\nVector similarity search or, as is commonly called semantic search, goes beyond the traditional keyword based search and allows users to find semantically similar documents that may not have any common keywords thus providing a wider range of results. Vector similarity search …",
           "link": "https://www.elastic.co/blog/how-to-deploy-nlp-text-embeddings-and-vector-search",
           "publishedOn": "2022-05-20T00:00:00.000Z",
-          "wordCount": 4021,
+          "wordCount": 4019,
           "title": "How to deploy NLP: Text Embeddings and Vector Search",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt680bbcd6229c1faf/620d8aa46c53c5684497f8bc/illustration-industries-retail.png"
         },
@@ -458,116 +568,6 @@
           "wordCount": 1856,
           "title": "How to deploy NLP: Named entity recognition (NER) example",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt2f0b11c8d740e212/6022ec7e61513a1aa7475bd5/illustration-a-new-state-of-find-campaign-image-608x440-2x.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/venturebeat-once-frenemies-elastic-and-aws-are-now-besties",
-          "author": null,
-          "description": ",\nAn article recently published in VentureBeat details the transformation of the relationship between Elastic and AWS.\n\nElastic announced that the company has expanded its collaboration with AWS, and that the companies are now working together to accelerate momentum and build, market, and deliver seamless access to Elastic Cloud on AWS for our shared customers, while also leveraging AWS’s global footprint and breadth of services.\n\n“Our expanded collaboration includes streamlined signup and onboarding, more simplified data ingestion, new go-to-market initiatives, and expanded AWS competencies and validated qualifications.”\n\nVentureBeat reporter, Paul Sawers, spoke with Elastic CEO, Ash Kulkarni, about the collaboration between the two companies and the path forward.\n\nRead the full article at VentureBeat to learn more about this collaboration, which Kulkarni called a “win-win” for both companies.\n\nRead more: Once frenemies, Elastic and AWS are now besties",
-          "link": "https://www.elastic.co/blog/venturebeat-once-frenemies-elastic-and-aws-are-now-besties",
-          "publishedOn": "2022-05-20T00:00:00.000Z",
-          "wordCount": 445,
-          "title": "VentureBeat: 'Once frenemies, Elastic and AWS are now besties’",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt817b6732d555104d/6287e6d4ce671353d50815aa/blog-elastic-cloud-on-prem-1.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-announces-expanded-collaboration-with-aws",
-          "author": "Ariel Roop,Laurent Mechain",
-          "description": "",
-          "link": "https://www.elastic.co/blog/elastic-announces-expanded-collaboration-with-aws",
-          "publishedOn": "2022-05-19T12:29:00.000Z",
-          "wordCount": 764,
-          "title": "Elastic Announces Expanded Collaboration with AWS",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt27d77705c3becd6d/628574a70457495358472d2e/elastic_aws-twitter_LI_artonly-1200x628.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-announces-expanded-collaboration-with-aws",
-          "author": "Ariel Roop,Laurent Mechain",
-          "description": ",\nToday we announced an expansion to our collaboration with AWS. We’re working together to accelerate momentum and build, market and deliver seamless access to Elastic Cloud on AWS for our shared customers, while also leveraging AWS’s global footprint and breadth of services.\n\nOur expanded collaboration includes streamlined signup and onboarding, more simplified data ingestion, new go-to-market initiatives, and expanded AWS competencies and validated qualifications.\n\nTogether, we’re helping our customers minimize risk and realize faster time to value. We’ve built a foundation to help customers search, analyze and protect their data across AWS and its services so they can transform their data into actionable insights.\n\n“MISI deploys Elastic Cloud on AWS GovCloud (US) to operate a security o…",
-          "link": "https://www.elastic.co/blog/elastic-announces-expanded-collaboration-with-aws",
-          "publishedOn": "2022-05-19T12:29:00.000Z",
-          "wordCount": 764,
-          "title": "Elastic Announces Expanded Collaboration with AWS",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt27d77705c3becd6d/628574a70457495358472d2e/elastic_aws-twitter_LI_artonly-1200x628.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-speed-security-connectivity-capital-markets-finance",
-          "author": "Brandon Mavleos",
-          "description": "Speed is everything in capital markets. Success in the front and back office is dependent on the ability to provide accurate, fast responses to challenging questions. Over the past several decades, there has been a tremendous increase in the amount of information available to market participants, and trade transactions are now being carried out at a very rapid pace. In parallel, the technology which capital markets firms are developing is becoming increasingly complex. Especially as firms migrate workloads to the cloud and rely on more distributed architectures. Many business leaders need to ask themselves the burning question - how will this impact our ability to win in an increasingly competitive, democratized trading environment? \nLuckily, by delivering the right tools to enable their t…",
-          "link": "https://www.elastic.co/blog/elastic-speed-security-connectivity-capital-markets-finance",
-          "publishedOn": "2022-05-19T07:00:00.000Z",
-          "wordCount": 1348,
-          "title": "How Elastic powers speed, security, and connectivity in capital markets",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltf648779557d7a164/6286f941ce671353d5080abf/unnamed-14.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-speed-security-connectivity-capital-markets-finance",
-          "author": "Brandon Mavleos",
-          "description": "Speed is everything in capital markets. By delivering the right tools, firms can set themselves up for success and take advantage of the opportunities available to them with digital and cloud transformation.",
-          "link": "https://www.elastic.co/blog/elastic-speed-security-connectivity-capital-markets-finance",
-          "publishedOn": "2022-05-19T07:00:00.000Z",
-          "wordCount": 1348,
-          "title": "How Elastic powers speed, security, and connectivity in capital markets",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltf648779557d7a164/6286f941ce671353d5080abf/unnamed-14.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/a-peek-behind-the-bpfdoor",
-          "author": "Elastic Security Intelligence & Analytics Team",
-          "description": "In this research piece, we explore BPFDoor — a backdoor payload specifically crafted for Linux in order to gain re-entry into a previously or actively compromised target environment, with insights on how evasion occurs within impacted systems.",
-          "link": "https://www.elastic.co/blog/a-peek-behind-the-bpfdoor",
-          "publishedOn": "2022-05-18T07:00:00.000Z",
-          "wordCount": 525,
-          "title": "A peek behind the BPFDoor",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt8eb410499d8645b9/61aa334981fe8f3ca269a15f/blog-security-detection-720x420.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/a-peek-behind-the-bpfdoor",
-          "author": "Elastic Security Intelligence & Analytics Team",
-          "description": ",\nThreats knock on your door all the time. In this research piece, we explore BPFDoor — a backdoor payload specifically crafted for Linux in order to gain re-entry into a previously or actively compromised target environment. This payload has been observed across systems for five years, suggesting that the threat actors responsible for operating the malware have been around for some time and have likely operated undetected in many environments. \nThe threat actors have leveraged a network of VPS servers to act as a controller and access these systems via compromised routers based out of Taiwan, acting as a VPN network for the adversarial group. In the Elastic Security Intelligence and Analytics team’s deep research, we explore the actual payload, the backdoor lifecycle, and the BPF filters that are leveraged to provide you with insights on how evasion occurs within impacted systems. \nIt’s important to know how you can detect this payload threat and understand the sophistication of the loader. Both are covered in this research. The Elastic Security Intelligence and Analytics team also shares the actual indicators of compromise.\nIt’s critical to invest the time and resources into ensuring your organization’s workloads remain effectively monitored. Get started with a free 14-day trial of Elastic Cloud. Or download the self-managed version of the Elastic Stack for free.",
-          "link": "https://www.elastic.co/blog/a-peek-behind-the-bpfdoor",
-          "publishedOn": "2022-05-18T07:00:00.000Z",
-          "wordCount": 525,
-          "title": "A peek behind the BPFDoor",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt8eb410499d8645b9/61aa334981fe8f3ca269a15f/blog-security-detection-720x420.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/how-can-observability-help-telecom-providers-accelerate-5G-monetization",
-          "author": "Suranjeeta Choudhury",
-          "description": "The telecom industry is at an inflection point today where the endless possibilities of 5G meet the growing challenges of accelerating 5G monetization. In this blog post, we  take a broader look into some widely acknowledged 5G monetization opportunities and explore why unified observability is a prerequisite.",
-          "link": "https://www.elastic.co/blog/how-can-observability-help-telecom-providers-accelerate-5G-monetization",
-          "publishedOn": "2022-05-18T00:00:00.000Z",
-          "wordCount": 1264,
-          "title": "How can observability help telecom providers accelerate 5G monetization",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt17abd238870bda42/6282ee123b9b8554904a04f2/illustration-machine-learning-anomaly-1680x980.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/how-can-observability-help-telecom-providers-accelerate-5G-monetization",
-          "author": "Suranjeeta Choudhury",
-          "description": ",\nThe telecom industry is at an inflection point today, where the endless possibilities of 5G meet the growing challenges of accelerating 5G monetization. This is particularly true for telecom providers who have pumped billions of dollars in building 5G networks.\nThe telecom cloud market is expected to cross USD 74 billion by 2026. So, this presents telecom-as-a-service (TaaS) as an opportunity for telecom providers to monetize their network assets as well as decades of expertise in building and managing network infrastructure.\nIn this blog post, we  take a broader look into some widely acknowledged 5G monetization opportunities and explore why unified observability is a prerequisite.\nNew opportunities on the horizon\nNetwork slicing in 5G arguably presents one of the biggest monetization o…",
-          "link": "https://www.elastic.co/blog/how-can-observability-help-telecom-providers-accelerate-5G-monetization",
-          "publishedOn": "2022-05-18T00:00:00.000Z",
-          "wordCount": 1264,
-          "title": "How can observability help telecom providers accelerate 5G monetization",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt17abd238870bda42/6282ee123b9b8554904a04f2/illustration-machine-learning-anomaly-1680x980.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-maps-now-supports-the-machine-learning-anomalies-layer",
-          "author": "Melissa Alvarez",
-          "description": "Results from machine learning (ML) anomaly detection jobs that use geographical functions can now be viewed in Elastic Maps. The 8.1.0 release of Elastic Maps can generate a map of the anomalies by location and help you explore new trends in your data.",
-          "link": "https://www.elastic.co/blog/elastic-maps-now-supports-the-machine-learning-anomalies-layer",
-          "publishedOn": "2022-05-17T00:00:00.000Z",
-          "wordCount": 1165,
-          "title": "Elastic Maps now supports the Machine Learning Anomalies Layer",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt2a6d45daae98f016/5d6edc53706da43c80618192/blog-maps-top-10-thumbnail.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-maps-now-supports-the-machine-learning-anomalies-layer",
-          "author": "Melissa Alvarez",
-          "description": ",\nResults from Machine Learning (ML) anomaly detection jobs that use geographical functions can now be viewed in Elastic Maps. The 8.1.0 release of Elastic Maps can generate a map of the anomalies by location and help you explore new trends in your data.\nElastic Maps is available on Elastic Cloud. You can also download the Elastic Stack and our cloud orchestration products, Elastic Cloud Enterprise (ECE) and Elastic Cloud for Kubernetes (ECK), for a self-managed experience.\nIn this example, we will use General Transit Feed Specification (GTFS) data. GTFS defines a common format for public transportation schedules and associated geographic information.\nAbout the data\nThis data is a collection of approximately 2 months of gtfs-realtime data streamed from San Antonio, TX. This data consists s…",
-          "link": "https://www.elastic.co/blog/elastic-maps-now-supports-the-machine-learning-anomalies-layer",
-          "publishedOn": "2022-05-17T00:00:00.000Z",
-          "wordCount": 1165,
-          "title": "Elastic Maps now supports the Machine Learning Anomalies Layer",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt2a6d45daae98f016/5d6edc53706da43c80618192/blog-maps-top-10-thumbnail.png"
         }
       ]
     },
@@ -635,16 +635,6 @@
           "wordCount": 1800,
           "title": "Automating Applications and Servers at the Edge with Red Hat Ansible Automation Platform",
           "imageUrl": "https://www.ansible.com/hubfs/Screen%20Shot%202022-05-03%20at%2010.32.12%20AM.png"
-        },
-        {
-          "id": "https://www.ansible.com/blog/event-driven-remediation-with-systemd-and-red-hat-ansible-automation-platform",
-          "author": "nmartins@redhat.com (Nuno Martins)",
-          "description": "Red Hat Ansible Automation Platform can assist you here with not only keeping your infrastructure in check, but also giving your teams the peace of mind that systems are running as they should.",
-          "link": "https://www.ansible.com/blog/event-driven-remediation-with-systemd-and-red-hat-ansible-automation-platform",
-          "publishedOn": "2022-04-25T13:00:00.000Z",
-          "wordCount": 2274,
-          "title": "Event-driven remediation with systemd and Red Hat Ansible Automation Platform",
-          "imageUrl": "https://lh4.googleusercontent.com/6irqaHobfUU02G7Z8V0DiCYPGub92sK6UeKSl-Wep_teiIjeAwJ4Ip8ekLzzoGUNrusx0eU1nFtXfs2v6HiC5_KCL1O4_knpTAzdwzK3xiyRGLGFpwISmvUaNZKJ1OQaNKEz_WXv"
         }
       ]
     },
@@ -679,7 +669,7 @@
           "description": "We have gotten a lot of feedback on this change and after internal deliberation, we are now rolling back this change ASAP.\nWe have now fully rolled back the change that caused the issue.\nThe post Updates to Azure Pipelines Runtime Variables Settings [Updated] appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/updates-to-azure-pipelines-runtime-variables-settings/",
           "publishedOn": "2022-05-19T15:00:55.000Z",
-          "wordCount": 2613,
+          "wordCount": 2624,
           "title": "Updates to Azure Pipelines Runtime Variables Settings [Updated]",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2018/08/vstsfeature.png"
         },
@@ -766,6 +756,16 @@
       "feedUrl": "http://feeds.feedburner.com/AmazonWebServicesBlog",
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
+        {
+          "id": "905a367112dd04b244491567bac3a7266994c9f7",
+          "author": "Danilo Poccia",
+          "description": "Moving data to and from AWS Storage services can be automated and accelerated with AWS DataSync. For example, you can use DataSync to migrate data to AWS, replicate data for business continuity, and move data for analysis and processing in the cloud. You can use DataSync to transfer data to and from AWS Storage services, […]",
+          "link": "https://aws.amazon.com/blogs/aws/new-for-aws-datasync-move-data-between-aws-and-google-cloud-storage-or-aws-and-microsoft-azure-files/",
+          "publishedOn": "2022-05-24T18:58:02.000Z",
+          "wordCount": 2203,
+          "title": "New for AWS DataSync – Move Data Between AWS and Google Cloud Storage or AWS and Microsoft Azure Files",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/05/24/site-merch_AWS-DataSync_SocialMedia_2.png"
+        },
         {
           "id": "85274dcdcd66e71abf62466cd5e084f9aca8df04",
           "author": "Sébastien Stormacq",
@@ -931,6 +931,16 @@
       "siteUrl": "https://camunda.com",
       "articles": [
         {
+          "id": "https://camunda.com/?p=55199",
+          "author": "Bernd Ruecker",
+          "description": "Learn about the different components of Camunda Platform 8 and their licenses. Plus, explore the possible paths to production.\nThe post How Open is Camunda Platform 8? appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2022/05/how-open-is-camunda-platform-8/",
+          "publishedOn": "2022-05-24T18:58:39.000Z",
+          "wordCount": 2069,
+          "title": "How Open is Camunda Platform 8?",
+          "imageUrl": "https://camunda.com/wp-content/uploads/2022/05/2022-Camunda-Blog-Graphics-Template.jpg"
+        },
+        {
           "id": "https://camunda.com/?p=54752",
           "author": "Luca Buchholz",
           "description": "Please join us in welcoming our latest batch of Camunda Champions! Check out which community members will participate in our third cohort. \nThe post Cheers to Our Newest Camunda Champions Cohort appeared first on Camunda.",
@@ -956,7 +966,7 @@
           "description": "Everything you need to know to install, configure, and run Camunda Platform 8 Helm charts. \nThe post Using Helm and Kubernetes to deploy Camunda 8 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/05/using-helm-and-kubernetes-to-deploy-camunda-8/",
           "publishedOn": "2022-05-17T13:45:00.000Z",
-          "wordCount": 1388,
+          "wordCount": 1389,
           "title": "Using Helm and Kubernetes to deploy Camunda 8",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/05/Camunda_Blog_2022-05MAY_Thomas-Heinrichs_Kubernetes-Helm_Featured_charts-1.png"
         },
@@ -966,7 +976,7 @@
           "description": "Find out which way to post JSON data to an external service is best. From within the BPMN or by an external task implementation?\nThe post Q&A: The One Where a JSON Request is Sent While Calling an External REST appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/05/qa-the-one-where-a-json-request-is-sent-while-calling-an-external-rest/",
           "publishedOn": "2022-05-16T16:00:00.000Z",
-          "wordCount": 1022,
+          "wordCount": 1018,
           "title": "Q&A: The One Where a JSON Request is Sent While Calling an External REST",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/03/2022-Camunda-Blog-Graphics-Template-12.jpg"
         },
@@ -976,7 +986,7 @@
           "description": "Discover how these features support better IT and business collaboration, more efficient process execution, and instant troubleshooting. \nThe post 10 Cool Features of Camunda Platform 8 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/05/10-cool-features-of-camunda-platform-8/",
           "publishedOn": "2022-05-11T12:08:00.000Z",
-          "wordCount": 1526,
+          "wordCount": 1522,
           "title": "10 Cool Features of Camunda Platform 8",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/05/2022_May_Camunda_Blog_Top-10-Features-Camunda-Platform-8_1200x630-1.png"
         },
@@ -1016,19 +1026,9 @@
           "description": "Camunda Platform 8 only just arrived, and there’s already a lot of excitement around this new release. Early adopters share their highlights.\nThe post Camunda Platform 8 Highlights from  #CamundaSummit appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/05/camunda-platform-8-highlights-from-camundasummit/",
           "publishedOn": "2022-05-06T13:00:00.000Z",
-          "wordCount": 1654,
+          "wordCount": 1655,
           "title": "Camunda Platform 8 Highlights from  #CamundaSummit",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/05/2022_May_Camunda_Blog_C8-Highlights-from-Camunda-Summit_1200x630.png"
-        },
-        {
-          "id": "https://camunda.com/?p=52506",
-          "author": "Thomas Heinrichs",
-          "description": "Getting familiar with Camunda Platform 8? Learn why GraphQL is replacing REST API as the interface technology and how it works.\nThe post Getting Started with Camunda Platform 8’s GraphQL API appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2022/05/getting-started-with-camunda-platform-8s-graphql-api/",
-          "publishedOn": "2022-05-04T16:00:00.000Z",
-          "wordCount": 1456,
-          "title": "Getting Started with Camunda Platform 8’s GraphQL API",
-          "imageUrl": "https://camunda.com/wp-content/uploads/2022/05/2022-Camunda-Blog-Graphics-Template-30.jpg"
         }
       ]
     },
@@ -1075,6 +1075,26 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/2022-05-24-improved-rest-api-documentation/",
+          "author": null,
+          "description": "We’re excited to announce some big improvements to our REST API documentation. We know developers rely on this documentation to integrate with GitHub, and we are committed to making it trustworthy, easy to find, and easy to use.",
+          "link": "https://github.blog/2022-05-24-improved-rest-api-documentation/",
+          "publishedOn": "2022-05-24T16:00:53.000Z",
+          "wordCount": 1161,
+          "title": "Improved REST API documentation",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/01/Engineering_Product.png?fit=1200%2C630"
+        },
+        {
+          "id": "https://github.blog/2022-05-23-github-sponsors-launches-in-india/",
+          "author": null,
+          "description": "GitHub Sponsors is now available to all developers in India – no more waitlist, you can sign up right away!",
+          "link": "https://github.blog/2022-05-23-github-sponsors-launches-in-india/",
+          "publishedOn": "2022-05-24T03:30:37.000Z",
+          "wordCount": 613,
+          "title": "GitHub Sponsors launches in India",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/05/169177674-9d395f34-f954-4538-9b67-f4d5e72ad2ad.png"
+        },
+        {
           "id": "https://github.blog/2022-05-23-eight-years-of-the-github-security-bug-bounty-program/",
           "author": null,
           "description": "It was another record year for our Security Bug Bounty program. We're excited to highlight some achievements we’ve made together with the bounty community from 2021!",
@@ -1090,7 +1110,7 @@
           "description": "Each month, we highlight open source projects that have shipped major updates. These include everything from world-changing technology to developer tooling, and weekend projects. Here are our top staff picks on projects that shipped major version releases in April. Flyte 1.0 I was lucky enough to discover Flyte during Hacktoberfest last year. Now, Flyte has [&#8230;]",
           "link": "https://github.blog/2022-05-20-release-radar-apr-2022/",
           "publishedOn": "2022-05-20T16:00:05.000Z",
-          "wordCount": 1265,
+          "wordCount": 1260,
           "title": "Release Radar · April 2022 Edition",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/05/Release-Radar-April-2022.jpg?fit=1200%2C630"
         },
@@ -1100,7 +1120,7 @@
           "description": "Upgrade to GHES 3.2 or newer by June 3rd to continue using GitHub Connect.",
           "link": "https://github.blog/2022-05-20-action-needed-by-github-connect-customers-using-ghes-3-1-and-older-to-adopt-new-authentication-token-format-updates/",
           "publishedOn": "2022-05-20T15:27:38.000Z",
-          "wordCount": 449,
+          "wordCount": 452,
           "title": "Action needed by GitHub Connect customers using GHES 3.1 and older to adopt new authentication token format updates",
           "imageUrl": "https://github.blog/wp-content/uploads/2021/12/engineering-product_orange-green-banner.png"
         },
@@ -1110,7 +1130,7 @@
           "description": "Mathematical expressions are key to information sharing amongst engineers, scientists, data scientists, and mathematicians. Today we are pleased to announce that math expressions can be rendered in Markdown on GitHub using $$ as a delimiter for code blocks with math content or the $ delimiter for inline math expressions.",
           "link": "https://github.blog/2022-05-19-math-support-in-markdown/",
           "publishedOn": "2022-05-19T17:41:03.000Z",
-          "wordCount": 583,
+          "wordCount": 586,
           "title": "Math support in Markdown",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/05/Math-Support-Social-2x.png"
         },
@@ -1120,7 +1140,7 @@
           "description": "Learn about what GitHub is doing to make their products more inclusive, and what’s next.",
           "link": "https://github.blog/2022-05-19-how-were-continuing-to-enable-all-developers-to-build/",
           "publishedOn": "2022-05-19T16:48:04.000Z",
-          "wordCount": 1085,
+          "wordCount": 1088,
           "title": "How we’re continuing to enable all developers to build",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/05/Product-Community@2x.png"
         },
@@ -1150,29 +1170,9 @@
           "description": "At GitHub we use GitHub to build our own products, and the new projects experience is no different. Check out how our team uses projects to build powerful project planning for developers.",
           "link": "https://github.blog/2022-05-16-how-were-using-projects-to-build-projects/",
           "publishedOn": "2022-05-16T16:02:19.000Z",
-          "wordCount": 1743,
+          "wordCount": 1761,
           "title": "How we’re using projects to build projects",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/05/blog-header-image.png"
-        },
-        {
-          "id": "https://github.blog/2022-05-16-github-achieves-iso-iec-270012013-certification/",
-          "author": null,
-          "description": "GitHub’s Information Security Management System (ISMS) has been certified against ISO 27001:2013, an internationally recognized standard for security program best practices.",
-          "link": "https://github.blog/2022-05-16-github-achieves-iso-iec-270012013-certification/",
-          "publishedOn": "2022-05-16T16:00:51.000Z",
-          "wordCount": 676,
-          "title": "GitHub Achieves ISO/IEC 27001:2013 Certification!",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/02/Security-Product-Open-Source@2x.png?fit=2400%2C1260"
-        },
-        {
-          "id": "https://github.blog/2022-05-11-graduation-is-here-celebrate-the-class-of-2022-and-join-github-on-june-11/",
-          "author": null,
-          "description": "This year, thousands of students from around the world came together and redefined the world we live in, how we learn, and how we move forward. We are honored to be part of the experience and eager to celebrate this milestone. So on June 11 we celebrate the Class of 2022 and welcome them to [&#8230;]",
-          "link": "https://github.blog/2022-05-11-graduation-is-here-celebrate-the-class-of-2022-and-join-github-on-june-11/",
-          "publishedOn": "2022-05-11T18:00:20.000Z",
-          "wordCount": 599,
-          "title": "Graduation is here! Celebrate the Class of 2022, and join GitHub on June 11 🎓",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/05/166980961-e4396ea3-0c20-450c-b818-88763acbdc4a-1.jpeg?fit=1200%2C630"
         }
       ]
     },
@@ -1193,7 +1193,7 @@
           "description": "At Netflix, we want to entertain the world through creating engaging content and helping members discover the titles they will love. Key to…",
           "link": "https://netflixtechblog.com/a-survey-of-causal-inference-applications-at-netflix-b62d25175e6f?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-05-21T15:02:49.000Z",
-          "wordCount": 1634,
+          "wordCount": 1631,
           "title": "A Survey of Causal Inference Applications at Netflix",
           "imageUrl": "https://miro.medium.com/max/1200/0*-C41nO6__c1UwCHK"
         },
@@ -1203,7 +1203,7 @@
           "description": "by Vivek Kaushal",
           "link": "https://netflixtechblog.com/evolution-of-ml-fact-store-5941d3231762?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-04-26T20:44:04.000Z",
-          "wordCount": 2839,
+          "wordCount": 2848,
           "title": "Evolution of ML Fact Store",
           "imageUrl": "https://miro.medium.com/max/1200/0*a37mfb9KtcdEL_mn"
         }
@@ -1214,6 +1214,16 @@
       "feedUrl": "http://feeds.feedburner.com/blogspot/gJZg",
       "siteUrl": "http://ai.googleblog.com/",
       "articles": [
+        {
+          "id": "http://ai.googleblog.com/2022/05/image-text-pre-training-with.html",
+          "author": null,
+          "description": "Posted by Zirui Wang and Jiahui Yu, Research Scientists, Google Research, Brain Team \nOftentimes, machine learning (ML) model developers begin their design using a generic backbone model that is trained at scale and with capabilities transferable to a wide range of downstream tasks. In natural language processing, a number of popular backbone models, including BERT, T5, GPT-3 (sometimes also referred to as “foundation models”), are pre-trained on web-scale data and have demonstrated generic multi-tasking capabilities through zero-shot, few-shot or transfer learning. Compared with training over-specialized individual models, pre-training backbone models for a large number of downstream tasks can amortize the training costs, allowing one to overcome resource limitations when building large s…",
+          "link": "http://ai.googleblog.com/2022/05/image-text-pre-training-with.html",
+          "publishedOn": "2022-05-24T17:16:00.000Z",
+          "wordCount": 1952,
+          "title": "Image-Text Pre-training with Contrastive Captioners",
+          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
+        },
         {
           "id": "http://ai.googleblog.com/2022/05/vector-quantized-image-modeling-with.html",
           "author": null,
@@ -1322,12 +1332,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=42928",
+          "author": "Seth Godin",
+          "description": "Ever since there have been taxes, people have been against paying them. If we define a tax as a “non-productive burden on our activities,” then it makes sense. And a payment doesn’t have to be to the government to be a tax. Is paying your electric bill a tax? Most people don’t mind paying for […]",
+          "link": "https://feeds.feedblitz.com/~/697472588/0/sethsblog~Looking-at-taxes/",
+          "publishedOn": "2022-05-24T08:35:00.000Z",
+          "wordCount": 527,
+          "title": "Looking at taxes",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=42086",
           "author": "Seth Godin",
           "description": "The internet has provided all of us with an advanced class on using innuendo, piercing invective and anger to make a point with our writing. Now, instead of simply seething or ranting, just about anyone can write an email or a social media post that absolutely destroys someone else. To what end? If the goal […]",
           "link": "https://feeds.feedblitz.com/~/697369546/0/sethsblog~Sharp-language/",
           "publishedOn": "2022-05-23T08:13:00.000Z",
-          "wordCount": 246,
+          "wordCount": 247,
           "title": "Sharp language",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg"
         },
@@ -1410,16 +1430,6 @@
           "wordCount": 229,
           "title": "Newbies welcome",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806135-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=42013",
-          "author": "Seth Godin",
-          "description": "Well, not everyone. Just most people. When you do something that everyone else is doing, you’re likely to get what everyone else is getting. But in almost every population, “everyone” leaves out the people who go first, who change things, who are weird and who challenge the status quo. That’s an option, even when it […]",
-          "link": "https://feeds.feedblitz.com/~/696132578/0/sethsblog~Everyone-else-is/",
-          "publishedOn": "2022-05-15T08:06:00.000Z",
-          "wordCount": 204,
-          "title": "Everyone else is",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg"
         }
       ]
     },
@@ -1428,6 +1438,16 @@
       "feedUrl": "https://blog.jetbrains.com/feed/",
       "siteUrl": "https://blog.jetbrains.com",
       "articles": [
+        {
+          "id": "https://blog.jetbrains.com/?post_type=pycharm&p=249574",
+          "author": "Roberto Pesce",
+          "description": "Are you ready to power up your Python skills? The Python programming language has more than 200 modules in its standard library. In this tutorial, you will learn about functools, a module that is tailor-made for acting on or returning other modules. You will learn about how to use functools decorators effectively, caching, function overloading […]",
+          "link": "https://blog.jetbrains.com/pycharm/2022/05/webinar-the-functools-module-with-mike-driscoll/",
+          "publishedOn": "2022-05-24T10:33:48.000Z",
+          "wordCount": 553,
+          "title": "Webinar “The Functools Module” with Mike Driscoll",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/DSGN-13786_Webinar_The_Functools_Module_Blog_Social_share_image_1280x720.png"
+        },
         {
           "id": "https://blog.jetbrains.com/?post_type=clion&p=246192",
           "author": "Ivan Donchevskii",
@@ -1444,7 +1464,7 @@
           "description": "We’re announcing the next Early Access Program and we invite you to take part in testing and validating new features that are expected to be included in the PyCharm 2022.2 release. The first PyCharm 2022.2 EAP build brings a number of useful improvements to various parts of the product along with moving the IDE to […]",
           "link": "https://blog.jetbrains.com/pycharm/2022/05/pycharm-2022-2-eap-is-open/",
           "publishedOn": "2022-05-23T12:39:59.000Z",
-          "wordCount": 1055,
+          "wordCount": 1061,
           "title": "PyCharm 2022.2 EAP is open!",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/Blog_Social_share_image_1280x720_PyCharm.png"
         },
@@ -1524,7 +1544,7 @@
           "description": "We’re ready to kick off WebStorm 2022.2 with a new Early Access Program (EAP). If you’re not familiar with how our EAP works, check out this blog post where we explain what it is and the benefits of participating. If you haven’t already seen what to expect in WebStorm 2022.2, have a look at our […]",
           "link": "https://blog.jetbrains.com/webstorm/2022/05/webstorm-2022-2-eap-1/",
           "publishedOn": "2022-05-20T10:24:47.000Z",
-          "wordCount": 1116,
+          "wordCount": 1118,
           "title": "WebStorm 2022.2 Early Access Program Is Now Open!",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/ws-release-share.png"
         },
@@ -1537,16 +1557,6 @@
           "wordCount": 969,
           "title": "IntelliJ IDEA 2022.2 EAP Is Open!",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/Blog_Social_share_image_1280x720_IntelliJIDEA-2x.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=246280",
-          "author": "Alexander Kurakin",
-          "description": "The first EAP build comes with updates to the main toolbar, an early preview of MAUI support, and the long-awaited move to .NET 6 runtime for the Rider backend on Windows. You can now download Rider 2022.2 EAP1 directly from www.jetbrains.com or install it via the JetBrains Toolbox App or from snapcraft.io. .NET 6 runtime […]",
-          "link": "https://blog.jetbrains.com/dotnet/2022/05/19/rider-2022-2-eap/",
-          "publishedOn": "2022-05-19T16:00:14.000Z",
-          "wordCount": 1378,
-          "title": "The Rider 2022.2 Early Access Program Has Started!",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/Blog_Social_share_image_1280x720_Rider222eap-2x.png"
         }
       ]
     }

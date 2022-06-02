@@ -6,6 +6,16 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2022/06/01/spring-security-oauth-reaches-end-of-life",
+          "author": null,
+          "description": "The Spring Security OAuth and Spring Security OAuth Boot 2 auto-configuration projects have reached end of life.\n\r\n\r\n\r\nThe Spring Security OAuth project has been replaced by the Client and Resource Server support provided by Spring Security and the Authorization Server support provided by Spring Authorization Server.",
+          "link": "https://spring.io/blog/2022/06/01/spring-security-oauth-reaches-end-of-life",
+          "publishedOn": "2022-06-01T15:00:00.000Z",
+          "wordCount": 421,
+          "title": "Spring Security OAuth reaches End-of-Life",
+          "imageUrl": "https://avatars.githubusercontent.com/u/10884212?v=4?s=200"
+        },
+        {
           "id": "https://spring.io/blog/2022/05/31/this-week-in-spring-may-31st-2022",
           "author": null,
           "description": "Hi, Spring fans! And welcome to another installment of This Week in Spring! I’ve just returned from three wonderful weeks overseas and now, I’m pleased as punch to convey, that I’m home! And hopefully, COVID-19 free! Who knows what sort of nonsense I caught on the flight home, anyway. Some things, I’ve always said, shouldn’t be open source! But knowledge isn’t one of them and I had a lot of fun with this week’s roundup, so let’s dive right into it! \n\r\n\r\n  \n@RequestMapping Value in Properties File\n\r\n  \nA Bootiful Podcast: the good Dr. David Syer on the new and novel in Spring and Kubernetes\n\r\n  \nA Guide to Docker Logs\n\r\n  \nthis is something I learned about at the recent Spring IO show: an open source ticket management system - Alf.io\n\r\n  \nBlog: Contextual Logging in Kubernetes 1.24\n\r\n  \nBlog: Kubernetes 1.24: Maximum Unavailable Replicas for StatefulSet\n\r\n  \nDifference Between docker stop and docker kill Commands\n\r\n  \nDocker Registry API – Listing Images and Tags\n\r\n  \nIntroduction to Spring Cloud Sidecar\n\r\n  \nJava HttpClient Timeout\n\r\n  \nJava Weekly, Issue 439\n\r\n  \nSetting Request Headers Using Feign\n\r\n  \nSpring Authorization Server 0.3.0 available now\n\r\n  \nSpring Boot and Liquibase\n\r\n  \nSpring Boot — Reactive Web\n\r\n  \nSpring Native 0.12.0 available now\n\r\n  \nSpring Shell 2.1.0-M4 is now available\n\r\n  \nSpring Vault 2.4.0-M1 and 3.0.0-M1 available\n\r\n  \nSpring Web Service Integration Tests with @WebServiceServerTest\n\r\n  \nVisual Page Design with Spring Boot - YouTube\n\r\n  \nJVM Parameters\n\r\n  \nAzure Spring Apps Enterprise is generally available. Ship faster. Leverage Spring experts.",
@@ -194,16 +204,6 @@
           "wordCount": 906,
           "title": "Spring Batch 4.3.6 and 5.0.0-M3 available now",
           "imageUrl": "https://avatars.githubusercontent.com/u/1210553?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/05/18/spring-security-5-7-1-5-6-5-5-5-8-released",
-          "author": null,
-          "description": "A new round of releases for Spring Security is available now. The new releases fix a bug where the StrictHttpFirewall incorrectly rejects valid CJKV characters.\n\r\n\r\n\r\nPlease take a look at the release notes for more information.",
-          "link": "https://spring.io/blog/2022/05/18/spring-security-5-7-1-5-6-5-5-5-8-released",
-          "publishedOn": "2022-05-18T11:00:00.000Z",
-          "wordCount": 415,
-          "title": "Spring Security 5.7.1, 5.6.5, 5.5.8 Released",
-          "imageUrl": "https://avatars.githubusercontent.com/u/13255302?v=4?s=200"
         }
       ]
     },
@@ -360,6 +360,26 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
+          "id": "https://www.elastic.co/blog/vulnerability-summary-follina",
+          "author": "Devon Kerr,Elastic Security Intelligence & Analytics Team",
+          "description": "Elastic is deploying a new malware signature to identify the use of the Follina vulnerability. Learn more in this post.",
+          "link": "https://www.elastic.co/blog/vulnerability-summary-follina",
+          "publishedOn": "2022-06-01T07:00:00.000Z",
+          "wordCount": 660,
+          "title": "Vulnerability summary: Follina, CVE-2022-30190",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt8eb410499d8645b9/61aa334981fe8f3ca269a15f/blog-security-detection-720x420.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/vulnerability-summary-follina",
+          "author": "Devon Kerr,Elastic Security Intelligence & Analytics Team",
+          "description": ",\nOn May 27, 2022, the nao_sec independent security research group shared a VirusTotal link to a weaponized Microsoft Office document revealing a previously unknown vulnerability in the Microsoft Support Diagnostic Tool (MSDT). This vulnerability is most likely to be exploited via phishing lure attachments and is triggered when a document is opened. Readers should expect this vulnerability to be adopted by threats of all kinds and be aware that it enables arbitrary code to be executed as outlined in Microsoft’s disclosure.\nSummary\nReaders may recall that template injection is an established technique enabling an attacker to remotely load malicious content when a document is opened by a relevant application. This vulnerability — dubbed “Follina” — works in conjunction with template injectio…",
+          "link": "https://www.elastic.co/blog/vulnerability-summary-follina",
+          "publishedOn": "2022-06-01T07:00:00.000Z",
+          "wordCount": 660,
+          "title": "Vulnerability summary: Follina, CVE-2022-30190",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt8eb410499d8645b9/61aa334981fe8f3ca269a15f/blog-security-detection-720x420.png"
+        },
+        {
           "id": "https://www.elastic.co/blog/using-terraform-with-elastic-cloud",
           "author": "Alexander Reelsen",
           "description": "Today we will dive into the two available Terraform providers from\nElastic. Terraform allows you to define your infrastructure as a code and keep\nthat in repositories to easily make changes.",
@@ -510,16 +530,6 @@
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt741994bc79ce7bd9/611fc5ff6768907ea9764dba/blog-security-laptop-720x420.png"
         },
         {
-          "id": "https://www.elastic.co/blog/elastic-stack-7-17-4-released",
-          "author": "Norrie Taylor",
-          "description": "Version 7.17.4 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 7.17.4 over the previous patch versions in 7.17.x.\nThe 7.17.4 patch release contains a fix for a potential security vulnerability. Please see our security advisory for more details.\nFor details of the issues that have been fixed and a full list of changes for each product in this version, refer to the release notes: \n7.17.4 Release Notes\nElastic Stack\nElasticsearch\nKibana\nBeats\nLogstash\nElastic Enterprise Search\nEnterprise Search\nElastic Observability\nAPM\nElastic Security\nElastic Security Solution\n-Fixes a trusted applications path bug that caused a timeout error when users defined matching Path value without wildcards (https://github.com/elastic/kibana/pull/131085)",
-          "link": "https://www.elastic.co/blog/elastic-stack-7-17-4-released",
-          "publishedOn": "2022-05-24T00:00:00.000Z",
-          "wordCount": 405,
-          "title": "Elastic Stack 7.17.4 released",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6a26a8ec94e87272/6001ac6a96de49101cfb1e46/cta-illustration-space-launch-white-bg.png"
-        },
-        {
           "id": "https://www.elastic.co/blog/using-eck-with-helm",
           "author": "Fram Souza",
           "description": ",\nIf you want a solution where you can run only 4 commands and have your Kubernetes observability (logs & metrics, dashboards …) automatically set up, this guide is for you. Here we will use helm to spin up Elastic Stack on ECK (Elastic on Kubernetes), with automatically Kubernetes observability. We are going to run only 4 commands and we will have Elasticsearch, Kibana, Fleet & Elastic Agents (with System & Metrics of Kubernetes enabled). Once you follow this guide, at the end, you can access Kibana and quickly check your Kubernetes healthy, as the image below:\nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltb1a6d3e2b38b49cd/628c057db4fa6b61ed70c686/blog-elastic-elk.png,blog-elastic-elk.png,\nThis page will give a generic way on how to set up ECK resources via helm. Keep in …",
@@ -548,16 +558,6 @@
           "wordCount": 1216,
           "title": "6 cybersecurity must-haves for innovative public sector leaders",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt741994bc79ce7bd9/611fc5ff6768907ea9764dba/blog-security-laptop-720x420.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-stack-7-17-4-released",
-          "author": "Norrie Taylor",
-          "description": "Read about the updates and bug fixes that have been included in this release.",
-          "link": "https://www.elastic.co/blog/elastic-stack-7-17-4-released",
-          "publishedOn": "2022-05-24T00:00:00.000Z",
-          "wordCount": 405,
-          "title": "Elastic Stack 7.17.4 released",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6a26a8ec94e87272/6001ac6a96de49101cfb1e46/cta-illustration-space-launch-white-bg.png"
         }
       ]
     },
@@ -566,6 +566,16 @@
       "feedUrl": "https://www.ansible.com/blog/rss.xml",
       "siteUrl": "https://www.ansible.com/blog",
       "articles": [
+        {
+          "id": "https://www.ansible.com/blog/released-automation-content-navigator-2.0",
+          "author": "cmcnaugh@redhat.com (Colin McNaughton)",
+          "description": "Automation content navigator releases with Ansible Automation Platform 2.2",
+          "link": "https://www.ansible.com/blog/released-automation-content-navigator-2.0",
+          "publishedOn": "2022-06-01T13:37:00.000Z",
+          "wordCount": 2204,
+          "title": "Released: Automation content navigator 2.0",
+          "imageUrl": "https://www.ansible.com/hubfs/content%20navigator%20blog.png"
+        },
         {
           "id": "https://www.ansible.com/blog/automating-multi-vendor-network-prefix-lists",
           "author": "Dafné Mendoza",
@@ -739,7 +749,7 @@
           "description": "Today, we are releasing multiple versions of our self-hosted product, Azure DevOps Server. You can find the details of the fixes in the release notes for each version.\nAzure DevOps Server 2020.1.2 ISO\nAzure DevOps Server 2020.1.2 Web Install\nRelease Notes\nAzure DevOps Server 2020.0.2\nAzure DevOps Server 2020.0.2 ISO\nAzure DevOps Server 2020.0.2 Web Install\nRelease Notes\nAzure DevOps Server 2019.1.2\nAzure DevOps Server 2019.1.2 ISO\nAzure DevOps Server 2019.1.2 Web Install\nRelease Notes\nThe post Azure DevOps Server 2020.1.2, 2020.0.2 and 2019.1.2 releases appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-2-2020-0-2-and-2019-1-2-releases/",
           "publishedOn": "2022-05-17T18:41:58.000Z",
-          "wordCount": 1239,
+          "wordCount": 1376,
           "title": "Azure DevOps Server 2020.1.2, 2020.0.2 and 2019.1.2 releases",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2019/05/Stock-image.jpg"
         },
@@ -776,6 +786,16 @@
       "feedUrl": "http://feeds.feedburner.com/AmazonWebServicesBlog",
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
+        {
+          "id": "230544885a857a26188de08fe94fb293329b5ed7",
+          "author": "Channy Yun",
+          "description": "At AWS re:Invent 2021, we introduced three new serverless options for our data analytics services – Amazon EMR Serverless, Amazon Redshift Serverless, and Amazon MSK Serverless – that make it easier to analyze data at any scale without having to configure, scale, or manage the underlying infrastructure. Today we announce the general availability of Amazon […]",
+          "link": "https://aws.amazon.com/blogs/aws/amazon-emr-serverless-now-generally-available-run-big-data-applications-without-managing-servers/",
+          "publishedOn": "2022-06-01T18:42:02.000Z",
+          "wordCount": 2082,
+          "title": "Amazon EMR Serverless Now Generally Available – Run Big Data Applications without Managing Servers",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/05/31/Site-Merch_Full-Build_Amazon-EMR-Serverless_Blog.png"
+        },
         {
           "id": "11f85bc4066ba75d8f5b71875bdaee4c76ef9d1a",
           "author": "Channy Yun",
@@ -865,16 +885,6 @@
           "wordCount": 1761,
           "title": "AWS Week in Review – May 9, 2022",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/05/09/AWS-WIR-5.9.22.png"
-        },
-        {
-          "id": "650b6b46711677bb46ba175a4d35a12387ae3f6a",
-          "author": "Steve Roberts",
-          "description": "This post is part of our Week in Review series. Check back each week for a quick roundup of interesting news and announcements from AWS! Wow, May already! Here in the Pacific Northwest, spring is in full bloom and nature has emerged completely from her winter slumbers. It feels that way here at AWS, too, […]",
-          "link": "https://aws.amazon.com/blogs/aws/aws-week-in-review-may-2-2022/",
-          "publishedOn": "2022-05-02T19:39:04.000Z",
-          "wordCount": 1732,
-          "title": "AWS Week in Review – May 2, 2022",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/05/02/AWS-WIR-5.2.22.png"
         }
       ]
     },
@@ -883,6 +893,16 @@
       "feedUrl": "https://xkcd.com/atom.xml",
       "siteUrl": "https://xkcd.com/",
       "articles": [
+        {
+          "id": "https://xkcd.com/2627/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/types_of_scopes.png\" title=\"An x-ray gyroscope is used to determine exactly which toppings they included in the pita.\" alt=\"An x-ray gyroscope is used to determine exactly which toppings they included in the pita.\" />",
+          "link": "https://xkcd.com/2627/",
+          "publishedOn": "2022-06-01T00:00:00.000Z",
+          "wordCount": 199,
+          "title": "Types of Scopes",
+          "imageUrl": "https://imgs.xkcd.com/comics/types_of_scopes_2x.png"
+        },
         {
           "id": "https://xkcd.com/2626/",
           "author": null,
@@ -912,16 +932,6 @@
           "wordCount": 197,
           "title": "Voyager Wires",
           "imageUrl": "https://imgs.xkcd.com/comics/voyager_wires_2x.png"
-        },
-        {
-          "id": "https://xkcd.com/2623/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/goofs.png\" title=\"The film is set in 2018, but when Commander Bremberly chases the hologram through Times Square, there's a billboard for Avengers: Age of Ultron. Depending on the date, that billboard would have been advertising either Infinity War or this movie.\" alt=\"The film is set in 2018, but when Commander Bremberly chases the hologram through Times Square, there's a billboard for Avengers: Age of Ultron. Depending on the date, that billboard would have been advertising either Infinity War or this movie.\" />",
-          "link": "https://xkcd.com/2623/",
-          "publishedOn": "2022-05-23T00:00:00.000Z",
-          "wordCount": 195,
-          "title": "Goofs",
-          "imageUrl": "https://imgs.xkcd.com/comics/goofs_2x.png"
         }
       ]
     },
@@ -966,7 +976,7 @@
           "description": "Learn about the different components of Camunda Platform 8 and their licenses. Plus, explore the possible paths to production.\nThe post How Open is Camunda Platform 8? appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/05/how-open-is-camunda-platform-8/",
           "publishedOn": "2022-05-24T18:58:39.000Z",
-          "wordCount": 2072,
+          "wordCount": 2071,
           "title": "How Open is Camunda Platform 8?",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/05/2022-Camunda-Blog-Graphics-Template.jpg"
         },
@@ -1006,7 +1016,7 @@
           "description": "Find out which way to post JSON data to an external service is best. From within the BPMN or by an external task implementation?\nThe post Q&A: The One Where a JSON Request is Sent While Calling an External REST appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/05/qa-the-one-where-a-json-request-is-sent-while-calling-an-external-rest/",
           "publishedOn": "2022-05-16T16:00:00.000Z",
-          "wordCount": 1020,
+          "wordCount": 1019,
           "title": "Q&A: The One Where a JSON Request is Sent While Calling an External REST",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/03/2022-Camunda-Blog-Graphics-Template-12.jpg"
         },
@@ -1060,12 +1070,62 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/2022-06-01-github-team-or-free-how-to-choose-the-right-plan/",
+          "author": null,
+          "description": "Read about all the features you may not have known come on the GitHub Free plan, and how to choose the right plan for you.",
+          "link": "https://github.blog/2022-06-01-github-team-or-free-how-to-choose-the-right-plan/",
+          "publishedOn": "2022-06-01T21:09:27.000Z",
+          "wordCount": 1059,
+          "title": "GitHub Team or Free? How to choose the right plan",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/06/github-gree.png"
+        },
+        {
+          "id": "https://github.blog/2022-06-01-welcome-to-maintainer-month/",
+          "author": null,
+          "description": "During the month of June, we’re holding space for open source maintainers to gather, share, and be celebrated.",
+          "link": "https://github.blog/2022-06-01-welcome-to-maintainer-month/",
+          "publishedOn": "2022-06-01T19:10:48.000Z",
+          "wordCount": 690,
+          "title": "Welcome to Maintainer Month! 🎉",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/06/header-image.jpeg"
+        },
+        {
+          "id": "https://github.blog/2022-06-01-github-availability-report-may-2022/",
+          "author": null,
+          "description": "In May, we experienced three distinct incidents resulting in significant impact to multiple services across GitHub.com. This report also sheds light into the billing incident that impacted Actions and Codespaces users in April.",
+          "link": "https://github.blog/2022-06-01-github-availability-report-may-2022/",
+          "publishedOn": "2022-06-01T18:55:09.000Z",
+          "wordCount": 1066,
+          "title": "GitHub Availability Report: May 2022",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/05/Engineering-Enterprise@2x.png"
+        },
+        {
+          "id": "https://github.blog/2022-06-01-connecting-to-a-private-network-from-github-hosted-actions-runners/",
+          "author": null,
+          "description": "Several ways for GitHub-hosted Actions runners to connect to resources on your private network.",
+          "link": "https://github.blog/2022-06-01-connecting-to-a-private-network-from-github-hosted-actions-runners/",
+          "publishedOn": "2022-06-01T16:28:58.000Z",
+          "wordCount": 853,
+          "title": "Connecting to a private network from GitHub-hosted Actions runners",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/05/Security-Product@2x-1.png"
+        },
+        {
+          "id": "https://github.blog/2022-06-01-github-sponsors-launches-in-brazil/",
+          "author": null,
+          "description": "GitHub Sponsors is now available in Brazil—an exciting expansion for one of our fastest growing developer communities.",
+          "link": "https://github.blog/2022-06-01-github-sponsors-launches-in-brazil/",
+          "publishedOn": "2022-06-01T13:00:43.000Z",
+          "wordCount": 923,
+          "title": "GitHub Sponsors launches in Brazil",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/06/github-brazil.png"
+        },
+        {
           "id": "https://github.blog/2022-05-31-github-enterprise-server-3-5-is-now-generally-available/",
           "author": null,
           "description": "GitHub Enterprise Server 3.5 is available now, including access to the Container registry, the addition of Dependabot, enhanced administrator capabilities, and features for GitHub Advanced Security.",
           "link": "https://github.blog/2022-05-31-github-enterprise-server-3-5-is-now-generally-available/",
           "publishedOn": "2022-05-31T16:36:05.000Z",
-          "wordCount": 1504,
+          "wordCount": 1483,
           "title": "GitHub Enterprise Server 3.5 is now generally available",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/05/GHES-GA.png"
         },
@@ -1075,7 +1135,7 @@
           "description": "The recently-ended Gamedev.js Jam 2022 encouraged game developers to create web games and share their sources on GitHub. GitHub Star ⭐️ @end3r shares the best 13 entries and sees what experts and other participants think of them.",
           "link": "https://github.blog/2022-05-31-top-games-source-code-from-gamedev-js-jam-2022/",
           "publishedOn": "2022-05-31T08:00:03.000Z",
-          "wordCount": 1457,
+          "wordCount": 1429,
           "title": "Top games + source code from Gamedev.js Jam 2022",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/05/gamedev-js-2022-header.png"
         },
@@ -1085,7 +1145,7 @@
           "description": "npm's impact analysis of the attack campaign using stolen OAuth tokens and additional findings.",
           "link": "https://github.blog/2022-05-26-npm-security-update-oauth-tokens/",
           "publishedOn": "2022-05-27T04:37:28.000Z",
-          "wordCount": 1875,
+          "wordCount": 1863,
           "title": "npm security update: Attack campaign using stolen OAuth tokens",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/05/Security-Product@2x-1.png"
         },
@@ -1095,7 +1155,7 @@
           "description": "A two-part story about how GitHub’s Product Security Engineering team rolled out Dependabot internally to track vulnerable dependencies, and how GitHub tracks and prioritizes technical debt.",
           "link": "https://github.blog/2022-05-25-how-we-use-dependabot-to-secure-github/",
           "publishedOn": "2022-05-25T22:22:22.000Z",
-          "wordCount": 2032,
+          "wordCount": 2020,
           "title": "How we use Dependabot to secure GitHub",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/04/Security-Enterprise@2x.png"
         },
@@ -1105,59 +1165,9 @@
           "description": "We’re excited to announce some big improvements to our REST API documentation. We know developers rely on this documentation to integrate with GitHub, and we are committed to making it trustworthy, easy to find, and easy to use.",
           "link": "https://github.blog/2022-05-24-improved-rest-api-documentation/",
           "publishedOn": "2022-05-24T16:00:53.000Z",
-          "wordCount": 1253,
+          "wordCount": 1223,
           "title": "Improved REST API documentation",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/01/Engineering_Product.png?fit=1200%2C630"
-        },
-        {
-          "id": "https://github.blog/2022-05-23-github-sponsors-launches-in-india/",
-          "author": null,
-          "description": "GitHub Sponsors is now available to all developers in India – no more waitlist, you can sign up right away!",
-          "link": "https://github.blog/2022-05-23-github-sponsors-launches-in-india/",
-          "publishedOn": "2022-05-24T03:30:37.000Z",
-          "wordCount": 713,
-          "title": "GitHub Sponsors launches in India",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/05/169177674-9d395f34-f954-4538-9b67-f4d5e72ad2ad.png"
-        },
-        {
-          "id": "https://github.blog/2022-05-23-eight-years-of-the-github-security-bug-bounty-program/",
-          "author": null,
-          "description": "It was another record year for our Security Bug Bounty program. We're excited to highlight some achievements we’ve made together with the bounty community from 2021!",
-          "link": "https://github.blog/2022-05-23-eight-years-of-the-github-security-bug-bounty-program/",
-          "publishedOn": "2022-05-23T17:54:46.000Z",
-          "wordCount": 1549,
-          "title": "Eight years of the GitHub Security Bug Bounty program",
-          "imageUrl": "https://github.blog/wp-content/uploads/2021/06/GitHub-Bug-Bounty_for-social.png"
-        },
-        {
-          "id": "https://github.blog/2022-05-20-release-radar-apr-2022/",
-          "author": null,
-          "description": "Each month, we highlight open source projects that have shipped major updates. These include everything from world-changing technology to developer tooling, and weekend projects. Here are our top staff picks on projects that shipped major version releases in April. Flyte 1.0 I was lucky enough to discover Flyte during Hacktoberfest last year. Now, Flyte has [&#8230;]",
-          "link": "https://github.blog/2022-05-20-release-radar-apr-2022/",
-          "publishedOn": "2022-05-20T16:00:05.000Z",
-          "wordCount": 1360,
-          "title": "Release Radar · April 2022 Edition",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/05/Release-Radar-April-2022.jpg?fit=1200%2C630"
-        },
-        {
-          "id": "https://github.blog/2022-05-20-action-needed-by-github-connect-customers-using-ghes-3-1-and-older-to-adopt-new-authentication-token-format-updates/",
-          "author": null,
-          "description": "Upgrade to GHES 3.2 or newer by June 3rd to continue using GitHub Connect.",
-          "link": "https://github.blog/2022-05-20-action-needed-by-github-connect-customers-using-ghes-3-1-and-older-to-adopt-new-authentication-token-format-updates/",
-          "publishedOn": "2022-05-20T15:27:38.000Z",
-          "wordCount": 541,
-          "title": "Action needed by GitHub Connect customers using GHES 3.1 and older to adopt new authentication token format updates",
-          "imageUrl": "https://github.blog/wp-content/uploads/2021/12/engineering-product_orange-green-banner.png"
-        },
-        {
-          "id": "https://github.blog/2022-05-19-math-support-in-markdown/",
-          "author": null,
-          "description": "Mathematical expressions are key to information sharing amongst engineers, scientists, data scientists, and mathematicians. Today we are pleased to announce that math expressions can be rendered in Markdown on GitHub using $$ as a delimiter for code blocks with math content or the $ delimiter for inline math expressions.",
-          "link": "https://github.blog/2022-05-19-math-support-in-markdown/",
-          "publishedOn": "2022-05-19T17:41:03.000Z",
-          "wordCount": 678,
-          "title": "Math support in Markdown",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/05/Math-Support-Social-2x.png"
         }
       ]
     },
@@ -1178,7 +1188,7 @@
           "description": "At Netflix, we want to entertain the world through creating engaging content and helping members discover the titles they will love. Key to…",
           "link": "https://netflixtechblog.com/a-survey-of-causal-inference-applications-at-netflix-b62d25175e6f?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-05-21T15:02:49.000Z",
-          "wordCount": 1642,
+          "wordCount": 1618,
           "title": "A Survey of Causal Inference Applications at Netflix",
           "imageUrl": "https://miro.medium.com/max/1200/0*-C41nO6__c1UwCHK"
         }
@@ -1297,12 +1307,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=42763",
+          "author": "Seth Godin",
+          "description": "Why would we want to wait until someone is perfect before we give them a chance to make things better? Each of us is part of a system, cogs in a process that rewards us for certain actions based on various inputs. When the system is broken, some of the most highly leveraged, aware and […]",
+          "link": "https://feeds.feedblitz.com/~/698234840/0/sethsblog~In-search-of-hypocrites/",
+          "publishedOn": "2022-06-01T08:06:00.000Z",
+          "wordCount": 242,
+          "title": "In search of hypocrites",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806135-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=42061",
           "author": "Seth Godin",
           "description": "Sometimes we’re not that good with time. If people got a hacking cough and a chronic disease an hour after smoking their first cigarette, it’s unlikely many people would smoke. If earthquakes happened a day after fracking for gas was tried, they would probably have stopped. And if entrepreneurs discovered freedom, satisfaction and customer delight […]",
           "link": "https://feeds.feedblitz.com/~/698146152/0/sethsblog~The-delay/",
           "publishedOn": "2022-05-31T08:36:00.000Z",
-          "wordCount": 229,
+          "wordCount": 230,
           "title": "The delay",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061311.jpg"
         },
@@ -1385,16 +1405,6 @@
           "wordCount": 247,
           "title": "Sharp language",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=42985",
-          "author": "Seth Godin",
-          "description": "It’s a stepping-stone, not a compromise. The media and our culture push us to build something for everyone, to sand off the edges and to invest in infrastructure toward scale. But it turns out that quality, magic and satisfaction can lie in the other direction. Not because we can’t get bigger, but because we’d rather […]",
-          "link": "https://feeds.feedblitz.com/~/697259232/0/sethsblog~The-smallest-viable-audience/",
-          "publishedOn": "2022-05-22T09:40:00.000Z",
-          "wordCount": 571,
-          "title": "The smallest viable audience",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806133-1.jpg"
         }
       ]
     },
@@ -1403,6 +1413,66 @@
       "feedUrl": "https://blog.jetbrains.com/feed/",
       "siteUrl": "https://blog.jetbrains.com",
       "articles": [
+        {
+          "id": "https://blog.jetbrains.com/?post_type=phpstorm&p=251071",
+          "author": "Brent Roose",
+          "description": "The PhpStorm 2022.1.2 Release Candidate is now available and it’s the final build before the stable release. These are the most notable changes and bug fixes: Types defined in @phpstan-import-type couldn’t be resolved in @phpstan-type (WI-66247)  @psalm-type was marked as undefined class in return tag of closure (WI-65705)  An empty documentation tool window (IDEA-292564)  Backspace […]",
+          "link": "https://blog.jetbrains.com/phpstorm/2022/05/phpstorm-2022-1-2-rc/",
+          "publishedOn": "2022-05-31T13:25:46.000Z",
+          "wordCount": 522,
+          "title": "PhpStorm 2022.1.2 RC",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/ps-youtube-video-youtube-thumbnail-1280x720-1.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=217474",
+          "author": "Khalid Abuhakmeh",
+          "description": "Profiling is an essential yet under-utilized aspect of building applications. We’ve all been there. In times of mounting pressure, we’re more focused on shipping features and hoping we didn’t add perceivable performance or memory issues to our app. If you’re not familiar with dotTrace or dotMemory, now’s a great time to learn more about them! […]",
+          "link": "https://blog.jetbrains.com/dotnet/2022/05/31/surprising-ways-to-profile-your-net-applications/",
+          "publishedOn": "2022-05-31T13:05:55.000Z",
+          "wordCount": 1343,
+          "title": "Surprising Ways To Profile Your .NET Applications",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/01/dm-how-tos-share.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=kotlin&p=251449",
+          "author": "Ekaterina Petrova",
+          "description": "We would like to bring you an update on the development of Kotlin Multiplatform Mobile, a technology that allows developers to share code between mobile platforms and combines the benefits of both cross-platform and native development approaches. Kotlin Multiplatform Mobile is continuing to move steadily along the road to Beta status. One of the biggest […]",
+          "link": "https://blog.jetbrains.com/kotlin/2022/05/kotlin-multiplatform-mobile-beta-roadmap-update/",
+          "publishedOn": "2022-05-31T12:57:41.000Z",
+          "wordCount": 867,
+          "title": "Kotlin Multiplatform Mobile Beta Roadmap Update",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/Mobile-Beta-Roadmap-Update_Blog-Twitter.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=education&p=250887",
+          "author": "Igor Gerasimov",
+          "description": "We are glad to share updates for the educational courses on Marketplace! In our previous blog post, we introduced major content updates that took place from November 2021 to February 2022. Let’s take a look at what’s been happening on the platform since then! Just as a reminder before we dive in – Marketplace hosts […]",
+          "link": "https://blog.jetbrains.com/education/2022/05/31/updates-about-educational-courses-on-marketplace-2/",
+          "publishedOn": "2022-05-31T10:03:30.000Z",
+          "wordCount": 712,
+          "title": "Updates About Educational Courses on Marketplace",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/Blog_Social_share_image_1280x720-11.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=pycharm&p=251099",
+          "author": "Roberto Pesce",
+          "description": "Many of us work with Git, never get past the basics, but still have that nagging feeling: “I really need to learn more.” However, the command line and Git concepts are too big of a hurdle. Michael Kennedy tackles just that in his new Talk Python Training course titled “Up and Running with Git: A Pragmatic, GUI-based […]",
+          "link": "https://blog.jetbrains.com/pycharm/2022/05/webinar-10-git-things-you-wish-you-knew-in-pycharm/",
+          "publishedOn": "2022-05-31T07:55:50.000Z",
+          "wordCount": 574,
+          "title": "Webinar: “10 Git Things You Wish You Knew… in PyCharm” with Michael Kennedy",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/DSGN-13845-Webinar-Webinar-10-Git-Things-You-Wish-You-Kneiw-PyCharm-with-Michael-Kennedy_JB_Blog_Social_share_image_1280-720.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=idea&p=251102",
+          "author": "Igor Kulakov",
+          "description": "Web testing becomes more and more convenient with the advent of new frameworks that make our lives easier. Modern frameworks abstract us from a lot of configuration and boilerplate and let us concentrate on our business objectives instead. Selenium lets us interact with web elements through a convenient API. Selenide makes it handier by adding […]",
+          "link": "https://blog.jetbrains.com/idea/2022/05/when-web-testing-becomes-a-breeze/",
+          "publishedOn": "2022-05-31T07:07:08.000Z",
+          "wordCount": 1261,
+          "title": "When Web Testing Becomes a Breeze",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2020/09/IntelliJ-IDEA_How2Pro_Blog.png"
+        },
         {
           "id": "https://blog.jetbrains.com/?post_type=datagrip&p=245950",
           "author": "Alisa Lukonina",
@@ -1419,7 +1489,7 @@
           "description": "Ever heard of FOMO, the fear of missing out? There are so many features in WebStorm and other JetBrains IDEs that it’s easy to overlook some neat productivity boosters that could make your life as a developer easier. That’s why we’ve decided to try a new format. Introducing the FOMO Digest – our new series […]",
           "link": "https://blog.jetbrains.com/webstorm/2022/05/fomo-digest-1/",
           "publishedOn": "2022-05-30T08:29:47.000Z",
-          "wordCount": 1333,
+          "wordCount": 1352,
           "title": "FOMO Digest #1: New for JavaScript Development in JetBrains IDEs",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/fomo-blog-social-share-image-1280x720-1.png"
         },
@@ -1462,66 +1532,6 @@
           "wordCount": 511,
           "title": "WebStorm 2022.2 EAP #2",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/ws-release-share-1.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=go&p=250435",
-          "author": "Ekaterina Zharova",
-          "description": "GoLand has many shortcuts for any action you can perform in the IDE. The good news is that you don’t have to learn all of them to be productive. How to choose a keymap Let’s start by choosing the right keymap to ensure that you feel right at home more quickly. By default, GoLand has […]",
-          "link": "https://blog.jetbrains.com/go/2022/05/26/5-goland-shortcuts-to-boost-your-productivity/",
-          "publishedOn": "2022-05-26T14:46:20.000Z",
-          "wordCount": 1203,
-          "title": "5 GoLand Shortcuts to Boost Your Productivity",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/go-tutorials-share.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=idea&p=249666",
-          "author": "Maria Kosukhina",
-          "description": "IntelliJ IDEA 2022.2 EAP 2 is now available. The new build brings improvements for working with JSON, YAML, and .properties files, support for new features in Jakarta Persistence 3.1, better support for Bean Validation annotations, and more. You can get the latest build from our website or the free Toolbox App, or via snaps for […]",
-          "link": "https://blog.jetbrains.com/idea/2022/05/intellij-idea-2022-2-eap-2/",
-          "publishedOn": "2022-05-26T14:36:45.000Z",
-          "wordCount": 825,
-          "title": "IntelliJ IDEA 2022.2 EAP 2: Improved Support for Bean Validation Annotations, Support for Jakarta Persistence 3.1, And More",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/02/intellij-idea_social.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=clion&p=250317",
-          "author": "Anastasia Kazakova",
-          "description": "A new CLion 2022.2 EAP2, 222.2680.4, is available from our website via the Toolbox App or as a snap package (if you are using Ubuntu). If you are on macOS, there is a separate build for Apple Silicon (M1 chip). Those who are already using EAP1 can apply a patch to update to EAP2. DOWNLOAD […]",
-          "link": "https://blog.jetbrains.com/clion/2022/05/clion-2022-2-eap2-interval-analysis/",
-          "publishedOn": "2022-05-26T12:30:47.000Z",
-          "wordCount": 611,
-          "title": "CLion 2022.2 EAP2: Interval Analysis",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/Social_share_image_1280x720_CLion-2x.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=big-data-tools&p=249904",
-          "author": "Pasha Finkelshteyn",
-          "description": "Hello, fellow data engineers! It’s Pasha here, and today I’m going to introduce you to the new release of Kotlin API for Apache Spark. It’s been a long time since the last major release announcements, mainly because we wanted to avoid bothering you with minor improvements. But today’s announcement is huge! First, let me remind […]",
-          "link": "https://blog.jetbrains.com/big-data-tools/2022/05/26/kotlin-api-for-apache-spark-streaming-jupyter-and-more/",
-          "publishedOn": "2022-05-26T11:15:15.000Z",
-          "wordCount": 1427,
-          "title": "Kotlin API for Apache Spark: Streaming, Jupyter, and More",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/Kotlin-API-for-Apache-Spark-1.1_Blog-Twitter.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=phpstorm&p=250208",
-          "author": "Roman Pronskiy",
-          "description": "Greetings everyone! Welcome to the May installment of PHP Annotated, where we catch up on the most interesting things that have happened in the PHP world over the last month,including curated news, articles, tools, and videos. Kudos to Sergey Panteleev for helping to compile the May edition of PHP Annotated. News PHP 8.1.6 and PHP […]",
-          "link": "https://blog.jetbrains.com/phpstorm/2022/05/php-annotated-may-2022/",
-          "publishedOn": "2022-05-26T09:23:14.000Z",
-          "wordCount": 1639,
-          "title": "PHP Annotated – May 2022",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2020/06/phpstorm-PHP_Annotated_share_1280x800.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=248267",
-          "author": "Khalid Abuhakmeh",
-          "description": "With the latest release of JetBrains Rider 2022.2 EAP, we’ve added preview support for .NET Multi-Platform App UI, more commonly referred to as MAUI. It is the spiritual successor to the popular Xamarin.Forms framework and evolution in ideas and implementation.  MAUI lets you build native apps using a .NET cross-platform UI toolkit with multiple target […]",
-          "link": "https://blog.jetbrains.com/dotnet/2022/05/25/macos-environment-setup-for-maui-development/",
-          "publishedOn": "2022-05-25T15:05:38.000Z",
-          "wordCount": 2051,
-          "title": "macOS Environment Setup For MAUI Development",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/rd-how-tos-share-2.png"
         }
       ]
     }

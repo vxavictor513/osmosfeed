@@ -6,6 +6,46 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2022/06/15/cve-report-published-for-spring-cloud-function",
+          "author": null,
+          "description": "We have released Spring Cloud Function 3.2.6 to address the following CVE report.\n\r\n\r\n  \nCVE-2202-22979: Spring Cloud Function Dos Vulnerability \n\r\n\r\nPlease review the information in the CVE report and upgrade immediately.",
+          "link": "https://spring.io/blog/2022/06/15/cve-report-published-for-spring-cloud-function",
+          "publishedOn": "2022-06-16T00:08:00.000Z",
+          "wordCount": 409,
+          "title": "CVE report published for Spring Cloud Function",
+          "imageUrl": "https://avatars.githubusercontent.com/u/172397?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2022/06/15/spring-tools-4-15-0-released",
+          "author": null,
+          "description": "Dear Spring Community,\n\r\nI am happy to announce the 4.15.0 release of the Spring Tools 4 for Eclipse, Visual Studio Code, and Theia.\nmajor changes to the Spring Tools 4 for Eclipse distribution\n\r\n\r\n  \nupdated to Eclipse 2022-06 release (new and noteworthy)\n\r\n\nfixes and improvements\n\r\n\r\n  \n(Spring Boot) fixed: vscode-sts: an edge case of workspace symbol for @PutMapping (#781)\n\r\n  \n(VSCode) fixed: Failed to refresh live data from process 12704 - com.xxxx.xx.xxx.BillingServiceApp after retries: 10 (#748)\n\r\n  \n(Eclipse) fixed: The Spring Boot Language Server is not immediately shutdown after closing the last open editor to avoid the need to restart the server when you open the next file (related to #568)\n\r\n  \n(Eclipse) fixed: When opening symbols, open the compilation unit from the relevant project (#769)\n\r\n  \n(Eclipse) fixed: The issue with the internal web browser not being able to open HTTP URLs on macOS got fixed. If you prefer to use the internal browser instead of an external one, you can make that switch in the preferences.\n\r\n  \n(Concourse) fixed: Update Concourse registry-image schema (#777)\n\r\n  \n(Concourse) fixed: Add registry_mirror & across as a known properties (#752)\n\r\n\r\nTo download the distribution for Eclipse and find links to the marketplace entries for Visual Studio Code and Theia, please go visit:\n\r\n\r\n  \nSpring Tools 4: https://spring.io/tools/\n\r\n\r\nDetailed changes can be found here: https://github.com/spring-projects/sts4/wiki/Changelog#2022-06-15-4150-release-incl-language-servers-version-1340\n\r\nSpring Tools 4.15.1 is scheduled to be released in early August 2022.\n\r\nEnjoy!",
+          "link": "https://spring.io/blog/2022/06/15/spring-tools-4-15-0-released",
+          "publishedOn": "2022-06-15T18:00:00.000Z",
+          "wordCount": 598,
+          "title": "Spring Tools 4.15.0 released",
+          "imageUrl": "https://avatars.githubusercontent.com/u/107705?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2022/06/15/spring-framework-5-3-21-available-now",
+          "author": null,
+          "description": "On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework 5.3.21 is available now.\n\r\nSpring Framework 5.3.21 includes 22 fixes and improvements.\n\r\nProject Page | GitHub | Issues | Documentation",
+          "link": "https://spring.io/blog/2022/06/15/spring-framework-5-3-21-available-now",
+          "publishedOn": "2022-06-15T09:04:18.000Z",
+          "wordCount": 413,
+          "title": "Spring Framework 5.3.21 available now",
+          "imageUrl": "https://avatars.githubusercontent.com/u/490484?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2022/06/14/spring-tips-learn-spring-for-graphql-parts-5-and-6-of-an-ongoing-series",
+          "author": null,
+          "description": "Hi, Spring fans! In thi^^^ these installments, we continue our series introducing the Spring for GraphQL project. This series features Spring for GraphQL lead Rossen Stoyanchev (@rstoya05) - whose work you may know from basically everything in the wide and wonderful world of Springdom having to do with the web (HTTP, RSocket, WebSockets, GraphQL, JSF, MVC, etc) - and GraphQL Java engine founder and lead Andi Marek (@andimarek) and of course yours truly, Spring Developer Advocate Josh Long (@starbuxman). It provides an in-depth look at all things Spring for GraphQL.\n\r\nThis week I’m publishing two new installments. \n\r\nThe first of this week’s installments, part five of the series, looks at using GraphQL subscriptions to stream data in a way that is agnostic of the supported transport protoco…",
+          "link": "https://spring.io/blog/2022/06/14/spring-tips-learn-spring-for-graphql-parts-5-and-6-of-an-ongoing-series",
+          "publishedOn": "2022-06-14T07:00:00.000Z",
+          "wordCount": 758,
+          "title": "Spring Tips: Learn Spring for GraphQL (parts 5 and 6 of an ongoing series)",
+          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
+        },
+        {
           "id": "https://spring.io/blog/2022/06/14/goodbye-spring-ide-welcome-spring-tools-4",
           "author": null,
           "description": "On August 31 of 2004, only a few months after version 1.0 of the Spring Framework itself got released, Torsten Jürgeleit created a repository and made the initial commits to a project that became the tooling support for Spring in Eclipse, the Spring IDE project (while the roots of that work are probably going back further in time, as the comment of the first commit to the repository reads like there was a CVS repository even before that time.). Shortly after, Christian Dupuis joined, led the project for many years and initiated the Spring Tool Suite on top of Spring IDE.\n\r\nIt’s been a long time since then.\n\r\nOn December 4 of 2017, a new chapter for the Spring tooling began with the introduction of the all-new Spring Tools 4 and its first public beta release, followed by the first GA releas…",
@@ -164,46 +204,6 @@
           "wordCount": 428,
           "title": "A Bootiful Podcast: the good Dr. David Syer on the new and novel in Spring and Kubernetes",
           "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/05/25/spring-authorization-server-0-3-0-available-now",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, it is my pleasure to announce the general availability of Spring Authorization Server 0.3.0.\n\r\n\r\n\r\nYou can download it from Maven Central by using the module coordinates:\n\r\n\r\n\r\n\r\nimplementation 'org.springframework.security:spring-security-oauth2-authorization-server:0.3.0'\n\r\n\r\n\r\n\r\nSee the release notes for complete details.\n\r\n\r\n\r\nWith this release, you can view the initial version of the reference documentation and the new project page on spring.io.\n\r\n\r\n\r\nTo get started using Spring Authorization Server, see the Getting Started chapter of the reference documentation and the samples to become familiar with setup and configuration.\n\r\n\r\n\r\nWe would love to gather your feedback as we strive to improve and build upon this release.\n\r\n\r\n\r\nProject Page | GitHub Issues | ZenHub Board",
-          "link": "https://spring.io/blog/2022/05/25/spring-authorization-server-0-3-0-available-now",
-          "publishedOn": "2022-05-25T16:00:00.000Z",
-          "wordCount": 493,
-          "title": "Spring Authorization Server 0.3.0 available now",
-          "imageUrl": "https://avatars.githubusercontent.com/u/5248162?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/05/24/preparing-for-spring-boot-3-0",
-          "author": null,
-          "description": "Spring Boot 2.0 was the first release in the 2.x line and was published on Feburary 28th 2018.\r\nWe’ve just released Spring Boot 2.7 which means that, so far, we’ve been maintaining the 2.x line for just over 4 years.\r\nIn total we’ve published 95 distinct releases over that timeframe!\n\r\n\r\n\r\nThe entire Spring team, and many in our community of contributors, are now preparing for the next generation of Spring.\r\nWe are planning to release Spring Boot 3.0 in November 2022.\r\nThis next major revision will be based on Spring Framework 6.0 and will require Java 17 or above.\r\nIt will also be the first version of Spring Boot that makes use of Jakarta EE 9 APIs (jakarta.*)  instead of EE 8 (javax.*).\n\r\n\r\n\r\nThe next six months offer an ideal opportunity to prepare your own projects for this major relea…",
-          "link": "https://spring.io/blog/2022/05/24/preparing-for-spring-boot-3-0",
-          "publishedOn": "2022-05-24T16:00:00.000Z",
-          "wordCount": 1345,
-          "title": "Preparing for Spring Boot 3.0",
-          "imageUrl": "https://avatars.githubusercontent.com/u/519772?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/05/24/azure-spring-apps-enterprise-is-now-generally-available",
-          "author": null,
-          "description": "Hi, Spring fans! This is a guest post by Julia Liuson, President, Developer Division, Microsoft \nAzure Spring Cloud is now Azure Spring Apps\n\r\nWe launched Azure Spring Cloud with VMware in 2019 to solve common challenges developers, IT operators, and DevOps teams face when running Spring Boot applications at scale. Since then we’ve helped many customers adopt the service including Bosch, Digital Realty, FedEx, Kroger, Liantis, Morgan Stanley, National Life, Raley’s, and Swiss Re. They value the fully managed infrastructure of Azure Spring Cloud that lets them focus on their apps, while the service manages dynamic scaling, security patching, out-of-the-box instrumentation for monitoring, and more. Through customer feedback. we have expanded the capabilities of the service, including the Ent…",
-          "link": "https://spring.io/blog/2022/05/24/azure-spring-apps-enterprise-is-now-generally-available",
-          "publishedOn": "2022-05-24T15:00:00.000Z",
-          "wordCount": 2726,
-          "title": "Azure Spring Apps Enterprise is now generally available",
-          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/05/24/this-week-in-spring-may-24th-2022",
-          "author": null,
-          "description": "Hi, Spring fans! I’m in Spain for business and not just a little pleasure. Yesterday, my partner, her mother, and I went to Formentera, Spain, a little island off of Ibiza, Spain. It was amazing. We’re now in Ibiza, Spain, which is a little island not far from Barcelona, Spain, on the mainland of Spain. It feels a bit like that Inception movie. We traveled by boat to Formentera for a little vacation inside of another little vacation (Ibiza) and inside of another little vacation (Barcelona). Tomorrow I’ll return to Barcelona for the Spring IO event. Yes, technically, this is work. But it’s an oh-so-much pleasure, too. I can’t wait! It’ll be the first time I’ve seen a ton of these people in years! I hope to see y’all there or los vemos!\n\r\n\r\n  \nHappily, Spring for GraphQL 1.0 has been release…",
-          "link": "https://spring.io/blog/2022/05/24/this-week-in-spring-may-24th-2022",
-          "publishedOn": "2022-05-24T07:00:00.000Z",
-          "wordCount": 826,
-          "title": "This Week in Spring - May 24th, 2022",
-          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
         }
       ]
     },
@@ -212,6 +212,16 @@
       "feedUrl": "https://www.hashicorp.com/blog/feed.xml",
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
+        {
+          "id": "https://www.hashicorp.com/blog/terraform-cloud-run-tasks-with-styra-das-provides-opa-validation",
+          "author": null,
+          "description": "The integration of HashiCorp Terraform with OPA-founder Styra allows users to validate Terraform infrastructure as code with Open Policy Agent.",
+          "link": "https://www.hashicorp.com/blog/terraform-cloud-run-tasks-with-styra-das-provides-opa-validation",
+          "publishedOn": "2022-06-15T17:00:00.000Z",
+          "wordCount": 1014,
+          "title": "​​Terraform Cloud Run Tasks with Styra DAS Provides OPA Validation",
+          "imageUrl": "https://www.datocms-assets.com/2885/1655301273-styra.png"
+        },
         {
           "id": "https://www.hashicorp.com/blog/hashiconf-europe-is-back-join-us-in-amsterdam-or-online",
           "author": null,
@@ -248,7 +258,7 @@
           "description": "HashiCorp Vault Enterprise 1.10 has been evaluated as conformant with the Federal Information Processing Standard (FIPS) 140-2 standards.",
           "link": "https://www.hashicorp.com/blog/hashicorp-vault-1-10-achieves-fips-140-2-compliance",
           "publishedOn": "2022-06-07T12:00:00.000Z",
-          "wordCount": 771,
+          "wordCount": 770,
           "title": "HashiCorp Vault 1.10 Achieves FIPS 140-2 Compliance",
           "imageUrl": "https://www.datocms-assets.com/2885/1620082999-blog-library-product-vault-black.jpg"
         },
@@ -268,7 +278,7 @@
           "description": "General availability of HashiCorp Consul-Terraform-Sync (CTS) 0.6 represents a key step in the maturity of our Network Infrastructure Automation (NIA) solution.",
           "link": "https://www.hashicorp.com/blog/cts-0-6-new-terraform-cloud-agent-hcp-consul-support",
           "publishedOn": "2022-05-26T19:00:00.000Z",
-          "wordCount": 1625,
+          "wordCount": 1622,
           "title": "CTS 0.6 Adds New Terraform Cloud Agent and HCP Consul Support",
           "imageUrl": "https://www.datocms-assets.com/2885/1620082176-blog-library-product-terraform-consul-dark.jpg"
         },
@@ -278,7 +288,7 @@
           "description": "Cloud Development Kit for Terraform (CDKTF) 0.11 introduces an easier way to add providers to your application and improvements to the debugging process.",
           "link": "https://www.hashicorp.com/blog/cdk-terraform-0-11-introduces-new-provider-command",
           "publishedOn": "2022-05-25T16:00:00.000Z",
-          "wordCount": 1110,
+          "wordCount": 1116,
           "title": "CDK for Terraform 0.11 Introduces New Provider Command and More",
           "imageUrl": "https://www.datocms-assets.com/2885/1620081857-blog-library-product-terraform-dark-gradient.jpg"
         },
@@ -288,7 +298,7 @@
           "description": "HashiCorp adopts the community-created HCL Extension for Visual Studio Code and adds HCL 2.0 support.",
           "link": "https://www.hashicorp.com/blog/announcing-the-hcl-extension-for-visual-studio-code-0-1",
           "publishedOn": "2022-05-23T16:00:00.000Z",
-          "wordCount": 868,
+          "wordCount": 865,
           "title": "Announcing the HCL Extension for Visual Studio Code 0.1",
           "imageUrl": "https://www.datocms-assets.com/2885/1653073622-vscode.png"
         },
@@ -298,7 +308,7 @@
           "description": "With the addition of 18 new verified providers to the growing HashiCorp Terraform ecosystem we hit a milestone with 200 verified Terraform providers.",
           "link": "https://www.hashicorp.com/blog/auth0-fortinet-and-vercel-among-new-verified-terraform-providers",
           "publishedOn": "2022-05-20T17:00:00.000Z",
-          "wordCount": 1496,
+          "wordCount": 1493,
           "title": "Auth0, Fortinet, and Vercel Among New Verified Terraform Providers",
           "imageUrl": "https://www.datocms-assets.com/2885/1653430998-verified-blog-visual-3.png"
         },
@@ -328,7 +338,7 @@
           "description": "Now generally available, HashiCorp Terraform 1.2 introduces exception handling with pre- and post-conditions, support for non-interactive Terraform Cloud operations in a CI/CD pipeline, and CLI support for Run Tasks.",
           "link": "https://www.hashicorp.com/blog/terraform-1-2-improves-exception-handling-and-updates-to-the-cli-driven-workflow",
           "publishedOn": "2022-05-18T23:00:00.000Z",
-          "wordCount": 1253,
+          "wordCount": 1250,
           "title": "Terraform 1.2 Improves Exception Handling and Updates to the CLI-driven Workflow",
           "imageUrl": "https://www.datocms-assets.com/2885/1620083055-blog-library-product-terraform-dark-graphics.jpg"
         }
@@ -340,12 +350,52 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
+          "id": "https://www.elastic.co/blog/harness-the-power-of-the-cloud-to-build-scalable-search-solutions",
+          "author": "Isaac Levin",
+          "description": "Elastic Cloud is the best way to build highly scalable and performant search solutions using Elastic’s products across any cloud provider.",
+          "link": "https://www.elastic.co/blog/harness-the-power-of-the-cloud-to-build-scalable-search-solutions",
+          "publishedOn": "2022-06-15T00:00:00.000Z",
+          "wordCount": 910,
+          "title": "Harness the power of the cloud to build scalable search solutions",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt58f2036570623336/6297ba62bf05100f50a8c013/blog-thumb-enterprise-search-cloud.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/how-anthem-leverages-big-healthcare-data-to-improve-consumers-lives",
+          "author": "Miroslav Mihaylov, Ph.D., Anthem",
+          "description": "Here we will share our Ansible-based automated deployment solution for ELK, which powers real-time internal search capabilities at Anthem, Inc. and helps the organization improve consumers’ health and wellbeing.",
+          "link": "https://www.elastic.co/blog/how-anthem-leverages-big-healthcare-data-to-improve-consumers-lives",
+          "publishedOn": "2022-06-15T00:00:00.000Z",
+          "wordCount": 940,
+          "title": "How Anthem leverages big healthcare data to improve consumers’ lives",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta401f2e7dad39503/620d844d9d54947c7f131b0a/illustration-industry-health.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/harness-the-power-of-the-cloud-to-build-scalable-search-solutions",
+          "author": "Isaac Levin",
+          "description": ",\nThere are many ways developers can host search applications built with Elastic, ranging from plugging into existing Kubernetes orchestrations to downloading and running the solutions in their own infrastructure. Ultimately, the choice is yours on how you want to manage these solutions. So, how can you ensure you choose the right hosting method? \n\nAcross the board, the best — and easiest — decision is to go with the cloud. Elastic Cloud’s fully managed experience is the optimal way to build highly scalable and performant search solutions using Elastic’s products across any cloud provider. With Elastic Cloud, you can rapidly deploy in your favorite public cloud, or in multiple clouds, and extend the value of Elastic with cloud-native features.\n\nStill not sure? Read on to learn about a few …",
+          "link": "https://www.elastic.co/blog/harness-the-power-of-the-cloud-to-build-scalable-search-solutions",
+          "publishedOn": "2022-06-15T00:00:00.000Z",
+          "wordCount": 910,
+          "title": "Harness the power of the cloud to build scalable search solutions",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt58f2036570623336/6297ba62bf05100f50a8c013/blog-thumb-enterprise-search-cloud.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/how-anthem-leverages-big-healthcare-data-to-improve-consumers-lives",
+          "author": "Miroslav Mihaylov, Ph.D., Anthem",
+          "description": ",\nChallenges with healthcare data  \nHealthcare data makes up a third of the world’s data and is projected to grow, in the next few years, at a faster pace than traditional data-rich industries like financial services and manufacturing.* The staggering data volumes in healthcare, in addition to its heterogeneity and fragmentation, represent substantial challenges to extracting data insights for improving healthcare outcomes of individuals and communities. \n\nAt Anthem, Inc., we have undertaken various initiatives to address these challenges — most notably full-text search of healthcare claims.\n\nIn this post, we share with you our automated deployment solution for ELK stack. This deployment pattern is in use internally at Anthem to power real-time search capabilities on top of Anthem’s health…",
+          "link": "https://www.elastic.co/blog/how-anthem-leverages-big-healthcare-data-to-improve-consumers-lives",
+          "publishedOn": "2022-06-15T00:00:00.000Z",
+          "wordCount": 940,
+          "title": "How Anthem leverages big healthcare data to improve consumers’ lives",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta401f2e7dad39503/620d844d9d54947c7f131b0a/illustration-industry-health.png"
+        },
+        {
           "id": "https://www.elastic.co/blog/technology-leaders-challenges-cloud-migration-financial-public-telecom",
           "author": "Howard Rabinowitz",
           "description": "Leaders across industries share how they are adopting cloud to drive speed and impact",
           "link": "https://www.elastic.co/blog/technology-leaders-challenges-cloud-migration-financial-public-telecom",
           "publishedOn": "2022-06-14T07:00:00.000Z",
-          "wordCount": 1380,
+          "wordCount": 1381,
           "title": "How technology leaders are overcoming challenges to cloud migration across financial, public, and telecom sectors",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltf4188f0d64787fd3/62a9248a03b23c505f83ff3c/Industries_Move_to_the_Cloud_1440x840.jpg"
         },
@@ -355,7 +405,7 @@
           "description": ",\nThe value of an organization’s data is magnified in the cloud — enabling agility and new sources of revenue — but leaders must first overcome critical challenges. \nWe interviewed executives in three economic sectors — financial services, public sector, and telecommunications — for their insights on the unique challenges and opportunities they face, and how they’re leading their organization to deliver stronger results in the cloud. Below are edited excerpts from the conversations.\nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltec70c92aca2e350c/62a92556c4d59b57e0c25686/roundtable.jpg,roundtable.jpgFinancial services: Cloud is a matter of trust,\nMilind Nagnur, chief technology officer, Early Warning Services, parent company of the Zelle payment network\n\nFinancial institutio…",
           "link": "https://www.elastic.co/blog/technology-leaders-challenges-cloud-migration-financial-public-telecom",
           "publishedOn": "2022-06-14T07:00:00.000Z",
-          "wordCount": 1380,
+          "wordCount": 1381,
           "title": "How technology leaders are overcoming challenges to cloud migration across financial, public, and telecom sectors",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltf4188f0d64787fd3/62a9248a03b23c505f83ff3c/Industries_Move_to_the_Cloud_1440x840.jpg"
         },
@@ -498,46 +548,6 @@
           "wordCount": 2910,
           "title": "Create your own instrumentation with the Java Agent Plugin",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltbd2f262aa33cb60c/629e426ed0f3ca0f53e0ad7b/blog-charts-packages.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/secure-your-cloud-with-elastic-security",
-          "author": "Rajiv Raghunarayan,Sneha Sachidananda",
-          "description": "Elastic Security for Cloud extends the capabilities of Elastic Security into the cloud with the addition of new capabilities for risk and posture management as well as threat monitoring and workload protection",
-          "link": "https://www.elastic.co/blog/secure-your-cloud-with-elastic-security",
-          "publishedOn": "2022-06-07T07:00:00.000Z",
-          "wordCount": 1231,
-          "title": "Elastic announces Elastic Security for Cloud, delivering new posture management and workload protection capabilities",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta8578c2a056c090d/6297ba628eeef94572764028/blog-thumb-gov-cloud-security.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/introducing-elastic-security-labs",
-          "author": "Devon Kerr",
-          "description": "Elastic Security Labs is now the official, one-stop domain for threat research, making it easier to find and share security threat research that will lead to a more secure workplace and a more protected industry overall.",
-          "link": "https://www.elastic.co/blog/introducing-elastic-security-labs",
-          "publishedOn": "2022-06-07T07:00:00.000Z",
-          "wordCount": 1125,
-          "title": "Elastic Security Labs: Follow us for breaking news on security threat research",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltee07a4803a7e6306/6297bb2d9bb72a0f7439d7ee/library-branding-elastic-security-midnight-web-thumb-1680x980.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/secure-your-cloud-with-elastic-security",
-          "author": "Rajiv Raghunarayan,Sneha Sachidananda",
-          "description": ",\nElastic Security for Cloud is a new way to manage your cloud posture and ensure the security of cloud workloads. Elastic Security for Cloud expands the capabilities of the Elastic Security solution, extending visibility of the Elastic Security solution from endpoints to the cloud and building on the open and integrated approach and the rich security analytics capabilities already baked into Elastic.\n\nWith more than 85% of organizations moving to a cloud-first model and 95% of new digital workloads deployed on cloud-native platforms, according to Gartner, securing cloud environments is crucial to ensure sustained business innovation and growth. Whether it’s financial organizations moving to branchless banking or retailers improving customer experience via an omni-channel strategy, extendi…",
-          "link": "https://www.elastic.co/blog/secure-your-cloud-with-elastic-security",
-          "publishedOn": "2022-06-07T07:00:00.000Z",
-          "wordCount": 1231,
-          "title": "Elastic announces Elastic Security for Cloud, delivering new posture management and workload protection capabilities",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta8578c2a056c090d/6297ba628eeef94572764028/blog-thumb-gov-cloud-security.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/introducing-elastic-security-labs",
-          "author": "Devon Kerr",
-          "description": ",\nElastic Security Labs is now the official, one-stop domain for threat research from a team of 40+ industry veterans. \nElastic has been delivering timely and detailed security threat research for years — we’ve published more than 40 research articles and tools. We want to make it easier to find and share security threat research that will lead to a more secure workplace and a more protected industry overall.\n“We feel that the availability of topical and timely security threat research has been traditionally inaccessible,” said Devon Kerr, Elastic Security Research Lead. “Elastic Security Labs intends to change this disparity and put in every security practitioner's hands the needed information and tools to protect their organizations.”\n[Read more about CUBA and other malware here.]\nLevera…",
-          "link": "https://www.elastic.co/blog/introducing-elastic-security-labs",
-          "publishedOn": "2022-06-07T07:00:00.000Z",
-          "wordCount": 1125,
-          "title": "Elastic Security Labs: Follow us for breaking news on security threat research",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltee07a4803a7e6306/6297bb2d9bb72a0f7439d7ee/library-branding-elastic-security-midnight-web-thumb-1680x980.png"
         }
       ]
     },
@@ -546,6 +556,16 @@
       "feedUrl": "https://www.ansible.com/blog/rss.xml",
       "siteUrl": "https://www.ansible.com/blog",
       "articles": [
+        {
+          "id": "https://www.ansible.com/blog/red-hat-ansible-automation-platform-on-microsoft-azure-network-access-blog-2",
+          "author": "Scott Harwell",
+          "description": "Thank you to Hicham Mourad and Scott Harwell for co-authoring this blog.\n \r\nIntroduction\n \r\nIn this blog series, we will continue discussing the deployment of Red Hat Ansible Automation Platform on Microsoft Azure.",
+          "link": "https://www.ansible.com/blog/red-hat-ansible-automation-platform-on-microsoft-azure-network-access-blog-2",
+          "publishedOn": "2022-06-15T13:00:00.000Z",
+          "wordCount": 2050,
+          "title": "Red Hat Ansible Automation Platform on Microsoft Azure - Network Access - blog #2",
+          "imageUrl": "https://lh6.googleusercontent.com/43nZr3DVAyq5n8Pp_HYvIx3VpIESVhaEP7E2lFWhw2Bc3umxy9FvbFYpVsmvsoj0N-5EP74-EAkntmKht_J49oq7GSnyep_SpwhCPLIi5l2AVVjZ0m0bjjAgMEnfejUGGLK4ri9Y3OwRsTj2Gw"
+        },
         {
           "id": "https://www.ansible.com/blog/red-hat-ansible-automation-platform-on-microsoft-azure-network-access-blog-1",
           "author": "Scott Harwell",
@@ -635,16 +655,6 @@
           "wordCount": 1532,
           "title": "Uplevel your automation skills with Red Hat training for Ansible Automation Platform",
           "imageUrl": "https://www.ansible.com/hubfs/uplevel%20skills%20blog.png"
-        },
-        {
-          "id": "https://www.ansible.com/blog/automation-at-the-edge-summit-2022",
-          "author": "elathram@redhat.com (Elle Lathram)",
-          "description": "As some of you may know, Red Hat Summit was back in person in Boston last week. For those who are not familiar, Red Hat Summit is the premier enterprise open source event for IT professionals to learn, collaborate, and innovate on technologies from the datacenter and public cloud to the edge and beyond. Red Hat made a lot of exciting announcements, with several that included Red Hat Ansible Automation Platform. If you could not make the event or would like to revisit some of the content, you can access any session on demand.",
-          "link": "https://www.ansible.com/blog/automation-at-the-edge-summit-2022",
-          "publishedOn": "2022-05-19T18:00:00.000Z",
-          "wordCount": 1294,
-          "title": "Automation at the Edge - Summit 2022",
-          "imageUrl": "https://www.ansible.com/hubfs/ansible-2.1-hero.svg"
         }
       ]
     },
@@ -895,16 +905,6 @@
           "wordCount": 1254,
           "title": "AWS Backup Now Supports Amazon FSx for NetApp ONTAP",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/05/18/bu_main_1-1.png"
-        },
-        {
-          "id": "188f6fbb789cd4b216b2e97a6340bddf3499db79",
-          "author": "Marcia Villalba",
-          "description": "This post is part of our Week in Review series. Check back each week for a quick roundup of interesting news and announcements from AWS! I had been on the road for the last five weeks and attended many of the AWS Summits in Europe. It was great to talk to so many of you […]",
-          "link": "https://aws.amazon.com/blogs/aws/aws-week-in-review-may-16-2022/",
-          "publishedOn": "2022-05-16T19:10:54.000Z",
-          "wordCount": 1252,
-          "title": "AWS Week in Review – May 16, 2022",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/05/13/AWS-WIR-5.16.22.png"
         }
       ]
     },
@@ -913,6 +913,16 @@
       "feedUrl": "https://xkcd.com/atom.xml",
       "siteUrl": "https://xkcd.com/",
       "articles": [
+        {
+          "id": "https://xkcd.com/2633/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/astronomer_hotline.png\" title=\"Employment statistics have to correct for the fact that the Weird Bug Hotline hires on a bunch of extra temporary staff every 17 years.\" alt=\"Employment statistics have to correct for the fact that the Weird Bug Hotline hires on a bunch of extra temporary staff every 17 years.\" />",
+          "link": "https://xkcd.com/2633/",
+          "publishedOn": "2022-06-15T00:00:00.000Z",
+          "wordCount": 197,
+          "title": "Astronomer Hotline",
+          "imageUrl": "https://imgs.xkcd.com/comics/astronomer_hotline_2x.png"
+        },
         {
           "id": "https://xkcd.com/2632/",
           "author": null,
@@ -942,16 +952,6 @@
           "wordCount": 197,
           "title": "Shuttle Skeleton",
           "imageUrl": "https://imgs.xkcd.com/comics/shuttle_skeleton_2x.png"
-        },
-        {
-          "id": "https://xkcd.com/2629/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/or_whatever.png\" title=\"Oh yeah, I didn't even know they renamed it the Willis Tower in 2009, because I know a normal amount about skyscrapers.\" alt=\"Oh yeah, I didn't even know they renamed it the Willis Tower in 2009, because I know a normal amount about skyscrapers.\" />",
-          "link": "https://xkcd.com/2629/",
-          "publishedOn": "2022-06-06T00:00:00.000Z",
-          "wordCount": 197,
-          "title": "Or Whatever",
-          "imageUrl": "https://imgs.xkcd.com/comics/or_whatever_2x.png"
         }
       ]
     },
@@ -966,7 +966,7 @@
           "description": "We’re excited to announce the release of Camunda Optimize 3.9.0-alpha1. Check out the latest improvements including the Management Dashboard, new reports, and Spring Boot migration. \nThe post Camunda Optimize 3.9.0-alpha2 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/06/camunda-optimize-3-9-0-alpha2-released/",
           "publishedOn": "2022-06-14T07:15:00.000Z",
-          "wordCount": 1348,
+          "wordCount": 1347,
           "title": "Camunda Optimize 3.9.0-alpha2 Released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/06/Camunda_Blog_2022-06JUN_Release-Notes_Optimize-3.9-alpha2_Image1_Management-Dashboard-scaled.jpg"
         },
@@ -976,7 +976,7 @@
           "description": "We are happy to announce the second alpha release of Camunda Automation Platform 7.18. See what's new and learn how you can contribute. \nThe post Camunda Automation Platform 7.18.0-alpha2 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/06/camunda-automation-platform-7180-alpha2-released/",
           "publishedOn": "2022-06-14T07:00:00.000Z",
-          "wordCount": 1234,
+          "wordCount": 1233,
           "title": "Camunda Automation Platform 7.18.0-alpha2 Released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/06/Camunda_Blog_2022-06JUN_Release-Notes_CamundaPlatform7-1.png"
         },
@@ -986,7 +986,7 @@
           "description": "At Camunda Community Summit 2022, Fidelity Investments Director of Architecture Harish Malavade shared a behind-the-scenes look at Fidelity’s digital automation platform that uses Camunda as its core workflow engine. Here are the technical details. \nThe post Integrating Process and Task Events with Camunda Platform, AWS Kinesis, and Elasticsearch appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/06/integrating-process-and-task-events-with-camunda-platform-aws-kinesis-and-elasticsearch/",
           "publishedOn": "2022-06-10T16:00:00.000Z",
-          "wordCount": 1512,
+          "wordCount": 1513,
           "title": "Integrating Process and Task Events with Camunda Platform, AWS Kinesis, and Elasticsearch",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/06/Camunda_Blog_2022-06JUN_Harish-Malavade_Kinsesis_featured2_structure_1200x630.png"
         },
@@ -1046,7 +1046,7 @@
           "description": "Not ready to migrate to Camunda Platform 8 yet? Learn the alternative approaches you can take now to prepare for migrating later.\nThe post What to do When You Can’t Quickly Migrate to Camunda 8 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/05/what-to-do-when-you-cant-quickly-migrate-to-camunda-8/",
           "publishedOn": "2022-05-25T13:05:00.000Z",
-          "wordCount": 3150,
+          "wordCount": 3151,
           "title": "What to do When You Can’t Quickly Migrate to Camunda 8",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/05/2022_May_Camunda_Blog_Cant-Quickly-Migrate-Camunda-8_1200x630.png"
         },
@@ -1090,12 +1090,42 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/2022-06-15-git-merge-2022/",
+          "author": null,
+          "description": "Git Merge, the conference dedicated to bringing the Git community together returns on September 14-15 in Chicago, Illinois.",
+          "link": "https://github.blog/2022-06-15-git-merge-2022/",
+          "publishedOn": "2022-06-16T00:29:33.000Z",
+          "wordCount": 530,
+          "title": "Git Merge 2022",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/06/173149362-1cf28de3-f47c-4335-976e-b6fe95cea471-1.png"
+        },
+        {
+          "id": "https://github.blog/2022-06-15-prebuilding-codespaces-is-generally-available/",
+          "author": null,
+          "description": "Teams and GHEC customers can now create blazing fast codespaces, even for your largest and most complex projects.",
+          "link": "https://github.blog/2022-06-15-prebuilding-codespaces-is-generally-available/",
+          "publishedOn": "2022-06-15T17:00:27.000Z",
+          "wordCount": 1277,
+          "title": "Prebuilding codespaces is generally available",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/06/Codespaces-header.png"
+        },
+        {
+          "id": "https://github.blog/2022-06-15-github-now-publishes-malware-advisories-in-the-github-advisory-database/",
+          "author": null,
+          "description": "To combat the prevalence of malware in the open source ecosystem, GitHub now publishes malware occurrences in the GitHub Advisory Database. These advisories power Dependabot alerts and remain forever free and usable by the community.",
+          "link": "https://github.blog/2022-06-15-github-now-publishes-malware-advisories-in-the-github-advisory-database/",
+          "publishedOn": "2022-06-15T15:46:26.000Z",
+          "wordCount": 674,
+          "title": "GitHub now publishes malware advisories in the GitHub Advisory Database",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/05/Security-Product@2x-1.png"
+        },
+        {
           "id": "https://github.blog/2022-06-14-accelerating-github-theme-creation-with-color-tooling/",
           "author": null,
           "description": "Learn why the GitHub Design Infrastructure team built a dedicated color tool and how they use it to create new color palettes for GitHub.",
           "link": "https://github.blog/2022-06-14-accelerating-github-theme-creation-with-color-tooling/",
           "publishedOn": "2022-06-14T19:04:41.000Z",
-          "wordCount": 1275,
+          "wordCount": 1277,
           "title": "Accelerating GitHub theme creation with color tooling",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/06/Primer.png"
         },
@@ -1105,7 +1135,7 @@
           "description": "We share a recap of a recent roundtable event about what a federal open source software policy could look like in the United States.",
           "link": "https://github.blog/2022-06-14-how-can-the-united-states-build-its-open-source-software-policy/",
           "publishedOn": "2022-06-14T16:55:42.000Z",
-          "wordCount": 888,
+          "wordCount": 891,
           "title": "How can the United States build its Open Source Software policy?",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/06/Policy-Open-Source@2x.png"
         },
@@ -1115,7 +1145,7 @@
           "description": "June's Open Source Monthly features Modos–a community-focused company building software and hardware that designs digital devices with respect for users' time, attention, and well-being.",
           "link": "https://github.blog/2022-06-13-open-source-monthly-june-2022-edition/",
           "publishedOn": "2022-06-13T20:47:28.000Z",
-          "wordCount": 1292,
+          "wordCount": 1287,
           "title": "Open Source Monthly: June 2022 Edition",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/06/mondo.png"
         },
@@ -1125,7 +1155,7 @@
           "description": "How can you robustly assert and identify a user’s identity?",
           "link": "https://github.blog/2022-06-10-implementing-a-robust-digital-identity/",
           "publishedOn": "2022-06-10T19:12:59.000Z",
-          "wordCount": 2254,
+          "wordCount": 2267,
           "title": "Implementing a robust digital identity",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/02/Community-Company_teal-orange@2x.png"
         },
@@ -1135,7 +1165,7 @@
           "description": "Discover how GitHub thinks about browser support, look at usage patterns, and learn about the tools we use to make sure our customers are getting the best experience.",
           "link": "https://github.blog/2022-06-10-how-we-think-about-browsers/",
           "publishedOn": "2022-06-10T18:37:03.000Z",
-          "wordCount": 5785,
+          "wordCount": 5784,
           "title": "How we think about browsers",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/03/Engineering@2x.png"
         },
@@ -1145,7 +1175,7 @@
           "description": "Dependabot is generally available in GitHub Enterprise Server 3.5. Here is how to set up Dependabot on your instance.",
           "link": "https://github.blog/2022-06-09-dependabot-updates-hit-ga-in-ghes/",
           "publishedOn": "2022-06-09T20:47:19.000Z",
-          "wordCount": 1440,
+          "wordCount": 1469,
           "title": "Dependabot Updates hit GA in GHES",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/03/Enterprise-Product@2x-1.png"
         },
@@ -1155,39 +1185,9 @@
           "description": "We're excited to announce that we're open sourcing our Identity and Access Management solution: Entitlements.",
           "link": "https://github.blog/2022-06-09-introducing-entitlements-githubs-open-source-identity-and-access-management-solution/",
           "publishedOn": "2022-06-09T15:00:55.000Z",
-          "wordCount": 1272,
+          "wordCount": 1317,
           "title": "Introducing Entitlements: GitHub&#8217;s open source Identity and Access Management solution",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/06/Security-Open-Source-Community@2x.png"
-        },
-        {
-          "id": "https://github.blog/2022-06-09-introducing-achievements-recognizing-the-many-stages-of-a-developers-coding-journey/",
-          "author": null,
-          "description": "Available in public beta today, we're announcing Achievements as a new way to commemorate milestones on GitHub.",
-          "link": "https://github.blog/2022-06-09-introducing-achievements-recognizing-the-many-stages-of-a-developers-coding-journey/",
-          "publishedOn": "2022-06-09T15:00:28.000Z",
-          "wordCount": 798,
-          "title": "Introducing Achievements: recognizing the many stages of a developer’s coding journey",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/06/blog-header.png?fit=1600%2C840"
-        },
-        {
-          "id": "https://github.blog/2022-06-08-sunsetting-atom/",
-          "author": null,
-          "description": "We are archiving Atom and all projects under the Atom organization for an official sunset on December 15, 2022.",
-          "link": "https://github.blog/2022-06-08-sunsetting-atom/",
-          "publishedOn": "2022-06-08T15:00:23.000Z",
-          "wordCount": 618,
-          "title": "Sunsetting Atom",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/06/Engineering-Product@2x.png"
-        },
-        {
-          "id": "https://github.blog/2022-06-08-start-your-open-source-journey-with-community-exchange/",
-          "author": null,
-          "description": "Are you a student who is new to open source or just starting your maintainer journey? GitHub Global Campus’ Community Exchange can help you make that first contribution or grow your open source project.",
-          "link": "https://github.blog/2022-06-08-start-your-open-source-journey-with-community-exchange/",
-          "publishedOn": "2022-06-08T08:00:01.000Z",
-          "wordCount": 829,
-          "title": "Start your open source journey with Community Exchange",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/05/Eduction-Product@2x.png"
         }
       ]
     },
@@ -1203,12 +1203,22 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
+          "id": "https://medium.com/p/49348511c06c",
+          "author": "Netflix Technology Blog",
+          "description": "By Alex Hutter, Falguni Jhaveri, and Senthil Sayeebaba",
+          "link": "https://netflixtechblog.com/how-netflix-content-engineering-makes-a-federated-graph-searchable-part-2-49348511c06c?source=rss----2615bd06b42e---4",
+          "publishedOn": "2022-06-15T16:34:20.000Z",
+          "wordCount": 1689,
+          "title": "How Netflix Content Engineering makes a federated graph searchable (Part 2)",
+          "imageUrl": "https://miro.medium.com/max/1200/0*LBuhmsQxMXkOPlRJ"
+        },
+        {
           "id": "https://medium.com/p/c9e0f1488bc5",
           "author": "Netflix Technology Blog",
           "description": "By Astha Singhal, Lakshmi Sudheer, Julia Knecht",
           "link": "https://netflixtechblog.com/scaling-appsec-at-netflix-part-2-c9e0f1488bc5?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-06-06T17:38:41.000Z",
-          "wordCount": 1268,
+          "wordCount": 1280,
           "title": "Scaling Appsec at Netflix (Part 2)",
           "imageUrl": "https://miro.medium.com/max/715/1*96PN1i-ScttDHm3NtKNCgw.jpeg"
         },
@@ -1218,7 +1228,7 @@
           "description": "At Netflix, we want to entertain the world through creating engaging content and helping members discover the titles they will love. Key to…",
           "link": "https://netflixtechblog.com/a-survey-of-causal-inference-applications-at-netflix-b62d25175e6f?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-05-21T15:02:49.000Z",
-          "wordCount": 1628,
+          "wordCount": 1646,
           "title": "A Survey of Causal Inference Applications at Netflix",
           "imageUrl": "https://miro.medium.com/max/1200/0*-C41nO6__c1UwCHK"
         }
@@ -1307,12 +1317,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=43165",
+          "author": "Seth Godin",
+          "description": "Who’s it for? What’s it for? What change do you seek to make? What’s the hard part? If you could learn one skill that would help your project, what would it be? How can you tell if it’s working? Would it be easier if you had help? Would it be easier to make an impact […]",
+          "link": "https://feeds.feedblitz.com/~/699261769/0/sethsblog~Some-questions/",
+          "publishedOn": "2022-06-15T08:45:00.000Z",
+          "wordCount": 216,
+          "title": "Some questions",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806139-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=41268",
           "author": "Seth Godin",
           "description": "People always address now problems before they work on later problems. Every time. On one night in 2004, you might have had two choices. You could go out for a fancy dinner with friends, or you could buy one share of Google at their IPO. A couple of decades later, your dinner is forgotten but […]",
           "link": "https://feeds.feedblitz.com/~/699167198/0/sethsblog~Problems-now-problems-later/",
           "publishedOn": "2022-06-14T09:34:00.000Z",
-          "wordCount": 373,
+          "wordCount": 374,
           "title": "Problems now (problems later)",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806137-1.jpg"
         },
@@ -1395,16 +1415,6 @@
           "wordCount": 379,
           "title": "What are things like around here?",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806137-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=42114",
-          "author": "Seth Godin",
-          "description": "Skepticism is a virtue. It requires a willingness to question conventional wisdom, and the guts to accept something after you discover that it’s actually true. Denialism, on the other hand, is a willful rejection of reality. It’s safe and easy, and unproductive. Because there’s no room to change your mind. To be a generous skeptic, […]",
-          "link": "https://feeds.feedblitz.com/~/698569436/0/sethsblog~Skepticism-and-Denial/",
-          "publishedOn": "2022-06-05T09:26:00.000Z",
-          "wordCount": 299,
-          "title": "Skepticism and Denial",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061318.jpg"
         }
       ]
     },
@@ -1413,6 +1423,66 @@
       "feedUrl": "https://blog.jetbrains.com/feed/",
       "siteUrl": "https://blog.jetbrains.com",
       "articles": [
+        {
+          "id": "https://blog.jetbrains.com/?post_type=teamcity&p=256283",
+          "author": "Yegor Naumov",
+          "description": "Starting from version 2022.04, TeamCity switched to native Git on the server side for Git VCS connections. The switch should positively impact both performance and overall experience of working with Git repositories on the TeamCity server side. In this blog post, we’ll talk about the reasons for the switch and our own experience with this […]",
+          "link": "https://blog.jetbrains.com/teamcity/2022/06/transition-to-native-git-in-teamcity-2022-04/",
+          "publishedOn": "2022-06-15T08:30:00.000Z",
+          "wordCount": 1380,
+          "title": "Transition to native Git in TeamCity 2022.04",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/06/image-34.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=clion&p=256224",
+          "author": "Anastasia Kazakova",
+          "description": "C++Now is one of the most academic events in the C++ calendar. Up in the mountains for a week in Aspen, Colorado, attendees dive into all kinds of profound C++ topics, from new language features and proposals to libraries and tools. C++ chats start at breakfast and continue until late at night in the bar. […]",
+          "link": "https://blog.jetbrains.com/clion/2022/06/early-access-to-c-now-2022-videos/",
+          "publishedOn": "2022-06-14T16:29:43.000Z",
+          "wordCount": 743,
+          "title": "Early Access to C++Now 2022 Videos",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/06/Preview_site_1280x720.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=256185",
+          "author": "Anastasia Kazakova",
+          "description": "The new Rider 2022.2 EAP build brings some useful enhancements for Unreal Engine developers. If you’ve never used Rider for Unreal Engine projects, give it a try and experience first-class support for the Unreal Engine reflection mechanism, integration with Blueprints, and other benefits available on Windows, Linux, and macOS. Learn more on our website. With […]",
+          "link": "https://blog.jetbrains.com/dotnet/2022/06/14/symbol-servers-and-other-enhancements-for-unreal-engine-development-in-rider/",
+          "publishedOn": "2022-06-14T13:56:31.000Z",
+          "wordCount": 1026,
+          "title": "Symbol Servers and Other Enhancements for Unreal Engine Development in Rider",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/06/rd-how-tos-blog-social-share-image-1280x720-1.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=datalore&p=255893",
+          "author": "Alena Guzharina",
+          "description": "When the number of analytics projects grows, you might start getting a lot of requests to rerun or update certain Jupyter notebook results. Some projects, such as web scraping apps or dashboards built on notebook results, might even require hourly updates. In these cases, you might want to automate Jupyter notebooks, rather than rerunning them […]",
+          "link": "https://blog.jetbrains.com/datalore/2022/06/14/how-to-schedule-a-jupyter-notebook/",
+          "publishedOn": "2022-06-14T10:35:31.000Z",
+          "wordCount": 864,
+          "title": "How To Schedule a Jupyter Notebook",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/06/dl-green-blog-social-share-image-1280x720-1.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=fleet&p=254072",
+          "author": "Vitaly Bragilevsky",
+          "description": "This is a multipart series on building Fleet, a next-generation IDE by JetBrains. Part I – Architecture Overview Part II – Breaking Down the Editor Part III – State Management In previous parts of this series, we looked at an overview of the Fleet architecture and discussed the algorithms and data structures that are used […]",
+          "link": "https://blog.jetbrains.com/fleet/2022/06/fleet-below-deck-part-iii-state-management/",
+          "publishedOn": "2022-06-14T09:27:49.000Z",
+          "wordCount": 2863,
+          "title": "Fleet Below Deck, Part III — State Management",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/06/DSGN-13939_Fleet_02_Twitter_1200x675.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=pycharm&p=255879",
+          "author": "Jodie Burchell",
+          "description": "I’ve been a long-time Pandas user, relying on it heavily since the start of my data science career. However, up until the last couple of years, I struggled with certain issues, such as not being able to work with very large DataFrames or efficiently run heavy data processing tasks. I’d also often find my Jupyter […]",
+          "link": "https://blog.jetbrains.com/pycharm/2022/06/webinar-idiomatic-pandas-5-tips-for-better-pandas-with-matt-harrison-and-jodie-burchell/",
+          "publishedOn": "2022-06-14T07:51:19.000Z",
+          "wordCount": 892,
+          "title": "Webinar: “Idiomatic Pandas: 5 tips for better Pandas”, With Matt Harrison and Jodie Burchell",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/06/DSGN-13920-Webinar-Idiomatic-Pandas-5-tips-for-better-Pandas_JB_Blog_Featured_post_image_2560-1200-1.png"
+        },
         {
           "id": "https://blog.jetbrains.com/?post_type=ruby&p=255106",
           "author": "Anna Zykova",
@@ -1472,66 +1542,6 @@
           "wordCount": 811,
           "title": "IntelliJ IDEA 2022.2 EAP 4: Improved Inspections and Code Completion for Java",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/02/intellij-idea_social.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=phpstorm&p=255480",
-          "author": "Brent Roose",
-          "description": "There’s a new preview available of PhpStorm 2022.1.3, the upcoming minor release of PhpStorm. It brings a bunch of bug fixes and quality-of-life improvements.  These are the most notable changes and bug fixes: Fixed: “New Watch” button in Debugger Pange (IDEA-292307) Fixed: not being able to connect to OpenSSH 8.8+ servers (IDEA-291877) Fixed: wrong file […]",
-          "link": "https://blog.jetbrains.com/phpstorm/2022/06/phpstorm-2022-1-3-preview/",
-          "publishedOn": "2022-06-10T09:58:12.000Z",
-          "wordCount": 551,
-          "title": "PhpStorm 2022.1.3 Preview",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/06/ps-youtube-video-youtube-thumbnail-1280x720-1-2.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=pycharm&p=255514",
-          "author": "Roberto Pesce",
-          "description": "Last Tuesday, June 7, 2022, Michael Kennedy joined us for a webinar about Git to explain his pragmatic GUI-based approach in detail. Here’s the recording for you to watch if you missed the live stream. Description Many of us work with Git, never get past the basics, but still have that nagging feeling: “I really […]",
-          "link": "https://blog.jetbrains.com/pycharm/2022/06/webinar-recording-10-git-things-you-wish-you-knew-in-pycharm-with-michael-kennedy/",
-          "publishedOn": "2022-06-10T09:22:44.000Z",
-          "wordCount": 667,
-          "title": "Webinar Recording: “10 Git Things You Wish You Knew… in PyCharm” With Michael Kennedy",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/DSGN-13845-Webinar-Webinar-10-Git-Things-You-Wish-You-Kneiw-PyCharm-with-Michael-Kennedy_JB_Blog_Social_share_image_1280-720.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=appcode&p=255344",
-          "author": "Anastasia Kazakova",
-          "description": "Hi, A new AppCode 2022.2 EAP build (222.2964.42) is available for download. Builds are available from our website and via the Toolbox App. You can also update via patch if you’re using the 2022.2 EAP2 build. Give the free EAP builds a try and let us know what you think about the changes! Share your […]",
-          "link": "https://blog.jetbrains.com/appcode/2022/06/appcode-2022-2-eap3-concurrency-interoperability-with-objective-c-and-support-for-existential-any/",
-          "publishedOn": "2022-06-10T07:33:36.000Z",
-          "wordCount": 677,
-          "title": "AppCode 2022.2 EAP3: Concurrency Interoperability with Objective-C and Support for Existential Any",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/Blog_Social_share_image_1280x720_AppCode-2x.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=254471",
-          "author": "Khalid Abuhakmeh",
-          "description": "The recording for our webinar, Working with SQL and databases in Rider with DataGrip team lead Maksim Sobolevskiy, is now available. Subscribe to our community newsletter to receive notifications about future webinars. Many of the features you’ll see in this webinar also pertain to the database IDE called DataGrip and all other IntelliJ-based IDEs. Even […]",
-          "link": "https://blog.jetbrains.com/dotnet/2022/06/10/working-with-sql-and-databases-in-rider-recording/",
-          "publishedOn": "2022-06-10T05:50:31.000Z",
-          "wordCount": 665,
-          "title": "Working with SQL and databases in Rider – Recording",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/02/DSGN-13186_Webinar_Rider_Working_SQL_databases_JB_Blog_Social_share_image_1280-720.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=clion&p=255288",
-          "author": "Anastasia Kazakova",
-          "description": "A new CLion 2022.2 EAP4 build, 222.2964.48, is available from our website, via the Toolbox App, or as a snap package (if you are using Ubuntu). If you are on macOS, there is a separate build for Apple Silicon (M1 chip). Those who are already using EAP3 can apply a patch to update to EAP4. […]",
-          "link": "https://blog.jetbrains.com/clion/2022/06/clion-2022-2-eap4-rsync-clang-tidy/",
-          "publishedOn": "2022-06-09T20:35:44.000Z",
-          "wordCount": 825,
-          "title": "CLion 2022.2 EAP4: Using Rsync for Remote Development, Clang-Tidy Configuration, and Other Fixes",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/Social_share_image_1280x720_CLion-2x.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=kotlin&p=254774",
-          "author": "Andrey Polyakov",
-          "description": "Kotlin 1.7.0 has been released. It unveils the Alpha version of the new Kotlin/JVM K2 compiler, stabilizes language features, and brings performance improvements for the JVM, JS, and Native platforms. Here is a list of the major updates in this version: The new Kotlin К2 compiler is in Alpha now, and it offers serious performance […]",
-          "link": "https://blog.jetbrains.com/kotlin/2022/06/kotlin-1-7-0-released/",
-          "publishedOn": "2022-06-09T15:18:10.000Z",
-          "wordCount": 816,
-          "title": "Kotlin 1.7.0 Released",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/06/Kotlin-1.7.0_Blog-featured-post.png"
         }
       ]
     }

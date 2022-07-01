@@ -6,6 +6,26 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2022/06/30/a-bootiful-podcast-spring-developer-advocate-dan-vega",
+          "author": null,
+          "description": "Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks to fellow Spring Developer Advocate Dan Vega (@therealdanvega)",
+          "link": "https://spring.io/blog/2022/06/30/a-bootiful-podcast-spring-developer-advocate-dan-vega",
+          "publishedOn": "2022-06-30T20:00:00.000Z",
+          "wordCount": 517,
+          "title": "A Bootiful Podcast: Spring Developer Advocate Dan Vega",
+          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2022/06/30/spring-cloud-2020-0-6-is-available",
+          "author": null,
+          "description": "On behalf of the community, I am pleased to announce the Spring Cloud 2020.0.6 Release Train is available today. The release can be found in Maven Central. You can check out the 2020.0.6 release notes for more information. Please consider upgrading to the latest 2021.0.x release train since the 2020.0.x release train has reached the end of OSS support.\nNotable Changes in the 2020.0.6 Release\n\r\nThis is primarily a bugfix and dependency upgrade release, including backports of various issues over from 2021.0.x releases. Some enhancements have also been backported. \n\r\nSee the project page for all issues included in the release.\nSpring Cloud Commons\n\r\n\r\n  \nBackported bug fixes from 2021.0.x\n\r\n  \nBackported passing on request data to LoadBalancerLifecycle beans for the blocking Spring Cloud Load…",
+          "link": "https://spring.io/blog/2022/06/30/spring-cloud-2020-0-6-is-available",
+          "publishedOn": "2022-06-30T12:00:00.000Z",
+          "wordCount": 825,
+          "title": "Spring Cloud 2020.0.6 is available",
+          "imageUrl": "https://avatars.githubusercontent.com/u/4328892?v=4?s=200"
+        },
+        {
           "id": "https://spring.io/blog/2022/06/28/today-is-the-last-day-to-submit-to-the-springone-2022-call-for-papers",
           "author": null,
           "description": "Hi, Spring fans! This year, SpringOne is back in person, and being held in my hometown of San Francisco, California, December 6th-8th. (Have you registered?) and today (June 28th, 2022) is the last day to submit to the Call For Papers! If you have a good idea or story you want to share, submit today!\n\r\nEither way, I hope to see you in December in San Francisco, a city so famous for its foggy nightscapes that I think it’s fair to say we are the original cloud natives!",
@@ -183,26 +203,6 @@
           "publishedOn": "2022-06-14T07:00:00.000Z",
           "wordCount": 876,
           "title": "Spring Tips: Learn Spring for GraphQL (parts 5 and 6 of an ongoing series)",
-          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/06/14/goodbye-spring-ide-welcome-spring-tools-4",
-          "author": null,
-          "description": "On August 31 of 2004, only a few months after version 1.0 of the Spring Framework itself got released, Torsten Jürgeleit created a repository and made the initial commits to a project that became the tooling support for Spring in Eclipse, the Spring IDE project (while the roots of that work are probably going back further in time, as the comment of the first commit to the repository reads like there was a CVS repository even before that time.). Shortly after, Christian Dupuis joined, led the project for many years and initiated the Spring Tool Suite on top of Spring IDE.\n\r\nIt’s been a long time since then.\n\r\nOn December 4 of 2017, a new chapter for the Spring tooling began with the introduction of the all-new Spring Tools 4 and its first public beta release, followed by the first GA releas…",
-          "link": "https://spring.io/blog/2022/06/14/goodbye-spring-ide-welcome-spring-tools-4",
-          "publishedOn": "2022-06-14T07:00:00.000Z",
-          "wordCount": 1030,
-          "title": "Goodbye Spring IDE - Welcome Spring Tools 4",
-          "imageUrl": "https://avatars.githubusercontent.com/u/107705?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/06/14/this-week-in-spring-june-14th-2022",
-          "author": null,
-          "description": "Hi, Spring fans! Welcome to another installment of This Week in Spring! I’ve just arrived in beautiful Berlin, Germany, for the forthcoming We Are Developers show with more than five thousand attendees. I was in Toronto, Canada, for the epic SpringOne Tour installment there. I’ve also had the privilege of taking these last two trips with my daughter, Kimly. She’s on summer break from school. It’s made the long miserable hours in economy bearable, and something for which I couldn’t be more grateful. I’m also looking forward to being at the upcoming SpringOne Tour installment in New York City, later this month. Don’t miss it! \n\r\nIn the meantime, we’ve got a ton of good stuff to get to this week so let’s dive right in! \n\r\n\r\n  \nJava architect Brian Goetz foreshadows an interesting new feature …",
-          "link": "https://spring.io/blog/2022/06/14/this-week-in-spring-june-14th-2022",
-          "publishedOn": "2022-06-14T07:00:00.000Z",
-          "wordCount": 870,
-          "title": "This Week in Spring - June 14th, 2022",
           "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
         }
       ]
@@ -420,12 +420,32 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
+          "id": "https://www.elastic.co/blog/elastic-stack-8-3-1-released",
+          "author": "Norrie Taylor",
+          "description": "Version 8.3.1 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 8.3.1 over the previous versions in 8.3.x.\nThe release contains fixes for security vulnerabilities. Please see our security announcements for more details.\nFor details of the issues that have been fixed and a full list of changes for each product in this version, refer to the release notes: \n8.3.1 Release Notes\nElastic Stack\nVersion 8.3.1 fixes an Elasticsearch issue where certain Azure SAS tokens are sanitized incorrectly by the SDK.\nIt also contains a Kibana fix for an issue where importing/copying the same saved object to the same space multiple times using the \"Check for existing objects\" option could fail or cause duplicates to be created.\nElasticsearch\nKibana\nBeats\nLogstash\nElastic Enterprise Search\nEnterprise Search\nElastic Observability\nAPM\nElastic Security\nElastic Security Solution",
+          "link": "https://www.elastic.co/blog/elastic-stack-8-3-1-released",
+          "publishedOn": "2022-06-30T00:00:00.000Z",
+          "wordCount": 5294,
+          "title": "Elastic Stack 8.3.1 released",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c35d17afad9d20d/5f122812c31823015df6ef0a/blog-thumb-rocket-launch.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/elastic-stack-8-3-1-released",
+          "author": "Norrie Taylor",
+          "description": "Read about the updates and bug fixes that have been included in this release.",
+          "link": "https://www.elastic.co/blog/elastic-stack-8-3-1-released",
+          "publishedOn": "2022-06-30T00:00:00.000Z",
+          "wordCount": 5294,
+          "title": "Elastic Stack 8.3.1 released",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c35d17afad9d20d/5f122812c31823015df6ef0a/blog-thumb-rocket-launch.png"
+        },
+        {
           "id": "https://www.elastic.co/blog/5-important-tips-to-manage-your-next-cybersecurity-breach",
           "author": "Megan Radogna",
           "description": "A recent study of 1,200 cybersecurity professionals emphasized these tactics for more effective incident response and recovery from a cybersecurity breach.",
           "link": "https://www.elastic.co/blog/5-important-tips-to-manage-your-next-cybersecurity-breach",
           "publishedOn": "2022-06-29T00:00:00.000Z",
-          "wordCount": 7344,
+          "wordCount": 8703,
           "title": "5 important tips to manage your next cybersecurity breach",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte5657e3b56e3726a/6297bb96c040564c4585329c/illustration-siem-operational-value-web-thumb-1680x980.png"
         },
@@ -435,7 +455,7 @@
           "description": "You can transform your search box into your sales rep—when you have the right tools.",
           "link": "https://www.elastic.co/blog/machine-learning-puts-the-personal-in-ecommerce-personalization",
           "publishedOn": "2022-06-29T00:00:00.000Z",
-          "wordCount": 6857,
+          "wordCount": 8222,
           "title": "Here’s how Machine Learning puts the ‘personal’ in ecommerce personalization",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt3308862e50735548/62bced9bc35371509808f57d/blog-p1a-recordsearch_strokes.jpg"
         },
@@ -445,7 +465,7 @@
           "description": ",\nWhen the average organization experiences 26 cyber attacks per year, being prepared for the aftermath of a breach is just as important as prevention.\n\nWith the ever-evolving nature of attacks and the increasing complexity of organizational systems, it’s harder than ever to have a fast response ready to go for any potential scenario that might arise.Case in point: a recent survey of 1,200 organizations by ThoughtLab (and cosponsored by Elastic) shows that more than a quarter of executives fear their organizations aren’t fully prepared for cyber attacks. \n\nHowever, Cybersecurity Solutions for a Riskier World also reveals best practices for incident response and recovery from the top cybersecurity executives in 16 countries and across 14 industries. In the unfortunate event of a breach, pri…",
           "link": "https://www.elastic.co/blog/5-important-tips-to-manage-your-next-cybersecurity-breach",
           "publishedOn": "2022-06-29T00:00:00.000Z",
-          "wordCount": 7344,
+          "wordCount": 8703,
           "title": "5 important tips to manage your next cybersecurity breach",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte5657e3b56e3726a/6297bb96c040564c4585329c/illustration-siem-operational-value-web-thumb-1680x980.png"
         },
@@ -455,7 +475,7 @@
           "description": ",\nAn impactful customer experience that drives purchases and loyalty isn't just about delivering what a customer says they want — it's about predicting and proactively serving up what they need. \n\nWe might be able to imagine this work in a store with salespeople. But as organizations scale and customer interactions happen across digital and in-person mediums, their data grows. E-commerce must lean on the latest in machine learning and artificial intelligence to deliver a personalized sales experience. \n\nThat means relying on a powerful search box.\n\nLet’s take a look at how Elastic’s machine learning capabilities are powering this kind of e-commerce personalization. But first, let’s talk about what’s at stake. \n\nWhat is e-commerce personalization and why is it important?\n\nE-commerce persona…",
           "link": "https://www.elastic.co/blog/machine-learning-puts-the-personal-in-ecommerce-personalization",
           "publishedOn": "2022-06-29T00:00:00.000Z",
-          "wordCount": 6857,
+          "wordCount": 8222,
           "title": "Here’s how Machine Learning puts the ‘personal’ in ecommerce personalization",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt3308862e50735548/62bced9bc35371509808f57d/blog-p1a-recordsearch_strokes.jpg"
         },
@@ -465,17 +485,17 @@
           "description": "In 8.3, create new data connectors that you can embed into your existing workplace search solutions using a new open code framework. Plus, use the web crawler to index and sync all your PDF content, and build solutions that take advantage of JWT-based (JSON web token) authentication schemes",
           "link": "https://www.elastic.co/blog/whats-new-elastic-enterprise-search-8-3-0",
           "publishedOn": "2022-06-28T16:00:00.000Z",
-          "wordCount": 7134,
+          "wordCount": 8393,
           "title": "Elastic Enterprise Search 8.3: More ingestion options for searching across any dataset",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltbb4996d39a786d20/5ffe05b822252d41f72866fc/blog-thumb-release-enterprise-search.png"
         },
         {
           "id": "https://www.elastic.co/blog/whats-new-elastic-enterprise-search-8-3-0",
           "author": "Isaac Levin,Deepak Mohan",
-          "description": "Information (info),Note,\n8.3.0 has an issue that could cause creating and accessing snapshots against Azure snapshot repositories to fail authenticating when using SAS tokens. This impacts self-managed customers who have deployed 8.3.0. Elastic Cloud Azure deployments are not currently being upgraded to 8.3.0 and are not impacted as a result.\n,\nThe latest release of Elastic Enterprise Search brings to market enhancements to getting data into Elastic Enterprise Search. Depending on the type of content you are looking to index, there are a plethora of ways to ingest that content, from pre-built tools with seamless user interfaces to a fully-formed robust set of APIs to fine-tune how your content is structured once it is in Elastic. \nElastic Enterprise Search 8.3 brings functionality for:\n\nCr…",
+          "description": ",\nThe latest release of Elastic Enterprise Search brings to market enhancements to getting data into Elastic Enterprise Search. Depending on the type of content you are looking to index, there are a plethora of ways to ingest that content, from pre-built tools with seamless user interfaces to a fully-formed robust set of APIs to fine-tune how your content is structured once it is in Elastic. \nElastic Enterprise Search 8.3 brings functionality for:\n\nCreating new connectors that you can embed into your existing workplace search solutions using a new open code framework as well as additional first-party connectors to index data from various sources.\nThe ability to extract content from PDF documents with the Elastic Enterprise Search web crawler, providing the added benefit of indexing text in…",
           "link": "https://www.elastic.co/blog/whats-new-elastic-enterprise-search-8-3-0",
           "publishedOn": "2022-06-28T16:00:00.000Z",
-          "wordCount": 7134,
+          "wordCount": 8393,
           "title": "Elastic Enterprise Search 8.3: More ingestion options for searching across any dataset",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltbb4996d39a786d20/5ffe05b822252d41f72866fc/blog-thumb-release-enterprise-search.png"
         },
@@ -485,7 +505,7 @@
           "description": "You’re not alone if you find post-graduate life to be overwhelming. You’re starting an entirely new phase and there’s no playbook for how to get it ‘right’. But don’t be intimidated by interviews and the relative unknown — we're here to help.",
           "link": "https://www.elastic.co/blog/culture-guide-to-first-job-after-graduation",
           "publishedOn": "2022-06-28T00:00:00.000Z",
-          "wordCount": 6453,
+          "wordCount": 7812,
           "title": "The Ultimate Guide To: Your first job after graduation",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt60f09cd9535d3894/62b5bc1b59fa7e0f945d82c8/6.0-Blog-graduation-blog-2-1680_×_980.jpg"
         },
@@ -495,7 +515,7 @@
           "description": "Don’t let data go end of life. Simply use snapshots as archives in Elasticsearch 8.3 to easily and quickly search your old data for governance, security investigations, and historical lookbacks – now GA.",
           "link": "https://www.elastic.co/blog/whats-new-elasticsearch-8-3-0",
           "publishedOn": "2022-06-28T00:00:00.000Z",
-          "wordCount": 9089,
+          "wordCount": 10348,
           "title": "Elasticsearch 8.3: Easily revive that old data archive",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltd58f93a3f7f0937c/60996b30cf14c84a993dfa6e/blog-thumb-release-enterprise-search.png"
         },
@@ -505,7 +525,7 @@
           "description": "Elastic Observability 8.3 continues to simplify and streamline visibility for a wide variety of modern environments, including serverless logs forwarding for AWS and performance insights for Salesforce and Hadoop.",
           "link": "https://www.elastic.co/blog/whats-new-elastic-observability-8-3-0",
           "publishedOn": "2022-06-28T00:00:00.000Z",
-          "wordCount": 6212,
+          "wordCount": 7428,
           "title": "Elastic Observability 8.3: Broader observability for cloud, SaaS, and big data",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt62a64ffe6b9f2012/629e68d43d4e745ed3ae5888/blog-observability-no-logo.png"
         },
@@ -515,7 +535,7 @@
           "description": "Hardware profile migration streamlines the migration process with no downtime and allows you to choose the most cost-effective hardware for your needs. Always ensure you're running the right combination of compute, memory, and storage for your workload.",
           "link": "https://www.elastic.co/blog/cloud-hardware-profile-migration-template",
           "publishedOn": "2022-06-28T00:00:00.000Z",
-          "wordCount": 5178,
+          "wordCount": 6537,
           "title": "Improving performance and optimizing cost on Elastic Cloud has never been easier",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt5232f9030648ff0d/62280957225c6a0d139d9109/blog-thumb-cloud-midnight.png"
         },
@@ -525,7 +545,7 @@
           "description": "In 8.3, search and replicate data in any environment. Query old snapshots without the need of an old Elasticsearch cluster. Try out new alerting capabilities in Kibana and template migration for Elastic Cloud users to easily migrate deployments.",
           "link": "https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-8-3-0",
           "publishedOn": "2022-06-28T00:00:00.000Z",
-          "wordCount": 8099,
+          "wordCount": 9358,
           "title": "Elasticsearch, Kibana, Elastic Cloud 8.3: Search & replicate across any cluster",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltd2a15f40173ad17d/6149134eee502d0e1337d186/thumbnail.png"
         },
@@ -535,19 +555,9 @@
           "description": "With Elastic Security for Cloud, new cloud-native integrations, and the ability to search and replicate data across hybrid environments  —  Elastic 8.3 is helping the world’s leading organizations to search, solve, and succeed in a cloud-first world.",
           "link": "https://www.elastic.co/blog/whats-new-elastic-8-3-0",
           "publishedOn": "2022-06-28T00:00:00.000Z",
-          "wordCount": 8267,
+          "wordCount": 9526,
           "title": "Search, observe, and protect everything, across any environment with Elastic 8.3",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt878ebe7fdc0cc140/61f95869d8212f3e7b5e99ce/blog-thumbnail-generic-release.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-stack-7-17-5-released",
-          "author": "Ry Biesemeyer",
-          "description": "Version 7.17.5 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 7.17.5 over the previous patch versions in 7.17.x.\nFor details of the issues that have been fixed and a full list of changes for each product in this version, refer to the release notes: \n7.17.5 Release Notes\nElastic Stack\nElasticsearch\nKibana\nBeats\nLogstash\nElastic Enterprise Search\nEnterprise Search\nElastic Observability\nAPM\nElastic Security\nElastic Security Solution",
-          "link": "https://www.elastic.co/blog/elastic-stack-7-17-5-released",
-          "publishedOn": "2022-06-28T00:00:00.000Z",
-          "wordCount": 3739,
-          "title": "Elastic Stack 7.17.5 released",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c35d17afad9d20d/5f122812c31823015df6ef0a/blog-thumb-rocket-launch.png"
         },
         {
           "id": "https://www.elastic.co/blog/culture-guide-to-first-job-after-graduation",
@@ -555,17 +565,17 @@
           "description": ",\nYou made it! You have your shiny new undergraduate degree and are ready to fly. \n\nYou’re not alone if you find post-graduate life to be overwhelming. You’re starting an entirely new phase and there’s no playbook for how to get it ‘right’. But don’t be intimidated by interviews and the relative unknown, because we’re here to help! \n\nRoxy Wolfe, Global Lead of Early Talent, ElasticGrad, has more than 10 years of experience in recruitment—specializing in university recruitment—and has some advice specifically for those navigating the job scene for the first time. \n\n“As a recruiter, you’re truly impacting someone’s life”, Roxy says. “You’re helping them to find what they love and are passionate about.”\n\nElastiGrad is Elastic’s recruitment program that hires new graduates into a variety of ro…",
           "link": "https://www.elastic.co/blog/culture-guide-to-first-job-after-graduation",
           "publishedOn": "2022-06-28T00:00:00.000Z",
-          "wordCount": 6453,
+          "wordCount": 7812,
           "title": "The Ultimate Guide To: Your first job after graduation",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt60f09cd9535d3894/62b5bc1b59fa7e0f945d82c8/6.0-Blog-graduation-blog-2-1680_×_980.jpg"
         },
         {
           "id": "https://www.elastic.co/blog/whats-new-elasticsearch-8-3-0",
           "author": "George Kobar",
-          "description": "Information (info),Note,\n8.3.0 has an issue that could cause creating and accessing snapshots against Azure snapshot repositories to fail authenticating when using SAS tokens. This impacts self-managed customers who have deployed 8.3.0. Elastic Cloud Azure deployments are not currently being upgraded to 8.3.0 and are not impacted as a result.\n,\nToday, we are pleased to announce the general availability Elasticsearch 8.3.  If you are looking for Kibana and Elastic Cloud be sure to head over to this blog. In 8.3, you can query old snapshots as simple archives without the need of an old Elasticsearch cluster. Plus new sharding guidance, a new geo grid query and finally a new third party ML model for question and answer.\n\nReady to dive in and get started? We have the links you need:\n\n\nTry the …",
+          "description": ",\nToday, we are pleased to announce the general availability Elasticsearch 8.3.  If you are looking for Kibana and Elastic Cloud be sure to head over to this blog. In 8.3, you can query old snapshots as simple archives without the need of an old Elasticsearch cluster. Plus new sharding guidance, a new geo grid query and finally a new third party ML model for question and answer.\n\nReady to dive in and get started? We have the links you need:\n\n\nTry the new features on Elastic Cloud\nDownload the latest versions of Elasticsearch\nRefer to the Elasticsearch release notes\nSee other Elastic 8.3 highlights in the Elastic 8.3 announcement post\nSee Elasticsearch breaking changes\n\n\n\nNew era in snapshots \nWe’ve got your back, ups \nSince the release of Elasticsearch 1.0, snapshots have undergone many te…",
           "link": "https://www.elastic.co/blog/whats-new-elasticsearch-8-3-0",
           "publishedOn": "2022-06-28T00:00:00.000Z",
-          "wordCount": 9089,
+          "wordCount": 10348,
           "title": "Elasticsearch 8.3: Easily revive that old data archive",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltd58f93a3f7f0937c/60996b30cf14c84a993dfa6e/blog-thumb-release-enterprise-search.png"
         },
@@ -575,7 +585,7 @@
           "description": ",\nVisibility is crucial for ensuring application performance but it can be difficult to efficiently scale monitoring across all your critical infrastructures, platforms, and services. By simplifying and streamlining data ingest, you can maximize coverage across a wide variety of modern environments.\n\nWith Elastic Observability 8.3, DevOps and SRE teams can now leverage additional out-of-the-box integrations for more applications and platforms, gain finer-grain control over agents at scale, and easily ingest logs and container metrics for greater visibility into AWS services.\n\nThese new features allow customers to:\n\nReduce time to insight with serverless cloud integrations for AWS\nSimplify and centralize agent management with Elastic Agent enhancements\nOptimize performance of SaaS and big d…",
           "link": "https://www.elastic.co/blog/whats-new-elastic-observability-8-3-0",
           "publishedOn": "2022-06-28T00:00:00.000Z",
-          "wordCount": 6212,
+          "wordCount": 7428,
           "title": "Elastic Observability 8.3: Broader observability for cloud, SaaS, and big data",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt62a64ffe6b9f2012/629e68d43d4e745ed3ae5888/blog-observability-no-logo.png"
         },
@@ -585,39 +595,29 @@
           "description": ",\n\nSupport for new hardware profiles are continuously added to provide better price-performance on our Cloud platform.\n\nWith the release of the hardware profile migration capability, you now have the flexibility to switch between hardware profiles on your existing deployment. You can see the current hardware profile on each deployment’s Overview page, have the ability to edit the profile, and select a new one. This allows you to take advantage of more efficient hardware available on cloud providers, like Graviton2-based instances on AWS, N2 machines on GCP, or Edsv4, Ddv4, or Fsv2 VMs on Azure, with the added benefit of simplifying your migration process.\n\nGetting started\nFirst, click  the ‘Edit’ link next to the hardware profile name:\nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724…",
           "link": "https://www.elastic.co/blog/cloud-hardware-profile-migration-template",
           "publishedOn": "2022-06-28T00:00:00.000Z",
-          "wordCount": 5178,
+          "wordCount": 6537,
           "title": "Improving performance and optimizing cost on Elastic Cloud has never been easier",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt5232f9030648ff0d/62280957225c6a0d139d9109/blog-thumb-cloud-midnight.png"
         },
         {
           "id": "https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-8-3-0",
           "author": "Adeline Tan,Brian Bergholm,George Kobar",
-          "description": "Information (info),Note,\n8.3.0 has an issue that could cause creating and accessing snapshots against Azure snapshot repositories to fail authenticating when using SAS tokens. This impacts self-managed customers who have deployed 8.3.0. Elastic Cloud Azure deployments are not currently being upgraded to 8.3.0 and are not impacted as a result.\n,\nIn 8.3, you can search and replicate data across Elasticsearch clusters, from on-premises to cloud and vice versa. You can also query snapshots as simple archives without the need of an old Elasticsearch cluster. Achieve troubleshooting success in Kibana 8.3 with alerting in Discover, user-friendly dashboard filters, and an action that turns a visualization into a machine learning job. Plus, take advantage of migration templates that make migrating …",
+          "description": ",\nIn 8.3, you can search and replicate data across Elasticsearch clusters, from on-premises to cloud and vice versa. You can also query snapshots as simple archives without the need of an old Elasticsearch cluster. Achieve troubleshooting success in Kibana 8.3 with alerting in Discover, user-friendly dashboard filters, and an action that turns a visualization into a machine learning job. Plus, take advantage of migration templates that make migrating your existing deployments to the most optimal hardware type as easy as a button click.\nReady to dive in and get started? We have the links you need:\n\n\nTry the new features on Elastic Cloud\nDownload the latest versions of Elasticsearch, Kibana, Elastic Cloud on Kubernetes\nRefer to the release notes on Elasticsearch, Kibana, Elastic Cloud, Elast…",
           "link": "https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-8-3-0",
           "publishedOn": "2022-06-28T00:00:00.000Z",
-          "wordCount": 8099,
+          "wordCount": 9358,
           "title": "Elasticsearch, Kibana, Elastic Cloud 8.3: Search & replicate across any cluster",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltd2a15f40173ad17d/6149134eee502d0e1337d186/thumbnail.png"
         },
         {
           "id": "https://www.elastic.co/blog/whats-new-elastic-8-3-0",
           "author": "Dan Courcy",
-          "description": "Information (info),Note,\n8.3.0 has an issue that could cause creating and accessing snapshots against Azure snapshot repositories to fail authenticating when using SAS tokens. This impacts self-managed customers who have deployed 8.3.0. Elastic Cloud Azure deployments are not currently being upgraded to 8.3.0 and are not impacted as a result.\n,\nToday, we are pleased to announce the latest iteration of the world’s leading platform for search-powered solutions with the general availability of Elastic 8.3.\nAs our customers and community continue to adopt cloud infrastructure, create and consume cloud-native applications, and deploy and operate cloud-based workloads — Elastic continues to evolve the Elastic Search Platform to meet the demands of a cloud-first world.\nFor example, with Elastic 8…",
+          "description": ",\nToday, we are pleased to announce the latest iteration of the world’s leading platform for search-powered solutions with the general availability of Elastic 8.3.\nAs our customers and community continue to adopt cloud infrastructure, create and consume cloud-native applications, and deploy and operate cloud-based workloads — Elastic continues to evolve the Elastic Search Platform to meet the demands of a cloud-first world.\nFor example, with Elastic 8.3, organizations can improve their cloud security posture and protect cloud workloads with Elastic Security for Cloud, enabling them to secure cloud environments — from deployment to run-time.\nIn addition, Elastic 8.3 helps users achieve broader observability for a wide variety of modern cloud environments through additional cloud-native inte…",
           "link": "https://www.elastic.co/blog/whats-new-elastic-8-3-0",
           "publishedOn": "2022-06-28T00:00:00.000Z",
-          "wordCount": 8267,
+          "wordCount": 9526,
           "title": "Search, observe, and protect everything, across any environment with Elastic 8.3",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt878ebe7fdc0cc140/61f95869d8212f3e7b5e99ce/blog-thumbnail-generic-release.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-stack-7-17-5-released",
-          "author": "Ry Biesemeyer",
-          "description": "Read about the updates and bug fixes that have been included in this release.",
-          "link": "https://www.elastic.co/blog/elastic-stack-7-17-5-released",
-          "publishedOn": "2022-06-28T00:00:00.000Z",
-          "wordCount": 3739,
-          "title": "Elastic Stack 7.17.5 released",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c35d17afad9d20d/5f122812c31823015df6ef0a/blog-thumb-rocket-launch.png"
         }
       ]
     },
@@ -705,16 +705,6 @@
           "wordCount": 3283,
           "title": "Inside Ansible Automation Platform's Automation Services Catalog",
           "imageUrl": "https://www.ansible.com/hubfs/Automation%20services%20catalog%20blog.png"
-        },
-        {
-          "id": "https://www.ansible.com/blog/released-automation-content-navigator-2.0",
-          "author": "cmcnaugh@redhat.com (Colin McNaughton)",
-          "description": "Automation content navigator releases with Ansible Automation Platform 2.2",
-          "link": "https://www.ansible.com/blog/released-automation-content-navigator-2.0",
-          "publishedOn": "2022-06-01T13:37:00.000Z",
-          "wordCount": 3979,
-          "title": "Released: Automation content navigator 2.0",
-          "imageUrl": "https://www.ansible.com/hubfs/content%20navigator%20blog.png"
         }
       ]
     },
@@ -729,7 +719,7 @@
           "description": "“I took the road less traveled, and that has made all the difference.\nThe post DevOps Dojo – UX/Accessibility appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/devops-dojo-ux-accessibility/",
           "publishedOn": "2022-06-20T18:21:19.000Z",
-          "wordCount": 8365,
+          "wordCount": 8287,
           "title": "DevOps Dojo – UX/Accessibility",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/04/DojoHeader.png"
         },
@@ -749,7 +739,7 @@
           "description": "So, we all love how we can manage engagements in Azure DevOps (ADO). We can create Epics, Features, User Stories and track our progress on Kanban boards. You can customize work item types to suit the needs of your business and project with ease.\nThe post Copy a work item type using Azure DevOps API’s appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/copy-a-work-item-type-using-azure-devops-apis-undocumented/",
           "publishedOn": "2022-06-09T13:33:30.000Z",
-          "wordCount": 6279,
+          "wordCount": 6201,
           "title": "Copy a work item type using Azure DevOps API’s",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/06/HERO-1.jpg"
         },
@@ -759,7 +749,7 @@
           "description": "What is vision?\nThe post DevOps Dojo – OKRs (Objectives and Key Results) appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/devops-dojo-okrs-objectives-and-key-results/",
           "publishedOn": "2022-06-08T16:16:46.000Z",
-          "wordCount": 7881,
+          "wordCount": 8172,
           "title": "DevOps Dojo – OKRs (Objectives and Key Results)",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2021/11/DevOpsDojoFeaturedImage.png"
         },
@@ -789,7 +779,7 @@
           "description": "As part of the Azure DevOps Server 2022 release, we wanted to reiterate the deprecation of the existing data warehouse reporting services. We previously announced this in the Azure DevOps Server 2020 release notes. The warehouse reporting service has been part of TFS and Azure DevOps for over a decade.\nThe post Azure DevOps Server 2022 Deprecation of Reporting Services appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azure-devops-server-2022-deprecation-of-reporting-services/",
           "publishedOn": "2022-06-02T19:05:40.000Z",
-          "wordCount": 5464,
+          "wordCount": 5652,
           "title": "Azure DevOps Server 2022 Deprecation of Reporting Services",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2018/08/vstsfeature.png"
         },
@@ -799,7 +789,7 @@
           "description": "Every time a work item is updated, it creates an entry in the work item history. This is a great feature for users to track all the individual changes made to work items. However, we have seen organizations with automated tools that will generate tens of thousands of work item revisions.\nThe post Work Item Revision Limits appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/work-item-revision-limits/",
           "publishedOn": "2022-06-02T13:38:06.000Z",
-          "wordCount": 4951,
+          "wordCount": 4839,
           "title": "Work Item Revision Limits",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/03/agile.png"
         }
@@ -1006,7 +996,7 @@
           "description": "Organizations can use Camunda Platform 8 to build resilient systems that can withstand disasters in the form of complete data center outages.\nThe post How to Achieve Geo-redundancy with Zeebe appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/06/how-to-achieve-geo-redundancy-with-zeebe/",
           "publishedOn": "2022-06-28T13:30:00.000Z",
-          "wordCount": 4882,
+          "wordCount": 4883,
           "title": "How to Achieve Geo-redundancy with Zeebe",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/06/Camunda_June-2022_Blog_How-to-Achieve-Geo-redundancy-Zeebe_1200x630.png"
         },
@@ -1016,7 +1006,7 @@
           "description": "A bill's journey through the U.S. House of Representatives is modeled in Camunda Platform 8 and BPMN. Along the way, see how forms incorporate human tasks throughout the process and how DMN helps minimize errors.\nThe post Modeling a Bill’s Journey through the U.S. House of Representatives appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/06/modeling-a-bills-journey-through-the-u-s-house-of-representatives/",
           "publishedOn": "2022-06-22T16:00:00.000Z",
-          "wordCount": 4194,
+          "wordCount": 4195,
           "title": "Modeling a Bill’s Journey through the U.S. House of Representatives",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/06/Modeling-a-bills-journey_Blog_1200x630.png"
         },
@@ -1036,7 +1026,7 @@
           "description": "We’re excited to announce the release of Camunda Optimize 3.9.0-alpha1. Check out the latest improvements including the Management Dashboard, new reports, and Spring Boot migration. \nThe post Camunda Optimize 3.9.0-alpha2 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/06/camunda-optimize-3-9-0-alpha2-released/",
           "publishedOn": "2022-06-14T07:15:00.000Z",
-          "wordCount": 2799,
+          "wordCount": 2798,
           "title": "Camunda Optimize 3.9.0-alpha2 Released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/06/Camunda_Blog_2022-06JUN_Release-Notes_Optimize-3.9-alpha2_Image1_Management-Dashboard-scaled.jpg"
         },
@@ -1056,7 +1046,7 @@
           "description": "At Camunda Community Summit 2022, Fidelity Investments Director of Architecture Harish Malavade shared a behind-the-scenes look at Fidelity’s digital automation platform that uses Camunda as its core workflow engine. Here are the technical details. \nThe post Integrating Process and Task Events with Camunda Platform, AWS Kinesis, and Elasticsearch appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/06/integrating-process-and-task-events-with-camunda-platform-aws-kinesis-and-elasticsearch/",
           "publishedOn": "2022-06-10T16:00:00.000Z",
-          "wordCount": 2975,
+          "wordCount": 2974,
           "title": "Integrating Process and Task Events with Camunda Platform, AWS Kinesis, and Elasticsearch",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/06/Camunda_Blog_2022-06JUN_Harish-Malavade_Kinsesis_featured2_structure_1200x630.png"
         },
@@ -1135,6 +1125,36 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/2022-06-30-write-better-commits-build-better-projects/",
+          "author": null,
+          "description": "High-quality Git commits are the key to a maintainable and collaborative open- or closed-source project. Learn strategies to improve and use commits to streamline your development process.",
+          "link": "https://github.blog/2022-06-30-write-better-commits-build-better-projects/",
+          "publishedOn": "2022-06-30T19:34:33.000Z",
+          "wordCount": 4690,
+          "title": "Write Better Commits, Build Better Projects",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/06/header.png"
+        },
+        {
+          "id": "https://github.blog/2022-06-30-what-to-do-when-your-open-source-project-becomes-a-community/",
+          "author": null,
+          "description": "Maintainers answer your questions about how to manage an open source project that grows into a community.",
+          "link": "https://github.blog/2022-06-30-what-to-do-when-your-open-source-project-becomes-a-community/",
+          "publishedOn": "2022-06-30T15:11:39.000Z",
+          "wordCount": 2528,
+          "title": "What to do when your open source project becomes a community?",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/06/2400x1260-ReadMe-Blog-Banner-062022.jpg"
+        },
+        {
+          "id": "https://github.blog/2022-06-30-announcing-the-summer-2022-mlh-fellowship-github-contributors/",
+          "author": null,
+          "description": "Meet the 2022 MLH Fellowship cohort! This 12-week internship alternative is for aspiring software engineers, and powered by GitHub.",
+          "link": "https://github.blog/2022-06-30-announcing-the-summer-2022-mlh-fellowship-github-contributors/",
+          "publishedOn": "2022-06-30T15:00:47.000Z",
+          "wordCount": 1539,
+          "title": "Announcing the summer 2022 MLH Fellowship GitHub Contributors",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/06/blog-6-header.png?fit=3167%2C1667"
+        },
+        {
           "id": "https://github.blog/2022-06-29-the-chromium-super-inline-cache-type-confusion/",
           "author": null,
           "description": "In this post I'll exploit CVE-2022-1134, a type confusion in Chrome that I reported in March 2022, which allows remote code execution (RCE) in the renderer sandbox of Chrome by a single visit to a malicious site. I'll also look at some past vulnerabilities of this type and some implementation details of inline cache in V8, the JavaScript engine of Chrome.",
@@ -1150,7 +1170,7 @@
           "description": "Monorepo performance can suffer due to the sheer number of files in your working directory. Git’s new builtin file system monitor makes it easy to speed up monorepo performance.",
           "link": "https://github.blog/2022-06-29-improve-git-monorepo-performance-with-a-file-system-monitor/",
           "publishedOn": "2022-06-29T17:00:02.000Z",
-          "wordCount": 5710,
+          "wordCount": 5687,
           "title": "Improve Git monorepo performance with a file system monitor",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/06/git-monorepo.png"
         },
@@ -1180,7 +1200,7 @@
           "description": "The open source Git project just released Git 2.37. Take a look at some of our highlights from the latest release.",
           "link": "https://github.blog/2022-06-27-highlights-from-git-2-37/",
           "publishedOn": "2022-06-27T18:01:23.000Z",
-          "wordCount": 2981,
+          "wordCount": 2958,
           "title": "Highlights from Git 2.37",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/06/git-2.37.png"
         },
@@ -1190,7 +1210,7 @@
           "description": "To celebrate Maintainer Month, GitHub has invested an additional $500,000 to help sponsor the open source projects that it depends on.",
           "link": "https://github.blog/2022-06-24-thank-you-to-our-maintainers/",
           "publishedOn": "2022-06-24T15:32:25.000Z",
-          "wordCount": 1108,
+          "wordCount": 1082,
           "title": "Thank you to our maintainers",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/06/sponsors-june-23.png"
         },
@@ -1203,36 +1223,6 @@
           "wordCount": 1425,
           "title": "What’s new in Codespaces for Organizations",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/06/Product-Policy-Enterprise@2x.png?fit=2400%2C1260"
-        },
-        {
-          "id": "https://github.blog/2022-06-21-github-copilot-is-generally-available-to-all-developers/",
-          "author": null,
-          "description": "We’re making GitHub Copilot, an AI pair programmer that suggests code in your editor, generally available to all developers for $10 USD/month or $100 USD/year. It will also be free to use for verified students and maintainers of popular open source projects.",
-          "link": "https://github.blog/2022-06-21-github-copilot-is-generally-available-to-all-developers/",
-          "publishedOn": "2022-06-21T16:04:44.000Z",
-          "wordCount": 1351,
-          "title": "GitHub Copilot is generally available to all developers",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/06/Copilot.jpeg?fit=1200%2C630"
-        },
-        {
-          "id": "https://github.blog/2022-06-20-adding-support-for-coding-standards-autosar-c-and-cert-c/",
-          "author": null,
-          "description": "GitHub is excited to announce the release of CodeQL queries that implement the standards CERT C++ and AUTOSAR C++. These queries can aid developers looking to demonstrate ISO 26262 Part 6 process compliance.",
-          "link": "https://github.blog/2022-06-20-adding-support-for-coding-standards-autosar-c-and-cert-c/",
-          "publishedOn": "2022-06-20T17:00:12.000Z",
-          "wordCount": 1483,
-          "title": "GitHub enables the development of functional safety applications by adding support for coding standards AUTOSAR C++  and CERT C++",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/02/Security-Product-Open-Source@2x.png?fit=2400%2C1260"
-        },
-        {
-          "id": "https://github.blog/2022-06-17-creating-comprehensive-dependency-graph-build-time-detection/",
-          "author": null,
-          "description": "Expand the completeness of your dependency graph by using the dependency submission API, which will create more comprehensive alerts on supply chain vulnerabilities",
-          "link": "https://github.blog/2022-06-17-creating-comprehensive-dependency-graph-build-time-detection/",
-          "publishedOn": "2022-06-17T19:00:48.000Z",
-          "wordCount": 1454,
-          "title": "Creating a more comprehensive dependency graph with build time detection",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/02/Security-Product-Open-Source@2x.png?fit=2400%2C1260"
         }
       ]
     },
@@ -1263,7 +1253,7 @@
           "description": "By Astha Singhal, Lakshmi Sudheer, Julia Knecht",
           "link": "https://netflixtechblog.com/scaling-appsec-at-netflix-part-2-c9e0f1488bc5?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-06-06T17:38:41.000Z",
-          "wordCount": 3579,
+          "wordCount": 3453,
           "title": "Scaling Appsec at Netflix (Part 2)",
           "imageUrl": "https://miro.medium.com/max/715/1*96PN1i-ScttDHm3NtKNCgw.jpeg"
         }
@@ -1274,6 +1264,26 @@
       "feedUrl": "http://feeds.feedburner.com/blogspot/gJZg",
       "siteUrl": "http://ai.googleblog.com/",
       "articles": [
+        {
+          "id": "http://ai.googleblog.com/2022/06/identifying-disfluencies-in-natural.html",
+          "author": null,
+          "description": "Posted by Dan Walker and Dan Liebling, Software Engineers, Google Research \nPeople don’t write in the same way that they speak. Written language is controlled and deliberate, whereas transcripts of spontaneous speech (like interviews) are hard to read because speech is disorganized and less fluent. One aspect that makes speech transcripts particularly difficult to read is disfluency, which includes self-corrections, repetitions, and filled pauses (e.g., words like “umm”, and “you know”). Following is an example of a spoken sentence with disfluencies from the LDC CALLHOME corpus: \nBut that's it's not, it's not, it's, uh, it's a word play on what you just said.\nIt takes some time to understand this sentence — the listener must filter out the extraneous words and resolve all of the nots. Remo…",
+          "link": "http://ai.googleblog.com/2022/06/identifying-disfluencies-in-natural.html",
+          "publishedOn": "2022-06-30T20:09:00.001Z",
+          "wordCount": 8223,
+          "title": "Identifying Disfluencies in Natural Speech",
+          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
+        },
+        {
+          "id": "http://ai.googleblog.com/2022/06/minerva-solving-quantitative-reasoning.html",
+          "author": null,
+          "description": "Posted by Ethan Dyer and Guy Gur-Ari, Research Scientists, Google Research, Blueshift Team \nLanguage models have demonstrated remarkable performance on a variety of natural language tasks — indeed, a general lesson from many works, including BERT, GPT-3, Gopher, and PaLM, has been that neural networks trained on diverse data at large scale in an unsupervised way can perform well on a variety of tasks. \nQuantitative reasoning is one area in which language models still fall far short of human-level performance. Solving mathematical and scientific questions requires a combination of skills, including correctly parsing a question with natural language and mathematical notation, recalling relevant formulas and constants, and generating step-by-step solutions involving numerical calculations and…",
+          "link": "http://ai.googleblog.com/2022/06/minerva-solving-quantitative-reasoning.html",
+          "publishedOn": "2022-06-30T16:34:00.000Z",
+          "wordCount": 7506,
+          "title": "Minerva: Solving Quantitative Reasoning Problems with Language Models",
+          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
+        },
         {
           "id": "http://ai.googleblog.com/2022/06/quantum-advantage-in-learning-from.html",
           "author": null,
@@ -1342,12 +1352,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=43239",
+          "author": "Seth Godin",
+          "description": "If you and I play a game of cards, the winner will largely be decided by luck. Get good cards and you come out ahead. If you and I play 100 games of backgammon, the better player will win, because the luck of the dice regress to the mean, evening out over time, leaving skill […]",
+          "link": "https://feeds.feedblitz.com/~/701114180/0/sethsblog~Compounded-luck/",
+          "publishedOn": "2022-06-30T09:43:00.000Z",
+          "wordCount": 1445,
+          "title": "Compounded luck",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=42283",
           "author": "Seth Godin",
           "description": "We’re not very good at predicting the future. We’re very good at being aware of the urgency of the moment, and familiar with our need to deal with emergencies. Before we react, though, it might be worth asking “and then what happens,” five times. Five steps from here to there… If any of the steps […]",
           "link": "https://feeds.feedblitz.com/~/700974354/0/sethsblog~And-then-what-happens/",
           "publishedOn": "2022-06-29T08:01:00.000Z",
-          "wordCount": 1123,
+          "wordCount": 1124,
           "title": "“And then what happens”",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061311.jpg"
         },
@@ -1430,16 +1450,6 @@
           "wordCount": 1317,
           "title": "Thoughts on the solstice",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_180613-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=43171",
-          "author": "Seth Godin",
-          "description": "I’m a fan of appropriate placebos. They often have few side effects, they’re inexpensive and they work when used in the right situations. You can check out my rant on them here, it’s been read millions of times to date. A placebo isn’t just a medical intervention. It’s any tool we use to feel better […]",
-          "link": "https://feeds.feedblitz.com/~/699831270/0/sethsblog~The-rise-of-placebos/",
-          "publishedOn": "2022-06-20T08:15:00.000Z",
-          "wordCount": 1666,
-          "title": "The rise of placebos",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806137-1.jpg"
         }
       ]
     },
@@ -1454,7 +1464,7 @@
           "description": "The seventh EAP build for IntelliJ IDEA 2022.2 is live! Take part in our Early Access Program to preview the quality improvements designed to make your remote development experience with IntelliJ IDEA sleeker and more stable. You can get the latest build from our website, through the free Toolbox App, or via snaps for Ubuntu. […]",
           "link": "https://blog.jetbrains.com/idea/2022/06/intellij-idea-2022-2-eap-7/",
           "publishedOn": "2022-06-29T15:02:22.000Z",
-          "wordCount": 1745,
+          "wordCount": 1858,
           "title": "IntelliJ IDEA 2022.2 EAP 7: What’s New for Remote Development",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/02/intellij-idea_social.png"
         },
@@ -1464,7 +1474,7 @@
           "description": "Since the introduction of subscriptions 7 years ago, we have not increased the pricing of our IDEs, .NET Tools, or the All Products Pack. During this time, we have introduced new products that have been included at no extra cost to everyone using the latter. We are also one of the few companies that lowers […]",
           "link": "https://blog.jetbrains.com/blog/2022/06/29/increased-subscription-pricing-for-ides-net-tools-and-the-all-products-pack/",
           "publishedOn": "2022-06-29T10:21:53.000Z",
-          "wordCount": 1206,
+          "wordCount": 1208,
           "title": "Increased Subscription Pricing for IDEs, .NET Tools, and the All Products Pack",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/06/4_DSGN-14050_Blog_Social_share_image_1280x720_06.png"
         },
@@ -1484,7 +1494,7 @@
           "description": "The recording for our webinar, Diving Into Unity – A Quick Start for C# Developers with technical author Andrew Stellman, is now available. Subscribe to our community newsletter to receive notifications about future webinars. Are you curious about video game development? If you’re like a lot of C# developers, you’re intrigued by Unity, the cross-platform […]",
           "link": "https://blog.jetbrains.com/dotnet/2022/06/27/diving-into-unity-a-quick-start-for-c-developers-recording/",
           "publishedOn": "2022-06-27T10:16:07.000Z",
-          "wordCount": 1286,
+          "wordCount": 1293,
           "title": "Diving Into Unity – A Quick Start for C# Developers – Webinar Recording",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/DSGN-13573_Webinar_Rider_Diving_Into_Unity_JB_Blog_Social_share_image_1280-720.png"
         },
@@ -1514,7 +1524,7 @@
           "description": "WebStorm 2022.2 EAP build #6 is now available! To catch up on all the new features, check out our previous EAP blog posts. The Toolbox App is the easiest way to get the EAP builds and keep both your stable and EAP versions up-to-date. You can also manually download the EAP builds from our website. […]",
           "link": "https://blog.jetbrains.com/webstorm/2022/06/webstorm-2022-2-eap-6/",
           "publishedOn": "2022-06-24T09:34:32.000Z",
-          "wordCount": 1171,
+          "wordCount": 1177,
           "title": "WebStorm 2022.2 EAP #6: Support for Angular Standalone Components",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/ws-release-share-1.png"
         },
@@ -1524,7 +1534,7 @@
           "description": "WebStorm 2022.1.3, the third bug-fix update for WebStorm 2022.1, is now available! You can update to v2022.1.3 by using the Toolbox App, installing it right from the IDE, or downloading it from our website. Here are the most notable fixes available in v2022.1.3: Fixed the issue causing a misleading error message when using $var in […]",
           "link": "https://blog.jetbrains.com/webstorm/2022/06/webstorm-2022-1-3/",
           "publishedOn": "2022-06-23T14:26:56.000Z",
-          "wordCount": 900,
+          "wordCount": 826,
           "title": "WebStorm 2022.1.3 Is Available",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/06/ws-bug-fix-blog-social-share-image-1280x720-1-1.png"
         },
@@ -1564,7 +1574,7 @@
           "description": "We are announcing the CLion 2022.1.3 bug-fix update. Build 221.5921.27 is available from our website, via the Toolbox App, as a snap for Ubuntu, or via patch from the IDE itself. DOWNLOAD CLION Here are the main highlights: The Rename refactoring was fixed and is now applied to the correct code range (CPP-29442). CLion now […]",
           "link": "https://blog.jetbrains.com/clion/2022/06/clion-bug-fix-update-2022-1-3/",
           "publishedOn": "2022-06-22T21:19:38.000Z",
-          "wordCount": 1179,
+          "wordCount": 1147,
           "title": "CLion Bug-Fix Update 2022.1.3",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/06/cl-bug-fix-blog-social-share-image-1280x720-1.png"
         }

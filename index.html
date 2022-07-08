@@ -22,6 +22,479 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-07-07 datetime="2022-07-07T20:21:11.000Z">2022-07-07</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-07-07 datetime="2022-07-07T20:21:11.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >AWS News Blog</button>
+                  <a class="source-heading__link" href="https://aws.amazon.com/blogs/aws/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="d02cbfaaaed8a473decb31bee87fb99c5ce2448d"
+                        open
+                      >
+                        <summary class="article-expander__title">New – Amazon EC2 M1 Mac Instances</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://aws.amazon.com/blogs/aws/new-amazon-ec2-m1-mac-instances/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/06/27/Site-Merch_EC2-M1-Mac_Blog.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Last year, during the re:Invent 2021 conference, I wrote a blog post to announce the preview of EC2 M1 Mac instances. I know many of you requested access to the preview, and we did our best but could not satisfy everybody. However, the wait is over. I have the pleasure of announcing the general availability […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Spring</button>
+                  <a class="source-heading__link" href="https://spring.io/blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://spring.io/blog/2022/07/07/a-bootiful-podcast-kubernetes-contributor-and-fellow-tanzu-developer-advocate-leigh-capili"
+                        open
+                      >
+                        <summary class="article-expander__title">A Bootiful Podcast: Kubernetes contributor and fellow Tanzu Developer Advocate Leigh Capili</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://spring.io/blog/2022/07/07/a-bootiful-podcast-kubernetes-contributor-and-fellow-tanzu-developer-advocate-leigh-capili">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://avatars.githubusercontent.com/u/54473?v&#x3D;4?s&#x3D;200" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Hi, Spring fans! In this installment Josh Long (@starbuxman) talks to fellow teammate and Kubernetes ecosystem legend Leigh Capili (@capileigh) about Gitops, Kubernetes, Puppet/Chef, continuous delivery, how zoom scales if you deploy on-prem, being a developer advocate, Flux, and so much more.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://spring.io/blog/2022/07/07/spring-for-apache-kafka-2-9-release-candidate-available"
+                        open
+                      >
+                        <summary class="article-expander__title">Spring for Apache Kafka 2.9 Release Candidate Available</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://spring.io/blog/2022/07/07/spring-for-apache-kafka-2-9-release-candidate-available">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://avatars.githubusercontent.com/u/483832?v&#x3D;4?s&#x3D;200" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>I am pleased to announce that the release candidate Spring for Apache Kafka 2.9.0 is now available (2.9.0-RC1) in the Spring Milestone Repo.
+
+
+
+This version is not provided by Spring Boot dependency management, but it can be used with Boot 2.7, as long as you override the Kafka dependencies as described in this appendix, especially if you are using the embedded Kafka broker.
+
+
+
+Notable Changes
+
+
+
+
+This version uses the 3.2.0 kafka-clients version
+
+
+
+Non-blocking retry bootstrapping is now more robust
+
+
+
+New Error Handler Mode
+
+
+
+
+
+By default, after an error, the DefaultErrorHandler performs seeks on the remaining records from the last poll and re-fetches them from the broker on the next poll.
+With high error rates and large max.poll.records, this can cause unnecessary strain on the network.
+For this reason, the error handler has a new property seekAfterError, when set to false, instead of seeking the records, the remaining records are retained in memory and the consumer paused for the next poll (or multiple polls if the error handler is configured to use the ContainerPausingBackOffHandler).
+
+
+
+
+
+Pausing Containers
+
+
+
+
+
+By default, when you pause() a container, it actually pauses when all the records from the previous poll have been processed.
+This version adds the pauseImmediate container property, which, when true, causes the container to pause after the current record is processed.
+
+
+
+For information about all changes in this release, see What’s New.
+
+
+
+Project Page | GitHub | Issues | Documentation | Stack Overflow | Gitter</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://spring.io/blog/2022/07/07/spring-shell-2-1-0-rc1-is-now-available"
+                        open
+                      >
+                        <summary class="article-expander__title">Spring Shell 2.1.0-RC1 is now available</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://spring.io/blog/2022/07/07/spring-shell-2-1-0-rc1-is-now-available">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://avatars.githubusercontent.com/u/50398?v&#x3D;4?s&#x3D;200" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Shell 2.1.0-RC1 has been released and is now available from https://repo.spring.io/milestone.
+
+Please see the release notes for more details.
+
+Thanks to all those who have contributed with issue reports and pull requests.
+How can you help?
+
+Project Page | GitHub | Issues | Documentation</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Google AI Blog</button>
+                  <a class="source-heading__link" href="http://ai.googleblog.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://ai.googleblog.com/2022/07/enabling-creative-expression-with.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Enabling Creative Expression with Concept Activation Vectors</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://ai.googleblog.com/2022/07/enabling-creative-expression-with.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Posted by Been Kim, Research Scientist, Google Research, Brain Team, and Alison Lentz, Senior Staff Strategist, Google Research, Mural Team  
+Advances in computer vision and natural language processing continue to unlock new ways of exploring billions of images available on public and searchable websites. Today’s visual search tools make it possible to search with your camera, voice, text, images, or multiple modalities at the same time. However, it remains difficult to input subjective concepts, such as visual tones or moods, into current systems. For this reason, we have been working collaboratively with artists, photographers, and image researchers to explore how machine learning (ML) might enable people to use expressive queries as a way of visually exploring datasets. 
+Today, we are i…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;22
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >The GitHub Blog</button>
+                  <a class="source-heading__link" href="https://github.blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://github.blog/2022-07-07-healthy-and-sustainable-communities/"
+                        open
+                      >
+                        <summary class="article-expander__title">Top tips for creating a healthy and sustainable open source community</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://github.blog/2022-07-07-healthy-and-sustainable-communities/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://github.blog/wp-content/uploads/2022/05/Community-Open-Source@2x.png?fit&#x3D;2400%2C1260" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Read about the six key themes, and tips for each, that ensure sustainable and healthy open source communities.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Seth Godin&#x27;s Blog on marketing, tribes and respect</button>
+                  <a class="source-heading__link" href="https://seths.blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://seths.blog/?p&#x3D;42312"
+                        open
+                      >
+                        <summary class="article-expander__title">The practice effect</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://feeds.feedblitz.com/~/701919978/0/sethsblog~The-practice-effect/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>There are two kinds of skills, resources and tools: Ones that get used up as you use them. And ones that get better when you do. Nobody wants there to be a crowd at the ski area on a bluebird powder day–too many people use up the new snow. On the other hand, it’s no […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >The JetBrains Blog</button>
+                  <a class="source-heading__link" href="https://blog.jetbrains.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://blog.jetbrains.com/?post_type&#x3D;pycharm&amp;p&#x3D;262469"
+                        open
+                      >
+                        <summary class="article-expander__title">PyCharm 2022.2 EAP 5 Is Out!</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.jetbrains.com/pycharm/2022/07/2022-2-eap-5/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blog.jetbrains.com/wp-content/uploads/2022/05/Blog_Featured_image_1280x600_PyCharm.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>In this EAP release we looked into improvements for Docker and further enabling WSL support. A new build is available from our website, via the Toolbox App, or as a snap package (if you are using Ubuntu). If you are on macOS, there is a separate build for Apple Silicon (M1 chip).  Important: EAP builds are not […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >HashiCorp Blog</button>
+                  <a class="source-heading__link" href="https://hashicorp.com/blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.hashicorp.com/blog/hashiconf-europe-2022-recap-from-drift-detection-to-our-new-developer-site"
+                        open
+                      >
+                        <summary class="article-expander__title">HashiConf Europe 2022 Recap: From Drift Detection to Our New Developer Site</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.hashicorp.com/blog/hashiconf-europe-2022-recap-from-drift-detection-to-our-new-developer-site">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.datocms-assets.com/2885/1657128766-venue-hashiconf-euro-2022.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>HashiConf Europe took place once again in Amsterdam this year. Watch our complete sessions playlist, read a recap of the big keynote announcements, and take a look back at the sights and sounds of our annual European community conference.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Elastic Blog - Elasticsearch, Kibana, and ELK Stack</button>
+                  <a class="source-heading__link" href="https://www.elastic.co">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/elastic-stack-8-3-2-released"
+                        open
+                      >
+                        <summary class="article-expander__title">Elastic Stack 8.3.2 released</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/elastic-stack-8-3-2-released">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6a26a8ec94e87272/6001ac6a96de49101cfb1e46/cta-illustration-space-launch-white-bg.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Version 8.3.2 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 8.3.2 over the previous patch versions in 8.3.x.
+For details of the issues that have been fixed and a full list of changes for each product in this version, refer to the release notes: 
+8.3.2 Release Notes
+Elastic Stack
+Version 8.3.2 fixes a Kibana issue where Alerting rules that were created or edited in 8.2 will stop running on upgrade to 8.3.0 to 8.3.1. Alerting users who have upgraded to 8.3.0 or 8.3.1 will need to follow the resolution steps to manually fix the alerting rules that have stopped running.
+Elasticsearch
+Kibana
+Beats
+Logstash
+Elastic Enterprise Search
+Enterprise Search
+Elastic Observability
+APM
+Elastic Security
+Elastic Security Solution</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;17
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/how-does-elastic-cloud-pricing-work"
+                        open
+                      >
+                        <summary class="article-expander__title">How does Elastic Cloud pricing work?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/how-does-elastic-cloud-pricing-work">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt45db890a8daf01cb/6181b8229b08490cdd1190bc/thumb-elastic-cloud-midnight-1200x628.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>When you leverage Elastic Cloud, you can apply search-powered solutions to any kind of data. Get a better understanding of how Elastic Cloud pricing works and the benefits provided.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;29
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/elastic-stack-8-3-2-released"
+                        open
+                      >
+                        <summary class="article-expander__title">Elastic Stack 8.3.2 released</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/elastic-stack-8-3-2-released">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6a26a8ec94e87272/6001ac6a96de49101cfb1e46/cta-illustration-space-launch-white-bg.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Read about the updates and bug fixes that have been included in this release.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;17
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/how-does-elastic-cloud-pricing-work"
+                        open
+                      >
+                        <summary class="article-expander__title">How does Elastic Cloud pricing work?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/how-does-elastic-cloud-pricing-work">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt45db890a8daf01cb/6181b8229b08490cdd1190bc/thumb-elastic-cloud-midnight-1200x628.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>,
+The magic of Elastic lies in the ability to use our search-powered platform across a wide range of solutions and use cases: 
+
+Enterprise Search: e-commerce, site search, customer support, and other search applications
+Observability: unifying logs, metrics, and application traces, paired with anomaly detection and powerful root cause analysis
+Security: threat hunting and incident response, malware detection, security analytics, cloud security, endpoint protection, monitoring, and more
+
+
+In defining pricing for Elastic Cloud, we wanted to preserve that magic to empower our customers to use Elastic across these solutions and use cases.
+
+Key benefits of Elastic Cloud pricing are:
+
+You pay only for the resources you use
+You can scale while balancing performance and cost
+You pay for the platfo…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;29
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-07-06 datetime="2022-07-06T17:04:00.000Z">2022-07-06</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-07-06 datetime="2022-07-06T17:04:00.000Z"></time>
           </button>
@@ -179,6 +652,40 @@ When we come across users that are experiencing performance problems, it is not 
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
+                  >となりのヤングジャンプ（ワンパンマン）</button>
+                  <a class="source-heading__link" href="https://tonarinoyj.jp/episode/13932016480028985383">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="tonarino_yj:episode:3270375685329258711"
+                        open
+                      >
+                        <summary class="article-expander__title">[第212話] ワンパンマン</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://tonarinoyj.jp/episode/3270375685329258711">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.tonarinoyj.jp/public/episode-thumbnail/3270375685329258711-a55627a53a4a2fc68c423a90b7bf0870" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>ワンパンマン</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >Ansible Blog</button>
                   <a class="source-heading__link" href="https://www.ansible.com/blog">Open</a>
                 </h3>
@@ -197,6 +704,40 @@ When we come across users that are experiencing performance problems, it is not 
                             <span class="media-object__text">
                               <span>One of the great advantages of combining GitOps with Ansible is that you get to streamline the automation delivery and the lifecycle of a containerized application.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >The JetBrains Blog</button>
+                  <a class="source-heading__link" href="https://blog.jetbrains.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://blog.jetbrains.com/?post_type&#x3D;idea&amp;p&#x3D;262139"
+                        open
+                      >
+                        <summary class="article-expander__title">Java Annotated Monthly – July 2022</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.jetbrains.com/idea/2022/07/java-annotated-monthly-july-2022/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blog.jetbrains.com/wp-content/uploads/2022/07/Blog_Social_share_image_1280x720-2.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Hello! For the July edition of Java Annotated Monthly, we’ve collected 20 Java and Kotlin related blog posts for you to peruse as you enjoy the summer weather. We’ve got updates from the Gradle and Scala communities, and news about the latest events for you to catch up on. Java News Apache Tomcat 8.5.81 available […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -258,10 +799,10 @@ When we come across users that are experiencing performance problems, it is not 
                         data-accordion-key="https://xkcd.com/2642/"
                         open
                       >
-                        <summary class="article-expander__title">No One Was Hurt</summary>
+                        <summary class="article-expander__title">Meta-Alternating Current</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://xkcd.com/2642/">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://imgs.xkcd.com/comics/no_one_was_hurt_2x.png" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://imgs.xkcd.com/comics/" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>No content preview</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
@@ -545,7 +1086,7 @@ Spring Boot team member Stéphane Nicoll did a French-language presentation for 
                               <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt86964a6e800c5d1b/6297bbb5a3e9730f695cfa5d/telescope-search-1680x980.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Elastic recently ran a customer Results that Matter survey managed and analyzed by Socratic Technologies. With 98% of customers saying that they will continue to use Elastic as much or more in the next year, the results were compelling.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;23
+                                &ensp;<span class="article-reading-time">(&hairsp;22
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -572,7 +1113,7 @@ Elasticsearch was created over a decade ago to solve this issue. Since then, mil
 This year, Elastic ran a customer study through a survey managed and analyzed by Socratic Technologies. Its purpose was to take a closer look at the problems customers are solving with Enterprise Search. Our findings not only inform the future of Elastic Enterprise Search, but they also serve as an example of how customers can best leverage the tool to be most successful in their search endeavors.
 
 …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;23
+                                &ensp;<span class="article-reading-time">(&hairsp;22
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -967,26 +1508,6 @@ This year, Elastic ran a customer study through a survey managed and analyzed by
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.jetbrains.com/?post_type&#x3D;appcode&amp;p&#x3D;260813"
-                        open
-                      >
-                        <summary class="article-expander__title">AppCode 2022.2 EAP5: Code Highlighting in the Documentation Popup and Other Fixes</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.jetbrains.com/appcode/2022/07/appcode-2022-2-eap5-code-highlighting-in-the-documentation-popup-and-other-fixes/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blog.jetbrains.com/wp-content/uploads/2022/05/Blog_Social_share_image_1280x720_AppCode-2x.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Hi, A new AppCode 2022.2 EAP build (222.3244.12) is available for download. Builds are available from our website and via the Toolbox App. You can also update from the 2022.2 EAP4 build via patch. DOWNLOAD APPCODE EAP Code highlighting in the documentation popup Code documentation makes maintaining your code base easier, while a convenient layout […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -1067,45 +1588,11 @@ This year, Elastic ran a customer study through a survey managed and analyzed by
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-06-30 datetime="2022-06-30T20:29:32.000Z">2022-06-30</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-06-30 datetime="2022-06-30T20:29:32.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-06-30 datetime="2022-06-30T20:09:00.003Z">2022-06-30</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-06-30 datetime="2022-06-30T20:09:00.003Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >The JetBrains Blog</button>
-                  <a class="source-heading__link" href="https://blog.jetbrains.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.jetbrains.com/?post_type&#x3D;webstorm&amp;p&#x3D;260543"
-                        open
-                      >
-                        <summary class="article-expander__title">WebStorm 2022.2 EAP #7: Improvements for Docker and HTTP Client</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.jetbrains.com/webstorm/2022/06/webstorm-2022-2-eap-7/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blog.jetbrains.com/wp-content/uploads/2022/05/ws-release-share-1.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>WebStorm 2022.2 EAP build #7 is now available! To catch up on all the new features, check out our previous EAP blog posts. The Toolbox App is the easiest way to get the EAP builds and keep both your stable and EAP versions up to date. You can also manually download the EAP builds from […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -1604,7 +2091,7 @@ Elastic Security Solution</span>
                               <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte5657e3b56e3726a/6297bb96c040564c4585329c/illustration-siem-operational-value-web-thumb-1680x980.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>A recent study of 1,200 cybersecurity professionals emphasized these tactics for more effective incident response and recovery from a cybersecurity breach.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;29
+                                &ensp;<span class="article-reading-time">(&hairsp;28
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1624,7 +2111,7 @@ Elastic Security Solution</span>
                               <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt3308862e50735548/62bced9bc35371509808f57d/blog-p1a-recordsearch_strokes.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>You can transform your search box into your sales rep—when you have the right tools.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;27
+                                &ensp;<span class="article-reading-time">(&hairsp;26
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1649,7 +2136,7 @@ When the average organization experiences 26 cyber attacks per year, being prepa
 With the ever-evolving nature of attacks and the increasing complexity of organizational systems, it’s harder than ever to have a fast response ready to go for any potential scenario that might arise.Case in point: a recent survey of 1,200 organizations by ThoughtLab (and cosponsored by Elastic) shows that more than a quarter of executives fear their organizations aren’t fully prepared for cyber attacks. 
 
 However, Cybersecurity Solutions for a Riskier World also reveals best practices for incident response and recovery from the top cybersecurity executives in 16 countries and across 14 industries. In the unfortunate event of a breach, pri…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;29
+                                &ensp;<span class="article-reading-time">(&hairsp;28
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1680,7 +2167,7 @@ Let’s take a look at how Elastic’s machine learning capabilities are powerin
 What is e-commerce personalization and why is it important?
 
 E-commerce persona…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;27
+                                &ensp;<span class="article-reading-time">(&hairsp;26
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1733,45 +2220,11 @@ E-commerce persona…</span>
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-06-28 datetime="2022-06-28T17:00:06.000Z">2022-06-28</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-06-28 datetime="2022-06-28T17:00:06.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-06-28 datetime="2022-06-28T16:00:00.000Z">2022-06-28</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-06-28 datetime="2022-06-28T16:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >The GitHub Blog</button>
-                  <a class="source-heading__link" href="https://github.blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://github.blog/2022-06-28-improving-git-protocol-security-on-github-enterprise-server/"
-                        open
-                      >
-                        <summary class="article-expander__title">Improving Git protocol security on GitHub Enterprise Server</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://github.blog/2022-06-28-improving-git-protocol-security-on-github-enterprise-server/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://github.blog/wp-content/uploads/2022/04/Security-Enterprise@2x.png?fit&#x3D;2400%2C1260" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The recent changes to improve protocol security on GitHub.com are now coming to GitHub Enterprise Server, starting with version 3.6.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -1830,7 +2283,7 @@ E-commerce persona…</span>
                               <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltbb4996d39a786d20/5ffe05b822252d41f72866fc/blog-thumb-release-enterprise-search.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>In 8.3, create new data connectors that you can embed into your existing workplace search solutions using a new open code framework. Plus, use the web crawler to index and sync all your PDF content, and build solutions that take advantage of JWT-based (JSON web token) authentication schemes</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;28
+                                &ensp;<span class="article-reading-time">(&hairsp;27
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1855,7 +2308,7 @@ Elastic Enterprise Search 8.3 brings functionality for:
 
 Creating new connectors that you can embed into your existing workplace search solutions using a new open code framework as well as additional first-party connectors to index data from various sources.
 The ability to extract content from PDF documents with the Elastic Enterprise Search web crawler, providing the added benefit of indexing text in…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;28
+                                &ensp;<span class="article-reading-time">(&hairsp;27
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1875,7 +2328,7 @@ The ability to extract content from PDF documents with the Elastic Enterprise Se
                               <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt60f09cd9535d3894/62b5bc1b59fa7e0f945d82c8/6.0-Blog-graduation-blog-2-1680_×_980.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>You’re not alone if you find post-graduate life to be overwhelming. You’re starting an entirely new phase and there’s no playbook for how to get it ‘right’. But don’t be intimidated by interviews and the relative unknown — we&#x27;re here to help.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;26
+                                &ensp;<span class="article-reading-time">(&hairsp;25
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1926,46 +2379,6 @@ The ability to extract content from PDF documents with the Elastic Enterprise Se
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/cloud-hardware-profile-migration-template"
-                        open
-                      >
-                        <summary class="article-expander__title">Improving performance and optimizing cost on Elastic Cloud has never been easier</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/cloud-hardware-profile-migration-template">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt5232f9030648ff0d/62280957225c6a0d139d9109/blog-thumb-cloud-midnight.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Hardware profile migration streamlines the migration process with no downtime and allows you to choose the most cost-effective hardware for your needs. Always ensure you&#x27;re running the right combination of compute, memory, and storage for your workload.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-8-3-0"
-                        open
-                      >
-                        <summary class="article-expander__title">Elasticsearch, Kibana, Elastic Cloud 8.3: Search &amp; replicate across any cluster</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-8-3-0">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltd2a15f40173ad17d/6149134eee502d0e1337d186/thumbnail.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>In 8.3, search and replicate data in any environment. Query old snapshots without the need of an old Elasticsearch cluster. Try out new alerting capabilities in Kibana and template migration for Elastic Cloud users to easily migrate deployments.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;31
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.elastic.co/blog/culture-guide-to-first-job-after-graduation"
                         open
                       >
@@ -1984,7 +2397,7 @@ Roxy Wolfe, Global Lead of Early Talent, ElasticGrad, has more than 10 years of 
 “As a recruiter, you’re truly impacting someone’s life”, Roxy says. “You’re helping them to find what they love and are passionate about.”
 
 ElastiGrad is Elastic’s recruitment program that hires new graduates into a variety of ro…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;26
+                                &ensp;<span class="article-reading-time">(&hairsp;25
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2050,61 +2463,6 @@ Reduce time to insight with serverless cloud integrations for AWS
 Simplify and centralize agent management with Elastic Agent enhancements
 Optimize performance of SaaS and big d…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;24
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/cloud-hardware-profile-migration-template"
-                        open
-                      >
-                        <summary class="article-expander__title">Improving performance and optimizing cost on Elastic Cloud has never been easier</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/cloud-hardware-profile-migration-template">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt5232f9030648ff0d/62280957225c6a0d139d9109/blog-thumb-cloud-midnight.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>,
-
-Support for new hardware profiles are continuously added to provide better price-performance on our Cloud platform.
-
-With the release of the hardware profile migration capability, you now have the flexibility to switch between hardware profiles on your existing deployment. You can see the current hardware profile on each deployment’s Overview page, have the ability to edit the profile, and select a new one. This allows you to take advantage of more efficient hardware available on cloud providers, like Graviton2-based instances on AWS, N2 machines on GCP, or Edsv4, Ddv4, or Fsv2 VMs on Azure, with the added benefit of simplifying your migration process.
-
-Getting started
-First, click  the ‘Edit’ link next to the hardware profile name:
-https://static-www.elastic.co/v3/assets/bltefdd0b53724…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-8-3-0"
-                        open
-                      >
-                        <summary class="article-expander__title">Elasticsearch, Kibana, Elastic Cloud 8.3: Search &amp; replicate across any cluster</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-8-3-0">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltd2a15f40173ad17d/6149134eee502d0e1337d186/thumbnail.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>,
-In 8.3, you can search and replicate data across Elasticsearch clusters, from on-premises to cloud and vice versa. You can also query snapshots as simple archives without the need of an old Elasticsearch cluster. Achieve troubleshooting success in Kibana 8.3 with alerting in Discover, user-friendly dashboard filters, and an action that turns a visualization into a machine learning job. Plus, take advantage of migration templates that make migrating your existing deployments to the most optimal hardware type as easy as a button click.
-Ready to dive in and get started? We have the links you need:
-
-
-Try the new features on Elastic Cloud
-Download the latest versions of Elasticsearch, Kibana, Elastic Cloud on Kubernetes
-Refer to the release notes on Elasticsearch, Kibana, Elastic Cloud, Elast…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;31
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2348,40 +2706,6 @@ I liked this article, exhaustive JUnit 5 testing with combinations, permutations
                             <span class="media-object__text">
                               <span>With the recent release of the ansible.netcommon Collection version 3.0.0, we have promoted two features as standard: libssh transport and import_modules. These features provide increased performance and resiliency for your network automation. These two features, which have been available since July 2020 (libssh) and March 2021 (import_modules), are now turned on by default for playbooks running the latest version of the netcommon Collection, so let&#x27;s take a look at what makes these changes so exciting!</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Seth Godin&#x27;s Blog on marketing, tribes and respect</button>
-                  <a class="source-heading__link" href="https://seths.blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://seths.blog/?p&#x3D;42278"
-                        open
-                      >
-                        <summary class="article-expander__title">What makes it a profession?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://feeds.feedblitz.com/~/700721376/0/sethsblog~What-makes-it-a-profession/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061313.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Malpractice by one of us is malpractice by all of us. When a calling turns into an industry, that can change. In an industry, it’s buyer beware. It’s us against the rest. It’s a quiet line of self-preservation. But in a profession, it’s clear that a service is on offer, and that standards and trust […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -3472,7 +3796,7 @@ The vulnerability affects Spring Data MongoDB applications u…</span>
                             <span class="media-object__text">
                               <span>“I took the road less traveled, and that has made all the difference.
 The post DevOps Dojo – UX/Accessibility appeared first on Azure DevOps Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;27
+                                &ensp;<span class="article-reading-time">(&hairsp;28
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -3851,33 +4175,6 @@ Load Config Maps and Secrets using spring.config.import removing the need to use
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://spring.io/blog/2022/06/15/cve-report-published-for-spring-cloud-function"
-                        open
-                      >
-                        <summary class="article-expander__title">CVE report published for Spring Cloud Function</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://spring.io/blog/2022/06/15/cve-report-published-for-spring-cloud-function">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://avatars.githubusercontent.com/u/172397?v&#x3D;4?s&#x3D;200" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>We have released Spring Cloud Function 3.2.6 to address the following CVE report.
-
-
-  
-CVE-2202-22979: Spring Cloud Function Dos Vulnerability 
-
-
-Please review the information in the CVE report and upgrade immediately.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -3890,115 +4187,11 @@ Please review the information in the CVE report and upgrade immediately.</span>
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-06-15 datetime="2022-06-15T18:00:00.000Z">2022-06-15</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-06-15 datetime="2022-06-15T18:00:00.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-06-15 datetime="2022-06-15T17:00:00.000Z">2022-06-15</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-06-15 datetime="2022-06-15T17:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Spring</button>
-                  <a class="source-heading__link" href="https://spring.io/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://spring.io/blog/2022/06/15/spring-tools-4-15-0-released"
-                        open
-                      >
-                        <summary class="article-expander__title">Spring Tools 4.15.0 released</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://spring.io/blog/2022/06/15/spring-tools-4-15-0-released">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://avatars.githubusercontent.com/u/107705?v&#x3D;4?s&#x3D;200" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Dear Spring Community,
-
-I am happy to announce the 4.15.0 release of the Spring Tools 4 for Eclipse, Visual Studio Code, and Theia.
-major changes to the Spring Tools 4 for Eclipse distribution
-
-
-  
-updated to Eclipse 2022-06 release (new and noteworthy)
-
-
-fixes and improvements
-
-
-  
-(Spring Boot) fixed: vscode-sts: an edge case of workspace symbol for @PutMapping (#781)
-
-  
-(VSCode) fixed: Failed to refresh live data from process 12704 - com.xxxx.xx.xxx.BillingServiceApp after retries: 10 (#748)
-
-  
-(Eclipse) fixed: The Spring Boot Language Server is not immediately shutdown after closing the last open editor to avoid the need to restart the server when you open the next file (related to #568)
-
-  
-(Eclipse) fixed: When opening symbols, open the compilation unit from the relevant project (#769)
-
-  
-(Eclipse) fixed: The issue with the internal web browser not being able to open HTTP URLs on macOS got fixed. If you prefer to use the internal browser instead of an external one, you can make that switch in the preferences.
-
-  
-(Concourse) fixed: Update Concourse registry-image schema (#777)
-
-  
-(Concourse) fixed: Add registry_mirror &amp; across as a known properties (#752)
-
-
-To download the distribution for Eclipse and find links to the marketplace entries for Visual Studio Code and Theia, please go visit:
-
-
-  
-Spring Tools 4: https://spring.io/tools/
-
-
-Detailed changes can be found here: https://github.com/spring-projects/sts4/wiki/Changelog#2022-06-15-4150-release-incl-language-servers-version-1340
-
-Spring Tools 4.15.1 is scheduled to be released in early August 2022.
-
-Enjoy!</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://spring.io/blog/2022/06/15/spring-framework-5-3-21-available-now"
-                        open
-                      >
-                        <summary class="article-expander__title">Spring Framework 5.3.21 available now</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://spring.io/blog/2022/06/15/spring-framework-5-3-21-available-now">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://avatars.githubusercontent.com/u/490484?v&#x3D;4?s&#x3D;200" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework 5.3.21 is available now.
-
-Spring Framework 5.3.21 includes 22 fixes and improvements.
-
-Project Page | GitHub | Issues | Documentation</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -4077,7 +4270,7 @@ Project Page | GitHub | Issues | Documentation</span>
                               <img src="https://miro.medium.com/max/1200/0*LBuhmsQxMXkOPlRJ" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>By Alex Hutter, Falguni Jhaveri, and Senthil Sayeebaba</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                &ensp;<span class="article-reading-time">(&hairsp;14
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4476,7 +4669,7 @@ Sparse models stand out among the most promising approaches for the future of de
                             <span class="media-object__text">
                               <span>So, we all love how we can manage engagements in Azure DevOps (ADO). We can create Epics, Features, User Stories and track our progress on Kanban boards. You can customize work item types to suit the needs of your business and project with ease.
 The post Copy a work item type using Azure DevOps API’s appeared first on Azure DevOps Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;20
+                                &ensp;<span class="article-reading-time">(&hairsp;21
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4726,130 +4919,12 @@ The post Building a Desktop App with React and Camunda Platform 8 appeared first
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Ansible Blog</button>
-                  <a class="source-heading__link" href="https://www.ansible.com/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.ansible.com/blog/8-private-automation-hub-features-about-automation-execution-environments"
-                        open
-                      >
-                        <summary class="article-expander__title">8 private automation hub features about automation execution environments</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.ansible.com/blog/8-private-automation-hub-features-about-automation-execution-environments">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.ansible.com/hubfs/8%20private%20automatio%20hub%20features%20blog.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Red Hat Ansible Automation Platform 2.1 introduced automation execution environments, which is a new way to package automation into a container runtime environment. In addition, private automation hub also joined the party by adding significant support for execution environments.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-06-07 datetime="2022-06-07T17:24:00.000Z">2022-06-07</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-06-07 datetime="2022-06-07T17:24:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Google AI Blog</button>
-                  <a class="source-heading__link" href="http://ai.googleblog.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://ai.googleblog.com/2022/06/end-to-end-generative-pre-training-for.html"
-                        open
-                      >
-                        <summary class="article-expander__title">End-to-end Generative Pre-training for Multimodal Video Captioning</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://ai.googleblog.com/2022/06/end-to-end-generative-pre-training-for.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Posted by Paul Hongsuck Seo and Arsha Nagrani, Research Scientists, Google Research, Perception Team  
-Multimodal video captioning systems utilize both the video frames and speech to generate natural language descriptions (captions) of videos. Such systems are stepping stones towards the longstanding goal of building multimodal conversational systems that effortlessly communicate with users while perceiving environments through multimodal input streams.  
- Unlike video understanding tasks (e.g., video classification and retrieval) where the key challenge lies in processing and understanding multimodal input videos, the task of multimodal video captioning includes the additional challenge of generating grounded captions. The most widely adopted approach for this task is to train an encoder-…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;23
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >HashiCorp Blog</button>
-                  <a class="source-heading__link" href="https://hashicorp.com/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.hashicorp.com/blog/hcp-consul-on-azure"
-                        open
-                      >
-                        <summary class="article-expander__title">HCP Consul on Azure is Now in Public Beta</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.hashicorp.com/blog/hcp-consul-on-azure">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.datocms-assets.com/2885/1655842467-blog-library-product-hcp-consul.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>HCP Consul on Microsoft Azure is now available in public beta. Get started today with a secure, resilient service mesh for connecting applications running in Azure.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/vxavictor513/osmosfeed/actions/runs/2626761579">
-        <time id="build-timestamp" datetime="2022-07-07T02:14:54.130Z">2022-07-07T02:14:54.130Z</time>
+      <a class="footer-link" href="https://github.com/vxavictor513/osmosfeed/actions/runs/2633438438">
+        <time id="build-timestamp" datetime="2022-07-08T02:05:01.514Z">2022-07-08T02:05:01.514Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

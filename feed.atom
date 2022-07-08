@@ -1,10 +1,227 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-07-07T02:14:54.183Z</id>
+    <id>urn:2022-07-08T02:05:01.555Z</id>
     <title>osmos::feed</title>
-    <updated>2022-07-07T02:14:54.183Z</updated>
+    <updated>2022-07-08T02:05:01.555Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[New – Amazon EC2 M1 Mac Instances]]></title>
+        <id>d02cbfaaaed8a473decb31bee87fb99c5ce2448d</id>
+        <link href="https://aws.amazon.com/blogs/aws/new-amazon-ec2-m1-mac-instances/"/>
+        <updated>2022-07-07T20:21:11.000Z</updated>
+        <summary type="html"><![CDATA[Last year, during the re:Invent 2021 conference, I wrote a blog post to announce the preview of EC2 M1 Mac instances. I know many of you requested access to the preview, and we did our best but could not satisfy everybody. However, the wait is over. I have the pleasure of announcing the general availability […]]]></summary>
+        <author>
+            <name>Sébastien Stormacq</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Bootiful Podcast: Kubernetes contributor and fellow Tanzu Developer Advocate Leigh Capili]]></title>
+        <id>https://spring.io/blog/2022/07/07/a-bootiful-podcast-kubernetes-contributor-and-fellow-tanzu-developer-advocate-leigh-capili</id>
+        <link href="https://spring.io/blog/2022/07/07/a-bootiful-podcast-kubernetes-contributor-and-fellow-tanzu-developer-advocate-leigh-capili"/>
+        <updated>2022-07-07T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hi, Spring fans! In this installment Josh Long (@starbuxman) talks to fellow teammate and Kubernetes ecosystem legend Leigh Capili (@capileigh) about Gitops, Kubernetes, Puppet/Chef, continuous delivery, how zoom scales if you deploy on-prem, being a developer advocate, Flux, and so much more.]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enabling Creative Expression with Concept Activation Vectors]]></title>
+        <id>http://ai.googleblog.com/2022/07/enabling-creative-expression-with.html</id>
+        <link href="http://ai.googleblog.com/2022/07/enabling-creative-expression-with.html"/>
+        <updated>2022-07-07T18:31:00.003Z</updated>
+        <summary type="html"><![CDATA[Posted by Been Kim, Research Scientist, Google Research, Brain Team, and Alison Lentz, Senior Staff Strategist, Google Research, Mural Team  
+Advances in computer vision and natural language processing continue to unlock new ways of exploring billions of images available on public and searchable websites. Today’s visual search tools make it possible to search with your camera, voice, text, images, or multiple modalities at the same time. However, it remains difficult to input subjective concepts, such as visual tones or moods, into current systems. For this reason, we have been working collaboratively with artists, photographers, and image researchers to explore how machine learning (ML) might enable people to use expressive queries as a way of visually exploring datasets. 
+Today, we are i…]]></summary>
+        <author>
+            <name>Google AI Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Top tips for creating a healthy and sustainable open source community]]></title>
+        <id>https://github.blog/2022-07-07-healthy-and-sustainable-communities/</id>
+        <link href="https://github.blog/2022-07-07-healthy-and-sustainable-communities/"/>
+        <updated>2022-07-07T18:00:44.000Z</updated>
+        <summary type="html"><![CDATA[Read about the six key themes, and tips for each, that ensure sustainable and healthy open source communities.]]></summary>
+        <author>
+            <name>The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring for Apache Kafka 2.9 Release Candidate Available]]></title>
+        <id>https://spring.io/blog/2022/07/07/spring-for-apache-kafka-2-9-release-candidate-available</id>
+        <link href="https://spring.io/blog/2022/07/07/spring-for-apache-kafka-2-9-release-candidate-available"/>
+        <updated>2022-07-07T16:18:55.000Z</updated>
+        <summary type="html"><![CDATA[I am pleased to announce that the release candidate Spring for Apache Kafka 2.9.0 is now available (2.9.0-RC1) in the Spring Milestone Repo.
+
+
+
+This version is not provided by Spring Boot dependency management, but it can be used with Boot 2.7, as long as you override the Kafka dependencies as described in this appendix, especially if you are using the embedded Kafka broker.
+
+
+
+Notable Changes
+
+
+
+
+This version uses the 3.2.0 kafka-clients version
+
+
+
+Non-blocking retry bootstrapping is now more robust
+
+
+
+New Error Handler Mode
+
+
+
+
+
+By default, after an error, the DefaultErrorHandler performs seeks on the remaining records from the last poll and re-fetches them from the broker on the next poll.
+With high error rates and large max.poll.records, this can cause unnecessary strain on the network.
+For this reason, the error handler has a new property seekAfterError, when set to false, instead of seeking the records, the remaining records are retained in memory and the consumer paused for the next poll (or multiple polls if the error handler is configured to use the ContainerPausingBackOffHandler).
+
+
+
+
+
+Pausing Containers
+
+
+
+
+
+By default, when you pause() a container, it actually pauses when all the records from the previous poll have been processed.
+This version adds the pauseImmediate container property, which, when true, causes the container to pause after the current record is processed.
+
+
+
+For information about all changes in this release, see What’s New.
+
+
+
+Project Page | GitHub | Issues | Documentation | Stack Overflow | Gitter]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The practice effect]]></title>
+        <id>https://seths.blog/?p=42312</id>
+        <link href="https://feeds.feedblitz.com/~/701919978/0/sethsblog~The-practice-effect/"/>
+        <updated>2022-07-07T08:35:00.000Z</updated>
+        <summary type="html"><![CDATA[There are two kinds of skills, resources and tools: Ones that get used up as you use them. And ones that get better when you do. Nobody wants there to be a crowd at the ski area on a bluebird powder day–too many people use up the new snow. On the other hand, it’s no […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Shell 2.1.0-RC1 is now available]]></title>
+        <id>https://spring.io/blog/2022/07/07/spring-shell-2-1-0-rc1-is-now-available</id>
+        <link href="https://spring.io/blog/2022/07/07/spring-shell-2-1-0-rc1-is-now-available"/>
+        <updated>2022-07-07T08:32:40.000Z</updated>
+        <summary type="html"><![CDATA[On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Shell 2.1.0-RC1 has been released and is now available from https://repo.spring.io/milestone.
+
+Please see the release notes for more details.
+
+Thanks to all those who have contributed with issue reports and pull requests.
+How can you help?
+
+Project Page | GitHub | Issues | Documentation]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PyCharm 2022.2 EAP 5 Is Out!]]></title>
+        <id>https://blog.jetbrains.com/?post_type=pycharm&amp;p=262469</id>
+        <link href="https://blog.jetbrains.com/pycharm/2022/07/2022-2-eap-5/"/>
+        <updated>2022-07-07T07:13:03.000Z</updated>
+        <summary type="html"><![CDATA[In this EAP release we looked into improvements for Docker and further enabling WSL support. A new build is available from our website, via the Toolbox App, or as a snap package (if you are using Ubuntu). If you are on macOS, there is a separate build for Apple Silicon (M1 chip).  Important: EAP builds are not […]]]></summary>
+        <author>
+            <name>Valeria Letusheva</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HashiConf Europe 2022 Recap: From Drift Detection to Our New Developer Site]]></title>
+        <id>https://www.hashicorp.com/blog/hashiconf-europe-2022-recap-from-drift-detection-to-our-new-developer-site</id>
+        <link href="https://www.hashicorp.com/blog/hashiconf-europe-2022-recap-from-drift-detection-to-our-new-developer-site"/>
+        <updated>2022-07-07T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[HashiConf Europe took place once again in Amsterdam this year. Watch our complete sessions playlist, read a recap of the big keynote announcements, and take a look back at the sights and sounds of our annual European community conference.]]></summary>
+        <author>
+            <name>HashiCorp Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Elastic Stack 8.3.2 released]]></title>
+        <id>https://www.elastic.co/blog/elastic-stack-8-3-2-released</id>
+        <link href="https://www.elastic.co/blog/elastic-stack-8-3-2-released"/>
+        <updated>2022-07-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Version 8.3.2 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 8.3.2 over the previous patch versions in 8.3.x.
+For details of the issues that have been fixed and a full list of changes for each product in this version, refer to the release notes: 
+8.3.2 Release Notes
+Elastic Stack
+Version 8.3.2 fixes a Kibana issue where Alerting rules that were created or edited in 8.2 will stop running on upgrade to 8.3.0 to 8.3.1. Alerting users who have upgraded to 8.3.0 or 8.3.1 will need to follow the resolution steps to manually fix the alerting rules that have stopped running.
+Elasticsearch
+Kibana
+Beats
+Logstash
+Elastic Enterprise Search
+Enterprise Search
+Elastic Observability
+APM
+Elastic Security
+Elastic Security Solution]]></summary>
+        <author>
+            <name>Brandon Kobel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How does Elastic Cloud pricing work?]]></title>
+        <id>https://www.elastic.co/blog/how-does-elastic-cloud-pricing-work</id>
+        <link href="https://www.elastic.co/blog/how-does-elastic-cloud-pricing-work"/>
+        <updated>2022-07-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[When you leverage Elastic Cloud, you can apply search-powered solutions to any kind of data. Get a better understanding of how Elastic Cloud pricing works and the benefits provided.]]></summary>
+        <author>
+            <name>Chanda Dani</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Elastic Stack 8.3.2 released]]></title>
+        <id>https://www.elastic.co/blog/elastic-stack-8-3-2-released</id>
+        <link href="https://www.elastic.co/blog/elastic-stack-8-3-2-released"/>
+        <updated>2022-07-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Read about the updates and bug fixes that have been included in this release.]]></summary>
+        <author>
+            <name>Brandon Kobel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How does Elastic Cloud pricing work?]]></title>
+        <id>https://www.elastic.co/blog/how-does-elastic-cloud-pricing-work</id>
+        <link href="https://www.elastic.co/blog/how-does-elastic-cloud-pricing-work"/>
+        <updated>2022-07-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+The magic of Elastic lies in the ability to use our search-powered platform across a wide range of solutions and use cases: 
+
+Enterprise Search: e-commerce, site search, customer support, and other search applications
+Observability: unifying logs, metrics, and application traces, paired with anomaly detection and powerful root cause analysis
+Security: threat hunting and incident response, malware detection, security analytics, cloud security, endpoint protection, monitoring, and more
+
+
+In defining pricing for Elastic Cloud, we wanted to preserve that magic to empower our customers to use Elastic across these solutions and use cases.
+
+Key benefits of Elastic Cloud pricing are:
+
+You pay only for the resources you use
+You can scale while balancing performance and cost
+You pay for the platfo…]]></summary>
+        <author>
+            <name>Chanda Dani</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[MLGO: A Machine Learning Framework for Compiler Optimization]]></title>
         <id>http://ai.googleblog.com/2022/07/mlgo-machine-learning-framework-for.html</id>
@@ -48,6 +265,16 @@ When we come across users that are experiencing performance problems, it is not 
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[[第212話] ワンパンマン]]></title>
+        <id>tonarino_yj:episode:3270375685329258711</id>
+        <link href="https://tonarinoyj.jp/episode/3270375685329258711"/>
+        <updated>2022-07-06T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ワンパンマン]]></summary>
+        <author>
+            <name>原作/ＯＮＥ/漫画/村田雄介</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Taking Automation to the Next Level: Using Ansible + GitOps to Manage the Lifecycle of a Containerized Application]]></title>
         <id>https://www.ansible.com/blog/taking-automation-to-the-next-level-using-ansible-gitops-to-manage-the-lifecycle-of-a-containerized-application</id>
         <link href="https://www.ansible.com/blog/taking-automation-to-the-next-level-using-ansible-gitops-to-manage-the-lifecycle-of-a-containerized-application"/>
@@ -55,6 +282,16 @@ When we come across users that are experiencing performance problems, it is not 
         <summary type="html"><![CDATA[One of the great advantages of combining GitOps with Ansible is that you get to streamline the automation delivery and the lifecycle of a containerized application.]]></summary>
         <author>
             <name>Roger Lopez</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Java Annotated Monthly – July 2022]]></title>
+        <id>https://blog.jetbrains.com/?post_type=idea&amp;p=262139</id>
+        <link href="https://blog.jetbrains.com/idea/2022/07/java-annotated-monthly-july-2022/"/>
+        <updated>2022-07-06T11:36:13.000Z</updated>
+        <summary type="html"><![CDATA[Hello! For the July edition of Java Annotated Monthly, we’ve collected 20 Java and Kotlin related blog posts for you to peruse as you enjoy the summer weather. We’ve got updates from the Gradle and Scala communities, and news about the latest events for you to catch up on. Java News Apache Tomcat 8.5.81 available […]]]></summary>
+        <author>
+            <name>Ida Bzowska</name>
         </author>
     </entry>
     <entry>
@@ -78,11 +315,11 @@ When we come across users that are experiencing performance problems, it is not 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[No One Was Hurt]]></title>
+        <title type="html"><![CDATA[Meta-Alternating Current]]></title>
         <id>https://xkcd.com/2642/</id>
         <link href="https://xkcd.com/2642/"/>
         <updated>2022-07-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/no_one_was_hurt.png" title="See how the smoke obscures things so you don't see the approaching tornado until the firework streamers start to swirl right before the lightning hits the launcher. Thank God Cousin Ed was filming in slow motion. And, uh, that no one was hurt." alt="See how the smoke obscures things so you don't see the approaching tornado until the firework streamers start to swirl right before the lightning hits the launcher. Thank God Cousin Ed was filming in slow motion. And, uh, that no one was hurt." />]]></summary>
+        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/meta_alternating_current.png" title="It's always bothered me that you can't cancel out an inverter by putting a second inverter after it." alt="It's always bothered me that you can't cancel out an inverter by putting a second inverter after it." />]]></summary>
         <author>
             <name>xkcd.com</name>
         </author>
@@ -336,16 +573,6 @@ This year, Elastic ran a customer study through a survey managed and analyzed by
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[AppCode 2022.2 EAP5: Code Highlighting in the Documentation Popup and Other Fixes]]></title>
-        <id>https://blog.jetbrains.com/?post_type=appcode&amp;p=260813</id>
-        <link href="https://blog.jetbrains.com/appcode/2022/07/appcode-2022-2-eap5-code-highlighting-in-the-documentation-popup-and-other-fixes/"/>
-        <updated>2022-07-01T08:45:53.000Z</updated>
-        <summary type="html"><![CDATA[Hi, A new AppCode 2022.2 EAP build (222.3244.12) is available for download. Builds are available from our website and via the Toolbox App. You can also update from the 2022.2 EAP4 build via patch. DOWNLOAD APPCODE EAP Code highlighting in the documentation popup Code documentation makes maintaining your code base easier, while a convenient layout […]]]></summary>
-        <author>
-            <name>Anastasia Kazakova</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Starting with agreement]]></title>
         <id>https://seths.blog/?p=43060</id>
         <link href="https://feeds.feedblitz.com/~/701231586/0/sethsblog~Starting-with-agreement/"/>
@@ -366,20 +593,10 @@ This year, Elastic ran a customer study through a survey managed and analyzed by
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[WebStorm 2022.2 EAP #7: Improvements for Docker and HTTP Client]]></title>
-        <id>https://blog.jetbrains.com/?post_type=webstorm&amp;p=260543</id>
-        <link href="https://blog.jetbrains.com/webstorm/2022/06/webstorm-2022-2-eap-7/"/>
-        <updated>2022-06-30T20:29:32.000Z</updated>
-        <summary type="html"><![CDATA[WebStorm 2022.2 EAP build #7 is now available! To catch up on all the new features, check out our previous EAP blog posts. The Toolbox App is the easiest way to get the EAP builds and keep both your stable and EAP versions up to date. You can also manually download the EAP builds from […]]]></summary>
-        <author>
-            <name>David Watson</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Identifying Disfluencies in Natural Speech]]></title>
         <id>http://ai.googleblog.com/2022/06/identifying-disfluencies-in-natural.html</id>
         <link href="http://ai.googleblog.com/2022/06/identifying-disfluencies-in-natural.html"/>
-        <updated>2022-06-30T20:09:00.002Z</updated>
+        <updated>2022-06-30T20:09:00.003Z</updated>
         <summary type="html"><![CDATA[Posted by Dan Walker and Dan Liebling, Software Engineers, Google Research 
 People don’t write in the same way that they speak. Written language is controlled and deliberate, whereas transcripts of spontaneous speech (like interviews) are hard to read because speech is disorganized and less fluent. One aspect that makes speech transcripts particularly difficult to read is disfluency, which includes self-corrections, repetitions, and filled pauses (e.g., words like “umm”, and “you know”). Following is an example of a spoken sentence with disfluencies from the LDC CALLHOME corpus: 
 But that's it's not, it's not, it's, uh, it's a word play on what you just said.
@@ -626,16 +843,6 @@ E-commerce persona…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Improving Git protocol security on GitHub Enterprise Server]]></title>
-        <id>https://github.blog/2022-06-28-improving-git-protocol-security-on-github-enterprise-server/</id>
-        <link href="https://github.blog/2022-06-28-improving-git-protocol-security-on-github-enterprise-server/"/>
-        <updated>2022-06-28T17:00:06.000Z</updated>
-        <summary type="html"><![CDATA[The recent changes to improve protocol security on GitHub.com are now coming to GitHub Enterprise Server, starting with version 3.6.]]></summary>
-        <author>
-            <name>The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Vault Logging and Alerting on Day 1]]></title>
         <id>https://www.hashicorp.com/blog/vault-logging-and-alerting-on-day-1</id>
         <link href="https://www.hashicorp.com/blog/vault-logging-and-alerting-on-day-1"/>
@@ -780,26 +987,6 @@ I liked this article, exhaustive JUnit 5 testing with combinations, permutations
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Improving performance and optimizing cost on Elastic Cloud has never been easier]]></title>
-        <id>https://www.elastic.co/blog/cloud-hardware-profile-migration-template</id>
-        <link href="https://www.elastic.co/blog/cloud-hardware-profile-migration-template"/>
-        <updated>2022-06-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hardware profile migration streamlines the migration process with no downtime and allows you to choose the most cost-effective hardware for your needs. Always ensure you're running the right combination of compute, memory, and storage for your workload.]]></summary>
-        <author>
-            <name>Yuvraj Gupta</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Elasticsearch, Kibana, Elastic Cloud 8.3: Search & replicate across any cluster]]></title>
-        <id>https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-8-3-0</id>
-        <link href="https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-8-3-0"/>
-        <updated>2022-06-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In 8.3, search and replicate data in any environment. Query old snapshots without the need of an old Elasticsearch cluster. Try out new alerting capabilities in Kibana and template migration for Elastic Cloud users to easily migrate deployments.]]></summary>
-        <author>
-            <name>Adeline Tan,Brian Bergholm,George Kobar</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The Ultimate Guide To: Your first job after graduation]]></title>
         <id>https://www.elastic.co/blog/culture-guide-to-first-job-after-graduation</id>
         <link href="https://www.elastic.co/blog/culture-guide-to-first-job-after-graduation"/>
@@ -864,41 +1051,6 @@ Optimize performance of SaaS and big d…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Improving performance and optimizing cost on Elastic Cloud has never been easier]]></title>
-        <id>https://www.elastic.co/blog/cloud-hardware-profile-migration-template</id>
-        <link href="https://www.elastic.co/blog/cloud-hardware-profile-migration-template"/>
-        <updated>2022-06-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-
-Support for new hardware profiles are continuously added to provide better price-performance on our Cloud platform.
-
-With the release of the hardware profile migration capability, you now have the flexibility to switch between hardware profiles on your existing deployment. You can see the current hardware profile on each deployment’s Overview page, have the ability to edit the profile, and select a new one. This allows you to take advantage of more efficient hardware available on cloud providers, like Graviton2-based instances on AWS, N2 machines on GCP, or Edsv4, Ddv4, or Fsv2 VMs on Azure, with the added benefit of simplifying your migration process.
-
-Getting started
-First, click  the ‘Edit’ link next to the hardware profile name:
-https://static-www.elastic.co/v3/assets/bltefdd0b53724…]]></summary>
-        <author>
-            <name>Yuvraj Gupta</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Elasticsearch, Kibana, Elastic Cloud 8.3: Search & replicate across any cluster]]></title>
-        <id>https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-8-3-0</id>
-        <link href="https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-8-3-0"/>
-        <updated>2022-06-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-In 8.3, you can search and replicate data across Elasticsearch clusters, from on-premises to cloud and vice versa. You can also query snapshots as simple archives without the need of an old Elasticsearch cluster. Achieve troubleshooting success in Kibana 8.3 with alerting in Discover, user-friendly dashboard filters, and an action that turns a visualization into a machine learning job. Plus, take advantage of migration templates that make migrating your existing deployments to the most optimal hardware type as easy as a button click.
-Ready to dive in and get started? We have the links you need:
-
-
-Try the new features on Elastic Cloud
-Download the latest versions of Elasticsearch, Kibana, Elastic Cloud on Kubernetes
-Refer to the release notes on Elasticsearch, Kibana, Elastic Cloud, Elast…]]></summary>
-        <author>
-            <name>Adeline Tan,Brian Bergholm,George Kobar</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[AWS Week in Review – June 27, 2022]]></title>
         <id>56fd8c2cc8a76ab65b87b44700ad43152791e34f</id>
         <link href="https://aws.amazon.com/blogs/aws/aws-week-in-review-june-27-2022/"/>
@@ -916,16 +1068,6 @@ Refer to the release notes on Elasticsearch, Kibana, Elastic Cloud, Elast…]]><
         <summary type="html"><![CDATA[With the recent release of the ansible.netcommon Collection version 3.0.0, we have promoted two features as standard: libssh transport and import_modules. These features provide increased performance and resiliency for your network automation. These two features, which have been available since July 2020 (libssh) and March 2021 (import_modules), are now turned on by default for playbooks running the latest version of the netcommon Collection, so let's take a look at what makes these changes so exciting!]]></summary>
         <author>
             <name>Kate Case</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What makes it a profession?]]></title>
-        <id>https://seths.blog/?p=42278</id>
-        <link href="https://feeds.feedblitz.com/~/700721376/0/sethsblog~What-makes-it-a-profession/"/>
-        <updated>2022-06-27T09:07:00.000Z</updated>
-        <summary type="html"><![CDATA[Malpractice by one of us is malpractice by all of us. When a calling turns into an industry, that can change. In an industry, it’s buyer beware. It’s us against the rest. It’s a quiet line of self-preservation. But in a profession, it’s clear that a service is on offer, and that standards and trust […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
         </author>
     </entry>
     <entry>
@@ -1558,79 +1700,6 @@ Load Config Maps and Secrets using spring.config.import removing the need to use
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[CVE report published for Spring Cloud Function]]></title>
-        <id>https://spring.io/blog/2022/06/15/cve-report-published-for-spring-cloud-function</id>
-        <link href="https://spring.io/blog/2022/06/15/cve-report-published-for-spring-cloud-function"/>
-        <updated>2022-06-16T00:08:00.000Z</updated>
-        <summary type="html"><![CDATA[We have released Spring Cloud Function 3.2.6 to address the following CVE report.
-
-
-  
-CVE-2202-22979: Spring Cloud Function Dos Vulnerability 
-
-
-Please review the information in the CVE report and upgrade immediately.]]></summary>
-        <author>
-            <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spring Tools 4.15.0 released]]></title>
-        <id>https://spring.io/blog/2022/06/15/spring-tools-4-15-0-released</id>
-        <link href="https://spring.io/blog/2022/06/15/spring-tools-4-15-0-released"/>
-        <updated>2022-06-15T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Dear Spring Community,
-
-I am happy to announce the 4.15.0 release of the Spring Tools 4 for Eclipse, Visual Studio Code, and Theia.
-major changes to the Spring Tools 4 for Eclipse distribution
-
-
-  
-updated to Eclipse 2022-06 release (new and noteworthy)
-
-
-fixes and improvements
-
-
-  
-(Spring Boot) fixed: vscode-sts: an edge case of workspace symbol for @PutMapping (#781)
-
-  
-(VSCode) fixed: Failed to refresh live data from process 12704 - com.xxxx.xx.xxx.BillingServiceApp after retries: 10 (#748)
-
-  
-(Eclipse) fixed: The Spring Boot Language Server is not immediately shutdown after closing the last open editor to avoid the need to restart the server when you open the next file (related to #568)
-
-  
-(Eclipse) fixed: When opening symbols, open the compilation unit from the relevant project (#769)
-
-  
-(Eclipse) fixed: The issue with the internal web browser not being able to open HTTP URLs on macOS got fixed. If you prefer to use the internal browser instead of an external one, you can make that switch in the preferences.
-
-  
-(Concourse) fixed: Update Concourse registry-image schema (#777)
-
-  
-(Concourse) fixed: Add registry_mirror & across as a known properties (#752)
-
-
-To download the distribution for Eclipse and find links to the marketplace entries for Visual Studio Code and Theia, please go visit:
-
-
-  
-Spring Tools 4: https://spring.io/tools/
-
-
-Detailed changes can be found here: https://github.com/spring-projects/sts4/wiki/Changelog#2022-06-15-4150-release-incl-language-servers-version-1340
-
-Spring Tools 4.15.1 is scheduled to be released in early August 2022.
-
-Enjoy!]]></summary>
-        <author>
-            <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[​​Terraform Cloud Run Tasks with Styra DAS Provides OPA Validation]]></title>
         <id>https://www.hashicorp.com/blog/terraform-cloud-run-tasks-with-styra-das-provides-opa-validation</id>
         <link href="https://www.hashicorp.com/blog/terraform-cloud-run-tasks-with-styra-das-provides-opa-validation"/>
@@ -1662,20 +1731,6 @@ Introduction
 In this blog series, we will continue discussing the deployment of Red Hat Ansible Automation Platform on Microsoft Azure.]]></summary>
         <author>
             <name>Scott Harwell</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spring Framework 5.3.21 available now]]></title>
-        <id>https://spring.io/blog/2022/06/15/spring-framework-5-3-21-available-now</id>
-        <link href="https://spring.io/blog/2022/06/15/spring-framework-5-3-21-available-now"/>
-        <updated>2022-06-15T09:04:18.000Z</updated>
-        <summary type="html"><![CDATA[On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework 5.3.21 is available now.
-
-Spring Framework 5.3.21 includes 22 fixes and improvements.
-
-Project Page | GitHub | Issues | Documentation]]></summary>
-        <author>
-            <name>Spring</name>
         </author>
     </entry>
     <entry>
@@ -1861,38 +1916,6 @@ The post Building a Desktop App with React and Camunda Platform 8 appeared first
         <summary type="html"><![CDATA[ワンパンマン]]></summary>
         <author>
             <name>原作/ＯＮＥ/漫画/村田雄介</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[8 private automation hub features about automation execution environments]]></title>
-        <id>https://www.ansible.com/blog/8-private-automation-hub-features-about-automation-execution-environments</id>
-        <link href="https://www.ansible.com/blog/8-private-automation-hub-features-about-automation-execution-environments"/>
-        <updated>2022-06-08T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Red Hat Ansible Automation Platform 2.1 introduced automation execution environments, which is a new way to package automation into a container runtime environment. In addition, private automation hub also joined the party by adding significant support for execution environments.]]></summary>
-        <author>
-            <name>jhardy@redhat.com (John Hardy)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[End-to-end Generative Pre-training for Multimodal Video Captioning]]></title>
-        <id>http://ai.googleblog.com/2022/06/end-to-end-generative-pre-training-for.html</id>
-        <link href="http://ai.googleblog.com/2022/06/end-to-end-generative-pre-training-for.html"/>
-        <updated>2022-06-07T17:24:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted by Paul Hongsuck Seo and Arsha Nagrani, Research Scientists, Google Research, Perception Team  
-Multimodal video captioning systems utilize both the video frames and speech to generate natural language descriptions (captions) of videos. Such systems are stepping stones towards the longstanding goal of building multimodal conversational systems that effortlessly communicate with users while perceiving environments through multimodal input streams.  
- Unlike video understanding tasks (e.g., video classification and retrieval) where the key challenge lies in processing and understanding multimodal input videos, the task of multimodal video captioning includes the additional challenge of generating grounded captions. The most widely adopted approach for this task is to train an encoder-…]]></summary>
-        <author>
-            <name>Google AI Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HCP Consul on Azure is Now in Public Beta]]></title>
-        <id>https://www.hashicorp.com/blog/hcp-consul-on-azure</id>
-        <link href="https://www.hashicorp.com/blog/hcp-consul-on-azure"/>
-        <updated>2022-06-07T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[HCP Consul on Microsoft Azure is now available in public beta. Get started today with a secure, resilient service mesh for connecting applications running in Azure.]]></summary>
-        <author>
-            <name>HashiCorp Blog</name>
         </author>
     </entry>
 </feed>

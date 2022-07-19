@@ -6,6 +6,16 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2022/07/18/spring-security-5-8-0-m1-and-6-0-0-m6-are-released",
+          "author": null,
+          "description": "On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Security 5.8.0-M1 and 6.0.0-M6 are available now.\n\r\n\r\n\r\nThis release includes dependency upgrades, bug fixes, and enhancements. Here are a few noteworthy changes:\n\r\n\r\n\r\n\r\n\r\nDeferred SecurityContext lookup\n\r\n\r\n\r\nSecurityContextHolderStrategy Bean lookup\n\r\n\r\n\r\nAuthorizationManager support\n\r\n\r\n\r\nSHA-256 RememberMe support\n\r\n\r\n\r\nRelease automation improvements\n\r\n\r\n\r\n\r\n\r\nSee the 5.8.0-M1 and 6.0.0-M6 release notes for more details.\n\r\n\r\n\r\nProject Site | Reference | Help",
+          "link": "https://spring.io/blog/2022/07/18/spring-security-5-8-0-m1-and-6-0-0-m6-are-released",
+          "publishedOn": "2022-07-18T19:00:00.000Z",
+          "wordCount": 566,
+          "title": "Spring Security 5.8.0-M1 and 6.0.0-M6 are released",
+          "imageUrl": "https://avatars.githubusercontent.com/u/3627351?v=4?s=200"
+        },
+        {
           "id": "https://spring.io/blog/2022/07/17/spring-tips-kubernetes-native-java-redux-2022",
           "author": null,
           "description": "Hi, Spring fans! In this installment, Josh Long (@starbuxman) looks at some of the amazing opportunities for building Spring Boot applications intended for production in Kubernetes in mid 2022. \n\r\nThe code, as usual, is available on the spring-tips Github organization",
@@ -78,10 +88,10 @@
         {
           "id": "https://spring.io/blog/2022/07/07/spring-for-apache-kafka-2-9-release-candidate-available",
           "author": null,
-          "description": "I am pleased to announce that the release candidate Spring for Apache Kafka 2.9.0 is now available (2.9.0-RC1) in the Spring Milestone Repo.\n\r\n\r\n\r\nThis version is not provided by Spring Boot dependency management, but it can be used with Boot 2.7, as long as you override the Kafka dependencies as described in this appendix, especially if you are using the embedded Kafka broker.\n\r\n\r\n\r\nNotable Changes\n\r\n\r\n\r\n\r\nThis version uses the 3.2.0 kafka-clients version\n\r\n\r\n\r\nNon-blocking retry bootstrapping is now more robust\n\r\n\r\n\r\nNew Error Handler Mode\n\r\n\r\n\r\n\r\n\r\nBy default, after an error, the DefaultErrorHandler performs seeks on the remaining records from the last poll and re-fetches them from the broker on the next poll.\r\nWith high error rates and large max.poll.records, this can cause unnecessary strain on the network.\r\nFor this reason, the error handler has a new property seekAfterError, when set to false, instead of seeking the records, the remaining records are retained in memory and the consumer paused for the next poll (or multiple polls if the error handler is configured to use the ContainerPausingBackOffHandler).\n\r\n\r\n\r\n\r\n\r\nPausing Containers\n\r\n\r\n\r\n\r\n\r\nBy default, when you pause() a container, it actually pauses when all the records from the previous poll have been processed.\r\nThis version adds the pauseImmediate container property, which, when true, causes the container to pause after the current record is processed.\n\r\n\r\n\r\nFor information about all changes in this release, see What’s New.\n\r\n\r\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
+          "description": "I am pleased to announce that the release candidate Spring for Apache Kafka 2.9.0 is now available (2.9.0-RC1) in the Spring Milestone Repo.\n\r\n\r\n\r\nThis version is not provided by Spring Boot dependency management, but it can be used with Boot 2.7 (or 2.6), as long as you override the Kafka dependencies as described in this appendix, especially if you are using the embedded Kafka broker.\n\r\n\r\n\r\nNotable Changes\n\r\n\r\n\r\n\r\nThis version uses the 3.2.0 kafka-clients version\n\r\n\r\n\r\nNon-blocking retry bootstrapping is now more robust\n\r\n\r\n\r\nNew Error Handler Mode\n\r\n\r\n\r\n\r\n\r\nBy default, after an error, the DefaultErrorHandler performs seeks on the remaining records from the last poll and re-fetches them from the broker on the next poll.\r\nWith high error rates and large max.poll.records, this can cause unnecessary strain on the network.\r\nFor this reason, the error handler has a new property seekAfterError, when set to false, instead of seeking the records, the remaining records are retained in memory and the consumer paused for the next poll (or multiple polls if the error handler is configured to use the ContainerPausingBackOffHandler).\n\r\n\r\n\r\n\r\n\r\nPausing Containers\n\r\n\r\n\r\n\r\n\r\nBy default, when you pause() a container, it actually pauses when all the records from the previous poll have been processed.\r\nThis version adds the pauseImmediate container property, which, when true, causes the container to pause after the current record is processed.\n\r\n\r\n\r\nFor information about all changes in this release, see What’s New.\n\r\n\r\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
           "link": "https://spring.io/blog/2022/07/07/spring-for-apache-kafka-2-9-release-candidate-available",
-          "publishedOn": "2022-07-07T16:18:55.000Z",
-          "wordCount": 740,
+          "publishedOn": "2022-07-07T16:18:00.000Z",
+          "wordCount": 742,
           "title": "Spring for Apache Kafka 2.9 Release Candidate Available",
           "imageUrl": "https://avatars.githubusercontent.com/u/483832?v=4?s=200"
         },
@@ -194,16 +204,6 @@
           "wordCount": 814,
           "title": "This Week in Spring - June 21st, 2022",
           "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/06/20/spring-security-5-7-2-and-5-6-6-available-now",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Security 5.7.2 and 5.6.6 are available now.\n\r\n\r\n\r\nYou can find more details about the respective releases here and\r\n here.",
-          "link": "https://spring.io/blog/2022/06/20/spring-security-5-7-2-and-5-6-6-available-now",
-          "publishedOn": "2022-06-20T20:00:00.000Z",
-          "wordCount": 533,
-          "title": "Spring Security 5.7.2 and 5.6.6 available now",
-          "imageUrl": "https://avatars.githubusercontent.com/u/10884212?v=4?s=200"
         }
       ]
     },
@@ -212,6 +212,16 @@
       "feedUrl": "https://www.hashicorp.com/blog/feed.xml",
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
+        {
+          "id": "https://www.hashicorp.com/blog/recruiting-for-early-careers-at-hashicorp",
+          "author": null,
+          "description": "The second year of HashiCorp’s Early Career Program includes some 70 interns. The Early Career recruiting team shares details and offers tips for prospective candidates.",
+          "link": "https://www.hashicorp.com/blog/recruiting-for-early-careers-at-hashicorp",
+          "publishedOn": "2022-07-18T18:00:00.000Z",
+          "wordCount": 2418,
+          "title": "Recruiting for Early Careers at HashiCorp",
+          "imageUrl": "https://www.datocms-assets.com/2885/1658166656-hashicorp-early-career-program-intern-logo.png"
+        },
         {
           "id": "https://www.hashicorp.com/blog/announcing-azure-stack-hub-provider-1-0",
           "author": null,
@@ -258,7 +268,7 @@
           "description": "Eight members of the HashiCorp Blacksmiths’ employee resource group share how they spent Juneteenth this year, and reflect on what they learned.",
           "link": "https://www.hashicorp.com/blog/reflections-on-juneteenth",
           "publishedOn": "2022-06-29T17:00:00.000Z",
-          "wordCount": 3628,
+          "wordCount": 3626,
           "title": "Reflections on Juneteenth",
           "imageUrl": "https://www.datocms-assets.com/2885/1645814146-blacksmiths_blog_index_1600x900.png"
         },
@@ -689,7 +699,7 @@
           "description": "Over these last few months, our team has been working hard at delivering new value in Azure Boards. We would like to take a moment to highlight some of the most recently released features. Be sure to check out the Features Timeline for updates and our product roadmap.\nThe post Azure Boards Summer Update appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azure-boards-summer-update-2/",
           "publishedOn": "2022-07-14T18:21:10.000Z",
-          "wordCount": 5270,
+          "wordCount": 5483,
           "title": "Azure Boards Summer Update",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/03/agile.png"
         },
@@ -699,7 +709,7 @@
           "description": "​In April of this year, we completed a major project to archive older versions of our content. \nThe post Content archived for Azure DevOps previous versions appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/content-archived-for-azure-devops-previous-versions/",
           "publishedOn": "2022-07-12T21:32:27.000Z",
-          "wordCount": 4788,
+          "wordCount": 4489,
           "title": "Content archived for Azure DevOps previous versions",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/07/content-version-selector.png"
         },
@@ -709,7 +719,7 @@
           "description": "This month, we are releasing fixes that impact our self-hosted product, Azure DevOps Server.\nIn Test Runs APIs, the continuation token being returned was greater than the “maxLastUpdatedDate” value that was specified.\nThe post July patches for Azure DevOps Server appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/july-patches-for-azure-devops-server/",
           "publishedOn": "2022-07-12T18:29:56.000Z",
-          "wordCount": 4717,
+          "wordCount": 4506,
           "title": "July patches for Azure DevOps Server",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/06/HERO-1.jpg"
         },
@@ -736,6 +746,16 @@
       "feedUrl": "http://feeds.feedburner.com/AmazonWebServicesBlog",
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
+        {
+          "id": "0d85312f4833bb666f3613acb995ab332f610620",
+          "author": "Channy Yun",
+          "description": "Last week, AWS Summit New York was held in person at the Javits Center with thousands of attendees and over 100 sponsors and partners. During the keynote, Martin Beeby, AWS Principal Developer Advocate, talked about how innovations in cloud infrastructure enable customers to adapt to challenges and seize new opportunities. It included Liz Fong-Jones‘s great […]",
+          "link": "https://aws.amazon.com/blogs/aws/aws-week-in-review-july-18-2022/",
+          "publishedOn": "2022-07-18T17:02:40.000Z",
+          "wordCount": 1799,
+          "title": "AWS Week In Review – July 18, 2022",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/07/15/AWS-WIR-7.18.22.png"
+        },
         {
           "id": "f8f3e67b2d22e5494e1d6a32842aa2c9ac55f021",
           "author": "Donnie Prakoso",
@@ -864,12 +884,22 @@
       "siteUrl": "https://xkcd.com/",
       "articles": [
         {
+          "id": "https://xkcd.com/2647/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/capri_suns.png\" title=\"[As security is dragging me away] &quot;Come on, at least I didn't make the mistake in the other direction!&quot;\" alt=\"[As security is dragging me away] &quot;Come on, at least I didn't make the mistake in the other direction!&quot;\" />",
+          "link": "https://xkcd.com/2647/",
+          "publishedOn": "2022-07-18T00:00:00.000Z",
+          "wordCount": 232,
+          "title": "Capri Suns",
+          "imageUrl": "https://imgs.xkcd.com/comics/capri_suns_2x.png"
+        },
+        {
           "id": "https://xkcd.com/2646/",
           "author": null,
           "description": "<img src=\"https://imgs.xkcd.com/comics/minkowski_space.png\" title=\"My liege, we were able to follow the ship into Minkowski space, but now they've jumped to Hilbert space and they could honestly be anywhere.\" alt=\"My liege, we were able to follow the ship into Minkowski space, but now they've jumped to Hilbert space and they could honestly be anywhere.\" />",
           "link": "https://xkcd.com/2646/",
           "publishedOn": "2022-07-15T00:00:00.000Z",
-          "wordCount": 223,
+          "wordCount": 232,
           "title": "Minkowski Space",
           "imageUrl": "https://imgs.xkcd.com/comics/minkowski_space_2x.png"
         },
@@ -879,7 +909,7 @@
           "description": "<img src=\"https://imgs.xkcd.com/comics/the_best_camera.png\" title=\"The best camera is the one at L2.\" alt=\"The best camera is the one at L2.\" />",
           "link": "https://xkcd.com/2645/",
           "publishedOn": "2022-07-13T00:00:00.000Z",
-          "wordCount": 225,
+          "wordCount": 234,
           "title": "The Best Camera",
           "imageUrl": "https://imgs.xkcd.com/comics/the_best_camera_2x.png"
         },
@@ -889,19 +919,9 @@
           "description": "<img src=\"https://imgs.xkcd.com/comics/fmri_billboard.png\" title=\"[other side] If the first word of an instruction you're given starts with the same letter as your crush's name, for that step imagine the experimenter is your crush.\" alt=\"[other side] If the first word of an instruction you're given starts with the same letter as your crush's name, for that step imagine the experimenter is your crush.\" />",
           "link": "https://xkcd.com/2644/",
           "publishedOn": "2022-07-11T00:00:00.000Z",
-          "wordCount": 223,
+          "wordCount": 232,
           "title": "fMRI Billboard",
           "imageUrl": "https://imgs.xkcd.com/comics/fmri_billboard_2x.png"
-        },
-        {
-          "id": "https://xkcd.com/2643/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/cosmologist_gift.png\" title=\"These neutrinos were freshly produced by a local source just 8 minutes ago\" alt=\"These neutrinos were freshly produced by a local source just 8 minutes ago\" />",
-          "link": "https://xkcd.com/2643/",
-          "publishedOn": "2022-07-08T00:00:00.000Z",
-          "wordCount": 223,
-          "title": "Cosmologist Gift",
-          "imageUrl": "https://imgs.xkcd.com/comics/cosmologist_gift_2x.png"
         }
       ]
     },
@@ -916,7 +936,7 @@
           "description": "In this new blog series, we explore the reasons why customers are migrating to Camunda 8. For our first installment of Why Camunda 8, we talked to Gruner + Jahr, one of the largest premium magazine publishers in Europe. G+J includes such established (German) print and digital brands as STERN, GEO, BRIGITTE, ESSEN & TRINKEN, and SCHÖNER WOHNEN, as well as younger brands such as CHEFKOCH, BARBARA, BEEF, 11FREUNDE. In addition to the numerous print and digital media offerings, G+J offers products and licenses such as the SCHÖNER WOHNEN collection. The digital business contributes more than half of revenues and is exhibiting continued strong growth. Indeed, the company’s digital products lead the rankings in all publishing segments, from news through...\nThe post Why Gruner + Jahr Chose Camunda 8 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/07/why-gruner-jahr-chose-camunda-8/",
           "publishedOn": "2022-07-13T10:00:00.000Z",
-          "wordCount": 2711,
+          "wordCount": 2710,
           "title": "Why Gruner + Jahr Chose Camunda 8",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/07/Official-Slide-Template-Camunda-2022_1200x627-3.jpg"
         },
@@ -956,7 +976,7 @@
           "description": "We are pleased to announce the next alpha release of Camunda Platform Runtime 7.18. \nThe post Camunda Automation Platform 7.18.0-alpha3 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/07/camunda-automation-platform-7-18-0-alpha3-released/",
           "publishedOn": "2022-07-12T07:00:00.000Z",
-          "wordCount": 2495,
+          "wordCount": 2496,
           "title": "Camunda Automation Platform 7.18.0-alpha3 Released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/07/Camunda_Blog_Release-Notes_2022-07JUL_Automation-Platform7.png"
         },
@@ -966,7 +986,7 @@
           "description": "Organizations can use Camunda Platform 8 to build resilient systems that can withstand disasters in the form of complete data center outages.\nThe post How to Achieve Geo-redundancy with Zeebe appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/06/how-to-achieve-geo-redundancy-with-zeebe/",
           "publishedOn": "2022-06-28T13:30:00.000Z",
-          "wordCount": 4957,
+          "wordCount": 4956,
           "title": "How to Achieve Geo-redundancy with Zeebe",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/06/Camunda_June-2022_Blog_How-to-Achieve-Geo-redundancy-Zeebe_1200x630.png"
         },
@@ -1025,6 +1045,16 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/2022-07-18-open-source-monthly-july-2022-edition/",
+          "author": null,
+          "description": "July's Open Source Monthly features Zag.js, which leverages state machines to make framework agnostic components.",
+          "link": "https://github.blog/2022-07-18-open-source-monthly-july-2022-edition/",
+          "publishedOn": "2022-07-18T16:06:57.000Z",
+          "wordCount": 1543,
+          "title": "Open Source Monthly: July 2022 Edition",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/07/juneopensource1.png"
+        },
+        {
           "id": "https://github.blog/2022-07-14-research-how-github-copilot-helps-improve-developer-productivity/",
           "author": null,
           "description": "We surveyed more than 2,000 developers about whether GitHub Copilot helped them be more productive and improved their coding. Then, we matched this qualitative feedback and subjective perception with quantitative data around objective usage measurements and productivity.",
@@ -1040,7 +1070,7 @@
           "description": "Read about the six key themes, and tips for each, that ensure sustainable and healthy open source communities.",
           "link": "https://github.blog/2022-07-07-healthy-and-sustainable-communities/",
           "publishedOn": "2022-07-07T18:00:44.000Z",
-          "wordCount": 1977,
+          "wordCount": 1971,
           "title": "Top tips for creating a healthy and sustainable open source community",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/05/Community-Open-Source@2x.png?fit=2400%2C1260"
         },
@@ -1060,7 +1090,7 @@
           "description": "A Little Game Called Mario is an open source, collectively developed hell project. Anyone and everyone is welcome to contribute their unique talents to make both the player and developer experience more enjoyable. Find out how the collective leverages GitHub Actions to manage this wonderful little community.",
           "link": "https://github.blog/2022-07-06-managing-a-game-dev-community/",
           "publishedOn": "2022-07-06T08:00:15.000Z",
-          "wordCount": 3240,
+          "wordCount": 3234,
           "title": "Managing a game dev community with GitHub Actions",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/06/175615676-6bb18def-8e34-4106-b66c-b60ed4abf330-1-1.png"
         },
@@ -1100,7 +1130,7 @@
           "description": "Maintainers answer your questions about how to manage an open source project that grows into a community.",
           "link": "https://github.blog/2022-06-30-what-to-do-when-your-open-source-project-becomes-a-community/",
           "publishedOn": "2022-06-30T15:11:39.000Z",
-          "wordCount": 2593,
+          "wordCount": 2578,
           "title": "What to do when your open source project becomes a community?",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/06/2400x1260-ReadMe-Blog-Banner-062022.jpg"
         },
@@ -1110,19 +1140,9 @@
           "description": "Meet the 2022 MLH Fellowship cohort! This 12-week internship alternative is for aspiring software engineers, and powered by GitHub.",
           "link": "https://github.blog/2022-06-30-announcing-the-summer-2022-mlh-fellowship-github-contributors/",
           "publishedOn": "2022-06-30T15:00:47.000Z",
-          "wordCount": 1568,
+          "wordCount": 1551,
           "title": "Announcing the summer 2022 MLH Fellowship GitHub Contributors",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/06/blog-6-header.png?fit=3167%2C1667"
-        },
-        {
-          "id": "https://github.blog/2022-06-29-the-chromium-super-inline-cache-type-confusion/",
-          "author": null,
-          "description": "In this post I'll exploit CVE-2022-1134, a type confusion in Chrome that I reported in March 2022, which allows remote code execution (RCE) in the renderer sandbox of Chrome by a single visit to a malicious site. I'll also look at some past vulnerabilities of this type and some implementation details of inline cache in V8, the JavaScript engine of Chrome.",
-          "link": "https://github.blog/2022-06-29-the-chromium-super-inline-cache-type-confusion/",
-          "publishedOn": "2022-06-29T18:39:46.000Z",
-          "wordCount": 7909,
-          "title": "The Chromium super (inline cache) type confusion",
-          "imageUrl": "https://github.blog/wp-content/uploads/2021/12/GitHub-security_teal-banner.png"
         }
       ]
     },
@@ -1143,6 +1163,16 @@
       "feedUrl": "http://feeds.feedburner.com/blogspot/gJZg",
       "siteUrl": "http://ai.googleblog.com/",
       "articles": [
+        {
+          "id": "http://ai.googleblog.com/2022/07/google-at-icml-2022.html",
+          "author": null,
+          "description": "Posted by Cat Armato, Program Manager, University Relations \nGoogle is a leader in machine learning (ML) research with groups innovating across virtually all aspects of the field, from theory to application. We build machine learning systems to solve deep scientific and engineering challenges in areas of language, music, visual processing, algorithm development, and more. Core to our approach is to actively engage with the broader research community by open-sourcing datasets and models, publishing our discoveries, and actively participating in leading conferences. \nGoogle is proud to be a Diamond Sponsor of the thirty-ninth International Conference on Machine Learning (ICML 2022), a premier annual conference, which is being held this week in Baltimore, Maryland. Google has a strong presenc…",
+          "link": "http://ai.googleblog.com/2022/07/google-at-icml-2022.html",
+          "publishedOn": "2022-07-18T20:54:00.000Z",
+          "wordCount": 10143,
+          "title": "Google at ICML 2022",
+          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
+        },
         {
           "id": "http://ai.googleblog.com/2022/07/towards-reliability-in-deep-learning.html",
           "author": null,
@@ -1261,12 +1291,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=42351",
+          "author": "Seth Godin",
+          "description": "It must be more than a coincidence that there are almost enough jobs for everyone–a billion more jobs on Earth than there were a generation ago. Unemployment is debilitating and a real problem, but even high unemployment in many countries still means that most people have a job. Many times, it’s a job that didn’t […]",
+          "link": "https://feeds.feedblitz.com/~/703134812/0/sethsblog~Where-do-jobs-come-from/",
+          "publishedOn": "2022-07-18T09:42:00.000Z",
+          "wordCount": 1178,
+          "title": "Where do jobs come from?",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806139-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=43263",
           "author": "Seth Godin",
           "description": "On the West Side Highway in Manhattan, there’s currently a billboard for some sort of placebo supplement. In the corner is a QR code for more information. Unless the person in the passenger seat has a telephoto lens on their phone, there’s no way in the world that this is going to work. My late […]",
           "link": "https://feeds.feedblitz.com/~/703058416/0/sethsblog~Little-billboards/",
           "publishedOn": "2022-07-17T08:14:00.000Z",
-          "wordCount": 1266,
+          "wordCount": 1267,
           "title": "Little billboards",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806133-1.jpg"
         },
@@ -1349,16 +1389,6 @@
           "wordCount": 1098,
           "title": "With/for/to",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061315.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=42319",
-          "author": "Seth Godin",
-          "description": "Humans gossipped before we figured out fire, housing or farming. It’s built into our culture and possibly our DNA. Gossip informs culture and can influence connection and hierarchies. And in many communities, it’s destructive. If office gossip is benefitting you and the people you work with, good for you. But if office gossip is leading […]",
-          "link": "https://feeds.feedblitz.com/~/702055316/0/sethsblog~Office-gossip/",
-          "publishedOn": "2022-07-08T08:35:00.000Z",
-          "wordCount": 1333,
-          "title": "Office gossip",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg"
         }
       ]
     },
@@ -1367,6 +1397,26 @@
       "feedUrl": "https://blog.jetbrains.com/feed/",
       "siteUrl": "https://blog.jetbrains.com",
       "articles": [
+        {
+          "id": "https://blog.jetbrains.com/?post_type=phpstorm&p=265205",
+          "author": "Brent Roose",
+          "description": "PhpStorm 2022.1 Beta 2 is now available! You can upgrade to the latest build using the Toolbox App or from our website. Download PhpStorm 2022.2 Beta 2 We are now working on preparing everything for the upcoming release. In the meantime, we invite you to check out the release notes to see what has changed […]",
+          "link": "https://blog.jetbrains.com/phpstorm/2022/07/phpstorm-2022-2-beta-2/",
+          "publishedOn": "2022-07-18T12:45:52.000Z",
+          "wordCount": 1096,
+          "title": "PhpStorm 2022.2 Beta 2",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/07/ps-youtube-video-youtube-thumbnail-1280x720-1-2.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=263533",
+          "author": "Sasha Ivanova",
+          "description": "Having a profiling tool integrated into your IDE is an asset no developer can discount the value of. The undeniable convenience of being able to screen your app for performance issues on the fly is why the dotTrace profiler comes integrated into Rider. With our latest EAP build, we’re expanding on that convenience by introducing […]",
+          "link": "https://blog.jetbrains.com/dotnet/2022/07/18/how-to-profile-net-code-using-the-dotmemory-plugin-in-rider/",
+          "publishedOn": "2022-07-18T10:59:47.000Z",
+          "wordCount": 2147,
+          "title": "How to Profile .NET Code Using the dotMemory Plugin in Rider",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/07/rd-how-tos-blog-social-share-image-1280x720-1.png"
+        },
         {
           "id": "https://blog.jetbrains.com/?post_type=appcode&p=264897",
           "author": "Anastasia Kazakova",
@@ -1413,7 +1463,7 @@
           "description": "The PhpStorm 2022.1.4 Release Candidate is now available! It’s the final build before the stable release. These are the most notable changes and bug fixes: Fixed: External diff tools settings being lost after IDE restart (IDEA-296696)  Fixed: High CPU usage during AsciiDoc editing (IDEA-296241)  Fixed: Permanently disabled Run Git Hooks checkbox (IDEA-264817)  Fixed: a crash […]",
           "link": "https://blog.jetbrains.com/phpstorm/2022/07/phpstorm-2022-1-4-rc/",
           "publishedOn": "2022-07-15T08:04:35.000Z",
-          "wordCount": 1125,
+          "wordCount": 1136,
           "title": "PhpStorm 2022.1.4 RC",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/07/ps-youtube-video-youtube-thumbnail-1280x720-1-1.png"
         },
@@ -1423,7 +1473,7 @@
           "description": "Join us Tuesday, August 16, 2022, 14:00 – 15:00 UTC (check other timezones) for our free live webinar, Pragmatic Event Sourcing in .NET With Marten with Developer, Educator, and Event Sourcerer (pun intended) Oskar Dudycz. Register now and get a reminder, or join on YouTube Event Sourcing is often presented as an academic pattern, with […]",
           "link": "https://blog.jetbrains.com/dotnet/2022/07/15/webinar-pragmatic-event-sourcing-in-net-with-marten/",
           "publishedOn": "2022-07-15T05:50:40.000Z",
-          "wordCount": 1311,
+          "wordCount": 1318,
           "title": "Webinar: Pragmatic Event Sourcing in .NET With Marten",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/07/DSGN-14154-Webinar-Pragmatic-Event-Sourcing-in-dotNET-With-Marten_JB_Blog_Social_share_image_1280-720.png"
         },
@@ -1466,26 +1516,6 @@
           "wordCount": 1430,
           "title": "How to Get the Best Autocomplete in Jupyter Notebooks and More",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/07/dl-blue-blog-social-share-image-1280x720-1.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=big-data-tools&p=264337",
-          "author": "Pasha Finkelshteyn",
-          "description": "Hi, I’m Pasha Finkelshteyn, and I’ll be your guide today through this month’s news. I’ll offer my impressions of recent developments in the data engineering space and highlight new ideas from the wider community. If you think I missed something worthwhile, catch me on Twitter and suggest a topic, link, or anything else you want […]",
-          "link": "https://blog.jetbrains.com/big-data-tools/2022/07/14/data-engineering-annotated-monthly-june-2022/",
-          "publishedOn": "2022-07-14T05:49:50.000Z",
-          "wordCount": 2414,
-          "title": "Data Engineering Annotated Monthly – June 2022",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/07/data-engineering-blog-social-share-image-1280x720-1-1.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=pycharm&p=264345",
-          "author": "Valeria Letusheva",
-          "description": "With the major release of PyCharm 2022.2 quickly approaching, we are putting the finishing touches on the new features and enhancements. At this stage, we are particularly keen to get your feedback so we can make the major release as smooth as possible. Please share your feedback in the comments to this post, in our […]",
-          "link": "https://blog.jetbrains.com/pycharm/2022/07/2022-2-eap-6/",
-          "publishedOn": "2022-07-13T14:46:37.000Z",
-          "wordCount": 1218,
-          "title": "PyCharm 2022.2 EAP 6 Is Available",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/05/Blog_Featured_image_1280x600_PyCharm.png"
         }
       ]
     }

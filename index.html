@@ -22,6 +22,54 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-08-06 datetime="2022-08-06T08:11:00.000Z">2022-08-06</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-08-06 datetime="2022-08-06T08:11:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Seth Godin&#x27;s Blog on marketing, tribes and respect</button>
+                  <a class="source-heading__link" href="https://seths.blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://seths.blog/?p&#x3D;42462"
+                        open
+                      >
+                        <summary class="article-expander__title">Crickets</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://feeds.feedblitz.com/~/705352012/0/sethsblog~Crickets/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061314.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>When we sing in the shower, we hardly expect applause. In fact, that would be awfully weird. But online, when just about anyone might be clicking, watching or sharing, it’s disappointing to put your work into the world and hear nothing. Nothing but a black hole that absorbs your best work and reflects nothing back. […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-08-05 datetime="2022-08-05T17:00:38.000Z">2022-08-05</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-08-05 datetime="2022-08-05T17:00:38.000Z"></time>
           </button>
@@ -1044,7 +1092,7 @@ In the protections-artifacts repo, you’ll find protection logic utilized by El
                             <span class="media-object__text">
                               <span>Since the March announcement of the New Boards Hub, our team has collected a lot of your feedback. Thank you! We have been hard at work addressing the issues. Every week the experience gets better and better. The issues backlog is getting smaller,
 The post New Boards Hub, Sprint 208 Update appeared first on Azure DevOps Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;17
+                                &ensp;<span class="article-reading-time">(&hairsp;16
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2710,40 +2758,6 @@ At Google I/O 2022, we announced Look and Talk, a major development in our jou�
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Seth Godin&#x27;s Blog on marketing, tribes and respect</button>
-                  <a class="source-heading__link" href="https://seths.blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://seths.blog/?p&#x3D;43448"
-                        open
-                      >
-                        <summary class="article-expander__title">Management with intent</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://feeds.feedblitz.com/~/703925494/0/sethsblog~Management-with-intent/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_180613-1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>When Frederic Taylor brought the world Scientific Management a hundred years ago, it changed what it meant to run a factory. Stopwatches and assembly lines dramatically outperformed the traditional piecemeal approach. Henry Ford wrote a four page article for Encyclopedia Brittanica about how organizations could embrace the new model, and his focus on this lowered […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -4066,7 +4080,7 @@ Project Site | Reference | Help</span>
                             <span class="media-object__text">
                               <span>Over these last few months, our team has been working hard at delivering new value in Azure Boards. We would like to take a moment to highlight some of the most recently released features. Be sure to check out the Features Timeline for updates and our product roadmap.
 The post Azure Boards Summer Update appeared first on Azure DevOps Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;20
+                                &ensp;<span class="article-reading-time">(&hairsp;19
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4711,94 +4725,10 @@ In co…</span>
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-07-07 datetime="2022-07-07T20:21:11.000Z">2022-07-07</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-07-07 datetime="2022-07-07T20:21:11.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >AWS News Blog</button>
-                  <a class="source-heading__link" href="https://aws.amazon.com/blogs/aws/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="d02cbfaaaed8a473decb31bee87fb99c5ce2448d"
-                        open
-                      >
-                        <summary class="article-expander__title">New – Amazon EC2 M1 Mac Instances</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://aws.amazon.com/blogs/aws/new-amazon-ec2-m1-mac-instances/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/06/27/Site-Merch_EC2-M1-Mac_Blog.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Last year, during the re:Invent 2021 conference, I wrote a blog post to announce the preview of EC2 M1 Mac instances. I know many of you requested access to the preview, and we did our best but could not satisfy everybody. However, the wait is over. I have the pleasure of announcing the general availability […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Google AI Blog</button>
-                  <a class="source-heading__link" href="http://ai.googleblog.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://ai.googleblog.com/2022/07/enabling-creative-expression-with.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Enabling Creative Expression with Concept Activation Vectors</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://ai.googleblog.com/2022/07/enabling-creative-expression-with.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Posted by Been Kim, Research Scientist, Google Research, Brain Team, and Alison Lentz, Senior Staff Strategist, Google Research, Mural Team  
-Advances in computer vision and natural language processing continue to unlock new ways of exploring billions of images available on public and searchable websites. Today’s visual search tools make it possible to search with your camera, voice, text, images, or multiple modalities at the same time. However, it remains difficult to input subjective concepts, such as visual tones or moods, into current systems. For this reason, we have been working collaboratively with artists, photographers, and image researchers to explore how machine learning (ML) might enable people to use expressive queries as a way of visually exploring datasets. 
-Today, we are i…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;22
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/vxavictor513/osmosfeed/actions/runs/2807217213">
-        <time id="build-timestamp" datetime="2022-08-06T01:57:20.349Z">2022-08-06T01:57:20.349Z</time>
+      <a class="footer-link" href="https://github.com/vxavictor513/osmosfeed/actions/runs/2810996844">
+        <time id="build-timestamp" datetime="2022-08-07T02:06:19.079Z">2022-08-07T02:06:19.079Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

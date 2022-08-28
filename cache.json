@@ -6,6 +6,16 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2022/08/26/creating-a-custom-spring-cloud-gateway-filter",
+          "author": null,
+          "description": "In this article, we look into writing a custom extension for Spring Cloud Gateway. Before we get started, let’s go over how Spring Cloud Gateway works:\n\r\n\n\r\n\r\n  \nFirst, a client makes a network request to the Gateway\n\r\n  \nThe Gateway is defined with a number of routes, each with Predicates to match the request to the route. For example, you can match on the path segment of the URL or the HTTP method of the request.\n\r\n  \nOnce matched, the Gateway executes pre-request logic on each of the filters applied to the route. For example, you might want to add query parameters to your request\n\r\n  \nA proxy filter routes the request to the proxied service\n\r\n  \nThe service executes and returns a response\n\r\n  \nThe gateway receives the response and executes post-request logic on each filter before return…",
+          "link": "https://spring.io/blog/2022/08/26/creating-a-custom-spring-cloud-gateway-filter",
+          "publishedOn": "2022-08-27T05:15:00.000Z",
+          "wordCount": 1800,
+          "title": "Creating a custom Spring Cloud Gateway Filter",
+          "imageUrl": "https://avatars.githubusercontent.com/u/1717428?v=4?s=200"
+        },
+        {
           "id": "https://spring.io/blog/2022/08/25/a-bootiful-podcast-fellow-java-champion-and-timescaledb-developer-advocate-christoph-engelbert",
           "author": null,
           "description": "Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks to fellow Java Champion and TimescaleDB developer advocate Christoph Engelbert (@noctarius2k) about PostgreSQL, Java, time series databases, observability, and so much more.",
@@ -194,16 +204,6 @@
           "wordCount": 530,
           "title": "A Bootiful Podcast: Observability guru Jonatan Ivanov on the future of observability in Spring Boot",
           "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/08/04/spring-tools-4-15-2-released",
-          "author": null,
-          "description": "Dear Spring Community,\n\r\nI am happy to announce the 4.15.2 release of the Spring Tools 4 for Eclipse, Visual Studio Code, and Theia.\nfixes and improvements\n\r\n\r\n  \n(Spring Boot) fixed: Validation errors on @@ placeholders in YAML editor (#711)\n\r\n  \n(VSCode) fixed: Live process is not auto connected when app is launched in internalConsole (#794)\n\r\n  \n(Eclipse) fixed: Cleanup / reduce verbosity of diagnostic output in Eclipse logs (#798)\n\r\n  \n(Eclipse) fixed: Not properly disposed SWT resource was caused Spring Starter Project (#797)\n\r\n  \n(Eclipse) fixed: avoid live hover connection attempt when deploying app to docker without actuator (#716)\n\r\n  \n(Eclipse) fixed: Devtools integration with boot dash docker is broken (#724)\n\r\n  \n(Eclipse) fixed: Pause / Resume for docker boot dash malfunctions (#783)\n\r\n  \n(Concourse) fixed: Concourse extension (in vscode) doesn’t allow on_error in Steps (#737)\n\r\n\r\nTo download the distribution for Eclipse and find links to the marketplace entries for Visual Studio Code and Theia, please go visit:\n\r\n\r\n  \nSpring Tools 4: https://spring.io/tools/\n\r\n\r\nDetailed changes can be found here: https://github.com/spring-projects/sts4/wiki/Changelog#2022-08-03-4152-release-incl-language-servers-version-1370\n\r\nSpring Tools 4.16.0 is scheduled to be released in mid September 2022.\n\r\nEnjoy!",
-          "link": "https://spring.io/blog/2022/08/04/spring-tools-4-15-2-released",
-          "publishedOn": "2022-08-04T08:50:00.000Z",
-          "wordCount": 664,
-          "title": "Spring Tools 4.15.2 released",
-          "imageUrl": "https://avatars.githubusercontent.com/u/107705?v=4?s=200"
         }
       ]
     },
@@ -371,16 +371,6 @@
           "wordCount": 2547,
           "title": "CDK for Terraform Is Now Generally Available",
           "imageUrl": "https://www.datocms-assets.com/2885/1632350732-terraform-share.png"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/meet-hashicorp-2022-interns",
-          "author": null,
-          "description": "Six interns in HashiCorp’s Early Career Program share their expectations, highs and lows, how they’ve built relationships, and advice for future interns.",
-          "link": "https://www.hashicorp.com/blog/meet-hashicorp-2022-interns",
-          "publishedOn": "2022-07-28T16:00:00.000Z",
-          "wordCount": 2819,
-          "title": "Meet Some of HashiCorp’s Talented 2022 Interns",
-          "imageUrl": "https://www.datocms-assets.com/2885/1658166656-hashicorp-early-career-program-intern-logo.png"
         }
       ]
     },
@@ -669,7 +659,7 @@
           "description": "This month, we are releasing fixes that impact our self-hosted product, Azure DevOps Server.\nFix identity value error while assigning a work item to an identity which appears in different domains.\nAzure DevOps Server 2020.1.2 Patch 2\nThe post August patches for Azure DevOps Server appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server-2/",
           "publishedOn": "2022-08-09T16:56:12.000Z",
-          "wordCount": 4761,
+          "wordCount": 4470,
           "title": "August patches for Azure DevOps Server",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/06/HERO-1.jpg"
         },
@@ -874,6 +864,16 @@
       "siteUrl": "https://xkcd.com/",
       "articles": [
         {
+          "id": "https://xkcd.com/2664/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/cloud_swirls.png\" title=\"'Why did you get into fluid dynamics?' 'Well, SOME planet has to have the coolest clouds, odds are it's not ours, and rockets are slow.'\" alt=\"'Why did you get into fluid dynamics?' 'Well, SOME planet has to have the coolest clouds, odds are it's not ours, and rockets are slow.'\" />",
+          "link": "https://xkcd.com/2664/",
+          "publishedOn": "2022-08-26T00:00:00.000Z",
+          "wordCount": 232,
+          "title": "Cloud Swirls",
+          "imageUrl": "https://imgs.xkcd.com/comics/cloud_swirls_2x.png"
+        },
+        {
           "id": "https://xkcd.com/2663/",
           "author": null,
           "description": "<img src=\"https://imgs.xkcd.com/comics/tetherball_configurations.png\" title=\"Ground-pole-ball-pole can be fun if you shake the first pole to get the second one whipping around dangerously, but the ball at the joint gets torn apart pretty fast.\" alt=\"Ground-pole-ball-pole can be fun if you shake the first pole to get the second one whipping around dangerously, but the ball at the joint gets torn apart pretty fast.\" />",
@@ -902,16 +902,6 @@
           "wordCount": 234,
           "title": "Age Milestone Privileges",
           "imageUrl": "https://imgs.xkcd.com/comics/age_milestone_privileges_2x.png"
-        },
-        {
-          "id": "https://xkcd.com/2660/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/gen_z.png\" title=\"Curdled milk, of a peculiar kind, made after a Bulgarian recipe and called &quot;yaghurt,&quot; is now a Parisian fad and is believed to be a remedy against growing old. A correspondent who has tried it, says he would prefer to die young. (1905, The Elk Falls Journal)\" alt=\"Curdled milk, of a peculiar kind, made after a Bulgarian recipe and called &quot;yaghurt,&quot; is now a Parisian fad and is believed to be a remedy against growing old. A correspondent who has tried it, says he would prefer to die young. (1905, The Elk Falls Journal)\" />",
-          "link": "https://xkcd.com/2660/",
-          "publishedOn": "2022-08-17T00:00:00.000Z",
-          "wordCount": 232,
-          "title": "Gen Z",
-          "imageUrl": "https://imgs.xkcd.com/comics/gen_z_2x.png"
         }
       ]
     },
@@ -969,16 +959,6 @@
           "wordCount": 2397,
           "title": "Camunda Optimize 3.9.0 alpha3 Released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/08/Screen-Shot-2022-08-08-at-11.13.34-AM.png"
-        },
-        {
-          "id": "https://camunda.com/?p=59035",
-          "author": "Bernd Ruecker",
-          "description": "Learn what a connector is made of, how the code for a connector roughly looks, and how connectors can be operated in various scenarios. Since this is a preview, details are subject to change.\nThe post A Technical Sneak Peek into Camunda’s Connector Architecture appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2022/07/a-technical-sneak-peek-into-camundas-connector-architecture/",
-          "publishedOn": "2022-07-28T16:00:00.000Z",
-          "wordCount": 3706,
-          "title": "A Technical Sneak Peek into Camunda’s Connector Architecture",
-          "imageUrl": "https://camunda.com/wp-content/uploads/2022/07/Camunda_Blog_2022-07JUL_Bernd-Technical-Sneak-Peek-Connectors_1200x627-v3.png"
         }
       ]
     },
@@ -1240,7 +1220,7 @@
           "description": "by Ehtsham Elahi\nwith James McInerney, Nathan Kallus, Dario Garcia Garcia and Justin Basilico",
           "link": "https://netflixtechblog.com/reinforcement-learning-for-budget-constrained-recommendations-6cbc5263a32a?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-08-24T17:57:33.000Z",
-          "wordCount": 6451,
+          "wordCount": 6453,
           "title": "Reinforcement Learning for Budget Constrained Recommendations",
           "imageUrl": "https://miro.medium.com/max/1134/0*MdHqoDGB9vSI1JB4"
         },
@@ -1250,7 +1230,7 @@
           "description": "The use of virtual production and real time technologies in film & tv has accelerated in recent years. Game engines, such as Unreal Engine, have been a major part driving the democratization of advanced in-camera visual effects (ICVFX). But with infinite configuration and setting combinations, how can a production get it right?",
           "link": "https://netflixtechblog.com/virtual-production-a-validation-framework-for-unreal-engine-aab780b2f8c8?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-08-10T14:03:05.000Z",
-          "wordCount": 4976,
+          "wordCount": 4937,
           "title": "Virtual Production — A Validation Framework For Unreal Engine",
           "imageUrl": "https://miro.medium.com/max/1200/1*SVx5wVsCT4NnHixscIOaEw.png"
         },
@@ -1260,7 +1240,7 @@
           "description": "By Bo Lei, Guilherme Pires, James Shao, Kasturi Chatterjee, Sujay Jain, Vlad Sydorenko",
           "link": "https://netflixtechblog.com/data-mesh-a-data-movement-and-processing-platform-netflix-1288bcab2873?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-08-01T18:20:37.000Z",
-          "wordCount": 4145,
+          "wordCount": 4329,
           "title": "Data Mesh — A Data Movement and Processing Platform @ Netflix",
           "imageUrl": "https://miro.medium.com/max/1200/0*-gA7_aFh4okv6Qp9"
         }
@@ -1389,12 +1369,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=40856",
+          "author": "Seth Godin",
+          "description": "There are two marketing problems when it comes to creating interventions for the public good. The first marketing problem is that when it works we take the intervention for granted. The world doesn’t fall apart, and we don’t notice, because our expectation was that the world (whatever world matters to you) should stay on course. […]",
+          "link": "https://feeds.feedblitz.com/~/708162724/0/sethsblog~Revisionism/",
+          "publishedOn": "2022-08-27T08:28:00.000Z",
+          "wordCount": 1228,
+          "title": "Revisionism",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=41717",
           "author": "Seth Godin",
           "description": "The gatekeepers keep disappearing. When it cost $500,000 to produce a record album, you could assume that it was going to reach some people and not be completely amateurish. Today, many songs in the iTunes store have had exactly one listen. When it cost $5,000,000 to make a video or a film, there was a […]",
           "link": "https://feeds.feedblitz.com/~/708029102/0/sethsblog~A-good-study/",
           "publishedOn": "2022-08-26T08:18:00.000Z",
-          "wordCount": 1450,
+          "wordCount": 1451,
           "title": "“A good study”",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061314.jpg"
         },
@@ -1477,16 +1467,6 @@
           "wordCount": 1241,
           "title": "When they don’t know what they’re talking about…",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806133-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=43563",
-          "author": "Seth Godin",
-          "description": "The math is simple: many people do less than they should. They might be selfish, but it’s likely that they’re struggling with a lack of resources or a story of insufficiency. Either way, in any community or organization, many people contribute less than their peers. Whether it’s splitting a check, getting a project done or […]",
-          "link": "https://feeds.feedblitz.com/~/706642046/0/sethsblog~More-than-your-share/",
-          "publishedOn": "2022-08-17T08:20:00.000Z",
-          "wordCount": 1139,
-          "title": "More than your share",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg"
         }
       ]
     },

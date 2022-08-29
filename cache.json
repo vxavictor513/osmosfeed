@@ -649,7 +649,7 @@
           "description": "Today we’re very excited to announce the first release candidate (RC) of Azure DevOps Server 2022!\nDelivery Plans\nThere are many more features with this release and you can read all about those features in our release notes.\nThe post Introducing Azure DevOps Server 2022 RC1 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/introducing-azure-devops-server-2022-rc1/",
           "publishedOn": "2022-08-09T18:20:01.000Z",
-          "wordCount": 5652,
+          "wordCount": 4852,
           "title": "Introducing Azure DevOps Server 2022 RC1",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2019/02/index-hero.jpg"
         },
@@ -659,7 +659,7 @@
           "description": "This month, we are releasing fixes that impact our self-hosted product, Azure DevOps Server.\nFix identity value error while assigning a work item to an identity which appears in different domains.\nAzure DevOps Server 2020.1.2 Patch 2\nThe post August patches for Azure DevOps Server appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server-2/",
           "publishedOn": "2022-08-09T16:56:12.000Z",
-          "wordCount": 4470,
+          "wordCount": 4683,
           "title": "August patches for Azure DevOps Server",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/06/HERO-1.jpg"
         },
@@ -669,7 +669,7 @@
           "description": "Since the March announcement of the New Boards Hub, our team has collected a lot of your feedback. Thank you! We have been hard at work addressing the issues. Every week the experience gets better and better. The issues backlog is getting smaller,\nThe post New Boards Hub, Sprint 208 Update appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/new-boards-hub-sprint-208-update/",
           "publishedOn": "2022-08-02T17:36:54.000Z",
-          "wordCount": 5100,
+          "wordCount": 4591,
           "title": "New Boards Hub, Sprint 208 Update",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/03/agile.png"
         }
@@ -1118,12 +1118,22 @@
       "siteUrl": "https://kubernetes.io/",
       "articles": [
         {
+          "id": "https://kubernetes.io/blog/2022/08/29/csi-inline-volumes-ga/",
+          "author": null,
+          "description": "Author: Jonathan Dobson (Red Hat)\nCSI Inline Volumes were introduced as an alpha feature in Kubernetes 1.15 and have been beta since 1.16. We are happy to announce that this feature has graduated to General Availability (GA) status in Kubernetes 1.25.\nCSI Inline Volumes are similar to other ephemeral volume types, such as configMap, downwardAPI and secret. The important difference is that the storage is provided by a CSI driver, which allows the use of ephemeral storage provided by third-party vendors. The volume is defined as part of the pod spec and follows the lifecycle of the pod, meaning the volume is created once the pod is scheduled and destroyed when the pod is destroyed.\nWhat's new in 1.25?\nThere are a couple of new bug fixes related to this feature in 1.25, and the CSIInlineVolum…",
+          "link": "https://kubernetes.io/blog/2022/08/29/csi-inline-volumes-ga/",
+          "publishedOn": "2022-08-29T00:00:00.000Z",
+          "wordCount": 3498,
+          "title": "Blog: Kubernetes 1.25: CSI Inline Volumes have graduated to GA",
+          "imageUrl": null
+        },
+        {
           "id": "https://kubernetes.io/blog/2022/08/25/pod-security-admission-stable/",
           "author": null,
           "description": "Authors: Tim Allclair (Google), Sam Stoelinga (Google)\nThe release of Kubernetes v1.25 marks a major milestone for Kubernetes out-of-the-box pod security\ncontrols: Pod Security admission (PSA) graduated to stable, and Pod Security Policy (PSP) has been\nremoved.\nPSP was deprecated in Kubernetes v1.21,\nand no longer functions in Kubernetes v1.25 and later.\nThe Pod Security admission controller replaces PodSecurityPolicy, making it easier to enforce predefined\nPod Security Standards by\nsimply adding a label to a namespace. The Pod Security Standards are maintained by the K8s\ncommunity, which means you automatically get updated security policies whenever new\nsecurity-impacting Kubernetes features are introduced.\nWhat’s new since Beta?\nPod Security Admission hasn’t changed much since the Beta i…",
           "link": "https://kubernetes.io/blog/2022/08/25/pod-security-admission-stable/",
           "publishedOn": "2022-08-25T00:00:00.000Z",
-          "wordCount": 3405,
+          "wordCount": 3413,
           "title": "Blog: Kubernetes v1.25: Pod Security Admission Controller in Stable",
           "imageUrl": null
         },
@@ -1133,7 +1143,7 @@
           "description": "Author: Mahé Tardy (Quarkslab)\nThe PodSecurityPolicy (PSP) admission controller has been removed, as of\nKubernetes v1.25. Its deprecation was announced and detailed in the blog post\nPodSecurityPolicy Deprecation: Past, Present, and Future,\npublished for the Kubernetes v1.21 release.\nThis article aims to provide historical context on the birth and evolution of\nPSP, explain why the feature never made it to stable, and show why it was\nremoved and replaced by Pod Security admission control.\nPodSecurityPolicy, like other specialized admission control plugins, provided\nfine-grained permissions on specific fields concerning the pod security settings\nas a built-in policy API. It acknowledged that cluster administrators and\ncluster users are usually not the same people, and that creating workloads …",
           "link": "https://kubernetes.io/blog/2022/08/23/podsecuritypolicy-the-historical-context/",
           "publishedOn": "2022-08-23T23:00:00.000Z",
-          "wordCount": 3887,
+          "wordCount": 3895,
           "title": "Blog: PodSecurityPolicy: The Historical Context",
           "imageUrl": null
         },
@@ -1143,7 +1153,7 @@
           "description": "Authors: Kubernetes 1.25 Release Team\nAnnouncing the release of Kubernetes v1.25!\nThis release includes a total of 40 enhancements. Fifteen of those enhancements are entering Alpha, ten are graduating to Beta, and thirteen are graduating to Stable. We also have two features being deprecated or removed.\nRelease theme and logo\nKubernetes 1.25: Combiner\nThe theme for Kubernetes v1.25 is Combiner.\nThe Kubernetes project itself is made up of many, many individual components that, when combined, take the form of the project you see today. It is also built and maintained by many individuals, all of them with different skills, experiences, histories, and interests, who join forces not just as the release team but as the many SIGs that support the project and the community year-round.\nWith this rel…",
           "link": "https://kubernetes.io/blog/2022/08/23/kubernetes-v1-25-release/",
           "publishedOn": "2022-08-23T00:00:00.000Z",
-          "wordCount": 4610,
+          "wordCount": 4618,
           "title": "Blog: Kubernetes v1.25: Combiner",
           "imageUrl": null
         },
@@ -1153,7 +1163,7 @@
           "description": "Author: Frederico Muñoz (SAS)\nSince the very beginning of Kubernetes, the topic of persistent data and how to address the requirement of stateful applications has been an important topic. Support for stateless deployments was natural, present from the start, and garnered attention, becoming very well-known. Work on better support for stateful applications was also present from early on, with each release increasing the scope of what could be run on Kubernetes.\nMessage queues, databases, clustered filesystems: these are some examples of the solutions that have different storage requirements and that are, today, increasingly deployed in Kubernetes. Dealing with ephemeral and persistent storage, local or remote, file or block, from many different vendors, while considering how to provide the …",
           "link": "https://kubernetes.io/blog/2022/08/22/sig-storage-spotlight/",
           "publishedOn": "2022-08-22T00:00:00.000Z",
-          "wordCount": 4689,
+          "wordCount": 4672,
           "title": "Blog: Spotlight on SIG Storage",
           "imageUrl": null
         },
@@ -1163,7 +1173,7 @@
           "description": "Author: Craig Box (Google)\nThe Kubernetes project has participants from all around the globe. Some are friends, some are colleagues, and some are strangers. The one thing that unifies them, no matter their differences, are that they all have an interesting story. It is my pleasure to be the documentarian for the stories of the Kubernetes community in the weekly Kubernetes Podcast from Google. With every new Kubernetes release comes an interview with the release team lead, telling the story of that release, but also their own personal story.\nWith 1.25 around the corner, the tradition continues with a look back at the story of 1.24. That release was led by James Laverack of Jetstack. James was on the podcast in May, and while you can read his story below, if you can, please do listen to it i…",
           "link": "https://kubernetes.io/blog/2022/08/18/stargazing-solutions-and-staycations-the-kubernetes-1.24-release-interview/",
           "publishedOn": "2022-08-18T00:00:00.000Z",
-          "wordCount": 9638,
+          "wordCount": 9646,
           "title": "Blog: Stargazing, solutions and staycations: the Kubernetes 1.24 release interview",
           "imageUrl": null
         },
@@ -1173,7 +1183,7 @@
           "description": "Authors & Interviewers: Avinesh Tripathi, Debabrata Panigrahi, Jayesh Srivastava, Priyanka Saggu, Purneswar Prasad, Vedant Kakde\nHello, everyone 👋\nWelcome back to the third edition of the \"Meet Our Contributors\" blog post series for APAC.\nThis post features four outstanding contributors from China, who have played diverse leadership and community roles in the upstream Kubernetes project.\nSo, without further ado, let's get straight to the article.\nAndy Zhang\nAndy Zhang currently works for Microsoft China at the Shanghai site. His main focus is on Kubernetes storage drivers. Andy started contributing to Kubernetes about 5 years ago.\nHe states that as he is working in Azure Kubernetes Service team and spends most of his time contributing to the Kubernetes community project. Now he is the mai…",
           "link": "https://kubernetes.io/blog/2022/08/15/meet-our-contributors-china-ep-03/",
           "publishedOn": "2022-08-15T00:00:00.000Z",
-          "wordCount": 3467,
+          "wordCount": 3475,
           "title": "Blog: Meet Our Contributors - APAC (China region)",
           "imageUrl": null
         },
@@ -1183,7 +1193,7 @@
           "description": "Author: Ryler Hockenbury (Mastercard)\nDid you know that Kubernetes v1.24 has 46 enhancements? That's a lot of new functionality packed into a 4-month release cycle. The Kubernetes release team coordinates the logistics of the release, from remediating test flakes to publishing updated docs. It's a ton of work, but they always deliver.\nThe release team comprises around 30 people across six subteams - Bug Triage, CI Signal, Enhancements, Release Notes, Communications, and Docs.  Each of these subteams manages a component of the release. This post will focus on the role of the enhancements subteam and how you can get involved.\nWhat's the enhancements subteam?\nGreat question. We'll get to that in a second but first, let's talk about how features are managed in Kubernetes.\nEach new feature requ…",
           "link": "https://kubernetes.io/blog/2022/08/11/enhancing-kubernetes-one-kep-at-a-time/",
           "publishedOn": "2022-08-11T00:00:00.000Z",
-          "wordCount": 3746,
+          "wordCount": 3754,
           "title": "Blog: Enhancing Kubernetes one KEP at a Time",
           "imageUrl": null
         },
@@ -1193,7 +1203,7 @@
           "description": "Authors: Kat Cosgrove, Frederico Muñoz, Debabrata Panigrahi\nAs Kubernetes grows and matures, features may be deprecated, removed, or replaced with improvements for the health of the project. Kubernetes v1.25 includes several major changes and one major removal.\nThe Kubernetes API Removal and Deprecation process\nThe Kubernetes project has a well-documented deprecation policy for features. This policy states that stable APIs may only be deprecated when a newer, stable version of that same API is available and that APIs have a minimum lifetime for each stability level. A deprecated API is one that has been marked for removal in a future Kubernetes release; it will continue to function until removal (at least one year from the deprecation), but usage will result in a warning being displayed. R…",
           "link": "https://kubernetes.io/blog/2022/08/04/upcoming-changes-in-kubernetes-1-25/",
           "publishedOn": "2022-08-04T00:00:00.000Z",
-          "wordCount": 3554,
+          "wordCount": 3562,
           "title": "Blog: Kubernetes Removals and Major Changes In 1.25",
           "imageUrl": null
         },
@@ -1203,7 +1213,7 @@
           "description": "Author: Purneswar Prasad\nIntroduction\nThe official documentation is the go-to source for any open source project. For Kubernetes,\nit's an ever-evolving Special Interest Group (SIG) with people constantly putting in their efforts\nto make details about the project easier to consume for new contributors and users. SIG Docs publishes\nthe official documentation on kubernetes.io which includes,\nbut is not limited to, documentation of the core APIs, core architectural details, and CLI tools\nshipped with the Kubernetes release.\nTo learn more about the work of SIG Docs and its future ahead in shaping the community, I have summarised\nmy conversation with the co-chairs, Divya Mohan (DM),\nRey Lejano (RL) and Natali Vlatko (NV), who ran through the\nSIG's goals and how fellow contributors can help.\nA su…",
           "link": "https://kubernetes.io/blog/2022/08/02/sig-docs-spotlight-2022/",
           "publishedOn": "2022-08-02T00:00:00.000Z",
-          "wordCount": 4030,
+          "wordCount": 4038,
           "title": "Blog: Spotlight on SIG Docs",
           "imageUrl": null
         }
@@ -1220,7 +1230,7 @@
           "description": "by Ehtsham Elahi\nwith James McInerney, Nathan Kallus, Dario Garcia Garcia and Justin Basilico",
           "link": "https://netflixtechblog.com/reinforcement-learning-for-budget-constrained-recommendations-6cbc5263a32a?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-08-24T17:57:33.000Z",
-          "wordCount": 6453,
+          "wordCount": 6576,
           "title": "Reinforcement Learning for Budget Constrained Recommendations",
           "imageUrl": "https://miro.medium.com/max/1134/0*MdHqoDGB9vSI1JB4"
         },
@@ -1230,7 +1240,7 @@
           "description": "The use of virtual production and real time technologies in film & tv has accelerated in recent years. Game engines, such as Unreal Engine, have been a major part driving the democratization of advanced in-camera visual effects (ICVFX). But with infinite configuration and setting combinations, how can a production get it right?",
           "link": "https://netflixtechblog.com/virtual-production-a-validation-framework-for-unreal-engine-aab780b2f8c8?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-08-10T14:03:05.000Z",
-          "wordCount": 4937,
+          "wordCount": 4892,
           "title": "Virtual Production — A Validation Framework For Unreal Engine",
           "imageUrl": "https://miro.medium.com/max/1200/1*SVx5wVsCT4NnHixscIOaEw.png"
         },
@@ -1240,7 +1250,7 @@
           "description": "By Bo Lei, Guilherme Pires, James Shao, Kasturi Chatterjee, Sujay Jain, Vlad Sydorenko",
           "link": "https://netflixtechblog.com/data-mesh-a-data-movement-and-processing-platform-netflix-1288bcab2873?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-08-01T18:20:37.000Z",
-          "wordCount": 4329,
+          "wordCount": 4173,
           "title": "Data Mesh — A Data Movement and Processing Platform @ Netflix",
           "imageUrl": "https://miro.medium.com/max/1200/0*-gA7_aFh4okv6Qp9"
         }
@@ -1350,16 +1360,6 @@
           "wordCount": 7040,
           "title": "Efficient Sequence Modeling for On-Device ML",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
-        },
-        {
-          "id": "http://ai.googleblog.com/2022/07/enhancing-backpropagation-via-local.html",
-          "author": null,
-          "description": "Posted by Ehsan Amid, Research Scientist, and Rohan Anil, Principal Engineer, Google Research, Brain Team \nWhile model design and training data are key ingredients in a deep neural network’s (DNN’s) success, less-often discussed is the specific optimization method used for updating the model parameters (weights). Training DNNs involves minimizing a loss function that measures the discrepancy between the ground truth labels and the model’s predictions. Training is carried out by backpropagation, which adjusts the model weights via gradient descent steps. Gradient descent, in turn, updates the weights by using the gradient (i.e., derivative) of the loss with respect to the weights. \nThe simplest weight update corresponds to stochastic gradient descent, which, in every step, moves the weights…",
-          "link": "http://ai.googleblog.com/2022/07/enhancing-backpropagation-via-local.html",
-          "publishedOn": "2022-07-29T17:02:00.005Z",
-          "wordCount": 7089,
-          "title": "Enhancing Backpropagation via Local Loss Optimization",
-          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         }
       ]
     },
@@ -1369,12 +1369,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=43632",
+          "author": "Seth Godin",
+          "description": "Technological leaps always take us by surprise. What happens when every visual image ever created can be remixed and expanded? Van Gogh, Superman, or Moses. These link to an open search engine, so your mileage may vary. New software allows anyone to create images simply by typing in a dozen or so words. And software […]",
+          "link": "https://feeds.feedblitz.com/~/708284394/0/sethsblog~Unprepared-as-always/",
+          "publishedOn": "2022-08-28T08:14:00.000Z",
+          "wordCount": 1219,
+          "title": "Unprepared, as always",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=40856",
           "author": "Seth Godin",
           "description": "There are two marketing problems when it comes to creating interventions for the public good. The first marketing problem is that when it works we take the intervention for granted. The world doesn’t fall apart, and we don’t notice, because our expectation was that the world (whatever world matters to you) should stay on course. […]",
           "link": "https://feeds.feedblitz.com/~/708162724/0/sethsblog~Revisionism/",
           "publishedOn": "2022-08-27T08:28:00.000Z",
-          "wordCount": 1228,
+          "wordCount": 1229,
           "title": "Revisionism",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg"
         },
@@ -1457,16 +1467,6 @@
           "wordCount": 1076,
           "title": "Clues that you might not be trying hard enough",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806134-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=43062",
-          "author": "Seth Godin",
-          "description": "People tend to do one of two things: not talk talk Both are a problem. If we’re facing an important issue at work, at school or in our community, our instinct is to let others who are better informed speak up. Which prevents people from voting on a school budget or even volunteering to speak […]",
-          "link": "https://feeds.feedblitz.com/~/706831860/0/sethsblog~When-they-dont-know-what-theyre-talking-about/",
-          "publishedOn": "2022-08-18T09:39:00.000Z",
-          "wordCount": 1241,
-          "title": "When they don’t know what they’re talking about…",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806133-1.jpg"
         }
       ]
     },

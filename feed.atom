@@ -1,10 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-08-28T02:28:18.273Z</id>
+    <id>urn:2022-08-29T02:25:28.468Z</id>
     <title>osmos::feed</title>
-    <updated>2022-08-28T02:28:18.273Z</updated>
+    <updated>2022-08-29T02:25:28.468Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Blog: Kubernetes 1.25: CSI Inline Volumes have graduated to GA]]></title>
+        <id>https://kubernetes.io/blog/2022/08/29/csi-inline-volumes-ga/</id>
+        <link href="https://kubernetes.io/blog/2022/08/29/csi-inline-volumes-ga/"/>
+        <updated>2022-08-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Author: Jonathan Dobson (Red Hat)
+CSI Inline Volumes were introduced as an alpha feature in Kubernetes 1.15 and have been beta since 1.16. We are happy to announce that this feature has graduated to General Availability (GA) status in Kubernetes 1.25.
+CSI Inline Volumes are similar to other ephemeral volume types, such as configMap, downwardAPI and secret. The important difference is that the storage is provided by a CSI driver, which allows the use of ephemeral storage provided by third-party vendors. The volume is defined as part of the pod spec and follows the lifecycle of the pod, meaning the volume is created once the pod is scheduled and destroyed when the pod is destroyed.
+What's new in 1.25?
+There are a couple of new bug fixes related to this feature in 1.25, and the CSIInlineVolum…]]></summary>
+        <author>
+            <name>Kubernetes – Production-Grade Container Orchestration</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unprepared, as always]]></title>
+        <id>https://seths.blog/?p=43632</id>
+        <link href="https://feeds.feedblitz.com/~/708284394/0/sethsblog~Unprepared-as-always/"/>
+        <updated>2022-08-28T08:14:00.000Z</updated>
+        <summary type="html"><![CDATA[Technological leaps always take us by surprise. What happens when every visual image ever created can be remixed and expanded? Van Gogh, Superman, or Moses. These link to an open search engine, so your mileage may vary. New software allows anyone to create images simply by typing in a dozen or so words. And software […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Revisionism]]></title>
         <id>https://seths.blog/?p=40856</id>
@@ -1000,16 +1024,6 @@ One of the most important aspects in machine learning is hyperparameter optimiza
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[When they don’t know what they’re talking about…]]></title>
-        <id>https://seths.blog/?p=43062</id>
-        <link href="https://feeds.feedblitz.com/~/706831860/0/sethsblog~When-they-dont-know-what-theyre-talking-about/"/>
-        <updated>2022-08-18T09:39:00.000Z</updated>
-        <summary type="html"><![CDATA[People tend to do one of two things: not talk talk Both are a problem. If we’re facing an important issue at work, at school or in our community, our instinct is to let others who are better informed speak up. Which prevents people from voting on a school budget or even volunteering to speak […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Spring Boot 2.7.3 available now]]></title>
         <id>https://spring.io/blog/2022/08/18/spring-boot-2-7-3-available-now</id>
         <link href="https://spring.io/blog/2022/08/18/spring-boot-2-7-3-available-now"/>
@@ -1889,18 +1903,6 @@ A su…]]></summary>
         <summary type="html"><![CDATA[Red Hat Ansible Automation Platform 2 features an awesome new way to scale out your automation workloads: automation mesh.  If you are unfamiliar with automation mesh, I highly recommend reading Craig Brandt’s blog post What's new: an introduction to automation mesh which outlines how automation mesh can simplify your operations and scale your automation globally.  For this blog post, I want to focus on the technical implementation of automation mesh, what network ports it is using and how you can secure it.]]></summary>
         <author>
             <name>scavanau@redhat.com (Sean Cavanaugh)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Enhancing Backpropagation via Local Loss Optimization]]></title>
-        <id>http://ai.googleblog.com/2022/07/enhancing-backpropagation-via-local.html</id>
-        <link href="http://ai.googleblog.com/2022/07/enhancing-backpropagation-via-local.html"/>
-        <updated>2022-07-29T17:02:00.005Z</updated>
-        <summary type="html"><![CDATA[Posted by Ehsan Amid, Research Scientist, and Rohan Anil, Principal Engineer, Google Research, Brain Team 
-While model design and training data are key ingredients in a deep neural network’s (DNN’s) success, less-often discussed is the specific optimization method used for updating the model parameters (weights). Training DNNs involves minimizing a loss function that measures the discrepancy between the ground truth labels and the model’s predictions. Training is carried out by backpropagation, which adjusts the model weights via gradient descent steps. Gradient descent, in turn, updates the weights by using the gradient (i.e., derivative) of the loss with respect to the weights. 
-The simplest weight update corresponds to stochastic gradient descent, which, in every step, moves the weights…]]></summary>
-        <author>
-            <name>Google AI Blog</name>
         </author>
     </entry>
 </feed>

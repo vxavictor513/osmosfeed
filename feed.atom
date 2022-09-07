@@ -1,10 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-09-06T02:29:51.952Z</id>
+    <id>urn:2022-09-07T02:28:23.407Z</id>
     <title>osmos::feed</title>
-    <updated>2022-09-06T02:29:51.952Z</updated>
+    <updated>2022-09-07T02:28:23.407Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Blog: Kubernetes’s IPTables Chains Are Not API]]></title>
+        <id>https://kubernetes.io/blog/2022/09/07/iptables-chains-not-api/</id>
+        <link href="https://kubernetes.io/blog/2022/09/07/iptables-chains-not-api/"/>
+        <updated>2022-09-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Author: Dan Winship (Red Hat)
+Some Kubernetes components (such as kubelet and kube-proxy) create
+iptables chains and rules as part of their operation. These chains
+were never intended to be part of any Kubernetes API/ABI guarantees,
+but some external components nonetheless make use of some of them (in
+particular, using KUBE-MARK-MASQ to mark packets as needing to be
+masqueraded).
+As a part of the v1.25 release, SIG Network made this declaration
+explicit: that (with one exception), the iptables chains that
+Kubernetes creates are intended only for Kubernetes’s own internal
+use, and third-party components should not assume that Kubernetes will
+create any specific iptables chains, or that those chains will contain
+any specific rules if they do exist.
+Then, in future releases, as part of KEP-31…]]></summary>
+        <author>
+            <name>Kubernetes – Production-Grade Container Orchestration</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Azure DevOps Graph connectors for Microsoft Search]]></title>
+        <id>https://devblogs.microsoft.com/devops/?p=65671</id>
+        <link href="https://devblogs.microsoft.com/devops/azure-devops-graph-connectors-for-microsoft-search/"/>
+        <updated>2022-09-06T23:45:33.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft Search is the workplace search solution offered with Microsoft 365. Microsoft Search lets you find the information you need by unlocking knowledge and expertise. It helps you find what you need to complete what you’re working on. Whether you’re searching for people,
+The post Azure DevOps Graph connectors for Microsoft Search appeared first on Azure DevOps Blog.]]></summary>
+        <author>
+            <name>Gloridel Morales</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Digitizing Smell: Using Molecular Maps to Understand Odor]]></title>
+        <id>http://ai.googleblog.com/2022/09/digitizing-smell-using-molecular-maps.html</id>
+        <link href="http://ai.googleblog.com/2022/09/digitizing-smell-using-molecular-maps.html"/>
+        <updated>2022-09-06T17:35:00.005Z</updated>
+        <summary type="html"><![CDATA[Posted by Richard C. Gerkin, Google Research, and Alexander B. Wiltschko, Google 
+
+
+Did you ever try to measure a smell? …Until you can measure their likenesses and differences you can have no science of odor. If you are ambitious to found a new science, measure a smell.
+  
+— Alexander Graham Bell, 1914.
+
+ How can we measure a smell? Smells are produced by molecules that waft through the air, enter our noses, and bind to sensory receptors. Potentially billions of molecules can produce a smell, so figuring out which ones produce which smells is difficult to catalog or predict. Sensory maps can help us solve this problem.  Color vision has the most familiar examples of these maps, from the color wheel we each learn in primary school to more sophisticated variants used to perform color correc…]]></summary>
+        <author>
+            <name>Google AI Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Join us for OctogatosConf 2022]]></title>
+        <id>https://github.blog/2022-09-06-join-us-for-octogatosconf-2022/</id>
+        <link href="https://github.blog/2022-09-06-join-us-for-octogatosconf-2022/"/>
+        <updated>2022-09-06T16:00:05.000Z</updated>
+        <summary type="html"><![CDATA[Live on September 15, 2022, with talks by industry experts in Spanish, Portuguese, and English, on topics including software development, security, technical project management, community, open source, professional development and best practices.]]></summary>
+        <author>
+            <name>The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vault, Kubernetes, and the Graduation of vault-k8s to Version 1.0]]></title>
+        <id>https://www.hashicorp.com/blog/vault-kubernetes-and-the-graduation-of-vault-k8s-to-version-1-0</id>
+        <link href="https://www.hashicorp.com/blog/vault-kubernetes-and-the-graduation-of-vault-k8s-to-version-1-0"/>
+        <updated>2022-09-06T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The release of vault-k8s 1.0 marks a great time to learn how HashiCorp Vault has integrated with Kubernetes in the past and what to look forward to in the future.]]></summary>
+        <author>
+            <name>HashiCorp Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Contributing to open source at GitHub]]></title>
+        <id>https://github.blog/2022-09-06-contributing-to-open-source-at-github/</id>
+        <link href="https://github.blog/2022-09-06-contributing-to-open-source-at-github/"/>
+        <updated>2022-09-06T13:30:26.000Z</updated>
+        <summary type="html"><![CDATA[A software engineer’s personal journey to becoming an open source contributor.]]></summary>
+        <author>
+            <name>The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The treatment of bystanders]]></title>
+        <id>https://seths.blog/?p=43714</id>
+        <link href="https://feeds.feedblitz.com/~/709842444/0/sethsblog~The-treatment-of-bystanders/"/>
+        <updated>2022-09-06T08:37:00.000Z</updated>
+        <summary type="html"><![CDATA[This seems to be cultural, not based on income, caste, race or genetics. Some professions and communities give a greater percentage of their income to charity than others. Some towns have no-kill dog shelters while others have a reputation for abandonment. You might find an online community that welcomes and supports newcomers, and another that […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This Week in Spring - September 5th, 2022]]></title>
+        <id>https://spring.io/blog/2022/09/06/this-week-in-spring-september-5th-2022</id>
+        <link href="https://spring.io/blog/2022/09/06/this-week-in-spring-september-5th-2022"/>
+        <updated>2022-09-06T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hi, Spring fans! How are you? It’s a fantastic Tuesday, the 5th of September, 2022, and I couldn’t be happier. It’s also Labor Day weekend here in the US. It marks the unofficial end of summer, which is a bit sad. But, on the upside, it’s a four-day weekend for me! I’m technically off today. So, you’ll forgive me, but I won’t spend too much time here. Let’s dive right into this week’s roundup!
+
+
+  
+A Bootiful Podcast: Dr. Kris De Volder on Spring Tools, VS Code, and so much more
+
+  
+Connect to Multiple Databases Using Spring Data Mongodb
+
+  
+End-to-end tracing with OpenTelemetry
+
+  
+I love this article by Hashicorp’s Rosemary Wang on refreshable secrets for Kubernetes Applications with Vault Agent
+
+  
+Microsoft is committed to the success of Java developers
+
+  
+Price Reduction - Azure Spring Apps does more, costs less!
+
+  
+The Second Best Way to Fetch a Spring Data JPA DTO Projection – Java, SQL and jOOQ.
+
+  
+The best way to fetch a Spring Data JPA DTO Projection - Vlad Mihalcea
+
+  
+Speaking of JOOQ, did you know there’s good reactive API support included? Check it out: 3.15.0 Release with Support for R2DBC, Nested ROW, ARRAY, and MULTISET types, 5 new SQL dialects, CREATE PROCEDURE, FUNCTION, and TRIGGER support and Much More]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AWS Week in Review – September 5, 2022]]></title>
         <id>8f3c0923bae1a075227962f5ea6ebbfc45ae02a5</id>
@@ -13,6 +142,16 @@
         <summary type="html"><![CDATA[This post is part of our Week in Review series. Check back each week for a quick roundup of interesting news and announcements from AWS! As a new week begins, let’s quickly look back at the most significant AWS news from the previous seven days. Last Week’s Launches Here are the launches that got my […]]]></summary>
         <author>
             <name>Danilo Poccia</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exploratory Data Analysis in Practice]]></title>
+        <id>https://blog.jetbrains.com/?post_type=datalore&amp;p=276863</id>
+        <link href="https://blog.jetbrains.com/datalore/2022/09/05/exploratory-data-analysis-in-practice/"/>
+        <updated>2022-09-05T11:30:37.000Z</updated>
+        <summary type="html"><![CDATA[When you have a lot of data for training a machine learning model or making a data-driven decision, it can be very difficult to observe it manually or via Excel. That’s where data analysis tools and programming languages, such as Python, can help. Using Datalore can make the process even easier and lead you to […]]]></summary>
+        <author>
+            <name>Alena Guzharina</name>
         </author>
     </entry>
     <entry>
@@ -771,16 +910,6 @@ There are a couple of new bug fixes related to this feature in 1.25, and the CSI
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Revisionism]]></title>
-        <id>https://seths.blog/?p=40856</id>
-        <link href="https://feeds.feedblitz.com/~/708162724/0/sethsblog~Revisionism/"/>
-        <updated>2022-08-27T08:28:00.000Z</updated>
-        <summary type="html"><![CDATA[There are two marketing problems when it comes to creating interventions for the public good. The first marketing problem is that when it works we take the intervention for granted. The world doesn’t fall apart, and we don’t notice, because our expectation was that the world (whatever world matters to you) should stay on course. […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Creating a custom Spring Cloud Gateway Filter]]></title>
         <id>https://spring.io/blog/2022/08/26/creating-a-custom-spring-cloud-gateway-filter</id>
         <link href="https://spring.io/blog/2022/08/26/creating-a-custom-spring-cloud-gateway-filter"/>
@@ -819,16 +948,6 @@ The gateway receives the response and executes post-request logic on each filter
         <summary type="html"><![CDATA[10 interns in HashiCorp’s Early Career Program share what they learned during their summer with the company.]]></summary>
         <author>
             <name>HashiCorp Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[3 ways every company can get started with an open-source software strategy]]></title>
-        <id>https://github.blog/2022-08-26-3-ways-every-company-can-get-started-with-an-open-source-software-strategy/</id>
-        <link href="https://github.blog/2022-08-26-3-ways-every-company-can-get-started-with-an-open-source-software-strategy/"/>
-        <updated>2022-08-26T16:00:50.000Z</updated>
-        <summary type="html"><![CDATA[The future of software development does not exist without open source. However, to maintain today’s software and create the software of the future, the largest organizations and beneficiaries of open source need to expand their collaboration with the community and help it grow.]]></summary>
-        <author>
-            <name>The GitHub Blog</name>
         </author>
     </entry>
     <entry>
@@ -879,16 +998,6 @@ In the Webhook - Case Management connector create flyout, begin by entering a co
         <summary type="html"><![CDATA[The global AWS community is filled with passionate builders, eager to learn and explore ways to build better and faster on AWS. Within the AWS community, a select few individuals truly go above and beyond to share their knowledge and inspire others through content creation, event organization, open source contributions, and more. These community leaders […]]]></summary>
         <author>
             <name>Ross Barich</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Keeping your skillset fresh as a developer]]></title>
-        <id>https://github.blog/2022-08-25-keeping-your-skillset-fresh-as-a-developer/</id>
-        <link href="https://github.blog/2022-08-25-keeping-your-skillset-fresh-as-a-developer/"/>
-        <updated>2022-08-25T17:00:22.000Z</updated>
-        <summary type="html"><![CDATA[Whether you’re committing 30 minutes or 3 hours a day to learning, consistency is key. Klint Finley asks 3 tech professionals at different stages in their career for more advice.]]></summary>
-        <author>
-            <name>The GitHub Blog</name>
         </author>
     </entry>
     <entry>
@@ -1089,16 +1198,6 @@ Up to version 4.3, the JobLauncherTestUtils used to autowire the job under test 
         <summary type="html"><![CDATA[This blog shares practical examples of using Ansible Automation Platform to accelerate your DevOps journey.]]></summary>
         <author>
             <name>Craig Brandt</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Entity Framework Core and Multiple Database Providers]]></title>
-        <id>https://blog.jetbrains.com/?post_type=dotnet&amp;p=267202</id>
-        <link href="https://blog.jetbrains.com/dotnet/2022/08/24/entity-framework-core-and-multiple-database-providers/"/>
-        <updated>2022-08-24T12:36:10.000Z</updated>
-        <summary type="html"><![CDATA[While many software developers would prefer to sell software as a service (SaaS), there’s a market for offering your customers a self-hosted solution tailored to their infrastructure choices. Of course, one essential element of any modern software solution is the database, but in 2022 there are hundreds of battle-tested storage solutions. For example, the Entity […]]]></summary>
-        <author>
-            <name>Khalid Abuhakmeh</name>
         </author>
     </entry>
     <entry>
@@ -1686,40 +1785,6 @@ Andy Zhang currently works for Microsoft China at the Shanghai site. His main fo
 He states that as he is working in Azure Kubernetes Service team and spends most of his time contributing to the Kubernetes community project. Now he is the mai…]]></summary>
         <author>
             <name>Kubernetes – Production-Grade Container Orchestration</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spring Tools 4.15.3 released]]></title>
-        <id>https://spring.io/blog/2022/08/12/spring-tools-4-15-3-released</id>
-        <link href="https://spring.io/blog/2022/08/12/spring-tools-4-15-3-released"/>
-        <updated>2022-08-12T09:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Dear Spring Community,
-
-I am happy to announce the 4.15.3 release of the Spring Tools 4 for Eclipse, Visual Studio Code, and Theia.
-fixes and improvements
-
-
-  
-(Spring Boot) fixed: Spring Boot Tools slow down code complete (#808)
-
-  
-(Language Server) fixed: Copied files should retain copyright ownership (#807)
-
-
-To download the distribution for Eclipse and find links to the marketplace entries for Visual Studio Code and Theia, please go visit:
-
-
-  
-Spring Tools 4: https://spring.io/tools/
-
-
-Detailed changes can be found here: https://github.com/spring-projects/sts4/wiki/Changelog#2022-08-11-4153-release-incl-language-servers-version-1380
-
-Spring Tools 4.16.0 is scheduled to be released in mid September 2022.
-
-Enjoy!]]></summary>
-        <author>
-            <name>Spring</name>
         </author>
     </entry>
     <entry>

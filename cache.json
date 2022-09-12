@@ -659,7 +659,7 @@
           "description": "We fixed a bunch more issues for New Boards Hub in sprint 209. Here is a list of the items that have been resolved.\nIssue\nOnBlur instead of onChange\nThe post New Boards Hub, Sprint 209 Update appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/new-boards-hub-sprint-209-update/",
           "publishedOn": "2022-08-31T16:23:03.000Z",
-          "wordCount": 4986,
+          "wordCount": 4695,
           "title": "New Boards Hub, Sprint 209 Update",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/08/sketch-1.png"
         }
@@ -1063,12 +1063,22 @@
       "siteUrl": "https://kubernetes.io/",
       "articles": [
         {
+          "id": "https://kubernetes.io/blog/2022/09/12/k8s-cve-feed-alpha/",
+          "author": null,
+          "description": "Author: Pushkar Joglekar (VMware)\nA long-standing request from the Kubernetes community has been to have a\nprogrammatic way for end users to keep track of Kubernetes security issues\n(also called \"CVEs\", after the database that tracks public security issues across\ndifferent products and vendors). Accompanying the release of Kubernetes v1.25,\nwe are excited to announce availability of such\na feed as an alpha\nfeature. This blog will cover the background and scope of this new service.\nMotivation\nWith the growing number of eyes on Kubernetes, the number of CVEs related to\nKubernetes have increased. Although most CVEs that directly, indirectly, or\ntransitively impact Kubernetes are regularly fixed, there is no single place for\nthe end users of Kubernetes to programmatically subscribe or pull the…",
+          "link": "https://kubernetes.io/blog/2022/09/12/k8s-cve-feed-alpha/",
+          "publishedOn": "2022-09-12T00:00:00.000Z",
+          "wordCount": 3240,
+          "title": "Blog: Announcing the Auto-refreshing Official Kubernetes CVE Feed",
+          "imageUrl": null
+        },
+        {
           "id": "https://kubernetes.io/blog/2022/09/09/kms-v2-improvements/",
           "author": null,
           "description": "Authors: Anish Ramasekar, Rita Zhang, Mo Khan, and Xander Grzywinski (Microsoft)\nWith Kubernetes v1.25, SIG Auth is introducing a new v2alpha1 version of the Key Management Service (KMS) API. There are a lot of improvements in the works, and we're excited to be able to start down the path of a new and improved KMS!\nWhat is KMS?\nOne of the first things to consider when securing a Kubernetes cluster is encrypting persisted API data at rest. KMS provides an interface for a provider to utilize a key stored in an external key service to perform this encryption.\nEncryption at rest using KMS v1 has been a feature of Kubernetes since version v1.10, and is currently in beta as of version v1.12.\nWhat’s new in v2alpha1?\nWhile the original v1 implementation has been successful in helping Kubernetes us…",
           "link": "https://kubernetes.io/blog/2022/09/09/kms-v2-improvements/",
           "publishedOn": "2022-09-09T00:00:00.000Z",
-          "wordCount": 3568,
+          "wordCount": 3574,
           "title": "Blog: Kubernetes 1.25: KMS V2 Improvements",
           "imageUrl": "https://mermaid.ink/img/pako:eNrNVD1v2zAQ_SsEC0GLkxgt2kEIvEQeCo8tOgkoTuTJIiyRypFMIwj67yUlxx-w0CLoUg0a7t29e3eP5MCFkcgzniSD0splbEhdjS2mGUtLsJiu2Bz4AaSgbNAGZGBpR6oF6p9MYyjmfvj08YvAzzH9CH3HV3eGq6qaqK6C6_U6HccxSQpt8dmjFpgr2BO0hWbh64CcEqoD7Rg6IW-jB18idMoivSAtwK3tGr9XeoHv1SFpaELKDF5R3W02p9qMBWHUd45RFGndnA-NY94qvWcH7FmtkIBE3c_gRPhGsEyWb3fsl3I1a4yAhu22u-XSC6Hn4lPNTEHYGofXHBd1iwJQ_q3zRY0AUeM7Ki93mQV5zpO-WKPtTHCcPZb0sGFDwYMnNVI8HAXPWMEfz53CmjYFX8Ul_1RyAs_Tsq_5BM5EBQetjQOnAnskCsxB1X1UQxod2ntlHibpdwc83LQ6DRU4x3GeDJugM5D-2eokYcITYThXJdbwogy9w8z8H23M_xcbbg04rVHL5VsWr3XGrDOEt8JAy6Ux45-veIvUgpLh8RpipODTOzUrl1iBb8IYhR5Dqu8kONxKFfrwrIJg6oqDd-ZbrwXPHHl8Szo-QMes8Tffb72O"
         },
@@ -1078,7 +1088,7 @@
           "description": "Author: Dan Winship (Red Hat)\nSome Kubernetes components (such as kubelet and kube-proxy) create\niptables chains and rules as part of their operation. These chains\nwere never intended to be part of any Kubernetes API/ABI guarantees,\nbut some external components nonetheless make use of some of them (in\nparticular, using KUBE-MARK-MASQ to mark packets as needing to be\nmasqueraded).\nAs a part of the v1.25 release, SIG Network made this declaration\nexplicit: that (with one exception), the iptables chains that\nKubernetes creates are intended only for Kubernetes’s own internal\nuse, and third-party components should not assume that Kubernetes will\ncreate any specific iptables chains, or that those chains will contain\nany specific rules if they do exist.\nThen, in future releases, as part of KEP-31…",
           "link": "https://kubernetes.io/blog/2022/09/07/iptables-chains-not-api/",
           "publishedOn": "2022-09-07T00:00:00.000Z",
-          "wordCount": 4123,
+          "wordCount": 4129,
           "title": "Blog: Kubernetes’s IPTables Chains Are Not API",
           "imageUrl": null
         },
@@ -1088,7 +1098,7 @@
           "description": "Authors: Sidhartha Mani (Minio, Inc)\nThis article introduces the Container Object Storage Interface (COSI), a standard for provisioning and consuming object storage in Kubernetes. It is an alpha feature in Kubernetes v1.25.\nFile and block storage are treated as first class citizens in the Kubernetes ecosystem via Container Storage Interface (CSI). Workloads using CSI volumes enjoy the benefits of portability across vendors and across Kubernetes clusters without the need to change application manifests. An equivalent standard does not exist for Object storage.\nObject storage has been rising in popularity in recent years as an alternative form of storage to filesystems and block devices. Object storage paradigm promotes disaggregation of compute and storage. This is done by making data avail…",
           "link": "https://kubernetes.io/blog/2022/09/02/cosi-kubernetes-object-storage-management/",
           "publishedOn": "2022-09-02T00:00:00.000Z",
-          "wordCount": 3788,
+          "wordCount": 3794,
           "title": "Blog: Introducing COSI: Object Storage Management using Kubernetes APIs",
           "imageUrl": null
         },
@@ -1098,7 +1108,7 @@
           "description": "Authors:: David Porter (Google), Mrunal Patel (Red Hat)\nKubernetes 1.25 brings cgroup v2 to GA (general availability), letting the\nkubelet use the latest container resource\nmanagement capabilities.\nWhat are cgroups?\nEffective resource management is a\ncritical aspect of Kubernetes. This involves managing the finite resources in\nyour nodes, such as CPU, memory, and storage.\ncgroups are a Linux kernel capability that establish resource management\nfunctionality like limiting CPU usage or setting memory limits for running\nprocesses.\nWhen you use the resource management capabilities in Kubernetes, such as configuring\nrequests and limits for Pods and containers,\nKubernetes uses cgroups to enforce your resource requests and limits.\nThe Linux kernel offers two versions of cgroups: cgroup v1 and cgr…",
           "link": "https://kubernetes.io/blog/2022/08/31/cgroupv2-ga-1-25/",
           "publishedOn": "2022-08-31T00:00:00.000Z",
-          "wordCount": 3757,
+          "wordCount": 3763,
           "title": "Blog: Kubernetes 1.25: cgroup v2 graduates to GA",
           "imageUrl": null
         },
@@ -1108,7 +1118,7 @@
           "description": "Author: Jonathan Dobson (Red Hat)\nCSI Inline Volumes were introduced as an alpha feature in Kubernetes 1.15 and have been beta since 1.16. We are happy to announce that this feature has graduated to General Availability (GA) status in Kubernetes 1.25.\nCSI Inline Volumes are similar to other ephemeral volume types, such as configMap, downwardAPI and secret. The important difference is that the storage is provided by a CSI driver, which allows the use of ephemeral storage provided by third-party vendors. The volume is defined as part of the pod spec and follows the lifecycle of the pod, meaning the volume is created once the pod is scheduled and destroyed when the pod is destroyed.\nWhat's new in 1.25?\nThere are a couple of new bug fixes related to this feature in 1.25, and the CSIInlineVolum…",
           "link": "https://kubernetes.io/blog/2022/08/29/csi-inline-volumes-ga/",
           "publishedOn": "2022-08-29T00:00:00.000Z",
-          "wordCount": 3521,
+          "wordCount": 3527,
           "title": "Blog: Kubernetes 1.25: CSI Inline Volumes have graduated to GA",
           "imageUrl": null
         },
@@ -1118,7 +1128,7 @@
           "description": "Authors: Tim Allclair (Google), Sam Stoelinga (Google)\nThe release of Kubernetes v1.25 marks a major milestone for Kubernetes out-of-the-box pod security\ncontrols: Pod Security admission (PSA) graduated to stable, and Pod Security Policy (PSP) has been\nremoved.\nPSP was deprecated in Kubernetes v1.21,\nand no longer functions in Kubernetes v1.25 and later.\nThe Pod Security admission controller replaces PodSecurityPolicy, making it easier to enforce predefined\nPod Security Standards by\nsimply adding a label to a namespace. The Pod Security Standards are maintained by the K8s\ncommunity, which means you automatically get updated security policies whenever new\nsecurity-impacting Kubernetes features are introduced.\nWhat’s new since Beta?\nPod Security Admission hasn’t changed much since the Beta i…",
           "link": "https://kubernetes.io/blog/2022/08/25/pod-security-admission-stable/",
           "publishedOn": "2022-08-25T00:00:00.000Z",
-          "wordCount": 3436,
+          "wordCount": 3442,
           "title": "Blog: Kubernetes v1.25: Pod Security Admission Controller in Stable",
           "imageUrl": null
         },
@@ -1128,7 +1138,7 @@
           "description": "Author: Mahé Tardy (Quarkslab)\nThe PodSecurityPolicy (PSP) admission controller has been removed, as of\nKubernetes v1.25. Its deprecation was announced and detailed in the blog post\nPodSecurityPolicy Deprecation: Past, Present, and Future,\npublished for the Kubernetes v1.21 release.\nThis article aims to provide historical context on the birth and evolution of\nPSP, explain why the feature never made it to stable, and show why it was\nremoved and replaced by Pod Security admission control.\nPodSecurityPolicy, like other specialized admission control plugins, provided\nfine-grained permissions on specific fields concerning the pod security settings\nas a built-in policy API. It acknowledged that cluster administrators and\ncluster users are usually not the same people, and that creating workloads …",
           "link": "https://kubernetes.io/blog/2022/08/23/podsecuritypolicy-the-historical-context/",
           "publishedOn": "2022-08-23T23:00:00.000Z",
-          "wordCount": 3918,
+          "wordCount": 3924,
           "title": "Blog: PodSecurityPolicy: The Historical Context",
           "imageUrl": null
         },
@@ -1138,7 +1148,7 @@
           "description": "Authors: Kubernetes 1.25 Release Team\nAnnouncing the release of Kubernetes v1.25!\nThis release includes a total of 40 enhancements. Fifteen of those enhancements are entering Alpha, ten are graduating to Beta, and thirteen are graduating to Stable. We also have two features being deprecated or removed.\nRelease theme and logo\nKubernetes 1.25: Combiner\nThe theme for Kubernetes v1.25 is Combiner.\nThe Kubernetes project itself is made up of many, many individual components that, when combined, take the form of the project you see today. It is also built and maintained by many individuals, all of them with different skills, experiences, histories, and interests, who join forces not just as the release team but as the many SIGs that support the project and the community year-round.\nWith this rel…",
           "link": "https://kubernetes.io/blog/2022/08/23/kubernetes-v1-25-release/",
           "publishedOn": "2022-08-23T00:00:00.000Z",
-          "wordCount": 4615,
+          "wordCount": 4621,
           "title": "Blog: Kubernetes v1.25: Combiner",
           "imageUrl": null
         },
@@ -1148,7 +1158,7 @@
           "description": "Author: Frederico Muñoz (SAS)\nSince the very beginning of Kubernetes, the topic of persistent data and how to address the requirement of stateful applications has been an important topic. Support for stateless deployments was natural, present from the start, and garnered attention, becoming very well-known. Work on better support for stateful applications was also present from early on, with each release increasing the scope of what could be run on Kubernetes.\nMessage queues, databases, clustered filesystems: these are some examples of the solutions that have different storage requirements and that are, today, increasingly deployed in Kubernetes. Dealing with ephemeral and persistent storage, local or remote, file or block, from many different vendors, while considering how to provide the …",
           "link": "https://kubernetes.io/blog/2022/08/22/sig-storage-spotlight/",
           "publishedOn": "2022-08-22T00:00:00.000Z",
-          "wordCount": 4693,
+          "wordCount": 4699,
           "title": "Blog: Spotlight on SIG Storage",
           "imageUrl": null
         },
@@ -1158,7 +1168,7 @@
           "description": "Author: Craig Box (Google)\nThe Kubernetes project has participants from all around the globe. Some are friends, some are colleagues, and some are strangers. The one thing that unifies them, no matter their differences, are that they all have an interesting story. It is my pleasure to be the documentarian for the stories of the Kubernetes community in the weekly Kubernetes Podcast from Google. With every new Kubernetes release comes an interview with the release team lead, telling the story of that release, but also their own personal story.\nWith 1.25 around the corner, the tradition continues with a look back at the story of 1.24. That release was led by James Laverack of Jetstack. James was on the podcast in May, and while you can read his story below, if you can, please do listen to it i…",
           "link": "https://kubernetes.io/blog/2022/08/18/stargazing-solutions-and-staycations-the-kubernetes-1.24-release-interview/",
           "publishedOn": "2022-08-18T00:00:00.000Z",
-          "wordCount": 9669,
+          "wordCount": 9675,
           "title": "Blog: Stargazing, solutions and staycations: the Kubernetes 1.24 release interview",
           "imageUrl": null
         },
@@ -1168,7 +1178,7 @@
           "description": "Authors & Interviewers: Avinesh Tripathi, Debabrata Panigrahi, Jayesh Srivastava, Priyanka Saggu, Purneswar Prasad, Vedant Kakde\nHello, everyone 👋\nWelcome back to the third edition of the \"Meet Our Contributors\" blog post series for APAC.\nThis post features four outstanding contributors from China, who have played diverse leadership and community roles in the upstream Kubernetes project.\nSo, without further ado, let's get straight to the article.\nAndy Zhang\nAndy Zhang currently works for Microsoft China at the Shanghai site. His main focus is on Kubernetes storage drivers. Andy started contributing to Kubernetes about 5 years ago.\nHe states that as he is working in Azure Kubernetes Service team and spends most of his time contributing to the Kubernetes community project. Now he is the mai…",
           "link": "https://kubernetes.io/blog/2022/08/15/meet-our-contributors-china-ep-03/",
           "publishedOn": "2022-08-15T00:00:00.000Z",
-          "wordCount": 3496,
+          "wordCount": 3502,
           "title": "Blog: Meet Our Contributors - APAC (China region)",
           "imageUrl": null
         }
@@ -1185,7 +1195,7 @@
           "description": "by Ehtsham Elahi\nwith James McInerney, Nathan Kallus, Dario Garcia Garcia and Justin Basilico",
           "link": "https://netflixtechblog.com/reinforcement-learning-for-budget-constrained-recommendations-6cbc5263a32a?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-08-24T17:57:33.000Z",
-          "wordCount": 6266,
+          "wordCount": 6310,
           "title": "Reinforcement Learning for Budget Constrained Recommendations",
           "imageUrl": "https://miro.medium.com/max/1134/0*MdHqoDGB9vSI1JB4"
         }
@@ -1294,12 +1304,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=43771",
+          "author": "Seth Godin",
+          "description": "Who gets the benefit of the doubt? Who is treated with dignity? You would think that this shouldn’t be scarce. When the pool of respect is widened, no one is harmed. And yet, cultural status roles have ingrained biases all around us. We’re now seeing a long overdue evaluation of unexamined norms, which aren’t, and […]",
+          "link": "https://feeds.feedblitz.com/~/710623784/0/sethsblog~A-reallocation-of-respect/",
+          "publishedOn": "2022-09-11T08:26:00.000Z",
+          "wordCount": 1066,
+          "title": "A reallocation of respect",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061314.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=43760",
           "author": "Seth Godin",
           "description": "You probably know that Bruce Wayne is actually Batman. That’s a secret identity that most of us are aware of. And if you’re up on pop culture, you know that the best Batman was played by the late actor Adam West. Visit the visual search engine Lexica, though, and you’ll see that it knows that […]",
           "link": "https://feeds.feedblitz.com/~/710398298/0/sethsblog~What-does-it-mean-to-be-smart/",
           "publishedOn": "2022-09-10T08:53:00.000Z",
-          "wordCount": 1238,
+          "wordCount": 1239,
           "title": "What does it mean to be smart?",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061310-1.jpg"
         },
@@ -1382,16 +1402,6 @@
           "wordCount": 1043,
           "title": "The last minute",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=41723",
-          "author": "Seth Godin",
-          "description": "If you leave your cheese out and the mouse eats it, the mouse is simply being a mouse. While it might be nice if the mouse didn’t wreck your dinner, that’s his job. Often, we show up with our cheese and then become indignant when the mouse does what mice do. “Oh, you’re a mouse.” […]",
-          "link": "https://feeds.feedblitz.com/~/709012278/0/sethsblog~Dont-blame-the-mouse/",
-          "publishedOn": "2022-09-01T09:12:00.000Z",
-          "wordCount": 1053,
-          "title": "Don’t blame the mouse",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061311.jpg"
         }
       ]
     },
@@ -1436,7 +1446,7 @@
           "description": "Hello! We’ve released the third bug-fix update for DataGrip 2022.2. Here’s what’s been improved: DBE-6418 We’ve added the Smallest subquery or statement option in Preferences | Query Execution | When inside statement execute. It will run the nested subquery under the cursor or the entire statement if there is no subquery. DBE-16264 Ignore modification of […]",
           "link": "https://blog.jetbrains.com/datagrip/2022/09/08/datagrip-2022-2-3/",
           "publishedOn": "2022-09-08T13:42:42.000Z",
-          "wordCount": 1698,
+          "wordCount": 1695,
           "title": "DataGrip 2022.2.3",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/02/datagrip_social.png"
         },

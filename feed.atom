@@ -1,10 +1,203 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-09-13T02:27:54.217Z</id>
+    <id>urn:2022-09-14T02:26:39.096Z</id>
     <title>osmos::feed</title>
-    <updated>2022-09-13T02:27:54.217Z</updated>
+    <updated>2022-09-14T02:26:39.096Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Blog: Kubernetes 1.25: PodHasNetwork condition for pods]]></title>
+        <id>https://kubernetes.io/blog/2022/09/14/pod-has-network-condition/</id>
+        <link href="https://kubernetes.io/blog/2022/09/14/pod-has-network-condition/"/>
+        <updated>2022-09-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Author:
+Deep Debroy (Apple)
+Kubernetes 1.25 introduces Alpha support for a new kubelet-managed pod condition
+in the status field of a pod: PodHasNetwork. The kubelet, for a worker node,
+will use the PodHasNetwork condition to accurately surface the initialization
+state of a pod from the perspective of pod sandbox creation and network
+configuration by a container runtime (typically in coordination with CNI
+plugins). The kubelet starts to pull container images and start individual
+containers (including init containers) after the status of the PodHasNetwork
+condition is set to True. Metrics collection services that report latency of
+pod initialization from a cluster infrastructural perspective (i.e. agnostic of
+per container characteristics like image size or payload) can utilize the
+PodHasNe…]]></summary>
+        <author>
+            <name>Kubernetes – Production-Grade Container Orchestration</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LOLNeRF: Learn from One Look]]></title>
+        <id>http://ai.googleblog.com/2022/09/lolnerf-learn-from-one-look.html</id>
+        <link href="http://ai.googleblog.com/2022/09/lolnerf-learn-from-one-look.html"/>
+        <updated>2022-09-13T21:18:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted by Daniel Rebain, Student Researcher, and Mark Matthews, Senior Software Engineer, Google Research, Perception Team 
+An important aspect of human vision is our ability to comprehend 3D shape from the 2D images we observe. Achieving this kind of understanding with computer vision systems has been a fundamental challenge in the field. Many successful approaches rely on multi-view data, where two or more images of the same scene are available from different perspectives, which makes it much easier to infer the 3D shape of objects in the images. 
+There are, however, many situations where it would be useful to know 3D structure from a single image, but this problem is generally difficult or impossible to solve. For example, it isn’t necessarily possible to tell the difference between an …]]></summary>
+        <author>
+            <name>Google AI Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Waypoint 0.10 Brings Custom Pipelines and Nomad Plugin Updates]]></title>
+        <id>https://www.hashicorp.com/blog/waypoint-0-10-brings-custom-pipelines-and-nomad-plugin-updates</id>
+        <link href="https://www.hashicorp.com/blog/waypoint-0-10-brings-custom-pipelines-and-nomad-plugin-updates"/>
+        <updated>2022-09-13T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[HashiCorp Waypoint 0.10 — now generally available — introduces the tech preview of custom pipelines and improvements to the Nomad integration.]]></summary>
+        <author>
+            <name>HashiCorp Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scaling Git’s garbage collection]]></title>
+        <id>https://github.blog/2022-09-13-scaling-gits-garbage-collection/</id>
+        <link href="https://github.blog/2022-09-13-scaling-gits-garbage-collection/"/>
+        <updated>2022-09-13T16:00:49.000Z</updated>
+        <summary type="html"><![CDATA[A tour of recent work to re-engineer Git’s garbage collection process to scale to our largest and most active repositories.]]></summary>
+        <author>
+            <name>The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Join GitHub at the Grace Hopper Celebration 2022]]></title>
+        <id>https://github.blog/2022-09-13-join-github-at-the-grace-hopper-celebration-2022/</id>
+        <link href="https://github.blog/2022-09-13-join-github-at-the-grace-hopper-celebration-2022/"/>
+        <updated>2022-09-13T13:30:56.000Z</updated>
+        <summary type="html"><![CDATA[We’re thrilled to be back at the Grace Hopper Celebration at Open Source Day, the largest celebration of women in open source. Stop by and say hi at one of our workshops.]]></summary>
+        <author>
+            <name>The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ansible vs. Terraform Demystified]]></title>
+        <id>https://www.ansible.com/blog/ansible-vs.-terraform-demystified</id>
+        <link href="https://www.ansible.com/blog/ansible-vs.-terraform-demystified"/>
+        <updated>2022-09-13T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Comparing and contrasting Red Hat Ansible Automation Platform and Hashicorp Terraform]]></summary>
+        <author>
+            <name>scavanau@redhat.com (Sean Cavanaugh)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[F5, New Relic, and Sophos Highlight New Consul Integrations]]></title>
+        <id>https://www.hashicorp.com/blog/f5-new-relic-and-sophos-among-new-consul-integrations</id>
+        <link href="https://www.hashicorp.com/blog/f5-new-relic-and-sophos-among-new-consul-integrations"/>
+        <updated>2022-09-13T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The HashiCorp Consul ecosystem continues its growth with the addition of 15 new self-managed, enterprise, and HCP Consul integrations.]]></summary>
+        <author>
+            <name>HashiCorp Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Camunda Optimize 3.9.0 alpha4 Released]]></title>
+        <id>https://camunda.com/?p=62210</id>
+        <link href="https://camunda.com/blog/2022/09/camunda-optimize-3-9-0-alpha4-released/"/>
+        <updated>2022-09-13T07:08:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re excited to announce a new release of Camunda Optimize. Camunda Optimize provides business activity monitoring for workflows, supporting continuous process improvement by providing transparency into your automated workflows and decisions. Business-friendly reports, dashboards, and alerts make it possible to identify process bottlenecks, improve end-to-end processes, and evaluate the success of your process automation initiative. In the rest of this post, we’ll highlight some of the new capabilities introduced in Optimize 3.9.0 alpha4. What’s new? Process Onboarding UX Whenever the first process instance of a new process definition is deployed, the user will receive an email with an invitation to create a first default dashboard in Optimize. Restrict report and dashboard creation to collections Optimize is structured with entities like...
+The post Camunda Optimize 3.9.0 alpha4 Released appeared first on Camunda.]]></summary>
+        <author>
+            <name>Camunda Optimize Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Camunda Automation Platform 7.18.0-alpha5 Released]]></title>
+        <id>https://camunda.com/?p=61925</id>
+        <link href="https://camunda.com/blog/2022/09/camunda-automation-platform-7180-alpha5-released/"/>
+        <updated>2022-09-13T07:05:00.000Z</updated>
+        <summary type="html"><![CDATA[We are pleased to announce the next alpha release of Camunda Platform Runtime 7.18. This release features the following improvements: Logging: Engine name parameter in mapped diagnostic context Exception Error Codes now available in the External Task Clients IBM WebSphere Application Server Liberty support New Supported Environments 7 Bug Fixes You can download Camunda for free or run it with Docker. For a complete list of all improvements, take a look at the release notes. Please also see the list of known issues. If you want to dig in deeper, you can find the source code on GitHub. Logging: Engine Name Parameter in Mapped Diagnostic Context As an addition to the already present list of parameters for the logging context,...
+The post Camunda Automation Platform 7.18.0-alpha5 Released appeared first on Camunda.]]></summary>
+        <author>
+            <name>Camunda Platform Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This Week in Spring - September 13th, 2022]]></title>
+        <id>https://spring.io/blog/2022/09/13/this-week-in-spring-september-13th-2022</id>
+        <link href="https://spring.io/blog/2022/09/13/this-week-in-spring-september-13th-2022"/>
+        <updated>2022-09-13T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hi, Spring fans! Welcome to another installment of This Week in Spring! We’ve got a lot of good stuff to get to so let’s dive right into it! 
+
+
+  
+A Bootiful Podcast: Hashicorp’s Rosemary Wang on securing the intersection of apps and ops with Hashicorp Vault
+
+  
+a nice video by my colleague Dan Vega: Spring Security JWT
+
+  
+I also loved Dan’s video on Spring Security without the WebSecurityConfigurerAdapter 
+
+  
+Dispatching Queries in Axon Framework
+
+  
+Guide to Find the Java .class Version
+
+  
+Spring Cloud 2021.0.4 (codename Jubilee) Has Been Released
+
+  
+Static Fields and Garbage Collection
+
+  
+Blog: Announcing the Auto-refreshing Official Kubernetes CVE Feed
+
+  
+Blog: Kubernetes 1.25: KMS V2 Improvements
+
+  
+Blog: Kubernetes’s IPTables Chains Are Not API
+
+  
+this is an interesting post looking at how to use JUnit with Spring Boot. The only thing I didn’t quite understand is why the author declares Mockito explicitly. I’m pretty sure it’s brought in transitively in spring-boot-starter-test, but either way: good post!]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The proximity hack]]></title>
+        <id>https://seths.blog/?p=42746</id>
+        <link href="https://feeds.feedblitz.com/~/711206332/0/sethsblog~The-proximity-hack/"/>
+        <updated>2022-09-13T06:53:00.000Z</updated>
+        <summary type="html"><![CDATA[We evolved to care about things that were close by or in the near future. That makes sense. It’s a useful survival skill in a primitive world. Today, though, our instinct for the close and the imminent is being used against us. Media and those in search of our money or attention bring the far […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Elastic provides the foundation for the DoD’s pillars of Zero Trust Networking]]></title>
+        <id>https://www.elastic.co/blog/elastic-provides-the-foundation-for-the-dods-pillars-of-zero-trust-networking</id>
+        <link href="https://www.elastic.co/blog/elastic-provides-the-foundation-for-the-dods-pillars-of-zero-trust-networking"/>
+        <updated>2022-09-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[For most public sector organizations, especially the U.S. Department of Defense, enacting a strong Zero Trust security strategy is critical. Learn how Elastic Security provides the foundation for the fundamental pillars of a Zero Trust architecture.]]></summary>
+        <author>
+            <name>Woody Walton</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Elastic provides the foundation for the DoD’s pillars of Zero Trust Networking]]></title>
+        <id>https://www.elastic.co/blog/elastic-provides-the-foundation-for-the-dods-pillars-of-zero-trust-networking</id>
+        <link href="https://www.elastic.co/blog/elastic-provides-the-foundation-for-the-dods-pillars-of-zero-trust-networking"/>
+        <updated>2022-09-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+The whole point of IT systems, whether deployed via traditional methods or via modern practices (such as Agile methodologies, DevSecOps, and orchestration platforms like Kubernetes) is to make data available for business operations — whether those operations are making business decisions, identifying or troubleshooting system performance and efficiency issues, detecting bad actors, or protecting organizational assets. Unfortunately, the result is a large array of disparate data silos that were never designed to interact with each other.
+
+What’s needed is the ability to collect and ingest data from multiple disparate sources and bring them together within a common access layer, in a format that allows cross-correlation and analysis, at scale and in near real-time. Elastic provides a uniqu…]]></summary>
+        <author>
+            <name>Woody Walton</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What If? 2 Flowchart]]></title>
+        <id>https://xkcd.com/2672/</id>
+        <link href="https://xkcd.com/2672/"/>
+        <updated>2022-09-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/what_if_2_flowchart.png" title="Don't worry, the dogs are all fine. That's actually kind of the problem." alt="Don't worry, the dogs are all fine. That's actually kind of the problem." />]]></summary>
+        <author>
+            <name>xkcd.com</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AWS Week In Review – September 12, 2022]]></title>
         <id>e12120d49afe56b0cb9f9b01c88fc4cb655ae305</id>
@@ -53,6 +246,16 @@
         <summary type="html"><![CDATA[Red Hat Ansible Automation Platform 2 introduced  major architectural changes, like automation mesh and automation execution environments, that help extend Ansible automation across your organization in a flexible manner, providing a single solution to all your organizational and hybrid cloud automation needs.]]></summary>
         <author>
             <name>Anshul Behl</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JetBrains Rider .NET Watch Run Configuration Plugin]]></title>
+        <id>https://blog.jetbrains.com/?post_type=dotnet&amp;p=273345</id>
+        <link href="https://blog.jetbrains.com/dotnet/2022/09/12/jetbrains-rider-net-watch-run-configuration-plugin/"/>
+        <updated>2022-09-12T12:27:47.000Z</updated>
+        <summary type="html"><![CDATA[Most modern technology stacks now include a quick feedback loop mechanism. These mechanisms allow you to change your codebase and avoid the tedious tasks of stopping and restarting the existing application session. You may typically refer to this as hot reload or live reload. In the .NET world, “hot reload” is additional functionality integrated into […]]]></summary>
+        <author>
+            <name>Khalid Abuhakmeh</name>
         </author>
     </entry>
     <entry>
@@ -716,16 +919,6 @@ Did you ever try to measure a smell? …Until you can measure their likenesses a
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Java Annotated Monthly – September 2022]]></title>
-        <id>https://blog.jetbrains.com/?post_type=idea&amp;p=277300</id>
-        <link href="https://blog.jetbrains.com/idea/2022/09/java-annotated-monthly-september-2022/"/>
-        <updated>2022-09-06T09:40:45.000Z</updated>
-        <summary type="html"><![CDATA[Hello! For the September edition of Java Annotated Monthly, we’ve prepared a lot of resources to help you transition smoothly into the fall season. In addition, we cordially invite you to join our free online IntelliJ IDEA Conf, which takes place September 29–30. Java News JEP 429 – The proposal introduces extent-local variables, which enable […]]]></summary>
-        <author>
-            <name>Ida Bzowska</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The treatment of bystanders]]></title>
         <id>https://seths.blog/?p=43714</id>
         <link href="https://feeds.feedblitz.com/~/709842444/0/sethsblog~The-treatment-of-bystanders/"/>
@@ -794,16 +987,6 @@ Speaking of JOOQ, did you know there’s good reactive API support included? Che
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Artemis Quote]]></title>
-        <id>https://xkcd.com/2668/</id>
-        <link href="https://xkcd.com/2668/"/>
-        <updated>2022-09-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/artemis_quote.png" title="Another option: &quot;It is an honor to be the first human to set foot on the moon.&quot;" alt="Another option: &quot;It is an honor to be the first human to set foot on the moon.&quot;" />]]></summary>
-        <author>
-            <name>xkcd.com</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The speed of change]]></title>
         <id>https://seths.blog/?p=42604</id>
         <link href="https://feeds.feedblitz.com/~/709459412/0/sethsblog~The-speed-of-change/"/>
@@ -811,36 +994,6 @@ Speaking of JOOQ, did you know there’s good reactive API support included? Che
         <summary type="html"><![CDATA[Moore’s law talks about the fact that computer chips get faster and cheaper over time. It turns out that the biggest shift to our culture isn’t the changing speed of a computer chip, it’s what happens when we network humans together. Adding more people to the internet has accelerated science, politics and every element of […]]]></summary>
         <author>
             <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cultural distress (and consumerism)]]></title>
-        <id>https://seths.blog/?p=43675</id>
-        <link href="https://feeds.feedblitz.com/~/709325620/0/sethsblog~Cultural-distress-and-consumerism/"/>
-        <updated>2022-09-03T08:58:00.000Z</updated>
-        <summary type="html"><![CDATA[For decades, marketers (and politicians) have been working to amplify cultural distress, a hack on our emotions. Not the tragic emotional distress of being unable to care for your kids, find a place to live or deal with trauma, but the invented cultural distress of modern industrialized societies. This is the easily created shame of […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Release Radar · August 2022 Edition]]></title>
-        <id>https://github.blog/2022-09-02-release-radar-aug-2022/</id>
-        <link href="https://github.blog/2022-09-02-release-radar-aug-2022/"/>
-        <updated>2022-09-02T23:13:06.000Z</updated>
-        <summary type="html"><![CDATA[We&#8217;ve been gearing up to launch GitHub Universe 2022 and our community has been launching cool projects left right and center.  These projects include everything from world-changing technology to developer tooling, and weekend hobbies. Here are some of the open source projects that released major version updates this August. Read more about these projects in [&#8230;]]]></summary>
-        <author>
-            <name>The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Git&#8217;s database internals V: scalability]]></title>
-        <id>https://github.blog/2022-09-02-gits-database-internals-v-scalability/</id>
-        <link href="https://github.blog/2022-09-02-gits-database-internals-v-scalability/"/>
-        <updated>2022-09-02T13:05:05.000Z</updated>
-        <summary type="html"><![CDATA[This fifth and final part of our blog series exploring Git's internals shows several strategies for scaling your Git repositories that match related database sharding techniques.]]></summary>
-        <author>
-            <name>The GitHub Blog</name>
         </author>
     </entry>
     <entry>
@@ -1108,31 +1261,6 @@ So, here is VMware’s stack for building a platform on the platform as kubernet
         <summary type="html"><![CDATA[The AWS Region in the United Arab Emirates is now open. The official name is Middle East (UAE), and the API name is me-central-1. You can start using it today to deploy workloads and store your data in the United Arab Emirates. The AWS Middle East (UAE) Region is the second Region in the Middle […]]]></summary>
         <author>
             <name>Marcia Villalba</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to use Elastic Maps to make public datasets observable]]></title>
-        <id>https://www.elastic.co/blog/how-to-use-elastic-maps-to-make-public-datasets-observable</id>
-        <link href="https://www.elastic.co/blog/how-to-use-elastic-maps-to-make-public-datasets-observable"/>
-        <updated>2022-08-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[There’s a growing trend among many countries to publish their data as open datasets that are available to the public. These curated datasets are an excellent resource for developers looking to create a demo set for their applications.]]></summary>
-        <author>
-            <name>Philipp Kahr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to use Elastic Maps to make public datasets observable]]></title>
-        <id>https://www.elastic.co/blog/how-to-use-elastic-maps-to-make-public-datasets-observable</id>
-        <link href="https://www.elastic.co/blog/how-to-use-elastic-maps-to-make-public-datasets-observable"/>
-        <updated>2022-08-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-There’s a growing trend among many countries to publish their data (for example, the number and location of bicycles that have been stolen in Berlin) as open datasets that are available to the public. These curated datasets are an excellent resource for developers looking to create a demo set for their applications.
-
-In this post, we’ll take the example of Berlin’s bicycle theft database to walk through how you can use Elastic Maps to make visual dashboards and maps of publicly available data as demos in your applications.
-The dataset
-First grab yourself a copy of the CSV from Fahrraddiebstahl in Berlin | Offene Daten Berlin. This is irregularly updated. In this blog, I won’t cover how to retrieve this document regularly and send it to Elasticsearch. If you want to do something like that…]]></summary>
-        <author>
-            <name>Philipp Kahr</name>
         </author>
     </entry>
     <entry>
@@ -1855,18 +1983,6 @@ The broker in Apache Pulsar is stateless, and the storage is not part of the bro
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[This Week in Spring - August 16th, 2022]]></title>
-        <id>https://spring.io/blog/2022/08/16/this-week-in-spring-august-16th-2022</id>
-        <link href="https://spring.io/blog/2022/08/16/this-week-in-spring-august-16th-2022"/>
-        <updated>2022-08-16T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hi, Spring fans! Welcome to another wonder-filled installment of This Week in Spring! It’s been a week! Sometimes I can scarcely believe it myself. And can you believe it’s August 16th already?? My daughter’s starting school this week! We’re in the northern hemisphere, and Summer break is already over and done with for her. There’s still another month and some change of summer, officially, though. So, I hope you all are doing whatever you can to maximize your enjoyment of it before the darker and colder months arrive. 
-
-Twitter helps me pass the time. I’ve been working on some code and wanted to use Twitter’s OAuth 2 and PKCE support in the application but couldn’t quite make it work. So I pinged my pal (everybody’s pal, really!) and Spring Security lead Rob Winch (@rob_winch) for some cl…]]></summary>
-        <author>
-            <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[A Decade of Ever-Increasing Provisioned IOPS for Amazon EBS]]></title>
         <id>62b434c84905bf2a24ca8943b82a7e2149abf628</id>
         <link href="https://aws.amazon.com/blogs/aws/a-decade-of-ever-increasing-provisioned-iops-for-amazon-ebs/"/>
@@ -1904,23 +2020,6 @@ Twitter helps me pass the time. I’ve been working on some code and wanted to u
         <summary type="html"><![CDATA[This release enhances a number of features in Consul while adding such new features as a Consul on Kubernetes CNI plugin and a beta version of cluster peering.]]></summary>
         <author>
             <name>HashiCorp Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blog: Meet Our Contributors - APAC (China region)]]></title>
-        <id>https://kubernetes.io/blog/2022/08/15/meet-our-contributors-china-ep-03/</id>
-        <link href="https://kubernetes.io/blog/2022/08/15/meet-our-contributors-china-ep-03/"/>
-        <updated>2022-08-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Authors & Interviewers: Avinesh Tripathi, Debabrata Panigrahi, Jayesh Srivastava, Priyanka Saggu, Purneswar Prasad, Vedant Kakde
-Hello, everyone 👋
-Welcome back to the third edition of the "Meet Our Contributors" blog post series for APAC.
-This post features four outstanding contributors from China, who have played diverse leadership and community roles in the upstream Kubernetes project.
-So, without further ado, let's get straight to the article.
-Andy Zhang
-Andy Zhang currently works for Microsoft China at the Shanghai site. His main focus is on Kubernetes storage drivers. Andy started contributing to Kubernetes about 5 years ago.
-He states that as he is working in Azure Kubernetes Service team and spends most of his time contributing to the Kubernetes community project. Now he is the mai…]]></summary>
-        <author>
-            <name>Kubernetes – Production-Grade Container Orchestration</name>
         </author>
     </entry>
 </feed>

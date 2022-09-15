@@ -6,6 +6,16 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2022/09/14/spring-cloud-dataflow-2-9-6-released",
+          "author": null,
+          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Cloud Dataflow 2.9.6 has been released and is now available from Maven Central.\n\r\nThis release updates to Postgres SQL driver 42.2.26 to address CVE-2022-31197. See the release notes for more information.\nStay in touch…\n\r\nAs always, we welcome feedback and contributions, so please reach out to us on Stackoverflow or GitHub.",
+          "link": "https://spring.io/blog/2022/09/14/spring-cloud-dataflow-2-9-6-released",
+          "publishedOn": "2022-09-15T02:00:00.000Z",
+          "wordCount": 559,
+          "title": "Spring Cloud Dataflow 2.9.6 Released",
+          "imageUrl": "https://avatars.githubusercontent.com/u/28907971?v=4?s=200"
+        },
+        {
           "id": "https://spring.io/blog/2022/09/13/this-week-in-spring-september-13th-2022",
           "author": null,
           "description": "Hi, Spring fans! Welcome to another installment of This Week in Spring! We’ve got a lot of good stuff to get to so let’s dive right into it! \n\r\n\r\n  \nA Bootiful Podcast: Hashicorp’s Rosemary Wang on securing the intersection of apps and ops with Hashicorp Vault\n\r\n  \na nice video by my colleague Dan Vega: Spring Security JWT\n\r\n  \nI also loved Dan’s video on Spring Security without the WebSecurityConfigurerAdapter \n\r\n  \nDispatching Queries in Axon Framework\n\r\n  \nGuide to Find the Java .class Version\n\r\n  \nSpring Cloud 2021.0.4 (codename Jubilee) Has Been Released\n\r\n  \nStatic Fields and Garbage Collection\n\r\n  \nBlog: Announcing the Auto-refreshing Official Kubernetes CVE Feed\n\r\n  \nBlog: Kubernetes 1.25: KMS V2 Improvements\n\r\n  \nBlog: Kubernetes’s IPTables Chains Are Not API\n\r\n  \nthis is an interesting post looking at how to use JUnit with Spring Boot. The only thing I didn’t quite understand is why the author declares Mockito explicitly. I’m pretty sure it’s brought in transitively in spring-boot-starter-test, but either way: good post!",
@@ -194,16 +204,6 @@
           "wordCount": 556,
           "title": "Spring Security 5.8.0-M2 is released",
           "imageUrl": "https://avatars.githubusercontent.com/u/13255302?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/08/16/introducing-experimental-spring-support-for-apache-pulsar",
-          "author": null,
-          "description": "We are happy to announce that we are incubating a new experimental Spring project for Apache Pulsar. This project aims to provide Spring-friendly APIs, building blocks, and programming models for writing Java applications that interact with Apache Pulsar. \n\r\nApache Pulsar is a popular messaging system with a growing ecosystem of developers in the enterprise messaging and streaming space. Here are some main features and advantages of using Apache Pulsar for messaging-based software applications:\n\r\n\r\n  \nApache Pulsar provides both the traditional queuing semantics of RabbitMQ, ActiveMQ, and others and the log-based structure of Apache Kafka through various subscription models.\n\r\n  \nThe broker in Apache Pulsar is stateless, and the storage is not part of the broker. Instead, it uses another A…",
-          "link": "https://spring.io/blog/2022/08/16/introducing-experimental-spring-support-for-apache-pulsar",
-          "publishedOn": "2022-08-16T14:00:00.000Z",
-          "wordCount": 1048,
-          "title": "Introducing Experimental Spring Support for Apache Pulsar",
-          "imageUrl": "https://avatars.githubusercontent.com/u/827682?v=4?s=200"
         }
       ]
     },
@@ -401,16 +401,6 @@
           "wordCount": 3319,
           "title": "New Survey Shows Broad Cloud Waste — HashiCorp Terraform Can Help",
           "imageUrl": "https://www.datocms-assets.com/2885/1659570872-state-of-the-cloud-final-card-10-sec_00139.png"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/consul-1-13-introduces-cluster-peering",
-          "author": null,
-          "description": "This release enhances a number of features in Consul while adding such new features as a Consul on Kubernetes CNI plugin and a beta version of cluster peering.",
-          "link": "https://www.hashicorp.com/blog/consul-1-13-introduces-cluster-peering",
-          "publishedOn": "2022-08-15T16:00:00.000Z",
-          "wordCount": 4113,
-          "title": "Consul 1.13 Introduces Cluster Peering",
-          "imageUrl": "https://www.datocms-assets.com/2885/1620083627-blog-library-product-consul-dark-graphics.jpg"
         }
       ]
     },
@@ -420,12 +410,52 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
+          "id": "https://www.elastic.co/blog/a-cyber-summer-students-experience-elastic-during-iu-omnisoc-cybersecurity-summer-internship-program",
+          "author": "Stephanie Raiguel",
+          "description": "As a proud sponsor of the Indiana University OmniSOC Cyber Security Summer Internship program, read about how Elastic helps students not only learn about Elastic Security but experience it through interactive training and workshops.",
+          "link": "https://www.elastic.co/blog/a-cyber-summer-students-experience-elastic-during-iu-omnisoc-cybersecurity-summer-internship-program",
+          "publishedOn": "2022-09-14T00:00:00.000Z",
+          "wordCount": 6833,
+          "title": "A cyber summer: Students experience Elastic during IU OmniSOC Cybersecurity Summer Internship Program",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt8833066d9c9c1823/5ffdbc9122252d41f7286584/blog-thumb-education-books.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/announcing-a-new-streamlined-sign-up-experience-for-elastic-cloud-on-aws-marketplace",
+          "author": "Udayasimha Theepireddy,Osman Ishaq,Brian Bergholm",
+          "description": "Elastic and AWS have collaborated to accelerate results that matter through a streamlined sign-up experience for Elastic on AWS Marketplace.",
+          "link": "https://www.elastic.co/blog/announcing-a-new-streamlined-sign-up-experience-for-elastic-cloud-on-aws-marketplace",
+          "publishedOn": "2022-09-14T00:00:00.000Z",
+          "wordCount": 8533,
+          "title": "Announcing a new streamlined sign-up experience for Elastic Cloud on AWS Marketplace",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0f1a47cc47f1dbf1/632250ef04361d715f54fcf9/AWS_sign_up.jpg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/a-cyber-summer-students-experience-elastic-during-iu-omnisoc-cybersecurity-summer-internship-program",
+          "author": "Stephanie Raiguel",
+          "description": ",\nLaunched in 2019, the Indiana University (IU) OmniSOC Cybersecurity Summer Internship Program provides students with an opportunity to experience a “day in the life” of a security analyst. The interns learn about the day-to-day operations and the technology used to power a security operations center (SOC). As a proud sponsor of the program since its inception, Elastic leads students through various hands-on training sessions and workshops throughout the program. \nGoing beyond the classroom\nUnlike the previous two years when in-person participation was not an option, this year’s six-week paid program was conducted in a hybrid setting. Students spent the first three weeks in-person at the OmniSOC in Bloomington, IN. At the conclusion of the three-week training, interns traveled back home t…",
+          "link": "https://www.elastic.co/blog/a-cyber-summer-students-experience-elastic-during-iu-omnisoc-cybersecurity-summer-internship-program",
+          "publishedOn": "2022-09-14T00:00:00.000Z",
+          "wordCount": 6833,
+          "title": "A cyber summer: Students experience Elastic during IU OmniSOC Cybersecurity Summer Internship Program",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt8833066d9c9c1823/5ffdbc9122252d41f7286584/blog-thumb-education-books.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/announcing-a-new-streamlined-sign-up-experience-for-elastic-cloud-on-aws-marketplace",
+          "author": "Udayasimha Theepireddy,Osman Ishaq,Brian Bergholm",
+          "description": ",\nNow it's easier than ever for you to get the most value out of your data with Elastic on Amazon Web Services (AWS). We’re pleased to announce a new improvement to help you easily get set up with Elastic on AWS in just a few minutes.\nSimplified onboarding: Get set up with Elastic on AWS with just a few clicks\nElastic and AWS have collaborated to build a streamlined UX that greatly simplifies onboarding. Beginning today, you can subscribe to Elastic Cloud with an easier signup and setup experience directly through the AWS Marketplace console. This simplified experience reduces the need to navigate between multiple applications and lets you easily set up Elastic in just a few clicks. The new UX allows you to:\n\nSubscribe to Elastic\nDeploy the Elastic Stack in any of Elastic’s supported AWS r…",
+          "link": "https://www.elastic.co/blog/announcing-a-new-streamlined-sign-up-experience-for-elastic-cloud-on-aws-marketplace",
+          "publishedOn": "2022-09-14T00:00:00.000Z",
+          "wordCount": 8533,
+          "title": "Announcing a new streamlined sign-up experience for Elastic Cloud on AWS Marketplace",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0f1a47cc47f1dbf1/632250ef04361d715f54fcf9/AWS_sign_up.jpg"
+        },
+        {
           "id": "https://www.elastic.co/blog/elastic-provides-the-foundation-for-the-dods-pillars-of-zero-trust-networking",
           "author": "Woody Walton",
           "description": "For most public sector organizations, especially the U.S. Department of Defense, enacting a strong Zero Trust security strategy is critical. Learn how Elastic Security provides the foundation for the fundamental pillars of a Zero Trust architecture.",
           "link": "https://www.elastic.co/blog/elastic-provides-the-foundation-for-the-dods-pillars-of-zero-trust-networking",
           "publishedOn": "2022-09-13T00:00:00.000Z",
-          "wordCount": 12661,
+          "wordCount": 12594,
           "title": "Elastic provides the foundation for the DoD’s pillars of Zero Trust Networking",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta8578c2a056c090d/6297ba628eeef94572764028/blog-thumb-gov-cloud-security.jpg"
         },
@@ -435,7 +465,7 @@
           "description": ",\nThe whole point of IT systems, whether deployed via traditional methods or via modern practices (such as Agile methodologies, DevSecOps, and orchestration platforms like Kubernetes) is to make data available for business operations — whether those operations are making business decisions, identifying or troubleshooting system performance and efficiency issues, detecting bad actors, or protecting organizational assets. Unfortunately, the result is a large array of disparate data silos that were never designed to interact with each other.\n\nWhat’s needed is the ability to collect and ingest data from multiple disparate sources and bring them together within a common access layer, in a format that allows cross-correlation and analysis, at scale and in near real-time. Elastic provides a uniqu…",
           "link": "https://www.elastic.co/blog/elastic-provides-the-foundation-for-the-dods-pillars-of-zero-trust-networking",
           "publishedOn": "2022-09-13T00:00:00.000Z",
-          "wordCount": 12661,
+          "wordCount": 12594,
           "title": "Elastic provides the foundation for the DoD’s pillars of Zero Trust Networking",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta8578c2a056c090d/6297ba628eeef94572764028/blog-thumb-gov-cloud-security.jpg"
         },
@@ -445,7 +475,7 @@
           "description": "Employee resource groups build a sense of community and belonging, provide an inclusive space for people with similar experiences, empower employees to share their voice, and amplify our DEI initiatives. Here’s a bit about each one.",
           "link": "https://www.elastic.co/blog/culture-meet-our-7-ergs-who-are-building-communities-at-elastic",
           "publishedOn": "2022-09-12T00:00:00.000Z",
-          "wordCount": 8048,
+          "wordCount": 7916,
           "title": "Meet our 7 ERGs who are building communities at Elastic",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt7218cc07d77b7065/631b78388c6aa1311ba19e57/9.0-ERG-blog-1680x980.png"
         },
@@ -455,7 +485,7 @@
           "description": "Learn how to run custom machine learning models to extract location information from text-based datasets and plot it on a map.",
           "link": "https://www.elastic.co/blog/introduction-to-custom-machine-learning-models-and-maps",
           "publishedOn": "2022-09-12T00:00:00.000Z",
-          "wordCount": 9149,
+          "wordCount": 9017,
           "title": "Introduction to custom machine learning models and maps",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc12e084face9bca3/62e91caae71af410b83be81f/large-illustration-machine-learning-anomaly-1200x630.png"
         },
@@ -465,7 +495,7 @@
           "description": "There are many benefits to conducting security operations on a cloud-based platform. In this post, we’ll cover a few of the benefits Elastic Security for Cloud users experience, and how you can take advantage of an Elastic Cloud deployment yourself.",
           "link": "https://www.elastic.co/blog/what-are-elastic-security-capabilities-in-the-cloud-and-how-do-they-drive-results",
           "publishedOn": "2022-09-12T00:00:00.000Z",
-          "wordCount": 7423,
+          "wordCount": 7291,
           "title": "What are Elastic Security capabilities in the cloud — and how do they drive results?",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltd6b2a3bae0af5893/62dfdaf0df0a3871e08a4842/blog-security-paperclip.png"
         },
@@ -475,7 +505,7 @@
           "description": ",\nEmployee resource groups, or as we like to call them, Elastician resource groups, have been a part of Elastic’s culture since 2016. They started as organic Slack channels that Elasticians could join to connect with others from similar backgrounds or experiences.\nIn 2021, we formalized these ERGs to ensure that the members would have structure, budget, and ultimately, a voice based on any dimension of diversity, allyship, and advocacy. Formalizing these ERGs was an important step in broadening the impact of our collective diversity, equity and inclusion (DEI) initiatives.\nERGs are aligned to shared identities, interests, affinities, or allyships and have visions and goals they are working towards. They allow Elasticians to build a sense of community and belonging outside of their immediat…",
           "link": "https://www.elastic.co/blog/culture-meet-our-7-ergs-who-are-building-communities-at-elastic",
           "publishedOn": "2022-09-12T00:00:00.000Z",
-          "wordCount": 8048,
+          "wordCount": 7916,
           "title": "Meet our 7 ERGs who are building communities at Elastic",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt7218cc07d77b7065/631b78388c6aa1311ba19e57/9.0-ERG-blog-1680x980.png"
         },
@@ -485,7 +515,7 @@
           "description": ",\nIn Elasticsearch 8.0, we introduced the ability to run custom machine learning models, such as the ones based on BERT (Bidirectional Encoder Representations from Transformers), to perform natural language processing (NLP). This feature makes it easier to work with text-based datasets.\n\nIn this blog, I will put this concept into practice by showing how to extract location information from CNN articles and plot it on a map!\n\n[Related article: How to use Elastic Maps to make public datasets observable]\nStep 1. Gather the data\nThe first step is to gather a publicly available dataset. I have chosen the CNN dataset provided by Kaggle. You can download that and just import the CSV file as it is through Kibana, using the file upload feature inside machine learning.\nStep 2. Import the machine lea…",
           "link": "https://www.elastic.co/blog/introduction-to-custom-machine-learning-models-and-maps",
           "publishedOn": "2022-09-12T00:00:00.000Z",
-          "wordCount": 9149,
+          "wordCount": 9017,
           "title": "Introduction to custom machine learning models and maps",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc12e084face9bca3/62e91caae71af410b83be81f/large-illustration-machine-learning-anomaly-1200x630.png"
         },
@@ -495,7 +525,7 @@
           "description": ",\nCloud-based SIEM, long a forward-looking topic, is here and now. In fact, advanced organizations will spend 27% more on cloud cybersecurity as a percentage of IT spending in 2022 vs. 2021 as they expand their use of cloud providers, services, and integrations with other technologies.\n\nThere are a myriad of benefits to conducting security operations on a cloud-based platform. In this post, we’ll cover a few of the benefits that users of Elastic Security for Cloud are experiencing, and how you can take advantage of an Elastic Cloud deployment yourself.\nScalability\nOne of the leading advantages of cloud-deployed Elastic is the ability to scale easily and efficiently with your workload. Whether you’re operating a small-scale test cluster, or instantaneously deploying a large fleet of Elastic…",
           "link": "https://www.elastic.co/blog/what-are-elastic-security-capabilities-in-the-cloud-and-how-do-they-drive-results",
           "publishedOn": "2022-09-12T00:00:00.000Z",
-          "wordCount": 7423,
+          "wordCount": 7291,
           "title": "What are Elastic Security capabilities in the cloud — and how do they drive results?",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltd6b2a3bae0af5893/62dfdaf0df0a3871e08a4842/blog-security-paperclip.png"
         },
@@ -505,7 +535,7 @@
           "description": "With an overall positive outlook on life, Tiffany brings that same energy to her customers at work as the Head of Customer Success for Elastic. Tiffany shares her career journey from civil engineering to customer success.",
           "link": "https://www.elastic.co/blog/power-to-fly-how-elastic-s-tiffany-witwer-built-a-career-from-civil-engineering-to-customer-success",
           "publishedOn": "2022-09-09T00:00:00.000Z",
-          "wordCount": 8453,
+          "wordCount": 8321,
           "title": "How Elastic’s Tiffany Witwer Built a Career from Civil Engineering to Customer Success",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9770b23c309293ba/62e1342818595876bf312cdb/Blog-power-to-fly-blog-1680x980.jpg"
         },
@@ -515,7 +545,7 @@
           "description": ",\nThis blog post was originally published on the Power to Fly website.\n\nTiffany Witwer from Elastic is a proud mom of three.\n“I enjoy being a parent because it teaches me patience and it gives me a different perspective,” she shares. “It allows me to be more present, laugh more, and appreciate the small things.”\nIn between her duties as a mom, she keeps herself mentally and physically healthy by running, biking, swimming, or doing yoga — all activities that help her start the day with gratitude. \"It gives me the right perspective and attitude to go into the day,” she says.\nWith an overall positive outlook on life, Tiffany brings that same energy to her customers at work as the Head of Customer Success for Elastic.\nWe sat down with Tiffany, who shared with us her career journey from civil e…",
           "link": "https://www.elastic.co/blog/power-to-fly-how-elastic-s-tiffany-witwer-built-a-career-from-civil-engineering-to-customer-success",
           "publishedOn": "2022-09-09T00:00:00.000Z",
-          "wordCount": 8453,
+          "wordCount": 8321,
           "title": "How Elastic’s Tiffany Witwer Built a Career from Civil Engineering to Customer Success",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9770b23c309293ba/62e1342818595876bf312cdb/Blog-power-to-fly-blog-1680x980.jpg"
         },
@@ -525,7 +555,7 @@
           "description": "An overview on how Elastic Observability and APM correlations can help diagnose and troubleshoot application issues. We will cover a real-life application issue and review some other common scenarios where APM is commonly used by developers, SREs and DevOps teams.",
           "link": "https://www.elastic.co/blog/apm-correlations-elastic-observability-root-cause-transactions",
           "publishedOn": "2022-09-08T00:00:00.000Z",
-          "wordCount": 12271,
+          "wordCount": 12139,
           "title": "APM correlations in Elastic Observability: Automatically identifying probable causes of slow or failed transactions",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte2cf02ea5443e9fc/5fdbbde6b08361084bff9c9b/blog-banner-apm-waterfall.png"
         },
@@ -535,7 +565,7 @@
           "description": ",\nAs a DevOps engineer or SRE, you are often faced with investigating complex problems — mysterious application performance issues that happen intermittently or to only certain portions of your application traffic — that impact your end users and potentially your company’s financial targets. Sifting through hundreds or even thousands of transactions and spans can be a lot of tedious, manual, and time consuming investigative work. Cloud-native or distributed microservices deployments introduce further complexities, increasing time to root cause determination. \n\nWouldn’t it be awesome if you could quickly identify a common pattern that can help explain such a seemingly complex problem, thus demystifying it and paving the way for quicker root cause analysis and remediation? \n\nThe APM correlat…",
           "link": "https://www.elastic.co/blog/apm-correlations-elastic-observability-root-cause-transactions",
           "publishedOn": "2022-09-08T00:00:00.000Z",
-          "wordCount": 12271,
+          "wordCount": 12139,
           "title": "APM correlations in Elastic Observability: Automatically identifying probable causes of slow or failed transactions",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte2cf02ea5443e9fc/5fdbbde6b08361084bff9c9b/blog-banner-apm-waterfall.png"
         },
@@ -545,7 +575,7 @@
           "description": "Using Threshold rules to create alerts on your alerts is a great way to maximize your analyst effectiveness without sacrificing visibility. By using these rules, security analysts spend less time investigating false positives.",
           "link": "https://www.elastic.co/blog/detection-engineering-maximizing-analyst-efficiency-using-cardinality-threshold-rules-on-your-alerts-",
           "publishedOn": "2022-09-07T07:00:00.000Z",
-          "wordCount": 14775,
+          "wordCount": 14643,
           "title": "Detection engineering — Maximizing analyst efficiency using Cardinality Threshold rules on your alerts",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltcaf8e3e614fb824e/62e949032a66d4760f00e2c9/blog-open-security-720x420-A.png"
         },
@@ -555,7 +585,7 @@
           "description": ",\nAs the Threat Detection and Response (TDR) team on Elastic’s internal Infosec team, one of our responsibilities is building, tuning, and maintaining the security detections used to find and stop attacks against Elastic systems. This includes the Elastic Cloud environment, which currently spans 50+ cloud regions and four different cloud providers ingesting more than 1.5 petabytes of data per day.\nWe also work very closely with our Incident Response team and the analysts triaging alerts so we can feel their pain when detections don’t work as intended. Within Elastic, we call ourselves Customer Zero and we always use the newest versions of our products. We meet every week with the development teams that are building Elastic products to provide real-world feedback, bug reports, and feature r…",
           "link": "https://www.elastic.co/blog/detection-engineering-maximizing-analyst-efficiency-using-cardinality-threshold-rules-on-your-alerts-",
           "publishedOn": "2022-09-07T07:00:00.000Z",
-          "wordCount": 14775,
+          "wordCount": 14643,
           "title": "Detection engineering — Maximizing analyst efficiency using Cardinality Threshold rules on your alerts",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltcaf8e3e614fb824e/62e949032a66d4760f00e2c9/blog-open-security-720x420-A.png"
         },
@@ -565,7 +595,7 @@
           "description": "Security will be top of mind for any insurance digital transformation effort. CISOs can therefore set best practices and implement new tools and processes that drive greater comfort for the company, clients, partners, and regulators.",
           "link": "https://www.elastic.co/blog/why-cisos-are-the-new-champions-of-insurance-transformation",
           "publishedOn": "2022-09-07T00:00:00.000Z",
-          "wordCount": 8778,
+          "wordCount": 8646,
           "title": "Why CISOs are the new champions of insurance transformation",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt5e11a59cd4dc7b4b/62b2bf1ae3bbf658a27e4d3e/security-threat-monitoring-compliance-1200x628.png"
         },
@@ -575,49 +605,9 @@
           "description": ",\nThe insurance industry's business model is rapidly evolving as the latest consumer and business technologies deliver greater quantities of real-time data than ever before. McKinsey predicts that by 2030, processes like underwriting as we know it will cease to exist — machine and deep learning models will automate policies and reduce delivery time to seconds. The rapid adoption of new tools, infrastructure, and talent will certainly influence underwriting, pricing, claims, distribution, and other core components of the insurance industry. The accumulation of system generated data will also help insurers better understand their customers’ preferences, habits, and risks — and thus support a more intelligent level of service and a more holistic product offering.\n\nAs with all technology advan…",
           "link": "https://www.elastic.co/blog/why-cisos-are-the-new-champions-of-insurance-transformation",
           "publishedOn": "2022-09-07T00:00:00.000Z",
-          "wordCount": 8778,
+          "wordCount": 8646,
           "title": "Why CISOs are the new champions of insurance transformation",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt5e11a59cd4dc7b4b/62b2bf1ae3bbf658a27e4d3e/security-threat-monitoring-compliance-1200x628.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-cloud-price-change-to-create-alignment-across-purchasing-options",
-          "author": "Chanda Dani",
-          "description": "Elastic Cloud pricing is changing to simplify and bring parity across Direct and Marketplace prices. Customers will pay the same price for Elastic Cloud whether they purchase from Elastic or their preferred Cloud Service Provider’s marketplace.",
-          "link": "https://www.elastic.co/blog/elastic-cloud-price-change-to-create-alignment-across-purchasing-options",
-          "publishedOn": "2022-09-01T00:00:00.000Z",
-          "wordCount": 6517,
-          "title": "Elastic Cloud price change to create alignment across purchasing options",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt45db890a8daf01cb/6181b8229b08490cdd1190bc/thumb-elastic-cloud-midnight-1200x628.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-cloud-price-change-to-create-alignment-across-purchasing-options",
-          "author": "Chanda Dani",
-          "description": ",\nEffective November 1, 2022 Elastic is making changes to Elastic Cloud pricing to simplify and bring parity across Direct and Marketplace prices. Moving forward, customers will pay the same price for Elastic Cloud whether they purchase directly from Elastic or through their preferred Cloud Service Provider’s marketplace. Thanks to our close partnership with the cloud providers over the last few years, we've significantly reduced the marketplace fees our customers have been paying and are now able to align pricing across all purchasing avenues.\n\nMany customers prefer to use their pre-committed cloud marketplace spend to purchase software as it helps shorten the purchase cycle and accelerate onboarding. With this change, when customers purchase an Elastic subscription using their pre-committed cloud provider marketplace spend, they will pay the same price they would pay Elastic directly.\n\nAs a result of this change, some customers will see a small price decrease, while others may see slightly higher prices (up to 4%), but many will see little or no change. Elastic has directly communicated with all impacted customers. The price change for impacted customers will be reflected in the November billing statement made available in December 2022.\n\nIn addition, to help customers optimize their Elastic deployment and reduce costs, we’ve added a number of features. These include simple, no-downtime migration capability to help users adopt the most price-performant instance type for their use case, as well as Searchable Snapshots, which enables users to leverage cost-effective cloud-based object storage. Please see our blog post, Top 5 ways to optimize your Elastic Cloud costs. \n\nWe encourage you to reach out to your account team if you have questions. If you are unsure who your account representative is, you can Contact Elastic. For information on Elastic pricing, you can visit our pricing page.",
-          "link": "https://www.elastic.co/blog/elastic-cloud-price-change-to-create-alignment-across-purchasing-options",
-          "publishedOn": "2022-09-01T00:00:00.000Z",
-          "wordCount": 6517,
-          "title": "Elastic Cloud price change to create alignment across purchasing options",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt45db890a8daf01cb/6181b8229b08490cdd1190bc/thumb-elastic-cloud-midnight-1200x628.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/bank-bri-mitigates-cybercrime-and-financial-risk-with-elastic-security",
-          "author": "Brandon Mavleos",
-          "description": "Bank BRI is one of the largest banks in Indonesia and Southeast Asia. As Bank BRI continues to grow its ecosystem, the number of assets it must defend against cybercrime only increases. Learn how the organization set out to find new tools to protect its complex network.",
-          "link": "https://www.elastic.co/blog/bank-bri-mitigates-cybercrime-and-financial-risk-with-elastic-security",
-          "publishedOn": "2022-08-31T00:00:00.000Z",
-          "wordCount": 8566,
-          "title": "Bank BRI mitigates cybercrime and financial risk with Elastic Security",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt364eeb61749561e3/6318fbadc1142d2fd9dfe197/Gedung_BRI_2022_IMG_9962.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/bank-bri-mitigates-cybercrime-and-financial-risk-with-elastic-security",
-          "author": "Brandon Mavleos",
-          "description": ",\nBank BRI is one of the largest banks in Indonesia and Southeast Asia, providing end-to-end financial solutions to more than 130 million customers. As part of its core mission, the bank has a particular focus on empowering microbusinesses and advancing the financial inclusiveness of the countries it serves.\n\nWith such a wide range of customers and partners, Bank BRI has created an extensive network across the region. Its long history within the financial sector also means that it has an array of IT assets and tools across the bank, which consist of legacy systems, cutting-edge solutions, and everything in between. In addition, the company’s tremendous size and heterogeneity have created many unique challenges, including difficulty obtaining complete visibility into all of the bank’s syste…",
-          "link": "https://www.elastic.co/blog/bank-bri-mitigates-cybercrime-and-financial-risk-with-elastic-security",
-          "publishedOn": "2022-08-31T00:00:00.000Z",
-          "wordCount": 8566,
-          "title": "Bank BRI mitigates cybercrime and financial risk with Elastic Security",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt364eeb61749561e3/6318fbadc1142d2fd9dfe197/Gedung_BRI_2022_IMG_9962.jpg"
         }
       ]
     },
@@ -709,7 +699,7 @@
           "description": "Microsoft Search is the workplace search solution offered with Microsoft 365. Microsoft Search lets you find the information you need by unlocking knowledge and expertise. It helps you find what you need to complete what you’re working on. Whether you’re searching for people,\nThe post Azure DevOps Graph connectors for Microsoft Search appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azure-devops-graph-connectors-for-microsoft-search/",
           "publishedOn": "2022-09-06T23:45:33.000Z",
-          "wordCount": 4321,
+          "wordCount": 4352,
           "title": "Azure DevOps Graph connectors for Microsoft Search",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/09/MSGraphConnector.jpg"
         },
@@ -719,7 +709,7 @@
           "description": "We fixed a bunch more issues for New Boards Hub in sprint 209. Here is a list of the items that have been resolved.\nIssue\nOnBlur instead of onChange\nThe post New Boards Hub, Sprint 209 Update appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/new-boards-hub-sprint-209-update/",
           "publishedOn": "2022-08-31T16:23:03.000Z",
-          "wordCount": 5052,
+          "wordCount": 4961,
           "title": "New Boards Hub, Sprint 209 Update",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/08/sketch-1.png"
         }
@@ -736,6 +726,16 @@
       "feedUrl": "http://feeds.feedburner.com/AmazonWebServicesBlog",
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
+        {
+          "id": "6d089016af02ca1b0fdb9d5d59d86f2aae0f62a3",
+          "author": "Steve Roberts",
+          "description": "Today, we announced direct VPC routing for AWS Outposts rack. This enables you to connect Outposts racks and on-premises networks using simplified IP address management. Direct VPC routing automatically advertises Amazon Virtual Private Cloud (Amazon VPC) subnet CIDR addresses to on-premises networks. This enables you to use the private IP addresses of resources in your […]",
+          "link": "https://aws.amazon.com/blogs/aws/new-direct-vpc-routing-between-on-premises-networks-and-aws-outposts-rack/",
+          "publishedOn": "2022-09-14T22:03:53.000Z",
+          "wordCount": 1281,
+          "title": "New – Direct VPC Routing Between On-Premises Networks and AWS Outposts Rack",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/827bfc458708f0b442009c9c9836f7e4b65557fb/2020/06/03/Blog-Post_thumbnail.png"
+        },
         {
           "id": "e12120d49afe56b0cb9f9b01c88fc4cb655ae305",
           "author": "Sébastien Stormacq",
@@ -855,36 +855,6 @@
           "wordCount": 1372,
           "title": "How Grillo Built a Low-Cost Earthquake Early Warning System on AWS",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/07/14/Picture-1-1.png"
-        },
-        {
-          "id": "62b434c84905bf2a24ca8943b82a7e2149abf628",
-          "author": "Jeff Barr",
-          "description": "Progress is often best appreciated in retrospect. It is often the case that a steady stream of incremental improvements over a long period of time ultimately adds up to a significant level of change. Today, ten years after we first launched the Provisioned IOPS feature for Amazon Elastic Block Store (EBS), I strongly believe that […]",
-          "link": "https://aws.amazon.com/blogs/aws/a-decade-of-ever-increasing-provisioned-iops-for-amazon-ebs/",
-          "publishedOn": "2022-08-15T22:10:16.000Z",
-          "wordCount": 1169,
-          "title": "A Decade of Ever-Increasing Provisioned IOPS for Amazon EBS",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/08/12/ebs_evolution_v7.png"
-        },
-        {
-          "id": "a4970c24e76d5efa333710d9e50da964387520ea",
-          "author": "Channy Yun",
-          "description": "Amazon CloudFront is a content delivery network (CDN) service, a network of interconnected servers that is geographically closer to the users and reaches their computers much faster. Amazon CloudFront reduces latency by delivering data through 410+ globally dispersed Points of Presence (PoPs) with automated network mapping and intelligent routing. With Amazon CloudFront, content, API requests […]",
-          "link": "https://aws.amazon.com/blogs/aws/new-http-3-support-for-amazon-cloudfront/",
-          "publishedOn": "2022-08-15T22:04:08.000Z",
-          "wordCount": 1858,
-          "title": "New – HTTP/3 Support for Amazon CloudFront",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/08/15/2021-https3-cloudfront.jpg"
-        },
-        {
-          "id": "ec58e447970e428041f23a062ac4b1e7cf8bc433",
-          "author": "Channy Yun",
-          "description": "I love the AWS Twitch channel for watching interesting online live shows such as AWS On Air, Containers from the Couch, and Serverless Office Hours. Last week, AWS Storage Day 2022 was hosted virtually on the AWS Twitch channel and covered recent announcements and insights that address customers’ needs to reduce and optimize storage costs and build data resiliency […]",
-          "link": "https://aws.amazon.com/blogs/aws/aws-week-in-review-august-15-2022/",
-          "publishedOn": "2022-08-15T17:00:13.000Z",
-          "wordCount": 1528,
-          "title": "AWS Week in Review – August 15, 2022",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/08/13/AWS-WIR-8.15.22.png"
         }
       ]
     },
@@ -941,12 +911,22 @@
       "siteUrl": "https://camunda.com/",
       "articles": [
         {
+          "id": "https://camunda.com/?p=61700",
+          "author": "Thorben Lindhauer",
+          "description": "For almost 10 years, JIRA has been our development issue tracker for the core components of Camunda Platform 7. About 15,000 tickets later, Camunda’s engineering has grown from one team to a team of teams. Many new projects have used GitHub exclusively as a code repository and an issue tracker from the start. In October, we will move the CAM project to GitHub issues. With this change we are reducing the gap: our community can participate in our development processes with a single account. We achieve a unified approach for managing development issues, making it easier for everyone to participate. We thank everyone who has contributed to our CAM issue tracker and hope that the collaboration continues in our new...\nThe post The CAM project in JIRA is moving to GitHub appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2022/09/the-cam-project-in-jira-is-moving-to-github/",
+          "publishedOn": "2022-09-14T07:54:00.000Z",
+          "wordCount": 3154,
+          "title": "The CAM project in JIRA is moving to GitHub",
+          "imageUrl": "https://camunda.com/wp-content/uploads/2022/09/Screen-Shot-2022-09-07-at-11.21.06-AM.png"
+        },
+        {
           "id": "https://camunda.com/?p=62210",
           "author": "Camunda Optimize Team",
           "description": "We’re excited to announce a new release of Camunda Optimize. Camunda Optimize provides business activity monitoring for workflows, supporting continuous process improvement by providing transparency into your automated workflows and decisions. Business-friendly reports, dashboards, and alerts make it possible to identify process bottlenecks, improve end-to-end processes, and evaluate the success of your process automation initiative. In the rest of this post, we’ll highlight some of the new capabilities introduced in Optimize 3.9.0 alpha4. What’s new? Process Onboarding UX Whenever the first process instance of a new process definition is deployed, the user will receive an email with an invitation to create a first default dashboard in Optimize. Restrict report and dashboard creation to collections Optimize is structured with entities like...\nThe post Camunda Optimize 3.9.0 alpha4 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/09/camunda-optimize-3-9-0-alpha4-released/",
           "publishedOn": "2022-09-13T07:08:00.000Z",
-          "wordCount": 2966,
+          "wordCount": 2965,
           "title": "Camunda Optimize 3.9.0 alpha4 Released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/09/Official-Slide-Template-Camunda-2022_1200x627-4.jpg"
         },
@@ -956,7 +936,7 @@
           "description": "We are pleased to announce the next alpha release of Camunda Platform Runtime 7.18. This release features the following improvements: Logging: Engine name parameter in mapped diagnostic context Exception Error Codes now available in the External Task Clients IBM WebSphere Application Server Liberty support New Supported Environments 7 Bug Fixes You can download Camunda for free or run it with Docker. For a complete list of all improvements, take a look at the release notes. Please also see the list of known issues. If you want to dig in deeper, you can find the source code on GitHub. Logging: Engine Name Parameter in Mapped Diagnostic Context As an addition to the already present list of parameters for the logging context,...\nThe post Camunda Automation Platform 7.18.0-alpha5 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/09/camunda-automation-platform-7180-alpha5-released/",
           "publishedOn": "2022-09-13T07:05:00.000Z",
-          "wordCount": 2951,
+          "wordCount": 3055,
           "title": "Camunda Automation Platform 7.18.0-alpha5 Released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/09/Official-Slide-Template-Camunda-2022_1200x627.png"
         },
@@ -966,7 +946,7 @@
           "description": "We’re excited to announce an out-of-the-box Slack Connector.\nThe post Level up your process communication with the new Slack Connector appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/09/level-up-your-process-communication-with-the-new-slack-connector/",
           "publishedOn": "2022-09-09T12:00:00.000Z",
-          "wordCount": 3515,
+          "wordCount": 3620,
           "title": "Level up your process communication with the new Slack Connector",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/09/Slack-Connector-1200x627-1.png"
         },
@@ -986,7 +966,7 @@
           "description": "Document business processes with the BPMN and DMN Modeler for Confluence - two plugins available for free on the Atlassian Marketplace.\nThe post BPMN and DMN Modeler for Atlassian Confluence appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/08/bpmn-and-dmn-modeler-for-atlassian-confluence/",
           "publishedOn": "2022-08-30T13:13:46.000Z",
-          "wordCount": 3271,
+          "wordCount": 3270,
           "title": "BPMN and DMN Modeler for Atlassian Confluence",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/08/editor_free-1024x500-1.png"
         },
@@ -996,7 +976,7 @@
           "description": "Community programs are valuable tools for organizations. But enabling engagement in these programs can be challenging.\nThe post 3 ways to involve your community to improve your programs appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/08/3-ways-to-involve-your-community-to-improve-your-programs/",
           "publishedOn": "2022-08-26T12:00:00.000Z",
-          "wordCount": 3242,
+          "wordCount": 3347,
           "title": "3 ways to involve your community to improve your programs",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/08/Camunda_Aug-2022_3-ways-to-involve-your-community_Blog-Featured-Image.png"
         },
@@ -1006,7 +986,7 @@
           "description": "Learning skills to harness new technologies increases your employability and gives you a leg up to secure a better job and higher salary.\nThe post Why hyperautomation can help developers grow appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/08/why-hyperautomation-can-help-developers-grow/",
           "publishedOn": "2022-08-23T12:00:00.000Z",
-          "wordCount": 3241,
+          "wordCount": 3239,
           "title": "Why hyperautomation can help developers grow",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/08/Camunda_Aug-2022_Hyperautomation-Developer-Growth_1200x630.png"
         }
@@ -1040,12 +1020,22 @@
       "siteUrl": "https://github.blog/",
       "articles": [
         {
+          "id": "https://github.blog/2022-09-14-8-things-you-didnt-know-you-could-do-with-github-copilot/",
+          "author": null,
+          "description": "Developers all over the world are using GitHub Copilot to help speed up their development and increase developer productivity. With GitHub Copilot available to developers everywhere, we’ve found some fun and useful examples of how developers can use GitHub Copilot for things you may not be thinking about.",
+          "link": "https://github.blog/2022-09-14-8-things-you-didnt-know-you-could-do-with-github-copilot/",
+          "publishedOn": "2022-09-14T16:00:43.000Z",
+          "wordCount": 2211,
+          "title": "8 things you didn’t know you could do with GitHub Copilot",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/06/Copilot.jpeg?fit=1200%2C630"
+        },
+        {
           "id": "https://github.blog/2022-09-13-scaling-gits-garbage-collection/",
           "author": null,
           "description": "A tour of recent work to re-engineer Git’s garbage collection process to scale to our largest and most active repositories.",
           "link": "https://github.blog/2022-09-13-scaling-gits-garbage-collection/",
           "publishedOn": "2022-09-13T16:00:49.000Z",
-          "wordCount": 5711,
+          "wordCount": 5727,
           "title": "Scaling Git’s garbage collection",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/09/garbagecollection1.png"
         },
@@ -1057,7 +1047,7 @@
           "publishedOn": "2022-09-13T13:30:56.000Z",
           "wordCount": 1378,
           "title": "Join GitHub at the Grace Hopper Celebration 2022",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/09/gracehopperheader.png?fit=1200%2C630"
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/09/gracehopperheader.png"
         },
         {
           "id": "https://github.blog/2022-09-12-gear-up-and-unlock-the-newest-github-global-campus-features/",
@@ -1065,7 +1055,7 @@
           "description": "Calling all students and teachers!  With semester change coming soon, now is the time to start using the latest features within GitHub Education and Global Campus!",
           "link": "https://github.blog/2022-09-12-gear-up-and-unlock-the-newest-github-global-campus-features/",
           "publishedOn": "2022-09-12T19:17:17.000Z",
-          "wordCount": 1785,
+          "wordCount": 1819,
           "title": "Gear-up and unlock the newest GitHub Global Campus features",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/09/campusfeatures1.png"
         },
@@ -1085,7 +1075,7 @@
           "description": "After a year in technical preview, GitHub Copilot, an AI pair programmer, is now free for all teachers verified on GitHub Global Campus.",
           "link": "https://github.blog/2022-09-08-github-copilot-now-available-for-teachers/",
           "publishedOn": "2022-09-08T18:00:49.000Z",
-          "wordCount": 1461,
+          "wordCount": 1504,
           "title": "GitHub Copilot now available for teachers",
           "imageUrl": "https://github.blog/wp-content/uploads/2019/03/BlogHeaders_Aligned_EDUCATION_1008x602_x2.png?fit=2016%2C1204"
         },
@@ -1105,7 +1095,7 @@
           "description": "In August, we experienced one incident resulting in significant impact to Codespaces. We’re still investigating that incident and will include it in next month’s report. This report also sheds light into an incident that impacted Codespaces in July.",
           "link": "https://github.blog/2022-09-07-github-availability-report-august-2022/",
           "publishedOn": "2022-09-07T18:00:24.000Z",
-          "wordCount": 1356,
+          "wordCount": 1384,
           "title": "GitHub Availability Report: August 2022",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/01/Engineering-Enterprise@2x.png?fit=2400%2C1260"
         },
@@ -1115,7 +1105,7 @@
           "description": "When the GitHub Copilot Technical Preview launched just over one year ago, we wanted to know one thing: Is this tool helping developers? The GitHub Next team conducted research using a combination of surveys and experiments, which led us to expected and unexpected answers.",
           "link": "https://github.blog/2022-09-07-research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/",
           "publishedOn": "2022-09-07T16:00:28.000Z",
-          "wordCount": 2366,
+          "wordCount": 2409,
           "title": "Research: quantifying GitHub Copilot’s impact on developer productivity and happiness",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/06/Copilot.jpeg"
         },
@@ -1128,16 +1118,6 @@
           "wordCount": 2115,
           "title": "Join us for OctogatosConf 2022",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/09/octogatosconf1.png?fit=1200%2C630"
-        },
-        {
-          "id": "https://github.blog/2022-09-06-contributing-to-open-source-at-github/",
-          "author": null,
-          "description": "A software engineer’s personal journey to becoming an open source contributor.",
-          "link": "https://github.blog/2022-09-06-contributing-to-open-source-at-github/",
-          "publishedOn": "2022-09-06T13:30:26.000Z",
-          "wordCount": 1956,
-          "title": "Contributing to open source at GitHub",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/09/Open-Source-Engineering@2x.png?fit=2400%2C1260"
         }
       ]
     },
@@ -1155,11 +1135,11 @@
         {
           "id": "https://kubernetes.io/blog/2022/09/14/pod-has-network-condition/",
           "author": null,
-          "description": "Author:\nDeep Debroy (Apple)\nKubernetes 1.25 introduces Alpha support for a new kubelet-managed pod condition\nin the status field of a pod: PodHasNetwork. The kubelet, for a worker node,\nwill use the PodHasNetwork condition to accurately surface the initialization\nstate of a pod from the perspective of pod sandbox creation and network\nconfiguration by a container runtime (typically in coordination with CNI\nplugins). The kubelet starts to pull container images and start individual\ncontainers (including init containers) after the status of the PodHasNetwork\ncondition is set to True. Metrics collection services that report latency of\npod initialization from a cluster infrastructural perspective (i.e. agnostic of\nper container characteristics like image size or payload) can utilize the\nPodHasNe…",
+          "description": "Author:\nDeep Debroy (Apple)\nKubernetes 1.25 introduces Alpha support for a new kubelet-managed pod condition\nin the status field of a pod: PodHasNetwork. The kubelet, for a worker node,\nwill use the PodHasNetwork condition to accurately surface the initialization\nstate of a pod from the perspective of pod sandbox creation and network\nconfiguration by a container runtime (typically in coordination with CNI\nplugins). The kubelet starts to pull container images and start individual\ncontainers (including init containers) after the status of the PodHasNetwork\ncondition is set to \"True\". Metrics collection services that report latency of\npod initialization from a cluster infrastructural perspective (i.e. agnostic of\nper container characteristics like image size or payload) can utilize the\nPodHas…",
           "link": "https://kubernetes.io/blog/2022/09/14/pod-has-network-condition/",
           "publishedOn": "2022-09-14T00:00:00.000Z",
-          "wordCount": 3585,
-          "title": "Blog: Kubernetes 1.25: PodHasNetwork condition for pods",
+          "wordCount": 3638,
+          "title": "Blog: Kubernetes 1.25: PodHasNetwork Condition for Pods",
           "imageUrl": null
         },
         {
@@ -1198,7 +1178,7 @@
           "description": "Authors: Sidhartha Mani (Minio, Inc)\nThis article introduces the Container Object Storage Interface (COSI), a standard for provisioning and consuming object storage in Kubernetes. It is an alpha feature in Kubernetes v1.25.\nFile and block storage are treated as first class citizens in the Kubernetes ecosystem via Container Storage Interface (CSI). Workloads using CSI volumes enjoy the benefits of portability across vendors and across Kubernetes clusters without the need to change application manifests. An equivalent standard does not exist for Object storage.\nObject storage has been rising in popularity in recent years as an alternative form of storage to filesystems and block devices. Object storage paradigm promotes disaggregation of compute and storage. This is done by making data avail…",
           "link": "https://kubernetes.io/blog/2022/09/02/cosi-kubernetes-object-storage-management/",
           "publishedOn": "2022-09-02T00:00:00.000Z",
-          "wordCount": 3799,
+          "wordCount": 3772,
           "title": "Blog: Introducing COSI: Object Storage Management using Kubernetes APIs",
           "imageUrl": null
         },
@@ -1285,7 +1265,7 @@
           "description": "by Ehtsham Elahi\nwith James McInerney, Nathan Kallus, Dario Garcia Garcia and Justin Basilico",
           "link": "https://netflixtechblog.com/reinforcement-learning-for-budget-constrained-recommendations-6cbc5263a32a?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-08-24T17:57:33.000Z",
-          "wordCount": 6211,
+          "wordCount": 6262,
           "title": "Reinforcement Learning for Budget Constrained Recommendations",
           "imageUrl": "https://miro.medium.com/max/1134/0*MdHqoDGB9vSI1JB4"
         }
@@ -1385,16 +1365,6 @@
           "wordCount": 6511,
           "title": "OptFormer: Towards Universal Hyperparameter Optimization with Transformers",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
-        },
-        {
-          "id": "http://ai.googleblog.com/2022/08/towards-helpful-robots-grounding.html",
-          "author": null,
-          "description": "Posted by Brian Ichter and Karol Hausman, Research Scientists, Google Research, Brain Team \nOver the last several years, we have seen significant progress in applying machine learning to robotics. However, robotic systems today are capable of executing only very short, hard-coded commands, such as “Pick up an apple,” because they tend to perform best with clear tasks and rewards. They struggle with learning to perform long-horizon tasks and reasoning about abstract goals, such as a user prompt like “I just worked out, can you get me a healthy snack?” \nMeanwhile, recent progress in training language models (LMs) has led to systems that can perform a wide range of language understanding and generation tasks with impressive results. However, these language models are inherently not grounded i…",
-          "link": "http://ai.googleblog.com/2022/08/towards-helpful-robots-grounding.html",
-          "publishedOn": "2022-08-16T14:02:00.007Z",
-          "wordCount": 8243,
-          "title": "Towards Helpful Robots: Grounding Language in Robotic Affordances",
-          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         }
       ]
     },
@@ -1404,12 +1374,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=43775",
+          "author": "Seth Godin",
+          "description": "Adding another feature is cheap compared to the benefits it offers to new users or existing ones. Once a feature is added, it is almost never removed. When enough features are added, the system breaks down and fails. This isn’t just software. It’s the menu at the diner. It’s the buttons on the dashboard of […]",
+          "link": "https://feeds.feedblitz.com/~/711427701/0/sethsblog~Feature-creep/",
+          "publishedOn": "2022-09-14T07:54:00.000Z",
+          "wordCount": 1176,
+          "title": "Feature creep",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=42746",
           "author": "Seth Godin",
           "description": "We evolved to care about things that were close by or in the near future. That makes sense. It’s a useful survival skill in a primitive world. Today, though, our instinct for the close and the imminent is being used against us. Media and those in search of our money or attention bring the far […]",
           "link": "https://feeds.feedblitz.com/~/711206332/0/sethsblog~The-proximity-hack/",
           "publishedOn": "2022-09-13T06:53:00.000Z",
-          "wordCount": 1078,
+          "wordCount": 1079,
           "title": "The proximity hack",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg"
         },
@@ -1492,16 +1472,6 @@
           "wordCount": 1167,
           "title": "Getting the hull shape right",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806135-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=42604",
-          "author": "Seth Godin",
-          "description": "Moore’s law talks about the fact that computer chips get faster and cheaper over time. It turns out that the biggest shift to our culture isn’t the changing speed of a computer chip, it’s what happens when we network humans together. Adding more people to the internet has accelerated science, politics and every element of […]",
-          "link": "https://feeds.feedblitz.com/~/709459412/0/sethsblog~The-speed-of-change/",
-          "publishedOn": "2022-09-04T08:54:00.000Z",
-          "wordCount": 1132,
-          "title": "The speed of change",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_180613-1.jpg"
         }
       ]
     },
@@ -1510,6 +1480,36 @@
       "feedUrl": "https://blog.jetbrains.com/feed/",
       "siteUrl": "https://blog.jetbrains.com",
       "articles": [
+        {
+          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=278410",
+          "author": "Sasha Ivanova",
+          "description": "Hello everyone, We’ve got the last set of bug fixes for ReSharper and Rider before the start of the Early Access Program. Here’s what’s changed in the 2022.2.3 update: ReSharper Fixed a bug causing InspectCode CLI caches to be inconsistent after turning on Nullable Reference Types (RSRP-489541). For the full list of resolved issues, please […]",
+          "link": "https://blog.jetbrains.com/dotnet/2022/09/13/resharper-and-rider-2022-2-3/",
+          "publishedOn": "2022-09-13T14:57:12.000Z",
+          "wordCount": 2063,
+          "title": "ReSharper and Rider 2022.2.3 – The Latest Bug Fixes Are Here",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/09/rs-bug-fix-blog-social-share-image-1280x720-1.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=platform&p=278451",
+          "author": "Anna Maltceva",
+          "description": "Join our live webinar on Thursday, September 22, at 3:00 pm UTC / 17:00 CEST. Our speaker, Matthias Koch, a Developer Advocate for .NET, will join us for the Busy Plugin Developers series to talk about building .NET plugins and publishing them on JetBrains Marketplace. The ReSharper platform provides a huge number of extension points […]",
+          "link": "https://blog.jetbrains.com/platform/2022/09/live-webinar-building-extensions-for-rider-and-resharper/",
+          "publishedOn": "2022-09-13T10:48:08.000Z",
+          "wordCount": 1969,
+          "title": "Live Webinar: Building Extensions for Rider and ReSharper",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/09/Blog_Social_share_image_1280x720-3.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=pycharm&p=278365",
+          "author": "Valeria Letusheva",
+          "description": "Django Ninja is a FastAPI-inspired library for turning your Django views into REST API end-points. This webinar will show you how to get started with Django Ninja, how the interface interacts with Django’s URL and ORM mechanisms, and how to apply authentication controls to your REST API. Join us on Tuesday, September 27, at 3:00 […]",
+          "link": "https://blog.jetbrains.com/pycharm/2022/09/writing-rest-with-django-and-ninja/",
+          "publishedOn": "2022-09-13T10:29:59.000Z",
+          "wordCount": 1824,
+          "title": "Webinar: Writing REST With Django and Ninja With Christopher Trudeau",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/09/DSGN-14545_webinar_PyCharm_Writing_REST_Django_Ninja_JB_Blog_Social_share_image_1280-720.png"
+        },
         {
           "id": "https://blog.jetbrains.com/?post_type=dotnet&p=273345",
           "author": "Khalid Abuhakmeh",
@@ -1599,36 +1599,6 @@
           "wordCount": 2818,
           "title": "PhpStorm Overview 2022",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/09/ps-release-blog-social-share-image-1280x720-1-1.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=platform&p=277627",
-          "author": "Anna Maltceva",
-          "description": "Marketplace updates: ⭐️ Introducing Space apps in JetBrains Marketplace and the Space Apps Contest JetBrains Space – an all-in-one solution for software projects and teams – can now be extended with applications. A Space application is an external server-side service or client-side application (JavaScript, mobile, or desktop) that can interact with Space modules. For example, […]",
-          "link": "https://blog.jetbrains.com/platform/2022/09/busy-plugin-developers-newsletter-summer-2022/",
-          "publishedOn": "2022-09-07T10:13:04.000Z",
-          "wordCount": 2536,
-          "title": "Busy Plugin Developers Newsletter – Summer 2022",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/09/mp-news-edu-blog-social-share-image-1280x720-1.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=education&p=277340",
-          "author": "Anastasia Khramushina",
-          "description": "The academic season is either close or has already started for most of us. Our content updates will help you get the ball rolling in an interactive environment of JetBrains Academy without getting overwhelmed. This August we released three new projects and 31 new educational topics. Moreover, we introduced our brand new Computer Algorithms and […]",
-          "link": "https://blog.jetbrains.com/education/2022/09/06/jetbrains-academy-new-projects-and-topics-in-august-2/",
-          "publishedOn": "2022-09-06T11:39:25.000Z",
-          "wordCount": 2025,
-          "title": "JetBrains Academy: New Projects and Topics in August",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/09/DSGN-12918_JB_Academy_Updated202-1.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=277274",
-          "author": "Rachel Appel",
-          "description": "Did you know? As of 2020, 64.82% of searches on Google ended without clicking to another web property. People stay in the top half of the first page of search results. .NET news Announcing .NET Framework 4.8.1 .NET 6 is now in Ubuntu 22.04 C# 11 preview: generic math, required members, and more Announcing built-in […]",
-          "link": "https://blog.jetbrains.com/dotnet/2022/09/06/net-annotated-monthly-september-2022/",
-          "publishedOn": "2022-09-06T10:39:54.000Z",
-          "wordCount": 2908,
-          "title": ".NET Annotated Monthly | September 2022",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2020/10/dotnet-NET_Annotated_blog_1600x800.png"
         }
       ]
     }

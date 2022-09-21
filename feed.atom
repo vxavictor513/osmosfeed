@@ -1,10 +1,319 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-09-20T02:24:07.046Z</id>
+    <id>urn:2022-09-21T02:34:19.806Z</id>
     <title>osmos::feed</title>
-    <updated>2022-09-20T02:24:07.047Z</updated>
+    <updated>2022-09-21T02:34:19.806Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Blog: Kubernetes 1.25: Use Secrets for Node-Driven Expansion of CSI Volumes]]></title>
+        <id>https://kubernetes.io/blog/2022/09/21/kubernetes-1-25-use-secrets-while-expanding-csi-volumes-on-node-alpha/</id>
+        <link href="https://kubernetes.io/blog/2022/09/21/kubernetes-1-25-use-secrets-while-expanding-csi-volumes-on-node-alpha/"/>
+        <updated>2022-09-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Author: Humble Chirammal (Red Hat), Louis Koo (deeproute.ai)
+Kubernetes v1.25, released earlier this month, introduced a new feature
+that lets your cluster expand storage volumes, even when access to those
+volumes requires a secret (for example: a credential for accessing a SAN fabric)
+to perform node expand operation. This new behavior is in alpha and you
+must enable a feature gate (CSINodeExpandSecret) to make use of it.
+You must also be using CSI
+storage; this change isn't relevant to storage drivers that are built in to Kubernetes.
+To turn on this new, alpha feature, you enable the CSINodeExpandSecret feature
+gate for the kube-apiserver and kubelet, which turns on a mechanism to send secretRef
+configuration as part of NodeExpansion by the CSI drivers thus make use of
+the same to perfor…]]></summary>
+        <author>
+            <name>Kubernetes – Production-Grade Container Orchestration</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Cloud Dataflow 2.10.0-M2 Released]]></title>
+        <id>https://spring.io/blog/2022/09/20/spring-cloud-dataflow-2-10-0-m2-released</id>
+        <link href="https://spring.io/blog/2022/09/20/spring-cloud-dataflow-2-10-0-m2-released"/>
+        <updated>2022-09-20T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Cloud Dataflow 2.10.0-M2 has been released and is now available from https://repo.spring.io/milestone.
+
+This release contains an update of the Spring Boot version and adds back in support for MySQL. See the release notes for more information.
+Stay in touch…
+
+As always, we welcome feedback and contributions, so please reach out to us on Stackoverflow or GitHub.]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Transform your software engineering practices with GitHub Enterprise]]></title>
+        <id>https://github.blog/2022-09-20-transform-your-software-engineering-practices-with-github-enterprise/</id>
+        <link href="https://github.blog/2022-09-20-transform-your-software-engineering-practices-with-github-enterprise/"/>
+        <updated>2022-09-20T18:00:31.000Z</updated>
+        <summary type="html"><![CDATA[Go beyond knowing GitHub as the home of open source and explore how GitHub Enterprise can help you transform your software engineering organization and practices.]]></summary>
+        <author>
+            <name>The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FindIt: Generalized Object Localization with Natural Language Queries]]></title>
+        <id>http://ai.googleblog.com/2022/09/findit-generalized-object-localization.html</id>
+        <link href="http://ai.googleblog.com/2022/09/findit-generalized-object-localization.html"/>
+        <updated>2022-09-20T17:00:00.008Z</updated>
+        <summary type="html"><![CDATA[Posted by Weicheng Kuo and Anelia Angelova, Research Scientists, Google Research, Brain Team  
+Natural language enables flexible descriptive queries about images. The interaction between text queries and images grounds linguistic meaning in the visual world, facilitating a better understanding of object relationships, human intentions towards objects, and interactions with the environment. The research community has studied object-level visual grounding through a range of tasks, including referring expression comprehension, text-based localization, and more broadly object detection, each of which require different skills in a model. For example, object detection seeks to find all objects from a predefined set of classes, which requires accurate localization and classification, while referr…]]></summary>
+        <author>
+            <name>Google AI Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deploy your Amazon EKS Clusters Locally on AWS Outposts]]></title>
+        <id>44f16a5754d845987d5a9cddff8e927e1897ca2b</id>
+        <link href="https://aws.amazon.com/blogs/aws/deploy-your-amazon-eks-clusters-locally-on-aws-outposts/"/>
+        <updated>2022-09-20T16:05:47.000Z</updated>
+        <summary type="html"><![CDATA[I am pleased to announce the availability of local clusters for Amazon Elastic Kubernetes Service (Amazon EKS) on AWS Outposts. It means that starting today, you can deploy your Amazon EKS cluster entirely on Outposts: both the Kubernetes control plane and the nodes. Amazon EKS is a managed Kubernetes service that makes it easy for […]]]></summary>
+        <author>
+            <name>Sébastien Stormacq</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“If you don’t make it beautiful, it’s for sure doomed”: putting the Vault in GitHub’s Arctic Code Vault]]></title>
+        <id>https://github.blog/2022-09-20-if-you-dont-make-it-beautiful-its-for-sure-doomed-putting-the-vault-in-githubs-arctic-code-vault/</id>
+        <link href="https://github.blog/2022-09-20-if-you-dont-make-it-beautiful-its-for-sure-doomed-putting-the-vault-in-githubs-arctic-code-vault/"/>
+        <updated>2022-09-20T16:00:50.000Z</updated>
+        <summary type="html"><![CDATA[GitHub this month installed a massive steel vault, etched with striking AI-generated art, deep within an Arctic mountain, finalizing its Arctic Code Vault. This vault contains the 188 reels of hardened archival film which will preserve the 02/02/202 snapshot of every active public GitHub repository for 1,000 years. It also now includes a Tech Tree, a human-readable selection of works describing software, computers, and their foundational technologies, along with full-text copies of Wikipedia, Stack Overflow, and other data sources.]]></summary>
+        <author>
+            <name>The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring for Apache Pulsar 0.1.0-M1 is now available]]></title>
+        <id>https://spring.io/blog/2022/09/20/spring-for-apache-pulsar-0-1-0-m1-is-now-available</id>
+        <link href="https://spring.io/blog/2022/09/20/spring-for-apache-pulsar-0-1-0-m1-is-now-available"/>
+        <updated>2022-09-20T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[On behalf of the team and everyone who has contributed, I’m happy to announce that Spring for Apache Pulsar 0.1.0-M1 has been released and is now available from https://repo.spring.io/milestone.
+
+
+
+This is the first milestone for the newly introduced Spring for Apache Pulsar framework and is based on Java17, Spring Boot 3.0.0-M5 and Spring Framework 6.0.0-M5.
+
+
+
+Please see our previous blog post to learn more about the background/details of the project and the release notes for details on this milestone.
+
+
+
+If you’re interested in trying this new release, you can follow the Quick Tour section in the reference docs.
+
+
+
+While the project is in the experimental phase, there is a high level of unit and integration test coverage and we expect you to have  a solid and smooth experience. That being said, when/if you run into any problems please report them on our Github issue tracker. If you have general feedback or want to discuss something else related to the release please use the Github release discussion or for other general feedback feel free to open a new discussion.]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring for GraphQL 1.1.0-M1 released]]></title>
+        <id>https://spring.io/blog/2022/09/20/spring-for-graphql-1-1-0-m1-released</id>
+        <link href="https://spring.io/blog/2022/09/20/spring-for-graphql-1-1-0-m1-released"/>
+        <updated>2022-09-20T14:47:00.000Z</updated>
+        <summary type="html"><![CDATA[I’m pleased to announce the first milestone release of Spring for GraphQL 1.1.0 is now available from our Milestone repository. This version will be shipped with Spring Boot 3.0.0-M5 due for release later this week.
+
+Spring Boot 3.0 is around the corner and the community is expecting a compatible Spring for GraphQL version to go with it. Currently, the best way to prepare for the Spring Boot 3.0 upgrade is to upgrade to Spring Boot 2.7 and Java 17, but Spring Boot 3.0 has new baseline requirements, namely Java 17, Jakarta APIs and Spring Framework 6.0.
+
+Given that Spring for GraphQL 1.0.0 was released towards the end of May this year, we didn’t feel we would have enough time nor feedback to go with a major release of the project for Boot 3.0. This is why the goal of the 1.1 release is simply to adapt to the new baseline requirements and provide a smooth upgrade to Spring Boot 3.0 for existing projects.
+
+This first milestone brings those foundational changes: the Java 17, Jakarta APIs, and a Spring Framework 6.0 baseline. We’re also taking the opportunity to upgrade to GraphQL Java 19.x – a painless upgrade on our side, thanks to the GraphQL Java team! We’ve also replaced our internally developed context propagation mechanism with the new Micrometer Context Propagation library, that’s intended for use broadly across Spring projects. It allows Spring applications to propagate context across various such mechanisms, e.g. ThreadLocal, Reactor Context, GraphQLContext, and others.
+
+In the next milestones, we will consider how we can adapt our current arrangement with important themes in Spring Boot 3.0: GraalVM native image and Micrometer Observability support. Given the short timeline, we might schedule some changes for a future version – again, a smooth upgrade is our top priority here.
+How can you help?
+
+If you have general questions, please ask on stackoverflow.com using the spring-graphql tag.
+
+Project Page | GitHub | Issues | Documentation | Stack Overflow]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring for GraphQL 1.0.2 released]]></title>
+        <id>https://spring.io/blog/2022/09/20/spring-for-graphql-1-0-2-released</id>
+        <link href="https://spring.io/blog/2022/09/20/spring-for-graphql-1-0-2-released"/>
+        <updated>2022-09-20T14:45:00.000Z</updated>
+        <summary type="html"><![CDATA[On behalf of everyone involved, I’m pleased to announce that Spring for GraphQL 1.0.2 is now available from Maven Central. This version will be shipped with Spring Boot 2.7.4 due for release later this week.
+
+This release includes a number of enhancements, documentation improvements, dependency upgrades, and a couple of bug fixes. Thanks to all those who have contributed with issue reports and pull requests.
+
+We’ve also published today a first milestone for the 1.1.0 release, targeting Spring Boot 3.0.
+How can you help?
+
+If you have general questions, please ask on stackoverflow.com using the spring-graphql tag.
+
+Project Page | GitHub | Issues | Documentation | Stack Overflow]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Are you the next Camunda Champion?]]></title>
+        <id>https://camunda.com/?p=62440</id>
+        <link href="https://camunda.com/blog/2022/09/are-you-the-next-camunda-champion/"/>
+        <updated>2022-09-20T09:48:00.000Z</updated>
+        <summary type="html"><![CDATA[Since the first day I joined Camunda (which is already over four years ago – time really does fly when you are having fun), I was amazed at how many dedicated, passionate, and invested Camunda Community members there are. Numerous times, I have met individuals who spoke with such excitement about Camunda’s technologies and what the community means to them, that you had to believe it even if you would have never heard of Camunda before. Not only are Camunda Community members passionate about the products, many also actively contribute and give back to the community in several ways. Just to name a few examples: they contribute code and help improve Camunda products, organize meetups, answer questions from fellow users...
+The post Are you the next Camunda Champion? appeared first on Camunda.]]></summary>
+        <author>
+            <name>Luca Buchholz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Largest Challenge Is Communications]]></title>
+        <id>https://blog.jetbrains.com/?post_type=team&amp;p=275958</id>
+        <link href="https://blog.jetbrains.com/team/2022/09/20/the-largest-challenge-is-communications/"/>
+        <updated>2022-09-20T08:57:27.000Z</updated>
+        <summary type="html"><![CDATA[In this interview Anastasia Kazakova talked to Lenyo Lee, JetBrains Regional Sales Manager in China and the Chinese-speaking market, and also the General Manager of the JetBrains Shanghai office. They discussed her career from developer to regional market manager and the best way to connect European and Chinese cultures. Anastasia: Hi Lenyo, tell us about […]]]></summary>
+        <author>
+            <name>Anastasia Kazakova</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“It’s just not that good”]]></title>
+        <id>https://seths.blog/?p=42785</id>
+        <link href="https://feeds.feedblitz.com/~/712235300/0/sethsblog~Its-just-not-that-good/"/>
+        <updated>2022-09-20T08:28:00.000Z</updated>
+        <summary type="html"><![CDATA[That might be true, but it’s worth being clear about it. Not that good for who? If you mean to say, “I don’t like it, it doesn’t appeal to me,” then that’s what you should say. If, on the other hand, you have enough expertise and domain knowledge to say, “I understand what has appealed […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This Week in Spring - September 20th, 2022]]></title>
+        <id>https://spring.io/blog/2022/09/20/this-week-in-spring-september-20th-2022</id>
+        <link href="https://spring.io/blog/2022/09/20/this-week-in-spring-september-20th-2022"/>
+        <updated>2022-09-20T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hi, Spring fans! Welcome to another installment of This Week in Spring wherein I endeavor as best as I can to capture the latest-and-greatest in the wide, wacky, and wonderful world of Springdom! Naturally, I fail miserably basically every week. There’s no way I could hope to capture everything of note. But I persist… 
+
+So, without further ado, yet another wonderful week’s roundup! 
+
+
+  
+[A Bootiful Podcast: big data legend, former Pivot, and friend to the Spring community, Tim Spann](https://spring.io/blog/2022/09/15/
+
+  
+Spring Cloud Dataflow 2.9.6 Released
+
+  
+Spring Data 2022.0.0-M6, 2021.2.3, and 2021.1.7 released
+
+  
+Spring Data REST Vulnerability (CVE-2022-31679)
+
+  
+Spring Framework 6.0.0-M6 and 5.3.23 available now
+
+  
+Spring Security 6.0.0-M7 and 5.8.0-M3 are released
+
+  
+Spring Tools 4.16.0 released
+
+  
+15 Best Spring Framework Blogs and Websites in 2022
+a-bootiful-podcast-big-data-legend-former-pivot-and-friend-to-the-spring-community-tim-spann)
+
+  
+Blog: Kubernetes 1.25: Two Features for Apps Rollouts Graduate to Stable
+
+  
+Difference Between Class.getResource() and ClassLoader.getResource()
+
+  
+Map a JSON POST to Multiple Spring MVC Parameters
+
+  
+I’m honored to be included in a list of 30 Small Business IT Influencers Worth Following in 2022]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Want a career in developer advocacy? Alexis Roberson's story will inspire you to apply]]></title>
+        <id>https://www.elastic.co/blog/culture-developer-advocacy</id>
+        <link href="https://www.elastic.co/blog/culture-developer-advocacy"/>
+        <updated>2022-09-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Alexis Roberson started her career in technology because of a challenge from a college professor. Now she's a developer advocate on Elastic’s community team. Read her story.]]></summary>
+        <author>
+            <name>Elastic Culture</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Elastic Stack 8.4.2 released]]></title>
+        <id>https://www.elastic.co/blog/elastic-stack-8-4-2-released</id>
+        <link href="https://www.elastic.co/blog/elastic-stack-8-4-2-released"/>
+        <updated>2022-09-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Version 8.4.2 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 8.4.2 over the previous patch versions in 8.4.x.
+For details of the issues that have been fixed and a full list of changes for each product in this version, refer to the release notes: 
+8.4.2 Release Notes
+Elastic Stack
+Elasticsearch
+Kibana
+Beats
+Logstash
+Elastic Enterprise Search
+Enterprise Search
+Elastic Observability
+APM
+Elastic Security
+Elastic Security Solution]]></summary>
+        <author>
+            <name>Rich Kuzsma</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to be a top online retailer in 2023? Start with a top ecommerce search engine]]></title>
+        <id>https://www.elastic.co/blog/how-to-be-a-top-online-retailer-in-2023-start-with-a-top-ecommerce-search-engine-</id>
+        <link href="https://www.elastic.co/blog/how-to-be-a-top-online-retailer-in-2023-start-with-a-top-ecommerce-search-engine-"/>
+        <updated>2022-09-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Search is the key to improving the customer experience–and business outcomes]]></summary>
+        <author>
+            <name>Trish Sammer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Want a career in developer advocacy? Alexis Roberson's story will inspire you to apply]]></title>
+        <id>https://www.elastic.co/blog/culture-developer-advocacy</id>
+        <link href="https://www.elastic.co/blog/culture-developer-advocacy"/>
+        <updated>2022-09-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+Alexis Roberson, Developer Advocate at Elastic, started her career in technology because of a challenge from a college professor. The ask? To major in computer science for a semester and see how she liked it. 
+Fast forward to 2019 and Alexis graduated with a computer science degree and started her career as a DevOps engineer—a far cry from the English major she thought she’d graduate with.
+Now it’s probably safe to say that her professor’s instincts were right. Alexis completed multiple tech internships across the United States during college, was a teaching assistant at GirlsWhoCode, as well as hosting a sponsored six-week coding camp for middle school girls.
+All of this eventually led her to becoming a developer advocate on Elastic’s community team. But first, she took a 12-week produc…]]></summary>
+        <author>
+            <name>Elastic Culture</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Elastic Stack 8.4.2 released]]></title>
+        <id>https://www.elastic.co/blog/elastic-stack-8-4-2-released</id>
+        <link href="https://www.elastic.co/blog/elastic-stack-8-4-2-released"/>
+        <updated>2022-09-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Read about the updates and bug fixes that have been included in this release.]]></summary>
+        <author>
+            <name>Rich Kuzsma</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to be a top online retailer in 2023? Start with a top ecommerce search engine]]></title>
+        <id>https://www.elastic.co/blog/how-to-be-a-top-online-retailer-in-2023-start-with-a-top-ecommerce-search-engine-</id>
+        <link href="https://www.elastic.co/blog/how-to-be-a-top-online-retailer-in-2023-start-with-a-top-ecommerce-search-engine-"/>
+        <updated>2022-09-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+Retailers that weathered the global pandemic now face new challenges: emerging shopping patterns, competitive upstarts, and economic uncertainty.   
+Trends that have impacted online retailers 
+While ecommerce sales are expected to top $1 trillion in the U.S. for the first time ever in 2022, it is still tracking lower than 2020 levels, with a nearly 10% drop. 
+At the same time, concerns over inflation are a key driver for many online retailers. Even Amazon is prioritizing ways to streamline operations to prepare for a possible economic downturn. 
+
+Moreover, new consumer technology expectations and capabilities should have organizations rethinking their strategies, or risk losing out on shoppers’ precious time and resources. After all, e-commerce spend hasn’t grown in line with internet us…]]></summary>
+        <author>
+            <name>Trish Sammer</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Meet the GitHub Campus Experts selected for the fall 2022 MLH Fellowship Cohort, powered by GitHub]]></title>
         <id>https://github.blog/2022-09-19-meet-the-github-campus-experts-selected-for-the-fall-2022-mlh-fellowship-cohort-powered-by-github/</id>
@@ -43,6 +352,16 @@
         <summary type="html"><![CDATA[HashiCorp Vagrant 2.3 introduces a new Vagrant executable written in Golang, tying the Vagrant architecture more closely into the broader HashiCorp ecosystem.]]></summary>
         <author>
             <name>HashiCorp Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TeamCity 2022.04.4 is here]]></title>
+        <id>https://blog.jetbrains.com/?post_type=teamcity&amp;p=279927</id>
+        <link href="https://blog.jetbrains.com/teamcity/2022/09/teamcity-2022-04-4-is-here/"/>
+        <updated>2022-09-19T16:36:18.000Z</updated>
+        <summary type="html"><![CDATA[A fresh bugfix update for TeamCity 2022.04 is available for download. These are the most notable changes in TeamCity 2022.04.4:  Referencing parameters as variables is now supported for Approval rules in the Build Approval feature. See the TW-75759 issue. Non-optimal reporting of build statuses in the Commit Status Publisher feature has been fixed. See the […]]]></summary>
+        <author>
+            <name>Elena Baskakova</name>
         </author>
     </entry>
     <entry>
@@ -104,12 +423,22 @@ Spring Data KeyValue 3.0 M6 - Artifacts - Javadoc - Documentation - Chang…]]><
         <link href="https://spring.io/blog/2022/09/19/spring-data-rest-vulnerability-cve-2022-31679"/>
         <updated>2022-09-19T15:49:00.000Z</updated>
         <summary type="html"><![CDATA[Updates
-- [09-19] Vulnerability announced here and Spring Data REST 3.6.7 and 3.7.1 released
+- [09-19] Vulnerability announced here and Spring Data REST 3.6.7 and 3.7.3 released
 - [09-19] Blog post updated to refer to the CVE report published
 
-The Spring Data 2021.1.7 and 2021.2.3 releases shipped on September 19th contained releases for Spring Data REST 3.6.7 and 3.7.1 which include fixes for CVE-2022-31679. Users are encouraged to update as soon as possible.]]></summary>
+The Spring Data 2021.1.7 and 2021.2.3 releases shipped on September 19th contained releases for Spring Data REST 3.6.7 and 3.7.3 which include fixes for CVE-2022-31679. Users are encouraged to update as soon as possible.]]></summary>
         <author>
             <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Early Access Program And Why You Might Want To Participate]]></title>
+        <id>https://blog.jetbrains.com/?post_type=idea&amp;p=279757</id>
+        <link href="https://blog.jetbrains.com/idea/2022/09/the-early-access-program-and-why-you-might-want-to-participate/"/>
+        <updated>2022-09-19T15:37:10.000Z</updated>
+        <summary type="html"><![CDATA[The Early Access Program, or EAP for short, is an integral part of every development cycle for IntelliJ IDEA and other JetBrains products. For us, it makes it possible to implement new features that you really need, polish the product, and deliver an IDE that developers love and trust. For you, it’s a chance to […]]]></summary>
+        <author>
+            <name>Maria Kosukhina</name>
         </author>
     </entry>
     <entry>
@@ -120,6 +449,26 @@ The Spring Data 2021.1.7 and 2021.2.3 releases shipped on September 19th contain
         <summary type="html"><![CDATA[Since connectivity is critical to all types of business applications including cloud apps, managing and maintaining the network often falls into the overnight hours. This is great for the business, but it puts a large wrinkle in your work-life balance. Luckily, AnsibleFest is here to help you get more sleep!]]></summary>
         <author>
             <name>Cindy Russell</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Join us for JetBrains .NET Days + GameDev Day Online 2022]]></title>
+        <id>https://blog.jetbrains.com/?post_type=dotnet&amp;p=278288</id>
+        <link href="https://blog.jetbrains.com/dotnet/2022/09/19/join-us-for-dotnet-days-and-gamedev-day-online-2022/"/>
+        <updated>2022-09-19T11:03:29.000Z</updated>
+        <summary type="html"><![CDATA[Good news everyone! We invite you to join JetBrains .NET Days + GameDev Day Online 2022, two virtual events taking place Tuesday to Thursday, October 25–27, 2022. Let us know if you can make it! COUNT ME IN! Once a year, we invite community speakers to cover topics they are passionate about. The topics include […]]]></summary>
+        <author>
+            <name>Maarten Balliauw</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OSS Power-Ups: Serilog – Webinar Recording]]></title>
+        <id>https://blog.jetbrains.com/?post_type=dotnet&amp;p=275813</id>
+        <link href="https://blog.jetbrains.com/dotnet/2022/09/19/oss-power-ups-serilog-webinar-recording/"/>
+        <updated>2022-09-19T08:53:32.000Z</updated>
+        <summary type="html"><![CDATA[The recording of our webinar, OSS Power-Ups: Serilog, with Nicholas Blumhardt, is available. This was the tenth episode of our OSS Power-Ups series, where we put a spotlight on open-source .NET projects. Subscribe to our community newsletter to receive notifications about future webinars. So much more than “just another logging library,” Serilog turns application log data […]]]></summary>
+        <author>
+            <name>Matthias Koch</name>
         </author>
     </entry>
     <entry>
@@ -158,6 +507,16 @@ Here are a few practical use cases for pinned queries:
 You are developing a knowledge center and monitoring user clicks on each arti…]]></summary>
         <author>
             <name>Sagar Patel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Everyday Carry]]></title>
+        <id>https://xkcd.com/2674/</id>
+        <link href="https://xkcd.com/2674/"/>
+        <updated>2022-09-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/everyday_carry.png" title="Someday I just know I'm going to encounter a problem that requires 500 flashlights and 700 knives with weird holes in them, and on that day I won't be caught unprepared." alt="Someday I just know I'm going to encounter a problem that requires 500 flashlights and 700 knives with weird holes in them, and on that day I won't be caught unprepared." />]]></summary>
+        <author>
+            <name>xkcd.com</name>
         </author>
     </entry>
     <entry>
@@ -215,6 +574,16 @@ Bidding with Budget Constraints: Advertisers increasingly purchase ad slots usin
         <summary type="html"><![CDATA[Drift detection is essential to maintaining efficiency while minimizing risk and giving teams confidence in your infrastructure as code (IaC) provisioning workflow.]]></summary>
         <author>
             <name>HashiCorp Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An Introduction to Low-level Concurrency in .NET – Webinar Recording]]></title>
+        <id>https://blog.jetbrains.com/?post_type=dotnet&amp;p=279145</id>
+        <link href="https://blog.jetbrains.com/dotnet/2022/09/16/an-introduction-to-low-level-concurrency-in-net-webinar-recording/"/>
+        <updated>2022-09-16T15:38:00.000Z</updated>
+        <summary type="html"><![CDATA[The recording for An Introduction to Low-level Concurrency in .NET with guest speaker Szymon Kulec is now available on YouTube. We’ll be discussing and understanding low-level async primitives while keeping the topic relatively straightforward. We’ll also be walking through Volatile, Interlocked, and other things-which-must-not-be-named. We’ll see how all these concepts are used in the .NET […]]]></summary>
+        <author>
+            <name>Khalid Abuhakmeh</name>
         </author>
     </entry>
     <entry>
@@ -475,26 +844,6 @@ The post New Boards Hub, Sprint 210 Update appeared first on Azure DevOps Blog.]
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[ReSharper 2022.3 Roadmap]]></title>
-        <id>https://blog.jetbrains.com/?post_type=dotnet&amp;p=279041</id>
-        <link href="https://blog.jetbrains.com/dotnet/2022/09/15/resharper-2022-3-roadmap/"/>
-        <updated>2022-09-15T13:00:29.000Z</updated>
-        <summary type="html"><![CDATA[It’s been a few weeks since ReSharper 2022.2 was released, bringing you extended support for C# 11 features, memory-optimized solution-wide analysis, and a brand-new Virtual Formatter, among other exciting additions and improvements.  While we’re unpacking your feedback in preparation for the next Early Access Program (EAP) cycle, we thought it would be the perfect time […]]]></summary>
-        <author>
-            <name>Sasha Ivanova</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rider 2022.3 Roadmap]]></title>
-        <id>https://blog.jetbrains.com/?post_type=dotnet&amp;p=279081</id>
-        <link href="https://blog.jetbrains.com/dotnet/2022/09/15/rider-2022-3-roadmap/"/>
-        <updated>2022-09-15T13:00:23.000Z</updated>
-        <summary type="html"><![CDATA[With the start of a new release cycle of our Early Access Program (EAP) just around the corner, we think it’s time to share our plans for Rider 2022.3.  Keep in mind that plans are always subject to change, and some features and fixes may have to be postponed to a later release. Also, you […]]]></summary>
-        <author>
-            <name>Sasha Ivanova</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Increase your resilience with new regions in Camunda Platform 8 SaaS]]></title>
         <id>https://camunda.com/?p=62542</id>
         <link href="https://camunda.com/blog/2022/09/increase-your-resilience-with-new-regions-in-camunda-platform-8-saas/"/>
@@ -503,16 +852,6 @@ The post New Boards Hub, Sprint 210 Update appeared first on Azure DevOps Blog.]
 The post Increase your resilience with new regions in Camunda Platform 8 SaaS appeared first on Camunda.]]></summary>
         <author>
             <name>Annie Talvasto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SQL for Backend Developers on JetBrains Academy]]></title>
-        <id>https://blog.jetbrains.com/?post_type=education&amp;p=278768</id>
-        <link href="https://blog.jetbrains.com/education/2022/09/15/sql-for-backend-developers-on-jetbrains-academy/"/>
-        <updated>2022-09-15T09:40:39.000Z</updated>
-        <summary type="html"><![CDATA[Knowing how to work with data is one of the most in-demand skills in tech. Especially so if you want to work in backend development. For example, almost every website or software application nowadays has a registration and login form. Behind the simple two-field window, there is a complex process of storing, retrieving, and changing […]]]></summary>
-        <author>
-            <name>Anastasia Khramushina</name>
         </author>
     </entry>
     <entry>
@@ -669,36 +1008,6 @@ These features …]]></summary>
         <summary type="html"><![CDATA[Developers all over the world are using GitHub Copilot to help speed up their development and increase developer productivity. With GitHub Copilot available to developers everywhere, we’ve found some fun and useful examples of how developers can use GitHub Copilot for things you may not be thinking about.]]></summary>
         <author>
             <name>The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[C++ Annotated June-August 2022: C++23 and C23 News, Language Tips and Tricks, and New Tools Releases]]></title>
-        <id>https://blog.jetbrains.com/?post_type=clion&amp;p=278925</id>
-        <link href="https://blog.jetbrains.com/clion/2022/09/cpp-annotated-jun-aug-23/"/>
-        <updated>2022-09-14T12:16:45.000Z</updated>
-        <summary type="html"><![CDATA[We’ve returned with all of the news from June, July, and August 2022 in our latest C++ Annotated digest. We’ve kept silent for a while, and despite these three months being less busy than the rest of the year for many, they were still jam-packed full of awesome news. So, expect today’s digest to be […]]]></summary>
-        <author>
-            <name>Anastasia Kazakova</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IntelliJ IDEA 2022.2.2 Is Out!]]></title>
-        <id>https://blog.jetbrains.com/?post_type=idea&amp;p=278763</id>
-        <link href="https://blog.jetbrains.com/idea/2022/09/intellij-idea-2022-2-2/"/>
-        <updated>2022-09-14T11:46:03.000Z</updated>
-        <summary type="html"><![CDATA[We’ve just released the second bug-fix update for v2022.2. You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are a Ubuntu user. You can also download it from our website. This latest release includes the following fixes and improvements: The Markdown auto-formatting action now correctly […]]]></summary>
-        <author>
-            <name>Maria Kosukhina</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CLion Bug-Fix Update 2022.2.2]]></title>
-        <id>https://blog.jetbrains.com/?post_type=clion&amp;p=278894</id>
-        <link href="https://blog.jetbrains.com/clion/2022/09/clion-bug-fix-update-2022-2-2/"/>
-        <updated>2022-09-14T11:04:00.000Z</updated>
-        <summary type="html"><![CDATA[The CLion 2022.2.2 bug-fix update has been released. Build 222.4167.25 is available from our website, via the Toolbox App, as a snap for Ubuntu, or via patch from the IDE itself. DOWNLOAD CLION Below are the highlights of this update: Refactoring: We fixed a bug that was causing a duplicate name to appear when performing […]]]></summary>
-        <author>
-            <name>Anastasia Kazakova</name>
         </author>
     </entry>
     <entry>
@@ -932,29 +1241,6 @@ this is an interesting post looking at how to use JUnit with Spring Boot. The on
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Elastic provides the foundation for the DoD’s pillars of Zero Trust Networking]]></title>
-        <id>https://www.elastic.co/blog/elastic-provides-the-foundation-for-the-dods-pillars-of-zero-trust-networking</id>
-        <link href="https://www.elastic.co/blog/elastic-provides-the-foundation-for-the-dods-pillars-of-zero-trust-networking"/>
-        <updated>2022-09-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[For most public sector organizations, especially the U.S. Department of Defense, enacting a strong Zero Trust security strategy is critical. Learn how Elastic Security provides the foundation for the fundamental pillars of a Zero Trust architecture.]]></summary>
-        <author>
-            <name>Woody Walton</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Elastic provides the foundation for the DoD’s pillars of Zero Trust Networking]]></title>
-        <id>https://www.elastic.co/blog/elastic-provides-the-foundation-for-the-dods-pillars-of-zero-trust-networking</id>
-        <link href="https://www.elastic.co/blog/elastic-provides-the-foundation-for-the-dods-pillars-of-zero-trust-networking"/>
-        <updated>2022-09-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-The whole point of IT systems, whether deployed via traditional methods or via modern practices (such as Agile methodologies, DevSecOps, and orchestration platforms like Kubernetes) is to make data available for business operations — whether those operations are making business decisions, identifying or troubleshooting system performance and efficiency issues, detecting bad actors, or protecting organizational assets. Unfortunately, the result is a large array of disparate data silos that were never designed to interact with each other.
-
-What’s needed is the ability to collect and ingest data from multiple disparate sources and bring them together within a common access layer, in a format that allows cross-correlation and analysis, at scale and in near real-time. Elastic provides a uniqu…]]></summary>
-        <author>
-            <name>Woody Walton</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[What If? 2 Flowchart]]></title>
         <id>https://xkcd.com/2672/</id>
         <link href="https://xkcd.com/2672/"/>
@@ -1025,57 +1311,6 @@ What’s needed is the ability to collect and ingest data from multiple disparat
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Meet our 7 ERGs who are building communities at Elastic]]></title>
-        <id>https://www.elastic.co/blog/culture-meet-our-7-ergs-who-are-building-communities-at-elastic</id>
-        <link href="https://www.elastic.co/blog/culture-meet-our-7-ergs-who-are-building-communities-at-elastic"/>
-        <updated>2022-09-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Employee resource groups build a sense of community and belonging, provide an inclusive space for people with similar experiences, empower employees to share their voice, and amplify our DEI initiatives. Here’s a bit about each one.]]></summary>
-        <author>
-            <name>Elastic Culture</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introduction to custom machine learning models and maps]]></title>
-        <id>https://www.elastic.co/blog/introduction-to-custom-machine-learning-models-and-maps</id>
-        <link href="https://www.elastic.co/blog/introduction-to-custom-machine-learning-models-and-maps"/>
-        <updated>2022-09-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Learn how to run custom machine learning models to extract location information from text-based datasets and plot it on a map.]]></summary>
-        <author>
-            <name>Philipp Kahr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meet our 7 ERGs who are building communities at Elastic]]></title>
-        <id>https://www.elastic.co/blog/culture-meet-our-7-ergs-who-are-building-communities-at-elastic</id>
-        <link href="https://www.elastic.co/blog/culture-meet-our-7-ergs-who-are-building-communities-at-elastic"/>
-        <updated>2022-09-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-Employee resource groups, or as we like to call them, Elastician resource groups, have been a part of Elastic’s culture since 2016. They started as organic Slack channels that Elasticians could join to connect with others from similar backgrounds or experiences.
-In 2021, we formalized these ERGs to ensure that the members would have structure, budget, and ultimately, a voice based on any dimension of diversity, allyship, and advocacy. Formalizing these ERGs was an important step in broadening the impact of our collective diversity, equity and inclusion (DEI) initiatives.
-ERGs are aligned to shared identities, interests, affinities, or allyships and have visions and goals they are working towards. They allow Elasticians to build a sense of community and belonging outside of their immediat…]]></summary>
-        <author>
-            <name>Elastic Culture</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introduction to custom machine learning models and maps]]></title>
-        <id>https://www.elastic.co/blog/introduction-to-custom-machine-learning-models-and-maps</id>
-        <link href="https://www.elastic.co/blog/introduction-to-custom-machine-learning-models-and-maps"/>
-        <updated>2022-09-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-In Elasticsearch 8.0, we introduced the ability to run custom machine learning models, such as the ones based on BERT (Bidirectional Encoder Representations from Transformers), to perform natural language processing (NLP). This feature makes it easier to work with text-based datasets.
-
-In this blog, I will put this concept into practice by showing how to extract location information from CNN articles and plot it on a map!
-
-[Related article: How to use Elastic Maps to make public datasets observable]
-Step 1. Gather the data
-The first step is to gather a publicly available dataset. I have chosen the CNN dataset provided by Kaggle. You can download that and just import the CSV file as it is through Kibana, using the file upload feature inside machine learning.
-Step 2. Import the machine lea…]]></summary>
-        <author>
-            <name>Philipp Kahr</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Rotation]]></title>
         <id>https://xkcd.com/2671/</id>
         <link href="https://xkcd.com/2671/"/>
@@ -1118,16 +1353,6 @@ the end users of Kubernetes to programmatically subscribe or pull the…]]></sum
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[What does it mean to be smart?]]></title>
-        <id>https://seths.blog/?p=43760</id>
-        <link href="https://feeds.feedblitz.com/~/710398298/0/sethsblog~What-does-it-mean-to-be-smart/"/>
-        <updated>2022-09-10T08:53:00.000Z</updated>
-        <summary type="html"><![CDATA[You probably know that Bruce Wayne is actually Batman. That’s a secret identity that most of us are aware of. And if you’re up on pop culture, you know that the best Batman was played by the late actor Adam West. Visit the visual search engine Lexica, though, and you’ll see that it knows that […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Learning to Walk in the Wild from Terrain Semantics]]></title>
         <id>http://ai.googleblog.com/2022/09/learning-to-walk-in-wild-from-terrain.html</id>
         <link href="http://ai.googleblog.com/2022/09/learning-to-walk-in-wild-from-terrain.html"/>
@@ -1149,16 +1374,6 @@ An important promise for quadrupedal robots is their potential to operate in com
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[SCA vs SAST: what are they and which one is right for you?]]></title>
-        <id>https://github.blog/2022-09-09-sca-vs-sast-what-are-they-and-which-one-is-right-for-you/</id>
-        <link href="https://github.blog/2022-09-09-sca-vs-sast-what-are-they-and-which-one-is-right-for-you/"/>
-        <updated>2022-09-09T15:16:13.000Z</updated>
-        <summary type="html"><![CDATA[We’re taking a look at two commonly-used security tools and detailing how they can help secure your projects.]]></summary>
-        <author>
-            <name>The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Level up your process communication with the new Slack Connector]]></title>
         <id>https://camunda.com/?p=61972</id>
         <link href="https://camunda.com/blog/2022/09/level-up-your-process-communication-with-the-new-slack-connector/"/>
@@ -1167,16 +1382,6 @@ An important promise for quadrupedal robots is their potential to operate in com
 The post Level up your process communication with the new Slack Connector appeared first on Camunda.]]></summary>
         <author>
             <name>Amy Johnston</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Interruption]]></title>
-        <id>https://xkcd.com/2670/</id>
-        <link href="https://xkcd.com/2670/"/>
-        <updated>2022-09-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/interruption.png" title="It's been extra bad ever since my GPS got stuck on Phoebe Judge mode." alt="It's been extra bad ever since my GPS got stuck on Phoebe Judge mode." />]]></summary>
-        <author>
-            <name>xkcd.com</name>
         </author>
     </entry>
     <entry>
@@ -1193,16 +1398,6 @@ What’s new in v2alpha1?
 While the original v1 implementation has been successful in helping Kubernetes us…]]></summary>
         <author>
             <name>Kubernetes – Production-Grade Container Orchestration</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Copilot now available for teachers]]></title>
-        <id>https://github.blog/2022-09-08-github-copilot-now-available-for-teachers/</id>
-        <link href="https://github.blog/2022-09-08-github-copilot-now-available-for-teachers/"/>
-        <updated>2022-09-08T18:00:49.000Z</updated>
-        <summary type="html"><![CDATA[After a year in technical preview, GitHub Copilot, an AI pair programmer, is now free for all teachers verified on GitHub Global Campus.]]></summary>
-        <author>
-            <name>The GitHub Blog</name>
         </author>
     </entry>
     <entry>
@@ -1563,49 +1758,6 @@ The post BPMN and DMN Modeler for Atlassian Confluence appeared first on Camunda
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[This Week in Spring - August 30th, 2022]]></title>
-        <id>https://spring.io/blog/2022/08/30/this-week-in-spring-august-30th-2022</id>
-        <link href="https://spring.io/blog/2022/08/30/this-week-in-spring-august-30th-2022"/>
-        <updated>2022-08-30T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hi, Spring fans! How are you? How’re you doin’ this fine tuesday morning? I’m doing well, of course, because this week VMware’s tentpole show - VMware Explore - is happening not even a mile from my home, here in San Francisco! And this is just the first one - there’ll be another show, my favorite show, in December: SpringOne 2022! I sure hope you’ve registered and that we’ll see you there! 
-
-Indeed, I’ve got a lunch to get to, so let’s get this this week’s wrapup done a little more quickly: without further ado….
-
-
-  
-A Bootiful Podcast: Fellow Java Champion and TimescaleDB developer advocate Christoph Engelbert
-
-  
-Creating a custom Spring Cloud Gateway Filter
-
-  
-Feign Client Exception Handling
-
-  
-Kai Tödter has just announced version 1.6.0 of JSON:API for Spring HATEOAS
-
-  
-Multitenancy With Spring Data JPA
-
-  
-PKCE Support for Secret Clients with Spring Security
-
-  
-Spring Batch 5.0.0-M5 is available now!
-
-  
-Swagger: Specify Two Responses with the Same Response Code
-
-  
-Are you building Spring Apps? Join us to learn how to build, deploy and operate Spring Apps at scale.
-
-  
-So, here is VMware’s stack for building a platform on the platform as kubernetes, the Tanzu Application Platform.]]></summary>
-        <author>
-            <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Now Open–AWS Region in the United Arab Emirates (UAE)]]></title>
         <id>abade96b96022cbe9580a09867b67fafe3511c48</id>
         <link href="https://aws.amazon.com/blogs/aws/now-open-aws-region-in-the-united-arab-emirates-uae/"/>
@@ -1660,37 +1812,6 @@ There are a couple of new bug fixes related to this feature in 1.25, and the CSI
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Creating a custom Spring Cloud Gateway Filter]]></title>
-        <id>https://spring.io/blog/2022/08/26/creating-a-custom-spring-cloud-gateway-filter</id>
-        <link href="https://spring.io/blog/2022/08/26/creating-a-custom-spring-cloud-gateway-filter"/>
-        <updated>2022-08-27T05:15:00.000Z</updated>
-        <summary type="html"><![CDATA[In this article, we look into writing a custom extension for Spring Cloud Gateway. Before we get started, let’s go over how Spring Cloud Gateway works:
-
-
-
-
-  
-First, a client makes a network request to the Gateway
-
-  
-The Gateway is defined with a number of routes, each with Predicates to match the request to the route. For example, you can match on the path segment of the URL or the HTTP method of the request.
-
-  
-Once matched, the Gateway executes pre-request logic on each of the filters applied to the route. For example, you might want to add query parameters to your request
-
-  
-A proxy filter routes the request to the proxied service
-
-  
-The service executes and returns a response
-
-  
-The gateway receives the response and executes post-request logic on each filter before return…]]></summary>
-        <author>
-            <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[What HashiCorp Interns Learned This Summer]]></title>
         <id>https://www.hashicorp.com/blog/what-hashicorp-interns-learned-this-summer</id>
         <link href="https://www.hashicorp.com/blog/what-hashicorp-interns-learned-this-summer"/>
@@ -1698,17 +1819,6 @@ The gateway receives the response and executes post-request logic on each filter
         <summary type="html"><![CDATA[10 interns in HashiCorp’s Early Career Program share what they learned during their summer with the company.]]></summary>
         <author>
             <name>HashiCorp Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[3 ways to involve your community to improve your programs]]></title>
-        <id>https://camunda.com/?p=60542</id>
-        <link href="https://camunda.com/blog/2022/08/3-ways-to-involve-your-community-to-improve-your-programs/"/>
-        <updated>2022-08-26T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Community programs are valuable tools for organizations. But enabling engagement in these programs can be challenging.
-The post 3 ways to involve your community to improve your programs appeared first on Camunda.]]></summary>
-        <author>
-            <name>Danielle Andrist</name>
         </author>
     </entry>
     <entry>
@@ -1741,16 +1851,6 @@ So far, these ML-powered features have relied on CPU inference made possible by 
         <summary type="html"><![CDATA[Today, we are announcing a new feature, Fine-Grained Visual Embedding Powered by Amazon QuickSight. With this feature, individual visualizations from Amazon QuickSight dashboards can now be embedded in high-traffic webpages and applications. Additionally, this feature enables you to provide rich insights for your end-users where they need them the most, without server or software setup […]]]></summary>
         <author>
             <name>Donnie Prakoso</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Bootiful Podcast: Fellow Java Champion and TimescaleDB developer advocate Christoph Engelbert]]></title>
-        <id>https://spring.io/blog/2022/08/25/a-bootiful-podcast-fellow-java-champion-and-timescaledb-developer-advocate-christoph-engelbert</id>
-        <link href="https://spring.io/blog/2022/08/25/a-bootiful-podcast-fellow-java-champion-and-timescaledb-developer-advocate-christoph-engelbert"/>
-        <updated>2022-08-25T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks to fellow Java Champion and TimescaleDB developer advocate Christoph Engelbert (@noctarius2k) about PostgreSQL, Java, time series databases, observability, and so much more.]]></summary>
-        <author>
-            <name>Spring</name>
         </author>
     </entry>
     <entry>
@@ -1824,19 +1924,6 @@ with James McInerney, Nathan Kallus, Dario Garcia Garcia and Justin Basilico]]><
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Spring Batch 5.0.0-M5 is available now!]]></title>
-        <id>https://spring.io/blog/2022/08/24/spring-batch-5-0-0-m5-is-available-now</id>
-        <link href="https://spring.io/blog/2022/08/24/spring-batch-5-0-0-m5-is-available-now"/>
-        <updated>2022-08-24T17:01:00.000Z</updated>
-        <summary type="html"><![CDATA[I am pleased to announce that Spring Batch 5.0.0-M5 is now available from our milestone repository. The main theme of this milestone is improving testing support in Spring Batch. This post walks through the major changes in this area as well as other changes introduced in this milestone release. For the complete list of changes, see the release notes.
-Test utilities configuration updates
-
-Up to version 4.3, the JobLauncherTestUtils used to autowire the job under test with the goal of facilitating the test setup. But what if multiple jobs are defined in the test context? And what if no Job beans are defined at all? So while this autowiring was convenient for most cases, it turned out to cause several issues in the aforementioned situations. In this release, and based on community feedback,…]]></summary>
-        <author>
-            <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[DevOps and CI/CD with automation controller]]></title>
         <id>https://www.ansible.com/blog/devops-and-ci/cd-with-automation-controller</id>
         <link href="https://www.ansible.com/blog/devops-and-ci/cd-with-automation-controller"/>
@@ -1876,71 +1963,6 @@ cluster users are usually not the same people, and that creating workloads …]]
 Online video sharing platforms, like YouTube, need to understand perceptual video quality (i.e., a user's subjective perception of video quality) in order to better optimize and improve user experience. Video quality assessment (VQA) attempts to build a bridge between video signals and perceptual quality by using objective mathematical models to approximate the subjective opinions of users. Traditional video quality metrics, like peak signal-to-noise ratio (PSNR) and Video Multi-Method Assessment Fusion (VMAF), are reference-based and focus on the relative difference between the target and reference videos. Such metrics, which work best on professionally generated content …]]></summary>
         <author>
             <name>Google AI Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This Week in Spring - August 23rd, 2022]]></title>
-        <id>https://spring.io/blog/2022/08/23/this-week-in-spring-august-23rd-2022</id>
-        <link href="https://spring.io/blog/2022/08/23/this-week-in-spring-august-23rd-2022"/>
-        <updated>2022-08-23T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hi, Spring fans! Welcome to another installment of This Week in Spring! We’ve got a ton to cover, so let’s dive right into it!
-
-
-  
-A Bootiful Podcast: Flowable founder Joram Barrez on a Bootiful Podcast on workflow, business process management, and more
-
-  
-Building IoT Applications Using Fauna and Spring
-
-  
-Cosmos DB for Spring Developers, Part I: Using Cosmos DB as a SQL Database
-
-  
-How to Build Web Servers with Paketo Buildpacks - Paketo Buildpacks
-
-  
-Introducing Experimental Spring Support for Apache Pulsar
-
-  
-Propagating Exceptions With OpenFeign and Spring
-
-  
-Spring Authorization Server 0.4.0-M1 available now
-
-  
-Spring Authorization Server 1.0.0-M1 available now
-
-  
-Spring Boot 2.6.11 available now
-
-  
-Spring Boot 2.7.3 available now
-
-  
-Spring Boot Actuator
-
-  
-Spring Boot Native image builds with 22.2.0 are failing · Issue #176 paketo-buildpacks/native-image - this is in regards to an issue related to Buildpacks that just appeared last week. There’s a workaround that’s been recently deployed.
-
-  
-Spring Boot and Spring Security with JWT including Access and Refresh Tokens 🔑
-
-  
-Spring JDBC Batch Inserts
-
-  
-Spring Security 5.8.0-M2 is released
-
-  
-Spring Shell 2.1.1 is now available
-
-  
-Spring for GraphQL with Querydsl.
-
-  
-Testcontainers and Spring Boot for local development and integration testing]]></summary>
-        <author>
-            <name>Spring</name>
         </author>
     </entry>
     <entry>
@@ -1988,38 +2010,6 @@ With this rel…]]></summary>
         <summary type="html"><![CDATA[Ten years ago, on August 20, 2012, AWS announced the general availability of Amazon Glacier, secure, reliable, and extremely low-cost storage designed for data archiving and backup. At the time, I was working as an AWS customer and it felt like an April Fools’ joke, offering long-term, secure, and durable cloud storage that allowed me […]]]></summary>
         <author>
             <name>Channy Yun</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Managing a VMware Template Lifecycle with Ansible]]></title>
-        <id>https://www.ansible.com/blog/managing-a-vmware-template-lifecycle-with-ansible</id>
-        <link href="https://www.ansible.com/blog/managing-a-vmware-template-lifecycle-with-ansible"/>
-        <updated>2022-08-22T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[When we manage a large number of virtual machines (VMs), we want to reduce the differences between them and create a standard template. By using a standard template, it becomes easier to manage and propagate the same operation on the different nodes. When using VMware vSphere, it is a common practice to share a standardized VM template and use it to create new VMs. This template is often called a golden image. Its creation involves a series of steps that can be automated with Ansible. In this blog, we will see how one can create and use a new golden image.]]></summary>
-        <author>
-            <name>Gonéri Le Bouder</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nomad Service Discovery]]></title>
-        <id>https://www.hashicorp.com/blog/nomad-service-discovery</id>
-        <link href="https://www.hashicorp.com/blog/nomad-service-discovery"/>
-        <updated>2022-08-22T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[HashiCorp Nomad’s addition of native service discovery offers a new option for simple service registration, plus integration with Consul for more complex service mesh use cases.]]></summary>
-        <author>
-            <name>HashiCorp Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blog: Spotlight on SIG Storage]]></title>
-        <id>https://kubernetes.io/blog/2022/08/22/sig-storage-spotlight/</id>
-        <link href="https://kubernetes.io/blog/2022/08/22/sig-storage-spotlight/"/>
-        <updated>2022-08-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Author: Frederico Muñoz (SAS)
-Since the very beginning of Kubernetes, the topic of persistent data and how to address the requirement of stateful applications has been an important topic. Support for stateless deployments was natural, present from the start, and garnered attention, becoming very well-known. Work on better support for stateful applications was also present from early on, with each release increasing the scope of what could be run on Kubernetes.
-Message queues, databases, clustered filesystems: these are some examples of the solutions that have different storage requirements and that are, today, increasingly deployed in Kubernetes. Dealing with ephemeral and persistent storage, local or remote, file or block, from many different vendors, while considering how to provide the …]]></summary>
-        <author>
-            <name>Kubernetes – Production-Grade Container Orchestration</name>
         </author>
     </entry>
 </feed>

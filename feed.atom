@@ -1,10 +1,182 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-09-22T02:23:50.085Z</id>
+    <id>urn:2022-09-23T02:28:37.747Z</id>
     <title>osmos::feed</title>
-    <updated>2022-09-22T02:23:50.085Z</updated>
+    <updated>2022-09-23T02:28:37.747Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Blog: Kubernetes 1.25: CustomResourceDefinition Validation Rules Graduate to Beta]]></title>
+        <id>https://kubernetes.io/blog/2022/09/23/crd-validation-rules-beta/</id>
+        <link href="https://kubernetes.io/blog/2022/09/23/crd-validation-rules-beta/"/>
+        <updated>2022-09-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Authors: Joe Betz (Google), Cici Huang (Google), Kermit Alexander (Google)
+In Kubernetes 1.25, Validation rules for CustomResourceDefinitions (CRDs) have graduated to Beta!
+Validation rules make it possible to declare how custom resources are validated using the Common Expression Language (CEL). For example:
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+ ...
+ openAPIV3Schema:
+ type: object
+ properties:
+ spec:
+ type: object
+ x-kubernetes-validations:
+ - rule: "self.minReplicas <= self.replicas && self.replicas <= self.maxReplicas"
+ message: "replicas should be in the range minReplicas..maxReplicas."
+ properties:
+ replicas:
+ type: integer
+ ...
+
+
+Validation rules support a wide range of use cases. To get a sense of some of the capabilities, let's look at a few examples:
+V…]]></summary>
+        <author>
+            <name>Kubernetes – Production-Grade Container Orchestration</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Boot 3.0.0-M5 available now]]></title>
+        <id>https://spring.io/blog/2022/09/22/spring-boot-3-0-0-m5-available-now</id>
+        <link href="https://spring.io/blog/2022/09/22/spring-boot-3-0-0-m5-available-now"/>
+        <updated>2022-09-22T22:30:55.000Z</updated>
+        <summary type="html"><![CDATA[On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 3.0.0-M5 has been released and is now available from https://repo.spring.io/milestone.
+
+This release includes 153 enhancements, documentation improvements, dependency upgrades, and bug fixes. Notable new features include:
+
+
+  
+Improved Ahead-of-Time (AOT) processing and native image support
+
+  
+Improved actuator endpoints sanitization
+
+  
+Jersey support re-instated
+
+
+Please see the release notes for more details and upgrade instructions.
+
+Thanks to all those who have contributed with issue reports and pull requests.
+How can you help?
+
+If you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.
+
+Project Page | GitHub | Issues | Documentation | Stack Overflow | Gitter]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TensorStore for High-Performance, Scalable Array Storage]]></title>
+        <id>http://ai.googleblog.com/2022/09/tensorstore-for-high-performance.html</id>
+        <link href="http://ai.googleblog.com/2022/09/tensorstore-for-high-performance.html"/>
+        <updated>2022-09-22T21:33:00.002Z</updated>
+        <summary type="html"><![CDATA[Posted by Jeremy Maitin-Shepard and Laramie Leavitt, Software Engineers, Connectomics at Google
+Many exciting contemporary applications of computer science and machine learning (ML) manipulate multidimensional datasets that span a single large coordinate system, for example, weather modeling from atmospheric measurements over a spatial grid or medical imaging predictions from multi-channel image intensity values in a 2d or 3d scan. In these settings, even a single dataset may require terabytes or petabytes of data storage. Such datasets are also challenging to work with as users may read and write data at irregular intervals and varying scales, and are often interested in performing analyses using numerous machines working in parallel.  
+Today we are introducing TensorStore, an open-source…]]></summary>
+        <author>
+            <name>Google AI Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Bootiful Podcast: Couchbase and Cloud legend Laurent Doguin]]></title>
+        <id>https://spring.io/blog/2022/09/22/a-bootiful-podcast-couchbase-and-cloud-legend-laurent-doguin</id>
+        <link href="https://spring.io/blog/2022/09/22/a-bootiful-podcast-couchbase-and-cloud-legend-laurent-doguin"/>
+        <updated>2022-09-22T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks to his friend, fellow Java Champion, and director of developer relations and strategy at Couchbase, Laurent Doguin (@ldoguin)
+
+
+SpringOne 2022 is almost here! This is our first in-person event since the pandemic and it’s when we release Spring Framework 6 and Spring Boot 3, the next generation of Spring and Spring Boot respectively. It’s running 6-8 December in my sunny San Francisco, CA! Register now at SpringOne.io and use the code S1VM22_Advocate_200 to get $200 off the current registration price.]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub for Startups is generally available]]></title>
+        <id>https://github.blog/2022-09-22-github-for-startups-is-generally-available/</id>
+        <link href="https://github.blog/2022-09-22-github-for-startups-is-generally-available/"/>
+        <updated>2022-09-22T16:00:13.000Z</updated>
+        <summary type="html"><![CDATA[We’re launching GitHub for Startups to give your startup the tools needed to go from idea to unicorn status on the world's largest developer platform.]]></summary>
+        <author>
+            <name>The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FEEL more confident transforming data]]></title>
+        <id>https://camunda.com/?p=63034</id>
+        <link href="https://camunda.com/blog/2022/09/feel-more-confident-transforming-data/"/>
+        <updated>2022-09-22T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[FEEL (Friendly Enough Expression Language) was created by the Object Management Group (OMG) “as part of the DMN standard”. Its goal is to be easy to understand, and at the same time, be full-featured enough to handle decision tables and literal expressions. When business and IT often work together on complex projects, writing expressions in a (relatively) accessible way reduces miscommunications and helps align teams. Camunda uses FEEL to map and transform business process data dynamically. For example, a loan application process pulls a credit score from an API call into a decision table. The decision table automates the next step of the process depending on the rules in the table. The data from the decision automation can then be...
+The post FEEL more confident transforming data appeared first on Camunda.]]></summary>
+        <author>
+            <name>Shane Ernest</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Boot 2.7.4 available now]]></title>
+        <id>https://spring.io/blog/2022/09/22/spring-boot-2-7-4-available-now</id>
+        <link href="https://spring.io/blog/2022/09/22/spring-boot-2-7-4-available-now"/>
+        <updated>2022-09-22T12:06:26.000Z</updated>
+        <summary type="html"><![CDATA[On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 2.7.4 has been released and is now available from Maven Central.
+
+This release includes 48 bug fixes, documentation improvements, and dependency upgrades. Thanks to all those who have contributed with issue reports and pull requests.
+Java 19
+
+Following its GA release earlier this week, Java 19 is now supported.
+How can you help?
+
+If you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.
+
+Project Page | GitHub | Issues | Documentation | Stack Overflow | Gitter]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Boot 2.6.12 available now]]></title>
+        <id>https://spring.io/blog/2022/09/22/spring-boot-2-6-12-available-now</id>
+        <link href="https://spring.io/blog/2022/09/22/spring-boot-2-6-12-available-now"/>
+        <updated>2022-09-22T09:58:00.000Z</updated>
+        <summary type="html"><![CDATA[On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 2.6.12 has been released and is now available from Maven Central.
+
+This release includes 33 bug fixes, documentation improvements, and dependency upgrades. Thanks to all those who have contributed with issue reports and pull requests.
+Java 19
+
+Following its GA release earlier this week, Java 19 is now supported.
+How can you help?
+
+If you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.
+
+Project Page | GitHub | Issues | Documentation | Stack Overflow | Gitter]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The beef tax]]></title>
+        <id>https://seths.blog/?p=43821</id>
+        <link href="https://feeds.feedblitz.com/~/712498770/0/sethsblog~The-beef-tax/"/>
+        <updated>2022-09-22T08:51:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re all paying it, every day. In the US, taxpayers subsidize the cattle industry with billions of dollars of tax money each year. Most of that goes to pay for feed crops, but there is also a huge allocation of public land for the grazing of cows. About half the land in the entire country […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Batch 5.0.0-M6 and 4.3.7 are out!]]></title>
+        <id>https://spring.io/blog/2022/09/22/spring-batch-5-0-0-m6-and-4-3-7-are-out</id>
+        <link href="https://spring.io/blog/2022/09/22/spring-batch-5-0-0-m6-and-4-3-7-are-out"/>
+        <updated>2022-09-22T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I am pleased to announce that Spring Batch 5.0.0-M6 is now available from our milestone repository and that 4.3.7 is available from Maven Central. Version 4.3.7 is a patch release that can be used as a drop-in replacement for 4.3.6. You can find its release notes here. This blog post is more about the new milestone release, version 5.0.0-M6. In this milestone, we focused on improving the configuration process of Spring Batch to make it more flexible and straightforward. This blog post walks through the major changes in this area of the framework and presents the new features introduced in this milestone release. For the complete list of changes, see the release notes.
+New Annotation Attributes in EnableBatchProcessing
+
+In this release, the @EnableBatchProcessing annotation introduced new …]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Security alert: new phishing campaign targets GitHub users]]></title>
         <id>https://github.blog/2022-09-21-security-alert-new-phishing-campaign-targets-github-users/</id>
@@ -82,6 +254,16 @@ With the whole Spring portfolio move to Java 17 and Jakarta EE, it was a tremend
         <summary type="html"><![CDATA[Now generally available, HashiCorp Terraform 1.3 introduces optional object type attributes with defaults, and enhancements to moved blocks, improving extensibility and maintainability of Terraform modules.]]></summary>
         <author>
             <name>HashiCorp Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[第216話] ワンパンマン]]></title>
+        <id>tonarino_yj:episode:316112896867289136</id>
+        <link href="https://tonarinoyj.jp/episode/316112896867289136"/>
+        <updated>2022-09-21T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ワンパンマン]]></summary>
+        <author>
+            <name>原作/ＯＮＥ/漫画/村田雄介</name>
         </author>
     </entry>
     <entry>
@@ -177,7 +359,7 @@ Project Page | GitHub Issues | ZenHub Board]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Why Event-Driven Matters]]></title>
+        <title type="html"><![CDATA[Why Event-Driven Automation Matters]]></title>
         <id>https://www.ansible.com/blog/why-event-driven-matters</id>
         <link href="https://www.ansible.com/blog/why-event-driven-matters"/>
         <updated>2022-09-21T13:00:00.000Z</updated>
@@ -506,6 +688,8 @@ The post Are you the next Camunda Champion? appeared first on Camunda.]]></summa
         <link href="https://spring.io/blog/2022/09/20/this-week-in-spring-september-20th-2022"/>
         <updated>2022-09-20T07:00:00.000Z</updated>
         <summary type="html"><![CDATA[Hi, Spring fans! Welcome to another installment of This Week in Spring wherein I endeavor as best as I can to capture the latest-and-greatest in the wide, wacky, and wonderful world of Springdom! Naturally, I fail miserably basically every week. There’s no way I could hope to capture everything of note. But I persist… 
+
+Are you coming to SpringOne 2022? This is our first in-person event since the pandemic and it’s when we release Spring Framework 6 and Spring Boot 3, the next generation of Spring and Spring Boot respectively. It’s running 6-8 December here in my hometown of sunny San Francisco, CA! Register now at SpringOne.io and use the code S1VM22_Advocate_200 to get $200 off the current registration price.
 
 So, without further ado, yet another wonderful week’s roundup! 
 
@@ -906,16 +1090,6 @@ Bidding with Budget Constraints: Advertisers increasingly purchase ad slots usin
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How we tripled max concurrent jobs to boost performance of GitHub Actions]]></title>
-        <id>https://github.blog/2022-09-16-how-we-tripled-max-concurrent-jobs-to-boost-performance-of-github-actions/</id>
-        <link href="https://github.blog/2022-09-16-how-we-tripled-max-concurrent-jobs-to-boost-performance-of-github-actions/"/>
-        <updated>2022-09-16T15:31:30.000Z</updated>
-        <summary type="html"><![CDATA[The GitHub Actions team has done lots of work to improve the performance and resource consumption of Actions on GHES in the past year.]]></summary>
-        <author>
-            <name>The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Kotlin News: 1.7.20-RC, kotlinx.serialization 1.4.0, KotlinConf Call for Speakers, and More]]></title>
         <id>https://blog.jetbrains.com/?post_type=kotlin&amp;p=279329</id>
         <link href="https://blog.jetbrains.com/kotlin/2022/09/kotlin-news-august/"/>
@@ -1134,22 +1308,6 @@ The post Increase your resilience with new regions in Camunda Platform 8 SaaS ap
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Spring Framework 6.0.0-M6 and 5.3.23 available now]]></title>
-        <id>https://spring.io/blog/2022/09/15/spring-framework-6-0-0-m6-and-5-3-23-available-now</id>
-        <link href="https://spring.io/blog/2022/09/15/spring-framework-6-0-0-m6-and-5-3-23-available-now"/>
-        <updated>2022-09-15T09:05:00.000Z</updated>
-        <summary type="html"><![CDATA[On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework 6.0.0-M6 and 5.3.23 are available now.
-
-Spring Framework 5.3.23 includes 32 fixes and improvements and is a recommended upgrade for all Spring production scenarios.
-
-Spring Framework 6.0.0-M6 includes 123 additional fixes and improvements specific to the 6.0 branch. This milestone wraps up most of our AOT efforts, in preparation for our release candidate phase. Stay tuned for the announcement of Spring Boot 3.0.0-M5 next week!
-
-Project Page | GitHub | Issues | Documentation]]></summary>
-        <author>
-            <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Talking about money]]></title>
         <id>https://seths.blog/?p=42289</id>
         <link href="https://feeds.feedblitz.com/~/711560403/0/sethsblog~Talking-about-money/"/>
@@ -1157,21 +1315,6 @@ Project Page | GitHub | Issues | Documentation]]></summary>
         <summary type="html"><![CDATA[Who benefits when we hesitate to look at money clearly? When we avoid doing a P&L, thinking about pricing, or creating a budget, we’re avoiding the fear that comes with these choices. And we’re also decreasing our odds of success. Good cooks talk about salt. Successful athletes talk about training. Money isn’t the point. But […]]]></summary>
         <author>
             <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spring Cloud Dataflow 2.9.6 Released]]></title>
-        <id>https://spring.io/blog/2022/09/14/spring-cloud-dataflow-2-9-6-released</id>
-        <link href="https://spring.io/blog/2022/09/14/spring-cloud-dataflow-2-9-6-released"/>
-        <updated>2022-09-15T02:00:00.000Z</updated>
-        <summary type="html"><![CDATA[On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Cloud Dataflow 2.9.6 has been released and is now available from Maven Central.
-
-This release updates to Postgres SQL driver 42.2.26 to address CVE-2022-31197. See the release notes for more information.
-Stay in touch…
-
-As always, we welcome feedback and contributions, so please reach out to us on Stackoverflow or GitHub.]]></summary>
-        <author>
-            <name>Spring</name>
         </author>
     </entry>
     <entry>
@@ -1387,50 +1530,6 @@ The post Camunda Automation Platform 7.18.0-alpha5 Released appeared first on Ca
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[This Week in Spring - September 13th, 2022]]></title>
-        <id>https://spring.io/blog/2022/09/13/this-week-in-spring-september-13th-2022</id>
-        <link href="https://spring.io/blog/2022/09/13/this-week-in-spring-september-13th-2022"/>
-        <updated>2022-09-13T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hi, Spring fans! Welcome to another installment of This Week in Spring! We’ve got a lot of good stuff to get to so let’s dive right into it! 
-
-
-  
-A Bootiful Podcast: Hashicorp’s Rosemary Wang on securing the intersection of apps and ops with Hashicorp Vault
-
-  
-a nice video by my colleague Dan Vega: Spring Security JWT
-
-  
-I also loved Dan’s video on Spring Security without the WebSecurityConfigurerAdapter 
-
-  
-Dispatching Queries in Axon Framework
-
-  
-Guide to Find the Java .class Version
-
-  
-Spring Cloud 2021.0.4 (codename Jubilee) Has Been Released
-
-  
-Static Fields and Garbage Collection
-
-  
-Blog: Announcing the Auto-refreshing Official Kubernetes CVE Feed
-
-  
-Blog: Kubernetes 1.25: KMS V2 Improvements
-
-  
-Blog: Kubernetes’s IPTables Chains Are Not API
-
-  
-this is an interesting post looking at how to use JUnit with Spring Boot. The only thing I didn’t quite understand is why the author declares Mockito explicitly. I’m pretty sure it’s brought in transitively in spring-boot-starter-test, but either way: good post!]]></summary>
-        <author>
-            <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The proximity hack]]></title>
         <id>https://seths.blog/?p=42746</id>
         <link href="https://feeds.feedblitz.com/~/711206332/0/sethsblog~The-proximity-hack/"/>
@@ -1488,16 +1587,6 @@ this is an interesting post looking at how to use JUnit with Spring Boot. The on
         <summary type="html"><![CDATA[Red Hat Ansible Automation Platform 2 introduced  major architectural changes, like automation mesh and automation execution environments, that help extend Ansible automation across your organization in a flexible manner, providing a single solution to all your organizational and hybrid cloud automation needs.]]></summary>
         <author>
             <name>Anshul Behl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Who cares?]]></title>
-        <id>https://seths.blog/?p=41853</id>
-        <link href="https://feeds.feedblitz.com/~/710931810/0/sethsblog~Who-cares/"/>
-        <updated>2022-09-12T08:38:00.000Z</updated>
-        <summary type="html"><![CDATA[No one cares. That happens rarely. Someone cares. That happens all the time, and it’s at the heart of our work. Everyone cares. Almost never. Someone is enough. In fact, someone is the entire point.]]></summary>
-        <author>
-            <name>Seth Godin</name>
         </author>
     </entry>
     <entry>
@@ -1589,51 +1678,6 @@ Convolutional neural networks have been the dominant machine learning architectu
         <summary type="html"><![CDATA[We are making some changes to the way that we tag modules and providers in the Terraform Registry for better consistency, clarity, and scalability in the Registry.]]></summary>
         <author>
             <name>HashiCorp Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Bootiful Podcast: Hashicorp's Rosemary Wang on securing the intersection of apps and ops with Hashicorp Vault]]></title>
-        <id>https://spring.io/blog/2022/09/08/a-bootiful-podcast-hashicorp-s-rosemary-wang-on-securing-the-intersection-of-apps-and-ops-with-hashicorp-vault</id>
-        <link href="https://spring.io/blog/2022/09/08/a-bootiful-podcast-hashicorp-s-rosemary-wang-on-securing-the-intersection-of-apps-and-ops-with-hashicorp-vault"/>
-        <updated>2022-09-08T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hi, Spring fans! In this episode Josh Long (@starbuxman) talks to Hashicorp Developer Advocate Rosemary Wang (@joatmon08) about a few Hashicorp technologies and their integrations with Spring Boot.]]></summary>
-        <author>
-            <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spring Cloud 2021.0.4 (codename Jubilee) Has Been Released]]></title>
-        <id>https://spring.io/blog/2022/09/07/spring-cloud-2021-0-4-codename-jubilee-has-been-released</id>
-        <link href="https://spring.io/blog/2022/09/07/spring-cloud-2021-0-4-codename-jubilee-has-been-released"/>
-        <updated>2022-09-07T22:23:00.000Z</updated>
-        <summary type="html"><![CDATA[On behalf of the community, I am pleased to announce that the General Availability (RELEASE) of the Spring Cloud 2021.0.4 Release Train is available today. The release can be found in Maven Central. You can check out the 2021.0.4 release notes for more information.
-Notable Changes in the 2021.0.4 Release Train
-
-See the project page for all the issues and pull requests included in this release.
-Spring Cloud Config
-
-
-  
-Replace JSCH with Apache MINA to resolve a number of SSH issues (#1901)
-
-
-Spring Cloud Gateway
-
-
-  
-Added native JSON to gRPC filter (#2657)
-
-  
-Support ‘use-insecure-trust-manager’ & ‘trustedX509Certificates’ for GRPC Filter (2699)
-
-
-Spring Cloud Openfeign
-
-
-  
-Allow overriding binary content types list ([#734]https://github.com/spring-cloud/spring-cloud-openfeign/…]]></summary>
-        <author>
-            <name>Spring</name>
         </author>
     </entry>
     <entry>
@@ -1830,17 +1874,6 @@ The Linux kernel offers two versions of cgroups: cgroup v1 and cgr…]]></summar
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[BPMN and DMN Modeler for Atlassian Confluence]]></title>
-        <id>https://camunda.com/?p=60833</id>
-        <link href="https://camunda.com/blog/2022/08/bpmn-and-dmn-modeler-for-atlassian-confluence/"/>
-        <updated>2022-08-30T13:13:46.000Z</updated>
-        <summary type="html"><![CDATA[Document business processes with the BPMN and DMN Modeler for Confluence - two plugins available for free on the Atlassian Marketplace.
-The post BPMN and DMN Modeler for Atlassian Confluence appeared first on Camunda.]]></summary>
-        <author>
-            <name>Josh Wulf</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Now Open–AWS Region in the United Arab Emirates (UAE)]]></title>
         <id>abade96b96022cbe9580a09867b67fafe3511c48</id>
         <link href="https://aws.amazon.com/blogs/aws/now-open-aws-region-in-the-united-arab-emirates-uae/"/>
@@ -2014,38 +2047,6 @@ with James McInerney, Nathan Kallus, Dario Garcia Garcia and Justin Basilico]]><
         <summary type="html"><![CDATA[This blog shares practical examples of using Ansible Automation Platform to accelerate your DevOps journey.]]></summary>
         <author>
             <name>Craig Brandt</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blog: PodSecurityPolicy: The Historical Context]]></title>
-        <id>https://kubernetes.io/blog/2022/08/23/podsecuritypolicy-the-historical-context/</id>
-        <link href="https://kubernetes.io/blog/2022/08/23/podsecuritypolicy-the-historical-context/"/>
-        <updated>2022-08-23T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Author: Mahé Tardy (Quarkslab)
-The PodSecurityPolicy (PSP) admission controller has been removed, as of
-Kubernetes v1.25. Its deprecation was announced and detailed in the blog post
-PodSecurityPolicy Deprecation: Past, Present, and Future,
-published for the Kubernetes v1.21 release.
-This article aims to provide historical context on the birth and evolution of
-PSP, explain why the feature never made it to stable, and show why it was
-removed and replaced by Pod Security admission control.
-PodSecurityPolicy, like other specialized admission control plugins, provided
-fine-grained permissions on specific fields concerning the pod security settings
-as a built-in policy API. It acknowledged that cluster administrators and
-cluster users are usually not the same people, and that creating workloads …]]></summary>
-        <author>
-            <name>Kubernetes – Production-Grade Container Orchestration</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UVQ: Measuring YouTube's Perceptual Video Quality]]></title>
-        <id>http://ai.googleblog.com/2022/08/uvq-measuring-youtubes-perceptual-video.html</id>
-        <link href="http://ai.googleblog.com/2022/08/uvq-measuring-youtubes-perceptual-video.html"/>
-        <updated>2022-08-23T17:02:00.001Z</updated>
-        <summary type="html"><![CDATA[Posted by Yilin Wang, Staff Software Engineer, YouTube and Feng Yang, Senior Staff Software Engineer, Google Research 
-Online video sharing platforms, like YouTube, need to understand perceptual video quality (i.e., a user's subjective perception of video quality) in order to better optimize and improve user experience. Video quality assessment (VQA) attempts to build a bridge between video signals and perceptual quality by using objective mathematical models to approximate the subjective opinions of users. Traditional video quality metrics, like peak signal-to-noise ratio (PSNR) and Video Multi-Method Assessment Fusion (VMAF), are reference-based and focus on the relative difference between the target and reference videos. Such metrics, which work best on professionally generated content …]]></summary>
-        <author>
-            <name>Google AI Blog</name>
         </author>
     </entry>
 </feed>

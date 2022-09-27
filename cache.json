@@ -6,6 +6,16 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2022/09/26/native-support-in-spring-boot-3-0-0-m5",
+          "author": null,
+          "description": "The Spring Team has been working on native image support for Spring Applications for quite some time. After 3+ years of incubation in the Spring Native experimental project with Spring Boot 2, native support is moving to General Availability with Spring Framework 6 and Spring Boot 3!\n\r\nNative images provide almost instant startup time and reduced memory consumption for Java applications. The recent Spring Boot 3.0.0-M5 release marks the first time we’re asking for broader community feedback on our native story. If you need to catch-up on the basics, please refer to the Ahead Of Time basics blog post from late March. You can also learn how to prepare your applications for Spring Boot 3.0.\n\r\nA lot has happened since March! We’ve improved compatibility with a larger number of use cases and li…",
+          "link": "https://spring.io/blog/2022/09/26/native-support-in-spring-boot-3-0-0-m5",
+          "publishedOn": "2022-09-26T11:33:08.000Z",
+          "wordCount": 1500,
+          "title": "Native Support in Spring Boot 3.0.0-M5",
+          "imageUrl": "https://avatars.githubusercontent.com/u/490484?v=4?s=200"
+        },
+        {
           "id": "https://spring.io/blog/2022/09/23/my-springone-2022",
           "author": null,
           "description": "It has taken me an embarrassingly long time to appreciate and understand that the devil is in the details regarding software development. Writing happy-path business logic isn’t the hard part! It’s the failure cases, observability, resilience, and process. It’s security and other so-called non-functional requirements. It’s architecting for agility. It’s production. Spring is unique because it sits at the crossroads of many exciting application development discussions. \n\r\nSpring’s community contains multitudes and is one of the key defining features. This diversity of discussion means that any conference that endeavors to cover the full sweep of ideas has its work cut out. I don’t know of any other show - and I’ve spoken at many thousands of shows and events in my life! - that completely co…",
@@ -194,16 +204,6 @@
           "wordCount": 975,
           "title": "Spring Tools 4.16.0 released",
           "imageUrl": "https://avatars.githubusercontent.com/u/107705?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/09/16/spring-cloud-sleuth-opentelemetry-otel-1-1-0-has-been-released",
-          "author": null,
-          "description": "On behalf of the community, I am pleased to announce that the first General Availability (RELEASE) of the Spring Cloud Sletuh OTel 1.1.0 project is available today. The release can be found in Maven Central. You can check out the reference documentation for more information.\nWhat is this?\n\r\nSpring Cloud Sleuth OTel is an extension project to Spring Cloud Sleuth that comes with an OpenTelemetry tracer.\n\r\nAs always, we welcome feedback on GitHub, on Gitter, on Stack Overflow, or on Twitter.\n\r\nTo get started with Maven with a BOM (dependency management only):\n\r\n\n<dependencyManagement>\r\r\n    <dependencies>\r\r\n        <dependency>\r\r\n            <groupId>org.springframework.cloud</groupId>\r\r\n            <artifactId>spring-cloud-dependencies</artifactId>\r\r\n            <version>2021.0.4</version>\r\r…",
-          "link": "https://spring.io/blog/2022/09/16/spring-cloud-sleuth-opentelemetry-otel-1-1-0-has-been-released",
-          "publishedOn": "2022-09-16T07:00:00.000Z",
-          "wordCount": 717,
-          "title": "Spring Cloud Sleuth OpenTelemetry (OTel) 1.1.0 Has Been Released",
-          "imageUrl": "https://avatars.githubusercontent.com/u/3297437?v=4?s=200"
         }
       ]
     },
@@ -380,12 +380,32 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
+          "id": "https://www.elastic.co/blog/how-to-configure-auth0-sso-with-elastic-cloud",
+          "author": "Aravind Putrevu",
+          "description": "We will look at integrating identity services provider Auth0 with Elastic Cloud and enabling the social login on Kibana, so that you can log in to Kibana with your Gmail, GitHub, or Microsoft account without creating any additional credentials.",
+          "link": "https://www.elastic.co/blog/how-to-configure-auth0-sso-with-elastic-cloud",
+          "publishedOn": "2022-09-26T13:00:00.000Z",
+          "wordCount": 7687,
+          "title": "How to configure Auth0 SSO with Elastic Cloud",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltfdbb5c56ed857bd0/630501276c88de0c928796f9/blog-thumb-elevate-our-work-1680x980.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/how-to-configure-auth0-sso-with-elastic-cloud",
+          "author": "Aravind Putrevu",
+          "description": ",\nIn this blog, we will look at integrating identity services provider Auth0 with Elastic Cloud and enabling the social login on Kibana, so that you can log in to Kibana with your Gmail, GitHub, or Microsoft account without creating any additional credentials.\n\nElastic Cloud supports three types of SSO protocols:\n\nSecure Access Markup Language (SAML)\nOpenID\nKerberos\n\nWe are going to configure the Auth0 integration via SAML (Security Assertion Markup Language) protocol. And we need to create some identifiers and register them on Elasticsearch and Kibana. Without going into the details of SAML, the most important part is: You need an Identity Provider that performs the authentication and authorization — that’s Auth0 in this example. And you need a Service Provider that trusts the Identity Pr…",
+          "link": "https://www.elastic.co/blog/how-to-configure-auth0-sso-with-elastic-cloud",
+          "publishedOn": "2022-09-26T13:00:00.000Z",
+          "wordCount": 7687,
+          "title": "How to configure Auth0 SSO with Elastic Cloud",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltfdbb5c56ed857bd0/630501276c88de0c928796f9/blog-thumb-elevate-our-work-1680x980.png"
+        },
+        {
           "id": "https://www.elastic.co/blog/how-to-unleash-your-datas-power-to-ensure-reliability-and-cybersecurity",
           "author": "Tom Mangan",
           "description": "Magnify the business impact of your data by consolidating platforms with search-powered technology.",
           "link": "https://www.elastic.co/blog/how-to-unleash-your-datas-power-to-ensure-reliability-and-cybersecurity",
           "publishedOn": "2022-09-23T00:00:00.000Z",
-          "wordCount": 8845,
+          "wordCount": 8522,
           "title": "Unleash your data’s power to ensure reliability and cybersecurity",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt578f44dd8fe7ceaf/632dfaab0046bd180f976275/power-of-your-data.jpg"
         },
@@ -395,7 +415,7 @@
           "description": "Cloud adoption in the financial, insurance, manufacturing, and public sectors need not be slowed down by outmoded thinking.",
           "link": "https://www.elastic.co/blog/key-strategies-for-cios-to-safely-and-smartly-move-to-the-cloud-and-speed-digital-transformation",
           "publishedOn": "2022-09-23T00:00:00.000Z",
-          "wordCount": 8998,
+          "wordCount": 8675,
           "title": "Key Strategies for CIOs to safely and smartly move to the cloud and speed digital transformation",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt20f3a66dbe3c205a/632e0ed93df1404a8501e1a2/cloud-objections.jpg"
         },
@@ -405,7 +425,7 @@
           "description": ",\nToday’s distributed IT systems need to bring order to chaos. CIOs are tasked with managing seemingly endless amounts of data, but they can’t unlock insights without a system that breaks down silos to provide a unified view.\n\nOne solution many CIOs are considering, according to a recent study by Forrester Consulting commissioned by Elastic, is to deploy a consolidated platform based on search-powered technology that can analyze log data to simplify and optimize IT environments.\n\nThis creates a powerful one-two punch for IT teams: an observability and APM solution, combined with a security solution, both running on the same unified, search-powered technology platform.\n\nA consolidated observability and security platform uses one of the most basic technology outputs — the log file — to revea…",
           "link": "https://www.elastic.co/blog/how-to-unleash-your-datas-power-to-ensure-reliability-and-cybersecurity",
           "publishedOn": "2022-09-23T00:00:00.000Z",
-          "wordCount": 8845,
+          "wordCount": 8522,
           "title": "Unleash your data’s power to ensure reliability and cybersecurity",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt578f44dd8fe7ceaf/632dfaab0046bd180f976275/power-of-your-data.jpg"
         },
@@ -415,7 +435,7 @@
           "description": ",\nWhile many IT leaders in highly-regulated sectors have opted for a slow pace of public cloud adoption, organizations that are more advanced on their journey are reaping the rewards.\n\n\n\nMcKinsey found through a series of surveys that large companies put up to 15% of their applications in the cloud, but continue to host the core of their technology environment in traditional data centers. The data shows that a lift-and-shift model of select applications offers limited payback. But, payback increases as organizations shift to a broader PaaS model. And, another study from Wipro showed that the speedy adoption of cloud by retail and CPG sectors have actually driven revenue gains.\n\n\n\nWhat can, for example, financial or manufacturing sectors learn from retail, then?\n\n\n\nToday, “data storage is g…",
           "link": "https://www.elastic.co/blog/key-strategies-for-cios-to-safely-and-smartly-move-to-the-cloud-and-speed-digital-transformation",
           "publishedOn": "2022-09-23T00:00:00.000Z",
-          "wordCount": 8998,
+          "wordCount": 8675,
           "title": "Key Strategies for CIOs to safely and smartly move to the cloud and speed digital transformation",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt20f3a66dbe3c205a/632e0ed93df1404a8501e1a2/cloud-objections.jpg"
         },
@@ -425,7 +445,7 @@
           "description": "Organizations in the midst of digital transformation are dealing with huge amounts of data. Data quality, access, and usability can improve with the help of search-powered technology.",
           "link": "https://www.elastic.co/blog/increase-the-velocity-of-your-digital-transformation-through-search-powered-tech",
           "publishedOn": "2022-09-21T00:00:00.000Z",
-          "wordCount": 7982,
+          "wordCount": 7659,
           "title": "Increase the velocity of your digital transformation through search-powered tech",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c3f329ce39c05a1/6297bad1ae6f0e4156d191df/enterprise-search-performing-website-dark-1680x980.png"
         },
@@ -435,7 +455,7 @@
           "description": "Surviving Black Friday, Cyber Weekend, and the holiday rush as an online retailer has never been more challenging or more important. But Elastic Observability and Consulting can help you breathe a bit easier and keep your business humming.",
           "link": "https://www.elastic.co/blog/beat-the-holiday-rush-with-elastic-observability",
           "publishedOn": "2022-09-21T00:00:00.000Z",
-          "wordCount": 11609,
+          "wordCount": 11286,
           "title": "Beat the holiday rush with Elastic Observability",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc8207d6ae08b2909/632a1efcfac7b2660da01918/blog-elastic-retail-shoppingbag.jpg"
         },
@@ -445,7 +465,7 @@
           "description": ",\nAccording to a survey conducted by Forrester Consulting, commissioned by Elastic, 84% of data leaders agree that the success of digital transformation initiatives relies on search-powered technology. \n\nThat’s likely because search-powered technology can enable the foundational first steps for realizing a range of digitization initiatives and accelerating the results that matter for your organization. Read here three key strategies gleaned from a survey of 800+ IT and cybersecurity executives.\n\n[Virtual event: Tune into a conversation with guest Boris Evelson, VP & Principal Analyst at Forrester, about how search-powered technology drives digital transformation]\n1. Data quality: Improve data storage\nThe survey asked data leaders to consider issues their organizations had experienced as a …",
           "link": "https://www.elastic.co/blog/increase-the-velocity-of-your-digital-transformation-through-search-powered-tech",
           "publishedOn": "2022-09-21T00:00:00.000Z",
-          "wordCount": 7982,
+          "wordCount": 7659,
           "title": "Increase the velocity of your digital transformation through search-powered tech",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c3f329ce39c05a1/6297bad1ae6f0e4156d191df/enterprise-search-performing-website-dark-1680x980.png"
         },
@@ -455,7 +475,7 @@
           "description": ",\nSeptember is here, and that means many retailers have already begun preparing for the upcoming holiday season. One weekend in particular tends to be the real-life stress test that companies have come to develop a love-hate relationship with: Cyber Weekend. Or more specifically, Black Friday, Cyber Monday, and the weekend in between. \n\nIn this article, we will cover how Elastic Observability can be leveraged to provide the data insights needed to prepare for and react to the holiday rush of traffic that will be hitting ecommerce infrastructure around the globe in just two short months. If this is the first time you’re reading about Elastic Observability, my colleague Paul Smalera, wrote a fantastic article that provides a complete overview of the solution.\n\nRead on and learn how Elastic O…",
           "link": "https://www.elastic.co/blog/beat-the-holiday-rush-with-elastic-observability",
           "publishedOn": "2022-09-21T00:00:00.000Z",
-          "wordCount": 11609,
+          "wordCount": 11286,
           "title": "Beat the holiday rush with Elastic Observability",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc8207d6ae08b2909/632a1efcfac7b2660da01918/blog-elastic-retail-shoppingbag.jpg"
         },
@@ -465,7 +485,7 @@
           "description": "Alexis Roberson started her career in technology because of a challenge from a college professor. Now she's a developer advocate on Elastic’s community team. Read her story.",
           "link": "https://www.elastic.co/blog/culture-developer-advocacy",
           "publishedOn": "2022-09-20T00:00:00.000Z",
-          "wordCount": 8229,
+          "wordCount": 7906,
           "title": "Want a career in developer advocacy? Alexis Roberson's story will inspire you to apply",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt24f48ef6dffe486e/6329af3e27d06f32eeaf328c/9.0-Someone-Like-Me-AlexaRoberson-blog-1680x980.jpg"
         },
@@ -475,7 +495,7 @@
           "description": "Version 8.4.2 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 8.4.2 over the previous patch versions in 8.4.x.\nFor details of the issues that have been fixed and a full list of changes for each product in this version, refer to the release notes: \n8.4.2 Release Notes\nElastic Stack\nElasticsearch\nKibana\nBeats\nLogstash\nElastic Enterprise Search\nEnterprise Search\nElastic Observability\nAPM\nElastic Security\nElastic Security Solution",
           "link": "https://www.elastic.co/blog/elastic-stack-8-4-2-released",
           "publishedOn": "2022-09-20T00:00:00.000Z",
-          "wordCount": 6125,
+          "wordCount": 5802,
           "title": "Elastic Stack 8.4.2 released",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c35d17afad9d20d/5f122812c31823015df6ef0a/blog-thumb-rocket-launch.png"
         },
@@ -485,7 +505,7 @@
           "description": "Search is the key to improving the customer experience–and business outcomes",
           "link": "https://www.elastic.co/blog/how-to-be-a-top-online-retailer-in-2023-start-with-a-top-ecommerce-search-engine-",
           "publishedOn": "2022-09-20T00:00:00.000Z",
-          "wordCount": 7898,
+          "wordCount": 7575,
           "title": "How to be a top online retailer in 2023? Start with a top ecommerce search engine",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt554864a21af280d0/632b292c716e803a3b69c720/05-retail-stacks.jpg"
         },
@@ -495,7 +515,7 @@
           "description": ",\nAlexis Roberson, Developer Advocate at Elastic, started her career in technology because of a challenge from a college professor. The ask? To major in computer science for a semester and see how she liked it. \nFast forward to 2019 and Alexis graduated with a computer science degree and started her career as a DevOps engineer—a far cry from the English major she thought she’d graduate with.\nNow it’s probably safe to say that her professor’s instincts were right. Alexis completed multiple tech internships across the United States during college, was a teaching assistant at GirlsWhoCode, as well as hosting a sponsored six-week coding camp for middle school girls.\nAll of this eventually led her to becoming a developer advocate on Elastic’s community team. But first, she took a 12-week produc…",
           "link": "https://www.elastic.co/blog/culture-developer-advocacy",
           "publishedOn": "2022-09-20T00:00:00.000Z",
-          "wordCount": 8229,
+          "wordCount": 7906,
           "title": "Want a career in developer advocacy? Alexis Roberson's story will inspire you to apply",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt24f48ef6dffe486e/6329af3e27d06f32eeaf328c/9.0-Someone-Like-Me-AlexaRoberson-blog-1680x980.jpg"
         },
@@ -505,7 +525,7 @@
           "description": "Read about the updates and bug fixes that have been included in this release.",
           "link": "https://www.elastic.co/blog/elastic-stack-8-4-2-released",
           "publishedOn": "2022-09-20T00:00:00.000Z",
-          "wordCount": 6125,
+          "wordCount": 5802,
           "title": "Elastic Stack 8.4.2 released",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c35d17afad9d20d/5f122812c31823015df6ef0a/blog-thumb-rocket-launch.png"
         },
@@ -515,7 +535,7 @@
           "description": ",\nRetailers that weathered the global pandemic now face new challenges: emerging shopping patterns, competitive upstarts, and economic uncertainty.   \nTrends that have impacted online retailers \nWhile ecommerce sales are expected to top $1 trillion in the U.S. for the first time ever in 2022, it is still tracking lower than 2020 levels, with a nearly 10% drop. \nAt the same time, concerns over inflation are a key driver for many online retailers. Even Amazon is prioritizing ways to streamline operations to prepare for a possible economic downturn. \n\nMoreover, new consumer technology expectations and capabilities should have organizations rethinking their strategies, or risk losing out on shoppers’ precious time and resources. After all, e-commerce spend hasn’t grown in line with internet us…",
           "link": "https://www.elastic.co/blog/how-to-be-a-top-online-retailer-in-2023-start-with-a-top-ecommerce-search-engine-",
           "publishedOn": "2022-09-20T00:00:00.000Z",
-          "wordCount": 7898,
+          "wordCount": 7575,
           "title": "How to be a top online retailer in 2023? Start with a top ecommerce search engine",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt554864a21af280d0/632b292c716e803a3b69c720/05-retail-stacks.jpg"
         },
@@ -525,7 +545,7 @@
           "description": "A practical overview of how to use pinned queries in Elasticsearch to promote specific results from your data.",
           "link": "https://www.elastic.co/blog/using-elasticsearch-pinned-queries-to-promote-specific-results",
           "publishedOn": "2022-09-19T00:00:00.000Z",
-          "wordCount": 8733,
+          "wordCount": 8410,
           "title": "Using Elasticsearch pinned queries to promote specific results",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt878ebe7fdc0cc140/62fd52a434503410d4c0701f/blog-thumbnail-generic-release.png"
         },
@@ -535,7 +555,7 @@
           "description": ",\nIn this article, learn how pinned queries in Elasticsearch can work for you through practical use cases.\nWhat is a pinned query and how can I use it?\nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltb1bc311e56e42120/632382404c470a60a9fa1d2f/blog-elastic-pinnedqueries-1.png,blog-elastic-pinnedqueries-1.png,\nPinned queries were first released in Elasticsearch 7.4 and are used to promote a chosen document, or documents, above any other documents that are at the top of the results for a certain query. It can be used for document promotion or guided searches where some documents must appear in the top results even when the relevancy score is low.\n\nHere are a few practical use cases for pinned queries:\n\nYou are developing a knowledge center and monitoring user clicks on each arti…",
           "link": "https://www.elastic.co/blog/using-elasticsearch-pinned-queries-to-promote-specific-results",
           "publishedOn": "2022-09-19T00:00:00.000Z",
-          "wordCount": 8733,
+          "wordCount": 8410,
           "title": "Using Elasticsearch pinned queries to promote specific results",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt878ebe7fdc0cc140/62fd52a434503410d4c0701f/blog-thumbnail-generic-release.png"
         },
@@ -545,7 +565,7 @@
           "description": "Mining performance data for insights can be the difference-maker in positive business outcomes",
           "link": "https://www.elastic.co/blog/how-it-leaders-build-more-proactive-organizations-using-observability-APM-MTTR",
           "publishedOn": "2022-09-16T00:00:00.000Z",
-          "wordCount": 8514,
+          "wordCount": 8191,
           "title": "How IT leaders build more proactive organizations using observability",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltd39cb8a858727adb/6324a0aa2343d638c69407ea/alert-management.jpg"
         },
@@ -555,29 +575,9 @@
           "description": ",\nIn the lingua franca of modern IT architecture, latency is the perfect metaphor for an unresponsive business. If an organization’s latency is problematic, operations teams are always a step behind — reacting to events rather than anticipating them. \n\nBut it doesn’t have to stay that way. \n\nFor instance, Wells Fargo, a multinational financial services company headquartered in San Francisco, CA, realized that in order to measure performance of their myriad applications, they had to have a modern observability and APM solution in place. Eric Chho, vice president of engineering at Wells Fargo, is responsible for providing observability to the many application teams across Wells’ wide-ranging IT organization. Chho says, “being able to measure golden signals [of improving application availabil…",
           "link": "https://www.elastic.co/blog/how-it-leaders-build-more-proactive-organizations-using-observability-APM-MTTR",
           "publishedOn": "2022-09-16T00:00:00.000Z",
-          "wordCount": 8514,
+          "wordCount": 8191,
           "title": "How IT leaders build more proactive organizations using observability",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltd39cb8a858727adb/6324a0aa2343d638c69407ea/alert-management.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/culture-ergs-encourage-you-to-come-as-you-are-meet-elasticians-unidos",
-          "author": "Elastic Culture",
-          "description": "September 15 through October 15 is Hispanic Heritage month—or as we like to call it, Elasticians Unidos Month. Learn more about how we're celebrating the month with our Elasticians Unidos ERG.",
-          "link": "https://www.elastic.co/blog/culture-ergs-encourage-you-to-come-as-you-are-meet-elasticians-unidos",
-          "publishedOn": "2022-09-15T00:00:00.000Z",
-          "wordCount": 8185,
-          "title": "ERGs encourage you to come as you are: Meet Elasticians Unidos",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltdfc0160a8251d069/631b7b21e2cc0658e8c412ce/9.0-ERG-heritage-blog-1680x980.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/culture-ergs-encourage-you-to-come-as-you-are-meet-elasticians-unidos",
-          "author": "Elastic Culture",
-          "description": ",\nEmployee resource groups, or Elastician resource groups as we like to call them, are formal groups within Elastic that are aligned with shared identities, experiences, interests, affinities, and allyships. \n\nWe formalized these groups in 2021, but they’ve been a part of our culture since 2016. The formalization means that they are now ensured structure, budget, and a voice based on any dimension of diversity, identity, allyship, and advocacy. This was an important step in our global diversity, equity, and inclusion strategy. \n\nEach ERG has their own mission and goals, but as a whole they want to create community and belonging around shared interests and experiences. \nOur Core ERGs\nWe have seven formal ERGs: The Accessibles, Blasticians, ElastAsians, Elasticians Unidos, Rainbow Stack, Mil…",
-          "link": "https://www.elastic.co/blog/culture-ergs-encourage-you-to-come-as-you-are-meet-elasticians-unidos",
-          "publishedOn": "2022-09-15T00:00:00.000Z",
-          "wordCount": 8185,
-          "title": "ERGs encourage you to come as you are: Meet Elasticians Unidos",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltdfc0160a8251d069/631b7b21e2cc0658e8c412ce/9.0-ERG-heritage-blog-1680x980.jpg"
         }
       ]
     },
@@ -586,6 +586,16 @@
       "feedUrl": "https://www.ansible.com/blog/rss.xml",
       "siteUrl": "https://www.ansible.com/blog",
       "articles": [
+        {
+          "id": "https://www.ansible.com/blog/migrate-to-azure-monitor-agent-on-azure-arc-using-red-hat-ansible-automation-platform",
+          "author": "Scott Harwell",
+          "description": "Azure Arc is becoming the default Microsoft Azure service for connecting non-Azure infrastructure into Azure monitoring and administration.  Azure has also issued a deprecation notice for the Azure Log Analytics Agents; Microsoft Monitoring Agent and Log Analytics (OMS).  Azure Monitor Agent replaces these agents, introducing a simplified, flexible method of configuring collection configuration called Data Collection Rules. To leverage Azure Monitor Agent with their non-Azure servers, customers will need to onboard their machines to Azure Arc-enabled servers.",
+          "link": "https://www.ansible.com/blog/migrate-to-azure-monitor-agent-on-azure-arc-using-red-hat-ansible-automation-platform",
+          "publishedOn": "2022-09-26T13:00:00.000Z",
+          "wordCount": 4422,
+          "title": "Migrate to Azure Monitor Agent on Azure Arc using Red Hat Ansible Automation Platform",
+          "imageUrl": "https://www.ansible.com/hubfs/azure%20arc%20blog.png"
+        },
         {
           "id": "https://www.ansible.com/blog/why-event-driven-matters",
           "author": "nmartins@redhat.com (Nuno Martins)",
@@ -659,7 +669,7 @@
           "description": "We spent most of sprint 210 focusing on accessibility issues and bug fixes. Here is a list of the items that have been resolved.\nIssue\nUnable to create a branch from card\nThe post New Boards Hub, Sprint 210 Update appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/new-boards-hub-sprint-210-update/",
           "publishedOn": "2022-09-15T17:35:54.000Z",
-          "wordCount": 4482,
+          "wordCount": 4581,
           "title": "New Boards Hub, Sprint 210 Update",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2018/08/vstsfeature.png"
         },
@@ -669,7 +679,7 @@
           "description": "Microsoft Search is the workplace search solution offered with Microsoft 365. Microsoft Search lets you find the information you need by unlocking knowledge and expertise. It helps you find what you need to complete what you’re working on. Whether you’re searching for people,\nThe post Azure DevOps Graph connectors for Microsoft Search appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azure-devops-graph-connectors-for-microsoft-search/",
           "publishedOn": "2022-09-06T23:45:33.000Z",
-          "wordCount": 4358,
+          "wordCount": 4354,
           "title": "Azure DevOps Graph connectors for Microsoft Search",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/09/MSGraphConnector.jpg"
         },
@@ -679,7 +689,7 @@
           "description": "We fixed a bunch more issues for New Boards Hub in sprint 209. Here is a list of the items that have been resolved.\nIssue\nOnBlur instead of onChange\nThe post New Boards Hub, Sprint 209 Update appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/new-boards-hub-sprint-209-update/",
           "publishedOn": "2022-08-31T16:23:03.000Z",
-          "wordCount": 5104,
+          "wordCount": 5272,
           "title": "New Boards Hub, Sprint 209 Update",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/08/sketch-1.png"
         }
@@ -696,6 +706,16 @@
       "feedUrl": "http://feeds.feedburner.com/AmazonWebServicesBlog",
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
+        {
+          "id": "7ba7c22c89a95d2ced12a3220867b6146d0a2db5",
+          "author": "Sébastien Stormacq",
+          "description": "It looks like my travel schedule is coupled with this Week In Review series of blog posts. This week, I am traveling to Fort-de-France in the French Caribbean islands to meet our customers and partners. I enjoy the travel time when I am offline. It gives me the opportunity to reflect on the past or […]",
+          "link": "https://aws.amazon.com/blogs/aws/aws-week-in-review-september-26-2022/",
+          "publishedOn": "2022-09-26T23:21:36.000Z",
+          "wordCount": 1699,
+          "title": "AWS Week In Review — September 26, 2022",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/09/24/AWS-WIR-9.26.22.png"
+        },
         {
           "id": "44f16a5754d845987d5a9cddff8e927e1897ca2b",
           "author": "Sébastien Stormacq",
@@ -784,6 +804,16 @@
       "siteUrl": "https://xkcd.com/",
       "articles": [
         {
+          "id": "https://xkcd.com/2677/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/two_key_system.png\" title=\"Our company can be your one-stop shop for decentralization.\" alt=\"Our company can be your one-stop shop for decentralization.\" />",
+          "link": "https://xkcd.com/2677/",
+          "publishedOn": "2022-09-26T00:00:00.000Z",
+          "wordCount": 234,
+          "title": "Two Key System",
+          "imageUrl": "https://imgs.xkcd.com/comics/two_key_system_2x.png"
+        },
+        {
           "id": "https://xkcd.com/2676/",
           "author": null,
           "description": "<img src=\"https://imgs.xkcd.com/comics/historical_dates.png\" title=\"Evidence suggests the 1899 transactions occurred as part of a global event centered around a deity associated with the lotus flower.\" alt=\"Evidence suggests the 1899 transactions occurred as part of a global event centered around a deity associated with the lotus flower.\" />",
@@ -812,16 +842,6 @@
           "wordCount": 232,
           "title": "Everyday Carry",
           "imageUrl": "https://imgs.xkcd.com/comics/everyday_carry_2x.png"
-        },
-        {
-          "id": "https://xkcd.com/2673/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/cursed_mrna_cocktail.png\" title=\"Serve one each to guests whose last cursed cocktail was more than 2 months ago.\" alt=\"Serve one each to guests whose last cursed cocktail was more than 2 months ago.\" />",
-          "link": "https://xkcd.com/2673/",
-          "publishedOn": "2022-09-16T00:00:00.000Z",
-          "wordCount": 234,
-          "title": "Cursed mRNA Cocktail",
-          "imageUrl": "https://imgs.xkcd.com/comics/cursed_mrna_cocktail_2x.png"
         }
       ]
     },
@@ -836,7 +856,7 @@
           "description": "The API economy is taking off, propelled by an explosion of activity across API tools and platforms. According to a 2021 report from Postman, developers reported spending nearly half of their time working on APIs, and 94% of companies planned to increase their investments in APIs in 2022. API-first development is also gaining traction, with an impressive 67% of companies embracing this methodology. Companies like Twilio and Stripe emerged as early winners in this new economy, with the promise of many more to come.  APIs offer organizations an opportunity to tap into best-of-breed software components without having to spend precious time or development resources creating them from scratch. With that said, an often-overlooked aspect of the API economy is how...\nThe post Could Process Orchestration be the “Glue” for the API Economy? appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/09/process-orchestration-api-econom/",
           "publishedOn": "2022-09-23T14:00:00.000Z",
-          "wordCount": 2765,
+          "wordCount": 2766,
           "title": "Could Process Orchestration be the “Glue” for the API Economy?",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/09/Glue.png"
         },
@@ -866,7 +886,7 @@
           "description": "There are multiple angles to look at workflows one of which is patterns. The Workflow Patterns initiative differentiates between control, data, and resource perspectives. They are not just focusing on the modeling language as such but have workflow systems in mind too. It’s valuable to have a closer look at those patterns and discuss which parts of it can be shown and even automated in BPMN, and which parts are taken care of in the technical implementation. I have seen BPMN diagrams that try to include every aspect in the diagram itself. This often leads to overloaded BPMN models with a lack of clear transparency of the business flow. Therefore, it is important to focus on all aspects of workflow...\nThe post Workflow diagram and pattern examples using BPMN models appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/09/workflow-diagram-and-pattern-examples-using-bpmn-models/",
           "publishedOn": "2022-09-16T09:00:00.000Z",
-          "wordCount": 4497,
+          "wordCount": 4496,
           "title": "Workflow diagram and pattern examples using BPMN models",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/09/workflow-diagram-pattern-examples-BPMN-models_Camunda_2022_Blog-featured-image_1200x630.png"
         },
@@ -876,7 +896,7 @@
           "description": "Our annual process orchestration conference, CamundaCon, is back this October 5-6 with a new hybrid format. Join us online from the comfort of your desk or meet us in person in Berlin, Germany. No matter how you CamundaCon, it will be a fun and insightful event! This year’s agenda is jam-packed with an all-star line-up of experts who will share their experience automating, orchestrating, and improving core business processes. You’ll hear real-world use cases and best practices from companies across all industries that have found innovative ways to deliver better customer experiences through orchestration. Here’s a sneak peek at a few of the sessions you won’t want to miss: Navdeep Singh of Walmart will share how they manage customer experiences...\nThe post CamundaCon 2022 preview – A conference for all things process orchestration appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/09/camunda-con-2022-preview/",
           "publishedOn": "2022-09-15T21:43:37.000Z",
-          "wordCount": 2417,
+          "wordCount": 2416,
           "title": "CamundaCon 2022 preview – A conference for all things process orchestration",
           "enclosure": {
             "url": "https://www.camundacon.com/wp-content/uploads/2022/09/CCon_2022_Agenda-Announcement_30-seconds_September-update_Social.mp4",
@@ -911,7 +931,7 @@
           "description": "We’re excited to announce a new release of Camunda Optimize. Camunda Optimize provides business activity monitoring for workflows, supporting continuous process improvement by providing transparency into your automated workflows and decisions. Business-friendly reports, dashboards, and alerts make it possible to identify process bottlenecks, improve end-to-end processes, and evaluate the success of your process automation initiative. In the rest of this post, we’ll highlight some of the new capabilities introduced in Optimize 3.9.0 alpha4. What’s new? Process Onboarding UX Whenever the first process instance of a new process definition is deployed, the user will receive an email with an invitation to create a first default dashboard in Optimize. Restrict report and dashboard creation to collections Optimize is structured with entities like...\nThe post Camunda Optimize 3.9.0 alpha4 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/09/camunda-optimize-3-9-0-alpha4-released/",
           "publishedOn": "2022-09-13T07:08:00.000Z",
-          "wordCount": 2485,
+          "wordCount": 2484,
           "title": "Camunda Optimize 3.9.0 alpha4 Released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/09/Official-Slide-Template-Camunda-2022_1200x627-4.jpg"
         },
@@ -921,7 +941,7 @@
           "description": "We are pleased to announce the next alpha release of Camunda Platform Runtime 7.18. This release features the following improvements: Logging: Engine name parameter in mapped diagnostic context Exception Error Codes now available in the External Task Clients IBM WebSphere Application Server Liberty support New Supported Environments 7 Bug Fixes You can download Camunda for free or run it with Docker. For a complete list of all improvements, take a look at the release notes. Please also see the list of known issues. If you want to dig in deeper, you can find the source code on GitHub. Logging: Engine Name Parameter in Mapped Diagnostic Context As an addition to the already present list of parameters for the logging context,...\nThe post Camunda Automation Platform 7.18.0-alpha5 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/09/camunda-automation-platform-7180-alpha5-released/",
           "publishedOn": "2022-09-13T07:05:00.000Z",
-          "wordCount": 2604,
+          "wordCount": 2603,
           "title": "Camunda Automation Platform 7.18.0-alpha5 Released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/09/Official-Slide-Template-Camunda-2022_1200x627.png"
         },
@@ -1328,12 +1348,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=42855",
+          "author": "Seth Godin",
+          "description": "It’s normal to feel it. It changes our careers, our dress and even the way we live our lives. The question is: is it caused by external or internal forces? More often than not, it’s simply something we invent. The people we imagine are busy watching and judging us might not even know we exist. […]",
+          "link": "https://feeds.feedblitz.com/~/713092222/0/sethsblog~Social-pressure/",
+          "publishedOn": "2022-09-26T08:42:00.000Z",
+          "wordCount": 1051,
+          "title": "Social pressure",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061313.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=42842",
           "author": "Seth Godin",
           "description": "Listen to one musician’s track in isolation on any record (like this one) and you might be amazed at how trivial they sound. Paul McCartney, one of the great bass players, in one the great groups of all time–it sounds a bit like a school music recital. But we don’t listen to the tracks in […]",
           "link": "https://feeds.feedblitz.com/~/712980640/0/sethsblog~The-parts-between/",
           "publishedOn": "2022-09-25T09:08:00.000Z",
-          "wordCount": 1091,
+          "wordCount": 1092,
           "title": "The parts between",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061313.jpg"
         },
@@ -1416,16 +1446,6 @@
           "wordCount": 1167,
           "title": "“And we also”",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806135-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=42756",
-          "author": "Seth Godin",
-          "description": "Starting at the top seems like great advice. Deal with the people with power and authority. Except… Power and authority aren’t often in the same place. The real power is usually foundational. What happens when humans interact. The way things are around here. Often, the people who are ostensibly in charge are simply choosing from […]",
-          "link": "https://feeds.feedblitz.com/~/711696621/0/sethsblog~The-grassroots/",
-          "publishedOn": "2022-09-16T08:29:00.000Z",
-          "wordCount": 1067,
-          "title": "The grassroots",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806137-1.jpg"
         }
       ]
     },
@@ -1440,17 +1460,17 @@
           "description": "Today marks the beginning of our third and final Early Access Program for 2022. If you want to find out what we have planned for version 2022.3, check out our roadmap blog post.  You can get this EAP build via the Toolbox App, download it from our website, use a snap package (for Ubuntu), or […]",
           "link": "https://blog.jetbrains.com/go/2022/09/23/the-goland-2022-3-early-access-program-has-started/",
           "publishedOn": "2022-09-23T18:30:31.000Z",
-          "wordCount": 2780,
+          "wordCount": 2695,
           "title": "The GoLand 2022.3 Early Access Program Has Started!",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/09/Blog_Social_share_image_1280x720_GoLand-2x.png"
         },
         {
           "id": "https://blog.jetbrains.com/?post_type=pycharm&p=281560",
           "author": "Valeria Letusheva",
-          "description": "We are launching the Early Access Program (EAP) for PyCharm 2022.3! This means that you can get access to the features that we are still polishing for the major release. We are looking forward to all your feedback on the EAP versions of PyCharm. This will help us to catch unforseen bugs quickly – your […]",
+          "description": "We are launching the Early Access Program (EAP) for PyCharm 2022.3! This means that you can get access to the features that we are still polishing for the major release. We are looking forward to all your feedback on the EAP versions of PyCharm. This will help us to catch unforeseen bugs quickly – your […]",
           "link": "https://blog.jetbrains.com/pycharm/2022/09/2022-3-eap-1/",
           "publishedOn": "2022-09-23T16:34:57.000Z",
-          "wordCount": 2720,
+          "wordCount": 2722,
           "title": "PyCharm 2022.3 EAP 1 Is Out!",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/09/Blog_Social_share_image_1280x720_PyCharm-2x-1.png"
         },
@@ -1470,7 +1490,7 @@
           "description": "We’re rounding off the end of the year with some cool new features and enhancements for WebStorm. Try them all out in the WebStorm 2022.3 Early Access Program (EAP), which we’ll be kicking off today. If you’re unfamiliar with how our EAP works, check out this blog post, where we explain what it is and […]",
           "link": "https://blog.jetbrains.com/webstorm/2022/09/webstorm-2022-3-eap1/",
           "publishedOn": "2022-09-23T12:22:30.000Z",
-          "wordCount": 2368,
+          "wordCount": 2370,
           "title": "WebStorm 2022.3 Early Access Program Is Now Open!",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/09/WebStorm-2022-3EAP-social-media-share.png"
         },
@@ -1482,7 +1502,7 @@
           "publishedOn": "2022-09-23T10:51:36.000Z",
           "wordCount": 2469,
           "title": "IntelliJ IDEA 2022.3 EAP Is Open!",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/02/intellij-idea_social.png"
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/09/Blog_Featured_image_1280x600_IntelliJIDEA-2x-1.png"
         },
         {
           "id": "https://blog.jetbrains.com/?post_type=clion&p=281220",

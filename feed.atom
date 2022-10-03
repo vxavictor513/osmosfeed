@@ -1,10 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-02T02:33:22.784Z</id>
+    <id>urn:2022-10-03T02:01:43.311Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-02T02:33:22.784Z</updated>
+    <updated>2022-10-03T02:01:43.311Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Blog: Kubernetes 1.25: alpha support for running Pods with user namespaces]]></title>
+        <id>https://kubernetes.io/blog/2022/10/03/userns-alpha/</id>
+        <link href="https://kubernetes.io/blog/2022/10/03/userns-alpha/"/>
+        <updated>2022-10-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Authors: Rodrigo Campos (Microsoft), Giuseppe Scrivano (Red Hat)
+Kubernetes v1.25 introduces the support for user namespaces.
+This is a major improvement for running secure workloads in
+Kubernetes. Each pod will have access only to a limited subset of the
+available UIDs and GIDs on the system, thus adding a new security
+layer to protect from other pods running on the same system.
+How does it work?
+A process running on Linux can use up to 4294967296 different UIDs and
+GIDs.
+User namespaces is a Linux feature that allows mapping a set of users
+in the container to different users in the host, thus restricting what
+IDs a process can effectively use.
+Furthermore, the capabilities granted in a new user namespace do not
+apply in the host initial namespaces.
+Why is it important?
+There are mainly t…]]></summary>
+        <author>
+            <name>Kubernetes – Production-Grade Container Orchestration</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[For the good of the community]]></title>
+        <id>https://seths.blog/?p=41944</id>
+        <link href="https://feeds.feedblitz.com/~/714030826/0/sethsblog~For-the-good-of-the-community/"/>
+        <updated>2022-10-02T09:20:00.000Z</updated>
+        <summary type="html"><![CDATA[One way to serve the community is to see it as a market and solve one of its problems. When people choose to buy something, it’s ostensibly because the thing you sell is worth more to them than it costs. And so value is created. And when you make a profit selling something and pay […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The way it’s done]]></title>
         <id>https://seths.blog/?p=41942</id>
@@ -872,16 +907,6 @@ If you’re interested in helping out, check out the “ideal for contribution�
 Project Page | GitHub | Issues | Documentation | Stack Overflow | Gitter]]></summary>
         <author>
             <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The beef tax]]></title>
-        <id>https://seths.blog/?p=43821</id>
-        <link href="https://feeds.feedblitz.com/~/712498770/0/sethsblog~The-beef-tax/"/>
-        <updated>2022-09-22T08:51:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re all paying it, every day. In the US, taxpayers subsidize the cattle industry with billions of dollars of tax money each year. Most of that goes to pay for feed crops, but there is also a huge allocation of public land for the grazing of cows. About half the land in the entire country […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
         </author>
     </entry>
     <entry>

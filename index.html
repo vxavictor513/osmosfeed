@@ -22,6 +22,116 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-10-03 datetime="2022-10-03T00:00:00.000Z">2022-10-03</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-10-03 datetime="2022-10-03T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Kubernetes – Production-Grade Container Orchestration</button>
+                  <a class="source-heading__link" href="https://kubernetes.io/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kubernetes.io/blog/2022/10/03/userns-alpha/"
+                        open
+                      >
+                        <summary class="article-expander__title">Blog: Kubernetes 1.25: alpha support for running Pods with user namespaces</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kubernetes.io/blog/2022/10/03/userns-alpha/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Authors: Rodrigo Campos (Microsoft), Giuseppe Scrivano (Red Hat)
+Kubernetes v1.25 introduces the support for user namespaces.
+This is a major improvement for running secure workloads in
+Kubernetes. Each pod will have access only to a limited subset of the
+available UIDs and GIDs on the system, thus adding a new security
+layer to protect from other pods running on the same system.
+How does it work?
+A process running on Linux can use up to 4294967296 different UIDs and
+GIDs.
+User namespaces is a Linux feature that allows mapping a set of users
+in the container to different users in the host, thus restricting what
+IDs a process can effectively use.
+Furthermore, the capabilities granted in a new user namespace do not
+apply in the host initial namespaces.
+Why is it important?
+There are mainly t…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-10-02 datetime="2022-10-02T09:20:00.000Z">2022-10-02</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-10-02 datetime="2022-10-02T09:20:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Seth Godin&#x27;s Blog on marketing, tribes and respect</button>
+                  <a class="source-heading__link" href="https://seths.blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://seths.blog/?p&#x3D;41944"
+                        open
+                      >
+                        <summary class="article-expander__title">For the good of the community</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://feeds.feedblitz.com/~/714030826/0/sethsblog~For-the-good-of-the-community/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061318.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>One way to serve the community is to see it as a market and solve one of its problems. When people choose to buy something, it’s ostensibly because the thing you sell is worth more to them than it costs. And so value is created. And when you make a profit selling something and pay […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-10-01 datetime="2022-10-01T09:37:00.000Z">2022-10-01</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-10-01 datetime="2022-10-01T09:37:00.000Z"></time>
           </button>
@@ -2457,40 +2567,6 @@ Today we are introducing TensorStore, an open-source…</span>
                               <span>FEEL (Friendly Enough Expression Language) was created by the Object Management Group (OMG) “as part of the DMN standard”. Its goal is to be easy to understand, and at the same time, be full-featured enough to handle decision tables and literal expressions. When business and IT often work together on complex projects, writing expressions in a (relatively) accessible way reduces miscommunications and helps align teams. Camunda uses FEEL to map and transform business process data dynamically. For example, a loan application process pulls a credit score from an API call into a decision table. The decision table automates the next step of the process depending on the rules in the table. The data from the decision automation can then be...
 The post FEEL more confident transforming data appeared first on Camunda.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Seth Godin&#x27;s Blog on marketing, tribes and respect</button>
-                  <a class="source-heading__link" href="https://seths.blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://seths.blog/?p&#x3D;43821"
-                        open
-                      >
-                        <summary class="article-expander__title">The beef tax</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://feeds.feedblitz.com/~/712498770/0/sethsblog~The-beef-tax/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061310-1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>We’re all paying it, every day. In the US, taxpayers subsidize the cattle industry with billions of dollars of tax money each year. Most of that goes to pay for feed crops, but there is also a huge allocation of public land for the grazing of cows. About half the land in the entire country […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -5066,8 +5142,8 @@ Did you ever try to measure a smell? …Until you can measure their likenesses a
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/vxavictor513/osmosfeed/actions/runs/3167031989">
-        <time id="build-timestamp" datetime="2022-10-02T02:33:22.758Z">2022-10-02T02:33:22.758Z</time>
+      <a class="footer-link" href="https://github.com/vxavictor513/osmosfeed/actions/runs/3171017243">
+        <time id="build-timestamp" datetime="2022-10-03T02:01:43.284Z">2022-10-03T02:01:43.284Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

@@ -1,10 +1,143 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-13T02:24:58.071Z</id>
+    <id>urn:2022-10-14T02:36:36.936Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-13T02:24:58.071Z</updated>
+    <updated>2022-10-14T02:36:36.936Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Introducing GitHub Advanced Security SIEM integrations for security professionals]]></title>
+        <id>https://github.blog/2022-10-13-introducing-github-advanced-security-siem-integrations-for-security-professionals/</id>
+        <link href="https://github.blog/2022-10-13-introducing-github-advanced-security-siem-integrations-for-security-professionals/"/>
+        <updated>2022-10-13T19:25:03.000Z</updated>
+        <summary type="html"><![CDATA[Learn about using GitHub Advanced Security (GHAS) alerts with Security Information and Events Management (SIEM) tools. Check out the integrations, and read more about getting started.]]></summary>
+        <author>
+            <name>The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Two HashiCorp Employees Marked Latinx & Hispanic Heritage Month]]></title>
+        <id>https://www.hashicorp.com/blog/how-two-hashicorp-employees-marked-latinx-hispanic-heritage-month</id>
+        <link href="https://www.hashicorp.com/blog/how-two-hashicorp-employees-marked-latinx-hispanic-heritage-month"/>
+        <updated>2022-10-13T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Karla De La Garza and Abraham Martinez, from HashiCorp’s Unidos Employee Resource Group, share their experiences in Mexico during Latinx & Hispanic Heritage Month.]]></summary>
+        <author>
+            <name>HashiCorp Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HashiCorp Vault 1.12 Adds New Secrets Engines, ADP Updates, and More]]></title>
+        <id>https://www.hashicorp.com/blog/vault-1-12</id>
+        <link href="https://www.hashicorp.com/blog/vault-1-12"/>
+        <updated>2022-10-13T16:30:00.000Z</updated>
+        <summary type="html"><![CDATA[The new HashiCorp Vault 1.12 focuses on improving core workflows and making key features production-ready.]]></summary>
+        <author>
+            <name>HashiCorp Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Story of Scalar]]></title>
+        <id>https://github.blog/2022-10-13-the-story-of-scalar/</id>
+        <link href="https://github.blog/2022-10-13-the-story-of-scalar/"/>
+        <updated>2022-10-13T15:00:12.000Z</updated>
+        <summary type="html"><![CDATA[New to Git v2.38, Scalar is a built-in repository manager for large repos. Here, we’ll tell the story of how Scalar went from a rough VFS for Git successor to a fully-integrated Git tool, with all of the engineering lessons learned in the process.]]></summary>
+        <author>
+            <name>The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The small world questions]]></title>
+        <id>https://seths.blog/?p=43984</id>
+        <link href="https://feeds.feedblitz.com/~/715452174/0/sethsblog~The-small-world-questions/"/>
+        <updated>2022-10-13T08:22:00.000Z</updated>
+        <summary type="html"><![CDATA[Without a doubt, the world has become more connected, noisier and more complex. But along the way, we’re still applying our instincts from a century ago, from a planet of villages and different expectations. Rhetorical questions worth considering as we think about what’s normal. Where does here end and there begin? Is there a line […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Batch 5.0.0-M8 is out!]]></title>
+        <id>https://spring.io/blog/2022/10/13/spring-batch-5-0-0-m8-is-out</id>
+        <link href="https://spring.io/blog/2022/10/13/spring-batch-5-0-0-m8-is-out"/>
+        <updated>2022-10-13T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[On behalf of the team and all contributors, I am pleased to announce that Spring Batch 5.0.0-M8 is now available from our milestone repository.
+
+In this milestone, we introduced two main changes:
+
+
+  
+New default execution context serialization format
+
+  
+SystemCommandTasklet enhancements
+
+
+This blog post walks through these two major changes in details. For the complete list of changes,
+please check the release notes.
+New default execution context serialization format
+
+In this milestone release, the DefaultExecutionContextSerializer was updated to serialize/deserialize the context to/from Base64.
+
+Moreover, the default ExecutionContextSerializer configured by @EnableBatchProcessing or DefaultBatchConfiguration was changed from JacksonExecutionContextStringSerializer to DefaultExecutionContextSerializer. The dependency to Jackson was made optional. In order to use the JacksonExecutionContextStringSerializer, jackson-core should be added to the classpath.
+SystemCommandTasklet enhancements
+
+The SystemCommandTasklet has been revisited in this release and was changed as follows:
+
+
+  
+
+  
+A new strategy interface named CommandRunner was introduced in order to decouple the command execution from the tasklet execution. The default implementation is the JvmCommandRunner which uses the java.lang.Runtime#exec API to run system commands. This interface can be implemented to use any other API to run system commands.
+
+  
+
+  
+The method that runs the command now accepts an array of Strings representing the command and its arguments. There is no need to tokenize the command or do any pre-processing anymore. This change makes the API more intuitive, and less prone to errors.
+
+
+Feedback
+
+I would like to thank all contributors who had a role in this release! As we continue
+our work on Spring Batch 5, we look forward to your feedback on Github, Twitter and StackOverflow.
+
+
+Spring Batch Home|Source on Github|Reference documentation]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Bootiful Podcast: Google mad scientist Josh Suereth on Observability with OpenTelemetry, building better build tools, and so much more]]></title>
+        <id>https://spring.io/blog/2022/10/12/a-bootiful-podcast-google-mad-scientist-josh-suereth-on-observability-with-opentelemetry-building-better-build-tools-and-so-much-more</id>
+        <link href="https://spring.io/blog/2022/10/12/a-bootiful-podcast-google-mad-scientist-josh-suereth-on-observability-with-opentelemetry-building-better-build-tools-and-so-much-more"/>
+        <updated>2022-10-13T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hi, Spring fans! In this installment Josh Long (@starbuxman) looks at the latest and greatest in Spring Boot 3 AOT, then talks to Google’s Josh Suereth (@jsuereth) about observability with OpenTelemetry, building better build tools, and so much more.]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The art of the possible: Arming U.S. veterans with knowledge]]></title>
+        <id>https://www.elastic.co/blog/the-art-of-the-possible-arming-us-veterans-with-knowledge</id>
+        <link href="https://www.elastic.co/blog/the-art-of-the-possible-arming-us-veterans-with-knowledge"/>
+        <updated>2022-10-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Elastic can help us understand the data that impacts our daily lives and guides our decisions. Learn how one Elastic employee transformed data into something that provides invaluable insight and answers common questions in the veteran community.]]></summary>
+        <author>
+            <name>Cami Lewis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The art of the possible: Arming U.S. veterans with knowledge]]></title>
+        <id>https://www.elastic.co/blog/the-art-of-the-possible-arming-us-veterans-with-knowledge</id>
+        <link href="https://www.elastic.co/blog/the-art-of-the-possible-arming-us-veterans-with-knowledge"/>
+        <updated>2022-10-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+Elastic can be used to help us understand the data that impacts our daily lives and guides our decisions, and the possibilities for individual use cases are endless. Our community is full of success stories about innovative ways Elastic empowers our users to make meaning out of data — and Isra Sunhachawi, senior solutions architect at Elastic recently did just that. Using the Elastic stack, Isra developed interactive maps and dashboards to depict the journey of a veteran from pre-enlistment to retirement. His tool distills otherwise meaningless data into useful information to help service members make informed decisions about housing, healthcare, and more.
+,In 2022, Isra submitted his tool to the Academy Health DataJam Challenge and he won, successfully demonstrating the enormous potenti…]]></summary>
+        <author>
+            <name>Cami Lewis</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Observability with Spring Boot 3]]></title>
         <id>https://spring.io/blog/2022/10/12/observability-with-spring-boot-3</id>
@@ -51,7 +184,7 @@ The upcoming Spring Boot 3.0.0-RC1 release will contain numerous autoconfigurati
         <summary type="html"><![CDATA[Directory services are an effective way to manage an organization’s users, groups, printers, devices, and more. Most organizations accomplish this using Active Directory, Apache Directory, Oracle Internet Directory, or other similar tools. Recently I worked with a customer who wanted to see how he could secure the Camunda 8 Platform and process applications with such a directory. Their requirements consisted of: Allowing Directory users to access Camunda applications (Tasklist, Operate, Optimize) Accessing secured Tasklist & Operate APIs from our custom project Securing the custom project In this article, I’ll briefly explain the 3 easy steps taken to fulfill their requirements which include: Federate users from the Directory service into Keycloak Declare an application in Identity to access Camunda APIs Configure...
 The post Securing Camunda 8 self-managed cluster and applications behind a directory appeared first on Camunda.]]></summary>
         <author>
-            <name>Christopher Zell</name>
+            <name>Christophe Dame</name>
         </author>
     </entry>
     <entry>
@@ -851,16 +984,6 @@ Want to meet more amazing people in our ecosystem, like Marten? SpringOne 2022 i
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Stateless — your new state of find with Elasticsearch]]></title>
-        <id>https://www.elastic.co/blog/stateless-your-new-state-of-find-with-elasticsearch</id>
-        <link href="https://www.elastic.co/blog/stateless-your-new-state-of-find-with-elasticsearch"/>
-        <updated>2022-10-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Discover this future of stateless Elasticsearch. Learn how we’re investing in building a new fully cloud native architecture to push the boundaries of scale and speed.]]></summary>
-        <author>
-            <name>Leaf Lin,Tim Brooks,Quin Hoxie</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Elastic Wins 2022 CyberSecurity Breakthrough Award for Threat Intelligence Platform of the Year]]></title>
         <id>https://www.elastic.co/blog/elastic-wins-2022-cybersecurity-breakthrough-award-for-threat-intelligence-platform-of-the-year</id>
         <link href="https://www.elastic.co/blog/elastic-wins-2022-cybersecurity-breakthrough-award-for-threat-intelligence-platform-of-the-year"/>
@@ -873,20 +996,6 @@ Streamlined, actionable threat intelligence for all
 It’s no secret that cyberattacks continue to evolve rapidly. To combat these ongoing threats, organizations cannot rely on technology alone. They must have a deeper understanding of today’s threat lands…]]></summary>
         <author>
             <name>Jennifer Ellard</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stateless — your new state of find with Elasticsearch]]></title>
-        <id>https://www.elastic.co/blog/stateless-your-new-state-of-find-with-elasticsearch</id>
-        <link href="https://www.elastic.co/blog/stateless-your-new-state-of-find-with-elasticsearch"/>
-        <updated>2022-10-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-Where we started
-The first version of Elasticsearch was released in 2010 as a distributed scalable search engine allowing users to quickly search for and surface critical insights. Twelve years and over 65,000 commits later, Elasticsearch continues to provide users with battle-tested solutions to a wide variety of search problems. Thanks to the efforts of over 1,500 contributors, including hundreds of full-time Elastic employees, Elasticsearch has constantly evolved to meet the new challenges that arise in the field of search.
-
-Early in Elasticsearch's life when data loss concerns were raised, the Elastic team underwent a multiyear effort to rewrite the cluster coordination system to guarantee that acknowledged data is stored safely. When it became clear that managing indices in large cl…]]></summary>
-        <author>
-            <name>Leaf Lin,Tim Brooks,Quin Hoxie</name>
         </author>
     </entry>
     <entry>
@@ -967,26 +1076,6 @@ Early in Elasticsearch's life when data loss concerns were raised, the Elastic t
         <summary type="html"><![CDATA[The HashiCorp Cloud Platform (HCP) adds new visibility and management controls for self-managed and HCP-managed Consul deployments.]]></summary>
         <author>
             <name>HashiCorp Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Working on a creative project? Unleash your originality and start to tinker with the Aspiring Creatives Experience]]></title>
-        <id>https://github.blog/2022-10-05-working-on-a-creative-project-unleash-your-originality-and-start-to-tinker-with-the-aspiring-creatives-experience/</id>
-        <link href="https://github.blog/2022-10-05-working-on-a-creative-project-unleash-your-originality-and-start-to-tinker-with-the-aspiring-creatives-experience/"/>
-        <updated>2022-10-05T15:00:22.000Z</updated>
-        <summary type="html"><![CDATA[Develop your design and collaboration skills to get your clever intentions off the ground.]]></summary>
-        <author>
-            <name>The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Two ways you can experience GitHub Universe]]></title>
-        <id>https://github.blog/2022-10-05-two-ways-you-can-experience-github-universe/</id>
-        <link href="https://github.blog/2022-10-05-two-ways-you-can-experience-github-universe/"/>
-        <updated>2022-10-05T13:01:44.000Z</updated>
-        <summary type="html"><![CDATA[GitHub Universe is back and more robust than ever, with two great ways to engage with everything this global developer event has to offer.]]></summary>
-        <author>
-            <name>The GitHub Blog</name>
         </author>
     </entry>
     <entry>
@@ -1189,16 +1278,6 @@ Job queueing is a key feature to run batch workloads at scale in both on-premise
         <summary type="html"><![CDATA[Red Hat Ansible Automation Platform can help you orchestrate, operationalize and govern your hybrid cloud deployments.  In my last public cloud blog, I talked about Two Simple Ways Automation Can Save You Money on Your AWS Bill and similarly to Ashton’s blog Bringing Order to the Cloud: Day 2 Operations in AWS with Ansible, we both wanted to look outside the common public cloud use-case of provisioning and deprovisioning resources and instead look at automating common operational tasks.  For this blog post I want to cover how the Technical Marketing team for Ansible orchestrates a pipeline for demos and workshops with Ansible and how we integrate that with custom AMIs (Amazon Machine Images) created with Packer.  Packer is an open source tool that allows IT operators to standardize and automate the process of building system images.]]></summary>
         <author>
             <name>scavanau@redhat.com (Sean Cavanaugh)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“What’s on tonight?”]]></title>
-        <id>https://seths.blog/?p=43913</id>
-        <link href="https://feeds.feedblitz.com/~/714183706/0/sethsblog~Whats-on-tonight/"/>
-        <updated>2022-10-03T08:24:00.000Z</updated>
-        <summary type="html"><![CDATA[This common question no longer means anything. Every TV show is on. All the time. Our record collection streams every record ever recorded. And our readers can find and display just about any book we can name. We haven’t thought about the impacts of this abundance nearly as much as it deserves. Live matters less, […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
         </author>
     </entry>
     <entry>
@@ -1592,46 +1671,6 @@ The post FEEL more confident transforming data appeared first on Camunda.]]></su
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Spring Boot 2.7.4 available now]]></title>
-        <id>https://spring.io/blog/2022/09/22/spring-boot-2-7-4-available-now</id>
-        <link href="https://spring.io/blog/2022/09/22/spring-boot-2-7-4-available-now"/>
-        <updated>2022-09-22T12:06:26.000Z</updated>
-        <summary type="html"><![CDATA[On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 2.7.4 has been released and is now available from Maven Central.
-
-This release includes 48 bug fixes, documentation improvements, and dependency upgrades. Thanks to all those who have contributed with issue reports and pull requests.
-Java 19
-
-Following its GA release earlier this week, Java 19 is now supported.
-How can you help?
-
-If you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.
-
-Project Page | GitHub | Issues | Documentation | Stack Overflow | Gitter]]></summary>
-        <author>
-            <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spring Boot 2.6.12 available now]]></title>
-        <id>https://spring.io/blog/2022/09/22/spring-boot-2-6-12-available-now</id>
-        <link href="https://spring.io/blog/2022/09/22/spring-boot-2-6-12-available-now"/>
-        <updated>2022-09-22T09:58:00.000Z</updated>
-        <summary type="html"><![CDATA[On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 2.6.12 has been released and is now available from Maven Central.
-
-This release includes 33 bug fixes, documentation improvements, and dependency upgrades. Thanks to all those who have contributed with issue reports and pull requests.
-Java 19
-
-Following its GA release earlier this week, Java 19 is now supported.
-How can you help?
-
-If you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.
-
-Project Page | GitHub | Issues | Documentation | Stack Overflow | Gitter]]></summary>
-        <author>
-            <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[View Synthesis with Transformers]]></title>
         <id>http://ai.googleblog.com/2022/09/view-synthesis-with-transformers.html</id>
         <link href="http://ai.googleblog.com/2022/09/view-synthesis-with-transformers.html"/>
@@ -1851,50 +1890,6 @@ These features …]]></summary>
         <summary type="html"><![CDATA[Today, we announced direct VPC routing for AWS Outposts rack. This enables you to connect Outposts racks and on-premises networks using simplified IP address management. Direct VPC routing automatically advertises Amazon Virtual Private Cloud (Amazon VPC) subnet CIDR addresses to on-premises networks. This enables you to use the private IP addresses of resources in your […]]]></summary>
         <author>
             <name>Steve Roberts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blog: Kubernetes 1.25: PodHasNetwork Condition for Pods]]></title>
-        <id>https://kubernetes.io/blog/2022/09/14/pod-has-network-condition/</id>
-        <link href="https://kubernetes.io/blog/2022/09/14/pod-has-network-condition/"/>
-        <updated>2022-09-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Author:
-Deep Debroy (Apple)
-Kubernetes 1.25 introduces Alpha support for a new kubelet-managed pod condition
-in the status field of a pod: PodHasNetwork. The kubelet, for a worker node,
-will use the PodHasNetwork condition to accurately surface the initialization
-state of a pod from the perspective of pod sandbox creation and network
-configuration by a container runtime (typically in coordination with CNI
-plugins). The kubelet starts to pull container images and start individual
-containers (including init containers) after the status of the PodHasNetwork
-condition is set to "True". Metrics collection services that report latency of
-pod initialization from a cluster infrastructural perspective (i.e. agnostic of
-per container characteristics like image size or payload) can utilize the
-PodHas…]]></summary>
-        <author>
-            <name>Kubernetes – Production-Grade Container Orchestration</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LOLNeRF: Learn from One Look]]></title>
-        <id>http://ai.googleblog.com/2022/09/lolnerf-learn-from-one-look.html</id>
-        <link href="http://ai.googleblog.com/2022/09/lolnerf-learn-from-one-look.html"/>
-        <updated>2022-09-13T21:18:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted by Daniel Rebain, Student Researcher, and Mark Matthews, Senior Software Engineer, Google Research, Perception Team 
-An important aspect of human vision is our ability to comprehend 3D shape from the 2D images we observe. Achieving this kind of understanding with computer vision systems has been a fundamental challenge in the field. Many successful approaches rely on multi-view data, where two or more images of the same scene are available from different perspectives, which makes it much easier to infer the 3D shape of objects in the images. 
-There are, however, many situations where it would be useful to know 3D structure from a single image, but this problem is generally difficult or impossible to solve. For example, it isn’t necessarily possible to tell the difference between an …]]></summary>
-        <author>
-            <name>Google AI Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Waypoint 0.10 Brings Custom Pipelines and Nomad Plugin Updates]]></title>
-        <id>https://www.hashicorp.com/blog/waypoint-0-10-brings-custom-pipelines-and-nomad-plugin-updates</id>
-        <link href="https://www.hashicorp.com/blog/waypoint-0-10-brings-custom-pipelines-and-nomad-plugin-updates"/>
-        <updated>2022-09-13T20:00:00.000Z</updated>
-        <summary type="html"><![CDATA[HashiCorp Waypoint 0.10 — now generally available — introduces the tech preview of custom pipelines and improvements to the Nomad integration.]]></summary>
-        <author>
-            <name>HashiCorp Blog</name>
         </author>
     </entry>
 </feed>

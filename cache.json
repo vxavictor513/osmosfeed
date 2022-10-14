@@ -6,6 +6,26 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2022/10/13/spring-batch-5-0-0-m8-is-out",
+          "author": null,
+          "description": "On behalf of the team and all contributors, I am pleased to announce that Spring Batch 5.0.0-M8 is now available from our milestone repository.\n\r\nIn this milestone, we introduced two main changes:\n\r\n\r\n  \nNew default execution context serialization format\n\r\n  \nSystemCommandTasklet enhancements\n\r\n\r\nThis blog post walks through these two major changes in details. For the complete list of changes,\nplease check the release notes.\nNew default execution context serialization format\n\r\nIn this milestone release, the DefaultExecutionContextSerializer was updated to serialize/deserialize the context to/from Base64.\n\r\nMoreover, the default ExecutionContextSerializer configured by @EnableBatchProcessing or DefaultBatchConfiguration was changed from JacksonExecutionContextStringSerializer to DefaultExecutionContextSerializer. The dependency to Jackson was made optional. In order to use the JacksonExecutionContextStringSerializer, jackson-core should be added to the classpath.\nSystemCommandTasklet enhancements\n\r\nThe SystemCommandTasklet has been revisited in this release and was changed as follows:\n\r\n\r\n  \n\r\n  \nA new strategy interface named CommandRunner was introduced in order to decouple the command execution from the tasklet execution. The default implementation is the JvmCommandRunner which uses the java.lang.Runtime#exec API to run system commands. This interface can be implemented to use any other API to run system commands.\n\r\n  \n\r\n  \nThe method that runs the command now accepts an array of Strings representing the command and its arguments. There is no need to tokenize the command or do any pre-processing anymore. This change makes the API more intuitive, and less prone to errors.\n\r\n\nFeedback\n\r\nI would like to thank all contributors who had a role in this release! As we continue\nour work on Spring Batch 5, we look forward to your feedback on Github, Twitter and StackOverflow.\n\r\n\r\nSpring Batch Home|Source on Github|Reference documentation",
+          "link": "https://spring.io/blog/2022/10/13/spring-batch-5-0-0-m8-is-out",
+          "publishedOn": "2022-10-13T08:00:00.000Z",
+          "wordCount": 772,
+          "title": "Spring Batch 5.0.0-M8 is out!",
+          "imageUrl": "https://avatars.githubusercontent.com/u/1210553?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2022/10/12/a-bootiful-podcast-google-mad-scientist-josh-suereth-on-observability-with-opentelemetry-building-better-build-tools-and-so-much-more",
+          "author": null,
+          "description": "Hi, Spring fans! In this installment Josh Long (@starbuxman) looks at the latest and greatest in Spring Boot 3 AOT, then talks to Google’s Josh Suereth (@jsuereth) about observability with OpenTelemetry, building better build tools, and so much more.",
+          "link": "https://spring.io/blog/2022/10/12/a-bootiful-podcast-google-mad-scientist-josh-suereth-on-observability-with-opentelemetry-building-better-build-tools-and-so-much-more",
+          "publishedOn": "2022-10-13T06:00:00.000Z",
+          "wordCount": 580,
+          "title": "A Bootiful Podcast: Google mad scientist Josh Suereth on Observability with OpenTelemetry, building better build tools, and so much more",
+          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
+        },
+        {
           "id": "https://spring.io/blog/2022/10/12/observability-with-spring-boot-3",
           "author": null,
           "description": "The Spring Observability Team has been working on adding observability support for Spring Applications for quite some time, and we are pleased to inform you that this feature will be generally available with Spring Framework 6 and Spring Boot 3!\n\r\n\r\n\r\nWhat is observability? In our understanding, it is \"how well you can understand the internals of your system by examining its outputs\". We believe that the interconnection between metrics, logging, and distributed tracing gives you the ability to reason about the state of your system in order to debug exceptions and latency in your applications. You can watch more about what we think observability is in this episode of Enlightning with Jonatan Ivanov.\n\r\n\r\n\r\nThe upcoming Spring Boot 3.0.0-RC1 release will contain numerous autoconfigurations fo…",
@@ -184,26 +204,6 @@
           "wordCount": 609,
           "title": "A Bootiful Podcast: Couchbase and Cloud legend Laurent Doguin",
           "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/09/22/spring-boot-2-7-4-available-now",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 2.7.4 has been released and is now available from Maven Central.\n\r\nThis release includes 48 bug fixes, documentation improvements, and dependency upgrades. Thanks to all those who have contributed with issue reports and pull requests.\nJava 19\n\r\nFollowing its GA release earlier this week, Java 19 is now supported.\nHow can you help?\n\r\nIf you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
-          "link": "https://spring.io/blog/2022/09/22/spring-boot-2-7-4-available-now",
-          "publishedOn": "2022-09-22T12:06:26.000Z",
-          "wordCount": 629,
-          "title": "Spring Boot 2.7.4 available now",
-          "imageUrl": "https://avatars.githubusercontent.com/u/914682?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/09/22/spring-boot-2-6-12-available-now",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 2.6.12 has been released and is now available from Maven Central.\n\r\nThis release includes 33 bug fixes, documentation improvements, and dependency upgrades. Thanks to all those who have contributed with issue reports and pull requests.\nJava 19\n\r\nFollowing its GA release earlier this week, Java 19 is now supported.\nHow can you help?\n\r\nIf you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
-          "link": "https://spring.io/blog/2022/09/22/spring-boot-2-6-12-available-now",
-          "publishedOn": "2022-09-22T09:58:00.000Z",
-          "wordCount": 629,
-          "title": "Spring Boot 2.6.12 available now",
-          "imageUrl": "https://avatars.githubusercontent.com/u/914682?v=4?s=200"
         }
       ]
     },
@@ -212,6 +212,26 @@
       "feedUrl": "https://www.hashicorp.com/blog/feed.xml",
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
+        {
+          "id": "https://www.hashicorp.com/blog/how-two-hashicorp-employees-marked-latinx-hispanic-heritage-month",
+          "author": null,
+          "description": "Karla De La Garza and Abraham Martinez, from HashiCorp’s Unidos Employee Resource Group, share their experiences in Mexico during Latinx & Hispanic Heritage Month.",
+          "link": "https://www.hashicorp.com/blog/how-two-hashicorp-employees-marked-latinx-hispanic-heritage-month",
+          "publishedOn": "2022-10-13T19:00:00.000Z",
+          "wordCount": 3521,
+          "title": "How Two HashiCorp Employees Marked Latinx & Hispanic Heritage Month",
+          "imageUrl": "https://www.datocms-assets.com/2885/1665678755-unidos-hispanic-heritage-eeg.png"
+        },
+        {
+          "id": "https://www.hashicorp.com/blog/vault-1-12",
+          "author": null,
+          "description": "The new HashiCorp Vault 1.12 focuses on improving core workflows and making key features production-ready.",
+          "link": "https://www.hashicorp.com/blog/vault-1-12",
+          "publishedOn": "2022-10-13T16:30:00.000Z",
+          "wordCount": 4604,
+          "title": "HashiCorp Vault 1.12 Adds New Secrets Engines, ADP Updates, and More",
+          "imageUrl": "https://www.datocms-assets.com/2885/1620082983-blog-library-product-vault-dark-graphics.jpg"
+        },
         {
           "id": "https://www.hashicorp.com/blog/cdk-for-terraform-0-13-significantly-improves-performance",
           "author": null,
@@ -268,7 +288,7 @@
           "description": "In addition to its availability on AWS, HCP Vault can now be deployed on Microsoft Azure infrastructure.",
           "link": "https://www.hashicorp.com/blog/hcp-vault-on-microsoft-azure-now-in-public-beta",
           "publishedOn": "2022-10-05T16:00:00.000Z",
-          "wordCount": 1339,
+          "wordCount": 1313,
           "title": "HCP Vault on Microsoft Azure Now in Public Beta",
           "imageUrl": "https://www.datocms-assets.com/2885/1664831430-blog-thumbnail-hcp_diagram_onblack_vault_azure.png"
         },
@@ -278,7 +298,7 @@
           "description": "HashiCorp Developer is your one-stop shop for interactive labs, sample code, videos, tutorials, and in-depth documentation.",
           "link": "https://www.hashicorp.com/blog/hashicorp-developer-your-new-experience-for-docs-and-tutorials",
           "publishedOn": "2022-10-05T16:00:00.000Z",
-          "wordCount": 1929,
+          "wordCount": 1927,
           "title": "HashiCorp Developer: Your New Experience for Docs and Tutorials",
           "imageUrl": "https://www.datocms-assets.com/2885/1664569797-dev-dot-home.png"
         },
@@ -318,7 +338,7 @@
           "description": "The HashiCorp Community team used a custom Dungeons & Dragons campaign as a team building exercise. Check out the highlights and then try it yourself.",
           "link": "https://www.hashicorp.com/blog/dungeons-dragons-for-team-building",
           "publishedOn": "2022-09-29T16:00:00.000Z",
-          "wordCount": 1920,
+          "wordCount": 1930,
           "title": "Dungeons & Dragons for Team Building",
           "imageUrl": "https://www.datocms-assets.com/2885/1664466398-dnd.png"
         },
@@ -371,16 +391,6 @@
           "wordCount": 2483,
           "title": "HashiCorp Tools Explained Using a Minecraft World",
           "imageUrl": "https://www.datocms-assets.com/2885/1663251427-2022-minecraft-world.jpg"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/waypoint-0-10-brings-custom-pipelines-and-nomad-plugin-updates",
-          "author": null,
-          "description": "HashiCorp Waypoint 0.10 — now generally available — introduces the tech preview of custom pipelines and improvements to the Nomad integration.",
-          "link": "https://www.hashicorp.com/blog/waypoint-0-10-brings-custom-pipelines-and-nomad-plugin-updates",
-          "publishedOn": "2022-09-13T20:00:00.000Z",
-          "wordCount": 7658,
-          "title": "Waypoint 0.10 Brings Custom Pipelines and Nomad Plugin Updates",
-          "imageUrl": "https://www.datocms-assets.com/2885/1620083907-blog-library-product-waypoint-dark-graphics.jpg"
         }
       ]
     },
@@ -390,12 +400,32 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
+          "id": "https://www.elastic.co/blog/the-art-of-the-possible-arming-us-veterans-with-knowledge",
+          "author": "Cami Lewis",
+          "description": "Elastic can help us understand the data that impacts our daily lives and guides our decisions. Learn how one Elastic employee transformed data into something that provides invaluable insight and answers common questions in the veteran community.",
+          "link": "https://www.elastic.co/blog/the-art-of-the-possible-arming-us-veterans-with-knowledge",
+          "publishedOn": "2022-10-13T00:00:00.000Z",
+          "wordCount": 8857,
+          "title": "The art of the possible: Arming U.S. veterans with knowledge",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt27b982477dd915e2/6297bbb5ae6f0e4156d191e7/meet-user-expectations-smiley-result-1680x980.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/the-art-of-the-possible-arming-us-veterans-with-knowledge",
+          "author": "Cami Lewis",
+          "description": ",\nElastic can be used to help us understand the data that impacts our daily lives and guides our decisions, and the possibilities for individual use cases are endless. Our community is full of success stories about innovative ways Elastic empowers our users to make meaning out of data — and Isra Sunhachawi, senior solutions architect at Elastic recently did just that. Using the Elastic stack, Isra developed interactive maps and dashboards to depict the journey of a veteran from pre-enlistment to retirement. His tool distills otherwise meaningless data into useful information to help service members make informed decisions about housing, healthcare, and more.\n,In 2022, Isra submitted his tool to the Academy Health DataJam Challenge and he won, successfully demonstrating the enormous potenti…",
+          "link": "https://www.elastic.co/blog/the-art-of-the-possible-arming-us-veterans-with-knowledge",
+          "publishedOn": "2022-10-13T00:00:00.000Z",
+          "wordCount": 8857,
+          "title": "The art of the possible: Arming U.S. veterans with knowledge",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt27b982477dd915e2/6297bbb5ae6f0e4156d191e7/meet-user-expectations-smiley-result-1680x980.png"
+        },
+        {
           "id": "https://www.elastic.co/blog/by-the-numbers-public-sector-organizations-quantify-the-benefits-of-elastic-solutions",
           "author": "Leanne Link",
           "description": "To help public sector organizations better understand how their peers are using Elastic and what results they’re seeing, we partnered with Socratic Technologies to manage and analyze a survey of our public sector and education customers.",
           "link": "https://www.elastic.co/blog/by-the-numbers-public-sector-organizations-quantify-the-benefits-of-elastic-solutions",
           "publishedOn": "2022-10-12T00:00:00.000Z",
-          "wordCount": 8372,
+          "wordCount": 8527,
           "title": "By the numbers: Public sector organizations quantify the benefits of Elastic solutions",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltf5b360e2c890f278/6345ca74a75f39138053b8e5/01-shuttle-launch.jpg"
         },
@@ -405,7 +435,7 @@
           "description": "Discover has been around for quite some time in Kibana. But recently, we've added a new document table, field statistics, and the ability to create threshold alert rules.",
           "link": "https://www.elastic.co/blog/the-evolution-of-discover-in-kibana",
           "publishedOn": "2022-10-12T00:00:00.000Z",
-          "wordCount": 8552,
+          "wordCount": 8707,
           "title": "The evolution of Discover in Kibana",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltb32fd2bb6a2cdb2e/62584638102a0b4e934e16fe/fao-1200x628-stack-drag-and-drop-white.jpg"
         },
@@ -415,7 +445,7 @@
           "description": "The digital transformation process in the automotive industry has already begun. With the current macroeconomic  headwinds, find out how automakers, OEMs, and suppliers can be successful in overcoming those speed bumps.",
           "link": "https://www.elastic.co/blog/the-automotive-landscape-is-transforming-how-can-industry-leaders-stay-ahead-of-the-curve",
           "publishedOn": "2022-10-12T00:00:00.000Z",
-          "wordCount": 8221,
+          "wordCount": 8376,
           "title": "The automotive landscape is transforming — how can industry leaders stay ahead of the curve?",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt07422fa410fa6515/6346fc69e62c4d1068b76844/libraries-edev-ops-1680x980.png"
         },
@@ -425,7 +455,7 @@
           "description": ",\nWhen analyzing solution providers, it’s easy to get stuck in lists of product features and benefits, and harder to quantify what the actual results will be in your own environment. In some industries, like public sector, decision makers need to justify investments that will be put toward specialized use cases that apply only to their field, such as defense or public safety.\n\nTo help public sector organizations better understand how their peers are using Elastic and what results they’re seeing, we partnered with Socratic Technologies to manage and analyze a survey of our public sector and education customers. We wanted to know how — and how much — Elastic is helping them meet their missions, so that other organizations can understand how to best meet theirs. Respondents answered questions…",
           "link": "https://www.elastic.co/blog/by-the-numbers-public-sector-organizations-quantify-the-benefits-of-elastic-solutions",
           "publishedOn": "2022-10-12T00:00:00.000Z",
-          "wordCount": 8372,
+          "wordCount": 8527,
           "title": "By the numbers: Public sector organizations quantify the benefits of Elastic solutions",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltf5b360e2c890f278/6345ca74a75f39138053b8e5/01-shuttle-launch.jpg"
         },
@@ -435,7 +465,7 @@
           "description": ",\nDiscover has been around for quite some time. Still, it is one of the most used parts of Kibana, allowing you to search and view the atoms of Elasticsearch: the indexed documents. In 2015, it was released as part of Kibana 4. Let’s have a look at the early days of data discovery:\nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt35ed3799b53db14f/6345c21b366c7610e0fbccc4/blog-elastic-evolution-1.png,blog-elastic-evolution-1.png,\nIn 5.6, the last significant change enabling users to view surrounding documents of a selected document was added (it was a separate plugin at that time). During 6.x and 7.x, we focused on removing technical debt, like moving from Angular 1 to React and migrating to Kibana’s new platform.\n\nNow in 8.x, we’ve been adding big changes one after another. W…",
           "link": "https://www.elastic.co/blog/the-evolution-of-discover-in-kibana",
           "publishedOn": "2022-10-12T00:00:00.000Z",
-          "wordCount": 8552,
+          "wordCount": 8707,
           "title": "The evolution of Discover in Kibana",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltb32fd2bb6a2cdb2e/62584638102a0b4e934e16fe/fao-1200x628-stack-drag-and-drop-white.jpg"
         },
@@ -445,7 +475,7 @@
           "description": ",\nThe automotive industry is on the cusp of a phase shift — thanks to changes in buyer behavior, mobility preferences, and technology advances in connectivity and AI. In fact, according to a Deloitte study,1 by 2035 revenues from “as-a-service” business models that leverage the economies of scale will grow by over 400%.\n\nThe digital transformation process has already begun. Leading car manufacturers have joined forces in various initiatives, such as the Mobility Open Blockchain Initiative (MOBI)2 and the MaaS Alliance,3 to simplify and protect financial operations, build transparency and agility in the supply chain, and design future-proof solutions that protect and accelerate the ability to achieve shared ownership and usage models at scale.\n\nWith the current macroeconomic conditions acti…",
           "link": "https://www.elastic.co/blog/the-automotive-landscape-is-transforming-how-can-industry-leaders-stay-ahead-of-the-curve",
           "publishedOn": "2022-10-12T00:00:00.000Z",
-          "wordCount": 8221,
+          "wordCount": 8376,
           "title": "The automotive landscape is transforming — how can industry leaders stay ahead of the curve?",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt07422fa410fa6515/6346fc69e62c4d1068b76844/libraries-edev-ops-1680x980.png"
         },
@@ -455,7 +485,7 @@
           "description": "We’re pleased to share that Elastic and Google Cloud are expanding and deepening our partnership to help organizations search, observe, and protect their data and workloads on Google Cloud.",
           "link": "https://www.elastic.co/blog/elastic-and-google-cloud-announce-expanded-and-deeper-partnership",
           "publishedOn": "2022-10-11T00:00:00.000Z",
-          "wordCount": 8317,
+          "wordCount": 8472,
           "title": "Elastic and Google Cloud announce expanded and deeper partnership",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt5eeb33aa9737b10d/634424bd2a8d0a11633dbadf/illustration-google-cloud-elastic-1680x980_(1).png"
         },
@@ -465,7 +495,7 @@
           "description": ",\nWe’re pleased to share that Elastic and Google Cloud are expanding and deepening our partnership to help organizations more easily search, observe, and protect their data and workloads. \n\nToday, we announce three new integrations we will be working on together: \n\nAn integrated search experience with BigQuery and BigLake, allowing users to employ Elasticsearch to drive insights from data that reside in data lakes on Google Cloud.\nNative integrations into a broader set of Google Cloud services for Elastic Observability and Elastic Security.\nAn integrated visualization experience for Looker to enable users to easily view Elastic analytical insights.\n\nOur joint investments will make it easier for customers to monitor and secure Google Cloud workloads; build advanced search capabilities bring…",
           "link": "https://www.elastic.co/blog/elastic-and-google-cloud-announce-expanded-and-deeper-partnership",
           "publishedOn": "2022-10-11T00:00:00.000Z",
-          "wordCount": 8317,
+          "wordCount": 8472,
           "title": "Elastic and Google Cloud announce expanded and deeper partnership",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt5eeb33aa9737b10d/634424bd2a8d0a11633dbadf/illustration-google-cloud-elastic-1680x980_(1).png"
         },
@@ -475,7 +505,7 @@
           "description": "See how to add a physical store locator, complete with maps, on your ecommerce storefront with Elastic Enterprise Search. This step-by-step post includes code samples and a code sandbox for you to try it out.",
           "link": "https://www.elastic.co/blog/how-to-add-a-store-locator-to-your-ecommerce-storefront-with-elastic",
           "publishedOn": "2022-10-10T15:00:00.000Z",
-          "wordCount": 10082,
+          "wordCount": 10237,
           "title": "How to add a store locator to your ecommerce storefront with Elastic",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltfa3672eea901e2f5/63443097366c7610e0fbc380/illustration-industries-retail-social-1680x980.png"
         },
@@ -485,7 +515,7 @@
           "description": ",\nOne thing that adds value to a business’s ecommerce presence is the ability for customers to easily find physical stores with an interactive map. Store locators can be built quite rapidly — all you need to place them on a map is geographic location in latitude and longitude.\n\n\nIn this post, I’ll outline the pieces needed to put together a proof-of-concept store locator that could later be added to an ecommerce website.\n\n\n[Related article: Building personalized ecommerce search experiences with Elastic]\nIndexing data and making it searchable\nIn this example, we’re going to make use of two datasets:\n\nA list of stores with their location\nA list of cities in the U.S. with their location \n\nBoth datasets are provided in our sample repository as JSON files.\n\n\nHere is an example of a store in JS…",
           "link": "https://www.elastic.co/blog/how-to-add-a-store-locator-to-your-ecommerce-storefront-with-elastic",
           "publishedOn": "2022-10-10T15:00:00.000Z",
-          "wordCount": 10082,
+          "wordCount": 10237,
           "title": "How to add a store locator to your ecommerce storefront with Elastic",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltfa3672eea901e2f5/63443097366c7610e0fbc380/illustration-industries-retail-social-1680x980.png"
         },
@@ -495,7 +525,7 @@
           "description": "World Mental Health Day is October 10th and is a time to raise awareness around prioritizing our mental health and continuing the conversation in the workplace.",
           "link": "https://www.elastic.co/blog/culture-world-mental-health-day-2021-supporting-elasticians-and-their-families-to-be-well",
           "publishedOn": "2022-10-10T06:30:00.000Z",
-          "wordCount": 7687,
+          "wordCount": 7842,
           "title": "World Mental Health Day 2022: Supporting Elasticians and their families to Be.Well",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt19897be70fe7c781/615f3733e29d690734fef4e0/big-World_Mental_Health_Day_blog.png"
         },
@@ -505,7 +535,7 @@
           "description": ",\nWorld Mental Health Day is on October 10, and Elastic remains committed to supporting Elasticians and their mental well-being through a range of support programs.\nAs a mom, wife, daughter, colleague and leader here at Elastic, I understand how we all play myriad roles outside of the one listed on our resume or LinkedIn profile. As I’ve struggled and have seen my friends, family, and colleagues struggle to show up for themselves and for each other, I’ve thought a great deal about how crucial it is to make yourself a priority. We can’t even begin to do our best work until we can bring our best self to all of the roles that make us who we are. \nThis week is a reminder for all of us to acknowledge the importance of prioritizing our mental health and continuing the conversation in the workpla…",
           "link": "https://www.elastic.co/blog/culture-world-mental-health-day-2021-supporting-elasticians-and-their-families-to-be-well",
           "publishedOn": "2022-10-10T06:30:00.000Z",
-          "wordCount": 7687,
+          "wordCount": 7842,
           "title": "World Mental Health Day 2022: Supporting Elasticians and their families to Be.Well",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt19897be70fe7c781/615f3733e29d690734fef4e0/big-World_Mental_Health_Day_blog.png"
         },
@@ -515,7 +545,7 @@
           "description": "This post serves as a guide on how to use Kibana's “Stack Management” feature-set to automate the movement of your data through hot, warm, cold and frozen tiers, without the need to do any coding or execute command-line actions.",
           "link": "https://www.elastic.co/blog/managing-data-automation-through-hot-warm-cold-and-frozen-tiers-no-coding-needed",
           "publishedOn": "2022-10-10T00:00:00.000Z",
-          "wordCount": 10417,
+          "wordCount": 10572,
           "title": "Managing data automation through hot, warm, cold, and frozen tiers — No coding needed!",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt308a61dfa6231c99/6297bb2d9687cd428c1fa2b3/library-branding-elastic-stack-midnight-1680x980-no-logo.png"
         },
@@ -525,7 +555,7 @@
           "description": "Elastic on Azure allows you to harness your data to better understand customers, refine operations, and develop trusted long-term relationships.",
           "link": "https://www.elastic.co/blog/maximizing-the-experience-of-elastic-cloud-on-kubernetes-with-azure-kubernetes-service",
           "publishedOn": "2022-10-10T00:00:00.000Z",
-          "wordCount": 7102,
+          "wordCount": 7257,
           "title": "Maximizing the experience of Elastic Cloud on Kubernetes with Azure Kubernetes Service",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltb01f1cea2ef0f12c/63449248666f14117a08b77f/illustration-microsoft-azure-elastic-1680x980.png"
         },
@@ -535,7 +565,7 @@
           "description": ",\nIf you are looking to do exactly what the title of this article suggests, look no further. This post intends to be a guide on how one can use the Kibana Dashboard’s “Stack Management” feature-set to automate the movement of your data through hot, warm, cold, and frozen tiers, without the need to do any coding or execute command-line actions.\nBefore we begin: Core concepts\nLet’s take a step back to understand some core concepts of how data sits and moves within your Elasticsearch cluster before we go into how you can automate its movement. This is so we will be familiar with certain terms and patterns later on when we go into the hands-on step-by-step process in practice.\n\nIf your organization stores data, you will definitely need to consider a technical concept called “High Availability”…",
           "link": "https://www.elastic.co/blog/managing-data-automation-through-hot-warm-cold-and-frozen-tiers-no-coding-needed",
           "publishedOn": "2022-10-10T00:00:00.000Z",
-          "wordCount": 10417,
+          "wordCount": 10572,
           "title": "Managing data automation through hot, warm, cold, and frozen tiers — No coding needed!",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt308a61dfa6231c99/6297bb2d9687cd428c1fa2b3/library-branding-elastic-stack-midnight-1680x980-no-logo.png"
         },
@@ -545,7 +575,7 @@
           "description": ",\nThe world’s most iconic retailers leverage Elastic to streamline product development, perform smoother application monitoring, and close essential security gaps. With a tailored set of tools, you can create unique customer journeys that drive revenue and maximize your omnichannel strategy. Elastic on Azure allows you to harness your data to better understand customers, refine operations, and develop trusted long-term relationships.\nElastic and Azure Kubernetes Apps Marketplace \nOur partnership with Microsoft is focused on helping you get more out of both your data and your infrastructure. By combining the power of search and a future-ready cloud, it’s easier than ever to innovate and adapt to turn possibilities into results. With Elastic and Microsoft Azure, you can search faster, keep m…",
           "link": "https://www.elastic.co/blog/maximizing-the-experience-of-elastic-cloud-on-kubernetes-with-azure-kubernetes-service",
           "publishedOn": "2022-10-10T00:00:00.000Z",
-          "wordCount": 7102,
+          "wordCount": 7257,
           "title": "Maximizing the experience of Elastic Cloud on Kubernetes with Azure Kubernetes Service",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltb01f1cea2ef0f12c/63449248666f14117a08b77f/illustration-microsoft-azure-elastic-1680x980.png"
         },
@@ -555,19 +585,9 @@
           "description": "We are excited to announce that Elastic Security has been honored with the 2022 CyberSecurity Breakthrough Award for Threat Intelligence Platform of the Year.",
           "link": "https://www.elastic.co/blog/elastic-wins-2022-cybersecurity-breakthrough-award-for-threat-intelligence-platform-of-the-year",
           "publishedOn": "2022-10-06T00:00:00.000Z",
-          "wordCount": 6732,
+          "wordCount": 6887,
           "title": "Elastic Wins 2022 CyberSecurity Breakthrough Award for Threat Intelligence Platform of the Year",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt20948cd013dc875e/633dc3e314e81b11862b149d/cybersecurity-breakthrough-award.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/stateless-your-new-state-of-find-with-elasticsearch",
-          "author": "Leaf Lin,Tim Brooks,Quin Hoxie",
-          "description": "Discover this future of stateless Elasticsearch. Learn how we’re investing in building a new fully cloud native architecture to push the boundaries of scale and speed.",
-          "link": "https://www.elastic.co/blog/stateless-your-new-state-of-find-with-elasticsearch",
-          "publishedOn": "2022-10-06T00:00:00.000Z",
-          "wordCount": 9741,
-          "title": "Stateless — your new state of find with Elasticsearch",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltd1b895c2415afc7e/6297bad13d4e745ed3ae45e2/enterprise-search-search-bar-pattern-dark-1680x980.png"
         },
         {
           "id": "https://www.elastic.co/blog/elastic-wins-2022-cybersecurity-breakthrough-award-for-threat-intelligence-platform-of-the-year",
@@ -575,19 +595,9 @@
           "description": ",\nWe are excited to announce that Elastic has been honored with the 2022 CyberSecurity Breakthrough Award for Threat Intelligence Platform of the Year, recognizing the cutting-edge threat intelligence capabilities of Elastic Security, which enable organizations to better understand current and emerging threats and respond more quickly to adversaries. \n\nCyberSecurity Breakthrough recognizes today’s best information security companies and products and is driven by an independent panel of experts who thoroughly review and evaluate each entry.\nStreamlined, actionable threat intelligence for all\nIt’s no secret that cyberattacks continue to evolve rapidly. To combat these ongoing threats, organizations cannot rely on technology alone. They must have a deeper understanding of today’s threat lands…",
           "link": "https://www.elastic.co/blog/elastic-wins-2022-cybersecurity-breakthrough-award-for-threat-intelligence-platform-of-the-year",
           "publishedOn": "2022-10-06T00:00:00.000Z",
-          "wordCount": 6732,
+          "wordCount": 6887,
           "title": "Elastic Wins 2022 CyberSecurity Breakthrough Award for Threat Intelligence Platform of the Year",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt20948cd013dc875e/633dc3e314e81b11862b149d/cybersecurity-breakthrough-award.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/stateless-your-new-state-of-find-with-elasticsearch",
-          "author": "Leaf Lin,Tim Brooks,Quin Hoxie",
-          "description": ",\nWhere we started\nThe first version of Elasticsearch was released in 2010 as a distributed scalable search engine allowing users to quickly search for and surface critical insights. Twelve years and over 65,000 commits later, Elasticsearch continues to provide users with battle-tested solutions to a wide variety of search problems. Thanks to the efforts of over 1,500 contributors, including hundreds of full-time Elastic employees, Elasticsearch has constantly evolved to meet the new challenges that arise in the field of search.\n\nEarly in Elasticsearch's life when data loss concerns were raised, the Elastic team underwent a multiyear effort to rewrite the cluster coordination system to guarantee that acknowledged data is stored safely. When it became clear that managing indices in large cl…",
-          "link": "https://www.elastic.co/blog/stateless-your-new-state-of-find-with-elasticsearch",
-          "publishedOn": "2022-10-06T00:00:00.000Z",
-          "wordCount": 9741,
-          "title": "Stateless — your new state of find with Elasticsearch",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltd1b895c2415afc7e/6297bad13d4e745ed3ae45e2/enterprise-search-search-bar-pattern-dark-1680x980.png"
         }
       ]
     },
@@ -659,7 +669,7 @@
           "description": "Exciting things are in store for Azure DevOps in the coming year! We’re planning deep investments in security as well as broad investment across the product. Read on for more information, and then be sure to check out our updated roadmap at https://aka.ms/AzureDevOpsRoadmap.\nThe post Integrate security into your developer workflow with GitHub Advanced Security for Azure DevOps appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/integrate-security-into-your-developer-workflow-with-github-advanced-security-for-azure-devops/",
           "publishedOn": "2022-10-12T12:59:49.000Z",
-          "wordCount": 6874,
+          "wordCount": 6964,
           "title": "Integrate security into your developer workflow with GitHub Advanced Security for Azure DevOps",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/10/AzDO-heart-Security.png"
         },
@@ -669,7 +679,7 @@
           "description": "We have resolved a known issue regarding publishing extensions to the Visual Studio Marketplace. If you’ve run into the error message: “Your ability to create global personal access tokens (PATs) is restricted by your organization.”, this is likely because your administrator has enabled a policy to restrict the creation of global personal access tokens (PATs).\nThe post Publishing extensions to Marketplace issue resolved appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/publishing-extensions-to-marketplace-issue-resolved/",
           "publishedOn": "2022-10-10T16:08:03.000Z",
-          "wordCount": 4136,
+          "wordCount": 3850,
           "title": "Publishing extensions to Marketplace issue resolved",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/10/start_4.png"
         },
@@ -689,7 +699,7 @@
           "description": "We spent most of sprint 210 focusing on accessibility issues and bug fixes. Here is a list of the items that have been resolved.\nIssue\nUnable to create a branch from card\nThe post New Boards Hub, Sprint 210 Update appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/new-boards-hub-sprint-210-update/",
           "publishedOn": "2022-09-15T17:35:54.000Z",
-          "wordCount": 4611,
+          "wordCount": 4320,
           "title": "New Boards Hub, Sprint 210 Update",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2018/08/vstsfeature.png"
         }
@@ -892,11 +902,11 @@
       "articles": [
         {
           "id": "https://camunda.com/?p=64638",
-          "author": "Christopher Zell",
+          "author": "Christophe Dame",
           "description": "Directory services are an effective way to manage an organization’s users, groups, printers, devices, and more. Most organizations accomplish this using Active Directory, Apache Directory, Oracle Internet Directory, or other similar tools. Recently I worked with a customer who wanted to see how he could secure the Camunda 8 Platform and process applications with such a directory. Their requirements consisted of: Allowing Directory users to access Camunda applications (Tasklist, Operate, Optimize) Accessing secured Tasklist & Operate APIs from our custom project Securing the custom project In this article, I’ll briefly explain the 3 easy steps taken to fulfill their requirements which include: Federate users from the Directory service into Keycloak Declare an application in Identity to access Camunda APIs Configure...\nThe post Securing Camunda 8 self-managed cluster and applications behind a directory appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/10/securing-camunda-8-self-managed-cluster-and-applications-behind-a-directory/",
           "publishedOn": "2022-10-12T13:01:00.000Z",
-          "wordCount": 3108,
+          "wordCount": 3110,
           "title": "Securing Camunda 8 self-managed cluster and applications behind a directory",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/10/Active_Directory_Camunda_Platform_8.png"
         },
@@ -906,7 +916,7 @@
           "description": "We’re extremely excited to announce the release of Camunda Platform 8.1.  In this post, we will go into the highlights of this release including Web Modeler, Connectors, Zeebe, Operate, Optimize, and more. Here’s the highlights of what’s included in this release: Easier Installation and maintenance for Camunda Platform Self-managed Hot backups for Self-Managed Token-Based authentication Modeler updates Process Templates FEEL Expression Editor Inline Annotations Changes to Camunda forms Connectors updates Workflow engine updates Operate updates Optimize updates Let’s get started! Easier installation and maintenance for Camunda Platform Self-Managed Improved Guides and Support for OpenShift and Amazon EKS (AWS) With this release, we are introducing official support for deploying and running Camunda Platform 8 Self-Managed on OpenShift and Amazon EKS (AWS)....\nThe post Camunda Platform 8.1 Released – What’s New appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/10/camunda-platform-8-1-released-whats-new/",
           "publishedOn": "2022-10-11T14:00:00.000Z",
-          "wordCount": 6291,
+          "wordCount": 6290,
           "title": "Camunda Platform 8.1 Released – What’s New",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/10/screenshot-camunda.com-2022.10.11-09_14_38.png"
         },
@@ -916,7 +926,7 @@
           "description": "We’re extremely excited to announce the release of Camunda Platform 7.18 Here are some of the highlights: Cockpit: Improved instance selection to avoid unintended batch operations Cockpit: Easier navigation of high batch operation volumes MDC logging features Camunda Forms in Tasklist: Populate select options via process data Exception error codes Filter and order tasks by last updated WebSphere Liberty New and retired supported environments You can download Camunda Platform or run it with Docker. For a complete list of the changes, please check out the release notes. For patched security vulnerabilities, see our security notices. If you want to dig deeper, check out the source code on GitHub. Cockpit: Improved instance selection to avoid unintended batch operations Previously, when performing...\nThe post Camunda Platform 7.18 Released – What’s New appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/10/camunda-platform-7-18-released-whats-new/",
           "publishedOn": "2022-10-11T13:15:00.000Z",
-          "wordCount": 3586,
+          "wordCount": 3585,
           "title": "Camunda Platform 7.18 Released – What’s New",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/10/Camunda_7.18.png"
         },
@@ -946,7 +956,7 @@
           "description": "Scaling process automation across an enterprise naturally includes a wide array of challenges. To counter these challenges, more and more organizations are evolving their organizational structures accordingly, often creating Centers of Excellence (CoE) and/or communities of practice (CoP). Please note that during this post we will use the term CoE, but keep in mind your organization might call this very differently. That said, in Camunda Platform 8, we included new functionalities that will help companies to scale process automation successfully.  This blog post discusses different aspects of scaling process automation, the role of CoEs, and how new Camunda 8 features support those initiatives.  What does scaling mean? Organizations that want to create a competitive edge through digital transformation (and frankly: which...\nThe post How Camunda 8 supports process automation at enterprise scale appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/09/how-camunda-8-supports-process-automation-at-enterprise-scale/",
           "publishedOn": "2022-09-29T19:30:00.000Z",
-          "wordCount": 3897,
+          "wordCount": 3898,
           "title": "How Camunda 8 supports process automation at enterprise scale",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/09/Camund_Blog_Process-Automation-at-Enterprise-Scale_1200x630-1.png"
         },
@@ -966,7 +976,7 @@
           "description": "During Summer Hackdays 2022, I worked on a project called “Zeebe chaos” (zbchaos), a fault injection command-line interface (CLI) tool. This allows us engineers to more easily run chaos experiments against Zeebe, build up confidence in the system’s capabilities, and discover potential weaknesses. Requirements To understand this blog post, it is useful to have a certain understanding of Kubernetes and Zeebe itself. Summer Hackdays: Hackdays are a regular event at Camunda, where people from different departments (engineering, consulting, DevRel, etc.) work together on new ideas, pet projects, and more. Check out previous Summer Hackdays here: Summer Hackdays 2020 Summer Hackdays 2019 Zeebe chaos CLI Working on the Zeebe project is not only about engineering a distributed system or a process...\nThe post Zbchaos — A new fault injection tool for Zeebe appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/09/zbchaos-a-new-fault-injection-tool-for-zeebe/",
           "publishedOn": "2022-09-27T18:00:00.000Z",
-          "wordCount": 3875,
+          "wordCount": 3876,
           "title": "Zbchaos — A new fault injection tool for Zeebe",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/09/Camunda_blog-ftd-image_2022_zbchaos_1200x630-1.png"
         },
@@ -976,7 +986,7 @@
           "description": "The API economy is taking off, propelled by an explosion of activity across API tools and platforms. According to a 2021 report from Postman, developers reported spending nearly half of their time working on APIs, and 94% of companies planned to increase their investments in APIs in 2022. API-first development is also gaining traction, with an impressive 67% of companies embracing this methodology. Companies like Twilio and Stripe emerged as early winners in this new economy, with the promise of many more to come.  APIs offer organizations an opportunity to tap into best-of-breed software components without having to spend precious time or development resources creating them from scratch. With that said, an often-overlooked aspect of the API economy is how...\nThe post Could Process Orchestration be the “Glue” for the API Economy? appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/09/process-orchestration-api-economy/",
           "publishedOn": "2022-09-23T14:00:00.000Z",
-          "wordCount": 2763,
+          "wordCount": 2762,
           "title": "Could Process Orchestration be the “Glue” for the API Economy?",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/09/Glue.png"
         },
@@ -986,7 +996,7 @@
           "description": "FEEL (Friendly Enough Expression Language) was created by the Object Management Group (OMG) “as part of the DMN standard”. Its goal is to be easy to understand, and at the same time, be full-featured enough to handle decision tables and literal expressions. When business and IT often work together on complex projects, writing expressions in a (relatively) accessible way reduces miscommunications and helps align teams. Camunda uses FEEL to map and transform business process data dynamically. For example, a loan application process pulls a credit score from an API call into a decision table. The decision table automates the next step of the process depending on the rules in the table. The data from the decision automation can then be...\nThe post FEEL more confident transforming data appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/09/feel-more-confident-transforming-data/",
           "publishedOn": "2022-09-22T14:00:00.000Z",
-          "wordCount": 2666,
+          "wordCount": 2667,
           "title": "FEEL more confident transforming data",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/09/Feel_Header-1024x589.gif"
         }
@@ -1020,12 +1030,32 @@
       "siteUrl": "https://github.blog/",
       "articles": [
         {
+          "id": "https://github.blog/2022-10-13-introducing-github-advanced-security-siem-integrations-for-security-professionals/",
+          "author": null,
+          "description": "Learn about using GitHub Advanced Security (GHAS) alerts with Security Information and Events Management (SIEM) tools. Check out the integrations, and read more about getting started.",
+          "link": "https://github.blog/2022-10-13-introducing-github-advanced-security-siem-integrations-for-security-professionals/",
+          "publishedOn": "2022-10-13T19:25:03.000Z",
+          "wordCount": 1724,
+          "title": "Introducing GitHub Advanced Security SIEM integrations for security professionals",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/08/Security-Product@2x.png"
+        },
+        {
+          "id": "https://github.blog/2022-10-13-the-story-of-scalar/",
+          "author": null,
+          "description": "New to Git v2.38, Scalar is a built-in repository manager for large repos. Here, we’ll tell the story of how Scalar went from a rough VFS for Git successor to a fully-integrated Git tool, with all of the engineering lessons learned in the process.",
+          "link": "https://github.blog/2022-10-13-the-story-of-scalar/",
+          "publishedOn": "2022-10-13T15:00:12.000Z",
+          "wordCount": 4944,
+          "title": "The Story of Scalar",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/10/scalar1.png?fit=1600%2C850"
+        },
+        {
           "id": "https://github.blog/2022-10-11-the-github-universe-2022-agenda-is-live/",
           "author": null,
           "description": "Explore 80+ content sessions delivered by over 120 different speakers, across two days and four content tracks, all designed to level up your skills.",
           "link": "https://github.blog/2022-10-11-the-github-universe-2022-agenda-is-live/",
           "publishedOn": "2022-10-11T19:39:36.000Z",
-          "wordCount": 1736,
+          "wordCount": 1750,
           "title": "The GitHub Universe 2022 agenda is live",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/10/universeheader1.png"
         },
@@ -1035,7 +1065,7 @@
           "description": "Developers can now view GitHub code scanning findings directly in VS Code and GitHub Codespaces. The new Microsoft SARIF Viewer extension gives developers direct access to their code scanning results, making remediating vulnerabilities easier than ever.",
           "link": "https://github.blog/2022-10-11-view-github-code-scanning-findings-directly-in-vs-code-and-github-codespaces/",
           "publishedOn": "2022-10-11T19:10:12.000Z",
-          "wordCount": 1370,
+          "wordCount": 1393,
           "title": "View GitHub code scanning findings directly in VS Code and GitHub Codespaces",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/08/Security-Product@2x.png"
         },
@@ -1045,7 +1075,7 @@
           "description": "Stay connected and up to date on your work with GitHub Projects on GitHub Mobile, now in public beta.",
           "link": "https://github.blog/2022-10-11-on-the-go-with-github-projects-on-github-mobile-public-beta/",
           "publishedOn": "2022-10-11T16:00:52.000Z",
-          "wordCount": 1239,
+          "wordCount": 1256,
           "title": "On the go with GitHub Projects on GitHub Mobile (public beta)",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/10/195123728-b9bc2e5b-4440-44ab-95c5-479aec8ec922.png"
         },
@@ -1065,7 +1095,7 @@
           "description": "Cross-platform apps built with the popular Flutter toolkit can now benefit from Dependabot alerts.",
           "link": "https://github.blog/2022-10-06-githubs-supply-chain-security-features-now-support-dart/",
           "publishedOn": "2022-10-06T18:00:44.000Z",
-          "wordCount": 1271,
+          "wordCount": 1286,
           "title": "GitHub’s supply chain security features now support Dart",
           "imageUrl": "https://github.blog/wp-content/uploads/2021/12/github-security_orange-banner.png"
         },
@@ -1085,7 +1115,7 @@
           "description": "Learn how you can seamlessly define trusted custom secret patterns to detect secrets unique to your organization with GitHub Advanced Security.",
           "link": "https://github.blog/2022-10-05-detect-secrets-in-your-code-more-accurately-with-dry-runs-for-custom-patterns/",
           "publishedOn": "2022-10-05T18:00:51.000Z",
-          "wordCount": 1450,
+          "wordCount": 1479,
           "title": "Detect secrets in your code more accurately with dry runs for custom patterns now available in GitHub Advanced Security",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/08/Security-Product@2x.png"
         },
@@ -1095,29 +1125,9 @@
           "description": "In September, we experienced one incident that resulted in degraded performance across GitHub services. We also experienced one incident resulting in significant impact to Codespaces. We are still investigating that incident and will include it in next month’s report. This report also sheds light into an incident that impacted Codespaces in August and an incident that impacted Actions in August.",
           "link": "https://github.blog/2022-10-05-github-availability-report-september-2022/",
           "publishedOn": "2022-10-05T16:00:34.000Z",
-          "wordCount": 1720,
+          "wordCount": 1746,
           "title": "GitHub Availability Report: September 2022",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/03/Engineering-Product@2x-1.png?fit=2400%2C1260"
-        },
-        {
-          "id": "https://github.blog/2022-10-05-working-on-a-creative-project-unleash-your-originality-and-start-to-tinker-with-the-aspiring-creatives-experience/",
-          "author": null,
-          "description": "Develop your design and collaboration skills to get your clever intentions off the ground.",
-          "link": "https://github.blog/2022-10-05-working-on-a-creative-project-unleash-your-originality-and-start-to-tinker-with-the-aspiring-creatives-experience/",
-          "publishedOn": "2022-10-05T15:00:22.000Z",
-          "wordCount": 1020,
-          "title": "Working on a creative project? Unleash your originality and start to tinker with the Aspiring Creatives Experience",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/10/aspiringcreatives-header.png"
-        },
-        {
-          "id": "https://github.blog/2022-10-05-two-ways-you-can-experience-github-universe/",
-          "author": null,
-          "description": "GitHub Universe is back and more robust than ever, with two great ways to engage with everything this global developer event has to offer.",
-          "link": "https://github.blog/2022-10-05-two-ways-you-can-experience-github-universe/",
-          "publishedOn": "2022-10-05T13:01:44.000Z",
-          "wordCount": 1787,
-          "title": "Two ways you can experience GitHub Universe",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/08/Universe-Blog-1-Header.jpg"
         }
       ]
     },
@@ -1232,16 +1242,6 @@
           "wordCount": 3563,
           "title": "Blog: Kubernetes 1.25: Two Features for Apps Rollouts Graduate to Stable",
           "imageUrl": null
-        },
-        {
-          "id": "https://kubernetes.io/blog/2022/09/14/pod-has-network-condition/",
-          "author": null,
-          "description": "Author:\nDeep Debroy (Apple)\nKubernetes 1.25 introduces Alpha support for a new kubelet-managed pod condition\nin the status field of a pod: PodHasNetwork. The kubelet, for a worker node,\nwill use the PodHasNetwork condition to accurately surface the initialization\nstate of a pod from the perspective of pod sandbox creation and network\nconfiguration by a container runtime (typically in coordination with CNI\nplugins). The kubelet starts to pull container images and start individual\ncontainers (including init containers) after the status of the PodHasNetwork\ncondition is set to \"True\". Metrics collection services that report latency of\npod initialization from a cluster infrastructural perspective (i.e. agnostic of\nper container characteristics like image size or payload) can utilize the\nPodHas…",
-          "link": "https://kubernetes.io/blog/2022/09/14/pod-has-network-condition/",
-          "publishedOn": "2022-09-14T00:00:00.000Z",
-          "wordCount": 3729,
-          "title": "Blog: Kubernetes 1.25: PodHasNetwork Condition for Pods",
-          "imageUrl": null
         }
       ]
     },
@@ -1256,7 +1256,7 @@
           "description": "A conversation between Travis Brooks, Netflix Product Manager for Experimentation Platform, and George Khachatryan, OfferFit CEO",
           "link": "https://netflixtechblog.com/how-product-teams-can-build-empathy-through-experimentation-6253603880a6?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-10-12T20:56:33.000Z",
-          "wordCount": 4638,
+          "wordCount": 4525,
           "title": "How Product Teams Can Build Empathy Through Experimentation",
           "imageUrl": "https://miro.medium.com/max/1200/1*tdD6kCUukBXG91LAAYr-zw.png"
         },
@@ -1266,7 +1266,7 @@
           "description": "by Kostas Christidis",
           "link": "https://netflixtechblog.com/timestone-netflixs-high-throughput-low-latency-priority-queueing-system-with-built-in-support-1abf249ba95f?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-09-28T15:40:35.000Z",
-          "wordCount": 5437,
+          "wordCount": 5384,
           "title": "Timestone: Netflix’s High-Throughput, Low-Latency Priority Queueing System with Built-in Support…",
           "imageUrl": "https://miro.medium.com/focal/1200/632/46/46/1*JvNLSZmWCDB1WjDDUamU_g.png"
         }
@@ -1366,16 +1366,6 @@
           "wordCount": 8092,
           "title": "PaLI: Scaling Language-Image Learning in 100+ Languages",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
-        },
-        {
-          "id": "http://ai.googleblog.com/2022/09/lolnerf-learn-from-one-look.html",
-          "author": null,
-          "description": "Posted by Daniel Rebain, Student Researcher, and Mark Matthews, Senior Software Engineer, Google Research, Perception Team \nAn important aspect of human vision is our ability to comprehend 3D shape from the 2D images we observe. Achieving this kind of understanding with computer vision systems has been a fundamental challenge in the field. Many successful approaches rely on multi-view data, where two or more images of the same scene are available from different perspectives, which makes it much easier to infer the 3D shape of objects in the images. \nThere are, however, many situations where it would be useful to know 3D structure from a single image, but this problem is generally difficult or impossible to solve. For example, it isn’t necessarily possible to tell the difference between an …",
-          "link": "http://ai.googleblog.com/2022/09/lolnerf-learn-from-one-look.html",
-          "publishedOn": "2022-09-13T21:18:00.000Z",
-          "wordCount": 6738,
-          "title": "LOLNeRF: Learn from One Look",
-          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         }
       ]
     },
@@ -1385,12 +1375,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=43984",
+          "author": "Seth Godin",
+          "description": "Without a doubt, the world has become more connected, noisier and more complex. But along the way, we’re still applying our instincts from a century ago, from a planet of villages and different expectations. Rhetorical questions worth considering as we think about what’s normal. Where does here end and there begin? Is there a line […]",
+          "link": "https://feeds.feedblitz.com/~/715452174/0/sethsblog~The-small-world-questions/",
+          "publishedOn": "2022-10-13T08:22:00.000Z",
+          "wordCount": 1140,
+          "title": "The small world questions",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806134-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=43932",
           "author": "Seth Godin",
           "description": "Big companies act like big companies. We don’t take them seriously when they say they care, because there is no “they.” When they send a holiday card or an email, we don’t really think it was from a person we could connect with. Individuals act like individuals. When they write us a note or show […]",
           "link": "https://feeds.feedblitz.com/~/715344454/0/sethsblog~The-uncanny-valley-of-scale/",
           "publishedOn": "2022-10-12T08:04:00.000Z",
-          "wordCount": 1179,
+          "wordCount": 1180,
           "title": "The uncanny valley of scale",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806132-1.jpg"
         },
@@ -1473,16 +1473,6 @@
           "wordCount": 1082,
           "title": "Front of house/back of house",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061315.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=43913",
-          "author": "Seth Godin",
-          "description": "This common question no longer means anything. Every TV show is on. All the time. Our record collection streams every record ever recorded. And our readers can find and display just about any book we can name. We haven’t thought about the impacts of this abundance nearly as much as it deserves. Live matters less, […]",
-          "link": "https://feeds.feedblitz.com/~/714183706/0/sethsblog~Whats-on-tonight/",
-          "publishedOn": "2022-10-03T08:24:00.000Z",
-          "wordCount": 1083,
-          "title": "“What’s on tonight?”",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061314.jpg"
         }
       ]
     },
@@ -1597,7 +1587,7 @@
           "description": "WebStorm 2022.2.3, the third bug-fix update for WebStorm 2022.2, is now available! You can update to v2022.2.3 by using the Toolbox App, installing it right from the IDE, or downloading it from our website. Here are some of the most notable fixes in v2022.2.3: We’ve fixed the issue that was causing WebStorm to flicker after […]",
           "link": "https://blog.jetbrains.com/webstorm/2022/10/webstorm-2022-2-3/",
           "publishedOn": "2022-10-10T14:53:49.000Z",
-          "wordCount": 1612,
+          "wordCount": 1614,
           "title": "WebStorm 2022.2.3 Is Now Available",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/10/WS-2022-2-3-social.png"
         },

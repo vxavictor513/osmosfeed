@@ -6,6 +6,16 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2022/10/15/learn-more-about-spring-framework-6-and-spring-boot-3-in-these-two-great-talks-from-devoxx-2022",
+          "author": null,
+          "description": "Hi, Spring fans! I was just at Devoxx in Belgium, where hundreds of experts from across the Java ecosystem converged for the first time since 2019 to deliver their biggest and best. \n\r\nI could do a proper trip report, but I really just came here to point you to two talks from two of my amazing teammates, Stéphane Nicoll (@snicoll) and Brian Clozel (@bclozel), who have been very hard at work on both Spring Framework 6 and Spring Boot 3, both of which will land by the end of November, 2022. These are brand new generations of the framework, implying huge new paradigms and new opportunities for developers. \n\r\nThis first is a broader, whirlwind tour of the new features in Spring Framework 6 (which bubble up into Spring Boot 3).\n\r\n\r\nThis second one introduces the new ahead-of-time (AOT) support in Spring Framework 6 and Spring Boot 3, which makes it trivial to build GraalVM native images.\n\r\n\n\r\nNB: please ignore the metadata for the YouTube videos. Both talks feature both speakers, and there is no mention whatsoever of React and JavaScript and the like. I think that was a metadata issue with the publication of the videos on YouTube, which will hopefully be resolved. \n\r\nEnjoy!",
+          "link": "https://spring.io/blog/2022/10/15/learn-more-about-spring-framework-6-and-spring-boot-3-in-these-two-great-talks-from-devoxx-2022",
+          "publishedOn": "2022-10-15T07:00:00.000Z",
+          "wordCount": 741,
+          "title": "Learn more about Spring Framework 6 and Spring Boot 3 in these two great talks from Devoxx 2022",
+          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
+        },
+        {
           "id": "https://spring.io/blog/2022/10/13/spring-batch-5-0-0-m8-is-out",
           "author": null,
           "description": "On behalf of the team and all contributors, I am pleased to announce that Spring Batch 5.0.0-M8 is now available from our milestone repository.\n\r\nIn this milestone, we introduced two main changes:\n\r\n\r\n  \nNew default execution context serialization format\n\r\n  \nSystemCommandTasklet enhancements\n\r\n\r\nThis blog post walks through these two major changes in details. For the complete list of changes,\nplease check the release notes.\nNew default execution context serialization format\n\r\nIn this milestone release, the DefaultExecutionContextSerializer was updated to serialize/deserialize the context to/from Base64.\n\r\nMoreover, the default ExecutionContextSerializer configured by @EnableBatchProcessing or DefaultBatchConfiguration was changed from JacksonExecutionContextStringSerializer to DefaultExecutionContextSerializer. The dependency to Jackson was made optional. In order to use the JacksonExecutionContextStringSerializer, jackson-core should be added to the classpath.\nSystemCommandTasklet enhancements\n\r\nThe SystemCommandTasklet has been revisited in this release and was changed as follows:\n\r\n\r\n  \n\r\n  \nA new strategy interface named CommandRunner was introduced in order to decouple the command execution from the tasklet execution. The default implementation is the JvmCommandRunner which uses the java.lang.Runtime#exec API to run system commands. This interface can be implemented to use any other API to run system commands.\n\r\n  \n\r\n  \nThe method that runs the command now accepts an array of Strings representing the command and its arguments. There is no need to tokenize the command or do any pre-processing anymore. This change makes the API more intuitive, and less prone to errors.\n\r\n\nFeedback\n\r\nI would like to thank all contributors who had a role in this release! As we continue\nour work on Spring Batch 5, we look forward to your feedback on Github, Twitter and StackOverflow.\n\r\n\r\nSpring Batch Home|Source on Github|Reference documentation",
@@ -194,16 +204,6 @@
           "wordCount": 646,
           "title": "Spring Boot 3.0.0-M5 available now",
           "imageUrl": "https://avatars.githubusercontent.com/u/60661?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/09/22/a-bootiful-podcast-couchbase-and-cloud-legend-laurent-doguin",
-          "author": null,
-          "description": "Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks to his friend, fellow Java Champion, and director of developer relations and strategy at Couchbase, Laurent Doguin (@ldoguin)\n\r\n\r\nSpringOne 2022 is almost here! This is our first in-person event since the pandemic and it’s when we release Spring Framework 6 and Spring Boot 3, the next generation of Spring and Spring Boot respectively. It’s running 6-8 December in my sunny San Francisco, CA! Register now at SpringOne.io and use the code S1VM22_Advocate_200 to get $200 off the current registration price.",
-          "link": "https://spring.io/blog/2022/09/22/a-bootiful-podcast-couchbase-and-cloud-legend-laurent-doguin",
-          "publishedOn": "2022-09-22T18:00:00.000Z",
-          "wordCount": 609,
-          "title": "A Bootiful Podcast: Couchbase and Cloud legend Laurent Doguin",
-          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
         }
       ]
     },
@@ -381,16 +381,6 @@
           "wordCount": 2975,
           "title": "How Drift Detection Helps Maintain a Secure Infrastructure",
           "imageUrl": "https://www.datocms-assets.com/2885/1599960706-blog-library-abstract-00006.jpg"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/hashicorp-tools-explained-using-a-minecraft-world",
-          "author": null,
-          "description": "Visit our Minecraft world and learn how HashiCorp Vault, Consul, Nomad, and Boundary all work through fun analogies. Join us at HashiConf Global 2022 — in Los Angeles or online Oct. 4-6.",
-          "link": "https://www.hashicorp.com/blog/hashicorp-tools-explained-using-a-minecraft-world",
-          "publishedOn": "2022-09-15T16:00:00.000Z",
-          "wordCount": 2483,
-          "title": "HashiCorp Tools Explained Using a Minecraft World",
-          "imageUrl": "https://www.datocms-assets.com/2885/1663251427-2022-minecraft-world.jpg"
         }
       ]
     },
@@ -669,7 +659,7 @@
           "description": "Exciting things are in store for Azure DevOps in the coming year! We’re planning deep investments in security as well as broad investment across the product. Read on for more information, and then be sure to check out our updated roadmap at https://aka.ms/AzureDevOpsRoadmap.\nThe post Integrate security into your developer workflow with GitHub Advanced Security for Azure DevOps appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/integrate-security-into-your-developer-workflow-with-github-advanced-security-for-azure-devops/",
           "publishedOn": "2022-10-12T12:59:49.000Z",
-          "wordCount": 6714,
+          "wordCount": 7005,
           "title": "Integrate security into your developer workflow with GitHub Advanced Security for Azure DevOps",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/10/AzDO-heart-Security.png"
         },
@@ -692,16 +682,6 @@
           "wordCount": 4867,
           "title": "New Boards Hub, Sprint 211 Update",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/10/sketch-3.png"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=65737",
-          "author": "Dan Hellem",
-          "description": "We spent most of sprint 210 focusing on accessibility issues and bug fixes. Here is a list of the items that have been resolved.\nIssue\nUnable to create a branch from card\nThe post New Boards Hub, Sprint 210 Update appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/new-boards-hub-sprint-210-update/",
-          "publishedOn": "2022-09-15T17:35:54.000Z",
-          "wordCount": 4320,
-          "title": "New Boards Hub, Sprint 210 Update",
-          "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2018/08/vstsfeature.png"
         }
       ]
     },
@@ -956,7 +936,7 @@
           "description": "Scaling process automation across an enterprise naturally includes a wide array of challenges. To counter these challenges, more and more organizations are evolving their organizational structures accordingly, often creating Centers of Excellence (CoE) and/or communities of practice (CoP). Please note that during this post we will use the term CoE, but keep in mind your organization might call this very differently. That said, in Camunda Platform 8, we included new functionalities that will help companies to scale process automation successfully.  This blog post discusses different aspects of scaling process automation, the role of CoEs, and how new Camunda 8 features support those initiatives.  What does scaling mean? Organizations that want to create a competitive edge through digital transformation (and frankly: which...\nThe post How Camunda 8 supports process automation at enterprise scale appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/09/how-camunda-8-supports-process-automation-at-enterprise-scale/",
           "publishedOn": "2022-09-29T19:30:00.000Z",
-          "wordCount": 3897,
+          "wordCount": 3898,
           "title": "How Camunda 8 supports process automation at enterprise scale",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/09/Camund_Blog_Process-Automation-at-Enterprise-Scale_1200x630-1.png"
         },
@@ -976,7 +956,7 @@
           "description": "During Summer Hackdays 2022, I worked on a project called “Zeebe chaos” (zbchaos), a fault injection command-line interface (CLI) tool. This allows us engineers to more easily run chaos experiments against Zeebe, build up confidence in the system’s capabilities, and discover potential weaknesses. Requirements To understand this blog post, it is useful to have a certain understanding of Kubernetes and Zeebe itself. Summer Hackdays: Hackdays are a regular event at Camunda, where people from different departments (engineering, consulting, DevRel, etc.) work together on new ideas, pet projects, and more. Check out previous Summer Hackdays here: Summer Hackdays 2020 Summer Hackdays 2019 Zeebe chaos CLI Working on the Zeebe project is not only about engineering a distributed system or a process...\nThe post Zbchaos — A new fault injection tool for Zeebe appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/09/zbchaos-a-new-fault-injection-tool-for-zeebe/",
           "publishedOn": "2022-09-27T18:00:00.000Z",
-          "wordCount": 3875,
+          "wordCount": 3876,
           "title": "Zbchaos — A new fault injection tool for Zeebe",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/09/Camunda_blog-ftd-image_2022_zbchaos_1200x630-1.png"
         },
@@ -1236,7 +1216,7 @@
           "description": "A conversation between Travis Brooks, Netflix Product Manager for Experimentation Platform, and George Khachatryan, OfferFit CEO",
           "link": "https://netflixtechblog.com/how-product-teams-can-build-empathy-through-experimentation-6253603880a6?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-10-12T20:56:33.000Z",
-          "wordCount": 4608,
+          "wordCount": 4595,
           "title": "How Product Teams Can Build Empathy Through Experimentation",
           "imageUrl": "https://miro.medium.com/max/1200/1*tdD6kCUukBXG91LAAYr-zw.png"
         },
@@ -1246,7 +1226,7 @@
           "description": "by Kostas Christidis",
           "link": "https://netflixtechblog.com/timestone-netflixs-high-throughput-low-latency-priority-queueing-system-with-built-in-support-1abf249ba95f?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-09-28T15:40:35.000Z",
-          "wordCount": 5464,
+          "wordCount": 5480,
           "title": "Timestone: Netflix’s High-Throughput, Low-Latency Priority Queueing System with Built-in Support…",
           "imageUrl": "https://miro.medium.com/focal/1200/632/46/46/1*JvNLSZmWCDB1WjDDUamU_g.png"
         }
@@ -1257,6 +1237,26 @@
       "feedUrl": "http://feeds.feedburner.com/blogspot/gJZg",
       "siteUrl": "http://ai.googleblog.com/",
       "articles": [
+        {
+          "id": "http://ai.googleblog.com/2022/10/ul2-20b-open-source-unified-language.html",
+          "author": null,
+          "description": "Posted by Yi Tay and Mostafa Dehghani, Research Scientists, Google Research, Brain Team\nBuilding models that understand and generate natural language well is one the grand goals of machine learning (ML) research and has a direct impact on building smart systems for everyday applications. Improving the quality of language models is a key target for researchers to make progress toward such a goal.   \nMost common paradigms to build and train language models use either autoregressive decoder-only architectures (e.g., PaLM or GPT-3), where the model is trained to predict the next word for a given prefix phrase, or span corruption-based encoder-decoder architectures (e.g., T5, ST-MoE), where the training objective is to recover the subset of words masked out of the input. On the one hand, T5-lik…",
+          "link": "http://ai.googleblog.com/2022/10/ul2-20b-open-source-unified-language.html",
+          "publishedOn": "2022-10-14T18:47:00.003Z",
+          "wordCount": 8058,
+          "title": "UL2 20B: An Open Source Unified Language Learner",
+          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
+        },
+        {
+          "id": "http://ai.googleblog.com/2022/10/crossmodal-3600-multilingual-reference.html",
+          "author": null,
+          "description": "Posted by Ashish Thapliyal, Software Engineer, and Jordi Pont-Tuset, Research Scientist, Google Research\nImage captioning is the machine learning task of automatically generating a fluent natural language description for a given image. This task is important for improving accessibility for visually impaired users and is a core task in multimodal research encompassing both vision and language modeling.  \n However, datasets for image captioning are primarily available in English. Beyond that, there are only a few datasets covering a limited number of languages that represent just a small fraction of the world’s population. Further, these datasets feature images that severely under-represent the richness and diversity of cultures from across the globe. These aspects have hindered research on …",
+          "link": "http://ai.googleblog.com/2022/10/crossmodal-3600-multilingual-reference.html",
+          "publishedOn": "2022-10-13T16:53:00.003Z",
+          "wordCount": 8839,
+          "title": "Crossmodal-3600 — Multilingual Reference Captions for Geographically Diverse Images",
+          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
+        },
         {
           "id": "http://ai.googleblog.com/2022/10/audiolm-language-modeling-approach-to.html",
           "author": null,
@@ -1272,7 +1272,7 @@
           "author": null,
           "description": "Posted by Fitsum Reda and Janne Kontkanen, Google Research \nFrame interpolation is the process of synthesizing in-between images from a given set of images. The technique is often used for temporal up-sampling to increase the refresh rate of videos or to create slow motion effects. Nowadays, with digital cameras and smartphones, we often take several photos within a few seconds to capture the best picture. Interpolating between these “near-duplicate” photos can lead to engaging videos that reveal scene motion, often delivering an even more pleasing sense of the moment than the original photos.  \n  \nFrame interpolation between consecutive video frames, which often have small motion, has been studied extensively. Unlike videos, however, the temporal spacing between near-duplicate photos can …",
           "link": "http://ai.googleblog.com/2022/10/large-motion-frame-interpolation.html",
-          "publishedOn": "2022-10-04T18:43:00.002Z",
+          "publishedOn": "2022-10-04T18:43:00.003Z",
           "wordCount": 7573,
           "title": "Large Motion Frame Interpolation",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
@@ -1336,16 +1336,6 @@
           "wordCount": 7904,
           "title": "Robust Online Allocation with Dual Mirror Descent",
           "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
-        },
-        {
-          "id": "http://ai.googleblog.com/2022/09/pali-scaling-language-image-learning-in.html",
-          "author": null,
-          "description": "Posted by Xi Chen and Xiao Wang, Software Engineers, Google Research \nAdvanced language models (e.g., GPT, GLaM, PaLM and T5) have demonstrated diverse capabilities and achieved impressive results across tasks and languages by scaling up their number of parameters. Vision-language (VL) models can benefit from similar scaling to address many tasks, such as image captioning, visual question answering (VQA), object recognition, and in-context optical-character-recognition (OCR). Increasing the success rates for these practical tasks is important for everyday interactions and applications. Furthermore, for a truly universal system, vision-language models should be able to operate in many languages, not just one. \nIn “PaLI: A Jointly-Scaled Multilingual Language-Image Model”, we introduce a uni…",
-          "link": "http://ai.googleblog.com/2022/09/pali-scaling-language-image-learning-in.html",
-          "publishedOn": "2022-09-15T19:16:00.003Z",
-          "wordCount": 8092,
-          "title": "PaLI: Scaling Language-Image Learning in 100+ Languages",
-          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
         }
       ]
     },
@@ -1355,12 +1345,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=42252",
+          "author": "Seth Godin",
+          "description": "When abundance showed up, first in manufactured goods, then in information, it all seemed like a simple win. More of what we want, thanks. But of course, more of too many things is too much. We are leaving the age of information and entering the age of choice. Not just choosing what we’ll consume, but […]",
+          "link": "https://feeds.feedblitz.com/~/715677944/0/sethsblog~We-forgot-to-choose/",
+          "publishedOn": "2022-10-15T08:34:00.000Z",
+          "wordCount": 1076,
+          "title": "We forgot to choose",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061313.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=43976",
           "author": "Seth Godin",
           "description": "That’s what it said on the side of the tractor-trailer on the highway. Since 1924, they’re almost 100 years old. But it’s unlikely that it’s everyone’s favorite. Being everyone’s favorite is such an attractive goal, and almost impossible to achieve. Ask someone about their favorite pie and they’ll talk about the one they ate as […]",
           "link": "https://feeds.feedblitz.com/~/715566360/0/sethsblog~Americas-favorite-pie/",
           "publishedOn": "2022-10-14T08:06:00.000Z",
-          "wordCount": 1194,
+          "wordCount": 1195,
           "title": "“America’s favorite pie”",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg"
         },
@@ -1443,16 +1443,6 @@
           "wordCount": 1129,
           "title": "For the upgrade",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061310-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=39824",
-          "author": "Seth Godin",
-          "description": "If, every time there’s a dish in the sink, you load and run the dishwasher and scrub the entire kitchen, you’re never going to get anything else done. On the other hand, if you wait until the sink is overflowing and the kitchen is filthy before you work on it, you’re going to spend a […]",
-          "link": "https://feeds.feedblitz.com/~/714475796/0/sethsblog~Steady-state-and-the-trigger-for-change/",
-          "publishedOn": "2022-10-05T09:42:00.000Z",
-          "wordCount": 1112,
-          "title": "Steady state and the trigger for change",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061311.jpg"
         }
       ]
     },
@@ -1461,6 +1451,46 @@
       "feedUrl": "https://blog.jetbrains.com/feed/",
       "siteUrl": "https://blog.jetbrains.com",
       "articles": [
+        {
+          "id": "https://blog.jetbrains.com/?post_type=appcode&p=287314",
+          "author": "Anastasia Kazakova",
+          "description": "Hi everyone, A new AppCode 2022.3 EAP build (223.6646.113) is available for download. Builds are available from our website and via the Toolbox App. You can also update from the 2022.3 EAP1 build via patch. DOWNLOAD APPCODE EAP New solution for synchronizing settings Synchronizing settings is essential when you use AppCode or other IntelliJ-based IDEs […]",
+          "link": "https://blog.jetbrains.com/appcode/2022/10/appcode-2022-3-eap-new-settings-sync-solution/",
+          "publishedOn": "2022-10-15T00:40:50.000Z",
+          "wordCount": 2024,
+          "title": "AppCode 2022.3 EAP: New Settings Sync Solution",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/09/Blog_Social_share_image_1280x720_AppCode-2x.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=go&p=287057",
+          "author": "Sergey Kozlovskiy",
+          "description": "The third build of our current Early Access Program is out!  You can get the EAP build via the Toolbox App, download it from our website, use a snap package (for Ubuntu), or from inside GoLand, select Check IDE updates for Early Access Program in Preferences / Settings | Appearance & Behavior | System Settings […]",
+          "link": "https://blog.jetbrains.com/go/2022/10/14/quick-fix-for-invalid-recursive-type-new-settings-synchronization-solution-and-improvements-for-databases-in-goland-eap-2022-3-3/",
+          "publishedOn": "2022-10-14T14:45:39.000Z",
+          "wordCount": 2551,
+          "title": "Quick-fix for Invalid Recursive Type, New Settings Synchronization Solution, and Improvements for Databases in GoLand EAP 2022.3 #3",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/09/Blog_Social_share_image_1280x720_GoLand-2x.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=clion&p=287260",
+          "author": "Anastasia Kazakova",
+          "description": "A new CLion 2022.3 EAP build is available! Download build 223.6646.99 from our website via the Toolbox App or as a snap package (if you are using Ubuntu). If you are on macOS, there is a separate build for Apple Silicon (M1 chip). Update via patch if you are using EAP1 or EAP2 builds. DOWNLOAD […]",
+          "link": "https://blog.jetbrains.com/clion/2022/10/clion-2022-3-eap-new-settings-sync-solution-linker-scripts-azure-rtos/",
+          "publishedOn": "2022-10-14T14:37:49.000Z",
+          "wordCount": 2281,
+          "title": "CLion 2022.3 EAP: New Settings Sync Solution, Linker Scripts, Azure RTOS",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/09/Social_share_image_1280x720_CLion-2x.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=idea&p=284899",
+          "author": "Maria Kosukhina",
+          "description": "IntelliJ IDEA 2022.3 EAP 3 is now available! In this new EAP build, we introduce a reworked Settings Sync solution to help seamlessly synchronize your personal IDE settings, a range of new inspections and other improvements for Java, and experimental Maven import functionality that utilizes the new IntelliJ IDEA Workspace Model API. You can get […]",
+          "link": "https://blog.jetbrains.com/idea/2022/10/intellij-idea-2022-3-eap-3/",
+          "publishedOn": "2022-10-14T12:54:41.000Z",
+          "wordCount": 3070,
+          "title": "IntelliJ IDEA 2022.3 EAP 3: New Settings Sync Solution, Improvements for Java, and More",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/02/intellij-idea_social.png"
+        },
         {
           "id": "https://blog.jetbrains.com/?post_type=pycharm&p=286832",
           "author": "Jodie Burchell",
@@ -1540,46 +1570,6 @@
           "wordCount": 1981,
           "title": "CLion Bug-Fix Update 2022.2.4",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/10/cl-bug-fix-blog-social-share-image-1280x720-1.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=education&p=285566",
-          "author": "Anastasia Khramushina",
-          "description": "Cybersecurity has become a hot topic in the past several years. With so much information being available online these days, it is crucial to keep it safe. The growing importance of information security requires adequate technologies that can prevent malicious attacks on sensitive data. One such technology is Spring Security – a powerful and highly […]",
-          "link": "https://blog.jetbrains.com/education/2022/10/11/learn-spring-security-for-backend-development/",
-          "publishedOn": "2022-10-11T13:14:10.000Z",
-          "wordCount": 1930,
-          "title": "Learn Spring Security for Backend Development",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/10/Blog_Social_share_image_1280x720-3-2.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=idea&p=283716",
-          "author": "Max Golov",
-          "description": "We have partnered with Google Cloud to deliver an integration between Cloud Workstations and JetBrains remote development. Cloud Workstations, announced recently at Google Cloud Next, provides fully managed development environments on Google Cloud. This integration means that you can use JetBrains Gateway to develop remotely on your favorite IDEs in Cloud Workstations. You can also […]",
-          "link": "https://blog.jetbrains.com/idea/2022/10/remote-development-in-jetbrains-ides-now-available-to-google-cloud-workstations-users/",
-          "publishedOn": "2022-10-11T12:00:07.000Z",
-          "wordCount": 2440,
-          "title": "Remote Development in JetBrains IDEs now available to Google Cloud Workstations users",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/10/Blog_Social_share_image_1280x720-1.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=phpstorm&p=285277",
-          "author": "Roman Pronskiy",
-          "description": "In this build, PhpStorm received Code Vision for PHP, support for running tests in parallel with ParaTest, and integration with Robo task runner. The EAP allows you to try new features from the upcoming PhpStorm 2022.3. EAP builds are free to use. You can install them side by side with a stable version of PhpStorm. […]",
-          "link": "https://blog.jetbrains.com/phpstorm/2022/10/phpstorm-2022-3-early-access-2-code-vision/",
-          "publishedOn": "2022-10-10T15:33:12.000Z",
-          "wordCount": 2240,
-          "title": "PhpStorm 2022.3 Early Access #2: Code Vision",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/10/ps-release-blog-social-share-image-1280x720-1-1.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=kotlin&p=285378",
-          "author": "Ekaterina Petrova",
-          "description": "Kotlin Multiplatform Mobile – a technology that allows developers to share the logic of iOS and Android apps, combining the benefits of both cross-platform and native development approaches – is now in Beta! Check out a video from the Kotlin team and some early Multiplatform Mobile adopters, get hands-on experience through a new series of […]",
-          "link": "https://blog.jetbrains.com/kotlin/2022/10/kmm-beta/",
-          "publishedOn": "2022-10-10T15:27:48.000Z",
-          "wordCount": 2302,
-          "title": "Kotlin Multiplatform Mobile Is in Beta – Start Using It Now!",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/10/Kotlin-Multiplatform-Mobile-Is-in-Beta-Start-Using-It-Now_Blog-Twitter-1.png"
         }
       ]
     }

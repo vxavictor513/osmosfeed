@@ -1,10 +1,176 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-19T02:25:52.660Z</id>
+    <id>urn:2022-10-20T02:27:04.263Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-19T02:25:52.661Z</updated>
+    <updated>2022-10-20T02:27:04.263Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Blog: Server Side Apply Is Great And You Should Be Using It]]></title>
+        <id>https://kubernetes.io/blog/2022/10/20/advanced-server-side-apply/</id>
+        <link href="https://kubernetes.io/blog/2022/10/20/advanced-server-side-apply/"/>
+        <updated>2022-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Author: Daniel Smith (Google)
+Server-side apply (SSA) has now
+been GA for a few releases, and I
+have found myself in a number of conversations, recommending that people / teams
+in various situations use it. So I’d like to write down some of those reasons.
+Obvious (and not-so-obvious) benefits of SSA
+A list of improvements / niceties you get from switching from various things to
+Server-side apply!
+Versus client-side-apply (that is, plain kubectl apply):
+
+The system gives you conflicts when you accidentally fight with another
+actor over the value of a field!
+When combined with --dry-run, there’s no chance of accidentally running a
+client-side dry run instead of a server side dry run.
+Versus hand-rolling patches:
+
+The SSA patch format is extremely natural to write, with no weird syntax.
+It’s …]]></summary>
+        <author>
+            <name>Kubernetes – Production-Grade Container Orchestration</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HashiCorp Wins Datadog’s Integration Developer Partner of the Year Award]]></title>
+        <id>https://www.hashicorp.com/blog/hashicorp-wins-datadog-s-integration-developer-partner-of-the-year-award</id>
+        <link href="https://www.hashicorp.com/blog/hashicorp-wins-datadog-s-integration-developer-partner-of-the-year-award"/>
+        <updated>2022-10-19T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[HashiCorp has won the 2022 Datadog Partner Network (DPN) Integration Developer Partner of the Year Award.]]></summary>
+        <author>
+            <name>HashiCorp Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Do Modern ImageNet Classifiers Accurately Predict Perceptual Similarity?]]></title>
+        <id>http://ai.googleblog.com/2022/10/do-modern-imagenet-classifiers.html</id>
+        <link href="http://ai.googleblog.com/2022/10/do-modern-imagenet-classifiers.html"/>
+        <updated>2022-10-19T17:57:00.003Z</updated>
+        <summary type="html"><![CDATA[Posted by Manoj Kumar, Research Engineer, and Ekin Dogus Cubuk, Research Scientist, Google Research 
+The task of determining the similarity between images is an open problem in computer vision and is crucial for evaluating the realism of machine-generated images. Though there are a number of straightforward methods of estimating image similarity (e.g., low-level metrics that measure pixel differences, such as FSIM and SSIM), in many cases, the measured similarity differences do not match the differences perceived by a person. However, more recent work has demonstrated that intermediate representations of neural network classifiers, such as AlexNet, VGG and SqueezeNet trained on ImageNet, exhibit perceptual similarity as an emergent property. That is, Euclidean distances between encoded rep…]]></summary>
+        <author>
+            <name>Google AI Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Competency Program Validates Systems Integrators’ HashiCorp Expertise]]></title>
+        <id>https://www.hashicorp.com/blog/new-competency-program-validates-systems-integrators-hashicorp-expertise</id>
+        <link href="https://www.hashicorp.com/blog/new-competency-program-validates-systems-integrators-hashicorp-expertise"/>
+        <updated>2022-10-19T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The new Technical Competency Program for Systems Integrators allows partners to display earned competency badges on both their own website and HashiCorp.com.]]></summary>
+        <author>
+            <name>HashiCorp Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Five signs you need to augment your SIEM]]></title>
+        <id>https://www.elastic.co/blog/five-signs-you-need-to-augment-your-siem</id>
+        <link href="https://www.elastic.co/blog/five-signs-you-need-to-augment-your-siem"/>
+        <updated>2022-10-19T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[If you aren’t able to replace your existing SIEM outright, that doesn’t mean you can’t supplement its capabilities with a more performant solution. Elastic allows all users to try out a new, powerful SIEM with little to no upfront cost.]]></summary>
+        <author>
+            <name>Joe DeFever</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Five signs you need to augment your SIEM]]></title>
+        <id>https://www.elastic.co/blog/five-signs-you-need-to-augment-your-siem</id>
+        <link href="https://www.elastic.co/blog/five-signs-you-need-to-augment-your-siem"/>
+        <updated>2022-10-19T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+Security teams with an existing security information and event management (SIEM) investment may find themselves having to pay more to their vendor in order to ingest and index more of their data. While they recognize that this greatly hinders their ability to effectively defend their environment, they can’t just uproot a central piece of their infrastructure either — time, licensing, and logistical restrictions stand in the way.
+
+If you aren’t able to replace your existing SIEM outright, that doesn’t mean you can’t supplement its capabilities with a more performant solution. A recent report revealed that almost half (44%) of organizations want to augment or replace their current SIEM solution.
+
+It may be time to augment your SIEM.
+
+Fortunately, Elastic allows all users to try out a new, …]]></summary>
+        <author>
+            <name>Joe DeFever</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The paradox of big]]></title>
+        <id>https://seths.blog/?p=41166</id>
+        <link href="https://feeds.feedblitz.com/~/716073084/0/sethsblog~The-paradox-of-big/"/>
+        <updated>2022-10-19T08:31:00.000Z</updated>
+        <summary type="html"><![CDATA[When the stakes are high, when it has to be a HIT, in all capital letters, we overinvest. The big stars. The lack of creative risk. The inflated budget and the meetings overrun with meddlers. After all, it’s big. Our insistence that it be guaranteed to work almost ensures that it won’t. Forcing something to […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sneak Peek: Elastic’s 2022 Global Threat Report]]></title>
+        <id>https://www.elastic.co/blog/sneak-peek-elastic-2022-global-threat-report</id>
+        <link href="https://www.elastic.co/blog/sneak-peek-elastic-2022-global-threat-report"/>
+        <updated>2022-10-19T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Elastic Security Labs has compiled the 2022 Global Threat Report to share trends and tactics adversaries and attack groups use, as observed by our threat research team and broader user community over the past year.]]></summary>
+        <author>
+            <name>Elastic Security Labs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sneak Peek: Elastic’s 2022 Global Threat Report]]></title>
+        <id>https://www.elastic.co/blog/sneak-peek-elastic-2022-global-threat-report</id>
+        <link href="https://www.elastic.co/blog/sneak-peek-elastic-2022-global-threat-report"/>
+        <updated>2022-10-19T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+The Elastic Security Labs team is passionate about securing the world’s data from attack, and strives to raise the bar within the security industry. To this end, Elastic Security Labs has compiled the 2022 Global Threat Report to share trends and tactics adversaries and attack groups use, as observed by our threat research team and broader user community over the past year.
+
+Let’s dig into a few of the endpoint related findings: 
+
+72% of all defense evasion techniques consisted of masquerading and system binary proxy execution 
+
+~77% of all credential access techniques are attributed to OS credential dumping with commonly known utilities
+
+Here’s a chart on how the endpoint techniques breakdown across our data set.
+https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt3e743aeca06b3f41/6350565dd27c4a22ea5bcb80/image1.png,image1.png,
+This was just a preview of the research coming your way. We have lots of findings, recommendation coming your way next week. Stay tuned to Elastic Security Labs for the 2022 Elastic Global Threat Report.]]></summary>
+        <author>
+            <name>Elastic Security Labs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing the Event-Driven Ansible developer preview]]></title>
+        <id>https://www.ansible.com/blog/introducing-event-driven-ansible</id>
+        <link href="https://www.ansible.com/blog/introducing-event-driven-ansible"/>
+        <updated>2022-10-19T04:05:00.000Z</updated>
+        <summary type="html"><![CDATA[Today at AnsibleFest 2022, Red Hat announced an exciting new developer preview for Event-Driven Ansible. Most customers are on a journey toward full end-to-end automation and there are many paths you take along this journey.  Event-Driven Ansible is a new way to enhance and expand automation. It improves IT speed and agility, while enabling consistency and resilience.]]></summary>
+        <author>
+            <name>Joe Pisciotta</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Getting Started with Event-Driven Ansible]]></title>
+        <id>https://www.ansible.com/blog/getting-started-with-event-driven-ansible</id>
+        <link href="https://www.ansible.com/blog/getting-started-with-event-driven-ansible"/>
+        <updated>2022-10-19T04:02:00.000Z</updated>
+        <summary type="html"><![CDATA[As one technology advances, it expands the possibilities for other technologies and offers the solutions of tomorrow for the challenges we face today. AnsibleFest 2022 brings us new advances in Ansible automation that are as bright as they are innovative. I am talking about the Event-Driven Ansible developer preview.]]></summary>
+        <author>
+            <name>nmartins@redhat.com (Nuno Martins)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[It takes a community: how partners play a key role in event driven automation]]></title>
+        <id>https://www.ansible.com/blog/event-driven-ansible-for-partners</id>
+        <link href="https://www.ansible.com/blog/event-driven-ansible-for-partners"/>
+        <updated>2022-10-19T04:01:00.000Z</updated>
+        <summary type="html"><![CDATA[Event-driven automation is increasingly being adopted because of the strong benefits it delivers in managing huge amounts of complexity across multi-clouds, a multi-device remote workforce, and growing edge implementations. In a digital world, maintaining resilience and reliability is essential and event driven automation helps teams meet these needs while working around resource and skills gaps.]]></summary>
+        <author>
+            <name>Emily Bock</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Division Notation]]></title>
+        <id>https://xkcd.com/2687/</id>
+        <link href="https://xkcd.com/2687/"/>
+        <updated>2022-10-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/division_notation.png" title="Science tip: Scientists hardly ever use the two-dot division sign, and when they do it often doesn't even mean division, but they still get REALLY mad when you repurpose it to write stuff like SALE! ALL SHOES 30÷ OFF!" alt="Science tip: Scientists hardly ever use the two-dot division sign, and when they do it often doesn't even mean division, but they still get REALLY mad when you repurpose it to write stuff like SALE! ALL SHOES 30÷ OFF!" />]]></summary>
+        <author>
+            <name>xkcd.com</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Orchestrating Data/ML Workflows at Scale With Netflix Maestro]]></title>
         <id>https://medium.com/p/aaa2b41b800c</id>
@@ -185,6 +351,16 @@ The post Monitoring Camunda Platform 7 with Prometheus appeared first on Camunda
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[PhpStorm 2022.3 Early Access #3: Support for PHP 8.2]]></title>
+        <id>https://blog.jetbrains.com/?post_type=phpstorm&amp;p=287711</id>
+        <link href="https://blog.jetbrains.com/phpstorm/2022/10/phpstorm-2022-3-early-access-3-support-for-php-8-2/"/>
+        <updated>2022-10-18T13:23:07.000Z</updated>
+        <summary type="html"><![CDATA[In this build, we added full support for PHP 8.2. Keep on reading to learn all about it! The EAP allows you to try new features from the upcoming PhpStorm 2022.3. EAP builds are free to use. You can install them side by side with a stable version of PhpStorm. If something doesn’t work correctly, […]]]></summary>
+        <author>
+            <name>Roman Pronskiy</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Spring Security 5.7.4 and 5.6.8 available now]]></title>
         <id>https://spring.io/blog/2022/10/18/spring-security-5-7-4-and-5-6-8-available-now</id>
         <link href="https://spring.io/blog/2022/10/18/spring-security-5-7-4-and-5-6-8-available-now"/>
@@ -259,36 +435,6 @@ Project Site | Reference | Help]]></summary>
         <summary type="html"><![CDATA[DataSpell 2022.2.3 implements an important fix – editing the search query no longer results in cell code deletion. There are also more improvements to the notebook editor in this build. Read on to learn more. You can download the new version from our website, update directly from the IDE, update via the free Toolbox App, […]]]></summary>
         <author>
             <name>Valeria Letusheva</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing the Event-Driven Ansible developer preview]]></title>
-        <id>https://www.ansible.com/blog/introducing-event-driven-ansible</id>
-        <link href="https://www.ansible.com/blog/introducing-event-driven-ansible"/>
-        <updated>2022-10-18T04:02:00.000Z</updated>
-        <summary type="html"><![CDATA[Today at AnsibleFest 2022, Red Hat announced an exciting new developer preview for Event-Driven Ansible. Most customers are on a journey toward full end-to-end automation and there are many paths you take along this journey.  Event-Driven Ansible is a new way to enhance and expand automation. It improves IT speed and agility, while enabling consistency and resilience.]]></summary>
-        <author>
-            <name>Joe Pisciotta</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Getting Started with Event-Driven Ansible]]></title>
-        <id>https://www.ansible.com/blog/getting-started-with-event-driven-ansible</id>
-        <link href="https://www.ansible.com/blog/getting-started-with-event-driven-ansible"/>
-        <updated>2022-10-18T04:01:00.000Z</updated>
-        <summary type="html"><![CDATA[As one technology advances, it expands the possibilities for other technologies and offers the solutions of tomorrow for the challenges we face today. AnsibleFest 2022 brings us new advances in Ansible automation that are as bright as they are innovative. I am talking about the Event-Driven Ansible developer preview.]]></summary>
-        <author>
-            <name>nmartins@redhat.com (Nuno Martins)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[It takes a community: how partners play a key role in event driven automation]]></title>
-        <id>https://www.ansible.com/blog/event-driven-ansible-for-partners</id>
-        <link href="https://www.ansible.com/blog/event-driven-ansible-for-partners"/>
-        <updated>2022-10-18T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Event-driven automation is increasingly being adopted because of the strong benefits it delivers in managing huge amounts of complexity across multi-clouds, a multi-device remote workforce, and growing edge implementations. In a digital world, maintaining resilience and reliability is essential and event driven automation helps teams meet these needs while working around resource and skills gaps.]]></summary>
-        <author>
-            <name>Emily Bock</name>
         </author>
     </entry>
     <entry>
@@ -652,16 +798,6 @@ Image captioning is the machine learning task of automatically generating a flue
         <summary type="html"><![CDATA[New to Git v2.38, Scalar is a built-in repository manager for large repos. Here, we’ll tell the story of how Scalar went from a rough VFS for Git successor to a fully-integrated Git tool, with all of the engineering lessons learned in the process.]]></summary>
         <author>
             <name>The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DataGrip 2022.3 EAP Is Open]]></title>
-        <id>https://blog.jetbrains.com/?post_type=datagrip&amp;p=286633</id>
-        <link href="https://blog.jetbrains.com/datagrip/2022/10/13/datagrip-2022-3-eap-is-open/"/>
-        <updated>2022-10-13T12:04:54.000Z</updated>
-        <summary type="html"><![CDATA[Hello, DataGrip fans! As usual, we want to share our new functionality with you before the official release happens. Here’s what you will find in DataGrip 2022.3. Of course, you can already try all of this out by downloading our EAP build. Let’s go! Database explorer Quick filter A long-awaited feature is finally here! Now, […]]]></summary>
-        <author>
-            <name>Maksim Sobolevskiy</name>
         </author>
     </entry>
     <entry>
@@ -1222,74 +1358,6 @@ Here is an example of a store in JS…]]></summary>
 Want to learn more about event driven architectures, AOT and GraalVM, Apache Kafka, and Spring Boot? SpringOne 2022 is almost here! If you want a chance to learn from the source, then I hope you’ll join us 6-8 December 2022, right here in my hometown of San Francisco, my favorite west coast city in the USA. (Psst.: If you register now, there’s a $200 discount from the pass price with this code S1VM22_Advocate_200.)]]></summary>
         <author>
             <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[World Mental Health Day 2022: Supporting Elasticians and their families to Be.Well]]></title>
-        <id>https://www.elastic.co/blog/culture-world-mental-health-day-2021-supporting-elasticians-and-their-families-to-be-well</id>
-        <link href="https://www.elastic.co/blog/culture-world-mental-health-day-2021-supporting-elasticians-and-their-families-to-be-well"/>
-        <updated>2022-10-10T06:30:00.000Z</updated>
-        <summary type="html"><![CDATA[World Mental Health Day is October 10th and is a time to raise awareness around prioritizing our mental health and continuing the conversation in the workplace.]]></summary>
-        <author>
-            <name>Leah Sutton</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[World Mental Health Day 2022: Supporting Elasticians and their families to Be.Well]]></title>
-        <id>https://www.elastic.co/blog/culture-world-mental-health-day-2021-supporting-elasticians-and-their-families-to-be-well</id>
-        <link href="https://www.elastic.co/blog/culture-world-mental-health-day-2021-supporting-elasticians-and-their-families-to-be-well"/>
-        <updated>2022-10-10T06:30:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-World Mental Health Day is on October 10, and Elastic remains committed to supporting Elasticians and their mental well-being through a range of support programs.
-As a mom, wife, daughter, colleague and leader here at Elastic, I understand how we all play myriad roles outside of the one listed on our resume or LinkedIn profile. As I’ve struggled and have seen my friends, family, and colleagues struggle to show up for themselves and for each other, I’ve thought a great deal about how crucial it is to make yourself a priority. We can’t even begin to do our best work until we can bring our best self to all of the roles that make us who we are. 
-This week is a reminder for all of us to acknowledge the importance of prioritizing our mental health and continuing the conversation in the workpla…]]></summary>
-        <author>
-            <name>Leah Sutton</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Managing data automation through hot, warm, cold, and frozen tiers — No coding needed!]]></title>
-        <id>https://www.elastic.co/blog/managing-data-automation-through-hot-warm-cold-and-frozen-tiers-no-coding-needed</id>
-        <link href="https://www.elastic.co/blog/managing-data-automation-through-hot-warm-cold-and-frozen-tiers-no-coding-needed"/>
-        <updated>2022-10-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This post serves as a guide on how to use Kibana's “Stack Management” feature-set to automate the movement of your data through hot, warm, cold and frozen tiers, without the need to do any coding or execute command-line actions.]]></summary>
-        <author>
-            <name>Joshua Quek</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Managing data automation through hot, warm, cold, and frozen tiers — No coding needed!]]></title>
-        <id>https://www.elastic.co/blog/managing-data-automation-through-hot-warm-cold-and-frozen-tiers-no-coding-needed</id>
-        <link href="https://www.elastic.co/blog/managing-data-automation-through-hot-warm-cold-and-frozen-tiers-no-coding-needed"/>
-        <updated>2022-10-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-If you are looking to do exactly what the title of this article suggests, look no further. This post intends to be a guide on how one can use the Kibana Dashboard’s “Stack Management” feature-set to automate the movement of your data through hot, warm, cold, and frozen tiers, without the need to do any coding or execute command-line actions.
-Before we begin: Core concepts
-Let’s take a step back to understand some core concepts of how data sits and moves within your Elasticsearch cluster before we go into how you can automate its movement. This is so we will be familiar with certain terms and patterns later on when we go into the hands-on step-by-step process in practice.
-
-If your organization stores data, you will definitely need to consider a technical concept called “High Availability”…]]></summary>
-        <author>
-            <name>Joshua Quek</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fan Theories]]></title>
-        <id>https://xkcd.com/2683/</id>
-        <link href="https://xkcd.com/2683/"/>
-        <updated>2022-10-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/fan_theories.png" title="The universe fandom is great. Such sweet and enthusiastic people." alt="The universe fandom is great. Such sweet and enthusiastic people." />]]></summary>
-        <author>
-            <name>xkcd.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The invisibility paradox]]></title>
-        <id>https://seths.blog/?p=42023</id>
-        <link href="https://feeds.feedblitz.com/~/715020458/0/sethsblog~The-invisibility-paradox/"/>
-        <updated>2022-10-09T08:21:00.000Z</updated>
-        <summary type="html"><![CDATA[The optic nerve dominates. It’s piped directly into our brains and uses a lot of processing power to help us discern the world through vision. As a result, it’s louder than our other senses and often outshouts the rest of our brain. That’s why it’s easy to be fooled by a magician. This focus on […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
         </author>
     </entry>
     <entry>
@@ -1925,26 +1993,6 @@ Natural language enables flexible descriptive queries about images. The interact
         <summary type="html"><![CDATA[I am pleased to announce the availability of local clusters for Amazon Elastic Kubernetes Service (Amazon EKS) on AWS Outposts. It means that starting today, you can deploy your Amazon EKS cluster entirely on Outposts: both the Kubernetes control plane and the nodes. Amazon EKS is a managed Kubernetes service that makes it easy for […]]]></summary>
         <author>
             <name>Sébastien Stormacq</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWS Week in Review – September 19, 2022]]></title>
-        <id>c87835feafb2eecd408bc548fd91e06e13509083</id>
-        <link href="https://aws.amazon.com/blogs/aws/aws-week-in-review-september-19-2022/"/>
-        <updated>2022-09-19T19:13:12.000Z</updated>
-        <summary type="html"><![CDATA[Things are heating up in Seattle, with preparation for AWS re:Invent 2022 well underway. Later this month the entire News Blog team will participate in our now-legendary “speed storming” event. Over the course of three or four days, each of the AWS service teams with a launch in the works for re:Invent will give us […]]]></summary>
-        <author>
-            <name>Jeff Barr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vagrant 2.3 Introduces Go Runtime]]></title>
-        <id>https://www.hashicorp.com/blog/vagrant-2-3-introduces-go-runtime</id>
-        <link href="https://www.hashicorp.com/blog/vagrant-2-3-introduces-go-runtime"/>
-        <updated>2022-09-19T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[HashiCorp Vagrant 2.3 introduces a new Vagrant executable written in Golang, tying the Vagrant architecture more closely into the broader HashiCorp ecosystem.]]></summary>
-        <author>
-            <name>HashiCorp Blog</name>
         </author>
     </entry>
 </feed>

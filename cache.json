@@ -6,6 +6,26 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2022/10/21/introducing-spring-modulith",
+          "author": null,
+          "description": "When designing software systems, architects and developers have plenty of architectural options to choose from. Microservice-based systems have become ubiquitous in the last couple of years. However, the idea of monolithic, modular systems has also regained popularity recently.\r\nIndependent of the architectural style ultimately selected, the individual applications comprising the overall system need their structure to be evolvable and able to follow changes in business requirements.\n\r\n\r\n\r\nTraditionally, application frameworks have provided structural guidance by providing abstractions aligned with technical concepts, such as Spring Framework’s stereotype annotations (@Controller, @Service, @Repository, and so on).\r\nHowever, shifting the focus to align code structure with the domain has pro…",
+          "link": "https://spring.io/blog/2022/10/21/introducing-spring-modulith",
+          "publishedOn": "2022-10-21T12:00:00.000Z",
+          "wordCount": 1926,
+          "title": "Introducing Spring Modulith",
+          "imageUrl": "https://avatars.githubusercontent.com/u/128577?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2022/10/20/spring-boot-3-0-0-rc1-available-now",
+          "author": null,
+          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 3.0.0-RC1 has been released and is now available from https://repo.spring.io/milestone.\n\r\nThis release includes 135 enhancements, documentation improvements, dependency upgrades, and bug fixes. \n\r\nThis is our first release candidate for Spring Boot 3.0, which we expect to release November 24, 2022. We are not expecting any more features to be added at this point, and we will only be making API changes if we find issues.\n\r\nThis release is the culmination of 11 months of work and is the first release to fully realize the themes that we set out to deliver in Spring Boot 3.0. Most notably, this release builds on the multi-year R&D effort that started with the experimental Spring Native project to pro…",
+          "link": "https://spring.io/blog/2022/10/20/spring-boot-3-0-0-rc1-available-now",
+          "publishedOn": "2022-10-21T04:00:00.000Z",
+          "wordCount": 825,
+          "title": "Spring Boot 3.0.0-RC1 available now",
+          "imageUrl": "https://avatars.githubusercontent.com/u/519772?v=4?s=200"
+        },
+        {
           "id": "https://spring.io/blog/2022/10/20/a-bootiful-podcast-microsoft-s-asir-selvasingh-on-azure-spring-apps-java-at-microsoft-application-security-and-more",
           "author": null,
           "description": "Hi, Spring fans! In this installment, Josh Long (@starbuxma) talks to his friend, Microsoft’s Asir Selvasingh (@asirselvasingh), about Azure Spring Apps, Java at Microsoft, Spring, application security, and more. Want to learn more? Join us at SpringOne (6-8 December 2022)!",
@@ -171,7 +191,7 @@
           "description": "The Spring Observability Team has been working on adding observability support for Spring Applications for quite some time, and we are pleased to inform you that this feature will be generally available with Spring Framework 6 and Spring Boot 3!\n\r\n\r\n\r\nWhat is observability? In our understanding, it is \"how well you can understand the internals of your system by examining its outputs\". We believe that the interconnection between metrics, logging, and distributed tracing gives you the ability to reason about the state of your system in order to debug exceptions and latency in your applications. You can watch more about what we think observability is in this episode of Enlightning with Jonatan Ivanov.\n\r\n\r\n\r\nThe upcoming Spring Boot 3.0.0-RC1 release will contain numerous autoconfigurations fo…",
           "link": "https://spring.io/blog/2022/10/12/observability-with-spring-boot-3",
           "publishedOn": "2022-10-12T21:00:00.000Z",
-          "wordCount": 4185,
+          "wordCount": 4128,
           "title": "Observability with Spring Boot 3",
           "imageUrl": "https://avatars.githubusercontent.com/u/3297437?v=4?s=200"
         },
@@ -184,26 +204,6 @@
           "wordCount": 830,
           "title": "Spring Framework 6.0 goes RC1",
           "imageUrl": "https://avatars.githubusercontent.com/u/1263688?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/10/11/the-state-of-spring-survey-2022-is-here",
-          "author": null,
-          "description": "The State of Spring survey is here! Please give us your feedback by going to spring.io/survey. Spread the word by sharing these posts on Twitter, LinkedIn, and any other social platform you use! \n\r\n\r\nSpring fans, our annual survey of the Spring community is back! Last year, we dived into the biggest projects and the most popular app patterns built with Spring, and a whole lot more! You told us your views about Spring Native, Data, and what matters to you when you start using a new Spring project.\n\r\nThe survey is back for 2022, and we’re really excited to learn again from you. What matters to you when you build with Spring? What types of apps are you building with Spring? What can we change, and what should remain the same?\n\r\nCompleting the survey should take about 15 minutes. If you want to be among the first to get the report, feel free to leave your email at the end of the survey.\n\r\nOk, if you’re ready, head over to spring.io/survey now!\n\r\nOne last thing - we’d really appreciate it if you share the survey with others in the Spring community. You can share the link spring.io/survey, or our Twitter and LinkedIn posts. Thank you!\n\r\nThe Spring Team",
-          "link": "https://spring.io/blog/2022/10/11/the-state-of-spring-survey-2022-is-here",
-          "publishedOn": "2022-10-11T17:00:00.000Z",
-          "wordCount": 721,
-          "title": "The State of Spring Survey 2022 Is Here!",
-          "imageUrl": "https://avatars.githubusercontent.com/u/630743?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/10/11/embracing-virtual-threads",
-          "author": null,
-          "description": "Project Loom has made it into the JDK through JEP 425. It’s available since Java 19 in September 2022 as a preview feature.\r\nIts goal is to dramatically reduce the effort of writing, maintaining, and observing high-throughput concurrent applications.\n\r\n\r\n\r\nWhere Virtual Threads make sense\n\r\n\r\n\r\nThis makes lightweight Virtual Threads an exciting approach for application developers and the Spring Framework. Past years indicated a trend towards applications that communicate over the network with each other. Many applications make use of data stores, message brokers, and remote services. I/O-intensive applications are the primary ones that benefit from Virtual Threads if they were built to use blocking I/O facilities such as InputStream and synchronous HTTP, database, and message broker client…",
-          "link": "https://spring.io/blog/2022/10/11/embracing-virtual-threads",
-          "publishedOn": "2022-10-11T07:32:00.000Z",
-          "wordCount": 1753,
-          "title": "Embracing Virtual Threads",
-          "imageUrl": "https://avatars.githubusercontent.com/u/1035015?v=4?s=200"
         }
       ]
     },
@@ -213,12 +213,22 @@
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
         {
+          "id": "https://www.hashicorp.com/blog/hashiconf-global-2022-from-zero-trust-to-no-code",
+          "author": null,
+          "description": "Check out the highlights from HashiConf Global 2022 and watch the 40+ keynote and session recordings now live on YouTube.",
+          "link": "https://www.hashicorp.com/blog/hashiconf-global-2022-from-zero-trust-to-no-code",
+          "publishedOn": "2022-10-21T16:30:00.000Z",
+          "wordCount": 1805,
+          "title": "HashiConf Global 2022: From Zero Trust to No Code",
+          "imageUrl": "https://www.datocms-assets.com/2885/1666368098-2022_hashiconf_thursday_081_2507.jpg"
+        },
+        {
           "id": "https://www.hashicorp.com/blog/pre-plan-apply-run-tasks-now-available-in-terraform-cloud",
           "author": null,
           "description": "Enhance your Terraform Cloud workflow by adding run tasks before the plan and/or apply stages.",
           "link": "https://www.hashicorp.com/blog/pre-plan-apply-run-tasks-now-available-in-terraform-cloud",
           "publishedOn": "2022-10-20T16:00:00.000Z",
-          "wordCount": 1876,
+          "wordCount": 1866,
           "title": "Pre-Plan/Apply Run Tasks Now Available in Terraform Cloud",
           "imageUrl": "https://www.datocms-assets.com/2885/1620073844-blog-library-product-terraform-cloud-tfc-black-gradient.jpg"
         },
@@ -228,7 +238,7 @@
           "description": "HashiCorp has won the 2022 Datadog Partner Network (DPN) Integration Developer Partner of the Year Award.",
           "link": "https://www.hashicorp.com/blog/hashicorp-wins-datadog-s-integration-developer-partner-of-the-year-award",
           "publishedOn": "2022-10-19T19:00:00.000Z",
-          "wordCount": 1632,
+          "wordCount": 1612,
           "title": "HashiCorp Wins Datadog’s Integration Developer Partner of the Year Award",
           "imageUrl": "https://www.datocms-assets.com/2885/1639970392-hashicorp-datadog.png"
         },
@@ -238,7 +248,7 @@
           "description": "The new Technical Competency Program for Systems Integrators allows partners to display earned competency badges on both their own website and HashiCorp.com.",
           "link": "https://www.hashicorp.com/blog/new-competency-program-validates-systems-integrators-hashicorp-expertise",
           "publishedOn": "2022-10-19T16:00:00.000Z",
-          "wordCount": 1780,
+          "wordCount": 1760,
           "title": "New Competency Program Validates Systems Integrators’ HashiCorp Expertise",
           "imageUrl": "https://www.datocms-assets.com/2885/1666107145-partner-network-thumbnail.png"
         },
@@ -278,7 +288,7 @@
           "description": "Cloud Development Kit for Terraform (CDKTF) 0.13 vastly reduces synth time across all supported languages.",
           "link": "https://www.hashicorp.com/blog/cdk-for-terraform-0-13-significantly-improves-performance",
           "publishedOn": "2022-10-10T16:00:00.000Z",
-          "wordCount": 3320,
+          "wordCount": 3310,
           "title": "CDK for Terraform 0.13 Significantly Improves Performance",
           "imageUrl": "https://www.datocms-assets.com/2885/1620081857-blog-library-product-terraform-dark-gradient.jpg"
         },
@@ -288,7 +298,7 @@
           "description": "The GA release of HashiCorp Nomad 1.4 enhances native service discovery support with health checks and introduces Nomad Variables, which lets users store configuration values.",
           "link": "https://www.hashicorp.com/blog/nomad-1-4-adds-nomad-variables-and-updates-service-discovery",
           "publishedOn": "2022-10-06T16:00:00.000Z",
-          "wordCount": 5183,
+          "wordCount": 5177,
           "title": "Nomad 1.4 Adds Nomad Variables and Updates Service Discovery",
           "imageUrl": "https://www.datocms-assets.com/2885/1620083839-blog-library-product-nomad-dark-graphics.jpg"
         },
@@ -298,7 +308,7 @@
           "description": "HashiCorp Waypoint — now available on the HashiCorp Cloud Platform in public beta — lets users standardize application delivery across platforms.",
           "link": "https://www.hashicorp.com/blog/announcing-hcp-waypoint-public-beta",
           "publishedOn": "2022-10-06T16:00:00.000Z",
-          "wordCount": 2296,
+          "wordCount": 2306,
           "title": "Announcing HCP Waypoint Public Beta",
           "imageUrl": "https://www.datocms-assets.com/2885/1655842512-blog-library-product-hcp-waypoint.png"
         },
@@ -308,7 +318,7 @@
           "description": "Continuous validation, no-code provisioning, native OPA support for Terraform Cloud, and other new features are key upgrades to HashiCorp Terraform introduced at HashiConf Global 2022.",
           "link": "https://www.hashicorp.com/blog/terraform-gains-visibility-self-service-and-compliance-upgrades",
           "publishedOn": "2022-10-06T16:00:00.000Z",
-          "wordCount": 3173,
+          "wordCount": 3183,
           "title": "Terraform Gains Visibility, Self-Service, and Compliance Upgrades",
           "imageUrl": "https://www.datocms-assets.com/2885/1620081857-blog-library-product-terraform-dark-gradient.jpg"
         },
@@ -318,7 +328,7 @@
           "description": "General availability of HCP Boundary lets developers access critical systems with fine-grained authorizations — without managing credentials or exposing your network.",
           "link": "https://www.hashicorp.com/blog/hcp-boundary-now-ga-bolsters-hashicorp-s-zero-trust-security-solution",
           "publishedOn": "2022-10-05T16:00:00.000Z",
-          "wordCount": 2713,
+          "wordCount": 2709,
           "title": "HCP Boundary — Now GA — Bolsters HashiCorp's Zero Trust Security Solution",
           "imageUrl": "https://www.datocms-assets.com/2885/1655842506-blog-library-product-hcp-boundary.png"
         },
@@ -338,7 +348,7 @@
           "description": "HashiCorp Developer is your one-stop shop for interactive labs, sample code, videos, tutorials, and in-depth documentation.",
           "link": "https://www.hashicorp.com/blog/hashicorp-developer-your-new-experience-for-docs-and-tutorials",
           "publishedOn": "2022-10-05T16:00:00.000Z",
-          "wordCount": 1913,
+          "wordCount": 1911,
           "title": "HashiCorp Developer: Your New Experience for Docs and Tutorials",
           "imageUrl": "https://www.datocms-assets.com/2885/1664569797-dev-dot-home.png"
         },
@@ -348,7 +358,7 @@
           "description": "HashiCorp Consul 1.14 enhances traffic management and failover, and adds a new deployment method: Consul dataplane. AWS Lambda updates and beta Windows VM support were also added.",
           "link": "https://www.hashicorp.com/blog/consul-1-14-beta-announcing-simplified-service-mesh-deployments",
           "publishedOn": "2022-10-05T16:00:00.000Z",
-          "wordCount": 5578,
+          "wordCount": 5576,
           "title": "Consul 1.14 Beta: Announcing Simplified Service Mesh Deployments",
           "imageUrl": "https://www.datocms-assets.com/2885/1620083627-blog-library-product-consul-dark-graphics.jpg"
         },
@@ -358,7 +368,7 @@
           "description": "The HashiCorp Cloud Platform (HCP) adds new visibility and management controls for self-managed and HCP-managed Consul deployments.",
           "link": "https://www.hashicorp.com/blog/introducing-a-new-hcp-based-management-plane-for-consul",
           "publishedOn": "2022-10-05T16:00:00.000Z",
-          "wordCount": 2603,
+          "wordCount": 2601,
           "title": "Introducing a New HCP-Based Management Plane for Consul",
           "imageUrl": "https://www.datocms-assets.com/2885/1655842467-blog-library-product-hcp-consul.png"
         },
@@ -368,7 +378,7 @@
           "description": "The 2022 HashiCorp Technology Partner Awards have been announced. Find out who the winners are in our four categories this year.",
           "link": "https://www.hashicorp.com/blog/announcing-the-2022-hashicorp-technology-partner-award-winners",
           "publishedOn": "2022-10-04T22:30:00.000Z",
-          "wordCount": 1649,
+          "wordCount": 1629,
           "title": "Announcing the 2022 HashiCorp Technology Partner Award Winners",
           "imageUrl": "https://www.datocms-assets.com/2885/1600142862-blog-library-product-hashicorp.png"
         },
@@ -388,19 +398,9 @@
           "description": "Terraform Enterprise enhances observability and cuts operational burden with improved run metrics, identity-based storage authentication, and versioned documentation.",
           "link": "https://www.hashicorp.com/blog/terraform-enterprise-adds-run-metrics-versioned-docs-and-more",
           "publishedOn": "2022-09-27T16:00:00.000Z",
-          "wordCount": 1681,
+          "wordCount": 1691,
           "title": "Terraform Enterprise Adds Run Metrics, Versioned Docs, and More",
           "imageUrl": "https://www.datocms-assets.com/2885/1620083068-blog-library-product-terraform-black.jpg"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/terraform-1-3-improves-extensibility-and-maintainability-of-terraform-modules",
-          "author": null,
-          "description": "Now generally available, HashiCorp Terraform 1.3 introduces optional object type attributes with defaults, and enhancements to moved blocks, improving extensibility and maintainability of Terraform modules.",
-          "link": "https://www.hashicorp.com/blog/terraform-1-3-improves-extensibility-and-maintainability-of-terraform-modules",
-          "publishedOn": "2022-09-21T16:00:00.000Z",
-          "wordCount": 2354,
-          "title": "Terraform 1.3 Improves Extensibility and Maintainability of Terraform Modules",
-          "imageUrl": "https://www.datocms-assets.com/2885/1620083055-blog-library-product-terraform-dark-graphics.jpg"
         }
       ]
     },
@@ -709,7 +709,7 @@
           "description": "Last week we made significant updates to our product roadmap. We published the latest features for 2022, updated the list of features for 2023, and included an initiatives section that provides details about the product strategy and long-term investments.\nIn addition to including a new list of key features and initiatives,\nThe post Azure DevOps Roadmap update appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azure-devops-roadmap-update/",
           "publishedOn": "2022-10-20T17:13:02.000Z",
-          "wordCount": 4216,
+          "wordCount": 4278,
           "title": "Azure DevOps Roadmap update",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2019/02/roadmap.png"
         },
@@ -719,7 +719,7 @@
           "description": "This month, we are releasing fixes that impact our self-hosted product, Azure DevOps Server.\nResolve issue with newly added AD identities not appearing in security dialog identity pickers.\nThe post October patches for Azure DevOps Server appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/october-patches-for-azure-devops-server-2/",
           "publishedOn": "2022-10-18T16:59:44.000Z",
-          "wordCount": 4160,
+          "wordCount": 4452,
           "title": "October patches for Azure DevOps Server",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/06/HERO-1.jpg"
         },
@@ -729,7 +729,7 @@
           "description": "Exciting things are in store for Azure DevOps in the coming year! We’re planning deep investments in security as well as broad investment across the product. Read on for more information, and then be sure to check out our updated roadmap at https://aka.ms/AzureDevOpsRoadmap.\nThe post Integrate security into your developer workflow with GitHub Advanced Security for Azure DevOps appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/integrate-security-into-your-developer-workflow-with-github-advanced-security-for-azure-devops/",
           "publishedOn": "2022-10-12T12:59:49.000Z",
-          "wordCount": 7316,
+          "wordCount": 7180,
           "title": "Integrate security into your developer workflow with GitHub Advanced Security for Azure DevOps",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/10/AzDO-heart-Security.png"
         },
@@ -739,7 +739,7 @@
           "description": "We have resolved a known issue regarding publishing extensions to the Visual Studio Marketplace. If you’ve run into the error message: “Your ability to create global personal access tokens (PATs) is restricted by your organization.”, this is likely because your administrator has enabled a policy to restrict the creation of global personal access tokens (PATs).\nThe post Publishing extensions to Marketplace issue resolved appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/publishing-extensions-to-marketplace-issue-resolved/",
           "publishedOn": "2022-10-10T16:08:03.000Z",
-          "wordCount": 3850,
+          "wordCount": 3883,
           "title": "Publishing extensions to Marketplace issue resolved",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/10/start_4.png"
         },
@@ -749,7 +749,7 @@
           "description": "Sprint 211 was a busy one. We were able to complete a lot of bugs and yet introduce some new exciting features. We also enabled a “Try the New Boards Hub” banner and popup to the legacy boards experience on select organizations.\nThe post New Boards Hub, Sprint 211 Update appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/new-boards-hub-sprint-211-update/",
           "publishedOn": "2022-10-07T14:28:43.000Z",
-          "wordCount": 5158,
+          "wordCount": 4867,
           "title": "New Boards Hub, Sprint 211 Update",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/10/sketch-3.png"
         }
@@ -772,7 +772,7 @@
           "description": "This post is part of our Week in Review series. Check back each week for a quick roundup of interesting news and announcements from AWS! Monday means it’s time for another Week in Review post, so, without further ado, let’s dive right in! Last Week’s Launches Here’s some launch announcements from last week you may […]",
           "link": "https://aws.amazon.com/blogs/aws/aws-week-in-review-october-17-2020/",
           "publishedOn": "2022-10-17T17:34:56.000Z",
-          "wordCount": 1230,
+          "wordCount": 1234,
           "title": "AWS Week in Review – October 17, 2022",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/10/17/AWS-WIR-10.17.22.png"
         },
@@ -782,7 +782,7 @@
           "description": "Deep learning (DL) models have been increasing in size and complexity over the last few years, pushing the time to train from days to weeks. Training large language models the size of GPT-3 can take months, leading to an exponential growth in training cost. To reduce model training times and enable machine learning (ML) practitioners […]",
           "link": "https://aws.amazon.com/blogs/aws/amazon-ec2-trn1-instances-for-high-performance-model-training-are-now-available/",
           "publishedOn": "2022-10-10T21:31:33.000Z",
-          "wordCount": 2017,
+          "wordCount": 2021,
           "title": "Amazon EC2 Trn1 Instances for High-Performance Model Training are Now Available",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/08/19/Site-Merch_EC2-Trainium_Blog.png"
         },
@@ -792,7 +792,7 @@
           "description": "This post is part of our Week in Review series. Check back each week for a quick roundup of interesting news and announcements from AWS! I had an amazing start to the week last week as I was speaking at the AWS Community Day NL. This event had 500 attendees and over 70 speakers, and […]",
           "link": "https://aws.amazon.com/blogs/aws/aws-week-in-review-october-10-2022/",
           "publishedOn": "2022-10-10T20:53:03.000Z",
-          "wordCount": 1317,
+          "wordCount": 1321,
           "title": "AWS Week in Review – October 10, 2022",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/10/10/AWS-WIR-10.10.22.png"
         },
@@ -802,7 +802,7 @@
           "description": "In late 2019 I told you about the AWS Local Zone in Los Angeles, California. In that post I described Local Zones as a new type of AWS infrastructure deployment that brings select AWS services very close to a particular geographic area. A year after that launch, I announced our plans to add 3 more […]",
           "link": "https://aws.amazon.com/blogs/aws/aws-local-zones-expansion-taipei-and-delhi/",
           "publishedOn": "2022-10-05T21:30:38.000Z",
-          "wordCount": 1331,
+          "wordCount": 1335,
           "title": "AWS Local Zones Expansion: Taipei and Delhi",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/10/04/Site-Merch_AWS-Local-Zones_Blog.png"
         },
@@ -812,7 +812,7 @@
           "description": "In June 2022 AWS announced a preview of Amazon Connect Cases, a feature of Amazon Connect that simplifies these customer interactions and reduces the average handle times of issues. Today I am excited to announce the general availability of Amazon Connect Cases. Cases, a feature of Amazon Connect, makes it easy for your contact center […]",
           "link": "https://aws.amazon.com/blogs/aws/announcing-general-availability-of-amazon-connect-cases/",
           "publishedOn": "2022-10-03T20:41:27.000Z",
-          "wordCount": 1258,
+          "wordCount": 1265,
           "title": "Announcing General Availability of Amazon Connect Cases",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/10/03/Site-Merch_Amazon-Connect-Keystone-Gardner_Blog.png"
         },
@@ -822,7 +822,7 @@
           "description": "This post is part of our Week in Review series. Check back each week for a quick roundup of interesting news and announcements from AWS! A new week and a new month just started. Curious which were the most significant AWS news from the previous seven days? I got you covered with this post. Last […]",
           "link": "https://aws.amazon.com/blogs/aws/aws-week-in-review-october-3-2022/",
           "publishedOn": "2022-10-03T18:32:35.000Z",
-          "wordCount": 1281,
+          "wordCount": 1288,
           "title": "AWS Week in Review – October 3, 2022",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/10/03/AWS-WIR-10.3.22.png"
         },
@@ -832,7 +832,7 @@
           "description": "Artificial intelligence (AI) is all around us. AI sends certain emails to our spam folders. It powers autocorrect, which helps us fix typos when we text. And now we can use it to solve business problems. In business, data-driven insights have become increasingly valuable. These insights are often discovered with the help of machine learning […]",
           "link": "https://aws.amazon.com/blogs/aws/new-hands-on-course-for-business-analysts-practical-decision-making-using-no-code-ml-on-aws/",
           "publishedOn": "2022-10-03T16:26:34.000Z",
-          "wordCount": 1830,
+          "wordCount": 1837,
           "title": "New Hands-On Course for Business Analysts – Practical Decision Making using No-Code ML on AWS",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/09/27/Amazon-SageMaker-Canvas_Blog.png"
         },
@@ -842,7 +842,7 @@
           "description": "I am pleased to announce today the availability of Amazon File Cache, a new high-speed cache service on AWS designed for processing file data stored in disparate locations—including on premises. File Cache accelerates and simplifies your most demanding cloud bursting and hybrid workflows by giving your applications access to files using a fast and familiar […]",
           "link": "https://aws.amazon.com/blogs/aws/amazon-file-cache-a-high-performance-cache-on-aws-for-your-on-premises-file-systems/",
           "publishedOn": "2022-09-30T14:56:40.000Z",
-          "wordCount": 2235,
+          "wordCount": 2239,
           "title": "Amazon File Cache – A High Performance Cache On AWS For Your On-Premises File Systems",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/09/29/Site-Merch_Amazon-File-Cache_Blog.png"
         },
@@ -852,7 +852,7 @@
           "description": "At AWS, we love to give our customers choices: the choice of infrastructure to deploy your workloads, to store your most important data, or the operating systems for your virtual desktops. Many of you choose Amazon Workspaces to provision and distribute virtual desktops securely and at scale to your workforce. Our customers choose Workspaces when […]",
           "link": "https://aws.amazon.com/blogs/aws/amazon-workspaces-introduces-ubuntu-desktops/",
           "publishedOn": "2022-09-29T16:48:05.000Z",
-          "wordCount": 1596,
+          "wordCount": 1606,
           "title": "Amazon WorkSpaces Introduces Ubuntu Desktops",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/09/29/Site-Merch_Ubuntu-Desktop-for-Workspaces_Blog-1.png"
         },
@@ -862,7 +862,7 @@
           "description": "Today we announce the general availability of AWS IoT FleetWise, a fully managed AWS service that makes it easier to collect, transform, and transfer vehicle data to the cloud. Last AWS re:Invent 2021, we previewed AWS IoT FleetWise, heard customer feedback, and improved features for various use cases of near-real-time vehicle data processing. With AWS […]",
           "link": "https://aws.amazon.com/blogs/aws/aws-iot-fleetwise-now-generally-available-easily-collect-vehicle-data-and-send-to-the-cloud/",
           "publishedOn": "2022-09-27T16:54:48.000Z",
-          "wordCount": 2460,
+          "wordCount": 2470,
           "title": "AWS IoT FleetWise Now Generally Available – Easily Collect Vehicle Data and Send to the Cloud",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/09/22/Site-Merch_AWS-IoT-FleetWise_Blog.png"
         },
@@ -872,7 +872,7 @@
           "description": "It looks like my travel schedule is coupled with this Week In Review series of blog posts. This week, I am traveling to Fort-de-France in the French Caribbean islands to meet our customers and partners. I enjoy the travel time when I am offline. It gives me the opportunity to reflect on the past or […]",
           "link": "https://aws.amazon.com/blogs/aws/aws-week-in-review-september-26-2022/",
           "publishedOn": "2022-09-26T23:21:36.000Z",
-          "wordCount": 1699,
+          "wordCount": 1709,
           "title": "AWS Week In Review — September 26, 2022",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/09/24/AWS-WIR-9.26.22.png"
         }
@@ -883,6 +883,16 @@
       "feedUrl": "https://xkcd.com/atom.xml",
       "siteUrl": "https://xkcd.com/",
       "articles": [
+        {
+          "id": "https://xkcd.com/2688/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/bubble_universes.png\" title=\"The theory finally unifies cosmic inflation and regular inflation.\" alt=\"The theory finally unifies cosmic inflation and regular inflation.\" />",
+          "link": "https://xkcd.com/2688/",
+          "publishedOn": "2022-10-21T00:00:00.000Z",
+          "wordCount": 232,
+          "title": "Bubble Universes",
+          "imageUrl": "https://imgs.xkcd.com/comics/bubble_universes_2x.png"
+        },
         {
           "id": "https://xkcd.com/2687/",
           "author": null,
@@ -912,16 +922,6 @@
           "wordCount": 230,
           "title": "2045",
           "imageUrl": "https://imgs.xkcd.com/comics/2045_2x.png"
-        },
-        {
-          "id": "https://xkcd.com/2684/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/road_space_comparison.png\" title=\"I wonder how hard it would be to ride an electric scooter in a hamster ball.\" alt=\"I wonder how hard it would be to ride an electric scooter in a hamster ball.\" />",
-          "link": "https://xkcd.com/2684/",
-          "publishedOn": "2022-10-12T00:00:00.000Z",
-          "wordCount": 234,
-          "title": "Road Space Comparison",
-          "imageUrl": "https://imgs.xkcd.com/comics/road_space_comparison_2x.png"
         }
       ]
     },
@@ -936,7 +936,7 @@
           "description": "Monitoring is an essential facet of running applications in a production system. Through this process, organizations collect and analyze data, and determine if a program is performing as expected within set boundaries. When combined with alerting, monitoring allows for detecting unexpected system behavior to mitigate exceptional situations as fast as possible. Furthermore, tracking the performance of a system enables organizations to improve those aspects that have the biggest impact with higher priority. One essential aspect of monitoring is the list of key metrics you want to observe. There are different categories of statistics that can be of interest here. To observe the defined metrics, there are plenty of application monitoring tools on the market today. They differ in many aspects...\nThe post Monitoring Camunda Platform 7 with Prometheus appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/10/monitoring-camunda-platform-7-with-prometheus/",
           "publishedOn": "2022-10-18T13:52:00.000Z",
-          "wordCount": 4604,
+          "wordCount": 4603,
           "title": "Monitoring Camunda Platform 7 with Prometheus",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/10/image-7-1024x505-2.png"
         },
@@ -946,7 +946,7 @@
           "description": "Learn from Bernd Ruecker, Camunda Co-founder/Chief Technologist, and Daniel Meyer, Camunda CTO, as they tackle questions on connectors, modeling & more.\nThe post CamundaCon 2022: Q&A with Bernd and Daniel appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/10/camundacon-2022-qa-bernd-daniel/",
           "publishedOn": "2022-10-14T20:00:27.000Z",
-          "wordCount": 3669,
+          "wordCount": 3668,
           "title": "CamundaCon 2022: Q&A with Bernd and Daniel",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/10/CamundaCon-QA-Bernd-Daniel.png"
         },
@@ -956,7 +956,7 @@
           "description": "Directory services are an effective way to manage an organization’s users, groups, printers, devices, and more. Most organizations accomplish this using Active Directory, Apache Directory, Oracle Internet Directory, or other similar tools. Recently I worked with a customer who wanted to see how he could secure the Camunda 8 Platform and process applications with such a directory. Their requirements consisted of: Allowing Directory users to access Camunda applications (Tasklist, Operate, Optimize) Accessing secured Tasklist & Operate APIs from our custom project Securing the custom project In this article, I’ll briefly explain the 3 easy steps taken to fulfill their requirements which include: Federate users from the Directory service into Keycloak Declare an application in Identity to access Camunda APIs Configure...\nThe post Securing Camunda 8 self-managed cluster and applications behind a directory appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/10/securing-camunda-8-self-managed-cluster-and-applications-behind-a-directory/",
           "publishedOn": "2022-10-12T13:01:00.000Z",
-          "wordCount": 3213,
+          "wordCount": 3212,
           "title": "Securing Camunda 8 self-managed cluster and applications behind a directory",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/10/Active_Directory_Camunda_Platform_8.png"
         },
@@ -976,7 +976,7 @@
           "description": "We’re extremely excited to announce the release of Camunda Platform 7.18 Here are some of the highlights: Cockpit: Improved instance selection to avoid unintended batch operations Cockpit: Easier navigation of high batch operation volumes MDC logging features Camunda Forms in Tasklist: Populate select options via process data Exception error codes Filter and order tasks by last updated WebSphere Liberty New and retired supported environments You can download Camunda Platform or run it with Docker. For a complete list of the changes, please check out the release notes. For patched security vulnerabilities, see our security notices. If you want to dig deeper, check out the source code on GitHub. Cockpit: Improved instance selection to avoid unintended batch operations Previously, when performing...\nThe post Camunda Platform 7.18 Released – What’s New appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/10/camunda-platform-7-18-released-whats-new/",
           "publishedOn": "2022-10-11T13:15:00.000Z",
-          "wordCount": 3586,
+          "wordCount": 3585,
           "title": "Camunda Platform 7.18 Released – What’s New",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/10/Camunda_7.18.png"
         },
@@ -996,7 +996,7 @@
           "description": "What is FEEL As a part of the Decision Model and Notation (DMN) specification, the OMG also defined the Friendly Enough Expression Language (FEEL).  Since DMN is intended to be used by designers and business analysts who would like to build decision tables, FEEL needed to be designed as an uncomplicated and human-readable expression language that would help readers understand the logic being described or executed by the DMN table.  Expression languages are typically used by developers to evaluate data to produce a result based on query parameters or conditions. This means it’s syntactically closer to code than human-readable sentences. Since one of the goals of FEEL is to be “process analyst friendly,” it prioritizes readability more than other expression...\nThe post Using FEEL with Camunda 8 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/09/using-feel-with-camunda-8/",
           "publishedOn": "2022-09-30T16:53:40.000Z",
-          "wordCount": 4156,
+          "wordCount": 4155,
           "title": "Using FEEL with Camunda 8",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/09/Camunda_using-FEEL-C8_blog-ftd-image_1200x630.png"
         },
@@ -1006,7 +1006,7 @@
           "description": "Scaling process automation across an enterprise naturally includes a wide array of challenges. To counter these challenges, more and more organizations are evolving their organizational structures accordingly, often creating Centers of Excellence (CoE) and/or communities of practice (CoP). Please note that during this post we will use the term CoE, but keep in mind your organization might call this very differently. That said, in Camunda Platform 8, we included new functionalities that will help companies to scale process automation successfully.  This blog post discusses different aspects of scaling process automation, the role of CoEs, and how new Camunda 8 features support those initiatives.  What does scaling mean? Organizations that want to create a competitive edge through digital transformation (and frankly: which...\nThe post How Camunda 8 supports process automation at enterprise scale appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/09/how-camunda-8-supports-process-automation-at-enterprise-scale/",
           "publishedOn": "2022-09-29T19:30:00.000Z",
-          "wordCount": 3897,
+          "wordCount": 3896,
           "title": "How Camunda 8 supports process automation at enterprise scale",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/09/Camund_Blog_Process-Automation-at-Enterprise-Scale_1200x630-1.png"
         },
@@ -1016,7 +1016,7 @@
           "description": "Microservices are an architectural style that structures an application as a collection of services that are: Highly maintainable and testable Loosely coupled Independently deployable Organized around business capabilities Owned by a small team Conway’s Law states that “any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization’s communication structure”. If your organization has multiple teams working on different parts of a larger system, then microservices can serve as a separation of concerns that map an independent, encapsulated service to a specific team. These teams have clear boundaries of responsibility and can deploy on their own schedule. These factors lend themselves to a polyglot approach. What this means is that because...\nThe post 7 Best Programming Languages for Microservices appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/09/seven-best-programming-languages-for-microservices/",
           "publishedOn": "2022-09-29T13:30:00.000Z",
-          "wordCount": 5126,
+          "wordCount": 5125,
           "title": "7 Best Programming Languages for Microservices",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/09/Camunda_Blog_7-Best-Programming-Languages-Microservices_1200x630-1.png"
         },
@@ -1051,21 +1051,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://cdn-img.tonarinoyj.jp/public/episode-thumbnail/316112896950049151-eaa2e7d053ba1801b931c55e99fdfda6"
-        },
-        {
-          "id": "tonarino_yj:episode:316112896867289136",
-          "author": "原作/ＯＮＥ/漫画/村田雄介",
-          "description": "ワンパンマン",
-          "link": "https://tonarinoyj.jp/episode/316112896867289136",
-          "publishedOn": "2022-09-21T15:00:00.000Z",
-          "wordCount": 211,
-          "title": "[第216話] ワンパンマン",
-          "enclosure": {
-            "url": "https://cdn-img.tonarinoyj.jp/public/episode-thumbnail/316112896867289136-ec72dd1edd1d2bc1dd7149719034eb96",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://cdn-img.tonarinoyj.jp/public/episode-thumbnail/316112896867289136-ec72dd1edd1d2bc1dd7149719034eb96"
         }
       ]
     },
@@ -1075,12 +1060,32 @@
       "siteUrl": "https://github.blog/",
       "articles": [
         {
+          "id": "https://github.blog/2022-10-21-build-a-game-this-november-with-game-off-2022/",
+          "author": null,
+          "description": "Save the date! Game Off returns on November 1 for it’s 10th year! 🎉",
+          "link": "https://github.blog/2022-10-21-build-a-game-this-november-with-game-off-2022/",
+          "publishedOn": "2022-10-21T17:30:25.000Z",
+          "wordCount": 896,
+          "title": "Build a game this November with Game Off 2022",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/10/game-off-large.png"
+        },
+        {
+          "id": "https://github.blog/2022-10-21-git-merge-2022-mission-report/",
+          "author": null,
+          "description": "Git Merge 2022 just wrapped up bringing the community together for 16 talks, three workshops, one Git Contributor Summit, and lots of great conversations over two days. Read on for more info, photos from the event, and all of the session recordings.",
+          "link": "https://github.blog/2022-10-21-git-merge-2022-mission-report/",
+          "publishedOn": "2022-10-21T16:00:11.000Z",
+          "wordCount": 852,
+          "title": "Git Merge 2022 &#8211; that&#8217;s a wrap! 🎬",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/10/git-merge-2022-view.png?fit=1200%2C630"
+        },
+        {
           "id": "https://github.blog/2022-10-20-unboxing-fork-improvements-and-unwrapping-fork-docs/",
           "author": null,
           "description": "We’re always trying to improve the GitHub developer experience in meaningful ways, and we love learning from our customers. In the last several months we released several new fork capabilities, and we’re publishing revised fork documentation that gives more details with clearer explanations to make fork concepts easier to understand.",
           "link": "https://github.blog/2022-10-20-unboxing-fork-improvements-and-unwrapping-fork-docs/",
           "publishedOn": "2022-10-20T18:00:58.000Z",
-          "wordCount": 1809,
+          "wordCount": 1802,
           "title": "Unboxing fork improvements and unwrapping fork docs",
           "imageUrl": "https://github.blog/wp-content/uploads/2020/07/new-docs-site.png"
         },
@@ -1100,7 +1105,7 @@
           "description": "Upgrade your local installation of Git, especially when cloning with --recurse-submodules from untrusted repositories, or if you use git shell interactive mode.",
           "link": "https://github.blog/2022-10-18-git-security-vulnerabilities-announced/",
           "publishedOn": "2022-10-18T17:11:45.000Z",
-          "wordCount": 1268,
+          "wordCount": 1274,
           "title": "Git security vulnerabilities announced",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/10/Group-3.png"
         },
@@ -1153,26 +1158,6 @@
           "wordCount": 1706,
           "title": "Introducing GitHub Advanced Security SIEM integrations for security professionals",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/08/Security-Product@2x.png"
-        },
-        {
-          "id": "https://github.blog/2022-10-13-the-story-of-scalar/",
-          "author": null,
-          "description": "New to Git v2.38, Scalar is a built-in repository manager for large repos. Here, we’ll tell the story of how Scalar went from a rough VFS for Git successor to a fully-integrated Git tool, with all of the engineering lessons learned in the process.",
-          "link": "https://github.blog/2022-10-13-the-story-of-scalar/",
-          "publishedOn": "2022-10-13T15:00:12.000Z",
-          "wordCount": 4963,
-          "title": "The Story of Scalar",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/10/scalar1.png?fit=1600%2C850"
-        },
-        {
-          "id": "https://github.blog/2022-10-11-the-github-universe-2022-agenda-is-live/",
-          "author": null,
-          "description": "Explore 80+ content sessions delivered by over 120 different speakers, across two days and four content tracks, all designed to level up your skills.",
-          "link": "https://github.blog/2022-10-11-the-github-universe-2022-agenda-is-live/",
-          "publishedOn": "2022-10-11T19:39:36.000Z",
-          "wordCount": 1758,
-          "title": "The GitHub Universe 2022 agenda is live",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/10/universeheader1.png"
         }
       ]
     },
@@ -1281,7 +1266,7 @@
           "description": "by Jun He, Akash Dwivedi, Natallia Dzenisenka, Snehal Chennuru, Praneeth Yenugutala, Pawan Dixit",
           "link": "https://netflixtechblog.com/orchestrating-data-ml-workflows-at-scale-with-netflix-maestro-aaa2b41b800c?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-10-18T20:43:36.000Z",
-          "wordCount": 6790,
+          "wordCount": 6706,
           "title": "Orchestrating Data/ML Workflows at Scale With Netflix Maestro",
           "imageUrl": "https://miro.medium.com/max/1200/0*SDt718rSvgh2Nclv"
         },
@@ -1291,7 +1276,7 @@
           "description": "A conversation between Travis Brooks, Netflix Product Manager for Experimentation Platform, and George Khachatryan, OfferFit CEO",
           "link": "https://netflixtechblog.com/how-product-teams-can-build-empathy-through-experimentation-6253603880a6?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-10-12T20:56:33.000Z",
-          "wordCount": 4588,
+          "wordCount": 4554,
           "title": "How Product Teams Can Build Empathy Through Experimentation",
           "imageUrl": "https://miro.medium.com/max/1200/1*tdD6kCUukBXG91LAAYr-zw.png"
         },
@@ -1301,7 +1286,7 @@
           "description": "by Kostas Christidis",
           "link": "https://netflixtechblog.com/timestone-netflixs-high-throughput-low-latency-priority-queueing-system-with-built-in-support-1abf249ba95f?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-09-28T15:40:35.000Z",
-          "wordCount": 5435,
+          "wordCount": 5444,
           "title": "Timestone: Netflix’s High-Throughput, Low-Latency Priority Queueing System with Built-in Support…",
           "imageUrl": "https://miro.medium.com/focal/1200/632/46/46/1*JvNLSZmWCDB1WjDDUamU_g.png"
         }
@@ -1315,112 +1300,102 @@
         {
           "id": "http://ai.googleblog.com/2022/10/pi-ars-accelerating-evolution-learned.html",
           "author": null,
-          "description": "Posted by Wenhao Yu, Research Scientist, Robotics at Google, and Kuang-Huei Lee, Research Engineer, Google Research, Brain team \nEvolution strategy (ES) is a family of optimization techniques inspired by the ideas of natural selection: a population of candidate solutions are usually evolved over generations to better adapt to an optimization objective. ES has been applied to a variety of challenging decision making problems, such as legged locomotion, quadcopter control, and even power system control.  \nCompared to gradient-based reinforcement learning (RL) methods like proximal policy optimization (PPO) and soft actor-critic (SAC), ES has several advantages. First, ES directly explores in the space of controller parameters, while gradient-based methods often explore within a limited actio…",
+          "description": "Posted by Wenhao Yu, Research Scientist, Robotics at Google, and Kuang-Huei Lee, Research Engineer, Google Research, Brain team \nEvolution strategy (ES) is a family of optimization techniques inspired by the ideas of natural selection: a population of candidate solutions are usually evolved over generations to better adapt to an optimization objective. ES has been applied to a variety of challenging decision making problems, such as legged locomotion, quadcopter control, and even power system control.  \n\nCompared to gradient-based reinforcement learning (RL) methods like proximal policy optimization (PPO) and soft actor-critic (SAC), ES has several advantages. First, ES directly explores in the space of controller parameters, while gradient-based methods often explore within a limited acti…",
           "link": "http://ai.googleblog.com/2022/10/pi-ars-accelerating-evolution-learned.html",
-          "publishedOn": "2022-10-20T20:39:00.002Z",
-          "wordCount": 7441,
+          "publishedOn": "2022-10-20T20:39:00.015Z",
+          "wordCount": 27700,
           "title": "PI-ARS: Accelerating Evolution-Learned Visual-Locomotion with Predictive Information Representations",
-          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9-FBUlQSRlE2rFmeloCUXYYfBngkIWz6RIDURErqOxjFSd785fpbkjetz4lkfbUhxY8rDB88yOy26ml669f2WcP16SkXH8uZfy60jCgMq28Ggm__ombQNfdhvYe-1qsOF1imso96y26PjhT3pSukVmy__RHkVdKOJRbMTTS_k0hEJfWexdcbY4QJ2QA/s72-c/image3.gif"
         },
         {
           "id": "http://ai.googleblog.com/2022/10/musiq-assessing-image-aesthetic-and.html",
           "author": null,
           "description": "Posted by Junjie Ke, Senior Software Engineer, and Feng Yang, Senior Staff Software Engineer, Google Research\nUnderstanding the aesthetic and technical quality of images is important for providing a better user visual experience. Image quality assessment (IQA) uses models to build a bridge between an image and a user's subjective perception of its quality. In the deep learning era, many IQA approaches, such as NIMA, have achieved success by leveraging the power of convolutional neural networks (CNNs). However, CNN-based IQA models are often constrained by the fixed-size input requirement in batch training, i.e., the input images need to be resized or cropped to a fixed size shape. This preprocessing is problematic for IQA because images can have very different aspect ratios and resolutions…",
           "link": "http://ai.googleblog.com/2022/10/musiq-assessing-image-aesthetic-and.html",
-          "publishedOn": "2022-10-20T16:58:00.002Z",
-          "wordCount": 7679,
+          "publishedOn": "2022-10-20T16:58:00.010Z",
+          "wordCount": 27669,
           "title": "MUSIQ: Assessing Image Aesthetic and Technical Quality with Multi-scale Transformers",
-          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCIbYQlkOE0n8G7IFh_Uo4KhEafpAKdpnx9swpUA06IV4kFaqN2bTjd22zaSmhVUDmzpFOAqTH73AQNtXvffeaW3UZwlI54w427v7dsDsI8_8UQEvY198hGgTCu9f0upoDn33AYsq0fqUbwu12rwb9_FVzrSTTHNewaiJyMIpEDzMURKzFdzpZOubazQ/s72-c/MUSIQ.png"
         },
         {
           "id": "http://ai.googleblog.com/2022/10/do-modern-imagenet-classifiers.html",
           "author": null,
           "description": "Posted by Manoj Kumar, Research Engineer, and Ekin Dogus Cubuk, Research Scientist, Google Research \nThe task of determining the similarity between images is an open problem in computer vision and is crucial for evaluating the realism of machine-generated images. Though there are a number of straightforward methods of estimating image similarity (e.g., low-level metrics that measure pixel differences, such as FSIM and SSIM), in many cases, the measured similarity differences do not match the differences perceived by a person. However, more recent work has demonstrated that intermediate representations of neural network classifiers, such as AlexNet, VGG and SqueezeNet trained on ImageNet, exhibit perceptual similarity as an emergent property. That is, Euclidean distances between encoded rep…",
           "link": "http://ai.googleblog.com/2022/10/do-modern-imagenet-classifiers.html",
-          "publishedOn": "2022-10-19T17:57:00.003Z",
-          "wordCount": 7654,
+          "publishedOn": "2022-10-19T17:57:00.005Z",
+          "wordCount": 27562,
           "title": "Do Modern ImageNet Classifiers Accurately Predict Perceptual Similarity?",
-          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguCNOD5qe7A72gZv0sl7QIgLv4HL06sCxEzVQLELH8Affzu_UzyEFJPj2nGU5PdEFO6h6XErHLFZqpFgcrJQZO0sif3zH70avGxMsop1IBQvfFKTBKfdJ-6OBYdIODCS9xopyjaIRRmcNR58EygavFwwxrGxqlOLidEkIvZxvHCIUdBsnczvy_EC7C/s72-c/image5.png"
         },
         {
           "id": "http://ai.googleblog.com/2022/10/table-tennis-research-platform-for.html",
           "author": null,
           "description": "Posted by Avi Singh, Research Scientist, and Laura Graesser, Research Engineer, Robotics at Google\nRobot learning has been applied to a wide range of challenging real world tasks, including dexterous manipulation, legged locomotion, and grasping. It is less common to see robot learning applied to dynamic, high-acceleration tasks requiring tight-loop human-robot interactions, such as table tennis. There are two complementary properties of the table tennis task that make it interesting for robotic learning research. First, the task requires both speed and precision, which puts significant demands on a learning algorithm. At the same time, the problem is highly-structured (with a fixed, predictable environment) and naturally multi-agent (the robot can play with humans or another robot), makin…",
           "link": "http://ai.googleblog.com/2022/10/table-tennis-research-platform-for.html",
-          "publishedOn": "2022-10-18T17:50:00.002Z",
-          "wordCount": 7794,
+          "publishedOn": "2022-10-18T17:50:00.024Z",
+          "wordCount": 27730,
           "title": "Table Tennis: A Research Platform for Agile Robotics",
-          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh563V_fA2AfwFfnKgijiPz38oX40zeziDIAGd6chEHZiNJRLpo1N3IXjqYRhF9acNGgkwrrBvbDMKIeTxov5QJHtTx3FO36jdOVlvMpRWdjrASBWSrGLNWP8gIPoS_qEk4z5fdJiNhLKwYWiMQDsjiFwvE5iABgFNyoREW37VzHjJ102qWxpNP7aWBvg/s72-c/i-S2R.gif"
         },
         {
           "id": "http://ai.googleblog.com/2022/10/ul2-20b-open-source-unified-language.html",
           "author": null,
-          "description": "Posted by Yi Tay and Mostafa Dehghani, Research Scientists, Google Research, Brain Team\nBuilding models that understand and generate natural language well is one the grand goals of machine learning (ML) research and has a direct impact on building smart systems for everyday applications. Improving the quality of language models is a key target for researchers to make progress toward such a goal.   \nMost common paradigms to build and train language models use either autoregressive decoder-only architectures (e.g., PaLM or GPT-3), where the model is trained to predict the next word for a given prefix phrase, or span corruption-based encoder-decoder architectures (e.g., T5, ST-MoE), where the training objective is to recover the subset of words masked out of the input. On the one hand, T5-lik…",
+          "description": "Posted by Yi Tay and Mostafa Dehghani, Research Scientists, Google Research, Brain Team\nBuilding models that understand and generate natural language well is one the grand goals of machine learning (ML) research and has a direct impact on building smart systems for everyday applications. Improving the quality of language models is a key target for researchers to make progress toward such a goal.   \n\nMost common paradigms to build and train language models use either autoregressive decoder-only architectures (e.g., PaLM or GPT-3), where the model is trained to predict the next word for a given prefix phrase, or span corruption-based encoder-decoder architectures (e.g., T5, ST-MoE), where the training objective is to recover the subset of words masked out of the input. On the one hand, T5-li…",
           "link": "http://ai.googleblog.com/2022/10/ul2-20b-open-source-unified-language.html",
-          "publishedOn": "2022-10-14T18:47:00.003Z",
-          "wordCount": 8058,
+          "publishedOn": "2022-10-14T18:47:00.009Z",
+          "wordCount": 27854,
           "title": "UL2 20B: An Open Source Unified Language Learner",
-          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoRWMTOf1JUl345eb5BqKEPTRRxPvzPdzvspKtqlwNHqo4BVq98MJYkvEVPZAPdYmLaFMLQKAolOdzKD3uzbYTdYM8S9Z-y5BXgy6kotdukG8w9VCkrZt3Vb0H-BEDp8XC5bGIsA_OEQPWWll1vNRZbSBwJWowTCTf9cnW-7fDOXT8MmyH5s8KzieCQg/s72-c/image3.gif"
         },
         {
           "id": "http://ai.googleblog.com/2022/10/crossmodal-3600-multilingual-reference.html",
           "author": null,
-          "description": "Posted by Ashish Thapliyal, Software Engineer, and Jordi Pont-Tuset, Research Scientist, Google Research\nImage captioning is the machine learning task of automatically generating a fluent natural language description for a given image. This task is important for improving accessibility for visually impaired users and is a core task in multimodal research encompassing both vision and language modeling.  \n However, datasets for image captioning are primarily available in English. Beyond that, there are only a few datasets covering a limited number of languages that represent just a small fraction of the world’s population. Further, these datasets feature images that severely under-represent the richness and diversity of cultures from across the globe. These aspects have hindered research on …",
+          "description": "Posted by Ashish Thapliyal, Software Engineer, and Jordi Pont-Tuset, Research Scientist, Google Research\nImage captioning is the machine learning task of automatically generating a fluent natural language description for a given image. This task is important for improving accessibility for visually impaired users and is a core task in multimodal research encompassing both vision and language modeling.  \n \nHowever, datasets for image captioning are primarily available in English. Beyond that, there are only a few datasets covering a limited number of languages that represent just a small fraction of the world’s population. Further, these datasets feature images that severely under-represent the richness and diversity of cultures from across the globe. These aspects have hindered research on…",
           "link": "http://ai.googleblog.com/2022/10/crossmodal-3600-multilingual-reference.html",
-          "publishedOn": "2022-10-13T16:53:00.003Z",
-          "wordCount": 8839,
+          "publishedOn": "2022-10-13T16:53:00.014Z",
+          "wordCount": 27895,
           "title": "Crossmodal-3600 — Multilingual Reference Captions for Geographically Diverse Images",
-          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhA3qznWJUsCY3Jh7Z5CPA5U3dJIBWD28I3OOEXklBBY4TseAh5iap2pmDdYi-s4PbBZZu7lgMut_pW9WpbEr9FLyRK0WBnzejaerkRjJfNAc4tKhOvbnxhTY70akSiIrEir7NUxXhgbFyA1DopoQdqY0feRtoiTRkuyh6Goiqs2m73Yz9bFeBvkhekSg/s72-c/xm3600_animation_long.gif"
         },
         {
           "id": "http://ai.googleblog.com/2022/10/audiolm-language-modeling-approach-to.html",
           "author": null,
           "description": "Posted by Zalán Borsos, Research Software Engineer, and Neil Zeghidour, Research Scientist, Google Research \nGenerating realistic audio requires modeling information represented at different scales. For example, just as music builds complex musical phrases from individual notes, speech combines temporally local structures, such as phonemes or syllables, into words and sentences. Creating well-structured and coherent audio sequences at all these scales is a challenge that has been addressed by coupling audio with transcriptions that can guide the generative process, be it text transcripts for speech synthesis or MIDI representations for piano. However, this approach breaks when trying to model untranscribed aspects of audio, such as speaker characteristics necessary to help people with spee…",
           "link": "http://ai.googleblog.com/2022/10/audiolm-language-modeling-approach-to.html",
-          "publishedOn": "2022-10-06T20:05:00.000Z",
-          "wordCount": 6844,
+          "publishedOn": "2022-10-06T20:05:00.001Z",
+          "wordCount": 27482,
           "title": "AudioLM: a Language Modeling Approach to Audio Generation",
-          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX0MyO_IXk730mCbbJX7LXxBRIxJk2K41Y4leuEk4WQRjz0kgIp9CGHFwLePaKt3qEcCK8fvhAxjJ7J_sXH05q7xnsMbjZZFDDLPIlVyaKr3yYo77oT2KBqe9gw4MFuUZnUfxFprP67ExPzr2RNxduB0SruUGjJXghihHSoxvMtlG3YNtHHesZOJzY/s72-c/image2.png"
         },
         {
           "id": "http://ai.googleblog.com/2022/10/large-motion-frame-interpolation.html",
           "author": null,
           "description": "Posted by Fitsum Reda and Janne Kontkanen, Google Research \nFrame interpolation is the process of synthesizing in-between images from a given set of images. The technique is often used for temporal up-sampling to increase the refresh rate of videos or to create slow motion effects. Nowadays, with digital cameras and smartphones, we often take several photos within a few seconds to capture the best picture. Interpolating between these “near-duplicate” photos can lead to engaging videos that reveal scene motion, often delivering an even more pleasing sense of the moment than the original photos.  \n  \nFrame interpolation between consecutive video frames, which often have small motion, has been studied extensively. Unlike videos, however, the temporal spacing between near-duplicate photos can …",
           "link": "http://ai.googleblog.com/2022/10/large-motion-frame-interpolation.html",
-          "publishedOn": "2022-10-04T18:43:00.003Z",
-          "wordCount": 7573,
+          "publishedOn": "2022-10-04T18:43:00.004Z",
+          "wordCount": 27659,
           "title": "Large Motion Frame Interpolation",
-          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRIrNGJ_ULWX3iM63cdI0H6CJx9200rUy_yxYJbT15kNRlAkgiZ4o_8NfWyfZ2GnTusotAQXxMjVkhh0zvOW92meJkwRniD2Fh6DyvZukZDOo_ZujCcsos37LOeE9rpZlyh2VNFYVMa5WapuSpCxdTJ9UWVBLZvRdlup7ACXPlq_zhR6tyE8KoUpsg0g/s72-c/image3.gif"
         },
         {
           "id": "http://ai.googleblog.com/2022/09/quantization-for-fast-and.html",
           "author": null,
           "description": "Posted by Srivatsan Krishnan, Student Researcher, and Aleksandra Faust, Senior Staff Research Scientist, Google Research, Brain Team   \nDeep reinforcement learning (RL) continues to make great strides in solving real-world sequential decision-making problems such as balloon navigation, nuclear physics, robotics, and games. Despite its promise, one of its limiting factors is long training times. While the current approach to speed up RL training on complex and difficult tasks leverages distributed training scaling up to hundreds or even thousands of computing nodes, it still requires the use of significant hardware resources which makes RL training expensive, while increasing its environmental impact. However, recent work [1, 2] indicates that performance optimizations on existing hardware …",
           "link": "http://ai.googleblog.com/2022/09/quantization-for-fast-and.html",
-          "publishedOn": "2022-09-27T17:32:00.000Z",
-          "wordCount": 6946,
+          "publishedOn": "2022-09-27T17:32:00.001Z",
+          "wordCount": 27488,
           "title": "Quantization for Fast and Environmentally Sustainable Reinforcement Learning",
-          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgF_4o81i0gPf7bU-_E8Fqhy_Ih-AdGI6s_CNhcfVv6wirCsGJlMdwX7DQamF3VYTUbNNJn1E2omMJ3tziscCnTxrxMslApGiPfrg67-3H7WpKCcxXJg5ihqaSrKlOLClmgTIxy8yDKMIFZIQzZL1tNamHlGGvtXZW6zWDAHHlN8kRCZAjYGcuFuDaOYw/s72-c/image4.gif"
         },
         {
           "id": "http://ai.googleblog.com/2022/09/tensorstore-for-high-performance.html",
           "author": null,
-          "description": "Posted by Jeremy Maitin-Shepard and Laramie Leavitt, Software Engineers, Connectomics at Google\nMany exciting contemporary applications of computer science and machine learning (ML) manipulate multidimensional datasets that span a single large coordinate system, for example, weather modeling from atmospheric measurements over a spatial grid or medical imaging predictions from multi-channel image intensity values in a 2d or 3d scan. In these settings, even a single dataset may require terabytes or petabytes of data storage. Such datasets are also challenging to work with as users may read and write data at irregular intervals and varying scales, and are often interested in performing analyses using numerous machines working in parallel.  \nToday we are introducing TensorStore, an open-source…",
+          "description": "Posted by Jeremy Maitin-Shepard and Laramie Leavitt, Software Engineers, Connectomics at Google\nMany exciting contemporary applications of computer science and machine learning (ML) manipulate multidimensional datasets that span a single large coordinate system, for example, weather modeling from atmospheric measurements over a spatial grid or medical imaging predictions from multi-channel image intensity values in a 2d or 3d scan. In these settings, even a single dataset may require terabytes or petabytes of data storage. Such datasets are also challenging to work with as users may read and write data at irregular intervals and varying scales, and are often interested in performing analyses using numerous machines working in parallel.  \n\nToday we are introducing TensorStore, an open-sourc…",
           "link": "http://ai.googleblog.com/2022/09/tensorstore-for-high-performance.html",
-          "publishedOn": "2022-09-22T21:33:00.006Z",
-          "wordCount": 7855,
+          "publishedOn": "2022-09-22T21:33:00.007Z",
+          "wordCount": 27884,
           "title": "TensorStore for High-Performance, Scalable Array Storage",
-          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
-        },
-        {
-          "id": "http://ai.googleblog.com/2022/09/view-synthesis-with-transformers.html",
-          "author": null,
-          "description": "Posted by Carlos Esteves and Ameesh Makadia, Research Scientists, Google Research \nA long-standing problem in the intersection of computer vision and computer graphics, view synthesis is the task of creating new views of a scene from multiple pictures of that scene. This has received increased attention [1, 2, 3] since the introduction of neural radiance fields (NeRF). The problem is challenging because to accurately synthesize new views of a scene, a model needs to capture many types of information — its detailed 3D structure, materials, and illumination —  from a small set of reference images.  \nIn this post, we present recently published deep learning models for view synthesis. In “Light Field Neural Rendering” (LFNR), presented at CVPR 2022, we address the challenge of accurately repro…",
-          "link": "http://ai.googleblog.com/2022/09/view-synthesis-with-transformers.html",
-          "publishedOn": "2022-09-21T19:27:00.000Z",
-          "wordCount": 7635,
-          "title": "View Synthesis with Transformers",
-          "imageUrl": "http://2.bp.blogspot.com/-qRz-hnwUdY4/WulXSQ6Rv4I/AAAAAAAATvQ/shk7KsphA0c3E3nUMsDVASqYaH0PhLPNwCK4BGAYYCw/s1600/GoogleAI_logo_horizontal_color_rgb.png"
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgX9DAdPcFpMfSPteAKTplWpi2h3okSemN9o1J3B6K45LHBjkp2OiSbNimITgluVBLLyyVwXIhe0tvhwDIG01lWXXPCW-Lh0HqOg6qRBE96ON4ndUBmb4kdDmQ0cMsk2dZcsHkTNU2quF7UMttmX8-GbfMLGmXfKePb1sGIa0qSODsf6oV4dXPZhoo-/s72-c/image1.gif"
         }
       ]
     },
@@ -1430,12 +1405,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=44056",
+          "author": "Seth Godin",
+          "description": "“The number of people who say that Moore’s Law can’t continue doubles every 24 months.” Even if you don’t understand this at first, it’s worth a second to understand it. Moore’s Law, now nearly sixty years old, describes a simple engineering fact that has changed the life of everyone on the planet. The number of […]",
+          "link": "https://feeds.feedblitz.com/~/716500452/0/sethsblog~Dawanis-Law/",
+          "publishedOn": "2022-10-21T08:25:00.000Z",
+          "wordCount": 1175,
+          "title": "Dawani’s Law",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806132-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=43037",
           "author": "Seth Godin",
           "description": "Objections are helpful. We object by holding back action or support because we question one or more pieces of data. But the other half of this is the obligation: if the data ends up meeting the standard of proof we set for it, we have to change our minds and spend as much energy supporting […]",
           "link": "https://feeds.feedblitz.com/~/716283416/0/sethsblog~The-obligation-of-the-honest-skeptic/",
           "publishedOn": "2022-10-20T08:54:00.000Z",
-          "wordCount": 1055,
+          "wordCount": 1056,
           "title": "The obligation of the honest skeptic",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg"
         },
@@ -1518,16 +1503,6 @@
           "wordCount": 1180,
           "title": "The uncanny valley of scale",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806132-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=42982",
-          "author": "Seth Godin",
-          "description": "I’m not sure we have a common word for this. “Yes” can mean, “yes, I’m prepared to do the minimum” or it could mean, “yes, this commitment is something I wholeheartedly embrace and will devote myself to exceeding expectations at every turn.” Life’s way better if we find partnerships that are the second kind. “All […]",
-          "link": "https://feeds.feedblitz.com/~/715240176/0/sethsblog~Without-reservations/",
-          "publishedOn": "2022-10-11T08:45:00.000Z",
-          "wordCount": 1049,
-          "title": "Without reservations",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061313.jpg"
         }
       ]
     },
@@ -1536,6 +1511,86 @@
       "feedUrl": "https://blog.jetbrains.com/feed/",
       "siteUrl": "https://blog.jetbrains.com",
       "articles": [
+        {
+          "id": "https://blog.jetbrains.com/?post_type=clion&p=289412",
+          "author": "Anastasia Kazakova",
+          "description": "A new CLion 2022.3 EAP build is available! Download build 223.7126.6 from our website, via the Toolbox App, or as a snap package (if you are using Ubuntu). If you are on macOS, there is a separate build for Apple Silicon (M1 chip). Update via patch if you are using the previous EAP build. DOWNLOAD […]",
+          "link": "https://blog.jetbrains.com/clion/2022/10/clion-2022-3-eap-cpp20-modules-now-supported/",
+          "publishedOn": "2022-10-21T15:21:53.000Z",
+          "wordCount": 2623,
+          "title": "CLion 2022.3 EAP: C++20 Modules Now Supported!",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/09/Social_share_image_1280x720_CLion-2x.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=idea&p=289416",
+          "author": "Zlata Kalyuzhnaya",
+          "description": "We’re happy to announce a new live stream on Java ecosystem security with Open Source and DevSecOps! To learn more about using security in the Java ecosystem, register today and join us on the day of the event: Date: Tuesday, October 27, 2022 Time: 5:00 pm –6:00 pm CEST REGISTER FOR THE WEBINAR Session agenda […]",
+          "link": "https://blog.jetbrains.com/idea/2022/10/new-live-stream-diving-into-java-ecosystem-security-with-open-source-and-devsecops/",
+          "publishedOn": "2022-10-21T14:42:15.000Z",
+          "wordCount": 2211,
+          "title": "New Live Stream: Diving Into Java Ecosystem Security With Open Source and DevSecOps",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/02/intellij-idea_social.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=go&p=289427",
+          "author": "Sergey Kozlovskiy",
+          "description": "The fourth build of the GoLand 2022.3 EAP is now available!  You can get the EAP build via the Toolbox App, download it from our website, use a snap package (for Ubuntu), or from inside GoLand, select Check IDE updates for Early Access Program in Preferences/Settings | Appearance & Behavior | System Settings | Updates. […]",
+          "link": "https://blog.jetbrains.com/go/2022/10/21/test-generation-for-generic-functions-code-vision-improvements-for-http-client-and-docker-in-goland-2022-3-eap-4/",
+          "publishedOn": "2022-10-21T14:37:05.000Z",
+          "wordCount": 3045,
+          "title": "Test Generation for Generic Functions, Code Vision, Improvements for HTTP Client and Docker in GoLand 2022.3 EAP #4",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/09/Blog_Social_share_image_1280x720_GoLand-2x.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=idea&p=287698",
+          "author": "Maria Kosukhina",
+          "description": "IntelliJ IDEA 2022.3 EAP 4 is out!  It brings a new way to work with projects in WSL2, numerous improvements to working with Jakarta EE 10, Hibernate, Micronaut, the HTTP Client, Docker, and more. This blog post covers these and other updates in detail.  You can get the latest build from our website or the […]",
+          "link": "https://blog.jetbrains.com/idea/2022/10/intellij-idea-2022-3-eap-4/",
+          "publishedOn": "2022-10-21T14:04:39.000Z",
+          "wordCount": 2918,
+          "title": "IntelliJ IDEA 2022.3 EAP 4: Jakarta EE 10, Hibernate 6.1 Features, Docker Updates, and More",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/02/intellij-idea_social.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=blog&p=289079",
+          "author": "Valeria Letusheva",
+          "description": "Join us Monday, October 31, at 5:00 pm UTC (check other timezones) for our live webinar, New UI for Your IDE: A Glimpse Into the Future with JetBrains Developer Advocates. REGISTER JetBrains released our first IDE in January 2001. Since then, there have been many incremental changes to the UI we know and love. Recently, […]",
+          "link": "https://blog.jetbrains.com/blog/2022/10/21/online-broadcast-new-ui/",
+          "publishedOn": "2022-10-21T12:58:10.000Z",
+          "wordCount": 2099,
+          "title": "Webinar: “New UI for Your IDE: A Glimpse Into the Future”",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/10/DSGN-14789-Webinar-New-UI-A-Glimpse-at-the-Future-v2_JB_Blog_Social_share_image_1280-720.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=appcode&p=289109",
+          "author": "Anastasia Kazakova",
+          "description": "Hi everyone, A new AppCode 2022.3 EAP build (223.7126.4) is available for download from our website or via the Toolbox App. You can also update from the second 2022.3 EAP build via patch. DOWNLOAD APPCODE EAP This EAP build improves AppCode’s compatibility with Xcode 14.1 RC by fixing an exception that happens on project opening […]",
+          "link": "https://blog.jetbrains.com/appcode/2022/10/appcode-2022-3-eap-compatibility-with-xcode-14-1-rc-and-enhanced-inline-refactoring/",
+          "publishedOn": "2022-10-21T11:09:03.000Z",
+          "wordCount": 2004,
+          "title": "AppCode 2022.3 EAP: Compatibility With Xcode 14.1 RC and Enhanced Inline Refactoring",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/09/Blog_Social_share_image_1280x720_AppCode-2x.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=ruby&p=289042",
+          "author": "Iryna Pisklyarova",
+          "description": "RubyMine 2022.3 EAP4 is here! Below, you can see the most notable new functionality. Please try it out and share your feedback in the comments or by using our issue tracker. New UI available via settings Last year, we announced a closed preview program for the new UI for JetBrains IDEs. We aimed to introduce […]",
+          "link": "https://blog.jetbrains.com/ruby/2022/10/rubymine-2022-3-eap4/",
+          "publishedOn": "2022-10-21T06:28:40.000Z",
+          "wordCount": 2574,
+          "title": "Meet RubyMine 2022.3 EAP4, with the New UI and Settings Sync Solution",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/10/Blog_Featured_image_1280x600_RubyMine-2x.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=288797",
+          "author": "Anastasia Kazakova",
+          "description": "The new RiderFlow update is out now! Let’s take a look at what’s new. New to RiderFlow? RiderFlow helps manage scenes, navigate and search through them, and even refactor them. You can download it from the Asset Store, use the Unity package manager to install it, or get RiderFlow.unitypackage directly from our website. DOWNLOAD RIDERFLOW […]",
+          "link": "https://blog.jetbrains.com/dotnet/2022/10/20/riderflow-2022-1-4-bug-fix-update/",
+          "publishedOn": "2022-10-20T11:53:20.000Z",
+          "wordCount": 2218,
+          "title": "RiderFlow 2022.1.4 Bug-Fix Update",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/10/rf-bug-fix-blog-social-share-image-1280x720-1.png"
+        },
         {
           "id": "https://blog.jetbrains.com/?post_type=phpstorm&p=287711",
           "author": "Roman Pronskiy",
@@ -1575,86 +1630,6 @@
           "wordCount": 1862,
           "title": "DataSpell 2022.2.3 Is Out!",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/10/Release_Blog_Social_share_image_1280x720_DataSpell_3-2x.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=webstorm&p=286629",
-          "author": "David Watson",
-          "description": "WebStorm 2022.3 EAP build #3 is now available! To catch up on all the new features, check out our previous EAP blog posts. The Toolbox App is the easiest way to get the EAP builds and keep both your stable and EAP versions up to date. You can also manually download the EAP builds from […]",
-          "link": "https://blog.jetbrains.com/webstorm/2022/10/webstorm-2022-3-eap-3/",
-          "publishedOn": "2022-10-17T13:57:12.000Z",
-          "wordCount": 2360,
-          "title": "WebStorm 2022.3 EAP #3: New Setting Sync Solution, and Improvements for Angular and CSS",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/09/WebStorm-2022-3EAP-social-media-share.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=285616",
-          "author": "Khalid Abuhakmeh",
-          "description": "Join us Wednesday, November 16, 2022, 2:00 – 3:00 PM UTC (check other timezones) for our free live webinar, Wolverine: Your Next Messaging, with Senior Director of Software Architecture at MedeAnalytics, Jeremy D. Miller. Register now and get a reminder, or join on YouTube Wolverine is a new framework for local command handling and asynchronous […]",
-          "link": "https://blog.jetbrains.com/dotnet/2022/10/17/webinar-wolverine-your-next-messaging-library/",
-          "publishedOn": "2022-10-17T12:17:33.000Z",
-          "wordCount": 2236,
-          "title": "Webinar – Wolverine: Your Next Messaging Library",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/10/DSGN-14780-Webinar-Wolverine-Your-Next-Messaging-Library_JB_Blog_Social_share_image_1280-720.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=ruby&p=287367",
-          "author": "Iryna Pisklyarova",
-          "description": "It’s time to unveil the third build of RubyMine 2022.3 EAP! We invite you to download RubyMine 2022.3 EAP3 from our website or via the Toolbox app. Let’s check out the updated features and improvements in detail. Search for usages and rename shared contexts and examples in RSpec We continue to improve coding assistance for […]",
-          "link": "https://blog.jetbrains.com/ruby/2022/10/rubymine-2022-3-eap3/",
-          "publishedOn": "2022-10-17T11:49:31.000Z",
-          "wordCount": 2488,
-          "title": "RubyMine 2022.3 EAP3: Improved RSpec Support, Code Insights in RBS, and Much More",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/10/Blog_Featured_image_1280x600_RubyMine-2x.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=appcode&p=287314",
-          "author": "Anastasia Kazakova",
-          "description": "Hi everyone, A new AppCode 2022.3 EAP build (223.6646.113) is available for download. Builds are available from our website and via the Toolbox App. You can also update from the 2022.3 EAP1 build via patch. DOWNLOAD APPCODE EAP New solution for synchronizing settings Synchronizing settings is essential when you use AppCode or other IntelliJ-based IDEs […]",
-          "link": "https://blog.jetbrains.com/appcode/2022/10/appcode-2022-3-eap-new-settings-sync-solution/",
-          "publishedOn": "2022-10-15T00:40:50.000Z",
-          "wordCount": 2026,
-          "title": "AppCode 2022.3 EAP: New Settings Sync Solution",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/09/Blog_Social_share_image_1280x720_AppCode-2x.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=go&p=287057",
-          "author": "Sergey Kozlovskiy",
-          "description": "The third build of our current Early Access Program is out!  You can get the EAP build via the Toolbox App, download it from our website, use a snap package (for Ubuntu), or from inside GoLand, select Check IDE updates for Early Access Program in Preferences / Settings | Appearance & Behavior | System Settings […]",
-          "link": "https://blog.jetbrains.com/go/2022/10/14/quick-fix-for-invalid-recursive-type-new-settings-synchronization-solution-and-improvements-for-databases-in-goland-eap-2022-3-3/",
-          "publishedOn": "2022-10-14T14:45:39.000Z",
-          "wordCount": 2551,
-          "title": "Quick-fix for Invalid Recursive Type, New Settings Synchronization Solution, and Improvements for Databases in GoLand EAP 2022.3 #3",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/09/Blog_Social_share_image_1280x720_GoLand-2x.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=clion&p=287260",
-          "author": "Anastasia Kazakova",
-          "description": "A new CLion 2022.3 EAP build is available! Download build 223.6646.99 from our website via the Toolbox App or as a snap package (if you are using Ubuntu). If you are on macOS, there is a separate build for Apple Silicon (M1 chip). Update via patch if you are using EAP1 or EAP2 builds. DOWNLOAD […]",
-          "link": "https://blog.jetbrains.com/clion/2022/10/clion-2022-3-eap-new-settings-sync-solution-linker-scripts-azure-rtos/",
-          "publishedOn": "2022-10-14T14:37:49.000Z",
-          "wordCount": 2281,
-          "title": "CLion 2022.3 EAP: New Settings Sync Solution, Linker Scripts, Azure RTOS",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/09/Social_share_image_1280x720_CLion-2x.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=idea&p=284899",
-          "author": "Maria Kosukhina",
-          "description": "IntelliJ IDEA 2022.3 EAP 3 is now available! In this new EAP build, we introduce a reworked Settings Sync solution to help seamlessly synchronize your personal IDE settings, a range of new inspections and other improvements for Java, and experimental Maven import functionality that utilizes the new IntelliJ IDEA Workspace Model API. You can get […]",
-          "link": "https://blog.jetbrains.com/idea/2022/10/intellij-idea-2022-3-eap-3/",
-          "publishedOn": "2022-10-14T12:54:41.000Z",
-          "wordCount": 3067,
-          "title": "IntelliJ IDEA 2022.3 EAP 3: New Settings Sync Solution, Improvements for Java, and More",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/02/intellij-idea_social.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=pycharm&p=286832",
-          "author": "Jodie Burchell",
-          "description": "This year saw the premier of the first ever PyCon Portugal! With DjangoCon Europe being hosted in Porto this year, the organizers took the opportunity to piggyback off of this conference and set up a PyCon in this beautiful country. I was lucky enough to be selected as one of the speakers, and it was […]",
-          "link": "https://blog.jetbrains.com/pycharm/2022/10/pycon-portugal-2022-trip-report/",
-          "publishedOn": "2022-10-14T09:20:29.000Z",
-          "wordCount": 2464,
-          "title": "PyCon Portugal 2022 trip report",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/10/DSGN-14812_Conference_trip_report_Blog_Social_share_image_1280x720_02.png"
         }
       ]
     }

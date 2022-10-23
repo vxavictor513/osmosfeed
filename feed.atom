@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-22T02:15:23.481Z</id>
+    <id>urn:2022-10-23T02:27:23.261Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-22T02:15:23.481Z</updated>
+    <updated>2022-10-23T02:27:23.261Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Resale value]]></title>
+        <id>https://seths.blog/?p=43029</id>
+        <link href="https://feeds.feedblitz.com/~/716687966/0/sethsblog~Resale-value/"/>
+        <updated>2022-10-22T07:44:00.000Z</updated>
+        <summary type="html"><![CDATA[It’s hopeful to believe that the NFT, baseball card or even car that we next purchase is going to go up in value. It probably won’t. The secret is to only acquire things where the resale value doesn’t matter to your overall satisfaction. That’s one reason there’s a huge difference between investing in stocks and […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Build a game this November with Game Off 2022]]></title>
         <id>https://github.blog/2022-10-21-build-a-game-this-november-with-game-off-2022/</id>
@@ -1309,16 +1319,6 @@ As a major revision of the core framework, 6.0 RC1 comes with a Java 17+ baselin
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The uncanny valley of scale]]></title>
-        <id>https://seths.blog/?p=43932</id>
-        <link href="https://feeds.feedblitz.com/~/715344454/0/sethsblog~The-uncanny-valley-of-scale/"/>
-        <updated>2022-10-12T08:04:00.000Z</updated>
-        <summary type="html"><![CDATA[Big companies act like big companies. We don’t take them seriously when they say they care, because there is no “they.” When they send a holiday card or an email, we don’t really think it was from a person we could connect with. Individuals act like individuals. When they write us a note or show […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[By the numbers: Public sector organizations quantify the benefits of Elastic solutions]]></title>
         <id>https://www.elastic.co/blog/by-the-numbers-public-sector-organizations-quantify-the-benefits-of-elastic-solutions</id>
         <link href="https://www.elastic.co/blog/by-the-numbers-public-sector-organizations-quantify-the-benefits-of-elastic-solutions"/>
@@ -1899,50 +1899,6 @@ SIG Storage is excited to announce that the core CSI Migration feature is genera
 SIG Storage wrote a blog post in v1.23 for CSI Migration status update which discussed the CSI migration status for each storage driver. It has been a while and this article is intended to give a latest status update on each storage driver for their CSI Migration status in Ku…]]></summary>
         <author>
             <name>Kubernetes – Production-Grade Container Orchestration</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blog: Kubernetes 1.25: CustomResourceDefinition Validation Rules Graduate to Beta]]></title>
-        <id>https://kubernetes.io/blog/2022/09/23/crd-validation-rules-beta/</id>
-        <link href="https://kubernetes.io/blog/2022/09/23/crd-validation-rules-beta/"/>
-        <updated>2022-09-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Authors: Joe Betz (Google), Cici Huang (Google), Kermit Alexander (Google)
-In Kubernetes 1.25, Validation rules for CustomResourceDefinitions (CRDs) have graduated to Beta!
-Validation rules make it possible to declare how custom resources are validated using the Common Expression Language (CEL). For example:
-apiVersion: apiextensions.k8s.io/v1
-kind: CustomResourceDefinition
- ...
- openAPIV3Schema:
- type: object
- properties:
- spec:
- type: object
- x-kubernetes-validations:
- - rule: "self.minReplicas <= self.replicas && self.replicas <= self.maxReplicas"
- message: "replicas should be in the range minReplicas..maxReplicas."
- properties:
- replicas:
- type: integer
- ...
-
-
-Validation rules support a wide range of use cases. To get a sense of some of the capabilities, let's look at a few examples:
-V…]]></summary>
-        <author>
-            <name>Kubernetes – Production-Grade Container Orchestration</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TensorStore for High-Performance, Scalable Array Storage]]></title>
-        <id>http://ai.googleblog.com/2022/09/tensorstore-for-high-performance.html</id>
-        <link href="http://ai.googleblog.com/2022/09/tensorstore-for-high-performance.html"/>
-        <updated>2022-09-22T21:33:00.007Z</updated>
-        <summary type="html"><![CDATA[Posted by Jeremy Maitin-Shepard and Laramie Leavitt, Software Engineers, Connectomics at Google
-Many exciting contemporary applications of computer science and machine learning (ML) manipulate multidimensional datasets that span a single large coordinate system, for example, weather modeling from atmospheric measurements over a spatial grid or medical imaging predictions from multi-channel image intensity values in a 2d or 3d scan. In these settings, even a single dataset may require terabytes or petabytes of data storage. Such datasets are also challenging to work with as users may read and write data at irregular intervals and varying scales, and are often interested in performing analyses using numerous machines working in parallel.  
-
-Today we are introducing TensorStore, an open-sourc…]]></summary>
-        <author>
-            <name>Google AI Blog</name>
         </author>
     </entry>
 </feed>

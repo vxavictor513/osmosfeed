@@ -6,6 +6,26 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2022/10/26/spring-tips-the-road-to-spring-boot-3-spring-framework-6",
+          "author": null,
+          "description": "Hi, Spring fans! In this installment, we begin a journey to Spring Boot 3, due end of November 2022. In this installment, we’ll look - at a very high level - at some of the amazing features in Spring Framework 6, which underpins Spring Boot 3.\n\r\n\r\nWant to learn more about Spring Framework 6 and Spring Boot 3? Join us at SpringOne 2022! use the code S1VM22_Advocate_200 for $200 off the price of admission!",
+          "link": "https://spring.io/blog/2022/10/26/spring-tips-the-road-to-spring-boot-3-spring-framework-6",
+          "publishedOn": "2022-10-26T07:00:00.000Z",
+          "wordCount": 591,
+          "title": "Spring Tips: the road to Spring Boot 3: Spring Framework 6",
+          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2022/10/26/spring-tools-4-16-1-released",
+          "author": null,
+          "description": "Dear Spring Community,\n\r\nI am happy to announce the 4.16.1 release of the Spring Tools 4 for Eclipse, Visual Studio Code, and Theia.\nmajor changes to the Spring Tools 4 for Eclipse distribution\n\r\n\r\n  \nearly access builds available for Spring Tools 4 on Eclipse 2022-12 milestones\n\r\n\nimportant note for upgrading from a release prior to 4.16.0 on Eclipse\n\r\n\r\n  \nIf you are upgrading an existing Spring Tools 4 for Eclipse distribution 4.15.3 or older to 4.16.1, please take a look at the necessary manual steps described for the upgrade to 4.16.0.\n\r\n\nfixes and improvements\n\r\n\r\n  \n(Spring Boot) fixed: Spring XML Config support does not show symbols with scope “File” (#860)\n\r\n  \n(Spring Boot) fixed: [open-rewrite] exception when executing quick fix for project (#853)\n\r\n  \n(Spring Boot) fixed: [refactoring] quick fix to convert autowired field to constructor param shows up even if the constructor param already exists (#815)\n\r\n  \n(VSCode) fixed: Vscode Spring Boot Tools 1.39.0 prevents Java project from Running/Debugging (#847)\n\r\n  \n(Eclipse) fixed: Web Tools Platform (WTP) validation is activated by default (#859)\n\r\n  \n(Eclipse) fixed: ask user to save dirty editors before deploying on docker (#803)\n\r\n\r\nTo download the distribution for Eclipse and find links to the marketplace entries for Visual Studio Code and Theia, please go visit:\n\r\n\r\n  \nSpring Tools 4: https://spring.io/tools/\n\r\n\r\nDetailed changes can be found here: https://github.com/spring-projects/sts4/wiki/Changelog#2022-10-26-4161-release-incl-language-servers-version-1400\n\r\nSpring Tools 4.17.0 is scheduled to be released in early December 2022.\n\r\nEnjoy!",
+          "link": "https://spring.io/blog/2022/10/26/spring-tools-4-16-1-released",
+          "publishedOn": "2022-10-26T07:00:00.000Z",
+          "wordCount": 728,
+          "title": "Spring Tools 4.16.1 released",
+          "imageUrl": "https://avatars.githubusercontent.com/u/107705?v=4?s=200"
+        },
+        {
           "id": "https://spring.io/blog/2022/10/25/spring-integration-6-0-0-rc1-available",
           "author": null,
           "description": "Dear Spring community,\n\r\n\r\n\r\nI was so eager to find and fix bugs in the latest Spring Integration release, that missed to announce a 6.0 RC1 last week.\r\nBut I believe it is still worth to mention it even after Spring Boot 3.0.0-RC1 announcement since there is a number of notable changes and improvements.\n\r\n\r\n\r\nSo, please, welcome Spring Integration 6.0 first Release Candidate.\r\nIt can be obtained from Spring Milestone repository:\n\r\n\r\n\r\n\r\ndependencyManagement {\r\n    imports {\r\n        mavenBom 'org.springframework.integration:spring-integration-bom:6.0.0-RC1'\r\n    }\r\n}\n\r\n\r\n\r\n\r\nHere you can find important changes after the previously announced Spring Integration 6.0.0-M5:\n\r\n\r\n\r\n\r\n\r\nspring-integration-amqp has added support for RabbitMQ Streams;\n\r\n\r\n\r\nspring-integration-sftp has been migrated from an old unsupported jsch library to more modern Apache MINA;\n\r\n\r\n\r\nspring-integration-gemfire was removed according to dropped support for Apache Geode in Spring Data;\n\r\n\r\n\r\nspring-integration-scripting has added a GraalVM Polyglot support for JavaScript invocations;\n\r\n\r\n\r\nThe Apache Groovy DSL for Spring Integration extension project has been migrated to the spring-integration-groovy module code base;\n\r\n\r\n\r\nThe Spring Integration for Apache Cassandra extension project has been migrated as a spring-integration-cassandra module;\n\r\n\r\n\r\nThe Kotlin Coroutines support has been added to the @ServiceActivator POJO functions, also messaging gateway methods can now be as suspended functions;\n\r\n\r\n\r\nThe AOP ChannelSecurityInterceptor in the spring-integration-security module has been deprecated in favor of AuthorizationChannelInterceptor.\n\r\n\r\n\r\n\r\n\r\nAlso, see a Migration Guide for breaking changes in the framework and its modules.\n\r\n\r\n\r\nIt would be great if you give it a chance and come back to us with reports, so it may make it into GA next month.\n\r\n\r\n\r\nSee you in person this December at SpringOne!\n\r\n\r\n\r\nCheers, \n\r\nArtem\n\r\n\r\n\r\nProject Page | GitHub Issues | Contributing | Help | Chat",
@@ -184,26 +204,6 @@
           "wordCount": 787,
           "title": "Learn more about Spring Framework 6 and Spring Boot 3 in these two great talks from Devoxx 2022",
           "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/10/13/spring-batch-5-0-0-m8-is-out",
-          "author": null,
-          "description": "On behalf of the team and all contributors, I am pleased to announce that Spring Batch 5.0.0-M8 is now available from our milestone repository.\n\r\nIn this milestone, we introduced two main changes:\n\r\n\r\n  \nNew default execution context serialization format\n\r\n  \nSystemCommandTasklet enhancements\n\r\n\r\nThis blog post walks through these two major changes in details. For the complete list of changes,\nplease check the release notes.\nNew default execution context serialization format\n\r\nIn this milestone release, the DefaultExecutionContextSerializer was updated to serialize/deserialize the context to/from Base64.\n\r\nMoreover, the default ExecutionContextSerializer configured by @EnableBatchProcessing or DefaultBatchConfiguration was changed from JacksonExecutionContextStringSerializer to DefaultExecutionContextSerializer. The dependency to Jackson was made optional. In order to use the JacksonExecutionContextStringSerializer, jackson-core should be added to the classpath.\nSystemCommandTasklet enhancements\n\r\nThe SystemCommandTasklet has been revisited in this release and was changed as follows:\n\r\n\r\n  \n\r\n  \nA new strategy interface named CommandRunner was introduced in order to decouple the command execution from the tasklet execution. The default implementation is the JvmCommandRunner which uses the java.lang.Runtime#exec API to run system commands. This interface can be implemented to use any other API to run system commands.\n\r\n  \n\r\n  \nThe method that runs the command now accepts an array of Strings representing the command and its arguments. There is no need to tokenize the command or do any pre-processing anymore. This change makes the API more intuitive, and less prone to errors.\n\r\n\nFeedback\n\r\nI would like to thank all contributors who had a role in this release! As we continue\nour work on Spring Batch 5, we look forward to your feedback on Github, Twitter and StackOverflow.\n\r\n\r\nSpring Batch Home|Source on Github|Reference documentation",
-          "link": "https://spring.io/blog/2022/10/13/spring-batch-5-0-0-m8-is-out",
-          "publishedOn": "2022-10-13T08:00:00.000Z",
-          "wordCount": 766,
-          "title": "Spring Batch 5.0.0-M8 is out!",
-          "imageUrl": "https://avatars.githubusercontent.com/u/1210553?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/10/12/a-bootiful-podcast-google-mad-scientist-josh-suereth-on-observability-with-opentelemetry-building-better-build-tools-and-so-much-more",
-          "author": null,
-          "description": "Hi, Spring fans! In this installment, Josh Long (@starbuxman) looks at the latest and greatest in Spring Boot 3 AOT, then talks to Google’s Josh Suereth (@jsuereth) about observability with OpenTelemetry, building better build tools, and so much more. \n\r\n\r\nWant to learn more about Spring Boot and the wider ecosystem? SpringOne 2022 is almost here! If you want a chance to learn from the source, I hope you’ll join us 6-8 December 2022, right here in my hometown of San Francisco, my favorite west coast city in the USA. (Psst.: If you register now, there’s a $200 discount from the pass price with this code S1VM22_Advocate_200.)",
-          "link": "https://spring.io/blog/2022/10/12/a-bootiful-podcast-google-mad-scientist-josh-suereth-on-observability-with-opentelemetry-building-better-build-tools-and-so-much-more",
-          "publishedOn": "2022-10-13T06:00:00.000Z",
-          "wordCount": 641,
-          "title": "A Bootiful Podcast: Google mad scientist Josh Suereth on Observability with OpenTelemetry, building better build tools, and so much more",
-          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
         }
       ]
     },
@@ -213,12 +213,22 @@
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
         {
+          "id": "https://www.hashicorp.com/blog/the-state-of-vault-and-kubernetes-and-future-plans",
+          "author": null,
+          "description": "Get an overview of the most common ways to use HashiCorp Vault and Kubernetes together, and get a preview of a new method we're considering.",
+          "link": "https://www.hashicorp.com/blog/the-state-of-vault-and-kubernetes-and-future-plans",
+          "publishedOn": "2022-10-26T16:30:00.000Z",
+          "wordCount": 2764,
+          "title": "The State of Vault and Kubernetes, and Future Plans",
+          "imageUrl": "https://www.datocms-assets.com/2885/1608227983-blog-library-product-kubernetes-vault.png"
+        },
+        {
           "id": "https://www.hashicorp.com/blog/certificate-management-with-vault",
           "author": null,
           "description": "In this blog post, we’ll look at practical public key certificate management in HashiCorp Vault using dynamic secrets rotation.",
           "link": "https://www.hashicorp.com/blog/certificate-management-with-vault",
           "publishedOn": "2022-10-24T16:00:00.000Z",
-          "wordCount": 4997,
+          "wordCount": 4993,
           "title": "X.509 Certificate Management with Vault",
           "imageUrl": "https://www.datocms-assets.com/2885/1600072325-4bc95438-e433-4f87-908c-e8effb707462.png"
         },
@@ -268,7 +278,7 @@
           "description": "The HashiCorp Vault ecosystem saw multiple integrations from partners Cockroach Labs, ForgeRock, and PaloAlto Networks as part of the 19 integrations completed this past quarter.",
           "link": "https://www.hashicorp.com/blog/cockroach-labs-forgerock-paloalto-networks-highlight-new-vault-integrations",
           "publishedOn": "2022-10-18T16:00:00.000Z",
-          "wordCount": 2727,
+          "wordCount": 2739,
           "title": "Cockroach Labs, ForgeRock & Palo Alto Networks Highlight New Vault Integrations",
           "imageUrl": "https://www.datocms-assets.com/2885/1666036246-oct19thvaultintbloggraphic.png"
         },
@@ -288,7 +298,7 @@
           "description": "The new HashiCorp Vault 1.12 focuses on improving core workflows and making key features production-ready.",
           "link": "https://www.hashicorp.com/blog/vault-1-12",
           "publishedOn": "2022-10-13T16:30:00.000Z",
-          "wordCount": 4568,
+          "wordCount": 4580,
           "title": "HashiCorp Vault 1.12 Adds New Secrets Engines, ADP Updates, and More",
           "imageUrl": "https://www.datocms-assets.com/2885/1620082983-blog-library-product-vault-dark-graphics.jpg"
         },
@@ -348,7 +358,7 @@
           "description": "In addition to its availability on AWS, HCP Vault can now be deployed on Microsoft Azure infrastructure.",
           "link": "https://www.hashicorp.com/blog/hcp-vault-on-microsoft-azure-now-in-public-beta",
           "publishedOn": "2022-10-05T16:00:00.000Z",
-          "wordCount": 1277,
+          "wordCount": 1289,
           "title": "HCP Vault on Microsoft Azure Now in Public Beta",
           "imageUrl": "https://www.datocms-assets.com/2885/1664831430-blog-thumbnail-hcp_diagram_onblack_vault_azure.png"
         },
@@ -358,7 +368,7 @@
           "description": "HashiCorp Developer is your one-stop shop for interactive labs, sample code, videos, tutorials, and in-depth documentation.",
           "link": "https://www.hashicorp.com/blog/hashicorp-developer-your-new-experience-for-docs-and-tutorials",
           "publishedOn": "2022-10-05T16:00:00.000Z",
-          "wordCount": 1911,
+          "wordCount": 1933,
           "title": "HashiCorp Developer: Your New Experience for Docs and Tutorials",
           "imageUrl": "https://www.datocms-assets.com/2885/1664569797-dev-dot-home.png"
         },
@@ -401,16 +411,6 @@
           "wordCount": 1930,
           "title": "Dungeons & Dragons for Team Building",
           "imageUrl": "https://www.datocms-assets.com/2885/1664466398-dnd.png"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/terraform-enterprise-adds-run-metrics-versioned-docs-and-more",
-          "author": null,
-          "description": "Terraform Enterprise enhances observability and cuts operational burden with improved run metrics, identity-based storage authentication, and versioned documentation.",
-          "link": "https://www.hashicorp.com/blog/terraform-enterprise-adds-run-metrics-versioned-docs-and-more",
-          "publishedOn": "2022-09-27T16:00:00.000Z",
-          "wordCount": 1691,
-          "title": "Terraform Enterprise Adds Run Metrics, Versioned Docs, and More",
-          "imageUrl": "https://www.datocms-assets.com/2885/1620083068-blog-library-product-terraform-black.jpg"
         }
       ]
     },
@@ -420,12 +420,32 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
+          "id": "https://www.elastic.co/blog/leading-financial-institutions-hedge-risk-by-focusing-on-these-5-critical-siem-requirements",
+          "author": "Brandon Mavleos",
+          "description": "Digital transformation is expanding the attack surface in financial services. Learn about several essential features that financial security leaders should look out for in their next SIEM investment.",
+          "link": "https://www.elastic.co/blog/leading-financial-institutions-hedge-risk-by-focusing-on-these-5-critical-siem-requirements",
+          "publishedOn": "2022-10-26T00:00:00.000Z",
+          "wordCount": 8041,
+          "title": "Leading financial institutions hedge risk by focusing on these 5 critical SIEM requirements",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt01f60c6522c57385/6351b1bc4e565f1cdce29dcf/04-stock-charts.jpg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/leading-financial-institutions-hedge-risk-by-focusing-on-these-5-critical-siem-requirements",
+          "author": "Brandon Mavleos",
+          "description": ",\nDigital transformation is expanding the attack surface in financial services. Throughout the pandemic, the accelerated adoption of digital banking, payments, and insurance channels has enabled providers to offer greater levels of service, new financial products, and enhanced journeys to their customers.\n\n\n\nHowever, with growing amounts of data and increasingly complex IT ecosystems, bad actors are finding more creative ways of wreaking havoc. In fact, U.S. Federal Reserve Chairman Jerome Powell warned last year that cyberattacks are the number-one threat to the global financial system.\n\n\n\nCyberattacks in financial services can be exceptionally devastating. Even small problems can lead to substantial money lost, customers exposed, and heavy regulatory fines. Some of the recent drivers beh…",
+          "link": "https://www.elastic.co/blog/leading-financial-institutions-hedge-risk-by-focusing-on-these-5-critical-siem-requirements",
+          "publishedOn": "2022-10-26T00:00:00.000Z",
+          "wordCount": 8041,
+          "title": "Leading financial institutions hedge risk by focusing on these 5 critical SIEM requirements",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt01f60c6522c57385/6351b1bc4e565f1cdce29dcf/04-stock-charts.jpg"
+        },
+        {
           "id": "https://www.elastic.co/blog/culture-the-elastic-guide-to-finding-a-company-you-can-grow-with",
           "author": "Elastic Culture",
           "description": "Where do you want to be in 5 years? Here's how to find a company that will help you take the next steps in your career.",
           "link": "https://www.elastic.co/blog/culture-the-elastic-guide-to-finding-a-company-you-can-grow-with",
           "publishedOn": "2022-10-25T00:00:00.000Z",
-          "wordCount": 6582,
+          "wordCount": 6783,
           "title": "The Elastic Guide to: Finding a company you can grow with",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltea1eab838043c602/63569ce0e63a425d5dc58c7d/10.0-culture-blog-finding-a-company-you-can-grow-with-blog-1680x980.jpg"
         },
@@ -435,7 +455,7 @@
           "description": "In the past couple of years, two things stood out for the telecom industry: 5G and cloud adoption. Put together, there is a need for a completely revamped approach to security. And the journey begins with a “modern” SIEM.",
           "link": "https://www.elastic.co/blog/what-do-telecom-security-teams-need-from-a-siem",
           "publishedOn": "2022-10-25T00:00:00.000Z",
-          "wordCount": 6857,
+          "wordCount": 7050,
           "title": "What do telecom security teams need from a SIEM?",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt648c7212bb76343e/6351ad161d78fa218f252508/06-subway.jpg"
         },
@@ -445,7 +465,7 @@
           "description": "Solving for scale is the key to ensuring your IT organization delivers on its promise to secure and protect data",
           "link": "https://www.elastic.co/blog/customer-trust-relies-on-building-it-systems-that-scale",
           "publishedOn": "2022-10-25T00:00:00.000Z",
-          "wordCount": 7038,
+          "wordCount": 7231,
           "title": "Customer trust relies on building IT systems that scale",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc47a20080a005ac8/6356ec7a0a58db35cbdbc2c7/observability-digital-transformation-3.jpg"
         },
@@ -455,7 +475,7 @@
           "description": "Enjoy a new and reimagined synthetic monitoring capability for Elastic Observability, now in beta! From point and click script recording to a global testing infrastructure, understanding end user performance of your application has never been easier.",
           "link": "https://www.elastic.co/blog/new-synthetic-monitoring-observability",
           "publishedOn": "2022-10-25T00:00:00.000Z",
-          "wordCount": 6400,
+          "wordCount": 6593,
           "title": "Observing your application through the eyes of a user: A brand new synthetic monitoring experience is coming",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte34c8b04c3f66e67/63513ed4b3f39b38fccfece8/Elastic-SyntheticMonitoring-CreateMonitor-1.gif"
         },
@@ -465,17 +485,17 @@
           "description": "Version 7.17.7 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 7.17.7 over the previous patch versions in 7.17.x.\nFor details of the issues that have been fixed and a full list of changes for each product in this version, refer to the release notes: \n7.17.7 Release Notes\nElastic Stack\nElasticsearch\nKibana\nBeats\nLogstash\nElastic Enterprise Search\nEnterprise Search\nElastic Observability\nAPM\nElastic Security\nElastic Security Solution",
           "link": "https://www.elastic.co/blog/elastic-stack-7-17-7-released",
           "publishedOn": "2022-10-25T00:00:00.000Z",
-          "wordCount": 4968,
+          "wordCount": 5161,
           "title": "Elastic Stack 7.17.7 released",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c35d17afad9d20d/5f122812c31823015df6ef0a/blog-thumb-rocket-launch.png"
         },
         {
           "id": "https://www.elastic.co/blog/culture-the-elastic-guide-to-finding-a-company-you-can-grow-with",
           "author": "Elastic Culture",
-          "description": ",\nJordyn Short, Services Architect at Elastic, spent seven years in the U.S. Army. She learned many valuable lessons, among them, the path to success isn’t always easy. After leaving the military, she took these learnings to create a fulfilling career. \nAs a civilian, the path to success isn’t as defined as it might be in military training, so Jordyn had to learn how to create and pursue the career she wanted. She went from the Army to government contracting work, which she says was a good transition into finding out who she was and what she wanted. \nJordyn spent two years as a Senior Technical Consultant at Elastic before being recently promoted to Services Architect, a common career trajectory.\nTo get promoted, she had to complete her Elastic Engineering certification, show technical com…",
+          "description": ",\nJordyn Short, Services Architect at Elastic, spent seven years in the U.S. Army. She learned many valuable lessons, among them, the path to success isn’t always easy. After leaving the military, she took these learnings to create a fulfilling career. \nAs a civilian, the path to success isn’t as defined as it might be in military training, so Jordyn had to learn how to create and pursue the career she wanted. She went from the Army to government contracting work, which she says was a good transition into finding out who she was and what she wanted.\nJordyn spent two years as a Senior Technical Consultant at Elastic before being recently promoted to Services Architect, a common career trajectory. To get promoted, she had to complete her Elastic Engineering certification, show technical comp…",
           "link": "https://www.elastic.co/blog/culture-the-elastic-guide-to-finding-a-company-you-can-grow-with",
           "publishedOn": "2022-10-25T00:00:00.000Z",
-          "wordCount": 6582,
+          "wordCount": 6783,
           "title": "The Elastic Guide to: Finding a company you can grow with",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltea1eab838043c602/63569ce0e63a425d5dc58c7d/10.0-culture-blog-finding-a-company-you-can-grow-with-blog-1680x980.jpg"
         },
@@ -485,7 +505,7 @@
           "description": ",\nJust within the last 30 days, the two largest telecom operators in Australia1 were hit by a data breach impacting millions of customers and compromising sensitive personal information like home addresses, drivers’ licenses, and passport numbers. The situation is not very different in the Americas, where another leading telecom provider2 cited a 13% jump in ransomware attacks in the past year. And in Europe, the latest cybersecurity report from European Union Agency for Cybersecurity (ENISA)3 that lists the major telecom security incidents from 2021 stated that 5,000+ user hours were lost — compared to just over 800 hours in 2020.\n\n\n\nSo what has changed in the past couple of years? For the telecom industry in particular, two things stand out: 5G and cloud adoption. These technologies prov…",
           "link": "https://www.elastic.co/blog/what-do-telecom-security-teams-need-from-a-siem",
           "publishedOn": "2022-10-25T00:00:00.000Z",
-          "wordCount": 6857,
+          "wordCount": 7050,
           "title": "What do telecom security teams need from a SIEM?",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt648c7212bb76343e/6351ad161d78fa218f252508/06-subway.jpg"
         },
@@ -495,7 +515,7 @@
           "description": ",\nAdopting hybrid or public clouds remains IT’s go-to means of achieving scale. While this transformation has improved price performance and advanced tech-driven business capabilities, including faster and deeper data insights, it hasn’t always engendered higher customer trust. \n\nThat’s due in no small part to widely-publicized hacks that have exposed personally identifiable information (PII) and also in part to higher customer dependence upon mobile commerce, wonky inventory systems, and sometimes unreliable online ordering. By some measures, performing at scale is all about improving transactions per second.\n\nAccording to a 2022 PwC study, “87% of business executives think consumers have a high level of trust in their business. But only 30% of consumers say they do.” One of the biggest t…",
           "link": "https://www.elastic.co/blog/customer-trust-relies-on-building-it-systems-that-scale",
           "publishedOn": "2022-10-25T00:00:00.000Z",
-          "wordCount": 7038,
+          "wordCount": 7231,
           "title": "Customer trust relies on building IT systems that scale",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc47a20080a005ac8/6356ec7a0a58db35cbdbc2c7/observability-digital-transformation-3.jpg"
         },
@@ -505,7 +525,7 @@
           "description": ",\nUnderstanding if your applications are not just available but also functioning as expected is critical for any organization. Third-party dependencies and different end-user device types means that infrastructure monitoring and application observability alone are not enough to spot and minimize the impact of application anomalies. \nTo enable the best experience for our customers, Elastic is very excited to announce that we will be bringing front end monitoring into the Elastic Observability solution starting next year. Our reimagined synthetic monitoring solution has all of the basics you would expect plus some really innovative new features that will significantly improve the way you create and manage your synthetic monitors.\nA global managed testing infrastructure at your fingertips\nNo …",
           "link": "https://www.elastic.co/blog/new-synthetic-monitoring-observability",
           "publishedOn": "2022-10-25T00:00:00.000Z",
-          "wordCount": 6400,
+          "wordCount": 6593,
           "title": "Observing your application through the eyes of a user: A brand new synthetic monitoring experience is coming",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte34c8b04c3f66e67/63513ed4b3f39b38fccfece8/Elastic-SyntheticMonitoring-CreateMonitor-1.gif"
         },
@@ -515,7 +535,7 @@
           "description": "Read about the updates and bug fixes that have been included in this release.",
           "link": "https://www.elastic.co/blog/elastic-stack-7-17-7-released",
           "publishedOn": "2022-10-25T00:00:00.000Z",
-          "wordCount": 4968,
+          "wordCount": 5161,
           "title": "Elastic Stack 7.17.7 released",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c35d17afad9d20d/5f122812c31823015df6ef0a/blog-thumb-rocket-launch.png"
         },
@@ -525,7 +545,7 @@
           "description": "Learn about the considerations public sector organizations should keep front of mind when purchasing or augmenting a SIEM solution.",
           "link": "https://www.elastic.co/blog/public-sector-security-4-considerations-for-implementing-a-modern-siem",
           "publishedOn": "2022-10-24T00:00:00.000Z",
-          "wordCount": 8092,
+          "wordCount": 8285,
           "title": "Public sector security: 4 considerations for implementing a modern SIEM",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc78df6364b930ecf/6351b41bbb329010566e0391/06-women-on-steps.jpg"
         },
@@ -535,7 +555,7 @@
           "description": "It can be hard to find the required privileges for strict security in Elasticsearch. This blog post outlines the procedures used to find required privileges in two examples.",
           "link": "https://www.elastic.co/blog/the-easy-way-to-find-security-privileges-in-elasticsearch",
           "publishedOn": "2022-10-24T00:00:00.000Z",
-          "wordCount": 7296,
+          "wordCount": 7489,
           "title": "The easy way to find security privileges in Elasticsearch",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt894b0d90d3b3ab68/5ee7cbc53f04b94a186c8020/blog-thumb-elasticsearch-gears-light-blue.png"
         },
@@ -545,7 +565,7 @@
           "description": ",\nIf you’re a public sector organization, security is top of mind. One of the best ways you can secure your data and systems is through a modern SIEM platform, which many government agencies and education institutions are using as a critical piece of their Zero Trust cybersecurity architecture.\n\n\n\nSIEM technology and strategy is constantly changing, and keeping up with the latest updates and requirements can be challenging. Whether you’re new to SIEM or thinking of augmenting your current SIEM, here are some considerations to keep in mind for public sector.\nBack to basics: What is SIEM?\nFor those not familiar, SIEM — or security information and event management — is a security management system that holistically looks at data from multiple sources, detects issues, and takes action. SIEM te…",
           "link": "https://www.elastic.co/blog/public-sector-security-4-considerations-for-implementing-a-modern-siem",
           "publishedOn": "2022-10-24T00:00:00.000Z",
-          "wordCount": 8092,
+          "wordCount": 8285,
           "title": "Public sector security: 4 considerations for implementing a modern SIEM",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc78df6364b930ecf/6351b41bbb329010566e0391/06-women-on-steps.jpg"
         },
@@ -555,7 +575,7 @@
           "description": ",\nIt can be hard to find the required privileges for strict security in Elasticsearch. In this blog, I will outline the procedures I use to find my required privileges in two examples. \nExample 1 \nLet's create a user that can only interact with index-* indices and the index alias. They will be able to:\n\nCreate the index if it does not exist\nIndex document into the index (create and update)\nDelete documents from the index\n\nWe start by creating a new user with Kibana Dev Tools Console access:\n```\nPUT _security/role/test\n{\n  \"applications\" : [\n    {\n      \"application\" : \"kibana-.kibana\",\n      \"privileges\" : [\n        \"feature_dev_tools.all\"\n      ],\n      \"resources\" : [\n        \"space:default\"\n      ]\n    }\n  ]\n}\n```\n\n```\nPUT _security/user/test\n{\n  \"username\": \"test\",\n  \"password\": \"****\"…",
           "link": "https://www.elastic.co/blog/the-easy-way-to-find-security-privileges-in-elasticsearch",
           "publishedOn": "2022-10-24T00:00:00.000Z",
-          "wordCount": 7296,
+          "wordCount": 7489,
           "title": "The easy way to find security privileges in Elasticsearch",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt894b0d90d3b3ab68/5ee7cbc53f04b94a186c8020/blog-thumb-elasticsearch-gears-light-blue.png"
         },
@@ -585,7 +605,7 @@
           "description": "The way technology leaders invest and plan today will determine the trajectory of your organization for the next half-decade, or more. Here's how to ensure you’re positioning your organization for resilience.",
           "link": "https://www.elastic.co/blog/how-cios-can-support-business-resilience-in-uncertain-times",
           "publishedOn": "2022-10-20T00:00:00.000Z",
-          "wordCount": 8169,
+          "wordCount": 8362,
           "title": "How CIOs can support business resilience in uncertain times",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt3dcc45f313ba566e/6351a94c1d78fa218f2524f8/blog-elastic-train.jpg"
         },
@@ -595,7 +615,7 @@
           "description": "Monitoring, machine learning, and visualizations are a game changer for telling the story of systems across your organization.",
           "link": "https://www.elastic.co/blog/why-observability-can-break-through-top-challenges-to-digital-transformation",
           "publishedOn": "2022-10-20T00:00:00.000Z",
-          "wordCount": 6996,
+          "wordCount": 7189,
           "title": "Why observability can break through top challenges to digital transformation",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt361ac7a1d4cf9ff4/6351ba38fd1d7f3ac0232969/observability-digital-transformation-2.jpg"
         },
@@ -605,7 +625,7 @@
           "description": ",\nToday, nearly every major decision an organization makes will flow through the CIO, and often, the CISO. \n\nFrom organizational structure to revenue opportunities to risk management — they’re all about digital transformation, cybersecurity, and your customer experience. The way technology leaders invest and plan today will determine the trajectory of your organization for the next half-decade, or more. \n\nWe spoke to a number of leaders in technology to identify the lessons that will arm your organization against the big unknowns the global economy is facing. Here are some of those hard-won lessons to ensure you’re positioning your organization for resilience.\n1. CIOs must advocate for the role of technology in your organization with business leadership \nWe know that the CIO role is more c…",
           "link": "https://www.elastic.co/blog/how-cios-can-support-business-resilience-in-uncertain-times",
           "publishedOn": "2022-10-20T00:00:00.000Z",
-          "wordCount": 8169,
+          "wordCount": 8362,
           "title": "How CIOs can support business resilience in uncertain times",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt3dcc45f313ba566e/6351a94c1d78fa218f2524f8/blog-elastic-train.jpg"
         },
@@ -615,29 +635,9 @@
           "description": ",\nDigital transformation will account for more than half of IT investment by 2024, but there are persistent blockers to success, says IDC: these include lack of organizational confidence, silos, and C-suite leadership.\n\n\nThese challenges have plagued technology decision makers who have hopeful visions for the future. While it may be obvious that these blockers can be surmounted by good communication and collaboration, that’s easier said than done. In fact, for the better part of a decade, McKinsey keeps finding that 7 out of 10 transformations — digital or otherwise — just plain fail.\n\n\nBut, could some of the technologies that hold the promise of business transformation be incrementally applied to pave the path for its success? The capabilities of observability solutions may provide a hint…",
           "link": "https://www.elastic.co/blog/why-observability-can-break-through-top-challenges-to-digital-transformation",
           "publishedOn": "2022-10-20T00:00:00.000Z",
-          "wordCount": 6996,
+          "wordCount": 7189,
           "title": "Why observability can break through top challenges to digital transformation",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt361ac7a1d4cf9ff4/6351ba38fd1d7f3ac0232969/observability-digital-transformation-2.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/five-signs-you-need-to-augment-your-siem",
-          "author": "Joe DeFever",
-          "description": "If you aren’t able to replace your existing SIEM outright, that doesn’t mean you can’t supplement its capabilities with a more performant solution. Elastic allows all users to try out a new, powerful SIEM with little to no upfront cost.",
-          "link": "https://www.elastic.co/blog/five-signs-you-need-to-augment-your-siem",
-          "publishedOn": "2022-10-19T16:00:00.000Z",
-          "wordCount": 7853,
-          "title": "Five signs you need to augment your SIEM",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltf648779557d7a164/6286f941ce671353d5080abf/unnamed-14.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/five-signs-you-need-to-augment-your-siem",
-          "author": "Joe DeFever",
-          "description": ",\nSecurity teams with an existing security information and event management (SIEM) investment may find themselves having to pay more to their vendor in order to ingest and index more of their data. While they recognize that this greatly hinders their ability to effectively defend their environment, they can’t just uproot a central piece of their infrastructure either — time, licensing, and logistical restrictions stand in the way.\n\nIf you aren’t able to replace your existing SIEM outright, that doesn’t mean you can’t supplement its capabilities with a more performant solution. A recent report revealed that almost half (44%) of organizations want to augment or replace their current SIEM solution.\n\nIt may be time to augment your SIEM.\n\nFortunately, Elastic allows all users to try out a new, …",
-          "link": "https://www.elastic.co/blog/five-signs-you-need-to-augment-your-siem",
-          "publishedOn": "2022-10-19T16:00:00.000Z",
-          "wordCount": 7853,
-          "title": "Five signs you need to augment your SIEM",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltf648779557d7a164/6286f941ce671353d5080abf/unnamed-14.png"
         }
       ]
     },
@@ -646,6 +646,16 @@
       "feedUrl": "https://www.ansible.com/blog/rss.xml",
       "siteUrl": "https://www.ansible.com/blog",
       "articles": [
+        {
+          "id": "https://www.ansible.com/blog/edge-automation-a-paradigm-shift",
+          "author": "Chad Ferman",
+          "description": "Introduction\n \r\nRed Hat Ansible Automation Platform has seen wide-scale adoption in a variety of automation domains, however with edge use cases becoming more mainstream, the thought process around automation must shift from “complete a task immediately” to being able to run automation now and later, and respond to incoming automation requests from devices that are yet unmanaged.",
+          "link": "https://www.ansible.com/blog/edge-automation-a-paradigm-shift",
+          "publishedOn": "2022-10-26T13:00:00.000Z",
+          "wordCount": 3807,
+          "title": "Edge Automation: A Paradigm Shift",
+          "imageUrl": "https://lh6.googleusercontent.com/zJMwDxo2jroIb8kVx2bsfYWNevZiCy2SVCsSilWIrhvPO4CORVhGxNp_ON7hMgE9NY4aau7vEqTIdznNCyOC-Iok0LWWnkVpcSrFPPh6Doin9EyINbC8aGX1k6kqggVCgDOhMAoF3FM6TqHhbIpkOhT783zFKE4p0Vac_m8fmslk7ZDUKwq37QZS1Q"
+        },
         {
           "id": "https://www.ansible.com/blog/best-of-fest-2022",
           "author": "elathram@redhat.com (Elle Universal)",
@@ -739,7 +749,7 @@
           "description": "This month, we are releasing fixes that impact our self-hosted product, Azure DevOps Server.\nResolve issue with newly added AD identities not appearing in security dialog identity pickers.\nThe post October patches for Azure DevOps Server appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/october-patches-for-azure-devops-server-2/",
           "publishedOn": "2022-10-18T16:59:44.000Z",
-          "wordCount": 4212,
+          "wordCount": 4503,
           "title": "October patches for Azure DevOps Server",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/06/HERO-1.jpg"
         },
@@ -786,6 +796,16 @@
       "feedUrl": "http://feeds.feedburner.com/AmazonWebServicesBlog",
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
+        {
+          "id": "418c9a7115badfdc4c7fb44c681e774eb70be3b8",
+          "author": "Danilo Poccia",
+          "description": "Amazon Neptune is a fully managed graph database service that makes it easy to build and run applications that work with highly connected datasets. With Neptune, you can use open and popular graph query languages to execute powerful queries that are easy to write and perform well on connected data. You can use Neptune for […]",
+          "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-neptune-serverless-a-fully-managed-graph-database-that-adjusts-capacity-for-your-workloads/",
+          "publishedOn": "2022-10-26T22:05:11.000Z",
+          "wordCount": 1863,
+          "title": "Introducing Amazon Neptune Serverless – A Fully Managed Graph Database that Adjusts Capacity for Your Workloads",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/827bfc458708f0b442009c9c9836f7e4b65557fb/2020/06/03/Blog-Post_thumbnail.png"
+        },
         {
           "id": "ca16621081273a61c85f2eec5a092eca6cc9cf7e",
           "author": "Steve Roberts",
@@ -905,16 +925,6 @@
           "wordCount": 2470,
           "title": "AWS IoT FleetWise Now Generally Available – Easily Collect Vehicle Data and Send to the Cloud",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/09/22/Site-Merch_AWS-IoT-FleetWise_Blog.png"
-        },
-        {
-          "id": "7ba7c22c89a95d2ced12a3220867b6146d0a2db5",
-          "author": "Sébastien Stormacq",
-          "description": "It looks like my travel schedule is coupled with this Week In Review series of blog posts. This week, I am traveling to Fort-de-France in the French Caribbean islands to meet our customers and partners. I enjoy the travel time when I am offline. It gives me the opportunity to reflect on the past or […]",
-          "link": "https://aws.amazon.com/blogs/aws/aws-week-in-review-september-26-2022/",
-          "publishedOn": "2022-09-26T23:21:36.000Z",
-          "wordCount": 1709,
-          "title": "AWS Week In Review — September 26, 2022",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/09/24/AWS-WIR-9.26.22.png"
         }
       ]
     },
@@ -923,6 +933,16 @@
       "feedUrl": "https://xkcd.com/atom.xml",
       "siteUrl": "https://xkcd.com/",
       "articles": [
+        {
+          "id": "https://xkcd.com/2690/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/cool_s.png\" title=\"Although I hear they were caught cheating off of Rosalind, who sat at a desk in front of them.\" alt=\"Although I hear they were caught cheating off of Rosalind, who sat at a desk in front of them.\" />",
+          "link": "https://xkcd.com/2690/",
+          "publishedOn": "2022-10-26T00:00:00.000Z",
+          "wordCount": 232,
+          "title": "Cool S",
+          "imageUrl": "https://imgs.xkcd.com/comics/cool_s_2x.png"
+        },
         {
           "id": "https://xkcd.com/2689/",
           "author": null,
@@ -952,16 +972,6 @@
           "wordCount": 232,
           "title": "Division Notation",
           "imageUrl": "https://imgs.xkcd.com/comics/division_notation_2x.png"
-        },
-        {
-          "id": "https://xkcd.com/2686/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/space_adventure.png\" title=\"&quot;Sir, it looked really cool.&quot; &quot;Oh no--prestige TV. Okay, which of you has a terrible secret that's being slowly revealed to the audience through flashbacks? Just spit it out so we can escape this arc!&quot;\" alt=\"&quot;Sir, it looked really cool.&quot; &quot;Oh no--prestige TV. Okay, which of you has a terrible secret that's being slowly revealed to the audience through flashbacks? Just spit it out so we can escape this arc!&quot;\" />",
-          "link": "https://xkcd.com/2686/",
-          "publishedOn": "2022-10-17T00:00:00.000Z",
-          "wordCount": 232,
-          "title": "Space Adventure",
-          "imageUrl": "https://imgs.xkcd.com/comics/space_adventure_2x.png"
         }
       ]
     },
@@ -971,12 +981,22 @@
       "siteUrl": "https://camunda.com/",
       "articles": [
         {
+          "id": "https://camunda.com/?p=66235",
+          "author": "Bernd Ruecker",
+          "description": "Learn how inbound Connectors work in Camunda Platform 8.1, and how you can get started with them today.\nThe post A Technical Sneak Peek into Inbound Connectors alongside Camunda 8.1 appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2022/10/technical-sneak-peek-inbound-connectors-camunda-8-1/",
+          "publishedOn": "2022-10-26T14:34:22.000Z",
+          "wordCount": 3373,
+          "title": "A Technical Sneak Peek into Inbound Connectors alongside Camunda 8.1",
+          "imageUrl": "https://camunda.com/wp-content/uploads/2022/07/Camunda_Blog_2022-07JUL_Bernd-Technical-Sneak-Peek-Connectors_1200x627-v3.png"
+        },
+        {
           "id": "https://camunda.com/?p=63590",
           "author": "Tobias Metzke-Bernstein",
           "description": "Monitoring is an essential facet of running applications in a production system. Through this process, organizations collect and analyze data, and determine if a program is performing as expected within set boundaries. When combined with alerting, monitoring allows for detecting unexpected system behavior to mitigate exceptional situations as fast as possible. Furthermore, tracking the performance of a system enables organizations to improve those aspects that have the biggest impact with higher priority. One essential aspect of monitoring is the list of key metrics you want to observe. There are different categories of statistics that can be of interest here. To observe the defined metrics, there are plenty of application monitoring tools on the market today. They differ in many aspects...\nThe post Monitoring Camunda Platform 7 with Prometheus appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/10/monitoring-camunda-platform-7-with-prometheus/",
           "publishedOn": "2022-10-18T13:52:00.000Z",
-          "wordCount": 4603,
+          "wordCount": 4495,
           "title": "Monitoring Camunda Platform 7 with Prometheus",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/10/image-7-1024x505-2.png"
         },
@@ -986,7 +1006,7 @@
           "description": "Learn from Bernd Ruecker, Camunda Co-founder/Chief Technologist, and Daniel Meyer, Camunda CTO, as they tackle questions on connectors, modeling & more.\nThe post CamundaCon 2022: Q&A with Bernd and Daniel appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/10/camundacon-2022-qa-bernd-daniel/",
           "publishedOn": "2022-10-14T20:00:27.000Z",
-          "wordCount": 3669,
+          "wordCount": 3668,
           "title": "CamundaCon 2022: Q&A with Bernd and Daniel",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/10/CamundaCon-QA-Bernd-Daniel.png"
         },
@@ -996,7 +1016,7 @@
           "description": "Directory services are an effective way to manage an organization’s users, groups, printers, devices, and more. Most organizations accomplish this using Active Directory, Apache Directory, Oracle Internet Directory, or other similar tools. Recently I worked with a customer who wanted to see how he could secure the Camunda 8 Platform and process applications with such a directory. Their requirements consisted of: Allowing Directory users to access Camunda applications (Tasklist, Operate, Optimize) Accessing secured Tasklist & Operate APIs from our custom project Securing the custom project In this article, I’ll briefly explain the 3 easy steps taken to fulfill their requirements which include: Federate users from the Directory service into Keycloak Declare an application in Identity to access Camunda APIs Configure...\nThe post Securing Camunda 8 self-managed cluster and applications behind a directory appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/10/securing-camunda-8-self-managed-cluster-and-applications-behind-a-directory/",
           "publishedOn": "2022-10-12T13:01:00.000Z",
-          "wordCount": 3213,
+          "wordCount": 3212,
           "title": "Securing Camunda 8 self-managed cluster and applications behind a directory",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/10/Active_Directory_Camunda_Platform_8.png"
         },
@@ -1006,7 +1026,7 @@
           "description": "We’re extremely excited to announce the release of Camunda Platform 8.1.  In this post, we will go into the highlights of this release including Web Modeler, Connectors, Zeebe, Operate, Optimize, and more. Here’s the highlights of what’s included in this release: Easier Installation and maintenance for Camunda Platform Self-managed Hot backups for Self-Managed Token-Based authentication Modeler updates Process Templates FEEL Expression Editor Inline Annotations Changes to Camunda forms Connectors updates Workflow engine updates Operate updates Optimize updates Let’s get started! Easier installation and maintenance for Camunda Platform Self-Managed Improved Guides and Support for OpenShift and Amazon EKS (AWS) With this release, we are introducing official support for deploying and running Camunda Platform 8 Self-Managed on OpenShift and Amazon EKS (AWS)....\nThe post Camunda Platform 8.1 Released – What’s New appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/10/camunda-platform-8-1-released-whats-new/",
           "publishedOn": "2022-10-11T14:00:00.000Z",
-          "wordCount": 6290,
+          "wordCount": 6188,
           "title": "Camunda Platform 8.1 Released – What’s New",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/10/screenshot-camunda.com-2022.10.11-09_14_38.png"
         },
@@ -1016,7 +1036,7 @@
           "description": "We’re extremely excited to announce the release of Camunda Platform 7.18 Here are some of the highlights: Cockpit: Improved instance selection to avoid unintended batch operations Cockpit: Easier navigation of high batch operation volumes MDC logging features Camunda Forms in Tasklist: Populate select options via process data Exception error codes Filter and order tasks by last updated WebSphere Liberty New and retired supported environments You can download Camunda Platform or run it with Docker. For a complete list of the changes, please check out the release notes. For patched security vulnerabilities, see our security notices. If you want to dig deeper, check out the source code on GitHub. Cockpit: Improved instance selection to avoid unintended batch operations Previously, when performing...\nThe post Camunda Platform 7.18 Released – What’s New appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/10/camunda-platform-7-18-released-whats-new/",
           "publishedOn": "2022-10-11T13:15:00.000Z",
-          "wordCount": 3585,
+          "wordCount": 3482,
           "title": "Camunda Platform 7.18 Released – What’s New",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/10/Camunda_7.18.png"
         },
@@ -1026,7 +1046,7 @@
           "description": "We’re thrilled to announce Camunda Platform 8.1, the latest release of our process orchestration solution. This new version introduces features that accelerate connectivity to the many different systems and technologies that are required for true digital transformation, including: Create custom Connectors with our Integration Framework to accelerate connectivity New out-of-the-box Connectors for popular services Enhancements to Camunda Modeler that improve productivity Hot backups and official support for Amazon EKS and Red Hat OpenShift Plus, several upgrades requested by Camunda Platform 7 customers Organizations across all industries rely on complex technology stacks to adapt and enhance their operations in response to market dynamics, new disruptive companies, and increasing consumer expectations. Your technology stack likely includes everything from cutting-edge technologies to legacy...\nThe post Accelerate Connectivity with Camunda Platform 8.1 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/10/accelerate-connectivity-with-camunda-platform-8-1/",
           "publishedOn": "2022-10-11T12:00:00.000Z",
-          "wordCount": 3380,
+          "wordCount": 3271,
           "title": "Accelerate Connectivity with Camunda Platform 8.1",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/10/Camunda-8.1-Release_2022_blog-featured-image_1200x630-1.png"
         },
@@ -1036,7 +1056,7 @@
           "description": "What is FEEL As a part of the Decision Model and Notation (DMN) specification, the OMG also defined the Friendly Enough Expression Language (FEEL).  Since DMN is intended to be used by designers and business analysts who would like to build decision tables, FEEL needed to be designed as an uncomplicated and human-readable expression language that would help readers understand the logic being described or executed by the DMN table.  Expression languages are typically used by developers to evaluate data to produce a result based on query parameters or conditions. This means it’s syntactically closer to code than human-readable sentences. Since one of the goals of FEEL is to be “process analyst friendly,” it prioritizes readability more than other expression...\nThe post Using FEEL with Camunda 8 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/09/using-feel-with-camunda-8/",
           "publishedOn": "2022-09-30T16:53:40.000Z",
-          "wordCount": 4156,
+          "wordCount": 4047,
           "title": "Using FEEL with Camunda 8",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/09/Camunda_using-FEEL-C8_blog-ftd-image_1200x630.png"
         },
@@ -1046,7 +1066,7 @@
           "description": "Scaling process automation across an enterprise naturally includes a wide array of challenges. To counter these challenges, more and more organizations are evolving their organizational structures accordingly, often creating Centers of Excellence (CoE) and/or communities of practice (CoP). Please note that during this post we will use the term CoE, but keep in mind your organization might call this very differently. That said, in Camunda Platform 8, we included new functionalities that will help companies to scale process automation successfully.  This blog post discusses different aspects of scaling process automation, the role of CoEs, and how new Camunda 8 features support those initiatives.  What does scaling mean? Organizations that want to create a competitive edge through digital transformation (and frankly: which...\nThe post How Camunda 8 supports process automation at enterprise scale appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/09/how-camunda-8-supports-process-automation-at-enterprise-scale/",
           "publishedOn": "2022-09-29T19:30:00.000Z",
-          "wordCount": 3896,
+          "wordCount": 3788,
           "title": "How Camunda 8 supports process automation at enterprise scale",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/09/Camund_Blog_Process-Automation-at-Enterprise-Scale_1200x630-1.png"
         },
@@ -1056,19 +1076,9 @@
           "description": "Microservices are an architectural style that structures an application as a collection of services that are: Highly maintainable and testable Loosely coupled Independently deployable Organized around business capabilities Owned by a small team Conway’s Law states that “any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization’s communication structure”. If your organization has multiple teams working on different parts of a larger system, then microservices can serve as a separation of concerns that map an independent, encapsulated service to a specific team. These teams have clear boundaries of responsibility and can deploy on their own schedule. These factors lend themselves to a polyglot approach. What this means is that because...\nThe post 7 Best Programming Languages for Microservices appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/09/seven-best-programming-languages-for-microservices/",
           "publishedOn": "2022-09-29T13:30:00.000Z",
-          "wordCount": 5125,
+          "wordCount": 5017,
           "title": "7 Best Programming Languages for Microservices",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/09/Camunda_Blog_7-Best-Programming-Languages-Microservices_1200x630-1.png"
-        },
-        {
-          "id": "https://camunda.com/?p=63238",
-          "author": "Christopher Zell",
-          "description": "During Summer Hackdays 2022, I worked on a project called “Zeebe chaos” (zbchaos), a fault injection command-line interface (CLI) tool. This allows us engineers to more easily run chaos experiments against Zeebe, build up confidence in the system’s capabilities, and discover potential weaknesses. Requirements To understand this blog post, it is useful to have a certain understanding of Kubernetes and Zeebe itself. Summer Hackdays: Hackdays are a regular event at Camunda, where people from different departments (engineering, consulting, DevRel, etc.) work together on new ideas, pet projects, and more. Check out previous Summer Hackdays here: Summer Hackdays 2020 Summer Hackdays 2019 Zeebe chaos CLI Working on the Zeebe project is not only about engineering a distributed system or a process...\nThe post Zbchaos — A new fault injection tool for Zeebe appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2022/09/zbchaos-a-new-fault-injection-tool-for-zeebe/",
-          "publishedOn": "2022-09-27T18:00:00.000Z",
-          "wordCount": 3973,
-          "title": "Zbchaos — A new fault injection tool for Zeebe",
-          "imageUrl": "https://camunda.com/wp-content/uploads/2022/09/Camunda_blog-ftd-image_2022_zbchaos_1200x630-1.png"
         }
       ]
     },
@@ -1100,12 +1110,32 @@
       "siteUrl": "https://github.blog/",
       "articles": [
         {
+          "id": "https://github.blog/2022-10-26-3-strategies-for-consolidating-your-toolkit-and-boosting-productivity/",
+          "author": null,
+          "description": "Explore how GitHub Enterprise can help you transform your software engineering organization and practices.",
+          "link": "https://github.blog/2022-10-26-3-strategies-for-consolidating-your-toolkit-and-boosting-productivity/",
+          "publishedOn": "2022-10-26T16:00:04.000Z",
+          "wordCount": 2696,
+          "title": "3 strategies for consolidating your toolkit and boosting productivity",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/10/1200x640ader.png"
+        },
+        {
+          "id": "https://github.blog/2022-10-26-why-and-how-github-encrypts-sensitive-database-columns-using-activerecordencryption/",
+          "author": null,
+          "description": "You may know that GitHub encrypts your source code at rest, but you may not have known that we encrypt sensitive database columns as well. Read about our column encryption strategy and our decision to adopt the Rails column encryption standard.",
+          "link": "https://github.blog/2022-10-26-why-and-how-github-encrypts-sensitive-database-columns-using-activerecordencryption/",
+          "publishedOn": "2022-10-26T14:00:25.000Z",
+          "wordCount": 1791,
+          "title": "Why and how GitHub encrypts sensitive database columns using ActiveRecord::Encryption",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/04/Engineering-Security@2x.png?fit=2400%2C1260"
+        },
+        {
           "id": "https://github.blog/2022-10-25-why-were-excited-about-the-sigstore-general-availability/",
           "author": null,
           "description": "The Sigstore GA means you can protect your software supply chain today with GitHub Actions, and will power new npm security capabilities in the near future.",
           "link": "https://github.blog/2022-10-25-why-were-excited-about-the-sigstore-general-availability/",
           "publishedOn": "2022-10-25T13:02:35.000Z",
-          "wordCount": 1556,
+          "wordCount": 1551,
           "title": "Why we&#8217;re excited about the Sigstore general availability",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/02/Security-Product-Open-Source@2x.png"
         },
@@ -1135,8 +1165,8 @@
           "description": "We’re always trying to improve the GitHub developer experience in meaningful ways, and we love learning from our customers. In the last several months we released several new fork capabilities, and we’re publishing revised fork documentation that gives more details with clearer explanations to make fork concepts easier to understand.",
           "link": "https://github.blog/2022-10-20-unboxing-fork-improvements-and-unwrapping-fork-docs/",
           "publishedOn": "2022-10-20T18:00:58.000Z",
-          "wordCount": 1810,
-          "title": "Unboxing fork improvements and unwrapping fork docs",
+          "wordCount": 1859,
+          "title": "Unboxing fork improvements",
           "imageUrl": "https://github.blog/wp-content/uploads/2020/07/new-docs-site.png"
         },
         {
@@ -1155,7 +1185,7 @@
           "description": "Upgrade your local installation of Git, especially when cloning with --recurse-submodules from untrusted repositories, or if you use git shell interactive mode.",
           "link": "https://github.blog/2022-10-18-git-security-vulnerabilities-announced/",
           "publishedOn": "2022-10-18T17:11:45.000Z",
-          "wordCount": 1253,
+          "wordCount": 1254,
           "title": "Git security vulnerabilities announced",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/10/Group-3.png"
         },
@@ -1165,7 +1195,7 @@
           "description": "Fine-grained personal access tokens offer enhanced security to developers and organization owners, to reduce the risk to your data of compromised tokens.",
           "link": "https://github.blog/2022-10-18-introducing-fine-grained-personal-access-tokens-for-github/",
           "publishedOn": "2022-10-18T15:35:02.000Z",
-          "wordCount": 1916,
+          "wordCount": 1910,
           "title": "Introducing fine-grained personal access tokens for GitHub",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/10/PAT-header.png"
         },
@@ -1178,26 +1208,6 @@
           "wordCount": 1853,
           "title": "GitHub at the 77th United Nations General Assembly",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/10/196257167-b7382917-06cb-4a0f-ab72-24597b1d1d50.png"
-        },
-        {
-          "id": "https://github.blog/2022-10-17-5-tips-for-embedding-security-into-your-workflows/",
-          "author": null,
-          "description": "Having a robust security plan is key to innovation. These tips will empower you to gain the upper hand on cyberattacks, so you can ship quickly and innovate with ease.",
-          "link": "https://github.blog/2022-10-17-5-tips-for-embedding-security-into-your-workflows/",
-          "publishedOn": "2022-10-17T15:00:47.000Z",
-          "wordCount": 1534,
-          "title": "5 tips for embedding security into your workflows",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/08/Security-Product@2x.png"
-        },
-        {
-          "id": "https://github.blog/2022-10-14-osis-deep-dive-is-an-essential-discussion-on-the-future-of-ai-and-open-source/",
-          "author": null,
-          "description": "GitHub is sponsoring Open Source Initiative’s Deep Dive: AI because we think it’s important for the community to unpack how open source software, process, and principles can help best deliver on the promise of AI.",
-          "link": "https://github.blog/2022-10-14-osis-deep-dive-is-an-essential-discussion-on-the-future-of-ai-and-open-source/",
-          "publishedOn": "2022-10-14T16:00:41.000Z",
-          "wordCount": 2175,
-          "title": "OSI’s Deep Dive is an essential discussion on the future of AI and open source",
-          "imageUrl": "https://github.blog/wp-content/uploads/2021/11/GitHub-Policy-blog-banner.png?fit=1200%2C630"
         }
       ]
     },
@@ -1286,7 +1296,7 @@
           "description": "by Jun He, Akash Dwivedi, Natallia Dzenisenka, Snehal Chennuru, Praneeth Yenugutala, Pawan Dixit",
           "link": "https://netflixtechblog.com/orchestrating-data-ml-workflows-at-scale-with-netflix-maestro-aaa2b41b800c?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-10-18T20:43:36.000Z",
-          "wordCount": 6858,
+          "wordCount": 6834,
           "title": "Orchestrating Data/ML Workflows at Scale With Netflix Maestro",
           "imageUrl": "https://miro.medium.com/max/1200/0*SDt718rSvgh2Nclv"
         },
@@ -1296,7 +1306,7 @@
           "description": "A conversation between Travis Brooks, Netflix Product Manager for Experimentation Platform, and George Khachatryan, OfferFit CEO",
           "link": "https://netflixtechblog.com/how-product-teams-can-build-empathy-through-experimentation-6253603880a6?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-10-12T20:56:33.000Z",
-          "wordCount": 4698,
+          "wordCount": 4607,
           "title": "How Product Teams Can Build Empathy Through Experimentation",
           "imageUrl": "https://miro.medium.com/max/1200/1*tdD6kCUukBXG91LAAYr-zw.png"
         },
@@ -1306,7 +1316,7 @@
           "description": "by Kostas Christidis",
           "link": "https://netflixtechblog.com/timestone-netflixs-high-throughput-low-latency-priority-queueing-system-with-built-in-support-1abf249ba95f?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-09-28T15:40:35.000Z",
-          "wordCount": 5504,
+          "wordCount": 5503,
           "title": "Timestone: Netflix’s High-Throughput, Low-Latency Priority Queueing System with Built-in Support…",
           "imageUrl": "https://miro.medium.com/focal/1200/632/46/46/1*JvNLSZmWCDB1WjDDUamU_g.png"
         }
@@ -1317,6 +1327,16 @@
       "feedUrl": "http://feeds.feedburner.com/blogspot/gJZg",
       "siteUrl": "http://ai.googleblog.com/",
       "articles": [
+        {
+          "id": "http://ai.googleblog.com/2022/10/natural-language-assessment-new.html",
+          "author": null,
+          "description": "Posted by Kedem Snir, Software Engineer, and Gal Elidan, Senior Staff Research Scientist, Google Research \nWhether it's a professional honing their skills or a child learning to read, coaches and educators play a key role in assessing the learner's answer to a question in a given context and guiding them towards a goal. These interactions have unique characteristics that set them apart from other forms of dialogue, yet are not available when learners practice alone at home. In the field of natural language processing, this type of capability has not received much attention and is technologically challenging. We set out to explore how we can use machine learning to assess answers in a way that facilitates learning. \n\nIn this blog, we introduce an important natural language understanding (NL…",
+          "link": "http://ai.googleblog.com/2022/10/natural-language-assessment-new.html",
+          "publishedOn": "2022-10-26T17:18:00.000Z",
+          "wordCount": 27771,
+          "title": "Natural Language Assessment: A New Framework to Promote Education",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqv4s4Cq9Ej6y6YUzvGje5btVnwfo83kZKmTjM6YKP0wm5xFkkr6kJ_GHS0ssKM3gPA2OM2jIrFFgmfRqK-CrQa4JtyxqocOPLk72FdaE2tbuuqByFeyUhAnfwEdwDiev9W9KHJXwuOgj6KXu8z_sz4MaVLSU5-AjySex13UqtpDkqEy_jyoGAb9-OKA/s72-c/image3.png"
+        },
         {
           "id": "http://ai.googleblog.com/2022/10/open-images-v7-now-featuring-point.html",
           "author": null,
@@ -1435,12 +1455,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=44070",
+          "author": "Seth Godin",
+          "description": "Some problems lend themselves to reexamination. A second, third or even fourth thought is productive, because our initial impulses might not reflect our best effort at understanding the nuances of the situation. But many problems simply create more thoughts, without productive output. As we confront something that is unlikely to have a simple or productive […]",
+          "link": "https://feeds.feedblitz.com/~/717203466/0/sethsblog~Giving-it-a-second-thought/",
+          "publishedOn": "2022-10-26T08:39:00.000Z",
+          "wordCount": 1103,
+          "title": "Giving it a second thought",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061318.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=44072",
           "author": "Seth Godin",
           "description": "It’s the first mile. Big tech likes to talk about the last mile problem–how to get a wire, a system or a concept from where the nodes are easy to plant to where people actually are. As if the hard part is what they’ve already done, and now it’s just the last little bit… None […]",
           "link": "https://feeds.feedblitz.com/~/717133428/0/sethsblog~Its-not-the-last-mile/",
           "publishedOn": "2022-10-25T18:44:00.000Z",
-          "wordCount": 1144,
+          "wordCount": 1145,
           "title": "It’s not the last mile",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg"
         },
@@ -1523,16 +1553,6 @@
           "wordCount": 1054,
           "title": "Your autobiography",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061313.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=44008",
-          "author": "Seth Godin",
-          "description": "Cars aren’t like companies. Most cars on the road will be sold, again and again, until they end up as parts. Companies usually start and end with their founders. Sometimes, a small, stable company is sold to an individual operator, usually for a multiple of the expected annual profit. It’s an investment in future cash […]",
-          "link": "https://feeds.feedblitz.com/~/715864308/0/sethsblog~Selling-a-company/",
-          "publishedOn": "2022-10-17T08:22:00.000Z",
-          "wordCount": 1410,
-          "title": "Selling a company",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg"
         }
       ]
     },
@@ -1542,12 +1562,52 @@
       "siteUrl": "https://blog.jetbrains.com",
       "articles": [
         {
+          "id": "https://blog.jetbrains.com/?post_type=youtrack&p=291378",
+          "author": "Elena Pishkova",
+          "description": "Sign up for our YouTrack Project Management: Essentials for Getting Started webinar. You’ll get an overview of how to manage your tasks and projects easily, work with your team’s Agile boards, use powerful time tracking, create Gantt charts effectively, and see what’s going on with reports and dashboards. You’ll get to see real examples of […]",
+          "link": "https://blog.jetbrains.com/youtrack/2022/10/join-our-youtrack-project-management-essentials-for-getting-started-online-webinar/",
+          "publishedOn": "2022-10-26T12:56:44.000Z",
+          "wordCount": 1854,
+          "title": "Join Our YouTrack Project Management: Essentials for Getting Started Online Webinar",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/10/DSGN-14655_YouTrack_Project_Management_Essentials_for_Getting_Started_Blog_Social_share_image_1280x720.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=clion&p=291421",
+          "author": "Timur Doumler",
+          "description": "In this video, we show how to use CLion together with a PEmicro Multilink debug probe in order to develop, build and debug code on an ARM-based microcontroller. For this example, our target device will be a BluePill with a STM32F103 ARM Cortex M3 microcontroller, and we will be implementing “Blinky”, i.e. making an LED […]",
+          "link": "https://blog.jetbrains.com/clion/2022/10/using-a-pemicro-multilink-debug-probe-with-clion/",
+          "publishedOn": "2022-10-26T11:22:52.000Z",
+          "wordCount": 1915,
+          "title": "Using a PEmicro Multilink Debug Probe With CLion",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/10/cl-tips-tricks-blog-social-share-image-1280x720-1.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=space&p=287898",
+          "author": "Maarten Balliauw",
+          "description": "Are you thinking about introducing remote development into your team or organization? JetBrains’ remote development workflow allows you to overcome the limits of local machines and slow laptops by keeping your source code safe and secure on a remote server. With the orchestration functionality included in Space, you can create a dev environment, connect it […]",
+          "link": "https://blog.jetbrains.com/space/2022/10/26/get-started-with-space-dev-environments/",
+          "publishedOn": "2022-10-26T10:35:04.000Z",
+          "wordCount": 3135,
+          "title": "How to Get Started With Space Cloud Dev Environments",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/10/social-2560x1440-1.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=go&p=290002",
+          "author": "Sergey Kozlovskiy",
+          "description": "Join us Monday, October 31, at 5:00 pm UTC (check other timezones) for our live webinar, New UI for Your IDE: A Glimpse Into the Future with JetBrains Developer Advocates. This webinar features GoLand, IntelliJ IDEA, PyCharm, and WebStorm. Please note that the new UI is a work in progress. REGISTER JetBrains released our first […]",
+          "link": "https://blog.jetbrains.com/go/2022/10/26/webinar-new-ui-for-your-ide-a-glimpse-into-the-future/",
+          "publishedOn": "2022-10-26T10:28:49.000Z",
+          "wordCount": 2164,
+          "title": "Webinar: “New UI for Your IDE: A Glimpse Into the Future”",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/10/DSGN-14789-Webinar-New-UI-A-Glimpse-at-the-Future-v2_JB_Blog_Social_share_image_1280-720.png"
+        },
+        {
           "id": "https://blog.jetbrains.com/?post_type=webstorm&p=289950",
           "author": "David Watson",
           "description": "Welcome to the third installment of our FOMO digest series, where we gather together the most useful productivity boosters in WebStorm and our other JetBrains IDEs. Today, we’re going to cover some of the coolest features for working with React. All these features are available out of the box in your JetBrains IDE. ‘Reactify’ HTML […]",
           "link": "https://blog.jetbrains.com/webstorm/2022/10/fomo-digest-3/",
           "publishedOn": "2022-10-25T17:54:41.000Z",
-          "wordCount": 2546,
+          "wordCount": 2548,
           "title": "Top 7 Features for React Development in JetBrains IDEs",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/10/fomo-React-social-share.png"
         },
@@ -1607,7 +1667,7 @@
           "description": "Shortcuts are in IntelliJ IDEA’s DNA: every possible action is at your fingertips – even those you didn’t think you needed. We share helpful shortcuts with you quite frequently, so by now, you may very well be a shortcut expert. But believe it or not – there are a few shortcuts that perhaps not even […]",
           "link": "https://blog.jetbrains.com/idea/2022/10/top-underrated-shortcuts/",
           "publishedOn": "2022-10-24T08:11:07.000Z",
-          "wordCount": 2947,
+          "wordCount": 2965,
           "title": "Top Underrated Shortcuts in IntelliJ IDEA",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/10/DSGN-14829_UnderratedShortcuts_Twitter_1200x675.png"
         },
@@ -1617,49 +1677,9 @@
           "description": "A new CLion 2022.3 EAP build is available! Download build 223.7126.6 from our website, via the Toolbox App, or as a snap package (if you are using Ubuntu). If you are on macOS, there is a separate build for Apple Silicon (M1 chip). Update via patch if you are using the previous EAP build. DOWNLOAD […]",
           "link": "https://blog.jetbrains.com/clion/2022/10/clion-2022-3-eap-cpp20-modules-now-supported/",
           "publishedOn": "2022-10-21T15:21:53.000Z",
-          "wordCount": 2623,
+          "wordCount": 2711,
           "title": "CLion 2022.3 EAP: C++20 Modules Now Supported!",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/09/Social_share_image_1280x720_CLion-2x.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=idea&p=289416",
-          "author": "Zlata Kalyuzhnaya",
-          "description": "We’re happy to announce a new live stream on Java ecosystem security with Open Source and DevSecOps! To learn more about using security in the Java ecosystem, register today and join us on the day of the event: Date: Tuesday, October 27, 2022 Time: 5:00 pm –6:00 pm CEST REGISTER FOR THE WEBINAR Session agenda […]",
-          "link": "https://blog.jetbrains.com/idea/2022/10/new-live-stream-diving-into-java-ecosystem-security-with-open-source-and-devsecops/",
-          "publishedOn": "2022-10-21T14:42:15.000Z",
-          "wordCount": 2216,
-          "title": "New Live Stream: Diving Into Java Ecosystem Security With Open Source and DevSecOps",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/02/intellij-idea_social.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=go&p=289427",
-          "author": "Sergey Kozlovskiy",
-          "description": "The fourth build of the GoLand 2022.3 EAP is now available!  You can get the EAP build via the Toolbox App, download it from our website, use a snap package (for Ubuntu), or from inside GoLand, select Check IDE updates for Early Access Program in Preferences/Settings | Appearance & Behavior | System Settings | Updates. […]",
-          "link": "https://blog.jetbrains.com/go/2022/10/21/test-generation-for-generic-functions-code-vision-improvements-for-http-client-and-docker-in-goland-2022-3-eap-4/",
-          "publishedOn": "2022-10-21T14:37:05.000Z",
-          "wordCount": 3047,
-          "title": "Test Generation for Generic Functions, Code Vision, Improvements for HTTP Client and Docker in GoLand 2022.3 EAP #4",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/09/Blog_Social_share_image_1280x720_GoLand-2x.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=idea&p=287698",
-          "author": "Maria Kosukhina",
-          "description": "IntelliJ IDEA 2022.3 EAP 4 is out!  It brings a new way to work with projects in WSL2, numerous improvements to working with Jakarta EE 10, Hibernate, Micronaut, the HTTP Client, Docker, and more. This blog post covers these and other updates in detail.  You can get the latest build from our website or the […]",
-          "link": "https://blog.jetbrains.com/idea/2022/10/intellij-idea-2022-3-eap-4/",
-          "publishedOn": "2022-10-21T14:04:39.000Z",
-          "wordCount": 2910,
-          "title": "IntelliJ IDEA 2022.3 EAP 4: Jakarta EE 10, Hibernate 6.1 Features, Docker Updates, and More",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/02/intellij-idea_social.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=blog&p=289079",
-          "author": "Valeria Letusheva",
-          "description": "Join us Monday, October 31, at 5:00 pm UTC (check other timezones) for our live webinar, New UI for Your IDE: A Glimpse Into the Future with JetBrains Developer Advocates. REGISTER JetBrains released our first IDE in January 2001. Since then, there have been many incremental changes to the UI we know and love. Recently, […]",
-          "link": "https://blog.jetbrains.com/blog/2022/10/21/online-broadcast-new-ui/",
-          "publishedOn": "2022-10-21T12:58:10.000Z",
-          "wordCount": 2123,
-          "title": "Webinar: “New UI for Your IDE: A Glimpse Into the Future”",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/10/DSGN-14789-Webinar-New-UI-A-Glimpse-at-the-Future-v2_JB_Blog_Social_share_image_1280-720.png"
         }
       ]
     }

@@ -6,6 +6,46 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2022/10/31/spring-security-5-7-5-and-5-6-9-available-now",
+          "author": null,
+          "description": "On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Security 5.7.5 and 5.6.9 are available now. In both cases the releases are composed of bug fixes.\n\r\n\r\n\r\nTo learn more, please visit the 5.7.5 and\r\n 5.6.9 release summaries.\n\r\n\r\n\r\nProject Site | Reference | Help",
+          "link": "https://spring.io/blog/2022/10/31/spring-security-5-7-5-and-5-6-9-available-now",
+          "publishedOn": "2022-10-31T17:04:00.000Z",
+          "wordCount": 560,
+          "title": "Spring Security 5.7.5 and 5.6.9 available now",
+          "imageUrl": "https://avatars.githubusercontent.com/u/5248162?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2022/10/31/cve-2022-31690-privilege-escalation-in-spring-security-oauth2-client",
+          "author": null,
+          "description": "Spring Security 5.6.9 and 5.7.5 released on October 31st, 2022 included a fix for CVE-2022-31690 affecting the mapping of authorized scopes in spring-security-oauth2-client. Users are encouraged to update as soon as possible.\n\r\n\r\n\r\nImpact\n\r\n\r\n\r\nUsers who have applied the mitigation should take note of the following impact:\n\r\n\r\n\r\nNo authorized scopes are mapped to the principal (current user) when the Authorization Server (AS) responds to the OAuth2 Access Token Response with an empty or missing scope parameter.\n\r\n\r\n\r\nIf you are affected by this vulnerability, users will not be granted any authorities beginning with SCOPE_ when the AS does not return scopes. Only the special authority ROLE_USER is given to the principal.\n\r\n\r\n\r\n\r\n\r\n\r\nNote\n\r\n\r\n\r\nBeginning with 6.0, the special authority is ch…",
+          "link": "https://spring.io/blog/2022/10/31/cve-2022-31690-privilege-escalation-in-spring-security-oauth2-client",
+          "publishedOn": "2022-10-31T16:41:00.000Z",
+          "wordCount": 839,
+          "title": "CVE-2022-31690: Privilege Escalation in spring-security-oauth2-client",
+          "imageUrl": "https://avatars.githubusercontent.com/u/5248162?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2022/10/31/cve-2022-31692-authorization-rules-can-be-bypassed-via-forward-or-include-in-spring-security",
+          "author": null,
+          "description": "Spring Security 5.6.9 and 5.7.5 released on October 31st, 2022 included a fix for CVE-2022-31692 affecting the AuthorizationFilter. Users are encouraged to update as soon as possible.\n\r\n\r\n\r\nSeverity\n\r\n\r\n\r\nHigh\n\r\n\r\n\r\n\r\n\r\nVendor\n\r\n\r\n\r\nSpring by VMware\n\r\n\r\n\r\n\r\n\r\nAffected VMware Products and Versions\n\r\n\r\n\r\n\r\n\r\nSpring Security 5.7.0 to 5.7.4\n\r\n\r\n\r\nSpring Security 5.6.0 to 5.6.8\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nDescription\n\r\n\r\n\r\nSpring Security, versions 5.7 prior to 5.7.5 and 5.6 prior to 5.6.9 could be susceptible to authorization rules bypass via FORWARD or INCLUDE dispatch.\n\r\n\r\n\r\nSpecifically, an application is vulnerable when all the following are true:\n\r\n\r\n\r\n\r\n\r\nThe application expects that Spring Security applies security to forward and include dispatcher types.\n\r\n\r\n\r\nThe application uses the AuthorizationF…",
+          "link": "https://spring.io/blog/2022/10/31/cve-2022-31692-authorization-rules-can-be-bypassed-via-forward-or-include-in-spring-security",
+          "publishedOn": "2022-10-31T16:41:00.000Z",
+          "wordCount": 886,
+          "title": "CVE-2022-31692: Authorization rules can be bypassed via forward or include in Spring Security",
+          "imageUrl": "https://avatars.githubusercontent.com/u/13255302?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2022/10/31/spring-cloud-2022-0-0-rc1-is-available",
+          "author": null,
+          "description": "On behalf of the community, I am pleased to announce that the Release Candidate 1 (RC1) of the Spring Cloud 2022.0 Release Train is available today. The release can be found in Spring Milestone repository. You can check out the 2022.0 release notes for more information.\nNotable Changes in the 2022.0.0 Release Train\n\r\nSee all issues closed here.\nSpring Cloud Function\n\r\n\r\n  \nUpdates for Observability and Native Hints\n\r\n\nSpring Cloud OpenFeign\n\r\n\r\n  \nAdded support for target URL refreshing (#710)\n\r\n  \nAdded support for LoadBalancer X-Forwarded Headers (#748)\n\r\n  \nSet Jackson Autoconfiguration to be enabled by default (#476)\n\r\n  \nRemoved deprecations and adjusted to the API changes in Feign (#768)\n\r\n\nSpring Cloud Commons\n\r\n\r\n  \nSupport added for property-based configuration for weighted load-b…",
+          "link": "https://spring.io/blog/2022/10/31/spring-cloud-2022-0-0-rc1-is-available",
+          "publishedOn": "2022-10-31T16:22:48.000Z",
+          "wordCount": 868,
+          "title": "Spring Cloud 2022.0.0-RC1 Is Available",
+          "imageUrl": "https://avatars.githubusercontent.com/u/594085?v=4?s=200"
+        },
+        {
           "id": "https://spring.io/blog/2022/10/27/bootiful-podcast-spring-mad-scientist-andy-clement-on-springone-2022-aot-azure-spring-apps-and-more",
           "author": null,
           "description": "Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks to Spring mad scientist Andy Clement (@andy_clement) about the new native support in Spring Boot 3, SpringOne 2022, and Azure Spring Apps, among other things",
@@ -164,46 +204,6 @@
           "wordCount": 749,
           "title": "Spring for GraphQL 1.1.0-RC1 released",
           "imageUrl": "https://avatars.githubusercontent.com/u/103264?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/10/18/spring-security-5-7-4-and-5-6-8-available-now",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Security 5.7.4 and 5.6.8 are available now. In both cases the releases are largely composed of dependency upgrades and minor fixes.\n\r\n\r\n\r\nTo learn more, please visit the 5.7.4 and\r\n 5.6.8 release summaries.\n\r\n\r\n\r\nProject Site | Reference | Help",
-          "link": "https://spring.io/blog/2022/10/18/spring-security-5-7-4-and-5-6-8-available-now",
-          "publishedOn": "2022-10-18T12:54:00.000Z",
-          "wordCount": 564,
-          "title": "Spring Security 5.7.4 and 5.6.8 available now",
-          "imageUrl": "https://avatars.githubusercontent.com/u/5248162?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/10/18/spring-security-6-0-0-rc1-and-5-8-0-rc1-are-released",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Security 6.0.0-RC1 and 5.8.0-RC1 are available now.\n\r\n\r\n\r\nSee the 6.0.0-RC1 and 5.8.0-RC1 release notes for more details.\n\r\n\r\n\r\nProject Site | Reference | Help",
-          "link": "https://spring.io/blog/2022/10/18/spring-security-6-0-0-rc1-and-5-8-0-rc1-are-released",
-          "publishedOn": "2022-10-18T12:54:00.000Z",
-          "wordCount": 549,
-          "title": "Spring Security 6.0.0-RC1 and 5.8.0-RC1 are released",
-          "imageUrl": "https://avatars.githubusercontent.com/u/5248162?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/10/17/spring-data-2022-0-0-rc1-2021-2-5-and-2021-1-8-available",
-          "author": null,
-          "description": "Dear Spring community,\n\r\nOn behalf of the Spring Data team and everyone who contributed, it is my pleasure to announce that Spring Data 2022.0.0 has entered its release candidate phase by releasing RC1 today. It is available from the milestone repository. This release ships with several tickets fixed. Along with the release candidate, we shipped 2021.2.5 and 2021.1.8 service releases, to be picked up by corresponding Spring Boot releases.\n\r\nThe release candidate ships with a revised module structure, specifically Spring Data for Apache Geode is no longer part of the release train. Expect a blog post that outlines details soon.\n\r\nPlease give Spring Data 2022.0.0-RC1 a try (for example, as part of the upcoming Spring Boot 3.0.0-RC1 release), which will be available start.spring.io soon, and …",
-          "link": "https://spring.io/blog/2022/10/17/spring-data-2022-0-0-rc1-2021-2-5-and-2021-1-8-available",
-          "publishedOn": "2022-10-17T08:23:00.000Z",
-          "wordCount": 1171,
-          "title": "Spring Data 2022.0.0-RC1, 2021.2.5, and 2021.1.8 available",
-          "imageUrl": "https://avatars.githubusercontent.com/u/1035015?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/10/16/spring-at-javaone-2022",
-          "author": null,
-          "description": "Hi, Spring fans! It’s Sunday the 16th of October as I write this and I’m winging my way to sunny Las Vegas, Nevada, where I’ll be attending (and presenting at) the first JavaOne show in years! It didn’t exist as the JavaOne we know and love for years, even before the pandemic interrupted life as we know it worldwide. So this isn’t just the first JavaOne since 2019, it’s [the first JavaOne since 2017](https://www.infoq.com/news/2018/04/oracle-kills-java-one/_! I can’t wait to be there, to see the amazing community, to soak up the sun and fun with my teammates and friends in the ecosystem. And we want to see you, too.\n\r\nThere are a few of us doing talks from the Spring team and we’d love to see you!\n\r\nFirst of all: we have a booth, so join us there.\n\r\nThere are going to be a bunch of great t…",
-          "link": "https://spring.io/blog/2022/10/16/spring-at-javaone-2022",
-          "publishedOn": "2022-10-16T07:00:00.000Z",
-          "wordCount": 933,
-          "title": "Spring at JavaOne 2022",
-          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
         }
       ]
     },
@@ -410,12 +410,72 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
+          "id": "https://www.elastic.co/blog/tracking-peak-time-for-trick-or-treaters-in-kibana",
+          "author": "Carly Richmond",
+          "description": "We all have fond memories of dressing up in costumes and trick-or-treating. Have you ever wondered when the peak time for trick-or-treating is? Learn how to ingest data and build visualizations with Kibana to show when to expect trick-or-treaters.",
+          "link": "https://www.elastic.co/blog/tracking-peak-time-for-trick-or-treaters-in-kibana",
+          "publishedOn": "2022-10-31T00:00:00.000Z",
+          "wordCount": 8168,
+          "title": "Tracking peak time for trick-or-treaters in Kibana",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt14c02617338b795b/635c0508267dbd106239041f/Tweet_image.jpg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/what-can-elastic-synthetics-tell-us-about-kibana-dashboards",
+          "author": "Philipp Kahr",
+          "description": "Elastic Synthetics enables you to configure an out-of-the-box experience directly through your Elastic Cloud deployment without the need to install anything! It also works across the globe with multiple locations you can choose from.",
+          "link": "https://www.elastic.co/blog/what-can-elastic-synthetics-tell-us-about-kibana-dashboards",
+          "publishedOn": "2022-10-31T00:00:00.000Z",
+          "wordCount": 7961,
+          "title": "What can Elastic Synthetics tell us about Kibana Dashboards?",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc12e084face9bca3/62e91caae71af410b83be81f/large-illustration-machine-learning-anomaly-1200x630.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/when-to-scale-from-free-software-to-cloud-services",
+          "author": "Julie Campagna",
+          "description": "When organizations hit the wall of scalability and support, cloud services are the logical next step.",
+          "link": "https://www.elastic.co/blog/when-to-scale-from-free-software-to-cloud-services",
+          "publishedOn": "2022-10-31T00:00:00.000Z",
+          "wordCount": 8158,
+          "title": "When to scale from free software to cloud services",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte466d64056119dad/6346da18a819441366928fa6/02-jetfighter.jpg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/tracking-peak-time-for-trick-or-treaters-in-kibana",
+          "author": "Carly Richmond",
+          "description": ",\nIt’s the most spooky time of the year! Many of us have fond memories as children of dressing up in scary costumes and heading door to door in search of treats. As adults, we may be on door duty handing out candy.\nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0584d8b9e536b807/635c03689a123e5dbdbca267/1.jpg,1.jpg,\nIrrespective of which side of the door you’re standing on, have you ever wondered when the peak time for trick or treating is? Below, we’ll explain how to ingest data and build sample visualizations using Kibana to show when to expect trick-or-treaters knocking on the door.\nIngesting our trick-or-treater data\nTo examine this question, we need data. Thankfully, the wonderful Jeffrey A. Shaffer has been collecting data on the trick-or-treaters coming to his door fr…",
+          "link": "https://www.elastic.co/blog/tracking-peak-time-for-trick-or-treaters-in-kibana",
+          "publishedOn": "2022-10-31T00:00:00.000Z",
+          "wordCount": 8168,
+          "title": "Tracking peak time for trick-or-treaters in Kibana",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt14c02617338b795b/635c0508267dbd106239041f/Tweet_image.jpg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/what-can-elastic-synthetics-tell-us-about-kibana-dashboards",
+          "author": "Philipp Kahr",
+          "description": ",\nI like to leverage our technologies to ensure our products have a pleasant user experience. Elastic Synthetics enables you to configure it in an out-of-the-box experience directly through your Elastic Cloud deployment without the need to install anything! It also works across the globe with multiple locations you can choose from. Ever wondered how fast your web service is when accessed from Japan, Germany, or the eastern U.S.? Now you can do this by simply clicking on a checkbox.\n\nDuring my time as a system administrator, I often heard complaints from users about our services being slow. If we think of it in terms of Kibana, we often hear stories about slow dashboards. I thought, why not leverage Elastic Synthetic monitoring to investigate if a dashboard is slow? \n\nWe all have different …",
+          "link": "https://www.elastic.co/blog/what-can-elastic-synthetics-tell-us-about-kibana-dashboards",
+          "publishedOn": "2022-10-31T00:00:00.000Z",
+          "wordCount": 7961,
+          "title": "What can Elastic Synthetics tell us about Kibana Dashboards?",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc12e084face9bca3/62e91caae71af410b83be81f/large-illustration-machine-learning-anomaly-1200x630.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/when-to-scale-from-free-software-to-cloud-services",
+          "author": "Julie Campagna",
+          "description": ",\nTo many people, free software (including open source) usually means no cost. Similarly, in-house developers often use free software to create tools that help streamline or automate processes, thereby removing the need to purchase software. \n\nNot only can IT leaders save money by using no-cost software and homegrown developer tools, but they can also bypass the red tape involved with executive buy-in and budget approval. Sounds good, right?\n\nNot so fast. For small businesses on a shoestring budget, free software — for example, accounting, photo editing, task tracking apps — can make a lot of sense. However, when it comes to enterprise companies running mission-critical applications, there’s a time and place for trialing “free” software and building your own quick-fix solutions in-house, a…",
+          "link": "https://www.elastic.co/blog/when-to-scale-from-free-software-to-cloud-services",
+          "publishedOn": "2022-10-31T00:00:00.000Z",
+          "wordCount": 8158,
+          "title": "When to scale from free software to cloud services",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte466d64056119dad/6346da18a819441366928fa6/02-jetfighter.jpg"
+        },
+        {
           "id": "https://www.elastic.co/blog/easy-javascript-error-investigation",
           "author": "Carly Richmond",
           "description": "Identifying errors in minified JavaScript code is hard! Check out how source maps uploaded to Elastic Observability make error hunting in RUM traces easier.",
           "link": "https://www.elastic.co/blog/easy-javascript-error-investigation",
           "publishedOn": "2022-10-28T13:00:00.000Z",
-          "wordCount": 8754,
+          "wordCount": 8733,
           "title": "Easy JavaScript error investigation with source maps",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt62a64ffe6b9f2012/629e68d43d4e745ed3ae5888/blog-observability-no-logo.png"
         },
@@ -425,7 +485,7 @@
           "description": ",\nHopefully by now you’re taken your first sip of Elastic RUM, or real user monitoring, and see the power of searching through traces and the User Experience metrics to gain insights into how users actually use and experience your application. One issue you may have experienced is the challenge of finding the source of errors for minified JavaScript files. \n\nMinification is the process of modifying code and markup using techniques such as whitespace and comment removal and variable renaming to reduce the overall filesize. This is intended to improve the user experience by speeding up the page loading time in the browser. Sadly, this can make diagnosing the cause of issues in production applications rather tricky. As you can see from the below stack trace, files are often minified to a sing…",
           "link": "https://www.elastic.co/blog/easy-javascript-error-investigation",
           "publishedOn": "2022-10-28T13:00:00.000Z",
-          "wordCount": 8754,
+          "wordCount": 8733,
           "title": "Easy JavaScript error investigation with source maps",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt62a64ffe6b9f2012/629e68d43d4e745ed3ae5888/blog-observability-no-logo.png"
         },
@@ -435,7 +495,7 @@
           "description": "Personalized ecommerce search experiences build loyalty, influence decisions, and increase spend. This post demystifies the steps to get started, so you can prioritize search results according to user profiles and offer relevant recommendations.",
           "link": "https://www.elastic.co/blog/how-to-personalize-search-experiences-using-elastic",
           "publishedOn": "2022-10-28T00:00:00.000Z",
-          "wordCount": 8110,
+          "wordCount": 8089,
           "title": "How to personalize search experiences using Elastic",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltcc7f9873ba87d03d/635ad995714c6a728bd02f2b/search-personalization-elastibuy.jpg"
         },
@@ -445,7 +505,7 @@
           "description": ",\nCreating personalized search experiences can be challenging. In this post, we’ll demystify the steps to get started, so you can prioritize search results according to user profiles, offer relevant recommendations, and accelerate workflows. But before we get to that, let’s address why personalized search matters.\n[Download the whitepaper: Ecommerce search personalization on Elastic]\nThe influence of personalized search\nWhether you’re aware of it or not, search powers the personalized digital experiences you encounter everyday. Here are just a few examples:\n\nSearch-as-you-type uses your search history to suggest queries.\nKnowledge base articles get served up according to your subscription preferences.\nHealthcare providers are suggested depending on your medical history and location.\nOnline…",
           "link": "https://www.elastic.co/blog/how-to-personalize-search-experiences-using-elastic",
           "publishedOn": "2022-10-28T00:00:00.000Z",
-          "wordCount": 8110,
+          "wordCount": 8089,
           "title": "How to personalize search experiences using Elastic",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltcc7f9873ba87d03d/635ad995714c6a728bd02f2b/search-personalization-elastibuy.jpg"
         },
@@ -455,7 +515,7 @@
           "description": "With Elastic Enterprise Search, explore how to set up, display, and manage product variants and SKUs when modeling data for your ecommerce search experiences.",
           "link": "https://www.elastic.co/blog/how-to-create-a-document-schema-for-product-variants-and-skus-for-your-ecommerce-search-experience",
           "publishedOn": "2022-10-27T00:00:00.000Z",
-          "wordCount": 11444,
+          "wordCount": 11423,
           "title": "How to create a document schema for product variants and SKUs for your ecommerce search experience",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt26eec11ef53768ba/6358548a91426d70a0a61abb/ecommerce-sku-variant-thumbnail.png"
         },
@@ -465,7 +525,7 @@
           "description": "Discover how IT leaders are using search technology to turn unstructured data into insights that improve the customer experience, increase operational resilience, and mitigate security threats.",
           "link": "https://www.elastic.co/blog/turning-data-into-actionable-insights-using-search-technology",
           "publishedOn": "2022-10-27T00:00:00.000Z",
-          "wordCount": 7243,
+          "wordCount": 7222,
           "title": "How IT leaders are turning data into actionable insights using search technology [Infographic]",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt19bdb1f1afc59605/6358409e94a86c5862636940/observability-digital-transformation-1.jpg"
         },
@@ -475,7 +535,7 @@
           "description": "Want to increase loyalty and retention? Move your customer data to the cloud.",
           "link": "https://www.elastic.co/blog/how-moving-to-the-cloud-leads-to-a-better-customer-experience",
           "publishedOn": "2022-10-27T00:00:00.000Z",
-          "wordCount": 8267,
+          "wordCount": 8246,
           "title": "How moving to the cloud leads to a better customer experience",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltb72a287b784f8ffe/635ac10792026b7701875538/integrated-IT-infrastructure.jpg"
         },
@@ -485,7 +545,7 @@
           "description": ",\nIn this article, we'll explore the concepts of variants and SKUs in ecommerce, and how to best handle these when modeling data for your ecommerce search experiences. We're optimizing our models using Elastic Enterprise Search.\nUnderstanding variants and SKUs\nIn ecommerce, products are not just \"products.\" There can be a hierarchy to products, which generally follows this pattern:\nProduct → Variant → SKU\nLet's explore these terms and how they factor into ecommerce stores and search experiences.\nVariants\nThe term variant in ecommerce refers to a single product that has a number of variations with different attributes. \nFor example, a store may sell a Breezy Classic Button Down Shirt, in three different colors: green, red, and blue. Each color variation of the shirt is considered a variant …",
           "link": "https://www.elastic.co/blog/how-to-create-a-document-schema-for-product-variants-and-skus-for-your-ecommerce-search-experience",
           "publishedOn": "2022-10-27T00:00:00.000Z",
-          "wordCount": 11444,
+          "wordCount": 11423,
           "title": "How to create a document schema for product variants and SKUs for your ecommerce search experience",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt26eec11ef53768ba/6358548a91426d70a0a61abb/ecommerce-sku-variant-thumbnail.png"
         },
@@ -495,7 +555,7 @@
           "description": ",\nMore data is being created than ever before. With an expected 181 zettabytes of data created in 2025 (compared to 64.2 zettabytes in 2020), there’s a lot more of it to make use of. Over the next five years, 80% of that data will be unstructured, according to IDC. This data isn’t just applicable to big data projects with hypothetical opportunities, either. It’s the lifeblood for real, concrete, business-critical use cases that are applicable to businesses of all sizes and across all industries.\n\nAs an IT leader, you’re tasked with accelerating digital transformation, supercharging scalability, and improving customer experiences (among a plethora of other business priorities). To achieve all of these objectives, you need technologies that can supercharge your decision-making and turn data …",
           "link": "https://www.elastic.co/blog/turning-data-into-actionable-insights-using-search-technology",
           "publishedOn": "2022-10-27T00:00:00.000Z",
-          "wordCount": 7243,
+          "wordCount": 7222,
           "title": "How IT leaders are turning data into actionable insights using search technology [Infographic]",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt19bdb1f1afc59605/6358409e94a86c5862636940/observability-digital-transformation-1.jpg"
         },
@@ -505,7 +565,7 @@
           "description": ",\nIt was finally time to bite the bullet. \n\nAfter years of relying on an aging on-prem version of Elasticsearch, the U.S.-based expense management firm needed to modernize its IT infrastructure. And as it migrated from v 2.3.4 to v 7.9, it seemed like the right time to graduate to the cloud.\n\n\n\nIt wouldn’t be simple. The firm — a global leader in accounts payable automation — employed a complex installation using 10 custom searches. And the Lucene syntax that drives Elasticsearch had changed a lot in five years.\n\n\n\nWith the help of Softjourn, a Bay Area-based software development company, they began a year-long migration to AWS.\n\n\nThe key questions: What would happen to the customer experience? Would searches be as fast and accurate? Could the firm maintain the same high level of responsiv…",
           "link": "https://www.elastic.co/blog/how-moving-to-the-cloud-leads-to-a-better-customer-experience",
           "publishedOn": "2022-10-27T00:00:00.000Z",
-          "wordCount": 8267,
+          "wordCount": 8246,
           "title": "How moving to the cloud leads to a better customer experience",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltb72a287b784f8ffe/635ac10792026b7701875538/integrated-IT-infrastructure.jpg"
         },
@@ -515,7 +575,7 @@
           "description": "Digital transformation is expanding the attack surface in financial services. Learn about several essential features that financial security leaders should look out for in their next SIEM investment.",
           "link": "https://www.elastic.co/blog/leading-financial-institutions-hedge-risk-by-focusing-on-these-5-critical-siem-requirements",
           "publishedOn": "2022-10-26T00:00:00.000Z",
-          "wordCount": 8553,
+          "wordCount": 8532,
           "title": "Leading financial institutions hedge risk by focusing on these 5 critical SIEM requirements",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt01f60c6522c57385/6351b1bc4e565f1cdce29dcf/04-stock-charts.jpg"
         },
@@ -525,7 +585,7 @@
           "description": ",\nDigital transformation is expanding the attack surface in financial services. Throughout the pandemic, the accelerated adoption of digital banking, payments, and insurance channels has enabled providers to offer greater levels of service, new financial products, and enhanced journeys to their customers.\n\n\n\nHowever, with growing amounts of data and increasingly complex IT ecosystems, bad actors are finding more creative ways of wreaking havoc. In fact, U.S. Federal Reserve Chairman Jerome Powell warned last year that cyberattacks are the number-one threat to the global financial system.\n\n\n\nCyberattacks in financial services can be exceptionally devastating. Even small problems can lead to substantial money lost, customers exposed, and heavy regulatory fines. Some of the recent drivers beh…",
           "link": "https://www.elastic.co/blog/leading-financial-institutions-hedge-risk-by-focusing-on-these-5-critical-siem-requirements",
           "publishedOn": "2022-10-26T00:00:00.000Z",
-          "wordCount": 8553,
+          "wordCount": 8532,
           "title": "Leading financial institutions hedge risk by focusing on these 5 critical SIEM requirements",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt01f60c6522c57385/6351b1bc4e565f1cdce29dcf/04-stock-charts.jpg"
         },
@@ -535,7 +595,7 @@
           "description": "To be effective, a SIEM needs to provide compatibility with your current environment — including your cloud infrastructure and applications — as well as support future expansion.",
           "link": "https://www.elastic.co/blog/top-3-siem-challenges-in-multi-cloud-environments",
           "publishedOn": "2022-10-25T07:00:00.000Z",
-          "wordCount": 7930,
+          "wordCount": 7909,
           "title": "Top 3 SIEM challenges in multi-cloud environments",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt066782b93361a351/6297e54324e98e0f7a82ff1e/illustration-hero-security-cloud-security.png"
         },
@@ -545,69 +605,9 @@
           "description": ",\n\nWhat is a SIEM, and why do you need one for cloud?\nSecurity information and event management (SIEM) is designed to combine the best of security information management (SIM) and security event management (SEM) to provide a unified platform for intrusion detection and response. While SIEMs traditionally don’t include prevention capabilities, users are increasingly expecting fulfillment of this use case from a SIEM as part of tool consolidation. We need to move away from reactive security toward proactive security, working to prevent intrusions before they happen (or get worse). A quality SIEM must equip practitioners to spot cyber-threats quickly, and investigate and remediate threats before they can cause damage.\nThe shift to the cloud exacerbates the visibility challenges of perimeter-b…",
           "link": "https://www.elastic.co/blog/top-3-siem-challenges-in-multi-cloud-environments",
           "publishedOn": "2022-10-25T07:00:00.000Z",
-          "wordCount": 7930,
+          "wordCount": 7909,
           "title": "Top 3 SIEM challenges in multi-cloud environments",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt066782b93361a351/6297e54324e98e0f7a82ff1e/illustration-hero-security-cloud-security.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/culture-the-elastic-guide-to-finding-a-company-you-can-grow-with",
-          "author": "Elastic Culture",
-          "description": "Where do you want to be in 5 years? Here's how to find a company that will help you take the next steps in your career.",
-          "link": "https://www.elastic.co/blog/culture-the-elastic-guide-to-finding-a-company-you-can-grow-with",
-          "publishedOn": "2022-10-25T00:00:00.000Z",
-          "wordCount": 7295,
-          "title": "The Elastic Guide to: Finding a company you can grow with",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltea1eab838043c602/63569ce0e63a425d5dc58c7d/10.0-culture-blog-finding-a-company-you-can-grow-with-blog-1680x980.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/what-do-telecom-security-teams-need-from-a-siem",
-          "author": "Suranjeeta Choudhury",
-          "description": "In the past couple of years, two things stood out for the telecom industry: 5G and cloud adoption. Put together, there is a need for a completely revamped approach to security. And the journey begins with a “modern” SIEM.",
-          "link": "https://www.elastic.co/blog/what-do-telecom-security-teams-need-from-a-siem",
-          "publishedOn": "2022-10-25T00:00:00.000Z",
-          "wordCount": 7562,
-          "title": "What do telecom security teams need from a SIEM?",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt648c7212bb76343e/6351ad161d78fa218f252508/06-subway.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/customer-trust-relies-on-building-it-systems-that-scale",
-          "author": "Rusty Weston",
-          "description": "Solving for scale is the key to ensuring your IT organization delivers on its promise to secure and protect data",
-          "link": "https://www.elastic.co/blog/customer-trust-relies-on-building-it-systems-that-scale",
-          "publishedOn": "2022-10-25T00:00:00.000Z",
-          "wordCount": 7743,
-          "title": "Customer trust relies on building IT systems that scale",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc47a20080a005ac8/6356ec7a0a58db35cbdbc2c7/observability-digital-transformation-3.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/culture-the-elastic-guide-to-finding-a-company-you-can-grow-with",
-          "author": "Elastic Culture",
-          "description": ",\nJordyn Short, Services Architect at Elastic, spent seven years in the U.S. Army. She learned many valuable lessons, among them, the path to success isn’t always easy. After leaving the military, she took these learnings to create a fulfilling career. \nAs a civilian, the path to success isn’t as defined as it might be in military training, so Jordyn had to learn how to create and pursue the career she wanted. She went from the Army to government contracting work, which she says was a good transition into finding out who she was and what she wanted.\nJordyn spent two years as a Senior Technical Consultant at Elastic before being recently promoted to Services Architect, a common career trajectory. To get promoted, she had to complete her Elastic Engineering certification, show technical comp…",
-          "link": "https://www.elastic.co/blog/culture-the-elastic-guide-to-finding-a-company-you-can-grow-with",
-          "publishedOn": "2022-10-25T00:00:00.000Z",
-          "wordCount": 7295,
-          "title": "The Elastic Guide to: Finding a company you can grow with",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltea1eab838043c602/63569ce0e63a425d5dc58c7d/10.0-culture-blog-finding-a-company-you-can-grow-with-blog-1680x980.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/what-do-telecom-security-teams-need-from-a-siem",
-          "author": "Suranjeeta Choudhury",
-          "description": ",\nJust within the last 30 days, the two largest telecom operators in Australia1 were hit by a data breach impacting millions of customers and compromising sensitive personal information like home addresses, drivers’ licenses, and passport numbers. The situation is not very different in the Americas, where another leading telecom provider2 cited a 13% jump in ransomware attacks in the past year. And in Europe, the latest cybersecurity report from European Union Agency for Cybersecurity (ENISA)3 that lists the major telecom security incidents from 2021 stated that 5,000+ user hours were lost — compared to just over 800 hours in 2020.\n\n\n\nSo what has changed in the past couple of years? For the telecom industry in particular, two things stand out: 5G and cloud adoption. These technologies prov…",
-          "link": "https://www.elastic.co/blog/what-do-telecom-security-teams-need-from-a-siem",
-          "publishedOn": "2022-10-25T00:00:00.000Z",
-          "wordCount": 7562,
-          "title": "What do telecom security teams need from a SIEM?",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt648c7212bb76343e/6351ad161d78fa218f252508/06-subway.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/customer-trust-relies-on-building-it-systems-that-scale",
-          "author": "Rusty Weston",
-          "description": ",\nAdopting hybrid or public clouds remains IT’s go-to means of achieving scale. While this transformation has improved price performance and advanced tech-driven business capabilities, including faster and deeper data insights, it hasn’t always engendered higher customer trust. \n\nThat’s due in no small part to widely-publicized hacks that have exposed personally identifiable information (PII) and also in part to higher customer dependence upon mobile commerce, wonky inventory systems, and sometimes unreliable online ordering. By some measures, performing at scale is all about improving transactions per second.\n\nAccording to a 2022 PwC study, “87% of business executives think consumers have a high level of trust in their business. But only 30% of consumers say they do.” One of the biggest t…",
-          "link": "https://www.elastic.co/blog/customer-trust-relies-on-building-it-systems-that-scale",
-          "publishedOn": "2022-10-25T00:00:00.000Z",
-          "wordCount": 7743,
-          "title": "Customer trust relies on building IT systems that scale",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc47a20080a005ac8/6356ec7a0a58db35cbdbc2c7/observability-digital-transformation-3.jpg"
         },
         {
           "id": "https://www.elastic.co/blog/performing-real-user-monitoring-rum-with-elastic-apm",
@@ -636,6 +636,16 @@
       "feedUrl": "https://www.ansible.com/blog/rss.xml",
       "siteUrl": "https://www.ansible.com/blog",
       "articles": [
+        {
+          "id": "https://www.ansible.com/blog/let-ansible-keep-an-eye-on-your-aws-environment",
+          "author": "Gomathi Selvi Srinivasan",
+          "description": "In a cloud model, the security of the environment and compliance becomes the responsibility of both the end users and the cloud provider. This is what we call the shared responsibility model in which every part of the cloud, including the hardware, data, configurations, access rights, and operating system, are protected. Depending on the local legislation and the origin of the data that is handled (for instance laws like HIPAA, the GDPR in Europe, or the Californian CCPA),  you may have to enforce strict rules on your environment and log events for audit purposes. AWS CloudTrail will help you to achieve this goal. The service can collect and record any kind of information coming from your environment and store or send the events to a destination for audit. In addition to security and compliance, this service helps keep track of resource consumption.",
+          "link": "https://www.ansible.com/blog/let-ansible-keep-an-eye-on-your-aws-environment",
+          "publishedOn": "2022-10-31T13:00:00.000Z",
+          "wordCount": 3601,
+          "title": "Let Ansible keep an eye on your AWS environment",
+          "imageUrl": "https://lh3.googleusercontent.com/wnD_tVJOsdCuKcbGSj5HICH-2u2iUClJws9FFApathtciNREwPSdVyPvu0JK9EIXGvfgOCR3MVRF9JqX8EmW6ROWkVI5GBcEEJNrac-g6RYDTomeiXs8xmDXLXcucUpGQIiJo-4d8Rzll2gklU2-1LlWgd4gGKGYIhz6ou6GS6b_yn6EaSnv0tlL2g"
+        },
         {
           "id": "https://www.ansible.com/blog/edge-automation-a-paradigm-shift",
           "author": "Chad Ferman",
@@ -719,7 +729,7 @@
           "description": "We have released Azure DevOps Server 2022 RC2. This is our last planned prerelease before our final release of Azure DevOps Server 2022. You can upgrade from Azure DevOps Server 2022 RC1 or previous versions of TFS and Azure DevOps. You can find the full details in our release notes.\nThe post Azure DevOps Server 2022 RC2 now available appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azure-devops-server-2022-rc2-now-available/",
           "publishedOn": "2022-10-25T20:41:56.000Z",
-          "wordCount": 4201,
+          "wordCount": 3826,
           "title": "Azure DevOps Server 2022 RC2 now available",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/06/HERO-1.jpg"
         },
@@ -739,7 +749,7 @@
           "description": "This month, we are releasing fixes that impact our self-hosted product, Azure DevOps Server.\nResolve issue with newly added AD identities not appearing in security dialog identity pickers.\nThe post October patches for Azure DevOps Server appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/october-patches-for-azure-devops-server-2/",
           "publishedOn": "2022-10-18T16:59:44.000Z",
-          "wordCount": 4503,
+          "wordCount": 4258,
           "title": "October patches for Azure DevOps Server",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/06/HERO-1.jpg"
         },
@@ -749,7 +759,7 @@
           "description": "Exciting things are in store for Azure DevOps in the coming year! We’re planning deep investments in security as well as broad investment across the product. Read on for more information, and then be sure to check out our updated roadmap at https://aka.ms/AzureDevOpsRoadmap.\nThe post Integrate security into your developer workflow with GitHub Advanced Security for Azure DevOps appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/integrate-security-into-your-developer-workflow-with-github-advanced-security-for-azure-devops/",
           "publishedOn": "2022-10-12T12:59:49.000Z",
-          "wordCount": 7471,
+          "wordCount": 7180,
           "title": "Integrate security into your developer workflow with GitHub Advanced Security for Azure DevOps",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/10/AzDO-heart-Security.png"
         },
@@ -759,7 +769,7 @@
           "description": "We have resolved a known issue regarding publishing extensions to the Visual Studio Marketplace. If you’ve run into the error message: “Your ability to create global personal access tokens (PATs) is restricted by your organization.”, this is likely because your administrator has enabled a policy to restrict the creation of global personal access tokens (PATs).\nThe post Publishing extensions to Marketplace issue resolved appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/publishing-extensions-to-marketplace-issue-resolved/",
           "publishedOn": "2022-10-10T16:08:03.000Z",
-          "wordCount": 4174,
+          "wordCount": 3883,
           "title": "Publishing extensions to Marketplace issue resolved",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/10/start_4.png"
         },
@@ -786,6 +796,16 @@
       "feedUrl": "http://feeds.feedburner.com/AmazonWebServicesBlog",
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
+        {
+          "id": "29637f7ab6bac856787858b6324877d404e8d5e7",
+          "author": "Antje Barth",
+          "description": "No tricks, just treats in this weekly roundup of news and announcements. Let’s switch our AWS Management Console into dark mode and dive right into it. Last Week’s Launches Here are some launches that got my attention during the previous week: AWS Local Zones in Hamburg and Warsaw now generally available – AWS Local Zones help […]",
+          "link": "https://aws.amazon.com/blogs/aws/aws-week-in-review-october-31-2022/",
+          "publishedOn": "2022-10-31T16:48:05.000Z",
+          "wordCount": 1507,
+          "title": "AWS Week in Review – October 31, 2022",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/10/31/AWS-WIR-10.31.22.png"
+        },
         {
           "id": "90f04a9d62650a4739f4d04add932ad4769dc741",
           "author": "Sébastien Stormacq",
@@ -904,6 +924,16 @@
       "siteUrl": "https://xkcd.com/",
       "articles": [
         {
+          "id": "https://xkcd.com/2692/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/interior_decorating.png\" title=\"It all came flat-packed in Pandora's Box.\" alt=\"It all came flat-packed in Pandora's Box.\" />",
+          "link": "https://xkcd.com/2692/",
+          "publishedOn": "2022-10-31T00:00:00.000Z",
+          "wordCount": 232,
+          "title": "Interior Decorating",
+          "imageUrl": "https://imgs.xkcd.com/comics/interior_decorating_2x.png"
+        },
+        {
           "id": "https://xkcd.com/2691/",
           "author": null,
           "description": "<img src=\"https://imgs.xkcd.com/comics/encryption.png\" title=\"WARNING: PEOPLE NAMED EVE ARE PROHIBITED FROM INSTALLING THIS APP!\" alt=\"WARNING: PEOPLE NAMED EVE ARE PROHIBITED FROM INSTALLING THIS APP!\" />",
@@ -932,16 +962,6 @@
           "wordCount": 234,
           "title": "Fermat's First Theorem",
           "imageUrl": "https://imgs.xkcd.com/comics/fermats_first_theorem_2x.png"
-        },
-        {
-          "id": "https://xkcd.com/2688/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/bubble_universes.png\" title=\"The theory finally unifies cosmic inflation and regular inflation.\" alt=\"The theory finally unifies cosmic inflation and regular inflation.\" />",
-          "link": "https://xkcd.com/2688/",
-          "publishedOn": "2022-10-21T00:00:00.000Z",
-          "wordCount": 232,
-          "title": "Bubble Universes",
-          "imageUrl": "https://imgs.xkcd.com/comics/bubble_universes_2x.png"
         }
       ]
     },
@@ -966,7 +986,7 @@
           "description": "Learn how inbound Connectors work in Camunda Platform 8.1, and how you can get started with them today.\nThe post A technical sneak peek into inbound Connectors alongside Camunda 8.1 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/10/technical-sneak-peek-inbound-connectors-camunda-8-1/",
           "publishedOn": "2022-10-26T14:34:22.000Z",
-          "wordCount": 3263,
+          "wordCount": 3264,
           "title": "A technical sneak peek into inbound Connectors alongside Camunda 8.1",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/10/Camunda_inbound-connectors-technical-sneak-peek_ftd-image_1200x627.png"
         },
@@ -976,7 +996,7 @@
           "description": "Monitoring is an essential facet of running applications in a production system. Through this process, organizations collect and analyze data, and determine if a program is performing as expected within set boundaries. When combined with alerting, monitoring allows for detecting unexpected system behavior to mitigate exceptional situations as fast as possible. Furthermore, tracking the performance of a system enables organizations to improve those aspects that have the biggest impact with higher priority. One essential aspect of monitoring is the list of key metrics you want to observe. There are different categories of statistics that can be of interest here. To observe the defined metrics, there are plenty of application monitoring tools on the market today. They differ in many aspects...\nThe post Monitoring Camunda Platform 7 with Prometheus appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/10/monitoring-camunda-platform-7-with-prometheus/",
           "publishedOn": "2022-10-18T13:52:00.000Z",
-          "wordCount": 4384,
+          "wordCount": 4385,
           "title": "Monitoring Camunda Platform 7 with Prometheus",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/10/image-7-1024x505-2.png"
         },
@@ -1016,7 +1036,7 @@
           "description": "We’re extremely excited to announce the release of Camunda Platform 7.18 Here are some of the highlights: Cockpit: Improved instance selection to avoid unintended batch operations Cockpit: Easier navigation of high batch operation volumes MDC logging features Camunda Forms in Tasklist: Populate select options via process data Exception error codes Filter and order tasks by last updated WebSphere Liberty New and retired supported environments You can download Camunda Platform or run it with Docker. For a complete list of the changes, please check out the release notes. For patched security vulnerabilities, see our security notices. If you want to dig deeper, check out the source code on GitHub. Cockpit: Improved instance selection to avoid unintended batch operations Previously, when performing...\nThe post Camunda Platform 7.18 Released – What’s New appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/10/camunda-platform-7-18-released-whats-new/",
           "publishedOn": "2022-10-11T13:15:00.000Z",
-          "wordCount": 3372,
+          "wordCount": 3371,
           "title": "Camunda Platform 7.18 Released – What’s New",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/10/Camunda_7.18.png"
         },
@@ -1060,6 +1080,16 @@
       "siteUrl": "https://github.blog/",
       "articles": [
         {
+          "id": "https://github.blog/2022-10-31-creating-a-more-inclusive-security-research-field/",
+          "author": null,
+          "description": "A glimpse into the backgrounds and day-to-day work of several GitHub employees in cybersecurity roles.",
+          "link": "https://github.blog/2022-10-31-creating-a-more-inclusive-security-research-field/",
+          "publishedOn": "2022-10-31T17:09:47.000Z",
+          "wordCount": 1910,
+          "title": "Creating a more inclusive security research field",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/04/Security-Community@2x.png"
+        },
+        {
           "id": "https://github.blog/2022-10-29-thirteen-tiny-terrific-and-terrifying-games-to-hack-slay-and-play-this-halloween/",
           "author": null,
           "description": "Some seriously spooktacular open source games for the web, Windows, macOS, and Linux with all sorts of fun hacks for infinite lives, invulnerability, and playing with time.",
@@ -1075,7 +1105,7 @@
           "description": "As we wrap up Cybersecurity Awareness Month, the GitHub bug bounty team is excited to spotlight one of the security researchers who participates in the GitHub Security Bug Bounty Program.",
           "link": "https://github.blog/2022-10-28-cybersecurity-spotlight-on-bug-bounty-researcher-ahacker1/",
           "publishedOn": "2022-10-28T18:34:58.000Z",
-          "wordCount": 1412,
+          "wordCount": 1399,
           "title": "Cybersecurity spotlight on bug bounty researcher @ahacker1",
           "imageUrl": "https://github.blog/wp-content/uploads/2021/06/GitHub-Bug-Bounty_for-social.png"
         },
@@ -1085,7 +1115,7 @@
           "description": "Hackatoberfest, hackathons, and open source contributions. It&#8217;s been a hectic month with so many community pull requests to all kinds of projects. So many in fact that we had to spend hours going through all the submissions for this blog post. We almost didn&#8217;t get it out before the end of October. Nevertheless, we are [&#8230;]",
           "link": "https://github.blog/2022-10-28-release-radar-sept-2022/",
           "publishedOn": "2022-10-28T18:00:17.000Z",
-          "wordCount": 1878,
+          "wordCount": 1856,
           "title": "Release Radar · September 2022 Edition",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/10/September-2022.jpg"
         },
@@ -1095,7 +1125,7 @@
           "description": "You can now build your agenda on GitHubUniverse.com! Whether you’re just getting started or you’re a seasoned industry professional, there’s a session for you.",
           "link": "https://github.blog/2022-10-27-choose-your-own-github-universe-2022-adventure/",
           "publishedOn": "2022-10-27T18:54:54.000Z",
-          "wordCount": 2589,
+          "wordCount": 2577,
           "title": "Choose your own GitHub Universe 2022 adventure",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/10/universeheader2.png"
         },
@@ -1105,7 +1135,7 @@
           "description": "The GitHub Security Lab provided office hours for open source projects looking to improve their security posture and reduce the risk of breach. Here’s what we learned and how you can also participate.",
           "link": "https://github.blog/2022-10-27-what-we-learned-from-the-security-labs-community-office-hours/",
           "publishedOn": "2022-10-27T15:00:42.000Z",
-          "wordCount": 1868,
+          "wordCount": 1820,
           "title": "What we learned from the Security Lab’s Community Office Hours",
           "imageUrl": "https://github.blog/wp-content/uploads/2021/11/GitHub-Security-Lab.jpeg"
         },
@@ -1135,7 +1165,7 @@
           "description": "You may know that GitHub encrypts your source code at rest, but you may not have known that we encrypt sensitive database columns as well. Read about our column encryption strategy and our decision to adopt the Rails column encryption standard.",
           "link": "https://github.blog/2022-10-26-why-and-how-github-encrypts-sensitive-database-columns-using-activerecordencryption/",
           "publishedOn": "2022-10-26T14:00:25.000Z",
-          "wordCount": 1816,
+          "wordCount": 1803,
           "title": "Why and how GitHub encrypts sensitive database columns using ActiveRecord::Encryption",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/04/Engineering-Security@2x.png?fit=2400%2C1260"
         },
@@ -1145,19 +1175,9 @@
           "description": "The Sigstore GA means you can protect your software supply chain today with GitHub Actions, and will power new npm security capabilities in the near future.",
           "link": "https://github.blog/2022-10-25-why-were-excited-about-the-sigstore-general-availability/",
           "publishedOn": "2022-10-25T13:02:35.000Z",
-          "wordCount": 1541,
+          "wordCount": 1527,
           "title": "Why we&#8217;re excited about the Sigstore general availability",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/02/Security-Product-Open-Source@2x.png"
-        },
-        {
-          "id": "https://github.blog/2022-10-21-build-a-game-this-november-with-game-off-2022/",
-          "author": null,
-          "description": "Save the date! Game Off returns on November 1 for its 10th year! 🎉",
-          "link": "https://github.blog/2022-10-21-build-a-game-this-november-with-game-off-2022/",
-          "publishedOn": "2022-10-21T17:30:25.000Z",
-          "wordCount": 891,
-          "title": "Build a game this November with Game Off 2022",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/10/game-off-large.png"
         }
       ]
     },
@@ -1375,12 +1395,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=44132",
+          "author": "Seth Godin",
+          "description": "This is obvious. Circus peanuts don’t have nuts, legumes or anything else that resembles a nut. They’re a metaphor. Or perhaps a simile, it depends on your level of pedantry. And yet, many people have a hard time with metaphor. Metaphor, not memorization, is the heart of learning. If you understand A, and you see […]",
+          "link": "https://feeds.feedblitz.com/~/717926704/0/sethsblog~Circus-peanuts-dont-contain-nuts/",
+          "publishedOn": "2022-10-31T08:39:00.000Z",
+          "wordCount": 1118,
+          "title": "Circus peanuts don’t contain nuts",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806132-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=43121",
           "author": "Seth Godin",
           "description": "History is filled with examples of people who made errors in judgment. The executives at Decca that turned down the Beatles, the CEO at Digital who said that no one would ever need to have a computer in their home, and the reviewers that didn’t like the movie 2001. And of course, the creators that […]",
           "link": "https://feeds.feedblitz.com/~/717787392/0/sethsblog~The-opportunity-to-be-wrong/",
           "publishedOn": "2022-10-30T08:42:00.000Z",
-          "wordCount": 1138,
+          "wordCount": 1139,
           "title": "The opportunity to be wrong",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806134-1.jpg"
         },
@@ -1463,16 +1493,6 @@
           "wordCount": 1187,
           "title": "Product idea: Talking discs",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=43029",
-          "author": "Seth Godin",
-          "description": "It’s hopeful to believe that the NFT, baseball card or even car that we next purchase is going to go up in value. It probably won’t. The secret is to only acquire things where the resale value doesn’t matter to your overall satisfaction. That’s one reason there’s a huge difference between investing in stocks and […]",
-          "link": "https://feeds.feedblitz.com/~/716687966/0/sethsblog~Resale-value/",
-          "publishedOn": "2022-10-22T07:44:00.000Z",
-          "wordCount": 1041,
-          "title": "Resale value",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg"
         }
       ]
     },
@@ -1487,7 +1507,7 @@
           "description": "The fifth build of the GoLand 2022.3 EAP is now available!  You can get the EAP build via the Toolbox App, download it from our website, use a snap package (for Ubuntu), or from inside GoLand, select Check IDE updates for Early Access Program in Preferences/Settings | Appearance & Behavior | System Settings | Updates. […]",
           "link": "https://blog.jetbrains.com/go/2022/10/28/goland-2022-3-eap-5-support-for-links-lists-and-new-headings-in-go-doc-comments/",
           "publishedOn": "2022-10-28T13:55:07.000Z",
-          "wordCount": 2698,
+          "wordCount": 2700,
           "title": "GoLand 2022.3 EAP #5: Support for Links, Lists, and New Headings in Go Doc Comments",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/09/Blog_Social_share_image_1280x720_GoLand-2x.png"
         },
@@ -1567,7 +1587,7 @@
           "description": "IntelliJ IDEA 2022.3 EAP 5 is out! With this last EAP build before IntelliJ IDEA 2022.3 Beta, we’re introducing some more of the new features and improvements you can expect in the upcoming major release. This build provides a better user experience with tips of the day and bookmarks, includes updates for Gradle, and more. […]",
           "link": "https://blog.jetbrains.com/idea/2022/10/intellij-idea-2022-3-eap-5/",
           "publishedOn": "2022-10-26T17:12:20.000Z",
-          "wordCount": 2725,
+          "wordCount": 2731,
           "title": "IntelliJ IDEA 2022.3 EAP 5: Updated Tips of the Day, Enhanced Bookmarks, Gradle Improvements, and More",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/02/intellij-idea_social.png"
         },
@@ -1577,7 +1597,7 @@
           "description": "It’s been three years since we got together for KotlinConf 2019 Global. Since then, we’ve missed it a lot. That’s why we’re more than happy to announce that KotlinConf will be back in 2023, and so will KotlinConf Global! KotlinConf Global During KotlinConf’23 Global, you’ll get a chance to watch the conference keynotes and other […]",
           "link": "https://blog.jetbrains.com/kotlin/2022/10/kotlinconf-2023-is-going-global-get-on-board-with-us/",
           "publishedOn": "2022-10-26T14:34:59.000Z",
-          "wordCount": 1975,
+          "wordCount": 1995,
           "title": "KotlinConf 2023 Is Going Global. Get on Board With Us!",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/10/KotlinConf-Global-Banners_Twitter-Blog-800h418-no-CTA-1.png"
         },

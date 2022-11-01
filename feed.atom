@@ -1,10 +1,302 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-31T02:22:00.432Z</id>
+    <id>urn:2022-11-01T02:27:03.910Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-31T02:22:00.432Z</updated>
+    <updated>2022-11-01T02:27:03.910Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Creating a more inclusive security research field]]></title>
+        <id>https://github.blog/2022-10-31-creating-a-more-inclusive-security-research-field/</id>
+        <link href="https://github.blog/2022-10-31-creating-a-more-inclusive-security-research-field/"/>
+        <updated>2022-10-31T17:09:47.000Z</updated>
+        <summary type="html"><![CDATA[A glimpse into the backgrounds and day-to-day work of several GitHub employees in cybersecurity roles.]]></summary>
+        <author>
+            <name>The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Security 5.7.5 and 5.6.9 available now]]></title>
+        <id>https://spring.io/blog/2022/10/31/spring-security-5-7-5-and-5-6-9-available-now</id>
+        <link href="https://spring.io/blog/2022/10/31/spring-security-5-7-5-and-5-6-9-available-now"/>
+        <updated>2022-10-31T17:04:00.000Z</updated>
+        <summary type="html"><![CDATA[On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Security 5.7.5 and 5.6.9 are available now. In both cases the releases are composed of bug fixes.
+
+
+
+To learn more, please visit the 5.7.5 and
+ 5.6.9 release summaries.
+
+
+
+Project Site | Reference | Help]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AWS Week in Review – October 31, 2022]]></title>
+        <id>29637f7ab6bac856787858b6324877d404e8d5e7</id>
+        <link href="https://aws.amazon.com/blogs/aws/aws-week-in-review-october-31-2022/"/>
+        <updated>2022-10-31T16:48:05.000Z</updated>
+        <summary type="html"><![CDATA[No tricks, just treats in this weekly roundup of news and announcements. Let’s switch our AWS Management Console into dark mode and dive right into it. Last Week’s Launches Here are some launches that got my attention during the previous week: AWS Local Zones in Hamburg and Warsaw now generally available – AWS Local Zones help […]]]></summary>
+        <author>
+            <name>Antje Barth</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2022-31690: Privilege Escalation in spring-security-oauth2-client]]></title>
+        <id>https://spring.io/blog/2022/10/31/cve-2022-31690-privilege-escalation-in-spring-security-oauth2-client</id>
+        <link href="https://spring.io/blog/2022/10/31/cve-2022-31690-privilege-escalation-in-spring-security-oauth2-client"/>
+        <updated>2022-10-31T16:41:00.000Z</updated>
+        <summary type="html"><![CDATA[Spring Security 5.6.9 and 5.7.5 released on October 31st, 2022 included a fix for CVE-2022-31690 affecting the mapping of authorized scopes in spring-security-oauth2-client. Users are encouraged to update as soon as possible.
+
+
+
+Impact
+
+
+
+Users who have applied the mitigation should take note of the following impact:
+
+
+
+No authorized scopes are mapped to the principal (current user) when the Authorization Server (AS) responds to the OAuth2 Access Token Response with an empty or missing scope parameter.
+
+
+
+If you are affected by this vulnerability, users will not be granted any authorities beginning with SCOPE_ when the AS does not return scopes. Only the special authority ROLE_USER is given to the principal.
+
+
+
+
+
+
+Note
+
+
+
+Beginning with 6.0, the special authority is ch…]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2022-31692: Authorization rules can be bypassed via forward or include in Spring Security]]></title>
+        <id>https://spring.io/blog/2022/10/31/cve-2022-31692-authorization-rules-can-be-bypassed-via-forward-or-include-in-spring-security</id>
+        <link href="https://spring.io/blog/2022/10/31/cve-2022-31692-authorization-rules-can-be-bypassed-via-forward-or-include-in-spring-security"/>
+        <updated>2022-10-31T16:41:00.000Z</updated>
+        <summary type="html"><![CDATA[Spring Security 5.6.9 and 5.7.5 released on October 31st, 2022 included a fix for CVE-2022-31692 affecting the AuthorizationFilter. Users are encouraged to update as soon as possible.
+
+
+
+Severity
+
+
+
+High
+
+
+
+
+
+Vendor
+
+
+
+Spring by VMware
+
+
+
+
+
+Affected VMware Products and Versions
+
+
+
+
+
+Spring Security 5.7.0 to 5.7.4
+
+
+
+Spring Security 5.6.0 to 5.6.8
+
+
+
+
+
+
+
+Description
+
+
+
+Spring Security, versions 5.7 prior to 5.7.5 and 5.6 prior to 5.6.9 could be susceptible to authorization rules bypass via FORWARD or INCLUDE dispatch.
+
+
+
+Specifically, an application is vulnerable when all the following are true:
+
+
+
+
+
+The application expects that Spring Security applies security to forward and include dispatcher types.
+
+
+
+The application uses the AuthorizationF…]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Cloud 2022.0.0-RC1 Is Available]]></title>
+        <id>https://spring.io/blog/2022/10/31/spring-cloud-2022-0-0-rc1-is-available</id>
+        <link href="https://spring.io/blog/2022/10/31/spring-cloud-2022-0-0-rc1-is-available"/>
+        <updated>2022-10-31T16:22:48.000Z</updated>
+        <summary type="html"><![CDATA[On behalf of the community, I am pleased to announce that the Release Candidate 1 (RC1) of the Spring Cloud 2022.0 Release Train is available today. The release can be found in Spring Milestone repository. You can check out the 2022.0 release notes for more information.
+Notable Changes in the 2022.0.0 Release Train
+
+See all issues closed here.
+Spring Cloud Function
+
+
+  
+Updates for Observability and Native Hints
+
+
+Spring Cloud OpenFeign
+
+
+  
+Added support for target URL refreshing (#710)
+
+  
+Added support for LoadBalancer X-Forwarded Headers (#748)
+
+  
+Set Jackson Autoconfiguration to be enabled by default (#476)
+
+  
+Removed deprecations and adjusted to the API changes in Feign (#768)
+
+
+Spring Cloud Commons
+
+
+  
+Support added for property-based configuration for weighted load-b…]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Let Ansible keep an eye on your AWS environment]]></title>
+        <id>https://www.ansible.com/blog/let-ansible-keep-an-eye-on-your-aws-environment</id>
+        <link href="https://www.ansible.com/blog/let-ansible-keep-an-eye-on-your-aws-environment"/>
+        <updated>2022-10-31T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In a cloud model, the security of the environment and compliance becomes the responsibility of both the end users and the cloud provider. This is what we call the shared responsibility model in which every part of the cloud, including the hardware, data, configurations, access rights, and operating system, are protected. Depending on the local legislation and the origin of the data that is handled (for instance laws like HIPAA, the GDPR in Europe, or the Californian CCPA),  you may have to enforce strict rules on your environment and log events for audit purposes. AWS CloudTrail will help you to achieve this goal. The service can collect and record any kind of information coming from your environment and store or send the events to a destination for audit. In addition to security and compliance, this service helps keep track of resource consumption.]]></summary>
+        <author>
+            <name>Gomathi Selvi Srinivasan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Circus peanuts don’t contain nuts]]></title>
+        <id>https://seths.blog/?p=44132</id>
+        <link href="https://feeds.feedblitz.com/~/717926704/0/sethsblog~Circus-peanuts-dont-contain-nuts/"/>
+        <updated>2022-10-31T08:39:00.000Z</updated>
+        <summary type="html"><![CDATA[This is obvious. Circus peanuts don’t have nuts, legumes or anything else that resembles a nut. They’re a metaphor. Or perhaps a simile, it depends on your level of pedantry. And yet, many people have a hard time with metaphor. Metaphor, not memorization, is the heart of learning. If you understand A, and you see […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tracking peak time for trick-or-treaters in Kibana]]></title>
+        <id>https://www.elastic.co/blog/tracking-peak-time-for-trick-or-treaters-in-kibana</id>
+        <link href="https://www.elastic.co/blog/tracking-peak-time-for-trick-or-treaters-in-kibana"/>
+        <updated>2022-10-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We all have fond memories of dressing up in costumes and trick-or-treating. Have you ever wondered when the peak time for trick-or-treating is? Learn how to ingest data and build visualizations with Kibana to show when to expect trick-or-treaters.]]></summary>
+        <author>
+            <name>Carly Richmond</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What can Elastic Synthetics tell us about Kibana Dashboards?]]></title>
+        <id>https://www.elastic.co/blog/what-can-elastic-synthetics-tell-us-about-kibana-dashboards</id>
+        <link href="https://www.elastic.co/blog/what-can-elastic-synthetics-tell-us-about-kibana-dashboards"/>
+        <updated>2022-10-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Elastic Synthetics enables you to configure an out-of-the-box experience directly through your Elastic Cloud deployment without the need to install anything! It also works across the globe with multiple locations you can choose from.]]></summary>
+        <author>
+            <name>Philipp Kahr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[When to scale from free software to cloud services]]></title>
+        <id>https://www.elastic.co/blog/when-to-scale-from-free-software-to-cloud-services</id>
+        <link href="https://www.elastic.co/blog/when-to-scale-from-free-software-to-cloud-services"/>
+        <updated>2022-10-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[When organizations hit the wall of scalability and support, cloud services are the logical next step.]]></summary>
+        <author>
+            <name>Julie Campagna</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tracking peak time for trick-or-treaters in Kibana]]></title>
+        <id>https://www.elastic.co/blog/tracking-peak-time-for-trick-or-treaters-in-kibana</id>
+        <link href="https://www.elastic.co/blog/tracking-peak-time-for-trick-or-treaters-in-kibana"/>
+        <updated>2022-10-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+It’s the most spooky time of the year! Many of us have fond memories as children of dressing up in scary costumes and heading door to door in search of treats. As adults, we may be on door duty handing out candy.
+https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0584d8b9e536b807/635c03689a123e5dbdbca267/1.jpg,1.jpg,
+Irrespective of which side of the door you’re standing on, have you ever wondered when the peak time for trick or treating is? Below, we’ll explain how to ingest data and build sample visualizations using Kibana to show when to expect trick-or-treaters knocking on the door.
+Ingesting our trick-or-treater data
+To examine this question, we need data. Thankfully, the wonderful Jeffrey A. Shaffer has been collecting data on the trick-or-treaters coming to his door fr…]]></summary>
+        <author>
+            <name>Carly Richmond</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What can Elastic Synthetics tell us about Kibana Dashboards?]]></title>
+        <id>https://www.elastic.co/blog/what-can-elastic-synthetics-tell-us-about-kibana-dashboards</id>
+        <link href="https://www.elastic.co/blog/what-can-elastic-synthetics-tell-us-about-kibana-dashboards"/>
+        <updated>2022-10-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+I like to leverage our technologies to ensure our products have a pleasant user experience. Elastic Synthetics enables you to configure it in an out-of-the-box experience directly through your Elastic Cloud deployment without the need to install anything! It also works across the globe with multiple locations you can choose from. Ever wondered how fast your web service is when accessed from Japan, Germany, or the eastern U.S.? Now you can do this by simply clicking on a checkbox.
+
+During my time as a system administrator, I often heard complaints from users about our services being slow. If we think of it in terms of Kibana, we often hear stories about slow dashboards. I thought, why not leverage Elastic Synthetic monitoring to investigate if a dashboard is slow? 
+
+We all have different …]]></summary>
+        <author>
+            <name>Philipp Kahr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[When to scale from free software to cloud services]]></title>
+        <id>https://www.elastic.co/blog/when-to-scale-from-free-software-to-cloud-services</id>
+        <link href="https://www.elastic.co/blog/when-to-scale-from-free-software-to-cloud-services"/>
+        <updated>2022-10-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+To many people, free software (including open source) usually means no cost. Similarly, in-house developers often use free software to create tools that help streamline or automate processes, thereby removing the need to purchase software. 
+
+Not only can IT leaders save money by using no-cost software and homegrown developer tools, but they can also bypass the red tape involved with executive buy-in and budget approval. Sounds good, right?
+
+Not so fast. For small businesses on a shoestring budget, free software — for example, accounting, photo editing, task tracking apps — can make a lot of sense. However, when it comes to enterprise companies running mission-critical applications, there’s a time and place for trialing “free” software and building your own quick-fix solutions in-house, a…]]></summary>
+        <author>
+            <name>Julie Campagna</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Interior Decorating]]></title>
+        <id>https://xkcd.com/2692/</id>
+        <link href="https://xkcd.com/2692/"/>
+        <updated>2022-10-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/interior_decorating.png" title="It all came flat-packed in Pandora's Box." alt="It all came flat-packed in Pandora's Box." />]]></summary>
+        <author>
+            <name>xkcd.com</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The opportunity to be wrong]]></title>
         <id>https://seths.blog/?p=43121</id>
@@ -793,79 +1085,6 @@ The shift to the cloud exacerbates the visibility challenges of perimeter-b…]]
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The Elastic Guide to: Finding a company you can grow with]]></title>
-        <id>https://www.elastic.co/blog/culture-the-elastic-guide-to-finding-a-company-you-can-grow-with</id>
-        <link href="https://www.elastic.co/blog/culture-the-elastic-guide-to-finding-a-company-you-can-grow-with"/>
-        <updated>2022-10-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Where do you want to be in 5 years? Here's how to find a company that will help you take the next steps in your career.]]></summary>
-        <author>
-            <name>Elastic Culture</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What do telecom security teams need from a SIEM?]]></title>
-        <id>https://www.elastic.co/blog/what-do-telecom-security-teams-need-from-a-siem</id>
-        <link href="https://www.elastic.co/blog/what-do-telecom-security-teams-need-from-a-siem"/>
-        <updated>2022-10-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In the past couple of years, two things stood out for the telecom industry: 5G and cloud adoption. Put together, there is a need for a completely revamped approach to security. And the journey begins with a “modern” SIEM.]]></summary>
-        <author>
-            <name>Suranjeeta Choudhury</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Customer trust relies on building IT systems that scale]]></title>
-        <id>https://www.elastic.co/blog/customer-trust-relies-on-building-it-systems-that-scale</id>
-        <link href="https://www.elastic.co/blog/customer-trust-relies-on-building-it-systems-that-scale"/>
-        <updated>2022-10-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Solving for scale is the key to ensuring your IT organization delivers on its promise to secure and protect data]]></summary>
-        <author>
-            <name>Rusty Weston</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Elastic Guide to: Finding a company you can grow with]]></title>
-        <id>https://www.elastic.co/blog/culture-the-elastic-guide-to-finding-a-company-you-can-grow-with</id>
-        <link href="https://www.elastic.co/blog/culture-the-elastic-guide-to-finding-a-company-you-can-grow-with"/>
-        <updated>2022-10-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-Jordyn Short, Services Architect at Elastic, spent seven years in the U.S. Army. She learned many valuable lessons, among them, the path to success isn’t always easy. After leaving the military, she took these learnings to create a fulfilling career. 
-As a civilian, the path to success isn’t as defined as it might be in military training, so Jordyn had to learn how to create and pursue the career she wanted. She went from the Army to government contracting work, which she says was a good transition into finding out who she was and what she wanted.
-Jordyn spent two years as a Senior Technical Consultant at Elastic before being recently promoted to Services Architect, a common career trajectory. To get promoted, she had to complete her Elastic Engineering certification, show technical comp…]]></summary>
-        <author>
-            <name>Elastic Culture</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What do telecom security teams need from a SIEM?]]></title>
-        <id>https://www.elastic.co/blog/what-do-telecom-security-teams-need-from-a-siem</id>
-        <link href="https://www.elastic.co/blog/what-do-telecom-security-teams-need-from-a-siem"/>
-        <updated>2022-10-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-Just within the last 30 days, the two largest telecom operators in Australia1 were hit by a data breach impacting millions of customers and compromising sensitive personal information like home addresses, drivers’ licenses, and passport numbers. The situation is not very different in the Americas, where another leading telecom provider2 cited a 13% jump in ransomware attacks in the past year. And in Europe, the latest cybersecurity report from European Union Agency for Cybersecurity (ENISA)3 that lists the major telecom security incidents from 2021 stated that 5,000+ user hours were lost — compared to just over 800 hours in 2020.
-
-
-
-So what has changed in the past couple of years? For the telecom industry in particular, two things stand out: 5G and cloud adoption. These technologies prov…]]></summary>
-        <author>
-            <name>Suranjeeta Choudhury</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Customer trust relies on building IT systems that scale]]></title>
-        <id>https://www.elastic.co/blog/customer-trust-relies-on-building-it-systems-that-scale</id>
-        <link href="https://www.elastic.co/blog/customer-trust-relies-on-building-it-systems-that-scale"/>
-        <updated>2022-10-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-Adopting hybrid or public clouds remains IT’s go-to means of achieving scale. While this transformation has improved price performance and advanced tech-driven business capabilities, including faster and deeper data insights, it hasn’t always engendered higher customer trust. 
-
-That’s due in no small part to widely-publicized hacks that have exposed personally identifiable information (PII) and also in part to higher customer dependence upon mobile commerce, wonky inventory systems, and sometimes unreliable online ordering. By some measures, performing at scale is all about improving transactions per second.
-
-According to a 2022 PwC study, “87% of business executives think consumers have a high level of trust in their business. But only 30% of consumers say they do.” One of the biggest t…]]></summary>
-        <author>
-            <name>Rusty Weston</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[AWS Week in Review – October 24, 2022]]></title>
         <id>b39e23f90151c8cfdcfc226399885b21d1d1045c</id>
         <link href="https://aws.amazon.com/blogs/aws/aws-week-in-review-october-24-2022/"/>
@@ -951,26 +1170,6 @@ Registered for ECCV 2022? We hope you’ll visit our on-site or virtual booths t
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Resale value]]></title>
-        <id>https://seths.blog/?p=43029</id>
-        <link href="https://feeds.feedblitz.com/~/716687966/0/sethsblog~Resale-value/"/>
-        <updated>2022-10-22T07:44:00.000Z</updated>
-        <summary type="html"><![CDATA[It’s hopeful to believe that the NFT, baseball card or even car that we next purchase is going to go up in value. It probably won’t. The secret is to only acquire things where the resale value doesn’t matter to your overall satisfaction. That’s one reason there’s a huge difference between investing in stocks and […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Build a game this November with Game Off 2022]]></title>
-        <id>https://github.blog/2022-10-21-build-a-game-this-november-with-game-off-2022/</id>
-        <link href="https://github.blog/2022-10-21-build-a-game-this-november-with-game-off-2022/"/>
-        <updated>2022-10-21T17:30:25.000Z</updated>
-        <summary type="html"><![CDATA[Save the date! Game Off returns on November 1 for its 10th year! 🎉]]></summary>
-        <author>
-            <name>The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[HashiConf Global 2022: From Zero Trust to No Code]]></title>
         <id>https://www.hashicorp.com/blog/hashiconf-global-2022-from-zero-trust-to-no-code</id>
         <link href="https://www.hashicorp.com/blog/hashiconf-global-2022-from-zero-trust-to-no-code"/>
@@ -1010,16 +1209,6 @@ This is our first release candidate for Spring Boot 3.0, which we expect to rele
 This release is the culmination of 11 months of work and is the first release to fully realize the themes that we set out to deliver in Spring Boot 3.0. Most notably, this release builds on the multi-year R&D effort that started with the experimental Spring Native project to pro…]]></summary>
         <author>
             <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bubble Universes]]></title>
-        <id>https://xkcd.com/2688/</id>
-        <link href="https://xkcd.com/2688/"/>
-        <updated>2022-10-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/bubble_universes.png" title="The theory finally unifies cosmic inflation and regular inflation." alt="The theory finally unifies cosmic inflation and regular inflation." />]]></summary>
-        <author>
-            <name>xkcd.com</name>
         </author>
     </entry>
     <entry>
@@ -1462,43 +1651,6 @@ The post Monitoring Camunda Platform 7 with Prometheus appeared first on Camunda
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Spring Security 5.7.4 and 5.6.8 available now]]></title>
-        <id>https://spring.io/blog/2022/10/18/spring-security-5-7-4-and-5-6-8-available-now</id>
-        <link href="https://spring.io/blog/2022/10/18/spring-security-5-7-4-and-5-6-8-available-now"/>
-        <updated>2022-10-18T12:54:00.000Z</updated>
-        <summary type="html"><![CDATA[On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Security 5.7.4 and 5.6.8 are available now. In both cases the releases are largely composed of dependency upgrades and minor fixes.
-
-
-
-To learn more, please visit the 5.7.4 and
- 5.6.8 release summaries.
-
-
-
-Project Site | Reference | Help]]></summary>
-        <author>
-            <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spring Security 6.0.0-RC1 and 5.8.0-RC1 are released]]></title>
-        <id>https://spring.io/blog/2022/10/18/spring-security-6-0-0-rc1-and-5-8-0-rc1-are-released</id>
-        <link href="https://spring.io/blog/2022/10/18/spring-security-6-0-0-rc1-and-5-8-0-rc1-are-released"/>
-        <updated>2022-10-18T12:54:00.000Z</updated>
-        <summary type="html"><![CDATA[On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Security 6.0.0-RC1 and 5.8.0-RC1 are available now.
-
-
-
-See the 6.0.0-RC1 and 5.8.0-RC1 release notes for more details.
-
-
-
-Project Site | Reference | Help]]></summary>
-        <author>
-            <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[AWS Week in Review – October 17, 2022]]></title>
         <id>f3d6027b89e3960df03f4dc7b386bf38d63c911d</id>
         <link href="https://aws.amazon.com/blogs/aws/aws-week-in-review-october-17-2020/"/>
@@ -1506,38 +1658,6 @@ Project Site | Reference | Help]]></summary>
         <summary type="html"><![CDATA[This post is part of our Week in Review series. Check back each week for a quick roundup of interesting news and announcements from AWS! Monday means it’s time for another Week in Review post, so, without further ado, let’s dive right in! Last Week’s Launches Here’s some launch announcements from last week you may […]]]></summary>
         <author>
             <name>Steve Roberts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spring Data 2022.0.0-RC1, 2021.2.5, and 2021.1.8 available]]></title>
-        <id>https://spring.io/blog/2022/10/17/spring-data-2022-0-0-rc1-2021-2-5-and-2021-1-8-available</id>
-        <link href="https://spring.io/blog/2022/10/17/spring-data-2022-0-0-rc1-2021-2-5-and-2021-1-8-available"/>
-        <updated>2022-10-17T08:23:00.000Z</updated>
-        <summary type="html"><![CDATA[Dear Spring community,
-
-On behalf of the Spring Data team and everyone who contributed, it is my pleasure to announce that Spring Data 2022.0.0 has entered its release candidate phase by releasing RC1 today. It is available from the milestone repository. This release ships with several tickets fixed. Along with the release candidate, we shipped 2021.2.5 and 2021.1.8 service releases, to be picked up by corresponding Spring Boot releases.
-
-The release candidate ships with a revised module structure, specifically Spring Data for Apache Geode is no longer part of the release train. Expect a blog post that outlines details soon.
-
-Please give Spring Data 2022.0.0-RC1 a try (for example, as part of the upcoming Spring Boot 3.0.0-RC1 release), which will be available start.spring.io soon, and …]]></summary>
-        <author>
-            <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spring at JavaOne 2022]]></title>
-        <id>https://spring.io/blog/2022/10/16/spring-at-javaone-2022</id>
-        <link href="https://spring.io/blog/2022/10/16/spring-at-javaone-2022"/>
-        <updated>2022-10-16T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hi, Spring fans! It’s Sunday the 16th of October as I write this and I’m winging my way to sunny Las Vegas, Nevada, where I’ll be attending (and presenting at) the first JavaOne show in years! It didn’t exist as the JavaOne we know and love for years, even before the pandemic interrupted life as we know it worldwide. So this isn’t just the first JavaOne since 2019, it’s [the first JavaOne since 2017](https://www.infoq.com/news/2018/04/oracle-kills-java-one/_! I can’t wait to be there, to see the amazing community, to soak up the sun and fun with my teammates and friends in the ecosystem. And we want to see you, too.
-
-There are a few of us doing talks from the Spring team and we’d love to see you!
-
-First of all: we have a booth, so join us there.
-
-There are going to be a bunch of great t…]]></summary>
-        <author>
-            <name>Spring</name>
         </author>
     </entry>
     <entry>

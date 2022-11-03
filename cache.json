@@ -6,6 +6,16 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2022/11/02/spring-modulith-0-1-m2-released",
+          "author": null,
+          "description": "I am pleased to announce the availability of the second milestone of Spring Modulith 0.1. The release contains a few minor bug fixes and a couple of community contributions to the reference documentation. Find a complete overview about the changes included in the release here. For a general introduction into the project, please consult the announcing blog post.\n\r\n\r\n\r\nThe current plan is to ship an 0.1 RC1 after Spring Boot’s second RC, followed by a GA version on the heels of Boot’s GA.",
+          "link": "https://spring.io/blog/2022/11/02/spring-modulith-0-1-m2-released",
+          "publishedOn": "2022-11-02T20:43:00.000Z",
+          "wordCount": 588,
+          "title": "Spring Modulith 0.1 M2 released",
+          "imageUrl": "https://avatars.githubusercontent.com/u/128577?v=4?s=200"
+        },
+        {
           "id": "https://spring.io/blog/2022/11/01/spring-authorization-server-1-0-0-rc1-available-now",
           "author": null,
           "description": "On behalf of the team and everyone who has contributed, it is my pleasure to announce the general availability of Spring Authorization Server 1.0.0-RC1.\n\r\n\r\n\r\nYou can download it from repo.spring.io milestone repository by using the module coordinates:\n\r\n\r\n\r\n\r\nimplementation 'org.springframework.security:spring-security-oauth2-authorization-server:1.0.0-RC1'\n\r\n\r\n\r\n\r\nSee the release notes for complete details.\n\r\n\r\n\r\nTo get started using Spring Authorization Server, see the Getting Started chapter of the reference documentation and the samples to become familiar with setup and configuration.\n\r\n\r\n\r\nWe would love to gather your feedback as we strive to improve and build upon this release.\n\r\n\r\n\r\nProject Page | GitHub Issues | ZenHub Board",
@@ -84,6 +94,16 @@
           "wordCount": 562,
           "title": "Bootiful Podcast: Spring Mad Scientist Andy Clement on SpringOne 2022, AOT, Azure Spring Apps, and more",
           "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2022/10/26/spring-session-3-0-0-rc1",
+          "author": null,
+          "description": "Spring Session 3.1.0-RC1 has been released. The biggest news from this release is that Spring Session Geode was removed which means all of the Spring Modules now belong to the same lifecycle. This means that the Spring Session BOM no longer uses CalVer and instead uses the same version as the remaining Spring Session modules. For example, in this release the version of spring-session-bom is 3.0.0-RC1.\n\r\n\r\n\r\nYou can view the release notes for additional details around this release.\n\r\n\r\n\r\nProject Site | Reference | Help",
+          "link": "https://spring.io/blog/2022/10/26/spring-session-3-0-0-rc1",
+          "publishedOn": "2022-10-26T22:02:00.000Z",
+          "wordCount": 585,
+          "title": "Spring Session 3.0.0-RC1",
+          "imageUrl": "https://avatars.githubusercontent.com/u/362503?v=4?s=200"
         },
         {
           "id": "https://spring.io/blog/2022/10/26/spring-tips-the-road-to-spring-boot-3-spring-framework-6",
@@ -184,26 +204,6 @@
           "wordCount": 565,
           "title": "CVE-2022-31684: Reactor Netty HTTP Server may log request headers",
           "imageUrl": "https://avatars.githubusercontent.com/u/696661?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/10/20/spring-boot-2-6-13-available-now",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Boot 2.6.13 has been released and is now available from Maven Central.\n\r\nThis release includes 27 bug fixes, documentation improvements, and dependency upgrades. Thanks to all those who have contributed with issue reports and pull requests.\nHow can you help?\n\r\nIf you’re interested in helping out, check out the “ideal for contribution” tag in the issue repository. If you have general questions, please ask on stackoverflow.com using the spring-boot tag or chat with the community on Gitter.\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow | Gitter",
-          "link": "https://spring.io/blog/2022/10/20/spring-boot-2-6-13-available-now",
-          "publishedOn": "2022-10-20T10:45:48.000Z",
-          "wordCount": 610,
-          "title": "Spring Boot 2.6.13 available now",
-          "imageUrl": "https://avatars.githubusercontent.com/u/490484?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/10/20/spring-batch-5-0-rc1-is-out",
-          "author": null,
-          "description": "It is finally here! The first release candidate of Spring Batch 5 is now available from our milestone repository. In this release, we worked on the following items:\n\r\n\r\n  \nExecution context Meta-data improvement\n\r\n  \nGemFire support removal\n\r\n\r\nThis blog post walks through these two changes in details. For the complete list of changes, please check the release notes.\nExecution context Meta-data improvement\n\r\nIn addition to what Spring Batch already persists in the execution context with regard to runtime information (like the step type, the restart flag, etc), this release adds an important detail in the execution context which is the Spring Batch version that was used to serialize the context.\n\r\nWhile this seems a detail, it has a huge added value when debugging upgrade issues with regard to execution context serialization and deserialization.\nGemFire support removal\n\r\nBased on the decision to discontinue the support of Spring Data for Apache Geode, the support for Apache Geode in Spring Batch was removed.\n\r\nThe code was moved to the spring-batch-extensions repository as a community-driven effort.\nWhat’s next?\n\r\nWe are planning to roll out a second release candidate early November and release 5.0.0 GA by the end of November, in time for Spring Boot 3.0.0. We would appreciate your help to try this release candidate out and share your feedback with us on Github, Twitter and StackOverflow. You can find a migration guide here.\n\r\nI would like to thank all contributors who had a role in this first release candidate!\n\r\n\r\nSpring Batch Home|Source on Github|Reference documentation",
-          "link": "https://spring.io/blog/2022/10/20/spring-batch-5-0-rc1-is-out",
-          "publishedOn": "2022-10-20T08:00:00.000Z",
-          "wordCount": 755,
-          "title": "Spring Batch 5.0 RC1 is out!",
-          "imageUrl": "https://avatars.githubusercontent.com/u/1210553?v=4?s=200"
         }
       ]
     },
@@ -420,12 +420,72 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
+          "id": "https://www.elastic.co/blog/how-to-leverage-big-healthcare-data-to-improve-consumers-lives",
+          "author": "Miro Mihaylov, PhD, Principal AI Data Scientist – Carelon,Numan Laanait, PhD, Sr Director Engineering - Carelon",
+          "description": "In this post, we share our Ansible-based automated deployment and configuration solution for ELK which powers real-time internal search capabilities at Carelon and helps the organization improve consumers’ health and wellbeing.",
+          "link": "https://www.elastic.co/blog/how-to-leverage-big-healthcare-data-to-improve-consumers-lives",
+          "publishedOn": "2022-11-02T14:00:00.000Z",
+          "wordCount": 11355,
+          "title": "How to leverage big healthcare data to improve consumers’ lives",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt18b1f1071a4374cb/6092a91d1022211019ccd52b/blog-thumbnail-winter-user-group-organizers-720x420.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/how-to-leverage-big-healthcare-data-to-improve-consumers-lives",
+          "author": "Miro Mihaylov, PhD, Principal AI Data Scientist – Carelon,Numan Laanait, PhD, Sr Director Engineering - Carelon",
+          "description": ",\nChallenges of healthcare data\nHealthcare data makes up a third of the world’s data and is projected to grow, in the next few years, at a faster pace than traditional data-rich industries like financial services and manufacturing. The staggering data volumes in healthcare, in addition to its heterogeneity and fragmentation, represent substantial challenges to extracting insights for improving healthcare outcomes of individuals and communities. \n\nAt Carelon, a healthcare services company dedicated to making it easier to deliver whole-person health, we have undertaken various initiatives to address these challenges — most notably full-text search of healthcare claims. In this post, we share with you our automated deployment and configuration solution for ELK stack. We use ELK stack internal…",
+          "link": "https://www.elastic.co/blog/how-to-leverage-big-healthcare-data-to-improve-consumers-lives",
+          "publishedOn": "2022-11-02T14:00:00.000Z",
+          "wordCount": 11355,
+          "title": "How to leverage big healthcare data to improve consumers’ lives",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt18b1f1071a4374cb/6092a91d1022211019ccd52b/blog-thumbnail-winter-user-group-organizers-720x420.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/how-i-used-elastic-maps-to-plan-my-cycling-trip-and-find-unique-roads",
+          "author": "Philipp Kahr",
+          "description": "Learn how one Elastician used Elastic Maps to build a dashboard to visualize a week-long cycling trip roadmap with unique routes.",
+          "link": "https://www.elastic.co/blog/how-i-used-elastic-maps-to-plan-my-cycling-trip-and-find-unique-roads",
+          "publishedOn": "2022-11-02T00:00:00.000Z",
+          "wordCount": 10816,
+          "title": "How I used Elastic Maps to plan my cycling trip and find unique roads",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6e38d72636b8ee42/635c2af26eed4a5820f4b5af/05-bike-phone_(1).jpg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/why-i-consolidated-my-it-and-cybersecurity-operations-in-the-cloud",
+          "author": "Justin Reynolds",
+          "description": "Taming the complexity of application growth to drive efficiency and manage uncertainty in a difficult economic climate.",
+          "link": "https://www.elastic.co/blog/why-i-consolidated-my-it-and-cybersecurity-operations-in-the-cloud",
+          "publishedOn": "2022-11-02T00:00:00.000Z",
+          "wordCount": 9126,
+          "title": "Why I consolidated my IT and cybersecurity operations in the cloud",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt84e3ca8fc56eb99d/635c33c764e87d5f88c56cd0/customer-experience.jpg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/how-i-used-elastic-maps-to-plan-my-cycling-trip-and-find-unique-roads",
+          "author": "Philipp Kahr",
+          "description": ",\nAt Elastic, many of our Elasticians love cycling and exploring new and unique patches of road. We also love data analysis and visualization. I started to plan my upcoming cycling trip on Komoot. Planning a one-week trip with six rides is tricky, as you are hovering over the map and trying to find unique routes. Who wants to ride the same road multiple times?\n\nAfter I was done planning in Komoot, I thought to myself: is there a way to identify if I am riding this road once, twice, or even more often? I also wanted to plot it and look at the data a bit more dynamically.\n\nThis is our goal today. Let’s build a dashboard that shows this information.\nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltbd0372ed19956db5/635c2b306b46ec106a2eb7a2/blog-elastic-uniqueroads-1.png,blog-elas…",
+          "link": "https://www.elastic.co/blog/how-i-used-elastic-maps-to-plan-my-cycling-trip-and-find-unique-roads",
+          "publishedOn": "2022-11-02T00:00:00.000Z",
+          "wordCount": 10816,
+          "title": "How I used Elastic Maps to plan my cycling trip and find unique roads",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6e38d72636b8ee42/635c2af26eed4a5820f4b5af/05-bike-phone_(1).jpg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/why-i-consolidated-my-it-and-cybersecurity-operations-in-the-cloud",
+          "author": "Justin Reynolds",
+          "description": ",\nMore and more organizations are moving their infrastructure and applications to the cloud to increase productivity, drive down costs, and improve operational agility. According to Gartner, 85% of organizations will embrace a cloud-first approach by 2025 and will look to leverage cloud-native technologies wherever they can.\n\nWhile the move to the cloud delivers many benefits, it’s not without its challenges. Chief among them? Application sprawl, which occurs when an increasing number of apps are added to tech stacks.\n\nWith the average organization deploying nearly 90 applications last year — and large organizations deploying more than 185 — employees end up jumping back and forth between apps roughly 1,200 times each day, according to a recent Harvard Business Review report. Not only does…",
+          "link": "https://www.elastic.co/blog/why-i-consolidated-my-it-and-cybersecurity-operations-in-the-cloud",
+          "publishedOn": "2022-11-02T00:00:00.000Z",
+          "wordCount": 9126,
+          "title": "Why I consolidated my IT and cybersecurity operations in the cloud",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt84e3ca8fc56eb99d/635c33c764e87d5f88c56cd0/customer-experience.jpg"
+        },
+        {
           "id": "https://www.elastic.co/blog/kubernetes-cluster-metrics-logs-monitoring",
           "author": "Bahubali Shetti",
           "description": "Unify all of your Kubernetes metrics, log, and trace data on a single platform and dashboard, Elastic. From the infrastructure to the application layer Elastic Observability makes it easier for you to understand how your cluster is performing.",
           "link": "https://www.elastic.co/blog/kubernetes-cluster-metrics-logs-monitoring",
           "publishedOn": "2022-11-01T00:00:00.000Z",
-          "wordCount": 12844,
+          "wordCount": 12010,
           "title": "Managing your Kubernetes cluster with Elastic Observability",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt30356308fa9784a5/635690ccb45ffc5dbc605ad3/ManagingKubernetes-ElasticAgentIntegration-1.png"
         },
@@ -435,7 +495,7 @@
           "description": "Elastic 8.5 introduces a set of new capabilities to the Elastic Search Platform. Learn how you can search smarter using vector search with hybrid ranking, gain complete visibility into your entire .NET application ecosystem in minutes, and more.",
           "link": "https://www.elastic.co/blog/whats-new-elastic-8-5-0",
           "publishedOn": "2022-11-01T00:00:00.000Z",
-          "wordCount": 9075,
+          "wordCount": 8241,
           "title": "Build robust search experiences, reduce time to observability, and streamline security workflows with Elastic 8.5",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt878ebe7fdc0cc140/62fd52a434503410d4c0701f/blog-thumbnail-generic-release.png"
         },
@@ -445,7 +505,7 @@
           "description": "Elastic 8.5 introduces a broad new set of capabilities in Elastic Security including Cloud Security features going to General Availability, Output functionality in Workloads, One Click Risk Score, Case Assignments and many more.",
           "link": "https://www.elastic.co/blog/whats-new-elastic-security-8-5-0",
           "publishedOn": "2022-11-01T00:00:00.000Z",
-          "wordCount": 14544,
+          "wordCount": 13710,
           "title": "Elastic Security furthers unification of SIEM and on-host protection with XDR, cloud, and endpoint security",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt5d48cc221861a811/634db61b6245b53fdaedc0c1/blog-elastic-security85-final.jpg"
         },
@@ -455,7 +515,7 @@
           "description": "Elastic Stack 8.5 has more ways to collaborate and annotate, plus root cause analysis for AIOps. Unlock new potential with vector search using HNSW (now GA). For cloud deployments, leverage simplified health monitoring to get up and running, fast.",
           "link": "https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-8-5-0",
           "publishedOn": "2022-11-01T00:00:00.000Z",
-          "wordCount": 12062,
+          "wordCount": 11228,
           "title": "Elastic Stack & Cloud 8.5: AIOps, collaboration, vector search GA, and more",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltd2b695348ddc99f3/62fcf82cbcca746334bc3ddc/blog-thumb-release-platform.png"
         },
@@ -465,7 +525,7 @@
           "description": "Elastic Enterprise Search 8.5 brings powerful machine learning and ingestion-time workflows to any dataset.",
           "link": "https://www.elastic.co/blog/whats-new-elastic-enterprise-search-8-5-0",
           "publishedOn": "2022-11-01T00:00:00.000Z",
-          "wordCount": 11284,
+          "wordCount": 10450,
           "title": "Elastic Enterprise Search 8.5: Machine learning for intuitive search experiences",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltbb4996d39a786d20/5ffe05b822252d41f72866fc/blog-thumb-release-enterprise-search.png"
         },
@@ -475,7 +535,7 @@
           "description": "In 8.5, we are releasing the auto-instrumentation capability, which allows the .NET APM agent to automatically instrument .NET Framework, .NET Core, and .NET applications without requiring code changes or recompilation.",
           "link": "https://www.elastic.co/blog/whats-new-elastic-observability-8-5-0",
           "publishedOn": "2022-11-01T00:00:00.000Z",
-          "wordCount": 9645,
+          "wordCount": 8811,
           "title": "Announcing general availability of Elastic APM .NET agent profiler auto-instrumentation",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt80837971b91f17db/5ffe08dd2c2bd44889c7e731/blog-thumb-release-observability.png"
         },
@@ -485,7 +545,7 @@
           "description": ",\nAs an operations engineer (SRE, IT manager, DevOps), you’re always struggling with how to manage technology and data sprawl. Kubernetes is becoming increasingly pervasive and a majority of these deployments will be in Amazon Elastic Kubernetes Service (EKS), Google Kubernetes Engine (GKE), or Azure Kubernetes Service (AKS). Some of you may be on a single cloud while others will have the added burden of managing clusters on multiple Kubernetes cloud services. In addition to cloud provider complexity, you also have to manage hundreds of deployed services generating more and more observability and telemetry data. \n\nThe day-to-day operations of understanding the status and health of your Kubernetes clusters and applications running on them, through the logs, metrics, and traces they generate…",
           "link": "https://www.elastic.co/blog/kubernetes-cluster-metrics-logs-monitoring",
           "publishedOn": "2022-11-01T00:00:00.000Z",
-          "wordCount": 12844,
+          "wordCount": 12010,
           "title": "Managing your Kubernetes cluster with Elastic Observability",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt30356308fa9784a5/635690ccb45ffc5dbc605ad3/ManagingKubernetes-ElasticAgentIntegration-1.png"
         },
@@ -495,7 +555,7 @@
           "description": ",\nToday, we are pleased to announce the latest iteration of the world’s leading platform for search-powered solutions with the general availability of Elastic 8.5.\n\nElastic 8.5 introduces a broad set of new capabilities to the Elastic Search Platform and its three built-in solutions — Elastic Enterprise Search, Elastic Observability, and Elastic Security.\nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt7d02456cf31614a2/633ee3eb2d122610be62d1c8/blog-elastic-85-announcement-1.png,blog-elastic-85-announcement-1.png,\nWhat’s new?\nElastic Enterprise Search is the gold standard for implementing powerful, modern search and discovery experiences with Elasticsearch — enabling you to search everything, anywhere.\n\n\nWith Elastic 8.5, Elastic Enterprise Search welcomes the general availab…",
           "link": "https://www.elastic.co/blog/whats-new-elastic-8-5-0",
           "publishedOn": "2022-11-01T00:00:00.000Z",
-          "wordCount": 9075,
+          "wordCount": 8241,
           "title": "Build robust search experiences, reduce time to observability, and streamline security workflows with Elastic 8.5",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt878ebe7fdc0cc140/62fd52a434503410d4c0701f/blog-thumbnail-generic-release.png"
         },
@@ -505,7 +565,7 @@
           "description": ",\nWith Elastic 8.5, we are excited to announce that the Cloud Workload and Posture capabilities are now generally available with this release!\n\nAs organizations move rapidly to adopt newer cloud technologies, security teams are tasked with protecting their organization’s assets and data across various platforms — including endpoints, cloud, and on-prem environments. These systems generate massive amounts of data that needs to be analyzed and stored for auditing, threat hunting, and compliance purposes.\nA new Forrester consulting study conducted on behalf of Elastic found that 83% of business leaders agree that using a single integrated search platform helps reduce business cost. This is because a search powered technology has the advantage of stitching together different technologies and d…",
           "link": "https://www.elastic.co/blog/whats-new-elastic-security-8-5-0",
           "publishedOn": "2022-11-01T00:00:00.000Z",
-          "wordCount": 14544,
+          "wordCount": 13710,
           "title": "Elastic Security furthers unification of SIEM and on-host protection with XDR, cloud, and endpoint security",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt5d48cc221861a811/634db61b6245b53fdaedc0c1/blog-elastic-security85-final.jpg"
         },
@@ -515,7 +575,7 @@
           "description": ",\nWe are pleased to announce the release of Elastic Stack 8.5. Learn how you can:\n\nExperience extended support for personalized collaboration to streamline workflows and facilitate escalations with your team. You can quickly assign cases to users in Kibana and define and search user profiles.\nReach insights faster with richer context for your data and visualizations, including sourcing annotations dynamically from Elasticsearch queries in Kibana.\nReduce noise when analyzing logs with AIOps pattern analysis. \nSearch smarter with enhancements to vector search using the HNSW KNN capability (now GA), including filtering, hybrid search, and aggregation over HNSW based result sets.\nGain better visibility into cluster health with more troubleshooting tools for cloud deployments on the new Health …",
           "link": "https://www.elastic.co/blog/whats-new-elasticsearch-kibana-cloud-8-5-0",
           "publishedOn": "2022-11-01T00:00:00.000Z",
-          "wordCount": 12062,
+          "wordCount": 11228,
           "title": "Elastic Stack & Cloud 8.5: AIOps, collaboration, vector search GA, and more",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltd2b695348ddc99f3/62fcf82cbcca746334bc3ddc/blog-thumb-release-platform.png"
         },
@@ -525,7 +585,7 @@
           "description": ",\nThe latest release of Elastic Enterprise Search introduces a suite of new features and capabilities for building world-class search experiences for your mission-critical applications, websites, online stores, or anything in-between:\n\nConfigurable machine learning (ML) and ingestion pipelines helps customers enrich their documents with natural language processing (NLP). Users can much more quickly and easily create and manage tasks like identifying user sentiment in support requests, utilizing named-entity recognition (NER) at query time to filter search results, answering questions programmatically with vector similarity, and preparing data for analysis by reducing whitespace. All of this happens with a few clicks in the Enterprise Search UI, no complexity required.\nThanks to Elastic’s n…",
           "link": "https://www.elastic.co/blog/whats-new-elastic-enterprise-search-8-5-0",
           "publishedOn": "2022-11-01T00:00:00.000Z",
-          "wordCount": 11284,
+          "wordCount": 10450,
           "title": "Elastic Enterprise Search 8.5: Machine learning for intuitive search experiences",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltbb4996d39a786d20/5ffe05b822252d41f72866fc/blog-thumb-release-enterprise-search.png"
         },
@@ -535,7 +595,7 @@
           "description": ",\nA few months back, we introduced the beta release of Elastic APM .NET agent profiler auto-instrumentation. Fast forward to today, we're excited to announce the general availability (GA) of this powerful capability that allows the .NET APM agent to automatically instrument .NET Framework, .NET Core, and .NET applications without requiring code changes or recompilation. In addition, assemblies for common messaging frameworks like Kafka and RabbitMQ, as well as MySQL, Oracle, and PostgreSQL, can now be automatically instrumented.\nAt the time of the beta release, we posted a detailed technical blog about how auto-instrumentation works in the next iteration of the Elastic APM .NET Agent. This blog contains a deep-dive into profiling — including COM Interfaces and Method rewriting — and includ…",
           "link": "https://www.elastic.co/blog/whats-new-elastic-observability-8-5-0",
           "publishedOn": "2022-11-01T00:00:00.000Z",
-          "wordCount": 9645,
+          "wordCount": 8811,
           "title": "Announcing general availability of Elastic APM .NET agent profiler auto-instrumentation",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt80837971b91f17db/5ffe08dd2c2bd44889c7e731/blog-thumb-release-observability.png"
         },
@@ -545,29 +605,9 @@
           "description": "We all have fond memories of dressing up in costumes and trick-or-treating. Have you ever wondered when the peak time for trick-or-treating is? Learn how to ingest data and build visualizations with Kibana to show when to expect trick-or-treaters.",
           "link": "https://www.elastic.co/blog/tracking-peak-time-for-trick-or-treaters-in-kibana",
           "publishedOn": "2022-10-31T00:00:00.000Z",
-          "wordCount": 10122,
+          "wordCount": 9288,
           "title": "Tracking peak time for trick-or-treaters in Kibana",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt14c02617338b795b/635c0508267dbd106239041f/Tweet_image.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/what-can-elastic-synthetics-tell-us-about-kibana-dashboards",
-          "author": "Philipp Kahr",
-          "description": "Elastic Synthetics enables you to configure an out-of-the-box experience directly through your Elastic Cloud deployment without the need to install anything! It also works across the globe with multiple locations you can choose from.",
-          "link": "https://www.elastic.co/blog/what-can-elastic-synthetics-tell-us-about-kibana-dashboards",
-          "publishedOn": "2022-10-31T00:00:00.000Z",
-          "wordCount": 9915,
-          "title": "What can Elastic Synthetics tell us about Kibana Dashboards?",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc12e084face9bca3/62e91caae71af410b83be81f/large-illustration-machine-learning-anomaly-1200x630.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/when-to-scale-from-free-software-to-cloud-services",
-          "author": "Julie Campagna",
-          "description": "When organizations hit the wall of scalability and support, cloud services are the logical next step.",
-          "link": "https://www.elastic.co/blog/when-to-scale-from-free-software-to-cloud-services",
-          "publishedOn": "2022-10-31T00:00:00.000Z",
-          "wordCount": 10112,
-          "title": "When to scale from free software to cloud services",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte466d64056119dad/6346da18a819441366928fa6/02-jetfighter.jpg"
         },
         {
           "id": "https://www.elastic.co/blog/tracking-peak-time-for-trick-or-treaters-in-kibana",
@@ -575,29 +615,9 @@
           "description": ",\nIt’s the most spooky time of the year! Many of us have fond memories as children of dressing up in scary costumes and heading door to door in search of treats. As adults, we may be on door duty handing out candy.\nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0584d8b9e536b807/635c03689a123e5dbdbca267/1.jpg,1.jpg,\nIrrespective of which side of the door you’re standing on, have you ever wondered when the peak time for trick or treating is? Below, we’ll explain how to ingest data and build sample visualizations using Kibana to show when to expect trick-or-treaters knocking on the door.\nIngesting our trick-or-treater data\nTo examine this question, we need data. Thankfully, the wonderful Jeffrey A. Shaffer has been collecting data on the trick-or-treaters coming to his door fr…",
           "link": "https://www.elastic.co/blog/tracking-peak-time-for-trick-or-treaters-in-kibana",
           "publishedOn": "2022-10-31T00:00:00.000Z",
-          "wordCount": 10122,
+          "wordCount": 9288,
           "title": "Tracking peak time for trick-or-treaters in Kibana",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt14c02617338b795b/635c0508267dbd106239041f/Tweet_image.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/what-can-elastic-synthetics-tell-us-about-kibana-dashboards",
-          "author": "Philipp Kahr",
-          "description": ",\nI like to leverage our technologies to ensure our products have a pleasant user experience. Elastic Synthetics enables you to configure it in an out-of-the-box experience directly through your Elastic Cloud deployment without the need to install anything! It also works across the globe with multiple locations you can choose from. Ever wondered how fast your web service is when accessed from Japan, Germany, or the eastern U.S.? Now you can do this by simply clicking on a checkbox.\n\nDuring my time as a system administrator, I often heard complaints from users about our services being slow. If we think of it in terms of Kibana, we often hear stories about slow dashboards. I thought, why not leverage Elastic Synthetic monitoring to investigate if a dashboard is slow? \n\nWe all have different …",
-          "link": "https://www.elastic.co/blog/what-can-elastic-synthetics-tell-us-about-kibana-dashboards",
-          "publishedOn": "2022-10-31T00:00:00.000Z",
-          "wordCount": 9915,
-          "title": "What can Elastic Synthetics tell us about Kibana Dashboards?",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc12e084face9bca3/62e91caae71af410b83be81f/large-illustration-machine-learning-anomaly-1200x630.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/when-to-scale-from-free-software-to-cloud-services",
-          "author": "Julie Campagna",
-          "description": ",\nTo many people, free software (including open source) usually means no cost. Similarly, in-house developers often use free software to create tools that help streamline or automate processes, thereby removing the need to purchase software. \n\nNot only can IT leaders save money by using no-cost software and homegrown developer tools, but they can also bypass the red tape involved with executive buy-in and budget approval. Sounds good, right?\n\nNot so fast. For small businesses on a shoestring budget, free software — for example, accounting, photo editing, task tracking apps — can make a lot of sense. However, when it comes to enterprise companies running mission-critical applications, there’s a time and place for trialing “free” software and building your own quick-fix solutions in-house, a…",
-          "link": "https://www.elastic.co/blog/when-to-scale-from-free-software-to-cloud-services",
-          "publishedOn": "2022-10-31T00:00:00.000Z",
-          "wordCount": 10112,
-          "title": "When to scale from free software to cloud services",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte466d64056119dad/6346da18a819441366928fa6/02-jetfighter.jpg"
         },
         {
           "id": "https://www.elastic.co/blog/performing-real-user-monitoring-rum-with-elastic-apm",
@@ -719,7 +739,7 @@
           "description": "Last week we made significant updates to our product roadmap. We published the latest features for 2022, updated the list of features for 2023, and included an initiatives section that provides details about the product strategy and long-term investments.\nIn addition to including a new list of key features and initiatives,\nThe post Azure DevOps Roadmap update appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azure-devops-roadmap-update/",
           "publishedOn": "2022-10-20T17:13:02.000Z",
-          "wordCount": 4660,
+          "wordCount": 4369,
           "title": "Azure DevOps Roadmap update",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2019/02/roadmap.png"
         },
@@ -729,7 +749,7 @@
           "description": "This month, we are releasing fixes that impact our self-hosted product, Azure DevOps Server.\nResolve issue with newly added AD identities not appearing in security dialog identity pickers.\nThe post October patches for Azure DevOps Server appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/october-patches-for-azure-devops-server-2/",
           "publishedOn": "2022-10-18T16:59:44.000Z",
-          "wordCount": 4549,
+          "wordCount": 4258,
           "title": "October patches for Azure DevOps Server",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/06/HERO-1.jpg"
         },
@@ -739,7 +759,7 @@
           "description": "Exciting things are in store for Azure DevOps in the coming year! We’re planning deep investments in security as well as broad investment across the product. Read on for more information, and then be sure to check out our updated roadmap at https://aka.ms/AzureDevOpsRoadmap.\nThe post Integrate security into your developer workflow with GitHub Advanced Security for Azure DevOps appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/integrate-security-into-your-developer-workflow-with-github-advanced-security-for-azure-devops/",
           "publishedOn": "2022-10-12T12:59:49.000Z",
-          "wordCount": 7471,
+          "wordCount": 7554,
           "title": "Integrate security into your developer workflow with GitHub Advanced Security for Azure DevOps",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/10/AzDO-heart-Security.png"
         },
@@ -759,7 +779,7 @@
           "description": "Sprint 211 was a busy one. We were able to complete a lot of bugs and yet introduce some new exciting features. We also enabled a “Try the New Boards Hub” banner and popup to the legacy boards experience on select organizations.\nThe post New Boards Hub, Sprint 211 Update appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/new-boards-hub-sprint-211-update/",
           "publishedOn": "2022-10-07T14:28:43.000Z",
-          "wordCount": 4919,
+          "wordCount": 5210,
           "title": "New Boards Hub, Sprint 211 Update",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/10/sketch-3.png"
         }
@@ -865,36 +885,6 @@
           "wordCount": 1335,
           "title": "AWS Local Zones Expansion: Taipei and Delhi",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/10/04/Site-Merch_AWS-Local-Zones_Blog.png"
-        },
-        {
-          "id": "b52baf93c46bb68d0030598dd7ae15d1a9913d72",
-          "author": "Veliswa Boya",
-          "description": "In June 2022 AWS announced a preview of Amazon Connect Cases, a feature of Amazon Connect that simplifies these customer interactions and reduces the average handle times of issues. Today I am excited to announce the general availability of Amazon Connect Cases. Cases, a feature of Amazon Connect, makes it easy for your contact center […]",
-          "link": "https://aws.amazon.com/blogs/aws/announcing-general-availability-of-amazon-connect-cases/",
-          "publishedOn": "2022-10-03T20:41:27.000Z",
-          "wordCount": 1265,
-          "title": "Announcing General Availability of Amazon Connect Cases",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/10/03/Site-Merch_Amazon-Connect-Keystone-Gardner_Blog.png"
-        },
-        {
-          "id": "ae5d0488bf0646507a69e9e761f48098a248df55",
-          "author": "Danilo Poccia",
-          "description": "This post is part of our Week in Review series. Check back each week for a quick roundup of interesting news and announcements from AWS! A new week and a new month just started. Curious which were the most significant AWS news from the previous seven days? I got you covered with this post. Last […]",
-          "link": "https://aws.amazon.com/blogs/aws/aws-week-in-review-october-3-2022/",
-          "publishedOn": "2022-10-03T18:32:35.000Z",
-          "wordCount": 1288,
-          "title": "AWS Week in Review – October 3, 2022",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/10/03/AWS-WIR-10.3.22.png"
-        },
-        {
-          "id": "732ba82c2e85ba6a2394bf8a29ee95a5e73a4c90",
-          "author": "Antje Barth",
-          "description": "Artificial intelligence (AI) is all around us. AI sends certain emails to our spam folders. It powers autocorrect, which helps us fix typos when we text. And now we can use it to solve business problems. In business, data-driven insights have become increasingly valuable. These insights are often discovered with the help of machine learning […]",
-          "link": "https://aws.amazon.com/blogs/aws/new-hands-on-course-for-business-analysts-practical-decision-making-using-no-code-ml-on-aws/",
-          "publishedOn": "2022-10-03T16:26:34.000Z",
-          "wordCount": 1837,
-          "title": "New Hands-On Course for Business Analysts – Practical Decision Making using No-Code ML on AWS",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/09/27/Amazon-SageMaker-Canvas_Blog.png"
         }
       ]
     },
@@ -903,6 +893,16 @@
       "feedUrl": "https://xkcd.com/atom.xml",
       "siteUrl": "https://xkcd.com/",
       "articles": [
+        {
+          "id": "https://xkcd.com/2693/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/wirecutter_recommendation.png\" title=\"Their 'best philosophy of epistemology' picks are great, but you can tell they're struggling a little in the 'why you should trust us' section.\" alt=\"Their 'best philosophy of epistemology' picks are great, but you can tell they're struggling a little in the 'why you should trust us' section.\" />",
+          "link": "https://xkcd.com/2693/",
+          "publishedOn": "2022-11-02T00:00:00.000Z",
+          "wordCount": 232,
+          "title": "Wirecutter Recommendation",
+          "imageUrl": "https://imgs.xkcd.com/comics/wirecutter_recommendation_2x.png"
+        },
         {
           "id": "https://xkcd.com/2692/",
           "author": null,
@@ -932,16 +932,6 @@
           "wordCount": 232,
           "title": "Cool S",
           "imageUrl": "https://imgs.xkcd.com/comics/cool_s_2x.png"
-        },
-        {
-          "id": "https://xkcd.com/2689/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/fermats_first_theorem.png\" title=\"Mathematicians quickly determined that it spells ANT BNECN, an unusual theoretical dish which was not successfully cooked until Andrew Wiles made it for breakfast in the 1990s.\" alt=\"Mathematicians quickly determined that it spells ANT BNECN, an unusual theoretical dish which was not successfully cooked until Andrew Wiles made it for breakfast in the 1990s.\" />",
-          "link": "https://xkcd.com/2689/",
-          "publishedOn": "2022-10-24T00:00:00.000Z",
-          "wordCount": 234,
-          "title": "Fermat's First Theorem",
-          "imageUrl": "https://imgs.xkcd.com/comics/fermats_first_theorem_2x.png"
         }
       ]
     },
@@ -966,7 +956,7 @@
           "description": "We’re grateful to our customers and community for selecting Camunda Platform for three 2022 PeerSpot Peer Awards.\nThe post Camunda Wins Three PeerSpot 2022 Peer Awards appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/10/camunda-wins-three-peerspot-2022-peer-awards/",
           "publishedOn": "2022-10-28T19:04:17.000Z",
-          "wordCount": 2599,
+          "wordCount": 2493,
           "title": "Camunda Wins Three PeerSpot 2022 Peer Awards",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/10/Camunda_2022_PeerSpot-awards-blog-ftd-image_1200x630.png"
         },
@@ -976,7 +966,7 @@
           "description": "Learn how inbound Connectors work in Camunda Platform 8.1, and how you can get started with them today.\nThe post A technical sneak peek into inbound Connectors alongside Camunda 8.1 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/10/technical-sneak-peek-inbound-connectors-camunda-8-1/",
           "publishedOn": "2022-10-26T14:34:22.000Z",
-          "wordCount": 3263,
+          "wordCount": 3264,
           "title": "A technical sneak peek into inbound Connectors alongside Camunda 8.1",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/10/Camunda_inbound-connectors-technical-sneak-peek_ftd-image_1200x627.png"
         },
@@ -1006,7 +996,7 @@
           "description": "Directory services are an effective way to manage an organization’s users, groups, printers, devices, and more. Most organizations accomplish this using Active Directory, Apache Directory, Oracle Internet Directory, or other similar tools. Recently I worked with a customer who wanted to see how he could secure the Camunda 8 Platform and process applications with such a directory. Their requirements consisted of: Allowing Directory users to access Camunda applications (Tasklist, Operate, Optimize) Accessing secured Tasklist & Operate APIs from our custom project Securing the custom project In this article, I’ll briefly explain the 3 easy steps taken to fulfill their requirements which include: Federate users from the Directory service into Keycloak Declare an application in Identity to access Camunda APIs Configure...\nThe post Securing Camunda 8 self-managed cluster and applications behind a directory appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/10/securing-camunda-8-self-managed-cluster-and-applications-behind-a-directory/",
           "publishedOn": "2022-10-12T13:01:00.000Z",
-          "wordCount": 3212,
+          "wordCount": 3112,
           "title": "Securing Camunda 8 self-managed cluster and applications behind a directory",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/10/Active_Directory_Camunda_Platform_8.png"
         },
@@ -1016,7 +1006,7 @@
           "description": "We’re extremely excited to announce the release of Camunda Platform 8.1.  In this post, we will go into the highlights of this release including Web Modeler, Connectors, Zeebe, Operate, Optimize, and more. Here’s the highlights of what’s included in this release: Easier Installation and maintenance for Camunda Platform Self-managed Hot backups for Self-Managed Token-Based authentication Modeler updates Process Templates FEEL Expression Editor Inline Annotations Changes to Camunda forms Connectors updates Workflow engine updates Operate updates Optimize updates Let’s get started! Easier installation and maintenance for Camunda Platform Self-Managed Improved Guides and Support for OpenShift and Amazon EKS (AWS) With this release, we are introducing official support for deploying and running Camunda Platform 8 Self-Managed on OpenShift and Amazon EKS (AWS)....\nThe post Camunda Platform 8.1 Released – What’s New appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/10/camunda-platform-8-1-released-whats-new/",
           "publishedOn": "2022-10-11T14:00:00.000Z",
-          "wordCount": 6078,
+          "wordCount": 6079,
           "title": "Camunda Platform 8.1 Released – What’s New",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/10/screenshot-camunda.com-2022.10.11-09_14_38.png"
         },
@@ -1026,7 +1016,7 @@
           "description": "We’re extremely excited to announce the release of Camunda Platform 7.18 Here are some of the highlights: Cockpit: Improved instance selection to avoid unintended batch operations Cockpit: Easier navigation of high batch operation volumes MDC logging features Camunda Forms in Tasklist: Populate select options via process data Exception error codes Filter and order tasks by last updated WebSphere Liberty New and retired supported environments You can download Camunda Platform or run it with Docker. For a complete list of the changes, please check out the release notes. For patched security vulnerabilities, see our security notices. If you want to dig deeper, check out the source code on GitHub. Cockpit: Improved instance selection to avoid unintended batch operations Previously, when performing...\nThe post Camunda Platform 7.18 Released – What’s New appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/10/camunda-platform-7-18-released-whats-new/",
           "publishedOn": "2022-10-11T13:15:00.000Z",
-          "wordCount": 3371,
+          "wordCount": 3372,
           "title": "Camunda Platform 7.18 Released – What’s New",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/10/Camunda_7.18.png"
         },
@@ -1036,7 +1026,7 @@
           "description": "We’re thrilled to announce Camunda Platform 8.1, the latest release of our process orchestration solution. This new version introduces features that accelerate connectivity to the many different systems and technologies that are required for true digital transformation, including: Create custom Connectors with our Integration Framework to accelerate connectivity New out-of-the-box Connectors for popular services Enhancements to Camunda Modeler that improve productivity Hot backups and official support for Amazon EKS and Red Hat OpenShift Plus, several upgrades requested by Camunda Platform 7 customers Organizations across all industries rely on complex technology stacks to adapt and enhance their operations in response to market dynamics, new disruptive companies, and increasing consumer expectations. Your technology stack likely includes everything from cutting-edge technologies to legacy...\nThe post Accelerate Connectivity with Camunda Platform 8.1 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/10/accelerate-connectivity-with-camunda-platform-8-1/",
           "publishedOn": "2022-10-11T12:00:00.000Z",
-          "wordCount": 3168,
+          "wordCount": 3169,
           "title": "Accelerate Connectivity with Camunda Platform 8.1",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/10/Camunda-8.1-Release_2022_blog-featured-image_1200x630-1.png"
         }
@@ -1070,12 +1060,32 @@
       "siteUrl": "https://github.blog/",
       "articles": [
         {
+          "id": "https://github.blog/2022-11-02-github-partners-with-arm-to-revolutionize-internet-of-things-software-development-with-github-actions/",
+          "author": null,
+          "description": "Developers creating Internet of Things software use a complex stack of software that needs to be custom built into their CI/CD platform. Arm is leveraging the simplicity and scalability of GitHub Actions with a native integration that will revolutionize IoT software development.",
+          "link": "https://github.blog/2022-11-02-github-partners-with-arm-to-revolutionize-internet-of-things-software-development-with-github-actions/",
+          "publishedOn": "2022-11-02T18:39:04.000Z",
+          "wordCount": 2527,
+          "title": "GitHub partners with Arm to revolutionize Internet of Things software development with GitHub Actions",
+          "imageUrl": "https://github.blog/wp-content/uploads/2021/11/GitHub-Actions_social.png"
+        },
+        {
+          "id": "https://github.blog/2022-11-02-github-availability-report-october-2022/",
+          "author": null,
+          "description": "In October, we experienced four incidents that resulted in degraded performance across GitHub services. This report also sheds light into an incident that impacted Codespaces in September.",
+          "link": "https://github.blog/2022-11-02-github-availability-report-october-2022/",
+          "publishedOn": "2022-11-02T16:00:33.000Z",
+          "wordCount": 2214,
+          "title": "GitHub Availability Report: October 2022",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/03/Engineering@2x.png?fit=2400%2C1260"
+        },
+        {
           "id": "https://github.blog/2022-11-01-game-off-2022-theme-announcement/",
           "author": null,
           "description": "It’s the moment you’ve all been waiting for. Are you ready?",
           "link": "https://github.blog/2022-11-01-game-off-2022-theme-announcement/",
           "publishedOn": "2022-11-01T20:37:41.000Z",
-          "wordCount": 1409,
+          "wordCount": 1485,
           "title": "Game Off 2022 theme announcement",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/10/game-off-social-cards.png"
         },
@@ -1085,7 +1095,7 @@
           "description": "We will begin to introduce several new capabilities to GitHub Copilot in 2023 to continue delivering responsible innovation and true happiness at the keyboard.",
           "link": "https://github.blog/2022-11-01-preview-referencing-public-code-in-github-copilot/",
           "publishedOn": "2022-11-01T19:00:20.000Z",
-          "wordCount": 1028,
+          "wordCount": 1122,
           "title": "Preview: referencing public code in GitHub Copilot",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/06/Copilot.jpeg?fit=1200%2C630"
         },
@@ -1095,7 +1105,7 @@
           "description": "We are pleased to announce the expansion of All In for Students! All In for Students introduces college students to open source and provides them with the education, technical training and career development to prepare them for a summer internship in tech.",
           "link": "https://github.blog/2022-11-01-all-in-for-students-expanding-the-next-generation-of-open-source-leaders/",
           "publishedOn": "2022-11-01T15:15:11.000Z",
-          "wordCount": 1261,
+          "wordCount": 1337,
           "title": "All In for Students: expanding the next generation of open source leaders",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/02/Community-Company_teal-orange@2x.png"
         },
@@ -1105,7 +1115,7 @@
           "description": "A glimpse into the backgrounds and day-to-day work of several GitHub employees in cybersecurity roles.",
           "link": "https://github.blog/2022-10-31-creating-a-more-inclusive-security-research-field/",
           "publishedOn": "2022-10-31T17:09:47.000Z",
-          "wordCount": 1907,
+          "wordCount": 1983,
           "title": "Creating a more inclusive security research field",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/04/Security-Community@2x.png"
         },
@@ -1115,7 +1125,7 @@
           "description": "Some seriously spooktacular open source games for the web, Windows, macOS, and Linux with all sorts of fun hacks for infinite lives, invulnerability, and playing with time.",
           "link": "https://github.blog/2022-10-29-thirteen-tiny-terrific-and-terrifying-games-to-hack-slay-and-play-this-halloween/",
           "publishedOn": "2022-10-29T07:01:32.000Z",
-          "wordCount": 2381,
+          "wordCount": 2457,
           "title": "13 tiny, terrific, and terrifying games to hack, slay, and play this Halloween 🧛🏻‍♀️",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/10/halloween-1.png"
         },
@@ -1125,7 +1135,7 @@
           "description": "As we wrap up Cybersecurity Awareness Month, the GitHub bug bounty team is excited to spotlight one of the security researchers who participates in the GitHub Security Bug Bounty Program.",
           "link": "https://github.blog/2022-10-28-cybersecurity-spotlight-on-bug-bounty-researcher-ahacker1/",
           "publishedOn": "2022-10-28T18:34:58.000Z",
-          "wordCount": 1399,
+          "wordCount": 1475,
           "title": "Cybersecurity spotlight on bug bounty researcher @ahacker1",
           "imageUrl": "https://github.blog/wp-content/uploads/2021/06/GitHub-Bug-Bounty_for-social.png"
         },
@@ -1135,7 +1145,7 @@
           "description": "Hackatoberfest, hackathons, and open source contributions. It&#8217;s been a hectic month with so many community pull requests to all kinds of projects. So many in fact that we had to spend hours going through all the submissions for this blog post. We almost didn&#8217;t get it out before the end of October. Nevertheless, we are [&#8230;]",
           "link": "https://github.blog/2022-10-28-release-radar-sept-2022/",
           "publishedOn": "2022-10-28T18:00:17.000Z",
-          "wordCount": 1831,
+          "wordCount": 1907,
           "title": "Release Radar · September 2022 Edition",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/10/September-2022.jpg"
         },
@@ -1145,29 +1155,9 @@
           "description": "You can now build your agenda on GitHubUniverse.com! Whether you’re just getting started or you’re a seasoned industry professional, there’s a session for you.",
           "link": "https://github.blog/2022-10-27-choose-your-own-github-universe-2022-adventure/",
           "publishedOn": "2022-10-27T18:54:54.000Z",
-          "wordCount": 2580,
+          "wordCount": 2658,
           "title": "Choose your own GitHub Universe 2022 adventure",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/10/universeheader2.png"
-        },
-        {
-          "id": "https://github.blog/2022-10-27-what-we-learned-from-the-security-labs-community-office-hours/",
-          "author": null,
-          "description": "The GitHub Security Lab provided office hours for open source projects looking to improve their security posture and reduce the risk of breach. Here’s what we learned and how you can also participate.",
-          "link": "https://github.blog/2022-10-27-what-we-learned-from-the-security-labs-community-office-hours/",
-          "publishedOn": "2022-10-27T15:00:42.000Z",
-          "wordCount": 1812,
-          "title": "What we learned from the Security Lab’s Community Office Hours",
-          "imageUrl": "https://github.blog/wp-content/uploads/2021/11/GitHub-Security-Lab.jpeg"
-        },
-        {
-          "id": "https://github.blog/2022-10-27-diversity-inclusion-and-belonging-at-github-in-2022/",
-          "author": null,
-          "description": "As GitHub continues to grow, our vision of being the home for all developers continues to materialize, expanding our progress, perspectives, and responsibility to the world.",
-          "link": "https://github.blog/2022-10-27-diversity-inclusion-and-belonging-at-github-in-2022/",
-          "publishedOn": "2022-10-27T13:13:22.000Z",
-          "wordCount": 1427,
-          "title": "Diversity, inclusion, and belonging at GitHub in 2022",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/10/GitHub-diversity-inclusion-belonging-2022.png"
         }
       ]
     },
@@ -1211,16 +1201,6 @@
           "publishedOn": "2022-10-05T00:00:00.000Z",
           "wordCount": 3918,
           "title": "Blog: Current State: 2019 Third Party Security Audit of Kubernetes",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kubernetes.io/blog/2022/10/04/introducing-kueue/",
-          "author": null,
-          "description": "Authors: Abdullah Gharaibeh (Google), Aldo Culquicondor (Google)\nWhether on-premises or in the cloud, clusters face real constraints for resource usage, quota, and cost management reasons. Regardless of the autoscalling capabilities, clusters have finite capacity. As a result, users want an easy way to fairly and\nefficiently share resources.\nIn this article, we introduce Kueue,\nan open source job queueing controller designed to manage batch jobs as a single unit.\nKueue leaves pod-level orchestration to existing stable components of Kubernetes.\nKueue natively supports the Kubernetes Job\nAPI and offers hooks for integrating other custom-built APIs for batch jobs.\nWhy Kueue?\nJob queueing is a key feature to run batch workloads at scale in both on-premises and cloud environments. The main goal…",
-          "link": "https://kubernetes.io/blog/2022/10/04/introducing-kueue/",
-          "publishedOn": "2022-10-04T00:00:00.000Z",
-          "wordCount": 4471,
-          "title": "Blog: Introducing Kueue",
           "imageUrl": null
         }
       ]
@@ -1375,12 +1355,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=44130",
+          "author": "Seth Godin",
+          "description": "It’s certainly a common excuse for being stuck. In fact, there are more good ideas right now than ever before. That’s not the hard part. Need a name for your project? This site will not only invent a thousand names, it will also generate a nearly infinite number of logos for you. Instantly. Surely, at […]",
+          "link": "https://feeds.feedblitz.com/~/718217082/0/sethsblog~No-good-ideas/",
+          "publishedOn": "2022-11-02T08:56:00.000Z",
+          "wordCount": 1147,
+          "title": "No good ideas?",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806133-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=44143",
           "author": "Seth Godin",
           "description": "Infinity is seductive. 1,000 emails take up just as much space (and cost just as much) as one. An online bookstore can carry every book ever published. And the long tail of music gives every single person a chance to share their work. The simplest thing to do is “let the market sort itself out.” […]",
           "link": "https://feeds.feedblitz.com/~/718084848/0/sethsblog~Gatekeepers-and-judgment/",
           "publishedOn": "2022-11-01T09:47:00.000Z",
-          "wordCount": 1253,
+          "wordCount": 1330,
           "title": "Gatekeepers and judgment",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061310-1.jpg"
         },
@@ -1390,7 +1380,7 @@
           "description": "This is obvious. Circus peanuts don’t have nuts, legumes or anything else that resembles a nut. They’re a metaphor. Or perhaps a simile, it depends on your level of pedantry. And yet, many people have a hard time with metaphor. Metaphor, not memorization, is the heart of learning. If you understand A, and you see […]",
           "link": "https://feeds.feedblitz.com/~/717926704/0/sethsblog~Circus-peanuts-dont-contain-nuts/",
           "publishedOn": "2022-10-31T08:39:00.000Z",
-          "wordCount": 1119,
+          "wordCount": 1196,
           "title": "Circus peanuts don’t contain nuts",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806132-1.jpg"
         },
@@ -1400,7 +1390,7 @@
           "description": "History is filled with examples of people who made errors in judgment. The executives at Decca that turned down the Beatles, the CEO at Digital who said that no one would ever need to have a computer in their home, and the reviewers that didn’t like the movie 2001. And of course, the creators that […]",
           "link": "https://feeds.feedblitz.com/~/717787392/0/sethsblog~The-opportunity-to-be-wrong/",
           "publishedOn": "2022-10-30T08:42:00.000Z",
-          "wordCount": 1139,
+          "wordCount": 1215,
           "title": "The opportunity to be wrong",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806134-1.jpg"
         },
@@ -1410,7 +1400,7 @@
           "description": "There are unforeseen speedbumps, missed connections and of course, a lot of luck. If you are in love with your authentic voice, you’re unlikely to change. One lesson from the 500 Songs podcast is that most classic rock songs were made by people who started pretty far from where they ended up, but persisted, adjusted […]",
           "link": "https://feeds.feedblitz.com/~/717675566/0/sethsblog~Sticking-just-the-right-amount/",
           "publishedOn": "2022-10-29T09:28:00.000Z",
-          "wordCount": 1171,
+          "wordCount": 1247,
           "title": "Sticking just the right amount",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg"
         },
@@ -1420,7 +1410,7 @@
           "description": "The industrial age prized these three attributes. We’ve all been indoctrinated into adopting them through our time in organized schooling, and it’s easy to imagine that the world still wants this. When work is geographically bounded and the assembly line is the dynamic of efficiency, this is precisely what’s sought. Your resume certifies that you […]",
           "link": "https://feeds.feedblitz.com/~/717535794/0/sethsblog~Handy-cheap-and-willing/",
           "publishedOn": "2022-10-28T08:15:00.000Z",
-          "wordCount": 1301,
+          "wordCount": 1377,
           "title": "Handy, cheap and willing",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806139-1.jpg"
         },
@@ -1430,7 +1420,7 @@
           "description": "A 98% chance is dramatically different than a 100% certainty. Certainty isn’t on the spectrum of chance. It’s a different thing altogether. If the weather report says the chance of precipitation is zero, one should never walk outside into the rain. When you leave yourself a few points of wiggle room, you can build more […]",
           "link": "https://feeds.feedblitz.com/~/717361002/0/sethsblog~With-certainty/",
           "publishedOn": "2022-10-27T07:47:00.000Z",
-          "wordCount": 1063,
+          "wordCount": 1139,
           "title": "With certainty",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg"
         },
@@ -1440,7 +1430,7 @@
           "description": "Some problems lend themselves to reexamination. A second, third or even fourth thought is productive, because our initial impulses might not reflect our best effort at understanding the nuances of the situation. But many problems simply create more thoughts, without productive output. As we confront something that is unlikely to have a simple or productive […]",
           "link": "https://feeds.feedblitz.com/~/717203466/0/sethsblog~Giving-it-a-second-thought/",
           "publishedOn": "2022-10-26T08:39:00.000Z",
-          "wordCount": 1104,
+          "wordCount": 1180,
           "title": "Giving it a second thought",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061318.jpg"
         },
@@ -1450,7 +1440,7 @@
           "description": "It’s the first mile. Big tech likes to talk about the last mile problem–how to get a wire, a system or a concept from where the nodes are easy to plant to where people actually are. As if the hard part is what they’ve already done, and now it’s just the last little bit… None […]",
           "link": "https://feeds.feedblitz.com/~/717133428/0/sethsblog~Its-not-the-last-mile/",
           "publishedOn": "2022-10-25T18:44:00.000Z",
-          "wordCount": 1145,
+          "wordCount": 1221,
           "title": "It’s not the last mile",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg"
         },
@@ -1460,19 +1450,9 @@
           "description": "When one person needs to fix a wall, adjust a cabinet or choose what to serve for dinner, they can optimize their choice. Make appropriate trade-offs. Take responsibility for the path chosen. But when a group of people are asked to do the same thing, it’s easy to err on the side of the pursuit […]",
           "link": "https://feeds.feedblitz.com/~/717084466/0/sethsblog~Perfect-might-be-the-enemy-of-good-in-group-dynamics-and-choice-making/",
           "publishedOn": "2022-10-25T08:48:00.000Z",
-          "wordCount": 1154,
+          "wordCount": 1230,
           "title": "Perfect might be the enemy of good in group dynamics and choice making",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061315.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=43087",
-          "author": "Seth Godin",
-          "description": "Decisions and crises and moments of significant effort and risk can be stressful. But the challenge of a stressful day is rarely directly related to today, it’s about tomorrow or years from now. Which means that pushing your way through some critical choices now will probably pay off in far more good days later. How […]",
-          "link": "https://feeds.feedblitz.com/~/716965058/0/sethsblog~How-many-good-days/",
-          "publishedOn": "2022-10-24T07:45:00.000Z",
-          "wordCount": 1096,
-          "title": "How many good days?",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg"
         }
       ]
     },
@@ -1481,6 +1461,36 @@
       "feedUrl": "https://blog.jetbrains.com/feed/",
       "siteUrl": "https://blog.jetbrains.com",
       "articles": [
+        {
+          "id": "https://blog.jetbrains.com/?post_type=pycharm&p=293150",
+          "author": "Jodie Burchell",
+          "description": "Making mistakes in your code is a pain, and debugging in Jupyter notebooks can get messy. While Jupyter helpfully displays the full Python traceback, which highlights the lines that have failed, working out exactly what caused the issue in your code can be tricky. I usually end up pulling my code apart in new cells […]",
+          "link": "https://blog.jetbrains.com/pycharm/2022/11/how-to-debug-a-jupyter-notebook-in-pycharm/",
+          "publishedOn": "2022-11-02T11:36:34.000Z",
+          "wordCount": 2861,
+          "title": "How to Debug a Jupyter Notebook in PyCharm",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/11/Blog_Social_share_image_1280x720-1.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=qodana&p=292993",
+          "author": "Valerie Kuzmina",
+          "description": "We’re delighted to announce the release of Qodana 2022.3 EAP. This version of the platform brings support for NET. and Go, and over 100 new inspections for cleaner code. However, please, note that Qodana 2022.2 images are more stable, as Qodana 2022.3 EAP is still in its infancy. Read on to learn more and become […]",
+          "link": "https://blog.jetbrains.com/qodana/2022/11/qodana-2022-3/",
+          "publishedOn": "2022-11-02T11:22:28.000Z",
+          "wordCount": 2622,
+          "title": "Qodana 2022.3 EAP Is Out: Qodana for .NET and Go and 100+ New Inspections",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/11/Blog_Social_share_izmage_1280x720_Qodana.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=phpstorm&p=292931",
+          "author": "Roman Pronskiy",
+          "description": "Greetings everyone! Welcome to the October installment of PHP Annotated, where we’ll catch up on the most exciting things that have happened in the PHP world over the last month, including curated news, articles, tools, and videos. News PHP 8.2.0 RC 5 has been released Another release candidate has been delivered according to schedule. The […]",
+          "link": "https://blog.jetbrains.com/phpstorm/2022/11/php-annotated-october-2022/",
+          "publishedOn": "2022-11-02T07:55:21.000Z",
+          "wordCount": 3294,
+          "title": "PHP Annotated – October 2022",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/11/php-annotated-blog-social-share-image-1280x720-1.png"
+        },
         {
           "id": "https://blog.jetbrains.com/?post_type=idea&p=292527",
           "author": "Irina Maryasova",
@@ -1497,7 +1507,7 @@
           "description": "In this build, you can try the brand new rendered view for PHPDoc comments, return value debugging with Xdebug, and tools that will help you troubleshoot Xdebug configuration. The EAP allows you to try new features from the upcoming PhpStorm 2022.3. EAP builds are free to use, and you can install them side by side […]",
           "link": "https://blog.jetbrains.com/phpstorm/2022/11/phpstorm-2022-3-early-access-5/",
           "publishedOn": "2022-11-01T11:41:43.000Z",
-          "wordCount": 2408,
+          "wordCount": 2412,
           "title": "PhpStorm 2022.3 Early Access #5",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/11/ps-release-blog-social-share-image-1280x720-1.png"
         },
@@ -1557,7 +1567,7 @@
           "description": "In this new EAP build, we’ve introduced the ability to execute asynchronous code in the Debug Console and Evaluate dialog, improved the parsing and rendering of some sections for class docstrings, enhanced UX for working with the HTTP client and Docker, and added support for new CSS features. This blog post covers the most notable […]",
           "link": "https://blog.jetbrains.com/pycharm/2022/10/2022-3-eap-3/",
           "publishedOn": "2022-10-28T13:22:59.000Z",
-          "wordCount": 2782,
+          "wordCount": 2789,
           "title": "PyCharm 2022.3 EAP 3 Is Out!",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/09/Blog_Featured_image_1280x600_PyCharm-2x-1.png"
         },
@@ -1570,36 +1580,6 @@
           "wordCount": 2926,
           "title": "TeamCity 2022.10: Sakura UI, Improved Integration With Amazon AWS, Out-of-the-Box HTTPS Support, Google OAuth Authentication, and More.",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/02/teamcity_social.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=webstorm&p=291757",
-          "author": "David Watson",
-          "description": "WebStorm 2022.3 EAP build #5 is now available! To catch up on all the new features, check out our previous EAP blog posts. The Toolbox App is the easiest way to get the EAP builds and keep both your stable and EAP versions up-to-date. You can also manually download the EAP builds from our website. […]",
-          "link": "https://blog.jetbrains.com/webstorm/2022/10/webstorm-2022-3-eap-5/",
-          "publishedOn": "2022-10-27T14:44:16.000Z",
-          "wordCount": 2225,
-          "title": "WebStorm 2022.3 EAP #5: Package Vulnerability Checker, Vue Import Improvements, and Windows ARM64 Installer",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/09/WebStorm-2022-3EAP-social-media-share.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=education&p=291827",
-          "author": "Anastasiia Pogorelova",
-          "description": "We are excited to announce the release of EduTools 2022.10. The new version brings an extended selection of toolchains for Rust users. Additionally, teachers can now review tasks before creating a course archive and modify the names of hints. We also improved the overall quality of the plugin by fixing a variety of bugs. Read […]",
-          "link": "https://blog.jetbrains.com/education/2022/10/27/edutools-plugin-2022-10-available/",
-          "publishedOn": "2022-10-27T14:14:22.000Z",
-          "wordCount": 1937,
-          "title": "EduTools 2022.10 Is Available",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/10/Featured_Blog_Social_1280x720_EduTools-2x-2.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=datalore&p=291802",
-          "author": "Alena Guzharina",
-          "description": "On Wednesday, 26th October 2022, I gave a webinar about how to build beautiful data apps with Datalore, our collaborative data science and data analytics platform. Here’s the recording for you to watch if you missed the live stream. Description Have you ever struggled to create presentations for your stakeholders with your data science or […]",
-          "link": "https://blog.jetbrains.com/datalore/2022/10/27/webinar-recording-how-to-build-beautiful-data-apps-with-datalore/",
-          "publishedOn": "2022-10-27T10:30:21.000Z",
-          "wordCount": 1824,
-          "title": "Webinar Recording: “How to Build Beautiful Data Apps with Datalore”",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/10/DSGN-14748-Webinar-How-To-Build-Beautiful-Data-Apps-with-Datalore_JB_Blog_Social_share_image_1280-720.png"
         }
       ]
     }

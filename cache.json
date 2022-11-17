@@ -6,6 +6,36 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2022/11/16/spring-framework-6-0-goes-ga",
+          "author": null,
+          "description": "Dear Spring community,\n\r\nIt is my pleasure to announce that Spring Framework 6.0.0 is generally available from Maven Central now! This is the start of a new framework generation for 2023 and beyond, embracing current and upcoming innovations in OpenJDK and the Java ecosystem. At the same time, we carefully designed it as a straightforward upgrade from Spring Framework 5.3.x for modern-day runtime environments.\n\r\nAs a major revision of the core framework, Spring Framework 6.0 comes with a Java 17+ baseline and a move to Jakarta EE 9+ (in the jakarta namespace), with a focus on the recently released Jakarta EE 10 APIs such as Servlet 6.0 and JPA 3.1. This provides access to the latest web containers such as Tomcat 10.1 and the latest persistence providers such as Hibernate ORM 6.1. Don’t be stuck on Java EE 8, make the leap to the jakarta namespace, ideally straight to the Jakarta EE 10 level! The upcoming Spring Boot 3.0.0 release includes corresponding managed dependencies for you.\n\r\nInfrastructure-wise, 6.0 introduces a foundation for Ahead-Of-Time transformations and the corresponding AOT processing support for Spring application contexts. This enables first-class support for GraalVM native images with Spring Boot 3. You may also explore Project Loom’s virtual threads with Spring applications - see “Embracing Virtual Threads” - and dive into Project CRaC ’s checkpoint restore approach for faster JVM startups, both of which are in preview at this point but expected to become first-class features for Spring Framework 6.x based applications.\n\r\nThere are many further features and refinements available in Spring Framework 6.0, e.g. an HTTP interface client, support for RFC 7807 problem details, and Micrometer-based observability for HTTP clients. Please see our What’s New page for a comprehensive overview and give 6.0.0 an early try!\n\r\nCheers,\nJuergen\n\r\nProject Page | GitHub | Documentation",
+          "link": "https://spring.io/blog/2022/11/16/spring-framework-6-0-goes-ga",
+          "publishedOn": "2022-11-16T11:31:54.000Z",
+          "wordCount": 802,
+          "title": "Spring Framework 6.0 goes GA",
+          "imageUrl": "https://avatars.githubusercontent.com/u/1263688?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2022/11/16/spring-framework-5-3-24-available-now",
+          "author": null,
+          "description": "On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework 5.3.24 is available now.\n\r\nSpring Framework 5.3.24 includes 33 fixes and improvements.\n\r\nProject Page | GitHub | Issues | Documentation",
+          "link": "https://spring.io/blog/2022/11/16/spring-framework-5-3-24-available-now",
+          "publishedOn": "2022-11-16T08:40:20.000Z",
+          "wordCount": 541,
+          "title": "Spring Framework 5.3.24 available now",
+          "imageUrl": "https://avatars.githubusercontent.com/u/490484?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2022/11/15/spring-cloud-dataflow-2-10-0-rc2-released",
+          "author": null,
+          "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Cloud Dataflow 2.10.0-RC2 has been released and is now available from https://repo.spring.io/milestone.\n\r\nThis release contains an update of the Spring Boot, Spring Framework, and Spring Cloud versions.\nSee the release notes for more information.\nStay in touch…\n\r\nAs always, we welcome feedback and contributions, so please reach out to us on Stackoverflow or GitHub.",
+          "link": "https://spring.io/blog/2022/11/15/spring-cloud-dataflow-2-10-0-rc2-released",
+          "publishedOn": "2022-11-15T20:00:00.000Z",
+          "wordCount": 571,
+          "title": "Spring Cloud Dataflow 2.10.0-RC2 Released",
+          "imageUrl": "https://avatars.githubusercontent.com/u/28907971?v=4?s=200"
+        },
+        {
           "id": "https://spring.io/blog/2022/11/15/this-week-in-spring-november-15th-2022",
           "author": null,
           "description": "Hi, Spring fans! How’re you doin’ this fine Tuesday morning? I’ve returned home to San Francisco and am up and at ’em nice and early to catch a flight to Seattle, where I’ll speak at the Java User Group tonight. If you’re in Seattle, don’t miss it!\n\r\nWe’ve got a ton of cool stuff to get into this week, but let’s not bury the lede here: Spring Framework 6 comes out tomorrow, Wednesday, the 16th of November, 2022! And you know where to go to get the bits: the Spring Initialzr, start.spring.io!\n\r\nLet’s dive into this week’s roundup!\n\r\n\r\n  \nDid you see the new Reactor 2022.0.0 release? This release contains integration with Micrometer Tracing, context propagation, and plenty of other improvements. See this for more.\n\r\n  \nSpring Boot 3.0.0-RC2 available now\n\r\n  \nSpring Cloud 2021.0.5 (codename Jubilee) Has Been Released\n\r\n  \nSpring Framework 6.0.0-RC4 available now\n\r\n  \nSpring Security 6.0.0-RC2 is available now\n\r\n  \nUpdates on Spring Cloud Stream 4.0.0 Schema Registry Support\n\r\n  \nComing with the RC of Spring Modulith: improved module canvas listing cross-module bean references (first image) and publicly exposed value types (second image).\n\r\n  \nKong Ingress Controller with Spring Boot\n\r\n  \nMocking a Singleton With Mockito\n\r\n  \nDid you know that Jetbrains has a Spotify playlist of music designed for coding called “Pure Flow”? I like it!\n\r\n  \nSpring @EnableMethodSecurity Annotation\n\r\n  \nSpringRunner vs MockitoJUnitRunner",
@@ -174,36 +204,6 @@
           "wordCount": 810,
           "title": "This Week in Spring - November 1st, 2022",
           "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/10/31/spring-security-5-7-5-and-5-6-9-available-now",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Security 5.7.5 and 5.6.9 are available now. In both cases the releases are composed of bug fixes.\n\r\n\r\n\r\nTo learn more, please visit the 5.7.5 and\r\n 5.6.9 release summaries.\n\r\n\r\n\r\nProject Site | Reference | Help",
-          "link": "https://spring.io/blog/2022/10/31/spring-security-5-7-5-and-5-6-9-available-now",
-          "publishedOn": "2022-10-31T17:04:00.000Z",
-          "wordCount": 558,
-          "title": "Spring Security 5.7.5 and 5.6.9 available now",
-          "imageUrl": "https://avatars.githubusercontent.com/u/5248162?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/10/31/cve-2022-31690-privilege-escalation-in-spring-security-oauth2-client",
-          "author": null,
-          "description": "Spring Security 5.6.9 and 5.7.5 released on October 31st, 2022 included a fix for CVE-2022-31690 affecting the mapping of authorized scopes in spring-security-oauth2-client. Users are encouraged to update as soon as possible.\n\r\n\r\n\r\nImpact\n\r\n\r\n\r\nUsers who have applied the mitigation should take note of the following impact:\n\r\n\r\n\r\nNo authorized scopes are mapped to the principal (current user) when the Authorization Server (AS) responds to the OAuth2 Access Token Response with an empty or missing scope parameter.\n\r\n\r\n\r\nIf you are affected by this vulnerability, users will not be granted any authorities beginning with SCOPE_ when the AS does not return scopes. Only the special authority ROLE_USER is given to the principal.\n\r\n\r\n\r\n\r\n\r\n\r\nNote\n\r\n\r\n\r\nBeginning with 6.0, the special authority is ch…",
-          "link": "https://spring.io/blog/2022/10/31/cve-2022-31690-privilege-escalation-in-spring-security-oauth2-client",
-          "publishedOn": "2022-10-31T16:41:00.000Z",
-          "wordCount": 837,
-          "title": "CVE-2022-31690: Privilege Escalation in spring-security-oauth2-client",
-          "imageUrl": "https://avatars.githubusercontent.com/u/5248162?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/10/31/cve-2022-31692-authorization-rules-can-be-bypassed-via-forward-or-include-in-spring-security",
-          "author": null,
-          "description": "Spring Security 5.6.9 and 5.7.5 released on October 31st, 2022 included a fix for CVE-2022-31692 affecting the AuthorizationFilter. Users are encouraged to update as soon as possible.",
-          "link": "https://spring.io/blog/2022/10/31/cve-2022-31692-authorization-rules-can-be-bypassed-via-forward-or-include-in-spring-security",
-          "publishedOn": "2022-10-31T16:41:00.000Z",
-          "wordCount": 548,
-          "title": "CVE-2022-31692: Authorization rules can be bypassed via forward or include in Spring Security",
-          "imageUrl": "https://avatars.githubusercontent.com/u/13255302?v=4?s=200"
         }
       ]
     },
@@ -212,6 +212,16 @@
       "feedUrl": "https://www.hashicorp.com/blog/feed.xml",
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
+        {
+          "id": "https://www.hashicorp.com/blog/cdk-for-terraform-0-14-makes-it-easier-to-use-providers",
+          "author": null,
+          "description": "Cloud Development Kit for Terraform (CDKTF) 0.14 makes it easier to add and upgrade Terraform providers.",
+          "link": "https://www.hashicorp.com/blog/cdk-for-terraform-0-14-makes-it-easier-to-use-providers",
+          "publishedOn": "2022-11-16T17:00:00.000Z",
+          "wordCount": 2841,
+          "title": "CDK for Terraform 0.14 Makes it Easier to Use Providers",
+          "imageUrl": "https://www.datocms-assets.com/2885/1620081857-blog-library-product-terraform-dark-gradient.jpg"
+        },
         {
           "id": "https://www.hashicorp.com/blog/hashicorp-at-aws-re-invent-examining-the-state-of-your-cloud-operating-model",
           "author": null,
@@ -248,7 +258,7 @@
           "description": "As next-generation 5G begins to take shape, learn about a suite of comprehensive, identity-based security solutions for microservice environments.",
           "link": "https://www.hashicorp.com/blog/how-telcos-can-add-mutual-tls-to-5g-packet-core-with-hashicorp-vault",
           "publishedOn": "2022-11-01T16:00:00.000Z",
-          "wordCount": 4039,
+          "wordCount": 4043,
           "title": "How Telcos Can Add Mutual TLS to 5G Packet Core with HashiCorp Vault",
           "imageUrl": "https://www.datocms-assets.com/2885/1633705692-hashistack.png"
         },
@@ -288,7 +298,7 @@
           "description": "Enhance your Terraform Cloud workflow by adding run tasks before the plan and/or apply stages.",
           "link": "https://www.hashicorp.com/blog/pre-plan-apply-run-tasks-now-available-in-terraform-cloud",
           "publishedOn": "2022-10-20T16:00:00.000Z",
-          "wordCount": 1914,
+          "wordCount": 1912,
           "title": "Pre-Plan/Pre-Apply Run Tasks Now Available in Terraform Cloud",
           "imageUrl": "https://www.datocms-assets.com/2885/1620073844-blog-library-product-terraform-cloud-tfc-black-gradient.jpg"
         },
@@ -330,12 +340,92 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
+          "id": "https://www.elastic.co/blog/2022-elastic-global-threat-report-helping-security-leaders-navigate-todays-threat-landscape",
+          "author": "Ken Exner",
+          "description": "A significant percentage of all cyber threats achieve a degree of success against technical, procedural, and human mitigations. So what is a company to do in the face of such unfavorable odds? Find out in this article.",
+          "link": "https://www.elastic.co/blog/2022-elastic-global-threat-report-helping-security-leaders-navigate-todays-threat-landscape",
+          "publishedOn": "2022-11-16T00:00:00.000Z",
+          "wordCount": 5516,
+          "title": "2022 Elastic Global Threat Report: Helping security leaders navigate today’s threat landscape",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt700d7e227f378951/637403362f1aba10d25a695f/gtr-blog-image-720x420.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/opentelemetry-observability",
+          "author": "Bahubali Shetti",
+          "description": "OpenTelemetry has become a key component for observability given its open standards and developer-friendly tools. See how easily Elastic Observability integrates with OTel to provide a platform that minimizes vendor lock-in and maximizes flexibility.",
+          "link": "https://www.elastic.co/blog/opentelemetry-observability",
+          "publishedOn": "2022-11-16T00:00:00.000Z",
+          "wordCount": 11618,
+          "title": "Independence with OpenTelemetry on Elastic",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltba746218da18dd51/63740608a32209106e8b1aa2/illustration-scalability-gear-1680x980_(1).jpg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/uk-government-innovate-while-reducing-tech-costs",
+          "author": "Mark Boschier",
+          "description": "As the UK government braces for budget cuts, IT teams don't have to sacrifice innovation. Here are a few ways that departments can continue to pursue their digital transformation goals while also reducing costs via a unified data platform.",
+          "link": "https://www.elastic.co/blog/uk-government-innovate-while-reducing-tech-costs",
+          "publishedOn": "2022-11-16T00:00:00.000Z",
+          "wordCount": 11664,
+          "title": "How the UK government can continue to innovate while reducing tech costs",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte554d0d74c00fdd1/637514e2cdfe2310972d4403/04-columns.jpg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/how-to-make-progress-on-managing-unstructured-data2",
+          "author": "Megan Radogna",
+          "description": "A conversation between guest Forrester Consulting and Elastic explores how applying search-powered technology to unify, visualize, and scale data can enable organizations to be more insights-driven.",
+          "link": "https://www.elastic.co/blog/how-to-make-progress-on-managing-unstructured-data2",
+          "publishedOn": "2022-11-16T00:00:00.000Z",
+          "wordCount": 9570,
+          "title": "How to make progress on managing unstructured data",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltbe143844dbad9e62/6375252e5797f6109ea9155b/blog-elastic-unstructured-data.jpg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/2022-elastic-global-threat-report-helping-security-leaders-navigate-todays-threat-landscape",
+          "author": "Ken Exner",
+          "description": ",\nAs the threat landscape continues to evolve, cybersecurity stakes are growing exponentially higher for today’s organizations. Between Log4j, geopolitical tension, and increasing ransomware threats, security is not just at the top of the business agenda but also the societal agenda. Meanwhile, threat actors have adopted new capabilities and methods while increasing their cadence of activity.\n\nThreat detection and response has come a long way since the firewall dissolved and the cloud took center stage. AI and machine learning, for example, have been major contributors to the advancement of cybersecurity. Machine learning is being used to identify malicious behavior from bad actors by modeling network behavior and improving overall threat detection.\n\nWhat’s been difficult is the sea of sam…",
+          "link": "https://www.elastic.co/blog/2022-elastic-global-threat-report-helping-security-leaders-navigate-todays-threat-landscape",
+          "publishedOn": "2022-11-16T00:00:00.000Z",
+          "wordCount": 5516,
+          "title": "2022 Elastic Global Threat Report: Helping security leaders navigate today’s threat landscape",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt700d7e227f378951/637403362f1aba10d25a695f/gtr-blog-image-720x420.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/opentelemetry-observability",
+          "author": "Bahubali Shetti",
+          "description": ",\nThe drive for faster, more scalable services is on the rise. Our day-to-day lives depend on apps, from a food delivery app to have your favorite meal delivered, to your banking app to manage your accounts, to even apps to schedule  doctor’s appointments. These apps need to be able to grow from not only a features standpoint but also in terms of user capacity. The scale and need for global reach drives increasing complexity for these high-demand cloud applications.\nIn order to keep pace with demand, most of these online apps and services (for example, mobile applications, web pages, SaaS) are moving to a distributed microservice-based architecture and Kubernetes. Once you’ve migrated your app to the cloud, how do you manage and monitor production, scale, and availability of the service? O…",
+          "link": "https://www.elastic.co/blog/opentelemetry-observability",
+          "publishedOn": "2022-11-16T00:00:00.000Z",
+          "wordCount": 11618,
+          "title": "Independence with OpenTelemetry on Elastic",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltba746218da18dd51/63740608a32209106e8b1aa2/illustration-scalability-gear-1680x980_(1).jpg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/uk-government-innovate-while-reducing-tech-costs",
+          "author": "Mark Boschier",
+          "description": ",\nAs UK government departments brace for budget cuts, new programs for innovation or re-imagined services will no doubt see a decrease in funding. And who will feel the impact of this drop in tech investment the most? The people of the UK.\n\nI have been working with government organisations for the last 20 years, evangelising the use of open source software, open principles, and open government, with the sole purpose of helping solve some gnarly government challenges. Oh, and I like to write down my thoughts from time to time…\n\nAs digital technology accelerates at pace, the tools that support this progress proliferate. Projects, teams, and partners are building their own “Frankenstein monsters” made up of completely different sets of tools for metrics, logs and traces, cyber, data search, a…",
+          "link": "https://www.elastic.co/blog/uk-government-innovate-while-reducing-tech-costs",
+          "publishedOn": "2022-11-16T00:00:00.000Z",
+          "wordCount": 11664,
+          "title": "How the UK government can continue to innovate while reducing tech costs",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte554d0d74c00fdd1/637514e2cdfe2310972d4403/04-columns.jpg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/how-to-make-progress-on-managing-unstructured-data2",
+          "author": "Megan Radogna",
+          "description": ",\nWe asked a veteran CIO and a leading analyst whether organizations today are getting results that matter from all their data, and the conversation was illuminating. \n\nLess than 20% of enterprise data is finding its way into applications that provide actionable insights for businesses, estimates guest Boris Evelson, vice president and principal analyst at Forrester. There are “a lot of opportunities for all of us,” he said. \n\nA recent study of technology leaders conducted by Forrester Consulting and commissioned by Elastic found that managing unstructured data was respondents’ top challenge that they are trying to address with search-powered technology today.\n\nEvelson and Matthew Minetola, a CIO for 20+ years, now at Elastic, recommended three strategies to make progress in addressing thi…",
+          "link": "https://www.elastic.co/blog/how-to-make-progress-on-managing-unstructured-data2",
+          "publishedOn": "2022-11-16T00:00:00.000Z",
+          "wordCount": 9570,
+          "title": "How to make progress on managing unstructured data",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltbe143844dbad9e62/6375252e5797f6109ea9155b/blog-elastic-unstructured-data.jpg"
+        },
+        {
           "id": "https://www.elastic.co/blog/forecast-and-recommendations-2022-elastic-global-threat-report",
           "author": "Santosh Krishnan",
           "description": "With the release of our first Global Threat Report at Elastic, customers, partners, and the security community at large are able to identify many of the focus areas our team has had over the past 12 months.",
           "link": "https://www.elastic.co/blog/forecast-and-recommendations-2022-elastic-global-threat-report",
           "publishedOn": "2022-11-15T00:00:00.000Z",
-          "wordCount": 8220,
+          "wordCount": 7065,
           "title": "Forecast and Recommendations: 2022 Elastic Global Threat Report",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt654b4bdea94eada2/6372d2968db6e810ab776884/gtr-blog-image-720x420.png"
         },
@@ -345,7 +435,7 @@
           "description": "Threat intelligence resources like the 2022 Elastic Global Threat Report are critical to helping teams evaluate their organizational visibility, capabilities, and expertise in identifying and preventing cybersecurity threats.",
           "link": "https://www.elastic.co/blog/elastics-2022-global-threat-report-a-roadmap-for-navigating-todays-growing-threatscape",
           "publishedOn": "2022-11-15T00:00:00.000Z",
-          "wordCount": 8936,
+          "wordCount": 7781,
           "title": "Elastic’s 2022 Global Threat Report: A roadmap for navigating today’s growing threatscape",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc2e5da7191c526c9/6372d1c97140e510ae4a4f49/gtr-blog-image-720x420.png"
         },
@@ -365,7 +455,7 @@
           "description": ",\nToday, we released our first-ever Global Threat Report at Elastic. Now, customers, partners, and the security community at large will be able to identify many of the focus areas our team has had over the past 12 months. In addition to a technical perspective, this report also brings along a series of strategic recommendations for executives and security leaders alike: a summarized, accurate perspective of where we can expect to see adversaries move over the coming months.\n\nOur hope is that threat researchers and the security industry as a whole will use this report to prepare for the next set of threats and campaigns. At Elastic, we are ensuring that our customers using the Elastic Security solution are best protected from these types of threats, including endpoint and cloud capabilities…",
           "link": "https://www.elastic.co/blog/forecast-and-recommendations-2022-elastic-global-threat-report",
           "publishedOn": "2022-11-15T00:00:00.000Z",
-          "wordCount": 8220,
+          "wordCount": 7065,
           "title": "Forecast and Recommendations: 2022 Elastic Global Threat Report",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt654b4bdea94eada2/6372d2968db6e810ab776884/gtr-blog-image-720x420.png"
         },
@@ -375,7 +465,7 @@
           "description": ",\nStaying up-to-date on the current state of security and understanding the implications of today’s growing threat landscape is critical to my role as CISO at Elastic. Part of this includes closely following the latest security threat reports, highlighting trends, and offering valuable insights into methods bad actors use to compromise environments.\n\nThreat intelligence resources like the 2022 Elastic Global Threat Report are critical to helping my team evaluate our organization’s visibility, capabilities, and expertise in identifying and preventing cybersecurity threats. It helps us answer questions such as:\n\nHow is our environment impacted by the current and emerging threats identified in this report? \nDoes this new information change our risk profile and impact our risk analysis?\nWhat a…",
           "link": "https://www.elastic.co/blog/elastics-2022-global-threat-report-a-roadmap-for-navigating-todays-growing-threatscape",
           "publishedOn": "2022-11-15T00:00:00.000Z",
-          "wordCount": 8936,
+          "wordCount": 7781,
           "title": "Elastic’s 2022 Global Threat Report: A roadmap for navigating today’s growing threatscape",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc2e5da7191c526c9/6372d1c97140e510ae4a4f49/gtr-blog-image-720x420.png"
         },
@@ -395,7 +485,7 @@
           "description": "As K-12 school districts in the U.S. look to purchase a SIEM to meet cyber insurance companies’ requirements, make sure you’re getting the most possible value out of your purchase.",
           "link": "https://www.elastic.co/blog/k-12-schools-are-struggling-with-cybersecurity-here-s-how-a-siem-can-help",
           "publishedOn": "2022-11-14T00:00:00.000Z",
-          "wordCount": 9167,
+          "wordCount": 8413,
           "title": "K-12 schools are struggling with cybersecurity — Here’s how a SIEM can help",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt14a175a10c5cf196/636d15a0a374f37d13a049cb/blog-elastic-security-laptop.png"
         },
@@ -405,7 +495,7 @@
           "description": "AWS re:Invent 2022 — Stop by Elastic booth #3004 or attend an Elastic speaking session. Learn about our new search, observability, and security capabilities and vision for a serverless Elasticsearch.",
           "link": "https://www.elastic.co/blog/elastic-aws-reinvent-2022",
           "publishedOn": "2022-11-14T00:00:00.000Z",
-          "wordCount": 7712,
+          "wordCount": 9640,
           "title": "Elastic at AWS re:Invent 2022",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc014067d29f53663/6372a9345bd399105c6f758b/aws-social-media-banner-1200x628.png"
         },
@@ -415,7 +505,7 @@
           "description": "Meet customer demands with vector search — faster search powered by machine learning. Learn 5 reasons why vector search can make a difference for your business and improve your search experience.",
           "link": "https://www.elastic.co/blog/why-technology-leaders-need-vector-search",
           "publishedOn": "2022-11-14T00:00:00.000Z",
-          "wordCount": 10590,
+          "wordCount": 12518,
           "title": "5 reasons IT leaders need vector search to improve search experiences",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltfa3672eea901e2f5/63443097366c7610e0fbc380/illustration-industries-retail-social-1680x980.png"
         },
@@ -425,7 +515,7 @@
           "description": ",\nK-12 school districts in the U.S. are struggling with cybersecurity. According to an October 2022 GAO report, ransomware attacks have cost schools up to three weeks of missed learning. The GAO also noted that recovery can take as long as nine months. In January 2021, 3,000 K-12 public schools in the U.S. were victim to a large-scale worldwide cyberattack.\n\nIn 2021, President Biden signed the K-12 Cybersecurity Act into law, requiring the Cybersecurity and Infrastructure Security Agency (CISA) to research cybersecurity risks and share recommendations with K-12 schools, focusing on both information systems and sensitive student data. As of late 2022, CISA has not yet delivered those recommendations.\n\nOne way K-12 districts are coping with an increased cybersecurity risk is by purchasing cy…",
           "link": "https://www.elastic.co/blog/k-12-schools-are-struggling-with-cybersecurity-here-s-how-a-siem-can-help",
           "publishedOn": "2022-11-14T00:00:00.000Z",
-          "wordCount": 9167,
+          "wordCount": 8413,
           "title": "K-12 schools are struggling with cybersecurity — Here’s how a SIEM can help",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt14a175a10c5cf196/636d15a0a374f37d13a049cb/blog-elastic-security-laptop.png"
         },
@@ -435,7 +525,7 @@
           "description": ",\nAWS re:Invent is around the corner! Our teams have been waiting for the return of in-person events. We love talking tech and cannot wait to learn about your cloud and data challenges, and help solve them.\n\nWhat can you expect at re:Invent 2022? Dive into all things Elastic and make sure to drop by our booth #3004 to chat with our engineers, solution architects, developer advocates, and more.\n\nMore on AWS re:invent >> \nLearn at AWS re:Invent 2022\nAWS re:Invent brings together technologies and partners across the AWS ecosystem, allowing you to discover and build your AWS applications with best of breed options. Elastic’s search-powered solutions allow customers to easily build search applications on AWS, monitor AWS workloads, and secure their AWS footprint. And over the last year, the tea…",
           "link": "https://www.elastic.co/blog/elastic-aws-reinvent-2022",
           "publishedOn": "2022-11-14T00:00:00.000Z",
-          "wordCount": 7712,
+          "wordCount": 9640,
           "title": "Elastic at AWS re:Invent 2022",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc014067d29f53663/6372a9345bd399105c6f758b/aws-social-media-banner-1200x628.png"
         },
@@ -445,89 +535,9 @@
           "description": ",\nFrequent interactions with high quality search engines, like Google and Amazon, have increased customer expectations for fast and relevant search. Vector search (also known as semantic vector search) leverages deep learning and machine learning to capture meaning and context of data. It can enhance your company’s search experience and deliver a wide range of benefits, including: \n\nDelivering highly relevant results to your users with less effort \nReturning fast search results, even on large and varied data\nEnabling new classes of search for text, image, and audio\nServing more accurate product recommendations, FAQ answers, and even personalization directly to customers\n\nFor technology leaders, learn more about vector search and how it can help you not only meet, but exceed customer expect…",
           "link": "https://www.elastic.co/blog/why-technology-leaders-need-vector-search",
           "publishedOn": "2022-11-14T00:00:00.000Z",
-          "wordCount": 10590,
+          "wordCount": 12518,
           "title": "5 reasons IT leaders need vector search to improve search experiences",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltfa3672eea901e2f5/63443097366c7610e0fbc380/illustration-industries-retail-social-1680x980.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/culture-how-elastic-and-skillbridge-help-bridge-the-gap-between-military-and-civilian-life",
-          "author": "Elastic Culture",
-          "description": "Participants in the Skillbridge program intern with Elastic during their final months in the military. Learn more about how the program helps members transition into a civilian career.",
-          "link": "https://www.elastic.co/blog/culture-how-elastic-and-skillbridge-help-bridge-the-gap-between-military-and-civilian-life",
-          "publishedOn": "2022-11-11T00:00:00.000Z",
-          "wordCount": 7605,
-          "title": "How Elastic and Skillbridge help bridge the gap between military and civilian life",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltd7034265eec43144/6363e57b6f94cb2d07f6fafb/11.01-culture-blog-skillbridge-blog-1680x980.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/culture-how-elastic-and-skillbridge-help-bridge-the-gap-between-military-and-civilian-life",
-          "author": "Elastic Culture",
-          "description": ",\nFor members of the military, making the transition into a civilian career can be intimidating. Dustin Clark, Engineer, Education at Elastic, who left the military in 2021, says it was scary to take the leap.\n\n“I have this job of 10 years and then I have to pull the trigger and go [to civilian life],” he says. “Pretty much the only reason I was confident in getting out [of the military] was Skillbridge. \n\nSkillbridge is a program set up by the U.S Department of Defense that does exactly as the name suggests: helps active duty military members bridge their skills gap as they transition into a civilian career. Every year, around 200,000 members of the U.S. military transition to civilian life, according to the U.S Department of Labor. \n\nElastic joined the Skillbridge program in 2021 and Dus…",
-          "link": "https://www.elastic.co/blog/culture-how-elastic-and-skillbridge-help-bridge-the-gap-between-military-and-civilian-life",
-          "publishedOn": "2022-11-11T00:00:00.000Z",
-          "wordCount": 7605,
-          "title": "How Elastic and Skillbridge help bridge the gap between military and civilian life",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltd7034265eec43144/6363e57b6f94cb2d07f6fafb/11.01-culture-blog-skillbridge-blog-1680x980.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/ebpf-observability-security-workload-profiling",
-          "author": "David Hope",
-          "description": "eBPF is fast becoming a critical part of observability and security. Find out what it is and get a peek under the hood in this blog.",
-          "link": "https://www.elastic.co/blog/ebpf-observability-security-workload-profiling",
-          "publishedOn": "2022-11-10T00:00:00.000Z",
-          "wordCount": 9934,
-          "title": "A look under the hood at eBPF: A new way to monitor and secure your platforms",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc6144de1913e60aa/636c0f60f5f6d3155a6cfe48/illustration-elevate-arrow-1680x980.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/the-future-of-cyber-threat-prevention-lies-in-open-security",
-          "author": "Jake King",
-          "description": "With data breaches continuing to rise at an alarming pace, there’s one thing that more security professionals and vendors need to recognize and embrace: we can harness our untapped strength by working together as a community to bring openness and transparency to security.",
-          "link": "https://www.elastic.co/blog/the-future-of-cyber-threat-prevention-lies-in-open-security",
-          "publishedOn": "2022-11-10T00:00:00.000Z",
-          "wordCount": 8796,
-          "title": "The future of cyber threat prevention lies in open security",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltcaf8e3e614fb824e/62e949032a66d4760f00e2c9/blog-open-security-720x420-A.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/ebpf-observability-security-workload-profiling",
-          "author": "David Hope",
-          "description": ",\nIn this post, I want to scratch at the surface of a very interesting technology that Elastic’s Universal Profiler and Security solution both use called eBPF and explain why it is a critically important technology for modern observability.\n\nI’ll talk a little bit about how it works and how it can be used to create powerful monitoring solutions — and dream up ways eBPF could be used in the future for observability use cases.\nWhat is eBPF?\neBPF or Extended Berkeley Packer Filter is a pretty interesting name, but it doesn’t describe the technology in a way that helps users conceptualize what it does. The reason for the name is that the technology’s original purpose was in networking, where it was used for dynamically applying enormously complex firewall rules.\n\nThese days, the technology can…",
-          "link": "https://www.elastic.co/blog/ebpf-observability-security-workload-profiling",
-          "publishedOn": "2022-11-10T00:00:00.000Z",
-          "wordCount": 9934,
-          "title": "A look under the hood at eBPF: A new way to monitor and secure your platforms",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc6144de1913e60aa/636c0f60f5f6d3155a6cfe48/illustration-elevate-arrow-1680x980.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/the-future-of-cyber-threat-prevention-lies-in-open-security",
-          "author": "Jake King",
-          "description": ",\nFor far too long, the cybersecurity industry has subscribed to a flawed methodology — one that is based on the notion that organizations can avoid security threats through obscurity and secrecy. The assumption is that keeping security controls and processes covert makes products and data inherently more secure against cyber threats within the networks we defend.      \n\nHowever, even the most sophisticated cybersecurity defenses are no match for well-funded, highly motivated adversaries. In fact, the expanding digital footprint of modern organizations has made many traditional, centralized cybersecurity controls obsolete. \n\nWith data breaches continuing to rise at an alarming pace, there’s one thing that more security professionals and vendors need to recognize and embrace: we can harness…",
-          "link": "https://www.elastic.co/blog/the-future-of-cyber-threat-prevention-lies-in-open-security",
-          "publishedOn": "2022-11-10T00:00:00.000Z",
-          "wordCount": 8796,
-          "title": "The future of cyber threat prevention lies in open security",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltcaf8e3e614fb824e/62e949032a66d4760f00e2c9/blog-open-security-720x420-A.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/culture-5-tips-for-improving-your-intercultural-communication-skills",
-          "author": "Sarah Williams",
-          "description": "Anna Mascarello creates and leads a global team that values diversity. Read about her professional trajectory in sales and her advice on how to improve your intercultural communication skills.",
-          "link": "https://www.elastic.co/blog/culture-5-tips-for-improving-your-intercultural-communication-skills",
-          "publishedOn": "2022-11-09T00:00:00.000Z",
-          "wordCount": 7562,
-          "title": "5 tips for improving your intercultural communication skills: ​Insight from Elastic's Anna Mascarello",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9770b23c309293ba/62e1342818595876bf312cdb/Blog-power-to-fly-blog-1680x980.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/culture-5-tips-for-improving-your-intercultural-communication-skills",
-          "author": "Sarah Williams",
-          "description": ",\nThis blog post was originally published on the Power to Fly website.\nAs the daughter of Italian immigrants to multicultural Australia, Anna Mascarello innately knows the importance of perceiving and adapting to cultural differences, whether that’s in a meeting with foreigners or traveling to countries with her husband and two kids.\n“I've never thought about intercultural communication as a concept before. For me, it’s just a way that I’ve grown up. I’ve worked with some pretty amazing people and I think it's so important to understand the person as a whole and their background in order to appreciate different perspectives.”\nAs the Regional Vice President of Public Sector & Education in Australia and New Zealand for Elastic, Anna leverages her background and experiences to create and lead…",
-          "link": "https://www.elastic.co/blog/culture-5-tips-for-improving-your-intercultural-communication-skills",
-          "publishedOn": "2022-11-09T00:00:00.000Z",
-          "wordCount": 7562,
-          "title": "5 tips for improving your intercultural communication skills: ​Insight from Elastic's Anna Mascarello",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9770b23c309293ba/62e1342818595876bf312cdb/Blog-power-to-fly-blog-1680x980.jpg"
         },
         {
           "id": "https://www.elastic.co/blog/performing-real-user-monitoring-rum-with-elastic-apm",
@@ -654,6 +664,16 @@
       "siteUrl": "https://devblogs.microsoft.com/devops/",
       "articles": [
         {
+          "id": "https://devblogs.microsoft.com/devops/?p=66077",
+          "author": "Dan Hellem",
+          "description": "In Sprint 213, we continued to put most of our focus into fixing issues reported with the New Boards Hub.\nIssue\nTemplates with Assigned to @me\nThe post New Boards Hub, Sprint 213 Update appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/new-boards-hub-sprint-213-update/",
+          "publishedOn": "2022-11-16T20:35:07.000Z",
+          "wordCount": 4175,
+          "title": "New Boards Hub, Sprint 213 Update",
+          "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2018/08/vstsfeature.png"
+        },
+        {
           "id": "https://devblogs.microsoft.com/devops/?p=66066",
           "author": "Lubomir Sokolovsky",
           "description": "The Microsoft.VisualStudio.Services.InteractiveClient library is a public NuGet package that takes care of authenticating to Azure DevOps Services. It abstracts away the acquisition, management and refreshing of authentication tokens, so developers can focus on their goals and stay productive.\nThe post Azure DevOps client libraries migrated to MSAL appeared first on Azure DevOps Blog.",
@@ -669,7 +689,7 @@
           "description": "Recently, the Azure DevOps team completed an initiative to associate all Azure DevOps REST APIs with a granular personal access token (PAT) scope. As part of our ongoing investments in security, we undertook this effort to reduce the risks associated with a leaked PAT credential.\nThe post All Azure DevOps REST APIs now support PAT scopes appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/all-azure-devops-rest-apis-now-support-pat-scopes/",
           "publishedOn": "2022-11-09T22:01:54.000Z",
-          "wordCount": 4315,
+          "wordCount": 4335,
           "title": "All Azure DevOps REST APIs now support PAT scopes",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/11/Security.png"
         },
@@ -679,7 +699,7 @@
           "description": "In sprint 211 we enabled the “Try the New Boards Hub” banner and popup. This has resulted in a lot of great user feedback, and in turn, a pile of bugs. Our main focus in sprint 212 was fixing these bugs.\nThe post New Boards Hub, Sprint 212 Update appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/new-boards-hub-sprint-212-update/",
           "publishedOn": "2022-10-27T19:05:32.000Z",
-          "wordCount": 4557,
+          "wordCount": 4262,
           "title": "New Boards Hub, Sprint 212 Update",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/08/sketch-1.png"
         },
@@ -726,6 +746,16 @@
       "feedUrl": "http://feeds.feedburner.com/AmazonWebServicesBlog",
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
+        {
+          "id": "5c264de4161fdcb63702fb300a75e6c6da7e1566",
+          "author": "Marcia Villalba",
+          "description": "The AWS Region in Aragón, Spain, is now open. The official name is Europe (Spain), and the API name is eu-south-2. You can start using it today to deploy workloads and store your data in Spain. The AWS Europe (Spain) Region has three Availability Zones (AZ) that you can use to reliably spread your applications […]",
+          "link": "https://aws.amazon.com/blogs/aws/now-open-aws-region-in-spain/",
+          "publishedOn": "2022-11-16T07:19:36.000Z",
+          "wordCount": 1880,
+          "title": "Now Open–AWS Region in Spain",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/11/08/AWS_RL_SPAIN_Web_Banner_JB-Blog.png"
+        },
         {
           "id": "b50ce668325333d2e438dd2c02b12bceedc6bcbd",
           "author": "Taylor Lacy",
@@ -825,16 +855,6 @@
           "wordCount": 2290,
           "title": "AWS Week in Review – October 24, 2022",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/10/21/AWS-WIR-10.24.22.png"
-        },
-        {
-          "id": "f3d6027b89e3960df03f4dc7b386bf38d63c911d",
-          "author": "Steve Roberts",
-          "description": "This post is part of our Week in Review series. Check back each week for a quick roundup of interesting news and announcements from AWS! Monday means it’s time for another Week in Review post, so, without further ado, let’s dive right in! Last Week’s Launches Here’s some launch announcements from last week you may […]",
-          "link": "https://aws.amazon.com/blogs/aws/aws-week-in-review-october-17-2020/",
-          "publishedOn": "2022-10-17T17:34:56.000Z",
-          "wordCount": 1406,
-          "title": "AWS Week in Review – October 17, 2022",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/10/17/AWS-WIR-10.17.22.png"
         }
       ]
     },
@@ -843,6 +863,16 @@
       "feedUrl": "https://xkcd.com/atom.xml",
       "siteUrl": "https://xkcd.com/",
       "articles": [
+        {
+          "id": "https://xkcd.com/2699/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/feature_comparison.png\" title=\"Below the Web, and the Dark Web, a shadowy parallel world of Cybiko users trade messages on the Translucent Neon Plastic Web.\" alt=\"Below the Web, and the Dark Web, a shadowy parallel world of Cybiko users trade messages on the Translucent Neon Plastic Web.\" />",
+          "link": "https://xkcd.com/2699/",
+          "publishedOn": "2022-11-16T00:00:00.000Z",
+          "wordCount": 232,
+          "title": "Feature Comparison",
+          "imageUrl": "https://imgs.xkcd.com/comics/feature_comparison_2x.png"
+        },
         {
           "id": "https://xkcd.com/2698/",
           "author": null,
@@ -872,16 +902,6 @@
           "wordCount": 234,
           "title": "Precision vs Accuracy",
           "imageUrl": "https://imgs.xkcd.com/comics/precision_vs_accuracy_2x.png"
-        },
-        {
-          "id": "https://xkcd.com/2695/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/soil.png\" title=\"You might want to bring your frost-sensitive plants in from the patio. The high-level aerosols may result in short-term cooling across the entire backyard.\" alt=\"You might want to bring your frost-sensitive plants in from the patio. The high-level aerosols may result in short-term cooling across the entire backyard.\" />",
-          "link": "https://xkcd.com/2695/",
-          "publishedOn": "2022-11-07T00:00:00.000Z",
-          "wordCount": 230,
-          "title": "Soil",
-          "imageUrl": "https://imgs.xkcd.com/comics/soil_2x.png"
         }
       ]
     },
@@ -946,7 +966,7 @@
           "description": "Learn how to build a Camunda Platform 8 Connector. Quickly start building your own custom Connectors using Camunda today.\nThe post How to build a Camunda Platform 8 Connector appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/11/how-to-build-camunda-platform-8-connector/",
           "publishedOn": "2022-11-04T17:57:59.000Z",
-          "wordCount": 5147,
+          "wordCount": 5148,
           "title": "How to build a Camunda Platform 8 Connector",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/11/Camunda_2022_Build-Platform-8-Connector_1200x630.png"
         },
@@ -966,7 +986,7 @@
           "description": "Camunda Academy provides free, on-demand access to BPMN, DMN and Camunda 8 training for all. See how you can start learning today.\nThe post Camunda Academy – Free, On-Demand Training for All appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/11/camunda-academy-free-on-demand-training/",
           "publishedOn": "2022-11-02T01:48:45.000Z",
-          "wordCount": 2248,
+          "wordCount": 2249,
           "title": "Camunda Academy – Free, On-Demand Training for All",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/11/Camunda-Academy_2022_Free-on-demand-training_blog-image_1200x630.png"
         },
@@ -976,7 +996,7 @@
           "description": "We’re grateful to our customers and community for selecting Camunda Platform for three 2022 PeerSpot Peer Awards.\nThe post Camunda Wins Three PeerSpot 2022 Peer Awards appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/10/camunda-wins-three-peerspot-2022-peer-awards/",
           "publishedOn": "2022-10-28T19:04:17.000Z",
-          "wordCount": 2389,
+          "wordCount": 2390,
           "title": "Camunda Wins Three PeerSpot 2022 Peer Awards",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/10/Camunda_2022_PeerSpot-awards-blog-ftd-image_1200x630.png"
         },
@@ -1100,7 +1120,7 @@
           "description": "Investing in our open source future by supporting the maintainers of today.",
           "link": "https://github.blog/2022-11-09-an-open-source-economy-built-by-developers-for-developers/",
           "publishedOn": "2022-11-09T17:35:39.000Z",
-          "wordCount": 1371,
+          "wordCount": 1378,
           "title": "An open source economy–built by developers, for developers",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/11/image-3.png"
         },
@@ -1120,7 +1140,7 @@
           "description": "Here's how nonprofits and the social sector are using open source to drive social good.",
           "link": "https://github.blog/2022-11-09-the-social-impact-of-open-source/",
           "publishedOn": "2022-11-09T16:29:48.000Z",
-          "wordCount": 1209,
+          "wordCount": 1222,
           "title": "Understanding the social impact of open source technologies",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/11/open-source-social-impact.jpg"
         },
@@ -1130,7 +1150,7 @@
           "description": "In 2022, governments and the policy community spent a lot of time thinking about open source. Here's what that means and why it matters.",
           "link": "https://github.blog/2022-11-09-open-source-government-policies/",
           "publishedOn": "2022-11-09T16:29:45.000Z",
-          "wordCount": 1262,
+          "wordCount": 1265,
           "title": "The changing nature of governmental policies around open source",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/11/government-policies-open-source.jpg"
         }
@@ -1242,6 +1262,16 @@
       "siteUrl": "http://ai.googleblog.com/",
       "articles": [
         {
+          "id": "http://ai.googleblog.com/2022/11/mixture-of-experts-with-expert-choice.html",
+          "author": null,
+          "description": "Posted by Yanqi Zhou, Research Scientist, Google Research Brain Team  \nThe capacity of a neural network to absorb information is limited by the number of its parameters, and as a consequence, finding more effective ways to increase model parameters has become a trend in deep learning research. Mixture-of-experts (MoE), a type of conditional computation where parts of the network are activated on a per-example basis, has been proposed as a way of dramatically increasing model capacity without a proportional increase in computation. In sparsely-activated variants of MoE models (e.g., Switch Transformer, GLaM, V-MoE), a subset of experts is selected on a per-token or per-example basis, thus creating sparsity in the network. Such models have demonstrated better scaling in multiple domains and …",
+          "link": "http://ai.googleblog.com/2022/11/mixture-of-experts-with-expert-choice.html",
+          "publishedOn": "2022-11-16T19:32:00.005Z",
+          "wordCount": 27759,
+          "title": "Mixture-of-Experts with Expert Choice Routing",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhChCBacAgwbusy1z7uSUrOH57-cKAmiPxR4UN60ohiPId91XlgMe_RI1ZMxehi_MsbcZPU7P8CacBmLOk4gusgq6JRH-speCQsditvXpqiHlzN3qUFHoeyX4IYD-PWj3Rw868wbAz8vuLOI5P8S99jKd6Cei-CP-J1IhATQBnKrEzKTLmwnBZYVvRj7Q/s72-c/image2.jpg"
+        },
+        {
           "id": "http://ai.googleblog.com/2022/11/characterizing-emergent-phenomena-in.html",
           "author": null,
           "description": "Posted by Jason Wei and Yi Tay, Research Scientists, Google Research, Brain Team   \nThe field of natural language processing (NLP) has been revolutionized by language models trained on large amounts of text data. Scaling up the size of language models often leads to improved performance and sample efficiency on a range of downstream NLP tasks. In many cases, the performance of a large language model can be predicted by extrapolating the performance trend of smaller models. For instance, the effect of scale on language model perplexity has been empirically shown to span more than seven orders of magnitude. \n\nOn the other hand, performance for certain other tasks does not improve in a predictable fashion. For example, the GPT-3 paper showed that the ability of language models to perform mult…",
@@ -1276,7 +1306,7 @@
           "author": null,
           "description": "Posted by Noah Snavely and Zhengqi Li, Research Scientists, Google Research  \nWe live in a world of great natural beauty — of majestic mountains, dramatic seascapes, and serene forests. Imagine seeing this beauty as a bird does, flying past richly detailed, three-dimensional landscapes. Can computers learn to synthesize this kind of visual experience? Such a capability would allow for new kinds of content for games and virtual reality experiences: for instance, relaxing within an immersive flythrough of an infinite nature scene. But existing methods that synthesize new views from images tend to allow for only limited camera motion. \n  \nIn a research effort we call Infinite Nature, we show that computers can learn to generate such rich 3D experiences simply by viewing nature videos and phot…",
           "link": "http://ai.googleblog.com/2022/11/infinite-nature-generating-3d.html",
-          "publishedOn": "2022-11-07T20:42:00.002Z",
+          "publishedOn": "2022-11-07T20:42:00.003Z",
           "wordCount": 27702,
           "title": "Infinite Nature: Generating 3D Flythroughs from Still Photos",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcaExGymnLPSg-keBVSNJO5EbxE1otdQHc48pzNg1sH9bOeZs78wfl9kO3il1N7E7oPbc2GJqBp3jWVQftwQtNrNJr6NzcGowmtQm_IGJ0UW8mNwKnHtmhx4fadhYlnvFLbpRrUY7agBg47tH9YRmOCtMLyemtyEsUFFgPb6B-Tc8hYGrEP5jKwEsm8g/s72-c/InfNatResults_v3.gif"
@@ -1379,12 +1409,32 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=44190",
+          "author": "Seth Godin",
+          "description": "Update: You can subscribe to this blog by email (but it often gets filtered by our evil tech overlords.) You can also get regular daily updates via FB , LinkedIn, Twitter while it lasts, and now, Mastodon, a distributed, free alternative to more chaotic social media outlets. The best way to get it is by […]",
+          "link": "https://feeds.feedblitz.com/~/719646574/0/sethsblog~Now-on-mastodon/",
+          "publishedOn": "2022-11-16T16:53:00.000Z",
+          "wordCount": 1129,
+          "title": "Now on mastodon",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061311.jpg"
+        },
+        {
+          "id": "https://seths.blog/?p=44214",
+          "author": "Seth Godin",
+          "description": "The wrong answer is, “it won’t.” If you buy a piece of tech, it will break. If you buy an asset of some sort, it’s likely to go down in value one day. If you start a project, you will one day walk away from it. And everything that is alive will die. Refusing to […]",
+          "link": "https://feeds.feedblitz.com/~/719618960/0/sethsblog~But-how-will-it-fail/",
+          "publishedOn": "2022-11-16T09:26:00.000Z",
+          "wordCount": 1141,
+          "title": "But how will it fail?",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061311.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=44211",
           "author": "Seth Godin",
           "description": "Toddlers don’t get afforded a lot of respect. They whine all the time about how unfair things are, and it’s difficult to take them seriously. Lately, in our quest for victory, we’ve established that some winners get there via whining, and perhaps this is a useful strategy. It seems as though working the refs, blaming […]",
           "link": "https://feeds.feedblitz.com/~/719531184/0/sethsblog~Whining-and-status/",
           "publishedOn": "2022-11-15T09:23:00.000Z",
-          "wordCount": 1186,
+          "wordCount": 1187,
           "title": "Whining and status",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061314.jpg"
         },
@@ -1457,26 +1507,6 @@
           "wordCount": 1078,
           "title": "As soon as possible",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=44169",
-          "author": "Seth Godin",
-          "description": "No can do. We drift. Our standards aren’t set in stone. They change over time, often based on the situation we’re in. This explains how cults or extreme views occur. Not all at once, but bit by bit. Until one day, people wake up and are shocked to discover that they’re advocating for (or doing […]",
-          "link": "https://feeds.feedblitz.com/~/718743604/0/sethsblog~I-cant-go-for-that/",
-          "publishedOn": "2022-11-07T09:47:00.000Z",
-          "wordCount": 1266,
-          "title": "“I can’t go for that”",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061311.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=44173",
-          "author": "Seth Godin",
-          "description": "What can we build for 2050? Thirty years ago this month, I created 18 Pine Street, a series of young adult novels with bestselling author Walter Dean Myers. He was a brilliant creator and a delightful partner. The kids who bought those books are having kids of their own now, and perhaps some of the […]",
-          "link": "https://feeds.feedblitz.com/~/718667144/0/sethsblog~The-long-road/",
-          "publishedOn": "2022-11-06T09:49:00.000Z",
-          "wordCount": 1249,
-          "title": "The long road",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg"
         }
       ]
     },
@@ -1485,6 +1515,36 @@
       "feedUrl": "https://blog.jetbrains.com/feed/",
       "siteUrl": "https://blog.jetbrains.com",
       "articles": [
+        {
+          "id": "https://blog.jetbrains.com/?post_type=space&p=297934",
+          "author": "Elena Berendeeva",
+          "description": "On November 15, 2022 we hosted the livestream “2022 State of DevOps Report Takeaways”, and the recording is now available! This year, JetBrains partnered with Google Cloud and DORA to put together the 2022 State of DevOps report. We presented the key takeaways and discussed how to achieve successful software delivery and optimize operational performance. […]",
+          "link": "https://blog.jetbrains.com/space/2022/11/16/2022-state-of-devops-report-takeaways/",
+          "publishedOn": "2022-11-16T11:42:15.000Z",
+          "wordCount": 1716,
+          "title": "Livestream recording “2022 State of DevOps Report Takeaways”",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/11/DSGN-14774-Webinar-The-State-of-DevOps_JB_Blog_Featured_post_image_2560-1200-2.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=datalore&p=294657",
+          "author": "Alena Guzharina",
+          "description": "Let’s understand the nature of R and Python! We’ll examine their purpose, features, and use cases. Read on to learn how to choose the right tool for your needs. What Are Python and R? Python and R are both open-source programming languages.  While Python has a more general purpose, R was created for specific tasks […]",
+          "link": "https://blog.jetbrains.com/datalore/2022/11/15/r-vs-python-key-differences/",
+          "publishedOn": "2022-11-15T15:30:01.000Z",
+          "wordCount": 2620,
+          "title": "R vs. Python: Key Differences",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/11/dl-yellow-blog-featured-image-1280x600-1-1.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=288265",
+          "author": "Roman Emelin",
+          "description": "The compound effect is when small changes executed consistently over time lead to dramatic results. It can go both ways, either enhancing the positives or aggravating the problems. Regular profiling, or lack thereof, is a good example of the compound effect. If you invest a little bit of time in making small but steady improvements […]",
+          "link": "https://blog.jetbrains.com/dotnet/2022/11/15/case-study-why-consistent-profiling-pays-off/",
+          "publishedOn": "2022-11-15T09:54:23.000Z",
+          "wordCount": 3713,
+          "title": "Case Study – Why Consistent Profiling Pays Off",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/10/Blog_Social_share_image_1280x720-3-3.png"
+        },
         {
           "id": "https://blog.jetbrains.com/?post_type=rscpp&p=296608",
           "author": "Elvira Mustafina",
@@ -1574,36 +1634,6 @@
           "wordCount": 2324,
           "title": "New Live Stream: Making Sense of Large Java and Kotlin Classes",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/02/intellij-idea_social.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=295868",
-          "author": "Alexandra Kolesova",
-          "description": "On October 25–27, we hosted a free virtual event, .NET Days + GameDev Day Online 2022. Thank you to everyone who joined us and watched the talks prepared by the community speakers! Once a year, we invite them to cover topics they’re passionate about and this year we had something new. In addition to two […]",
-          "link": "https://blog.jetbrains.com/dotnet/2022/11/10/dotnet-days-gamedev-day-online-2022-recordings/",
-          "publishedOn": "2022-11-10T13:12:07.000Z",
-          "wordCount": 2158,
-          "title": "JetBrains .NET Days + GameDev Day Online 2022 – Session Recordings Available",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/11/Blog_Social_share_image_1280x720-5.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=idea&p=296207",
-          "author": "Maria Kosukhina",
-          "description": "IntelliJ IDEA 2022.3 Beta 2 is out! You can get the new build from our website, via the free Toolbox App, or by using snaps for Ubuntu.  To learn about the notable changes coming in IntelliJ IDEA 2022.3, browse our previous blog posts in the IntelliJ IDEA 2022.3 EAP section of our blog. IntelliJ IDEA […]",
-          "link": "https://blog.jetbrains.com/idea/2022/11/intellij-idea-2022-3-beta-2/",
-          "publishedOn": "2022-11-09T17:37:20.000Z",
-          "wordCount": 2253,
-          "title": "IntelliJ IDEA 2022.3 Beta 2 is available!",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/02/intellij-idea_social.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=blog&p=292922",
-          "author": "Max Golov",
-          "description": "We have partnered with GitHub to deliver an integration between GitHub Codespaces and JetBrains Gateway! GitHub Codespaces allows users to create a secure, configurable, and dedicated development environment hosted in the cloud. This integration means that you can use JetBrains Gateway to develop remotely with your favorite IDEs running in GitHub Codespaces. All language processing […]",
-          "link": "https://blog.jetbrains.com/blog/2022/11/09/remote-development-in-jetbrains-ides-now-available-to-github-codespaces-users/",
-          "publishedOn": "2022-11-09T17:35:28.000Z",
-          "wordCount": 2413,
-          "title": "Remote Development in JetBrains IDEs Now Available to GitHub Codespaces Users",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/11/Blog_Social_share_image_1280x720-3.png"
         }
       ]
     }

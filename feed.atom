@@ -1,10 +1,230 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-16T01:51:55.713Z</id>
+    <id>urn:2022-11-17T01:51:55.481Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-16T01:51:55.713Z</updated>
+    <updated>2022-11-17T01:51:55.481Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[New Boards Hub, Sprint 213 Update]]></title>
+        <id>https://devblogs.microsoft.com/devops/?p=66077</id>
+        <link href="https://devblogs.microsoft.com/devops/new-boards-hub-sprint-213-update/"/>
+        <updated>2022-11-16T20:35:07.000Z</updated>
+        <summary type="html"><![CDATA[In Sprint 213, we continued to put most of our focus into fixing issues reported with the New Boards Hub.
+Issue
+Templates with Assigned to @me
+The post New Boards Hub, Sprint 213 Update appeared first on Azure DevOps Blog.]]></summary>
+        <author>
+            <name>Dan Hellem</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mixture-of-Experts with Expert Choice Routing]]></title>
+        <id>http://ai.googleblog.com/2022/11/mixture-of-experts-with-expert-choice.html</id>
+        <link href="http://ai.googleblog.com/2022/11/mixture-of-experts-with-expert-choice.html"/>
+        <updated>2022-11-16T19:32:00.005Z</updated>
+        <summary type="html"><![CDATA[Posted by Yanqi Zhou, Research Scientist, Google Research Brain Team  
+The capacity of a neural network to absorb information is limited by the number of its parameters, and as a consequence, finding more effective ways to increase model parameters has become a trend in deep learning research. Mixture-of-experts (MoE), a type of conditional computation where parts of the network are activated on a per-example basis, has been proposed as a way of dramatically increasing model capacity without a proportional increase in computation. In sparsely-activated variants of MoE models (e.g., Switch Transformer, GLaM, V-MoE), a subset of experts is selected on a per-token or per-example basis, thus creating sparsity in the network. Such models have demonstrated better scaling in multiple domains and …]]></summary>
+        <author>
+            <name>Google AI Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CDK for Terraform 0.14 Makes it Easier to Use Providers]]></title>
+        <id>https://www.hashicorp.com/blog/cdk-for-terraform-0-14-makes-it-easier-to-use-providers</id>
+        <link href="https://www.hashicorp.com/blog/cdk-for-terraform-0-14-makes-it-easier-to-use-providers"/>
+        <updated>2022-11-16T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cloud Development Kit for Terraform (CDKTF) 0.14 makes it easier to add and upgrade Terraform providers.]]></summary>
+        <author>
+            <name>HashiCorp Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Now on mastodon]]></title>
+        <id>https://seths.blog/?p=44190</id>
+        <link href="https://feeds.feedblitz.com/~/719646574/0/sethsblog~Now-on-mastodon/"/>
+        <updated>2022-11-16T16:53:00.000Z</updated>
+        <summary type="html"><![CDATA[Update: You can subscribe to this blog by email (but it often gets filtered by our evil tech overlords.) You can also get regular daily updates via FB , LinkedIn, Twitter while it lasts, and now, Mastodon, a distributed, free alternative to more chaotic social media outlets. The best way to get it is by […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Livestream recording “2022 State of DevOps Report Takeaways”]]></title>
+        <id>https://blog.jetbrains.com/?post_type=space&amp;p=297934</id>
+        <link href="https://blog.jetbrains.com/space/2022/11/16/2022-state-of-devops-report-takeaways/"/>
+        <updated>2022-11-16T11:42:15.000Z</updated>
+        <summary type="html"><![CDATA[On November 15, 2022 we hosted the livestream “2022 State of DevOps Report Takeaways”, and the recording is now available! This year, JetBrains partnered with Google Cloud and DORA to put together the 2022 State of DevOps report. We presented the key takeaways and discussed how to achieve successful software delivery and optimize operational performance. […]]]></summary>
+        <author>
+            <name>Elena Berendeeva</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Framework 6.0 goes GA]]></title>
+        <id>https://spring.io/blog/2022/11/16/spring-framework-6-0-goes-ga</id>
+        <link href="https://spring.io/blog/2022/11/16/spring-framework-6-0-goes-ga"/>
+        <updated>2022-11-16T11:31:54.000Z</updated>
+        <summary type="html"><![CDATA[Dear Spring community,
+
+It is my pleasure to announce that Spring Framework 6.0.0 is generally available from Maven Central now! This is the start of a new framework generation for 2023 and beyond, embracing current and upcoming innovations in OpenJDK and the Java ecosystem. At the same time, we carefully designed it as a straightforward upgrade from Spring Framework 5.3.x for modern-day runtime environments.
+
+As a major revision of the core framework, Spring Framework 6.0 comes with a Java 17+ baseline and a move to Jakarta EE 9+ (in the jakarta namespace), with a focus on the recently released Jakarta EE 10 APIs such as Servlet 6.0 and JPA 3.1. This provides access to the latest web containers such as Tomcat 10.1 and the latest persistence providers such as Hibernate ORM 6.1. Don’t be stuck on Java EE 8, make the leap to the jakarta namespace, ideally straight to the Jakarta EE 10 level! The upcoming Spring Boot 3.0.0 release includes corresponding managed dependencies for you.
+
+Infrastructure-wise, 6.0 introduces a foundation for Ahead-Of-Time transformations and the corresponding AOT processing support for Spring application contexts. This enables first-class support for GraalVM native images with Spring Boot 3. You may also explore Project Loom’s virtual threads with Spring applications - see “Embracing Virtual Threads” - and dive into Project CRaC ’s checkpoint restore approach for faster JVM startups, both of which are in preview at this point but expected to become first-class features for Spring Framework 6.x based applications.
+
+There are many further features and refinements available in Spring Framework 6.0, e.g. an HTTP interface client, support for RFC 7807 problem details, and Micrometer-based observability for HTTP clients. Please see our What’s New page for a comprehensive overview and give 6.0.0 an early try!
+
+Cheers,
+Juergen
+
+Project Page | GitHub | Documentation]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[But how will it fail?]]></title>
+        <id>https://seths.blog/?p=44214</id>
+        <link href="https://feeds.feedblitz.com/~/719618960/0/sethsblog~But-how-will-it-fail/"/>
+        <updated>2022-11-16T09:26:00.000Z</updated>
+        <summary type="html"><![CDATA[The wrong answer is, “it won’t.” If you buy a piece of tech, it will break. If you buy an asset of some sort, it’s likely to go down in value one day. If you start a project, you will one day walk away from it. And everything that is alive will die. Refusing to […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Framework 5.3.24 available now]]></title>
+        <id>https://spring.io/blog/2022/11/16/spring-framework-5-3-24-available-now</id>
+        <link href="https://spring.io/blog/2022/11/16/spring-framework-5-3-24-available-now"/>
+        <updated>2022-11-16T08:40:20.000Z</updated>
+        <summary type="html"><![CDATA[On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework 5.3.24 is available now.
+
+Spring Framework 5.3.24 includes 33 fixes and improvements.
+
+Project Page | GitHub | Issues | Documentation]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Now Open–AWS Region in Spain]]></title>
+        <id>5c264de4161fdcb63702fb300a75e6c6da7e1566</id>
+        <link href="https://aws.amazon.com/blogs/aws/now-open-aws-region-in-spain/"/>
+        <updated>2022-11-16T07:19:36.000Z</updated>
+        <summary type="html"><![CDATA[The AWS Region in Aragón, Spain, is now open. The official name is Europe (Spain), and the API name is eu-south-2. You can start using it today to deploy workloads and store your data in Spain. The AWS Europe (Spain) Region has three Availability Zones (AZ) that you can use to reliably spread your applications […]]]></summary>
+        <author>
+            <name>Marcia Villalba</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2022 Elastic Global Threat Report: Helping security leaders navigate today’s threat landscape]]></title>
+        <id>https://www.elastic.co/blog/2022-elastic-global-threat-report-helping-security-leaders-navigate-todays-threat-landscape</id>
+        <link href="https://www.elastic.co/blog/2022-elastic-global-threat-report-helping-security-leaders-navigate-todays-threat-landscape"/>
+        <updated>2022-11-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A significant percentage of all cyber threats achieve a degree of success against technical, procedural, and human mitigations. So what is a company to do in the face of such unfavorable odds? Find out in this article.]]></summary>
+        <author>
+            <name>Ken Exner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Independence with OpenTelemetry on Elastic]]></title>
+        <id>https://www.elastic.co/blog/opentelemetry-observability</id>
+        <link href="https://www.elastic.co/blog/opentelemetry-observability"/>
+        <updated>2022-11-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenTelemetry has become a key component for observability given its open standards and developer-friendly tools. See how easily Elastic Observability integrates with OTel to provide a platform that minimizes vendor lock-in and maximizes flexibility.]]></summary>
+        <author>
+            <name>Bahubali Shetti</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How the UK government can continue to innovate while reducing tech costs]]></title>
+        <id>https://www.elastic.co/blog/uk-government-innovate-while-reducing-tech-costs</id>
+        <link href="https://www.elastic.co/blog/uk-government-innovate-while-reducing-tech-costs"/>
+        <updated>2022-11-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As the UK government braces for budget cuts, IT teams don't have to sacrifice innovation. Here are a few ways that departments can continue to pursue their digital transformation goals while also reducing costs via a unified data platform.]]></summary>
+        <author>
+            <name>Mark Boschier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to make progress on managing unstructured data]]></title>
+        <id>https://www.elastic.co/blog/how-to-make-progress-on-managing-unstructured-data2</id>
+        <link href="https://www.elastic.co/blog/how-to-make-progress-on-managing-unstructured-data2"/>
+        <updated>2022-11-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A conversation between guest Forrester Consulting and Elastic explores how applying search-powered technology to unify, visualize, and scale data can enable organizations to be more insights-driven.]]></summary>
+        <author>
+            <name>Megan Radogna</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2022 Elastic Global Threat Report: Helping security leaders navigate today’s threat landscape]]></title>
+        <id>https://www.elastic.co/blog/2022-elastic-global-threat-report-helping-security-leaders-navigate-todays-threat-landscape</id>
+        <link href="https://www.elastic.co/blog/2022-elastic-global-threat-report-helping-security-leaders-navigate-todays-threat-landscape"/>
+        <updated>2022-11-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+As the threat landscape continues to evolve, cybersecurity stakes are growing exponentially higher for today’s organizations. Between Log4j, geopolitical tension, and increasing ransomware threats, security is not just at the top of the business agenda but also the societal agenda. Meanwhile, threat actors have adopted new capabilities and methods while increasing their cadence of activity.
+
+Threat detection and response has come a long way since the firewall dissolved and the cloud took center stage. AI and machine learning, for example, have been major contributors to the advancement of cybersecurity. Machine learning is being used to identify malicious behavior from bad actors by modeling network behavior and improving overall threat detection.
+
+What’s been difficult is the sea of sam…]]></summary>
+        <author>
+            <name>Ken Exner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Independence with OpenTelemetry on Elastic]]></title>
+        <id>https://www.elastic.co/blog/opentelemetry-observability</id>
+        <link href="https://www.elastic.co/blog/opentelemetry-observability"/>
+        <updated>2022-11-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+The drive for faster, more scalable services is on the rise. Our day-to-day lives depend on apps, from a food delivery app to have your favorite meal delivered, to your banking app to manage your accounts, to even apps to schedule  doctor’s appointments. These apps need to be able to grow from not only a features standpoint but also in terms of user capacity. The scale and need for global reach drives increasing complexity for these high-demand cloud applications.
+In order to keep pace with demand, most of these online apps and services (for example, mobile applications, web pages, SaaS) are moving to a distributed microservice-based architecture and Kubernetes. Once you’ve migrated your app to the cloud, how do you manage and monitor production, scale, and availability of the service? O…]]></summary>
+        <author>
+            <name>Bahubali Shetti</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How the UK government can continue to innovate while reducing tech costs]]></title>
+        <id>https://www.elastic.co/blog/uk-government-innovate-while-reducing-tech-costs</id>
+        <link href="https://www.elastic.co/blog/uk-government-innovate-while-reducing-tech-costs"/>
+        <updated>2022-11-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+As UK government departments brace for budget cuts, new programs for innovation or re-imagined services will no doubt see a decrease in funding. And who will feel the impact of this drop in tech investment the most? The people of the UK.
+
+I have been working with government organisations for the last 20 years, evangelising the use of open source software, open principles, and open government, with the sole purpose of helping solve some gnarly government challenges. Oh, and I like to write down my thoughts from time to time…
+
+As digital technology accelerates at pace, the tools that support this progress proliferate. Projects, teams, and partners are building their own “Frankenstein monsters” made up of completely different sets of tools for metrics, logs and traces, cyber, data search, a…]]></summary>
+        <author>
+            <name>Mark Boschier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to make progress on managing unstructured data]]></title>
+        <id>https://www.elastic.co/blog/how-to-make-progress-on-managing-unstructured-data2</id>
+        <link href="https://www.elastic.co/blog/how-to-make-progress-on-managing-unstructured-data2"/>
+        <updated>2022-11-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+We asked a veteran CIO and a leading analyst whether organizations today are getting results that matter from all their data, and the conversation was illuminating. 
+
+Less than 20% of enterprise data is finding its way into applications that provide actionable insights for businesses, estimates guest Boris Evelson, vice president and principal analyst at Forrester. There are “a lot of opportunities for all of us,” he said. 
+
+A recent study of technology leaders conducted by Forrester Consulting and commissioned by Elastic found that managing unstructured data was respondents’ top challenge that they are trying to address with search-powered technology today.
+
+Evelson and Matthew Minetola, a CIO for 20+ years, now at Elastic, recommended three strategies to make progress in addressing thi…]]></summary>
+        <author>
+            <name>Megan Radogna</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Feature Comparison]]></title>
+        <id>https://xkcd.com/2699/</id>
+        <link href="https://xkcd.com/2699/"/>
+        <updated>2022-11-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/feature_comparison.png" title="Below the Web, and the Dark Web, a shadowy parallel world of Cybiko users trade messages on the Translucent Neon Plastic Web." alt="Below the Web, and the Dark Web, a shadowy parallel world of Cybiko users trade messages on the Translucent Neon Plastic Web." />]]></summary>
+        <author>
+            <name>xkcd.com</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Introducing our final AWS Heroes of the year – November 2022]]></title>
         <id>b50ce668325333d2e438dd2c02b12bceedc6bcbd</id>
@@ -23,6 +243,22 @@
         <summary type="html"><![CDATA[GitHub Mobile helps keep work going while you're going. Untether yourself from your office.]]></summary>
         <author>
             <name>The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Cloud Dataflow 2.10.0-RC2 Released]]></title>
+        <id>https://spring.io/blog/2022/11/15/spring-cloud-dataflow-2-10-0-rc2-released</id>
+        <link href="https://spring.io/blog/2022/11/15/spring-cloud-dataflow-2-10-0-rc2-released"/>
+        <updated>2022-11-15T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Cloud Dataflow 2.10.0-RC2 has been released and is now available from https://repo.spring.io/milestone.
+
+This release contains an update of the Spring Boot, Spring Framework, and Spring Cloud versions.
+See the release notes for more information.
+Stay in touch…
+
+As always, we welcome feedback and contributions, so please reach out to us on Stackoverflow or GitHub.]]></summary>
+        <author>
+            <name>Spring</name>
         </author>
     </entry>
     <entry>
@@ -65,6 +301,16 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[R vs. Python: Key Differences]]></title>
+        <id>https://blog.jetbrains.com/?post_type=datalore&amp;p=294657</id>
+        <link href="https://blog.jetbrains.com/datalore/2022/11/15/r-vs-python-key-differences/"/>
+        <updated>2022-11-15T15:30:01.000Z</updated>
+        <summary type="html"><![CDATA[Let’s understand the nature of R and Python! We’ll examine their purpose, features, and use cases. Read on to learn how to choose the right tool for your needs. What Are Python and R? Python and R are both open-source programming languages.  While Python has a more general purpose, R was created for specific tasks […]]]></summary>
+        <author>
+            <name>Alena Guzharina</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Camunda Receives SOC 2 Type 1 Certification]]></title>
         <id>https://camunda.com/?p=67879</id>
         <link href="https://camunda.com/blog/2022/11/camunda-soc-2-type-1-certification/"/>
@@ -84,6 +330,16 @@ The post Camunda Receives SOC 2 Type 1 Certification appeared first on Camunda.]
 The post Azure DevOps client libraries migrated to MSAL appeared first on Azure DevOps Blog.]]></summary>
         <author>
             <name>Lubomir Sokolovsky</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Case Study – Why Consistent Profiling Pays Off]]></title>
+        <id>https://blog.jetbrains.com/?post_type=dotnet&amp;p=288265</id>
+        <link href="https://blog.jetbrains.com/dotnet/2022/11/15/case-study-why-consistent-profiling-pays-off/"/>
+        <updated>2022-11-15T09:54:23.000Z</updated>
+        <summary type="html"><![CDATA[The compound effect is when small changes executed consistently over time lead to dramatic results. It can go both ways, either enhancing the positives or aggravating the problems. Regular profiling, or lack thereof, is a good example of the compound effect. If you invest a little bit of time in making small but steady improvements […]]]></summary>
+        <author>
+            <name>Roman Emelin</name>
         </author>
     </entry>
     <entry>
@@ -503,33 +759,6 @@ Project Page | GitHub | Issues | Documentation | Stack Overflow | Gitter]]></sum
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How Elastic and Skillbridge help bridge the gap between military and civilian life]]></title>
-        <id>https://www.elastic.co/blog/culture-how-elastic-and-skillbridge-help-bridge-the-gap-between-military-and-civilian-life</id>
-        <link href="https://www.elastic.co/blog/culture-how-elastic-and-skillbridge-help-bridge-the-gap-between-military-and-civilian-life"/>
-        <updated>2022-11-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Participants in the Skillbridge program intern with Elastic during their final months in the military. Learn more about how the program helps members transition into a civilian career.]]></summary>
-        <author>
-            <name>Elastic Culture</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Elastic and Skillbridge help bridge the gap between military and civilian life]]></title>
-        <id>https://www.elastic.co/blog/culture-how-elastic-and-skillbridge-help-bridge-the-gap-between-military-and-civilian-life</id>
-        <link href="https://www.elastic.co/blog/culture-how-elastic-and-skillbridge-help-bridge-the-gap-between-military-and-civilian-life"/>
-        <updated>2022-11-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-For members of the military, making the transition into a civilian career can be intimidating. Dustin Clark, Engineer, Education at Elastic, who left the military in 2021, says it was scary to take the leap.
-
-“I have this job of 10 years and then I have to pull the trigger and go [to civilian life],” he says. “Pretty much the only reason I was confident in getting out [of the military] was Skillbridge. 
-
-Skillbridge is a program set up by the U.S Department of Defense that does exactly as the name suggests: helps active duty military members bridge their skills gap as they transition into a civilian career. Every year, around 200,000 members of the U.S. military transition to civilian life, according to the U.S Department of Labor. 
-
-Elastic joined the Skillbridge program in 2021 and Dus…]]></summary>
-        <author>
-            <name>Elastic Culture</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Y2K and 2038]]></title>
         <id>https://xkcd.com/2697/</id>
         <link href="https://xkcd.com/2697/"/>
@@ -614,16 +843,6 @@ On the other hand, performance for certain other tasks does not improve in a pre
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[JetBrains .NET Days + GameDev Day Online 2022 – Session Recordings Available]]></title>
-        <id>https://blog.jetbrains.com/?post_type=dotnet&amp;p=295868</id>
-        <link href="https://blog.jetbrains.com/dotnet/2022/11/10/dotnet-days-gamedev-day-online-2022-recordings/"/>
-        <updated>2022-11-10T13:12:07.000Z</updated>
-        <summary type="html"><![CDATA[On October 25–27, we hosted a free virtual event, .NET Days + GameDev Day Online 2022. Thank you to everyone who joined us and watched the talks prepared by the community speakers! Once a year, we invite them to cover topics they’re passionate about and this year we had something new. In addition to two […]]]></summary>
-        <author>
-            <name>Alexandra Kolesova</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Did the ad work?]]></title>
         <id>https://seths.blog/?p=44177</id>
         <link href="https://feeds.feedblitz.com/~/719026758/0/sethsblog~Did-the-ad-work/"/>
@@ -645,58 +864,6 @@ Many enterprises use a schema registry for schema evolution use cases, such as t
 The schema registry use ca…]]></summary>
         <author>
             <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A look under the hood at eBPF: A new way to monitor and secure your platforms]]></title>
-        <id>https://www.elastic.co/blog/ebpf-observability-security-workload-profiling</id>
-        <link href="https://www.elastic.co/blog/ebpf-observability-security-workload-profiling"/>
-        <updated>2022-11-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[eBPF is fast becoming a critical part of observability and security. Find out what it is and get a peek under the hood in this blog.]]></summary>
-        <author>
-            <name>David Hope</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The future of cyber threat prevention lies in open security]]></title>
-        <id>https://www.elastic.co/blog/the-future-of-cyber-threat-prevention-lies-in-open-security</id>
-        <link href="https://www.elastic.co/blog/the-future-of-cyber-threat-prevention-lies-in-open-security"/>
-        <updated>2022-11-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[With data breaches continuing to rise at an alarming pace, there’s one thing that more security professionals and vendors need to recognize and embrace: we can harness our untapped strength by working together as a community to bring openness and transparency to security.]]></summary>
-        <author>
-            <name>Jake King</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A look under the hood at eBPF: A new way to monitor and secure your platforms]]></title>
-        <id>https://www.elastic.co/blog/ebpf-observability-security-workload-profiling</id>
-        <link href="https://www.elastic.co/blog/ebpf-observability-security-workload-profiling"/>
-        <updated>2022-11-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-In this post, I want to scratch at the surface of a very interesting technology that Elastic’s Universal Profiler and Security solution both use called eBPF and explain why it is a critically important technology for modern observability.
-
-I’ll talk a little bit about how it works and how it can be used to create powerful monitoring solutions — and dream up ways eBPF could be used in the future for observability use cases.
-What is eBPF?
-eBPF or Extended Berkeley Packer Filter is a pretty interesting name, but it doesn’t describe the technology in a way that helps users conceptualize what it does. The reason for the name is that the technology’s original purpose was in networking, where it was used for dynamically applying enormously complex firewall rules.
-
-These days, the technology can…]]></summary>
-        <author>
-            <name>David Hope</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The future of cyber threat prevention lies in open security]]></title>
-        <id>https://www.elastic.co/blog/the-future-of-cyber-threat-prevention-lies-in-open-security</id>
-        <link href="https://www.elastic.co/blog/the-future-of-cyber-threat-prevention-lies-in-open-security"/>
-        <updated>2022-11-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-For far too long, the cybersecurity industry has subscribed to a flawed methodology — one that is based on the notion that organizations can avoid security threats through obscurity and secrecy. The assumption is that keeping security controls and processes covert makes products and data inherently more secure against cyber threats within the networks we defend.      
-
-However, even the most sophisticated cybersecurity defenses are no match for well-funded, highly motivated adversaries. In fact, the expanding digital footprint of modern organizations has made many traditional, centralized cybersecurity controls obsolete. 
-
-With data breaches continuing to rise at an alarming pace, there’s one thing that more security professionals and vendors need to recognize and embrace: we can harness…]]></summary>
-        <author>
-            <name>Jake King</name>
         </author>
     </entry>
     <entry>
@@ -767,16 +934,6 @@ Project Page | GitHub | Issues | Documentation]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[IntelliJ IDEA 2022.3 Beta 2 is available!]]></title>
-        <id>https://blog.jetbrains.com/?post_type=idea&amp;p=296207</id>
-        <link href="https://blog.jetbrains.com/idea/2022/11/intellij-idea-2022-3-beta-2/"/>
-        <updated>2022-11-09T17:37:20.000Z</updated>
-        <summary type="html"><![CDATA[IntelliJ IDEA 2022.3 Beta 2 is out! You can get the new build from our website, via the free Toolbox App, or by using snaps for Ubuntu.  To learn about the notable changes coming in IntelliJ IDEA 2022.3, browse our previous blog posts in the IntelliJ IDEA 2022.3 EAP section of our blog. IntelliJ IDEA […]]]></summary>
-        <author>
-            <name>Maria Kosukhina</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[An open source economy–built by developers, for developers]]></title>
         <id>https://github.blog/2022-11-09-an-open-source-economy-built-by-developers-for-developers/</id>
         <link href="https://github.blog/2022-11-09-an-open-source-economy-built-by-developers-for-developers/"/>
@@ -784,16 +941,6 @@ Project Page | GitHub | Issues | Documentation]]></summary>
         <summary type="html"><![CDATA[Investing in our open source future by supporting the maintainers of today.]]></summary>
         <author>
             <name>The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Remote Development in JetBrains IDEs Now Available to GitHub Codespaces Users]]></title>
-        <id>https://blog.jetbrains.com/?post_type=blog&amp;p=292922</id>
-        <link href="https://blog.jetbrains.com/blog/2022/11/09/remote-development-in-jetbrains-ides-now-available-to-github-codespaces-users/"/>
-        <updated>2022-11-09T17:35:28.000Z</updated>
-        <summary type="html"><![CDATA[We have partnered with GitHub to deliver an integration between GitHub Codespaces and JetBrains Gateway! GitHub Codespaces allows users to create a secure, configurable, and dedicated development environment hosted in the cloud. This integration means that you can use JetBrains Gateway to develop remotely with your favorite IDEs running in GitHub Codespaces. All language processing […]]]></summary>
-        <author>
-            <name>Max Golov</name>
         </author>
     </entry>
     <entry>
@@ -889,30 +1036,6 @@ Project Page | GitHub | Issues | Documentation]]></summary>
         <summary type="html"><![CDATA[I am pleased to announce today the opening of our 28th AWS Region: Europe (Zurich), also known by its API name: eu-central-2. An AWS Region allows you to deploy your most demanding workloads and replicate your applications and data across distinct groups of data centers called Availability Zones. This new Region has three fully redundant […]]]></summary>
         <author>
             <name>Sébastien Stormacq</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 tips for improving your intercultural communication skills: ​Insight from Elastic's Anna Mascarello]]></title>
-        <id>https://www.elastic.co/blog/culture-5-tips-for-improving-your-intercultural-communication-skills</id>
-        <link href="https://www.elastic.co/blog/culture-5-tips-for-improving-your-intercultural-communication-skills"/>
-        <updated>2022-11-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Anna Mascarello creates and leads a global team that values diversity. Read about her professional trajectory in sales and her advice on how to improve your intercultural communication skills.]]></summary>
-        <author>
-            <name>Sarah Williams</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 tips for improving your intercultural communication skills: ​Insight from Elastic's Anna Mascarello]]></title>
-        <id>https://www.elastic.co/blog/culture-5-tips-for-improving-your-intercultural-communication-skills</id>
-        <link href="https://www.elastic.co/blog/culture-5-tips-for-improving-your-intercultural-communication-skills"/>
-        <updated>2022-11-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-This blog post was originally published on the Power to Fly website.
-As the daughter of Italian immigrants to multicultural Australia, Anna Mascarello innately knows the importance of perceiving and adapting to cultural differences, whether that’s in a meeting with foreigners or traveling to countries with her husband and two kids.
-“I've never thought about intercultural communication as a concept before. For me, it’s just a way that I’ve grown up. I’ve worked with some pretty amazing people and I think it's so important to understand the person as a whole and their background in order to appreciate different perspectives.”
-As the Regional Vice President of Public Sector & Education in Australia and New Zealand for Elastic, Anna leverages her background and experiences to create and lead…]]></summary>
-        <author>
-            <name>Sarah Williams</name>
         </author>
     </entry>
     <entry>
@@ -1058,7 +1181,7 @@ Have you tested your application against the upcoming Spring Boot 3? There’s a
         <title type="html"><![CDATA[Infinite Nature: Generating 3D Flythroughs from Still Photos]]></title>
         <id>http://ai.googleblog.com/2022/11/infinite-nature-generating-3d.html</id>
         <link href="http://ai.googleblog.com/2022/11/infinite-nature-generating-3d.html"/>
-        <updated>2022-11-07T20:42:00.002Z</updated>
+        <updated>2022-11-07T20:42:00.003Z</updated>
         <summary type="html"><![CDATA[Posted by Noah Snavely and Zhengqi Li, Research Scientists, Google Research  
 We live in a world of great natural beauty — of majestic mountains, dramatic seascapes, and serene forests. Imagine seeing this beauty as a bird does, flying past richly detailed, three-dimensional landscapes. Can computers learn to synthesize this kind of visual experience? Such a capability would allow for new kinds of content for games and virtual reality experiences: for instance, relaxing within an immersive flythrough of an infinite nature scene. But existing methods that synthesize new views from images tend to allow for only limited camera motion. 
   
@@ -1095,36 +1218,6 @@ In a research effort we call Infinite Nature, we show that computers can learn t
         <summary type="html"><![CDATA[Have you ever had to query and remove a long list of ServiceNow records? Yeah, neither have I until recently. Nobody broke into my instance, and this isn't a one-time operation, I just happen to maintain an instance that we use to test our Red Hat Ansible Certified Content Collection for ServiceNow ITSM.]]></summary>
         <author>
             <name>cmcnaugh@redhat.com (Colin McNaughton)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“I can’t go for that”]]></title>
-        <id>https://seths.blog/?p=44169</id>
-        <link href="https://feeds.feedblitz.com/~/718743604/0/sethsblog~I-cant-go-for-that/"/>
-        <updated>2022-11-07T09:47:00.000Z</updated>
-        <summary type="html"><![CDATA[No can do. We drift. Our standards aren’t set in stone. They change over time, often based on the situation we’re in. This explains how cults or extreme views occur. Not all at once, but bit by bit. Until one day, people wake up and are shocked to discover that they’re advocating for (or doing […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Soil]]></title>
-        <id>https://xkcd.com/2695/</id>
-        <link href="https://xkcd.com/2695/"/>
-        <updated>2022-11-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/soil.png" title="You might want to bring your frost-sensitive plants in from the patio. The high-level aerosols may result in short-term cooling across the entire backyard." alt="You might want to bring your frost-sensitive plants in from the patio. The high-level aerosols may result in short-term cooling across the entire backyard." />]]></summary>
-        <author>
-            <name>xkcd.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The long road]]></title>
-        <id>https://seths.blog/?p=44173</id>
-        <link href="https://feeds.feedblitz.com/~/718667144/0/sethsblog~The-long-road/"/>
-        <updated>2022-11-06T09:49:00.000Z</updated>
-        <summary type="html"><![CDATA[What can we build for 2050? Thirty years ago this month, I created 18 Pine Street, a series of young adult novels with bestselling author Walter Dean Myers. He was a brilliant creator and a delightful partner. The kids who bought those books are having kids of their own now, and perhaps some of the […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
         </author>
     </entry>
     <entry>
@@ -1489,25 +1582,6 @@ TLS Setup in MySQL and Spring Boot Application]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Spring Security 5.7.5 and 5.6.9 available now]]></title>
-        <id>https://spring.io/blog/2022/10/31/spring-security-5-7-5-and-5-6-9-available-now</id>
-        <link href="https://spring.io/blog/2022/10/31/spring-security-5-7-5-and-5-6-9-available-now"/>
-        <updated>2022-10-31T17:04:00.000Z</updated>
-        <summary type="html"><![CDATA[On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Security 5.7.5 and 5.6.9 are available now. In both cases the releases are composed of bug fixes.
-
-
-
-To learn more, please visit the 5.7.5 and
- 5.6.9 release summaries.
-
-
-
-Project Site | Reference | Help]]></summary>
-        <author>
-            <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[AWS Week in Review – October 31, 2022]]></title>
         <id>29637f7ab6bac856787858b6324877d404e8d5e7</id>
         <link href="https://aws.amazon.com/blogs/aws/aws-week-in-review-october-31-2022/"/>
@@ -1515,53 +1589,6 @@ Project Site | Reference | Help]]></summary>
         <summary type="html"><![CDATA[No tricks, just treats in this weekly roundup of news and announcements. Let’s switch our AWS Management Console into dark mode and dive right into it. Last Week’s Launches Here are some launches that got my attention during the previous week: AWS Local Zones in Hamburg and Warsaw now generally available – AWS Local Zones help […]]]></summary>
         <author>
             <name>Antje Barth</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CVE-2022-31690: Privilege Escalation in spring-security-oauth2-client]]></title>
-        <id>https://spring.io/blog/2022/10/31/cve-2022-31690-privilege-escalation-in-spring-security-oauth2-client</id>
-        <link href="https://spring.io/blog/2022/10/31/cve-2022-31690-privilege-escalation-in-spring-security-oauth2-client"/>
-        <updated>2022-10-31T16:41:00.000Z</updated>
-        <summary type="html"><![CDATA[Spring Security 5.6.9 and 5.7.5 released on October 31st, 2022 included a fix for CVE-2022-31690 affecting the mapping of authorized scopes in spring-security-oauth2-client. Users are encouraged to update as soon as possible.
-
-
-
-Impact
-
-
-
-Users who have applied the mitigation should take note of the following impact:
-
-
-
-No authorized scopes are mapped to the principal (current user) when the Authorization Server (AS) responds to the OAuth2 Access Token Response with an empty or missing scope parameter.
-
-
-
-If you are affected by this vulnerability, users will not be granted any authorities beginning with SCOPE_ when the AS does not return scopes. Only the special authority ROLE_USER is given to the principal.
-
-
-
-
-
-
-Note
-
-
-
-Beginning with 6.0, the special authority is ch…]]></summary>
-        <author>
-            <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CVE-2022-31692: Authorization rules can be bypassed via forward or include in Spring Security]]></title>
-        <id>https://spring.io/blog/2022/10/31/cve-2022-31692-authorization-rules-can-be-bypassed-via-forward-or-include-in-spring-security</id>
-        <link href="https://spring.io/blog/2022/10/31/cve-2022-31692-authorization-rules-can-be-bypassed-via-forward-or-include-in-spring-security"/>
-        <updated>2022-10-31T16:41:00.000Z</updated>
-        <summary type="html"><![CDATA[Spring Security 5.6.9 and 5.7.5 released on October 31st, 2022 included a fix for CVE-2022-31692 affecting the AuthorizationFilter. Users are encouraged to update as soon as possible.]]></summary>
-        <author>
-            <name>Spring</name>
         </author>
     </entry>
     <entry>
@@ -1957,16 +1984,6 @@ The post October patches for Azure DevOps Server appeared first on Azure DevOps 
         <summary type="html"><![CDATA[The HashiCorp Vault ecosystem saw multiple integrations from partners Cockroach Labs, ForgeRock, and PaloAlto Networks as part of the 19 integrations completed this past quarter.]]></summary>
         <author>
             <name>HashiCorp Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWS Week in Review – October 17, 2022]]></title>
-        <id>f3d6027b89e3960df03f4dc7b386bf38d63c911d</id>
-        <link href="https://aws.amazon.com/blogs/aws/aws-week-in-review-october-17-2020/"/>
-        <updated>2022-10-17T17:34:56.000Z</updated>
-        <summary type="html"><![CDATA[This post is part of our Week in Review series. Check back each week for a quick roundup of interesting news and announcements from AWS! Monday means it’s time for another Week in Review post, so, without further ado, let’s dive right in! Last Week’s Launches Here’s some launch announcements from last week you may […]]]></summary>
-        <author>
-            <name>Steve Roberts</name>
         </author>
     </entry>
 </feed>

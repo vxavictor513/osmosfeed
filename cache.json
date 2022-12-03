@@ -6,6 +6,26 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2022/12/02/spring-ws-samples-upgraded-for-spring-boot-3-0",
+          "author": null,
+          "description": "With the recent announcement of Spring Boot 3.0 going GA, some of you may be interested in upgrading your Spring Web Services-based applications to take full advantage of this. The Spring WS team has upgraded our set of sample apps to help you carry that out.\n\r\n\r\n\r\nThe main branch now tracks the version of samples with all these updates. (The prior version of samples built on Spring Boot 2.7 are now on that repository’s 1.0.x branch.)\n\r\n\r\n\r\nSome of the highlights are covered below.\n\r\n\r\n\r\nA LOT of our tools have moved!\n\r\n\r\n\r\nBack in the olden days, much of our XML processing tools were inside the JDK. But ever since Java 9 and the migrations of Java EE-based packages to the Eclipse Foundation, those tools have since been pulled out of the JDK. On top of that, SOAP-based libraries, heavily l…",
+          "link": "https://spring.io/blog/2022/12/02/spring-ws-samples-upgraded-for-spring-boot-3-0",
+          "publishedOn": "2022-12-02T23:26:00.000Z",
+          "wordCount": 1386,
+          "title": "Spring WS Samples upgraded for Spring Boot 3.0!",
+          "imageUrl": "https://avatars.githubusercontent.com/u/311040?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2022/12/02/spring-cloud-2022-0-0-release-candidate-3-codename-kilburn-has-been-released",
+          "author": null,
+          "description": "On behalf of the community, I am pleased to announce that the Release Candidate 3 (RC3) of the Spring Cloud 2022.0 Release Train is available today. The release can be found in Spring Milestone repository. You can check out the 2022.0 release notes for more information.\nNotable Changes in the 2022.0.0 RC3 release\n\r\nClick here to see all issues in this release.\n\r\nSpring Cloud 2022.0.0-RC3 requires Spring Boot 3.0.0.\nSpring Cloud Contract\n\r\n\r\n  \nRemoves Gradle’s support for src/test/resources/contracts checking (#1848)\n\r\n\r\nCheck the latest migration guide entry for more information.\nSpring Cloud Gateway\n\r\n\r\n  \nAdded the possibility to disable global CORS configuration (#2779)\n\r\n\nSpring Cloud OpenFeign\n\r\n\r\n  \nSupport for AOT and native images has been added (#794)\n\r\n  \nSupport for Micrometer …",
+          "link": "https://spring.io/blog/2022/12/02/spring-cloud-2022-0-0-release-candidate-3-codename-kilburn-has-been-released",
+          "publishedOn": "2022-12-02T14:00:00.000Z",
+          "wordCount": 997,
+          "title": "Spring Cloud 2022.0.0 Release Candidate 3 (codename Kilburn) Has Been Released",
+          "imageUrl": "https://avatars.githubusercontent.com/u/4328892?v=4?s=200"
+        },
+        {
           "id": "https://spring.io/blog/2022/12/01/a-bootiful-podcast-java-champion-gunnar-morling-about-messaging-middleware-debezium-change-data-capture-and-more",
           "author": null,
           "description": "Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks to Java Champion Gunnar Morling (@gunnarmorling) about messaging middleware, Debezium, and more.",
@@ -184,26 +204,6 @@
           "wordCount": 694,
           "title": "Spring Web Services 4.0.0 is now GA",
           "imageUrl": "https://avatars.githubusercontent.com/u/311040?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/11/21/spring-security-5-8-and-6-0-are-now-ga",
-          "author": null,
-          "description": "On behalf of the team and everyone who has contributed, we are very excited to announce the general availability of Spring Security 6.0! In addition, we are pleased to announce the general availability of Spring Security 5.8, which is provided to simplify upgrading to 6.0.\n\r\n\r\n\r\nSpring Security 6 requires JDK 17 and uses the jakarta namespace. Among its many features, upgrading to Spring Security 6 will bring you:\n\r\n\r\n\r\n\r\n\r\nImproved session management\n\r\n\r\n\r\nImproved AOT processing\n\r\n\r\n\r\nSecurity metrics and traces\n\r\n\r\n\r\nSeveral defense-in-depth enhancements\n\r\n\r\n\r\nA simplified authorization framework\n\r\n\r\n\r\n\r\n\r\nCheck out What’s New in Spring Security 5.8 and What’s New in Spring Security 6.0 for a comprehensive list of new features.\n\r\n\r\n\r\nYou can also see the release notes for 5.8.0-M1, 5.8.…",
-          "link": "https://spring.io/blog/2022/11/21/spring-security-5-8-and-6-0-are-now-ga",
-          "publishedOn": "2022-11-21T18:58:00.000Z",
-          "wordCount": 842,
-          "title": "Spring Security 5.8 and 6.0 are now GA",
-          "imageUrl": "https://avatars.githubusercontent.com/u/5248162?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/11/21/new-major-releases-of-spring-for-apache-kafka-and-spring-for-rabbitmq",
-          "author": null,
-          "description": "I am pleased to announce that new major releases (3.0.0) for Spring for Apache Kafka and Spring for RabbitMQ are now available.\n\r\n\r\n\r\nCommon Changes\n\r\n\r\n\r\nThe 3.0.x versions of these projects have the following common changes\n\r\n\r\n\r\n\r\n\r\nthey depend on Java version 17 or later\n\r\n\r\n\r\nthey depend on Spring Framework 6.0.x\n\r\n\r\n\r\nsupport for creating native GraalVM applications\n\r\n\r\n\r\nsupport for micrometer observability and tracing\n\r\n\r\n\r\nBill of Materials POMs are now provided to help with dependency management\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nSpring for Apache Kafka\n\r\n\r\n\r\n\r\n\r\nsupport for a global single EmbeddedKafkaBroker (across multiple test classes)\n\r\n\r\n\r\nseveral enhancements for @RetryableTopic (non-blocking retries)\n\r\n\r\n\r\nKafkaTemplate methods now return CompleteableFuture instead of ListenableFuture, which has been deprecated\n\r\n\r\n\r\n\r\n\r\nFor information about all changes in this release, see What’s New.\n\r\n\r\n\r\nIn addition, 2.9.3 and 2.8.11 maintenance releases are now available.\n\r\n\r\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow\n\r\n\r\n\r\n\r\n\r\nSpring for RabbitMQ\n\r\n\r\n\r\n\r\n\r\nsupport for RabbitMQ super streams, with single active consumers, has been added\n\r\n\r\n\r\nthe previously deprecated remoting support has been removed\n\r\n\r\n\r\nthe AsyncRabbitTemplate and RabbitStreamTemplate methods now return CompleteableFuture instead of ListenableFuture, which has been deprecated\n\r\n\r\n\r\n\r\n\r\nFor information about all changes in this release, see  What’s New.\n\r\n\r\n\r\nIn addition, the 2.4.8 maintenance release is now available.\n\r\n\r\n\r\nProject Page | GitHub | Issues | Documentation | Stack Overflow",
-          "link": "https://spring.io/blog/2022/11/21/new-major-releases-of-spring-for-apache-kafka-and-spring-for-rabbitmq",
-          "publishedOn": "2022-11-21T18:12:01.000Z",
-          "wordCount": 723,
-          "title": "New Major Releases of Spring for Apache Kafka and Spring for RabbitMQ",
-          "imageUrl": "https://avatars.githubusercontent.com/u/483832?v=4?s=200"
         }
       ]
     },
@@ -385,7 +385,7 @@
           "description": "This is the first blog post in a series of ones to follow. I will take you through a journey of data onboarding, manipulation, and visualization using Strava as a backdrop.",
           "link": "https://www.elastic.co/blog/how-to-import-strava-data-elastic-stack",
           "publishedOn": "2022-11-28T00:00:00.000Z",
-          "wordCount": 9398,
+          "wordCount": 10250,
           "title": "How to import Strava data into the Elastic Stack",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt385cbf758d24d2b8/637d23855834861044c20fc4/fao-1200x628-stack-drag-and-drop-white.jpg"
         },
@@ -395,7 +395,7 @@
           "description": ",\nThis is the first blog post in a series of ones to follow. I will take you through a journey of data onboarding, manipulation, and visualization.\n\nWhat is Strava and why is it the focus? Strava is a platform where athletes, from recreational to professional, can share their activities. All my fitness data from my Apple Watch, Garmin, and Zwift is automatically synced and saved there. It is safe to say that if I want to get an overview of my fitness, getting the data out of Strava is the first step.\n\nWhy do this with the Elastic Stack? I want to ask my data questions, and questions are just searches!\n\nHave I ridden my bike more this year than last?\nOn average, is my heart rate reduced by doing more distance on my bike?\nAm I running, hiking, and cycling on the same tracks often?\nDoes my he…",
           "link": "https://www.elastic.co/blog/how-to-import-strava-data-elastic-stack",
           "publishedOn": "2022-11-28T00:00:00.000Z",
-          "wordCount": 9398,
+          "wordCount": 10250,
           "title": "How to import Strava data into the Elastic Stack",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt385cbf758d24d2b8/637d23855834861044c20fc4/fao-1200x628-stack-drag-and-drop-white.jpg"
         },
@@ -415,7 +415,7 @@
           "description": "Version 8.5.2 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 8.5.2 over the previous versions in 8.5.x.\nFor details of the issues that have been fixed and a full list of changes for each product in this version, refer to the release notes: \n8.5.2 Release Notes\nElastic Stack\nVersion 8.5.2 fixes a Fleet server issue on Windows.\nIt also contains an APM server fix for an issue where the server might be running out of memory when Tail based sampling is enabled. With the fix, buffered transactions are discarded if a certain buffer size is reached.\nElasticsearch\nKibana\nBeats\nLogstash\nElastic Enterprise Search\nEnterprise Search\nElastic Observability\nAPM\nElastic Security\nElastic Security Solution",
           "link": "https://www.elastic.co/blog/elastic-stack-8-5-2-released",
           "publishedOn": "2022-11-22T00:00:00.000Z",
-          "wordCount": 4658,
+          "wordCount": 5506,
           "title": "Elastic Stack 8.5.2 released",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c35d17afad9d20d/5f122812c31823015df6ef0a/blog-thumb-rocket-launch.png"
         },
@@ -425,7 +425,7 @@
           "description": "Streamline and enrich investigations using Elasticsearch Query Language (ESQL), a new, robust piped query language. Currently in development, ESQL combined with new ES compute capabilities and multi-query UX in Kibana will unlock more insights for analysts.",
           "link": "https://www.elastic.co/blog/introduction-to-esql-new-query-language-flexible-iterative-analytics",
           "publishedOn": "2022-11-22T00:00:00.000Z",
-          "wordCount": 11439,
+          "wordCount": 11392,
           "title": "Introduction to ESQL — A new query language for flexible, iterative analytics",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltfdbb5c56ed857bd0/630501276c88de0c928796f9/blog-thumb-elevate-our-work-1680x980.png"
         },
@@ -445,7 +445,7 @@
           "description": "Read about the updates and bug fixes that have been included in this release.",
           "link": "https://www.elastic.co/blog/elastic-stack-8-5-2-released",
           "publishedOn": "2022-11-22T00:00:00.000Z",
-          "wordCount": 4658,
+          "wordCount": 5506,
           "title": "Elastic Stack 8.5.2 released",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c35d17afad9d20d/5f122812c31823015df6ef0a/blog-thumb-rocket-launch.png"
         },
@@ -455,7 +455,7 @@
           "description": ",\nThe Elastic Platform has long been well-regarded as an analytical system for search use cases and machine-generated data. Analytics are focused on processing data-as-ingested, where significant thought is put into how to optimally structure data as it is indexed in Elasticsearch. Kibana exposes Elasticsearch aggregations and uses them to create interactive dashboards, visualizations, and alerts.\n\nBut as the Elastic Platform is more widely adopted as a search, security, observability, and general analytics platform, analyst users require the ability to take data-as-ingested, transform it to fit their investigative needs post-ingestion, and derive insights from underlying Elasticsearch index data. They need a concise, integrated, and efficient workflow enabled by rich and expressive querie…",
           "link": "https://www.elastic.co/blog/introduction-to-esql-new-query-language-flexible-iterative-analytics",
           "publishedOn": "2022-11-22T00:00:00.000Z",
-          "wordCount": 11439,
+          "wordCount": 11392,
           "title": "Introduction to ESQL — A new query language for flexible, iterative analytics",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltfdbb5c56ed857bd0/630501276c88de0c928796f9/blog-thumb-elevate-our-work-1680x980.png"
         },
@@ -475,7 +475,7 @@
           "description": "Improved deployment health experience on Elastic Cloud, including impact areas and troubleshooting steps for errors.",
           "link": "https://www.elastic.co/blog/making-deployment-health-on-elastic-cloud-better-one-error-at-a-time",
           "publishedOn": "2022-11-21T00:00:00.000Z",
-          "wordCount": 5944,
+          "wordCount": 6796,
           "title": "Making deployment health on Elastic Cloud better, one error at a time",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0069c871e9060814/6297bb96c1a31f435ce9b699/library-branding-elastic-cloud-white-1680x980.png"
         },
@@ -485,7 +485,7 @@
           "description": "If you’re not a frontend developer or designer, building dashboards that all can understand and consume can be scary. Check out our tips on structuring Kibana dashboards and picking suitable charts to connect people with your data.",
           "link": "https://www.elastic.co/blog/designing-intuitive-kibana-dashboards-as-a-non-designer",
           "publishedOn": "2022-11-21T00:00:00.000Z",
-          "wordCount": 8329,
+          "wordCount": 9177,
           "title": "Designing intuitive Kibana dashboards as a non-designer",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt61ec1db8518cdff6/6377cd21506d90105712b7ff/illustration-stack-modernize-solutions-1689x980.png"
         },
@@ -505,7 +505,7 @@
           "description": ",\nMaintaining a healthy deployment is critical for a successful Elastic Cloud experience. We want to make it easy for Elastic Cloud users to run healthy deployments, and with our new health reporting capability, this is exactly what we enable. \n\nIf you have been using Elastic Cloud for a while, you are probably used to seeing an error banner when your deployment is unhealthy; this includes issues with Elasticsearch, Kibana, Integration server, or Enterprise Search instances.\nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blteb26f0b677828fd8/6377b409caf46f1070a5ceaa/blog-elastic-deploymenthealth-1.png,blog-elastic-deploymenthealth-1.png,\nWhile the banner tells you something is wrong, it has limited information about the impact you might see and what you should do to resolve the…",
           "link": "https://www.elastic.co/blog/making-deployment-health-on-elastic-cloud-better-one-error-at-a-time",
           "publishedOn": "2022-11-21T00:00:00.000Z",
-          "wordCount": 5944,
+          "wordCount": 6796,
           "title": "Making deployment health on Elastic Cloud better, one error at a time",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0069c871e9060814/6297bb96c1a31f435ce9b699/library-branding-elastic-cloud-white-1680x980.png"
         },
@@ -515,7 +515,7 @@
           "description": ",\nDevelopers, SRE engineers, and talented technologists often need to build quick dashboards to showcase important information on the state of their applications that can be consumed by mixed audiences. If you’re not a frontend developer or designer, it can feel scary building intuitive dashboards that all can understand and consume without being overloaded with information. Especially if you don’t feel you possess the artistic design flair of your colleagues, it can feel like you’re missing that key set of rules that they implicitly hold in their heads.\n\nAs a frontend engineer, I’ve been fortunate to work with designers and users alike and learn tips on how to build intuitive experiences without bamboozling users into information overload and to access the important information they need …",
           "link": "https://www.elastic.co/blog/designing-intuitive-kibana-dashboards-as-a-non-designer",
           "publishedOn": "2022-11-21T00:00:00.000Z",
-          "wordCount": 8329,
+          "wordCount": 9177,
           "title": "Designing intuitive Kibana dashboards as a non-designer",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt61ec1db8518cdff6/6377cd21506d90105712b7ff/illustration-stack-modernize-solutions-1689x980.png"
         },
@@ -525,7 +525,7 @@
           "description": "At the 2022 Alibaba Cloud Apsara Summit, Elastic won the Alibaba Cloud Product Ecosystem Partner Significant Contribution Award.",
           "link": "https://www.elastic.co/blog/alibaba-cloud-significant-contribution-partner-award-apsara-2022",
           "publishedOn": "2022-11-18T00:00:00.000Z",
-          "wordCount": 5360,
+          "wordCount": 6208,
           "title": "Alibaba Cloud Granting Significant Contribution Partner Award to Elastic at Apsara 2022",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt2477cbb82912159a/63764d6cfa033a109b5d730c/Elastic-blog-Alibaba-Apsara-Award.jpg"
         },
@@ -535,7 +535,7 @@
           "description": ",\nOn November 5, 2022, at the 2022 Alibaba Cloud Apsara Summit, Elastic won the Alibaba Cloud Product Ecosystem Partner Significant Contribution Award. This award commends and thanks the Partner of Alibaba Cloud for maintaining rapid growth despite the double test of the pandemic and the economy, to promote high-quality development themes of Alibaba cloud. Elastic is the only international partner that has won this honor.\n\n2022 is the new beginning of the second five-year strategic cooperation between Elastic and Alibaba Cloud. The two companies will continue to deepen cooperation in products, services, communities, and ecology to achieve a new leap in high quality.\n,At this conference, the two parties jointly launched the latest Alibaba Cloud Elasticsearch serverless version, providing end-to-end data access, data management, data application, and visualization module component capabilities around the Elastic Stack ecological components, as well as scenario-based upper-layer application capabilities. The launch of this version can avoid the complexity of large-scale cluster operation and maintenance, and the cloud native service can achieve second-level elastic scaling without planning and managing cluster resource configuration. By optimizing the cost of computing and storage resources, it can reduce the user's usage cost by 70% on average. This version can efficiently manage and analyze massive data, by decoupling of storage and computing, effectively improve read and write efficiency, and greatly reduce database operation and maintenance management costs.\nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt84a8ebe85ebdcf28/63764e6371c75510a0c9fcca/blog-elastic-alibaba-apsara.png,blog-elastic-alibaba-apsara.png,\nThe strategic cooperation between Elastic and Alibaba Cloud began in 2017. Currently, the Alibaba Elasticsearch service is available in Alibaba Cloud's service areas in 17 countries and regions, serving thousands of thousands of customers.",
           "link": "https://www.elastic.co/blog/alibaba-cloud-significant-contribution-partner-award-apsara-2022",
           "publishedOn": "2022-11-18T00:00:00.000Z",
-          "wordCount": 5360,
+          "wordCount": 6208,
           "title": "Alibaba Cloud Granting Significant Contribution Partner Award to Elastic at Apsara 2022",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt2477cbb82912159a/63764d6cfa033a109b5d730c/Elastic-blog-Alibaba-Apsara-Award.jpg"
         }
@@ -552,7 +552,7 @@
           "description": "We are thrilled to announce the general availability of Red Hat Ansible Automation Platform 2.3. If you didn’t get the opportunity to attend AnsibleFest 2022 in Chicago, or get time to watch the keynotes on the AnsibleFest content hub, I am the lucky Ansiblite (or is it Ansi-Bull) who will walk you through all the new, cool and exciting features coming with our new release. Ansible Automation Platform 2.3 introduces a number of new features and capabilities that deliver simpler, security-focused automation at scale. Ansible Automation Platform 2.3 is compatible with the Developer Preview of Event-Driven Ansible, a new set of capabilities that empower true end-to-end automation.",
           "link": "https://www.ansible.com/blog/whats-new-in-red-hat-ansible-automation-platform-2.3",
           "publishedOn": "2022-11-29T14:00:00.000Z",
-          "wordCount": 5100,
+          "wordCount": 5103,
           "title": "What's new in Ansible Automation Platform 2.3",
           "imageUrl": "https://www.ansible.com/hubfs/AAP%202.3%20whats%20new%20card.png"
         },
@@ -629,7 +629,7 @@
           "description": "We are upgrading the .NET used by Azure Pipelines agent from current .NET Core 3.1 to .NET 6. This is to support new Apple silicon hardware as well as newer operating systems such as Ubuntu 22.04, or Windows on ARM64. Another reason for the .NET upgrade is the fact the .NET Core 3.1 version is already in maintenance phase and the support ends on December 13th,\nThe post Upgrade of .NET agent for Azure Pipelines appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/upgrade-of-net-agent-for-azure-pipelines/",
           "publishedOn": "2022-11-23T11:20:31.000Z",
-          "wordCount": 5701,
+          "wordCount": 6160,
           "title": "Upgrade of .NET agent for Azure Pipelines",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2019/02/AzureDevOps.png"
         },
@@ -639,7 +639,7 @@
           "description": "Nothing exciting to report for sprint 213. We spent most of our time fixing issues and continue to make good progress. You will also see the new usability feature added below.\nIssue\nTemplates with Assigned to @me\nThe post New Boards Hub, Sprint 213 Update appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/new-boards-hub-sprint-213-update/",
           "publishedOn": "2022-11-16T20:35:07.000Z",
-          "wordCount": 5041,
+          "wordCount": 4803,
           "title": "New Boards Hub, Sprint 213 Update",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2018/08/vstsfeature.png"
         },
@@ -649,7 +649,7 @@
           "description": "The Microsoft.VisualStudio.Services.InteractiveClient library is a public NuGet package that takes care of authenticating to Azure DevOps Services. It abstracts away the acquisition, management and refreshing of authentication tokens, so developers can focus on their goals and stay productive.\nThe post Azure DevOps client libraries migrated to MSAL appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azure-devops-client-libraries-migrated-to-msal/",
           "publishedOn": "2022-11-15T12:14:23.000Z",
-          "wordCount": 4702,
+          "wordCount": 5016,
           "title": "Azure DevOps client libraries migrated to MSAL",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/11/Security.png"
         },
@@ -659,7 +659,7 @@
           "description": "Recently, the Azure DevOps team completed an initiative to associate all Azure DevOps REST APIs with a granular personal access token (PAT) scope. As part of our ongoing investments in security, we undertook this effort to reduce the risks associated with a leaked PAT credential.\nThe post All Azure DevOps REST APIs now support PAT scopes appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/all-azure-devops-rest-apis-now-support-pat-scopes/",
           "publishedOn": "2022-11-09T22:01:54.000Z",
-          "wordCount": 4559,
+          "wordCount": 4483,
           "title": "All Azure DevOps REST APIs now support PAT scopes",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/11/Security.png"
         }
@@ -852,7 +852,7 @@
           "description": "You use map apps every day to find your favorite restaurant or travel the fastest route using geospatial data. There are two types of geospatial data: vector data that uses two-dimensional geometries such as a building location (points), roads (lines), or land boundary (polygons), and raster data such as satellite and aerial images. Last year, […]",
           "link": "https://aws.amazon.com/blogs/aws/preview-use-amazon-sagemaker-to-build-train-and-deploy-ml-models-using-geospatial-data/",
           "publishedOn": "2022-11-30T17:15:43.000Z",
-          "wordCount": 2584,
+          "wordCount": 2581,
           "title": "Preview: Use Amazon SageMaker to Build, Train, and Deploy ML Models Using Geospatial Data",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/11/24/Site-Merch_Amazon-SageMaker-Geospatial-ML_Blog.png"
         },
@@ -884,6 +884,16 @@
       "siteUrl": "https://xkcd.com/",
       "articles": [
         {
+          "id": "https://xkcd.com/2706/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/bendy.png\" title=\"Squaring the circle is really easy with some good clamps.\" alt=\"Squaring the circle is really easy with some good clamps.\" />",
+          "link": "https://xkcd.com/2706/",
+          "publishedOn": "2022-12-02T00:00:00.000Z",
+          "wordCount": 230,
+          "title": "Bendy",
+          "imageUrl": "https://imgs.xkcd.com/comics/bendy_2x.png"
+        },
+        {
           "id": "https://xkcd.com/2705/",
           "author": null,
           "description": "<img src=\"https://imgs.xkcd.com/comics/spacetime_soccer.png\" title=\"Spacetime Soccer, known outside the United States as '4D Football' is a now-defunct sport. Infamous for referee decisions hinging on inconsistent definitions of simultaneity, it is also known for the disappearance of many top players during... [more]\" alt=\"Spacetime Soccer, known outside the United States as '4D Football' is a now-defunct sport. Infamous for referee decisions hinging on inconsistent definitions of simultaneity, it is also known for the disappearance of many top players during... [more]\" />",
@@ -912,16 +922,6 @@
           "wordCount": 232,
           "title": "Paper Title",
           "imageUrl": "https://imgs.xkcd.com/comics/paper_title_2x.png"
-        },
-        {
-          "id": "https://xkcd.com/2702/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/what_if_2_gift_guide.png\" title=\"BABIES OR LITERATURE BUT NOT BOTH: Baby shoes\" alt=\"BABIES OR LITERATURE BUT NOT BOTH: Baby shoes\" />",
-          "link": "https://xkcd.com/2702/",
-          "publishedOn": "2022-11-23T00:00:00.000Z",
-          "wordCount": 238,
-          "title": "What If 2 Gift Guide",
-          "imageUrl": "https://imgs.xkcd.com/comics/what_if_2_gift_guide_2x.png"
         }
       ]
     },
@@ -946,7 +946,7 @@
           "description": "In this tutorial, learn how you can take advantage of Camunda for powerful process orchestration as a .NET developer.\nThe post Camunda Platform 8 for .NET developers appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/11/camunda-platform-8-dotnet-developers/",
           "publishedOn": "2022-11-21T17:48:18.000Z",
-          "wordCount": 4571,
+          "wordCount": 4570,
           "title": "Camunda Platform 8 for .NET developers",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/11/Camunda-8-dotNET-developers_1200x630.png"
         },
@@ -966,7 +966,7 @@
           "description": "Camunda has received a clean SOC 2 Type 1 attestation report. This is a rigorous, independent assessment of our internal security controls.\nThe post Camunda Receives SOC 2 Type 1 Certification appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/11/camunda-soc-2-type-1-certification/",
           "publishedOn": "2022-11-15T15:00:00.000Z",
-          "wordCount": 2176,
+          "wordCount": 2175,
           "title": "Camunda Receives SOC 2 Type 1 Certification",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/11/Camunda-SOC-2-type-1-certification_1200x627.png"
         },
@@ -986,7 +986,7 @@
           "description": "Camunda Champions make interacting in our community a more valuable and meaningful experience for everyone. Welcome to our latest Camunda Champions!\nThe post Welcome to our Newest Camunda Champions! appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/11/welcome-newest-camunda-champions/",
           "publishedOn": "2022-11-10T19:28:27.000Z",
-          "wordCount": 2333,
+          "wordCount": 2332,
           "title": "Welcome to our Newest Camunda Champions!",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/11/Camunda-Champions-2022-4_1200x627.png"
         },
@@ -996,7 +996,7 @@
           "description": "In the latest release of Camunda Optimize, we now have smart bar charts, the ability to delete backups via API and more.\nThe post Camunda Optimize 3.10.0 alpha1 released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/11/camunda-optimize-3-10-0-alpha1-released/",
           "publishedOn": "2022-11-08T16:27:17.000Z",
-          "wordCount": 2183,
+          "wordCount": 2184,
           "title": "Camunda Optimize 3.10.0 alpha1 released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/11/camunda-optimize-3-10-0-alpha1-release-2.jpg"
         },
@@ -1006,7 +1006,7 @@
           "description": "The first alpha release of Camunda Platform Runtime 7.19 features improved engine loading times, support for basic authentication in OpenAPI specification and multiple bug fixes.\nThe post Camunda Automation Platform 7.19.0-alpha1 released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/11/camunda-automation-platform-7-19-0-alpha1-released/",
           "publishedOn": "2022-11-08T16:18:20.000Z",
-          "wordCount": 2433,
+          "wordCount": 2434,
           "title": "Camunda Automation Platform 7.19.0-alpha1 released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/11/camunda-platform-7-19-0-alpha1-release-2.jpg"
         },
@@ -1066,21 +1066,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://cdn-img.tonarinoyj.jp/public/episode-thumbnail/316190246967858110-dc94607562edf162e9a2ac1c2128de60"
-        },
-        {
-          "id": "tonarino_yj:episode:316190246930259876",
-          "author": "原作/ＯＮＥ/漫画/村田雄介",
-          "description": "ワンパンマン",
-          "link": "https://tonarinoyj.jp/episode/316190246930259876",
-          "publishedOn": "2022-11-02T15:00:00.000Z",
-          "wordCount": 199,
-          "title": "[第218話] ワンパンマン",
-          "enclosure": {
-            "url": "https://cdn-img.tonarinoyj.jp/public/episode-thumbnail/316190246930259876-0abe8fb49ca36d4a55b36349d5a6e2e3",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://cdn-img.tonarinoyj.jp/public/episode-thumbnail/316190246930259876-0abe8fb49ca36d4a55b36349d5a6e2e3"
         }
       ]
     },
@@ -1089,6 +1074,26 @@
       "feedUrl": "https://github.com/blog/all.atom",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/2022-12-02-github-accessibility-and-the-disability-divide/",
+          "author": null,
+          "description": "We just published our vision for GitHub accessibility at accessibility.github.com. Here’s the TL;DR: the prime directive of the GitHub accessibility program is to empower people with disabilities to build cool technology.",
+          "link": "https://github.blog/2022-12-02-github-accessibility-and-the-disability-divide/",
+          "publishedOn": "2022-12-02T17:44:01.000Z",
+          "wordCount": 1256,
+          "title": "GitHub, accessibility, and the disability divide",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/02/Community-Company_teal-orange@2x.png"
+        },
+        {
+          "id": "https://github.blog/2022-12-02-introducing-mona-sans-and-hubot-sans/",
+          "author": null,
+          "description": "Learn how to use and express yourself with GitHub’s open source variable fonts, Mona Sans and Hubot Sans.",
+          "link": "https://github.blog/2022-12-02-introducing-mona-sans-and-hubot-sans/",
+          "publishedOn": "2022-12-02T16:16:15.000Z",
+          "wordCount": 1685,
+          "title": "Introducing Mona Sans and Hubot Sans",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/11/image1.jpg"
+        },
         {
           "id": "https://github.blog/2022-12-01-how-empowering-developers-helps-teams-ship-secure-software-faster/",
           "author": null,
@@ -1135,7 +1140,7 @@
           "description": "How is open source changing the world and impacting businesses? In this year's Octoverse report, we identified three big trends to watch.",
           "link": "https://github.blog/2022-11-17-octoverse-2022-10-years-of-tracking-open-source/",
           "publishedOn": "2022-11-17T19:56:26.000Z",
-          "wordCount": 1689,
+          "wordCount": 1703,
           "title": "Octoverse 2022: 10 years of tracking open source",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/11/octoverse2.png"
         },
@@ -1168,26 +1173,6 @@
           "wordCount": 1400,
           "title": "The journey of your work has never been clearer",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/11/image-8.png"
-        },
-        {
-          "id": "https://github.blog/2022-11-10-introducing-github-actions-importer/",
-          "author": null,
-          "description": "GitHub Actions Importer helps you forecast, plan, and facilitate migrations from your current CI/CD tool to GitHub Actions.",
-          "link": "https://github.blog/2022-11-10-introducing-github-actions-importer/",
-          "publishedOn": "2022-11-10T17:00:19.000Z",
-          "wordCount": 2872,
-          "title": "Introducing GitHub Actions Importer",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/11/1200x640.png?fit=1200%2C640"
-        },
-        {
-          "id": "https://github.blog/2022-11-10-whats-new-with-codespaces-from-github-universe-2022/",
-          "author": null,
-          "description": "We’re giving GitHub users 60 free hours each month on Codespaces. Learn what else we shipped for Codespaces at Universe this year.",
-          "link": "https://github.blog/2022-11-10-whats-new-with-codespaces-from-github-universe-2022/",
-          "publishedOn": "2022-11-10T16:00:16.000Z",
-          "wordCount": 2009,
-          "title": "What’s new with Codespaces from GitHub Universe 2022",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/11/1200x630-Codespaces@2x.jpg"
         }
       ]
     },
@@ -1265,7 +1250,7 @@
           "description": "by Christos G. Bampis, Li-Heng Chen and Zhi Li",
           "link": "https://netflixtechblog.com/for-your-eyes-only-improving-netflix-video-quality-with-neural-networks-5b8d032da09c?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-11-17T21:08:00.000Z",
-          "wordCount": 3891,
+          "wordCount": 3844,
           "title": "For your eyes only: improving Netflix video quality with neural networks",
           "imageUrl": "https://miro.medium.com/max/1200/1*gn6_cn9dPKpu_YBykZvwDA.png"
         },
@@ -1275,7 +1260,7 @@
           "description": "What’s needed in the art of match cutting is tools to help editors find shots that match well together, which is what we’ve started…",
           "link": "https://netflixtechblog.com/match-cutting-at-netflix-finding-cuts-with-smooth-visual-transitions-31c3fc14ae59?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-11-17T16:37:01.000Z",
-          "wordCount": 6643,
+          "wordCount": 6627,
           "title": "Match Cutting at Netflix: Finding Cuts with Smooth Visual Transitions",
           "imageUrl": "https://miro.medium.com/max/854/0*vKMzII6YnjsnOda6"
         },
@@ -1285,7 +1270,7 @@
           "description": "By: Peter Cioni (Netflix), Alex Schworer (Netflix), Mac Moore (Conductor Tech.), Rachel Kelley (AWS), Ranjit Raju (AWS)",
           "link": "https://netflixtechblog.com/helping-vfx-studios-pave-a-path-to-the-cloud-d308ee43c079?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-11-15T17:03:55.000Z",
-          "wordCount": 3240,
+          "wordCount": 3206,
           "title": "Helping VFX studios pave a path to the cloud",
           "imageUrl": "https://miro.medium.com/max/1200/0*r72QIuSe00fdricw"
         },
@@ -1295,7 +1280,7 @@
           "description": "This blog series will be showing you how we use the power of machine learning to create stunning media at a global scale.",
           "link": "https://netflixtechblog.com/new-series-creating-media-with-machine-learning-5067ac110bcd?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-11-11T17:26:39.000Z",
-          "wordCount": 2794,
+          "wordCount": 2861,
           "title": "New Series: Creating Media with Machine Learning",
           "imageUrl": "https://miro.medium.com/max/1200/1*T2e7vX6T2kyV7p9q8UD9GA.jpeg"
         },
@@ -1305,7 +1290,7 @@
           "description": "By Soheil Esmaeilzadeh, Negin Salajegheh, Amir Ziai, Jeff Boote",
           "link": "https://netflixtechblog.com/machine-learning-for-fraud-detection-in-streaming-services-b0b4ef3be3f6?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-11-11T17:26:15.000Z",
-          "wordCount": 6418,
+          "wordCount": 6349,
           "title": "Machine Learning for Fraud Detection in Streaming Services",
           "imageUrl": "https://miro.medium.com/max/938/0*Xz_msGGGvLslTL1H"
         },
@@ -1315,7 +1300,7 @@
           "description": "By Vadim Filanovsky and Harshad Sane",
           "link": "https://netflixtechblog.com/seeing-through-hardware-counters-a-journey-to-threefold-performance-increase-2721924a2822?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-11-09T23:47:03.000Z",
-          "wordCount": 5606,
+          "wordCount": 5640,
           "title": "Seeing through hardware counters: a journey to threefold performance increase",
           "imageUrl": "https://miro.medium.com/max/1095/1*kNa4K5MdxqXQdchQVEBnFA.png"
         },
@@ -1325,7 +1310,7 @@
           "description": "by Tomasz Bak and Fabio Kung",
           "link": "https://netflixtechblog.com/consistent-caching-mechanism-in-titus-gateway-6cb89b9ce296?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-11-03T19:19:31.000Z",
-          "wordCount": 6786,
+          "wordCount": 6719,
           "title": "Consistent caching mechanism in Titus Gateway",
           "imageUrl": "https://miro.medium.com/max/1044/1*RvGGmYT-CVWX7IgWJmMABQ.png"
         }
@@ -1351,10 +1336,10 @@
           "author": null,
           "description": "Posted by Alexander Zlokapa, Student Researcher, and Hartmut Neven, VP of Engineering, Quantum AI Team  \nWormholes — wrinkles in the fabric of spacetime that connect two disparate locations — may seem like the stuff of science fiction. But whether or not they exist in reality, studying these hypothetical objects could be the key to making concrete the tantalizing link between information and matter that has bedeviled physicists for decades.  \n  \nSurprisingly, a quantum computer is an ideal platform to investigate this connection. The trick is to use a correspondence called AdS/CFT, which establishes an equivalence between a theory that describes gravity and spacetime (and wormholes) in a fictional world with a special geometry (AdS) to a quantum theory that does not contain gravity at all …",
           "link": "http://ai.googleblog.com/2022/11/making-traversable-wormhole-with.html",
-          "publishedOn": "2022-11-30T16:04:00.006Z",
+          "publishedOn": "2022-11-30T16:04:00.013Z",
           "wordCount": 28078,
           "title": "Making a Traversable Wormhole with a Quantum Computer",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5wJq1XeVk3yMfizAdWGkCMkgf88FBqux0xeYzLR0eflaaJ_Zn5kQyCbqnjeX0RGUq6woDWv_UvU5VaApK18ykmT-MDkozO9tBJyeJ0t0wswZRkQvJQmVtajFE27rMxh2BBRtTsWatbkpkGWB9T4Hx79WajharEGy9loPzpRo3apT4KPtsWe81adst7Q/s72-c/image2(3)-buffer.jpg"
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhU9eS2OdfWaWTauxP5RgeHe1s6IYR0YoHRBoBwJ9Mu9WOp7xooz3-SmedxYte9sERlcdbImkXgHoIp0jIkUiTgxp_xSJpbgoTHmqYJQ9q2nelfPePSmEV93JJmoo-fvwmCKzLTf2Lx9CkR9BnJoWcf6DbvSHooCMNLOb_iU8Ox6gHJvyuvm6FAAK3yag/s72-c/quantum%20hero.png"
         },
         {
           "id": "http://ai.googleblog.com/2022/11/better-language-models-without-massive.html",
@@ -1464,12 +1449,32 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=43316",
+          "author": "Seth Godin",
+          "description": "Every small business needs a bookkeeper, but few take appropriate advantage of accounting. Accounting is a way to turn organized books into insight. Particularly:",
+          "link": "https://feeds.feedblitz.com/~/720940456/0/sethsblog~Accounting-and-small-business/",
+          "publishedOn": "2022-12-02T10:38:00.000Z",
+          "wordCount": 1213,
+          "title": "Accounting (and small business)",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806139-1.jpg"
+        },
+        {
+          "id": "https://seths.blog/?p=44313",
+          "author": "Seth Godin",
+          "description": "Even with the powerful Ecosia engine, but especially with Google and Amazon, it’s getting rarer and rarer that a search feels as though it finds just the right site or product or information on the very first try. There are a few reasons for this:",
+          "link": "https://feeds.feedblitz.com/~/720936562/0/sethsblog~The-reasons-search-seems-to-be-getting-worse/",
+          "publishedOn": "2022-12-02T09:34:00.000Z",
+          "wordCount": 1324,
+          "title": "The reasons search seems to be getting worse",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061314.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=44295",
           "author": "Seth Godin",
           "description": "In the Northern Hemisphere, it gets dark in December. And worldwide, people buy gifts for whatever holidays they celebrate, and a lot of them are around the corner. For both reasons, books! The Carbon Almanac was an Amazon Editor’s choice, a Do Lectures top 100 choice, a bestseller in every country it has been released […]",
           "link": "https://feeds.feedblitz.com/~/720869478/0/sethsblog~Books-for-your-solstice/",
           "publishedOn": "2022-12-01T15:07:01.000Z",
-          "wordCount": 1274,
+          "wordCount": 1275,
           "title": "Books for your solstice",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg"
         },
@@ -1542,26 +1547,6 @@
           "wordCount": 1139,
           "title": "A paradox of status and power",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061315.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=44273",
-          "author": "Seth Godin",
-          "description": "Gratitude might be the way forward. So much of what ails us gets a bit better when we say ‘thank you.’ Even when it’s hard. Especially then.",
-          "link": "https://feeds.feedblitz.com/~/720256738/0/sethsblog~An-antidote/",
-          "publishedOn": "2022-11-24T09:49:00.000Z",
-          "wordCount": 1086,
-          "title": "An antidote",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061314.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=43291",
-          "author": "Seth Godin",
-          "description": "It changes. It changes as we age, and it changes depending on the situation. A second-grader might think that a boring class is never going to end. A bad cold might feel endless, unless we have the perspective of someone who has experienced a chronic problem. Some things actually deserve “never.” But most of what […]",
-          "link": "https://feeds.feedblitz.com/~/720173242/0/sethsblog~How-long-is-never/",
-          "publishedOn": "2022-11-23T09:35:00.000Z",
-          "wordCount": 1128,
-          "title": "How long is “never”?",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061313.jpg"
         }
       ]
     },
@@ -1571,12 +1556,112 @@
       "siteUrl": "https://blog.jetbrains.com",
       "articles": [
         {
+          "id": "https://blog.jetbrains.com/?post_type=pycharm&p=302658",
+          "author": "Valeria Letusheva",
+          "description": "PyCharm 2022.3 brings an improved experience for working with asynchronous code in the Python Console – to call coroutines you can now use the await keyword outside of functions. The Python Packages tool window can now help you find, install, and delete packages from the Anaconda package library (in addition to PyPI). For pandas DataFrames […]",
+          "link": "https://blog.jetbrains.com/pycharm/2022/12/2022-3/",
+          "publishedOn": "2022-12-01T20:04:58.000Z",
+          "wordCount": 2264,
+          "title": "PyCharm 2022.3 Is Out!",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/12/Release_Preview_image_1280x600_PyCharm-2x-1.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=dataspell&p=302965",
+          "author": "Valeria Letusheva",
+          "description": "With DataSpell 2022.3, DataSpell celebrates its first birthday! This release introduces some highly requested features that make working on your data science projects a breeze, whether you’re developing locally or on a remote machine. Harnessing cloud resources is straightforward with the ability to configure remote interpreters using SSH and debug notebooks running on Jupyter servers. […]",
+          "link": "https://blog.jetbrains.com/dataspell/2022/12/2022-3/",
+          "publishedOn": "2022-12-01T19:32:42.000Z",
+          "wordCount": 2651,
+          "title": "DataSpell 2022.3: Support for Remote Interpreter Connections via SSH, Remote Jupyter Debugging, Local History for Tracking and Reverting Changes",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/12/Release_Preview_image_1280x600_DataSpell-2x-2.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=blog&p=301546",
+          "author": "Max Golov",
+          "description": "We’ve partnered with Amazon to deliver an integration between Amazon CodeCatalyst and JetBrains Gateway! Amazon CodeCatalyst, which has just been announced at AWS re:Invent, is a unified software development and delivery service that includes on-demand development environments. This integration means that you can now use JetBrains Gateway to develop remotely with your favorite JetBrains IDEs […]",
+          "link": "https://blog.jetbrains.com/blog/2022/12/01/remote-development-in-jetbrains-ides-now-available-to-amazon-codecatalyst-customers/",
+          "publishedOn": "2022-12-01T18:06:41.000Z",
+          "wordCount": 2450,
+          "title": "Remote Development in JetBrains IDEs Now Available to Amazon CodeCatalyst Customers",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/12/Blog_Social_share_image_1280x720-1.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=education&p=301315",
+          "author": "Anastasia Khramushina",
+          "description": "Starting with EduTools 2022.11, we no longer release new versions of IntelliJ IDEA Edu and PyCharm Edu. Instead, we recommend installing IntelliJ IDEA Community Edition or PyCharm Community Edition, which now provide educational functionality out of the box. To make use of these educational features, install the IDE that you prefer, switch to the Learn […]",
+          "link": "https://blog.jetbrains.com/education/2022/12/01/sunsetting-educational-ides/",
+          "publishedOn": "2022-12-01T16:57:40.000Z",
+          "wordCount": 2248,
+          "title": "Sunsetting Educational IDEs",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/11/DSGN-14519_SunsettingEDU_IDEs_Blog_Social_share_image_1280x720.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=phpstorm&p=302857",
+          "author": "Brent Roose",
+          "description": "We’ve released PhpStorm 2022.2.4, the fourth minor update for PhpStorm 2022.2. You can upgrade using the Toolbox App or from right inside the IDE. You can also download PhpStorm 2022.2.3 from our website. These are the most notable changes and bug fixes: Fixed: Unsupported LanguageLevel in LanguageLevelTypeAware (WI-68761) Fixed: SIGSEGV on macOS (JBR-4856)  Fixed: Blank […]",
+          "link": "https://blog.jetbrains.com/phpstorm/2022/12/phpstorm-2022-2-4-is-now-available/",
+          "publishedOn": "2022-12-01T15:27:35.000Z",
+          "wordCount": 1859,
+          "title": "PhpStorm 2022.2.4 is now available",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/12/ps-release-blog-social-share-image-1280x720-1.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=teamcity&p=302774",
+          "author": "Julia Alexandrova",
+          "description": "Today we’ve released an update for the latest TeamCity version.  TeamCity 2022.10.1 focuses on fixing performance issues and improving the features released in 2022.10, with an emphasis on Amazon EC2 connection and HTTPS configuration on the server. Here are a couple of other notable changes included in this bugfix update:  TeamCity now supports custom SSL […]",
+          "link": "https://blog.jetbrains.com/teamcity/2022/12/teamcity-2022-10-1-is-available/",
+          "publishedOn": "2022-12-01T15:24:39.000Z",
+          "wordCount": 1976,
+          "title": "TeamCity 2022.10.1 is available",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/02/teamcity_social.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=297229",
+          "author": "Maarten Balliauw",
+          "description": "Have you tried the latest Rider 2022.3 (Early Access Program) yet? It may feel faster than previous versions, because… it is! As part of the Rider 2022.3 release, we have been working on a number of performance improvements to make solutions load faster, speed up syntax highlighting when opening editor tabs, and more. Let’s have […]",
+          "link": "https://blog.jetbrains.com/dotnet/2022/12/01/improved-startup-performance-in-rider-2022-3/",
+          "publishedOn": "2022-12-01T14:59:32.000Z",
+          "wordCount": 2688,
+          "title": "Improved Startup Performance in Rider 2022.3",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/11/rd-how-tos-blog-social-share-image-1280x720-1.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=datagrip&p=301791",
+          "author": "Alisa Lukonina",
+          "description": "DataGrip 2022.3 is here! This is the third major update of 2022, and it’s packed with various enhancements. Let’s take a look at what it has to offer! For a detailed description of this update, please visit our What’s new page. General Redis Support New UI available via settings New Settings Sync solution Virtual views […]",
+          "link": "https://blog.jetbrains.com/datagrip/2022/12/01/datagrip-2022-3-redis-support/",
+          "publishedOn": "2022-12-01T14:49:00.000Z",
+          "wordCount": 1988,
+          "title": "DataGrip 2022.3: Redis Support, Quick Filter In Database Explorer, Pattern-Based Schema Filtering, Formats for Datetime Fields, and More!",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/11/Blog_Featured_image_1280x600-10.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=go&p=301217",
+          "author": "Ekaterina Zharova",
+          "description": "Today is a huge milestone for us. Not only are we releasing v2022.3, our third and biggest update of the year, but it’s also GoLand’s 5th anniversary! All this wouldn’t have been possible without the most meaningful part of our job – you!  We have a surprise gift for you and invite you to have […]",
+          "link": "https://blog.jetbrains.com/go/2022/12/01/goland-turns-5/",
+          "publishedOn": "2022-12-01T13:56:08.000Z",
+          "wordCount": 2772,
+          "title": "GoLand Turns 5 and Releases v2022.3!",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/12/Blog_Featured_image_1280x600.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=mps&p=302569",
+          "author": "Oscar Rodriguez",
+          "description": "MPS 2022.2 came with a major change in the Java Development Kit version. It now supports JDK 17, while the previous versions supported and ran on JDK 11. This change may or may not impact your projects, so we decided to cover the areas that could be affected. The platform update The JDK change originated […]",
+          "link": "https://blog.jetbrains.com/mps/2022/12/jdk-update-in-mps-2022-2/",
+          "publishedOn": "2022-12-01T10:55:17.000Z",
+          "wordCount": 2212,
+          "title": "JDK update in MPS 2022.2",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/11/Release_Preview_image_1280x600_MPS-2x.png"
+        },
+        {
           "id": "https://blog.jetbrains.com/?post_type=scala&p=296734",
           "author": "Maciej Gorywoda",
           "description": "This release has been again focused on Scala 3, but there are also quite a few other improvements. Better Scala 3 support In v2022.3, we’ve introduced a large number of upgrades to provide better Scala 3 support. The IDE now supports parameter untupling and quoted patterns, and it features many improvements to the support for […]",
           "link": "https://blog.jetbrains.com/scala/2022/11/30/intellij-scala-plugin-2022-3-is-out/",
           "publishedOn": "2022-11-30T18:39:05.000Z",
-          "wordCount": 2378,
+          "wordCount": 2399,
           "title": "IntelliJ Scala Plugin 2022.3 Is Out!",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/11/1_Improved_Scala3_Support-1.png"
         },
@@ -1589,106 +1674,6 @@
           "wordCount": 2482,
           "title": "RubyMine 2022.3 Released!",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/11/Release_Preview_image_1280x600_RubyMine.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=idea&p=300368",
-          "author": "Maria Kosukhina",
-          "description": "IntelliJ IDEA 2022.3 is now available with numerous improvements and cool new features! You can download the new version from our website, update directly from the IDE or via the free Toolbox App, or use snaps for Ubuntu. In this new version you can preview the completely reworked look and feel of the IDE by […]",
-          "link": "https://blog.jetbrains.com/idea/2022/11/intellij-idea-2022-3/",
-          "publishedOn": "2022-11-30T16:34:31.000Z",
-          "wordCount": 3650,
-          "title": "IntelliJ IDEA 2022.3 Is Out!",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/11/Release_Preview_image_1280x600_IntelliJIDEA-2x-2.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=clion&p=301891",
-          "author": "Anastasia Kazakova",
-          "description": "This year’s third and biggest update of CLion is finally here. CLion 2022.3 is available in the Toolbox App, as a snap package (on Ubuntu), from our website, or via a patch update from version 2022.2. CLion 2022.3 provides better user experience across the board, from projects with only a couple of C/C++ files to […]",
-          "link": "https://blog.jetbrains.com/clion/2022/11/clion-2022-3-released/",
-          "publishedOn": "2022-11-30T14:08:56.000Z",
-          "wordCount": 3380,
-          "title": "CLion 2022.3 Released!",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/11/Blog-featured-image-for-the-release-post_1280x720_CLion_released-2x.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=pycharm&p=301785",
-          "author": "Valeria Letusheva",
-          "description": "PyCharm 2022.3 is just around the corner and the second Release Candidate is here! You can download the new version from our website, update directly from the IDE or via the free Toolbox App, or use snaps for Ubuntu. Download PyCharm 2022.3 RC This build requires an active subscription to PyCharm Professional. Here are the […]",
-          "link": "https://blog.jetbrains.com/pycharm/2022/11/2022-3-rc-2/",
-          "publishedOn": "2022-11-29T17:21:50.000Z",
-          "wordCount": 1994,
-          "title": "The Second Release Candidate for PyCharm 2022.3 Is Out!",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/11/Blog_Featured_image_1280x600_PyCharm-2x-1.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=idea&p=301600",
-          "author": "Maria Kosukhina",
-          "description": "In December, we’ll host a new live stream about Testcontainers and its advanced features. Register today and join us for the event! Date: Thursday, December 15 Time: 4:00 pm – 5:00 pm CET Agenda Testcontainers libraries are a great way to create a reliable environment for running tests. They provide programmable, lightweight, and disposable containers […]",
-          "link": "https://blog.jetbrains.com/idea/2022/11/mastering-testcontainers-for-better-integration-tests/",
-          "publishedOn": "2022-11-29T14:14:03.000Z",
-          "wordCount": 2001,
-          "title": "New Live Stream: Mastering Testcontainers for Better Integration Tests",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/11/IntelliJ-IDEA-LiveStream-15th-December.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=idea&p=299952",
-          "author": "Mala Gupta",
-          "description": "Java is more vibrant than ever before. Its shorter release cadence lets us all try out its new language or platform features, every six months. IntelliJ IDEA helps us to discover and use these new features, without making them overwhelming for us. In this blog post, I will limit the coverage of Java 19 to […]",
-          "link": "https://blog.jetbrains.com/idea/2022/11/java-19-and-intellij-idea/",
-          "publishedOn": "2022-11-29T06:53:21.000Z",
-          "wordCount": 4680,
-          "title": "Java 19 and IntelliJ IDEA",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/11/Blog_Social_share_image_1280x720-8.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=webstorm&p=299634",
-          "author": "David Watson",
-          "description": "WebStorm 2022.3, our biggest update of the year, is here! This update is packed with new features and bug fixes to improve your development experience. There’s a new UI preview, Vitest support, an updated New Project wizard, type narrowing in Angular templates, Code Vision for JavaScript and TypeScript, improvements for Vue, and much more waiting […]",
-          "link": "https://blog.jetbrains.com/webstorm/2022/11/webstorm-2022-3/",
-          "publishedOn": "2022-11-28T18:17:00.000Z",
-          "wordCount": 2172,
-          "title": "WebStorm 2022.3: New UI Preview, Vue and Angular Improvements, and Vitest Support",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/11/WebStorm-2022-3-Social-media-share.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=kotlin&p=301231",
-          "author": "Ksenia Shneyveys",
-          "description": "Make a list and check it twice because Advent of Code season is almost here! We can’t wait for December 1, when the first of the 25 holiday-themed puzzles unlocks on adventofcode.com.  For the second year in a row, JetBrains will be sponsoring Advent of Code in 2022. Many of our colleagues will solve these […]",
-          "link": "https://blog.jetbrains.com/kotlin/2022/11/advent-of-code-2022-in-kotlin/",
-          "publishedOn": "2022-11-28T18:04:58.000Z",
-          "wordCount": 2408,
-          "title": "Take Part in Advent of Code 2022 in Kotlin and Win Prizes!",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/11/DSGN-15081-Solve-Advent-of-Code-2022-in-Kotlin_Twitter-Blogpost.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=phpstorm&p=301235",
-          "author": "Roman Pronskiy",
-          "description": "The second release candidate for PhpStorm 2022.3 is now available. It’s the final build before the stable release. Unlike EAP builds, this RC requires you to have a valid PhpStorm license. Let’s take a brief look at some of the most interesting improvements coming in v2022.3: PHP 8.2 full support Code Vision for PHP New […]",
-          "link": "https://blog.jetbrains.com/phpstorm/2022/11/phpstorm-2022-3-rc2/",
-          "publishedOn": "2022-11-28T17:29:02.000Z",
-          "wordCount": 1892,
-          "title": "PhpStorm 2022.3 RC2",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/11/ps-release-blog-social-share-image-1280x720-1-4.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=space&p=301216",
-          "author": "Elena Berendeeva",
-          "description": "We’re excited to announce the winners of the Space Apps Contest! First of all, we want to thank all of the Contest participants and everybody who voted for the “People’s Choice” award. During the Contest we had 534 registered users, 35 submitted apps, and 14 apps approved as finalists. Since we closed app submission on […]",
-          "link": "https://blog.jetbrains.com/space/2022/11/28/space-apps-contest-winners/",
-          "publishedOn": "2022-11-28T16:46:12.000Z",
-          "wordCount": 1814,
-          "title": "Space Apps Contest: The Winners",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/11/Blogpost-2560x1200-1-1.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=rust&p=301099",
-          "author": "Anastasia Kazakova",
-          "description": "Hello, We are interested in learning how exactly Rust and C/C++ ecosystems coexist. That’s why we’d like to learn from Rust developers about their experience and best practices with C and C++ code in their Rust code base. We would appreciate it if you could take 5 minutes to fill out a survey. The data […]",
-          "link": "https://blog.jetbrains.com/rust/2022/11/28/rust-developers-survey/",
-          "publishedOn": "2022-11-28T13:23:39.000Z",
-          "wordCount": 1848,
-          "title": "Rust developers survey",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/11/DSGN-15127_Rust_Dev_Survey_Blog_Social_share_image_1280x720.png"
         }
       ]
     }

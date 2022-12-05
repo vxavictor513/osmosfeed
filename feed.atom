@@ -1,10 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-12-04T01:35:55.647Z</id>
+    <id>urn:2022-12-05T01:26:41.451Z</id>
     <title>osmos::feed</title>
-    <updated>2022-12-04T01:35:55.647Z</updated>
+    <updated>2022-12-05T01:26:41.451Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Blog: Forensic container checkpointing in Kubernetes]]></title>
+        <id>https://kubernetes.io/blog/2022/12/05/forensic-container-checkpointing-alpha/</id>
+        <link href="https://kubernetes.io/blog/2022/12/05/forensic-container-checkpointing-alpha/"/>
+        <updated>2022-12-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Authors: Adrian Reber (Red Hat)
+Forensic container checkpointing is based on Checkpoint/Restore In
+Userspace (CRIU) and allows the creation of stateful copies
+of a running container without the container knowing that it is being
+checkpointed. The copy of the container can be analyzed and restored in a
+sandbox environment multiple times without the original container being aware
+of it. Forensic container checkpointing was introduced as an alpha feature in
+Kubernetes v1.25.
+How does it work?
+With the help of CRIU it is possible to checkpoint and restore containers.
+CRIU is integrated in runc, crun, CRI-O and containerd and forensic container
+checkpointing as implemented in Kubernetes uses these existing CRIU
+integrations.
+Why is it important?
+With the help of CRIU and the corresponding integ…]]></summary>
+        <author>
+            <name>Kubernetes – Production-Grade Container Orchestration</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[When we look in the mirror]]></title>
+        <id>https://seths.blog/?p=43301</id>
+        <link href="https://feeds.feedblitz.com/~/721083716/0/sethsblog~When-we-look-in-the-mirror/"/>
+        <updated>2022-12-04T09:16:00.000Z</updated>
+        <summary type="html"><![CDATA[When we look in the mirror, who do we see? [A note I sent to a young friend.] The person we see when we look in the mirror is the person we become, the person we fight to defend and persist with. If you see someone who doesn’t have a lot of friends, then every […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ready-to-go sample data pipelines with Dataflow]]></title>
         <id>https://medium.com/p/17440a9e141d</id>
@@ -959,16 +993,6 @@ If you run in …]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[You left out the all caps part]]></title>
-        <id>https://seths.blog/?p=43293</id>
-        <link href="https://feeds.feedblitz.com/~/720407310/0/sethsblog~You-left-out-the-all-caps-part/"/>
-        <updated>2022-11-26T09:39:00.000Z</updated>
-        <summary type="html"><![CDATA[If you see a set of rules that don’t make sense, that are overly stern, that seemed designed to be offputting instead of helpful, it’s possible that the poster is leaving part of the memo unsaid: It could be something like: THE LAST CUSTOMER WAS UNFAIR AND UNKIND! And so the list of rules to […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Paper Title]]></title>
         <id>https://xkcd.com/2703/</id>
         <link href="https://xkcd.com/2703/"/>
@@ -1768,6 +1792,7 @@ The capacity of a neural network to absorb information is limited by the number 
         <id>https://medium.com/p/d308ee43c079</id>
         <link href="https://netflixtechblog.com/helping-vfx-studios-pave-a-path-to-the-cloud-d308ee43c079?source=rss----2615bd06b42e---4"/>
         <updated>2022-11-15T17:03:55.000Z</updated>
+        <summary type="html"><![CDATA[By: Peter Cioni (Netflix), Alex Schworer (Netflix), Mac Moore (Conductor Tech.), Rachel Kelley (AWS), Ranjit Raju (AWS)]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -1977,17 +2002,6 @@ In a research effort we call Infinite Nature, we show that computers can learn t
         <summary type="html"><![CDATA[Have you ever had to query and remove a long list of ServiceNow records? Yeah, neither have I until recently. Nobody broke into my instance, and this isn't a one-time operation, I just happen to maintain an instance that we use to test our Red Hat Ansible Certified Content Collection for ServiceNow ITSM.]]></summary>
         <author>
             <name>cmcnaugh@redhat.com (Colin McNaughton)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to build a Camunda Platform 8 Connector]]></title>
-        <id>https://camunda.com/?p=66548</id>
-        <link href="https://camunda.com/blog/2022/11/how-to-build-camunda-platform-8-connector/"/>
-        <updated>2022-11-04T17:57:59.000Z</updated>
-        <summary type="html"><![CDATA[Learn how to build a Camunda Platform 8 Connector. Quickly start building your own custom Connectors using Camunda today.
-The post How to build a Camunda Platform 8 Connector appeared first on Camunda.]]></summary>
-        <author>
-            <name>Josh Wulf</name>
         </author>
     </entry>
 </feed>

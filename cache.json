@@ -629,7 +629,7 @@
           "description": "Nothing exciting to report for sprint 213. We spent most of our time fixing issues and continue to make good progress. You will also see the new usability feature added below.\nIssue\nTemplates with Assigned to @me\nThe post New Boards Hub, Sprint 213 Update appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/new-boards-hub-sprint-213-update/",
           "publishedOn": "2022-11-16T20:35:07.000Z",
-          "wordCount": 5041,
+          "wordCount": 5117,
           "title": "New Boards Hub, Sprint 213 Update",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2018/08/vstsfeature.png"
         },
@@ -639,7 +639,7 @@
           "description": "The Microsoft.VisualStudio.Services.InteractiveClient library is a public NuGet package that takes care of authenticating to Azure DevOps Services. It abstracts away the acquisition, management and refreshing of authentication tokens, so developers can focus on their goals and stay productive.\nThe post Azure DevOps client libraries migrated to MSAL appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azure-devops-client-libraries-migrated-to-msal/",
           "publishedOn": "2022-11-15T12:14:23.000Z",
-          "wordCount": 5016,
+          "wordCount": 4702,
           "title": "Azure DevOps client libraries migrated to MSAL",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/11/Security.png"
         },
@@ -649,7 +649,7 @@
           "description": "Recently, the Azure DevOps team completed an initiative to associate all Azure DevOps REST APIs with a granular personal access token (PAT) scope. As part of our ongoing investments in security, we undertook this effort to reduce the risks associated with a leaked PAT credential.\nThe post All Azure DevOps REST APIs now support PAT scopes appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/all-azure-devops-rest-apis-now-support-pat-scopes/",
           "publishedOn": "2022-11-09T22:01:54.000Z",
-          "wordCount": 4483,
+          "wordCount": 4873,
           "title": "All Azure DevOps REST APIs now support PAT scopes",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/11/Security.png"
         }
@@ -926,7 +926,7 @@
           "description": "Learn how process mapping can help your organization gain an advantage. See an example and tips and recommendations for creating one yourself.\nThe post Benefits of process mapping: Examples and guide appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/12/process-mapping-benefits/",
           "publishedOn": "2022-12-01T21:48:46.000Z",
-          "wordCount": 3700,
+          "wordCount": 3701,
           "title": "Benefits of process mapping: Examples and guide",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/12/benefits-of-process-mapping.png"
         },
@@ -966,7 +966,7 @@
           "description": "You can now take advantage of development clusters on our professional plan to test your models quickly outside of production.\nThe post Add dev clusters in Camunda Platform 8 SaaS and test models faster appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/11/dev-clusters-camunda-platform-8-saas/",
           "publishedOn": "2022-11-14T21:35:48.000Z",
-          "wordCount": 2345,
+          "wordCount": 2346,
           "title": "Add dev clusters in Camunda Platform 8 SaaS and test models faster",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/11/Camunda_how-to-add-development-cluster-C8-SaaS_1200x627.png"
         },
@@ -996,19 +996,9 @@
           "description": "The first alpha release of Camunda Platform Runtime 7.19 features improved engine loading times, support for basic authentication in OpenAPI specification and multiple bug fixes.\nThe post Camunda Automation Platform 7.19.0-alpha1 released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/11/camunda-automation-platform-7-19-0-alpha1-released/",
           "publishedOn": "2022-11-08T16:18:20.000Z",
-          "wordCount": 2433,
+          "wordCount": 2434,
           "title": "Camunda Automation Platform 7.19.0-alpha1 released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/11/camunda-platform-7-19-0-alpha1-release-2.jpg"
-        },
-        {
-          "id": "https://camunda.com/?p=66548",
-          "author": "Josh Wulf",
-          "description": "Learn how to build a Camunda Platform 8 Connector. Quickly start building your own custom Connectors using Camunda today.\nThe post How to build a Camunda Platform 8 Connector appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2022/11/how-to-build-camunda-platform-8-connector/",
-          "publishedOn": "2022-11-04T17:57:59.000Z",
-          "wordCount": 5133,
-          "title": "How to build a Camunda Platform 8 Connector",
-          "imageUrl": "https://camunda.com/wp-content/uploads/2022/11/Camunda_2022_Build-Platform-8-Connector_1200x630.png"
         }
       ]
     },
@@ -1168,12 +1158,22 @@
       "siteUrl": "https://kubernetes.io/",
       "articles": [
         {
+          "id": "https://kubernetes.io/blog/2022/12/05/forensic-container-checkpointing-alpha/",
+          "author": null,
+          "description": "Authors: Adrian Reber (Red Hat)\nForensic container checkpointing is based on Checkpoint/Restore In\nUserspace (CRIU) and allows the creation of stateful copies\nof a running container without the container knowing that it is being\ncheckpointed. The copy of the container can be analyzed and restored in a\nsandbox environment multiple times without the original container being aware\nof it. Forensic container checkpointing was introduced as an alpha feature in\nKubernetes v1.25.\nHow does it work?\nWith the help of CRIU it is possible to checkpoint and restore containers.\nCRIU is integrated in runc, crun, CRI-O and containerd and forensic container\ncheckpointing as implemented in Kubernetes uses these existing CRIU\nintegrations.\nWhy is it important?\nWith the help of CRIU and the corresponding integ…",
+          "link": "https://kubernetes.io/blog/2022/12/05/forensic-container-checkpointing-alpha/",
+          "publishedOn": "2022-12-05T00:00:00.000Z",
+          "wordCount": 4115,
+          "title": "Blog: Forensic container checkpointing in Kubernetes",
+          "imageUrl": null
+        },
+        {
           "id": "https://kubernetes.io/blog/2022/12/02/seccomp-notifier/",
           "author": null,
           "description": "Authors: Sascha Grunert\nDebugging software in production is one of the biggest challenges we have to\nface in our containerized environments. Being able to understand the impact of\nthe available security options, especially when it comes to configuring our\ndeployments, is one of the key aspects to make the default security in\nKubernetes stronger. We have all those logging, tracing and metrics data already\nat hand, but how do we assemble the information they provide into something\nhuman readable and actionable?\nSeccomp is one of the standard mechanisms to protect a Linux based\nKubernetes application from malicious actions by interfering with its system\ncalls. This allows us to restrict the application to a defined set of\nactionable items, like modifying files or responding to HTTP requests. …",
           "link": "https://kubernetes.io/blog/2022/12/02/seccomp-notifier/",
           "publishedOn": "2022-12-02T00:00:00.000Z",
-          "wordCount": 4874,
+          "wordCount": 4878,
           "title": "Blog: Finding suspicious syscalls with the seccomp notifier",
           "imageUrl": null
         },
@@ -1183,7 +1183,7 @@
           "description": "Authors: Sascha Grunert\nWhen speaking about observability in the cloud native space, then probably\neveryone will mention OpenTelemetry (OTEL) at some point in the\nconversation. That's great, because the community needs standards to rely on\nfor developing all cluster components into the same direction. OpenTelemetry\nenables us to combine logs, metrics, traces and other contextual information\n(called baggage) into a single resource. Cluster administrators or software\nengineers can use this resource to get a viewport about what is going on in the\ncluster over a defined period of time. But how can Kubernetes itself make use of\nthis technology stack?\nKubernetes consists of multiple components where some are independent and others\nare stacked together. Looking at the architecture from a containe…",
           "link": "https://kubernetes.io/blog/2022/12/01/runtime-observability-opentelemetry/",
           "publishedOn": "2022-12-01T00:00:00.000Z",
-          "wordCount": 4516,
+          "wordCount": 4520,
           "title": "Blog: Boosting Kubernetes container runtime observability with OpenTelemetry",
           "imageUrl": "list_pod_sandbox.png"
         },
@@ -1193,7 +1193,7 @@
           "description": "Authors: Adolfo García Veytia (Chainguard), Bob Killen (Google)\nStarting with Kubernetes 1.25, our container image registry has changed from k8s.gcr.io to registry.k8s.io. This new registry spreads the load across multiple Cloud Providers & Regions, functioning as a sort of content delivery network (CDN) for Kubernetes container images. This change reduces the project’s reliance on a single entity and provides a faster download experience for a large number of users.\nTL;DR: What you need to know about this change\nContainer images for Kubernetes releases from 1.25 onward are no longer published to k8s.gcr.io, only to registry.k8s.io.\nIn the upcoming December patch releases, the new registry domain default will be backported to all branches still in support (1.22, 1.23, 1.24).\nIf you run in …",
           "link": "https://kubernetes.io/blog/2022/11/28/registry-k8s-io-faster-cheaper-ga/",
           "publishedOn": "2022-11-28T00:00:00.000Z",
-          "wordCount": 3854,
+          "wordCount": 3858,
           "title": "Blog: registry.k8s.io: faster, cheaper and Generally Available (GA)",
           "imageUrl": null
         },
@@ -1203,7 +1203,7 @@
           "description": "Author: Frederico Muñoz (SAS)\nChange is an integral part of the Kubernetes life-cycle: as Kubernetes grows and matures, features may be deprecated, removed, or replaced with improvements for the health of the project. For Kubernetes v1.26 there are several planned: this article identifies and describes some of them, based on the information available at this mid-cycle point in the v1.26 release process, which is still ongoing and can introduce additional changes.\nThe Kubernetes API Removal and Deprecation process\nThe Kubernetes project has a well-documented deprecation policy for features. This policy states that stable APIs may only be deprecated when a newer, stable version of that same API is available and that APIs have a minimum lifetime for each stability level. A deprecated API is o…",
           "link": "https://kubernetes.io/blog/2022/11/18/upcoming-changes-in-kubernetes-1-26/",
           "publishedOn": "2022-11-18T00:00:00.000Z",
-          "wordCount": 4199,
+          "wordCount": 4203,
           "title": "Blog: Kubernetes Removals, Deprecations, and Major Changes in 1.26",
           "imageUrl": null
         }
@@ -1220,7 +1220,7 @@
           "description": "by Jasmine Omeke, Obi-Ike Nwoke, Olek Gorajek",
           "link": "https://netflixtechblog.com/ready-to-go-sample-data-pipelines-with-dataflow-17440a9e141d?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-12-04T00:10:21.000Z",
-          "wordCount": 7187,
+          "wordCount": 7576,
           "title": "Ready-to-go sample data pipelines with Dataflow",
           "imageUrl": "https://miro.medium.com/max/1200/1*4IalrwbpzJovyfmA8lMtyA.png"
         },
@@ -1230,7 +1230,7 @@
           "description": "by Christos G. Bampis, Li-Heng Chen and Zhi Li",
           "link": "https://netflixtechblog.com/for-your-eyes-only-improving-netflix-video-quality-with-neural-networks-5b8d032da09c?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-11-17T21:08:00.000Z",
-          "wordCount": 3885,
+          "wordCount": 3854,
           "title": "For your eyes only: improving Netflix video quality with neural networks",
           "imageUrl": "https://miro.medium.com/max/1200/1*gn6_cn9dPKpu_YBykZvwDA.png"
         },
@@ -1240,19 +1240,19 @@
           "description": "What’s needed in the art of match cutting is tools to help editors find shots that match well together, which is what we’ve started…",
           "link": "https://netflixtechblog.com/match-cutting-at-netflix-finding-cuts-with-smooth-visual-transitions-31c3fc14ae59?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-11-17T16:37:01.000Z",
-          "wordCount": 6597,
+          "wordCount": 6617,
           "title": "Match Cutting at Netflix: Finding Cuts with Smooth Visual Transitions",
           "imageUrl": "https://miro.medium.com/max/854/0*vKMzII6YnjsnOda6"
         },
         {
           "id": "https://medium.com/p/d308ee43c079",
           "author": "Netflix Technology Blog",
-          "description": "",
+          "description": "By: Peter Cioni (Netflix), Alex Schworer (Netflix), Mac Moore (Conductor Tech.), Rachel Kelley (AWS), Ranjit Raju (AWS)",
           "link": "https://netflixtechblog.com/helping-vfx-studios-pave-a-path-to-the-cloud-d308ee43c079?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-11-15T17:03:55.000Z",
-          "wordCount": null,
+          "wordCount": 3301,
           "title": "Helping VFX studios pave a path to the cloud",
-          "imageUrl": null
+          "imageUrl": "https://miro.medium.com/max/1200/0*r72QIuSe00fdricw"
         },
         {
           "id": "https://medium.com/p/5067ac110bcd",
@@ -1260,7 +1260,7 @@
           "description": "This blog series will be showing you how we use the power of machine learning to create stunning media at a global scale.",
           "link": "https://netflixtechblog.com/new-series-creating-media-with-machine-learning-5067ac110bcd?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-11-11T17:26:39.000Z",
-          "wordCount": 2805,
+          "wordCount": 2804,
           "title": "New Series: Creating Media with Machine Learning",
           "imageUrl": "https://miro.medium.com/max/1200/1*T2e7vX6T2kyV7p9q8UD9GA.jpeg"
         },
@@ -1270,7 +1270,7 @@
           "description": "By Soheil Esmaeilzadeh, Negin Salajegheh, Amir Ziai, Jeff Boote",
           "link": "https://netflixtechblog.com/machine-learning-for-fraud-detection-in-streaming-services-b0b4ef3be3f6?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-11-11T17:26:15.000Z",
-          "wordCount": 6408,
+          "wordCount": 6391,
           "title": "Machine Learning for Fraud Detection in Streaming Services",
           "imageUrl": "https://miro.medium.com/max/938/0*Xz_msGGGvLslTL1H"
         },
@@ -1280,7 +1280,7 @@
           "description": "By Vadim Filanovsky and Harshad Sane",
           "link": "https://netflixtechblog.com/seeing-through-hardware-counters-a-journey-to-threefold-performance-increase-2721924a2822?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-11-09T23:47:03.000Z",
-          "wordCount": 5543,
+          "wordCount": 5527,
           "title": "Seeing through hardware counters: a journey to threefold performance increase",
           "imageUrl": "https://miro.medium.com/max/1095/1*kNa4K5MdxqXQdchQVEBnFA.png"
         }
@@ -1409,12 +1409,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=43301",
+          "author": "Seth Godin",
+          "description": "When we look in the mirror, who do we see? [A note I sent to a young friend.] The person we see when we look in the mirror is the person we become, the person we fight to defend and persist with. If you see someone who doesn’t have a lot of friends, then every […]",
+          "link": "https://feeds.feedblitz.com/~/721083716/0/sethsblog~When-we-look-in-the-mirror/",
+          "publishedOn": "2022-12-04T09:16:00.000Z",
+          "wordCount": 1468,
+          "title": "When we look in the mirror",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061313.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=43320",
           "author": "Seth Godin",
           "description": "It doesn’t matter how sure you are that this is a winning ticket, the ticket doesn’t care. And there are lots of lotteries in our lives. I was talking to a fifteen-year old the other day. He’s decided to devote the next decade of his life to getting drafted to play in the NBA. Without […]",
           "link": "https://feeds.feedblitz.com/~/721013992/0/sethsblog~Confidence-doesnt-help-win-the-lottery/",
           "publishedOn": "2022-12-03T09:51:00.000Z",
-          "wordCount": 1194,
+          "wordCount": 1195,
           "title": "Confidence doesn’t help win the lottery",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061311.jpg"
         },
@@ -1497,16 +1507,6 @@
           "wordCount": 1192,
           "title": "4 D Chess",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806132-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=43293",
-          "author": "Seth Godin",
-          "description": "If you see a set of rules that don’t make sense, that are overly stern, that seemed designed to be offputting instead of helpful, it’s possible that the poster is leaving part of the memo unsaid: It could be something like: THE LAST CUSTOMER WAS UNFAIR AND UNKIND! And so the list of rules to […]",
-          "link": "https://feeds.feedblitz.com/~/720407310/0/sethsblog~You-left-out-the-all-caps-part/",
-          "publishedOn": "2022-11-26T09:39:00.000Z",
-          "wordCount": 1282,
-          "title": "You left out the all caps part",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806135-1.jpg"
         }
       ]
     },
@@ -1561,7 +1561,7 @@
           "description": "We’ve partnered with Amazon to deliver an integration between Amazon CodeCatalyst and JetBrains Gateway! Amazon CodeCatalyst, which has just been announced at AWS re:Invent, is a unified software development and delivery service that includes on-demand development environments. This integration means that you can now use JetBrains Gateway to develop remotely with your favorite JetBrains IDEs […]",
           "link": "https://blog.jetbrains.com/blog/2022/12/01/remote-development-in-jetbrains-ides-now-available-to-amazon-codecatalyst-customers/",
           "publishedOn": "2022-12-01T18:06:41.000Z",
-          "wordCount": 2450,
+          "wordCount": 2454,
           "title": "Remote Development in JetBrains IDEs Now Available to Amazon CodeCatalyst Customers",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/12/Blog_Social_share_image_1280x720-1.png"
         },
@@ -1571,7 +1571,7 @@
           "description": "Starting with EduTools 2022.11, we no longer release new versions of IntelliJ IDEA Edu and PyCharm Edu. Instead, we recommend installing IntelliJ IDEA Community Edition or PyCharm Community Edition, which now provide educational functionality out of the box. To make use of these educational features, install the IDE that you prefer, switch to the Learn […]",
           "link": "https://blog.jetbrains.com/education/2022/12/01/sunsetting-educational-ides/",
           "publishedOn": "2022-12-01T16:57:40.000Z",
-          "wordCount": 2248,
+          "wordCount": 2246,
           "title": "Sunsetting Educational IDEs",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/11/DSGN-14519_SunsettingEDU_IDEs_Blog_Social_share_image_1280x720.png"
         },

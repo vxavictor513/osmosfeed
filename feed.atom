@@ -1,10 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-12-18T01:23:43.428Z</id>
+    <id>urn:2022-12-19T01:21:04.929Z</id>
     <title>osmos::feed</title>
-    <updated>2022-12-18T01:23:43.428Z</updated>
+    <updated>2022-12-19T01:21:04.929Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Blog: Kubernetes 1.26: Device Manager graduates to GA]]></title>
+        <id>https://kubernetes.io/blog/2022/12/19/devicemanager-ga/</id>
+        <link href="https://kubernetes.io/blog/2022/12/19/devicemanager-ga/"/>
+        <updated>2022-12-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Author: Swati Sehgal (Red Hat)
+The Device Plugin framework was introduced in the Kubernetes v1.8 release as a vendor
+independent framework to enable discovery, advertisement and allocation of external
+devices without modifying core Kubernetes. The feature graduated to Beta in v1.10.
+With the recent release of Kubernetes v1.26, Device Manager is now generally
+available (GA).
+Within the kubelet, the Device Manager facilitates communication with device plugins
+using gRPC through Unix sockets. Device Manager and Device plugins both act as gRPC
+servers and clients by serving and connecting to the exposed gRPC services respectively.
+Device plugins serve a gRPC service that kubelet connects to for device discovery,
+advertisement (as extended resources) and allocation. Device Manager connects to
+t…]]></summary>
+        <author>
+            <name>Kubernetes – Production-Grade Container Orchestration</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Staring at decisions]]></title>
+        <id>https://seths.blog/?p=42139</id>
+        <link href="https://feeds.feedblitz.com/~/722431772/0/sethsblog~Staring-at-decisions/"/>
+        <updated>2022-12-18T12:01:00.000Z</updated>
+        <summary type="html"><![CDATA[Soap is 85 cents a bar or two for a dollar. Which should you buy? It depends. It depends on how much space you have, whether you like this brand, how full your cart is and whether or not you’re sure if the person who sent you to the market wants you to buy two. […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The next big thing]]></title>
         <id>https://seths.blog/?p=44385</id>
@@ -936,16 +967,6 @@ Image signing was alpha for v…]]></summary>
         <summary type="html"><![CDATA[Before you say it, yes, the October Release Radar was supposed to be shared in November. But with Hackatoberfest, GitHub Universe, Turkey Day, and in real life (IRL) conferences returning to their pre-COVID frequency, we&#8217;ve all been so busy. And our community has been hustling to ship all kinds of open source projects. We wanted [&#8230;]]]></summary>
         <author>
             <name>The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The best job you ever had]]></title>
-        <id>https://seths.blog/?p=44319</id>
-        <link href="https://feeds.feedblitz.com/~/721540320/0/sethsblog~The-best-job-you-ever-had/"/>
-        <updated>2022-12-09T09:15:00.000Z</updated>
-        <summary type="html"><![CDATA[Would you fill out this simple, quick and informal survey for me? We spend most of our lives at work. And yet we don’t spend much time talking about it the opportunity to make it worthwhile. Thanks.]]></summary>
-        <author>
-            <name>Seth Godin</name>
         </author>
     </entry>
     <entry>
@@ -2017,29 +2038,6 @@ The post Camunda Platform 8 for .NET developers appeared first on Camunda.]]></s
         <summary type="html"><![CDATA[Beyond the buzz at AnsibleFest 2022 around event-driven automation, availability of Ansible in  AWS and Azure marketplaces, and Project Wisdom, some important changes were happening within Ansible automation hub, so let's take a closer look at the latest developments.]]></summary>
         <author>
             <name>trmcconn@redhat.com (Tricia McConnell)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Conversation Summaries in Google Chat]]></title>
-        <id>http://ai.googleblog.com/2022/11/conversation-summaries-in-google-chat.html</id>
-        <link href="http://ai.googleblog.com/2022/11/conversation-summaries-in-google-chat.html"/>
-        <updated>2022-11-18T20:23:00.002Z</updated>
-        <summary type="html"><![CDATA[Posted by Mohammad Saleh, Software Engineer, Google Research, Brain Team, and Yinan Wang, Software Engineer, Google Workspace   
-Information overload is a significant challenge for many organizations and individuals today. It can be overwhelming to keep up with incoming chat messages and documents that arrive at our inbox everyday. This has been exacerbated by the increase in virtual work and remains a challenge as many teams transition to a hybrid work environment with a mix of those working both virtually and in an office. One solution that can address information overload is summarization — for example, to help users improve their productivity and better manage so much information, we recently introduced auto-generated summaries in Google Docs.  
-
-Today, we are excited to introduce conv…]]></summary>
-        <author>
-            <name>Google AI Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Consul 1.14 GA: Announcing Simplified Service Mesh Deployments]]></title>
-        <id>https://www.hashicorp.com/blog/consul-1-14-ga-announcing-simplified-service-mesh-deployments</id>
-        <link href="https://www.hashicorp.com/blog/consul-1-14-ga-announcing-simplified-service-mesh-deployments"/>
-        <updated>2022-11-18T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[HashiCorp Consul 1.14 introduces the Consul dataplane, service mesh traffic management across cluster peers, and service failover enhancements.]]></summary>
-        <author>
-            <name>HashiCorp Blog</name>
         </author>
     </entry>
 </feed>

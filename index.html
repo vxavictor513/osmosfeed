@@ -22,6 +22,110 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-26 datetime="2022-12-26T00:00:00.000Z">2022-12-26</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-26 datetime="2022-12-26T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Kubernetes – Production-Grade Container Orchestration</button>
+                  <a class="source-heading__link" href="https://kubernetes.io/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kubernetes.io/blog/2022/12/26/pod-scheduling-readiness-alpha/"
+                        open
+                      >
+                        <summary class="article-expander__title">Blog: Kubernetes 1.26: Pod Scheduling Readiness</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kubernetes.io/blog/2022/12/26/pod-scheduling-readiness-alpha/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Author: Wei Huang (Apple), Abdullah Gharaibeh (Google)
+Kubernetes 1.26 introduced a new Pod feature: scheduling gates. In Kubernetes, scheduling gates
+are keys that tell the scheduler when a Pod is ready to be considered for scheduling.
+What problem does it solve?
+When a Pod is created, the scheduler will continuously attempt to find a node that fits it. This
+infinite loop continues until the scheduler either finds a node for the Pod, or the Pod gets deleted.
+Pods that remain unschedulable for long periods of time (e.g., ones that are blocked on some external event)
+waste scheduling cycles. A scheduling cycle may take ≅20ms or more depending on the complexity of
+the Pod&#x27;s scheduling constraints. Therefore, at scale, those wasted cycles significantly impact the
+scheduler&#x27;s performance. See …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;13
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-25 datetime="2022-12-25T09:20:00.000Z">2022-12-25</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-25 datetime="2022-12-25T09:20:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Seth Godin&#x27;s Blog on marketing, tribes and respect</button>
+                  <a class="source-heading__link" href="https://seths.blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://seths.blog/?p&#x3D;43495"
+                        open
+                      >
+                        <summary class="article-expander__title">Our dreaming opportunity</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://feeds.feedblitz.com/~/722940656/0/sethsblog~Our-dreaming-opportunity/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806133-1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>School and work push us to avoid real dreams. Dreamers are dangerous, impatient and unwilling to tolerate the status quo. Existing systems would prefer we simply fit in. The dreams we need to teach are the dreams of self-reliance and generosity. The only way for us to move forward is to encourage and amplify the […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-24 datetime="2022-12-24T09:51:00.000Z">2022-12-24</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-24 datetime="2022-12-24T09:51:00.000Z"></time>
           </button>
@@ -656,11 +760,48 @@ Kubernetes v1.20 introduced alpha support for kubelet credential provide…</spa
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-21 datetime="2022-12-21T17:40:27.000Z">2022-12-21</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-21 datetime="2022-12-21T17:40:27.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-21 datetime="2022-12-21T18:57:00.003Z">2022-12-21</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-21 datetime="2022-12-21T18:57:00.003Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Google AI Blog</button>
+                  <a class="source-heading__link" href="http://ai.googleblog.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://ai.googleblog.com/2022/12/ehr-safe-generating-high-fidelity-and.html"
+                        open
+                      >
+                        <summary class="article-expander__title">EHR-Safe: Generating High-Fidelity and Privacy-Preserving Synthetic Electronic Health Records</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://ai.googleblog.com/2022/12/ehr-safe-generating-high-fidelity-and.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjloy5mx4nao-SPC2L4jRY-v8gs7PaIMG81IU5qsHt0COVBvq3gSigOC6uuy3YOM5xGt_gTqclbz2jDjZ8HDmtLOkZJVj6ioyf5bDa8a4fiAfhQYeQYJXAL9NLn_aLDu96zi6o6RQT2Krl8M0L7cUb_4G5L9dWdCeXUzqlpm2Aquk0-fivAIlggvA82Jg/s72-c/EHRsafe.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Posted by Jinsung Yoon and Sercan O. Arik, Research Scientists, Google Research, Cloud AI Team  
+Analysis of Electronic Health Records (EHR) has a tremendous potential for enhancing patient care, quantitatively measuring performance of clinical practices, and facilitating clinical research. Statistical estimation and machine learning (ML) models trained on EHR data can be used to predict the probability of various diseases (such as diabetes), track patient wellness, and predict how patients respond to specific drugs. For such models, researchers and practitioners need access to EHR data. However, it can be challenging to leverage EHR data while ensuring data privacy and conforming to patient confidentiality regulations (such as HIPAA).  
+
+Conventional methods to anonymize data (e.g., de-id…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;93
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -1114,6 +1255,41 @@ What makes our offices special is that each one is designed with its location in
                             <span class="media-object__text">
                               <span>At the beginning of December we released a new version of GoLand and celebrated GoLand’s 5th anniversary. We have a surprise gift for you and invite you to celebrate it with us! Type “Happy B-day, GoLand!” in GoLand 2022.3 or GoLand 2022.2.5 and see what happens!   We are now ready to share our plans for […]</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Google AI Blog</button>
+                  <a class="source-heading__link" href="http://ai.googleblog.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://ai.googleblog.com/2022/12/differential-privacy-accounting-by.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Differential Privacy Accounting by Connecting the Dots</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://ai.googleblog.com/2022/12/differential-privacy-accounting-by.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4-TwH71IbVhZa8HjVhO7gpmZTCjPcMLOBgBRfFnbQ9oY3B_mk8mG5qls3e1-9Y5tzlylAHiIfjff7AxdustEp9yDF9-um5543gWhpKRa3rv9IGfI_BQZUbubVLmR533BZxxZHNPQqx7_hgCxm2GpET2UcUgz4AGEca-JAYmXcycivtaJ4bbi-Zz5-/s72-c/connect-the-dots-small.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Posted by Pritish Kamath and Pasin Manurangsi, Research Scientists, Google Research  
+Differential privacy (DP) is an approach that enables data analytics and machine learning (ML) with a mathematical guarantee on the privacy of user data.  DP quantifies the “privacy cost” of an algorithm, i.e., the level of guarantee that the algorithm’s output distribution for a given dataset will not change significantly if a single user’s data is added to or removed from it. The algorithm is characterized by two parameters, ε and δ, where smaller values of both indicate “more private”. There is a natural tension between the privacy budget (ε, δ) and the utility of the algorithm: a smaller privacy budget requires the output to be more “noisy”, often leading to less utility. Thus, a fundamental goal of D…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;93
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2118,6 +2294,43 @@ Since Spring now provides its own interface HTTP clients solution, starting with
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Google AI Blog</button>
+                  <a class="source-heading__link" href="http://ai.googleblog.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://ai.googleblog.com/2022/12/accelerating-text-generation-with.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Accelerating Text Generation with Confident Adaptive Language Modeling (CALM)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://ai.googleblog.com/2022/12/accelerating-text-generation-with.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXB10NUsKmiyda2cQx_N0-EJt0kizvsODBjhB4PB9sFLOWrk-xvKf1BQxPePcRRmfYHBnF--6dIhfgEiQ5oMUDJlzEPAly-Da14sGcRxogpQlk4BtX9L0Xbt5ELmJLISxJ_pwmzrM5jSqRfmysC6Y_DHSjW0jD5QYcKWtvNDFFmGMahffPrZajZ5tbBg/s72-c/CALM%20Hero.gif" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Posted by Tal Schuster, Research Scientist, Google Research    
+Language models (LMs) are the driving force behind many recent breakthroughs in natural language processing. Models like T5, LaMDA, GPT-3, and PaLM have demonstrated impressive performance on various language tasks. While multiple factors can contribute to improving the performance of LMs, some recent studies suggest that scaling up the model’s size is crucial for revealing emergent capabilities. In other words, some instances can be solved by small models, while others seem to benefit from increased scale. 
+
+Despite recent efforts that enabled the efficient training of LMs over large amounts of data, trained models can still be slow and costly for practical use. When generating text at inference time, most autoregressive LMs …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;93
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >Kubernetes – Production-Grade Container Orchestration</button>
                   <a class="source-heading__link" href="https://kubernetes.io/">Open</a>
                 </h3>
@@ -2309,26 +2522,6 @@ The Elastic platform’s ability to address a broad range of search application 
                             <span class="media-object__text">
                               <span>The internet doesn’t have to be this way. It seems like the structure we live with and struggle with and sometimes work against is pre-ordained and obvious, but much of it is the result of the origin of the consumer net. Slow modems in particular. When the WELL and AOL and other services began to […]</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://seths.blog/?p&#x3D;42365"
-                        open
-                      >
-                        <summary class="article-expander__title">Little screens and productivity</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://feeds.feedblitz.com/~/722240482/0/sethsblog~Little-screens-and-productivity/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061318.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>If you want reach and engagement, optimizing for small screens is usually the way to go. There are more mobile devices in the world than we can count, and large numbers of people spend their days consuming content from the palm of their hand. But productivity? In just about every context I’m aware of, important […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2793,11 +2986,48 @@ resource.k8s.io/v1alpha1 API group are enabled. For details, see the
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-14 datetime="2022-12-14T17:00:15.000Z">2022-12-14</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-14 datetime="2022-12-14T17:00:15.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-14 datetime="2022-12-14T17:03:00.001Z">2022-12-14</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-14 datetime="2022-12-14T17:03:00.001Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Google AI Blog</button>
+                  <a class="source-heading__link" href="http://ai.googleblog.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://ai.googleblog.com/2022/12/who-said-what-recorders-on-device.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Who Said What? Recorder&#x27;s On-device Solution for Labeling Speakers</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://ai.googleblog.com/2022/12/who-said-what-recorders-on-device.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjs-fY0QBCK6zOf6iIBSJ2_8nOAycudh_oLFZZBLj_l6mwVy2acaw0gHp0Q42JFsF6IWWlPRZ2DiqwLEl6tBOlGkpMNFSnx01SAEMPmM32LTp8N_fpm3XFMtqb2lk2KkDrR7n4IHRrH2EG6n3aLp87O2V_mFpwSndLbnnhPE-NXnmp3geJgxpop2DI4Og/s72-c/image2.gif" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Posted by Quan Wang, Senior Staff Software Engineer, and Fan Zhang, Staff Software Engineer, Google  
+In 2019 we launched Recorder, an audio recording app for Pixel phones that helps users create, manage, and edit audio recordings. It leverages recent developments in on-device machine learning to transcribe speech, recognize audio events, suggest tags for titles, and help users navigate transcripts. 
+ 
+Nonetheless, some Recorder users found it difficult to navigate long recordings that have multiple speakers because it&#x27;s not clear who said what. During the Made By Google event this year, we announced the &quot;speaker labels&quot; feature for the Recorder app. This opt-in feature annotates a recording transcript with unique and anonymous labels for each speaker (e.g., &quot;Speaker 1&quot;, &quot;Speaker 2&quot;, etc.)…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;91
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -3147,7 +3377,44 @@ To implement this functionality in Elastic, you don’t need to be a machine lea
 Failures in the “Account Parallelism Sync Analytics Job”.
 Azure DevOps Server 2020.1.2 Patch 4
 The post December patches for Azure DevOps Server appeared first on Azure DevOps Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                &ensp;<span class="article-reading-time">(&hairsp;16
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Google AI Blog</button>
+                  <a class="source-heading__link" href="http://ai.googleblog.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://ai.googleblog.com/2022/12/rt-1-robotics-transformer-for-real.html"
+                        open
+                      >
+                        <summary class="article-expander__title">RT-1: Robotics Transformer for Real-World Control at Scale</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://ai.googleblog.com/2022/12/rt-1-robotics-transformer-for-real.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8KHWWax1Ls5GmtYjLCtGd6Bq_K9syONqDrjrcZJLwS8q3hKtXTijt6sQylxDwZbt5Rlqc5DCkwDdcaI8wW3Pg8Xwe1A0z3UzMcpmN_kwttugQA_YvF4iumezRUrZyxiNflapGhRp5lokaK22UqMxVwqhn03hqikMJ2Yl4b7WyQs24lgm56qhX0eL9dQ/s72-c/RT-1%20H.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Posted Keerthana Gopalakrishnan and Kanishka Rao, Google Research, Robotics at Google    
+Major recent advances in multiple subfields of machine learning (ML) research, such as computer vision and natural language processing, have been enabled by a shared common approach that leverages large, diverse datasets and expressive models that can absorb all of the data effectively. Although there have been various attempts to apply this approach to robotics, robots have not yet leveraged highly-capable models as well as other subfields. 
+
+Several factors contribute to this challenge. First, there’s the lack of large-scale and diverse robotic data, which limits a model’s ability to absorb a broad set of robotic experiences. Data collection is particularly expensive and challenging for robotics bec…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;93
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4085,7 +4352,7 @@ Modern machine learning models that learn to solve a task by going through many 
 Upgrade Elasticsearch 2.x and 5.x to 7.x
 You will have to select Install New Search while configuring search post Azure DevOps Server upgrade.
 The post Updated: Now available: Azure DevOps Server 2022 RTW appeared first on Azure DevOps Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;19
+                                &ensp;<span class="article-reading-time">(&hairsp;18
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -5335,8 +5602,8 @@ If you run in …</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/vxavictor513/osmosfeed/actions/runs/3773754990">
-        <time id="build-timestamp" datetime="2022-12-25T01:27:27.165Z">2022-12-25T01:27:27.165Z</time>
+      <a class="footer-link" href="https://github.com/vxavictor513/osmosfeed/actions/runs/3778315527">
+        <time id="build-timestamp" datetime="2022-12-26T01:24:08.196Z">2022-12-26T01:24:08.196Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

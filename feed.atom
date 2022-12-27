@@ -1,10 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-12-26T01:24:08.233Z</id>
+    <id>urn:2022-12-27T01:22:35.008Z</id>
     <title>osmos::feed</title>
-    <updated>2022-12-26T01:24:08.233Z</updated>
+    <updated>2022-12-27T01:22:35.008Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Blog: Kubernetes v1.26: CPUManager goes GA]]></title>
+        <id>https://kubernetes.io/blog/2022/12/27/cpumanager-ga/</id>
+        <link href="https://kubernetes.io/blog/2022/12/27/cpumanager-ga/"/>
+        <updated>2022-12-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Author:
+Francesco Romani (Red Hat)
+The CPU Manager is a part of the kubelet, the Kubernetes node agent, which enables the user to allocate exclusive CPUs to containers.
+Since Kubernetes v1.10, where it graduated to Beta, the CPU Manager proved itself reliable and
+fulfilled its role of allocating exclusive CPUs to containers, so adoption has steadily grown making it a staple component of performance-critical
+and low-latency setups. Over time, most changes were about bugfixes or internal refactoring, with the following noteworthy user-visible changes:
+support explicit reservation of CPUs: it was already possible to request to reserve a given
+number of CPUs for system resources, including the kubelet itself, which will not be used for exclusive CPU allocation. Now it is possible to also
+expli…]]></summary>
+        <author>
+            <name>Kubernetes – Production-Grade Container Orchestration</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How long is forever?]]></title>
+        <id>https://seths.blog/?p=43583</id>
+        <link href="https://feeds.feedblitz.com/~/723006286/0/sethsblog~How-long-is-forever/"/>
+        <updated>2022-12-26T09:37:00.000Z</updated>
+        <summary type="html"><![CDATA[And how soon is never? Most organizations are fundamentally incapable of planning ten years out. When a company promises to be carbon neutral by 2030, they’re actually saying that they may never be. That’s because almost all the pressures on them are short-term pressures. And it doesn’t help that few people expect to be in […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Game Night Ordering]]></title>
+        <id>https://xkcd.com/2716/</id>
+        <link href="https://xkcd.com/2716/"/>
+        <updated>2022-12-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/game_night_ordering.png" title="One good trick, if you get called on a fake service, is to build a working version of it and mention it again the next week." alt="One good trick, if you get called on a fake service, is to build a working version of it and mention it again the next week." />]]></summary>
+        <author>
+            <name>xkcd.com</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Blog: Kubernetes 1.26: Pod Scheduling Readiness]]></title>
         <id>https://kubernetes.io/blog/2022/12/26/pod-scheduling-readiness-alpha/</id>
@@ -914,16 +952,6 @@ When we come across users that are experiencing performance problems, it is not 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Slow modems]]></title>
-        <id>https://seths.blog/?p=44389</id>
-        <link href="https://feeds.feedblitz.com/~/722258312/0/sethsblog~Slow-modems/"/>
-        <updated>2022-12-16T14:45:00.000Z</updated>
-        <summary type="html"><![CDATA[The internet doesn’t have to be this way. It seems like the structure we live with and struggle with and sometimes work against is pre-ordained and obvious, but much of it is the result of the origin of the consumer net. Slow modems in particular. When the WELL and AOL and other services began to […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Elastic recognized as a Leader in the 2022 Gartner® Magic Quadrant™ for Insight Engines]]></title>
         <id>https://www.elastic.co/blog/elastic-recognized-as-a-leader-in-the-2022-gartner-magic-quadrant-for-insight-engines</id>
         <link href="https://www.elastic.co/blog/elastic-recognized-as-a-leader-in-the-2022-gartner-magic-quadrant-for-insight-engines"/>
@@ -946,16 +974,6 @@ Our unwavering focus on search and the expanding toolkit of search capabilities 
 The Elastic platform’s ability to address a broad range of search application needs – from standalone applications like internal workplace search, to new search-powered applications built to deliver specific functionalities …]]></summary>
         <author>
             <name>Matt Riley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gravity]]></title>
-        <id>https://xkcd.com/2712/</id>
-        <link href="https://xkcd.com/2712/"/>
-        <updated>2022-12-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/gravity.png" title="It's a long way down." alt="It's a long way down." />]]></summary>
-        <author>
-            <name>xkcd.com</name>
         </author>
     </entry>
     <entry>

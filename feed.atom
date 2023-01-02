@@ -1,10 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-01-01T01:43:30.124Z</id>
+    <id>urn:2023-01-02T01:23:59.401Z</id>
     <title>osmos::feed</title>
-    <updated>2023-01-01T01:43:30.124Z</updated>
+    <updated>2023-01-02T01:23:59.401Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Blog: Kubernetes v1.26: Alpha support for cross-namespace storage data sources]]></title>
+        <id>https://kubernetes.io/blog/2023/01/02/cross-namespace-data-sources-alpha/</id>
+        <link href="https://kubernetes.io/blog/2023/01/02/cross-namespace-data-sources-alpha/"/>
+        <updated>2023-01-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Author: Takafumi Takahashi (Hitachi Vantara)
+Kubernetes v1.26, released last month, introduced an alpha feature that
+lets you specify a data source for a PersistentVolumeClaim, even where the source
+data belong to a different namespace.
+With the new feature enabled, you specify a namespace in the dataSourceRef field of
+a new PersistentVolumeClaim. Once Kubernetes checks that access is OK, the new
+PersistentVolume can populate its data from the storage source specified in that other
+namespace.
+Before Kubernetes v1.26, provided your cluster had the AnyVolumeDataSource feature enabled,
+you could already provision new volumes from a data source in the same
+namespace.
+However, that only worked for the data source in the same namespace,
+therefore users couldn't provision a PersistentVolume with …]]></summary>
+        <author>
+            <name>Kubernetes – Production-Grade Container Orchestration</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Arguing for inaction]]></title>
+        <id>https://seths.blog/?p=43422</id>
+        <link href="https://feeds.feedblitz.com/~/723339578/0/sethsblog~Arguing-for-inaction/"/>
+        <updated>2023-01-01T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[…is surprisingly easy. “We’ve done all this work and things haven’t gotten better,” so, apparently, we should stop trying and go back to what we were doing. “We’ve done all this work and things are getting better,” so that means that there’s no need to keep trying and we can go back to what we […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[年賀イラスト] ワンパンマン]]></title>
+        <id>tonarino_yj:episode:316190247049337281</id>
+        <link href="https://tonarinoyj.jp/episode/316190247049337281"/>
+        <updated>2022-12-31T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ワンパンマン]]></summary>
+        <author>
+            <name>原作/ＯＮＥ/漫画/村田雄介</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The world as it is]]></title>
         <id>https://seths.blog/?p=43643</id>
@@ -356,16 +398,6 @@ The Postgres event publication registry schema now follows Postgres best practic
 The release also contains the obligatory upgrade to Spring Boot 3.0.1. Find more information on the release page.]]></summary>
         <author>
             <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Protecting the sore spot]]></title>
-        <id>https://seths.blog/?p=43474</id>
-        <link href="https://feeds.feedblitz.com/~/722814482/0/sethsblog~Protecting-the-sore-spot/"/>
-        <updated>2022-12-23T10:22:00.000Z</updated>
-        <summary type="html"><![CDATA[Everyone has one. It’s the part of ourselves we won’t look at, acknowledge or risk disturbing. It’s the story or trauma or situation that must be avoided at all costs. People will choose careers, families and opportunities simply to avoid confronting the little tiny voice that is hiding inside. And marketers with low standards will […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
         </author>
     </entry>
     <entry>

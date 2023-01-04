@@ -6,6 +6,26 @@
       "siteUrl": "https://spring.io/blog",
       "articles": [
         {
+          "id": "https://spring.io/blog/2023/01/03/spring-tools-4-17-1-released",
+          "author": null,
+          "description": "Dear Spring Community,\n\r\nI am happy to announce the 4.17.1 release of the Spring Tools 4 for Eclipse, Visual Studio Code, and Theia.\nfixes and improvements\n\r\n\r\n  \n(Spring Boot) fixed: Eclipse STS 4.17 takes 96 % processor time on Intel i9 (#934)\n\r\n  \n(Spring Boot) fixed: BootLanguageServerBootApp class is taking all available cpu continuously (#932)\n\r\n  \n(Spring Boot) fixed: OpenRewrite unchecked, but always Language Server Background Job(Loading Rewrite Recipes) (#925)\n\r\n  \n(Spring Boot) fixed: [validation] spring.factories EnableAutoConfiguration key for boot 3.0 ignores ‘on’ setting (#917)\n\r\n  \n(VSCode) fixed: [vscode] Boot LS is broken if Java LS launch mode is ‘Hybrid’ (#919)\n\r\n\nknown issues\n\r\n\r\n  \n(Spring Boot): The newly introduced additional reconciling for Java source files which is used to show up additional validations and quick fixes can cause increased memory and CPU consumption. In case you stumble upon issues in this area, feel free to disable the reconciling via Preferences -> Extensions -> Spring Boot Tools -> Open Rewrite (in VSCode) or Preferences -> Language Servers -> Spring Language Servers -> Spring Boot Language Server -> Open Rewrite (in Eclipse).\n\r\n\r\nTo download the distribution for Eclipse and find links to the marketplace entries for Visual Studio Code and Theia, please go visit:\n\r\n\r\n  \nSpring Tools 4: https://spring.io/tools/\n\r\n\r\nDetailed changes can be found here: https://github.com/spring-projects/sts4/wiki/Changelog#2023-01-03-4171-release-incl-language-servers-version-1430\n\r\nSpring Tools 4.17.2 is scheduled to be released in early February 2023.\n\r\nEnjoy!",
+          "link": "https://spring.io/blog/2023/01/03/spring-tools-4-17-1-released",
+          "publishedOn": "2023-01-03T19:00:00.000Z",
+          "wordCount": 720,
+          "title": "Spring Tools 4.17.1 released",
+          "imageUrl": "https://avatars.githubusercontent.com/u/107705?v=4?s=200"
+        },
+        {
+          "id": "https://spring.io/blog/2023/01/03/this-week-in-spring-jan-3rd-2023",
+          "author": null,
+          "description": "Hi, Spring fans! Happy new year! It’s 2023 already! Who saw that comin’? I sure didn’t. This year promises to be more amazing than ever, and I can’t wait to be a part of it.\n\r\nAs usual, the first week of January is when we mark the date of the first installment of this humble roundup, This Week in Spring, waaaay back in the first week of January 2011! 12 years of This Week in Spring! Now that’s consistency! \n\r\nAnd it’s only possible because of you, dear community. Thank you. You, who have been consistently excellent every week of the year for years and years, are truly the reason for the season, and we appreciate you. This week is no exception! There’s a ton of great content, so let’s kick the year off right!\n\r\n\r\n  \nFirst, I’ll be speaking at the Atlanta JUG on the 16th of this month, by the by, so please join me, and we’ll dive headfirst into Spring in 2023!\n\r\n  \nLast week, I had the pleasure of interviewing my friend, and teammate, the legendary DaShaun Carter on a Bootiful Podcast\n\r\n  \nI love this post by Rafael Winterhalter (create of ByteBuddy and Bootiful Podcast guest on the amazing publish/subscribe capabilities of PostgreSQL. I love PostgreSQL. But then he goes even further, turning the mechanism into support in Spring Integration. He explains everything in this epic post, Using Postgres as a Message Queue\n\r\n  \nCreate a new Git branch with no history - not strictly speaking Spring-related, but I thought it was interesting. Unless you’re not using Git… I suppose.\n\r\n  \nNonUniqueResultException in Spring Data JPA\n\r\n  \nObservability with Spring Boot 3\n\r\n  \nOddity with shutdown methods in Spring Boot 3 AOT and GraalVM\n\r\n  \nSpring Boot (3) Spring Native (GraalVM) with Kubernetes & Istio🔥\n\r\n  \nUsing Watermarks with iText in Java\n\r\n  \nBlog: Kubernetes 1.26: Job Tracking, to Support Massively Parallel Batch Workloads, Is Generally Available\n\r\n  \nBlog: Kubernetes v1.26: Advancements in Kubernetes Traffic Engineering\n\r\n  \nBlog: Kubernetes v1.26: Alpha support for cross-namespace storage data sources",
+          "link": "https://spring.io/blog/2023/01/03/this-week-in-spring-jan-3rd-2023",
+          "publishedOn": "2023-01-03T08:00:00.000Z",
+          "wordCount": 838,
+          "title": "This Week in Spring - Jan 3rd, 2023",
+          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
+        },
+        {
           "id": "https://spring.io/blog/2022/12/29/a-bootiful-podcast-dashaun-carter-amazing-human-being-father-friend-engineer-and-fellow-spring-developer-advocate",
           "author": null,
           "description": "Hi, Spring fans! this episode, we turn it to 11 and ring in the new year with a fantastic human being, father, friend, engineer, and fellow Spring Developer Advocate: DaShaun Carter (@dashaun). \n\r\nHappy new year!",
@@ -184,26 +204,6 @@
           "wordCount": 1715,
           "title": "Do more with Azure Spring Apps – scale to zero and enhance productivity",
           "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/12/07/spring-tools-4-17-0-released",
-          "author": null,
-          "description": "Dear Spring Community,\n\r\nI am happy to announce the 4.17.0 release of the Spring Tools 4 for Eclipse, Visual Studio Code, and Theia.\nmajor changes to the Spring Tools 4 for Eclipse distribution\n\r\n\r\n  \nupdated to Eclipse 2022-12 release (new and noteworthy)\n\r\n\nearly access to new experimental features\n\r\nAmong a number of bug fixes and minor improvements, this release introduces experimental support for:\n\r\n\r\n  \nSpring Boot version validations: The IDE will tell you when there is a newer major, minor, or patch version available for your Spring Boot project\n\r\n  \nSpring Boot upgrade support: The tooling will help you upgrading your existing projects to newer Spring Boot versions, including upgrades to newer patch and minor versions, as well as newer major versions (e.g. upgrading to Spring Boot 3)\n\r\n  \nSpring specific validations and refactorings: The tooling will indicate whether something can or should be changed in your source code to keep your Spring project up-to-date with the latest recommendations or advancements in Spring\n\r\n\r\nTo learn more about these new experimental features, please take a look at the user guide: https://github.com/spring-projects/sts4/wiki/\nAnd we would like to hear from you. Please let us know if you come across any issues or have thoughts and wishes for further improvements in this space: https://github.com/spring-projects/sts4/issues\nfixes and improvements\n\r\nDetailed changes can be found here: https://github.com/spring-projects/sts4/wiki/Changelog#2022-12-07-4170-release-incl-language-servers-version-1410\ndownloads\n\r\nTo download the distribution for Eclipse and find links to the marketplace entries for Visual Studio Code and Theia, please go visit:\n\r\n\r\n  \nSpring Tools 4: https://spring.io/tools/\n\r\n\r\nSpring Tools 4.17.1 is scheduled to be released in early Febuary 2023.\n\r\nEnjoy!",
-          "link": "https://spring.io/blog/2022/12/07/spring-tools-4-17-0-released",
-          "publishedOn": "2022-12-07T16:00:00.000Z",
-          "wordCount": 753,
-          "title": "Spring Tools 4.17.0 released",
-          "imageUrl": "https://avatars.githubusercontent.com/u/107705?v=4?s=200"
-        },
-        {
-          "id": "https://spring.io/blog/2022/12/06/this-week-in-spring-december-6th-2022",
-          "author": null,
-          "description": "Hi, Spring fans! Welcome to another installment of This Week in Spring! How are you? You know what I’ve wanted to do? See my friends on the Spring team in person since the pandemic descended. And, I’m overjoyed to relate, I’ve just had the privilege of a nice meeting with several of them last night. And I’m going to see more of them today! Seriously. I feel like I won the lottery. I’ve missed my friends. Hug your friends and family, friends. You never know when the next pandemic (or life in general) will put distance between you and them. So, in order to close that distance, I’m going to go back to meetings with them, and I’ll leave you with yet another week’s curated list of content. (Can you believe we’re like four weeks away from 2023?)\n\r\n\r\n  \nA Bootiful Podcast: Java Champion Gunnar Mo…",
-          "link": "https://spring.io/blog/2022/12/06/this-week-in-spring-december-6th-2022",
-          "publishedOn": "2022-12-06T09:00:00.000Z",
-          "wordCount": 834,
-          "title": "This Week in Spring - December 6th, 2022",
-          "imageUrl": "https://avatars.githubusercontent.com/u/54473?v=4?s=200"
         }
       ]
     },
@@ -300,12 +300,52 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
+          "id": "https://www.elastic.co/blog/how-to-put-your-untapped-data-to-work-to-transform-your-business",
+          "author": "Jennifer Klinger",
+          "description": "Learn how to put your organization’s untapped data to work in three steps to reduce cyber risk, increase operational resilience, and improve user experiences.",
+          "link": "https://www.elastic.co/blog/how-to-put-your-untapped-data-to-work-to-transform-your-business",
+          "publishedOn": "2023-01-03T00:00:00.000Z",
+          "wordCount": 8462,
+          "title": "How to put your untapped data to work in real time to transform your business",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt05c01cebcc0b7873/63b44722897e7411813ae505/data-problemb-log-720x420-white.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/looking-back-at-2022-elastic-year-in-review",
+          "author": "Elastic Marketing",
+          "description": "2022 was an amazing year for Elastic with the introduction of new innovations across our solutions, new customers, and deepening partnerships. As we take a moment to reflect on the year in review, we’ve rounded up our top blog posts of 2022.",
+          "link": "https://www.elastic.co/blog/looking-back-at-2022-elastic-year-in-review",
+          "publishedOn": "2023-01-03T00:00:00.000Z",
+          "wordCount": 7911,
+          "title": "Looking back at 2022 — Elastic year in review",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt184241d95c36ecf1/63b48327897e7411813ae570/new-years-2023.jpg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/how-to-put-your-untapped-data-to-work-to-transform-your-business",
+          "author": "Jennifer Klinger",
+          "description": ",\nEnsure business continuity, protect your organization from cyber risk, and improve your customers’ and employees’ experiences all by putting your data to work in real-time. You already have the data — why not make it chip in for rent? A recent study found that 80% of companies surveyed saw an increase in revenue due to real-time data analytics. \nThe reason you can solve these all-encompassing, complex business problems with data? It’s because so many of your business problems are really just data problems in disguise. Let’s dive into a few of those problems and how you can solve them.\nBusiness problems are actually data problems\nData problem #1: Your enterprise applications and infrastructure must be optimized for availability and performance. Imagine you’re the IT leader of a streaming …",
+          "link": "https://www.elastic.co/blog/how-to-put-your-untapped-data-to-work-to-transform-your-business",
+          "publishedOn": "2023-01-03T00:00:00.000Z",
+          "wordCount": 8462,
+          "title": "How to put your untapped data to work in real time to transform your business",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt05c01cebcc0b7873/63b44722897e7411813ae505/data-problemb-log-720x420-white.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/looking-back-at-2022-elastic-year-in-review",
+          "author": "Elastic Marketing",
+          "description": ",\n2022 was an amazing year for Elastic with the introduction of dozens of new innovations across our Observability, Security, and Enterprise Search solutions, new customers, and deepening partnerships.\nAs we take a moment to reflect on the year in review, we’ve rounded up our top blog posts of 2022. We hope you enjoy them!\nElastic 8.0 \nAs we began the year, we also launched a new chapter with Elastic 8.0: A new era of speed, scale, relevance, and simplicity. Elastic 8.0 was the culmination of years of investment in the 7.x series to reduce memory usage and query overhead, and introduce new features to enhance relevance.\nFor example, we increased the speed of date histograms and search aggregations, enhanced the performance of page caching, and created a new “pre-filter” search phase. In ad…",
+          "link": "https://www.elastic.co/blog/looking-back-at-2022-elastic-year-in-review",
+          "publishedOn": "2023-01-03T00:00:00.000Z",
+          "wordCount": 7911,
+          "title": "Looking back at 2022 — Elastic year in review",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt184241d95c36ecf1/63b48327897e7411813ae570/new-years-2023.jpg"
+        },
+        {
           "id": "https://www.elastic.co/blog/perf8-performance-metrics-for-python",
           "author": "Tarek Ziadé",
           "description": "Perf8 is a tool Enterprise Search has started to develop to standardize the creation of performance reports for its Python applications.",
           "link": "https://www.elastic.co/blog/perf8-performance-metrics-for-python",
           "publishedOn": "2022-12-27T00:00:00.000Z",
-          "wordCount": 8133,
+          "wordCount": 8525,
           "title": "Perf8: Performance metrics for Python",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt236cc05d867aa3d7/6297baedb86a794d785d3b93/flexible-implementation-1680X980.png"
         },
@@ -315,7 +355,7 @@
           "description": ",\nWe're building this neat service in Python to ingest data in Elasticsearch from various sources (MySQL, Network Drive, AWS, etc.) for Enterprise Search.\nSucking data from a third-party service to Elasticsearch is usually an I/O-bound activity. Your code sits on opened sockets and passes data from one end to the other. That's a great use case for an asynchronous application in Python, but it needs to be carefully crafted.\nWhen data flows through that pipeline, we want to ensure we don't blow the available resources (RAM/CPU/FDs). We also want to maximize the output without killing Elasticsearch or the backend service.\nSo it's all about implementing the right throttling and backpressure safeguards and surfacing the right settings, so you can properly size how aggressive the service will be…",
           "link": "https://www.elastic.co/blog/perf8-performance-metrics-for-python",
           "publishedOn": "2022-12-27T00:00:00.000Z",
-          "wordCount": 8133,
+          "wordCount": 8525,
           "title": "Perf8: Performance metrics for Python",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt236cc05d867aa3d7/6297baedb86a794d785d3b93/flexible-implementation-1680X980.png"
         },
@@ -335,7 +375,7 @@
           "description": "Building community is one of our top priorities. We want our employees to feel at home in their local office, so we hired local designers to create murals on the walls of each office to bring to life the essence of each Elastic city.",
           "link": "https://www.elastic.co/blog/culture-each-elastic-office-has-its-own-locally-designed-mural",
           "publishedOn": "2022-12-21T00:00:00.000Z",
-          "wordCount": 7494,
+          "wordCount": 7886,
           "title": "Each Elastic office has its own locally-designed mural. See them all.",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt2578a51341d487d2/63a0b5c881b6d37de803a270/12.15-murals-blog-1680x980.jpg"
         },
@@ -355,7 +395,7 @@
           "description": ",\nWe’re a distributed, global company (and proud of it), but we do want to give Elasticisians a place to connect face-to-face should they choose. In fact, building community is one of our top priorities here at Elastic. That’s why we have offices in 15 cities around the world. While some Elasticians use them to work and connect, we also use them to host in-person events, like this summer’s Elasticamp. \n\nCurrently, we have offices in: Amsterdam, Arlington, Austin, Bangalore, Berlin, Chicago, Copenhagen, London, Munich, New York, Paris, San Francisco, Singapore, Sydney, and Tokyo. \n\nWhat makes our offices special is that each one is designed with its location in mind. We want our employees to feel at home in their local office, so we hired local designers to create murals on the walls of eac…",
           "link": "https://www.elastic.co/blog/culture-each-elastic-office-has-its-own-locally-designed-mural",
           "publishedOn": "2022-12-21T00:00:00.000Z",
-          "wordCount": 7494,
+          "wordCount": 7886,
           "title": "Each Elastic office has its own locally-designed mural. See them all.",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt2578a51341d487d2/63a0b5c881b6d37de803a270/12.15-murals-blog-1680x980.jpg"
         },
@@ -375,7 +415,7 @@
           "description": "Log data and system logs can be a treasure trove of information and insights for SREs and DevOps team with the right tools. Take a dive into the Elastic Platform, a leader in log management and monitoring capabilities, based on the proven ELK stack.",
           "link": "https://www.elastic.co/blog/log-monitoring-management-enterprise",
           "publishedOn": "2022-12-20T00:00:00.000Z",
-          "wordCount": 10366,
+          "wordCount": 10758,
           "title": "Log monitoring and unstructured log data, moving beyond tail -f",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt30c6c1699365663e/6297ba9161670f0fb5dcff85/blog-timeseries-720x420.png"
         },
@@ -395,7 +435,7 @@
           "description": ",\nLog files and system logs have been a treasure trove of information for administrators and developers for decades. But with more moving parts and ever more options on where to run modern cloud applications, keeping an eye on logs and troubleshooting problems have become increasingly difficult. \n\nWhile it’s often possible to ssh into a server and run commands like tail -f, this approach doesn’t scale for most developers and administrators. Even if you’re good on the command line, you might be able to find what you’re looking for in a log file using awk and grep and could even calculate some simple statistics around how often certain errors occur. But what if the applications are running across hundreds of servers or Kubernetes pods? Or even worse, what if the applications are split across…",
           "link": "https://www.elastic.co/blog/log-monitoring-management-enterprise",
           "publishedOn": "2022-12-20T00:00:00.000Z",
-          "wordCount": 10366,
+          "wordCount": 10758,
           "title": "Log monitoring and unstructured log data, moving beyond tail -f",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt30c6c1699365663e/6297ba9161670f0fb5dcff85/blog-timeseries-720x420.png"
         },
@@ -405,7 +445,7 @@
           "description": "Take a deep-dive into deploying Elastic for Kubernetes observability and security. Understand why managing Kubernetes can be a challenge and how to leverage OpenTelemetry with the power of the Elastic search and analytics platform to ensure success.",
           "link": "https://www.elastic.co/blog/implementing-kubernetes-observability-security-opentelemetry",
           "publishedOn": "2022-12-19T00:00:00.000Z",
-          "wordCount": 21799,
+          "wordCount": 21552,
           "title": "Modern observability and security on Kubernetes with Elastic and OpenTelemetry",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt8dab1e1f1115fabc/635a8ed74922b010a7c3d6c1/azure-kubernetes-720x420-2.png"
         },
@@ -415,7 +455,7 @@
           "description": ",\nThe structured nature of Kubernetes enables a repeatable and scalable means of deploying and managing services and applications. This has led to widespread adoption across market verticals for both on-premises and cloud deployment models. The autonomous nature of Kubernetes operation, however, demands comprehensive, fully-converged observability and security. This is uniquely possible today using the Elastic platform.\nIn this article, we discuss best practices for observing and securing application and service workflows on Kubernetes using Elasticsearch and OpenTelemetry. You will learn how to:\n\nDeploy and configure Elastic Agent in your Kubernetes cluster\nIngest OpenTelemetry application traces, metrics, and events using Elastic Agent\nIngest Kubernetes container logs, cluster metrics, a…",
           "link": "https://www.elastic.co/blog/implementing-kubernetes-observability-security-opentelemetry",
           "publishedOn": "2022-12-19T00:00:00.000Z",
-          "wordCount": 21799,
+          "wordCount": 21552,
           "title": "Modern observability and security on Kubernetes with Elastic and OpenTelemetry",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt8dab1e1f1115fabc/635a8ed74922b010a7c3d6c1/azure-kubernetes-720x420-2.png"
         },
@@ -445,7 +485,7 @@
           "description": "Elastic is delighted to be named a Leader in the 2022 Gartner Magic Quadrant for Insight Engines. Download the complimentary report today, and see why we believe Elastic Enterprise Search gives developers the best solution for creating ML-powered search and discovery experiences.",
           "link": "https://www.elastic.co/blog/elastic-recognized-as-a-leader-in-the-2022-gartner-magic-quadrant-for-insight-engines",
           "publishedOn": "2022-12-16T00:00:00.000Z",
-          "wordCount": 8825,
+          "wordCount": 8584,
           "title": "Elastic recognized as a Leader in the 2022 Gartner® Magic Quadrant™ for Insight Engines",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta40940eb1762c019/639b4967d45f0a5df66be514/gartner-magic-quadrant-insight-engines-december-2022.png"
         },
@@ -455,7 +495,7 @@
           "description": ",\n\nWe’re pleased to announce that Elastic has been named a Leader in the 2022 Gartner® Magic Quadrant™ for Insight Engines. This is our second year of inclusion in the Gartner Magic Quadrant for this category, and this year’s evaluation places Elastic as the furthest entry on the \"Completeness of Vision\" axis. We believe this placement, our market momentum, and the strength of our vision are outcomes driven by two fundamentals:\n\nOur unwavering focus on search and the expanding toolkit of search capabilities we deliver to developers, search operators, and data analysts.\nThe Elastic platform’s ability to address a broad range of search application needs – from standalone applications like internal workplace search, to new search-powered applications built to deliver specific functionalities …",
           "link": "https://www.elastic.co/blog/elastic-recognized-as-a-leader-in-the-2022-gartner-magic-quadrant-for-insight-engines",
           "publishedOn": "2022-12-16T00:00:00.000Z",
-          "wordCount": 8825,
+          "wordCount": 8584,
           "title": "Elastic recognized as a Leader in the 2022 Gartner® Magic Quadrant™ for Insight Engines",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta40940eb1762c019/639b4967d45f0a5df66be514/gartner-magic-quadrant-insight-engines-december-2022.png"
         },
@@ -465,7 +505,7 @@
           "description": "AV-Comparatives offers a comparison as an independent organization performing systematic testing that checks whether security software lives up to its promises. Elastic Security performed better than ever on the real-world protection test.",
           "link": "https://www.elastic.co/blog/elastic-security-maintains-product-approved-status-for-av-comparatives",
           "publishedOn": "2022-12-15T17:00:00.000Z",
-          "wordCount": 7452,
+          "wordCount": 7211,
           "title": "Elastic Security maintains Product Approved status for AV-Comparatives",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte21ddedce08464b6/61e1de94c5ff2e754efb027e/blog-security-lock-720x420.png"
         },
@@ -475,49 +515,9 @@
           "description": ",\nOrganizations need real-world protection from malware, but how do you know what you’ll get for security coverage in advance of purchasing a product? AV-Comparatives offers a comparison as an independent organization performing systematic testing that checks whether security software lives up to its promises. They create a real-world environment for accurate testing.\nThe testing is well-regarded in the industry, assessing malware prevention, real-world protection, and performance of antivirus products. Elastic has performed well consistently on malware protection testing since 2017, starting with our legacy Endgame product and achieving Approved Business Security Product each test cycle. Now, we’re performing better than ever on the real-world protection test. \nSecurity software testing o…",
           "link": "https://www.elastic.co/blog/elastic-security-maintains-product-approved-status-for-av-comparatives",
           "publishedOn": "2022-12-15T17:00:00.000Z",
-          "wordCount": 7452,
+          "wordCount": 7211,
           "title": "Elastic Security maintains Product Approved status for AV-Comparatives",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte21ddedce08464b6/61e1de94c5ff2e754efb027e/blog-security-lock-720x420.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/2022-forrester-aiops-wave-it-operations-elastic-observability",
-          "author": "Gagan Singh",
-          "description": "AIOps has become increasingly important in observability for managing complex, cloud-native applications and technologies. Learn how Elastic Observability earned top scores for multiple criteria in the new Forrester Wave, AI for IT Operations!",
-          "link": "https://www.elastic.co/blog/2022-forrester-aiops-wave-it-operations-elastic-observability",
-          "publishedOn": "2022-12-15T00:00:00.000Z",
-          "wordCount": 7214,
-          "title": "Elastic recognized as a Strong Performer in The Forrester Wave™: Artificial Intelligence for IT Operations (AIOps), Q4 2022",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt725dead2f4819e77/63979ed853892a121b0b56d6/forreseter-wave-ad-ai-ops-1920x1080.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/2022-forrester-aiops-wave-it-operations-elastic-observability",
-          "author": "Gagan Singh",
-          "description": ",\nWe are excited to announce that Elastic has been recognized as a Strong Performer in The Forrester Wave™: Artificial Intelligence for IT Operations (AIOps), Q4 2022 in our first year participating! \n\nAs organizations modernize their infrastructure and applications, operations and development teams are faced with an exponential growth in data. With the increased complexity and faster release cycles in hybrid and cloud environments, teams are overwhelmed when trying to detect and find the root cause of issues. In today’s digital world, application performance dictates business success and downtime and poor customer experience negatively impacts company revenue. \n\nElastic Observability is built on Elasticsearch, with powerful search and machine learning capabilities to provide customers wit…",
-          "link": "https://www.elastic.co/blog/2022-forrester-aiops-wave-it-operations-elastic-observability",
-          "publishedOn": "2022-12-15T00:00:00.000Z",
-          "wordCount": 7214,
-          "title": "Elastic recognized as a Strong Performer in The Forrester Wave™: Artificial Intelligence for IT Operations (AIOps), Q4 2022",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt725dead2f4819e77/63979ed853892a121b0b56d6/forreseter-wave-ad-ai-ops-1920x1080.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-security-for-siem-recognized-by-leading-industry-analysts",
-          "author": "Mike Nichols,Mike Paquette",
-          "description": "Elastic named a Leader in the 2022 in Forrester Wave™: Security Analytics, Q4 2022. Forrester remarks that “Far and above, Elastic’s data visualizations steal the show.”",
-          "link": "https://www.elastic.co/blog/elastic-security-for-siem-recognized-by-leading-industry-analysts",
-          "publishedOn": "2022-12-14T17:00:00.000Z",
-          "wordCount": 7758,
-          "title": "Elastic named a Leader in The Forrester Wave™: Security Analytics Platforms, Q4 2022",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt69323019f723d794/5ffe0811f093203f68d42e54/blog-thumb-release-security.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-security-for-siem-recognized-by-leading-industry-analysts",
-          "author": "Mike Nichols,Mike Paquette",
-          "description": ",\nIt’s that time of the year… and we’re not talking about the holidays. That’s right, it’s analyst report season.\nElastic continues to be recognized by leading industry analyst firms. Today, Forrester Research recognized Elastic as a Leader in The Forrester Wave™: Security Analytics Platforms, Q4 2022. Elastic had the highest score in the Wave in the strategy category. \n\n\nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt34f5a352b1a55049/639a0584f8b8d66898be5451/2022Q4_Security_Analytics_Platforms_176427.png,2022Q4_Security_Analytics_Platforms_176427.png,\nForrester remarks that “Far and away, Elastic’s data visualizations steal the show” and “Elastic is cloud-agnostic, providing flexibility to customers to use the CSP that they prefer.”\nElastic SIEM unifies security analytics,…",
-          "link": "https://www.elastic.co/blog/elastic-security-for-siem-recognized-by-leading-industry-analysts",
-          "publishedOn": "2022-12-14T17:00:00.000Z",
-          "wordCount": 7758,
-          "title": "Elastic named a Leader in The Forrester Wave™: Security Analytics Platforms, Q4 2022",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt69323019f723d794/5ffe0811f093203f68d42e54/blog-thumb-release-security.png"
         }
       ]
     },
@@ -599,7 +599,7 @@
           "description": "This month, we are releasing fixes that impact our self-hosted product, Azure DevOps Server.\nFailures in the “Account Parallelism Sync Analytics Job”.\nAzure DevOps Server 2020.1.2 Patch 4\nThe post December patches for Azure DevOps Server appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/december-patches-for-azure-devops-server-2/",
           "publishedOn": "2022-12-13T18:06:53.000Z",
-          "wordCount": 4912,
+          "wordCount": 4598,
           "title": "December patches for Azure DevOps Server",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2018/09/index-hero.jpg"
         },
@@ -609,7 +609,7 @@
           "description": "List of New Boards Hub bugs fixed in sprint 214. We enabled the “Try New Boards Hub” message across another ring of accounts. The process continues to go slower than originally expected. Every time we enable the message, we receive more feedback on issues that need to be fixed.\nThe post New Boards Hub, Sprint 214 Update appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/new-boards-hub-sprint-214-update/",
           "publishedOn": "2022-12-12T15:31:16.000Z",
-          "wordCount": 4628,
+          "wordCount": 4942,
           "title": "New Boards Hub, Sprint 214 Update",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/03/agile.png"
         },
@@ -619,7 +619,7 @@
           "description": "12/16 Update: There is an additional step that you will have to follow while upgrading to Azure DevOps Server 2022. This applies to Azure DevOps Server/Team Foundation Server and Elasticsearch installations on the same and in different machines.\nUpgrade Elasticsearch 2.x and 5.x to 7.x\nYou will have to select Install New Search while configuring search post Azure DevOps Server upgrade.\nThe post Updated: Now available: Azure DevOps Server 2022 RTW appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/now-available-azure-devops-server-2022-rtw/",
           "publishedOn": "2022-12-06T20:00:07.000Z",
-          "wordCount": 5892,
+          "wordCount": 5960,
           "title": "Updated: Now available: Azure DevOps Server 2022 RTW",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2018/09/index-hero.jpg"
         }
@@ -684,6 +684,16 @@
       "siteUrl": "https://xkcd.com/",
       "articles": [
         {
+          "id": "https://xkcd.com/2719/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/hydrogen_isotopes.png\" title=\"Oops, All Neutrons is also known as Neutral Quadrium, Nydnonen, and Goth Tritium.\" alt=\"Oops, All Neutrons is also known as Neutral Quadrium, Nydnonen, and Goth Tritium.\" />",
+          "link": "https://xkcd.com/2719/",
+          "publishedOn": "2023-01-02T00:00:00.000Z",
+          "wordCount": 207,
+          "title": "Hydrogen Isotopes",
+          "imageUrl": "https://imgs.xkcd.com/comics/hydrogen_isotopes_2x.png"
+        },
+        {
           "id": "https://xkcd.com/2718/",
           "author": null,
           "description": "<img src=\"https://imgs.xkcd.com/comics/new_years_eve_party.png\" title=\"[Earlier, at the eye doctor] 'No, for the last time, the numerals on the paper aren't my prescription, it's the shape I want you to make with the laser.'\" alt=\"[Earlier, at the eye doctor] 'No, for the last time, the numerals on the paper aren't my prescription, it's the shape I want you to make with the laser.'\" />",
@@ -712,16 +722,6 @@
           "wordCount": 209,
           "title": "Game Night Ordering",
           "imageUrl": "https://imgs.xkcd.com/comics/game_night_ordering_2x.png"
-        },
-        {
-          "id": "https://xkcd.com/2715/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/pando.png\" title=\"The presents under the tree are actually a single gift connected by an underground ribbon system.\" alt=\"The presents under the tree are actually a single gift connected by an underground ribbon system.\" />",
-          "link": "https://xkcd.com/2715/",
-          "publishedOn": "2022-12-23T00:00:00.000Z",
-          "wordCount": 205,
-          "title": "Pando",
-          "imageUrl": "https://imgs.xkcd.com/comics/pando_2x.png"
         }
       ]
     },
@@ -736,7 +736,7 @@
           "description": "Learn about the values that represent the culture and beliefs of our Camunda community. Thank you for being a part of it!\nThe post Camunda community values appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/12/camunda-community-values/",
           "publishedOn": "2022-12-28T12:30:00.000Z",
-          "wordCount": 2193,
+          "wordCount": 2192,
           "title": "Camunda community values",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/12/Camunda-Community-Values_1200x630.png"
         },
@@ -756,7 +756,7 @@
           "description": "Learn how we test and identify hard-to-find critical bugs in Zeebe, the workflow engine powering Camunda Platform 8, using property-based testing.\nThe post Bulletproofing Zeebe against concurrency bugs appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/12/bulletproofing-zeebe-concurrency-bugs/",
           "publishedOn": "2022-12-22T12:30:00.000Z",
-          "wordCount": 3848,
+          "wordCount": 3849,
           "title": "Bulletproofing Zeebe against concurrency bugs",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/12/bulletproofing-zeebe-against-concurrency-bugs_blog_1200x630.png"
         },
@@ -766,7 +766,7 @@
           "description": "Learn how you can contribute a Connector to Camunda’s Community Hub, either as another partner of ours or as a community member. \nThe post Contributing to Camunda’s Connector ecosystem appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/12/contributing-to-camunda-connector-ecosystem/",
           "publishedOn": "2022-12-20T17:37:44.000Z",
-          "wordCount": 2527,
+          "wordCount": 2526,
           "title": "Contributing to Camunda’s Connector ecosystem",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/12/Contributing-to-Camundas-Connector-ecosystem-1_1200x630.png"
         },
@@ -776,7 +776,7 @@
           "description": "Wondering how to get your CoE started and how to run one effectively? Check out this extended Q&A and our live CamundaCon panel for the answers.\nThe post How do you create and grow a Center of Excellence? appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/12/how-to-create-grow-center-of-excellence/",
           "publishedOn": "2022-12-19T21:30:49.000Z",
-          "wordCount": 3665,
+          "wordCount": 3664,
           "title": "How do you create and grow a Center of Excellence?",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/12/How-to-create-grow-center-of-excellence_1200x630.png"
         },
@@ -786,7 +786,7 @@
           "description": "We are happy to announce the release of Camunda Desktop Modeler 5.6, which ships with broader BPMN support and some key UI improvements.\nThe post Camunda Desktop Modeler 5.6 released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/12/camunda-modeler-5-6-release-blog-post/",
           "publishedOn": "2022-12-13T13:00:00.000Z",
-          "wordCount": 2355,
+          "wordCount": 2354,
           "title": "Camunda Desktop Modeler 5.6 released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/12/camunda-modeler-5-6-released-2.jpg"
         },
@@ -796,7 +796,7 @@
           "description": "See what's new in Camunda Optimize. Camunda Optimize provides business activity monitoring for workflows, supporting continuous process improvement.\nThe post Camunda Optimize 3.10 alpha2 released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/12/optimize-3-10-0-alpha2-released/",
           "publishedOn": "2022-12-13T12:50:00.000Z",
-          "wordCount": 2121,
+          "wordCount": 2120,
           "title": "Camunda Optimize 3.10 alpha2 released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/12/camunda-optimize-3-10-0-alpha2-release.png"
         },
@@ -806,7 +806,7 @@
           "description": "We are pleased to announce the next alpha release of Camunda Automation Platform 7, including new REST docs, support for PostgreSQL 15 and more.\nThe post Camunda Automation Platform 7.19.0-alpha2 released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/12/camunda-automation-platform-7-19-0-alpha2/",
           "publishedOn": "2022-12-13T12:40:00.000Z",
-          "wordCount": 2571,
+          "wordCount": 2570,
           "title": "Camunda Automation Platform 7.19.0-alpha2 released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/12/camunda-platform-7-19-0-alpha2-released.jpg"
         },
@@ -816,7 +816,7 @@
           "description": "Learn all about our Hacktoberfest 2022 challenge. We hope you all had a great time participating in it and Hacktoberfest as a whole! \nThe post Hacktoberfest 2022 recap appeared first on Camunda.",
           "link": "https://camunda.com/blog/2022/12/hacktoberfest-2022-recap/",
           "publishedOn": "2022-12-12T13:25:00.000Z",
-          "wordCount": 2303,
+          "wordCount": 2302,
           "title": "Hacktoberfest 2022 recap",
           "imageUrl": "https://camunda.com/wp-content/uploads/2022/12/Camunda-Hacktoberfest-Recap_1200x627.png"
         },
@@ -1126,16 +1126,6 @@
           "wordCount": 5303,
           "title": "Blog: Kubernetes v1.26: Electrifying",
           "imageUrl": null
-        },
-        {
-          "id": "https://kubernetes.io/blog/2022/12/05/forensic-container-checkpointing-alpha/",
-          "author": null,
-          "description": "Authors: Adrian Reber (Red Hat)\nForensic container checkpointing is based on Checkpoint/Restore In\nUserspace (CRIU) and allows the creation of stateful copies\nof a running container without the container knowing that it is being\ncheckpointed. The copy of the container can be analyzed and restored in a\nsandbox environment multiple times without the original container being aware\nof it. Forensic container checkpointing was introduced as an alpha feature in\nKubernetes v1.25.\nHow does it work?\nWith the help of CRIU it is possible to checkpoint and restore containers.\nCRIU is integrated in runc, crun, CRI-O and containerd and forensic container\ncheckpointing as implemented in Kubernetes uses these existing CRIU\nintegrations.\nWhy is it important?\nWith the help of CRIU and the corresponding integ…",
-          "link": "https://kubernetes.io/blog/2022/12/05/forensic-container-checkpointing-alpha/",
-          "publishedOn": "2022-12-05T00:00:00.000Z",
-          "wordCount": 4212,
-          "title": "Blog: Forensic container checkpointing in Kubernetes",
-          "imageUrl": null
         }
       ]
     },
@@ -1248,12 +1238,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=44518",
+          "author": "Seth Godin",
+          "description": "“They can always say no” is the mantra of someone who is hustling for attention, promo or a sale. But when you hustle a colleague or a friend, they can tell. They can tell that you’re being selfish, angling for a short-term win and trading something precious for something now. When we ask someone to […]",
+          "link": "https://feeds.feedblitz.com/~/723439518/0/sethsblog~Hustles-end-badly/",
+          "publishedOn": "2023-01-03T10:50:00.000Z",
+          "wordCount": 1118,
+          "title": "Hustles end badly",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061310-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=43488",
           "author": "Seth Godin",
           "description": "Compared to the overall population, virtually no one built Wikipedia, virtually no one voted for that senator and virtually no one starts a business. Virtually no one cares enough to help a stranger in need, and virtually no one leads the way. And that’s okay. Because virtually no one is enough.",
           "link": "https://feeds.feedblitz.com/~/723385438/0/sethsblog~Virtually-no-one/",
           "publishedOn": "2023-01-02T09:04:00.000Z",
-          "wordCount": 1092,
+          "wordCount": 1093,
           "title": "Virtually no one",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061312.jpg"
         },
@@ -1335,16 +1335,6 @@
           "publishedOn": "2022-12-26T09:37:00.000Z",
           "wordCount": 1165,
           "title": "How long is forever?",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806133-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=43495",
-          "author": "Seth Godin",
-          "description": "School and work push us to avoid real dreams. Dreamers are dangerous, impatient and unwilling to tolerate the status quo. Existing systems would prefer we simply fit in. The dreams we need to teach are the dreams of self-reliance and generosity. The only way for us to move forward is to encourage and amplify the […]",
-          "link": "https://feeds.feedblitz.com/~/722940656/0/sethsblog~Our-dreaming-opportunity/",
-          "publishedOn": "2022-12-25T09:20:00.000Z",
-          "wordCount": 1220,
-          "title": "Our dreaming opportunity",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806133-1.jpg"
         }
       ]

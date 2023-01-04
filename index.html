@@ -22,6 +22,292 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-03 datetime="2023-01-03T19:00:00.000Z">2023-01-03</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-03 datetime="2023-01-03T19:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Spring</button>
+                  <a class="source-heading__link" href="https://spring.io/blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://spring.io/blog/2023/01/03/spring-tools-4-17-1-released"
+                        open
+                      >
+                        <summary class="article-expander__title">Spring Tools 4.17.1 released</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://spring.io/blog/2023/01/03/spring-tools-4-17-1-released">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://avatars.githubusercontent.com/u/107705?v&#x3D;4?s&#x3D;200" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Dear Spring Community,
+
+I am happy to announce the 4.17.1 release of the Spring Tools 4 for Eclipse, Visual Studio Code, and Theia.
+fixes and improvements
+
+
+  
+(Spring Boot) fixed: Eclipse STS 4.17 takes 96 % processor time on Intel i9 (#934)
+
+  
+(Spring Boot) fixed: BootLanguageServerBootApp class is taking all available cpu continuously (#932)
+
+  
+(Spring Boot) fixed: OpenRewrite unchecked, but always Language Server Background Job(Loading Rewrite Recipes) (#925)
+
+  
+(Spring Boot) fixed: [validation] spring.factories EnableAutoConfiguration key for boot 3.0 ignores ‘on’ setting (#917)
+
+  
+(VSCode) fixed: [vscode] Boot LS is broken if Java LS launch mode is ‘Hybrid’ (#919)
+
+
+known issues
+
+
+  
+(Spring Boot): The newly introduced additional reconciling for Java source files which is used to show up additional validations and quick fixes can cause increased memory and CPU consumption. In case you stumble upon issues in this area, feel free to disable the reconciling via Preferences -&gt; Extensions -&gt; Spring Boot Tools -&gt; Open Rewrite (in VSCode) or Preferences -&gt; Language Servers -&gt; Spring Language Servers -&gt; Spring Boot Language Server -&gt; Open Rewrite (in Eclipse).
+
+
+To download the distribution for Eclipse and find links to the marketplace entries for Visual Studio Code and Theia, please go visit:
+
+
+  
+Spring Tools 4: https://spring.io/tools/
+
+
+Detailed changes can be found here: https://github.com/spring-projects/sts4/wiki/Changelog#2023-01-03-4171-release-incl-language-servers-version-1430
+
+Spring Tools 4.17.2 is scheduled to be released in early February 2023.
+
+Enjoy!</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://spring.io/blog/2023/01/03/this-week-in-spring-jan-3rd-2023"
+                        open
+                      >
+                        <summary class="article-expander__title">This Week in Spring - Jan 3rd, 2023</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://spring.io/blog/2023/01/03/this-week-in-spring-jan-3rd-2023">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://avatars.githubusercontent.com/u/54473?v&#x3D;4?s&#x3D;200" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Hi, Spring fans! Happy new year! It’s 2023 already! Who saw that comin’? I sure didn’t. This year promises to be more amazing than ever, and I can’t wait to be a part of it.
+
+As usual, the first week of January is when we mark the date of the first installment of this humble roundup, This Week in Spring, waaaay back in the first week of January 2011! 12 years of This Week in Spring! Now that’s consistency! 
+
+And it’s only possible because of you, dear community. Thank you. You, who have been consistently excellent every week of the year for years and years, are truly the reason for the season, and we appreciate you. This week is no exception! There’s a ton of great content, so let’s kick the year off right!
+
+
+  
+First, I’ll be speaking at the Atlanta JUG on the 16th of this month, by the by, so please join me, and we’ll dive headfirst into Spring in 2023!
+
+  
+Last week, I had the pleasure of interviewing my friend, and teammate, the legendary DaShaun Carter on a Bootiful Podcast
+
+  
+I love this post by Rafael Winterhalter (create of ByteBuddy and Bootiful Podcast guest on the amazing publish/subscribe capabilities of PostgreSQL. I love PostgreSQL. But then he goes even further, turning the mechanism into support in Spring Integration. He explains everything in this epic post, Using Postgres as a Message Queue
+
+  
+Create a new Git branch with no history - not strictly speaking Spring-related, but I thought it was interesting. Unless you’re not using Git… I suppose.
+
+  
+NonUniqueResultException in Spring Data JPA
+
+  
+Observability with Spring Boot 3
+
+  
+Oddity with shutdown methods in Spring Boot 3 AOT and GraalVM
+
+  
+Spring Boot (3) Spring Native (GraalVM) with Kubernetes &amp; Istio🔥
+
+  
+Using Watermarks with iText in Java
+
+  
+Blog: Kubernetes 1.26: Job Tracking, to Support Massively Parallel Batch Workloads, Is Generally Available
+
+  
+Blog: Kubernetes v1.26: Advancements in Kubernetes Traffic Engineering
+
+  
+Blog: Kubernetes v1.26: Alpha support for cross-namespace storage data sources</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Seth Godin&#x27;s Blog on marketing, tribes and respect</button>
+                  <a class="source-heading__link" href="https://seths.blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://seths.blog/?p&#x3D;44518"
+                        open
+                      >
+                        <summary class="article-expander__title">Hustles end badly</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://feeds.feedblitz.com/~/723439518/0/sethsblog~Hustles-end-badly/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061310-1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>“They can always say no” is the mantra of someone who is hustling for attention, promo or a sale. But when you hustle a colleague or a friend, they can tell. They can tell that you’re being selfish, angling for a short-term win and trading something precious for something now. When we ask someone to […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Elastic Blog - Elasticsearch, Kibana, and ELK Stack</button>
+                  <a class="source-heading__link" href="https://www.elastic.co">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/how-to-put-your-untapped-data-to-work-to-transform-your-business"
+                        open
+                      >
+                        <summary class="article-expander__title">How to put your untapped data to work in real time to transform your business</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/how-to-put-your-untapped-data-to-work-to-transform-your-business">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt05c01cebcc0b7873/63b44722897e7411813ae505/data-problemb-log-720x420-white.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Learn how to put your organization’s untapped data to work in three steps to reduce cyber risk, increase operational resilience, and improve user experiences.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;28
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/looking-back-at-2022-elastic-year-in-review"
+                        open
+                      >
+                        <summary class="article-expander__title">Looking back at 2022 — Elastic year in review</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/looking-back-at-2022-elastic-year-in-review">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt184241d95c36ecf1/63b48327897e7411813ae570/new-years-2023.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>2022 was an amazing year for Elastic with the introduction of new innovations across our solutions, new customers, and deepening partnerships. As we take a moment to reflect on the year in review, we’ve rounded up our top blog posts of 2022.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;26
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/how-to-put-your-untapped-data-to-work-to-transform-your-business"
+                        open
+                      >
+                        <summary class="article-expander__title">How to put your untapped data to work in real time to transform your business</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/how-to-put-your-untapped-data-to-work-to-transform-your-business">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt05c01cebcc0b7873/63b44722897e7411813ae505/data-problemb-log-720x420-white.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>,
+Ensure business continuity, protect your organization from cyber risk, and improve your customers’ and employees’ experiences all by putting your data to work in real-time. You already have the data — why not make it chip in for rent? A recent study found that 80% of companies surveyed saw an increase in revenue due to real-time data analytics. 
+The reason you can solve these all-encompassing, complex business problems with data? It’s because so many of your business problems are really just data problems in disguise. Let’s dive into a few of those problems and how you can solve them.
+Business problems are actually data problems
+Data problem #1: Your enterprise applications and infrastructure must be optimized for availability and performance. Imagine you’re the IT leader of a streaming …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;28
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/looking-back-at-2022-elastic-year-in-review"
+                        open
+                      >
+                        <summary class="article-expander__title">Looking back at 2022 — Elastic year in review</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/looking-back-at-2022-elastic-year-in-review">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt184241d95c36ecf1/63b48327897e7411813ae570/new-years-2023.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>,
+2022 was an amazing year for Elastic with the introduction of dozens of new innovations across our Observability, Security, and Enterprise Search solutions, new customers, and deepening partnerships.
+As we take a moment to reflect on the year in review, we’ve rounded up our top blog posts of 2022. We hope you enjoy them!
+Elastic 8.0 
+As we began the year, we also launched a new chapter with Elastic 8.0: A new era of speed, scale, relevance, and simplicity. Elastic 8.0 was the culmination of years of investment in the 7.x series to reduce memory usage and query overhead, and introduce new features to enhance relevance.
+For example, we increased the speed of date histograms and search aggregations, enhanced the performance of page caching, and created a new “pre-filter” search phase. In ad…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;26
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-02 datetime="2023-01-02T09:04:00.000Z">2023-01-02</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-02 datetime="2023-01-02T09:04:00.000Z"></time>
           </button>
@@ -52,6 +338,40 @@
                             <span class="media-object__text">
                               <span>Compared to the overall population, virtually no one built Wikipedia, virtually no one voted for that senator and virtually no one starts a business. Virtually no one cares enough to help a stranger in need, and virtually no one leads the way. And that’s okay. Because virtually no one is enough.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >xkcd.com</button>
+                  <a class="source-heading__link" href="https://xkcd.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://xkcd.com/2719/"
+                        open
+                      >
+                        <summary class="article-expander__title">Hydrogen Isotopes</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://xkcd.com/2719/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://imgs.xkcd.com/comics/hydrogen_isotopes_2x.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -892,7 +1212,7 @@ How were or are your holidays going? My family and I had a lovely Chris…</span
                               <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt236cc05d867aa3d7/6297baedb86a794d785d3b93/flexible-implementation-1680X980.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Perf8 is a tool Enterprise Search has started to develop to standardize the creation of performance reports for its Python applications.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;27
+                                &ensp;<span class="article-reading-time">(&hairsp;28
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -916,7 +1236,7 @@ We&#x27;re building this neat service in Python to ingest data in Elasticsearch 
 Sucking data from a third-party service to Elasticsearch is usually an I/O-bound activity. Your code sits on opened sockets and passes data from one end to the other. That&#x27;s a great use case for an asynchronous application in Python, but it needs to be carefully crafted.
 When data flows through that pipeline, we want to ensure we don&#x27;t blow the available resources (RAM/CPU/FDs). We also want to maximize the output without killing Elasticsearch or the backend service.
 So it&#x27;s all about implementing the right throttling and backpressure safeguards and surfacing the right settings, so you can properly size how aggressive the service will be…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;27
+                                &ensp;<span class="article-reading-time">(&hairsp;28
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1100,54 +1420,6 @@ scheduler&#x27;s performance. See …</span>
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-25 datetime="2022-12-25T09:20:00.000Z">2022-12-25</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-25 datetime="2022-12-25T09:20:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Seth Godin&#x27;s Blog on marketing, tribes and respect</button>
-                  <a class="source-heading__link" href="https://seths.blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://seths.blog/?p&#x3D;43495"
-                        open
-                      >
-                        <summary class="article-expander__title">Our dreaming opportunity</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://feeds.feedblitz.com/~/722940656/0/sethsblog~Our-dreaming-opportunity/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806133-1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>School and work push us to avoid real dreams. Dreamers are dangerous, impatient and unwilling to tolerate the status quo. Existing systems would prefer we simply fit in. The dreams we need to teach are the dreams of self-reliance and generosity. The only way for us to move forward is to encourage and amplify the […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-23 datetime="2022-12-23T21:03:27.000Z">2022-12-23</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-23 datetime="2022-12-23T21:03:27.000Z"></time>
           </button>
@@ -1287,40 +1559,6 @@ If you’re interested in helping out, check out the “ideal for contribution�
 
 Project Page | GitHub | Issues | Documentation | Stack Overflow | Gitter</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >xkcd.com</button>
-                  <a class="source-heading__link" href="https://xkcd.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://xkcd.com/2715/"
-                        open
-                      >
-                        <summary class="article-expander__title">Pando</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://xkcd.com/2715/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://imgs.xkcd.com/comics/pando_2x.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1900,7 +2138,7 @@ Conventional methods to anonymize data (e.g., de-id…</span>
                               <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt2578a51341d487d2/63a0b5c881b6d37de803a270/12.15-murals-blog-1680x980.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Building community is one of our top priorities. We want our employees to feel at home in their local office, so we hired local designers to create murals on the walls of each office to bring to life the essence of each Elastic city.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;25
+                                &ensp;<span class="article-reading-time">(&hairsp;26
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1950,7 +2188,7 @@ We’re a distributed, global company (and proud of it), but we do want to give 
 Currently, we have offices in: Amsterdam, Arlington, Austin, Bangalore, Berlin, Chicago, Copenhagen, London, Munich, New York, Paris, San Francisco, Singapore, Sydney, and Tokyo. 
 
 What makes our offices special is that each one is designed with its location in mind. We want our employees to feel at home in their local office, so we hired local designers to create murals on the walls of eac…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;25
+                                &ensp;<span class="article-reading-time">(&hairsp;26
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2364,7 +2602,7 @@ Project Page | GitHub | Issues | Documentation | Stack Overflow</span>
                               <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt30c6c1699365663e/6297ba9161670f0fb5dcff85/blog-timeseries-720x420.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Log data and system logs can be a treasure trove of information and insights for SREs and DevOps team with the right tools. Take a dive into the Elastic Platform, a leader in log management and monitoring capabilities, based on the proven ELK stack.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;35
+                                &ensp;<span class="article-reading-time">(&hairsp;36
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2410,7 +2648,7 @@ In this blog post, we’ll explore how Elastic’s search capabilities can help 
 Log files and system logs have been a treasure trove of information for administrators and developers for decades. But with more moving parts and ever more options on where to run modern cloud applications, keeping an eye on logs and troubleshooting problems have become increasingly difficult. 
 
 While it’s often possible to ssh into a server and run commands like tail -f, this approach doesn’t scale for most developers and administrators. Even if you’re good on the command line, you might be able to find what you’re looking for in a log file using awk and grep and could even calculate some simple statistics around how often certain errors occur. But what if the applications are running across hundreds of servers or Kubernetes pods? Or even worse, what if the applications are split across…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;35
+                                &ensp;<span class="article-reading-time">(&hairsp;36
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2685,7 +2923,7 @@ Project Site | Reference | Help</span>
                               <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt8dab1e1f1115fabc/635a8ed74922b010a7c3d6c1/azure-kubernetes-720x420-2.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Take a deep-dive into deploying Elastic for Kubernetes observability and security. Understand why managing Kubernetes can be a challenge and how to leverage OpenTelemetry with the power of the Elastic search and analytics platform to ensure success.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;73
+                                &ensp;<span class="article-reading-time">(&hairsp;72
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2711,7 +2949,7 @@ In this article, we discuss best practices for observing and securing applicatio
 Deploy and configure Elastic Agent in your Kubernetes cluster
 Ingest OpenTelemetry application traces, metrics, and events using Elastic Agent
 Ingest Kubernetes container logs, cluster metrics, a…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;73
+                                &ensp;<span class="article-reading-time">(&hairsp;72
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -3310,7 +3548,7 @@ repo.spring.io is intended for the download of snapshots and milestone artifacts
                               <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte21ddedce08464b6/61e1de94c5ff2e754efb027e/blog-security-lock-720x420.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>AV-Comparatives offers a comparison as an independent organization performing systematic testing that checks whether security software lives up to its promises. Elastic Security performed better than ever on the real-world protection test.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;25
+                                &ensp;<span class="article-reading-time">(&hairsp;24
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -3333,51 +3571,6 @@ repo.spring.io is intended for the download of snapshots and milestone artifacts
 Organizations need real-world protection from malware, but how do you know what you’ll get for security coverage in advance of purchasing a product? AV-Comparatives offers a comparison as an independent organization performing systematic testing that checks whether security software lives up to its promises. They create a real-world environment for accurate testing.
 The testing is well-regarded in the industry, assessing malware prevention, real-world protection, and performance of antivirus products. Elastic has performed well consistently on malware protection testing since 2017, starting with our legacy Endgame product and achieving Approved Business Security Product each test cycle. Now, we’re performing better than ever on the real-world protection test. 
 Security software testing o…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;25
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/2022-forrester-aiops-wave-it-operations-elastic-observability"
-                        open
-                      >
-                        <summary class="article-expander__title">Elastic recognized as a Strong Performer in The Forrester Wave™: Artificial Intelligence for IT Operations (AIOps), Q4 2022</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/2022-forrester-aiops-wave-it-operations-elastic-observability">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt725dead2f4819e77/63979ed853892a121b0b56d6/forreseter-wave-ad-ai-ops-1920x1080.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>AIOps has become increasingly important in observability for managing complex, cloud-native applications and technologies. Learn how Elastic Observability earned top scores for multiple criteria in the new Forrester Wave, AI for IT Operations!</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;24
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/2022-forrester-aiops-wave-it-operations-elastic-observability"
-                        open
-                      >
-                        <summary class="article-expander__title">Elastic recognized as a Strong Performer in The Forrester Wave™: Artificial Intelligence for IT Operations (AIOps), Q4 2022</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/2022-forrester-aiops-wave-it-operations-elastic-observability">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt725dead2f4819e77/63979ed853892a121b0b56d6/forreseter-wave-ad-ai-ops-1920x1080.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>,
-We are excited to announce that Elastic has been recognized as a Strong Performer in The Forrester Wave™: Artificial Intelligence for IT Operations (AIOps), Q4 2022 in our first year participating! 
-
-As organizations modernize their infrastructure and applications, operations and development teams are faced with an exponential growth in data. With the increased complexity and faster release cycles in hybrid and cloud environments, teams are overwhelmed when trying to detect and find the root cause of issues. In today’s digital world, application performance dictates business success and downtime and poor customer experience negatively impacts company revenue. 
-
-Elastic Observability is built on Elasticsearch, with powerful search and machine learning capabilities to provide customers wit…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;24
                                   min&hairsp;)</span>
                             </span>
@@ -3546,67 +3739,6 @@ Nonetheless, some Recorder users found it difficult to navigate long recordings 
                             <span class="media-object__text">
                               <span>The Terraform Plugin Framework 1.0 is now generally available to provide a modern and extensible way for developers to create Terraform providers.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Elastic Blog - Elasticsearch, Kibana, and ELK Stack</button>
-                  <a class="source-heading__link" href="https://www.elastic.co">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/elastic-security-for-siem-recognized-by-leading-industry-analysts"
-                        open
-                      >
-                        <summary class="article-expander__title">Elastic named a Leader in The Forrester Wave™: Security Analytics Platforms, Q4 2022</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/elastic-security-for-siem-recognized-by-leading-industry-analysts">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt69323019f723d794/5ffe0811f093203f68d42e54/blog-thumb-release-security.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Elastic named a Leader in the 2022 in Forrester Wave™: Security Analytics, Q4 2022. Forrester remarks that “Far and above, Elastic’s data visualizations steal the show.”</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;26
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/elastic-security-for-siem-recognized-by-leading-industry-analysts"
-                        open
-                      >
-                        <summary class="article-expander__title">Elastic named a Leader in The Forrester Wave™: Security Analytics Platforms, Q4 2022</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/elastic-security-for-siem-recognized-by-leading-industry-analysts">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt69323019f723d794/5ffe0811f093203f68d42e54/blog-thumb-release-security.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>,
-It’s that time of the year… and we’re not talking about the holidays. That’s right, it’s analyst report season.
-Elastic continues to be recognized by leading industry analyst firms. Today, Forrester Research recognized Elastic as a Leader in The Forrester Wave™: Security Analytics Platforms, Q4 2022. Elastic had the highest score in the Wave in the strategy category. 
-
-
-https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt34f5a352b1a55049/639a0584f8b8d66898be5451/2022Q4_Security_Analytics_Platforms_176427.png,2022Q4_Security_Analytics_Platforms_176427.png,
-Forrester remarks that “Far and away, Elastic’s data visualizations steal the show” and “Elastic is cloud-agnostic, providing flexibility to customers to use the CSP that they prefer.”
-Elastic SIEM unifies security analytics,…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;26
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -3793,7 +3925,7 @@ Elastic SIEM unifies security analytics,…</span>
 Failures in the “Account Parallelism Sync Analytics Job”.
 Azure DevOps Server 2020.1.2 Patch 4
 The post December patches for Azure DevOps Server appeared first on Azure DevOps Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;16
+                                &ensp;<span class="article-reading-time">(&hairsp;15
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4216,7 +4348,7 @@ As always, we welcome feedback and contributions, so please reach out to us on S
                             <span class="media-object__text">
                               <span>List of New Boards Hub bugs fixed in sprint 214. We enabled the “Try New Boards Hub” message across another ring of accounts. The process continues to go slower than originally expected. Every time we enable the message, we receive more feedback on issues that need to be fixed.
 The post New Boards Hub, Sprint 214 Update appeared first on Azure DevOps Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                &ensp;<span class="article-reading-time">(&hairsp;16
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4628,67 +4760,6 @@ We are introducing a new consumption pricing plan for Azure Spring Apps – you 
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://spring.io/blog/2022/12/07/spring-tools-4-17-0-released"
-                        open
-                      >
-                        <summary class="article-expander__title">Spring Tools 4.17.0 released</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://spring.io/blog/2022/12/07/spring-tools-4-17-0-released">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://avatars.githubusercontent.com/u/107705?v&#x3D;4?s&#x3D;200" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Dear Spring Community,
-
-I am happy to announce the 4.17.0 release of the Spring Tools 4 for Eclipse, Visual Studio Code, and Theia.
-major changes to the Spring Tools 4 for Eclipse distribution
-
-
-  
-updated to Eclipse 2022-12 release (new and noteworthy)
-
-
-early access to new experimental features
-
-Among a number of bug fixes and minor improvements, this release introduces experimental support for:
-
-
-  
-Spring Boot version validations: The IDE will tell you when there is a newer major, minor, or patch version available for your Spring Boot project
-
-  
-Spring Boot upgrade support: The tooling will help you upgrading your existing projects to newer Spring Boot versions, including upgrades to newer patch and minor versions, as well as newer major versions (e.g. upgrading to Spring Boot 3)
-
-  
-Spring specific validations and refactorings: The tooling will indicate whether something can or should be changed in your source code to keep your Spring project up-to-date with the latest recommendations or advancements in Spring
-
-
-To learn more about these new experimental features, please take a look at the user guide: https://github.com/spring-projects/sts4/wiki/
-And we would like to hear from you. Please let us know if you come across any issues or have thoughts and wishes for further improvements in this space: https://github.com/spring-projects/sts4/issues
-fixes and improvements
-
-Detailed changes can be found here: https://github.com/spring-projects/sts4/wiki/Changelog#2022-12-07-4170-release-incl-language-servers-version-1410
-downloads
-
-To download the distribution for Eclipse and find links to the marketplace entries for Visual Studio Code and Theia, please go visit:
-
-
-  
-Spring Tools 4: https://spring.io/tools/
-
-
-Spring Tools 4.17.1 is scheduled to be released in early Febuary 2023.
-
-Enjoy!</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -4812,44 +4883,6 @@ The post Updated: Now available: Azure DevOps Server 2022 RTW appeared first on 
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Spring</button>
-                  <a class="source-heading__link" href="https://spring.io/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://spring.io/blog/2022/12/06/this-week-in-spring-december-6th-2022"
-                        open
-                      >
-                        <summary class="article-expander__title">This Week in Spring - December 6th, 2022</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://spring.io/blog/2022/12/06/this-week-in-spring-december-6th-2022">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://avatars.githubusercontent.com/u/54473?v&#x3D;4?s&#x3D;200" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Hi, Spring fans! Welcome to another installment of This Week in Spring! How are you? You know what I’ve wanted to do? See my friends on the Spring team in person since the pandemic descended. And, I’m overjoyed to relate, I’ve just had the privilege of a nice meeting with several of them last night. And I’m going to see more of them today! Seriously. I feel like I won the lottery. I’ve missed my friends. Hug your friends and family, friends. You never know when the next pandemic (or life in general) will put distance between you and them. So, in order to close that distance, I’m going to go back to meetings with them, and I’ll leave you with yet another week’s curated list of content. (Can you believe we’re like four weeks away from 2023?)
-
-
-  
-A Bootiful Podcast: Java Champion Gunnar Mo…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -4898,59 +4931,12 @@ A Bootiful Podcast: Java Champion Gunnar Mo…</span>
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Kubernetes – Production-Grade Container Orchestration</button>
-                  <a class="source-heading__link" href="https://kubernetes.io/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://kubernetes.io/blog/2022/12/05/forensic-container-checkpointing-alpha/"
-                        open
-                      >
-                        <summary class="article-expander__title">Blog: Forensic container checkpointing in Kubernetes</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://kubernetes.io/blog/2022/12/05/forensic-container-checkpointing-alpha/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Authors: Adrian Reber (Red Hat)
-Forensic container checkpointing is based on Checkpoint/Restore In
-Userspace (CRIU) and allows the creation of stateful copies
-of a running container without the container knowing that it is being
-checkpointed. The copy of the container can be analyzed and restored in a
-sandbox environment multiple times without the original container being aware
-of it. Forensic container checkpointing was introduced as an alpha feature in
-Kubernetes v1.25.
-How does it work?
-With the help of CRIU it is possible to checkpoint and restore containers.
-CRIU is integrated in runc, crun, CRI-O and containerd and forensic container
-checkpointing as implemented in Kubernetes uses these existing CRIU
-integrations.
-Why is it important?
-With the help of CRIU and the corresponding integ…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/vxavictor513/osmosfeed/actions/runs/3826140592">
-        <time id="build-timestamp" datetime="2023-01-03T01:23:16.689Z">2023-01-03T01:23:16.689Z</time>
+      <a class="footer-link" href="https://github.com/vxavictor513/osmosfeed/actions/runs/3834371788">
+        <time id="build-timestamp" datetime="2023-01-04T01:25:33.624Z">2023-01-04T01:25:33.624Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

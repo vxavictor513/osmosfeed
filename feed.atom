@@ -1,10 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-01-05T01:35:12.652Z</id>
+    <id>urn:2023-01-06T01:34:27.600Z</id>
     <title>osmos::feed</title>
-    <updated>2023-01-05T01:35:12.652Z</updated>
+    <updated>2023-01-06T01:34:27.600Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Blog: Kubernetes 1.26: Eviction policy for unhealthy pods guarded by PodDisruptionBudgets]]></title>
+        <id>https://kubernetes.io/blog/2023/01/06/unhealthy-pod-eviction-policy-for-pdbs/</id>
+        <link href="https://kubernetes.io/blog/2023/01/06/unhealthy-pod-eviction-policy-for-pdbs/"/>
+        <updated>2023-01-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Authors: Filip Křepinský (Red Hat), Morten Torkildsen (Google), Ravi Gudimetla (Apple)
+Ensuring the disruptions to your applications do not affect its availability isn't a simple
+task. Last month's release of Kubernetes v1.26 lets you specify an unhealthy pod eviction policy
+for PodDisruptionBudgets (PDBs)
+to help you maintain that availability during node management operations.
+In this article, we will dive deeper into what modifications were introduced for PDBs to
+give application owners greater flexibility in managing disruptions.
+What problems does this solve?
+API-initiated eviction of pods respects PodDisruptionBudgets (PDBs). This means that a requested voluntary disruption
+via an eviction to a Pod, should not disrupt a guarded application and .status.currentHealthy of a PDB should n…]]></summary>
+        <author>
+            <name>Kubernetes – Production-Grade Container Orchestration</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazon S3 Encrypts New Objects By Default]]></title>
+        <id>6a490327f42a0b08871eb4843fc22e2b6a07f127</id>
+        <link href="https://aws.amazon.com/blogs/aws/amazon-s3-encrypts-new-objects-by-default/"/>
+        <updated>2023-01-05T21:03:09.000Z</updated>
+        <summary type="html"><![CDATA[At AWS, security is job zero. Starting today, Amazon Simple Storage Service (Amazon S3) encrypts all new objects by default. Now, S3 automatically applies server-side encryption (SSE-S3) for each new object, unless you specify a different encryption option. SSE-S3 was first launched in 2011. As Jeff wrote at the time: “Amazon S3 server-side encryption handles […]]]></summary>
+        <author>
+            <name>Sébastien Stormacq</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Bootiful Podcast: Spring legend Ramnivas Laddad]]></title>
+        <id>https://spring.io/blog/2023/01/05/a-bootiful-podcast-spring-legend-ramnivas-laddad</id>
+        <link href="https://spring.io/blog/2023/01/05/a-bootiful-podcast-spring-legend-ramnivas-laddad"/>
+        <updated>2023-01-05T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks to Spring and cloud legend, Spring Cloud Connectors founder, and Cloud Foundry founder, Ramnivas Laddad (@ramnivas)]]></summary>
+        <author>
+            <name>Spring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On this date]]></title>
+        <id>https://seths.blog/?p=44533</id>
+        <link href="https://feeds.feedblitz.com/~/723562054/0/sethsblog~On-this-date/"/>
+        <updated>2023-01-05T10:19:00.000Z</updated>
+        <summary type="html"><![CDATA[Something extraordinary happened. A record became a hit, a new technology was proven to work, someone raised their hand and asked an important question… On this date, someone took a chance, connected, opened a door or showed up with generosity. We can celebrate each of these momentous events today. The best way is by doing […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How the third-largest US county uses Elastic to accelerate investigations]]></title>
+        <id>https://www.elastic.co/blog/how-the-third-largest-us-county-uses-elastic-to-accelerate-investigations</id>
+        <link href="https://www.elastic.co/blog/how-the-third-largest-us-county-uses-elastic-to-accelerate-investigations"/>
+        <updated>2023-01-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Across the US, law enforcement teams are using solutions like Elastic to save time and improve accuracy as they use data for investigations. Harris County, TX, is one such government seeing success with accelerated, consolidated investigative search.]]></summary>
+        <author>
+            <name>Bobby Suber</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How the third-largest US county uses Elastic to accelerate investigations]]></title>
+        <id>https://www.elastic.co/blog/how-the-third-largest-us-county-uses-elastic-to-accelerate-investigations</id>
+        <link href="https://www.elastic.co/blog/how-the-third-largest-us-county-uses-elastic-to-accelerate-investigations"/>
+        <updated>2023-01-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+As law enforcement organizations benefit from readily available online information and databases, they also face the challenge of combing through vast amounts of information, often housed in siloed systems and databases. Across the US, law enforcement teams in state and local government are turning to solutions such as Elastic to save time and improve accuracy as they use data for investigations.
+Harris County, Texas, is one such government seeing success with accelerated, consolidated investigative search. Harris County is the third-largest county in the US by population, and it includes most of Houston. With over 70 law enforcement agencies and over 50 fire agencies, the county conducts a large number of investigations, where time is of the essence. 
+Shing H. Lin, CTO Harris County’s C…]]></summary>
+        <author>
+            <name>Bobby Suber</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Blog: Kubernetes 1.26: Retroactive Default StorageClass]]></title>
         <id>https://kubernetes.io/blog/2023/01/05/retroactive-default-storage-class/</id>
@@ -40,6 +112,16 @@ Users might already be familiar with a similar feature that assigns default Stor
         <summary type="html"><![CDATA[This is the first installment in a series of blog posts on how to build the skills needed to become a developer advocate (or similar technical roles). This post focuses on public speaking.]]></summary>
         <author>
             <name>HashiCorp Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[.NET Annotated Monthly | January 2023]]></title>
+        <id>https://blog.jetbrains.com/?post_type=dotnet&amp;p=310520</id>
+        <link href="https://blog.jetbrains.com/dotnet/2023/01/04/net-annotated-monthly-january-2023/"/>
+        <updated>2023-01-04T11:16:08.000Z</updated>
+        <summary type="html"><![CDATA[Did you know? Though these terms are often used interchangeably, there is a difference between a parameter and an argument. A parameter is only the definition of something that’s passed into a function and is found in the function’s signature. Parameters usually define the name and type of allowed for the argument to use. The […]]]></summary>
+        <author>
+            <name>Rachel Appel</name>
         </author>
     </entry>
     <entry>
@@ -522,16 +604,6 @@ The post Camunda community values appeared first on Camunda.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Scale and the small business (freelancer grid)]]></title>
-        <id>https://seths.blog/?p=43477</id>
-        <link href="https://feeds.feedblitz.com/~/723068082/0/sethsblog~Scale-and-the-small-business-freelancer-grid/"/>
-        <updated>2022-12-27T10:59:00.000Z</updated>
-        <summary type="html"><![CDATA[The industry giants want tonnage. Undifferentiated, commodity-priced, regularly delivered, consistent work for hire. They’re not going out of their way for freelancers that are bespoke, artisanal or even ‘better.’ They simply want to meet spec at the best price. They can keep you very busy, and they might even pay on time. There are a […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[This Week in Spring  - Happy New Year 2023 edition - December 27th, 2022]]></title>
         <id>https://spring.io/blog/2022/12/27/this-week-in-spring-happy-new-year-2023-edition-december-27th-2022</id>
         <link href="https://spring.io/blog/2022/12/27/this-week-in-spring-happy-new-year-2023-edition-december-27th-2022"/>
@@ -857,16 +929,6 @@ Conventional methods to anonymize data (e.g., de-id…]]></summary>
         <summary type="html"><![CDATA[Hello everyone, The ReSharper and Rider 2022.3.1 bug-fix releases are now available! Let’s go over the most important updates. ReSharper Here’s a list of the top bug fixes:  Fixed an issue with the screen blinking while typing before and after hints appear (RSRP-490593). Fixed a bug causing a false positive error when using C# 11 […]]]></summary>
         <author>
             <name>Sasha Ivanova</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing Guest Users in Space]]></title>
-        <id>https://blog.jetbrains.com/?post_type=space&amp;p=309411</id>
-        <link href="https://blog.jetbrains.com/space/2022/12/21/guest-users/"/>
-        <updated>2022-12-21T15:12:22.000Z</updated>
-        <summary type="html"><![CDATA[Space, a complete software development platform, simplifies team collaboration to help make development more enjoyable. However, development often does not take place exclusively within a single team, or even organization.  To provide more opportunities for collaboration, we’re introducing guest users in Space. You can now invite clients, freelancers, and other external partners to collaborate on […]]]></summary>
-        <author>
-            <name>Evgenia Verbina</name>
         </author>
     </entry>
     <entry>
@@ -1209,32 +1271,6 @@ Project Site | Reference | Help]]></summary>
         <summary type="html"><![CDATA[What’s the state of open source and how has it changed over the last decade? GitHub’s VP of Developer Relations, Martin Woodward, tackles that question and more in a 2022 keynote.]]></summary>
         <author>
             <name>The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Modern observability and security on Kubernetes with Elastic and OpenTelemetry]]></title>
-        <id>https://www.elastic.co/blog/implementing-kubernetes-observability-security-opentelemetry</id>
-        <link href="https://www.elastic.co/blog/implementing-kubernetes-observability-security-opentelemetry"/>
-        <updated>2022-12-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Take a deep-dive into deploying Elastic for Kubernetes observability and security. Understand why managing Kubernetes can be a challenge and how to leverage OpenTelemetry with the power of the Elastic search and analytics platform to ensure success.]]></summary>
-        <author>
-            <name>Ty Bekiares</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Modern observability and security on Kubernetes with Elastic and OpenTelemetry]]></title>
-        <id>https://www.elastic.co/blog/implementing-kubernetes-observability-security-opentelemetry</id>
-        <link href="https://www.elastic.co/blog/implementing-kubernetes-observability-security-opentelemetry"/>
-        <updated>2022-12-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-The structured nature of Kubernetes enables a repeatable and scalable means of deploying and managing services and applications. This has led to widespread adoption across market verticals for both on-premises and cloud deployment models. The autonomous nature of Kubernetes operation, however, demands comprehensive, fully-converged observability and security. This is uniquely possible today using the Elastic platform.
-In this article, we discuss best practices for observing and securing application and service workflows on Kubernetes using Elasticsearch and OpenTelemetry. You will learn how to:
-
-Deploy and configure Elastic Agent in your Kubernetes cluster
-Ingest OpenTelemetry application traces, metrics, and events using Elastic Agent
-Ingest Kubernetes container logs, cluster metrics, a…]]></summary>
-        <author>
-            <name>Ty Bekiares</name>
         </author>
     </entry>
     <entry>
@@ -1841,71 +1877,6 @@ The post Boosting your microservice architecture with message broker Connectors 
 Ad technology providers widely use machine learning (ML) models to predict and present users with the most relevant ads, and to measure the effectiveness of those ads. With increasing focus on online privacy, there’s an opportunity to identify ML algorithms that have better privacy-utility trade-offs. Differential privacy (DP) has emerged as a popular framework for developing ML algorithms responsibly with provable privacy guarantees. It has been extensively studied in the privacy literature, deployed in industrial applications and employed by the U.S. Census. Intuitively, the DP framework enables ML models to learn population-wide properties, while protecting user-level inf…]]></summary>
         <author>
             <name>Google AI Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Do more with Azure Spring Apps – scale to zero and enhance productivity]]></title>
-        <id>https://spring.io/blog/2022/12/07/do-more-with-azure-spring-apps-scale-to-zero-and-enhance-productivity</id>
-        <link href="https://spring.io/blog/2022/12/07/do-more-with-azure-spring-apps-scale-to-zero-and-enhance-productivity"/>
-        <updated>2022-12-07T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In 2020, Spotify coined the term "Golden Path” to refer to a supported approach and set of components to build and deploy software. Having these paths simplifies the development process, lets developers focus on their applications instead of infrastructure and speeds time to production. Microsoft and VMware have partnered to make Azure Spring Apps a golden path for deploying and scaling Spring applications in the cloud. And with new capabilities like the scale to zero and developer productivity enhancements, Azure Spring Apps now offers an even more economical and optimized route to get your Spring applications into production.
-1. Start from zero and scale to zero – consumption plan
-
-We are introducing a new consumption pricing plan for Azure Spring Apps – you can start from zero and scal…]]></summary>
-        <author>
-            <name>Spring</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google at EMNLP 2022]]></title>
-        <id>http://ai.googleblog.com/2022/12/google-at-emnlp-2022.html</id>
-        <link href="http://ai.googleblog.com/2022/12/google-at-emnlp-2022.html"/>
-        <updated>2022-12-07T08:41:00.004Z</updated>
-        <summary type="html"><![CDATA[Posted by Malaya Jules, Program Manager, Google  
-This week, the premier conference on Empirical Methods in Natural Language Processing (EMNLP 2022) is being held in Abu Dhabi, United Arab Emirates. We are proud to be a Diamond Sponsor of EMNLP 2022, with Google researchers contributing at all levels. This year we are presenting over 50 papers and are actively involved in 10 different workshops and tutorials.
-    
-If you’re registered for EMNLP 2022, we hope you’ll visit the Google booth to learn more about the exciting work across various topics, including language interactions, causal inference, question answering and more. Take a look below to learn more about the Google research being presented at EMNLP 2022 (Google affiliations in bold). 
-    
-
-Committees
-  
-Organizing Committee inclu…]]></summary>
-        <author>
-            <name>Google AI Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Will You Find These Shortcuts?]]></title>
-        <id>http://ai.googleblog.com/2022/12/will-you-find-these-shortcuts.html</id>
-        <link href="http://ai.googleblog.com/2022/12/will-you-find-these-shortcuts.html"/>
-        <updated>2022-12-06T20:56:00.002Z</updated>
-        <summary type="html"><![CDATA[Posted by Katja Filippova, Research Scientist, and Sebastian Ebert, Software Engineer, Google Research, Brain team    
-Modern machine learning models that learn to solve a task by going through many examples can achieve stellar performance when evaluated on a test set, but sometimes they are right for the “wrong” reasons: they make correct predictions but use information that appears irrelevant to the task. How can that be? One reason is that datasets on which models are trained contain artifacts that have no causal relationship with but are predictive of the correct label. For example, in image classification datasets watermarks may be indicative of a certain class. Or it can happen that all the pictures of dogs happen to be taken outside, against green grass, so a green background become…]]></summary>
-        <author>
-            <name>Google AI Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Updated: Now available: Azure DevOps Server 2022 RTW]]></title>
-        <id>https://devblogs.microsoft.com/devops/?p=66134</id>
-        <link href="https://devblogs.microsoft.com/devops/now-available-azure-devops-server-2022-rtw/"/>
-        <updated>2022-12-06T20:00:07.000Z</updated>
-        <summary type="html"><![CDATA[12/16 Update: There is an additional step that you will have to follow while upgrading to Azure DevOps Server 2022. This applies to Azure DevOps Server/Team Foundation Server and Elasticsearch installations on the same and in different machines.
-Upgrade Elasticsearch 2.x and 5.x to 7.x
-You will have to select Install New Search while configuring search post Azure DevOps Server upgrade.
-The post Updated: Now available: Azure DevOps Server 2022 RTW appeared first on Azure DevOps Blog.]]></summary>
-        <author>
-            <name>Gloridel Morales</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Project signing and verification]]></title>
-        <id>https://www.ansible.com/blog/project-signing-and-verification</id>
-        <link href="https://www.ansible.com/blog/project-signing-and-verification"/>
-        <updated>2022-12-06T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Project signing is a new feature developed for Red Hat Ansible Automation Platform that came out in the latest 2.3 release. It enables users to sign project-based content (think playbooks, workflows, inventories, etc.) and verify whether or not that content has remained secure. It also features a new CLI tool, ansible-sign. This blog post will explain how it works, illustrate how to implement it, and highlight a few scenarios.]]></summary>
-        <author>
-            <name>Lila Yasin</name>
         </author>
     </entry>
 </feed>

@@ -345,7 +345,7 @@
           "description": "Version 8.6.1 of the Elastic Stack was released today. We recommend you upgrade to this latest version over the 8.6.0 minor release.\nThe 8.6.1 release addresses a recent Elastic Cloud issue where a rolling restart would fail for some users.\nFor details of the issues that have been fixed and a full list of changes for each product in this version, please refer to the release notes.",
           "link": "https://www.elastic.co/blog/elastic-stack-8-6-1-released",
           "publishedOn": "2023-01-26T00:00:00.000Z",
-          "wordCount": 5970,
+          "wordCount": 7096,
           "title": "Elastic Stack 8.6.1 released",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c35d17afad9d20d/5f122812c31823015df6ef0a/blog-thumb-rocket-launch.png"
         },
@@ -355,7 +355,7 @@
           "description": "Read about the updates and bug fixes that have been included in the 8.6.1 release.",
           "link": "https://www.elastic.co/blog/elastic-stack-8-6-1-released",
           "publishedOn": "2023-01-26T00:00:00.000Z",
-          "wordCount": 5970,
+          "wordCount": 7096,
           "title": "Elastic Stack 8.6.1 released",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c35d17afad9d20d/5f122812c31823015df6ef0a/blog-thumb-rocket-launch.png"
         },
@@ -365,7 +365,7 @@
           "description": "Elastic Observability can ingest and help analyze AWS VPC Flow Logs from your application’s VPC. Learn how to ingest AWS VPC Flow Logs through a step-by-step method into Elastic, then analyze it and apply OOTB machine learning for insights.",
           "link": "https://www.elastic.co/blog/vpc-flow-logs-monitoring-analytics-observability",
           "publishedOn": "2023-01-24T00:00:00.000Z",
-          "wordCount": 12336,
+          "wordCount": 13462,
           "title": "Easily analyze AWS VPC Flow Logs with Elastic Observability",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt901918d4eaef19b9/63cffecfbf4c675e1c44e6b8/patterns-midnight-background-no-logo-observability.png"
         },
@@ -385,7 +385,7 @@
           "description": ",\nElastic Observability provides a full-stack observability solution, by supporting metrics, traces, and logs for applications and infrastructure. In a previous blog, I showed you how to monitor your AWS infrastructure running a three-tier application. Specifically we reviewed metrics ingest and analysis on Elastic Observability for EC2, VPC, ELB, and RDS. In this blog, we will cover how to ingest logs from AWS, and more specifically, we will review how to get VPC Flow Logs into Elastic and what you can do with this data.\n\nLogging is an important part of observability, for which we generally think of metrics and/or tracing. However, the amount of logs an application or the underlying infrastructure output can be significantly daunting. \n\nWith Elastic Observability, there are three main mec…",
           "link": "https://www.elastic.co/blog/vpc-flow-logs-monitoring-analytics-observability",
           "publishedOn": "2023-01-24T00:00:00.000Z",
-          "wordCount": 12336,
+          "wordCount": 13462,
           "title": "Easily analyze AWS VPC Flow Logs with Elastic Observability",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt901918d4eaef19b9/63cffecfbf4c675e1c44e6b8/patterns-midnight-background-no-logo-observability.png"
         },
@@ -405,7 +405,7 @@
           "description": "Elasticsearch is introducing a new type of vector that has 8-bit integer dimensions. This is 4x smaller than the current vector with 32-bit float dimensions, which can result in substantial space savings.",
           "link": "https://www.elastic.co/blog/save-space-with-byte-sized-vectors",
           "publishedOn": "2023-01-23T00:00:00.000Z",
-          "wordCount": 9640,
+          "wordCount": 9612,
           "title": "Save space with byte-sized vectors",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt894b0d90d3b3ab68/5ee7cbc53f04b94a186c8020/blog-thumb-elasticsearch-gears-light-blue.png"
         },
@@ -415,7 +415,7 @@
           "description": ",\nElasticsearch is introducing a new type of vector in 8.6! This vector has 8-bit integer dimensions, where each dimension has a range of [-128, 127]. This is 4x smaller than the current vector with 32-bit float dimensions, which can result in substantial space savings.\nYou can start indexing these smaller, 8-bit vectors right now by adding the element_type parameter with the byte value to your vector mappings, similar to the example below.\n{\n    \"mappings\": {\n        \"properties\": {\n            \"my_vector\": {\n                \"type\": \"dense_vector\",\n                \"element_type\": \"byte\",\n                \"dims\": 3,\n                \"index\": true,\n                \"similarity\": \"dot_product\"\n            }\n        }\n    }\n},\nBut what if your existing vectors' dimensions don't fit into this sma…",
           "link": "https://www.elastic.co/blog/save-space-with-byte-sized-vectors",
           "publishedOn": "2023-01-23T00:00:00.000Z",
-          "wordCount": 9640,
+          "wordCount": 9612,
           "title": "Save space with byte-sized vectors",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt894b0d90d3b3ab68/5ee7cbc53f04b94a186c8020/blog-thumb-elasticsearch-gears-light-blue.png"
         },
@@ -425,7 +425,7 @@
           "description": "The increasing complexity of cloud-native environments has led to a growing need for unified observability solutions. And metrics, logs, and traces are not enough. Learn why continuous profiling signals are a must-have in your observability toolbox.",
           "link": "https://www.elastic.co/blog/observability-profiling-metrics-logs-traces",
           "publishedOn": "2023-01-19T00:00:00.000Z",
-          "wordCount": 10624,
+          "wordCount": 11750,
           "title": "Why metrics, logs, and traces aren’t enough",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc639e4ea80250db0/6297baec7e445a4356bd6b36/illustration-analytics-report-1680x980.png"
         },
@@ -435,7 +435,7 @@
           "description": ",\nIdentifying performance bottlenecks and wasteful computations can be a complex and challenging task, particularly in modern cloud-native environments. \n\nAs the complexity of cloud-native environments increases, so does the need for effective observability solutions. Organizations typically rely on the established three pillars of observability –– metrics, logs, and traces –– to improve the reliability and performance of their applications and infrastructure. While the pillars are valuable for observability, they are not enough on their own.    \n\nIn this blog post, we will discuss why continuous profiling signals are a must-have in your observability toolbox, and how they complement metrics, logs, and traces. In addition, we will also discuss why it is crucial to consolidate all four obse…",
           "link": "https://www.elastic.co/blog/observability-profiling-metrics-logs-traces",
           "publishedOn": "2023-01-19T00:00:00.000Z",
-          "wordCount": 10624,
+          "wordCount": 11750,
           "title": "Why metrics, logs, and traces aren’t enough",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc639e4ea80250db0/6297baec7e445a4356bd6b36/illustration-analytics-report-1680x980.png"
         },
@@ -445,7 +445,7 @@
           "description": "A new feature in Elastic 8.6 offers a more detailed view into the anomaly detection scoring model. It explains the factors that influence the specific anomaly scores in your data.",
           "link": "https://www.elastic.co/blog/explaining-anomalies-detected-by-elastic-machine-learning",
           "publishedOn": "2023-01-17T00:00:00.000Z",
-          "wordCount": 8912,
+          "wordCount": 10038,
           "title": "Explaining anomalies detected by Elastic machine learning",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte9df0672788e40b9/6297ba4e5711a40f708ca8d4/blog-thumb-blind-spots.png"
         },
@@ -465,7 +465,7 @@
           "description": ",\nWhy is that anomalous? How come the anomaly score is not higher? Anomaly detection is a valuable machine learning feature used in Elastic Security and Observability. But, oh boy, those numbers can look confusing. If only someone could explain them in clear language. Or, even better, draw a picture.\nIn Elastic 8.6, we show extra details for anomaly records. These details allow looking behind the curtains of the anomaly scoring algorithm.\nWe have written about anomaly scoring and normalization in this blog before. The anomaly detection algorithm analyzes time series of data in an online fashion. It identifies trends and periodic patterns on different time scales, such as a day, a week, a month, or a year. Real-world data is usually a mix of trends and periodic patterns on different time sc…",
           "link": "https://www.elastic.co/blog/explaining-anomalies-detected-by-elastic-machine-learning",
           "publishedOn": "2023-01-17T00:00:00.000Z",
-          "wordCount": 8912,
+          "wordCount": 10038,
           "title": "Explaining anomalies detected by Elastic machine learning",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte9df0672788e40b9/6297ba4e5711a40f708ca8d4/blog-thumb-blind-spots.png"
         },
@@ -485,7 +485,7 @@
           "description": "How exactly does a distributed company work? Because we’ve been doing this long before distributed work became cool, we have some tips and tricks that make it easier for everyone to stay connected and perform their best work.",
           "link": "https://www.elastic.co/blog/culture-the-elastic-guide-to-distributed-work",
           "publishedOn": "2023-01-12T08:00:00.000Z",
-          "wordCount": 9612,
+          "wordCount": 9584,
           "title": "The Elastic Guide to: Distributed Work",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltfda80b77fcc3467e/63bdba0e64209b15808bd342/01.09-blog-distribution-blog-1680x980.jpg"
         },
@@ -495,7 +495,7 @@
           "description": ",\nDo you know the difference between remote work and distributed teams?\n\nPost-pandemic, a large majority of the global workforce works remotely in one way or another. In fact, an Owl Labs study found that 62% of workers aged 22 to 65 claimed to work remotely at least occasionally.\n\nWhat you might not know is that experience working remotely doesn’t necessarily translate to working in a fully distributed environment. \n\nThe difference between remote work and distributed work starts at the company level. Companies that are distributed have an ethos that where you do your work doesn’t impact your performance. Working remotely is at the individual level. It is someone choosing, or being allowed, to work a certain way some, or all, of the time. It can be a hard distinction to make, but at Elasti…",
           "link": "https://www.elastic.co/blog/culture-the-elastic-guide-to-distributed-work",
           "publishedOn": "2023-01-12T08:00:00.000Z",
-          "wordCount": 9612,
+          "wordCount": 9584,
           "title": "The Elastic Guide to: Distributed Work",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltfda80b77fcc3467e/63bdba0e64209b15808bd342/01.09-blog-distribution-blog-1680x980.jpg"
         },
@@ -639,7 +639,7 @@
           "description": "YAML pipelines offer the best security for your Azure Pipelines. In contrast to classic build and release pipelines, YAML pipelines:\nCan be code reviewed. YAML pipelines are no different from any other piece of code. You can prevent malicious actors from introducing malicious steps in your pipelines by enforcing the use of Pull Requests to merge changes.\nThe post Disable creation of classic pipelines appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/disable-creation-of-classic-pipelines/",
           "publishedOn": "2023-01-25T07:13:47.000Z",
-          "wordCount": 6271,
+          "wordCount": 5957,
           "title": "Disable creation of classic pipelines",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2019/02/AzureDevOps.png"
         },
@@ -649,7 +649,7 @@
           "description": "This month, we are releasing fixes that impact Azure DevOps Server 2022.\nTest data was not being deleted, causing the database to grow. With this fix, we updated build retention to prevent creating new orphan test data.\nThe post Azure DevOps Server 2022 Patch 1 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azure-devops-server-2022-patch-1/",
           "publishedOn": "2023-01-24T18:06:45.000Z",
-          "wordCount": 4957,
+          "wordCount": 4643,
           "title": "Azure DevOps Server 2022 Patch 1",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2019/03/pipelines-hero-1.jpg"
         },
@@ -659,7 +659,7 @@
           "description": "Because of the holidays, and our deployment schedule, this update includes our progress for both sprint 215 and 216. You will notice a lot of bugs being fixed in these sprints. Some of the issues being significant.\nThe post New Boards Hub, Sprint 216 update appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/new-boards-hub-sprint-216-update/",
           "publishedOn": "2023-01-20T20:44:47.000Z",
-          "wordCount": 5506,
+          "wordCount": 5187,
           "title": "New Boards Hub, Sprint 216 update",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2018/08/vstsfeature.png"
         },
@@ -679,7 +679,7 @@
           "description": "Introduction\nThe post Node runner update guidance for Azure Pipelines task authors appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/node-runner-update-guidance-for-azure-pipelines-task-authors/",
           "publishedOn": "2023-01-06T15:49:20.000Z",
-          "wordCount": 5018,
+          "wordCount": 5332,
           "title": "Node runner update guidance for Azure Pipelines task authors",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2018/08/vstsfeature.png"
         }
@@ -806,7 +806,7 @@
           "description": "Learn why Atlassian turned to process orchestration to hyperautomate their tech stack with Camunda and deliver improved customer and employee experiences.\nThe post How Atlassian uses Camunda within their hyperautomation tech stack appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/01/atlassian-camunda-hyperautomation/",
           "publishedOn": "2023-01-25T20:46:22.000Z",
-          "wordCount": 3419,
+          "wordCount": 3420,
           "title": "How Atlassian uses Camunda within their hyperautomation tech stack",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/01/atlassian-hyperautomation-tech-stack_1200x627.png"
         },
@@ -856,7 +856,7 @@
           "description": "Announcing the latest release of Camunda Optimize! Camunda Optimize makes it possible to evaluate the success of your process automation initiative.\nThe post Camunda Optimize 3.10.0-alpha3 released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/01/optimize-3-10-0-alpha3/",
           "publishedOn": "2023-01-10T20:28:34.000Z",
-          "wordCount": 2157,
+          "wordCount": 2158,
           "title": "Camunda Optimize 3.10.0-alpha3 released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/01/camunda-optimize-3-10-0-alpha3-release.jpg"
         }
@@ -1081,16 +1081,6 @@
           "wordCount": 3805,
           "title": "Blog: Kubernetes v1.26: Alpha support for cross-namespace storage data sources",
           "imageUrl": null
-        },
-        {
-          "id": "https://kubernetes.io/blog/2022/12/30/advancements-in-kubernetes-traffic-engineering/",
-          "author": null,
-          "description": "Authors: Andrew Sy Kim (Google)\nKubernetes v1.26 includes significant advancements in network traffic engineering with the graduation of\ntwo features (Service internal traffic policy support, and EndpointSlice terminating conditions) to GA,\nand a third feature (Proxy terminating endpoints) to beta. The combination of these enhancements aims\nto address short-comings in traffic engineering that people face today, and unlock new capabilities for the future.\nTraffic Loss from Load Balancers During Rolling Updates\nPrior to Kubernetes v1.26, clusters could experience loss of traffic\nfrom Service load balancers during rolling updates when setting the externalTrafficPolicy field to Local.\nThere are a lot of moving parts at play here so a quick overview of how Kubernetes manages load balancers migh…",
-          "link": "https://kubernetes.io/blog/2022/12/30/advancements-in-kubernetes-traffic-engineering/",
-          "publishedOn": "2022-12-30T00:00:00.000Z",
-          "wordCount": 4018,
-          "title": "Blog: Kubernetes v1.26: Advancements in Kubernetes Traffic Engineering",
-          "imageUrl": null
         }
       ]
     },
@@ -1105,7 +1095,7 @@
           "description": "In Marken (Scalable Annotation Service at Netflix), an annotation is a piece of metadata which can be attached to an object from any domain.",
           "link": "https://netflixtechblog.com/scalable-annotation-service-marken-f5ba9266d428?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-01-26T03:07:29.000Z",
-          "wordCount": 6171,
+          "wordCount": 6152,
           "title": "Scalable Annotation Service — Marken",
           "imageUrl": "https://miro.medium.com/max/1200/1*5eyi33Txa5kOKuyMmrpPGA.jpeg"
         }
@@ -1164,12 +1154,32 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=44809",
+          "author": "Seth Godin",
+          "description": "And then what happens? Many small businesses start with generosity and good intent at their core. But it’s a rough ride, and especially when outside funding is involved, it’s easy to get seduced by the bright lights of Milton Friedman and an obsession with short-term profits. Over time, purpose starts to fade. The urgencies and […]",
+          "link": "https://feeds.feedblitz.com/~/725735396/0/sethsblog~New-ways-to-codify-purpose/",
+          "publishedOn": "2023-01-28T09:55:00.000Z",
+          "wordCount": 1042,
+          "title": "New ways to codify purpose",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061314.jpg"
+        },
+        {
+          "id": "https://seths.blog/?p=43692",
+          "author": "Seth Godin",
+          "description": "…is no choice at all. The stable owner gets to pick which horse you get. Take it or leave it. Some people prefer this. It means that we’re off the hook and not responsible. It relieves us of the emotional labor of choice. Let someone else worry about it… And so we give up our […]",
+          "link": "https://feeds.feedblitz.com/~/725734118/0/sethsblog~Hobsons-choice/",
+          "publishedOn": "2023-01-28T09:36:00.000Z",
+          "wordCount": 919,
+          "title": "Hobson’s choice",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806139-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=44800",
           "author": "Seth Godin",
           "description": "It’s a fascinating payment model. For digital goods and other transactions where the marginal cost of one more sale approaches zero, “pay what you want” exposes how complicated the story we tell about money can be. When we add in the charity component, it becomes even more layered. The Best of Akimbo (volume 1) is […]",
           "link": "https://feeds.feedblitz.com/~/725634233/0/sethsblog~Pay-what-you-want/",
           "publishedOn": "2023-01-27T08:39:00.000Z",
-          "wordCount": 990,
+          "wordCount": 991,
           "title": "Pay what you want",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061311.jpg"
         },
@@ -1242,26 +1252,6 @@
           "wordCount": 1337,
           "title": "Amazon Smile gets a frown",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=43624",
-          "author": "Seth Godin",
-          "description": "Not that long ago, you could make a living as a typist. Technology keeps changing the world. Now, you’re more likely to find a job doing something that seems a lot less mechanized. But that too will be programmatic soon enough. PS here’s an important new book about perfectionism.",
-          "link": "https://feeds.feedblitz.com/~/724921388/0/sethsblog~TypistHypist/",
-          "publishedOn": "2023-01-19T09:17:00.000Z",
-          "wordCount": 851,
-          "title": "Typist/Hypist",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061315.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=43621",
-          "author": "Seth Godin",
-          "description": "There are mistakes. These are moments when reality teaches us something. And there’s stupid. This is what happens when we refuse to learn from our mistakes. “Don’t be stupid” is a fine mantra. It’s particularly apt when talking about cultural forces, political agendas and our thoughtless impulses. It’s also useful to remember to “make productive […]",
-          "link": "https://feeds.feedblitz.com/~/724810539/0/sethsblog~There-are-no-stupid-mistakes/",
-          "publishedOn": "2023-01-18T09:46:00.000Z",
-          "wordCount": 873,
-          "title": "There are no stupid mistakes",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061314.jpg"
         }
       ]
     },
@@ -1271,13 +1261,63 @@
       "siteUrl": "https://blog.jetbrains.com",
       "articles": [
         {
+          "id": "https://blog.jetbrains.com/?post_type=dataspell&p=315295",
+          "author": "Ciara Byrne",
+          "description": "DataSpell 2022.3.2 brings you fixes to ensure that Jupyter Notebooks are consistently reloaded from disk and that your typing doesn’t get stuck in reverse. Download the new version from our website, update directly from the IDE, via the free Toolbox App, or use snaps for Ubuntu. Download DataSpell 2022.3.2 Notebooks Reloaded   In previous releases, Jupyter […]",
+          "link": "https://blog.jetbrains.com/dataspell/2023/01/2022-3-2/",
+          "publishedOn": "2023-01-27T18:48:39.000Z",
+          "wordCount": 2565,
+          "title": "DataSpell 2022.3.2 Is Out!",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/01/ds-release-blog-social-share-image-1280x720-1-1.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=clion&p=317130",
+          "author": "Anastasia Kazakova",
+          "description": "A new CLion 2022.3.2 bug-fix update is now available! Download build 223.8617.54 from our website, through the Toolbox App, as a snap for Ubuntu, or via patch from the IDE. DOWNLOAD CLION The highlights of this update are: Reformat on save with ClangFormat works as expected again (CPP-30247). On Windows, CLion no longer breaks the […]",
+          "link": "https://blog.jetbrains.com/clion/2023/01/clion-2022-3-2-bug-fix-update/",
+          "publishedOn": "2023-01-27T17:41:13.000Z",
+          "wordCount": 2657,
+          "title": "CLion 2022.3.2 Bug-Fix Update",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/01/cl-bug-fix-blog-social-share-image-1280x720-1.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=go&p=317184",
+          "author": "Sergey Kozlovskiy",
+          "description": "The second GoLand 2023.1 EAP build is now available!  You can get it via the Toolbox App, download it from our website, use a snap package (for Ubuntu), or from inside GoLand, select Check IDE updates for: Early Access Program in Settings | Appearance & Behavior | System Settings | Updates. Download GoLand 2023.1 EAP […]",
+          "link": "https://blog.jetbrains.com/go/2023/01/27/run-scratch-files-with-non-standard-library-packages-remove-spaces-from-go-directives-and-more-in-goland-2023-1-eap-2/",
+          "publishedOn": "2023-01-27T17:14:01.000Z",
+          "wordCount": 3231,
+          "title": "Run Scratch Files With Non-Standard-Library Packages, Remove Spaces from Go Directives, and More in GoLand 2023.1 EAP #2",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/01/Blog_Social_share_image_1280x720_GoLand-2x.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=idea&p=315068",
+          "author": "Maria Kosukhina",
+          "description": "IntelliJ IDEA 2023.1 EAP 2 is now available! In this build, we’ve introduced a new approach to scanning files for indexing at IDE startup, UI improvements, new and updated Java inspections, the ability to create custom regexp-based inspections, and more.  You can get the latest build from our website, the free Toolbox App, or via […]",
+          "link": "https://blog.jetbrains.com/idea/2023/01/intellij-idea-2023-1-eap-2/",
+          "publishedOn": "2023-01-27T16:29:22.000Z",
+          "wordCount": 3196,
+          "title": "IntelliJ IDEA 2023.1 EAP 2: Faster IDE Startup, New Java Inspections, and More",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/02/intellij-idea_social.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=317185",
+          "author": "Alexander Kurakin",
+          "description": "Here comes another round of bug-fix updates for ReSharper Tools and Rider 2022.3. Let’s take a look at what has been improved. Rider  Performance Searching in the Search Everywhere popup shouldn’t be slow anymore (IDEA-308324). Code editor The Undo action works as expected in files with language injections (RIDER-85801).  Web development  Hot reload applies layout […]",
+          "link": "https://blog.jetbrains.com/dotnet/2023/01/27/resharper-rider-2022-3-2/",
+          "publishedOn": "2023-01-27T15:40:37.000Z",
+          "wordCount": 2815,
+          "title": "ReSharper Tools and Rider 2022.3.2 Bug-fix Updates Have Arrived!",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/01/rd-bug-fix-blog-social-share-image-1280x720-1.png"
+        },
+        {
           "id": "https://blog.jetbrains.com/?post_type=idea&p=315979",
           "author": "Maria Kosukhina",
           "description": "The second bug-fix release for IntelliJ IDEA 2022.3 is now available. You can get the latest version from our website, via the Toolbox App, from inside the IDE, or by using snaps if you’re a Ubuntu user. Below are the most notable quality improvements in the new version:  We’ve been working to fully eliminate screen […]",
           "link": "https://blog.jetbrains.com/idea/2023/01/intellij-idea-2022-3-2/",
           "publishedOn": "2023-01-26T20:06:52.000Z",
           "wordCount": 2634,
-          "title": "IntelliJ IDEA 2022.3.2  Is Out!",
+          "title": "IntelliJ IDEA 2022.3.2 Is Out!",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/02/intellij-idea_social.png"
         },
         {
@@ -1339,56 +1379,6 @@
           "wordCount": 3728,
           "title": "PhpStorm 2023.1 Early Access Program Is Open!",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/01/Blog_Social_share_image_1280x720_PhpStorm-2x.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=pycharm&p=315005",
-          "author": "Valeria Letusheva",
-          "description": "PyCharm is working hard on Python developer experience (DX). There’s a project with a very promising DX boost using “hot reloading”: Reloadium. It really speeds up turnaround time on working with your code, and with the PyCharm plugin, brings fresh new ideas to running, debugging, and profiling. On January, 27 we have a webinar with […]",
-          "link": "https://blog.jetbrains.com/pycharm/2023/01/interview-with-reloadium/",
-          "publishedOn": "2023-01-25T14:18:01.000Z",
-          "wordCount": 3583,
-          "title": "In Conversation With the Reloadium Team: Hot Reload and a Future Webinar",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/01/DSGN-15362-Interview-Reloadium-team-Blog_Featured_image_1280x600.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=datalore&p=314760",
-          "author": "Alena Guzharina",
-          "description": "Hello! Today we are introducing 8 new powerful CPU and GPU machines to Datalore Professional and a flexible new way to spend your computation quota – Datalore credits! Read on to learn how you can now easily analyze tens of gigabytes of data and train your Machine Learning and Deep Learning models on high-performance CPUs […]",
-          "link": "https://blog.jetbrains.com/datalore/2023/01/25/introducing-8-extremely-powerful-cpus-and-gpus-to-datalore/",
-          "publishedOn": "2023-01-25T12:33:25.000Z",
-          "wordCount": 2819,
-          "title": "Introducing 8 Extremely Powerful CPUs and GPUs to Datalore",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/01/dl-release-blog-social-share-image-1280x720-1.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=teamcity&p=315884",
-          "author": "Olga Bedrina",
-          "description": "Picnic is a grocery delivery app founded in the Netherlands in 2015. The talented minds behind this cutting-edge technology have been able to turn Picnic into one of the fastest growing European tech companies. Picnic now delivers in over 200 cities in three countries – Germany, France, and the Netherlands. Picnic doesn’t have physical stores […]",
-          "link": "https://blog.jetbrains.com/teamcity/2023/01/picnic-teamcity/",
-          "publishedOn": "2023-01-25T10:14:25.000Z",
-          "wordCount": 2751,
-          "title": "How Picnic Builds Faster with JetBrains TeamCity",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/01/how-picnic-builds-faster-using-teamcity_social.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=kotlin&p=315710",
-          "author": "Ksenia Shneyveys",
-          "description": "Advent of Code in Kotlin We are incredibly grateful to the hundreds of people who participated in Advent of Code in Kotlin this year! It was an absolute joy to solve the fun, holiday-themed puzzles every day from December 1 to December 25. JetBrains and the Kotlin team have participated in the event for several […]",
-          "link": "https://blog.jetbrains.com/kotlin/2023/01/advent-of-code-2022-in-kotlin-winners/",
-          "publishedOn": "2023-01-24T18:35:43.000Z",
-          "wordCount": 2568,
-          "title": "Advent of Code 2022 in Kotlin: Announcing the Winners",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/01/DSGN-15449-Blog-featured-image-and-a-banner-for-Advent-of-Code-2022-winners-announcement_Blog-Social-Share-Image-1.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=education&p=315408",
-          "author": "Regina Muradova",
-          "description": "Welcome to JetBrains Academy highlights, where we will remember all the amazing things that happened last year. In 2022, JetBrains Academy added lots of knowledge areas and developed ways to explore them. We released numerous new tracks and projects, offered new subjects of study, introduced a new programming language, improved our platform for organizations, and […]",
-          "link": "https://blog.jetbrains.com/education/2023/01/24/jetbrains-academy-looking-back-at-2022/",
-          "publishedOn": "2023-01-24T15:30:55.000Z",
-          "wordCount": 3530,
-          "title": "JetBrains Academy: Looking Back at 2022",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/01/DSGN-15265_JBAcademy22_Promo_Blog_Social_share_image_1280x720.png"
         }
       ]
     }

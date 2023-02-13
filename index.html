@@ -22,6 +22,54 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-12 datetime="2023-02-12T09:03:00.000Z">2023-02-12</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-12 datetime="2023-02-12T09:03:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Seth Godin&#x27;s Blog on marketing, tribes and respect</button>
+                  <a class="source-heading__link" href="https://seths.blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://seths.blog/?p&#x3D;44924"
+                        open
+                      >
+                        <summary class="article-expander__title">“Home is wherever my cello is”</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://feeds.feedblitz.com/~/727124054/0/sethsblog~Home-is-wherever-my-cello-is/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Ben Zander is bringing the Boston Philharmonic and Beethoven to New York in a few weeks. I’m excited to see them in person, but it’s also streaming live. I hope you’re able to come. While his impact on the musical canon is legendary, Ben’s ruckus extends far into how we lead, how we live and […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-11 datetime="2023-02-11T09:29:00.000Z">2023-02-11</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-11 datetime="2023-02-11T09:29:00.000Z"></time>
           </button>
@@ -1956,7 +2004,7 @@ As part of Google’s mission to help people access trusted information in criti
                             <span class="media-object__text">
                               <span>RHEL 6 &amp; .NET Core 3.1
 The post Customers using Red Hat Enterprise Linux (RHEL) 6 should upgrade the OS on Self-hosted agents appeared first on Azure DevOps Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
+                                &ensp;<span class="article-reading-time">(&hairsp;16
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1991,40 +2039,6 @@ The post Customers using Red Hat Enterprise Linux (RHEL) 6 should upgrade the OS
                             <span class="media-object__text">
                               <span>Below are my prepared remarks delivered at the EU Open Source Policy Summit in Brussels on Feb 3rd.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Seth Godin&#x27;s Blog on marketing, tribes and respect</button>
-                  <a class="source-heading__link" href="https://seths.blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://seths.blog/?p&#x3D;42703"
-                        open
-                      >
-                        <summary class="article-expander__title">Confusion about performance</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://feeds.feedblitz.com/~/726270131/0/sethsblog~Confusion-about-performance/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806134-1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The thing that your product or service delivers could be called performance, and it’s made of two components: –The story and expectations and cultural impact of what you do (the story). –The deliverables that are objectively measured (the spec). It helps to have both. Many hard-working freelancers are confused about their story. Either they insist […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -3427,7 +3441,7 @@ A navigation engine has to decide how to route thi…</span>
                               <span>YAML pipelines offer the best security for your Azure Pipelines. In contrast to classic build and release pipelines, YAML pipelines:
 Can be code reviewed. YAML pipelines are no different from any other piece of code. You can prevent malicious actors from introducing malicious steps in your pipelines by enforcing the use of Pull Requests to merge changes.
 The post Disable creation of classic pipelines appeared first on Azure DevOps Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;24
+                                &ensp;<span class="article-reading-time">(&hairsp;23
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4231,93 +4245,10 @@ I’ve always been interested in computers because of their ability to help peop
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-13 datetime="2023-01-13T18:15:52.000Z">2023-01-13</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-13 datetime="2023-01-13T18:15:52.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Camunda</button>
-                  <a class="source-heading__link" href="https://camunda.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://camunda.com/?p&#x3D;71125&amp;preview&#x3D;true&amp;preview_id&#x3D;71125"
-                        open
-                      >
-                        <summary class="article-expander__title">Build, preview, and test dynamic forms for user tasks</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://camunda.com/blog/2023/01/build-preview-test-dynamic-forms-user-tasks/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://camunda.com/wp-content/uploads/2023/01/camunda-dynamic-forms-user-tasks_1200x627.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Learn about the latest ways to build, preview and test forms to enable effective human workflow orchestration with Camunda Platform 8.
-The post Build, preview, and test dynamic forms for user tasks appeared first on Camunda.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >HashiCorp Blog</button>
-                  <a class="source-heading__link" href="https://hashicorp.com/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.hashicorp.com/blog/consul-scale-test-report-to-observe-gossip-stability"
-                        open
-                      >
-                        <summary class="article-expander__title">Consul Scale Test Report to Observe Gossip Stability</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.hashicorp.com/blog/consul-scale-test-report-to-observe-gossip-stability">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.datocms-assets.com/2885/1620083627-blog-library-product-consul-dark-graphics.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Our tests show Consul servers remain healthy under all test configurations and that splitting up a large LAN gossip pool cuts the risk of gossip instability.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;38
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/vxavictor513/osmosfeed/actions/runs/4154102426">
-        <time id="build-timestamp" datetime="2023-02-12T01:38:24.671Z">2023-02-12T01:38:24.671Z</time>
+      <a class="footer-link" href="https://github.com/vxavictor513/osmosfeed/actions/runs/4159285105">
+        <time id="build-timestamp" datetime="2023-02-13T01:39:35.053Z">2023-02-13T01:39:35.053Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

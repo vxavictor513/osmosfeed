@@ -1,10 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-03-29T01:36:26.925Z</id>
+    <id>urn:2023-03-30T01:24:07.772Z</id>
     <title>osmos::feed</title>
-    <updated>2023-03-29T01:36:26.925Z</updated>
+    <updated>2023-03-30T01:24:07.773Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Blog: Kubernetes Validating Admission Policies: A Practical Example]]></title>
+        <id>https://kubernetes.io/blog/2023/03/30/kubescape-validating-admission-policy-library/</id>
+        <link href="https://kubernetes.io/blog/2023/03/30/kubescape-validating-admission-policy-library/"/>
+        <updated>2023-03-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Authors: Craig Box (ARMO), Ben Hirschberg (ARMO)
+Admission control is an important part of the Kubernetes control plane, with several internal
+features depending on the ability to approve or change an API object as it is submitted to the
+server. It is also useful for an administrator to be able to define business logic, or policies,
+regarding what objects can be admitted into a cluster. To better support that use case, Kubernetes
+introduced external admission control in
+v1.7.
+In addition to countless custom, internal implementations, many open source projects and commercial
+solutions implement admission controllers with user-specified policy, including
+Kyverno and Open Policy Agent’s
+Gatekeeper.
+While admission controllers for policy have seen adoption, there are blockers for their widespr…]]></summary>
+        <author>
+            <name>Kubernetes – Production-Grade Container Orchestration</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vault Secrets Operator: A new method for Kubernetes integration]]></title>
+        <id>https://www.hashicorp.com/blog/vault-secrets-operator-a-new-method-for-kubernetes-integration</id>
+        <link href="https://www.hashicorp.com/blog/vault-secrets-operator-a-new-method-for-kubernetes-integration"/>
+        <updated>2023-03-29T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Vault Secrets Operator implements a first-class Kubernetes Operator pattern for HashiCorp Vault along with a set of CRDs responsible for synchronizing Vault secrets to Kubernetes Secrets natively.]]></summary>
+        <author>
+            <name>HashiCorp Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HashiCorp Terraform Ecosystem passes 3,000 providers with over 250 partners]]></title>
+        <id>https://www.hashicorp.com/blog/hashicorp-terraform-ecosystem-passes-3-000-providers-with-over-250-partners</id>
+        <link href="https://www.hashicorp.com/blog/hashicorp-terraform-ecosystem-passes-3-000-providers-with-over-250-partners"/>
+        <updated>2023-03-29T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Terraform integrations ecosystem has reached a new milestone, surpassing 3,000 providers in the registry.]]></summary>
+        <author>
+            <name>HashiCorp Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Opening the pod bay door]]></title>
+        <id>https://seths.blog/?p=45532</id>
+        <link href="https://feeds.feedblitz.com/~/733117916/0/sethsblog~Opening-the-pod-bay-door/"/>
+        <updated>2023-03-29T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A brand new episode of Akimbo this week, all about artificial intelligence. Part one of of two on mediocrity and the choices we’re going to need to make. And, a while in the making, an experimental AI chat bot that has been trained on all 5,000,000 words of this blog. You can find it here. […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Context Propagation with Project Reactor 2 - The bumpy road of Spring Cloud Sleuth]]></title>
+        <id>https://spring.io/blog/2023/03/29/context-propagation-with-project-reactor-2-the-bumpy-road-of-spring-cloud</id>
+        <link href="https://spring.io/blog/2023/03/29/context-propagation-with-project-reactor-2-the-bumpy-road-of-spring-cloud"/>
+        <updated>2023-03-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <author>
+            <name>Dariusz Jędrzejczyk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hexagonal spatial analytics in Elasticsearch]]></title>
+        <id>https://www.elastic.co/blog/hexagonal-spatial-analytics-elasticsearch</id>
+        <link href="https://www.elastic.co/blog/hexagonal-spatial-analytics-elasticsearch"/>
+        <updated>2023-03-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Elasticsearch 8.7 can do some very cool geo-spatial aggregations over a hexagonal grid, which has nice advantages over the existing rectangular grid. This feature has been introduced over the last few releases and is now ready for prime time.]]></summary>
+        <author>
+            <name>Craig Taverner,Ignacio Vera Sequeiros,Nathan Reese</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hexagonal spatial analytics in Elasticsearch]]></title>
+        <id>https://www.elastic.co/blog/hexagonal-spatial-analytics-elasticsearch</id>
+        <link href="https://www.elastic.co/blog/hexagonal-spatial-analytics-elasticsearch"/>
+        <updated>2023-03-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+Elasticsearch 8.7.0 can do some very cool geo-spatial aggregations over a hexagonal grid, which has nice advantages over the existing rectangular grid we’ve been using for years. This feature has been introduced over the last few releases and is now really worth bragging about.
+
+How did we get there? In 2018 Uber announced it had open sourced the H3 library, enabling hexagonal tiling of the planet for much better analytics of the company’s traffic and regional pricing models.
+https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta3da2d14ce40fea0/641de54c05105b4fc3bf4f86/blog-elastic-hexagonal-tiling.png,blog-elastic-hexagonal-tiling.png,
+In late 2021, we evaluated the option of porting the Uber H3 library from C to Java for possible inclusion in Elasticsearch. This project went …]]></summary>
+        <author>
+            <name>Craig Taverner,Ignacio Vera Sequeiros,Nathan Reese</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Qualifications]]></title>
+        <id>https://xkcd.com/2756/</id>
+        <link href="https://xkcd.com/2756/"/>
+        <updated>2023-03-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/qualifications.png" title="'So how DID you go from working at the employment records office to becoming president of MIT and CEO of IBM?' 'I guess I just have an eye for opportunities.'" alt="'So how DID you go from working at the employment records office to becoming president of MIT and CEO of IBM?' 'I guess I just have an eye for opportunities.'" />]]></summary>
+        <author>
+            <name>xkcd.com</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Leveraging transfer learning for large scale differentially private image classification]]></title>
         <id>http://ai.googleblog.com/2023/03/leveraging-transfer-learning-for-large.html</id>
@@ -16,6 +112,16 @@ Large deep learning models are becoming the workhorse of a variety of critical m
 Differential privacy (DP) provides formal protection against an attacker who aims to extract information about the training data. The most popular method for DP training in deep learning is differentially private stochastic gradient descent (DP-SGD). The core recipe implements a common theme in DP: “fuzzing” an algorit…]]></summary>
         <author>
             <name>Google AI Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IntelliJ IDEA 2023.1 Is Out!]]></title>
+        <id>https://blog.jetbrains.com/?post_type=idea&amp;p=336803</id>
+        <link href="https://blog.jetbrains.com/idea/2023/03/intellij-idea-2023-1/"/>
+        <updated>2023-03-28T18:02:35.000Z</updated>
+        <summary type="html"><![CDATA[IntelliJ IDEA 2023.1 is now available, and it comes with a host of improvements and valuable new features! You can download the new version from our website, update directly from the IDE or via the free Toolbox App, or use snaps for Ubuntu. IntelliJ IDEA 2023.1 includes refinements for the new UI, which has been […]]]></summary>
+        <author>
+            <name>Maria Kosukhina</name>
         </author>
     </entry>
     <entry>
@@ -39,6 +145,16 @@ Differential privacy (DP) provides formal protection against an attacker who aim
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[WebStorm 2023.1: Improved New UI, TypeScript Support in Vue Templates, Astro Support, and More]]></title>
+        <id>https://blog.jetbrains.com/?post_type=webstorm&amp;p=333788</id>
+        <link href="https://blog.jetbrains.com/webstorm/2023/03/webstorm-2023-1/"/>
+        <updated>2023-03-28T15:38:40.000Z</updated>
+        <summary type="html"><![CDATA[Our first major release of 2023 is here! This version includes lots of new features and improvements to the IDE. You’ll find support for Astro, Tailwind CSS configuration, TypeScript support for Vue template expressions, refinements to the new UI, and much more. DOWNLOAD WEBSTORM 2023.1 If you only have a few minutes to explore what’s […]]]></summary>
+        <author>
+            <name>David Watson</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Announcing the GitHub Actions extension for VS Code]]></title>
         <id>https://github.blog/2023-03-28-announcing-the-github-actions-extension-for-vs-code/</id>
         <link href="https://github.blog/2023-03-28-announcing-the-github-actions-extension-for-vs-code/"/>
@@ -46,6 +162,26 @@ Differential privacy (DP) provides formal protection against an attacker who aim
         <summary type="html"><![CDATA[Today, we’re excited to announce the release of the public beta of the official GitHub Actions VS Code extension, which provides support for authoring and editing workflows and helps you manage workflow runs without leaving your IDE.]]></summary>
         <author>
             <name>The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PhpStorm 2023.1 RC2]]></title>
+        <id>https://blog.jetbrains.com/?post_type=phpstorm&amp;p=337285</id>
+        <link href="https://blog.jetbrains.com/phpstorm/2023/03/phpstorm-2023-1-rc2/"/>
+        <updated>2023-03-28T14:45:52.000Z</updated>
+        <summary type="html"><![CDATA[The second release candidate for PhpStorm 2023.1 is now available. It’s the final build before the stable release. Unlike EAP builds, this RC requires you to have a valid PhpStorm license. Let’s take a brief look at some of the most interesting improvements coming in v2023.1: 3v4l.org integration New UI (Beta) Performance improvements Data Flow […]]]></summary>
+        <author>
+            <name>Roman Pronskiy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DataGrip 2023.1 Quality Release]]></title>
+        <id>https://blog.jetbrains.com/?post_type=datagrip&amp;p=335116</id>
+        <link href="https://blog.jetbrains.com/datagrip/2023/03/28/datagrip-2023-1-quality-release/"/>
+        <updated>2023-03-28T12:35:26.000Z</updated>
+        <summary type="html"><![CDATA[Hello!  For DataGrip 2023.1, we focused entirely on quality. We’ve fixed many bugs that had accumulated in our public issue tracker (not the most fun part of the job, but important nonetheless). While there won’t be any new features for you to explore this time, we hope you’ll notice improvements in your daily work with […]]]></summary>
+        <author>
+            <name>Alisa Lukonina</name>
         </author>
     </entry>
     <entry>
@@ -368,7 +504,7 @@ In “A deep learning model…]]></summary>
         <id>https://blog.jetbrains.com/?post_type=qa&amp;p=335814</id>
         <link href="https://blog.jetbrains.com/qa/2023/03/new-update-for-the-aqua-public-preview/"/>
         <updated>2023-03-24T15:12:44.000Z</updated>
-        <summary type="html"><![CDATA[New Update for the Aqua Public Preview We have been working hard to make Aqua more stable and bring increased functionality that test engineers need. For this update, we want to share some fixes and new features that are ready for you to try. You can download the latest version from our website, update directly […]]]></summary>
+        <summary type="html"><![CDATA[We have been working hard to make Aqua more stable and bring increased functionality that test engineers need. For this update, we want to share some fixes and new features that are ready for you to try. You can download the latest version from our website, update directly from the IDE, or update via the […]]]></summary>
         <author>
             <name>Oscar Rodriguez</name>
         </author>
@@ -457,7 +593,7 @@ In “A deep learning model…]]></summary>
         <title type="html"><![CDATA[Visual language maps for robot navigation]]></title>
         <id>http://ai.googleblog.com/2023/03/visual-language-maps-for-robot.html</id>
         <link href="http://ai.googleblog.com/2023/03/visual-language-maps-for-robot.html"/>
-        <updated>2023-03-23T19:08:00.011Z</updated>
+        <updated>2023-03-23T19:08:00.012Z</updated>
         <summary type="html"><![CDATA[Posted by Oier Mees, PhD Student, University of Freiburg, and Andy Zeng, Research Scientist, Robotics at Google   
 People are excellent navigators of the physical world, due in part to their remarkable ability to build cognitive maps that form the basis of spatial memory — from localizing landmarks at varying ontological levels (like a book on a shelf in the living room) to determining whether a layout permits navigation from point A to point B. Building robots that are proficient at navigation requires an interconnected understanding of (a) vision and natural language (to associate landmarks or follow instructions), and (b) spatial reasoning (to connect a map representing an environment to the true spatial distribution of objects). While there have been many recent advances in training jo…]]></summary>
         <author>
@@ -505,16 +641,6 @@ People are excellent navigators of the physical world, due in part to their rema
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New UI Enhancements in IntelliJ IDEA 2023.1]]></title>
-        <id>https://blog.jetbrains.com/?post_type=idea&amp;p=334552</id>
-        <link href="https://blog.jetbrains.com/idea/2023/03/new-ui-enhancements-in-intellij-idea-2023-1/"/>
-        <updated>2023-03-23T15:27:48.000Z</updated>
-        <summary type="html"><![CDATA[Last year, we announced our intention to overhaul the UI of IntelliJ-based IDEs to provide developers with a more modern, customizable, and user-friendly interface that improves their overall coding experience. Since then, the IntelliJ IDEA team has gradually rolled out the new UI for users. The first version was available within the closed preview program, […]]]></summary>
-        <author>
-            <name>Maria Kosukhina</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Test as You Go: Rapid Process Development and Continuous Improvement]]></title>
         <id>https://camunda.com/?p=76773&amp;preview=true&amp;preview_id=76773</id>
         <link href="https://camunda.com/blog/2023/03/rapid-process-development-continuous-improvement/"/>
@@ -533,16 +659,6 @@ The post Test as You Go: Rapid Process Development and Continuous Improvement ap
         <summary type="html"><![CDATA[The rules are pretty consistent: We’re all creators now. Podcasting, videoing, photographing, spreadsheeting… and we’re building a foundation of valuable data as we go. The software companies that produce the tools we use push their engineers in many ways, but not to create resilient storage systems that are sure to honor the effort and care […]]]></summary>
         <author>
             <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Shout-Out to Kotlin Multiplatform Content Creators!]]></title>
-        <id>https://blog.jetbrains.com/?post_type=kotlin&amp;p=335548</id>
-        <link href="https://blog.jetbrains.com/kotlin/2023/03/kotlin-multiplatform-content-creators/"/>
-        <updated>2023-03-23T07:50:57.000Z</updated>
-        <summary type="html"><![CDATA[Kotlin Multiplatform is steadily progressing toward Stable, and the technology’s ecosystem is continuing to expand and mature. None of this would be possible without the community’s contributions. In order to celebrate the community’s creation of articles, videos, and samples, we regularly run the Kotlin Multiplatform Content Creators Recognition Campaign. Today, we would like to share […]]]></summary>
-        <author>
-            <name>Ekaterina Petrova</name>
         </author>
     </entry>
     <entry>
@@ -599,16 +715,6 @@ These early experiences helped me find m…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Spring Boot 2.7.10 available now]]></title>
-        <id>https://spring.io/blog/2023/03/23/spring-boot-2-7-10-available-now</id>
-        <link href="https://spring.io/blog/2023/03/23/spring-boot-2-7-10-available-now"/>
-        <updated>2023-03-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
-        <author>
-            <name>Andy Wilkinson</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The future of observability: Trends and predictions business leaders should plan for in 2023 and beyond]]></title>
         <id>https://www.elastic.co/blog/observability-predictions-trends-2023</id>
         <link href="https://www.elastic.co/blog/observability-predictions-trends-2023"/>
@@ -642,26 +748,6 @@ Delivery plans tab name
 The post New Boards Hub Update, Sprint 219 appeared first on Azure DevOps Blog.]]></summary>
         <author>
             <name>Dan Hellem</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ReSharper and Rider 2022.3.3 Bug Fixes Have Landed]]></title>
-        <id>https://blog.jetbrains.com/?post_type=dotnet&amp;p=335220</id>
-        <link href="https://blog.jetbrains.com/dotnet/2023/03/22/resharper-and-rider-2022-3-3-bug-fixes/"/>
-        <updated>2023-03-22T16:31:25.000Z</updated>
-        <summary type="html"><![CDATA[Bug-fix updates have just been released for Rider and Resharper v2022.3. Let’s take a look at what’s been improved. Rider Rider 2022.3.3 comes with the following bug fixes: We’ve resolved the issue that caused the screen to flicker in full-screen mode on macOS Ventura (JBR-4959). The IDE no longer displays empty popups on macOS Ventura […]]]></summary>
-        <author>
-            <name>Sasha Ivanova</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Remote Development with JetBrains Rider]]></title>
-        <id>https://blog.jetbrains.com/?post_type=dotnet&amp;p=316662</id>
-        <link href="https://blog.jetbrains.com/dotnet/2023/03/22/remote-development-with-jetbrains-rider/"/>
-        <updated>2023-03-22T16:09:34.000Z</updated>
-        <summary type="html"><![CDATA[With the release of JetBrains Rider 2022.2, .NET developers now have access to the Remote Development Beta. Already introduced for other JetBrains IDEs built on the IntelliJ Platform, Rider users can now experience the power of developing remotely on the .NET platform. This post will answer the question, “what is remote development?”, “why would I […]]]></summary>
-        <author>
-            <name>Khalid Abuhakmeh</name>
         </author>
     </entry>
     <entry>
@@ -836,26 +922,6 @@ Elastic has launched its application performance monitoring (APM) agent for Andr
         <link href="https://feeds.feedblitz.com/~/732064934/0/sethsblog~The-ghost-in-the-machine/"/>
         <updated>2023-03-20T08:12:00.000Z</updated>
         <summary type="html"><![CDATA[“The computer wants you to click this button.” “It thinks you asked for something else.” “He’s mad at you.” Thousands of generations ago, we evolved our way into a magnificent hack. It turns out that we can more safely navigate the world by imagining that other people have a little voice in their heads just […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Salt Dome]]></title>
-        <id>https://xkcd.com/2752/</id>
-        <link href="https://xkcd.com/2752/"/>
-        <updated>2023-03-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/salt_dome.png" title="The US uses hollowed-out salt domes to store the Strategic Petroleum Reserve, and non-hollowed-out ones to store the Strategic Salt Reserve." alt="The US uses hollowed-out salt domes to store the Strategic Petroleum Reserve, and non-hollowed-out ones to store the Strategic Salt Reserve." />]]></summary>
-        <author>
-            <name>xkcd.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Shields up]]></title>
-        <id>https://seths.blog/?p=45452</id>
-        <link href="https://feeds.feedblitz.com/~/731958815/0/sethsblog~Shields-up/"/>
-        <updated>2023-03-19T08:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Years and years ago, I helped the Weekly World News make a book. While their periodical was weekly, it certainly wasn’t news. They were just four people in a small office in Florida. They gleefully made stuff up every week. They had a few filing cabinets of stock photos, and they invented stories featuring UFOs, […]]]></summary>
         <author>
             <name>Seth Godin</name>
         </author>
@@ -1206,33 +1272,6 @@ The post Camunda Automation Platform 7.19.0-alpha4 Released appeared first on Ca
         <summary type="html"><![CDATA[Red Hat Ansible Automation Platform 2 is the next generation automation platform from Red Hat’s trusted enterprise technology experts. We are excited to announce that the Ansible Automation Platform 2.3 release includes automation controller 4.3.]]></summary>
         <author>
             <name>Nikhil Jain</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Insights into chess game trends: A detailed look at Lichess data]]></title>
-        <id>https://www.elastic.co/blog/chess-game-trends-lichess-data</id>
-        <link href="https://www.elastic.co/blog/chess-game-trends-lichess-data"/>
-        <updated>2023-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is the second blog post in a series of ones to follow. We will take a look at chess game trends using Lichess data.]]></summary>
-        <author>
-            <name>Philipp Kahr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Insights into chess game trends: A detailed look at Lichess data]]></title>
-        <id>https://www.elastic.co/blog/chess-game-trends-lichess-data</id>
-        <link href="https://www.elastic.co/blog/chess-game-trends-lichess-data"/>
-        <updated>2023-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-This is the second blog post in our chess series (don’t forget to check out the first post)! Chess is a fascinating game. What can happen on those 64 squares? 
-
-Lichess is a platform that allows you to play chess; it publishes all rated games as archives, starting in 2013. There are a total of 4 billion games played. Yes, 4 billion matches.
-Analyzing the data
-We first want to look at a general overview and get an idea of the data we gathered.
-
-First, take a look at Discover. Don’t forget to set the time picker accordingly. The histogram at the top is a nice hint to see the data distribution. We immediately noticed that Lichess had a slow start and picked up the page in early 2020. The top value of 4,095,987,675 represents all documents that fit the time picker range. This equals the game…]]></summary>
-        <author>
-            <name>Philipp Kahr</name>
         </author>
     </entry>
     <entry>
@@ -1741,37 +1780,6 @@ Sharing knowledge is essential to Google’s research philosophy — it accelera
         <summary type="html"><![CDATA[HCP Vault on Microsoft Azure is now generally available and supports production workloads running on Azure.]]></summary>
         <author>
             <name>HashiCorp Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Retrospectives: The Hidden Gem Enabling Teams to Thrive – Part 1]]></title>
-        <id>https://devblogs.microsoft.com/devops/?p=66408</id>
-        <link href="https://devblogs.microsoft.com/devops/retrospectives-the-hidden-gem-enabling-teams-to-thrive-part-1/"/>
-        <updated>2023-02-28T10:00:33.000Z</updated>
-        <summary type="html"><![CDATA[Let me ask you a question. If you asked a world-renowned expert what the single most impactful thing a team could do to improve, what do you think they’d say?
-The post Retrospectives: The Hidden Gem Enabling Teams to Thrive – Part 1 appeared first on Azure DevOps Blog.]]></summary>
-        <author>
-            <name>Damon Stoddard</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWS Week in Review – February 27, 2023]]></title>
-        <id>a2797b95abb6c0d9fe360ae198ec171cdac19da3</id>
-        <link href="https://aws.amazon.com/blogs/aws/aws-week-in-review-february-27-2023/"/>
-        <updated>2023-02-27T18:54:10.000Z</updated>
-        <summary type="html"><![CDATA[A couple days ago, I had the honor of doing a live stream on generative AI, discussing recent innovations and concepts behind the current generation of large language and vision models and how we got there. In today’s roundup of news and announcements, I will share some additional information—including an expanded partnership to make generative […]]]></summary>
-        <author>
-            <name>Antje Barth</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Maximize your hybrid cloud mastery with the Ansible validated content]]></title>
-        <id>https://www.ansible.com/blog/maximize-your-hybrid-cloud-mastery-with-the-ansible-validated-content</id>
-        <link href="https://www.ansible.com/blog/maximize-your-hybrid-cloud-mastery-with-the-ansible-validated-content"/>
-        <updated>2023-02-27T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Image Source]]></summary>
-        <author>
-            <name>Alina Buzachis</name>
         </author>
     </entry>
 </feed>

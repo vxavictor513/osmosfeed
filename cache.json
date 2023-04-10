@@ -619,7 +619,7 @@
           "description": "We are proud to announce that Service Principals and Managed Identities can now be used to authenticate with Azure DevOps. For those who have not heard of them before, these Azure Active Directory identities enable teams to gain access to your Azure DevOps organizations acting as their own application,\nThe post Introducing Service Principal and Managed Identity support on Azure DevOps appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/introducing-service-principal-and-managed-identity-support-on-azure-devops/",
           "publishedOn": "2023-03-30T17:08:40.000Z",
-          "wordCount": 5299,
+          "wordCount": 5025,
           "title": "Introducing Service Principal and Managed Identity support on Azure DevOps",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2021/05/Frame-1.png"
         },
@@ -639,7 +639,7 @@
           "description": "This month, we are releasing fixes that impact our self-hosted product, Azure DevOps Server.\nAddressed issue that required restarting tfsjobagent service and Azure DevOps Server application pool after updating SMTP-related setting in the Azure DevOps Server Management Console.\nThe post March patches for Azure DevOps Server appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/march-patches-for-azure-devops-server/",
           "publishedOn": "2023-03-21T20:32:07.000Z",
-          "wordCount": 5137,
+          "wordCount": 4823,
           "title": "March patches for Azure DevOps Server",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2019/03/pipelines-hero-1.jpg"
         }
@@ -896,7 +896,7 @@
           "description": "To avoid limiting the returns of your investment into automation, center your development approach around humans. Here's how.\nThe post 5 Signs Your Business Processes Are Not Human-Centric appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/04/five-signs-business-processes-not-human-centric/",
           "publishedOn": "2023-04-04T12:00:00.000Z",
-          "wordCount": 3808,
+          "wordCount": 3807,
           "title": "5 Signs Your Business Processes Are Not Human-Centric",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/04/5-signs-your-business-processes-are-not-human-centric_1200x627.png"
         },
@@ -906,7 +906,7 @@
           "description": "Explaining our vision for how Camunda embraces low-code to make you more productive.\nThe post Camunda’s Vision for Low-Code appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/03/camunda-vision-low-code/",
           "publishedOn": "2023-03-30T11:50:00.000Z",
-          "wordCount": 2946,
+          "wordCount": 2947,
           "title": "Camunda’s Vision for Low-Code",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/03/Camunda-Blog_March-2023_Camunda-low-code_1200x627.png"
         },
@@ -936,7 +936,7 @@
           "description": "BPMN is an ideal tool for visualizing and controlling end-to-end business processes, including those that invoke RPA bots. Learn how to use them together.\nThe post RPA + BPMN = True End-to-End Business Process Orchestration appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/03/rpa-bpmn-process-orchestration/",
           "publishedOn": "2023-03-15T21:18:17.000Z",
-          "wordCount": 3265,
+          "wordCount": 3266,
           "title": "RPA + BPMN = True End-to-End Business Process Orchestration",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/03/Camunda-RPA-BPMN-Connectors_1200x627.png"
         },
@@ -946,7 +946,7 @@
           "description": "We’re excited to share that an inbound HTTP Webhook Connector and an inbound GitHub Webhook Connector are now available in Camunda Platform 8.\nThe post Maximum Process Flexibility with Inbound Webhook Connectors appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/03/inbound-webhook-connectors/",
           "publishedOn": "2023-03-15T18:34:30.000Z",
-          "wordCount": 2913,
+          "wordCount": 2914,
           "title": "Maximum Process Flexibility with Inbound Webhook Connectors",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/03/camunda-inbound-webhook-connectors-2_1200x627.png"
         },
@@ -966,7 +966,7 @@
           "description": "The fourth alpha release of Camunda Automation Runtime 7.19 features new job due date functionality, support for Quarkus 2.16.4 and more.\nThe post Camunda Automation Platform 7.19.0-alpha4 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/03/camunda-automation-platform-7-19-0-alpha4/",
           "publishedOn": "2023-03-14T11:45:00.000Z",
-          "wordCount": 3145,
+          "wordCount": 3146,
           "title": "Camunda Automation Platform 7.19.0-alpha4 Released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/03/camunda-platform-7-19-0-alpha4.png"
         }
@@ -1141,16 +1141,6 @@
           "wordCount": 4594,
           "title": "Blog: Kubernetes Removals and Major Changes In v1.27",
           "imageUrl": null
-        },
-        {
-          "id": "https://kubernetes.io/blog/2023/03/10/image-registry-redirect/",
-          "author": null,
-          "description": "Authors: Bob Killen (Google), Davanum Srinivas (AWS), Chris Short (AWS), Frederico Muñoz (SAS\nInstitute), Tim Bannister (The Scale Factory), Ricky Sadowski (AWS), Grace Nguyen (Expo), Mahamed\nAli (Rackspace Technology), Mars Toktonaliev (independent), Laura Santamaria (Dell), Kat Cosgrove\n(Dell)\nOn Monday, March 20th, the k8s.gcr.io registry will be redirected to the community owned\nregistry,\nregistry.k8s.io .\nTL;DR: What you need to know about this change\nOn Monday, March 20th, traffic from the older k8s.gcr.io registry will be redirected to\nregistry.k8s.io with the eventual goal of sunsetting k8s.gcr.io.\nIf you run in a restricted environment, and apply strict domain name or IP address access policies\nlimited to k8s.gcr.io, the image pulls will not function after k8s.gcr.io starts redire…",
-          "link": "https://kubernetes.io/blog/2023/03/10/image-registry-redirect/",
-          "publishedOn": "2023-03-10T17:00:00.000Z",
-          "wordCount": 4390,
-          "title": "Blog: k8s.gcr.io Redirect to registry.k8s.io - What You Need to Know",
-          "imageUrl": null
         }
       ]
     },
@@ -1165,29 +1155,9 @@
           "description": "The media understanding platform serves as an abstraction layer between Machine Learning (ML) algos and various applications.",
           "link": "https://netflixtechblog.com/building-a-media-understanding-platform-for-ml-innovations-9bef9962dcb7?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-03-14T15:48:28.000Z",
-          "wordCount": 6451,
+          "wordCount": 6447,
           "title": "Building a Media Understanding Platform for ML Innovations",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:854/0*6aJVHbaKKjAKvc3X"
-        },
-        {
-          "id": "https://medium.com/p/99332231e541",
-          "author": "Netflix Technology Blog",
-          "description": "By Burak Bacioglu, Meenakshi Jindal",
-          "link": "https://netflixtechblog.com/elasticsearch-indexing-strategy-in-asset-management-platform-amp-99332231e541?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-03-10T22:59:11.000Z",
-          "wordCount": 5366,
-          "title": "Elasticsearch Indexing Strategy in Asset Management Platform (AMP)",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*DQfg8USKquc3t9tdayuvQA.png"
-        },
-        {
-          "id": "https://medium.com/p/46fe225c35c9",
-          "author": "Netflix Technology Blog",
-          "description": "By Meenakshi Jindal",
-          "link": "https://netflixtechblog.com/data-reprocessing-pipeline-in-asset-management-platform-netflix-46fe225c35c9?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-03-10T22:58:47.000Z",
-          "wordCount": 4132,
-          "title": "Data Reprocessing Pipeline in Asset Management Platform @Netflix",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*1-HX6b39H2L9PwsyRaEBxA.png"
         }
       ]
     },
@@ -1325,16 +1295,6 @@
           "wordCount": 27632,
           "title": "Learning from deep learning: a case study of feature discovery and validation in pathology",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3EL99qmeogEZryesEPlH-pp_akdzLfek1zinRdpoTW1tsebb-uRCQoKxrKLPSBKxvjxdyP5Eh8t43CIcOR2yaj7PZPUifUMEN-2eDXXIUMB2xHOs-2LIuzRN-LT6TkupmMVZpHfTnWrX6xjOQxSiPuSzw-l_dgH-mBLPEaSGLG_RuhCRCQslU_X1uoA/w1200-h630-p-k-no-nu/TAF.png"
-        },
-        {
-          "id": "http://ai.googleblog.com/2023/03/palm-e-embodied-multimodal-language.html",
-          "author": null,
-          "description": "Posted by Danny Driess, Student Researcher, and Pete Florence, Research Scientist, Robotics at Google\n\n\n\n\nRecent years have seen tremendous advances across machine learning domains, from models that can explain jokes or answer visual questions in a variety of languages to those that can produce images based on text descriptions. Such innovations have been possible due to the increase in availability of large scale datasets along with novel advances that enable the training of models on these data. While scaling of robotics models has seen some success, it is outpaced by other domains due to a lack of datasets available on a scale comparable to large text corpora or image datasets. \n\n\n\n\n\nToday we introduce PaLM-E, a new generalist robotics model that overcomes these issues by transferring k…",
-          "link": "http://ai.googleblog.com/2023/03/palm-e-embodied-multimodal-language.html",
-          "publishedOn": "2023-03-10T17:25:00.005Z",
-          "wordCount": 27941,
-          "title": "PaLM-E: An embodied multimodal language model",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9Sc6PZ4Ebbi6Op6Lm3eYItsJJidxdqG7-zKZbRQ2L7_AKajgh7MLYybZZw3XHBvRro_GmGSOKjtyghhsNz8iXxBVODBLtbjesTkPo1lGzhwbLZVLT2k7W5QFdC2_C7no1cxeiDed75QJip1fTc9_FqKOBhGdK81pEyCzvZGfRgYji4Tvqbn2lFI2dqw/w1200-h630-p-k-no-nu/PalmE-Lg.gif"
         }
       ]
     },
@@ -1344,12 +1304,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=45593",
+          "author": "Seth Godin",
+          "description": "One of the spokespeople for the new milk marketing campaign confessed that she doesn’t really like drinking milk. Sales are way down, and an entire generation is drinking other beverages. Other than the people who are paid to sell or lobby for milk sales, few people are concerned. Milk isn’t going away, but it certainly […]",
+          "link": "https://feeds.feedblitz.com/~/734240006/0/sethsblog~Consider-switching-sides/",
+          "publishedOn": "2023-04-09T08:58:00.000Z",
+          "wordCount": 988,
+          "title": "Consider switching sides",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=44217",
           "author": "Seth Godin",
           "description": "More than ever, we’re pushed to have certainty. Strong opinions, tightly held and loudly proclaimed. And then, when reality intervenes, it can be stressful. The software stack, business model, career, candidate, policy, or even the social network habits that we had as part of our identity let us down. It’s not easy to say, “I […]",
           "link": "https://feeds.feedblitz.com/~/734115113/0/sethsblog~New-decisions-based-on-new-information/",
           "publishedOn": "2023-04-08T08:49:00.000Z",
-          "wordCount": 988,
+          "wordCount": 989,
           "title": "New decisions based on new information",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_180613-1.jpg"
         },
@@ -1432,16 +1402,6 @@
           "wordCount": 1067,
           "title": "Tom Peters",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806134-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=45545",
-          "author": "Seth Godin",
-          "description": "There are thousands of ways to express encouragement and enthusiasm and support. Few of them require a blood oath or even much inconvenience. “I’m thrilled that you’re contributing.” “Can’t wait to see how this turns out.” “I know someone who really needs to hear about this.” “Go make a ruckus, it matters.” If we want […]",
-          "link": "https://feeds.feedblitz.com/~/733317296/0/sethsblog~The-ways/",
-          "publishedOn": "2023-03-31T08:23:00.000Z",
-          "wordCount": 898,
-          "title": "The 500 ways",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806135-1.jpg"
         }
       ]
     },
@@ -1516,7 +1476,7 @@
           "description": "In our previous article, you learned to move through your code with basic and advanced stepping actions. Now that you know how to navigate your code and control its execution step by step, we can look at the tools for analyzing your program’s state and testing scenarios for bug fixes.  In this Debugger Upskill blog, […]",
           "link": "https://blog.jetbrains.com/idea/2023/04/debugger-upskill-variables-evaluate-expression-watches/",
           "publishedOn": "2023-04-06T06:52:14.000Z",
-          "wordCount": 3713,
+          "wordCount": 3710,
           "title": "Debugger Upskill: Variables, Evaluate Expression, and Watches",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/03/Blog_Social_share_image_1280x720-11.png"
         },

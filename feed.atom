@@ -1,10 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-20T01:18:00.308Z</id>
+    <id>urn:2023-04-21T01:18:11.228Z</id>
     <title>osmos::feed</title>
-    <updated>2023-04-20T01:18:00.308Z</updated>
+    <updated>2023-04-21T01:18:11.228Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Blog: Kubernetes 1.27: Query Node Logs Using The Kubelet API]]></title>
+        <id>https://kubernetes.io/blog/2023/04/21/node-log-query-alpha/</id>
+        <link href="https://kubernetes.io/blog/2023/04/21/node-log-query-alpha/"/>
+        <updated>2023-04-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Author: Aravindh Puthiyaparambil (Red Hat)
+Kubernetes 1.27 introduced a new feature called Node log query that allows
+viewing logs of services running on the node.
+What problem does it solve?
+Cluster administrators face issues when debugging malfunctioning services
+running on the node. They usually have to SSH or RDP into the node to view the
+logs of the service to debug the issue. The Node log query feature helps with
+this scenario by allowing the cluster administrator to view the logs using
+kubectl. This is especially useful with Windows nodes where you run into the
+issue of the node going to the ready state but containers not coming up due to
+CNI misconfigurations and other issues that are not easily identifiable by
+looking at the Pod status.
+How does it work?
+The kubelet already has a …]]></summary>
+        <author>
+            <name>Kubernetes – Production-Grade Container Orchestration</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Recent advances in deep long-horizon forecasting]]></title>
+        <id>http://ai.googleblog.com/2023/04/recent-advances-in-deep-long-horizon.html</id>
+        <link href="http://ai.googleblog.com/2023/04/recent-advances-in-deep-long-horizon.html"/>
+        <updated>2023-04-20T20:26:00.001Z</updated>
+        <summary type="html"><![CDATA[Posted by Rajat Sen and Abhimanyu Das, Research Scientists, Google Research
+
+
+
+
+Time-series forecasting is an important research area that is critical to several scientific and industrial applications, like retail supply chain optimization, energy and traffic prediction, and weather forecasting. In retail use cases, for example, it has been observed that improving demand forecasting accuracy can meaningfully reduce inventory costs and increase revenue. 
+ 
+
+Modern time-series applications can involve forecasting hundreds of thousands of correlated time-series (e.g., demands of different products for a retailer) over long horizons (e.g., a quarter or year away at daily granularity). As such, time-series forecasting models need to satisfy the following key criterias:
+
+
+
+Ability to handle auxi…]]></summary>
+        <author>
+            <name>Google AI Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazon S3 Compatible Storage on AWS Snowball Edge Compute Optimized Devices Now Generally Available]]></title>
+        <id>3a5f9a4909fe852e7ed6cc8ac314d50e62bf28b1</id>
+        <link href="https://aws.amazon.com/blogs/aws/amazon-s3-compatible-storage-on-aws-snowball-edge-compute-optimized-devices-now-generally-available/"/>
+        <updated>2023-04-20T18:32:18.000Z</updated>
+        <summary type="html"><![CDATA[We have added a collection of purpose-built services to the AWS Snow Family for customers, such as Snowball Edge in 2016 and Snowcone in 2020. These services run compute intensive workloads and stores data in edge locations with denied, disrupted, intermittent, or limited network connectivity and for transferring large amounts of data from on-premises and […]]]></summary>
+        <author>
+            <name>Channy Yun</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing GitHub Actions Deployment Protection Rules, now in public beta]]></title>
+        <id>https://github.blog/2023-04-20-announcing-github-actions-deployment-protection-rules-now-in-public-beta/</id>
+        <link href="https://github.blog/2023-04-20-announcing-github-actions-deployment-protection-rules-now-in-public-beta/"/>
+        <updated>2023-04-20T16:00:09.000Z</updated>
+        <summary type="html"><![CDATA[Create and share your own deployment protection rules, or use the rules from our great partners, like Datadog, Honeycomb, New Relic, NodeSource, Sentry, and ServiceNow, to control your deployments with more confidence. And the API is open for the community to build their own rules to make GitHub Enterprise Cloud even better.]]></summary>
+        <author>
+            <name>The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Human Approach to Process Automation]]></title>
+        <id>https://camunda.com/?p=78911&amp;preview=true&amp;preview_id=78911</id>
+        <link href="https://camunda.com/blog/2023/04/human-approach-process-automation/"/>
+        <updated>2023-04-20T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[The chances of success are significantly higher when you put humans in the center of your orchestration projects.
+The post A Human Approach to Process Automation appeared first on Camunda.]]></summary>
+        <author>
+            <name>Lana Ginns</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Avoiding food waste confusion]]></title>
+        <id>https://seths.blog/?p=45697</id>
+        <link href="https://feeds.feedblitz.com/~/736384682/0/sethsblog~Avoiding-food-waste-confusion/"/>
+        <updated>2023-04-20T08:28:00.000Z</updated>
+        <summary type="html"><![CDATA[Everybody eats That’s the biggest problem. While plenty of people drive or play pickleball, eating is particularly widespread. Seven billion people multiplies into a big number… Creating the food we eat has significant climate impact. Some of the factors, in unranked order: Even if we wasted no food at all, the impact of all of […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Turbocharge Lombok annotations with IntelliJ IDEA]]></title>
+        <id>https://blog.jetbrains.com/?post_type=idea&amp;p=336591</id>
+        <link href="https://blog.jetbrains.com/idea/2023/04/turbocharge-lombok-annotations-with-intellij-idea/"/>
+        <updated>2023-04-20T08:22:49.000Z</updated>
+        <summary type="html"><![CDATA[If you’re a professional Java developer, you probably use IntelliJ IDEA as your IDE and Lombok as the framework that handles the Java boilerplate. What you probably didn’t know is that not only do these 2 technologies work well on their own, but when combined, they’re even more efficient than when used individually IntelliJ IDEA […]]]></summary>
+        <author>
+            <name>Igor Kulakov</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Bootiful Podcast: Gradle Developer Advocate, Java Champion, and legend Trisha Gee]]></title>
+        <id>https://spring.io/blog/2023/04/20/a-bootiful-podcast-gradle-developer-advocate-java-champion-and-legend-trisha</id>
+        <link href="https://spring.io/blog/2023/04/20/a-bootiful-podcast-gradle-developer-advocate-java-champion-and-legend-trisha"/>
+        <updated>2023-04-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <author>
+            <name>Josh Long</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Boot 2.7.11 available now fixing CVE-2023-20873]]></title>
+        <id>https://spring.io/blog/2023/04/20/spring-boot-2-7-11-available-now-fixing-cve-2023-20873</id>
+        <link href="https://spring.io/blog/2023/04/20/spring-boot-2-7-11-available-now-fixing-cve-2023-20873"/>
+        <updated>2023-04-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <author>
+            <name>Andy Wilkinson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Boot 3.0.6 available now fixing CVE-2023-20873]]></title>
+        <id>https://spring.io/blog/2023/04/20/spring-boot-3-0-6-available-now-fixing-cve-2023-20873</id>
+        <link href="https://spring.io/blog/2023/04/20/spring-boot-3-0-6-available-now-fixing-cve-2023-20873"/>
+        <updated>2023-04-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <author>
+            <name>Andy Wilkinson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Blog: Kubernetes 1.27: Single Pod Access Mode for PersistentVolumes Graduates to Beta]]></title>
         <id>https://kubernetes.io/blog/2023/04/20/read-write-once-pod-access-mode-beta/</id>
@@ -72,6 +198,26 @@ Google sees AI as a foundational and transformational technology, with recent ad
         <summary type="html"><![CDATA[How to verifiably link npm packages to their source repository and build instructions.]]></summary>
         <author>
             <name>The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[第228話] ワンパンマン]]></title>
+        <id>tonarino_yj:episode:4856001361158146336</id>
+        <link href="https://tonarinoyj.jp/episode/4856001361158146336"/>
+        <updated>2023-04-19T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ワンパンマン]]></summary>
+        <author>
+            <name>原作/ＯＮＥ/漫画/村田雄介</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What’s Next: GoLand Roadmap 2023.2]]></title>
+        <id>https://blog.jetbrains.com/?post_type=go&amp;p=343295</id>
+        <link href="https://blog.jetbrains.com/go/2023/04/19/roadmap-2023-2/"/>
+        <updated>2023-04-19T11:39:18.000Z</updated>
+        <summary type="html"><![CDATA[At the beginning of April, we released GoLand 2023.1.  If you haven’t had a chance to check it out, here’s a brief overview:  GoLand 2023.1 introduces the vulnerability checker, better navigation in gRPC code, and the Rename refactoring for generic receivers. Interface implementations are now shown in the editor with Code Vision. You can now […]]]></summary>
+        <author>
+            <name>Sergey Kozlovskiy</name>
         </author>
     </entry>
     <entry>
@@ -143,6 +289,16 @@ Based on the powerful GPT architecture, ChatGPT is designed to understand and ge
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Escape Speed]]></title>
+        <id>https://xkcd.com/2765/</id>
+        <link href="https://xkcd.com/2765/"/>
+        <updated>2023-04-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/escape_speed.png" title="Gotta go fast" alt="Gotta go fast" />]]></summary>
+        <author>
+            <name>xkcd.com</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Differentially private heatmaps]]></title>
         <id>http://ai.googleblog.com/2023/04/differentially-private-heatmaps.html</id>
         <link href="http://ai.googleblog.com/2023/04/differentially-private-heatmaps.html"/>
@@ -197,6 +353,16 @@ If a Pod does not have any SELinux label assigned in …]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[‘Quick’ Features in IntelliJ IDEA]]></title>
+        <id>https://blog.jetbrains.com/?post_type=idea&amp;p=343065</id>
+        <link href="https://blog.jetbrains.com/idea/2023/04/quick-features-in-intellij-idea/"/>
+        <updated>2023-04-18T16:52:54.000Z</updated>
+        <summary type="html"><![CDATA[A few IntelliJ IDEA features or actions include the term ‘quick’. Do they speed up certain processes? Let’s find out. In this blog post, I’ll cover what these features are, why you need them, and how you can use them. 1. Quick Lists If you have actions that you use regularly but don’t have shortcuts […]]]></summary>
+        <author>
+            <name>Mala Gupta</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[GitHub joins industry commitment to curb cyber mercenaries]]></title>
         <id>https://github.blog/2023-04-18-github-joins-industry-commitment-to-curb-cyber-mercenaries/</id>
         <link href="https://github.blog/2023-04-18-github-joins-industry-commitment-to-curb-cyber-mercenaries/"/>
@@ -217,13 +383,23 @@ If a Pod does not have any SELinux label assigned in …]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Reduce Lookups in HashSet, Dictionary and Other Collections With ReSharper]]></title>
+        <title type="html"><![CDATA[Reduce Collection Lookups With ReSharper]]></title>
         <id>https://blog.jetbrains.com/?post_type=dotnet&amp;p=341154</id>
         <link href="https://blog.jetbrains.com/dotnet/2023/04/18/reduce-lookups-in-hashset-dictionary-and-other-collections-with-resharper/"/>
         <updated>2023-04-18T13:58:19.000Z</updated>
-        <summary type="html"><![CDATA[Many C# projects contain numerous places where developers add items to collections like HashSet and Dictionary. Quite often, there’s a check to verify whether the item is already in the collection. However, this may be quite wasteful, as the Add() and TryAdd() methods on these collections already do that check for you – occupying the […]]]></summary>
+        <summary type="html"><![CDATA[The 2023.1 ReSharper and JetBrains Rider releases introduce a set of inspections and quick-fixes that help you optimize and speed up your code when working with different collections. Many C# projects contain numerous places where developers add items to collections like HashSet and Dictionary. Quite often, there’s a check to verify whether the item is […]]]></summary>
         <author>
             <name>Maarten Balliauw</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ktor 2.3.0 Released]]></title>
+        <id>https://blog.jetbrains.com/?post_type=ktor&amp;p=343348</id>
+        <link href="https://blog.jetbrains.com/ktor/2023/04/18/ktor-2-3-0-released/"/>
+        <updated>2023-04-18T13:38:58.000Z</updated>
+        <summary type="html"><![CDATA[We are pleased to announce the release of Ktor 2.3.0. This update brings numerous new features and improvements to the Ktor ecosystem. The following sections provide a brief overview of the major changes in this release: Core Improvements Explicit type for WebSockets ContentNegotiation Plugin The WebSocket ContentNegotiation plugin now supports specifying explicit type: It can […]]]></summary>
+        <author>
+            <name>Leonid Stashevsky</name>
         </author>
     </entry>
     <entry>
@@ -761,26 +937,6 @@ The post Using the SQL Connector to Streamline Trade Ops Processes appeared firs
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Spring Framework 6.0.8, 5.3.27 and 5.2.24.RELEASE fix cve-2023-20863]]></title>
-        <id>https://spring.io/blog/2023/04/13/spring-framework-6-0-8-5-3-27-and-5-2-24-release-fix-cve-2023-20863</id>
-        <link href="https://spring.io/blog/2023/04/13/spring-framework-6-0-8-5-3-27-and-5-2-24-release-fix-cve-2023-20863"/>
-        <updated>2023-04-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
-        <author>
-            <name>Brian Clozel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Bootiful Podcast: Sonatype's Steve Poole and Gradle's Justin Reock on Improving Developer Productivity without compromising on things like security]]></title>
-        <id>https://spring.io/blog/2023/04/13/a-bootiful-podcast-sonatypes-steve-poole-and-gradles-justin-reock-on</id>
-        <link href="https://spring.io/blog/2023/04/13/a-bootiful-podcast-sonatypes-steve-poole-and-gradles-justin-reock-on"/>
-        <updated>2023-04-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
-        <author>
-            <name>Josh Long</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Elastic wins 2023 Data Breakthrough Award for DataOps Platform of the Year]]></title>
         <id>https://www.elastic.co/blog/2023-data-breakthrough-award-dataops-platform-of-the-year</id>
         <link href="https://www.elastic.co/blog/2023-data-breakthrough-award-dataops-platform-of-the-year"/>
@@ -874,16 +1030,6 @@ However, training such agents faces the inherent challenge of environmental dive
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How To Debug C++ Code Efficiently: Disassemble On Demand]]></title>
-        <id>https://blog.jetbrains.com/?post_type=clion&amp;p=342075</id>
-        <link href="https://blog.jetbrains.com/clion/2023/04/how-to-debug-c-code-efficiently-disassemble-on-demand/"/>
-        <updated>2023-04-12T09:47:08.000Z</updated>
-        <summary type="html"><![CDATA[CLion 2023.1 brought the ability to explore assembly code even when the source code is available. A new Disassemble action has been added to improve your debugging experience, help you catch issues, and eliminate inefficiencies in the code. When debugging C or C++ code in CLion, you can explore the underlying assembly code. To open […]]]></summary>
-        <author>
-            <name>Anastasia Kazakova</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Design has a language]]></title>
         <id>https://seths.blog/?p=45625</id>
         <link href="https://feeds.feedblitz.com/~/735050105/0/sethsblog~Design-has-a-language/"/>
@@ -891,26 +1037,6 @@ However, training such agents faces the inherent challenge of environmental dive
         <summary type="html"><![CDATA[And it changes over time. You and I know what to do when we see a revolving door, or to speak quietly in a library. We have expectations of how the world works and what designers are saying with their work. Here’s a photo of a device with two controls. We’ve been taught our whole […]]]></summary>
         <author>
             <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PyCon US will open its doors in a week!]]></title>
-        <id>https://blog.jetbrains.com/?post_type=pycharm&amp;p=342210</id>
-        <link href="https://blog.jetbrains.com/pycharm/2023/04/pycon-us-2023/"/>
-        <updated>2023-04-12T08:44:30.000Z</updated>
-        <summary type="html"><![CDATA[We are thrilled to be a part of this major Python conference and have the chance to connect with Pythonistas from all over the world. Visit JetBrains at booth 324 in the Expo Hall or attend one of our talks. Talks       Other activities  If you’re participating in PyCon US, we’re happy to chat. Come visit […]]]></summary>
-        <author>
-            <name>Valeria Letusheva</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Your JetBrains All Products Pack Tools Are Ready To Be Updated to 2023.1]]></title>
-        <id>https://blog.jetbrains.com/?post_type=blog&amp;p=341597</id>
-        <link href="https://blog.jetbrains.com/blog/2023/04/12/your-jetbrains-all-products-pack-tools-are-ready-to-be-updated-to-2023-1/"/>
-        <updated>2023-04-12T07:51:05.000Z</updated>
-        <summary type="html"><![CDATA[We have released the first annual update, 2023.1, for all of the JetBrains IDEs and .NET tools. IntelliJ-based IDEs You will find the following new features available across most of the IDEs: The new UI has been updated to provide you with a more polished and seamless experience. It is still in Beta and is […]]]></summary>
-        <author>
-            <name>Eugene Toporov</name>
         </author>
     </entry>
     <entry>
@@ -971,16 +1097,6 @@ The post Announcing Azure DevOps Server 2022.0.1 RC appeared first on Azure DevO
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Generative AI-enabled compliance for software development]]></title>
-        <id>https://github.blog/2023-04-11-generative-ai-enabled-compliance-for-software-development/</id>
-        <link href="https://github.blog/2023-04-11-generative-ai-enabled-compliance-for-software-development/"/>
-        <updated>2023-04-11T16:36:40.000Z</updated>
-        <summary type="html"><![CDATA[Explore how generative AI may soon help enable optimizing some of the foundational components of compliance.]]></summary>
-        <author>
-            <name>The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Kubernetes Vault integration via Sidecar Agent Injector vs. Vault Secrets Operator vs. CSI provider]]></title>
         <id>https://www.hashicorp.com/blog/kubernetes-vault-integration-via-sidecar-agent-injector-vs-csi-provider</id>
         <link href="https://www.hashicorp.com/blog/kubernetes-vault-integration-via-sidecar-agent-injector-vs-csi-provider"/>
@@ -1002,16 +1118,6 @@ The post Camunda Desktop Modeler 5.10 Released appeared first on Camunda.]]></su
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New in IntelliJ Rust for 2023.1 (Part 1)]]></title>
-        <id>https://blog.jetbrains.com/?post_type=rust&amp;p=341491</id>
-        <link href="https://blog.jetbrains.com/rust/2023/04/11/new-in-intellij-rust-for-2023-1-part-1/"/>
-        <updated>2023-04-11T14:05:04.000Z</updated>
-        <summary type="html"><![CDATA[The time has come to outline the state of the IntelliJ-based IDEs’ Rust plugin as of the 2023.1 release. In the following paragraphs, we’ll delve into the novelties, improvements, and refinements that our team has delivered throughout the release cycle. Follow the post to learn more about the significant changes and features. If you want […]]]></summary>
-        <author>
-            <name>Anton Lobeiko</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Camunda Platform 8.2: The Key to Scaling Automation]]></title>
         <id>https://camunda.com/?p=78377&amp;preview=true&amp;preview_id=78377</id>
         <link href="https://camunda.com/blog/2023/04/camunda-platform-8-2-key-to-scaling-automation/"/>
@@ -1030,16 +1136,6 @@ The post Camunda Platform 8.2: The Key to Scaling Automation appeared first on C
         <summary type="html"><![CDATA[We spend almost no time teaching toddlers about freedom. Instead, the lessons we teach (and learn) for our entire lives are about responsibility. It’s easy to teach freedom, but important to teach responsibility. Because if you get the responsibility taken care of, often the freedom will follow. When someone points out a lack of responsibility, […]]]></summary>
         <author>
             <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This Week in Spring - April 11th, 2023]]></title>
-        <id>https://spring.io/blog/2023/04/11/this-week-in-spring-april-11th-2023</id>
-        <link href="https://spring.io/blog/2023/04/11/this-week-in-spring-april-11th-2023"/>
-        <updated>2023-04-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
-        <author>
-            <name>Josh Long</name>
         </author>
     </entry>
     <entry>
@@ -1076,26 +1172,6 @@ It's a little silly, but there were some important shifts in this release that h
         <summary type="html"><![CDATA[Configure Consul’s transparent proxy on virtual machines to find and connect to services in the service mesh with DNS.]]></summary>
         <author>
             <name>HashiCorp Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The rear view mirror]]></title>
-        <id>https://seths.blog/?p=44225</id>
-        <link href="https://feeds.feedblitz.com/~/734338874/0/sethsblog~The-rear-view-mirror/"/>
-        <updated>2023-04-10T08:17:00.000Z</updated>
-        <summary type="html"><![CDATA[It’s almost impossible to safely drive a car while only looking in the rear view mirror. Only seeing where you’ve been is a terrible way to figure out where to go. But it’s really unsafe to go forward with no idea of what came before. AI plods along into the future, using machine learning to […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1-to-1 Scale]]></title>
-        <id>https://xkcd.com/2761/</id>
-        <link href="https://xkcd.com/2761/"/>
-        <updated>2023-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/1_to_1_scale.png" title="There's a version that shows the planets with no cropping, but it's hard to find a display that supports it." alt="There's a version that shows the planets with no cropping, but it's hard to find a display that supports it." />]]></summary>
-        <author>
-            <name>xkcd.com</name>
         </author>
     </entry>
     <entry>
@@ -1696,49 +1772,6 @@ The post New Boards Hub Update, Sprint 219 appeared first on Azure DevOps Blog.]
         <summary type="html"><![CDATA[ワンパンマン]]></summary>
         <author>
             <name>原作/ＯＮＥ/漫画/村田雄介</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[March patches for Azure DevOps Server]]></title>
-        <id>https://devblogs.microsoft.com/devops/?p=66621</id>
-        <link href="https://devblogs.microsoft.com/devops/march-patches-for-azure-devops-server/"/>
-        <updated>2023-03-21T20:32:07.000Z</updated>
-        <summary type="html"><![CDATA[This month, we are releasing fixes that impact our self-hosted product, Azure DevOps Server.
-Addressed issue that required restarting tfsjobagent service and Azure DevOps Server application pool after updating SMTP-related setting in the Azure DevOps Server Management Console.
-The post March patches for Azure DevOps Server appeared first on Azure DevOps Blog.]]></summary>
-        <author>
-            <name>Gloridel Morales</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWS Clean Rooms Now Generally Available — Collaborate with Your Partners without Sharing Raw Data]]></title>
-        <id>7489dac1ba7077e7020fc13589c13c0455e7b4d3</id>
-        <link href="https://aws.amazon.com/blogs/aws/aws-clean-rooms-now-generally-available/"/>
-        <updated>2023-03-21T19:22:45.000Z</updated>
-        <summary type="html"><![CDATA[Companies across multiple industries, such as advertising and marketing, retail, consumer packaged goods (CPG), travel and hospitality, media and entertainment, and financial services, increasingly look to supplement their data with data from business partners, to build a complete view of their business. Let’s take a marketing use case as an example. Brands, publishers, and their […]]]></summary>
-        <author>
-            <name>Donnie Prakoso</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Running Camunda 8 on OpenShift]]></title>
-        <id>https://camunda.com/?p=76579&amp;preview=true&amp;preview_id=76579</id>
-        <link href="https://camunda.com/blog/2023/03/running-camunda-8-on-openshift/"/>
-        <updated>2023-03-21T18:34:45.000Z</updated>
-        <summary type="html"><![CDATA[Do you use Red Hat OpenShift? We've greatly improved how Camunda Platform 8 runs on OpenShift. Learn what's new and see an installation step by step.
-The post Running Camunda 8 on OpenShift appeared first on Camunda.]]></summary>
-        <author>
-            <name>Bernd Ruecker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWS Week in Review – March 20, 2023]]></title>
-        <id>d37a1df2b4b3f11486d8d054016088476bc57107</id>
-        <link href="https://aws.amazon.com/blogs/aws/aws-week-in-review-march-20-2023/"/>
-        <updated>2023-03-21T15:38:20.000Z</updated>
-        <summary type="html"><![CDATA[This post is part of our Week in Review series. Check back each week for a quick roundup of interesting news and announcements from AWS! A new week starts, and Spring is almost here! If you’re curious about AWS news from the previous seven days, I got you covered. Last Week’s Launches Here are the […]]]></summary>
-        <author>
-            <name>Danilo Poccia</name>
         </author>
     </entry>
 </feed>

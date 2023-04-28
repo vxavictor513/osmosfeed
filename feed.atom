@@ -1,10 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-27T01:21:08.185Z</id>
+    <id>urn:2023-04-28T01:21:18.384Z</id>
     <title>osmos::feed</title>
-    <updated>2023-04-27T01:21:08.185Z</updated>
+    <updated>2023-04-28T01:21:18.384Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Blog: Kubernetes 1.27: StatefulSet Start Ordinal Simplifies Migration]]></title>
+        <id>https://kubernetes.io/blog/2023/04/28/statefulset-start-ordinal/</id>
+        <link href="https://kubernetes.io/blog/2023/04/28/statefulset-start-ordinal/"/>
+        <updated>2023-04-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Author: Peter Schuurman (Google)
+Kubernetes v1.26 introduced a new, alpha-level feature for
+StatefulSets that controls
+the ordinal numbering of Pod replicas. As of Kubernetes v1.27, this feature is
+now beta. Ordinals can start from arbitrary
+non-negative numbers. This blog post will discuss how this feature can be
+used.
+Background
+StatefulSets ordinals provide sequential identities for pod replicas. When using
+OrderedReady Pod management
+Pods are created from ordinal index 0 up to N-1.
+With Kubernetes today, orchestrating a StatefulSet migration across clusters is
+challenging. Backup and restore solutions exist, but these require the
+application to be scaled down to zero replicas prior to migration. In today's
+fully connected world, even planned application downtime may not allow you to
+me…]]></summary>
+        <author>
+            <name>Kubernetes – Production-Grade Container Orchestration</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Improved Alerting with Atlas Streaming Eval]]></title>
+        <id>https://medium.com/p/e691c60dc61e</id>
+        <link href="https://netflixtechblog.com/improved-alerting-with-atlas-streaming-eval-e691c60dc61e?source=rss----2615bd06b42e---4"/>
+        <updated>2023-04-27T20:52:51.000Z</updated>
+        <summary type="html"><![CDATA[Ruchir Jha, Brian Harrington, Yingwu Zhao]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An ML-based approach to better characterize lung diseases]]></title>
+        <id>http://ai.googleblog.com/2023/04/an-ml-based-approach-to-better.html</id>
+        <link href="http://ai.googleblog.com/2023/04/an-ml-based-approach-to-better.html"/>
+        <updated>2023-04-27T20:24:00.001Z</updated>
+        <summary type="html"><![CDATA[Posted by Babak Behsaz, Software Engineer, and Andrew Carroll, Product Lead, Genomics
+
+
+
+
+The combination of the environment an individual experiences and their genetic predispositions determines the majority of their risk for various diseases. Large national efforts, such as the UK Biobank, have created large, public resources to better understand the links between environment, genetics, and disease. This has the potential to help individuals better understand how to stay healthy, clinicians to treat illnesses, and scientists to develop new medicines.
+
+
+One challenge in this process is how we make sense of the vast amount of clinical measurements — the UK Biobank has many petabytes of imaging, metabolic tests, and medical records spanning 500,000 individuals. To best use this data, we nee…]]></summary>
+        <author>
+            <name>Google AI Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How CyberCRX cut ML processing time from 8 days to 56 minutes with AWS Step Functions Distributed Map]]></title>
+        <id>6ca49d44c0bb9aa0d343f5673699f5a7fe73ca58</id>
+        <link href="https://aws.amazon.com/blogs/aws/how-cybercrx-cut-ml-processing-time-from-8-days-to-56-minutes-with-aws-step-functions-distributed-map/"/>
+        <updated>2023-04-27T19:12:16.000Z</updated>
+        <summary type="html"><![CDATA[Last December, Sébastien Stormacq wrote about the availability of a distributed map state for AWS Step Functions, a new feature that allows you to orchestrate large-scale parallel workloads in the cloud. That’s when Charles Burton, a data systems engineer for a company called CyberGRX, found out about it and refactored his workflow, reducing the processing […]]]></summary>
+        <author>
+            <name>Marcia Villalba</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The braid out of balance]]></title>
+        <id>https://seths.blog/?p=45682</id>
+        <link href="https://feeds.feedblitz.com/~/737491748/0/sethsblog~The-braid-out-of-balance/"/>
+        <updated>2023-04-27T08:44:00.000Z</updated>
+        <summary type="html"><![CDATA[There are three strands, present for most everyone: Power (sometimes seen as status, or the appearance of status) Safety (survival and peace of mind) Meaning (hope and the path forward) The changes in our media structure, public health and economy have pushed some people to overdo one or the other and perhaps ignore a third. […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Bootiful Podcast: Sebastien Deleuze and James Ward on a Bootiful Podcast]]></title>
+        <id>https://spring.io/blog/2023/04/27/a-bootiful-podcast-sebastien-deleuze-and-james-ward-on-a-bootiful-podcast</id>
+        <link href="https://spring.io/blog/2023/04/27/a-bootiful-podcast-sebastien-deleuze-and-james-ward-on-a-bootiful-podcast"/>
+        <updated>2023-04-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <author>
+            <name>Josh Long</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meet our Elastinfluencers]]></title>
+        <id>https://www.elastic.co/blog/culture-meet-elastinfluencers</id>
+        <link href="https://www.elastic.co/blog/culture-meet-elastinfluencers"/>
+        <updated>2023-04-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re always looking for ways to further embody our open, accepting, people-first culture. Elastinfluencers is our latest program designed to engage Elasticians and empower them to connect with their coworkers and promote the larger Elastic brand.]]></summary>
+        <author>
+            <name>Elastic Culture</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meet our Elastinfluencers]]></title>
+        <id>https://www.elastic.co/blog/culture-meet-elastinfluencers</id>
+        <link href="https://www.elastic.co/blog/culture-meet-elastinfluencers"/>
+        <updated>2023-04-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+We’re always looking for ways to further embody our open, accepting, people-first culture. And that means putting our people front and center. Elastinfluencers is our latest program designed to engage Elasticians and empower them to connect with their coworkers and promote the larger Elastic brand. 
+
+Elastinfluencers not only live our values, but celebrate our distributed, come As YOU, Are, work-where-you-work-best approach. As a global company with employees in more than 40 countries, we wanted to ensure representation from a variety of regions and cultures. 
+
+Elastinfluencers are influential leaders across the organization who want to campaign for and amplify what it’s really like to work at Elastic.
+,Kamile Pranskunaite is a Senior Recruiting Operations Coordinator based in Berlin, Ge…]]></summary>
+        <author>
+            <name>Elastic Culture</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Robust and efficient medical imaging with self-supervision]]></title>
         <id>http://ai.googleblog.com/2023/04/robust-and-efficient-medical-imaging.html</id>
@@ -17,6 +126,16 @@
 Despite recent progress in the field of medical artificial intelligence (AI), most existing models are narrow, single-task systems that require large quantities of labeled data to train. Moreover, these models cannot be easily reused in new clinical contexts as they often require the collection, de-identification and annotation of site-specific data for every new deployment environment, which is both laborious and expensive. This problem of data-efficient generalization (a model’s ability to generalize to new settings using minimal new data) continues to be a key translational challenge for medical machine learning (ML) models and has in turn, prevented their broad uptak…]]></summary>
         <author>
             <name>Google AI Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Kotlin Mascot Returns – Say Hello to Kodee!]]></title>
+        <id>https://blog.jetbrains.com/?post_type=kotlin&amp;p=345074</id>
+        <link href="https://blog.jetbrains.com/kotlin/2023/04/the-kotlin-mascot-returns/"/>
+        <updated>2023-04-26T16:49:06.000Z</updated>
+        <summary type="html"><![CDATA[We are excited to announce the arrival of Kotlin’s newly reimagined mascot that took the spotlight during KotlinConf. It’s been a while since we first introduced our mascot, but it is back and it has a name now – Kodee! With your feedback in mind, we have redesigned our mascot to create an approachable and […]]]></summary>
+        <author>
+            <name>Maria Krishtal</name>
         </author>
     </entry>
     <entry>
@@ -40,6 +159,16 @@ Despite recent progress in the field of medical artificial intelligence (AI), mo
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[What’s Next: WebStorm 2023.2 Roadmap]]></title>
+        <id>https://blog.jetbrains.com/?post_type=webstorm&amp;p=345087</id>
+        <link href="https://blog.jetbrains.com/webstorm/2023/04/what-s-next-webstorm-2023-2-roadmap/"/>
+        <updated>2023-04-26T14:14:10.000Z</updated>
+        <summary type="html"><![CDATA[We released WebStorm 2023.1, our first major update for the year 2023, just last month. First off, we’d like to thank all of you who are already using it and providing us with feedback. Today, we’ll give you a sneak peek into what we have planned for the next release of WebStorm, with our usual […]]]></summary>
+        <author>
+            <name>David Watson</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[How to call the Camunda Inbound Webhook from Postman]]></title>
         <id>https://camunda.com/?p=79381&amp;preview=true&amp;preview_id=79381</id>
         <link href="https://camunda.com/blog/2023/04/how-to-call-camunda-inbound-webhook-postman/"/>
@@ -58,16 +187,6 @@ The post How to call the Camunda Inbound Webhook from Postman appeared first on 
         <summary type="html"><![CDATA[It can be difficult. Explaining atoms or molecules, or decision making, or what you do at your job… The reason that it’s difficult is that in order to explain something, we need to really understand it first. Not simply be able to do the task or ace the test. But understand. And the reason we […]]]></summary>
         <author>
             <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spring Security Kerberos 2.0.0-M1 available now]]></title>
-        <id>https://spring.io/blog/2023/04/26/spring-security-kerberos-2-0-0-m1-available-now</id>
-        <link href="https://spring.io/blog/2023/04/26/spring-security-kerberos-2-0-0-m1-available-now"/>
-        <updated>2023-04-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
-        <author>
-            <name>Janne Valkealahti</name>
         </author>
     </entry>
     <entry>
@@ -94,6 +213,16 @@ Analyzers for each field are used to:
 Index. Each d…]]></summary>
         <author>
             <name>Ioana-Alina Tagirta</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Definition of e]]></title>
+        <id>https://xkcd.com/2768/</id>
+        <link href="https://xkcd.com/2768/"/>
+        <updated>2023-04-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/definition_of_e.png" title="Yeah, my math teacher back in high school set up the system to try to teach us something or other, but the 100% rate was unbelievably good, so I engineered a hostile takeover of his bank and now use it to make extra cash on the side." alt="Yeah, my math teacher back in high school set up the system to try to teach us something or other, but the 100% rate was unbelievably good, so I engineered a hostile takeover of his bank and now use it to make extra cash on the side." />]]></summary>
+        <author>
+            <name>xkcd.com</name>
         </author>
     </entry>
     <entry>
@@ -204,6 +333,16 @@ Here we present LayerNAS, an approach that reformulates the multi-objective NAS 
         <summary type="html"><![CDATA[CLion 2023.1 was released a few weeks ago. It brought a solution for package management, took your debugging experience to the next level, helped with QML coding, and included a host of improvements for the new UI. Check out the key updates on our site if you missed them, and give the new version a […]]]></summary>
         <author>
             <name>Anastasia Kazakova</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Security Kerberos 2.0.0-M1 available now]]></title>
+        <id>https://spring.io/blog/2023/04/27/spring-security-kerberos-2-0-0-m1-available-now</id>
+        <link href="https://spring.io/blog/2023/04/27/spring-security-kerberos-2-0-0-m1-available-now"/>
+        <updated>2023-04-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <author>
+            <name>Janne Valkealahti</name>
         </author>
     </entry>
     <entry>
@@ -923,16 +1062,6 @@ If a Pod does not have any SELinux label assigned in …]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[‘Quick’ Features in IntelliJ IDEA]]></title>
-        <id>https://blog.jetbrains.com/?post_type=idea&amp;p=343065</id>
-        <link href="https://blog.jetbrains.com/idea/2023/04/quick-features-in-intellij-idea/"/>
-        <updated>2023-04-18T16:52:54.000Z</updated>
-        <summary type="html"><![CDATA[A few IntelliJ IDEA features or actions include the term ‘quick’. Do they speed up certain processes? Let’s find out. In this blog post, I’ll cover what these features are, why you need them, and how you can use them. 1. Quick Lists If you have actions that you use regularly but don’t have shortcuts […]]]></summary>
-        <author>
-            <name>Mala Gupta</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[GitHub joins industry commitment to curb cyber mercenaries]]></title>
         <id>https://github.blog/2023-04-18-github-joins-industry-commitment-to-curb-cyber-mercenaries/</id>
         <link href="https://github.blog/2023-04-18-github-joins-industry-commitment-to-curb-cyber-mercenaries/"/>
@@ -950,16 +1079,6 @@ If a Pod does not have any SELinux label assigned in …]]></summary>
         <summary type="html"><![CDATA[CDK for Terraform v0.16 improves automatic conversion of configuration code from HCL to supported languages by enabling type coercion and providing better support for iterators and functions.]]></summary>
         <author>
             <name>HashiCorp Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reduce Collection Lookups With ReSharper]]></title>
-        <id>https://blog.jetbrains.com/?post_type=dotnet&amp;p=341154</id>
-        <link href="https://blog.jetbrains.com/dotnet/2023/04/18/reduce-lookups-in-hashset-dictionary-and-other-collections-with-resharper/"/>
-        <updated>2023-04-18T13:58:19.000Z</updated>
-        <summary type="html"><![CDATA[The 2023.1 ReSharper and JetBrains Rider releases introduce a set of inspections and quick-fixes that help you optimize and speed up your code when working with different collections. Many C# projects contain numerous places where developers add items to collections like HashSet and Dictionary. Quite often, there’s a check to verify whether the item is […]]]></summary>
-        <author>
-            <name>Maarten Balliauw</name>
         </author>
     </entry>
     <entry>
@@ -1004,16 +1123,6 @@ The post Integrate External Systems Effortlessly with Custom Connectors in Camun
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Spring Authorization Server 1.0.2 and 0.4.2 available now]]></title>
-        <id>https://spring.io/blog/2023/04/18/spring-authorization-server-1-0-2-and-0-4-2-available-now</id>
-        <link href="https://spring.io/blog/2023/04/18/spring-authorization-server-1-0-2-and-0-4-2-available-now"/>
-        <updated>2023-04-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
-        <author>
-            <name>Joe Grandja</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Elastic Common Schema and OpenTelemetry — A path to better observability and security with no vendor lock-in]]></title>
         <id>https://www.elastic.co/blog/ecs-elastic-common-schema-otel-opentelemetry-faq</id>
         <link href="https://www.elastic.co/blog/ecs-elastic-common-schema-otel-opentelemetry-faq"/>
@@ -1021,16 +1130,6 @@ The post Integrate External Systems Effortlessly with Custom Connectors in Camun
         <summary type="html"><![CDATA[Learn how the convergence of Elastic Common Schema (ECS) and OpenTelemetry Semantic Conventions will benefit both observability and security practitioners through an industry-wide common schema.]]></summary>
         <author>
             <name>Elastic Observability and Security Teams</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Elastic contributes Elastic Common Schema (ECS) to OpenTelemetry (OTel), helping accelerate adoption of OTel-based observability and security]]></title>
-        <id>https://www.elastic.co/blog/ecs-elastic-common-schema-otel-opentelemetry-announcement</id>
-        <link href="https://www.elastic.co/blog/ecs-elastic-common-schema-otel-opentelemetry-announcement"/>
-        <updated>2023-04-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Elastic Common Schema (ECS), an open source specification, has been accepted by the OpenTelemetry project supporting a common schema for metrics, logs, traces, and events data. Learn how this contribution and OpenTelemetry can help with your observability and security efforts.]]></summary>
-        <author>
-            <name>Ken Exner</name>
         </author>
     </entry>
     <entry>
@@ -1044,18 +1143,6 @@ What is being announced? 
 Elastic is contributing its open source project, Elastic Common Schema (ECS), to the OpenTelemetry project under the Cloud Native Computing Foundation (CNCF) to help converge toward a common schema for observability and security data. A common schema helps normalize data to enable bett…]]></summary>
         <author>
             <name>Elastic Observability and Security Teams</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Elastic contributes Elastic Common Schema (ECS) to OpenTelemetry (OTel), helping accelerate adoption of OTel-based observability and security]]></title>
-        <id>https://www.elastic.co/blog/ecs-elastic-common-schema-otel-opentelemetry-announcement</id>
-        <link href="https://www.elastic.co/blog/ecs-elastic-common-schema-otel-opentelemetry-announcement"/>
-        <updated>2023-04-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-Today, data from multiple sources with schemas makes it difficult to pinpoint software issues and understand the root cause of a problem. A common schema helps normalize data to enable improved analysis, visualization, and correlation of data across observability and security solutions, accelerating root cause analysis. To ensure that our customers and the broader community can benefit from standardization, Elastic is committed to developing a common schema for metrics, logs, traces, and security events based on the Elastic Common Schema (ECS) and OpenTelemetry (OTel).  
-Elastic is contributing ECS to OTel and committing to joint development of a common schema. OTel is the second highest velocity project in the Cloud Native Computing Foundation (CNCF), and provides a collection of tools,…]]></summary>
-        <author>
-            <name>Ken Exner</name>
         </author>
     </entry>
     <entry>
@@ -1076,26 +1163,6 @@ Elastic is contributing ECS to OTel and committing to joint development of a com
         <summary type="html"><![CDATA[We’ve gotten great feedback on default setup, a simple way to set up code scanning on your repository. Now, you have the ability to use default setup across your organization's repositories, in just one click.]]></summary>
         <author>
             <name>The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Digital prepwork]]></title>
-        <id>https://seths.blog/?p=44266</id>
-        <link href="https://feeds.feedblitz.com/~/735929600/0/sethsblog~Digital-prepwork/"/>
-        <updated>2023-04-17T08:06:00.000Z</updated>
-        <summary type="html"><![CDATA[It’s so tempting to simply begin painting a wall. After all, it’s pretty easy to lay down paint. But it turns out that masking and dropcloths, painstakingly put into place, save many hours compared to cleaning up a mess afterward. The same is true for what happens when we have a new hard drive or […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cosmological Nostalgia Content]]></title>
-        <id>https://xkcd.com/2764/</id>
-        <link href="https://xkcd.com/2764/"/>
-        <updated>2023-04-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/cosmological_nostalgia_content.png" title="Later renouncing clickbait, Einstein called his inclusion of cosmological content in general relativity the biggest blunder of his career." alt="Later renouncing clickbait, Einstein called his inclusion of cosmological content in general relativity the biggest blunder of his career." />]]></summary>
-        <author>
-            <name>xkcd.com</name>
         </author>
     </entry>
     <entry>
@@ -1735,24 +1802,6 @@ While admission controllers for policy have seen adoption, there are blockers fo
         <summary type="html"><![CDATA[The Terraform integrations ecosystem has reached a new milestone, surpassing 3,000 providers in the registry.]]></summary>
         <author>
             <name>HashiCorp Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Leveraging transfer learning for large scale differentially private image classification]]></title>
-        <id>http://ai.googleblog.com/2023/03/leveraging-transfer-learning-for-large.html</id>
-        <link href="http://ai.googleblog.com/2023/03/leveraging-transfer-learning-for-large.html"/>
-        <updated>2023-03-28T18:26:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted by Harsh Mehta, Software Engineer, and Walid Krichene, Research Scientist, Google Research
-
-
-
-
-Large deep learning models are becoming the workhorse of a variety of critical machine learning (ML) tasks. However, it has been shown that without any protection it is plausible for bad actors to attack a variety of models, across modalities, to reveal information from individual training examples. As such, it’s essential to protect against this sort of information leakage.
-
-
-Differential privacy (DP) provides formal protection against an attacker who aims to extract information about the training data. The most popular method for DP training in deep learning is differentially private stochastic gradient descent (DP-SGD). The core recipe implements a common theme in DP: “fuzzing” an algor…]]></summary>
-        <author>
-            <name>Google AI Blog</name>
         </author>
     </entry>
 </feed>

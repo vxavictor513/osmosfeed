@@ -1,10 +1,178 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-05-04T01:19:18.409Z</id>
+    <id>urn:2023-05-05T01:14:01.716Z</id>
     <title>osmos::feed</title>
-    <updated>2023-05-04T01:19:18.409Z</updated>
+    <updated>2023-05-05T01:14:01.716Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Blog: Kubernetes 1.27: Quality-of-Service for Memory Resources (alpha)]]></title>
+        <id>https://kubernetes.io/blog/2023/05/05/qos-memory-resources/</id>
+        <link href="https://kubernetes.io/blog/2023/05/05/qos-memory-resources/"/>
+        <updated>2023-05-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Authors: Dixita Narang (Google)
+Kubernetes v1.27, released in April 2023, introduced changes to
+Memory QoS (alpha) to improve memory management capabilites in Linux nodes.
+Support for Memory QoS was initially added in Kubernetes v1.22, and later some
+limitations
+around the formula for calculating memory.high were identified. These limitations are
+addressed in Kubernetes v1.27.
+Background
+Kubernetes allows you to optionally specify how much of each resources a container needs
+in the Pod specification. The most common resources to specify are CPU and Memory.
+For example, a Pod manifest that defines container resource requirements could look like:
+apiVersion: v1
+kind: Pod
+metadata:
+name: example
+spec:
+containers:
+- name: nginx
+resources:
+requests:
+memory: "64Mi"
+cpu: "250m"
+limits:
+memory: "6…]]></summary>
+        <author>
+            <name>Kubernetes – Production-Grade Container Orchestration</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MaMMUT: A simple vision-encoder text-decoder architecture for multimodal tasks]]></title>
+        <id>http://ai.googleblog.com/2023/05/mammut-simple-vision-encoder-text.html</id>
+        <link href="http://ai.googleblog.com/2023/05/mammut-simple-vision-encoder-text.html"/>
+        <updated>2023-05-04T21:59:00.004Z</updated>
+        <summary type="html"><![CDATA[Posted by AJ Piergiovanni and Anelia Angelova, Research Scientists, Google Research
+
+
+
+
+Vision-language foundational models are built on the premise of a single pre-training followed by subsequent adaptation to multiple downstream tasks. Two main and disjoint training scenarios are popular: a CLIP-style contrastive learning and next-token prediction. Contrastive learning trains the model to predict if image-text pairs correctly match, effectively building visual and text representations for the corresponding image and text inputs, whereas next-token prediction predicts the most likely next text token in a sequence, thus learning to generate text, according to the required task. Contrastive learning enables image-text and text-image retrieval tasks, such as finding the image that best match…]]></summary>
+        <author>
+            <name>Google AI Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Migrating Critical Traffic At Scale with No Downtime — Part 1]]></title>
+        <id>https://medium.com/p/ba1c7a1c7835</id>
+        <link href="https://netflixtechblog.com/migrating-critical-traffic-at-scale-with-no-downtime-part-1-ba1c7a1c7835?source=rss----2615bd06b42e---4"/>
+        <updated>2023-05-04T21:32:37.000Z</updated>
+        <summary type="html"><![CDATA[Shyam Gala, Javier Fernandez-Ivern, Anup Rokkam Pratap, Devang Shah]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Manage your application security stack effectively with the tool status page]]></title>
+        <id>https://github.blog/2023-05-04-manage-your-application-security-stack-effectively-with-the-tool-status-page/</id>
+        <link href="https://github.blog/2023-05-04-manage-your-application-security-stack-effectively-with-the-tool-status-page/"/>
+        <updated>2023-05-04T18:34:24.000Z</updated>
+        <summary type="html"><![CDATA[Code scanning’s tool status gives you a bird's eye view of your application security stack, allowing you to quickly confirm everything is working, or troubleshoot any tool in your application security arsenal.]]></summary>
+        <author>
+            <name>The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[All In for Students 2023 cohort: our biggest group of open source leaders yet!]]></title>
+        <id>https://github.blog/2023-05-04-all-in-for-students-2023-cohort-our-biggest-group-of-open-source-leaders-yet/</id>
+        <link href="https://github.blog/2023-05-04-all-in-for-students-2023-cohort-our-biggest-group-of-open-source-leaders-yet/"/>
+        <updated>2023-05-04T17:35:32.000Z</updated>
+        <summary type="html"><![CDATA[The second cohort of All In for Students has graduated! With a cohort 12 times as large as the pilot, learn about how this group of college students is leaning into the future of technology.]]></summary>
+        <author>
+            <name>The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The price of salt]]></title>
+        <id>https://seths.blog/?p=45916</id>
+        <link href="https://feeds.feedblitz.com/~/738657068/0/sethsblog~The-price-of-salt/"/>
+        <updated>2023-05-04T08:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Salt is essentially free. A bag of salted nuts is the same price (or less) as an unsalted one. But salt used to be expensive. Truly expensive, like gold. We keep seeing the deflation of things we were sure would remain expensive. Computer chips, disk storage and now, content. Once computers start illustrating, writing and […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Bootiful Podcast: Java Champion Ken Kousen on Gradle, Java, Kotlin, Mockito, and more]]></title>
+        <id>https://spring.io/blog/2023/05/04/a-bootiful-podcast-java-champion-ken-koussen-on-gradle-java-kotlin-mockito</id>
+        <link href="https://spring.io/blog/2023/05/04/a-bootiful-podcast-java-champion-ken-koussen-on-gradle-java-kotlin-mockito"/>
+        <updated>2023-05-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <author>
+            <name>Josh Long</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Industrial control systems security with Elastic Security and Zeek]]></title>
+        <id>https://www.elastic.co/blog/industrial-control-systems-elastic-security-zeek</id>
+        <link href="https://www.elastic.co/blog/industrial-control-systems-elastic-security-zeek"/>
+        <updated>2023-05-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This blog walks through the security challenges associated with ICS and how Elastic Security and Zeek can help address them, in addition to the benefits of having integrated machine learning and threat intelligence within the ICS security program.]]></summary>
+        <author>
+            <name>Abdelwahhab Satta, Octodet,Samir Bennacer, Octodet</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to use Elasticsearch and Time Series Data Streams for observability metrics]]></title>
+        <id>https://www.elastic.co/blog/elasticsearch-time-series-data-streams-observability-metrics</id>
+        <link href="https://www.elastic.co/blog/elasticsearch-time-series-data-streams-observability-metrics"/>
+        <updated>2023-05-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[With Time Series Data Streams (TSDS), Elasticsearch introduces optimized storage for metrics time series. Check out how we use it for Elastic Observability.]]></summary>
+        <author>
+            <name>Nicolas Ruflin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Industrial control systems security with Elastic Security and Zeek]]></title>
+        <id>https://www.elastic.co/blog/industrial-control-systems-elastic-security-zeek</id>
+        <link href="https://www.elastic.co/blog/industrial-control-systems-elastic-security-zeek"/>
+        <updated>2023-05-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+Industrial control systems (ICS) have historically been isolated and less interconnected. Isolation was one of the things that kept these systems more secure behind air gaps, at the cost of lost coordination and collaboration. This is rapidly changing with the rise of Industry 4.0 with increased interconnectivity and integration of smart technologies like Industrial IoT (IIoT) and cloud computing in modern industrial processes.
+
+This blog walks through the security challenges associated with ICS and how Elastic Security and Zeek can help address them, in addition to the benefits of having integrated machine learning and threat intelligence within the ICS security program.
+https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt1e29f607dfe021f0/6453c12670a4470c7a8b2282/blog-elastic…]]></summary>
+        <author>
+            <name>Abdelwahhab Satta, Octodet,Samir Bennacer, Octodet</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to use Elasticsearch and Time Series Data Streams for observability metrics]]></title>
+        <id>https://www.elastic.co/blog/elasticsearch-time-series-data-streams-observability-metrics</id>
+        <link href="https://www.elastic.co/blog/elasticsearch-time-series-data-streams-observability-metrics"/>
+        <updated>2023-05-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+Elasticsearch is used for a wide variety of data types — one of these is metrics. With the introduction of Metricbeat many years ago and later our APM Agents, the metric use case has become more popular. Over the years, Elasticsearch has made many improvements on how to handle things like metrics aggregations and sparse documents. At the same time, TSVB visualizations were introduced to make visualizing metrics easier. One concept that was missing that exists for most other metric solutions is the concept of time series with dimensions. 
+
+Mid 2021, the Elasticsearch team embarked on making Elasticsearch a much better fit for metrics. The team created Time Series Data Streams (TSDS), which were released in 8.7 as generally available (GA). 
+
+This blog post dives into how TSDS works and how…]]></summary>
+        <author>
+            <name>Nicolas Ruflin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blog: Kubernetes 1.27: StatefulSet PVC Auto-Deletion (beta)]]></title>
+        <id>https://kubernetes.io/blog/2023/05/04/kubernetes-1-27-statefulset-pvc-auto-deletion-beta/</id>
+        <link href="https://kubernetes.io/blog/2023/05/04/kubernetes-1-27-statefulset-pvc-auto-deletion-beta/"/>
+        <updated>2023-05-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Author: Matthew Cary (Google)
+Kubernetes v1.27 graduated to beta a new policy mechanism for
+StatefulSets that controls the lifetime of
+their PersistentVolumeClaims (PVCs). The new PVC
+retention policy lets users specify if the PVCs generated from the StatefulSet spec template should
+be automatically deleted or retrained when the StatefulSet is deleted or replicas in the StatefulSet
+are scaled down.
+What problem does this solve?
+A StatefulSet spec can include Pod and PVC templates. When a replica is first created, the
+Kubernetes control plane creates a PVC for that replica if one does not already exist. The behavior
+before the PVC retention policy was that the control plane never cleaned up the PVCs created for
+StatefulSets - this was left up to the cluster administrator, or to some add-on …]]></summary>
+        <author>
+            <name>Kubernetes – Production-Grade Container Orchestration</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GitHub Availability Report: April 2023]]></title>
         <id>https://github.blog/2023-05-03-github-availability-report-april-2023/</id>
@@ -66,6 +234,16 @@ In “IndoorSim-to-OutdoorReal: Learning to Navigate Outdoors without an…]]></
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Bridging the gap between technology and FinOps with HashiCorp and Intel]]></title>
+        <id>https://www.hashicorp.com/blog/bridging-the-gap-between-technology-and-finops-with-hashicorp-and-intel</id>
+        <link href="https://www.hashicorp.com/blog/bridging-the-gap-between-technology-and-finops-with-hashicorp-and-intel"/>
+        <updated>2023-05-03T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Intel Cloud Optimized Modules for Terraform and Sentinel standardize infrastructure deployment and increase performance with purpose-built policy as code.]]></summary>
+        <author>
+            <name>HashiCorp Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Take Ansible validated content to the next level with Event-Driven Ansible]]></title>
         <id>https://www.ansible.com/blog/ansible-validated-content-with-event-driven-ansible</id>
         <link href="https://www.ansible.com/blog/ansible-validated-content-with-event-driven-ansible"/>
@@ -108,6 +286,46 @@ The Robot Operating System (ROS) is an open-source framework that provides a sta
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Rider 2023.2 Roadmap]]></title>
+        <id>https://blog.jetbrains.com/?post_type=dotnet&amp;p=348546</id>
+        <link href="https://blog.jetbrains.com/dotnet/2023/05/03/rider-2023-2-roadmap/"/>
+        <updated>2023-05-03T12:55:06.000Z</updated>
+        <summary type="html"><![CDATA[As we prepare for the start of the Early Access Program (EAP) for Rider 2023.2, now seems like the perfect time to share our plans for this upcoming release. Keep in mind that these plans are subject to change, and some features and improvements may need to be postponed to a future release. Also, be […]]]></summary>
+        <author>
+            <name>Sasha Ivanova</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ReSharper 2023.2 Roadmap]]></title>
+        <id>https://blog.jetbrains.com/?post_type=dotnet&amp;p=348432</id>
+        <link href="https://blog.jetbrains.com/dotnet/2023/05/03/resharper-2023-2-roadmap/"/>
+        <updated>2023-05-03T12:53:21.000Z</updated>
+        <summary type="html"><![CDATA[The upcoming Early Access Program (EAP) for ReSharper version 2023.2 is fast approaching, and we want to share the development roadmap we’ve set for the next release. Before we get into it, this roadmap is tentative and subject to change based on our priorities, available resources, and developments in the .NET sphere. Some features may […]]]></summary>
+        <author>
+            <name>Sasha Ivanova</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Java Annotated Monthly – May 2023]]></title>
+        <id>https://blog.jetbrains.com/?post_type=idea&amp;p=347022</id>
+        <link href="https://blog.jetbrains.com/idea/2023/05/java-annotated-monthly-may-2023/"/>
+        <updated>2023-05-03T12:45:03.000Z</updated>
+        <summary type="html"><![CDATA[The May edition of Java Annotated Monthly is here! This issue comes with exciting news on the future Java release, including a sneak peek at the JEPs planned for implementation. Our hand-picked selection of Java tutorials will help you sharpen your skills and stay on top of the latest trends. In addition, we have curated […]]]></summary>
+        <author>
+            <name>Irina Maryasova</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing the Computer Science and Artificial Intelligence Bachelor’s Program With Neapolis University Paphos]]></title>
+        <id>https://blog.jetbrains.com/?post_type=education&amp;p=347959</id>
+        <link href="https://blog.jetbrains.com/education/2023/05/03/introducing-the-computer-science-and-artificial-intelligence-bachelor-s-program-with-neapolis-university-paphos/"/>
+        <updated>2023-05-03T11:31:47.000Z</updated>
+        <summary type="html"><![CDATA[Together with Neapolis University Pafos (NUP), our partner university in Cyprus, we are announcing the launch of the Computer Science and Artificial Intelligence bachelor’s program. NUP is a leading private university in Cyprus that was established in 2010. It reflects our core values, particularly in providing high-quality higher education, generating innovative applied knowledge, and serving […]]]></summary>
+        <author>
+            <name>Alexander Kulikov</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The house painter and the architect]]></title>
         <id>https://seths.blog/?p=45928</id>
         <link href="https://feeds.feedblitz.com/~/738459503/0/sethsblog~The-house-painter-and-the-architect/"/>
@@ -139,6 +357,16 @@ Having a sound observability solution on both cloud and on-prem is essential. Th
 These recommendations are based on many considerations and a number of factors to ensure that the solution provides effective monitori…]]></summary>
         <author>
             <name>Michael Calizo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[College Knowledge]]></title>
+        <id>https://xkcd.com/2771/</id>
+        <link href="https://xkcd.com/2771/"/>
+        <updated>2023-05-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/college_knowledge.png" title="'Your chitin armor is no match for our iron-tipped stingers! Better go hide in your jars!' --common playground taunt" alt="'Your chitin armor is no match for our iron-tipped stingers! Better go hide in your jars!' --common playground taunt" />]]></summary>
+        <author>
+            <name>xkcd.com</name>
         </author>
     </entry>
     <entry>
@@ -520,26 +748,6 @@ Click the icon below to listen.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[IntelliJ IDEA 2023.1.1 Is Out!]]></title>
-        <id>https://blog.jetbrains.com/?post_type=idea&amp;p=346789</id>
-        <link href="https://blog.jetbrains.com/idea/2023/04/intellij-idea-2023-1-1/"/>
-        <updated>2023-04-28T14:09:59.000Z</updated>
-        <summary type="html"><![CDATA[The first bug-fix update for v2023.1 has arrived!  You can update to this version from inside the IDE, using the Toolbox App, or via snaps, if you’re using Ubuntu. You can also download it directly from our website. Based on your valuable feedback, we’ve addressed reported bugs and implemented various improvements to enhance your overall […]]]></summary>
-        <author>
-            <name>Maria Kosukhina</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NORDIC TechKomm Stockholm 2023 Field Notes]]></title>
-        <id>https://blog.jetbrains.com/?post_type=writerside&amp;p=346847</id>
-        <link href="https://blog.jetbrains.com/writerside/2023/04/nordic-techkomm-stockholm-2023-field-notes/"/>
-        <updated>2023-04-28T14:01:25.000Z</updated>
-        <summary type="html"><![CDATA[It was hard to choose which tech writing conference to go to this year. Our team decided to spend the 2023 budget on these 7 conferences. The first one is over! Let us share our experience – biased maybe, but hopefully useful to those who plan to attend next year. Audience: There’s a whole world […]]]></summary>
-        <author>
-            <name>Svetlana Novikova</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The magic of placebos]]></title>
         <id>https://seths.blog/?p=43486</id>
         <link href="https://feeds.feedblitz.com/~/737641028/0/sethsblog~The-magic-of-placebos/"/>
@@ -580,16 +788,6 @@ Click the icon below to listen.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Elastic Security in the open: Empowering security teams with prebuilt protections]]></title>
-        <id>https://www.elastic.co/blog/security-teams-prebuilt-protections</id>
-        <link href="https://www.elastic.co/blog/security-teams-prebuilt-protections"/>
-        <updated>2023-04-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Explore why detection engineers and security analysts should use Elastic prebuilt detection content. Learn about the Elastic Security team's process for creating detection rules and the types of content we provide out of the box.]]></summary>
-        <author>
-            <name>Kseniia Ignatovych,Terrance DeJesus</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Root cause analysis with logs: Elastic Observability's AIOps Labs]]></title>
         <id>https://www.elastic.co/blog/observability-logs-machine-learning-aiops</id>
         <link href="https://www.elastic.co/blog/observability-logs-machine-learning-aiops"/>
@@ -616,20 +814,6 @@ The logging journey, which reviews the collection, processing and enrichment, an
 The difference betwee…]]></summary>
         <author>
             <name>Luca Wintergerst,David Hope,Bahubali Shetti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Elastic Security in the open: Empowering security teams with prebuilt protections]]></title>
-        <id>https://www.elastic.co/blog/security-teams-prebuilt-protections</id>
-        <link href="https://www.elastic.co/blog/security-teams-prebuilt-protections"/>
-        <updated>2023-04-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-Detection content for detection engineers
-Elastic Security now comes with 1,100+ prebuilt detection rules for Elastic Security users to set up and get their detections and security monitoring going as soon as possible. Of these 1,100+ rules, more than 760 are SIEM detection rules considering multiple log-sources — with the rest running on endpoints utilizing Elastic Security for Endpoint.
-Elastic is committed to transparency and openness with the security community, which is the primary reason why we build and maintain our detection logic publicly in collaboration with all who are interested. We find it important to share our research, rules, and other findings back to the security community to allow learning from them and foster further improvement.
-In addition to all of this content be…]]></summary>
-        <author>
-            <name>Kseniia Ignatovych,Terrance DeJesus</name>
         </author>
     </entry>
     <entry>
@@ -706,26 +890,6 @@ One challenge in this process is how we make sense of the vast amount of clinica
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Toolbox App 1.28 Is Out!]]></title>
-        <id>https://blog.jetbrains.com/?post_type=toolbox-app&amp;p=344436</id>
-        <link href="https://blog.jetbrains.com/toolbox-app/2023/04/toolbox-app-1-28-is-out/"/>
-        <updated>2023-04-27T13:20:05.000Z</updated>
-        <summary type="html"><![CDATA[Today, we are releasing the latest update to the Toolbox App. It improves tray icon handling on Fedora, and the dynamic library loading on macOS has been disabled. See the full release notes for more details. Download now As announced earlier, support for multiple JetBrains Accounts has been discontinued. Please link your emails to a […]]]></summary>
-        <author>
-            <name>Victor Kropp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HTML, XML, JSON, and JWT Visualizers in Rider 2023.1]]></title>
-        <id>https://blog.jetbrains.com/?post_type=dotnet&amp;p=341152</id>
-        <link href="https://blog.jetbrains.com/dotnet/2023/04/27/html-xml-json-and-jwt-visualizers-in-rider-2023-1/"/>
-        <updated>2023-04-27T13:15:29.000Z</updated>
-        <summary type="html"><![CDATA[As a developer, you deal with many data formats, some of which are friendly to humans while others are optimized for computers. It’s not often you need to look directly at complex data formats, but it can help when debugging nagging problems in your codebase. If you’ve been building applications for any time, you’ve likely […]]]></summary>
-        <author>
-            <name>Khalid Abuhakmeh</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The braid out of balance]]></title>
         <id>https://seths.blog/?p=45682</id>
         <link href="https://feeds.feedblitz.com/~/737491748/0/sethsblog~The-braid-out-of-balance/"/>
@@ -743,32 +907,6 @@ One challenge in this process is how we make sense of the vast amount of clinica
         <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
         <author>
             <name>Josh Long</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meet our Elastinfluencers]]></title>
-        <id>https://www.elastic.co/blog/culture-meet-elastinfluencers</id>
-        <link href="https://www.elastic.co/blog/culture-meet-elastinfluencers"/>
-        <updated>2023-04-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re always looking for ways to further embody our open, accepting, people-first culture. Elastinfluencers is our latest program designed to engage Elasticians and empower them to connect with their coworkers and promote the larger Elastic brand.]]></summary>
-        <author>
-            <name>Elastic Culture</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meet our Elastinfluencers]]></title>
-        <id>https://www.elastic.co/blog/culture-meet-elastinfluencers</id>
-        <link href="https://www.elastic.co/blog/culture-meet-elastinfluencers"/>
-        <updated>2023-04-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-We’re always looking for ways to further embody our open, accepting, people-first culture. And that means putting our people front and center. Elastinfluencers is our latest program designed to engage Elasticians and empower them to connect with their coworkers and promote the larger Elastic brand. 
-
-Elastinfluencers not only live our values, but celebrate our distributed, come As YOU, Are, work-where-you-work-best approach. As a global company with employees in more than 40 countries, we wanted to ensure representation from a variety of regions and cultures. 
-
-Elastinfluencers are influential leaders across the organization who want to campaign for and amplify what it’s really like to work at Elastic.
-,Kamile Pranskunaite is a Senior Recruiting Operations Coordinator based in Berlin, Ge…]]></summary>
-        <author>
-            <name>Elastic Culture</name>
         </author>
     </entry>
     <entry>
@@ -990,16 +1128,6 @@ The post Use Power Automate to update Azure DevOps queries appeared first on Azu
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The Cliffs Notes paradox]]></title>
-        <id>https://seths.blog/?p=45730</id>
-        <link href="https://feeds.feedblitz.com/~/737004065/0/sethsblog~The-Cliffs-Notes-paradox/"/>
-        <updated>2023-04-24T08:58:00.000Z</updated>
-        <summary type="html"><![CDATA[For a decade, Cliffs Notes were the bestselling section of the bookstore. They were a simple way for any high school student to get insight, examples and answers about the books they were assigned and read (or didn’t read). When Cliffs published a list of their thirty bestselling titles, I saw an opportunity and created […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Google at CHI 2023]]></title>
         <id>http://ai.googleblog.com/2023/04/google-at-chi-2023.html</id>
         <link href="http://ai.googleblog.com/2023/04/google-at-chi-2023.html"/>
@@ -1018,16 +1146,6 @@ This week, the Conference on Human Factors in Computing Systems (CHI 2023) is be
 If you’re registered for CHI 2023, we hope you’ll visit the Google booth to learn more about the exciting work across various topics, including language interactions, causal inference, question answering and more. Take a look below to learn more about the Google research being presented at CHI 2023 (Goog…]]></summary>
         <author>
             <name>Google AI Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Recipe Relativity]]></title>
-        <id>https://xkcd.com/2767/</id>
-        <link href="https://xkcd.com/2767/"/>
-        <updated>2023-04-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/recipe_relativity.png" title="It says to cut the onions into 1/4&quot; slices, but I'd better correct for length contraction." alt="It says to cut the onions into 1/4&quot; slices, but I'd better correct for length contraction." />]]></summary>
-        <author>
-            <name>xkcd.com</name>
         </author>
     </entry>
     <entry>
@@ -1137,16 +1255,6 @@ Ability to handle auxi…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Announcing GitHub Actions Deployment Protection Rules, now in public beta]]></title>
-        <id>https://github.blog/2023-04-20-announcing-github-actions-deployment-protection-rules-now-in-public-beta/</id>
-        <link href="https://github.blog/2023-04-20-announcing-github-actions-deployment-protection-rules-now-in-public-beta/"/>
-        <updated>2023-04-20T16:00:09.000Z</updated>
-        <summary type="html"><![CDATA[Create and share your own deployment protection rules, or use the rules from our great partners, like Datadog, Honeycomb, New Relic, NodeSource, Sentry, and ServiceNow, to control your deployments with more confidence. And the API is open for the community to build their own rules to make GitHub Enterprise Cloud even better.]]></summary>
-        <author>
-            <name>The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[A Human Approach to Process Automation]]></title>
         <id>https://camunda.com/?p=78911&amp;preview=true&amp;preview_id=78911</id>
         <link href="https://camunda.com/blog/2023/04/human-approach-process-automation/"/>
@@ -1165,16 +1273,6 @@ The post A Human Approach to Process Automation appeared first on Camunda.]]></s
         <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
         <author>
             <name>Josh Long</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spring Boot 2.7.11 available now fixing CVE-2023-20873]]></title>
-        <id>https://spring.io/blog/2023/04/20/spring-boot-2-7-11-available-now-fixing-cve-2023-20873</id>
-        <link href="https://spring.io/blog/2023/04/20/spring-boot-2-7-11-available-now-fixing-cve-2023-20873"/>
-        <updated>2023-04-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
-        <author>
-            <name>Andy Wilkinson</name>
         </author>
     </entry>
     <entry>
@@ -1224,16 +1322,6 @@ in the Introducing Single Pod Acces…]]></summary>
 Google sees AI as a foundational and transformational technology, with recent advances in generative AI technologies, such as LaMDA, PaLM, Imagen, Parti, MusicLM, and similar machine learning (ML) models, some of which are now being incorporated into our products. This transformative potential requires us to be responsible not only in how we advance our technology, but also in how we envision which technologies to build, and how we assess the social impact AI and ML-enabled technologies have on the world. This endeavor necessitates fundamental and applied research with an interdisciplinary lens that engages with — and accounts for — the social, cultural, economic, and ot…]]></summary>
         <author>
             <name>Google AI Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Private vulnerability reporting now generally available]]></title>
-        <id>https://github.blog/2023-04-19-private-vulnerability-reporting-now-generally-available/</id>
-        <link href="https://github.blog/2023-04-19-private-vulnerability-reporting-now-generally-available/"/>
-        <updated>2023-04-19T16:00:41.000Z</updated>
-        <summary type="html"><![CDATA[Open source maintainers and security researchers embrace a new best practice to report and fix vulnerabilities.]]></summary>
-        <author>
-            <name>The GitHub Blog</name>
         </author>
     </entry>
     <entry>
@@ -1727,26 +1815,6 @@ At the time this was written, just over half of all Go patch releas…]]></summa
         <summary type="html"><![CDATA[Learn how HashiCorp’s updated Terraform Associate certification impacts your current and future Terraform Associate credentials.]]></summary>
         <author>
             <name>HashiCorp Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DevEx improvements in HashiCorp Sentinel]]></title>
-        <id>https://www.hashicorp.com/blog/devex-improvements-in-hashicorp-sentinel</id>
-        <link href="https://www.hashicorp.com/blog/devex-improvements-in-hashicorp-sentinel"/>
-        <updated>2023-04-04T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Recent releases of Sentinel have targeted improvements to the developer experience.]]></summary>
-        <author>
-            <name>HashiCorp Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What’s New: Cloud Automation with amazon.cloud 0.3.0]]></title>
-        <id>https://www.ansible.com/blog/whats-new-cloud-automation-with-amazon.cloud-0.3.0</id>
-        <link href="https://www.ansible.com/blog/whats-new-cloud-automation-with-amazon.cloud-0.3.0"/>
-        <updated>2023-04-04T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this blog post we will go over what has changed and highlight what’s new in the 0.3.0 release of this Ansible Content Collection.]]></summary>
-        <author>
-            <name>Alina Buzachis</name>
         </author>
     </entry>
 </feed>

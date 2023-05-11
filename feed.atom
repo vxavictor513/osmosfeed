@@ -1,10 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-05-10T01:18:52.712Z</id>
+    <id>urn:2023-05-11T01:19:51.159Z</id>
     <title>osmos::feed</title>
-    <updated>2023-05-10T01:18:52.712Z</updated>
+    <updated>2023-05-11T01:19:51.159Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Blog: Kubernetes 1.27: Avoid Collisions Assigning Ports to NodePort Services]]></title>
+        <id>https://kubernetes.io/blog/2023/05/11/nodeport-dynamic-and-static-allocation/</id>
+        <link href="https://kubernetes.io/blog/2023/05/11/nodeport-dynamic-and-static-allocation/"/>
+        <updated>2023-05-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Author: Xu Zhenglun (Alibaba)
+In Kubernetes, a Service can be used to provide a unified traffic endpoint for
+applications running on a set of Pods. Clients can use the virtual IP address (or VIP) provided
+by the Service for access, and Kubernetes provides load balancing for traffic accessing
+different back-end Pods, but a ClusterIP type of Service is limited to providing access to
+nodes within the cluster, while traffic from outside the cluster cannot be routed.
+One way to solve this problem is to use a type: NodePort Service, which sets up a mapping
+to a specific port of all nodes in the cluster, thus redirecting traffic from the
+outside to the inside of the cluster.
+How Kubernetes allocates node ports to Services?
+When a type: NodePort Service is created, its corresponding port(s) are al…]]></summary>
+        <author>
+            <name>Kubernetes – Production-Grade Container Orchestration</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Revolutionize your open source workflows: the top 3 reasons why GitHub Codespaces is a must-have for maintainers]]></title>
+        <id>https://github.blog/2023-05-10-revolutionize-your-open-source-workflows-the-top-3-reasons-why-github-codespaces-is-a-must-have-for-maintainers/</id>
+        <link href="https://github.blog/2023-05-10-revolutionize-your-open-source-workflows-the-top-3-reasons-why-github-codespaces-is-a-must-have-for-maintainers/"/>
+        <updated>2023-05-10T19:09:40.000Z</updated>
+        <summary type="html"><![CDATA[GitHub Codespaces is reliable, accessible, and always-ready. Try it out during Maintainer Month and take your projects to new heights!]]></summary>
+        <author>
+            <name>The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dell, Marvell, NetApp, and SUSE expand Vault support with new integrations]]></title>
+        <id>https://www.hashicorp.com/blog/dell-marvell-netapp-and-suse-expand-vault-support-with-new-integrations</id>
+        <link href="https://www.hashicorp.com/blog/dell-marvell-netapp-and-suse-expand-vault-support-with-new-integrations"/>
+        <updated>2023-05-10T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The HashiCorp Vault partner ecosystem continues to show strong growth with the addition of more than a dozen new Vault integrations.]]></summary>
+        <author>
+            <name>HashiCorp Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Game Bytes · May 2023]]></title>
+        <id>https://github.blog/2023-05-10-game-bytes-may-2023/</id>
+        <link href="https://github.blog/2023-05-10-game-bytes-may-2023/"/>
+        <updated>2023-05-10T15:29:40.000Z</updated>
+        <summary type="html"><![CDATA[Game Bytes is our monthly series taking a peek at the world of gamedev on GitHub—featuring game engine updates, game jam details, open source games, mods, maps, and more. Game on!]]></summary>
+        <author>
+            <name>The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building better pangenomes to improve the equity of genomics]]></title>
+        <id>http://ai.googleblog.com/2023/05/building-better-pangenomes-to-improve.html</id>
+        <link href="http://ai.googleblog.com/2023/05/building-better-pangenomes-to-improve.html"/>
+        <updated>2023-05-10T15:03:00.002Z</updated>
+        <summary type="html"><![CDATA[Posted by Andrew Carroll, Product Lead, and Kishwar Shafin, Research Scientist, Genomics
+
+
+
+
+
+
+For decades, researchers worked together to assemble a complete copy of the molecular instructions for a human — a map of the human genome. The first draft was finished in 2000, but with several missing pieces.  Even when a complete reference genome was achieved in 2022, their work was not finished. A single reference genome can’t incorporate known genetic variations, such as the variants for the gene determining whether a person has a blood type A, B, AB or O. Furthermore, the reference genome didn’t represent the vast diversity of human ancestries, making it less useful for detecting disease or finding cures for people from some backgrounds than others. For the past three years, we have been pa…]]></summary>
+        <author>
+            <name>Google AI Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learn about Event-Driven Ansible at Red Hat Summit and AnsibleFest 2023]]></title>
+        <id>https://www.ansible.com/blog/learn-about-event-driven-ansible-at-red-hat-summit-and-ansiblefest-2023</id>
+        <link href="https://www.ansible.com/blog/learn-about-event-driven-ansible-at-red-hat-summit-and-ansiblefest-2023"/>
+        <updated>2023-05-10T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As you may have heard, AnsibleFest will be taking place at Red Hat Summit in Boston May 23-25. This change will allow you to harness everything that Red Hat technology has to offer in a single place and give you even more tools to address your automation needs. Join Ansible and automation-focused audiences to hear from Red Hat and Ansible leaders, customers, and partners while getting the latest on future Ansible product updates, community projects, and what’s coming in IT automation.]]></summary>
+        <author>
+            <name>elathram@redhat.com (Elle Universal)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Choosing your pacemaker]]></title>
+        <id>https://seths.blog/?p=44411</id>
+        <link href="https://feeds.feedblitz.com/~/739805867/0/sethsblog~Choosing-your-pacemaker/"/>
+        <updated>2023-05-10T09:55:00.000Z</updated>
+        <summary type="html"><![CDATA[Roger Bannister ran a four-minute mile by having a relay race of pace runners next to him. If he could keep up with his pacer, he’d finish the run in record time. If you work in an office where people are regularly shipping breakthrough work, it’s likely your work will ship as well. If you’re […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What’s New in IntelliJ IDEA 2023.1 for Spring Developers]]></title>
+        <id>https://blog.jetbrains.com/?post_type=idea&amp;p=351236</id>
+        <link href="https://blog.jetbrains.com/idea/2023/05/2023-1-for-spring-developers/"/>
+        <updated>2023-05-10T08:25:19.000Z</updated>
+        <summary type="html"><![CDATA[The IntelliJ IDEA 2023.1 release came packed with updates for Spring. This blog post will highlight the most noticeable changes, including full support for Lombok, a reworked Spring tool window, navigation for Spring Security rules, Spring Security 6 support, and more. Remember that these features are only available in IntelliJ IDEA Ultimate.  Let’s take a […]]]></summary>
+        <author>
+            <name>Irina Maryasova</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Someone Like Me: Tristan Ma on celebrating his culture, connecting through ElastAsians, and building his sales career]]></title>
+        <id>https://www.elastic.co/blog/culture-tristan-ma-culture-through-food</id>
+        <link href="https://www.elastic.co/blog/culture-tristan-ma-culture-through-food"/>
+        <updated>2023-05-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[First generation can be interpreted in many ways. For Tristan Ma, Solutions Architect at Elastic, it means being the first generation to be born in the United States. Read about his career journey and how he celebrates his culture through food.]]></summary>
+        <author>
+            <name>Elastic Culture</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Someone Like Me: Tristan Ma on celebrating his culture, connecting through ElastAsians, and building his sales career]]></title>
+        <id>https://www.elastic.co/blog/culture-tristan-ma-culture-through-food</id>
+        <link href="https://www.elastic.co/blog/culture-tristan-ma-culture-through-food"/>
+        <updated>2023-05-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+First generation can be interpreted in many ways. For Tristan Ma, Solutions Architect at Elastic, it means being the first generation to be born in the United States.
+
+While his parents have spent the majority of their lives in North America, Tristan and his sister were the first in their family to be born here.
+
+Tristan’s parents immigrated to North America from Vietnam—his dad moved to the Bay Area as a refugee during the Vietnam War at 14 and his mom moved to Toronto, Canada when she was 9. 
+
+Tristan was born and raised in the Bay Area, the same place where his father attended high school. And while the family speaks English at home, Tristan recalls his parents speaking to each other in their mother tongue, one he didn’t understand. 
+“You do start to recognize body language,” he says.…]]></summary>
+        <author>
+            <name>Elastic Culture</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Taxiing]]></title>
+        <id>https://xkcd.com/2774/</id>
+        <link href="https://xkcd.com/2774/"/>
+        <updated>2023-05-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/taxiing.png" title="I don't understand why anyone would pay full price for a flatbed truck rental when you can buy 'DETOUR' signs online for like $10." alt="I don't understand why anyone would pay full price for a flatbed truck rental when you can buy 'DETOUR' signs online for like $10." />]]></summary>
+        <author>
+            <name>xkcd.com</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A Unified Camunda Platform 8 SDK for Node.js]]></title>
         <id>https://camunda.com/?p=80952&amp;preview=true&amp;preview_id=80952</id>
@@ -76,6 +211,36 @@ The post Now available: Azure DevOps Server 2022.0.1 appeared first on Azure Dev
 The post Camunda Automation Platform 7.20.0-alpha1 Released appeared first on Camunda.]]></summary>
         <author>
             <name>Camunda Platform Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to start using .NET Background Services]]></title>
+        <id>https://blog.jetbrains.com/?post_type=dotnet&amp;p=312064</id>
+        <link href="https://blog.jetbrains.com/dotnet/2023/05/09/dotnet-background-services/"/>
+        <updated>2023-05-09T15:08:42.000Z</updated>
+        <summary type="html"><![CDATA[As developers, running critical tasks in the background can open up a world of problem-solving possibilities. Background services are ideal for many scenarios, especially if your users are willing to wait for results. Some use-case scenarios for background services include updating globally-used caches, processing queued work, and general health monitoring. With .NET’s hosting model, background […]]]></summary>
+        <author>
+            <name>Khalid Abuhakmeh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reinforcement Learning Maze Solver]]></title>
+        <id>https://blog.jetbrains.com/?post_type=education&amp;p=350661</id>
+        <link href="https://blog.jetbrains.com/education/2023/05/09/reinforcement-learning-maze-solver/"/>
+        <updated>2023-05-09T14:48:25.000Z</updated>
+        <summary type="html"><![CDATA[Reinforcement learning is an exciting subfield of machine learning that focuses on teaching agents how to make decisions based on rewards and penalties. Reinforcement learning is like training a puppy. Just as a puppy learns by receiving a reward when it behaves well and being scolded when it misbehaves, reinforcement learning algorithms learn in a […]]]></summary>
+        <author>
+            <name>Anastasiia Pogorelova</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The New Learning Center Is Now Available in TeamCity Cloud]]></title>
+        <id>https://blog.jetbrains.com/?post_type=teamcity&amp;p=349969</id>
+        <link href="https://blog.jetbrains.com/teamcity/2023/05/teamcity-cloud-learning-center/"/>
+        <updated>2023-05-09T10:01:35.000Z</updated>
+        <summary type="html"><![CDATA[Are you looking for easy-to-consume learning materials to help you master TeamCity? These are now available in our new learning center right within TeamCity Cloud. That means you can find answers to your most burning TeamCity-related questions and access video guides without ever having to leave the platform. Here are some of the questions that […]]]></summary>
+        <author>
+            <name>Olga Bedrina</name>
         </author>
     </entry>
     <entry>
@@ -472,29 +637,8 @@ Vision-language foundational models are built on the premise of a single pre-tra
         <id>https://medium.com/p/ba1c7a1c7835</id>
         <link href="https://netflixtechblog.com/migrating-critical-traffic-at-scale-with-no-downtime-part-1-ba1c7a1c7835?source=rss----2615bd06b42e---4"/>
         <updated>2023-05-04T21:32:37.000Z</updated>
-        <summary type="html"><![CDATA[Shyam Gala, Javier Fernandez-Ivern, Anup Rokkam Pratap, Devang Shah]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Manage your application security stack effectively with the tool status page]]></title>
-        <id>https://github.blog/2023-05-04-manage-your-application-security-stack-effectively-with-the-tool-status-page/</id>
-        <link href="https://github.blog/2023-05-04-manage-your-application-security-stack-effectively-with-the-tool-status-page/"/>
-        <updated>2023-05-04T18:34:24.000Z</updated>
-        <summary type="html"><![CDATA[Code scanning’s tool status gives you a bird's eye view of your application security stack, allowing you to quickly confirm everything is working, or troubleshoot any tool in your application security arsenal.]]></summary>
-        <author>
-            <name>The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[All In for Students 2023 cohort: our biggest group of open source leaders yet!]]></title>
-        <id>https://github.blog/2023-05-04-all-in-for-students-2023-cohort-our-biggest-group-of-open-source-leaders-yet/</id>
-        <link href="https://github.blog/2023-05-04-all-in-for-students-2023-cohort-our-biggest-group-of-open-source-leaders-yet/"/>
-        <updated>2023-05-04T17:35:32.000Z</updated>
-        <summary type="html"><![CDATA[The second cohort of All In for Students has graduated! With a cohort 12 times as large as the pilot, learn about how this group of college students is leaning into the future of technology.]]></summary>
-        <author>
-            <name>The GitHub Blog</name>
         </author>
     </entry>
     <entry>
@@ -528,16 +672,6 @@ Vision-language foundational models are built on the premise of a single pre-tra
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[C# Support in Fleet: Solution View, Unit Testing, and More!]]></title>
-        <id>https://blog.jetbrains.com/?post_type=dotnet&amp;p=347208</id>
-        <link href="https://blog.jetbrains.com/dotnet/2023/05/04/csharp-support-in-fleet-solution-view-unit-testing-and-more/"/>
-        <updated>2023-05-04T11:27:43.000Z</updated>
-        <summary type="html"><![CDATA[Hello everyone! It’s been a while since we published updates about C# support in Fleet. In that post, we shared our plans to deliver new features for our C# support to improve your experience as a .NET developer. We’d like to give you a quick update regarding which to-do list items have been completed. As […]]]></summary>
-        <author>
-            <name>Alexander Kurakin</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The price of salt]]></title>
         <id>https://seths.blog/?p=45916</id>
         <link href="https://feeds.feedblitz.com/~/738657068/0/sethsblog~The-price-of-salt/"/>
@@ -545,16 +679,6 @@ Vision-language foundational models are built on the premise of a single pre-tra
         <summary type="html"><![CDATA[Salt is essentially free. A bag of salted nuts is the same price (or less) as an unsalted one. But salt used to be expensive. Truly expensive, like gold. We keep seeing the deflation of things we were sure would remain expensive. Computer chips, disk storage and now, content. Once computers start illustrating, writing and […]]]></summary>
         <author>
             <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JetBrains .NET Day Online 2023 – Call for Speakers]]></title>
-        <id>https://blog.jetbrains.com/?post_type=dotnet&amp;p=346158</id>
-        <link href="https://blog.jetbrains.com/dotnet/2023/05/04/jetbrains-net-day-online-2023-call-for-speakers/"/>
-        <updated>2023-05-04T06:15:22.000Z</updated>
-        <summary type="html"><![CDATA[On September 26, 2023, we’re hosting another JetBrains .NET Day Online – a free, live, virtual event where community speakers cover topics they are passionate about. These topics could be C#, F#, .NET in general, performance tuning, refactoring, open source projects, and more. We are looking for speakers interested in presenting with us! We aim […]]]></summary>
-        <author>
-            <name>Maarten Balliauw</name>
         </author>
     </entry>
     <entry>
@@ -728,26 +852,6 @@ The Robot Operating System (ROS) is an open-source framework that provides a sta
         <summary type="html"><![CDATA[ワンパンマン]]></summary>
         <author>
             <name>原作/ＯＮＥ/漫画/村田雄介</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rider 2023.2 Roadmap]]></title>
-        <id>https://blog.jetbrains.com/?post_type=dotnet&amp;p=348546</id>
-        <link href="https://blog.jetbrains.com/dotnet/2023/05/03/rider-2023-2-roadmap/"/>
-        <updated>2023-05-03T12:55:06.000Z</updated>
-        <summary type="html"><![CDATA[As we prepare for the start of the Early Access Program (EAP) for Rider 2023.2, now seems like the perfect time to share our plans for this upcoming release. Keep in mind that these plans are subject to change, and some features and improvements may need to be postponed to a future release. Also, be […]]]></summary>
-        <author>
-            <name>Sasha Ivanova</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ReSharper 2023.2 Roadmap]]></title>
-        <id>https://blog.jetbrains.com/?post_type=dotnet&amp;p=348432</id>
-        <link href="https://blog.jetbrains.com/dotnet/2023/05/03/resharper-2023-2-roadmap/"/>
-        <updated>2023-05-03T12:53:21.000Z</updated>
-        <summary type="html"><![CDATA[The upcoming Early Access Program (EAP) for ReSharper version 2023.2 is fast approaching, and we want to share the development roadmap we’ve set for the next release. Before we get into it, this roadmap is tentative and subject to change based on our priorities, available resources, and developments in the .NET sphere. Some features may […]]]></summary>
-        <author>
-            <name>Sasha Ivanova</name>
         </author>
     </entry>
     <entry>
@@ -985,16 +1089,6 @@ If you’re registered for ICLR 2023, we hope you’ll visit the Google booth to
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Logging for public sector: How to make the most of your mission-critical data]]></title>
-        <id>https://www.elastic.co/blog/logging-public-sector-mission-critical-data</id>
-        <link href="https://www.elastic.co/blog/logging-public-sector-mission-critical-data"/>
-        <updated>2023-05-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Log management is growing more complex and expensive, which is why it’s important for agencies to leverage logs for multiple purposes, such as for both cybersecurity and observability. Learn five tips for maximizing your logging data.]]></summary>
-        <author>
-            <name>Brent Cox,Nathan Stacey</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[ERGs encourage you to come as you are: Meet ElastAsians]]></title>
         <id>https://www.elastic.co/blog/culture-ergs-encourage-you-to-come-as-you-are-meet-elastasians</id>
         <link href="https://www.elastic.co/blog/culture-ergs-encourage-you-to-come-as-you-are-meet-elastasians"/>
@@ -1009,47 +1103,6 @@ Our Core ERGs
 We have seven formal ERGs: The Accessibles, Blasticians, ElastAsians, Elasticians Unidos, Rainbow Stack, Mil-Asticians, and Women of Elastic. We’ll be spotlighting them over the next year as they relate to culture or comm…]]></summary>
         <author>
             <name>Elastic Culture</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Logging for public sector: How to make the most of your mission-critical data]]></title>
-        <id>https://www.elastic.co/blog/logging-public-sector-mission-critical-data</id>
-        <link href="https://www.elastic.co/blog/logging-public-sector-mission-critical-data"/>
-        <updated>2023-05-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-With governments doubling down on logging compliance, many public sector organizations have been focusing on optimizing their log management, especially to ensure they retain logs for required periods of time. 
-
-Logs — though seemingly straightforward — are the backbone of many mission-based use cases and therefore have the potential to accelerate mission success when centrally organized and leveraged strategically. In public sector, logs are instrumental in:
-
-Giving early warnings of mission-critical issues
-Pinpointing what went wrong
-Accelerating problem resolution based on mission priority
-Complying with logging regulations such as M-21-31 in the US
-
-But log management is growing exponentially more complex and expensive, which is why it’s important for agencies to leverage logs for mu…]]></summary>
-        <author>
-            <name>Brent Cox,Nathan Stacey</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tapetum Lucidum]]></title>
-        <id>https://xkcd.com/2770/</id>
-        <link href="https://xkcd.com/2770/"/>
-        <updated>2023-05-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/tapetum_lucidum.png" title="Using a reflective wall in a game to give one shot two chances to hit is called a double-tapetum lucidum." alt="Using a reflective wall in a game to give one shot two chances to hit is called a double-tapetum lucidum." />]]></summary>
-        <author>
-            <name>xkcd.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An end to pop]]></title>
-        <id>https://seths.blog/?p=45897</id>
-        <link href="https://feeds.feedblitz.com/~/737928578/0/sethsblog~An-end-to-pop/"/>
-        <updated>2023-04-30T08:47:00.000Z</updated>
-        <summary type="html"><![CDATA[Pop culture depends on scarcity. When there are only a few TV stations or a dozen radio stations, it’s likely that many of us watch or hear the same thing at the same time. And so a popular TV show or song from fifty years ago probably reached twenty times as many people as a […]
-Click the icon below to listen.]]></summary>
-        <author>
-            <name>Seth Godin</name>
         </author>
     </entry>
     <entry>
@@ -1102,7 +1155,6 @@ me…]]></summary>
         <id>https://medium.com/p/e691c60dc61e</id>
         <link href="https://netflixtechblog.com/improved-alerting-with-atlas-streaming-eval-e691c60dc61e?source=rss----2615bd06b42e---4"/>
         <updated>2023-04-27T20:52:51.000Z</updated>
-        <summary type="html"><![CDATA[Ruchir Jha, Brian Harrington, Yingwu Zhao]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -1751,42 +1803,6 @@ The post Announcing Azure DevOps Server 2022.0.1 RC appeared first on Azure DevO
 The post Camunda Desktop Modeler 5.10 Released appeared first on Camunda.]]></summary>
         <author>
             <name>Beatriz Mendes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blog: Kubernetes v1.27: Chill Vibes]]></title>
-        <id>https://kubernetes.io/blog/2023/04/11/kubernetes-v1-27-release/</id>
-        <link href="https://kubernetes.io/blog/2023/04/11/kubernetes-v1-27-release/"/>
-        <updated>2023-04-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Authors: Kubernetes v1.27 Release Team
-Announcing the release of Kubernetes v1.27, the first release of 2023!
-This release consist of 60 enhancements. 18 of those enhancements are entering Alpha, 29 are graduating to Beta, and 13 are graduating to Stable.
-Release theme and logo
-Kubernetes v1.27: Chill Vibes
-The theme for Kubernetes v1.27 is Chill Vibes.
-It's a little silly, but there were some important shifts in this release that helped inspire the theme. Throughout a typical Kubernetes release cycle, there are several deadlines that features need to meet to remain included. If a feature misses any of these deadlines, there is an exception process they can go through. Handling these exceptions is a very normal part of the release. But v1.27 is the first release that anyone can remember wh…]]></summary>
-        <author>
-            <name>Kubernetes – Production-Grade Container Orchestration</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Week in Review: Terraform in Service Catalog, AWS Supply Chain, Streaming Response in Lambda, and Amplify Library for Swift – April 10, 2023]]></title>
-        <id>a3c18e35b5c3d5c56d33482fd39b1c582a776641</id>
-        <link href="https://aws.amazon.com/blogs/aws/week-in-review-terraform-in-service-catalog-aws-supply-chain-streaming-response-in-lambda-and-amplify-library-for-swift-april-10-2023/"/>
-        <updated>2023-04-10T21:04:46.000Z</updated>
-        <summary type="html"><![CDATA[The AWS Summit season has started. AWS Summits are free technical and business conferences happening in large cities across the planet. This week, we were happy to welcome our customers and partners in Sydney and Paris. In France, 9,973 customers and partners joined us for the day to meet and exchange ideas but also to […]]]></summary>
-        <author>
-            <name>Sébastien Stormacq</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Using Consul’s transparent proxy on virtual machines]]></title>
-        <id>https://www.hashicorp.com/blog/using-consul-s-transparent-proxy-on-virtual-machines</id>
-        <link href="https://www.hashicorp.com/blog/using-consul-s-transparent-proxy-on-virtual-machines"/>
-        <updated>2023-04-10T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Configure Consul’s transparent proxy on virtual machines to find and connect to services in the service mesh with DNS.]]></summary>
-        <author>
-            <name>HashiCorp Blog</name>
         </author>
     </entry>
 </feed>

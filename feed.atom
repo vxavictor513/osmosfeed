@@ -1,10 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-05-14T01:24:16.048Z</id>
+    <id>urn:2023-05-15T01:22:21.388Z</id>
     <title>osmos::feed</title>
-    <updated>2023-05-14T01:24:16.048Z</updated>
+    <updated>2023-05-15T01:22:21.388Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Blog: Kubernetes 1.27: updates on speeding up Pod startup]]></title>
+        <id>https://kubernetes.io/blog/2023/05/15/speed-up-pod-startup/</id>
+        <link href="https://kubernetes.io/blog/2023/05/15/speed-up-pod-startup/"/>
+        <updated>2023-05-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Authors: Paco Xu (DaoCloud), Sergey Kanzhelev (Google), Ruiwen Zhao (Google)
+How can Pod start-up be accelerated on nodes in large clusters? This is a common issue that
+cluster administrators may face.
+This blog post focuses on methods to speed up pod start-up from the kubelet side. It does not
+involve the creation time of pods by controller-manager through kube-apiserver, nor does it
+include scheduling time for pods or webhooks executed on it.
+We have mentioned some important factors here to consider from the kubelet's perspective, but
+this is not an exhaustive list. As Kubernetes v1.27 is released, this blog highlights
+significant changes in v1.27 that aid in speeding up pod start-up.
+Parallel container image pulls
+Pulling images always takes some time and what's worse is that image pull…]]></summary>
+        <author>
+            <name>Kubernetes – Production-Grade Container Orchestration</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The good china]]></title>
+        <id>https://seths.blog/?p=44436</id>
+        <link href="https://feeds.feedblitz.com/~/740619170/0/sethsblog~The-good-china/"/>
+        <updated>2023-05-14T08:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Once you use your plates every day, they cease to be the good china. Of course, the plates didn’t change. Your story did. The way you treat them did. The same goes for the red carpet. If you roll it out for every visitor or every customer, it ceases to be red.]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Chores]]></title>
         <id>https://seths.blog/?p=44434</id>
@@ -812,16 +842,6 @@ The post How is Camunda Platform 8 Professional Edition Helping Companies Accele
         <summary type="html"><![CDATA[In the first part of this “What’s New” series, we only saw the tip of the iceberg – various feature bits that the Rust plugin developers managed to implement during the release cycle. Now we’re going to show you the rest of the iceberg. Let’s dig in and look at all the new ways the […]]]></summary>
         <author>
             <name>Anton Lobeiko</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The new way of work]]></title>
-        <id>https://seths.blog/?p=45912</id>
-        <link href="https://feeds.feedblitz.com/~/738838367/0/sethsblog~The-new-way-of-work/"/>
-        <updated>2023-05-05T08:35:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazon is the last one. They are probably the last huge company where hundreds of thousands of people will be surveilled, measured and ordered to follow the rule book. The pandemic didn’t create distributed work, the laptop did. Human interaction is critical, but the office isn’t actually the most effective way to create that. David […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
         </author>
     </entry>
     <entry>
@@ -1711,40 +1731,6 @@ But, there wasn't a way to control the number of domains over which we should sp
 Some users want to force spreading Pods over a minimum number of …]]></summary>
         <author>
             <name>Kubernetes – Production-Grade Container Orchestration</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beyond automatic differentiation]]></title>
-        <id>http://ai.googleblog.com/2023/04/beyond-automatic-differentiation.html</id>
-        <link href="http://ai.googleblog.com/2023/04/beyond-automatic-differentiation.html"/>
-        <updated>2023-04-14T15:00:00.001Z</updated>
-        <summary type="html"><![CDATA[Posted by Matthew Streeter, Software Engineer, Google Research
-
-
-
-
-Derivatives play a central role in optimization and machine learning. By locally approximating a training loss, derivatives guide an optimizer toward lower values of the loss. Automatic differentiation frameworks such as TensorFlow, PyTorch, and JAX are an essential part of modern machine learning, making it feasible to use gradient-based optimizers to train very complex models.
-
-
- 
-
-
-But are derivatives all we need? By themselves, derivatives only tell us how a function behaves on an infinitesimal scale. To use derivatives effectively, we often need to know more than that. For example, to choose a learning rate for gradient descent, we need to know something about how the loss function behaves over a small but finite windo…]]></summary>
-        <author>
-            <name>Google AI Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Boards Hub Update, Sprint 220]]></title>
-        <id>https://devblogs.microsoft.com/devops/?p=66772</id>
-        <link href="https://devblogs.microsoft.com/devops/new-boards-hub-update-sprint-220/"/>
-        <updated>2023-04-14T14:39:21.000Z</updated>
-        <summary type="html"><![CDATA[Sprint 220 was again dedicated to fixing bugs. We continue to drive down that bug backlog as quickly as we can.
-Issue
-Date and time shift between New Boards and old
-The post New Boards Hub Update, Sprint 220 appeared first on Azure DevOps Blog.]]></summary>
-        <author>
-            <name>Dan Hellem</name>
         </author>
     </entry>
 </feed>

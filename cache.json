@@ -449,7 +449,7 @@
           "description": "Today, we released Azure DevOps Server 2022.0.1 RTW. This is our final release of Azure DevOps Server 2022.0.1. You can directly install Azure DevOps Server 2022.0.1 or upgrade from Azure DevOps Server 2022.0.1 RC, Azure DevOps Server 2022, Team Foundation Server 2015 or newer versions of the product.\nThe post Now available: Azure DevOps Server 2022.0.1 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/now-available-azure-devops-server-2022-0-1/",
           "publishedOn": "2023-05-09T17:56:46.000Z",
-          "wordCount": 4637,
+          "wordCount": 4323,
           "title": "Now available: Azure DevOps Server 2022.0.1",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2019/02/index-hero.jpg"
         },
@@ -472,16 +472,6 @@
           "wordCount": 5474,
           "title": "Use Power Automate to update Azure DevOps queries",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2023/04/query-flow-11.png"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=66772",
-          "author": "Dan Hellem",
-          "description": "Sprint 220 was again dedicated to fixing bugs. We continue to drive down that bug backlog as quickly as we can.\nIssue\nDate and time shift between New Boards and old\nThe post New Boards Hub Update, Sprint 220 appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/new-boards-hub-update-sprint-220/",
-          "publishedOn": "2023-04-14T14:39:21.000Z",
-          "wordCount": 5125,
-          "title": "New Boards Hub Update, Sprint 220",
-          "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/03/agile.png"
         }
       ]
     },
@@ -696,7 +686,7 @@
           "description": "Wondering how to use generative AI for human workflows? Learn how generative AI tools like ChatGPT can be used to make human-centric processes easier.\nThe post Facilitating Human Workflow Orchestration with Generative AI appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/05/human-workflow-orchestration-generative-ai-openai/",
           "publishedOn": "2023-05-12T19:33:24.000Z",
-          "wordCount": 3282,
+          "wordCount": 3283,
           "title": "Facilitating Human Workflow Orchestration with Generative AI",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/05/facilitating-human-workflow-orchesrtation-generative-ai_1200x627.png"
         },
@@ -736,7 +726,7 @@
           "description": "We've spoken with our early adopters, who shared with us what they like about the pay-as-you-go model and powerful features of our Professional Edition.\nThe post How is Camunda Platform 8 Professional Edition Helping Companies Accelerate their Projects? appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/05/camunda-professional-edition-accelerate-projects/",
           "publishedOn": "2023-05-05T20:41:14.000Z",
-          "wordCount": 2892,
+          "wordCount": 2891,
           "title": "How is Camunda Platform 8 Professional Edition Helping Companies Accelerate their Projects?",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/05/camunda-professional-edition-accelerate-projects-2_1200x627.png"
         },
@@ -776,7 +766,7 @@
           "description": "In this tutorial, learn how to create a new custom Connector for Camunda Platform in just a few simple steps and start orchestrating faster.\nThe post Integrate External Systems Effortlessly with Custom Connectors in Camunda Platform – No Java Coding Required! appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/04/create-custom-template-based-on-rest-connector/",
           "publishedOn": "2023-04-18T12:30:00.000Z",
-          "wordCount": 3534,
+          "wordCount": 3535,
           "title": "Integrate External Systems Effortlessly with Custom Connectors in Camunda Platform – No Java Coding Required!",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/04/integrate-external-systems-custom-camunda-connectors_1200x627.png"
         }
@@ -938,12 +928,22 @@
       "siteUrl": "https://kubernetes.io/",
       "articles": [
         {
+          "id": "https://kubernetes.io/blog/2023/05/15/speed-up-pod-startup/",
+          "author": null,
+          "description": "Authors: Paco Xu (DaoCloud), Sergey Kanzhelev (Google), Ruiwen Zhao (Google)\nHow can Pod start-up be accelerated on nodes in large clusters? This is a common issue that\ncluster administrators may face.\nThis blog post focuses on methods to speed up pod start-up from the kubelet side. It does not\ninvolve the creation time of pods by controller-manager through kube-apiserver, nor does it\ninclude scheduling time for pods or webhooks executed on it.\nWe have mentioned some important factors here to consider from the kubelet's perspective, but\nthis is not an exhaustive list. As Kubernetes v1.27 is released, this blog highlights\nsignificant changes in v1.27 that aid in speeding up pod start-up.\nParallel container image pulls\nPulling images always takes some time and what's worse is that image pull…",
+          "link": "https://kubernetes.io/blog/2023/05/15/speed-up-pod-startup/",
+          "publishedOn": "2023-05-15T00:00:00.000Z",
+          "wordCount": 4386,
+          "title": "Blog: Kubernetes 1.27: updates on speeding up Pod startup",
+          "imageUrl": null
+        },
+        {
           "id": "https://kubernetes.io/blog/2023/05/12/in-place-pod-resize-alpha/",
           "author": null,
           "description": "Author: Vinay Kulkarni (Kubescaler Labs)\nIf you have deployed Kubernetes pods with CPU and/or memory resources\nspecified, you may have noticed that changing the resource values involves\nrestarting the pod. This has been a disruptive operation for running\nworkloads... until now.\nIn Kubernetes v1.27, we have added a new alpha feature that allows users\nto resize CPU/memory resources allocated to pods without restarting the\ncontainers. To facilitate this, the resources field in a pod's containers\nnow allow mutation for cpu and memory resources. They can be changed\nsimply by patching the running pod spec.\nThis also means that resources field in the pod spec can no longer be\nrelied upon as an indicator of the pod's actual resources. Monitoring tools\nand other such applications must now look at n…",
           "link": "https://kubernetes.io/blog/2023/05/12/in-place-pod-resize-alpha/",
           "publishedOn": "2023-05-12T00:00:00.000Z",
-          "wordCount": 4575,
+          "wordCount": 4582,
           "title": "Blog: Kubernetes 1.27: In-place Resource Resize for Kubernetes Pods (alpha)",
           "imageUrl": null
         },
@@ -953,7 +953,7 @@
           "description": "Author: Xu Zhenglun (Alibaba)\nIn Kubernetes, a Service can be used to provide a unified traffic endpoint for\napplications running on a set of Pods. Clients can use the virtual IP address (or VIP) provided\nby the Service for access, and Kubernetes provides load balancing for traffic accessing\ndifferent back-end Pods, but a ClusterIP type of Service is limited to providing access to\nnodes within the cluster, while traffic from outside the cluster cannot be routed.\nOne way to solve this problem is to use a type: NodePort Service, which sets up a mapping\nto a specific port of all nodes in the cluster, thus redirecting traffic from the\noutside to the inside of the cluster.\nHow Kubernetes allocates node ports to Services?\nWhen a type: NodePort Service is created, its corresponding port(s) are al…",
           "link": "https://kubernetes.io/blog/2023/05/11/nodeport-dynamic-and-static-allocation/",
           "publishedOn": "2023-05-11T00:00:00.000Z",
-          "wordCount": 4231,
+          "wordCount": 4238,
           "title": "Blog: Kubernetes 1.27: Avoid Collisions Assigning Ports to NodePort Services",
           "imageUrl": null
         },
@@ -963,7 +963,7 @@
           "description": "Authors: Katrina Verey (independent) and Justin Santa Barbara (Google)\nDeclarative configuration management with the kubectl apply command is the gold standard approach\nto creating or modifying Kubernetes resources. However, one challenge it presents is the deletion\nof resources that are no longer needed. In Kubernetes version 1.5, the --prune flag was\nintroduced to address this issue, allowing kubectl apply to automatically clean up previously\napplied resources removed from the current configuration.\nUnfortunately, that existing implementation of --prune has design flaws that diminish its\nperformance and can result in unexpected behaviors. The main issue stems from the lack of explicit\nencoding of the previously applied set by the preceding apply operation, necessitating\nerror-prone dynam…",
           "link": "https://kubernetes.io/blog/2023/05/09/introducing-kubectl-applyset-pruning/",
           "publishedOn": "2023-05-09T00:00:00.000Z",
-          "wordCount": 3829,
+          "wordCount": 3836,
           "title": "Blog: Kubernetes 1.27: Safer, More Performant Pruning in kubectl apply",
           "imageUrl": null
         },
@@ -973,7 +973,7 @@
           "description": "Author: Xing Yang (VMware)\nVolume group snapshot is introduced as an Alpha feature in Kubernetes v1.27.\nThis feature introduces a Kubernetes API that allows users to take crash consistent\nsnapshots for multiple volumes together. It uses a label selector to group multiple\nPersistentVolumeClaims for snapshotting.\nThis new feature is only supported for CSI volume drivers.\nAn overview of volume group snapshots\nSome storage systems provide the ability to create a crash consistent snapshot of\nmultiple volumes. A group snapshot represents “copies” from multiple volumes that\nare taken at the same point-in-time. A group snapshot can be used either to rehydrate\nnew volumes (pre-populated with the snapshot data) or to restore existing volumes to\na previous state (represented by the snapshots).\nWhy ad…",
           "link": "https://kubernetes.io/blog/2023/05/08/kubernetes-1-27-volume-group-snapshot-alpha/",
           "publishedOn": "2023-05-08T00:00:00.000Z",
-          "wordCount": 4911,
+          "wordCount": 4918,
           "title": "Blog: Kubernetes 1.27: Introducing An API For Volume Group Snapshots",
           "imageUrl": null
         },
@@ -983,7 +983,7 @@
           "description": "Authors: Dixita Narang (Google)\nKubernetes v1.27, released in April 2023, introduced changes to\nMemory QoS (alpha) to improve memory management capabilites in Linux nodes.\nSupport for Memory QoS was initially added in Kubernetes v1.22, and later some\nlimitations\naround the formula for calculating memory.high were identified. These limitations are\naddressed in Kubernetes v1.27.\nBackground\nKubernetes allows you to optionally specify how much of each resources a container needs\nin the Pod specification. The most common resources to specify are CPU and Memory.\nFor example, a Pod manifest that defines container resource requirements could look like:\napiVersion: v1\nkind: Pod\nmetadata:\nname: example\nspec:\ncontainers:\n- name: nginx\nresources:\nrequests:\nmemory: \"64Mi\"\ncpu: \"250m\"\nlimits:\nmemory: \"6…",
           "link": "https://kubernetes.io/blog/2023/05/05/qos-memory-resources/",
           "publishedOn": "2023-05-05T00:00:00.000Z",
-          "wordCount": 5001,
+          "wordCount": 5008,
           "title": "Blog: Kubernetes 1.27: Quality-of-Service for Memory Resources (alpha)",
           "imageUrl": null
         },
@@ -993,7 +993,7 @@
           "description": "Author: Matthew Cary (Google)\nKubernetes v1.27 graduated to beta a new policy mechanism for\nStatefulSets that controls the lifetime of\ntheir PersistentVolumeClaims (PVCs). The new PVC\nretention policy lets users specify if the PVCs generated from the StatefulSet spec template should\nbe automatically deleted or retrained when the StatefulSet is deleted or replicas in the StatefulSet\nare scaled down.\nWhat problem does this solve?\nA StatefulSet spec can include Pod and PVC templates. When a replica is first created, the\nKubernetes control plane creates a PVC for that replica if one does not already exist. The behavior\nbefore the PVC retention policy was that the control plane never cleaned up the PVCs created for\nStatefulSets - this was left up to the cluster administrator, or to some add-on …",
           "link": "https://kubernetes.io/blog/2023/05/04/kubernetes-1-27-statefulset-pvc-auto-deletion-beta/",
           "publishedOn": "2023-05-04T00:00:00.000Z",
-          "wordCount": 4313,
+          "wordCount": 4293,
           "title": "Blog: Kubernetes 1.27: StatefulSet PVC Auto-Deletion (beta)",
           "imageUrl": null
         },
@@ -1003,7 +1003,7 @@
           "description": "Author: Kensei Nakada (Mercari)\nKubernetes 1.20 introduced the ContainerResource type metric\nin HorizontalPodAutoscaler (HPA).\nIn Kubernetes 1.27, this feature moves to beta and the corresponding feature gate (HPAContainerMetrics) gets enabled by default.\nWhat is the ContainerResource type metric\nThe ContainerResource type metric allows us to configure the autoscaling based on resource usage of individual containers.\nIn the following example, the HPA controller scales the target\nso that the average utilization of the cpu in the application container of all the pods is around 60%.\n(See the algorithm details\nto know how the desired replica number is calculated exactly)\ntype: ContainerResource\ncontainerResource:\n name: cpu\n container: application\n target:\n type: Utilization\n averageUtilizatio…",
           "link": "https://kubernetes.io/blog/2023/05/02/hpa-container-resource-metric/",
           "publishedOn": "2023-05-02T04:00:00.000Z",
-          "wordCount": 3921,
+          "wordCount": 3928,
           "title": "Blog: Kubernetes 1.27: HorizontalPodAutoscaler ContainerResource type metric moves to beta",
           "imageUrl": null
         },
@@ -1013,7 +1013,7 @@
           "description": "Author: Peter Schuurman (Google)\nKubernetes v1.26 introduced a new, alpha-level feature for\nStatefulSets that controls\nthe ordinal numbering of Pod replicas. As of Kubernetes v1.27, this feature is\nnow beta. Ordinals can start from arbitrary\nnon-negative numbers. This blog post will discuss how this feature can be\nused.\nBackground\nStatefulSets ordinals provide sequential identities for pod replicas. When using\nOrderedReady Pod management\nPods are created from ordinal index 0 up to N-1.\nWith Kubernetes today, orchestrating a StatefulSet migration across clusters is\nchallenging. Backup and restore solutions exist, but these require the\napplication to be scaled down to zero replicas prior to migration. In today's\nfully connected world, even planned application downtime may not allow you to\nme…",
           "link": "https://kubernetes.io/blog/2023/04/28/statefulset-start-ordinal/",
           "publishedOn": "2023-04-28T00:00:00.000Z",
-          "wordCount": 4525,
+          "wordCount": 4532,
           "title": "Blog: Kubernetes 1.27: StatefulSet Start Ordinal Simplifies Migration",
           "imageUrl": null
         },
@@ -1023,7 +1023,7 @@
           "description": "Authors: Cailyn Edwards (Shopify), Mahé Tardy (Isovalent), Pushkar Joglekar\nSince launching the Auto-refreshing Official CVE feed as an alpha\nfeature in the 1.25 release, we have made significant improvements and updates. We are excited to announce the release of the\nbeta version of the feed. This blog post will outline the feedback received, the changes made, and talk about how you can help\nas we prepare to make this a stable feature in a future Kubernetes Release.\nFeedback from end-users\nSIG Security received some feedback from end-users:\nThe JSON CVE Feed did not comply\nwith the JSON Feed specification as its name would suggest.\nThe feed could also support RSS\nin addition to JSON Feed format.\nSome metadata could be added to indicate the freshness of\nthe feed overall, or specific CVEs. A…",
           "link": "https://kubernetes.io/blog/2023/04/25/k8s-cve-feed-beta/",
           "publishedOn": "2023-04-25T00:00:00.000Z",
-          "wordCount": 3778,
+          "wordCount": 3785,
           "title": "Blog: Updates to the Auto-refreshing Official CVE Feed",
           "imageUrl": null
         },
@@ -1033,7 +1033,7 @@
           "description": "Author: Jeffrey Ying (Google), Antoine Pelisse (Google)\nBefore Kubernetes v1.8 (!), typos, mis-indentations or minor errors in\nYAMLs could have catastrophic consequences (e.g. a typo like\nforgetting the trailing s in replica: 1000 could cause an outage,\nbecause the value would be ignored and missing, forcing a reset of\nreplicas back to 1). This was solved back then by fetching the OpenAPI\nv2 in kubectl and using it to verify that fields were correct and\npresent before applying. Unfortunately, at that time, Custom Resource\nDefinitions didn’t exist, and the code was written under that\nassumption. When CRDs were later introduced, the lack of flexibility\nin the validation code forced some hard decisions in the way CRDs\nexposed their schema, leaving us in a cycle of bad validation causing\nbad O…",
           "link": "https://kubernetes.io/blog/2023/04/24/openapi-v3-field-validation-ga/",
           "publishedOn": "2023-04-24T00:00:00.000Z",
-          "wordCount": 4108,
+          "wordCount": 4115,
           "title": "Blog: Kubernetes 1.27: Server Side Field Validation and OpenAPI V3 move to GA",
           "imageUrl": null
         },
@@ -1043,7 +1043,7 @@
           "description": "Author: Aravindh Puthiyaparambil (Red Hat)\nKubernetes 1.27 introduced a new feature called Node log query that allows\nviewing logs of services running on the node.\nWhat problem does it solve?\nCluster administrators face issues when debugging malfunctioning services\nrunning on the node. They usually have to SSH or RDP into the node to view the\nlogs of the service to debug the issue. The Node log query feature helps with\nthis scenario by allowing the cluster administrator to view the logs using\nkubectl. This is especially useful with Windows nodes where you run into the\nissue of the node going to the ready state but containers not coming up due to\nCNI misconfigurations and other issues that are not easily identifiable by\nlooking at the Pod status.\nHow does it work?\nThe kubelet already has a …",
           "link": "https://kubernetes.io/blog/2023/04/21/node-log-query-alpha/",
           "publishedOn": "2023-04-21T00:00:00.000Z",
-          "wordCount": 3833,
+          "wordCount": 3840,
           "title": "Blog: Kubernetes 1.27: Query Node Logs Using The Kubelet API",
           "imageUrl": null
         },
@@ -1053,7 +1053,7 @@
           "description": "Author: Chris Henzie (Google)\nWith the release of Kubernetes v1.27 the ReadWriteOncePod feature has graduated\nto beta. In this blog post, we'll take a closer look at this feature, what it\ndoes, and how it has evolved in the beta release.\nWhat is ReadWriteOncePod?\nReadWriteOncePod is a new access mode for\nPersistentVolumes (PVs)\nand PersistentVolumeClaims (PVCs)\nintroduced in Kubernetes v1.22. This access mode enables you to restrict volume\naccess to a single pod in the cluster, ensuring that only one pod can write to\nthe volume at a time. This can be particularly useful for stateful workloads\nthat require single-writer access to storage.\nFor more context on access modes and how ReadWriteOncePod works read\nWhat are access modes and why are they important?\nin the Introducing Single Pod Acces…",
           "link": "https://kubernetes.io/blog/2023/04/20/read-write-once-pod-access-mode-beta/",
           "publishedOn": "2023-04-20T00:00:00.000Z",
-          "wordCount": 3766,
+          "wordCount": 3773,
           "title": "Blog: Kubernetes 1.27: Single Pod Access Mode for PersistentVolumes Graduates to Beta",
           "imageUrl": null
         },
@@ -1063,7 +1063,7 @@
           "description": "Author: Jan Šafránek (Red Hat)\nThe problem\nOn Linux with Security-Enhanced Linux (SELinux) enabled, it's traditionally\nthe container runtime that applies SELinux labels to a Pod and all its volumes.\nKubernetes only passes the SELinux label from a Pod's securityContext fields\nto the container runtime.\nThe container runtime then recursively changes SELinux label on all files that\nare visible to the Pod's containers. This can be time-consuming if there are\nmany files on the volume, especially when the volume is on a remote filesystem.\nNote\nsubPath of a volume, only that subPath of the whole\nvolume is relabeled. This allows two pods that have two different SELinux labels\nto use the same volume, as long as they use different subpaths of it.\n\nIf a Pod does not have any SELinux label assigned in …",
           "link": "https://kubernetes.io/blog/2023/04/18/kubernetes-1-27-efficient-selinux-relabeling-beta/",
           "publishedOn": "2023-04-18T18:00:00.000Z",
-          "wordCount": 4121,
+          "wordCount": 4128,
           "title": "Blog: Kubernetes 1.27: Efficient SELinux volume relabeling (Beta)",
           "imageUrl": null
         },
@@ -1073,7 +1073,7 @@
           "description": "Authors: Alex Wang (Shopee), Kante Yin (DaoCloud), Kensei Nakada (Mercari)\nIn Kubernetes v1.19, Pod topology spread constraints\nwent to general availability (GA).\nAs time passed, we - SIG Scheduling - received feedback from users,\nand, as a result, we're actively working on improving the Topology Spread feature via three KEPs.\nAll of these features have reached beta in Kubernetes v1.27 and are enabled by default.\nThis blog post introduces each feature and the use case behind each of them.\nKEP-3022: min domains in Pod Topology Spread\nPod Topology Spread has the maxSkew parameter to define the degree to which Pods may be unevenly distributed.\nBut, there wasn't a way to control the number of domains over which we should spread.\nSome users want to force spreading Pods over a minimum number of …",
           "link": "https://kubernetes.io/blog/2023/04/17/fine-grained-pod-topology-spread-features-beta/",
           "publishedOn": "2023-04-17T00:00:00.000Z",
-          "wordCount": 4332,
+          "wordCount": 4339,
           "title": "Blog: Kubernetes 1.27: More fine-grained pod topology spread policies reached beta",
           "imageUrl": null
         }
@@ -1090,7 +1090,7 @@
           "description": "Shyam Gala, Javier Fernandez-Ivern, Anup Rokkam Pratap, Devang Shah",
           "link": "https://netflixtechblog.com/migrating-critical-traffic-at-scale-with-no-downtime-part-1-ba1c7a1c7835?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-05-04T21:32:37.000Z",
-          "wordCount": 6533,
+          "wordCount": 6522,
           "title": "Migrating Critical Traffic At Scale with No Downtime — Part 1",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1075/1*Xq_jAychfflCMguIEhqKKw.png"
         },
@@ -1100,7 +1100,7 @@
           "description": "Ruchir Jha, Brian Harrington, Yingwu Zhao",
           "link": "https://netflixtechblog.com/improved-alerting-with-atlas-streaming-eval-e691c60dc61e?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-04-27T20:52:51.000Z",
-          "wordCount": 4977,
+          "wordCount": 4925,
           "title": "Improved Alerting with Atlas Streaming Eval",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*OEqSEUO7E-XcFzjkvgKtxA.png"
         }
@@ -1250,16 +1250,6 @@
           "wordCount": 27755,
           "title": "Differentially private heatmaps",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgS24x7QsXnFRdTdq_PJYQOr4XqJSpsFBWcb630Ujz2vOcGLL0FzXcvaDq_xwd72wCVXs3U5oNPYz0JgLJYNDrfyqf_0Fzuri6CJg2s8OzNVwsWRzzlU23NkGtre3XMlhoxf9egBUJRyEfEeIjdsRJ8m2L3gFJYCbNefqY2XNNGotPNJF6lMOM1DrlbPA/w1200-h630-p-k-no-nu/DPheatmaps.png"
-        },
-        {
-          "id": "http://ai.googleblog.com/2023/04/beyond-automatic-differentiation.html",
-          "author": null,
-          "description": "Posted by Matthew Streeter, Software Engineer, Google Research\n\n\n\n\nDerivatives play a central role in optimization and machine learning. By locally approximating a training loss, derivatives guide an optimizer toward lower values of the loss. Automatic differentiation frameworks such as TensorFlow, PyTorch, and JAX are an essential part of modern machine learning, making it feasible to use gradient-based optimizers to train very complex models.\n\n\n \n\n\nBut are derivatives all we need? By themselves, derivatives only tell us how a function behaves on an infinitesimal scale. To use derivatives effectively, we often need to know more than that. For example, to choose a learning rate for gradient descent, we need to know something about how the loss function behaves over a small but finite windo…",
-          "link": "http://ai.googleblog.com/2023/04/beyond-automatic-differentiation.html",
-          "publishedOn": "2023-04-14T15:00:00.001Z",
-          "wordCount": 27672,
-          "title": "Beyond automatic differentiation",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeF_4QxTZliBxybI6a8fpfDt-IC6AG1GkRjM6mQqSLQ64RQTP5BJYq8WcGkzss_Ft-5QF7nU36hT8CahVaq04fVThFV_zWbgbfutAzQU3g8yoghkEmb603znIRbX5jT74LQxBKQ1qKp6sx9GTKVEgcHaWJOpmiipwcuUj6FXC1_hCbqHHX05yMA_SaLw/w1200-h630-p-k-no-nu/AutoBound-Crop.gif"
         }
       ]
     },
@@ -1269,12 +1259,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=44436",
+          "author": "Seth Godin",
+          "description": "Once you use your plates every day, they cease to be the good china. Of course, the plates didn’t change. Your story did. The way you treat them did. The same goes for the red carpet. If you roll it out for every visitor or every customer, it ceases to be red.",
+          "link": "https://feeds.feedblitz.com/~/740619170/0/sethsblog~The-good-china/",
+          "publishedOn": "2023-05-14T08:50:00.000Z",
+          "wordCount": 878,
+          "title": "The good china",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=44434",
           "author": "Seth Godin",
           "description": "They’re essential. The house begins to stink if we don’t take out the garbage. But at work, while they might be essential, they may not be important. At least, not important enough for us to spend a lot of focus on. Chores are: The bills have to get paid. But they might not have to […]",
           "link": "https://feeds.feedblitz.com/~/740405933/0/sethsblog~Chores/",
           "publishedOn": "2023-05-13T08:51:00.000Z",
-          "wordCount": 1002,
+          "wordCount": 1003,
           "title": "Chores",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806133-1.jpg"
         },
@@ -1357,16 +1357,6 @@
           "wordCount": 1058,
           "title": "Nihil hic deest",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806134-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=45912",
-          "author": "Seth Godin",
-          "description": "Amazon is the last one. They are probably the last huge company where hundreds of thousands of people will be surveilled, measured and ordered to follow the rule book. The pandemic didn’t create distributed work, the laptop did. Human interaction is critical, but the office isn’t actually the most effective way to create that. David […]",
-          "link": "https://feeds.feedblitz.com/~/738838367/0/sethsblog~The-new-way-of-work/",
-          "publishedOn": "2023-05-05T08:35:00.000Z",
-          "wordCount": 969,
-          "title": "The new way of work",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806135-1.jpg"
         }
       ]
     },

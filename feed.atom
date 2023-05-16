@@ -1,10 +1,187 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-05-15T01:22:21.388Z</id>
+    <id>urn:2023-05-16T01:20:55.111Z</id>
     <title>osmos::feed</title>
-    <updated>2023-05-15T01:22:21.388Z</updated>
+    <updated>2023-05-16T01:20:55.111Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Blog: Kubernetes 1.27: KMS V2 Moves to Beta]]></title>
+        <id>https://kubernetes.io/blog/2023/05/16/kms-v2-moves-to-beta/</id>
+        <link href="https://kubernetes.io/blog/2023/05/16/kms-v2-moves-to-beta/"/>
+        <updated>2023-05-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Authors: Anish Ramasekar, Mo Khan, and Rita Zhang (Microsoft)
+With Kubernetes 1.27, we (SIG Auth) are moving Key Management Service (KMS) v2 API to beta.
+What is KMS?
+One of the first things to consider when securing a Kubernetes cluster is encrypting etcd data at
+rest. KMS provides an interface for a provider to utilize a key stored in an external key service to
+perform this encryption.
+KMS v1 has been a feature of Kubernetes since version 1.10, and is currently in beta as of version
+v1.12. KMS v2 was introduced as alpha in v1.25.
+Note
+the previous blog post
+was written and it is not compatible with the design in this blog post. Attempting to upgrade from
+old versions with the alpha feature enabled will result in data loss.
+
+What’s new in v2beta1?
+The KMS encryption provider uses an envel…]]></summary>
+        <author>
+            <name>Kubernetes – Production-Grade Container Orchestration</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Larger language models do in-context learning differently]]></title>
+        <id>http://ai.googleblog.com/2023/05/larger-language-models-do-in-context.html</id>
+        <link href="http://ai.googleblog.com/2023/05/larger-language-models-do-in-context.html"/>
+        <updated>2023-05-15T20:59:00.001Z</updated>
+        <summary type="html"><![CDATA[Posted by Jerry Wei, Student Researcher, and Denny Zhou, Principal Scientist, Google Research
+
+
+
+
+There have recently been tremendous advances in language models, partly because they can perform tasks with strong performance via in-context learning (ICL), a process whereby models are prompted with a few examples of input-label pairs before performing the task on an unseen evaluation example. In general, models’ success at in-context learning is enabled by:
+ 
+
+
+Their use of semantic prior knowledge from pre-training to predict labels while following the format of in-context examples (e.g., seeing examples of movie reviews with “positive sentiment” and “negative sentiment” as labels and performing sentiment analysis using prior knowledge).
+
+
+Learning the input-label mappings in context from …]]></summary>
+        <author>
+            <name>Google AI Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AWS Week in Review –  New Open-Source Updates for Snapchange, Cedar, and Jupyter Community Contributions – May 15, 2023]]></title>
+        <id>e8903c7f01bbcc4d30acec4eca295aa082db9119</id>
+        <link href="https://aws.amazon.com/blogs/aws/aws-week-in-review-new-open-source-updates-for-snapchange-cedar-and-jupyter-community-contributions-may-15-2023/"/>
+        <updated>2023-05-15T20:20:49.000Z</updated>
+        <summary type="html"><![CDATA[A new week has begun. Last week, there was a lot of news related to AWS. I have compiled a few announcements you need to know. Let’s get started right away! Last Week’s Launches Let’s take a look at some launches from the last week that I want to remind you of: New Amazon EC2 […]]]></summary>
+        <author>
+            <name>Channy Yun</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HashiConf Global 2023 scholarship program open for applications]]></title>
+        <id>https://www.hashicorp.com/blog/hashiconf-global-scholarship-program-open-for-applications</id>
+        <link href="https://www.hashicorp.com/blog/hashiconf-global-scholarship-program-open-for-applications"/>
+        <updated>2023-05-15T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Now is your chance to apply for a scholarship to attend the HashiConf Global conference in San Francisco, Oct. 10-12.]]></summary>
+        <author>
+            <name>HashiCorp Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Consensus and subjectivity of skin tone annotation for ML fairness]]></title>
+        <id>http://ai.googleblog.com/2023/05/consensus-and-subjectivity-of-skin-tone_15.html</id>
+        <link href="http://ai.googleblog.com/2023/05/consensus-and-subjectivity-of-skin-tone_15.html"/>
+        <updated>2023-05-15T17:16:00.003Z</updated>
+        <summary type="html"><![CDATA[Posted by Candice Schumann, Software Engineer, and Gbolahan O. Olanubi, User Experience Researcher, Google Research
+
+
+
+
+Skin tone is an observable characteristic that is subjective, perceived differently by individuals (e.g., depending on their location or culture) and thus is complicated to annotate. That said, the ability to reliably and accurately annotate skin tone is highly important in computer vision. This became apparent in 2018, when the Gender Shades study highlighted that computer vision systems struggled to detect people with darker skin tones, and performed particularly poorly for women with darker skin tones. The study highlights the importance for computer researchers and practitioners to evaluate their technologies across the full range of skin tones and at intersections of…]]></summary>
+        <author>
+            <name>Google AI Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New version of ServiceNow Terraform Catalog enhances workflows]]></title>
+        <id>https://www.hashicorp.com/blog/new-version-of-servicenow-terraform-catalog-enhances-workflows</id>
+        <link href="https://www.hashicorp.com/blog/new-version-of-servicenow-terraform-catalog-enhances-workflows"/>
+        <updated>2023-05-15T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The ServiceNow Service Catalog integration for Terraform now allows you to select the execution mode for your Terraform workspaces — along with other enhancements.]]></summary>
+        <author>
+            <name>HashiCorp Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learn about Network Automation at Red Hat Summit and AnsibleFest 2023]]></title>
+        <id>https://www.ansible.com/blog/learn-about-network-automation-at-red-hat-summit-and-ansiblefest-2023</id>
+        <link href="https://www.ansible.com/blog/learn-about-network-automation-at-red-hat-summit-and-ansiblefest-2023"/>
+        <updated>2023-05-15T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As you may have heard, AnsibleFest will be taking place at Red Hat Summit in Boston May 23-25. This change will allow you to harness everything that Red Hat technology has to offer in a single place and will give you even more tools to address your automation needs. Join Ansible and automation-focused audiences to hear from Red Hat and Ansible leaders, customers, and partners while getting the latest on the Red Hat Ansible Automation Platform product roadmap, community projects, and what’s coming in IT automation.]]></summary>
+        <author>
+            <name>elathram@redhat.com (Elle Universal)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The missing post]]></title>
+        <id>https://seths.blog/?p=44438</id>
+        <link href="https://feeds.feedblitz.com/~/740752454/0/sethsblog~The-missing-post/"/>
+        <updated>2023-05-15T08:52:00.000Z</updated>
+        <summary type="html"><![CDATA[I had a great idea for a post, my best blogging of the year, in fact. I worked it all out when I was driving, but when I arrived, it was gone. Vanished. So I went searching for it, trying out dozens of possible ideas. I never found it. But I did find five other […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Security 6.1 is now GA]]></title>
+        <id>https://spring.io/blog/2023/05/15/spring-security-6-1-is-now-ga</id>
+        <link href="https://spring.io/blog/2023/05/15/spring-security-6-1-is-now-ga"/>
+        <updated>2023-05-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <author>
+            <name>Steve Riesenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Security Kerberos 2.0.0-RC1 available now]]></title>
+        <id>https://spring.io/blog/2023/05/15/spring-security-kerberos-2-0-0-rc1-available-now</id>
+        <link href="https://spring.io/blog/2023/05/15/spring-security-kerberos-2-0-0-rc1-available-now"/>
+        <updated>2023-05-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <author>
+            <name>Janne Valkealahti</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring LDAP 3.1.0 released]]></title>
+        <id>https://spring.io/blog/2023/05/15/spring-ldap-3-1-0-released</id>
+        <link href="https://spring.io/blog/2023/05/15/spring-ldap-3-1-0-released"/>
+        <updated>2023-05-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <author>
+            <name>Josh Cummings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ChatGPT and Elasticsearch: A plugin to use ChatGPT with your Elastic data]]></title>
+        <id>https://www.elastic.co/blog/chatgpt-elasticsearch-plugin-elastic-data</id>
+        <link href="https://www.elastic.co/blog/chatgpt-elasticsearch-plugin-elastic-data"/>
+        <updated>2023-05-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn how to implement a plugin and enable ChatGPT users to extend ChatGPT with any content indexed in Elasticsearch, using the Elastic documentation.]]></summary>
+        <author>
+            <name>Baha Azarmi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ChatGPT and Elasticsearch: A plugin to use ChatGPT with your Elastic data]]></title>
+        <id>https://www.elastic.co/blog/chatgpt-elasticsearch-plugin-elastic-data</id>
+        <link href="https://www.elastic.co/blog/chatgpt-elasticsearch-plugin-elastic-data"/>
+        <updated>2023-05-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+You may have read this previous blog post about our journey to connect Elasticsearch’s relevance capabilities with OpenAI question-answering capabilities. The key idea in that post was to illustrate how to use Elastic with OpenAI’s GPT model to build a response and return context-relevant content to users.
+
+The application that we built can expose a search endpoint and be called by any front-end service. The good news is that now OpenAI has released a private alpha of the future ChatGPT plugin framework.
+
+In this blog, you will learn how to implement the plugin and extend the use of ChatGPT to any content indexed in Elasticsearch, using the Elastic documentation.
+https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6f09e155996c7545/64626a36d4a792ec443dd113/blog-elastic-summariz…]]></summary>
+        <author>
+            <name>Baha Azarmi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Crystal Ball]]></title>
+        <id>https://xkcd.com/2776/</id>
+        <link href="https://xkcd.com/2776/"/>
+        <updated>2023-05-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/crystal_ball.png" title="They often use ball lenses to collect light at the ends of optical fibers, so when you look stuff up on the internet you're actually scrying through a crystal ball." alt="They often use ball lenses to collect light at the ends of optical fibers, so when you look stuff up on the internet you're actually scrying through a crystal ball." />]]></summary>
+        <author>
+            <name>xkcd.com</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Blog: Kubernetes 1.27: updates on speeding up Pod startup]]></title>
         <id>https://kubernetes.io/blog/2023/05/15/speed-up-pod-startup/</id>
@@ -814,16 +991,6 @@ Why ad…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Nihil hic deest]]></title>
-        <id>https://seths.blog/?p=45985</id>
-        <link href="https://feeds.feedblitz.com/~/739005392/0/sethsblog~Nihil-hic-deest/"/>
-        <updated>2023-05-06T08:54:00.000Z</updated>
-        <summary type="html"><![CDATA[This page intentionally left blank has a long history. I thought it was an IBM thing from the 1960s, but I was off by a thousand or more years. There are good reasons for a page to be blank. Folding signatures, printing processes, having chapters start on the right or the left… But there are […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How is Camunda Platform 8 Professional Edition Helping Companies Accelerate their Projects?]]></title>
         <id>https://camunda.com/?p=80806&amp;preview=true&amp;preview_id=80806</id>
         <link href="https://camunda.com/blog/2023/05/camunda-professional-edition-accelerate-projects/"/>
@@ -842,46 +1009,6 @@ The post How is Camunda Platform 8 Professional Edition Helping Companies Accele
         <summary type="html"><![CDATA[In the first part of this “What’s New” series, we only saw the tip of the iceberg – various feature bits that the Rust plugin developers managed to implement during the release cycle. Now we’re going to show you the rest of the iceberg. Let’s dig in and look at all the new ways the […]]]></summary>
         <author>
             <name>Anton Lobeiko</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spring Cloud Data Flow 2.10.3 Released]]></title>
-        <id>https://spring.io/blog/2023/05/05/spring-cloud-data-flow-2-10-3-released</id>
-        <link href="https://spring.io/blog/2023/05/05/spring-cloud-data-flow-2-10-3-released"/>
-        <updated>2023-05-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
-        <author>
-            <name>Corneil du Plessis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spring Tools 4.18.1 released]]></title>
-        <id>https://spring.io/blog/2023/05/05/spring-tools-4-18-1-released</id>
-        <link href="https://spring.io/blog/2023/05/05/spring-tools-4-18-1-released"/>
-        <updated>2023-05-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
-        <author>
-            <name>Martin Lippert</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spring Boot 3.1.0-RC2 available now]]></title>
-        <id>https://spring.io/blog/2023/05/05/spring-boot-3-1-0-rc2-available-now</id>
-        <link href="https://spring.io/blog/2023/05/05/spring-boot-3-1-0-rc2-available-now"/>
-        <updated>2023-05-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
-        <author>
-            <name>Phil Webb</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Commemorative Plaque]]></title>
-        <id>https://xkcd.com/2772/</id>
-        <link href="https://xkcd.com/2772/"/>
-        <updated>2023-05-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/commemorative_plaque.png" title="[Below] On this site on May 12th, 2023, I finally learned how to use the masonry bit for my drill." alt="[Below] On this site on May 12th, 2023, I finally learned how to use the masonry bit for my drill." />]]></summary>
-        <author>
-            <name>xkcd.com</name>
         </author>
     </entry>
     <entry>
@@ -1156,28 +1283,6 @@ containerResource:
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Elastic Stack 8.7.1 released]]></title>
-        <id>https://www.elastic.co/blog/elastic-stack-8-7-1-released</id>
-        <link href="https://www.elastic.co/blog/elastic-stack-8-7-1-released"/>
-        <updated>2023-05-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Version 8.7.1 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 8.7.1 over 8.7.0 and 8.6.x releases.
-The 8.7.1 patch release contains fixes for potential security vulnerabilities. Please see our security advisory for more details.
-For details of the issues that have been fixed and a full list of changes for each product in this version, please refer to the release notes.]]></summary>
-        <author>
-            <name>Arpad Kiraly</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Elastic Stack 8.7.1 released]]></title>
-        <id>https://www.elastic.co/blog/elastic-stack-8-7-1-released</id>
-        <link href="https://www.elastic.co/blog/elastic-stack-8-7-1-released"/>
-        <updated>2023-05-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Read about the updates and bug fixes that have been included in this release.]]></summary>
-        <author>
-            <name>Arpad Kiraly</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Week in Review – AWS Verified Access, Java 17, Amplify Flutter, Conferences, and More – May 1, 2023]]></title>
         <id>ae3f62fcbec27e6f57598f0de24b8a0e4fcfbe7e</id>
         <link href="https://aws.amazon.com/blogs/aws/week-in-review-aws-verified-access-java-17-amplify-flutter-conferences-and-more-may-1-2023/"/>
@@ -1223,7 +1328,7 @@ The post New Boards Hub Update, Sprint 221 appeared first on Azure DevOps Blog.]
         <title type="html"><![CDATA[Google at ICLR 2023]]></title>
         <id>http://ai.googleblog.com/2023/04/google-at-iclr-2023.html</id>
         <link href="http://ai.googleblog.com/2023/04/google-at-iclr-2023.html"/>
-        <updated>2023-05-01T06:37:00.002Z</updated>
+        <updated>2023-05-01T06:37:00.003Z</updated>
         <summary type="html"><![CDATA[Posted by Catherine Armato, Program Manager, Google
 
 

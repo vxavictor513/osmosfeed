@@ -1,10 +1,245 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-05-23T01:21:34.196Z</id>
+    <id>urn:2023-05-24T01:24:12.726Z</id>
     <title>osmos::feed</title>
-    <updated>2023-05-23T01:21:34.196Z</updated>
+    <updated>2023-05-24T01:24:12.726Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Blog: Using OCI artifacts to distribute security profiles for seccomp, SELinux and AppArmor]]></title>
+        <id>https://kubernetes.io/blog/2023/05/24/oci-security-profiles/</id>
+        <link href="https://kubernetes.io/blog/2023/05/24/oci-security-profiles/"/>
+        <updated>2023-05-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Author: Sascha Grunert
+The Security Profiles Operator (SPO) makes managing seccomp, SELinux and
+AppArmor profiles within Kubernetes easier than ever. It allows cluster
+administrators to define the profiles in a predefined custom resource YAML,
+which then gets distributed by the SPO into the whole cluster. Modification and
+removal of the security profiles are managed by the operator in the same way,
+but that’s a small subset of its capabilities.
+Another core feature of the SPO is being able to stack seccomp profiles. This
+means that users can define a baseProfileName in the YAML specification, which
+then gets automatically resolved by the operator and combines the syscall rules.
+If a base profile has another baseProfileName, then the operator will
+recursively resolve the profiles up to a ce…]]></summary>
+        <author>
+            <name>Kubernetes – Production-Grade Container Orchestration</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Resolving code review comments with ML]]></title>
+        <id>http://ai.googleblog.com/2023/05/resolving-code-review-comments-with-ml.html</id>
+        <link href="http://ai.googleblog.com/2023/05/resolving-code-review-comments-with-ml.html"/>
+        <updated>2023-05-23T17:51:00.003Z</updated>
+        <summary type="html"><![CDATA[Posted by Alexander Frömmgen, Staff Software Engineer, and Lera Kharatyan, Senior Software Engineer, Core Systems & Experiences
+
+
+  
+
+Code-change reviews are a critical part of the software development process at scale, taking a significant amount of the code authors’ and the code reviewers’ time. As part of this process, the reviewer inspects the proposed code and asks the author for code changes through comments written in natural language. At Google, we see millions of reviewer comments per year, and authors require an average of ~60 minutes active shepherding time between sending changes for review and finally submitting the change. In our measurements, the required active work time that the code author must do to address reviewer comments grows almost linearly with the number of comme…]]></summary>
+        <author>
+            <name>Google AI Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HCP Packer improves channels and furthers integration with Terraform]]></title>
+        <id>https://www.hashicorp.com/blog/hcp-packer-improves-channels-and-furthers-integration-with-terraform</id>
+        <link href="https://www.hashicorp.com/blog/hcp-packer-improves-channels-and-furthers-integration-with-terraform"/>
+        <updated>2023-05-23T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[HCP Packer’s latest additions to channels give platform teams more visibility into their artifact estate, shorten times to remediation, and unify workflows with Terraform Cloud.]]></summary>
+        <author>
+            <name>HashiCorp Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing the public preview of GitHub Advanced Security for Azure DevOps]]></title>
+        <id>https://github.blog/2023-05-23-announcing-the-public-preview-of-github-advanced-security-for-azure-devops/</id>
+        <link href="https://github.blog/2023-05-23-announcing-the-public-preview-of-github-advanced-security-for-azure-devops/"/>
+        <updated>2023-05-23T15:00:43.000Z</updated>
+        <summary type="html"><![CDATA[GitHub Advanced Security for Azure DevOps is now available for public preview, making GitHub’s same application security testing tools natively available on Azure Repos.]]></summary>
+        <author>
+            <name>The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Event-Driven Ansible is Here]]></title>
+        <id>https://www.ansible.com/blog/event-driven-ansible-is-here</id>
+        <link href="https://www.ansible.com/blog/event-driven-ansible-is-here"/>
+        <updated>2023-05-23T13:02:00.000Z</updated>
+        <summary type="html"><![CDATA[As you may recall, we introduced Event-Driven Ansible in developer preview last fall at AnsibleFest. Since that time, much work has been done across the community, the Red Hat development teams, customers, and last but not least, Red Hat partners. Today, we are pleased to announce that Event-Driven Ansible will be concluding its developer preview and will become generally available as part of Red Hat Ansible Automation Platform 2.4.]]></summary>
+        <author>
+            <name>Joe Pisciotta</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Arriving soon: Red Hat Ansible Certified and validated Content Collections for Event-Driven Ansible]]></title>
+        <id>https://www.ansible.com/blog/event-driven-ansible-partner-ecosystem</id>
+        <link href="https://www.ansible.com/blog/event-driven-ansible-partner-ecosystem"/>
+        <updated>2023-05-23T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Since we announced Event-Driven Ansible in developer preview at AnsibleFest last October, we have been working with a number of technology partners to provide integrated offerings via Ansible Content Collections for Event-Driven Ansible. We know that partner integrations are an important source of event intelligence that can be used to create full end-to-end event-driven automation across your Day 2 operations.]]></summary>
+        <author>
+            <name>Emily Bock</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Event-Driven Ansible: Driving Innovations at the Edge]]></title>
+        <id>https://www.ansible.com/blog/event-driven-ansible-driving-innovations-at-the-edge</id>
+        <link href="https://www.ansible.com/blog/event-driven-ansible-driving-innovations-at-the-edge"/>
+        <updated>2023-05-23T12:58:00.000Z</updated>
+        <summary type="html"><![CDATA[The introduction of Event-Driven Ansible is especially exciting when considering the impacts to edge environments.]]></summary>
+        <author>
+            <name>Michele Null</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stevie and Marvin]]></title>
+        <id>https://seths.blog/?p=44515</id>
+        <link href="https://feeds.feedblitz.com/~/742200911/0/sethsblog~Stevie-and-Marvin/"/>
+        <updated>2023-05-23T08:48:00.000Z</updated>
+        <summary type="html"><![CDATA[When Marvin Gaye joined Motown, he went with his strengths. He wanted to work only in the studio. He hated touring and was sure he lacked the charisma and other gifts that made some musicians great onstage. This didn’t really fit the label’s strengths, and he struggled to find his footing. In 1962, Berry Gordy […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Advanced Security for Azure DevOps public preview starts now!]]></title>
+        <id>https://devblogs.microsoft.com/devops/?p=66951</id>
+        <link href="https://devblogs.microsoft.com/devops/github-advanced-security-for-azure-devops-public-preview-starts-now/"/>
+        <updated>2023-05-23T08:00:35.000Z</updated>
+        <summary type="html"><![CDATA[In October of last year we announced that GitHub Advanced Security was coming to Azure DevOps, starting with a private preview in November. Since then, we’ve been working hard on the product and incorporating feedback from our private preview customers. Today,
+The post GitHub Advanced Security for Azure DevOps public preview starts now! appeared first on Azure DevOps Blog.]]></summary>
+        <author>
+            <name>Aaron Hallberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CLion 2023.2 EAP2: New CMake Targets for New Files]]></title>
+        <id>https://blog.jetbrains.com/?post_type=clion&amp;p=357315</id>
+        <link href="https://blog.jetbrains.com/clion/2023/05/clion-2023-2-eap2-new-cmake-targets-for-new-files/"/>
+        <updated>2023-05-23T03:58:00.000Z</updated>
+        <summary type="html"><![CDATA[CLion 2032.2 Early Access Program has just started with support for Docker in WSL, the ability to attach to the remote process for debugging, improved QML support, disassemble on demand, improved Memory View, updated bundled debugger versions, and CMake enhancements. Today we’re excited to share that a new CLion 2023.2 EAP build is ready for […]]]></summary>
+        <author>
+            <name>Anastasia Kazakova</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unleash Spring apps in a flex environment with Azure Spring Apps Consumption and Dedicated plans]]></title>
+        <id>https://spring.io/blog/2023/05/23/unleash-spring-apps-in-a-flex-environment-with-azure-spring-apps-consumption</id>
+        <link href="https://spring.io/blog/2023/05/23/unleash-spring-apps-in-a-flex-environment-with-azure-spring-apps-consumption"/>
+        <updated>2023-05-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <author>
+            <name>Josh Long</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This Week in Spring - May 23rd, 2023]]></title>
+        <id>https://spring.io/blog/2023/05/23/this-week-in-spring-may-23rd-2023</id>
+        <link href="https://spring.io/blog/2023/05/23/this-week-in-spring-may-23rd-2023"/>
+        <updated>2023-05-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <author>
+            <name>Josh Long</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Elasticsearch Relevance Engine™ — Advanced search for the AI revolution]]></title>
+        <id>https://www.elastic.co/blog/may-2023-launch-announcement</id>
+        <link href="https://www.elastic.co/blog/may-2023-launch-announcement"/>
+        <updated>2023-05-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Elasticsearch Relevance Engine™ (ESRE) powers generative AI (artificial intelligence) solutions for private data sets with a vector database and machine learning models for semantic search that bring increased relevance to more search application developers.]]></summary>
+        <author>
+            <name>Matt Riley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Accessing machine learning models in Elastic]]></title>
+        <id>https://www.elastic.co/blog/may-2023-launch-machine-learning-models</id>
+        <link href="https://www.elastic.co/blog/may-2023-launch-machine-learning-models"/>
+        <updated>2023-05-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Bring your own transformer models into Elastic to use optimized embedding models and NLP, or integrate with third-party transformer modes such as OpenAI GPT-4 via APIs to leverage more accurate, business-specific content based on private data stores.]]></summary>
+        <author>
+            <name>Bernhard Suhm,Josh Devins</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Elastic Learned Sparse Encoder: Elastic’s AI model for semantic search]]></title>
+        <id>https://www.elastic.co/blog/may-2023-launch-sparse-encoder-ai-model</id>
+        <link href="https://www.elastic.co/blog/may-2023-launch-sparse-encoder-ai-model"/>
+        <updated>2023-05-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Elastic Learned Sparse Encoder is an AI model for high relevance semantic search across domains. As a sparse vector model, it expands the query with terms that don't exist in the query itself, delivering superior relevance without domain adaptation.]]></summary>
+        <author>
+            <name>Aris Papadopoulos,Gilad Gal</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Improving information retrieval in the Elastic Stack: Introducing Elastic Learned Sparse Encoder, our new retrieval model]]></title>
+        <id>https://www.elastic.co/blog/may-2023-launch-information-retrieval-elasticsearch-ai-model</id>
+        <link href="https://www.elastic.co/blog/may-2023-launch-information-retrieval-elasticsearch-ai-model"/>
+        <updated>2023-05-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Deep learning has transformed how people retrieve information. We’ve created a retrieval model that works with a variety of text with streamlined processes to deploy it. Learn about the model’s performance, its architecture, and how it was trained.]]></summary>
+        <author>
+            <name>Thomas Veasey,Quentin Herreros</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Elasticsearch Relevance Engine™ — Advanced search for the AI revolution]]></title>
+        <id>https://www.elastic.co/blog/may-2023-launch-announcement</id>
+        <link href="https://www.elastic.co/blog/may-2023-launch-announcement"/>
+        <updated>2023-05-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+Today we’re introducing the Elasticsearch Relevance Engine™ (ESRE™), new capabilities for creating highly relevant AI search applications. ESRE builds on Elastic’s leadership in search and over two years of machine learning research and development. The Elasticsearch Relevance Engine combines the best of AI with Elastic’s text search. ESRE gives developers a full suite of sophisticated retrieval algorithms and the ability to integrate with large language models (LLMs). Even better, it’s accessible via a simple, unified API that Elastic’s community already trusts, so developers around the world can start using it immediately to elevate search relevance.
+The Elasticsearch Relevance Engine’s configurable capabilities can be used to help improve relevance by:
+Applying advanced relevance rank…]]></summary>
+        <author>
+            <name>Matt Riley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Accessing machine learning models in Elastic]]></title>
+        <id>https://www.elastic.co/blog/may-2023-launch-machine-learning-models</id>
+        <link href="https://www.elastic.co/blog/may-2023-launch-machine-learning-models"/>
+        <updated>2023-05-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Elastic supports the machine learning models you need,
+Elastic® lets you apply the machine learning (ML) that’s appropriate for your use case and level of ML expertise. You have multiple options:
+
+Leverage the models that come built-in. Aside from models targeting specific security threats and types of system issues in our observability and security solution, you can use our proprietary Elastic Learned Sparse Encoder model out of the box, as well as a language identification — useful if you’re working with non-English text data.
+Access third-party PyTorch models from anywhere including the HuggingFace model hub.
+Load a model you trained yourself — primarily NLP transformers at this point.
+
+Using built-in models gets you value out of the box, without requiring any ML expertise from you, yet…]]></summary>
+        <author>
+            <name>Bernhard Suhm,Josh Devins</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Elastic Learned Sparse Encoder: Elastic’s AI model for semantic search]]></title>
+        <id>https://www.elastic.co/blog/may-2023-launch-sparse-encoder-ai-model</id>
+        <link href="https://www.elastic.co/blog/may-2023-launch-sparse-encoder-ai-model"/>
+        <updated>2023-05-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Searching for meaning, not just words,
+We are thrilled to share that with 8.8, Elastic® offers semantic search out of the box. Semantic search is designed to search with the intent or meaning of the text as opposed to a lexical match or keyword query. It is a qualitative leap compared to traditional lexical term-based search, offering breakthrough relevance. It captures relationships between words on the conceptual level, understanding the context and surfacing relevant results based on meanings, instead of simply query terms. 
+
+Aiming to eliminate the barrier to AI-powered search, in 8.8 we are introducing a new semantic search model in technical preview, trained and optimized by Elastic. Use it to instantly leverage superior semantic relevance with vector and hybrid search, natively in E…]]></summary>
+        <author>
+            <name>Aris Papadopoulos,Gilad Gal</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Improving information retrieval in the Elastic Stack: Introducing Elastic Learned Sparse Encoder, our new retrieval model]]></title>
+        <id>https://www.elastic.co/blog/may-2023-launch-information-retrieval-elasticsearch-ai-model</id>
+        <link href="https://www.elastic.co/blog/may-2023-launch-information-retrieval-elasticsearch-ai-model"/>
+        <updated>2023-05-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+In this blog, we discuss the work we’ve been doing to augment Elastic®’s out-of-the-box retrieval with a pre-trained language model.
+
+In our previous blog post in this series, we discussed some of the challenges applying dense models to retrieval in a zero-shot setting. This is well known and was highlighted by the BEIR benchmark, which assembled diverse retrieval tasks as a proxy to the performance one might expect from a model applied to an unseen data set. Good retrieval in a zero-shot setting is exactly what we want to achieve, namely a one-click experience that enables textual fields to be searched using a pre-trained model.
+
+This new capability fits into the Elasticsearch _search endpoint as just another query clause, a text_expansion query. This is attractive because it allows sea…]]></summary>
+        <author>
+            <name>Thomas Veasey,Quentin Herreros</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Prioritizing Our DevRel Backlog with Form Builder, DMN, and a Process Model]]></title>
         <id>https://camunda.com/?p=81782&amp;preview=true&amp;preview_id=81782</id>
@@ -64,6 +299,16 @@ The post Prioritizing Our DevRel Backlog with Form Builder, DMN, and a Process M
         <summary type="html"><![CDATA[When a six-year-old kid beats the other kids at tennis, that kid is more likely to be encouraged to play more, or to get a coach, and pretty soon, they’re much better at tennis than the others. When a musical group has a single that gets some buzz on Spotify, they’re more likely to be […]]]></summary>
         <author>
             <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exoplanet High-5]]></title>
+        <id>https://xkcd.com/2779/</id>
+        <link href="https://xkcd.com/2779/"/>
+        <updated>2023-05-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/exoplanet_high_5.png" title="Tau Ceti is farther away, so it took me 36 years to start the war over updog." alt="Tau Ceti is farther away, so it took me 36 years to start the war over updog." />]]></summary>
+        <author>
+            <name>xkcd.com</name>
         </author>
     </entry>
     <entry>
@@ -583,16 +828,6 @@ this blog post.
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[DataGrip 2023.1.2]]></title>
-        <id>https://blog.jetbrains.com/?post_type=datagrip&amp;p=356099</id>
-        <link href="https://blog.jetbrains.com/datagrip/2023/05/17/datagrip-2023-1-2/"/>
-        <updated>2023-05-17T16:49:53.000Z</updated>
-        <summary type="html"><![CDATA[Today, we’re releasing the second minor update for DataGrip 2023.1. Here are the most notable changes and bug fixes in v2023.1.2:]]></summary>
-        <author>
-            <name>Alisa Lukonina</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Design&#8217;s journey towards accessibility]]></title>
         <id>https://github.blog/2023-05-17-designs-journey-towards-accessibility/</id>
         <link href="https://github.blog/2023-05-17-designs-journey-towards-accessibility/"/>
@@ -657,26 +892,6 @@ The post From Draft to Perfection: Creating Effective Forms for Human Workflows 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Spring Authorization Server 1.1.0 available now]]></title>
-        <id>https://spring.io/blog/2023/05/17/spring-authorization-server-1-1-0-available-now</id>
-        <link href="https://spring.io/blog/2023/05/17/spring-authorization-server-1-1-0-available-now"/>
-        <updated>2023-05-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
-        <author>
-            <name>Joe Grandja</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spring for GraphQL 1.2.0 released]]></title>
-        <id>https://spring.io/blog/2023/05/17/spring-for-graphql-1-2-0-released</id>
-        <link href="https://spring.io/blog/2023/05/17/spring-for-graphql-1-2-0-released"/>
-        <updated>2023-05-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
-        <author>
-            <name>Brian Clozel</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[ERGs encourages you to come as you are: Meet the Accessibles]]></title>
         <id>https://www.elastic.co/blog/culture-meet-accessibles</id>
         <link href="https://www.elastic.co/blog/culture-meet-accessibles"/>
@@ -684,16 +899,6 @@ The post From Draft to Perfection: Creating Effective Forms for Human Workflows 
         <summary type="html"><![CDATA[The Accessibles work to raise awareness and create community at Elastic for those that are differently abled. Learn more about the group.]]></summary>
         <author>
             <name>Elastic Culture</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Challenges of observing Kubernetes: Understanding a complex and dynamic system]]></title>
-        <id>https://www.elastic.co/blog/monitoring-kubernetes-observability-challenges</id>
-        <link href="https://www.elastic.co/blog/monitoring-kubernetes-observability-challenges"/>
-        <updated>2023-05-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Kubernetes can be an important part of your cloud deployment, but the same capabilities that make it resilient and robust can pose challenges when something does go wrong. Let’s take a dive into what IT operations teams often face when managing Kubernetes.]]></summary>
-        <author>
-            <name>Miguel Luna</name>
         </author>
     </entry>
     <entry>
@@ -709,20 +914,6 @@ That allowed us to ensure that the members would have structure, budget, and ult
 Each ERGs is aligned to a shared identity, interest, affinity, or allyship. We want to create a community of people with something in common and to encourage sharing, learning, and networking among members. While each group has their own goals and vision, they are all working t…]]></summary>
         <author>
             <name>Elastic Culture</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Challenges of observing Kubernetes: Understanding a complex and dynamic system]]></title>
-        <id>https://www.elastic.co/blog/monitoring-kubernetes-observability-challenges</id>
-        <link href="https://www.elastic.co/blog/monitoring-kubernetes-observability-challenges"/>
-        <updated>2023-05-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-As technology evolves in the enterprise, oftentimes the processes and tools used to manage it must also evolve. The increased adoption of Kubernetes has become a major inflection point for those of us in the monitoring and management side of the IT operations world. What has worked for decades (traditional infrastructure monitoring) has to be adjusted to the complexity and ephemeral nature of modern distributed systems where Kubernetes has a prime role.
-
-In my first blog, The basics of observing Kubernetes: A bird-watcher’s perspective, we provided an overview of Kubernetes components and the signals you have to pay attention to. But let’s dig in deeper because the strategies of traditional monitoring need to really be adjusted in the world of cloud computing.
-https://static-www.elastic.…]]></summary>
-        <author>
-            <name>Miguel Luna</name>
         </author>
     </entry>
     <entry>
@@ -803,81 +994,6 @@ The post Camunda Receives SOC 2 Type 2 Certification appeared first on Camunda.]
         <summary type="html"><![CDATA[If everyone visits a factory and takes a sample, it goes out of business. But if everyone in the community takes an idea, that idea goes up in value. The best marketing advice I have for someone writing a book is simple: Write a book that people want to share with others. And then make […]]]></summary>
         <author>
             <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to use Elasticsearch to prompt ChatGPT with natural language]]></title>
-        <id>https://www.elastic.co/blog/elasticsearch-prompt-chatgpt-natural-language</id>
-        <link href="https://www.elastic.co/blog/elasticsearch-prompt-chatgpt-natural-language"/>
-        <updated>2023-05-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This blog post presents an experimental project for querying Elasticsearch in natural language using ChatGPT.]]></summary>
-        <author>
-            <name>Enrico Zimuel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Embracing 5G: A new era of challenges]]></title>
-        <id>https://www.elastic.co/blog/5g-networks-challenges-elastic-wilab</id>
-        <link href="https://www.elastic.co/blog/5g-networks-challenges-elastic-wilab"/>
-        <updated>2023-05-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Given the vast amount of data needed to monitor 5G networks, the need for robust, flexible, and scalable solutions to manage and analyze data has become crucial. Wilab and Elastic provide an ideal solution to address these challenges.]]></summary>
-        <author>
-            <name>Jürgen Obermann,Piotr Kobziakowski,Tomas Achaval-Palacio,Martin Ferreyra</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The impact of NWDAF on telco service providers: Embracing vendor agnostic data analytics]]></title>
-        <id>https://www.elastic.co/blog/nwdaf-telco-vendor-agnostic-data-analytics</id>
-        <link href="https://www.elastic.co/blog/nwdaf-telco-vendor-agnostic-data-analytics"/>
-        <updated>2023-05-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[By combining the power of NWDAF with vendor agnostic data analytics, network operators can obtain a comprehensive and unbiased view of their network performance, empowering them to make better decisions and improve user experience.]]></summary>
-        <author>
-            <name>Jürgen Obermann,Piotr Kobziakowski</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to use Elasticsearch to prompt ChatGPT with natural language]]></title>
-        <id>https://www.elastic.co/blog/elasticsearch-prompt-chatgpt-natural-language</id>
-        <link href="https://www.elastic.co/blog/elasticsearch-prompt-chatgpt-natural-language"/>
-        <updated>2023-05-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-These days everyone is talking about ChatGPT. One of the cool features of this large language model (LLM) is the ability to generate code. We used it to generate Elasticsearch DSL queries. The goal is to search in Elasticsearch® with sentences like “Give me the first 10 documents of 2017 from the stocks index.” This experiment showed that it is possible, with some limitations. In this post, we describe this experiment and the open source library that we published for this use case.
-date,open,high,low,close,volume,name
-2013-02-08,15.07,15.12,14.63,14.75,8407500,AAL
-2013-02-11,14.89,15.01,14.26,14.46,8882000,AAL
-2013-02-12,14.45,14.51,14.1,14.27,8126000,AAL
-2013-02-13,14.3,14.94,14.25,14.66,10259500,AAL,
-Each line contains the date of the stock, the open value of the day, the high and the …]]></summary>
-        <author>
-            <name>Enrico Zimuel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Embracing 5G: A new era of challenges]]></title>
-        <id>https://www.elastic.co/blog/5g-networks-challenges-elastic-wilab</id>
-        <link href="https://www.elastic.co/blog/5g-networks-challenges-elastic-wilab"/>
-        <updated>2023-05-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-The arrival of 5G networks represents a significant breakthrough in wireless technology, marking a shift toward virtualized, software-based solutions, and cloud-based architecture. However, with this transition comes several challenges that demand a change in mindset from traditional network management and deployment practices.
-Operators are shifting from physical infrastructure to virtualized infrastructure and moving from centralized to distributed network architectures. As a result, they must navigate the complexities of new use cases and emerging technologies, such as edge computing and network slicing, to create innovative services that can take advantage of the enhanced network capabilities of 5G networks and ensure a profitable return on their investment.
-These challenges are emph…]]></summary>
-        <author>
-            <name>Jürgen Obermann,Piotr Kobziakowski,Tomas Achaval-Palacio,Martin Ferreyra</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The impact of NWDAF on telco service providers: Embracing vendor agnostic data analytics]]></title>
-        <id>https://www.elastic.co/blog/nwdaf-telco-vendor-agnostic-data-analytics</id>
-        <link href="https://www.elastic.co/blog/nwdaf-telco-vendor-agnostic-data-analytics"/>
-        <updated>2023-05-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-Network Data Analytics Function (NWDAF) is a key component in 5G networks, designed to collect, analyze, and deliver valuable insights to service providers. NWDAF provides an unbiased, vendor-vendor agnostic view of the network, expanding telco visibility beyond traditional use cases.
-
-As network complexities grow, service providers require unbiased and accurate data to make informed decisions, driving the demand for vendor agnostic data analytics. The data provided by NWDAF is one of the richest sources of this information.
-
-Data-driven decision-making enables service providers to optimize network performance, improve customer experience, and stay ahead in a competitive market. NWDAF enhances new commercial offerings possibilities, opening doors to innovative services and products for c…]]></summary>
-        <author>
-            <name>Jürgen Obermann,Piotr Kobziakowski</name>
         </author>
     </entry>
     <entry>
@@ -1032,16 +1148,6 @@ Pulling images always takes some time and what's worse is that image pull…]]><
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Chores]]></title>
-        <id>https://seths.blog/?p=44434</id>
-        <link href="https://feeds.feedblitz.com/~/740405933/0/sethsblog~Chores/"/>
-        <updated>2023-05-13T08:51:00.000Z</updated>
-        <summary type="html"><![CDATA[They’re essential. The house begins to stink if we don’t take out the garbage. But at work, while they might be essential, they may not be important. At least, not important enough for us to spend a lot of focus on. Chores are: The bills have to get paid. But they might not have to […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[F-VLM: Open-vocabulary object detection upon frozen vision and language models]]></title>
         <id>http://ai.googleblog.com/2023/05/f-vlm-open-vocabulary-object-detection.html</id>
         <link href="http://ai.googleblog.com/2023/05/f-vlm-open-vocabulary-object-detection.html"/>
@@ -1120,16 +1226,6 @@ Prior research has investigated several important technical building blocks to e
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Siphon]]></title>
-        <id>https://xkcd.com/2775/</id>
-        <link href="https://xkcd.com/2775/"/>
-        <updated>2023-05-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/siphon.png" title="ADDITIONAL NOTES: Fixed a bug that caused some rocks to generate virtually infinite heat while just sitting there." alt="ADDITIONAL NOTES: Fixed a bug that caused some rocks to generate virtually infinite heat while just sitting there." />]]></summary>
-        <author>
-            <name>xkcd.com</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Blog: Kubernetes 1.27: In-place Resource Resize for Kubernetes Pods (alpha)]]></title>
         <id>https://kubernetes.io/blog/2023/05/12/in-place-pod-resize-alpha/</id>
         <link href="https://kubernetes.io/blog/2023/05/12/in-place-pod-resize-alpha/"/>
@@ -1169,16 +1265,6 @@ and other such applications must now look at n…]]></summary>
         <summary type="html"><![CDATA[Since Amazon Aurora launched in 2014, hundreds of thousands of customers have chosen Aurora to run their most demanding applications. Aurora provides unparalleled high performance and availability at global scale with full MySQL and PostgreSQL compatibility at up to one-tenth the cost of commercial databases. Many customers benefit from the cost-effectiveness of Aurora’s current simple, pay-per-request […]]]></summary>
         <author>
             <name>Channy Yun</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unlocking inclusive design: how Primer&#8217;s color system is making GitHub.com more inclusive]]></title>
-        <id>https://github.blog/2023-05-11-unlocking-inclusive-design-how-primers-color-system-is-making-github-com-more-inclusive/</id>
-        <link href="https://github.blog/2023-05-11-unlocking-inclusive-design-how-primers-color-system-is-making-github-com-more-inclusive/"/>
-        <updated>2023-05-11T17:56:27.000Z</updated>
-        <summary type="html"><![CDATA[How Primer’s updated light and dark theme color contrast strategy resolved hundreds of color-contrast-related accessibility issues over one thousand use cases.]]></summary>
-        <author>
-            <name>The GitHub Blog</name>
         </author>
     </entry>
     <entry>
@@ -1788,49 +1874,6 @@ The post Use Power Automate to update Azure DevOps queries appeared first on Azu
         <summary type="html"><![CDATA[Dynamic provider credentials in HashiCorp Terraform Cloud now supports Vault dynamic secrets engines to consolidate cloud access for Terraform runs.]]></summary>
         <author>
             <name>HashiCorp Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google at CHI 2023]]></title>
-        <id>http://ai.googleblog.com/2023/04/google-at-chi-2023.html</id>
-        <link href="http://ai.googleblog.com/2023/04/google-at-chi-2023.html"/>
-        <updated>2023-04-24T02:26:00.001Z</updated>
-        <summary type="html"><![CDATA[Posted by Malaya Jules, Program Manager, Google
-
-
-
-
-This week, the Conference on Human Factors in Computing Systems (CHI 2023) is being held in Hamburg, Germany. We are proud to be a Hero Sponsor of CHI 2023, a premier conference on human-computer interaction, where Google researchers contribute at all levels. This year we are presenting over 30 papers and are actively involved in organizing and hosting a number of different events across workshops, courses, and interactive sessions.
-
-
- 
-
-
-If you’re registered for CHI 2023, we hope you’ll visit the Google booth to learn more about the exciting work across various topics, including language interactions, causal inference, question answering and more. Take a look below to learn more about the Google research being presented at CHI 2023 (Goog…]]></summary>
-        <author>
-            <name>Google AI Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blog: Kubernetes 1.27: Server Side Field Validation and OpenAPI V3 move to GA]]></title>
-        <id>https://kubernetes.io/blog/2023/04/24/openapi-v3-field-validation-ga/</id>
-        <link href="https://kubernetes.io/blog/2023/04/24/openapi-v3-field-validation-ga/"/>
-        <updated>2023-04-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Author: Jeffrey Ying (Google), Antoine Pelisse (Google)
-Before Kubernetes v1.8 (!), typos, mis-indentations or minor errors in
-YAMLs could have catastrophic consequences (e.g. a typo like
-forgetting the trailing s in replica: 1000 could cause an outage,
-because the value would be ignored and missing, forcing a reset of
-replicas back to 1). This was solved back then by fetching the OpenAPI
-v2 in kubectl and using it to verify that fields were correct and
-present before applying. Unfortunately, at that time, Custom Resource
-Definitions didn’t exist, and the code was written under that
-assumption. When CRDs were later introduced, the lack of flexibility
-in the validation code forced some hard decisions in the way CRDs
-exposed their schema, leaving us in a cycle of bad validation causing
-bad O…]]></summary>
-        <author>
-            <name>Kubernetes – Production-Grade Container Orchestration</name>
         </author>
     </entry>
 </feed>

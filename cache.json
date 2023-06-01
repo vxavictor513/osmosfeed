@@ -221,16 +221,6 @@
           "wordCount": 2651,
           "title": "Bridging the gap between technology and FinOps with HashiCorp and Intel",
           "imageUrl": "https://www.datocms-assets.com/2885/1620081857-blog-library-product-terraform-dark-gradient.jpg"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/why-you-should-run-your-platform-team-like-a-product-team",
-          "author": null,
-          "description": "Like a product team, a successful platform team must understand the needs of its \"customers\" and stakeholders.",
-          "link": "https://www.hashicorp.com/blog/why-you-should-run-your-platform-team-like-a-product-team",
-          "publishedOn": "2023-05-01T16:00:00.000Z",
-          "wordCount": 3017,
-          "title": "Why you should run your platform team like a product team",
-          "imageUrl": "https://www.datocms-assets.com/2885/1599961406-blog-library-abstract-00107.jpg"
         }
       ]
     },
@@ -240,12 +230,92 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
+          "id": "https://www.elastic.co/blog/large-language-models-elastic-code-langchain",
+          "author": "Jeff Vestal",
+          "description": "In this blog, we explore the exciting synergy between Langchain and Elasticsearch, two powerful tools transforming the landscape of large language models. We provide an overview of the collaboration and its potential to shape application development.",
+          "link": "https://www.elastic.co/blog/large-language-models-elastic-code-langchain",
+          "publishedOn": "2023-05-31T00:00:00.000Z",
+          "wordCount": 19998,
+          "title": "Unlocking the potential of large language models: Elastic's first code contribution to LangChain",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte1c29ca6cfa7a5f2/647748c5c5da5468c8b8a0ce/08-coral.jpeg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/universities-do-more-with-less-start-with-data",
+          "author": "Alex Stanley-Bell",
+          "description": "UK universities are taking on more and more priorities, but government per-student funding in the UK is near an all-time low. Learn how universities can strategically do more with less by examining a fundamental component of their operations: data.",
+          "link": "https://www.elastic.co/blog/universities-do-more-with-less-start-with-data",
+          "publishedOn": "2023-05-31T00:00:00.000Z",
+          "wordCount": 19026,
+          "title": "For universities looking to do more with less, start with your data",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc78df6364b930ecf/6351b41bbb329010566e0391/06-women-on-steps.jpg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/chatgpt-elasticsearch-faceting-filtering-more-context",
+          "author": "Luca Wintergerst",
+          "description": "By providing tools like ChatGPT additional context, you can increase the likelihood of obtaining more accurate results. See how Elasticsearch's faceting and filtering framework can allow users to refine their search and reduce costs.",
+          "link": "https://www.elastic.co/blog/chatgpt-elasticsearch-faceting-filtering-more-context",
+          "publishedOn": "2023-05-31T00:00:00.000Z",
+          "wordCount": 22466,
+          "title": "ChatGPT and Elasticsearch: Faceting, filtering, and more context",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt47fcec966e3e089a/64779e6b25223d7fb02a5d8c/blog-elastic-ai-woman.jpg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/chatgpt-elasticsearch-apm-instrumentation-performance-cost-analysis",
+          "author": "Luca Wintergerst",
+          "description": "In this blog, we'll instrument a Python application that uses OpenAI and analyze its performance, as well as the cost to run the application. Using the data gathered from the application, we will also show how to integrate LLMs into your application.",
+          "link": "https://www.elastic.co/blog/chatgpt-elasticsearch-apm-instrumentation-performance-cost-analysis",
+          "publishedOn": "2023-05-31T00:00:00.000Z",
+          "wordCount": 22849,
+          "title": "ChatGPT and Elasticsearch: APM instrumentation, performance, cost analysis, and printing results word by word",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc70ad95110c094b2/6477a58908523cc26e2e6e77/03-strobes.jpg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/large-language-models-elastic-code-langchain",
+          "author": "Jeff Vestal",
+          "description": ",\nToday we’ll be diving into the cutting-edge library, firmly situated in the world of large language models (LLMs), called LangChain and its synergy with Elastic. With LangChain's focus on making large language models more usable and versatile, and Elastic's scalable and fast search and analytics capabilities, this combination is opening new doors in the realm of application development and search application. In this blog, we'll explore what LangChain is, who it's for, and how Elastic fits into this picture, as well as discuss a recent contribution to LangChain by Elastic.\nimport elasticsearch\nfrom langchain.embeddings.elasticsearch import ElasticsearchEmbeddings# Instantiate ElasticsearchEmbeddings using credentials\nembeddings = ElasticsearchEmbeddings.from_credentials(\n   model_id,\n   …",
+          "link": "https://www.elastic.co/blog/large-language-models-elastic-code-langchain",
+          "publishedOn": "2023-05-31T00:00:00.000Z",
+          "wordCount": 19998,
+          "title": "Unlocking the potential of large language models: Elastic's first code contribution to LangChain",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte1c29ca6cfa7a5f2/647748c5c5da5468c8b8a0ce/08-coral.jpeg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/universities-do-more-with-less-start-with-data",
+          "author": "Alex Stanley-Bell",
+          "description": ",\nUniversities today are not only centres of academic excellence; they are hubs for student health and well-being, digital innovation, and international research and diplomacy. Despite the fact that higher education is tasked with taking on more and more priorities, government per-student funding in the UK is projected to reach an all-time low by 2024–25.\nWhile it’s tempting to systematically cut out courses in an effort to reduce costs, universities can strategically do more with less by examining one of the most fundamental (yet admittedly unexciting) components of university operations: data.\nThe unifying role of data in student outcomes\nMost education outcomes are reliant, at least partially, on data. This is especially true when you view a university as a “smart campus,” or an “ultra-…",
+          "link": "https://www.elastic.co/blog/universities-do-more-with-less-start-with-data",
+          "publishedOn": "2023-05-31T00:00:00.000Z",
+          "wordCount": 19026,
+          "title": "For universities looking to do more with less, start with your data",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc78df6364b930ecf/6351b41bbb329010566e0391/06-women-on-steps.jpg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/chatgpt-elasticsearch-faceting-filtering-more-context",
+          "author": "Luca Wintergerst",
+          "description": ",\nIn a recent blog post, we discussed how ChatGPT and Elasticsearch® can work together to help manage proprietary  data more effectively. By utilizing Elasticsearch's search capabilities and ChatGPT's contextual understanding, we demonstrated how the resulting outcomes can be improved.\n\nIn this post, we discuss how users’ experience can be further enhanced with the addition of facets, filtering, and additional context. By providing tools like ChatGPT additional context, you can increase the likelihood of obtaining more accurate results. See how Elasticsearch's faceting and filtering framework can allow users to refine their search and reduce the cost of engaging with ChatGPT.\nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt57f454122df6a7cc/6477a006b576a307064b6dd8/blog-elast…",
+          "link": "https://www.elastic.co/blog/chatgpt-elasticsearch-faceting-filtering-more-context",
+          "publishedOn": "2023-05-31T00:00:00.000Z",
+          "wordCount": 22466,
+          "title": "ChatGPT and Elasticsearch: Faceting, filtering, and more context",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt47fcec966e3e089a/64779e6b25223d7fb02a5d8c/blog-elastic-ai-woman.jpg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/chatgpt-elasticsearch-apm-instrumentation-performance-cost-analysis",
+          "author": "Luca Wintergerst",
+          "description": ",\nIn a previous blog post, we built a small Python application that queries Elasticsearch using a mix of vector search and BM25 to help find the most relevant results in a proprietary data set. The top hit is then passed to OpenAI, which answers the question for us. \n\nIn this blog, we will instrument a Python application that uses OpenAI and analyze its performance, as well as the cost to run the application. Using the data gathered from the application, we will also show how to integrate large language models (LLMs) into your application. As a bonus, we will try to answer the question: why does ChatGPT print its output word by word?\n,The question now is if this is from our two-phased approach of running a query in Elasticsearch first or if the slow behavior is emerging from OpenAI, or if …",
+          "link": "https://www.elastic.co/blog/chatgpt-elasticsearch-apm-instrumentation-performance-cost-analysis",
+          "publishedOn": "2023-05-31T00:00:00.000Z",
+          "wordCount": 22849,
+          "title": "ChatGPT and Elasticsearch: APM instrumentation, performance, cost analysis, and printing results word by word",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc70ad95110c094b2/6477a58908523cc26e2e6e77/03-strobes.jpg"
+        },
+        {
           "id": "https://www.elastic.co/blog/how-to-give-back-to-the-elastic-community",
           "author": "Ully Sampaio",
           "description": "Why should you join the Elastic Contributor Program? If you're looking for a way to highlight your contributions and browse through other community members' contributions as well, Elastic Contributors offers a great platform to do so.",
           "link": "https://www.elastic.co/blog/how-to-give-back-to-the-elastic-community",
           "publishedOn": "2023-05-30T13:00:00.000Z",
-          "wordCount": 20736,
+          "wordCount": 17750,
           "title": "How to give back to the Elastic community",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc0ba86f53d3be770/5d1f61998d27ea11c38214ca/Elastic_Contributor_elastic_contributor-blog_thumbnail.jpg"
         },
@@ -255,7 +325,7 @@
           "description": ",\nOne of the most beautiful things about having a front-row seat in the Elastic Community is witnessing folks helping each other. From Discuss and the Elastic Community Slack workspace to the Official Elastic YouTube channel no matter where you turn, you’ll see Elasticsearch pros and beginners sharing their knowledge. That's why we created the Elastic Contributor Program, our program that helps to broadcast your ideas and projects for the benefit of the wider Elastic community.\nBut why should you join this recognition and rewards program? If you're looking for a way to highlight your contributions and browse through other community members' contributions as well, Elastic Contributors offers a great platform to do so. \n1. Coding, pull requests, and projects using Elastic\nYou probably know t…",
           "link": "https://www.elastic.co/blog/how-to-give-back-to-the-elastic-community",
           "publishedOn": "2023-05-30T13:00:00.000Z",
-          "wordCount": 20736,
+          "wordCount": 17750,
           "title": "How to give back to the Elastic community",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc0ba86f53d3be770/5d1f61998d27ea11c38214ca/Elastic_Contributor_elastic_contributor-blog_thumbnail.jpg"
         },
@@ -265,7 +335,7 @@
           "description": "Elastic’s partnership momentum with AWS continues to grow through a series of collaborative efforts culminating in a new three-year global strategic collaboration agreement (SCA).",
           "link": "https://www.elastic.co/blog/elastic-innovate-grow-aws-partnership",
           "publishedOn": "2023-05-30T00:00:00.000Z",
-          "wordCount": 21113,
+          "wordCount": 18127,
           "title": "Elastic continues to innovate and grow through AWS partnership",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt1adaa1a7c8fa607f/6476021843f559679fb7d0e5/blog-elastic-aws.png"
         },
@@ -275,7 +345,7 @@
           "description": "Elastic has achieved AWS Security ISV Competency Partner status by working closely with AWS. This recognition highlights Elastic’s deep technical expertise with security in AWS and proven customer success securing the cloud journey for organizations.",
           "link": "https://www.elastic.co/blog/elastic-aws-securing-the-cloud-together",
           "publishedOn": "2023-05-30T00:00:00.000Z",
-          "wordCount": 22171,
+          "wordCount": 19185,
           "title": "Elastic and AWS — Securing the cloud, together",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9240e6ef76011399/6475fdb586abb20033e8394c/blog-elastic-aws-partner-competency.jpg"
         },
@@ -285,7 +355,7 @@
           "description": "The Elastic-Kyndryl partnership offers a revolutionary solution for real-time SAP system monitoring. This innovative approach ensures comprehensive SAP observability, optimizing performance and promoting proactive anomaly detection.",
           "link": "https://www.elastic.co/blog/sap-observability-elastic-kyndryl-partnership",
           "publishedOn": "2023-05-30T00:00:00.000Z",
-          "wordCount": 21716,
+          "wordCount": 18730,
           "title": "Revolutionizing SAP observability: The Elastic-Kyndryl partnership",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c3f329ce39c05a1/6297bad1ae6f0e4156d191df/enterprise-search-performing-website-dark-1680x980.png"
         },
@@ -295,7 +365,7 @@
           "description": "In the Kubernetes world, different personas demand different kinds of insights. In this post, we’ll focus on alerting and provide an overview of how alerts in Elastic Observability can help users quickly identify Kubernetes problems.",
           "link": "https://www.elastic.co/blog/enable-kubernetes-alerting-elastic-observability",
           "publishedOn": "2023-05-30T00:00:00.000Z",
-          "wordCount": 24919,
+          "wordCount": 21933,
           "title": "How to enable Kubernetes alerting with Elastic Observability",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt06644322f45e4d41/64765492b576a307134b68cd/alert-management.jpg"
         },
@@ -305,7 +375,7 @@
           "description": "Change is on the horizon for the world of logging. In this post, we’ll outline a recommended journey for moving from just logging to a fully integrated solution with logs, traces, and APM.",
           "link": "https://www.elastic.co/blog/introduction-apm-tracing-logging-customer-experience",
           "publishedOn": "2023-05-30T00:00:00.000Z",
-          "wordCount": 31401,
+          "wordCount": 28415,
           "title": "Gaining new perspectives beyond logging: An introduction to application performance monitoring",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6380424f89934f96/647658ecec2233010651bf95/log-management-720x420_(2).jpeg"
         },
@@ -315,7 +385,7 @@
           "description": ",\nDespite diverse economic headwinds, cloud growth continues across the globe. As more and more organizations find value in migrating key workloads to the cloud, Elastic is eager to support them. In fact, we’ve taken another significant step toward enabling organizations around the world to advance their cloud adoption journey with Elastic Cloud on AWS.\nBuilding momentum together\nOur partnership momentum with AWS continues to grow. Elastic is pleased to announce that we’ve signed a new three-year global strategic collaboration agreement (SCA) with AWS. This will allow our joint customers to benefit even more from our mutual investments in technology innovation.\nCurious about what’s new with Elastic and AWS?\nWhile we’ve been collaborating on this new agreement, we haven’t been just sitting …",
           "link": "https://www.elastic.co/blog/elastic-innovate-grow-aws-partnership",
           "publishedOn": "2023-05-30T00:00:00.000Z",
-          "wordCount": 21113,
+          "wordCount": 18127,
           "title": "Elastic continues to innovate and grow through AWS partnership",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt1adaa1a7c8fa607f/6476021843f559679fb7d0e5/blog-elastic-aws.png"
         },
@@ -325,7 +395,7 @@
           "description": ",\nElastic is pleased to announce that we have recently achieved the AWS Security Independent Software Vendor (ISV) Competency Partner status with specialization in Threat and Detection Response (SIEM, SOAR, and XDR). This recognition highlights our commitment to providing you, our customers, with advanced security capabilities that can help you protect your sensitive data and applications in the cloud.\nThe AWS Security ISV Partner Competency is awarded to partners who have demonstrated technical proficiency and proven customer success in delivering security solutions on AWS. To achieve this status, Elastic had to undergo a rigorous validation process, including a technical audit of its security capabilities and a review of customer case studies.\nElastic's achievement of this status is a si…",
           "link": "https://www.elastic.co/blog/elastic-aws-securing-the-cloud-together",
           "publishedOn": "2023-05-30T00:00:00.000Z",
-          "wordCount": 22171,
+          "wordCount": 19185,
           "title": "Elastic and AWS — Securing the cloud, together",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9240e6ef76011399/6475fdb586abb20033e8394c/blog-elastic-aws-partner-competency.jpg"
         },
@@ -335,7 +405,7 @@
           "description": ",\nAcross industries and geographies, businesses rely heavily on Systems Applications and Products (SAP) systems. These powerful and versatile systems streamline operations and manage critical data spanning areas like finance, human resources, and supply chain. However, the real-time monitoring of these systems, with an in-depth understanding of performance metrics and quick anomaly detection, is paramount for smooth operations and business continuity. It's here that our unique offering steps in.\n\nThis blog post will take you on a journey through the innovative solution crafted by Elastic and Kyndryl that offers comprehensive SAP observability. We'll discuss why this offering is a game-changer and how it brings unparalleled value to enterprises running SAP systems.\nThe necessity of SAP obse…",
           "link": "https://www.elastic.co/blog/sap-observability-elastic-kyndryl-partnership",
           "publishedOn": "2023-05-30T00:00:00.000Z",
-          "wordCount": 21716,
+          "wordCount": 18730,
           "title": "Revolutionizing SAP observability: The Elastic-Kyndryl partnership",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c3f329ce39c05a1/6297bad1ae6f0e4156d191df/enterprise-search-performing-website-dark-1680x980.png"
         },
@@ -345,7 +415,7 @@
           "description": ",\nIn the Kubernetes world, different personas demand different kinds of insights. Developers are interested in granular metrics and debugging information. SREs are interested in seeing everything at once to quickly get notified when a problem occurs and spot where the root cause is. In this post, we’ll focus on alerting and provide an overview of how alerts in Elastic Observability can help users quickly identify Kubernetes problems.\nWhy do we need alerts?\nLogs, metrics, and traces are just the base to build a complete monitoring solution for Kubernetes clusters. Their main goal is to provide debugging information and historical evidence for the infrastructure. \nWhile out-of-the-box dashboards, infrastructure topology, and logs exploration through Kibana are already quite handy to perform …",
           "link": "https://www.elastic.co/blog/enable-kubernetes-alerting-elastic-observability",
           "publishedOn": "2023-05-30T00:00:00.000Z",
-          "wordCount": 24919,
+          "wordCount": 21933,
           "title": "How to enable Kubernetes alerting with Elastic Observability",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt06644322f45e4d41/64765492b576a307134b68cd/alert-management.jpg"
         },
@@ -355,89 +425,9 @@
           "description": "Prioritize customer experience with APM and tracing,\nEnterprise software development and operations has become an interesting space. We have some incredibly powerful tools at our disposal, yet as an industry, we have failed to adopt many of these tools that can make our lives easier. One such tool that is currently underutilized is application performance monitoring (APM) and tracing, despite the fact that OpenTelemetry has made it possible to adopt at low friction. \n\nLogging, however, is ubiquitous. Every software application has logs of some kind, and the default workflow for troubleshooting (even today) is to go from exceptions experienced by customers and systems to the logs and start from there to find a solution. \n\nThere are various challenges with this, one of the main ones being th…",
           "link": "https://www.elastic.co/blog/introduction-apm-tracing-logging-customer-experience",
           "publishedOn": "2023-05-30T00:00:00.000Z",
-          "wordCount": 31401,
+          "wordCount": 28415,
           "title": "Gaining new perspectives beyond logging: An introduction to application performance monitoring",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6380424f89934f96/647658ecec2233010651bf95/log-management-720x420_(2).jpeg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/aws-kinesis-data-firehose-elastic-observability-analytics",
-          "author": "Udayasimha Theepireddy,Bahubali Shetti",
-          "description": "AWS users can now leverage the new Amazon Kinesis Firehose Delivery Stream to directly ingest logs into Elastic Cloud in real time for centralized alerting, troubleshooting, and analytics across your cloud and on-premises infrastructure.",
-          "link": "https://www.elastic.co/blog/aws-kinesis-data-firehose-elastic-observability-analytics",
-          "publishedOn": "2023-05-25T18:00:00.000Z",
-          "wordCount": 27465,
-          "title": "Unleash the power of Elastic and Amazon Kinesis Data Firehose to enhance observability and data analytics",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt4695040981eb09df/64669d56dba83e4cc4ea9734/image2.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/aws-kinesis-data-firehose-elastic-observability-analytics",
-          "author": "Udayasimha Theepireddy,Bahubali Shetti",
-          "description": ",\nAs more organizations leverage the Amazon Web Services (AWS) cloud platform and services to drive operational efficiency and bring products to market, managing logs becomes a critical component of maintaining visibility and safeguarding multi-account AWS environments. Traditionally, logs are stored in Amazon Simple Storage Service (Amazon S3) and then shipped to an external monitoring and analysis solution for further processing.\n\nTo simplify this process and reduce management overhead, AWS users can now leverage the new Amazon Kinesis Firehose Delivery Stream to ingest logs into Elastic Cloud in AWS in real time and view them in the Elastic Stack alongside other logs for centralized analytics. This eliminates the necessity for time-consuming and expensive procedures such as VM provision…",
-          "link": "https://www.elastic.co/blog/aws-kinesis-data-firehose-elastic-observability-analytics",
-          "publishedOn": "2023-05-25T18:00:00.000Z",
-          "wordCount": 27465,
-          "title": "Unleash the power of Elastic and Amazon Kinesis Data Firehose to enhance observability and data analytics",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt4695040981eb09df/64669d56dba83e4cc4ea9734/image2.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/whats-new-elastic-enterprise-search-8-8-0",
-          "author": "Serena Chou",
-          "description": "In Elastic Enterprise Search 8.8, semantic search is the default. Evolving AI search experiences, powered by Elastic’s new machine learning model are now packaged with our catalog of Elastic integrations developed to sync data from popular database and storage content sources like MongoDB and Amazon S3 in a few clicks.",
-          "link": "https://www.elastic.co/blog/whats-new-elastic-enterprise-search-8-8-0",
-          "publishedOn": "2023-05-25T00:00:00.000Z",
-          "wordCount": 22531,
-          "title": "Elastic Enterprise Search 8.8: Easy AI-powered search for your enterprise",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltbb4996d39a786d20/5ffe05b822252d41f72866fc/blog-thumb-release-enterprise-search.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/whats-new-elastic-observability-8-8-0",
-          "author": "Felix Barnsteiner,Vinay Chandrasekhar,Tom Grabowski",
-          "description": "Elastic Observability 8.8 delivers the general availability release of synthetic monitoring, the ability to ingest data directly to Elastic Cloud from Amazon Kinesis Firehose, and new capabilities for managing service level objectives.",
-          "link": "https://www.elastic.co/blog/whats-new-elastic-observability-8-8-0",
-          "publishedOn": "2023-05-25T00:00:00.000Z",
-          "wordCount": 23186,
-          "title": "Elastic Observability 8.8: Efficient operations with GitOps-based synthetics monitoring and direct AWS Firehose ingest",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt80837971b91f17db/5ffe08dd2c2bd44889c7e731/blog-thumb-release-observability.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/whats-new-kibana-ml-8-8-0",
-          "author": "The Elastic Platform team",
-          "description": "With Elastic 8.8, customize Kibana and access log pattern categorization where you need it — while exploring log data in Discover — accelerating time to insight. Also, suppress automated alerts during maintenance periods, and attach files to cases.",
-          "link": "https://www.elastic.co/blog/whats-new-kibana-ml-8-8-0",
-          "publishedOn": "2023-05-25T00:00:00.000Z",
-          "wordCount": 21856,
-          "title": "Kibana 8.8: Dark mode, custom branding, ML in Discover, and reduced alert noise",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt7851c5531de64259/601055c982548c0f8284c39d/blog-thumb-release-kibana.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/whats-new-elastic-enterprise-search-8-8-0",
-          "author": "Serena Chou",
-          "description": ",\nElastic Enterprise Search 8.8 seamlessly bundles new Elastic developed semantic search capabilities with an expanding catalog of open code database and storage connectors. Additionally this release adds rich capabilities to measure and simplify adding features to your search application. \n\nThese new capabilities allow customers to: \n\nQuickly uplevel search experiences with AI/ML powered relevance\nUtilize new production ready, scalable, and open code connectors to unify search across many sources of data\nVisualize web and search analytics from the perspective of their web client \n\nElastic Enterprise Search 8.8 is available now on Elastic Cloud — the only hosted Elasticsearch offering to include all of the new features in this latest release. You can also download the Elastic Stack and our…",
-          "link": "https://www.elastic.co/blog/whats-new-elastic-enterprise-search-8-8-0",
-          "publishedOn": "2023-05-25T00:00:00.000Z",
-          "wordCount": 22531,
-          "title": "Elastic Enterprise Search 8.8: Easy AI-powered search for your enterprise",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltbb4996d39a786d20/5ffe05b822252d41f72866fc/blog-thumb-release-enterprise-search.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/whats-new-elastic-observability-8-8-0",
-          "author": "Felix Barnsteiner,Vinay Chandrasekhar,Tom Grabowski",
-          "description": ",\nElastic Observability 8.8 introduces the general availability release of synthetic monitoring with GitOps integration, the ability to ingest data directly to Elastic Cloud from Amazon Kinesis Firehose without an agent, and new beta capabilities for managing service level objectives to help improve customer experiences and drive efficient operations.\nThese new features allow customers to:\n\nManage their customers’ web experience with a global managed synthetics monitoring test service\nManage synthetics tests using CI/CD and GitOps optimized workflows\nSimplify log aggregation by collecting AWS logs via a direct ingest from Kinesis Data Firehose without deploying an Elastic agent\nSet and manage clear and measurable targets for application service levels\n\nElastic Observability 8.8 is availabl…",
-          "link": "https://www.elastic.co/blog/whats-new-elastic-observability-8-8-0",
-          "publishedOn": "2023-05-25T00:00:00.000Z",
-          "wordCount": 23186,
-          "title": "Elastic Observability 8.8: Efficient operations with GitOps-based synthetics monitoring and direct AWS Firehose ingest",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt80837971b91f17db/5ffe08dd2c2bd44889c7e731/blog-thumb-release-observability.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/whats-new-kibana-ml-8-8-0",
-          "author": "The Elastic Platform team",
-          "description": ",\nToday we are pleased to announce the general availability of Kibana 8.8, which lets you set dark mode individually and choose custom branding — the top frequently requested enhancements! In this and future releases, we embed machine learning more tightly within the workflows where it arises, starting in 8.8 with log categorization in Discover, random sampler in Lens, and selecting all rows while inspecting data-frame analytics results, making these valuable features easier to discover and use. Finally, you can suppress automated notifications during maintenance windows and with other conditions, reducing alert noise, and we keep enhancing collaboration on cases, including attach files and activities to cases. \n\nThese new features allow customers to:\n\nReplace Elastic logo, organization na…",
-          "link": "https://www.elastic.co/blog/whats-new-kibana-ml-8-8-0",
-          "publishedOn": "2023-05-25T00:00:00.000Z",
-          "wordCount": 21856,
-          "title": "Kibana 8.8: Dark mode, custom branding, ML in Discover, and reduced alert noise",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt7851c5531de64259/601055c982548c0f8284c39d/blog-thumb-release-kibana.png"
         }
       ]
     },
@@ -534,6 +524,16 @@
       "siteUrl": "https://devblogs.microsoft.com/devops/",
       "articles": [
         {
+          "id": "https://devblogs.microsoft.com/devops/?p=67042",
+          "author": "Dan Hellem",
+          "description": "We are delighted to announce the long-awaited private preview of the new Markdown editor for the work item discussion. This exciting feature empowers you to utilize the Markdown syntax and editor for all future comments. The Markdown editor aligns with the same experience you encounter in other parts of the product,\nThe post Markdown editor for comments (preview) appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/markdown-editor-for-comments-preview/",
+          "publishedOn": "2023-05-31T15:06:33.000Z",
+          "wordCount": 4763,
+          "title": "Markdown editor for comments (preview)",
+          "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/03/agile.png"
+        },
+        {
           "id": "https://devblogs.microsoft.com/devops/?p=67023",
           "author": "Dan Hellem",
           "description": "This sprint marked another milestone for New Boards. We successfully activated the “Try the New Boards Hub” message for a large chunk of customers. As a result, a greater number of users have had the opportunity to engage with the New Boards Hub and share feedback.\nThe post New Boards Hub Update, Sprint 222 appeared first on Azure DevOps Blog.",
@@ -549,7 +549,7 @@
           "description": "In software development, testing is an integral part of the development process. Tests are used to verify that software behaves as expected, and they ensure that changes made to the code do not break existing functionality. However, there is a problem that often arises when running automated tests: Flaky tests.\nThe post Improved Flaky Test Management in Azure Pipelines appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/improved-flaky-test-management-in-azure-pipelines/",
           "publishedOn": "2023-05-26T17:00:58.000Z",
-          "wordCount": 4538,
+          "wordCount": 4648,
           "title": "Improved Flaky Test Management in Azure Pipelines",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2023/05/PIPELINES.png"
         },
@@ -559,7 +559,7 @@
           "description": "In October of last year we announced that GitHub Advanced Security was coming to Azure DevOps, starting with a private preview in November. Since then, we’ve been working hard on the product and incorporating feedback from our private preview customers. Today,\nThe post GitHub Advanced Security for Azure DevOps public preview starts now! appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/github-advanced-security-for-azure-devops-public-preview-starts-now/",
           "publishedOn": "2023-05-23T08:00:35.000Z",
-          "wordCount": 5395,
+          "wordCount": 5424,
           "title": "GitHub Advanced Security for Azure DevOps public preview starts now!",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2023/05/AdvancedSecurity_PushProtection2.gif"
         },
@@ -579,19 +579,9 @@
           "description": "Today, we released Azure DevOps Server 2022.0.1 RTW. This is our final release of Azure DevOps Server 2022.0.1. You can directly install Azure DevOps Server 2022.0.1 or upgrade from Azure DevOps Server 2022.0.1 RC, Azure DevOps Server 2022, Team Foundation Server 2015 or newer versions of the product.\nThe post Now available: Azure DevOps Server 2022.0.1 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/now-available-azure-devops-server-2022-0-1/",
           "publishedOn": "2023-05-09T17:56:46.000Z",
-          "wordCount": 4793,
+          "wordCount": 5107,
           "title": "Now available: Azure DevOps Server 2022.0.1",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2019/02/index-hero.jpg"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=66868",
-          "author": "Dan Hellem",
-          "description": "Our team remains dedicated to improving New Boards Hub by addressing any issues that may arise. We’re happy to report that the New Boards Hub has been steadily progressing with each sprint. Although it is not quite ready for general availability yet,\nThe post New Boards Hub Update, Sprint 221 appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/new-boards-hub-update-sprint-221/",
-          "publishedOn": "2023-05-01T18:33:07.000Z",
-          "wordCount": 4832,
-          "title": "New Boards Hub Update, Sprint 221",
-          "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2023/03/sketch-1.png"
         }
       ]
     },
@@ -606,6 +596,16 @@
       "feedUrl": "http://feeds.feedburner.com/AmazonWebServicesBlog",
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
+        {
+          "id": "bc2108141ac815b7f74d0e72d658b6327572e9bf",
+          "author": "Jeff Barr",
+          "description": "AWS Snow Family family devices are used to cost-effectively move data to the cloud and to process data at the edge. The enhanced Snowball Edge Storage Optimized devices are designed for your petabyte-scale data migration projects, with 210 terabytes of NVMe storage and the ability to transfer up to 1.5 gigabytes of data per second. […]",
+          "link": "https://aws.amazon.com/blogs/aws/new-snowball-edge-storage-optimized-devices-with-more-storage-and-bandwidth/",
+          "publishedOn": "2023-05-31T20:01:02.000Z",
+          "wordCount": 1252,
+          "title": "New – Snowball Edge Storage Optimized Devices with More Storage and Bandwidth",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/827bfc458708f0b442009c9c9836f7e4b65557fb/2020/06/03/Blog-Post_thumbnail.png"
+        },
         {
           "id": "fe3d1e8a253e9523034a3a21219b3a0a80c584ae",
           "author": "Donnie Prakoso",
@@ -725,16 +725,6 @@
           "wordCount": 1511,
           "title": "New – Set Up Your AWS Notifications in One Place",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/04/03/2023-aws-user-notifications-1.jpg"
-        },
-        {
-          "id": "ae3f62fcbec27e6f57598f0de24b8a0e4fcfbe7e",
-          "author": "Sébastien Stormacq",
-          "description": "Conference season has started and I was happy to meet and talk with iOS and Swift developers at the New York Swifty conference last week. I will travel again to Turino (Italy), Amsterdam (Netherlands), Frankfurt (Germany), and London (UK) in the coming weeks. Feel free to stop by and say hi if you are around. […]",
-          "link": "https://aws.amazon.com/blogs/aws/week-in-review-aws-verified-access-java-17-amplify-flutter-conferences-and-more-may-1-2023/",
-          "publishedOn": "2023-05-01T22:21:37.000Z",
-          "wordCount": 2212,
-          "title": "Week in Review – AWS Verified Access, Java 17, Amplify Flutter, Conferences, and More – May 1, 2023",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/05/01/AWS-WIR-5.1.23-1.png"
         }
       ]
     },
@@ -743,6 +733,16 @@
       "feedUrl": "https://xkcd.com/atom.xml",
       "siteUrl": "https://xkcd.com/",
       "articles": [
+        {
+          "id": "https://xkcd.com/2783/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/ruling_out.png\" title=\"We were able to replicate and confirm prior authors' detection of a moon orbiting the Earth with high confidence.\" alt=\"We were able to replicate and confirm prior authors' detection of a moon orbiting the Earth with high confidence.\" />",
+          "link": "https://xkcd.com/2783/",
+          "publishedOn": "2023-05-31T00:00:00.000Z",
+          "wordCount": 180,
+          "title": "Ruling Out",
+          "imageUrl": "https://imgs.xkcd.com/comics/ruling_out_2x.png"
+        },
         {
           "id": "https://xkcd.com/2782/",
           "author": null,
@@ -772,16 +772,6 @@
           "wordCount": 180,
           "title": "Physical Quantities",
           "imageUrl": "https://imgs.xkcd.com/comics/physical_quantities_2x.png"
-        },
-        {
-          "id": "https://xkcd.com/2779/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/exoplanet_high_5.png\" title=\"Tau Ceti is farther away, so it took me 36 years to start the war over updog.\" alt=\"Tau Ceti is farther away, so it took me 36 years to start the war over updog.\" />",
-          "link": "https://xkcd.com/2779/",
-          "publishedOn": "2023-05-22T00:00:00.000Z",
-          "wordCount": 180,
-          "title": "Exoplanet High-5",
-          "imageUrl": "https://imgs.xkcd.com/comics/exoplanet_high_5_2x.png"
         }
       ]
     },
@@ -791,12 +781,32 @@
       "siteUrl": "https://camunda.com/",
       "articles": [
         {
+          "id": "https://camunda.com/?p=82990&preview=true&preview_id=82990",
+          "author": "Lana Ginns",
+          "description": "Learn why more and more companies are investing in cloud-native technology, and how it can benefit you today.\nThe post Three Reasons to go Cloud-Native with Your Processes appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2023/05/three-reasons-cloud-native-with-your-processes/",
+          "publishedOn": "2023-06-01T01:52:07.000Z",
+          "wordCount": 3165,
+          "title": "Three Reasons to go Cloud-Native with Your Processes",
+          "imageUrl": "https://camunda.com/wp-content/uploads/2023/05/three-reasons-cloud-native-your-processes_1200x627.png"
+        },
+        {
+          "id": "https://camunda.com/?p=82967&preview=true&preview_id=82967",
+          "author": "Shane Ernest",
+          "description": "We’ve enhanced Camunda Optimize to produce more structured data so that it is ready for machine learning, making it easier than ever to take advantage of AI to improve your processes. Learn how.\nThe post Enable AI-Powered Process Optimization with ML-Ready Dataset appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2023/05/ai-powered-process-optimization-ml-ready-dataset/",
+          "publishedOn": "2023-05-31T18:50:17.000Z",
+          "wordCount": 3138,
+          "title": "Enable AI-Powered Process Optimization with ML-Ready Dataset",
+          "imageUrl": "https://camunda.com/wp-content/uploads/2023/05/enable-ai-powered-process-optimization-new-ml-ready-dataset_1200x627.png"
+        },
+        {
           "id": "https://camunda.com/?p=82123&preview=true&preview_id=82123",
           "author": "Joe Pappas",
           "description": "Learn how to migrate your process flows from Pega to Camunda quickly and easily with this guide, which walks you through how to use our free migration tool.\nThe post Migrating Processes from Pega to Camunda: A Step-by-Step Tutorial appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/05/migrating-from-pega-to-camunda-platform-tutorial/",
           "publishedOn": "2023-05-25T20:31:00.000Z",
-          "wordCount": 3030,
+          "wordCount": 3040,
           "title": "Migrating Processes from Pega to Camunda: A Step-by-Step Tutorial",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/05/Migrating-Processes-Pega-to-Camunda_1200x627.png"
         },
@@ -806,7 +816,7 @@
           "description": "When the backlog grows too fast, how do we prioritize the work that’s in front of us? See how we do it at Camunda.\nThe post Prioritizing Our DevRel Backlog with Form Builder, DMN, and a Process Model appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/05/prioritizing-devrel-backlog-form-builder-dmn-process-model/",
           "publishedOn": "2023-05-22T19:32:16.000Z",
-          "wordCount": 3869,
+          "wordCount": 3879,
           "title": "Prioritizing Our DevRel Backlog with Form Builder, DMN, and a Process Model",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/05/DevRel_Priorities-Camunda-v2_1200x627.png"
         },
@@ -826,7 +836,7 @@
           "description": "With our Form Editor you can draft, refine, and validate forms with ease. Learn how to design forms to perfectly fit your business needs.\nThe post From Draft to Perfection: Creating Effective Forms for Human Workflows appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/05/draft-to-perfection-effective-forms-human-workflows/",
           "publishedOn": "2023-05-17T11:30:00.000Z",
-          "wordCount": 3098,
+          "wordCount": 3102,
           "title": "From Draft to Perfection: Creating Effective Forms for Human Workflows",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/05/creating-effective-forms-human-workflows_1200x627.png"
         },
@@ -836,7 +846,7 @@
           "description": "We're thrilled to announce that Camunda has achieved SOC 2 Type 2 certification for Camunda Platform 8.\nThe post Camunda Receives SOC 2 Type 2 Certification appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/05/camunda-soc-2-type-2-certification/",
           "publishedOn": "2023-05-16T10:00:00.000Z",
-          "wordCount": 2604,
+          "wordCount": 2608,
           "title": "Camunda Receives SOC 2 Type 2 Certification",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/05/camunda-soc-2-type-2-certified_1200x627.png"
         },
@@ -846,7 +856,7 @@
           "description": "Wondering how to use generative AI for human workflows? Learn how generative AI tools like ChatGPT can be used to make human-centric processes easier.\nThe post Facilitating Human Workflow Orchestration with Generative AI appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/05/human-workflow-orchestration-generative-ai-openai/",
           "publishedOn": "2023-05-12T19:33:24.000Z",
-          "wordCount": 3298,
+          "wordCount": 3312,
           "title": "Facilitating Human Workflow Orchestration with Generative AI",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/05/facilitating-human-workflow-orchesrtation-generative-ai_1200x627.png"
         },
@@ -856,7 +866,7 @@
           "description": "The Camunda Platform 8 SDK for Node.js provides a single high-level API to interact with many components of Camunda Platform 8.\nThe post A Unified Camunda Platform 8 SDK for Node.js appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/05/unified-camunda-8-sdk-nodejs/",
           "publishedOn": "2023-05-09T21:22:20.000Z",
-          "wordCount": 4294,
+          "wordCount": 4298,
           "title": "A Unified Camunda Platform 8 SDK for Node.js",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/05/Unified_Camunda_Platform_8_SDK_1200x627.png"
         },
@@ -866,29 +876,9 @@
           "description": "In the first alpha release of Camunda Automation Runtime 7.20, you can find a new JUEL module based on Jakarta EL 4.0 and many bug fixes.\nThe post Camunda Automation Platform 7.20.0-alpha1 Released appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/05/camunda-automation-platform-7-20-0-alpha1/",
           "publishedOn": "2023-05-09T15:17:31.000Z",
-          "wordCount": 2620,
+          "wordCount": 2624,
           "title": "Camunda Automation Platform 7.20.0-alpha1 Released",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/05/camunda-platform-7-20-0-alpha1.png"
-        },
-        {
-          "id": "https://camunda.com/?p=80864&preview=true&preview_id=80864",
-          "author": "Niall Deehan",
-          "description": "Learn how you can use the Camunda Platform 8 REST API to start a process using the latest Connectors.  \nThe post Start a Camunda Platform 8 Process via REST with Webhooks appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2023/05/start-camunda-8-process-rest-webhooks/",
-          "publishedOn": "2023-05-08T19:19:58.000Z",
-          "wordCount": 3186,
-          "title": "Start a Camunda Platform 8 Process via REST with Webhooks",
-          "imageUrl": "https://camunda.com/wp-content/uploads/2023/05/camunda-8-process-rest-webhooks_1200x627.png"
-        },
-        {
-          "id": "https://camunda.com/?p=80806&preview=true&preview_id=80806",
-          "author": "Joao Oliveira",
-          "description": "We've spoken with our early adopters, who shared with us what they like about the pay-as-you-go model and powerful features of our Professional Edition.\nThe post How is Camunda Platform 8 Professional Edition Helping Companies Accelerate their Projects? appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2023/05/camunda-professional-edition-accelerate-projects/",
-          "publishedOn": "2023-05-05T20:41:14.000Z",
-          "wordCount": 2888,
-          "title": "How is Camunda Platform 8 Professional Edition Helping Companies Accelerate their Projects?",
-          "imageUrl": "https://camunda.com/wp-content/uploads/2023/05/camunda-professional-edition-accelerate-projects-2_1200x627.png"
         }
       ]
     },
@@ -1131,16 +1121,6 @@
           "wordCount": 4282,
           "title": "Blog: Kubernetes 1.27: StatefulSet PVC Auto-Deletion (beta)",
           "imageUrl": null
-        },
-        {
-          "id": "https://kubernetes.io/blog/2023/05/02/hpa-container-resource-metric/",
-          "author": null,
-          "description": "Author: Kensei Nakada (Mercari)\nKubernetes 1.20 introduced the ContainerResource type metric\nin HorizontalPodAutoscaler (HPA).\nIn Kubernetes 1.27, this feature moves to beta and the corresponding feature gate (HPAContainerMetrics) gets enabled by default.\nWhat is the ContainerResource type metric\nThe ContainerResource type metric allows us to configure the autoscaling based on resource usage of individual containers.\nIn the following example, the HPA controller scales the target\nso that the average utilization of the cpu in the application container of all the pods is around 60%.\n(See the algorithm details\nto know how the desired replica number is calculated exactly)\ntype: ContainerResource\ncontainerResource:\n name: cpu\n container: application\n target:\n type: Utilization\n averageUtilizatio…",
-          "link": "https://kubernetes.io/blog/2023/05/02/hpa-container-resource-metric/",
-          "publishedOn": "2023-05-02T04:00:00.000Z",
-          "wordCount": 3917,
-          "title": "Blog: Kubernetes 1.27: HorizontalPodAutoscaler ContainerResource type metric moves to beta",
-          "imageUrl": null
         }
       ]
     },
@@ -1155,7 +1135,7 @@
           "description": "Tycho Andersen",
           "link": "https://netflixtechblog.com/debugging-a-fuse-deadlock-in-the-linux-kernel-c75cd7989b6d?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-05-19T19:21:03.000Z",
-          "wordCount": 5470,
+          "wordCount": 5473,
           "title": "Debugging a FUSE deadlock in the Linux kernel",
           "imageUrl": null
         },
@@ -1165,7 +1145,7 @@
           "description": "By Chris Wolfe, Joey Schorr, and Victor Roldán Betancort",
           "link": "https://netflixtechblog.com/abac-on-spicedb-enabling-netflixs-complex-identity-types-c118f374fa89?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-05-19T12:01:47.000Z",
-          "wordCount": 5638,
+          "wordCount": 5633,
           "title": "ABAC on SpiceDB: Enabling Netflix’s Complex Identity Types",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*SzRBmrSwBYBJyCjvcqFy3w.png"
         },
@@ -1175,7 +1155,7 @@
           "description": "Shyam Gala, Javier Fernandez-Ivern, Anup Rokkam Pratap, Devang Shah",
           "link": "https://netflixtechblog.com/migrating-critical-traffic-at-scale-with-no-downtime-part-1-ba1c7a1c7835?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-05-04T21:32:37.000Z",
-          "wordCount": 6392,
+          "wordCount": 6382,
           "title": "Migrating Critical Traffic At Scale with No Downtime — Part 1",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1075/1*Xq_jAychfflCMguIEhqKKw.png"
         }
@@ -1186,6 +1166,16 @@
       "feedUrl": "http://feeds.feedburner.com/blogspot/gJZg",
       "siteUrl": "http://ai.googleblog.com/",
       "articles": [
+        {
+          "id": "http://ai.googleblog.com/2023/05/large-sequence-models-for-software.html",
+          "author": null,
+          "description": "Posted by Petros Maniatis and Daniel Tarlow, Research Scientists, Google\n\n\n\n\nSoftware isn’t created in one dramatic step. It improves bit by bit, one little step at a time — editing, running unit tests, fixing build errors, addressing code reviews, editing some more, appeasing linters, and fixing more errors — until finally it becomes good enough to merge into a code repository. Software engineering isn’t an isolated process, but a dialogue among human developers, code reviewers, bug reporters, software architects and tools, such as compilers, unit tests, linters and static analyzers. \n\n\n\n\nToday we describe DIDACT (​​Dynamic Integrated Developer ACTivity), which is a methodology for training large machine learning (ML) models for software development. The novelty of DIDACT is that it uses …",
+          "link": "http://ai.googleblog.com/2023/05/large-sequence-models-for-software.html",
+          "publishedOn": "2023-05-31T17:13:00.001Z",
+          "wordCount": 27930,
+          "title": "Large sequence models for software development activities",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8_SbpjaNoBFB_ymmlPa_9YTKL4tOAPfWFHajgnphxoPc3dTXyORaOPk1kN1TP8gVgdjiyPtqGfEYmVCyYIIBdd2ICEIROmNVMCbJmcmT0wLoRWow8djNms5ejc-pfk2Bx_79P7FCnN5PGAQqnXq8YWkn5sX_oLwP0NSoq3IvaV9WyiYhYk1wYK8cTEg/w1200-h630-p-k-no-nu/DIDACT-Hero.jpg"
+        },
         {
           "id": "http://ai.googleblog.com/2023/05/foundation-models-for-reasoning-on.html",
           "author": null,
@@ -1231,8 +1221,8 @@
           "author": null,
           "description": "Posted by Alexander Frömmgen, Staff Software Engineer, and Lera Kharatyan, Senior Software Engineer, Core Systems & Experiences\n\n\n  \n\nCode-change reviews are a critical part of the software development process at scale, taking a significant amount of the code authors’ and the code reviewers’ time. As part of this process, the reviewer inspects the proposed code and asks the author for code changes through comments written in natural language. At Google, we see millions of reviewer comments per year, and authors require an average of ~60 minutes active shepherding time between sending changes for review and finally submitting the change. In our measurements, the required active work time that the code author must do to address reviewer comments grows almost linearly with the number of comme…",
           "link": "http://ai.googleblog.com/2023/05/resolving-code-review-comments-with-ml.html",
-          "publishedOn": "2023-05-23T17:51:00.004Z",
-          "wordCount": 27817,
+          "publishedOn": "2023-05-23T17:51:00.007Z",
+          "wordCount": 27821,
           "title": "Resolving code review comments with ML",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoK3FH1StJnuqrj0gTExqLUxNkVfwRVmiG9tbCNUDV2I5295yqrPlw0L4hRHJmsruvZBIa_FqAFvJfwW7VU4XvxDU4ZweaW6ehENeU7-BLJaLVGPPtn-25cme5qTUldd11YigkAj6Ks9Tif6J3MePey_Gn3cAp3nQf9LMmVy4Eg3yF0qyBZPUKfYJYLw/w1200-h630-p-k-no-nu/comments2code.png"
         },
@@ -1354,12 +1344,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=46177",
+          "author": "Seth Godin",
+          "description": "A question we don’t ask ourselves very often, but a choice we make every day. It’s tempting to not care. If you choose to not care, you’re off the hook. It’s simply to do as little as possible, avoid too much trouble, ask if it will be on the test, try to stay off the […]",
+          "link": "https://feeds.feedblitz.com/~/743641313/0/sethsblog~Who-cares/",
+          "publishedOn": "2023-05-31T08:15:00.000Z",
+          "wordCount": 955,
+          "title": "Who cares?",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061314.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=45652",
           "author": "Seth Godin",
           "description": "No matter how big your backpack is, you can’t carry a bonfire with you when you go on a camping trip. A match is sufficient. Conversations are like that. Conversations are the tools that change our culture. Someone who cares talking with and teaching and learning from someone who was ready to engage. My new […]",
           "link": "https://feeds.feedblitz.com/~/743443247/0/sethsblog~The-spark/",
           "publishedOn": "2023-05-30T08:23:00.000Z",
-          "wordCount": 972,
+          "wordCount": 968,
           "title": "The spark",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061310-1.jpg"
         },
@@ -1369,7 +1369,7 @@
           "description": "You’re entitled to it, and we will do our best to help you find what you want. But it’s unlikely that what you want is what everyone wants. It’s hard to believe that there is only one appropriate standard for value, observance, speed or performance. The easiest way for us to help you is to […]",
           "link": "https://feeds.feedblitz.com/~/743306669/0/sethsblog~Your-preference-is-not-universal/",
           "publishedOn": "2023-05-29T08:28:00.000Z",
-          "wordCount": 945,
+          "wordCount": 940,
           "title": "Your preference is not universal",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806137-1.jpg"
         },
@@ -1379,7 +1379,7 @@
           "description": "Mike Schur, co-creator of Parks and Recreation, said of his career, “This is not stuff you can read in a book,” he said. “This is stuff that you have to experience.” I think it’s also useful to flip it around. There are things you will have trouble experiencing until you read them in a book. […]",
           "link": "https://feeds.feedblitz.com/~/743183471/0/sethsblog~On-reading-it-in-a-book/",
           "publishedOn": "2023-05-28T08:26:00.000Z",
-          "wordCount": 973,
+          "wordCount": 968,
           "title": "On reading it in a book",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg"
         },
@@ -1389,7 +1389,7 @@
           "description": "How much of what we want, really want, is due to the ideas that culture has given us, and how much is truly what we need? If memetic desire isn’t making us happy, perhaps we can find some new ideas.",
           "link": "https://feeds.feedblitz.com/~/743061506/0/sethsblog~Captives-of-memetic-desire/",
           "publishedOn": "2023-05-27T08:30:00.000Z",
-          "wordCount": 892,
+          "wordCount": 887,
           "title": "Captives of memetic desire",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061315.jpg"
         },
@@ -1399,7 +1399,7 @@
           "description": "An asteroid has never destroyed the Earth, therefore an asteroid never will. This brand has been involved in scandals before, and it has always come back stronger, so there’s nothing to worry about. There have been technology changes before, but we’ve always managed to find clients for what we do. Survivor bias is the trap […]",
           "link": "https://feeds.feedblitz.com/~/742823903/0/sethsblog~Survivor-bias-and-the-mistake-of-stability/",
           "publishedOn": "2023-05-26T09:37:00.000Z",
-          "wordCount": 1007,
+          "wordCount": 1002,
           "title": "Survivor bias and the mistake of stability",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806139-1.jpg"
         },
@@ -1409,7 +1409,7 @@
           "description": "“I” is first person. “You” is second person. “She” “They” “It” are all third person. So far, so good. But how can ChatGPT use the word “I”? And when we talk about ChatGPT, is it “he” or “she” or “they” or “it”? Because anything that is an “it” shouldn’t be able to say “I”. We […]",
           "link": "https://feeds.feedblitz.com/~/742647548/0/sethsblog~The-first-person/",
           "publishedOn": "2023-05-25T08:52:00.000Z",
-          "wordCount": 1091,
+          "wordCount": 1086,
           "title": "The first person",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg"
         },
@@ -1419,7 +1419,7 @@
           "description": "“I have trained companies to treat people better, and SONG is the guidebook I wished I had when doing this work. Now, I will now give it to the enlightened and brutes alike, with a recommendation to take immediate action.  Seth Godin has been carefully documenting the end of the industrial revolution and providing new […]",
           "link": "https://feeds.feedblitz.com/~/742552982/0/sethsblog~Conversations-an-early-review-and-the-free-class/",
           "publishedOn": "2023-05-24T16:33:00.000Z",
-          "wordCount": 1137,
+          "wordCount": 1132,
           "title": "Conversations, an early review… (and the free class)",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg"
         },
@@ -1429,7 +1429,7 @@
           "description": "…to make it look easy. Sometimes, you don’t need to bother. Making it look hard might be a plus. The important part is how it makes the recipient feel.",
           "link": "https://feeds.feedblitz.com/~/742497554/0/sethsblog~Its-not-easy/",
           "publishedOn": "2023-05-24T08:01:00.000Z",
-          "wordCount": 879,
+          "wordCount": 874,
           "title": "It’s not easy",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg"
         },
@@ -1439,19 +1439,9 @@
           "description": "When Marvin Gaye joined Motown, he went with his strengths. He wanted to work only in the studio. He hated touring and was sure he lacked the charisma and other gifts that made some musicians great onstage. This didn’t really fit the label’s strengths, and he struggled to find his footing. In 1962, Berry Gordy […]",
           "link": "https://feeds.feedblitz.com/~/742200911/0/sethsblog~Stevie-and-Marvin/",
           "publishedOn": "2023-05-23T08:48:00.000Z",
-          "wordCount": 1029,
+          "wordCount": 1024,
           "title": "Stevie and Marvin",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061315.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=43561",
-          "author": "Seth Godin",
-          "description": "When a six-year-old kid beats the other kids at tennis, that kid is more likely to be encouraged to play more, or to get a coach, and pretty soon, they’re much better at tennis than the others. When a musical group has a single that gets some buzz on Spotify, they’re more likely to be […]",
-          "link": "https://feeds.feedblitz.com/~/742069826/0/sethsblog~Compounding-head-starts/",
-          "publishedOn": "2023-05-22T08:37:00.000Z",
-          "wordCount": 1084,
-          "title": "Compounding head starts",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806134-1.jpg"
         }
       ]
     },
@@ -1460,6 +1450,36 @@
       "feedUrl": "https://blog.jetbrains.com/feed/",
       "siteUrl": "https://blog.jetbrains.com",
       "articles": [
+        {
+          "id": "https://blog.jetbrains.com/?post_type=kotlin&p=315074",
+          "author": "Ksenia Shneyveys",
+          "description": "Advent of Code in Kotlin We are incredibly grateful to the hundreds of people who participated in Advent of Code in Kotlin this year! It was an absolute joy to solve the fun, holiday-themed puzzles every day from December 1 to December 25. JetBrains and the Kotlin team have participated in the event for several […]",
+          "link": "https://blog.jetbrains.com/kotlin/2023/05/advent-of-code-2022-in-kotlin-winners-2/",
+          "publishedOn": "2023-05-30T15:27:26.000Z",
+          "wordCount": null,
+          "title": "Advent of Code 2022 in Kotlin: Announcing the Winners",
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=321815",
+          "author": "Khalid Abuhakmeh",
+          "description": "Let’s face it. There are parts of programming that are tedious and repetitive. JetBrains products help reduce boilerplate by offering generalized quick fixes and templates that benefit the most developers. That said, you’re likely to have unique code structures and patterns for your projects that only you and your team utilize.  Wouldn’t it be great […]",
+          "link": "https://blog.jetbrains.com/dotnet/2023/05/30/level-up-with-live-templates-in-jetbrains-rider/",
+          "publishedOn": "2023-05-30T12:39:17.000Z",
+          "wordCount": 3450,
+          "title": "Level Up with Live Templates in JetBrains Rider",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/02/rd-how-tos-blog-social-share-image-1280x720-1-1.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=teamcity&p=357351",
+          "author": "Olga Bedrina",
+          "description": "TeamCity 2023.05 introduces some of the most anticipated features, including the dark theme, terminal access to agents, and multi-node setup enhancements. The integration with Let’s Encrypt and the two-factor authentication for custom groups are here to further strengthen TeamCity’s security features. With this release, we’re also rolling out the GitHub App connection, the ability to […]",
+          "link": "https://blog.jetbrains.com/teamcity/2023/05/teamcity-202305/",
+          "publishedOn": "2023-05-30T10:17:13.000Z",
+          "wordCount": 3620,
+          "title": "TeamCity 2023.05: Dark Theme, Agent Terminal, and More",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/05/teamcity-202305-social.png"
+        },
         {
           "id": "https://blog.jetbrains.com/?post_type=dotnet&p=357902",
           "author": "Sasha Ivanova",
@@ -1549,36 +1569,6 @@
           "wordCount": 2934,
           "title": "User Experience and Performance Improvements in GoLand 2023.2 EAP #2",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/05/Blog_Social_share_image_1280x720_GoLand-2x.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=webstorm&p=355896",
-          "author": "David Watson",
-          "description": "We’re continuing to work on WebStorm 2023.2 with our second EAP build. To catch up on all of the new features WebStorm 2023.2 will bring, check out our previous EAP blog posts. The Toolbox App is the easiest way to get the EAP builds and keep both your stable and EAP versions up to date. […]",
-          "link": "https://blog.jetbrains.com/webstorm/2023/05/webstorm-2023-2-eap2/",
-          "publishedOn": "2023-05-19T10:39:27.000Z",
-          "wordCount": 2958,
-          "title": "WebStorm 2023.2 EAP #2: Volar Support for Vue, Updates to the New UI, and More",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/05/WS-2023-2-Social_share.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=356597",
-          "author": "Khalid Abuhakmeh",
-          "description": "Join us Thursday, June 1st, 2023, 3:00 – 4:00 PM UTC (check other timezones) for our free live webinar, Building payment flows with Stripe and Azure, with Staff Developer Advocate, Cecil Phillip. Register now and get a reminder, or join on YouTube Content creators, businesses, and even developers are trying to find ways to connect […]",
-          "link": "https://blog.jetbrains.com/dotnet/2023/05/19/webinar-cecil-phillip-building-payment-flows-with-stripe-and-azure/",
-          "publishedOn": "2023-05-19T10:22:30.000Z",
-          "wordCount": 2886,
-          "title": "Webinar – Cecil Phillip – Building payment flows with Stripe and Azure",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/05/Blog_Social_share_image_1280x720-4.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=platform&p=356519",
-          "author": "Anna Maltceva",
-          "description": "JetBrains Marketplace provides a platform for plugin developers to distribute their plugins to millions of JetBrains users worldwide. If you’re planning to release a new plugin on JetBrains Marketplace, you might want a specific release date in order to coordinate your launch activities. With that in mind, we’ve released a new feature to help you […]",
-          "link": "https://blog.jetbrains.com/platform/2023/05/releasing-a-non-public-plugin-on-jetbrains-marketplace/",
-          "publishedOn": "2023-05-18T13:45:22.000Z",
-          "wordCount": 3269,
-          "title": "Releasing a Non-Public Plugin on JetBrains Marketplace",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/05/mp-news-blog-social-share-image-1280x720-1.png"
         }
       ]
     }

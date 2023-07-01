@@ -6,6 +6,16 @@
       "siteUrl": "https://spring.io",
       "articles": [
         {
+          "id": "https://spring.io/blog/2023/06/30/spring-cloud-2021-0-8-aka-jubilee-is-available",
+          "author": "Marcin Grzejszczak",
+          "description": "Level up your Java code and explore what Spring can do for you.",
+          "link": "https://spring.io/blog/2023/06/30/spring-cloud-2021-0-8-aka-jubilee-is-available",
+          "publishedOn": "2023-06-30T00:00:00.000Z",
+          "wordCount": 7188,
+          "title": "Spring Cloud 2021.0.8 (aka Jubilee) Is Available",
+          "imageUrl": "https://spring.io/img/og-spring.png"
+        },
+        {
           "id": "https://spring.io/blog/2023/06/29/a-bootiful-podcast-elastics-philipp-krenn",
           "author": "Josh Long",
           "description": "Level up your Java code and explore what Spring can do for you.",
@@ -94,16 +104,6 @@
           "wordCount": 7037,
           "title": "Spring Boot 2.7.13 available now",
           "imageUrl": "https://spring.io/img/og-spring.png"
-        },
-        {
-          "id": "https://spring.io/blog/2023/06/22/a-bootiful-podcast-micrometer-lead-tommy-ludwig-from-spring-io-2023",
-          "author": "Josh Long",
-          "description": "Level up your Java code and explore what Spring can do for you.",
-          "link": "https://spring.io/blog/2023/06/22/a-bootiful-podcast-micrometer-lead-tommy-ludwig-from-spring-io-2023",
-          "publishedOn": "2023-06-22T00:00:00.000Z",
-          "wordCount": 6961,
-          "title": "A Bootiful Podcast: Micrometer lead Tommy Ludwig",
-          "imageUrl": "https://spring.io/img/og-spring.png"
         }
       ]
     },
@@ -112,6 +112,16 @@
       "feedUrl": "https://www.hashicorp.com/blog/feed.xml",
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
+        {
+          "id": "https://www.hashicorp.com/blog/consul-1-16-enhances-service-mesh-reliability-user-experience-and-security",
+          "author": null,
+          "description": "Consul 1.16 adds new reliability, scalability, security, service mesh UX, extensibility, and service discovery capabilities.",
+          "link": "https://www.hashicorp.com/blog/consul-1-16-enhances-service-mesh-reliability-user-experience-and-security",
+          "publishedOn": "2023-06-30T16:00:00.000Z",
+          "wordCount": 4282,
+          "title": "Consul 1.16 enhances service mesh reliability, user experience, and security",
+          "imageUrl": "https://www.datocms-assets.com/2885/1620083627-blog-library-product-consul-dark-graphics.jpg"
+        },
         {
           "id": "https://www.hashicorp.com/blog/announcing-hcp-consul-management-plane-with-cloud-based-observability",
           "author": null,
@@ -178,7 +188,7 @@
           "description": "Watch this 10-minute video for an insightful overview of the survey’s key findings and how HashiCorp can help your organization make the most of the cloud.",
           "link": "https://www.hashicorp.com/blog/unpacking-the-2023-hashicorp-state-of-cloud-strategy-survey-video",
           "publishedOn": "2023-06-20T16:00:00.000Z",
-          "wordCount": 3775,
+          "wordCount": 3759,
           "title": "Unpacking the 2023 HashiCorp State of Cloud Strategy Survey [Video]",
           "imageUrl": "https://www.datocms-assets.com/2885/1686928187-social-share-state-of-the-cloud-23-edited.png"
         },
@@ -233,16 +243,6 @@
           "imageUrl": "https://www.datocms-assets.com/2885/1620073844-blog-library-product-terraform-cloud-tfc-black-gradient.jpg"
         },
         {
-          "id": "https://www.hashicorp.com/blog/consul-1-16-enhances-service-mesh-reliability-user-experience-and-security",
-          "author": null,
-          "description": "Consul 1.16 adds new reliability, scalability, security, service mesh UX, extensibility, and service discovery capabilities.",
-          "link": "https://www.hashicorp.com/blog/consul-1-16-enhances-service-mesh-reliability-user-experience-and-security",
-          "publishedOn": "2023-06-13T08:00:00.000Z",
-          "wordCount": 4241,
-          "title": "Consul 1.16 enhances service mesh reliability, user experience, and security",
-          "imageUrl": "https://www.datocms-assets.com/2885/1620083627-blog-library-product-consul-dark-graphics.jpg"
-        },
-        {
           "id": "https://www.hashicorp.com/blog/terraform-1-5-brings-config-driven-import-and-checks",
           "author": null,
           "description": "HashiCorp Terraform 1.5 is now generally available, featuring a config-driven import workflow and a new language primitive for infrastructure validations.",
@@ -280,24 +280,64 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
-          "id": "https://www.elastic.co/blog/elastic-stack-8-8-2-released",
-          "author": "Rob Bavey",
-          "description": "Version 8.8.2 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 8.8.2 over the previous patch versions in 7.17.x.\nFrom the 8.8.0 release onwards, container images are now signed with cosign/Sigstore.\nThe 8.8.2 patch release contains a fix for a potential security vulnerability. Please see our security advisory for more details.\nFor details of the issues that have been fixed and a full list of changes for each product in this version, please refer to the release notes.",
-          "link": "https://www.elastic.co/blog/elastic-stack-8-8-2-released",
-          "publishedOn": "2023-06-29T00:00:00.000Z",
-          "wordCount": 15270,
-          "title": "Elastic Stack 8.8.2 released",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6a26a8ec94e87272/6001ac6a96de49101cfb1e46/cta-illustration-space-launch-white-bg.png"
+          "id": "https://www.elastic.co/blog/data-ingestion-elasticsearch",
+          "author": "Adrien Grand,Joe Gallo,Tyler Perkins",
+          "description": "Data ingestion involves a lot of things that usually take a non-negligible amount of time. Fortunately, we've got improvements in 8.6, 8.7, and 8.8, which enabled some good speedups for end-to-end ingestion.",
+          "link": "https://www.elastic.co/blog/data-ingestion-elasticsearch",
+          "publishedOn": "2023-06-30T00:00:00.000Z",
+          "wordCount": 22716,
+          "title": "How we sped up data ingestion in Elasticsearch 8.6, 8.7, and 8.8",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt930aaaab2c31c31d/6297ba3d5aebca45794ddbcc/blog-search-results-dark-720x420.png"
         },
         {
-          "id": "https://www.elastic.co/blog/how-elastic-security-drive-value-organization",
-          "author": "Rick Fernandez,Mandy Andress,Riya Juneja",
-          "description": "With our new Elastic Security Value Calculator, you can easily estimate how Elastic can drive financial gains for your organization. Based on your results, you’ll know how Elastic Security creates efficiencies for you.",
-          "link": "https://www.elastic.co/blog/how-elastic-security-drive-value-organization",
-          "publishedOn": "2023-06-29T00:00:00.000Z",
-          "wordCount": 19867,
-          "title": "How does Elastic Security drive value to your organization?",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt539f8b977e5a814a/6297bb5dbf05100f50a8c01f/illustration-currency-value-scale-1680x980-white.png"
+          "id": "https://www.elastic.co/blog/improving-elastic-apm-ui-performance-continuous-rollups-service-metrics",
+          "author": "Felix Barnsteiner,Yngrid Coello,Dario Gieselaar,Carson Ip",
+          "description": "We made significant improvements to the UI performance in Elastic APM to make it scale with even the most demanding workloads, by pre-aggregating metrics at the service level, and storing the metrics at different levels of granularity.",
+          "link": "https://www.elastic.co/blog/improving-elastic-apm-ui-performance-continuous-rollups-service-metrics",
+          "publishedOn": "2023-06-30T00:00:00.000Z",
+          "wordCount": 24352,
+          "title": "Improving the Elastic APM UI performance with continuous rollups and service metrics",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltb2c20419db303a6f/649de89fb93cad24e2a70b38/elastic-blog-header-ui.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/generative-ai-retail-cpg",
+          "author": "Poornima Ramakrishnan",
+          "description": "Retailers can differentiate themselves by offering next-generation experiences through apps that use Elastic's NLP for product selection. Learn how GAI elevates shopping and how retailers use models within Elasticsearch for enhanced functionality.",
+          "link": "https://www.elastic.co/blog/generative-ai-retail-cpg",
+          "publishedOn": "2023-06-30T00:00:00.000Z",
+          "wordCount": 22767,
+          "title": "The power of generative AI for retail and CPG",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltafa0e0e69618e170/649dd3ebb93cad2886a70ada/elastic-blog-header-image-gai.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/data-ingestion-elasticsearch",
+          "author": "Adrien Grand,Joe Gallo,Tyler Perkins",
+          "description": ",\nAs some of you already noticed, Elasticsearch 8.6, 8.7, and 8.8 brought good indexing speedups across a wide range of data sets, from simple keywords to heavy KNN vectors, as well as ingest-pipeline-heavy ingestion workloads. Ingestion involves many components — running ingest pipelines, inverting data in memory, flushing segments, merging segments — and all of these usually take a non-negligible amount of time. Fortunately for you, we've made improvements across all of these areas, enabling faster speeds for end-to-end ingestion. \n\nAs an example, 8.8 is 13% faster than 8.6 at ingestion on our benchmark that simulates a realistic logging use-case with multiple data sets, ingest pipelines, etc. The following chart shows the ingestion rate going from ~22.5k docs/s to ~25.5k docs/s over the period of time when we implemented these optimizations.\nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt99f2525e6b30c673/649eece17c84d215bdc2ac35/elastic-blog-ingestion-speedups.png,elastic-blog-ingestion-speedups.png,\nThis blog dives into some of the changes that helped achieve ingestion speedups in 8.6, 8.7, and 8.8.\nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt512a0f1b39217f35/649ef4e0fa183536f118dccb/elastic-blog-total-ingest-pipline.png,elastic-blog-total-ingest-pipline.png,\nWe expect these speedups to be representative of the improvement that a non-trivial ingest use case would see after an upgrade to 8.7 or a more recent version.",
+          "link": "https://www.elastic.co/blog/data-ingestion-elasticsearch",
+          "publishedOn": "2023-06-30T00:00:00.000Z",
+          "wordCount": 22716,
+          "title": "How we sped up data ingestion in Elasticsearch 8.6, 8.7, and 8.8",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt930aaaab2c31c31d/6297ba3d5aebca45794ddbcc/blog-search-results-dark-720x420.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/improving-elastic-apm-ui-performance-continuous-rollups-service-metrics",
+          "author": "Felix Barnsteiner,Yngrid Coello,Dario Gieselaar,Carson Ip",
+          "description": ",\nIn today's fast-paced digital landscape, the ability to monitor and optimize application performance is crucial for organizations striving to deliver exceptional user experiences. At Elastic, we recognize the significance of providing our user base with a reliable Observability platform that scales with you as you’re onboarding thousands of services that produce terabytes of data each day. We have been diligently working behind the scenes to enhance our solution to meet the demands of even the largest deployments.\n\nIn this blog post, we are excited to share the significant strides we have made in improving the UI performance of Elastic APM. Maintaining a snappy user interface can be a challenge when interactively summarizing the massive amounts of data needed to provide an overview of the performance for an entire enterprise-scale service inventory. We want to assure our customers that we have listened, taken action, and made notable architectural changes to elevate the scalability and maturity of our solution.\nFAQs,,\nThe release and timing of any features or functionality described in this post remain at Elastic's sole discretion. Any features or functionality not currently available may not be delivered on time or at all.",
+          "link": "https://www.elastic.co/blog/improving-elastic-apm-ui-performance-continuous-rollups-service-metrics",
+          "publishedOn": "2023-06-30T00:00:00.000Z",
+          "wordCount": 24352,
+          "title": "Improving the Elastic APM UI performance with continuous rollups and service metrics",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltb2c20419db303a6f/649de89fb93cad24e2a70b38/elastic-blog-header-ui.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/generative-ai-retail-cpg",
+          "author": "Poornima Ramakrishnan",
+          "description": ",\nThe retail and consumer packaged goods (CPG) industry has undergone significant transformations due to advancements in technology. Technological innovations have reshaped various aspects of the industry, including customer engagement, inventory optimization, and supply chain management. These innovations have helped drive digital transformation, improve operational efficiency, enhance the customer experience, and promote sustainability. Retailers and CPG companies that embrace and leverage technology effectively are better positioned to thrive in an increasingly competitive and rapidly evolving market. And as we are all well aware, generative AI is poised to usher in a new era of enhanced productivity. The retail & CPG industry, being no stranger to reaping such benefits, stands to gain …",
+          "link": "https://www.elastic.co/blog/generative-ai-retail-cpg",
+          "publishedOn": "2023-06-30T00:00:00.000Z",
+          "wordCount": 22767,
+          "title": "The power of generative AI for retail and CPG",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltafa0e0e69618e170/649dd3ebb93cad2886a70ada/elastic-blog-header-image-gai.png"
         },
         {
           "id": "https://www.elastic.co/blog/elastic-stack-container-images-signed-sigstore",
@@ -305,9 +345,19 @@
           "description": "Software supply chain attacks are accelerating. Elastic introduced a new capability of signing the Elastic Stack container images with Sigstore to help verify the provenance before deploying them, and therefore, protect against supply chain attacks.",
           "link": "https://www.elastic.co/blog/elastic-stack-container-images-signed-sigstore",
           "publishedOn": "2023-06-29T00:00:00.000Z",
-          "wordCount": 18606,
+          "wordCount": 21502,
           "title": "Elastic Stack container images signed with Sigstore!",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt61ec1db8518cdff6/6377cd21506d90105712b7ff/illustration-stack-modernize-solutions-1689x980.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/how-elastic-security-drive-value-organization",
+          "author": "Rick Fernandez,Mandy Andress,Riya Juneja",
+          "description": "With our new Elastic Security Value Calculator, you can easily estimate how Elastic can drive financial gains for your organization. Based on your results, you’ll know how Elastic Security creates efficiencies for you.",
+          "link": "https://www.elastic.co/blog/how-elastic-security-drive-value-organization",
+          "publishedOn": "2023-06-29T00:00:00.000Z",
+          "wordCount": 22763,
+          "title": "How does Elastic Security drive value to your organization?",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt539f8b977e5a814a/6297bb5dbf05100f50a8c01f/illustration-currency-value-scale-1680x980-white.png"
         },
         {
           "id": "https://www.elastic.co/blog/elastic-stack-7-17-11-released",
@@ -315,7 +365,47 @@
           "description": "Version 7.17.11 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 7.17.11 over the previous patch versions in 7.17.x.\nThe 7.17.11 patch release contains a fix for a potential security vulnerability. Please see our security advisory for more details.\nFor details of the issues that have been fixed and a full list of changes for each product in this version, please refer to the release notes.",
           "link": "https://www.elastic.co/blog/elastic-stack-7-17-11-released",
           "publishedOn": "2023-06-29T00:00:00.000Z",
-          "wordCount": 15236,
+          "wordCount": 18132,
+          "title": "Elastic Stack 7.17.11 released",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c35d17afad9d20d/5f122812c31823015df6ef0a/blog-thumb-rocket-launch.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/elastic-stack-8-8-2-released",
+          "author": "Rob Bavey",
+          "description": "Version 8.8.2 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 8.8.2 over the previous patch versions in 7.17.x.\nFrom the 8.8.0 release onwards, container images are now signed with cosign/Sigstore.\nThe 8.8.2 patch release contains a fix for a potential security vulnerability. Please see our security advisory for more details.\nFor details of the issues that have been fixed and a full list of changes for each product in this version, please refer to the release notes.",
+          "link": "https://www.elastic.co/blog/elastic-stack-8-8-2-released",
+          "publishedOn": "2023-06-29T00:00:00.000Z",
+          "wordCount": 18166,
+          "title": "Elastic Stack 8.8.2 released",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6a26a8ec94e87272/6001ac6a96de49101cfb1e46/cta-illustration-space-launch-white-bg.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/elastic-stack-container-images-signed-sigstore",
+          "author": "Maxime Greau",
+          "description": ",\nSoftware supply chain attacks keep increasing. That's why this topic is a top priority for security leaders.\nIn that regard, this blog post highlights a new capability of signing the Elastic Stack container images with Sigstore to:\n\nSecure the Elastic Software Supply Chain workflow\nProvide an easy and standard way for Elastic users to verify the provenance of the Elastic container images before deploying them to any infrastructure and therefore protect against supply chain attacks\nMeet regulatory and compliance requirements\n$ cosign verify --key https://artifacts.elastic.co/cosign.pub \\\n                  docker.elastic.co/elasticsearch/elasticsearch:8.8.1,\nThe command prints the check results and the signature payload in JSON format:\nVerification for docker.elastic.co/elasticsearch/elast…",
+          "link": "https://www.elastic.co/blog/elastic-stack-container-images-signed-sigstore",
+          "publishedOn": "2023-06-29T00:00:00.000Z",
+          "wordCount": 21502,
+          "title": "Elastic Stack container images signed with Sigstore!",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt61ec1db8518cdff6/6377cd21506d90105712b7ff/illustration-stack-modernize-solutions-1689x980.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/how-elastic-security-drive-value-organization",
+          "author": "Rick Fernandez,Mandy Andress,Riya Juneja",
+          "description": ",\nIntroducing the new Elastic Security Value Calculator. With this tool, you can quickly quantify the financial efficiencies Elastic® can deliver for your organization. \nEstimate Elastic's value to your organization. Visualize how Elastic Security improves KPIs around risk, costs, and productivity. The numbers tell the story: achieving holistic visibility reduces risk, improves productivity, and drives cost savings and revenue recovery.\nVideo transcript:,\nHi, all. I'm Mandy, Elastic’s CISO. Before I compare the above outcomes, let me first share my perspective for context. Fundamentally, I see security as a data problem, and I'm often asked, what keeps you up at night? I always give the same answer: what do I not know? There are so many things changing and happening in the global threat en…",
+          "link": "https://www.elastic.co/blog/how-elastic-security-drive-value-organization",
+          "publishedOn": "2023-06-29T00:00:00.000Z",
+          "wordCount": 22763,
+          "title": "How does Elastic Security drive value to your organization?",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt539f8b977e5a814a/6297bb5dbf05100f50a8c01f/illustration-currency-value-scale-1680x980-white.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/elastic-stack-7-17-11-released",
+          "author": "Rob Bavey",
+          "description": "Read about the updates and bug fixes that have been included in this release.",
+          "link": "https://www.elastic.co/blog/elastic-stack-7-17-11-released",
+          "publishedOn": "2023-06-29T00:00:00.000Z",
+          "wordCount": 18132,
           "title": "Elastic Stack 7.17.11 released",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c35d17afad9d20d/5f122812c31823015df6ef0a/blog-thumb-rocket-launch.png"
         },
@@ -325,39 +415,9 @@
           "description": "Read about the updates and bug fixes that have been included in this release.",
           "link": "https://www.elastic.co/blog/elastic-stack-8-8-2-released",
           "publishedOn": "2023-06-29T00:00:00.000Z",
-          "wordCount": 15270,
+          "wordCount": 18166,
           "title": "Elastic Stack 8.8.2 released",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6a26a8ec94e87272/6001ac6a96de49101cfb1e46/cta-illustration-space-launch-white-bg.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/how-elastic-security-drive-value-organization",
-          "author": "Rick Fernandez,Mandy Andress,Riya Juneja",
-          "description": ",\nIntroducing the new Elastic Security Value Calculator. With this tool, you can quickly quantify the financial efficiencies Elastic® can deliver for your organization. \nEstimate Elastic's value to your organization. Visualize how Elastic Security improves KPIs around risk, costs, and productivity. The numbers tell the story: achieving holistic visibility reduces risk, improves productivity, and drives cost savings and revenue recovery.\nVideo transcript:,\nHi, all. I'm Mandy, Elastic’s CISO. Before I compare the above outcomes, let me first share my perspective for context. Fundamentally, I see security as a data problem, and I'm often asked, what keeps you up at night? I always give the same answer: what do I not know? There are so many things changing and happening in the global threat en…",
-          "link": "https://www.elastic.co/blog/how-elastic-security-drive-value-organization",
-          "publishedOn": "2023-06-29T00:00:00.000Z",
-          "wordCount": 19867,
-          "title": "How does Elastic Security drive value to your organization?",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt539f8b977e5a814a/6297bb5dbf05100f50a8c01f/illustration-currency-value-scale-1680x980-white.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-stack-container-images-signed-sigstore",
-          "author": "Maxime Greau",
-          "description": ",\nSoftware supply chain attacks keep increasing. That's why this topic is a top priority for security leaders.\nIn that regard, this blog post highlights a new capability of signing the Elastic Stack container images with Sigstore to:\n\nSecure the Elastic Software Supply Chain workflow\nProvide an easy and standard way for Elastic users to verify the provenance of the Elastic container images before deploying them to any infrastructure and therefore protect against supply chain attacks\nMeet regulatory and compliance requirements\n$ cosign verify --key https://artifacts.elastic.co/cosign.pub \\\n                  docker.elastic.co/elasticsearch/elasticsearch:8.8.1,\nThe command prints the check results and the signature payload in JSON format:\nVerification for docker.elastic.co/elasticsearch/elast…",
-          "link": "https://www.elastic.co/blog/elastic-stack-container-images-signed-sigstore",
-          "publishedOn": "2023-06-29T00:00:00.000Z",
-          "wordCount": 18606,
-          "title": "Elastic Stack container images signed with Sigstore!",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt61ec1db8518cdff6/6377cd21506d90105712b7ff/illustration-stack-modernize-solutions-1689x980.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-stack-7-17-11-released",
-          "author": "Rob Bavey",
-          "description": "Read about the updates and bug fixes that have been included in this release.",
-          "link": "https://www.elastic.co/blog/elastic-stack-7-17-11-released",
-          "publishedOn": "2023-06-29T00:00:00.000Z",
-          "wordCount": 15236,
-          "title": "Elastic Stack 7.17.11 released",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c35d17afad9d20d/5f122812c31823015df6ef0a/blog-thumb-rocket-launch.png"
         },
         {
           "id": "https://www.elastic.co/blog/open-sourcing-sysgrok-ai-assistant",
@@ -365,7 +425,7 @@
           "description": "Perf-copilot is an open-source, AI assistant for understanding performance data, optimizing systems, and remediating issues. It shows how large language models, like OpenAI's GPT, can be used to assist with performance analysis and remediation.",
           "link": "https://www.elastic.co/blog/open-sourcing-sysgrok-ai-assistant",
           "publishedOn": "2023-06-28T00:00:00.000Z",
-          "wordCount": 19772,
+          "wordCount": 22668,
           "title": "Open-sourcing sysgrok — An AI assistant for analyzing, understanding, and optimizing systems",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte8fc303b023d1684/649b553d6c102ee4eaa5691d/AI-assist_(1).png"
         },
@@ -375,7 +435,7 @@
           "description": ",\nIn this post I will introduce sysgrok, a research prototype in which we are investigating how large language models (LLMs), like OpenAI's GPT models, can be applied to problems in the domains of performance optimization, root cause analysis, and systems engineering. You can find it on GitHub.\n,This video also shows the chat functionality provided by sysgrok. When provided with the –chat argument, sysgrok will drop into a chat session after each response from the LLM. \nThis capability can also be applied generically to the output of Linux command line tools. For example, in the article Linux Performance Analysis in 60 seconds, Brendan Gregg outlines 10 commands that an SRE should run when they first connect to a host that is experiencing a performance or stability issue. The analyzecmd su…",
           "link": "https://www.elastic.co/blog/open-sourcing-sysgrok-ai-assistant",
           "publishedOn": "2023-06-28T00:00:00.000Z",
-          "wordCount": 19772,
+          "wordCount": 22668,
           "title": "Open-sourcing sysgrok — An AI assistant for analyzing, understanding, and optimizing systems",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte8fc303b023d1684/649b553d6c102ee4eaa5691d/AI-assist_(1).png"
         },
@@ -385,19 +445,9 @@
           "description": "The time between graduating and starting your first job is an exciting — and overwhelming — time. Get advice from four Elasticians.",
           "link": "https://www.elastic.co/blog/culture-guide-to-first-tech-job",
           "publishedOn": "2023-06-27T00:00:00.000Z",
-          "wordCount": 17048,
+          "wordCount": 19944,
           "title": "The Elastic Guide to: Getting your first tech job",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt2d34fabb9baf4f21/649b066d96c4d625aca41d58/Guide-to-1st-tech-job_Elastic_720x420_B_V1.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/accelerating-vector-search-simd-instructions",
-          "author": "Chris Hegarty",
-          "description": "Take a look at the low-level primitives used in Lucene's vector search, how they reliably compile at runtime to SIMD instructions –– such as AVX instructions on x64 and NEON instructions on AArch64 –– and what impact this has on performance.",
-          "link": "https://www.elastic.co/blog/accelerating-vector-search-simd-instructions",
-          "publishedOn": "2023-06-27T00:00:00.000Z",
-          "wordCount": 20828,
-          "title": "Accelerating vector search with SIMD instructions",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltba746218da18dd51/63740608a32209106e8b1aa2/illustration-scalability-gear-1680x980_(1).jpg"
         },
         {
           "id": "https://www.elastic.co/blog/3-models-logging-opentelemetry-elastic",
@@ -405,29 +455,9 @@
           "description": "Because OpenTelemetry increases usage of tracing and metrics with developers, logging continues to provide flexible, application-specific, and event-driven data. Explore OpenTelemetry logging and how it provides guidance on the available approaches.",
           "link": "https://www.elastic.co/blog/3-models-logging-opentelemetry-elastic",
           "publishedOn": "2023-06-27T00:00:00.000Z",
-          "wordCount": 23501,
+          "wordCount": 26397,
           "title": "3 models for logging with OpenTelemetry and Elastic",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt7cc35a78a30b3da7/649b03c5f7bfd11675832418/log_infrastructure_apm_synthetics-monitoring.jpeg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-wins-2023-microsoft-partner-of-the-year-award-commercial-marketplace",
-          "author": "Dusty Jackson,Hemant Malik,Isabelle Li,Lisa Troshian",
-          "description": "Elastic has been recognized as the 2023 Microsoft Worldwide Commercial Marketplace Partner of the Year and the US Business Transformation Commercial Marketplace Partner of the Year, showcasing Elastic as a top Global ISV partner with Microsoft.",
-          "link": "https://www.elastic.co/blog/elastic-wins-2023-microsoft-partner-of-the-year-award-commercial-marketplace",
-          "publishedOn": "2023-06-27T00:00:00.000Z",
-          "wordCount": 17169,
-          "title": "Elastic wins the 2023 Worldwide and US Microsoft Partner of the Year Award for Commercial Marketplace",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltec08a560253af09a/649b273a463b5c44722d3c06/poty-msft-blog-2.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/relativity-elasticsearch-azure-openai",
-          "author": "Hemant Malik,Aditya Tripathi",
-          "description": "Elasticsearch Relevance Engine is a set of tools for developers to build AI-powered search applications. Relativity, the eDiscovery and legal search tech company, is building next-generation search experience with Elastic and Microsoft Azure Open AI.",
-          "link": "https://www.elastic.co/blog/relativity-elasticsearch-azure-openai",
-          "publishedOn": "2023-06-27T00:00:00.000Z",
-          "wordCount": 19987,
-          "title": "Relativity uses Elasticsearch and Azure OpenAI to build futuristic search experiences, today",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt4b2bf98c86ba4743/649b321a1ea8293624f57945/14-stairs.jpeg"
         },
         {
           "id": "https://www.elastic.co/blog/culture-guide-to-first-tech-job",
@@ -435,19 +465,9 @@
           "description": ",\nThe time between graduating and starting your first job is an exciting — and overwhelming — time. As you enter the ‘real world’, you’re embarking on a new phase and there isn’t one path to take. \n\nIf you’ve surveyed your options and are set on finding a role in tech, we can help! We asked two participants of our ElastiGrad program and two seasoned tech-industry Elasticians for their advice on getting your first job in tech. \n\n,\nNetworking \nAs you start to browse open roles and consider applying for jobs, you might be surprised at the breadth of roles that are available. Tina Henderson, Manager, Sales Development at Elastic, says it’s common for recent grads to not fully grasp the various roles that exist in the tech industry. \n\nEarly grads can often be intimidated by a role and what is r…",
           "link": "https://www.elastic.co/blog/culture-guide-to-first-tech-job",
           "publishedOn": "2023-06-27T00:00:00.000Z",
-          "wordCount": 17048,
+          "wordCount": 19944,
           "title": "The Elastic Guide to: Getting your first tech job",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt2d34fabb9baf4f21/649b066d96c4d625aca41d58/Guide-to-1st-tech-job_Elastic_720x420_B_V1.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/accelerating-vector-search-simd-instructions",
-          "author": "Chris Hegarty",
-          "description": ",\nFor many years now, code running on the Java Platform has benefited from automatic vectorization — superword optimizations in the HotSpot C2 compiler that pack multiple scalar operations into a SIMD (Single Instruction Multiple Data) vector instruction. This is great, but these kinds of optimizations are somewhat brittle, have natural complexity limits, and are constrained by the Java Platform specification (e.g., strict ordering of floating point arithmetic). This is not to say that such optimizations are not still valuable, just that there are cases where being explicit about the shape of the code can have significantly better performance. The low-level primitive operations supporting vector search in Lucene is one such case.\nThis article takes a look at the low-level primitives used i…",
-          "link": "https://www.elastic.co/blog/accelerating-vector-search-simd-instructions",
-          "publishedOn": "2023-06-27T00:00:00.000Z",
-          "wordCount": 20828,
-          "title": "Accelerating vector search with SIMD instructions",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltba746218da18dd51/63740608a32209106e8b1aa2/illustration-scalability-gear-1680x980_(1).jpg"
         },
         {
           "id": "https://www.elastic.co/blog/3-models-logging-opentelemetry-elastic",
@@ -455,29 +475,9 @@
           "description": ",\nArguably, OpenTelemetry exists to (greatly) increase usage of tracing and metrics among developers. That said, logging will continue to play a critical role in providing flexible, application-specific, event-driven data. Further, OpenTelemetry has the potential to bring added value to existing application logging flows:\n\nCommon metadata across tracing, metrics, and logging to facilitate contextual correlation, including metadata passed between services as part of REST or RPC APIs; this is a critical element of service observability in the age of distributed, horizontally scaled systems\n\nAn optional unified data path for tracing, metrics, and logging to facilitate common tooling and signal routing to your observability backend\n\nAdoption of metrics and tracing among developers to date has …",
           "link": "https://www.elastic.co/blog/3-models-logging-opentelemetry-elastic",
           "publishedOn": "2023-06-27T00:00:00.000Z",
-          "wordCount": 23501,
+          "wordCount": 26397,
           "title": "3 models for logging with OpenTelemetry and Elastic",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt7cc35a78a30b3da7/649b03c5f7bfd11675832418/log_infrastructure_apm_synthetics-monitoring.jpeg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-wins-2023-microsoft-partner-of-the-year-award-commercial-marketplace",
-          "author": "Dusty Jackson,Hemant Malik,Isabelle Li,Lisa Troshian",
-          "description": ",\nWe are proud to announce that Elastic has received two Partner of the Year awards from Microsoft for 2023, one for our Worldwide Commercial Marketplace business and the second for our Business Transformation work on the Marketplace. Both of these awards recognize the innovative and unique solutions we’ve built to provide maximum value to our customers.\nBuilding a robust foundation\nFrom our initial collaboration in 2017, our partnership has been rooted in delivering a trusted solution for search, observability, and security in our customers’ Azure environments. We immediately co-invested in developing Elastic as an Azure Native ISV Service and launched our solution on the Commercial Marketplace in 2020, making it easier for our customers to consume, pay for, and deploy Elastic Cloud on Az…",
-          "link": "https://www.elastic.co/blog/elastic-wins-2023-microsoft-partner-of-the-year-award-commercial-marketplace",
-          "publishedOn": "2023-06-27T00:00:00.000Z",
-          "wordCount": 17169,
-          "title": "Elastic wins the 2023 Worldwide and US Microsoft Partner of the Year Award for Commercial Marketplace",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltec08a560253af09a/649b273a463b5c44722d3c06/poty-msft-blog-2.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/relativity-elasticsearch-azure-openai",
-          "author": "Hemant Malik,Aditya Tripathi",
-          "description": ",\nElasticsearch® has been used by developers to build search experiences for over a decade. At Microsoft Build this year, we announced the launch of Elasticsearch Relevance Engine™ — a set of tools to enable developers to build AI-powered search applications. With generative AI, large language models (LLMs), and vector search capabilities gaining mindshare, we are delighted to expand our range of tools and enable our customers in building the next generation of search apps.  \n\nOne example of what a next-generation search experience might look like comes from Relativity — the eDiscovery and legal search technology company. At Build, we shared the stage with the Relativity team as they spoke about how they’re using Elasticsearch and Microsoft Azure. You can read about Relativity’s coverage o…",
-          "link": "https://www.elastic.co/blog/relativity-elasticsearch-azure-openai",
-          "publishedOn": "2023-06-27T00:00:00.000Z",
-          "wordCount": 19987,
-          "title": "Relativity uses Elasticsearch and Azure OpenAI to build futuristic search experiences, today",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt4b2bf98c86ba4743/649b321a1ea8293624f57945/14-stairs.jpeg"
         }
       ]
     },
@@ -492,7 +492,7 @@
           "description": "The New Constructed Inventory Feature\n \r\nIn this blog we introduced the idea for a new smarter way of handling inventory based on the Ansible constructed plugin. Now in Ansible Automation Platform 2.4, we have introduced this as a fully supported feature and this blog aims to introduce you to it!",
           "link": "https://www.ansible.com/blog/how-to-use-the-new-constructed-inventory-feature-in-aap-2.4",
           "publishedOn": "2023-06-29T13:00:00.000Z",
-          "wordCount": 2925,
+          "wordCount": 2938,
           "title": "How to use the new Constructed Inventory Feature in Ansible Automation Platform 2.4",
           "imageUrl": "https://www.ansible.com/hubfs/image03.png"
         },
@@ -502,7 +502,7 @@
           "description": "An overview of new features found in the Ansible Automation Platform 2.4 release",
           "link": "https://www.ansible.com/blog/whats-new-in-ansible-automation-platform-2.4",
           "publishedOn": "2023-06-27T13:25:31.000Z",
-          "wordCount": 3168,
+          "wordCount": 3177,
           "title": "What's new in Ansible Automation Platform 2.4",
           "imageUrl": "https://www.ansible.com/hubfs/2.4%20banner.png"
         },
@@ -512,7 +512,7 @@
           "description": "This blog is co-authored by Zack Kayyali and Hicham (he-sham) Mourad\n \r\nDeploying Red Hat Ansible Automation Platform Foundation\n \r\nThe steps below detail how to install Ansible Automation Platform on AWS United States GovCloud from the AWS Marketplace. The steps to deploy into AWS GovCloud and AWS Commercial cloud are nearly identical. Before starting your deployment process, please ensure the AWS account you are using to deploy has the following IAM roles. These IAM roles are required to deploy the AWS foundation stack offering. The foundation stack offering here refers to the base Ansible Automation Platform 2 deployment.",
           "link": "https://www.ansible.com/blog/how-to-deploy-red-hat-ansible-automation-platform-on-aws-to-aws-govcloud-in-the-us",
           "publishedOn": "2023-06-26T13:00:00.000Z",
-          "wordCount": 2597,
+          "wordCount": 2606,
           "title": "How to deploy Red Hat Ansible Automation Platform on AWS to AWS GovCloud in the United States",
           "imageUrl": "https://lh3.googleusercontent.com/YwPjCE9Ss4h3NIht-9Z_X5n9XklQOssr89SB8iQUJ9sGgmpm0-py7zfzz61Di90QWz4rodEMfGu1dehK_aFg4BiKhoEMG6ZyFohzqRKOYbrvIvX7qtsW3fuZVwtAu88i5t57DHX5JrLTIACDQyIpy4o"
         },
@@ -522,7 +522,7 @@
           "description": "An overview of what to expect with the technology preview of Ansible Lightspeed with IBM Watson Code Assistant, a new generative AI service available now.",
           "link": "https://www.ansible.com/blog/welcome-to-the-ansible-lightspeed-technical-preview",
           "publishedOn": "2023-06-26T12:26:04.000Z",
-          "wordCount": 2648,
+          "wordCount": 2657,
           "title": "Welcome to the Ansible Lightspeed with IBM Watson Code Assistant Technical Preview",
           "imageUrl": "https://www.ansible.com/hubfs/Screenshot%202023-06-05%20at%203.31.19%20PM.png"
         },
@@ -532,7 +532,7 @@
           "description": "When it comes to Amazon Web Services (AWS) infrastructure automation, the latest release of the certified amazon.aws Collection for Red Hat Ansible Automation Platform brings a number of enhancements to improve the overall user experience and speed up the process from development to production.",
           "link": "https://www.ansible.com/blog/whats-new-cloud-automation-with-amazon.aws-6.0.0",
           "publishedOn": "2023-06-22T13:00:00.000Z",
-          "wordCount": 2957,
+          "wordCount": 2966,
           "title": "What’s New: Cloud Automation with amazon.aws 6.0.0",
           "imageUrl": "https://www.ansible.com/hubfs/Whats%20new%20in%20cloud%20automation%20with%20amazon.aws.png"
         },
@@ -542,7 +542,7 @@
           "description": "Kerberos is often the preferred authentication method for managing Windows servers in a domain environment. Red Hat Ansible Automation Platform has allowed customers to leverage Kerberos authentication for a number of years now. So why revisit this subject?",
           "link": "https://www.ansible.com/blog/using-kerberos-for-windows-in-ansible-automation-platform-2",
           "publishedOn": "2023-06-13T15:00:00.000Z",
-          "wordCount": 2640,
+          "wordCount": 2649,
           "title": "Using Kerberos for Windows in Ansible Automation Platform 2",
           "imageUrl": "https://www.ansible.com/hubfs/blogimage.png"
         },
@@ -552,7 +552,7 @@
           "description": "Disaster Recovery\" class=\"hs-featured-image\" style=\"width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;\">  \r\n \r\nOverview\n \r\nWhen we get into the nuts and bolts of implementing a disaster recovery (DR) plan, an important step is to evaluate the tech stack that’s hosting the critical applications. The techstack oftentimes determines the order of operations and execution needed to effect the DR. Most organizations have the following tech stack pattern for their data centers:",
           "link": "https://www.ansible.com/blog/ansible-for-disaster-recovery",
           "publishedOn": "2023-06-08T14:44:29.000Z",
-          "wordCount": 2178,
+          "wordCount": 2187,
           "title": "Ansible for Disaster Recovery",
           "imageUrl": "https://www.ansible.com/hubfs/Display_-_600x200px.png"
         }
@@ -569,7 +569,7 @@
           "description": "We’re pleased to announce that you can now choose an image for your Azure DevOps organization and replace the automatically generated image. Learn how to change your organization’s image\nBEFORE\nThe ability to change an organization’s image has been a long standing feature request in the Developer Community with over 150 votes.\nThe post Choose an image for your organization appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/choose-an-image-for-your-organization/",
           "publishedOn": "2023-06-27T12:52:35.000Z",
-          "wordCount": 4742,
+          "wordCount": 4773,
           "title": "Choose an image for your organization",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2023/06/OrgImageBefore.png"
         },
@@ -579,7 +579,7 @@
           "description": "With the risk of sounding repetitive, sprint 223 was dedicated to resolving bugs. Looks like sprint 224 will be much of the same. We continue to make great progress, but we have a little way to go before the New Boards Hub is ready for general availability.\nThe post New Boards Hub Update, Sprint 223 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/new-boards-hub-update-sprint-223/",
           "publishedOn": "2023-06-19T18:52:11.000Z",
-          "wordCount": 4969,
+          "wordCount": 4968,
           "title": "New Boards Hub Update, Sprint 223",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2023/03/sketch-1.png"
         },
@@ -589,7 +589,7 @@
           "description": "This month, we are releasing fixes that impact our self-hosted product, Azure DevOps Server.\nAzure DevOps Server 2022.0.1\nAzure DevOps Server 2022\nAzure DevOps Server 2020.1.2\nAzure DevOps Server 2020.0.2\nAzure DevOps Server 2019.1.2\nAzure DevOps Server 2022.0.1 Patch 1\nThe post June patches for Azure DevOps Server appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/june-patches-for-azure-devops-server-2/",
           "publishedOn": "2023-06-13T22:36:42.000Z",
-          "wordCount": 5132,
+          "wordCount": 5446,
           "title": "June patches for Azure DevOps Server",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2018/09/index-hero.jpg"
         },
@@ -609,19 +609,9 @@
           "description": "The Deming Prize from Japan is the highest honour in Total Quality Management in the world. Japanese products are known for their superior quality, but it wasn’t always the case. In the 1950s fresh out of defeat in the World War 2,\nThe post The evolution of quality assurance and how Azure Test Plans is driving the future of manual testing appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/the-evolution-of-quality-assurance-and-how-azure-test-plans-is-driving-the-future-of-manual-testing/",
           "publishedOn": "2023-06-08T16:00:55.000Z",
-          "wordCount": 5891,
+          "wordCount": 5576,
           "title": "The evolution of quality assurance and how Azure Test Plans is driving the future of manual testing",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2018/08/vstsfeature.png"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=67042",
-          "author": "Dan Hellem",
-          "description": "We are delighted to announce the long-awaited private preview of the new Markdown editor for the work item discussion. This exciting feature empowers you to utilize the Markdown syntax and editor for all future comments. The Markdown editor aligns with the same experience you encounter in other parts of the product,\nThe post Markdown editor for comments (preview) appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/markdown-editor-for-comments-preview/",
-          "publishedOn": "2023-05-31T15:06:33.000Z",
-          "wordCount": 5544,
-          "title": "Markdown editor for comments (preview)",
-          "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/03/agile.png"
         }
       ]
     },
@@ -805,16 +795,6 @@
           "wordCount": 2029,
           "title": "New – AWS DMS Serverless: Automatically Provisions and Scales Capacity for Migration and Data Replication",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/06/01/Site-Merch_AWS-DMS-Serverless_Blog.png"
-        },
-        {
-          "id": "bc2108141ac815b7f74d0e72d658b6327572e9bf",
-          "author": "Jeff Barr",
-          "description": "AWS Snow Family devices are used to cost-effectively move data to the cloud and to process data at the edge. The enhanced Snowball Edge Storage Optimized devices are designed for your petabyte-scale data migration projects, with 210 terabytes of NVMe storage and the ability to transfer up to 1.5 gigabytes of data per second. The […]",
-          "link": "https://aws.amazon.com/blogs/aws/new-snowball-edge-storage-optimized-devices-with-more-storage-and-bandwidth/",
-          "publishedOn": "2023-05-31T20:01:02.000Z",
-          "wordCount": 1251,
-          "title": "New – Snowball Edge Storage Optimized Devices with More Storage and Bandwidth",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/827bfc458708f0b442009c9c9836f7e4b65557fb/2020/06/03/Blog-Post_thumbnail.png"
         }
       ]
     },
@@ -823,6 +803,16 @@
       "feedUrl": "https://xkcd.com/atom.xml",
       "siteUrl": "https://xkcd.com/",
       "articles": [
+        {
+          "id": "https://xkcd.com/2796/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/real_estate_analysis.png\" title=\"Mars does get a good score on 'noise levels' and 'scenic views,' but the school district ranking isn't great; the only teacher--the Perseverance rover--is too busy with rock samples to teach more than the occasional weekend class.\" alt=\"Mars does get a good score on 'noise levels' and 'scenic views,' but the school district ranking isn't great; the only teacher--the Perseverance rover--is too busy with rock samples to teach more than the occasional weekend class.\" />",
+          "link": "https://xkcd.com/2796/",
+          "publishedOn": "2023-06-30T00:00:00.000Z",
+          "wordCount": 182,
+          "title": "Real Estate Analysis",
+          "imageUrl": "https://imgs.xkcd.com/comics/real_estate_analysis_2x.png"
+        },
         {
           "id": "https://xkcd.com/2795/",
           "author": null,
@@ -852,16 +842,6 @@
           "wordCount": 182,
           "title": "Garden Path Sentence",
           "imageUrl": "https://imgs.xkcd.com/comics/garden_path_sentence_2x.png"
-        },
-        {
-          "id": "https://xkcd.com/2792/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/summer_solstice.png\" title=\"Then I'll start work on my lunar engines to line the Moon up with the ecliptic so we can have a solar eclipse every month (with a little wobble so they're not always on the equator.)\" alt=\"Then I'll start work on my lunar engines to line the Moon up with the ecliptic so we can have a solar eclipse every month (with a little wobble so they're not always on the equator.)\" />",
-          "link": "https://xkcd.com/2792/",
-          "publishedOn": "2023-06-21T00:00:00.000Z",
-          "wordCount": 180,
-          "title": "Summer Solstice",
-          "imageUrl": "https://imgs.xkcd.com/comics/summer_solstice_2x.png"
         }
       ]
     },
@@ -966,7 +946,7 @@
           "description": "Check out this fun example using Camunda Platform 8 to coordinate the use of several popular internet services, providing a nice end-user experience. \nThe post How to use Camunda Platform 8 to Orchestrate Microservices appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/06/how-to-use-camunda-platform-8-orchestrate-microservices/",
           "publishedOn": "2023-06-06T14:24:49.000Z",
-          "wordCount": 4120,
+          "wordCount": 4118,
           "title": "How to use Camunda Platform 8 to Orchestrate Microservices",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/06/how-to-use-camunda-platform-8-orchestrate-microservices_1200x627.png"
         }
@@ -1006,21 +986,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://cdn-img.tonarinoyj.jp/public/episode-thumbnail/4856001361338687718-067cebd6968e6a56e37e2c75bb429f06"
-        },
-        {
-          "id": "tonarino_yj:episode:4856001361290517894",
-          "author": "原作/ＯＮＥ/漫画/村田雄介",
-          "description": "ワンパンマン",
-          "link": "https://tonarinoyj.jp/episode/4856001361290517894",
-          "publishedOn": "2023-05-31T15:00:00.000Z",
-          "wordCount": 201,
-          "title": "[第230話] ワンパンマン",
-          "enclosure": {
-            "url": "https://cdn-img.tonarinoyj.jp/public/episode-thumbnail/4856001361290517894-e6b866c413d2cbde77198313e918b7f5",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://cdn-img.tonarinoyj.jp/public/episode-thumbnail/4856001361290517894-e6b866c413d2cbde77198313e918b7f5"
         }
       ]
     },
@@ -1115,7 +1080,7 @@
           "description": "GitHub’s redesigned navigation is enabled for all users as a public beta.",
           "link": "https://github.blog/2023-06-15-exploring-github-with-the-redesigned-navigation-now-in-public-beta/",
           "publishedOn": "2023-06-15T16:20:30.000Z",
-          "wordCount": 1576,
+          "wordCount": 1569,
           "title": "Exploring GitHub with the redesigned navigation, now in public beta",
           "imageUrl": "https://github.blog/wp-content/uploads/2023/06/Hero.png"
         },
@@ -1175,7 +1140,7 @@
           "description": "Avneesh Saluja, Andy Yao, Hossein Taghavi",
           "link": "https://netflixtechblog.com/detecting-scene-changes-in-audiovisual-content-77a61d3eaad6?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-06-20T16:51:36.000Z",
-          "wordCount": 4198,
+          "wordCount": 4236,
           "title": "Detecting Scene Changes in Audiovisual Content",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:600/1*28phnQtCgyCSTL4nPeclrg.gif"
         },
@@ -1185,7 +1150,7 @@
           "description": "By Jennifer Shin, Tejas Shikhare, Will Emmanuel",
           "link": "https://netflixtechblog.com/migrating-netflix-to-graphql-safely-8e1e4d4f1e72?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-06-14T17:59:46.000Z",
-          "wordCount": 5148,
+          "wordCount": 5143,
           "title": "Migrating Netflix to GraphQL Safely",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*u38PDW5BKHqtOEui3_WQjA.png"
         },
@@ -1195,7 +1160,7 @@
           "description": "Shyam Gala, Javier Fernandez-Ivern, Anup Rokkam Pratap, Devang Shah",
           "link": "https://netflixtechblog.com/migrating-critical-traffic-at-scale-with-no-downtime-part-2-4b1c8c7155c1?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-06-13T17:23:17.000Z",
-          "wordCount": 6142,
+          "wordCount": 6143,
           "title": "Migrating Critical Traffic At Scale with No Downtime — Part 2",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*uItq6RyqItzoa9onfxFPoQ.png"
         },
@@ -1205,7 +1170,7 @@
           "description": "Netflix has open-sourced Escrow Buddy, which helps Security and IT teams ensure they have valid FileVault recovery keys for all their Macs…",
           "link": "https://netflixtechblog.com/escrow-buddy-an-open-source-tool-from-netflix-for-remediation-of-missing-filevault-keys-in-mdm-815aef5107cd?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-06-12T16:36:25.000Z",
-          "wordCount": 4003,
+          "wordCount": 4036,
           "title": "Escrow Buddy: An open-source tool from Netflix for remediation of missing FileVault keys in MDM",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:300/1*BESDvRL6Ts6iMGWt7C-Juw.png"
         },
@@ -1215,7 +1180,7 @@
           "description": "This article talks about a novel HDMI technology and how it is used within the Netflix Application to improve a user’s experience.",
           "link": "https://netflixtechblog.com/native-frame-rate-playback-6c87836a948?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-06-05T16:31:44.000Z",
-          "wordCount": 5709,
+          "wordCount": 5738,
           "title": "Native Frame Rate Playback",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:800/1*hO3tzOhKVzbfMZcgpJvRrA.gif"
         },
@@ -1225,7 +1190,7 @@
           "description": "By Jose Fernandez, Ed Barker, Hank Jacobs",
           "link": "https://netflixtechblog.com/ensuring-the-successful-launch-of-ads-on-netflix-f99490fdf1ba?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-06-01T19:22:48.000Z",
-          "wordCount": 3754,
+          "wordCount": 3764,
           "title": "Ensuring the Successful Launch of Ads on Netflix",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1172/1*WSR0HigxkANIu6uyIA-lkQ.png"
         }
@@ -1395,16 +1360,6 @@
           "wordCount": 27830,
           "title": "Retrieval-augmented visual-language pre-training",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrAmMW5q9tM1RpbnrDdMiw-kXeP1kkCNH0Vj_ZmqxTxoT45GYgBjIKXBZ2eF7_mtQ-ijE7h5g-O69tcbfmEoqifjP6ssE12hsRzIE-fl64ZdaFBL0f0Ruu-Ix3R-dy1jhBibQXoxZCpF0CVsdLWwK1aS-JJGu2wcPdyZkPMeRQFP-AqZq5nYUq0KTOAQ/w1200-h630-p-k-no-nu/REVEAL%20hero.jpg"
-        },
-        {
-          "id": "http://ai.googleblog.com/2023/05/large-sequence-models-for-software.html",
-          "author": null,
-          "description": "Posted by Petros Maniatis and Daniel Tarlow, Research Scientists, Google\n\n\n\n\nSoftware isn’t created in one dramatic step. It improves bit by bit, one little step at a time — editing, running unit tests, fixing build errors, addressing code reviews, editing some more, appeasing linters, and fixing more errors — until finally it becomes good enough to merge into a code repository. Software engineering isn’t an isolated process, but a dialogue among human developers, code reviewers, bug reporters, software architects and tools, such as compilers, unit tests, linters and static analyzers. \n\n\n\n\nToday we describe DIDACT (​​Dynamic Integrated Developer ACTivity), which is a methodology for training large machine learning (ML) models for software development. The novelty of DIDACT is that it uses …",
-          "link": "http://ai.googleblog.com/2023/05/large-sequence-models-for-software.html",
-          "publishedOn": "2023-05-31T17:13:00.003Z",
-          "wordCount": 27938,
-          "title": "Large sequence models for software development activities",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8_SbpjaNoBFB_ymmlPa_9YTKL4tOAPfWFHajgnphxoPc3dTXyORaOPk1kN1TP8gVgdjiyPtqGfEYmVCyYIIBdd2ICEIROmNVMCbJmcmT0wLoRWow8djNms5ejc-pfk2Bx_79P7FCnN5PGAQqnXq8YWkn5sX_oLwP0NSoq3IvaV9WyiYhYk1wYK8cTEg/w1200-h630-p-k-no-nu/DIDACT-Hero.jpg"
         }
       ]
     },
@@ -1414,12 +1369,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=43662",
+          "author": "Seth Godin",
+          "description": "Digital abundance creates a new problem. Most of our lives are filled with “or” decisions. You can have this or that. You can save money for the big party or you can go out for lunch. You can have exactly one thing for dessert–cake or fruit. But the war for our attention has given us […]",
+          "link": "https://feeds.feedblitz.com/~/749742842/0/sethsblog~And-fatigue/",
+          "publishedOn": "2023-06-30T08:38:00.000Z",
+          "wordCount": 1028,
+          "title": "“And” fatigue",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=46556",
           "author": "Seth Godin",
           "description": "For a certain cohort of high-performing students at famous colleges, graduate school feels irresistible. If you’re good at school, the challenge and offer of law school, med school or a famous business school means you get to do more of what you’re good at. You’re offered a high-status badge, a path to a well-paid job […]",
           "link": "https://feeds.feedblitz.com/~/749522159/0/sethsblog~The-seduction-of-grad-school/",
           "publishedOn": "2023-06-29T08:40:00.000Z",
-          "wordCount": 1241,
+          "wordCount": 1242,
           "title": "The seduction of grad school",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061315.jpg"
         },
@@ -1502,16 +1467,6 @@
           "wordCount": 1203,
           "title": "Peer support",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806133-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=46067",
-          "author": "Seth Godin",
-          "description": "A project is a promise. It’s about coordinating unknowable future events to deliver something of value. Showing up on time for a meeting is a project (airlines! traffic! weather!) and so is building a skyscraper. That next podcast you’re going to publish is a project, and so is cooking dinner for guests. There’s always uncertainty […]",
-          "link": "https://feeds.feedblitz.com/~/747727124/0/sethsblog~Project-management/",
-          "publishedOn": "2023-06-21T09:36:00.000Z",
-          "wordCount": 1316,
-          "title": "Project management",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061310-1.jpg"
         }
       ]
     },
@@ -1520,6 +1475,66 @@
       "feedUrl": "https://blog.jetbrains.com/feed/",
       "siteUrl": "https://blog.jetbrains.com",
       "articles": [
+        {
+          "id": "https://blog.jetbrains.com/?post_type=idea&p=367486",
+          "author": "Maria Kosukhina",
+          "description": "The release of IntelliJ IDEA 2023.2 is quickly approaching, but we still have some new features for you to try during the ongoing Early Access Program. IntelliJ IDEA 2023.2 EAP 7 introduces a bunch of noteworthy improvements, including LSP support for plugin developers, Redoc UI previews for OpenAPI and Swagger files, and refinements for working […]",
+          "link": "https://blog.jetbrains.com/idea/2023/06/intellij-idea-2023-2-eap-7/",
+          "publishedOn": "2023-06-30T12:28:11.000Z",
+          "wordCount": 3718,
+          "title": "IntelliJ IDEA 2023.2 EAP 7: LSP API Support, Redoc UI Previews, gRPC Requests via TLS, and GraphQL and WebSocket in the HTTP Client CLI",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/01/Blog_Social_share_image_1280x720.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=ruby&p=367925",
+          "author": "Iryna Pisklyarova",
+          "description": "We have just launched our last Early Access Program (EAP) build for RubyMine 2023.2. We encourage you to explore the improvements in this version and share your feedback with us. Feel free to leave your comments in the section below or submit any issues you encounter through our dedicated issue tracker. You can download the […]",
+          "link": "https://blog.jetbrains.com/ruby/2023/06/rubymine-2023-2-eap-7-customizable-type-renderers-in-the-debugger-code-insight-for-store-accessors-colored-project-headers-in-the-new-ui-and-more/",
+          "publishedOn": "2023-06-30T07:00:20.000Z",
+          "wordCount": 3389,
+          "title": "RubyMine 2023.2 EAP 7: Customizable Type Renderers in the Debugger, Code Insight for Store Accessors, Colored Project Headers in the New UI, and More",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/06/Blog_Featured_image_1280x600_RubyMine-3.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=education&p=367776",
+          "author": "Anastasiia Pogorelova",
+          "description": "This release comes with new plugin features for both course creators and learners, including an enhanced Peak Solution functionality that makes learning even more user-friendly. We’re also taking steps forward with the integration of Shell language support for code problems. This progress means learners can now test this new capability that allows them to tackle […]",
+          "link": "https://blog.jetbrains.com/education/2023/06/29/jetbrains-academy-plugin-2023-6-is-available/",
+          "publishedOn": "2023-06-29T14:38:30.000Z",
+          "wordCount": 2853,
+          "title": "JetBrains Academy Plugin 2023.6 Is Available",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/06/Social_Share_Blog_image_1280x720-5.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=354886",
+          "author": "Matthias Koch",
+          "description": "JetBrains IDEs have always been renowned for their powerful static code analysis supporting a wide range of languages. With the release of Qodana, we are unifying that knowledge in a central code quality platform that is working at the heart of every development process – your favorite CI/CD tool. Triggered by a commit or pull request, Qodana can generate comprehensive analysis […]",
+          "link": "https://blog.jetbrains.com/dotnet/2023/06/29/elevating-csharp-code-quality-with-qodana-a-journey-towards-perfection/",
+          "publishedOn": "2023-06-29T13:40:53.000Z",
+          "wordCount": 4034,
+          "title": "Elevating C# Code Quality with Qodana: A Journey Towards Perfection",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/06/rd-how-tos-social_share_blog_1280x720.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=idea&p=367489",
+          "author": "Irina Maryasova",
+          "description": "We’ve got all of the project Reactor adepts and enthusiasts out there covered! Whether you’re a seasoned pro or just taking your first steps in the field, IntelliJ IDEA will make reactive coding a breeze. It simplifies the complexities of Reactive Streams, ensuring a smooth and efficient experience for all skill levels. This article covers […]",
+          "link": "https://blog.jetbrains.com/idea/2023/06/reactive-programming-made-easy/",
+          "publishedOn": "2023-06-29T12:51:53.000Z",
+          "wordCount": 3391,
+          "title": "Reactive Programming Made Easy",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/06/ij-tips-tricks-social_share_blog_1280x720-1.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=mps&p=367732",
+          "author": "Vaclav Pech",
+          "description": "Since many MPS users are still using version 2022.2, we’re now releasing a gentle update with numerous fixes. The most prominent improvements are: There are no more lagging issues when migrating to MPS 2022.2. Inconsistent models stored with per root persistence no longer cause MPS to crash. The Context actions tool window functions as intended. […]",
+          "link": "https://blog.jetbrains.com/mps/2023/06/mps-2022-2-1-has-been-released/",
+          "publishedOn": "2023-06-29T12:49:45.000Z",
+          "wordCount": 2782,
+          "title": "MPS 2022.2.1 Has Been Released",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2022/11/Release_Blog_Social_share_image_1280x720_MPS-2x.png"
+        },
         {
           "id": "https://blog.jetbrains.com/?post_type=pycharm&p=367187",
           "author": "Valeria Letusheva",
@@ -1546,7 +1561,7 @@
           "description": "The sixth EAP build for WebStorm 2023.2 is now available, and it’s a big one! It’s the first build to include features leveraging the enormous potential of generative AI and large language models (LLMs). This build also comes with support for CSS nesting and improved TypeScript type error formatting. To catch up on all of […]",
           "link": "https://blog.jetbrains.com/webstorm/2023/06/webstorm-2023-2-eap6/",
           "publishedOn": "2023-06-26T16:31:19.000Z",
-          "wordCount": 3779,
+          "wordCount": 3784,
           "title": "WebStorm 2023.2 EAP #6: AI Assistant, CSS Nesting Support, Improved Type Error Formatting, and More",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/05/WS-2023-2-Social_share.png"
         },
@@ -1566,7 +1581,7 @@
           "description": "Welcome the sixth build of the GoLand 2023.2 EAP!  You can get it via the Toolbox App, download it from our website, use a snap package (for Ubuntu), or from inside GoLand, select Check IDE updates for: Early Access Program in Settings | Appearance & Behavior | System Settings | Updates. Download GoLand 2023.2 EAP […]",
           "link": "https://blog.jetbrains.com/go/2023/06/26/goland-2023-2-eap-6-ai-assistant/",
           "publishedOn": "2023-06-26T15:28:12.000Z",
-          "wordCount": 2760,
+          "wordCount": 2774,
           "title": "GoLand 2023.2 EAP 6: AI Assistant",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/05/Blog_Social_share_image_1280x720_GoLand-2x.png"
         },
@@ -1579,66 +1594,6 @@
           "wordCount": 2622,
           "title": "ReSharper C++ 2023.2 EAP: Introducing AI Assistant",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/05/Blog-featured-image-for-the-eap-post_1280x720_ReSharperCPP-2x.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=clion&p=366210",
-          "author": "Anastasia Kazakova",
-          "description": "The CLion 2023.2 Early Access Program is up and running, bringing many of the exciting improvements and changes planned in our roadmap. But today we have something special! This week’s EAP builds for all IntelliJ-based IDEs, as well as our tools for .NET, include a major new feature: an AI Assistant. AI Features Our approach […]",
-          "link": "https://blog.jetbrains.com/clion/2023/06/clion-2023-2-eap4-ai-assistant/",
-          "publishedOn": "2023-06-26T14:46:59.000Z",
-          "wordCount": 3144,
-          "title": "CLion 2023.2 EAP4: AI Assistant",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/05/Social_share_image_1280x720_CLion-2x.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=365263",
-          "author": "Sasha Ivanova",
-          "description": "We’ve reached a huge milestone! ReSharper 2023.2 will be the first version of the product to contain AI-powered development assistance. This EAP build introduces an early implementation of the ReSharper AI assistant – an AI-driven chat specifically designed to answer programming questions and help you with troubleshooting, refactoring, documenting and other development workflows.   Accessing the […]",
-          "link": "https://blog.jetbrains.com/dotnet/2023/06/26/resharper-ai-assistant/",
-          "publishedOn": "2023-06-26T14:46:17.000Z",
-          "wordCount": 3713,
-          "title": "AI Assistant Comes to ReSharper",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/06/Twitter_post_1200x675_ReSharper-2x.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=365265",
-          "author": "Sasha Ivanova",
-          "description": "The Rider 2023.2 EAP 6 build has just been released and this one is a game-changer. It is the first build to include features leveraging the enormous potential of generative AI and large language models (LLMs). We can not wait for you to download Rider 2023.2 EAP 6 and try it out, but before you […]",
-          "link": "https://blog.jetbrains.com/dotnet/2023/06/26/rider-ai-assistant/",
-          "publishedOn": "2023-06-26T14:45:55.000Z",
-          "wordCount": 3848,
-          "title": "AI Assistant Comes to Rider!",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/06/Rider_blog-2x-2.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=ruby&p=366674",
-          "author": "Iryna Pisklyarova",
-          "description": "We are actively moving towards the RubyMine 2023.2 release, and we have just released our sixth Early Access Program (EAP) build. The most notable enhancement included in RubyMine 2023.2 EAP 6 is the new AI Assistant. We encourage you to try out all the new features and provide your feedback in the comments section or […]",
-          "link": "https://blog.jetbrains.com/ruby/2023/06/rubymine-2023-2-eap6-introducing-the-new-ai-assistant/",
-          "publishedOn": "2023-06-26T13:26:09.000Z",
-          "wordCount": 3647,
-          "title": "RubyMine 2023.2 EAP6: Introducing the New AI Assistant!",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/06/Blog_Featured_image_1280x600_RubyMine-2.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=idea&p=366577",
-          "author": "Maria Kosukhina",
-          "description": "IntelliJ IDEA 2023.2 EAP 6 is now available with a number of updates such as the new AI Assistant, support for Dev Containers for Gateway, and some valuable enhancements for the IDE’s new UI. You can get the latest build from our website, through the free Toolbox App, or via snaps for Ubuntu. Let’s take […]",
-          "link": "https://blog.jetbrains.com/idea/2023/06/intellij-idea-2023-2-eap-6/",
-          "publishedOn": "2023-06-26T12:52:27.000Z",
-          "wordCount": 3277,
-          "title": "IntelliJ IDEA 2023.2 EAP 6: AI Assistant, Dev Containers Support, and More",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/01/Blog_Social_share_image_1280x720.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=idea&p=365333",
-          "author": "Dmitry Jemerov",
-          "description": "This week’s EAP builds of all IntelliJ-based IDEs and .NET tools include a major new feature: AI Assistant. This blog post focuses on our IntelliJ-based IDEs with a dedicated .NET Tools post coming soon. Generative AI and large language models are rapidly transforming the landscape of software development tools, and the decision to integrate this […]",
-          "link": "https://blog.jetbrains.com/idea/2023/06/ai-assistant-in-jetbrains-ides/",
-          "publishedOn": "2023-06-26T12:30:21.000Z",
-          "wordCount": 3644,
-          "title": "AI Assistant in JetBrains IDEs",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/06/Social-Share-Blog-image-1280x720-2x.png"
         }
       ]
     }

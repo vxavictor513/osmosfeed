@@ -1,10 +1,240 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-07-17T01:53:44.980Z</id>
+    <id>urn:2023-07-18T01:58:54.395Z</id>
     <title>osmos::feed</title>
-    <updated>2023-07-17T01:53:44.980Z</updated>
+    <updated>2023-07-18T01:58:54.395Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[AWS Week in Review – Updates on Amazon FSx for NetApp ONTAP, AWS Lambda, eksctl, Karpetner, and More – July 17, 2023]]></title>
+        <id>f58bb3fa3eb6fc51e1ebf1ab8635b0a0ca8fa63c</id>
+        <link href="https://aws.amazon.com/blogs/aws/aws-week-in-review-updates-on-amazon-fsx-for-netapp-ontap-aws-lambda-eksctl-karpetner-and-more-july-17-2023/"/>
+        <updated>2023-07-17T19:36:36.000Z</updated>
+        <summary type="html"><![CDATA[The Data Centered: Eastern Oregon, a five-part mini-documentary series looking at the real-life impact of the more than $15 billion investment AWS has made in the local community, and how the company supports jobs, generates economic growth, provides skills training and education, and unlocks opportunities for local businesses suppliers. Last week, I watched a new […]]]></summary>
+        <author>
+            <name>Channy Yun</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AWS Fargate Enables Faster Container Startup using Seekable OCI]]></title>
+        <id>cf5baab8ced0bb927386d059f4b7c7a14973a1ad</id>
+        <link href="https://aws.amazon.com/blogs/aws/aws-fargate-enables-faster-container-startup-using-seekable-oci/"/>
+        <updated>2023-07-17T19:29:14.000Z</updated>
+        <summary type="html"><![CDATA[While developing with containers is becoming an increasingly popular way for deploying and scaling applications, there are still areas where improvements can be made. One of the main issues with scaling containerized applications is the long startup time, especially during scale up when newer instances need to be added. This issue can have a negative […]]]></summary>
+        <author>
+            <name>Donnie Prakoso</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What is an Elasticsearch index?]]></title>
+        <id>https://www.elastic.co/blog/what-is-an-elasticsearch-index</id>
+        <link href="https://www.elastic.co/blog/what-is-an-elasticsearch-index"/>
+        <updated>2023-07-17T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Understand what an index is in Elasticsearch and how it compares to relational databases. Learn about flexible storage, efficient retrieval, advanced indexing, and search capabilities.]]></summary>
+        <author>
+            <name>David Brimley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What is an Elasticsearch index?]]></title>
+        <id>https://www.elastic.co/blog/what-is-an-elasticsearch-index</id>
+        <link href="https://www.elastic.co/blog/what-is-an-elasticsearch-index"/>
+        <updated>2023-07-17T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+The term index is quite overloaded in the tech world. If you asked most developers what an index is, they might tell you it commonly refers to a data structure in a relational database (RDBMS) that is associated with a table, which improves the speed of data retrieval operations.
+
+But what is an Elasticsearch® index? An Elasticsearch index is a logical namespace that holds a collection of documents, where each document is a collection of fields — which, in turn, are key-value pairs that contain your data.
+POST /playwrights/_doc/1
+{
+  "firstname": "William",
+  "lastname": "Shakespeare"
+},
+We can further add documents and fields as we like, which is not something you could do easily with a relational database.
+POST /playwrights/_doc/2
+{
+  "firstname": "Samuel",
+  "lastname": "Beckett",
+  "year_of_birth": 1906
+},
+Now we can query out all the documents using the search endpoint.
+GET /playwrights/_search
+{
+    "query": {
+        "match_all": {}
+    }
+},
+Or we can query for a specific year of birth.
+GET /playwrights/_search
+{
+    "query": {
+        “match": {
+            “year_of_birth": 1906
+        }
+    }
+},
+In addition to basic querying, Elasticsearch provides advanced search features like fuzzy matching, stemming, relevance scoring, highlighting, and tokenization which breaks text down into smaller chunks, called tokens. In most cases, these tokens are individual words but there are many different tokenizers available.
+,
+
+Token
+
+Document IDs
+
+
+London
+
+1,3,8,12,23,88
+
+
+Paris
+
+1,12,88
+
+Madrid3,8,12
+Berlin12,23]]></summary>
+        <author>
+            <name>David Brimley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Advanced Data Protection (ADP) now available in HCP Vault]]></title>
+        <id>https://www.hashicorp.com/blog/advanced-data-protection-adp-now-available-in-hcp-vault</id>
+        <link href="https://www.hashicorp.com/blog/advanced-data-protection-adp-now-available-in-hcp-vault"/>
+        <updated>2023-07-17T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[HCP Vault Plus clusters add support for all three ADP secrets engines, including KMIP, Key Management, and Transform.]]></summary>
+        <author>
+            <name>HashiCorp Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Extra Datalore Credits for Flexible CPU and GPU Computing Power]]></title>
+        <id>https://blog.jetbrains.com/?post_type=datalore&amp;p=372976</id>
+        <link href="https://blog.jetbrains.com/datalore/2023/07/17/extra-datalore-credits-for-flexible-cpu-and-gpu-computing-power/"/>
+        <updated>2023-07-17T15:26:46.000Z</updated>
+        <summary type="html"><![CDATA[Hello Datalore community! Different analytical tasks have different computing requirements. Some demand a lot of processing, like analyzing large datasets, or training machine learning models. Depending on the complexity of your project, the computing power you need can vary significantly from month to month. That’s why we’re introducing the option to purchase extra Datalore credits.  […]]]></summary>
+        <author>
+            <name>Alina Anikina</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A developer&#8217;s guide to prompt engineering and LLMs]]></title>
+        <id>https://github.blog/2023-07-17-prompt-engineering-guide-generative-ai-llms/</id>
+        <link href="https://github.blog/2023-07-17-prompt-engineering-guide-generative-ai-llms/"/>
+        <updated>2023-07-17T14:27:15.000Z</updated>
+        <summary type="html"><![CDATA[Prompt engineering is the art of communicating with a generative AI model. In this article, we’ll cover how we approach prompt engineering at GitHub, and how you can use it to build your own LLM-based application.]]></summary>
+        <author>
+            <name>The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PhpStorm 2023.2 Beta]]></title>
+        <id>https://blog.jetbrains.com/?post_type=phpstorm&amp;p=371657</id>
+        <link href="https://blog.jetbrains.com/phpstorm/2023/07/phpstorm-2023-2-beta/"/>
+        <updated>2023-07-17T12:14:27.000Z</updated>
+        <summary type="html"><![CDATA[In this build, we’ve added new inspections for PHP assertions and revised the integration with third-party quality tools. This Beta allows you to try new features from the upcoming PhpStorm 2023.2.  The Beta build is part of the EAP, which means that it’s free to use and you can install it side by side with […]]]></summary>
+        <author>
+            <name>Hanna Yakush</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unraveling Connector Templates]]></title>
+        <id>https://camunda.com/?p=85849&amp;preview=true&amp;preview_id=85849</id>
+        <link href="https://camunda.com/blog/2023/07/unraveling-connector-templates/"/>
+        <updated>2023-07-17T12:10:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore the Connector template schema and see what makes these templates so powerful and extensible.
+The post Unraveling Connector Templates appeared first on Camunda.]]></summary>
+        <author>
+            <name>Nathan Loding</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PhpStorm 2023.1.4 is released]]></title>
+        <id>https://blog.jetbrains.com/?post_type=phpstorm&amp;p=372919</id>
+        <link href="https://blog.jetbrains.com/phpstorm/2023/07/phpstorm-2023-1-4-is-released/"/>
+        <updated>2023-07-17T11:12:41.000Z</updated>
+        <summary type="html"><![CDATA[A new bug-fix update for PhpStorm 2023.1 is now available. You can update to it using the Toolbox App or right from inside the IDE. You can also download PhpStorm 2023.1.4 from the website. Notable changes in this update: The full list of changes is available in the release notes.And as always, please feel free […]]]></summary>
+        <author>
+            <name>Tania Goral</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How To Address 7 Major C++ Pain Points with CLion]]></title>
+        <id>https://blog.jetbrains.com/?post_type=clion&amp;p=372652</id>
+        <link href="https://blog.jetbrains.com/clion/2023/07/how-to-address-7-major-cpp-pain-points-with-clion/"/>
+        <updated>2023-07-17T08:53:00.000Z</updated>
+        <summary type="html"><![CDATA[In the 2023 Annual C++ Developer Survey conducted by the C++ Foundation, the community identified a number of major pain points when working with C++ (see page 11 of the survey summary). As we’ll discuss in this article, CLion can help C++ developers with most of these in various ways: Managing third-party libraries Improving build […]]]></summary>
+        <author>
+            <name>Anastasia Kazakova</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“I don’t like it”]]></title>
+        <id>https://seths.blog/?p=44904</id>
+        <link href="https://feeds.feedblitz.com/~/754964357/0/sethsblog~I-dont-like-it/"/>
+        <updated>2023-07-17T08:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Everyone is entitled to their own taste. But this isn’t the helpful answer to the question, “is this good?” Whether it suits your taste might be irrelevant. “It doesn’t resonate with me” is not the same as “No one will like this.” The professional understands that they need empathy to do their job. You don’t […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Agent Terminals in TeamCity]]></title>
+        <id>https://blog.jetbrains.com/?post_type=teamcity&amp;p=372809</id>
+        <link href="https://blog.jetbrains.com/teamcity/2023/07/introducing-agent-terminals/"/>
+        <updated>2023-07-17T08:42:19.000Z</updated>
+        <summary type="html"><![CDATA[We’re introducing agent terminals in TeamCity: the new feature designed specifically to help you easily view system logs on agents, check installed software, and debug specific agent issues right from the TeamCity’s UI. Let’s take a closer look at what this new feature is about. What are agent terminals? Starting from version 2023.05, TeamCity provides […]]]></summary>
+        <author>
+            <name>Olga Bedrina</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to find anomalies in the sea of Splunk Zeek data]]></title>
+        <id>https://www.elastic.co/blog/anomalies-splunk-zeek-data</id>
+        <link href="https://www.elastic.co/blog/anomalies-splunk-zeek-data"/>
+        <updated>2023-07-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This blog will illustrate how to easily configure the Elastic Agent Zeek integration to pull data from the Splunk API. Once the data is in Elastic, then you can search, analyze, and act on it using the prebuilit ML jobs.]]></summary>
+        <author>
+            <name>Bobby Suber</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to activate APM in Kibana and Elasticsearch to gain next-level alerting insights]]></title>
+        <id>https://www.elastic.co/blog/apm-kibana-elasticsearch-alerting-insights</id>
+        <link href="https://www.elastic.co/blog/apm-kibana-elasticsearch-alerting-insights"/>
+        <updated>2023-07-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Kibana alerting has been around for a while, but there's more in the works to provide better views into what each alert is doing and where it’s spending its time. Learn how we worked to improve the insights you can gather with APM in Kibana.]]></summary>
+        <author>
+            <name>Philipp Kahr,Alexandra Doak</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to find anomalies in the sea of Splunk Zeek data]]></title>
+        <id>https://www.elastic.co/blog/anomalies-splunk-zeek-data</id>
+        <link href="https://www.elastic.co/blog/anomalies-splunk-zeek-data"/>
+        <updated>2023-07-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+Do you think you may have Indicators of Compromise (IOCs) floating around in the sea of your Splunk deployment’s Zeek data? Are you concerned that you may not learn about  anomalous behavior until it’s too late? If so, then keep reading to learn how Elastic® can help — but first, let me explain the history behind this.  
+Splunk is good at getting data into the platform, specifically unstructured data from log files and API endpoints. It was built on the design principle of schema on read. The benefit to the schema on read design principle is that it theoretically allows you to quickly onboard any unstructured data source so that you can search it, analyze the results, and subsequently perform some action. The tradeoff that’s realized with schema on read is that it inherently adds latency…]]></summary>
+        <author>
+            <name>Bobby Suber</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to activate APM in Kibana and Elasticsearch to gain next-level alerting insights]]></title>
+        <id>https://www.elastic.co/blog/apm-kibana-elasticsearch-alerting-insights</id>
+        <link href="https://www.elastic.co/blog/apm-kibana-elasticsearch-alerting-insights"/>
+        <updated>2023-07-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+Kibana alerting has been around for quite some time, and major work is going on to give you better views into what each rule is doing and where it’s spending its time.
+
+However, there are always questions left, where you just want more. Maybe you are an SRE at a company and need to look over hundreds of clusters. Our built-in dashboards might not suffice, as you need a more granular approach.
+
+Good news! We have been working internally to improve the insights you can gather with APM in Kibana®. Simply activate APM for Kibana with a few configuration steps. This will enable Kibana Real User Monitoring (RUM) and Kibana itself. Additionally, you can opt-in to activate Elasticsearch® instrumentation and get a deeper understanding of where Elasticsearch is spending its time.
+
+If you're intere…]]></summary>
+        <author>
+            <name>Philipp Kahr,Alexandra Doak</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[(Without the bad parts)]]></title>
         <id>https://seths.blog/?p=42679</id>
@@ -274,26 +504,6 @@ The post Azure DevOps 2023 Q3 Roadmap update appeared first on Azure DevOps Blog
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[CLion 2023.2 Goes Beta]]></title>
-        <id>https://blog.jetbrains.com/?post_type=clion&amp;p=371907</id>
-        <link href="https://blog.jetbrains.com/clion/2023/07/clion-2023-2-goes-beta/"/>
-        <updated>2023-07-13T12:49:37.000Z</updated>
-        <summary type="html"><![CDATA[The Beta version of CLion 2023.2 is now available with the key improvements and changes that are expected in the upcoming release. Download build 232.8660.49 from our website, via the Toolbox App, or as a snap package (for Ubuntu). DOWNLOAD CLION 2023.2 BETA Text search in Search Everywhere Search Everywhere (Double Shift) is primarily used […]]]></summary>
-        <author>
-            <name>Anastasia Kazakova</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GoLand 2023.2 Reaches Beta!]]></title>
-        <id>https://blog.jetbrains.com/?post_type=go&amp;p=370641</id>
-        <link href="https://blog.jetbrains.com/go/2023/07/13/goland-2023-2-beta/"/>
-        <updated>2023-07-13T10:00:59.000Z</updated>
-        <summary type="html"><![CDATA[The first Beta of GoLand 2023.2 is available! You can get the Beta build via the Toolbox App, from our website, by using a snap package (for Ubuntu), or right from inside GoLand by selecting Check IDE updates for: Early Access Program in Settings | Appearance & Behavior | System Settings | Updates. Download GoLand […]]]></summary>
-        <author>
-            <name>Sergey Kozlovskiy</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Remarkable pronouncements]]></title>
         <id>https://seths.blog/?p=44887</id>
         <link href="https://feeds.feedblitz.com/~/753563984/0/sethsblog~Remarkable-pronouncements/"/>
@@ -301,16 +511,6 @@ The post Azure DevOps 2023 Q3 Roadmap update appeared first on Azure DevOps Blog
         <summary type="html"><![CDATA[The scientific rule of thumb is simple: When you make a bold claim, you need significant research to back it up. Telling us that eating vegetables is healthy can be justified by a fairly simple high school science paper. But if you want to claim that the moon is made of celery and Elmer’s Glue, […]]]></summary>
         <author>
             <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IntelliJ IDEA 2023.2 Goes Beta!]]></title>
-        <id>https://blog.jetbrains.com/?post_type=idea&amp;p=369353</id>
-        <link href="https://blog.jetbrains.com/idea/2023/07/intellij-idea-2023-2-beta/"/>
-        <updated>2023-07-13T07:33:52.000Z</updated>
-        <summary type="html"><![CDATA[The Beta version of IntelliJ IDEA 2023.2 is now available! You can get the latest build from our website, through the free Toolbox App, or via snaps for Ubuntu. This build comes with all of the notable changes that were introduced throughout the Early Access Program and covered in our previous blog posts. Here are […]]]></summary>
-        <author>
-            <name>Maria Kosukhina</name>
         </author>
     </entry>
     <entry>
@@ -364,16 +564,6 @@ The post Azure DevOps 2023 Q3 Roadmap update appeared first on Azure DevOps Blog
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Improving information retrieval in the Elastic Stack: Hybrid retrieval]]></title>
-        <id>https://www.elastic.co/blog/improving-information-retrieval-elastic-stack-hybrid</id>
-        <link href="https://www.elastic.co/blog/improving-information-retrieval-elastic-stack-hybrid"/>
-        <updated>2023-07-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this blog we introduce hybrid retrieval and explore two concrete implementations in Elasticsearch. We explore improving Elastic Learned Sparse Encoder’s performance by combining it with BM25 using Reciprocal Rank Fusion and Weighted Sum of Scores.]]></summary>
-        <author>
-            <name>Quentin Herreros,Thomas Veasey</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Someone Like Me: Moose Stevens believes you should show up exactly who you are]]></title>
         <id>https://www.elastic.co/blog/culture-moose-stevens-show-up-as-you-are</id>
         <link href="https://www.elastic.co/blog/culture-moose-stevens-show-up-as-you-are"/>
@@ -384,6 +574,16 @@ The post Azure DevOps 2023 Q3 Roadmap update appeared first on Azure DevOps Blog
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Improving information retrieval in the Elastic Stack: Hybrid retrieval]]></title>
+        <id>https://www.elastic.co/blog/improving-information-retrieval-elastic-stack-hybrid</id>
+        <link href="https://www.elastic.co/blog/improving-information-retrieval-elastic-stack-hybrid"/>
+        <updated>2023-07-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this blog we introduce hybrid retrieval and explore two concrete implementations in Elasticsearch. We explore improving Elastic Learned Sparse Encoder’s performance by combining it with BM25 using Reciprocal Rank Fusion and Weighted Sum of Scores.]]></summary>
+        <author>
+            <name>Quentin Herreros,Thomas Veasey</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[How to combine OpenTelemetry instrumentation with Elastic APM Agent features]]></title>
         <id>https://www.elastic.co/blog/opentelemetry-instrumentation-elastic-apm-agent-features</id>
         <link href="https://www.elastic.co/blog/opentelemetry-instrumentation-elastic-apm-agent-features"/>
@@ -391,19 +591,6 @@ The post Azure DevOps 2023 Q3 Roadmap update appeared first on Azure DevOps Blog
         <summary type="html"><![CDATA[This post shows you how you can combine the OpenTelemetry tracing APIs with Elastic APM Agents. You'll learn how OpenTelemetry spans became part of a trace that Elastic APM Agents report.]]></summary>
         <author>
             <name>Greg Kalapos</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Improving information retrieval in the Elastic Stack: Hybrid retrieval]]></title>
-        <id>https://www.elastic.co/blog/improving-information-retrieval-elastic-stack-hybrid</id>
-        <link href="https://www.elastic.co/blog/improving-information-retrieval-elastic-stack-hybrid"/>
-        <updated>2023-07-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-In our last blog post, we introduced Elastic Learned Sparse Encoder, a model trained for effective zero-shot text retrieval. Elasticsearch® also has great lexical retrieval capabilities and rich tools for combining the results of different queries. In this blog, we introduce the concept of hybrid retrieval and explore two concrete implementations available in Elasticsearch. In particular, we explore how to improve the performance of Elastic Learned Sparse Encoder by combining it with BM25 using Reciprocal Rank Fusion and Weighted Sum of Scores.
-We also discuss experiments we undertook to explore some general research questions. These include how best to parameterize Reciprocal Rank Fusion and how to calibrate Weighted Sum of Scores.
-https://static-www.elastic.co/v3/assets/bltefdd0b53724f…]]></summary>
-        <author>
-            <name>Quentin Herreros,Thomas Veasey</name>
         </author>
     </entry>
     <entry>
@@ -421,6 +608,19 @@ My experience being queer at Elastic has been super positive. Come as YOU, are i
 An example of ‘As YOU, Are’ put into a…]]></summary>
         <author>
             <name>Moose Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Improving information retrieval in the Elastic Stack: Hybrid retrieval]]></title>
+        <id>https://www.elastic.co/blog/improving-information-retrieval-elastic-stack-hybrid</id>
+        <link href="https://www.elastic.co/blog/improving-information-retrieval-elastic-stack-hybrid"/>
+        <updated>2023-07-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+In our last blog post, we introduced Elastic Learned Sparse Encoder, a model trained for effective zero-shot text retrieval. Elasticsearch® also has great lexical retrieval capabilities and rich tools for combining the results of different queries. In this blog, we introduce the concept of hybrid retrieval and explore two concrete implementations available in Elasticsearch. In particular, we explore how to improve the performance of Elastic Learned Sparse Encoder by combining it with BM25 using Reciprocal Rank Fusion and Weighted Sum of Scores.
+We also discuss experiments we undertook to explore some general research questions. These include how best to parameterize Reciprocal Rank Fusion and how to calibrate Weighted Sum of Scores.
+https://static-www.elastic.co/v3/assets/bltefdd0b53724f…]]></summary>
+        <author>
+            <name>Quentin Herreros,Thomas Veasey</name>
         </author>
     </entry>
     <entry>
@@ -457,16 +657,6 @@ The post Accelerating Settlements Beyond T+1 with Process Orchestration appeared
         <summary type="html"><![CDATA[In June, we experienced two incidents that resulted in degraded performance across GitHub services.  June 7 16:11 UTC (lasting 2 hours 28 minutes) On June 7 at 16:11 UTC, GitHub started experiencing increasing delays in an internal job queue used to process Git pushes. Our monitoring systems alerted our first responders after 19 minutes. During [&#8230;]]]></summary>
         <author>
             <name>The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DataSpell 2023.2 EAP 3 Is Out!]]></title>
-        <id>https://blog.jetbrains.com/?post_type=dataspell&amp;p=371322</id>
-        <link href="https://blog.jetbrains.com/dataspell/2023/07/2023-2-eap-3/"/>
-        <updated>2023-07-12T19:41:28.000Z</updated>
-        <summary type="html"><![CDATA[The third EAP build for DataSpell 2023.2 brings you faster table data exploration, the new AI Assistant, and the ability to configure managed Jupyter servers. To catch up on all of the new features DataSpell 2023.2 brings, check out our previous EAP blog posts. The Toolbox App is the easiest way to get the EAP […]]]></summary>
-        <author>
-            <name>Stanislav Garkusha</name>
         </author>
     </entry>
     <entry>
@@ -520,16 +710,6 @@ The post Accelerating Settlements Beyond T+1 with Process Orchestration appeared
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Webinar: Automated DevOps in .NET and Azure Using JetBrains TeamCity Cloud, July 20, 2023]]></title>
-        <id>https://blog.jetbrains.com/?post_type=teamcity&amp;p=371420</id>
-        <link href="https://blog.jetbrains.com/teamcity/2023/07/webinar-clearmeasure-july2023/"/>
-        <updated>2023-07-12T14:01:51.000Z</updated>
-        <summary type="html"><![CDATA[Would you like to learn more about how to set up a DevOps continuous delivery pipeline for .NET? Make sure to join the webinar Automated DevOps in .NET and Azure Using TeamCity Cloud, conducted by our partner Clear Measure. Here’s what the webinar will cover: The webinar will be hosted by Jeffrey Palermo, who serves […]]]></summary>
-        <author>
-            <name>Olga Bedrina</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[OpenShift and Ansible: Bridging the Automation Gap for 5G and Beyond Networks - Part 1]]></title>
         <id>https://www.ansible.com/blog/openshift-and-ansible-bridging-the-automation-gap-for-5g-and-beyond-networks-part-1</id>
         <link href="https://www.ansible.com/blog/openshift-and-ansible-bridging-the-automation-gap-for-5g-and-beyond-networks-part-1"/>
@@ -550,6 +730,16 @@ The post Accelerating Settlements Beyond T+1 with Process Orchestration appeared
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[5 stand-out retail use cases for generative AI + Elasticsearch]]></title>
+        <id>https://www.elastic.co/blog/retail-use-cases-generative-ai-elasticsearch</id>
+        <link href="https://www.elastic.co/blog/retail-use-cases-generative-ai-elasticsearch"/>
+        <updated>2023-07-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[With ESRE, retailers can enhance their search capabilities to deliver more accurate and relevant results to their customers and employees, while ensuring sensitive data remains protected.]]></summary>
+        <author>
+            <name>Brandon Mavleos</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Exploring Nginx metrics with Elastic time series data streams]]></title>
         <id>https://www.elastic.co/blog/nginx-metrics-elastic-time-series-data-streams</id>
         <link href="https://www.elastic.co/blog/nginx-metrics-elastic-time-series-data-streams"/>
@@ -564,7 +754,10 @@ The post Accelerating Settlements Beyond T+1 with Process Orchestration appeared
         <id>https://www.elastic.co/blog/retail-use-cases-generative-ai-elasticsearch</id>
         <link href="https://www.elastic.co/blog/retail-use-cases-generative-ai-elasticsearch"/>
         <updated>2023-07-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[With ESRE, retailers can enhance their search capabilities to deliver more accurate and relevant results to their customers and employees, while ensuring sensitive data remains protected.]]></summary>
+        <summary type="html"><![CDATA[,
+Generative AI (GAI), powered by models like OpenAI’s ChatGPT, is rapidly gaining attention in the retail industry for its potential to revolutionize customer experience and drive innovation. The technology has the ability to improve every corner of the retail industry, from tailored ecommerce search and modernized customer support to omnichannel marketing and even predictive maintenance in supply chains. In fact, the many promising retail use cases for generative AI, which executives previously predicted would take years to achieve, might ultimately be delivered in the very near future.
+
+However, retailers are understandably cautious in their approach to this technology due to the notable limitations of GAI. In a previous blog post, we discussed both the benefits and the risks retailers …]]></summary>
         <author>
             <name>Brandon Mavleos</name>
         </author>
@@ -581,19 +774,6 @@ In this blog, we dive into how to enable and use time series data streams by rev
 Elastic TSDS stores metrics in indices optimized for a time series database (TSDB), which is used to store time series metrics. Elastic’s TSDB also got a significant optimization in 8.7 by reducing st…]]></summary>
         <author>
             <name>Lalit Satapathy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 stand-out retail use cases for generative AI + Elasticsearch]]></title>
-        <id>https://www.elastic.co/blog/retail-use-cases-generative-ai-elasticsearch</id>
-        <link href="https://www.elastic.co/blog/retail-use-cases-generative-ai-elasticsearch"/>
-        <updated>2023-07-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-Generative AI (GAI), powered by models like OpenAI’s ChatGPT, is rapidly gaining attention in the retail industry for its potential to revolutionize customer experience and drive innovation. The technology has the ability to improve every corner of the retail industry, from tailored ecommerce search and modernized customer support to omnichannel marketing and even predictive maintenance in supply chains. In fact, the many promising retail use cases for generative AI, which executives previously predicted would take years to achieve, might ultimately be delivered in the very near future.
-
-However, retailers are understandably cautious in their approach to this technology due to the notable limitations of GAI. In a previous blog post, we discussed both the benefits and the risks retailers …]]></summary>
-        <author>
-            <name>Brandon Mavleos</name>
         </author>
     </entry>
     <entry>
@@ -741,29 +921,6 @@ https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltb525e1075f51fa1d/
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to capture custom metrics without app code changes using the Java Agent Plugin]]></title>
-        <id>https://www.elastic.co/blog/custom-metrics-app-code-java-agent-plugin</id>
-        <link href="https://www.elastic.co/blog/custom-metrics-app-code-java-agent-plugin"/>
-        <updated>2023-07-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[When the application you're monitoring doesn't emit the custom metrics you'd like, and you can't directly change the app code, you can use a Java Agent Plugin to automatically instrument the application and emit the custom metrics you desire.]]></summary>
-        <author>
-            <name>Jack Shirazi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to capture custom metrics without app code changes using the Java Agent Plugin]]></title>
-        <id>https://www.elastic.co/blog/custom-metrics-app-code-java-agent-plugin</id>
-        <link href="https://www.elastic.co/blog/custom-metrics-app-code-java-agent-plugin"/>
-        <updated>2023-07-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-The Elastic APM Java Agent automatically tracks many metrics, including those that are generated through Micrometer or the OpenTelemetry Metrics API. So if your application (or the libraries it includes) already exposes metrics from one of those APIs, installing the Elastic APM Java Agent is the only step required to capture them. You'll be able to visualize and configure thresholds, alerts, and anomaly detection — and anything else you want to use them for!
-
-The next simplest option is to generate custom metrics directly from your code (e.g., by adding code using the OpenTelemetry Metrics API directly into the application). The major downside of that approach is that it requires modifying the application, so if you can't or don't want to do that, you can easily produce the desired custo…]]></summary>
-        <author>
-            <name>Jack Shirazi</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Why Kiwi.com chose Camunda Platform 8 for Their Customer Booking Journey]]></title>
         <id>https://camunda.com/?p=80543&amp;preview=true&amp;preview_id=80543</id>
         <link href="https://camunda.com/blog/2023/07/why-camunda-platform-8-kiwi/"/>
@@ -808,7 +965,7 @@ The post Why Kiwi.com chose Camunda Platform 8 for Their Customer Booking Journe
         <title type="html"><![CDATA[Google at ACL 2023]]></title>
         <id>http://ai.googleblog.com/2023/07/google-at-acl-2023.html</id>
         <link href="http://ai.googleblog.com/2023/07/google-at-acl-2023.html"/>
-        <updated>2023-07-10T13:02:00.002Z</updated>
+        <updated>2023-07-10T13:02:00.004Z</updated>
         <summary type="html"><![CDATA[Posted by Malaya Jules, Program Manager, Google
 
 
@@ -850,29 +1007,6 @@ NusaCrowd: O…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Elastic recognized as a Visionary in the 2023 Gartner® Magic Quadrant™ for APM and Observability for the third consecutive year]]></title>
-        <id>https://www.elastic.co/blog/elastic-observability-2023-gartner-magic-quadrant-critical-capabilities-apm</id>
-        <link href="https://www.elastic.co/blog/elastic-observability-2023-gartner-magic-quadrant-critical-capabilities-apm"/>
-        <updated>2023-07-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Learn why Elastic was recognized as a visionary in the latest 2023 Gartner® Magic Quadrant™ for APM and Observability! From Completeness of Vision to Ability to Execute, this new report covers all the details.]]></summary>
-        <author>
-            <name>Gagan Singh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Elastic recognized as a Visionary in the 2023 Gartner® Magic Quadrant™ for APM and Observability for the third consecutive year]]></title>
-        <id>https://www.elastic.co/blog/elastic-observability-2023-gartner-magic-quadrant-critical-capabilities-apm</id>
-        <link href="https://www.elastic.co/blog/elastic-observability-2023-gartner-magic-quadrant-critical-capabilities-apm"/>
-        <updated>2023-07-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-We are excited to announce that Elastic® has been recognized as a Visionary in the 2023 Gartner Magic Quadrant for Application Performance Monitoring (APM) and Observability for the third year in a row. In addition, Elastic scored among the three highest scoring vendors for three out of six Use Cases in the 2023 Gartner® Critical Capabilities for Application Performance Monitoring and Observability.
-https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt5ce6662686913bce/64ac1dfd873fa3aa8c02fb57/APM_MQ_2023.png,APM_MQ_2023.pngElastic also scores among the three highest scoring vendors for three Use Cases in Critical Capabilities report,
-While the Magic Quadrant considers Completeness of Vision and Ability to Execute, the Critical Capabilities report for APM and Observability focus…]]></summary>
-        <author>
-            <name>Gagan Singh</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Down]]></title>
         <id>https://xkcd.com/2800/</id>
         <link href="https://xkcd.com/2800/"/>
@@ -888,16 +1022,6 @@ While the Magic Quadrant considers Completeness of Vision and Ability to Execute
         <link href="https://feeds.feedblitz.com/~/752185088/0/sethsblog~Is-it-a-skill/"/>
         <updated>2023-07-09T08:44:00.000Z</updated>
         <summary type="html"><![CDATA[If so, it might be worth learning. If so, it might pay to let someone who has learned it take care of it. Coding is a skill. But it’s not clear that the person who knows how to code should be doing your design. Teaching is a skill. But simply because someone is good at […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sufficient resolution]]></title>
-        <id>https://seths.blog/?p=46627</id>
-        <link href="https://feeds.feedblitz.com/~/751865942/0/sethsblog~Sufficient-resolution/"/>
-        <updated>2023-07-08T09:06:00.000Z</updated>
-        <summary type="html"><![CDATA[Robert Johnson is known as the king of the Delta blues. One reason is that his small output was brilliant. The other, bigger reason is that the recordings that remain of his short life are among the earliest that sound good… most audio recordings from before 1936 sound antique and scratchy. The Wizard of Oz […]]]></summary>
         <author>
             <name>Seth Godin</name>
         </author>
@@ -939,35 +1063,6 @@ Visual question answering (VQA) is a machine learning task that requires a model
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Accelerating R&D in pharma with Elasticsearch, ESRE, LLMs, and LangChain — Part 1]]></title>
-        <id>https://www.elastic.co/blog/research-development-pharma-elasticsearch-esre-llms-langchain-1</id>
-        <link href="https://www.elastic.co/blog/research-development-pharma-elasticsearch-esre-llms-langchain-1"/>
-        <updated>2023-07-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Learn how to leverage ESRE and generative AI in order to enable R&D organizations to interact with data effectively and make better decisions in the drug discovery process. The challenges with privacy and missing context will also be addressed.]]></summary>
-        <author>
-            <name>Valerio Arvizzigno,Dimitri Marx,Francesco Di Stefano</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Accelerating R&D in pharma with Elasticsearch, ESRE, LLMs, and LangChain — Part 1]]></title>
-        <id>https://www.elastic.co/blog/research-development-pharma-elasticsearch-esre-llms-langchain-1</id>
-        <link href="https://www.elastic.co/blog/research-development-pharma-elasticsearch-esre-llms-langchain-1"/>
-        <updated>2023-07-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-Faster drug discovery leading to promising drug candidates is the main objective of the pharmaceutical industry. To support that goal, the industry has to find better ways to utilize both public and proprietary data — at speed and in a safe way.
-https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc027a3db22757b8a/64a83a20d60b85339768c415/elastic-blog-1-blockbusters.png,elastic-blog-1-blockbusters.png,
-According to WIPO, R&D patent analytics can help researchers and innovators to assist to:
-
-Avoid duplicating research and development effort 
-Determine the patentability of their inventions 
-Avoid infringing other inventors’ patents 
-Estimate the value of their or other inventors’ patents
-Exploit technology from patent applications that have never been granted, are not valid in c…]]></summary>
-        <author>
-            <name>Valerio Arvizzigno,Dimitri Marx,Francesco Di Stefano</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Frankenstein Claim Permutations]]></title>
         <id>https://xkcd.com/2799/</id>
         <link href="https://xkcd.com/2799/"/>
@@ -1002,16 +1097,6 @@ The post Seamless Integration with Message Queue Technology through Inbound Subs
 Image retrieval plays a crucial role in search engines. Typically, their users rely on either image or text as a query to retrieve a desired target image. However, text-based retrieval has its limitations, as describing the target image accurately using words can be challenging. For instance, when searching for a fashion item, users may want an item whose specific attribute, e.g., the color of a logo or the logo itself, is different from what they find in a website. Yet searching for the item in an existing search engine is not trivial since precisely describing the fashion item by text can be challenging. To address this fact, composed image retrieval (CIR…]]></summary>
         <author>
             <name>Google AI Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Accessibility considerations behind code search and code view]]></title>
-        <id>https://github.blog/2023-07-06-accessibility-considerations-behind-code-search-and-code-view/</id>
-        <link href="https://github.blog/2023-07-06-accessibility-considerations-behind-code-search-and-code-view/"/>
-        <updated>2023-07-06T19:00:51.000Z</updated>
-        <summary type="html"><![CDATA[A look at how we improved the readability of code on GitHub.]]></summary>
-        <author>
-            <name>The GitHub Blog</name>
         </author>
     </entry>
     <entry>
@@ -1331,17 +1416,6 @@ The steps below detail how to install Ansible Automation Platform on AWS United 
         <summary type="html"><![CDATA[An overview of what to expect with the technology preview of Ansible Lightspeed with IBM Watson Code Assistant, a new generative AI service available now.]]></summary>
         <author>
             <name>Craig Brandt</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Open Source Software Gives You Access to Innovation]]></title>
-        <id>https://camunda.com/?p=84019</id>
-        <link href="https://camunda.com/blog/2023/06/how-open-source-software-gives-you-access-to-innovation/"/>
-        <updated>2023-06-24T14:57:38.000Z</updated>
-        <summary type="html"><![CDATA[Open source software provides access to innovations and latest technologies. Check out this post to explore some of the ways that open source software gives companies access to innovation.
-The post How Open Source Software Gives You Access to Innovation appeared first on Camunda.]]></summary>
-        <author>
-            <name>Amy Johnston</name>
         </author>
     </entry>
     <entry>

@@ -291,16 +291,6 @@
           "wordCount": 4295,
           "title": "Consul 1.16 enhances service mesh reliability, user experience, and security",
           "imageUrl": "https://www.datocms-assets.com/2885/1620083627-blog-library-product-consul-dark-graphics.jpg"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/announcing-hcp-consul-management-plane-with-cloud-based-observability",
-          "author": null,
-          "description": "The HCP Consul management plane now offers deeper insights to your Consul deployments via cloud-based observability and seamlessly links new and existing self-managed Consul clusters.",
-          "link": "https://www.hashicorp.com/blog/announcing-hcp-consul-management-plane-with-cloud-based-observability",
-          "publishedOn": "2023-06-29T16:00:00.000Z",
-          "wordCount": 2540,
-          "title": "Announcing HCP Consul management plane with  cloud-based observability",
-          "imageUrl": "https://www.datocms-assets.com/2885/1655842467-blog-library-product-hcp-consul.png"
         }
       ]
     },
@@ -315,7 +305,7 @@
           "description": "Elastic Security is excited to announce a new lateral movement detection package that makes use of advanced analytics.",
           "link": "https://www.elastic.co/blog/remote-desktop-protocol-connections-elastic-security",
           "publishedOn": "2023-07-28T00:00:00.000Z",
-          "wordCount": 23455,
+          "wordCount": 23870,
           "title": "Identifying malicious Remote Desktop Protocol (RDP) connections with Elastic Security",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte1999bee8b41e94f/6491b5a348a8ff0fdb477a4a/96453-cybersecurityblogimage-v2_LM.png"
         },
@@ -325,7 +315,7 @@
           "description": ",\nLateral movement is a dangerous threat in the landscape of highly integrated technologies. If attackers gain access to an endpoint, it’s critical for security teams to identify any and all movements they make. To combat this threat, Elastic Security is excited to announce a new lateral movement detection package that makes use of advanced analytics.\n\nIn the past, we explored how we can detect malicious lateral file transfers using commonly abused admin tools, such as SAMBA, SMB/PS Remoting, FTP, SFTP, SSH, and SCP. But we wanted to explore further how to detect fileless malware that attackers use to hijack and compromise systems like the execution of malicious processes and the exploitation of remote services and sessions. \n\nAdversaries frequently try to compromise active Remote Desktop …",
           "link": "https://www.elastic.co/blog/remote-desktop-protocol-connections-elastic-security",
           "publishedOn": "2023-07-28T00:00:00.000Z",
-          "wordCount": 23455,
+          "wordCount": 23870,
           "title": "Identifying malicious Remote Desktop Protocol (RDP) connections with Elastic Security",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte1999bee8b41e94f/6491b5a348a8ff0fdb477a4a/96453-cybersecurityblogimage-v2_LM.png"
         },
@@ -335,7 +325,7 @@
           "description": "Elasticsearch 8.9 introduces optimizations to cardinality aggregations by filtering out documents whose value has already been collected.",
           "link": "https://www.elastic.co/blog/faster-cardinality-aggregations-dynamic-pruning",
           "publishedOn": "2023-07-27T00:00:00.000Z",
-          "wordCount": 20332,
+          "wordCount": 20747,
           "title": "Achieve faster cardinality aggregations via dynamic pruning",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt8ceb09a20054b946/63e648571c653e112744c127/the-end-of-databases-B_(1).jpg"
         },
@@ -345,7 +335,7 @@
           "description": "In this blog, we look at how ChatGPT works, and consider three approaches to build generative AI like search experiences for specific domains.",
           "link": "https://www.elastic.co/blog/demystifying-chatgpt-methods-building-ai-search",
           "publishedOn": "2023-07-27T00:00:00.000Z",
-          "wordCount": 26376,
+          "wordCount": 26790,
           "title": "Demystifying ChatGPT: Different methods for building AI search",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltee4dd172df7ded93/64c2b34f90d3934e0a22c43c/16-crystal-ball.jpeg"
         },
@@ -355,7 +345,7 @@
           "description": "The Office of the Director of National Intelligence (ODNI) released its 2023–2025 data strategy for the US Intelligence Community (IC). In this post, learn why the strategy is important and how Elastic can help the IC build a unified data strategy.",
           "link": "https://www.elastic.co/blog/intelligence-community-data-strategy-elastic",
           "publishedOn": "2023-07-27T00:00:00.000Z",
-          "wordCount": 23377,
+          "wordCount": 23792,
           "title": "Activating the new Intelligence Community data strategy with Elastic as a unified foundation",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta6c239a9458d2c38/64c2813d61d2877d4c8560ca/image.jpg"
         },
@@ -365,7 +355,7 @@
           "description": ",\nElasticsearch 8.9 introduces a speedup to cardinality aggregations through support for dynamic pruning. This optimization needs specific conditions to be met to kick in, but when it does it often yields spectacular results. We have observed some cardinality aggregations that ran by as much as 1,000x faster with this change.\n\nFor instance, computing the number of unique Kubernetes deployments monitored by the Elastic Kubernetes integration benefits from this optimization:\nPOST metrics-*/_search\n{\n  \"query\": { // giving an example query, but any query would work\n    \"bool\": {\n      \"filter\": [\n        { \"range\": { \"@timestamp\": { \"gte\": \"now-1d/h\" } } },\n        { \"match\": { \"data_stream.dataset\": \"kubernetes.pod\" } }\n      ]\n    }\n  },\n  \"size\": 0,\n  \"track_total_hits\": false,\n  \"aggs\": {…",
           "link": "https://www.elastic.co/blog/faster-cardinality-aggregations-dynamic-pruning",
           "publishedOn": "2023-07-27T00:00:00.000Z",
-          "wordCount": 20332,
+          "wordCount": 20747,
           "title": "Achieve faster cardinality aggregations via dynamic pruning",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt8ceb09a20054b946/63e648571c653e112744c127/the-end-of-databases-B_(1).jpg"
         },
@@ -375,7 +365,7 @@
           "description": "What is ChatGPT?,\nFirst things first, ChatGPT is awesome! It can help you work more efficiently —  from summarizing a 10,000-word document to providing a list of differentiations between competing products, as well as many other tasks.\nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6d4bfdfa9fe86b02/64c2b88548b0fd4d802a9ec6/elastic-blog-1-differences.png,elastic-blog-1-differences.png,\nChatGPT is the best known large language model (LLM) based on the transformer architecture. But there are other LLMs that you may have heard of, including BERT (Bidirectional Encoder Representation from Transformer), Bard (Language Model for Dialogue Applications), or LLaMA (LLM Meta AI). LLMs have multiple layers of neural networks that work together to analyze text and predict outputs. They’…",
           "link": "https://www.elastic.co/blog/demystifying-chatgpt-methods-building-ai-search",
           "publishedOn": "2023-07-27T00:00:00.000Z",
-          "wordCount": 26376,
+          "wordCount": 26790,
           "title": "Demystifying ChatGPT: Different methods for building AI search",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltee4dd172df7ded93/64c2b34f90d3934e0a22c43c/16-crystal-ball.jpeg"
         },
@@ -385,7 +375,7 @@
           "description": ",\nThe US Office of the Director of National Intelligence (ODNI) recently released its data strategy for 2023–2025. The document stresses the need for all 18 Intelligence Community (IC) elements to adopt common services, increase data interoperability and discoverability, and prepare teams and technology for artificial intelligence (AI).\n\nThis strategy follows in the (long) wake of ODNI’s 2017 data strategy. In the six years since the publication of that document, IC leaders say that data volume has become an increasing challenge, as well as the need for advanced data capabilities such as automation. According to a recent ThoughtLab/Elastic® study, public sector leaders estimate that their data volume will increase by 59% over the next three years, so this challenge is worth strategically s…",
           "link": "https://www.elastic.co/blog/intelligence-community-data-strategy-elastic",
           "publishedOn": "2023-07-27T00:00:00.000Z",
-          "wordCount": 23377,
+          "wordCount": 23792,
           "title": "Activating the new Intelligence Community data strategy with Elastic as a unified foundation",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta6c239a9458d2c38/64c2813d61d2877d4c8560ca/image.jpg"
         },
@@ -395,7 +385,7 @@
           "description": "Fingerprint is a regulatory tech company which enables customers to achieve compliance, faster and with greater insight. Elasticsearch is a critical component of this formula, providing the capabilities upon which Fingerprint adds its secret sauce.",
           "link": "https://www.elastic.co/blog/fingerprint-enables-rapid-regulatory-compliance-with-elastic",
           "publishedOn": "2023-07-26T00:00:00.000Z",
-          "wordCount": 21923,
+          "wordCount": 22338,
           "title": "Fingerprint enables rapid regulatory compliance with Elastic",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltebd5b951946a6e14/64bf27b015da40c953f8bf72/elastic-blog-search-header-image.png"
         },
@@ -405,7 +395,7 @@
           "description": "When companies hesitate to implement generative AI, their employees do it for them. Learn about the threat of Shadow AI and how to incorporate generative AI in a security-conscious way.",
           "link": "https://www.elastic.co/blog/avoid-shadow-ai-generative-ai-soc",
           "publishedOn": "2023-07-26T00:00:00.000Z",
-          "wordCount": 22750,
+          "wordCount": 23165,
           "title": "Avoid Shadow AI — Embrace generative AI in the SOC",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt548bcf45369b4ed5/64b982617b7f98275b9fe0f9/01-crowd.jpeg"
         },
@@ -415,7 +405,7 @@
           "description": "In this post, learn about the supply chain vulnerabilities of artificial intelligence large language models and how the AI retrieval techniques of search engines can be used to fight misinformation and intentional tampering of AI.",
           "link": "https://www.elastic.co/blog/retrieval-vs-poison-fighting-ai-supply-chain-attacks",
           "publishedOn": "2023-07-26T00:00:00.000Z",
-          "wordCount": 22580,
+          "wordCount": 22995,
           "title": "Retrieval vs. poison — Fighting AI supply chain attacks",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt99ece5c7978eaf6b/64c17469bbc0383b4f77835f/03-stacks.jpg"
         },
@@ -425,7 +415,7 @@
           "description": "After supply chain breaches against SolarWinds, organizations are focused on protecting their software. Elastic's SLSA assessment was the largest carried out by Chainguard. Elastic implements strategic solutions to protect the software supply chain.",
           "link": "https://www.elastic.co/blog/elastic-partners-chainguard-software-supply-chain-security-slsa-assessment",
           "publishedOn": "2023-07-26T00:00:00.000Z",
-          "wordCount": 20856,
+          "wordCount": 21271,
           "title": "Elastic partners with Chainguard on Software Supply Chain security and SLSA assessment",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt1afebd7ee02defdb/64c0398cbbc038df01777ee1/chainguard-supply-chain-blog-720x420.jpeg"
         },
@@ -435,7 +425,7 @@
           "description": ",\nFingerprint is a UK-based regulatory tech company that develops and hosts software solutions to allow regulated businesses to monitor and supervise their staff's electronic communications, to ensure compliance with regulations in their region and domain. The Fingerprint platform provides everything firms need to supervise all electronic communication channels for compliance, simply and effectively. \n\nFingerprint’s clients range from regulatory hosts and principal firms, outsourced chief compliance officers, and compliance consultancies to boutique hedge funds, investment and asset managers, and retail financial companies. For Fingerprint’s clients that oversee risk on behalf of their own roster of customers, the multi-tenant architecture of the platform allows them to supervise and manag…",
           "link": "https://www.elastic.co/blog/fingerprint-enables-rapid-regulatory-compliance-with-elastic",
           "publishedOn": "2023-07-26T00:00:00.000Z",
-          "wordCount": 21923,
+          "wordCount": 22338,
           "title": "Fingerprint enables rapid regulatory compliance with Elastic",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltebd5b951946a6e14/64bf27b015da40c953f8bf72/elastic-blog-search-header-image.png"
         },
@@ -445,7 +435,7 @@
           "description": ",\nYou can’t open your Linkedin feed without being inundated with generative AI articles. They cover the spectrum of generative AI being a horrible evolution that will eliminate jobs, empower cyber criminals, and extract private data to it being the greatest innovation in information technology since the world wide web. As with everything, the truth lies somewhere in the middle of the hyperbole, or as we like to say at Elastic®, “IT, depends.”\n,In our discussions with cybersecurity leaders, we consistently hear the question: Should we allow the use of generative AI within our organizations, even within cybersecurity? \n\nHowever, remember a very similar technology impact with the consumerization of technology. Employees began using applications and technology not previously approved by the or…",
           "link": "https://www.elastic.co/blog/avoid-shadow-ai-generative-ai-soc",
           "publishedOn": "2023-07-26T00:00:00.000Z",
-          "wordCount": 22750,
+          "wordCount": 23165,
           "title": "Avoid Shadow AI — Embrace generative AI in the SOC",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt548bcf45369b4ed5/64b982617b7f98275b9fe0f9/01-crowd.jpeg"
         },
@@ -455,7 +445,7 @@
           "description": ",\nWhile perhaps new to AI researchers, supply chain attacks are nothing new to the world of cybersecurity. For those in the know, it has been best practice to verify the source and authenticity of downloads, package repositories, and containers. But human nature usually wins. As developers, our desire to move quickly to improve ease of use for users and customers can cause us to delay efforts to validate the software supply chain until we are forced to by our peers in compliance or security organizations. \n\nJust like software, the trained neural network that is an AI and can be redistributed. This AI supply chain has some of the same vulnerabilities as software binaries. In this article, I'll explain and demonstrate how the same popular Elasticsearch® retrieval techniques used to combat AI…",
           "link": "https://www.elastic.co/blog/retrieval-vs-poison-fighting-ai-supply-chain-attacks",
           "publishedOn": "2023-07-26T00:00:00.000Z",
-          "wordCount": 22580,
+          "wordCount": 22995,
           "title": "Retrieval vs. poison — Fighting AI supply chain attacks",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt99ece5c7978eaf6b/64c17469bbc0383b4f77835f/03-stacks.jpg"
         },
@@ -465,7 +455,7 @@
           "description": ",\nIn the aftermath of supply chain breaches against SolarWinds and Codecov, organizations are focused on protecting their software from malicious tampering and compromise. Addressing the complexity of software development and potential security exposures has been top of mind. The complexity goes beyond traditional application security as the software supply chain encompasses and spans across different services, organizations, roles, and responsibilities. \n\nElastic®, the leading platform for search-powered solutions, is leveraging the Supply chain Levels for Software Artifacts (SLSA, pronounced “salsa”) to resolve this challenge. SLSA is a security framework that consists of standards and controls to prevent tampering, improve integrity, and secure software packages and infrastructure. We e…",
           "link": "https://www.elastic.co/blog/elastic-partners-chainguard-software-supply-chain-security-slsa-assessment",
           "publishedOn": "2023-07-26T00:00:00.000Z",
-          "wordCount": 20856,
+          "wordCount": 21271,
           "title": "Elastic partners with Chainguard on Software Supply Chain security and SLSA assessment",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt1afebd7ee02defdb/64c0398cbbc038df01777ee1/chainguard-supply-chain-blog-720x420.jpeg"
         },
@@ -475,7 +465,7 @@
           "description": "See the new features available now in Elastic Security 8.9, including advanced analytics, streamlined workflows, new dashboards, AI assistants, and so much more!",
           "link": "https://www.elastic.co/blog/whats-new-elastic-security-8-9-0",
           "publishedOn": "2023-07-25T00:00:00.000Z",
-          "wordCount": 22254,
+          "wordCount": 22669,
           "title": "Elastic Security 8.9: Streamline the analyst experience with GAI and advanced analytics",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt69323019f723d794/5ffe0811f093203f68d42e54/blog-thumb-release-security.png"
         },
@@ -485,7 +475,7 @@
           "description": "Elastic 8.9 provides faster search performance and increased SIEM capabilities along with the beta of the Elastic AI Assistant, to bolster security teams with generative AI, and the tech preview of Reciprocal Rank Fusion for hybrid search.",
           "link": "https://www.elastic.co/blog/whats-new-elastic-8-9-0",
           "publishedOn": "2023-07-25T00:00:00.000Z",
-          "wordCount": 19344,
+          "wordCount": 19759,
           "title": "Elastic 8.9: Meet the Elastic AI Assistant for Security and ML-powered SIEM",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltccfdf4270dc3102c/64af4ac74e2d5ebe39f765d9/elastic-blog-8-9-release-header-image.png"
         },
@@ -495,7 +485,7 @@
           "description": ",\nElastic 8.9 introduces the generative AI sidekick, enhanced rule tuning, new lateral detection capabilities, and more! These new features provide security practitioners with advanced detection and analytics, easy to access information, more ways to customize your security investigations, and additional deployment options. \nAvoid surprise generative AI bills with token usage tracking,\nWith this release, it’s now even easier to ask the AI Assistant questions. We’ve added a dashboard to track questions asked, also called token usage, per Kibana® user. This visibility allows your team to manage third-party LLM billing based on token count, ensuring there are no surprises when using the power of GAI. This helps you track the upcoming service charges and manage budgets internally. \n\nIn additio…",
           "link": "https://www.elastic.co/blog/whats-new-elastic-security-8-9-0",
           "publishedOn": "2023-07-25T00:00:00.000Z",
-          "wordCount": 22254,
+          "wordCount": 22669,
           "title": "Elastic Security 8.9: Streamline the analyst experience with GAI and advanced analytics",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt69323019f723d794/5ffe0811f093203f68d42e54/blog-thumb-release-security.png"
         },
@@ -505,7 +495,7 @@
           "description": ",\nToday, we are pleased to announce the general availability of Elastic 8.9.\n,The release and timing of any features or functionality described in this post remain at Elastic's sole discretion. Any features or functionality not currently available may not be delivered on time or at all.",
           "link": "https://www.elastic.co/blog/whats-new-elastic-8-9-0",
           "publishedOn": "2023-07-25T00:00:00.000Z",
-          "wordCount": 19344,
+          "wordCount": 19759,
           "title": "Elastic 8.9: Meet the Elastic AI Assistant for Security and ML-powered SIEM",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltccfdf4270dc3102c/64af4ac74e2d5ebe39f765d9/elastic-blog-8-9-release-header-image.png"
         }
@@ -589,7 +579,7 @@
           "description": "If you’re using Azure DevOps for your CI/CD pipeline, you may be interested in our recent improvements to code coverage testing. Code coverage tests can help you identify areas of your code that are not tested, or not tested enough, and improve the quality of your automated tests and overall code quality.\nThe post Improvements to code coverage experience under test automation appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/improvements-to-code-coverage-experience-under-test-automation/",
           "publishedOn": "2023-07-20T17:54:58.000Z",
-          "wordCount": 4652,
+          "wordCount": 4966,
           "title": "Improvements to code coverage experience under test automation",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2023/05/PIPELINES.png"
         },
@@ -1090,7 +1080,7 @@
           "description": "As a design organization, we have the opportunity to make a significant impact on designing the platform for all developers. How does the emergence of creative AI impact our work? How can we achieve an inclusive experience for a spectrum of all abilities? What does designing for developer happiness look like?",
           "link": "https://github.blog/2023-07-19-exploring-developer-happiness-inclusion-and-productivity-at-githubs-design-conference/",
           "publishedOn": "2023-07-19T17:00:44.000Z",
-          "wordCount": 3813,
+          "wordCount": 3057,
           "title": "Exploring developer happiness, inclusion, and productivity at GitHub’s Design Conference",
           "imageUrl": "https://github.blog/wp-content/uploads/2023/07/253120008-12a80358-c04b-4464-8c15-5f7171111afc.png"
         },
@@ -1100,7 +1090,7 @@
           "description": "With the new Issue Metrics GitHub Action, you can now track and monitor important metrics related to issues, pull requests, and discussions, such as time to first response, time to close, and more!",
           "link": "https://github.blog/2023-07-19-metrics-for-issues-pull-requests-and-discussions/",
           "publishedOn": "2023-07-19T16:00:04.000Z",
-          "wordCount": 2576,
+          "wordCount": 1820,
           "title": "Metrics for issues, pull requests, and discussions",
           "imageUrl": "https://github.blog/wp-content/uploads/2023/07/249623366-82c20ded-dc55-4d92-a9af-bb75b5f618cd.png?fit=1200%2C630"
         }
@@ -1165,7 +1155,7 @@
           "author": null,
           "description": "Posted by Cat Armato, Program Manager, Google\n\n\n\n\nGroups across Google actively pursue research in the field of machine learning (ML), ranging from theory and application. We build ML systems to solve deep scientific and engineering challenges in areas of language, music, visual processing, algorithm development, and more. We aim to build a more collaborative ecosystem with the broader ML research community through open-sourcing tools and datasets, publishing our work, and actively participating in conferences.\n\n\n\nGoogle is proud to be a Diamond Sponsor of the 40th International Conference on Machine Learning (ICML 2023), a premier annual conference, which is being held this week in Honolulu, Hawaii. As a leader in ML research, Google has a strong presence at this year’s conference with ov…",
           "link": "http://ai.googleblog.com/2023/07/google-at-icml-2023.html",
-          "publishedOn": "2023-07-23T21:13:00.000Z",
+          "publishedOn": "2023-07-23T21:13:00.001Z",
           "wordCount": 29329,
           "title": "Google at ICML 2023",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFdIolpEmmBVh-IZFfIHWjpGm5M-7N6hhQ4yBUFTBWZfQ_Wa4Reyz-YmsST7TbfiloQVKIlCaPhJgLj1nhzPr3JesD4nvXkj-FzGykvtGM7oe4MVV_Fidc0q6FuqvHXa8hrMj36TNRn_oP2_42lTJmWl3mGmaCNvqi5IQBx5PCfHKnpegwX-cVf4r3LUkU/w1200-h630-p-k-no-nu/Google-ICML-hero.jpg"
@@ -1239,26 +1229,6 @@
           "wordCount": 27565,
           "title": "Pic2Word: Mapping pictures to words for zero-shot composed image retrieval",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6B2QkPYBxWvwycmetnYj3hn1h6R9lhon2guJb7jNE3lSCmGXWSe-tm_AdTC6pJ-ORJSIsGz-JuRHpFqflOHvk02R_1AVd0s4Z0JvZ4m1SV6OtiPx0b6DF4BOpEtfW-hkTKt1VhoTPbQKDQCBF3ihZ5rQG9GGe9AQ6xVH8vMYtUYIWBc2hIIvs0mwQh70r/w1200-h630-p-k-no-nu/Pic2Word.png"
-        },
-        {
-          "id": "http://ai.googleblog.com/2023/06/announcing-first-machine-unlearning.html",
-          "author": null,
-          "description": "Posted by Fabian Pedregosa and Eleni Triantafillou, Research Scientists, Google\n\n\n\n\n\nDeep learning has recently driven tremendous progress in a wide array of applications, ranging from realistic image generation and impressive retrieval systems to language models that can hold human-like conversations. While this progress is very exciting, the widespread use of deep neural network models requires caution: as guided by Google’s AI Principles, we seek to develop AI technologies responsibly by understanding and mitigating potential risks, such as the propagation and amplification of unfair biases and protecting user privacy.\n \n\nFully erasing the influence of the data requested to be deleted is challenging since, aside from simply deleting it from databases where it’s stored, it also requires …",
-          "link": "http://ai.googleblog.com/2023/06/announcing-first-machine-unlearning.html",
-          "publishedOn": "2023-06-29T21:08:00.000Z",
-          "wordCount": 27756,
-          "title": "Announcing the first Machine Unlearning Challenge",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnYgC13GY7TTT4dhlutperGlCU07bWBJJr3yICTpKX4kxu8Beso89UtRLslnKi7XhD3T2kzkjHvKLNfXG_hztQxmbDFLafmLscIDZKGzOqWbOUxcYWjTDYgudshWu7v-mNrbhlegtEj7I-9woJvwgtOSfi01nKsalbOiYZmP1YN2FnQw_dTwobwwQvSrsv/w1200-h630-p-k-no-nu/Unlearning.png"
-        },
-        {
-          "id": "http://ai.googleblog.com/2023/06/on-device-diffusion-plugins-for.html",
-          "author": null,
-          "description": "Posted by Yang Zhao and Tingbo Hou, Software Engineers, Core ML\n\n\n\n\nIn recent years, diffusion models have shown great success in text-to-image generation, achieving high image quality, improved inference performance, and expanding our creative inspiration. Nevertheless, it is still challenging to efficiently control the generation, especially with conditions that are difficult to describe with text.\n\n\n\nToday, we announce MediaPipe diffusion plugins, which enable controllable text-to-image generation to be run on-device. Expanding upon our prior work on GPU inference for on-device large generative models, we introduce new low-cost solutions for controllable text-to-image generation that can be plugged into existing diffusion models and their Low-Rank Adaptation (LoRA) variants. \n\n\n\n\nText-t…",
-          "link": "http://ai.googleblog.com/2023/06/on-device-diffusion-plugins-for.html",
-          "publishedOn": "2023-06-29T19:10:00.004Z",
-          "wordCount": 27583,
-          "title": "On-device diffusion plugins for conditioned text-to-image generation",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWYz8RL4gwfO_N5cGmW4m-wglXWgC2UxgAJg70bS6arMkhdFdN-sWs66tOCm4tuw7w7Kuow4pHnLksYqRUz_rH2LplGJ7Wk5rm7wztNEoSsTiPIZKYPhZsnEe2OxNvOBDWYd889WJqAQ59-pnPayHiStWADTqpcYzZidBjf8wvM9_NTTL82iK19yjLbvTz/w1200-h630-p-k-no-nu/MediaPipeDiffusion-hero.gif"
         }
       ]
     },
@@ -1268,12 +1238,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=43864",
+          "author": "Seth Godin",
+          "description": "Someone is going to end up with 10,000,000 followers. Someone is going to post the next viral TikTok. Someone is going to build a meme that spreads around the world. But it probably won’t be me and it probably won’t be you. Buying lottery tickets might be fun, but they’re a lousy investment.",
+          "link": "https://feeds.feedblitz.com/~/761428205/0/sethsblog~The-social-media-lottery/",
+          "publishedOn": "2023-07-29T08:54:00.000Z",
+          "wordCount": 946,
+          "title": "The social media lottery",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=46756",
           "author": "Seth Godin",
           "description": "It’s simple: This surgery will fix your problem and you’ll be better. It’s complicated: Changes in lifestyle, diet and attitude will, over time, help you feel better. Or… Our enemies are bad, and we’re good. Vote for me. The world is a big place that is filled with nuance, shifting alliances and constant change. It’s […]",
           "link": "https://feeds.feedblitz.com/~/760796342/0/sethsblog~Its-simple-its-complicated/",
           "publishedOn": "2023-07-28T08:30:00.000Z",
-          "wordCount": 1035,
+          "wordCount": 1036,
           "title": "It’s simple (it’s complicated)",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061312.jpg"
         },
@@ -1356,16 +1336,6 @@
           "wordCount": 1225,
           "title": "The Beatles and Taylor Swift",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061312.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=46723",
-          "author": "Seth Godin",
-          "description": "Marketing is generally about action. Marketers seek to create the conditions for a change to happen, for people to accomplish their goals and to satisfy their needs. But since 1950, some marketers have worked in a different direction. To sow confusion and doubt, and most of all, to seek delay. In 1954, facing the real […]",
-          "link": "https://feeds.feedblitz.com/~/756443240/0/sethsblog~Confusion-and-delay/",
-          "publishedOn": "2023-07-20T08:48:00.000Z",
-          "wordCount": 1272,
-          "title": "Confusion and delay",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061313.jpg"
         }
       ]
     },

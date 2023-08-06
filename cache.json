@@ -315,7 +315,7 @@
           "description": "From version 8.10.0 and 7.17.13, Kibana will ship with Node.js 18. Read on for more information about how and why we are doing this.",
           "link": "https://www.elastic.co/blog/kibana-releases-nodejs-18",
           "publishedOn": "2023-08-04T00:00:00.000Z",
-          "wordCount": 17948,
+          "wordCount": 18432,
           "title": "Upcoming Kibana releases to run Node.js 18",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt64741d9e2bc7fc03/64cbb113369276483daf701b/kibana-release-node.jpg"
         },
@@ -335,7 +335,7 @@
           "description": "How an almost unknown setting called ignore_malformed can make the difference between dropping a document entirely if a single field is malformed or just ignoring that field and ingesting the document anyway.",
           "link": "https://www.elastic.co/blog/antidote-index-mapping-exceptions-ignore_malformed",
           "publishedOn": "2023-08-04T00:00:00.000Z",
-          "wordCount": 21566,
+          "wordCount": 22050,
           "title": "The Antidote for Index Mapping Exceptions: ignore_malformed",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt3ea5ac6a0ff8efde/64cbce4bbfb67122a86bf239/illustration-stack-modernize-solutions-1689x980_(1).png"
         },
@@ -345,7 +345,7 @@
           "description": ",\nKibana is built on top of the Node.js framework. To ensure stability and longevity of each Kibana release, we always keep the bundled Node.js binary up-to-date with the latest Long Term Support (LTS) version.\n\nWhen Node.js version 18 got elevated to LTS, we started the work of upgrading Kibana to this major version.\n,The release and timing of any features or functionality described in this post remain at Elastic's sole discretion. Any features or functionality not currently available may not be delivered on time or at all.",
           "link": "https://www.elastic.co/blog/kibana-releases-nodejs-18",
           "publishedOn": "2023-08-04T00:00:00.000Z",
-          "wordCount": 17948,
+          "wordCount": 18432,
           "title": "Upcoming Kibana releases to run Node.js 18",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt64741d9e2bc7fc03/64cbb113369276483daf701b/kibana-release-node.jpg"
         },
@@ -365,7 +365,7 @@
           "description": ",\nIn this article, I'll explain how the setting ignore_malformed can make the difference between a 100% dropping rate and a 100% success rate, even with ignoring some malformed fields.\n\nAs a senior software engineer working at Elastic®, I have been on the first line of support for anything related to Beats or Elastic Agent running on Kubernetes and Cloud Native integrations like Nginx ingress controller.\n\nDuring my experience, I have seen all sorts of issues. Users have very different requirements. But at some point during their experience, most of them encounter a very common problem with Elasticsearch®: index mapping exceptions.\nPUT my-index\n{\n  \"mappings\": {\n    \"properties\": {\n      \"number_one\": {\n        \"type\": \"integer\",\n        \"ignore_malformed\": true\n      },\n      \"number_two\":…",
           "link": "https://www.elastic.co/blog/antidote-index-mapping-exceptions-ignore_malformed",
           "publishedOn": "2023-08-04T00:00:00.000Z",
-          "wordCount": 21566,
+          "wordCount": 22050,
           "title": "The Antidote for Index Mapping Exceptions: ignore_malformed",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt3ea5ac6a0ff8efde/64cbce4bbfb67122a86bf239/illustration-stack-modernize-solutions-1689x980_(1).png"
         },
@@ -375,7 +375,7 @@
           "description": "More than a year after the publication of NSM-8 in the US, we check in on progress and share how Elastic is helping defense (DoD) and intelligence community (IC) agencies comply via unified endpoint security and event logging.",
           "link": "https://www.elastic.co/blog/nsm-8-elastic-unified-data-visibility-analysis",
           "publishedOn": "2023-08-03T00:00:00.000Z",
-          "wordCount": 20223,
+          "wordCount": 20707,
           "title": "NSM-8, one year later: Validating Elastic’s approach to unified data visibility and analysis",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0f3ba09a3f1ed5c7/64cbf52ddffc276aa6797056/image_(2).jpg"
         },
@@ -385,7 +385,7 @@
           "description": "The Securities and Exchange Commission now requires companies to report material cybersecurity incidents. CISOs and their teams can learn a lot from these filings. Learn how Elastic InfoSec used Elastic Cloud to automate insights in just a few hours.",
           "link": "https://www.elastic.co/blog/automating-insight-sec-cybersecurity-filings-elastic",
           "publishedOn": "2023-08-03T00:00:00.000Z",
-          "wordCount": 19983,
+          "wordCount": 20467,
           "title": "Automating insight into SEC cybersecurity filings with Elastic",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte1999bee8b41e94f/6491b5a348a8ff0fdb477a4a/96453-cybersecurityblogimage-v2_LM.png"
         },
@@ -395,7 +395,7 @@
           "description": ",\nIn January 2022, the Biden administration released the Improving Cybersecurity of National Security, DOD, and Intelligence Community Systems memorandum, known as NSM-8. The memorandum directs the US Department of Defense (DoD) and Intelligence Community (IC) to increase their focus on cybersecurity through unified standards and reporting. NSM-8 serves a similar purpose as Executive Order 14028 does for US civilian agencies.\nThe speed and success of cyber incident response can be significantly influenced by the amount and nature of data recorded in network logs, as well as how that data is retained and accessed. This was highlighted by some of the most pointed criticism of vendors following the 2019 SolarWinds/Sunburst incident and the 2021 Log4Shell vulnerability. \nSince the release of NSM-8, Elastic® has helped IC and DoD customers meet requirements through a cost-efficient, unified approach to cybersecurity, logging compliance, and data analysis.\n,The release and timing of any features or functionality described in this post remain at Elastic's sole discretion. Any features or functionality not currently available may not be delivered on time or at all.",
           "link": "https://www.elastic.co/blog/nsm-8-elastic-unified-data-visibility-analysis",
           "publishedOn": "2023-08-03T00:00:00.000Z",
-          "wordCount": 20223,
+          "wordCount": 20707,
           "title": "NSM-8, one year later: Validating Elastic’s approach to unified data visibility and analysis",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0f3ba09a3f1ed5c7/64cbf52ddffc276aa6797056/image_(2).jpg"
         },
@@ -405,7 +405,7 @@
           "description": ",\nThe Securities and Exchange Commission (SEC) adopted new rules last week that require companies listed on the US Stock Exchange to disclose any material cybersecurity incidents.\n\nIn addition to reporting incidents, companies are also required to describe their approach to cybersecurity risk management, strategy, and governance on an annual basis.\n\nThe new rules are primarily intended to provide transparency to shareholders and investors, but the information within relevant SEC filings will be of interest to CISOs, security teams, and business leaders who will want answers to questions like:\n\n\nWhat types of incidents do public companies deem material?\nWhich of the companies that we rely on have experienced material security incidents?\n\n\nI did a quick proof of concept to see how easy it wo…",
           "link": "https://www.elastic.co/blog/automating-insight-sec-cybersecurity-filings-elastic",
           "publishedOn": "2023-08-03T00:00:00.000Z",
-          "wordCount": 19983,
+          "wordCount": 20467,
           "title": "Automating insight into SEC cybersecurity filings with Elastic",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte1999bee8b41e94f/6491b5a348a8ff0fdb477a4a/96453-cybersecurityblogimage-v2_LM.png"
         },
@@ -415,7 +415,7 @@
           "description": "Large Language Models (LLMs) can give notoriously inconsistent responses when posed the same question multiple times. We'll craft a prompt sandwich to improve the quality and consistency of chats with your preferred LLMs.",
           "link": "https://www.elastic.co/blog/crafting-prompt-sandwiches-generative-ai",
           "publishedOn": "2023-08-02T00:00:00.000Z",
-          "wordCount": 21385,
+          "wordCount": 21869,
           "title": "Crafting Prompt Sandwiches for Generative AI",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0bcbdc226f04f416/64ca59eaa3f81b2f30519775/sandwiches-generative-ai-720x420.jpeg"
         },
@@ -425,7 +425,7 @@
           "description": ",\nLarge Language Models (LLMs) can give notoriously inconsistent responses when asked the same question multiple times. For example, if you ask for help writing an Elasticsearch query, sometimes the generated query may be wrapped by an API call, even though we didn’t ask for it. This sometimes subtle, other times dramatic variability adds complexity when integrating generative AI into analyst workflows that expect specifically-formatted responses, like queries. In the short term, LLM providers may offer a patchwork of vendor-specific techniques for improving the repeatability of responses.\n\nFortunately, in addition to these emerging vendor-specific techniques, there's a universal pattern for structuring prompts at the start of a conversation to steer it in the right direction. We'll craft …",
           "link": "https://www.elastic.co/blog/crafting-prompt-sandwiches-generative-ai",
           "publishedOn": "2023-08-02T00:00:00.000Z",
-          "wordCount": 21385,
+          "wordCount": 21869,
           "title": "Crafting Prompt Sandwiches for Generative AI",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0bcbdc226f04f416/64ca59eaa3f81b2f30519775/sandwiches-generative-ai-720x420.jpeg"
         },
@@ -435,7 +435,7 @@
           "description": "The Accessibles work to raise awareness and create community at Elastic for those that are differently abled. Learn more about the group.",
           "link": "https://www.elastic.co/blog/culture-meet-accessibles",
           "publishedOn": "2023-08-01T00:00:00.000Z",
-          "wordCount": 18753,
+          "wordCount": 19272,
           "title": "ERGs encourages you to come as you are: Meet the Accessibles",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte1618b626afedb36/645eb2313929fdf589402832/042523-Elastic-Blog-Meet_the_ERG-Accessibles-1680x980_1_(1).jpg"
         },
@@ -445,7 +445,7 @@
           "description": ",\nOur employee resource groups, or as we like to call them, Elastician resource groups, have been an informal part of Elastic’s culture since 2016. While each group started as a Slack channel for any Elastician to join, we formally recognized these groups in 2021.\n\nThat allowed us to ensure that the members would have structure, budget, and ultimately, a voice based on any dimension of diversity, allyship, and advocacy. This formalization was an important step in our global diversity, equity, and inclusion journey.\n\nEach ERGs is aligned to a shared identity, interest, affinity, or allyship. We want to create a community of people with something in common and to encourage sharing, learning, and networking among members. While each group has their own goals and vision, they are all working t…",
           "link": "https://www.elastic.co/blog/culture-meet-accessibles",
           "publishedOn": "2023-08-01T00:00:00.000Z",
-          "wordCount": 18753,
+          "wordCount": 19272,
           "title": "ERGs encourages you to come as you are: Meet the Accessibles",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte1618b626afedb36/645eb2313929fdf589402832/042523-Elastic-Blog-Meet_the_ERG-Accessibles-1680x980_1_(1).jpg"
         },
@@ -475,7 +475,7 @@
           "description": "The Office of the Director of National Intelligence (ODNI) released its 2023–2025 data strategy for the US Intelligence Community (IC). In this post, learn why the strategy is important and how Elastic can help the IC build a unified data strategy.",
           "link": "https://www.elastic.co/blog/intelligence-community-data-strategy-elastic",
           "publishedOn": "2023-07-27T00:00:00.000Z",
-          "wordCount": 21905,
+          "wordCount": 22424,
           "title": "Activating the new Intelligence Community data strategy with Elastic as a unified foundation",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta6c239a9458d2c38/64c2813d61d2877d4c8560ca/image.jpg"
         },
@@ -485,7 +485,7 @@
           "description": "In this blog, we look at how ChatGPT works, and consider three approaches to build generative AI like search experiences for specific domains.",
           "link": "https://www.elastic.co/blog/demystifying-chatgpt-methods-building-ai-search",
           "publishedOn": "2023-07-27T00:00:00.000Z",
-          "wordCount": 24938,
+          "wordCount": 25422,
           "title": "Demystifying ChatGPT: Different methods for building AI search",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltee4dd172df7ded93/64c2b34f90d3934e0a22c43c/16-crystal-ball.jpeg"
         },
@@ -495,7 +495,7 @@
           "description": ",\nThe US Office of the Director of National Intelligence (ODNI) recently released its data strategy for 2023–2025. The document stresses the need for all 18 Intelligence Community (IC) elements to adopt common services, increase data interoperability and discoverability, and prepare teams and technology for artificial intelligence (AI).\n\nThis strategy follows in the (long) wake of ODNI’s 2017 data strategy. In the six years since the publication of that document, IC leaders say that data volume has become an increasing challenge, as well as the need for advanced data capabilities such as automation. According to a recent ThoughtLab/Elastic® study, public sector leaders estimate that their data volume will increase by 59% over the next three years, so this challenge is worth strategically s…",
           "link": "https://www.elastic.co/blog/intelligence-community-data-strategy-elastic",
           "publishedOn": "2023-07-27T00:00:00.000Z",
-          "wordCount": 21905,
+          "wordCount": 22424,
           "title": "Activating the new Intelligence Community data strategy with Elastic as a unified foundation",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta6c239a9458d2c38/64c2813d61d2877d4c8560ca/image.jpg"
         },
@@ -505,7 +505,7 @@
           "description": "What is ChatGPT?,\nFirst things first, ChatGPT is awesome! It can help you work more efficiently —  from summarizing a 10,000-word document to providing a list of differentiations between competing products, as well as many other tasks.\nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6d4bfdfa9fe86b02/64c2b88548b0fd4d802a9ec6/elastic-blog-1-differences.png,elastic-blog-1-differences.png,\nChatGPT is the best known large language model (LLM) based on the transformer architecture. But there are other LLMs that you may have heard of, including BERT (Bidirectional Encoder Representation from Transformer), Bard (Language Model for Dialogue Applications), or LLaMA (LLM Meta AI). LLMs have multiple layers of neural networks that work together to analyze text and predict outputs. They’…",
           "link": "https://www.elastic.co/blog/demystifying-chatgpt-methods-building-ai-search",
           "publishedOn": "2023-07-27T00:00:00.000Z",
-          "wordCount": 24938,
+          "wordCount": 25422,
           "title": "Demystifying ChatGPT: Different methods for building AI search",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltee4dd172df7ded93/64c2b34f90d3934e0a22c43c/16-crystal-ball.jpeg"
         }
@@ -599,7 +599,7 @@
           "description": "March of 2022 is when we announced the official preview of New Boards Hub. Since then, we have been actively taking feedback, fixing bugs, and adding new features. It’s been a long journey. In this post we will outline the last few steps on making New Boards Hub the default experience for all users.\nThe post New Boards Hub Path to GA appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/new-boards-hub-path-to-ga/",
           "publishedOn": "2023-07-18T18:37:52.000Z",
-          "wordCount": 4963,
+          "wordCount": 5277,
           "title": "New Boards Hub Path to GA",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/03/agile.png"
         },
@@ -619,7 +619,7 @@
           "description": "Yet another sprint has come to an end, accompanied by a wave of bug fixes 🌊🪲. Our team’s hard work has allowed us to eliminate over 40 New Boards Hub bugs last sprint. With sprint 225, we are ready to activate the “Try the New Boards Hub”\nThe post New Boards Hub Update, Sprint 224 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/new-boards-hub-update-sprint-224/",
           "publishedOn": "2023-07-11T17:14:31.000Z",
-          "wordCount": 5147,
+          "wordCount": 5461,
           "title": "New Boards Hub Update, Sprint 224",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/10/sketch-3.png"
         }
@@ -1090,7 +1090,7 @@
           "description": "This blog post describes two security vulnerabilities in Decidim, a digital platform for citizen participation. Both vulnerabilities were addressed by the Decidim team with corresponding update releases for the supported versions in May 2023.",
           "link": "https://github.blog/2023-07-28-closing-vulnerabilities-in-decidim-a-ruby-based-citizen-participation-platform/",
           "publishedOn": "2023-07-28T13:00:59.000Z",
-          "wordCount": 4560,
+          "wordCount": 3661,
           "title": "Closing vulnerabilities in Decidim, a Ruby-based citizen participation platform",
           "imageUrl": "https://github.blog/wp-content/uploads/2023/04/1200.630-Global@2x.png"
         },
@@ -1120,7 +1120,7 @@
           "description": "Game Bytes is our monthly series taking a peek at the world of gamedev on GitHub—featuring game engine updates, game jam details, open source games, mods, maps, and more. Game on!",
           "link": "https://github.blog/2023-07-25-game-bytes-july-2023/",
           "publishedOn": "2023-07-25T19:00:15.000Z",
-          "wordCount": 2114,
+          "wordCount": 3013,
           "title": "Game Bytes · July 2023",
           "imageUrl": "https://github.blog/wp-content/uploads/2023/04/game-bytes.png"
         },
@@ -1259,16 +1259,6 @@
           "wordCount": 27495,
           "title": "Modular visual question answering via code generation",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjitkbpvH8cFcz-jbaK4Z8RzeDVi2aryR7NDkV55pqlh73A6iAeFEhw7HREIWOD0z9YY5Id3lhDLAIRs8fIJM0MxSYMljx8d9glfnv8p1WnXJNrABjVYgqA9xmCaNWTTyYw4qgSB26WreN62wWr382-4cSEXHgXe4nnDokdtNm9flD4zhxw9yynus09ZFeD/w1200-h630-p-k-no-nu/hero.gif"
-        },
-        {
-          "id": "http://ai.googleblog.com/2023/07/pic2word-mapping-pictures-to-words-for.html",
-          "author": null,
-          "description": "Posted by Kuniaki Saito, Student Researcher, Google Research, Cloud AI Team, and Kihyuk Sohn, Research Scientist, Google Research\n\n\n\n\n\nImage retrieval plays a crucial role in search engines. Typically, their users rely on either image or text as a query to retrieve a desired target image. However, text-based retrieval has its limitations, as describing the target image accurately using words can be challenging. For instance, when searching for a fashion item, users may want an item whose specific attribute, e.g., the color of a logo or the logo itself, is different from what they find in a website. Yet searching for the item in an existing search engine is not trivial since precisely describing the fashion item by text can be challenging. To address this fact, composed image retrieval (CIR…",
-          "link": "http://ai.googleblog.com/2023/07/pic2word-mapping-pictures-to-words-for.html",
-          "publishedOn": "2023-07-06T19:50:00.000Z",
-          "wordCount": 27565,
-          "title": "Pic2Word: Mapping pictures to words for zero-shot composed image retrieval",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6B2QkPYBxWvwycmetnYj3hn1h6R9lhon2guJb7jNE3lSCmGXWSe-tm_AdTC6pJ-ORJSIsGz-JuRHpFqflOHvk02R_1AVd0s4Z0JvZ4m1SV6OtiPx0b6DF4BOpEtfW-hkTKt1VhoTPbQKDQCBF3ihZ5rQG9GGe9AQ6xVH8vMYtUYIWBc2hIIvs0mwQh70r/w1200-h630-p-k-no-nu/Pic2Word.png"
         }
       ]
     },
@@ -1278,12 +1268,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=46845",
+          "author": "Seth Godin",
+          "description": "At the dawn of the plastic age, it was a cheap substitute. The word “plasticky” is not a compliment. Over time, the plastics industry developed new finishes, colors and most of all, cultural impact, and extra (wasted) plastic packaging was seen first as convenient, then as a sign of status. I just got a lovely […]",
+          "link": "https://feeds.feedblitz.com/~/765851864/0/sethsblog~The-gratuitous-use-of-plastic/",
+          "publishedOn": "2023-08-05T08:34:00.000Z",
+          "wordCount": 1143,
+          "title": "The gratuitous use of plastic",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806132-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=44108",
           "author": "Seth Godin",
           "description": "Some fields of endeavor continue to narrow down the unknown, in search of the recipe, the efficient method of industry. And others live on Feynman’s expanding frontier of ignorance, where each closed door leads to several newly opened ones. That’s a fundamental choice in our work. To close doors on our way to an answer, […]",
           "link": "https://feeds.feedblitz.com/~/764761523/0/sethsblog~The-expanding-frontier-of-ignorance/",
           "publishedOn": "2023-08-04T08:42:00.000Z",
-          "wordCount": 977,
+          "wordCount": 978,
           "title": "The expanding frontier of ignorance",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806137-1.jpg"
         },
@@ -1366,16 +1366,6 @@
           "wordCount": 1044,
           "title": "Good businesses solve real problems",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061310-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=46776",
-          "author": "Seth Godin",
-          "description": "What do we get in exchange for our work? There’s pay, of course, and the satisfaction of a job well done. There’s stress and human interaction, learning and physical exertion. We get the drama of what might happen next and the delight of actually pulling it off. And mostly we get the day to day. […]",
-          "link": "https://feeds.feedblitz.com/~/760066355/0/sethsblog~Product-and-process/",
-          "publishedOn": "2023-07-27T08:41:00.000Z",
-          "wordCount": 1090,
-          "title": "Product and process",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg"
         }
       ]
     },

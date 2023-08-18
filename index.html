@@ -22,6 +22,422 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-18 datetime="2023-08-18T00:00:00.000Z">2023-08-18</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-18 datetime="2023-08-18T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Kubernetes – Production-Grade Container Orchestration</button>
+                  <a class="source-heading__link" href="https://kubernetes.io/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kubernetes.io/blog/2023/08/18/retroactive-default-storage-class-ga/"
+                        open
+                      >
+                        <summary class="article-expander__title">Blog: Kubernetes v1.28: Retroactive Default StorageClass move to GA</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kubernetes.io/blog/2023/08/18/retroactive-default-storage-class-ga/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Author: Roman Bednář (Red Hat)
+Announcing graduation to General Availability (GA) - Retroactive Default StorageClass Assignment in Kubernetes v1.28!
+Kubernetes SIG Storage team is thrilled to announce that the &quot;Retroactive Default StorageClass Assignment&quot; feature,
+introduced as an alpha in Kubernetes v1.25, has now graduated to GA and is officially part of the Kubernetes v1.28 release.
+This enhancement brings a significant improvement to how default
+StorageClasses are assigned to PersistentVolumeClaims (PVCs).
+With this feature enabled, you no longer need to create a default StorageClass first and then a PVC to assign the class.
+Instead, any PVCs without a StorageClass assigned will now be retroactively updated to include the default StorageClass.
+This enhancement ensures that PVCs no longer get stuck in an unbound state, and storage provisioning works seamlessly,
+even when a default StorageClass is not defined at the time of PVC creation.
+What changed?
+The PersistentVolume (PV) controller has been modified to automatically assign a default StorageClass to any unbound
+PersistentVolumeClaim with the storageClassName not set. Additionally, the PersistentVolumeClaim
+admission validation mechanism within
+the API server has been adjusted to allow changing values from an unset state to an actual StorageClass name.
+How to use it?
+As this feature has graduated to GA, there&#x27;s no need to enable a feature gate anymore.
+Simply make sure you are running Kubernetes v1.28 or later, and the feature will be available for use.
+For more details, read about
+default StorageClass assignment in the Kubernetes documentation.
+You can also read the previous blog post announcing beta graduation in v1.26.
+To provide feedback, join our Kubernetes Storage Special-Interest-Group (SIG)
+or participate in discussions on our public Slack channel.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-17 datetime="2023-08-17T22:07:14.000Z">2023-08-17</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-17 datetime="2023-08-17T22:07:14.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Netflix TechBlog - Medium</button>
+                  <a class="source-heading__link" href="https://netflixtechblog.com?source&#x3D;rss----2615bd06b42e---4">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://medium.com/p/b8cd145491cc"
+                        open
+                      >
+                        <summary class="article-expander__title">AVA Discovery View: Surfacing Authentic Moments</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://netflixtechblog.com/ava-discovery-view-surfacing-authentic-moments-b8cd145491cc?source&#x3D;rss----2615bd06b42e---4">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://miro.medium.com/v2/resize:fit:890/0*o3U-Eg_XXmXzmMMO" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>By: Hamid Shahid, Laura Johnson, Tiffany Low</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;19
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >The GitHub Blog</button>
+                  <a class="source-heading__link" href="https://github.blog/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://github.blog/2023-08-17-mtls-when-certificate-authentication-is-done-wrong/"
+                        open
+                      >
+                        <summary class="article-expander__title">mTLS: When certificate authentication is done wrong</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://github.blog/2023-08-17-mtls-when-certificate-authentication-is-done-wrong/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://github.blog/wp-content/uploads/2023/04/1200.630-Global@2x-1.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>In this post, we&#x27;ll deep dive into some interesting attacks on mTLS authentication. We&#x27;ll have a look at implementation vulnerabilities and how developers can make their mTLS systems vulnerable to user impersonation, privilege escalation, and information leakages.
+The post mTLS: When certificate authentication is done wrong appeared first on The GitHub Blog.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >AWS News Blog</button>
+                  <a class="source-heading__link" href="https://aws.amazon.com/blogs/aws/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="b86f604c4015c28675b8f90e5913de842828c831"
+                        open
+                      >
+                        <summary class="article-expander__title">New – Amazon EC2 Hpc7a Instances Powered by 4th Gen AMD EPYC Processors Optimized for High Performance Computing</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://aws.amazon.com/blogs/aws/new-amazon-ec2-hpc7a-instances-powered-by-4th-gen-amd-epyc-processors-optimized-for-high-performance-computing/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/07/17/Site-Merch_EC2-Hpc7a_Blog.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>In January 2022, we launched Amazon EC2 Hpc6a instances for customers to efficiently run their compute-bound high performance computing (HPC) workloads on AWS with up to 65 percent better price performance over comparable x86-based compute-optimized instances. As their jobs grow more complex, customers have asked for more cores with more compute performance and more memory […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Google AI Blog</button>
+                  <a class="source-heading__link" href="http://ai.googleblog.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://ai.googleblog.com/2023/08/neural-network-pruning-with.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Neural network pruning with combinatorial optimization</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://ai.googleblog.com/2023/08/neural-network-pruning-with.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyU4esZL0DIoU6gbv90zR7Fw-r8Jm9DhLix7eBHMwp50c_3l1pP0myByQ4fSPidsrfhMrOxS2hQxLJuQ4d5DVJP3n5hAocfJeAWQDNjcvrU679bnFYcww0qcNWNzr3SEEcOQqG8owJmNxIWIrqJq_6ReXBJ9PUK-tW1ou0j73P3grgASIrfudrTyjyHu5K/w1200-h630-p-k-no-nu/CHITA%20hero.gif" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Posted by Hussein Hazimeh, Research Scientist, Athena Team, and Riade Benbaki, Graduate Student at MIT
+
+
+
+
+
+Modern neural networks have achieved impressive performance across a variety of applications, such as language, mathematical reasoning, and vision. However, these networks often use large architectures that require lots of computational resources. This can make it impractical to serve such models to users, especially in resource-constrained environments like wearables and smartphones. A widely used approach to mitigate the inference costs of pre-trained networks is to prune them by removing some of their weights, in a way that doesn’t significantly affect utility. In standard neural networks, each weight defines a connection between two neurons. So after weights are pruned, the input…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;93
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >HashiCorp Blog</button>
+                  <a class="source-heading__link" href="https://hashicorp.com/blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.hashicorp.com/blog/cdk-for-terraform-0-18-reduces-synthesization-time"
+                        open
+                      >
+                        <summary class="article-expander__title">CDK for Terraform 0.18 reduces synthesization time</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.hashicorp.com/blog/cdk-for-terraform-0-18-reduces-synthesization-time">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.datocms-assets.com/2885/1620081857-blog-library-product-terraform-dark-gradient.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>The newest CDKTF release cuts synthesization times for TypeScript, Python, and Java, drastically improving the user experience.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >The JetBrains Blog</button>
+                  <a class="source-heading__link" href="https://blog.jetbrains.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://blog.jetbrains.com/?post_type&#x3D;ruby&amp;p&#x3D;381087"
+                        open
+                      >
+                        <summary class="article-expander__title">Collaborative Programming in RubyMine</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.jetbrains.com/ruby/2023/08/collaborative-programming-in-rubymine/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blog.jetbrains.com/wp-content/uploads/2023/08/plugin_enabled.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Hi everyone, We’re back with a new how2pro blog post unveiling another cool RubyMine feature – the Code With Me plugin. When you’re knee-deep in a complex task or tangling with an issue that’s testing your limits, having someone by your side can make all the difference. Additionally, in an educational setting, it’s important to […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Seth Godin&#x27;s Blog on marketing, tribes and respect</button>
+                  <a class="source-heading__link" href="https://seths.blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://seths.blog/?p&#x3D;43961"
+                        open
+                      >
+                        <summary class="article-expander__title">Defending the apostrophe</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://feeds.feedblitz.com/~/780938837/0/sethsblog~Defending-the-apostrophe/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061318.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Does it need defending? The sign on some bushes near a park in my town says, Beware: Bee’s. A local merchant adds a note to some receipts that says, Your awesome. It’s tempting to speak up and point out that the sky comma is showing up where it shouldn’t. And missing when it might be […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Spring</button>
+                  <a class="source-heading__link" href="https://spring.io">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://spring.io/blog/2023/08/17/spring-framework-6-1-m4-released"
+                        open
+                      >
+                        <summary class="article-expander__title">Spring Framework 6.1 M4 released</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://spring.io/blog/2023/08/17/spring-framework-6-1-m4-released">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://spring.io/img/og-spring.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Level up your Java code and explore what Spring can do for you.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;24
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Elastic Blog - Elasticsearch, Kibana, and ELK Stack</button>
+                  <a class="source-heading__link" href="https://www.elastic.co">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/elastic-stack-8-9-1-released"
+                        open
+                      >
+                        <summary class="article-expander__title">Elastic Stack 8.9.1 released</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/elastic-stack-8-9-1-released">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6a26a8ec94e87272/6001ac6a96de49101cfb1e46/cta-illustration-space-launch-white-bg.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Read about the updates and bug fixes that have been included in this release.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;43
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/elastic-stack-8-9-1-released"
+                        open
+                      >
+                        <summary class="article-expander__title">Elastic Stack 8.9.1 released</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/elastic-stack-8-9-1-released">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6a26a8ec94e87272/6001ac6a96de49101cfb1e46/cta-illustration-space-launch-white-bg.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Read about the updates and bug fixes that have been included in this release.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;43
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-16 datetime="2023-08-16T21:12:06.000Z">2023-08-16</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-16 datetime="2023-08-16T21:12:06.000Z"></time>
           </button>
@@ -52,7 +468,7 @@
                             <span class="media-object__text">
                               <span>With KYC in banking, there are a lot of advantages that every bank should know about. Read on to learn more about KYC automation and how it works.
 The post KYC Automation for Banks: 5 Biggest Benefits appeared first on Camunda.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;16
+                                &ensp;<span class="article-reading-time">(&hairsp;15
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -134,7 +550,7 @@ The Graceful Node Shutd…</span>
                               <img src="https://miro.medium.com/v2/resize:fit:734/0*lL_0weS3WX_b4cZC" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Netflix’s Zuul Gateway eliminated tens of millions of connections and reduced almost all connection churn to backends</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;19
+                                &ensp;<span class="article-reading-time">(&hairsp;20
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -324,7 +740,7 @@ The Graceful Node Shutd…</span>
                               <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt407153811d8b1867/6298b3bce95fa50f854dbdf3/illustration-out-of-box-data-vis-1680x980.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Optimize cloud costs with Elastic APM. Learn how to leverage cloud metadata, calculate pricing, and make smarter decisions for better performance.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;62
+                                &ensp;<span class="article-reading-time">(&hairsp;63
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -347,7 +763,7 @@ The Graceful Node Shutd…</span>
 Application performance monitoring (APM) is much more than capturing and tracking errors and stack traces. Today’s cloud-based businesses deploy applications across various regions and even cloud providers. So, harnessing the power of metadata provided by the Elastic APM agents becomes more critical. Leveraging the metadata, including crucial information like cloud region, provider, and machine type, allows us to track costs across the application stack. In this blog post, we look at how we can use cloud metadata to empower businesses to make smarter and cost-effective decisions, all while improving resource utilization and the user experience.
 
 First, we need an example application that allows us to monitor infrastructure changes effectively. We use a Python Flask application with the E…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;62
+                                &ensp;<span class="article-reading-time">(&hairsp;63
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -464,7 +880,7 @@ First, we need an example application that allows us to monitor infrastructure c
                             <span class="media-object__text">
                               <span>Read about why Achim Dannecker uses Camunda in his classroom, how students work with it and what he hopes everyone can take away from his course.
 The post Teaching Camunda – An Interview with Achim Dannecker appeared first on Camunda.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;16
+                                &ensp;<span class="article-reading-time">(&hairsp;15
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -536,7 +952,7 @@ Kubernetes v1.28: Planternetes
 The theme for Kubernetes v1.28 is Planternetes.
 Each Kubernetes release is the culmination of the hard work of thousands of individuals from our community. The people behind this release come from a wide range of backgrounds, some of us industry veterans, parents, others students and newcomers to open-source. We combine our unique experience to create a collective artifact with global impact.
 Much like a garden, our release has ever-changing growth, challenges and oppor…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;20
+                                &ensp;<span class="article-reading-time">(&hairsp;21
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -652,7 +1068,7 @@ The post Release Radar · July 2023 Edition appeared first on The GitHub Blog.</
                             <span class="media-object__text">
                               <span>Some best practices and important defenses to prevent common attacks against GitHub Actions that are enabled by stolen personal access tokens, compromised accounts, or compromised GitHub sessions.
 The post Hardening repositories against credential theft appeared first on The GitHub Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                &ensp;<span class="article-reading-time">(&hairsp;8
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -720,7 +1136,7 @@ The post Hardening repositories against credential theft appeared first on The G
                               <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt3aca1dbf371e038e/617c62f1e9faf1106303329b/blog-thumb-cloud-midnight.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>In this get to know the Elastic Community series, meet Manuel Alba. Learn about his background in technology and his path to becoming an Elastic Community Organizer</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;50
+                                &ensp;<span class="article-reading-time">(&hairsp;54
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -743,7 +1159,7 @@ The post Hardening repositories against credential theft appeared first on The G
 Manuel Alba is the organizer of the Elastic® community in Chile. He is a civil engineer in Computer Science and Telecommunication. He earned a postgraduate degree in artificial intelligence and software engineering and a Master&#x27;s degree in information technology. He is a lecturer and head of software development and architecture in the Vice-rector&#x27;s Office for Information Technology at the University of Chile.
 When did you first embrace Elastic as a technology?
 I remember my first job after completing my undergraduate studies. I was hired by the telecommunications company, Entel, which was migrating from Splunk to Elastic, and I had the opportunity to be part of this project. In the beginning, Elastic was completely unknown to me, but from the first contact, I realized that this was the …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;50
+                                &ensp;<span class="article-reading-time">(&hairsp;54
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -763,27 +1179,7 @@ I remember my first job after completing my undergraduate studies. I was hired b
                               <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt783d97a8577f2c0b/64dbab49992f3c3ae2868f63/127222-elastic-wesmason-0720x420.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Wes Mason was struggling in ways that others around him weren’t. After he got confirmation he has ADHD, he’s worked to find ways that work for him.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;45
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/manage-applications-amazon-ecs-ec2-based-clusters-elastic-observability"
-                        open
-                      >
-                        <summary class="article-expander__title">Managing your applications on Amazon ECS EC2-based clusters with Elastic Observability</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/manage-applications-amazon-ecs-ec2-based-clusters-elastic-observability">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt83f6f61131e5f244/6297bb2d737ad40f5e665091/library-branding-elastic-observability-midnight-1680x980.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Learn how to manage applications on Amazon ECS clusters based on EC2 instances and how simple it is to use Elastic agents with the AWS and docker integrations to provide a complete picture of your apps, ECS service, and corresponding EC2 instances.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;63
+                                &ensp;<span class="article-reading-time">(&hairsp;49
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -803,7 +1199,27 @@ I remember my first job after completing my undergraduate studies. I was hired b
                               <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt69fa26c915e78ac5/63f62fcb52820c02597bfbfd/illustration-protect-at-scale-web-thumb-1680x980.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>From an increase in cyber attacks to the cyber skills gap, public sector organizations are uniquely positioned to suffer the effects of cyber threats. This blog walks through strategies public sector organizations can implement to mitigate risk.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;51
+                                &ensp;<span class="article-reading-time">(&hairsp;55
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/manage-applications-amazon-ecs-ec2-based-clusters-elastic-observability"
+                        open
+                      >
+                        <summary class="article-expander__title">Managing your applications on Amazon ECS EC2-based clusters with Elastic Observability</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/manage-applications-amazon-ecs-ec2-based-clusters-elastic-observability">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt83f6f61131e5f244/6297bb2d737ad40f5e665091/library-branding-elastic-observability-midnight-1680x980.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Learn how to manage applications on Amazon ECS clusters based on EC2 instances and how simple it is to use Elastic agents with the AWS and docker integrations to provide a complete picture of your apps, ECS service, and corresponding EC2 instances.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;67
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -828,7 +1244,32 @@ While he suspected he had some form of neurodivergence, he didn’t have a diagn
 Being an SRE lead doesn’t involve managerial tasks, Wes says. But, it does involve meetings and being available to people to give feedback and technical guidance.
 “I struggled with the role because people were waiting on me and I was losing focus,” he says.
 “My ADHD means I can hyper focus, which can be an engineering superpower, but it also means that my brain struggles to focus when it’s not engaged. It becomes very hard to concentrate and work throug…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;45
+                                &ensp;<span class="article-reading-time">(&hairsp;49
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/cybersecurity-perfect-storm-public-sector"
+                        open
+                      >
+                        <summary class="article-expander__title">Why cybersecurity is a perfect storm for the public sector</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/cybersecurity-perfect-storm-public-sector">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt69fa26c915e78ac5/63f62fcb52820c02597bfbfd/illustration-protect-at-scale-web-thumb-1680x980.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>,
+In 1991, a weather system formed off the east coast of the United States with a cold front that created a low pressure ridge to the east of Nova Scotia. At the same time, a high-pressure system extending out from the Appalachian Mountains forced the ridge first southeast and then to the west, where it encountered the remnants of Hurricane Grace, which it promptly absorbed and swelled in size as it did so. The resulting storm caused over $200 million of damage to the United States and was known as “The Perfect Storm,” later to be immortalized in a book of the same name. 
+
+For public sector organizations trying to deliver cybersecurity, a similar pattern is emerging — but perhaps with less visible effects. Disparate elements are combining with rapid intensity and have the potential to unleash a ferocious assault on the world’s cyber defenses.
+Security threats and citizen data,
+Thirdly, given this proliferation of security threats and the need to protect citizen data, governments are likely to increase regulation and compliance requirements. This puts additional pressure on public sector teams to learn and implement these new requirements — it may also have the adverse effect of plugging holes today without thinking about future needs.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;55
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -859,32 +1300,7 @@ Ingesting and analyzing AWS VPC Flow logs
 One of the more heavily used AWS container services is Amazon ECS (Elastic Container Service). While there is a trend toward using Fargate to simplify the setup and management of ECS clusters, many users still prefer using Amazon ECS with EC2 instances. It may not be as straightforward or efficient as AWS Fargate, but it offers more control over the underlying infrastructure.
 
 In the most recent blog, we explored how…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;63
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/cybersecurity-perfect-storm-public-sector"
-                        open
-                      >
-                        <summary class="article-expander__title">Why cybersecurity is a perfect storm for the public sector</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/cybersecurity-perfect-storm-public-sector">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt69fa26c915e78ac5/63f62fcb52820c02597bfbfd/illustration-protect-at-scale-web-thumb-1680x980.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>,
-In 1991, a weather system formed off the east coast of the United States with a cold front that created a low pressure ridge to the east of Nova Scotia. At the same time, a high-pressure system extending out from the Appalachian Mountains forced the ridge first southeast and then to the west, where it encountered the remnants of Hurricane Grace, which it promptly absorbed and swelled in size as it did so. The resulting storm caused over $200 million of damage to the United States and was known as “The Perfect Storm,” later to be immortalized in a book of the same name. 
-
-For public sector organizations trying to deliver cybersecurity, a similar pattern is emerging — but perhaps with less visible effects. Disparate elements are combining with rapid intensity and have the potential to unleash a ferocious assault on the world’s cyber defenses.
-Security threats and citizen data,
-Thirdly, given this proliferation of security threats and the need to protect citizen data, governments are likely to increase regulation and compliance requirements. This puts additional pressure on public sector teams to learn and implement these new requirements — it may also have the adverse effect of plugging holes today without thinking about future needs.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;51
+                                &ensp;<span class="article-reading-time">(&hairsp;67
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1520,7 +1936,7 @@ als…</span>
                               <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt3723c0f2d9c52908/64b0292cb7aec334a9d8a6dc/op2-124097---Women-in-Tech-series---Stephanie-Harris-720x420.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>When Stephanie graduated with degrees in music, she struggled to find a job she was interested in. Then she remembered her love for computers.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;45
+                                &ensp;<span class="article-reading-time">(&hairsp;47
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1551,7 +1967,7 @@ While Stephanie liked computers, she had also started teaching herself to play g
 “I don’t mind struggling at something,” she says. “I was very, very bad at guitar at the beginning, and then one day I wasn’t bad anymore.”
 
 Following her interest in music, Stephanie decided to pursue a career as a musician, so she…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;45
+                                &ensp;<span class="article-reading-time">(&hairsp;47
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1634,7 +2050,7 @@ Following her interest in music, Stephanie decided to pursue a career as a music
                             <span class="media-object__text">
                               <span>Camunda Optimize helps you improve your automated processes with insightful dashboards and reports—no coding required. Learn how.
 The post Continuous Improvement with Camunda Optimize appeared first on Camunda.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;16
+                                &ensp;<span class="article-reading-time">(&hairsp;15
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1759,7 +2175,7 @@ The post Continuous Improvement with Camunda Optimize appeared first on Camunda.
                         <summary class="article-expander__title">Your Go-To JetBrains Coding Tools Are Ready to Be Updated to 2023.2</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://blog.jetbrains.com/blog/2023/08/10/your-go-to-jetbrains-coding-tools-are-ready-to-be-updated-to-2023-2/">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://blog.jetbrains.com/wp-content/uploads/2019/01/jetbrains_featured.png" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://blog.jetbrains.com/wp-content/uploads/2023/08/Preview-page-1280x720-2x-768x432.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>We’ve now released the second update of the year for our family of IDEs, including IntelliJ IDEA, WebStorm, PyCharm, DataGrip, GoLand, DataSpell, and other tools included in your All Products Pack subscription. Check out the summaries below and dive deeper to learn more about the products you’re most interested in. JetBrains IDEs The 2023.2 update […]</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;12
@@ -1889,7 +2305,7 @@ So, we want to ha…</span>
                               <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltd0a6414db19c04af/64d9a954ba11e76c2c18bb72/19-feather.jpeg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Uncover the power of Elasticsearch tracing and optimize your APM with insights into query times, bulk indexing, and machine learning impacts. Master semantic search and enhance performance for data-driven decisions.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;59
+                                &ensp;<span class="article-reading-time">(&hairsp;61
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1911,7 +2327,7 @@ So, we want to ha…</span>
                               <span>Editor&#x27;s Note (warning),,Important note for Elasticsearch Service users: At this time, the Kibana settings changes described in this post are restricted in the Cloud console and cannot be configured without manual intervention from our Support team. Our Engineering team is working to remove the restriction on these settings so that internal APM may be enabled by all of our users. On-premises deployments are unaffected by this issue.,
 A while ago, we introduced instrumentation inside Elasticsearch®, allowing you to identify what it’s doing under the hood. By tracing in Elasticsearch, we get never-before-seen insights.
 This blog walks you through the various APIs and transactions when we want to leverage Elastic’s learned sparse encoder model  for semantic search. This blog itself can be app…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;59
+                                &ensp;<span class="article-reading-time">(&hairsp;61
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1994,7 +2410,7 @@ This blog walks you through the various APIs and transactions when we want to le
                             <span class="media-object__text">
                               <span>Learn the difference between microservice and monolith architectures, and which is better for your next project.
 The post Monolith vs Microservice Architecture: A Comparison appeared first on Camunda.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;19
+                                &ensp;<span class="article-reading-time">(&hairsp;18
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2376,27 +2792,7 @@ Automation controller has a rich ReSTful API. REST stands for Representational S
                               <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt61ec1db8518cdff6/6377cd21506d90105712b7ff/illustration-stack-modernize-solutions-1689x980.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>We are excited to announce the Elasticsearch Query Language (ES|QL) preview. ES|QL is a powerful declarative language that&#x27;s native to Elasticsearch and designed for composability, expressiveness, and speed.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;48
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/mainframe-observability-elastic-kyndryl"
-                        open
-                      >
-                        <summary class="article-expander__title">Mainframe Observability with Elastic and Kyndryl</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/mainframe-observability-elastic-kyndryl">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c25f36b2d8f341f/6297bbcd588ffb4d799f9838/library-branding-elastic-observability-white-1680x980.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Elastic and Kyndryl have developed a Mainframe Observability solution. This solution leverages Elastic technology for data ingestion and analysis, coupled with Batch Job Analytics for robust anomaly detection and early warning system.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;72
+                                &ensp;<span class="article-reading-time">(&hairsp;49
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2415,7 +2811,7 @@ Automation controller has a rich ReSTful API. REST stands for Representational S
                           <div class="article-summary-box-inner media-object">
                               <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt61ec1db8518cdff6/6377cd21506d90105712b7ff/illustration-stack-modernize-solutions-1689x980.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>,
+                              <span>,Updated on 8/17/2023 to indicate ES|QL branch has been merged into the Elasticsearch main branch.,
 It is my pleasure to announce that after roughly one year of development, Elasticsearch Query Language (ES|QL) is ready to be shared with the world and has landed in the Elasticsearch® repository. ES|QL is a powerful declarative language native to Elasticsearch and designed for composability, expressiveness, and speed.
   FROM employees
 | EVAL hired_year &#x3D; TO_INTEGER(DATE_FORMAT(hire_date, &quot;YYYY&quot;))
@@ -2424,39 +2820,12 @@ It is my pleasure to announce that after roughly one year of development, Elasti
 | EVAL avg_salary &#x3D; ROUND(avg_salary)
 | EVAL lang_code &#x3D; TO_STRING(languages)
 | ENRICH languages_policy ON lang_code WITH lang &#x3D; language_name
-| WHERE NOT IS_NULL(lang)
+| WHERE lang IS NOT NULL
 | KEEP avg_salary, lang
 | SORT avg_salary ASC
 | LIMIT 3,
-that returns a response similar to:
-{
-  &quot;columns&quot;: [
-    {&quot;name&quot;: &quot;avg_salary&quot;, &quot;type&quot;: &quot;double&quot;},
-…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;48
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/mainframe-observability-elastic-kyndryl"
-                        open
-                      >
-                        <summary class="article-expander__title">Mainframe Observability with Elastic and Kyndryl</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/mainframe-observability-elastic-kyndryl">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c25f36b2d8f341f/6297bbcd588ffb4d799f9838/library-branding-elastic-observability-white-1680x980.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>,
-As we navigate our fast-paced digital era, organizations across various industries are in constant pursuit of strategies for efficient monitoring, performance tuning, and continuous improvement of their services. 
-Elastic® and Kyndryl have come together to offer a solution for Mainframe Observability, engineered with an emphasis on organizations that are heavily reliant on mainframes, including the financial services industry (FSI), healthcare, retail, and manufacturing sectors.
-,The release and timing of any features or functionality described in this post remain at Elastic&#x27;s sole discretion. Any features or functionality not currently available may not be delivered on time or at all.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;72
+th…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;49
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2645,7 +3014,7 @@ Azure DevOps Server 2019.0.1
 Azure DevOps Server 2022.0.1 Patch 2
 Note: If you have Azure DevOps Server 2022,
 The post August patches for Azure DevOps Server appeared first on Azure DevOps Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
+                                &ensp;<span class="article-reading-time">(&hairsp;16
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2749,7 +3118,7 @@ The post A guide to designing and shipping AI developer tools appeared first on 
                             <span class="media-object__text">
                               <span>We&#x27;re excited to announce the August 2023 alpha release of Camunda. Check out what&#x27;s new.
 The post Camunda Alpha Release August 2023 appeared first on Camunda.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
+                                &ensp;<span class="article-reading-time">(&hairsp;17
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2946,26 +3315,6 @@ The post Camunda Alpha Release August 2023 appeared first on Camunda.</span>
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.jetbrains.com/?post_type&#x3D;dotnet&amp;p&#x3D;376965"
-                        open
-                      >
-                        <summary class="article-expander__title">.NET Annotated Monthly | August 2023</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.jetbrains.com/dotnet/2023/08/07/net-annotated-monthly-august-2023/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blog.jetbrains.com/wp-content/uploads/2023/07/dotnet-annotated-featured_blog_1280x720-1-768x432.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Did you know? Observability is tagged as #o11y across social media platforms. Where did that hashtag come from? It’s a numeronym, in which we repeat the first and last letter of the original word, and the number in the middle represents the amount of characters that are omitted. .NET news Featured content  We’d like to […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -2994,40 +3343,6 @@ The post Camunda Alpha Release August 2023 appeared first on Camunda.</span>
                             <span class="media-object__text">
                               <span>Private automation hub is the content system for Red Hat Ansible Automation Platform, hosting and serving up content to the platform in a scalable way with an enhanced security posture. The hosted content ranges from collections to container images, whether it&#x27;s your own content, certified content from Red Hat or partner content from the extensive partner ecosystem, along with open source content from Ansible Galaxy.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Seth Godin&#x27;s Blog on marketing, tribes and respect</button>
-                  <a class="source-heading__link" href="https://seths.blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://seths.blog/?p&#x3D;45041"
-                        open
-                      >
-                        <summary class="article-expander__title">The low-stakes argument</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://feeds.feedblitz.com/~/768018788/0/sethsblog~The-lowstakes-argument/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061313.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>It’s tempting and fun to argue about the logo. About the way the toilet paper is hung. About how to load the trunk of the car. These sorts of arguments work precisely because they don’t matter. At all. And they distract us from the incredibly difficult work of discussing the things that actually do matter. […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -3200,42 +3515,7 @@ Medicine is an inherently multimodal discipline. When providing care, clinicians
                             <span class="media-object__text">
                               <span>Learn how to create your own Connector templates and use them to provide an individualized and reusable component.
 The post Save Your Connector as a Reusable Template appeared first on Camunda.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >The GitHub Blog</button>
-                  <a class="source-heading__link" href="https://github.blog/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://github.blog/2023-08-03-introducing-code-referencing-for-github-copilot/"
-                        open
-                      >
-                        <summary class="article-expander__title">Introducing code referencing for GitHub Copilot</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://github.blog/2023-08-03-introducing-code-referencing-for-github-copilot/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://github.blog/wp-content/uploads/2023/08/image-20.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Today, we’re announcing a private beta of GitHub Copilot with code referencing that includes a filter to detect code suggestions matching public code on GitHub.
-The post Introducing code referencing for GitHub Copilot appeared first on The GitHub Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                &ensp;<span class="article-reading-time">(&hairsp;13
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -3476,7 +3756,7 @@ This year at Summit, an attendee posed a question about how to work with setting
                             <span class="media-object__text">
                               <span>Take a closer look at how you can automate and orchestrate chaos experiments using Zeebe.
 The post Drinking Our Champagne: Chaos Experiments with Zeebe against Zeebe appeared first on Camunda.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;17
+                                &ensp;<span class="article-reading-time">(&hairsp;16
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -3681,7 +3961,7 @@ The post Drinking Our Champagne: Chaos Experiments with Zeebe against Zeebe appe
                             <span class="media-object__text">
                               <span>API and microservice are often used interchangeably, but they&#x27;re different. Learn the differences between microservices and APIs.
 The post Microservice vs API: How Are They Different? appeared first on Camunda.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                &ensp;<span class="article-reading-time">(&hairsp;14
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -3832,7 +4112,7 @@ The post Microservice vs API: How Are They Different? appeared first on Camunda.
                             <span class="media-object__text">
                               <span>Automation is a powerful tool for wrangling complexity. Find out how a process engine can help you use it effectively.
 The post How to Harness the Power of a Process Engine for Automation appeared first on Camunda.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;16
+                                &ensp;<span class="article-reading-time">(&hairsp;15
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4043,41 +4323,7 @@ The post How to Harness the Power of a Process Engine for Automation appeared fi
                             <span class="media-object__text">
                               <span>Learn the difference between orchestration and automation and how you can apply them in your organization. See examples, use cases and more.
 The post Orchestration vs Automation: Differences and Use Cases appeared first on Camunda.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;16
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Spring</button>
-                  <a class="source-heading__link" href="https://spring.io">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://spring.io/blog/2023/07/28/spring-cloud-2022-0-4-aka-kilburn-is-available"
-                        open
-                      >
-                        <summary class="article-expander__title">Spring Cloud 2022.0.4 (aka Kilburn) Is Available</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://spring.io/blog/2023/07/28/spring-cloud-2022-0-4-aka-kilburn-is-available">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://spring.io/img/og-spring.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Level up your Java code and explore what Spring can do for you.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;24
+                                &ensp;<span class="article-reading-time">(&hairsp;15
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4247,26 +4493,6 @@ Designing adaptation methods for deep models is an important area of research. W
                             <span class="media-object__text">
                               <span>As organizations grow, the records that contain information about customers, businesses, or products tend to be increasingly fragmented and siloed across applications, channels, and data stores. Because information can be gathered in different ways, there is also the issue of different but equivalent data, such as for street addresses (“5th Avenue” and “5th Ave”). As […]</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="1718167cc90797f7c682ebbeca919a4335421a15"
-                        open
-                      >
-                        <summary class="article-expander__title">Preview – Enable Foundation Models to Complete Tasks With Agents for Amazon Bedrock</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://aws.amazon.com/blogs/aws/preview-enable-foundation-models-to-complete-tasks-with-agents-for-amazon-bedrock/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/07/20/Site-Merch_GenerativeAI_Blog.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>This April, Swami Sivasubramanian, Vice President of Data and Machine Learning at AWS, announced Amazon Bedrock and Amazon Titan models as part of new tools for building with generative AI on AWS. Amazon Bedrock, currently available in preview, is a fully managed service that makes foundation models (FMs) from Amazon and leading AI startups—such as […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4648,153 +4874,6 @@ st…</span>
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.hashicorp.com/blog/terraform-enterprise-adds-new-security-and-self-service-features"
-                        open
-                      >
-                        <summary class="article-expander__title">Terraform Enterprise adds new security and self-service features</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.hashicorp.com/blog/terraform-enterprise-adds-new-security-and-self-service-features">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.datocms-assets.com/2885/1620083068-blog-library-product-terraform-black.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>New Terraform Enterprise features for secure self-service infrastructure include Vault-backed dynamic credentials, no-code provisioning, and continuous validation.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Ansible Blog</button>
-                  <a class="source-heading__link" href="https://www.ansible.com/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.ansible.com/blog/unlocking-efficiency-harnessing-the-capabilities-of-ansible-builder-3.0"
-                        open
-                      >
-                        <summary class="article-expander__title">Unlocking efficiency: Harnessing the capabilities of ansible-builder 3.0</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.ansible.com/blog/unlocking-efficiency-harnessing-the-capabilities-of-ansible-builder-3.0">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.ansible.com/hubfs/image%20%281%29.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>We recently announced the general availability of Red Hat Ansible Automation Platform 2.4, This blog outlines the features of execution environment builder (ansible-builder) 3.0 that was included with this latest release.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-18 datetime="2023-07-18T20:15:00.000Z">2023-07-18</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-18 datetime="2023-07-18T20:15:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Google AI Blog</button>
-                  <a class="source-heading__link" href="http://ai.googleblog.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://ai.googleblog.com/2023/07/simper-simple-self-supervised-learning.html"
-                        open
-                      >
-                        <summary class="article-expander__title">SimPer: Simple self-supervised learning of periodic targets</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://ai.googleblog.com/2023/07/simper-simple-self-supervised-learning.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipB_9hAxZvnElIMZ-TN-dvR0POGa65v8yaZCPs44rLweLTIuHtvXe9knDYpU3h4ydbjKk9F-bLE7WTNgx0MgzUMxHa-RXTg7Ch4nGU7rqSAMYpdxzDI7xuirzahNzDKHR9olCqeXv5vK0dTtCQPm1Ws6_364n0_6-2dR_u0zB0Qiabo_g92yjjDcc4SEhz/w1200-h630-p-k-no-nu/SimPer%20hero.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Posted by Daniel McDuff, Staff Research Scientist, and Yuzhe Yang, Student Researcher, Google
-
-
-
-
-
-Learning from periodic data (signals that repeat, such as a heart beat or the daily temperature changes on Earth’s surface) is crucial for many real-world applications, from monitoring weather systems to detecting vital signs. For example, in the environmental remote sensing domain, periodic learning is often needed to enable nowcasting of environmental changes, such as precipitation patterns or land surface temperature. In the health domain, learning from video measurement has shown to extract (quasi-)periodic vital signs such as atrial fibrillation and sleep apnea episodes.
-
-
-
-Approaches like RepNet highlight the importance of these types of tasks, and present a solution that recognizes rep…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;92
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Azure DevOps Blog</button>
-                  <a class="source-heading__link" href="https://devblogs.microsoft.com/devops/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://devblogs.microsoft.com/devops/?p&#x3D;67337"
-                        open
-                      >
-                        <summary class="article-expander__title">New Boards Hub Path to GA</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://devblogs.microsoft.com/devops/new-boards-hub-path-to-ga/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/03/agile.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>March of 2022 is when we announced the official preview of New Boards Hub. Since then, we have been actively taking feedback, fixing bugs, and adding new features. It’s been a long journey. In this post we will outline the last few steps on making New Boards Hub the default experience for all users.
-The post New Boards Hub Path to GA appeared first on Azure DevOps Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -4802,8 +4881,8 @@ The post New Boards Hub Path to GA appeared first on Azure DevOps Blog.</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/vxavictor513/osmosfeed/actions/runs/5885520065">
-        <time id="build-timestamp" datetime="2023-08-17T01:04:50.638Z">2023-08-17T01:04:50.638Z</time>
+      <a class="footer-link" href="https://github.com/vxavictor513/osmosfeed/actions/runs/5897584793">
+        <time id="build-timestamp" datetime="2023-08-18T01:05:29.055Z">2023-08-18T01:05:29.055Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

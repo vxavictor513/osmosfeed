@@ -1108,12 +1108,22 @@
       "siteUrl": "https://kubernetes.io/",
       "articles": [
         {
+          "id": "https://kubernetes.io/blog/2023/08/21/kubernetes-1-28-jobapi-update/",
+          "author": null,
+          "description": "Authors: Kevin Hannon (G-Research), Michał Woźniak (Google)\nThis blog discusses two new features in Kubernetes 1.28 to improve Jobs for batch\nusers: Pod replacement policy\nand Backoff limit per index.\nThese features continue the effort started by the\nPod failure policy\nto improve the handling of Pod failures in a Job.\nPod replacement policy\nBy default, when a pod enters a terminating state (e.g. due to preemption or\neviction), Kubernetes immediately creates a replacement Pod. Therefore, both Pods are running\nat the same time. In API terms, a pod is considered terminating when it has a\ndeletionTimestamp and it has a phase Pending or Running.\nThe scenario when two Pods are running at a given time is problematic for\nsome popular machine learning frameworks, such as\nTensorFlow and JAX, which r…",
+          "link": "https://kubernetes.io/blog/2023/08/21/kubernetes-1-28-jobapi-update/",
+          "publishedOn": "2023-08-21T00:00:00.000Z",
+          "wordCount": 4483,
+          "title": "Blog: Kubernetes 1.28: Improved failure handling for Jobs",
+          "imageUrl": null
+        },
+        {
           "id": "https://kubernetes.io/blog/2023/08/18/retroactive-default-storage-class-ga/",
           "author": null,
           "description": "Author: Roman Bednář (Red Hat)\nAnnouncing graduation to General Availability (GA) - Retroactive Default StorageClass Assignment in Kubernetes v1.28!\nKubernetes SIG Storage team is thrilled to announce that the \"Retroactive Default StorageClass Assignment\" feature,\nintroduced as an alpha in Kubernetes v1.25, has now graduated to GA and is officially part of the Kubernetes v1.28 release.\nThis enhancement brings a significant improvement to how default\nStorageClasses are assigned to PersistentVolumeClaims (PVCs).\nWith this feature enabled, you no longer need to create a default StorageClass first and then a PVC to assign the class.\nInstead, any PVCs without a StorageClass assigned will now be retroactively updated to include the default StorageClass.\nThis enhancement ensures that PVCs no longer get stuck in an unbound state, and storage provisioning works seamlessly,\neven when a default StorageClass is not defined at the time of PVC creation.\nWhat changed?\nThe PersistentVolume (PV) controller has been modified to automatically assign a default StorageClass to any unbound\nPersistentVolumeClaim with the storageClassName not set. Additionally, the PersistentVolumeClaim\nadmission validation mechanism within\nthe API server has been adjusted to allow changing values from an unset state to an actual StorageClass name.\nHow to use it?\nAs this feature has graduated to GA, there's no need to enable a feature gate anymore.\nSimply make sure you are running Kubernetes v1.28 or later, and the feature will be available for use.\nFor more details, read about\ndefault StorageClass assignment in the Kubernetes documentation.\nYou can also read the previous blog post announcing beta graduation in v1.26.\nTo provide feedback, join our Kubernetes Storage Special-Interest-Group (SIG)\nor participate in discussions on our public Slack channel.",
           "link": "https://kubernetes.io/blog/2023/08/18/retroactive-default-storage-class-ga/",
           "publishedOn": "2023-08-18T00:00:00.000Z",
-          "wordCount": 3673,
+          "wordCount": 3652,
           "title": "Blog: Kubernetes v1.28: Retroactive Default StorageClass move to GA",
           "imageUrl": null
         },
@@ -1123,7 +1133,7 @@
           "description": "Authors: Xing Yang (VMware) and Ashutosh Kumar (Elastic)\nThe Kubernetes Non-Graceful Node Shutdown feature is now GA in Kubernetes v1.28.\nIt was introduced as\nalpha\nin Kubernetes v1.24, and promoted to\nbeta\nin Kubernetes v1.26.\nThis feature allows stateful workloads to restart on a different node if the\noriginal node is shutdown unexpectedly or ends up in a non-recoverable state\nsuch as the hardware failure or unresponsive OS.\nWhat is a Non-Graceful Node Shutdown\nIn a Kubernetes cluster, a node can be shutdown in a planned graceful way or\nunexpectedly because of reasons such as power outage or something else external.\nA node shutdown could lead to workload failure if the node is not drained\nbefore the shutdown. A node shutdown can be either graceful or non-graceful.\nThe Graceful Node Shutd…",
           "link": "https://kubernetes.io/blog/2023/08/16/kubernetes-1-28-non-graceful-node-shutdown-ga/",
           "publishedOn": "2023-08-16T18:00:00.000Z",
-          "wordCount": 4001,
+          "wordCount": 4007,
           "title": "Blog: Kubernetes 1.28: Non-Graceful Node Shutdown Moves to GA",
           "imageUrl": null
         },
@@ -1133,7 +1143,7 @@
           "description": "Author: Marko Mudrinić (Kubermatic)\nOn behalf of Kubernetes SIG Release, I am very excited to introduce the\nKubernetes community-owned software\nrepositories for Debian and RPM packages: pkgs.k8s.io! The new package\nrepositories are replacement for the Google-hosted package repositories\n(apt.kubernetes.io and yum.kubernetes.io) that we've been using since\nKubernetes v1.5.\nThis blog post contains information about these new package repositories,\nwhat does it mean to you as an end user, and how to migrate to the new\nrepositories.\nWhat you need to know about the new package repositories?\nThis is an opt-in change; you're required to manually migrate from the\nGoogle-hosted repository to the Kubernetes community-owned repositories.\nSee how to migrate later in this announcement for migration infor…",
           "link": "https://kubernetes.io/blog/2023/08/15/pkgs-k8s-io-introduction/",
           "publishedOn": "2023-08-15T20:00:00.000Z",
-          "wordCount": 4801,
+          "wordCount": 4807,
           "title": "Blog: pkgs.k8s.io: Introducing Kubernetes Community-Owned Package Repositories",
           "imageUrl": null
         },
@@ -1143,7 +1153,7 @@
           "description": "Authors: Kubernetes v1.28 Release Team\nAnnouncing the release of Kubernetes v1.28 Planternetes, the second release of 2023!\nThis release consists of 45 enhancements. Of those enhancements, 19 are entering Alpha, 14 have graduated to Beta, and 12 have graduated to Stable.\nRelease Theme And Logo\nKubernetes v1.28: Planternetes\nThe theme for Kubernetes v1.28 is Planternetes.\nEach Kubernetes release is the culmination of the hard work of thousands of individuals from our community. The people behind this release come from a wide range of backgrounds, some of us industry veterans, parents, others students and newcomers to open-source. We combine our unique experience to create a collective artifact with global impact.\nMuch like a garden, our release has ever-changing growth, challenges and oppor…",
           "link": "https://kubernetes.io/blog/2023/08/15/kubernetes-v1-28-release/",
           "publishedOn": "2023-08-15T12:00:00.000Z",
-          "wordCount": 6151,
+          "wordCount": 6157,
           "title": "Blog: Kubernetes v1.28: Planternetes",
           "imageUrl": null
         },
@@ -1153,7 +1163,7 @@
           "description": "Author: Fyka Ansari\nWelcome to the world of Kubernetes and its vibrant contributor\ncommunity! In this blog post, we'll be shining a spotlight on the\nSpecial Interest Group for Contributor\nExperience\n(SIG ContribEx), an essential component of the Kubernetes project.\nSIG ContribEx in Kubernetes is responsible for developing and\nmaintaining a healthy and productive community of contributors to the\nproject. This involves identifying and addressing bottlenecks that may\nhinder the project's growth and feature velocity, such as pull request\nlatency and the number of open pull requests and issues.\nSIG ContribEx works to improve the overall contributor experience by\ncreating and maintaining guidelines, tools, and processes that\nfacilitate collaboration and communication among contributors. They\nals…",
           "link": "https://kubernetes.io/blog/2023/08/14/sig-contribex-spotlight-2023/",
           "publishedOn": "2023-08-14T00:00:00.000Z",
-          "wordCount": 5290,
+          "wordCount": 5296,
           "title": "Blog: Spotlight on SIG ContribEx",
           "imageUrl": null
         }
@@ -1167,12 +1177,12 @@
         {
           "id": "https://medium.com/p/b8cd145491cc",
           "author": "Netflix Technology Blog",
-          "description": "By: Hamid Shahid, Laura Johnson, Tiffany Low",
+          "description": "",
           "link": "https://netflixtechblog.com/ava-discovery-view-surfacing-authentic-moments-b8cd145491cc?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-08-17T22:07:14.000Z",
-          "wordCount": 5750,
+          "wordCount": null,
           "title": "AVA Discovery View: Surfacing Authentic Moments",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:890/0*o3U-Eg_XXmXzmMMO"
+          "imageUrl": null
         },
         {
           "id": "https://medium.com/p/2feb273a3598",
@@ -1180,7 +1190,7 @@
           "description": "Netflix’s Zuul Gateway eliminated tens of millions of connections and reduced almost all connection churn to backends",
           "link": "https://netflixtechblog.com/curbing-connection-churn-in-zuul-2feb273a3598?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-08-16T17:55:48.000Z",
-          "wordCount": 5737,
+          "wordCount": 5751,
           "title": "Curbing Connection Churn in Zuul",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:734/0*lL_0weS3WX_b4cZC"
         }
@@ -1279,12 +1289,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=44017",
+          "author": "Seth Godin",
+          "description": "Hardy came home from school and proudly showed his mom the cheap plastic trinkets he had earned that day. “I stood quietly on the dot and so I got some tickets. And if I stand on the dot quietly tomorrow, I can get some more prizes!” First grade! That’s one way to indoctrinate kids in […]",
+          "link": "https://feeds.feedblitz.com/~/786417473/0/sethsblog~On-the-dot/",
+          "publishedOn": "2023-08-20T06:54:00.000Z",
+          "wordCount": 1043,
+          "title": "On the dot",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_180613-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=46967",
           "author": "Seth Godin",
           "description": "at sticking around. In fact, that’s what it’s best at. New research shows that computers and robots are now better at solving CAPTCHA puzzles than humans. This was inevitable. The interesting question is, “how long before they go away?” First, someone has to decide that it’s their job to worry about this. Then they have […]",
           "link": "https://feeds.feedblitz.com/~/785342822/0/sethsblog~The-status-quo-is-very-good/",
           "publishedOn": "2023-08-19T08:55:00.000Z",
-          "wordCount": 1116,
+          "wordCount": 1117,
           "title": "The status quo is very good…",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_180613-1.jpg"
         },
@@ -1367,16 +1387,6 @@
           "wordCount": 1002,
           "title": "Dreams and roadblocks",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806139-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=45063",
-          "author": "Seth Godin",
-          "description": "When someone acts in a surprising way, we can begin to understand by wondering what they might be afraid of.",
-          "link": "https://feeds.feedblitz.com/~/772077743/0/sethsblog~When-in-doubt-look-for-the-fear/",
-          "publishedOn": "2023-08-10T08:28:00.000Z",
-          "wordCount": 977,
-          "title": "When in doubt, look for the fear",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806134-1.jpg"
         }
       ]
     },
@@ -1434,6 +1444,16 @@
           "wordCount": 3162,
           "title": "Increase Your Productivity With TeamCity Documentation Examples for the Kotlin DSL",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/08/teamcity-kotlin-dsl-examples-featured-768x432.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/blog/2023/08/10/your-go-to-jetbrains-coding-tools-are-ready-to-be-updated-to-2023-2/",
+          "author": "Ryuji Owan",
+          "description": "IntelliJ IDEA、WebStorm、PyCharm、DataGrip、GoLand、DataSpell などの IDE ファミリーと All Products Pack サブスクリプションに含まれるその他のツールに今年 2 度目のアップデートがリリースされました。 最も関心のある製品に関する詳細は、以下の概要をご覧ください。 各種 JetBrains IDE 製品 2023.2 アップデートには、開発エクスペリエンスを向上させる多数の改善が含まれています。 このリリースでは、ほとんどの IDE で重要な新機能となる AI Assistant が新たに導入されています。 現時点では限定アクセスのみで提供されており、統合 AI チャット、コードの説明、自動ドキュメント生成、名前の提案、コミットメッセージの生成などを使用できます。 他にも、開発ワークフローを合理化する GitLab の統合が追加されており、開発者が IDE からマージリクエストを直接操作できるようになっています。 このリリースには Search Everywhere（どこでも検索）機能でのテキスト検索機能、開いているプロジェクト間を簡単に移動できるように色分けされたプロジェクトヘッダー、Windows と Linux でのメインツールバーのハンバーガーメニューの改良、および Project（プロジェクト）ビューでの変更時間によるファイルの並べ替えなど、さまざまなユーザーエクスペリエンス関連の強化も含まれています。 また、2023.2 アップデートには、よりスムーズで効率的な開発エクスペリエンスを実現するためのユーザーインターフェースの改良とバグ修正も含まれています。 製品固有の変更は他にもたくさんあります。 IntelliJ IDEA 2023.2 では、Kubernetes、Docker、Spring、GraphQL、HTTP クライアント、データベースツールなどの多数のフレームワークとテクノロジーのサポートが強化されています。 新しい Java 言語のインスペクションとコード解析の改善、コードハイライトと書式文字列の移動操作の強化、Javadoc コメントでの @snippet タグのサポートの改善などがあります。 改良された IntelliJ […]",
+          "link": "https://blog.jetbrains.com/blog/2023/08/16/your-go-to-jetbrains-coding-tools-are-ready-to-be-updated-to-2023-2/",
+          "publishedOn": "2023-08-16T01:49:04.000Z",
+          "wordCount": 3533,
+          "title": "JetBrains のコーディングツールを 2023.2 に更新できるようになりました",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/08/Preview-page-1280x720-2x-768x432.png"
         },
         {
           "id": "https://blog.jetbrains.com/?post_type=dotnet&p=380252",
@@ -1494,16 +1514,6 @@
           "wordCount": 3533,
           "title": "Your Go-To JetBrains Coding Tools Are Ready to Be Updated to 2023.2",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/08/Preview-page-1280x720-2x-768x432.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=idea&p=378964",
-          "author": "Irina Maryasova",
-          "description": "The August edition of Java Annotated Monthly is here! As usual, we’ve selected a collection of fascinating articles covering the latest Java-related news, tech updates, AI and machine learning innovations, and more. We’re thrilled to share the exciting news of the recent release of IntelliJ IDEA 2023.2, along with helpful tutorials on working with flaky […]",
-          "link": "https://blog.jetbrains.com/idea/2023/08/java-annotated-monthly-august-2023/",
-          "publishedOn": "2023-08-07T14:04:07.000Z",
-          "wordCount": 4584,
-          "title": "Java Annotated Monthly – August 2023",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/08/java-annotated-featured_blog_1280x720-768x432.png"
         }
       ]
     }

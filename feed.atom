@@ -1,10 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-08-20T01:08:43.965Z</id>
+    <id>urn:2023-08-21T01:05:58.172Z</id>
     <title>osmos::feed</title>
-    <updated>2023-08-20T01:08:43.965Z</updated>
+    <updated>2023-08-21T01:05:58.172Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Blog: Kubernetes 1.28: Improved failure handling for Jobs]]></title>
+        <id>https://kubernetes.io/blog/2023/08/21/kubernetes-1-28-jobapi-update/</id>
+        <link href="https://kubernetes.io/blog/2023/08/21/kubernetes-1-28-jobapi-update/"/>
+        <updated>2023-08-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Authors: Kevin Hannon (G-Research), Michał Woźniak (Google)
+This blog discusses two new features in Kubernetes 1.28 to improve Jobs for batch
+users: Pod replacement policy
+and Backoff limit per index.
+These features continue the effort started by the
+Pod failure policy
+to improve the handling of Pod failures in a Job.
+Pod replacement policy
+By default, when a pod enters a terminating state (e.g. due to preemption or
+eviction), Kubernetes immediately creates a replacement Pod. Therefore, both Pods are running
+at the same time. In API terms, a pod is considered terminating when it has a
+deletionTimestamp and it has a phase Pending or Running.
+The scenario when two Pods are running at a given time is problematic for
+some popular machine learning frameworks, such as
+TensorFlow and JAX, which r…]]></summary>
+        <author>
+            <name>Kubernetes – Production-Grade Container Orchestration</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On the dot]]></title>
+        <id>https://seths.blog/?p=44017</id>
+        <link href="https://feeds.feedblitz.com/~/786417473/0/sethsblog~On-the-dot/"/>
+        <updated>2023-08-20T06:54:00.000Z</updated>
+        <summary type="html"><![CDATA[Hardy came home from school and proudly showed his mom the cheap plastic trinkets he had earned that day. “I stood quietly on the dot and so I got some tickets. And if I stand on the dot quietly tomorrow, I can get some more prizes!” First grade! That’s one way to indoctrinate kids in […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Live stream: Who Is Behind Django? An Interview with the DSF President]]></title>
         <id>https://blog.jetbrains.com/?post_type=pycharm&amp;p=381355</id>
@@ -138,7 +172,6 @@ or participate in discussions on our public Slack channel.]]></summary>
         <id>https://medium.com/p/b8cd145491cc</id>
         <link href="https://netflixtechblog.com/ava-discovery-view-surfacing-authentic-moments-b8cd145491cc?source=rss----2615bd06b42e---4"/>
         <updated>2023-08-17T22:07:14.000Z</updated>
-        <summary type="html"><![CDATA[By: Hamid Shahid, Laura Johnson, Tiffany Low]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -334,6 +367,16 @@ The Graceful Node Shutd…]]></summary>
         <summary type="html"><![CDATA[I was happily pedaling along on the rail trail when three spandex speedsters blew by me on their handmade carbon bikes. For a moment, I was disheartened. What’s the point–they’re speedy, I’m not. Then I realize that it’s not a bike race, it’s a bike ride. There is no winning, just the riding.]]></summary>
         <author>
             <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JetBrains のコーディングツールを 2023.2 に更新できるようになりました]]></title>
+        <id>https://blog.jetbrains.com/blog/2023/08/10/your-go-to-jetbrains-coding-tools-are-ready-to-be-updated-to-2023-2/</id>
+        <link href="https://blog.jetbrains.com/blog/2023/08/16/your-go-to-jetbrains-coding-tools-are-ready-to-be-updated-to-2023-2/"/>
+        <updated>2023-08-16T01:49:04.000Z</updated>
+        <summary type="html"><![CDATA[IntelliJ IDEA、WebStorm、PyCharm、DataGrip、GoLand、DataSpell などの IDE ファミリーと All Products Pack サブスクリプションに含まれるその他のツールに今年 2 度目のアップデートがリリースされました。 最も関心のある製品に関する詳細は、以下の概要をご覧ください。 各種 JetBrains IDE 製品 2023.2 アップデートには、開発エクスペリエンスを向上させる多数の改善が含まれています。 このリリースでは、ほとんどの IDE で重要な新機能となる AI Assistant が新たに導入されています。 現時点では限定アクセスのみで提供されており、統合 AI チャット、コードの説明、自動ドキュメント生成、名前の提案、コミットメッセージの生成などを使用できます。 他にも、開発ワークフローを合理化する GitLab の統合が追加されており、開発者が IDE からマージリクエストを直接操作できるようになっています。 このリリースには Search Everywhere（どこでも検索）機能でのテキスト検索機能、開いているプロジェクト間を簡単に移動できるように色分けされたプロジェクトヘッダー、Windows と Linux でのメインツールバーのハンバーガーメニューの改良、および Project（プロジェクト）ビューでの変更時間によるファイルの並べ替えなど、さまざまなユーザーエクスペリエンス関連の強化も含まれています。 また、2023.2 アップデートには、よりスムーズで効率的な開発エクスペリエンスを実現するためのユーザーインターフェースの改良とバグ修正も含まれています。 製品固有の変更は他にもたくさんあります。 IntelliJ IDEA 2023.2 では、Kubernetes、Docker、Spring、GraphQL、HTTP クライアント、データベースツールなどの多数のフレームワークとテクノロジーのサポートが強化されています。 新しい Java 言語のインスペクションとコード解析の改善、コードハイライトと書式文字列の移動操作の強化、Javadoc コメントでの @snippet タグのサポートの改善などがあります。 改良された IntelliJ […]]]></summary>
+        <author>
+            <name>Ryuji Owan</name>
         </author>
     </entry>
     <entry>
@@ -882,16 +925,6 @@ The post Continuous Improvement with Camunda Optimize appeared first on Camunda.
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[When in doubt, look for the fear]]></title>
-        <id>https://seths.blog/?p=45063</id>
-        <link href="https://feeds.feedblitz.com/~/772077743/0/sethsblog~When-in-doubt-look-for-the-fear/"/>
-        <updated>2023-08-10T08:28:00.000Z</updated>
-        <summary type="html"><![CDATA[When someone acts in a surprising way, we can begin to understand by wondering what they might be afraid of.]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Preload Elasticsearch with your dataset]]></title>
         <id>https://www.elastic.co/blog/preload-elasticsearch-with-your-dataset</id>
         <link href="https://www.elastic.co/blog/preload-elasticsearch-with-your-dataset"/>
@@ -1235,16 +1268,6 @@ The post Camunda Alpha Release August 2023 appeared first on Camunda.]]></summar
         <summary type="html"><![CDATA[Live streaming is becoming an increasingly popular way to connect customers with their favorite influencers and brands through interactive live video experiences. Our customers, DeNA and Rooter, rely on Amazon Interactive Video Service (Amazon IVS), a fully managed live streaming solution, to build engaging live stream and interactive video experiences for their audiences. In March we introduced Amazon IVS […]]]></summary>
         <author>
             <name>Donnie Prakoso</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Java Annotated Monthly – August 2023]]></title>
-        <id>https://blog.jetbrains.com/?post_type=idea&amp;p=378964</id>
-        <link href="https://blog.jetbrains.com/idea/2023/08/java-annotated-monthly-august-2023/"/>
-        <updated>2023-08-07T14:04:07.000Z</updated>
-        <summary type="html"><![CDATA[The August edition of Java Annotated Monthly is here! As usual, we’ve selected a collection of fascinating articles covering the latest Java-related news, tech updates, AI and machine learning innovations, and more. We’re thrilled to share the exciting news of the recent release of IntelliJ IDEA 2023.2, along with helpful tutorials on working with flaky […]]]></summary>
-        <author>
-            <name>Irina Maryasova</name>
         </author>
     </entry>
     <entry>

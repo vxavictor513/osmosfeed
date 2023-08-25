@@ -1,10 +1,209 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-08-24T01:05:31.097Z</id>
+    <id>urn:2023-08-25T01:07:13.096Z</id>
     <title>osmos::feed</title>
-    <updated>2023-08-24T01:05:31.097Z</updated>
+    <updated>2023-08-25T01:07:13.096Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Blog: Kubernetes v1.28: Introducing native sidecar containers]]></title>
+        <id>https://kubernetes.io/blog/2023/08/25/native-sidecar-containers/</id>
+        <link href="https://kubernetes.io/blog/2023/08/25/native-sidecar-containers/"/>
+        <updated>2023-08-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Authors: Todd Neal (AWS), Matthias Bertschy (ARMO), Sergey Kanzhelev (Google), Gunju Kim (NAVER), Shannon Kularathna (Google)
+This post explains how to use the new sidecar feature, which enables restartable init containers and is available in alpha in Kubernetes 1.28. We want your feedback so that we can graduate this feature as soon as possible.
+The concept of a “sidecar” has been part of Kubernetes since nearly the very beginning. In 2015, sidecars were described in a blog post about composite containers as additional containers that “extend and enhance the ‘main’ container”. Sidecar containers have become a common Kubernetes deployment pattern and are often used for network proxies or as part of a logging system. Until now, sidecars were a concept that Kubernetes users applied without n…]]></summary>
+        <author>
+            <name>Kubernetes – Production-Grade Container Orchestration</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to compare a noisy quantum processor to a classical computer]]></title>
+        <id>http://ai.googleblog.com/2023/08/how-to-compare-noisy-quantum-processor.html</id>
+        <link href="http://ai.googleblog.com/2023/08/how-to-compare-noisy-quantum-processor.html"/>
+        <updated>2023-08-24T22:10:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted by Sergio Boixo and Vadim Smelyanskiy, Principal Scientists, Google Quantum AI Team
+
+
+
+
+A full-scale error-corrected quantum computer will be able to solve some problems that are impossible for classical computers, but building such a device is a huge endeavor. We are proud of the milestones that we have achieved toward a fully error-corrected quantum computer, but that large-scale computer is still some number of years away. Meanwhile, we are using our current noisy quantum processors as flexible platforms for quantum experiments. 
+
+
+
+In contrast to an error-corrected quantum computer, experiments in noisy quantum processors are currently limited to a few thousand quantum operations or gates, before noise degrades the quantum state. In 2019 we implemented a specific computational t…]]></summary>
+        <author>
+            <name>Google AI Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A faster way to manage version updates with Dependabot]]></title>
+        <id>https://github.blog/2023-08-24-a-faster-way-to-manage-version-updates-with-dependabot/</id>
+        <link href="https://github.blog/2023-08-24-a-faster-way-to-manage-version-updates-with-dependabot/"/>
+        <updated>2023-08-24T20:55:48.000Z</updated>
+        <summary type="html"><![CDATA[<p>Now, you can group multiple version updates in a single pull request.</p>
+<p>The post <a rel="nofollow" href="https://github.blog/2023-08-24-a-faster-way-to-manage-version-updates-with-dependabot/">A faster way to manage version updates with Dependabot</a> appeared first on <a rel="nofollow" href="https://github.blog">The GitHub Blog</a>.</p>]]></summary>
+        <author>
+            <name>The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Teaching language models to reason algorithmically]]></title>
+        <id>http://ai.googleblog.com/2023/08/teaching-language-models-to-reason.html</id>
+        <link href="http://ai.googleblog.com/2023/08/teaching-language-models-to-reason.html"/>
+        <updated>2023-08-24T19:33:00.002Z</updated>
+        <summary type="html"><![CDATA[Posted by Hattie Zhou, Graduate Student at MILA, Hanie Sedghi, Research Scientist, Google
+
+
+
+
+Large language models (LLMs), such as GPT-3 and PaLM, have shown impressive progress in recent years, which have been driven by scaling up models and training data sizes. Nonetheless, a long standing debate has been whether LLMs can reason symbolically (i.e., manipulating symbols based on logical rules). For example, LLMs are able to perform simple arithmetic operations when numbers are small, but struggle to perform with large numbers. This suggests that LLMs have not learned the underlying rules needed to perform these arithmetic operations. 
+
+
+
+While neural networks have powerful pattern matching capabilities, they are prone to overfitting to spurious statistical patterns in the data. This does…]]></summary>
+        <author>
+            <name>Google AI Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blog: Kubernetes 1.28: Beta support for using swap on Linux]]></title>
+        <id>https://kubernetes.io/blog/2023/08/24/swap-linux-beta/</id>
+        <link href="https://kubernetes.io/blog/2023/08/24/swap-linux-beta/"/>
+        <updated>2023-08-24T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Author: Itamar Holder (Red Hat)
+The 1.22 release introduced Alpha support
+for configuring swap memory usage for Kubernetes workloads running on Linux on a per-node basis.
+Now, in release 1.28, support for swap on Linux nodes has graduated to Beta, along with many
+new improvements.
+Prior to version 1.22, Kubernetes did not provide support for swap memory on Linux systems.
+This was due to the inherent difficulty in guaranteeing and accounting for pod memory utilization
+when swap memory was involved. As a result, swap support was deemed out of scope in the initial
+design of Kubernetes, and the default behavior of a kubelet was to fail to start if swap memory
+was detected on a node.
+In version 1.22, the swap feature for Linux was initially introduced in its Alpha stage. This represented
+a sign…]]></summary>
+        <author>
+            <name>Kubernetes – Production-Grade Container Orchestration</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unleashing GitHub Codespaces templates to ignite your development]]></title>
+        <id>https://github.blog/2023-08-24-unleashing-github-codespaces-templates-to-ignite-your-development/</id>
+        <link href="https://github.blog/2023-08-24-unleashing-github-codespaces-templates-to-ignite-your-development/"/>
+        <updated>2023-08-24T16:57:10.000Z</updated>
+        <summary type="html"><![CDATA[<p>Learn how to leverage templating features in GitHub Codespaces to streamline your project setup, improve consistency, and simplify collaboration within your development team.</p>
+<p>The post <a rel="nofollow" href="https://github.blog/2023-08-24-unleashing-github-codespaces-templates-to-ignite-your-development/">Unleashing GitHub Codespaces templates to ignite your development</a> appeared first on <a rel="nofollow" href="https://github.blog">The GitHub Blog</a>.</p>]]></summary>
+        <author>
+            <name>The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ansible Community Day, Berlin 2023]]></title>
+        <id>https://www.ansible.com/blog/ansible-community-day-berlin-2023</id>
+        <link href="https://www.ansible.com/blog/ansible-community-day-berlin-2023"/>
+        <updated>2023-08-24T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ansible Community Day is a day-long community-focused event to discuss the Ansible project, community, and the broader ecosystem. Announcing the upcoming one in Berlin, with a call for proposals.]]></summary>
+        <author>
+            <name>The Ansible Community Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Speaking up]]></title>
+        <id>https://seths.blog/?p=44105</id>
+        <link href="https://feeds.feedblitz.com/~/788885057/0/sethsblog~Speaking-up/"/>
+        <updated>2023-08-24T08:44:00.000Z</updated>
+        <summary type="html"><![CDATA[For many, the imagined cost of speaking up is almost always higher than the actual cost. And we live with the cost in our imagination daily, dying a little bit over time as we keep our insights to ourselves. Speaking up is a skill, and we can only improve it with practice.]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Boot 3.2.0-M2 available now]]></title>
+        <id>https://spring.io/blog/2023/08/24/spring-boot-3-2-0-m2-available-now</id>
+        <link href="https://spring.io/blog/2023/08/24/spring-boot-3-2-0-m2-available-now"/>
+        <updated>2023-08-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <author>
+            <name>Stéphane Nicoll</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Boot 3.1.3 available now]]></title>
+        <id>https://spring.io/blog/2023/08/24/spring-boot-3-1-3-available-now</id>
+        <link href="https://spring.io/blog/2023/08/24/spring-boot-3-1-3-available-now"/>
+        <updated>2023-08-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <author>
+            <name>Stéphane Nicoll</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Boot 3.0.10 available now]]></title>
+        <id>https://spring.io/blog/2023/08/24/spring-boot-3-0-10-available-now</id>
+        <link href="https://spring.io/blog/2023/08/24/spring-boot-3-0-10-available-now"/>
+        <updated>2023-08-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <author>
+            <name>Stéphane Nicoll</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Boot 2.7.15 available now]]></title>
+        <id>https://spring.io/blog/2023/08/24/spring-boot-2-7-15-available-now</id>
+        <link href="https://spring.io/blog/2023/08/24/spring-boot-2-7-15-available-now"/>
+        <updated>2023-08-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <author>
+            <name>Stéphane Nicoll</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Adding passage vector search to Lucene]]></title>
+        <id>https://www.elastic.co/blog/adding-passage-vector-search-to-lucene</id>
+        <link href="https://www.elastic.co/blog/adding-passage-vector-search-to-lucene"/>
+        <updated>2023-08-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Discover how we added passage vectors to Apache Lucene, the benefits of doing so, and how existing Lucene structures were used to create an efficient retrieval experience.]]></summary>
+        <author>
+            <name>Benjamin Trent</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Elastic and Google Cloud collaborate on generative AI and security as a part of an expanded partnership]]></title>
+        <id>https://www.elastic.co/blog/elastic-google-cloud-expanded-partnership</id>
+        <link href="https://www.elastic.co/blog/elastic-google-cloud-expanded-partnership"/>
+        <updated>2023-08-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn how Elastic and Google Cloud are building on our recent joint success with increased investments to accelerate and extend joint go-to-market activities and drive technology integrations.]]></summary>
+        <author>
+            <name>Lon Holden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Adding passage vector search to Lucene]]></title>
+        <id>https://www.elastic.co/blog/adding-passage-vector-search-to-lucene</id>
+        <link href="https://www.elastic.co/blog/adding-passage-vector-search-to-lucene"/>
+        <updated>2023-08-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+Vector search is a powerful tool in the information retrieval tool box. Using vectors alongside lexical search like BM25 is quickly becoming commonplace. But there are still a few pain points within vector search that need to be addressed. A major one is text embedding models and handling larger text input. 
+
+Where lexical search like BM25 is already designed for long documents, text embedding models are not. All embedding models have limitations on the number of tokens they can embed. So, for longer text input it must be chunked into passages shorter than the model’s limit. Now instead of having one document with all its metadata, you have multiple passages and embeddings. And if you want to preserve your metadata, it must be added to every new document.
+https://static-www.elastic.co/v3…]]></summary>
+        <author>
+            <name>Benjamin Trent</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Elastic and Google Cloud collaborate on generative AI and security as a part of an expanded partnership]]></title>
+        <id>https://www.elastic.co/blog/elastic-google-cloud-expanded-partnership</id>
+        <link href="https://www.elastic.co/blog/elastic-google-cloud-expanded-partnership"/>
+        <updated>2023-08-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+Elastic® and Google Cloud are building on our recent joint success with increased investments to accelerate and extend joint go-to-market activities and drive technology integrations. Our collaboration includes the powerful combination of the Elasticsearch Relevance EngineTM (ESRETM) and Google Cloud’s Vertex AI platform, which empowers developers with a scalable toolset to build privacy-first generative AI solutions. Other advances include a new integration between Elastic and Google Cloud’s Security Command Center (SCC), as well as Elastic support for cloud security posture management on Google Cloud. 
+“There is significant opportunity for generative AI to deliver real business value, but the pace of innovation can be overwhelming,” said Jim Anderson, VP of NA partner ecosystem and cha…]]></summary>
+        <author>
+            <name>Lon Holden</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Connectors: Custom Icons vs. BPMN Symbols]]></title>
         <id>https://camunda.com/?p=89461</id>
@@ -65,6 +264,16 @@ The post Connectors: Custom Icons vs. BPMN Symbols appeared first on Camunda.]]>
         <summary type="html"><![CDATA[Placebos work and placebos spread. We’re wired to believe something, but the specifics of what we believe often come from other people. When there were a limited number of channels, mainstream ideas were the focus of our conversations, because the mainstream was all that was widely amplified. Someone might believe that the world was flat, […]]]></summary>
         <author>
             <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Batch 5.1.0-M2, 5.0.3 and 4.3.9 available now!]]></title>
+        <id>https://spring.io/blog/2023/08/24/spring-batch-5-1-0-m2-5-0-3-and-4-3-9-available-now</id>
+        <link href="https://spring.io/blog/2023/08/24/spring-batch-5-1-0-m2-5-0-3-and-4-3-9-available-now"/>
+        <updated>2023-08-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <author>
+            <name>Mahmoud Ben Hassine</name>
         </author>
     </entry>
     <entry>
@@ -176,7 +385,7 @@ The post Introducing Azure Artifacts support for Rust Crates appeared first on A
         <title type="html"><![CDATA[Language to rewards for robotic skill synthesis]]></title>
         <id>http://ai.googleblog.com/2023/08/language-to-rewards-for-robotic-skill.html</id>
         <link href="http://ai.googleblog.com/2023/08/language-to-rewards-for-robotic-skill.html"/>
-        <updated>2023-08-22T18:47:00.003Z</updated>
+        <updated>2023-08-22T18:47:00.004Z</updated>
         <summary type="html"><![CDATA[Posted by Wenhao Yu and Fei Xia, Research Scientists, Google
 
 
@@ -617,6 +826,7 @@ or participate in discussions on our public Slack channel.]]></summary>
         <id>https://medium.com/p/b8cd145491cc</id>
         <link href="https://netflixtechblog.com/ava-discovery-view-surfacing-authentic-moments-b8cd145491cc?source=rss----2615bd06b42e---4"/>
         <updated>2023-08-17T22:07:14.000Z</updated>
+        <summary type="html"><![CDATA[By: Hamid Shahid, Laura Johnson, Tiffany Low]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -689,26 +899,6 @@ Modern neural networks have achieved impressive performance across a variety of 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[A Bootiful Podcast: Tadaya Tsuyukubo, creator of R2DBC Proxy, DataSource Proxy, and more]]></title>
-        <id>https://spring.io/blog/2023/08/17/a-bootiful-podcast-tadaya-tsuyukubo-creator-of-r2dbc-proxy-datasource-proxy</id>
-        <link href="https://spring.io/blog/2023/08/17/a-bootiful-podcast-tadaya-tsuyukubo-creator-of-r2dbc-proxy-datasource-proxy"/>
-        <updated>2023-08-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
-        <author>
-            <name>Josh Long</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spring Framework 6.1 M4 released]]></title>
-        <id>https://spring.io/blog/2023/08/17/spring-framework-6-1-m4-released</id>
-        <link href="https://spring.io/blog/2023/08/17/spring-framework-6-1-m4-released"/>
-        <updated>2023-08-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
-        <author>
-            <name>Brian Clozel</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Elastic Stack 8.9.1 released]]></title>
         <id>https://www.elastic.co/blog/elastic-stack-8-9-1-released</id>
         <link href="https://www.elastic.co/blog/elastic-stack-8-9-1-released"/>
@@ -769,6 +959,7 @@ The Graceful Node Shutd…]]></summary>
         <id>https://medium.com/p/2feb273a3598</id>
         <link href="https://netflixtechblog.com/curbing-connection-churn-in-zuul-2feb273a3598?source=rss----2615bd06b42e---4"/>
         <updated>2023-08-16T17:55:48.000Z</updated>
+        <summary type="html"><![CDATA[Netflix’s Zuul Gateway eliminated tens of millions of connections and reduced almost all connection churn to backends]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -814,13 +1005,13 @@ The Graceful Node Shutd…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Spring Modulith 1.0 RC2 released]]></title>
-        <id>https://spring.io/blog/2023/08/16/spring-modulith-1-0-rc2-released</id>
-        <link href="https://spring.io/blog/2023/08/16/spring-modulith-1-0-rc2-released"/>
+        <title type="html"><![CDATA[Searching by music: Leveraging vector search for audio information retrieval]]></title>
+        <id>https://www.elastic.co/blog/searching-by-music-leveraging-vector-search-audio-information-retrieval</id>
+        <link href="https://www.elastic.co/blog/searching-by-music-leveraging-vector-search-audio-information-retrieval"/>
         <updated>2023-08-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <summary type="html"><![CDATA[Want to find out how to apply vector search to music data? In this post, we combine information retrieval, machine learning, vector databases, and audio data to deliver new and exciting possibilities!]]></summary>
         <author>
-            <name>Oliver Drotbohm</name>
+            <name>Alex Salgado</name>
         </author>
     </entry>
     <entry>
@@ -831,6 +1022,20 @@ The Graceful Node Shutd…]]></summary>
         <summary type="html"><![CDATA[Optimize cloud costs with Elastic APM. Learn how to leverage cloud metadata, calculate pricing, and make smarter decisions for better performance.]]></summary>
         <author>
             <name>Philipp Kahr,Nathan Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Searching by music: Leveraging vector search for audio information retrieval]]></title>
+        <id>https://www.elastic.co/blog/searching-by-music-leveraging-vector-search-audio-information-retrieval</id>
+        <link href="https://www.elastic.co/blog/searching-by-music-leveraging-vector-search-audio-information-retrieval"/>
+        <updated>2023-08-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[,
+Welcome to the future of music information retrieval, where machine learning, vector databases, and audio data analysis converge to deliver exciting new possibilities! If you're interested in the world of music data analytics or merely passionate about how technology is revolutionizing the music industry, this guide is for you.
+Here, we will take you on a journey of searching music data using an approach known as vector search. Since more than 80% of our world data is unstructured, it is good to know how to treat different kinds of data other than text.
+If you want to follow and execute the code while reading, access the file on GitHub listed at the end of this article.
+https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt5218ad2647b08ef7/64dcd79f4ef8ce7c6c830696/elastic-blog-1…]]></summary>
+        <author>
+            <name>Alex Salgado</name>
         </author>
     </entry>
     <entry>
@@ -959,29 +1164,6 @@ Reading has many benefits for young students, such as better linguistic and life
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Get to know the Elastic Community series: Meet Manuel Alba]]></title>
-        <id>https://www.elastic.co/blog/get-to-know-the-elastic-community-series-meet-manuel-alba</id>
-        <link href="https://www.elastic.co/blog/get-to-know-the-elastic-community-series-meet-manuel-alba"/>
-        <updated>2023-08-15T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this get to know the Elastic Community series, meet Manuel Alba. Learn about his background in technology and his path to becoming an Elastic Community Organizer]]></summary>
-        <author>
-            <name>Ully Sampaio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Get to know the Elastic Community series: Meet Manuel Alba]]></title>
-        <id>https://www.elastic.co/blog/get-to-know-the-elastic-community-series-meet-manuel-alba</id>
-        <link href="https://www.elastic.co/blog/get-to-know-the-elastic-community-series-meet-manuel-alba"/>
-        <updated>2023-08-15T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-Manuel Alba is the organizer of the Elastic® community in Chile. He is a civil engineer in Computer Science and Telecommunication. He earned a postgraduate degree in artificial intelligence and software engineering and a Master's degree in information technology. He is a lecturer and head of software development and architecture in the Vice-rector's Office for Information Technology at the University of Chile.
-When did you first embrace Elastic as a technology?
-I remember my first job after completing my undergraduate studies. I was hired by the telecommunications company, Entel, which was migrating from Splunk to Elastic, and I had the opportunity to be part of this project. In the beginning, Elastic was completely unknown to me, but from the first contact, I realized that this was the …]]></summary>
-        <author>
-            <name>Ully Sampaio</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Blog: Kubernetes v1.28: Planternetes]]></title>
         <id>https://kubernetes.io/blog/2023/08/15/kubernetes-v1-28-release/</id>
         <link href="https://kubernetes.io/blog/2023/08/15/kubernetes-v1-28-release/"/>
@@ -996,82 +1178,6 @@ Each Kubernetes release is the culmination of the hard work of thousands of indi
 Much like a garden, our release has ever-changing growth, challenges and oppor…]]></summary>
         <author>
             <name>Kubernetes – Production-Grade Container Orchestration</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The (very) long tail]]></title>
-        <id>https://seths.blog/?p=46889</id>
-        <link href="https://feeds.feedblitz.com/~/779221784/0/sethsblog~The-very-long-tail/"/>
-        <updated>2023-08-15T08:28:00.000Z</updated>
-        <summary type="html"><![CDATA[The average YouTube video gets five new views every day. Let’s parse that for a second. 5 billion YouTube plays a day, spread over about a billion videos means that while some videos live in the short head and get millions of views, there are a huge number of videos that get fewer than a […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This Week in Spring - August 15th, 2023]]></title>
-        <id>https://spring.io/blog/2023/08/15/this-week-in-spring-august-15th-2023</id>
-        <link href="https://spring.io/blog/2023/08/15/this-week-in-spring-august-15th-2023"/>
-        <updated>2023-08-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
-        <author>
-            <name>Josh Long</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why cybersecurity is a perfect storm for the public sector]]></title>
-        <id>https://www.elastic.co/blog/cybersecurity-perfect-storm-public-sector</id>
-        <link href="https://www.elastic.co/blog/cybersecurity-perfect-storm-public-sector"/>
-        <updated>2023-08-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[From an increase in cyber attacks to the cyber skills gap, public sector organizations are uniquely positioned to suffer the effects of cyber threats. This blog walks through strategies public sector organizations can implement to mitigate risk.]]></summary>
-        <author>
-            <name>Jeff Kirkpatrick</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Managing your applications on Amazon ECS EC2-based clusters with Elastic Observability]]></title>
-        <id>https://www.elastic.co/blog/manage-applications-amazon-ecs-ec2-based-clusters-elastic-observability</id>
-        <link href="https://www.elastic.co/blog/manage-applications-amazon-ecs-ec2-based-clusters-elastic-observability"/>
-        <updated>2023-08-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Learn how to manage applications on Amazon ECS clusters based on EC2 instances and how simple it is to use Elastic agents with the AWS and docker integrations to provide a complete picture of your apps, ECS service, and corresponding EC2 instances.]]></summary>
-        <author>
-            <name>Bahubali Shetti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why cybersecurity is a perfect storm for the public sector]]></title>
-        <id>https://www.elastic.co/blog/cybersecurity-perfect-storm-public-sector</id>
-        <link href="https://www.elastic.co/blog/cybersecurity-perfect-storm-public-sector"/>
-        <updated>2023-08-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-In 1991, a weather system formed off the east coast of the United States with a cold front that created a low pressure ridge to the east of Nova Scotia. At the same time, a high-pressure system extending out from the Appalachian Mountains forced the ridge first southeast and then to the west, where it encountered the remnants of Hurricane Grace, which it promptly absorbed and swelled in size as it did so. The resulting storm caused over $200 million of damage to the United States and was known as “The Perfect Storm,” later to be immortalized in a book of the same name. 
-
-For public sector organizations trying to deliver cybersecurity, a similar pattern is emerging — but perhaps with less visible effects. Disparate elements are combining with rapid intensity and have the potential to unleash a ferocious assault on the world’s cyber defenses.
-Security threats and citizen data,
-Thirdly, given this proliferation of security threats and the need to protect citizen data, governments are likely to increase regulation and compliance requirements. This puts additional pressure on public sector teams to learn and implement these new requirements — it may also have the adverse effect of plugging holes today without thinking about future needs.]]></summary>
-        <author>
-            <name>Jeff Kirkpatrick</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Managing your applications on Amazon ECS EC2-based clusters with Elastic Observability]]></title>
-        <id>https://www.elastic.co/blog/manage-applications-amazon-ecs-ec2-based-clusters-elastic-observability</id>
-        <link href="https://www.elastic.co/blog/manage-applications-amazon-ecs-ec2-based-clusters-elastic-observability"/>
-        <updated>2023-08-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[,
-In previous blogs, we explored how Elastic Observability can help you monitor various AWS services and analyze them effectively:
-
-
-Managing fundamental AWS services such as Amazon EC2, Amazon RDS, Amazon VPC, and NAT gateway
-Data can be ingested into Elastic observability using a serverless forwarder or Amazon Kinesis Data Firehose
-Ingesting and analyzing AWS VPC Flow logs
-
-
-One of the more heavily used AWS container services is Amazon ECS (Elastic Container Service). While there is a trend toward using Fargate to simplify the setup and management of ECS clusters, many users still prefer using Amazon ECS with EC2 instances. It may not be as straightforward or efficient as AWS Fargate, but it offers more control over the underlying infrastructure.
-
-In the most recent blog, we explored how…]]></summary>
-        <author>
-            <name>Bahubali Shetti</name>
         </author>
     </entry>
     <entry>
@@ -1139,16 +1245,6 @@ facilitate collaboration and communication among contributors. They
 als…]]></summary>
         <author>
             <name>Kubernetes – Production-Grade Container Orchestration</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Bootiful Podcast: Spring Cloud cofounder and lead Spencer Gibb on Spring Cloud Gateway for the Servlet API in the era of Project Loom]]></title>
-        <id>https://spring.io/blog/2023/08/11/a-bootiful-podcast-spring-cloud-cofounder-and-lead-spencer-gibb-on-spring</id>
-        <link href="https://spring.io/blog/2023/08/11/a-bootiful-podcast-spring-cloud-cofounder-and-lead-spencer-gibb-on-spring"/>
-        <updated>2023-08-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
-        <author>
-            <name>Josh Long</name>
         </author>
     </entry>
     <entry>
@@ -1220,17 +1316,6 @@ The last few years have seen rapid progress in systems that can automatically pr
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[GitHub Availability Report: July 2023]]></title>
-        <id>https://github.blog/2023-08-09-github-availability-report-july-2023/</id>
-        <link href="https://github.blog/2023-08-09-github-availability-report-july-2023/"/>
-        <updated>2023-08-09T18:00:42.000Z</updated>
-        <summary type="html"><![CDATA[<p>In July, we experienced one incident that resulted in degraded performance across GitHub services.</p>
-<p>The post <a rel="nofollow" href="https://github.blog/2023-08-09-github-availability-report-july-2023/">GitHub Availability Report: July 2023</a> appeared first on <a rel="nofollow" href="https://github.blog">The GitHub Blog</a>.</p>]]></summary>
-        <author>
-            <name>The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New — File Release for Amazon FSx for Lustre]]></title>
         <id>ab7fee828c2716aef7dc8919868ed8b8478993a0</id>
         <link href="https://aws.amazon.com/blogs/aws/new-file-release-for-amazon-fsx-for-lustre/"/>
@@ -1238,17 +1323,6 @@ The last few years have seen rapid progress in systems that can automatically pr
         <summary type="html"><![CDATA[Amazon FSx for Lustre provides fully managed shared storage with the scalability and high performance of the open-source Lustre file systems to support your Linux-based workloads. FSx for Lustre is for workloads where storage speed and throughput matter. This is because FSx for Lustre helps you avoid storage bottlenecks, increase utilization of compute resources, and […]]]></summary>
         <author>
             <name>Veliswa Boya</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Four tips to keep your GitHub Actions workflows secure]]></title>
-        <id>https://github.blog/2023-08-09-four-tips-to-keep-your-github-actions-workflows-secure/</id>
-        <link href="https://github.blog/2023-08-09-four-tips-to-keep-your-github-actions-workflows-secure/"/>
-        <updated>2023-08-09T16:00:15.000Z</updated>
-        <summary type="html"><![CDATA[<p>Researchers from Purdue and NCSU have found a large number of command injection vulnerabilities in the workflows of projects on GitHub. Follow these four tips to keep your GitHub Actions workflows secure.</p>
-<p>The post <a rel="nofollow" href="https://github.blog/2023-08-09-four-tips-to-keep-your-github-actions-workflows-secure/">Four tips to keep your GitHub Actions workflows secure</a> appeared first on <a rel="nofollow" href="https://github.blog">The GitHub Blog</a>.</p>]]></summary>
-        <author>
-            <name>The GitHub Blog</name>
         </author>
     </entry>
     <entry>

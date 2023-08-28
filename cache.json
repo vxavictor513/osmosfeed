@@ -251,16 +251,6 @@
           "wordCount": 1614,
           "title": "Terraform Cloud now supports multiple configurations for dynamic provider credentials",
           "imageUrl": "https://www.datocms-assets.com/2885/1620073839-blog-library-product-terraform-cloud-tfc-black-corner-iconography.jpg"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/using-terraform-dynamic-provider-credentials-in-your-aws-landing-zones",
-          "author": null,
-          "description": "See how Terraform Cloud’s dynamic credentials feature fits into an AWS Control Tower AFT workflow to secure landing zone creation at scale.",
-          "link": "https://www.hashicorp.com/blog/using-terraform-dynamic-provider-credentials-in-your-aws-landing-zones",
-          "publishedOn": "2023-07-28T16:00:00.000Z",
-          "wordCount": 5604,
-          "title": "Using Terraform dynamic provider credentials in your AWS landing zones",
-          "imageUrl": "https://www.datocms-assets.com/2885/1620155432-blog-library-product-terraform-aws-logomarks-dark.jpg"
         }
       ]
     },
@@ -735,16 +725,6 @@
           "wordCount": 1580,
           "title": "AWS Week in Review – Agents for Amazon Bedrock, Amazon SageMaker Canvas New Capabilities, and More – July 31, 2023",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/07/31/AWS-WIR-7.31.23.png"
-        },
-        {
-          "id": "2d97e4e447dec18920fdc7b501443ffb9cc7dfed",
-          "author": "Jeff Barr",
-          "description": "We are introducing a new charge for public IPv4 addresses. Effective February 1, 2024 there will be a charge of $0.005 per IP per hour for all public IPv4 addresses, whether attached to a service or not (there is already a charge for public IPv4 addresses you allocate in your account but don’t attach to […]",
-          "link": "https://aws.amazon.com/blogs/aws/new-aws-public-ipv4-address-charge-public-ip-insights/",
-          "publishedOn": "2023-07-28T18:01:23.000Z",
-          "wordCount": 1459,
-          "title": "New – AWS Public IPv4 Address Charge + Public IP Insights",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/827bfc458708f0b442009c9c9836f7e4b65557fb/2020/06/03/Blog-Post_thumbnail.png"
         }
       ]
     },
@@ -1043,12 +1023,22 @@
       "siteUrl": "https://kubernetes.io/",
       "articles": [
         {
+          "id": "https://kubernetes.io/blog/2023/08/28/kubernetes-1-28-feature-mixed-version-proxy-alpha/",
+          "author": null,
+          "description": "Author: Richa Banker (Google)\nThis blog describes the mixed version proxy, a new alpha feature in Kubernetes 1.28. The\nmixed version proxy enables an HTTP request for a resource to be served by the correct API server\nin cases where there are multiple API servers at varied versions in a cluster. For example,\nthis is useful during a cluster upgrade, or when you're rolling out the runtime configuration of\nthe cluster's control plane.\nWhat problem does this solve?\nWhen a cluster undergoes an upgrade, the kube-apiservers existing at different versions in that scenario can serve different sets (groups, versions, resources) of built-in resources. A resource request made in this scenario may be served by any of the available apiservers, potentially resulting in the request ending up at an apiserve…",
+          "link": "https://kubernetes.io/blog/2023/08/28/kubernetes-1-28-feature-mixed-version-proxy-alpha/",
+          "publishedOn": "2023-08-28T00:00:00.000Z",
+          "wordCount": 4148,
+          "title": "Blog: Kubernetes 1.28: A New (alpha) Mechanism For Safer Cluster Upgrades",
+          "imageUrl": "/images/blog/2023-08-28-a-new-alpha-mechanism-for-safer-cluster-upgrades/mvp-flow-diagram.svg"
+        },
+        {
           "id": "https://kubernetes.io/blog/2023/08/25/native-sidecar-containers/",
           "author": null,
           "description": "Authors: Todd Neal (AWS), Matthias Bertschy (ARMO), Sergey Kanzhelev (Google), Gunju Kim (NAVER), Shannon Kularathna (Google)\nThis post explains how to use the new sidecar feature, which enables restartable init containers and is available in alpha in Kubernetes 1.28. We want your feedback so that we can graduate this feature as soon as possible.\nThe concept of a “sidecar” has been part of Kubernetes since nearly the very beginning. In 2015, sidecars were described in a blog post about composite containers as additional containers that “extend and enhance the ‘main’ container”. Sidecar containers have become a common Kubernetes deployment pattern and are often used for network proxies or as part of a logging system. Until now, sidecars were a concept that Kubernetes users applied without n…",
           "link": "https://kubernetes.io/blog/2023/08/25/native-sidecar-containers/",
           "publishedOn": "2023-08-25T00:00:00.000Z",
-          "wordCount": 4501,
+          "wordCount": 4510,
           "title": "Blog: Kubernetes v1.28: Introducing native sidecar containers",
           "imageUrl": null
         },
@@ -1058,7 +1048,7 @@
           "description": "Author: Itamar Holder (Red Hat)\nThe 1.22 release introduced Alpha support\nfor configuring swap memory usage for Kubernetes workloads running on Linux on a per-node basis.\nNow, in release 1.28, support for swap on Linux nodes has graduated to Beta, along with many\nnew improvements.\nPrior to version 1.22, Kubernetes did not provide support for swap memory on Linux systems.\nThis was due to the inherent difficulty in guaranteeing and accounting for pod memory utilization\nwhen swap memory was involved. As a result, swap support was deemed out of scope in the initial\ndesign of Kubernetes, and the default behavior of a kubelet was to fail to start if swap memory\nwas detected on a node.\nIn version 1.22, the swap feature for Linux was initially introduced in its Alpha stage. This represented\na sign…",
           "link": "https://kubernetes.io/blog/2023/08/24/swap-linux-beta/",
           "publishedOn": "2023-08-24T18:00:00.000Z",
-          "wordCount": 5115,
+          "wordCount": 5124,
           "title": "Blog: Kubernetes 1.28: Beta support for using swap on Linux",
           "imageUrl": null
         },
@@ -1068,7 +1058,7 @@
           "description": "Author:\nFrancesco Romani (Red Hat)\nThe podresources API is an API served by the kubelet locally on the node, which exposes the compute resources exclusively\nallocated to containers. With the release of Kubernetes 1.28, that API is now Generally Available.\nWhat problem does it solve?\nThe kubelet can allocate exclusive resources to containers, like\nCPUs, granting exclusive access to full cores\nor memory, either regions or hugepages.\nWorkloads which require high performance, or low latency (or both) leverage these features.\nThe kubelet also can assign devices to containers.\nCollectively, these features which enable exclusive assignments are known as \"resource managers\".\nWithout an API like podresources, the only possible option to learn about resource assignment was to read the state files th…",
           "link": "https://kubernetes.io/blog/2023/08/23/kubelet-podresources-api-ga/",
           "publishedOn": "2023-08-23T00:00:00.000Z",
-          "wordCount": 4341,
+          "wordCount": 4350,
           "title": "Blog: Kubernetes 1.28: Node podresources API Graduates to GA",
           "imageUrl": null
         },
@@ -1078,7 +1068,7 @@
           "description": "Authors: Kevin Hannon (G-Research), Michał Woźniak (Google)\nThis blog discusses two new features in Kubernetes 1.28 to improve Jobs for batch\nusers: Pod replacement policy\nand Backoff limit per index.\nThese features continue the effort started by the\nPod failure policy\nto improve the handling of Pod failures in a Job.\nPod replacement policy\nBy default, when a pod enters a terminating state (e.g. due to preemption or\neviction), Kubernetes immediately creates a replacement Pod. Therefore, both Pods are running\nat the same time. In API terms, a pod is considered terminating when it has a\ndeletionTimestamp and it has a phase Pending or Running.\nThe scenario when two Pods are running at a given time is problematic for\nsome popular machine learning frameworks, such as\nTensorFlow and JAX, which r…",
           "link": "https://kubernetes.io/blog/2023/08/21/kubernetes-1-28-jobapi-update/",
           "publishedOn": "2023-08-21T00:00:00.000Z",
-          "wordCount": 4476,
+          "wordCount": 4485,
           "title": "Blog: Kubernetes 1.28: Improved failure handling for Jobs",
           "imageUrl": null
         },
@@ -1088,7 +1078,7 @@
           "description": "Author: Roman Bednář (Red Hat)\nAnnouncing graduation to General Availability (GA) - Retroactive Default StorageClass Assignment in Kubernetes v1.28!\nKubernetes SIG Storage team is thrilled to announce that the \"Retroactive Default StorageClass Assignment\" feature,\nintroduced as an alpha in Kubernetes v1.25, has now graduated to GA and is officially part of the Kubernetes v1.28 release.\nThis enhancement brings a significant improvement to how default\nStorageClasses are assigned to PersistentVolumeClaims (PVCs).\nWith this feature enabled, you no longer need to create a default StorageClass first and then a PVC to assign the class.\nInstead, any PVCs without a StorageClass assigned will now be retroactively updated to include the default StorageClass.\nThis enhancement ensures that PVCs no longer get stuck in an unbound state, and storage provisioning works seamlessly,\neven when a default StorageClass is not defined at the time of PVC creation.\nWhat changed?\nThe PersistentVolume (PV) controller has been modified to automatically assign a default StorageClass to any unbound\nPersistentVolumeClaim with the storageClassName not set. Additionally, the PersistentVolumeClaim\nadmission validation mechanism within\nthe API server has been adjusted to allow changing values from an unset state to an actual StorageClass name.\nHow to use it?\nAs this feature has graduated to GA, there's no need to enable a feature gate anymore.\nSimply make sure you are running Kubernetes v1.28 or later, and the feature will be available for use.\nFor more details, read about\ndefault StorageClass assignment in the Kubernetes documentation.\nYou can also read the previous blog post announcing beta graduation in v1.26.\nTo provide feedback, join our Kubernetes Storage Special-Interest-Group (SIG)\nor participate in discussions on our public Slack channel.",
           "link": "https://kubernetes.io/blog/2023/08/18/retroactive-default-storage-class-ga/",
           "publishedOn": "2023-08-18T00:00:00.000Z",
-          "wordCount": 3672,
+          "wordCount": 3681,
           "title": "Blog: Kubernetes v1.28: Retroactive Default StorageClass move to GA",
           "imageUrl": null
         },
@@ -1098,7 +1088,7 @@
           "description": "Authors: Xing Yang (VMware) and Ashutosh Kumar (Elastic)\nThe Kubernetes Non-Graceful Node Shutdown feature is now GA in Kubernetes v1.28.\nIt was introduced as\nalpha\nin Kubernetes v1.24, and promoted to\nbeta\nin Kubernetes v1.26.\nThis feature allows stateful workloads to restart on a different node if the\noriginal node is shutdown unexpectedly or ends up in a non-recoverable state\nsuch as the hardware failure or unresponsive OS.\nWhat is a Non-Graceful Node Shutdown\nIn a Kubernetes cluster, a node can be shutdown in a planned graceful way or\nunexpectedly because of reasons such as power outage or something else external.\nA node shutdown could lead to workload failure if the node is not drained\nbefore the shutdown. A node shutdown can be either graceful or non-graceful.\nThe Graceful Node Shutd…",
           "link": "https://kubernetes.io/blog/2023/08/16/kubernetes-1-28-non-graceful-node-shutdown-ga/",
           "publishedOn": "2023-08-16T18:00:00.000Z",
-          "wordCount": 4027,
+          "wordCount": 4036,
           "title": "Blog: Kubernetes 1.28: Non-Graceful Node Shutdown Moves to GA",
           "imageUrl": null
         },
@@ -1108,7 +1098,7 @@
           "description": "Author: Marko Mudrinić (Kubermatic)\nOn behalf of Kubernetes SIG Release, I am very excited to introduce the\nKubernetes community-owned software\nrepositories for Debian and RPM packages: pkgs.k8s.io! The new package\nrepositories are replacement for the Google-hosted package repositories\n(apt.kubernetes.io and yum.kubernetes.io) that we've been using since\nKubernetes v1.5.\nThis blog post contains information about these new package repositories,\nwhat does it mean to you as an end user, and how to migrate to the new\nrepositories.\nWhat you need to know about the new package repositories?\nThis is an opt-in change; you're required to manually migrate from the\nGoogle-hosted repository to the Kubernetes community-owned repositories.\nSee how to migrate later in this announcement for migration infor…",
           "link": "https://kubernetes.io/blog/2023/08/15/pkgs-k8s-io-introduction/",
           "publishedOn": "2023-08-15T20:00:00.000Z",
-          "wordCount": 4827,
+          "wordCount": 4836,
           "title": "Blog: pkgs.k8s.io: Introducing Kubernetes Community-Owned Package Repositories",
           "imageUrl": null
         },
@@ -1118,7 +1108,7 @@
           "description": "Authors: Kubernetes v1.28 Release Team\nAnnouncing the release of Kubernetes v1.28 Planternetes, the second release of 2023!\nThis release consists of 45 enhancements. Of those enhancements, 19 are entering Alpha, 14 have graduated to Beta, and 12 have graduated to Stable.\nRelease Theme And Logo\nKubernetes v1.28: Planternetes\nThe theme for Kubernetes v1.28 is Planternetes.\nEach Kubernetes release is the culmination of the hard work of thousands of individuals from our community. The people behind this release come from a wide range of backgrounds, some of us industry veterans, parents, others students and newcomers to open-source. We combine our unique experience to create a collective artifact with global impact.\nMuch like a garden, our release has ever-changing growth, challenges and oppor…",
           "link": "https://kubernetes.io/blog/2023/08/15/kubernetes-v1-28-release/",
           "publishedOn": "2023-08-15T12:00:00.000Z",
-          "wordCount": 6083,
+          "wordCount": 6092,
           "title": "Blog: Kubernetes v1.28: Planternetes",
           "imageUrl": null
         },
@@ -1128,7 +1118,7 @@
           "description": "Author: Fyka Ansari\nWelcome to the world of Kubernetes and its vibrant contributor\ncommunity! In this blog post, we'll be shining a spotlight on the\nSpecial Interest Group for Contributor\nExperience\n(SIG ContribEx), an essential component of the Kubernetes project.\nSIG ContribEx in Kubernetes is responsible for developing and\nmaintaining a healthy and productive community of contributors to the\nproject. This involves identifying and addressing bottlenecks that may\nhinder the project's growth and feature velocity, such as pull request\nlatency and the number of open pull requests and issues.\nSIG ContribEx works to improve the overall contributor experience by\ncreating and maintaining guidelines, tools, and processes that\nfacilitate collaboration and communication among contributors. They\nals…",
           "link": "https://kubernetes.io/blog/2023/08/14/sig-contribex-spotlight-2023/",
           "publishedOn": "2023-08-14T00:00:00.000Z",
-          "wordCount": 5316,
+          "wordCount": 5325,
           "title": "Blog: Spotlight on SIG ContribEx",
           "imageUrl": null
         }
@@ -1145,7 +1135,7 @@
           "description": "By: Hamid Shahid, Laura Johnson, Tiffany Low",
           "link": "https://netflixtechblog.com/ava-discovery-view-surfacing-authentic-moments-b8cd145491cc?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-08-17T22:07:14.000Z",
-          "wordCount": 5735,
+          "wordCount": 5714,
           "title": "AVA Discovery View: Surfacing Authentic Moments",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:890/0*o3U-Eg_XXmXzmMMO"
         },
@@ -1155,7 +1145,7 @@
           "description": "Netflix’s Zuul Gateway eliminated tens of millions of connections and reduced almost all connection churn to backends",
           "link": "https://netflixtechblog.com/curbing-connection-churn-in-zuul-2feb273a3598?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-08-16T17:55:48.000Z",
-          "wordCount": 5818,
+          "wordCount": 5717,
           "title": "Curbing Connection Churn in Zuul",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:734/0*lL_0weS3WX_b4cZC"
         }
@@ -1284,12 +1274,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=47019",
+          "author": "Seth Godin",
+          "description": "If your job feels like a dead end, it might be because you’ve traded agency and responsibility for the feeling of security. But real security lies in creating value. Creating value isn’t easy, but it’s resilient and generous and often profitable. “How do I create more value?” is a much more useful question than, “how […]",
+          "link": "https://feeds.feedblitz.com/~/790021583/0/sethsblog~Create-value/",
+          "publishedOn": "2023-08-27T08:29:00.000Z",
+          "wordCount": 1007,
+          "title": "Create value",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=47049",
           "author": "Seth Godin",
           "description": "The future isn’t the same as the past. Technology develops, systems change and most of all, someone cares enough to make things better. The maverick isn’t the selfish gunslinger of myth. In fact, she’s focused on resilient, useful interactions that change what we expect, pushing back against the inertia of gobbledygook and bureaucracy. Some principles […]",
           "link": "https://feeds.feedblitz.com/~/789743642/0/sethsblog~The-maverick-and-the-status-quo/",
           "publishedOn": "2023-08-26T10:05:09.000Z",
-          "wordCount": 1171,
+          "wordCount": 1172,
           "title": "The maverick and the status quo",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg"
         },
@@ -1372,16 +1372,6 @@
           "wordCount": 1117,
           "title": "The status quo is very good…",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_180613-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=46956",
-          "author": "Seth Godin",
-          "description": "A car cut me off on the highway the other day. The car was going nearly 100 mph. Was the car a new Porsche 911 GT3 or a used Toyota Camry? The thing is, there are more than 1,000 times as many Camrys on the road. But our instinct is to pick the vivid and […]",
-          "link": "https://feeds.feedblitz.com/~/782830184/0/sethsblog~The-unsurprising-confusion-about-per-capita/",
-          "publishedOn": "2023-08-18T09:18:00.000Z",
-          "wordCount": 1202,
-          "title": "The unsurprising confusion about ‘per capita’",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806137-1.jpg"
         }
       ]
     },

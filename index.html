@@ -22,6 +22,109 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-28 datetime="2023-08-28T00:00:00.000Z">2023-08-28</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-28 datetime="2023-08-28T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Kubernetes – Production-Grade Container Orchestration</button>
+                  <a class="source-heading__link" href="https://kubernetes.io/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kubernetes.io/blog/2023/08/28/kubernetes-1-28-feature-mixed-version-proxy-alpha/"
+                        open
+                      >
+                        <summary class="article-expander__title">Blog: Kubernetes 1.28: A New (alpha) Mechanism For Safer Cluster Upgrades</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kubernetes.io/blog/2023/08/28/kubernetes-1-28-feature-mixed-version-proxy-alpha/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="/images/blog/2023-08-28-a-new-alpha-mechanism-for-safer-cluster-upgrades/mvp-flow-diagram.svg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Author: Richa Banker (Google)
+This blog describes the mixed version proxy, a new alpha feature in Kubernetes 1.28. The
+mixed version proxy enables an HTTP request for a resource to be served by the correct API server
+in cases where there are multiple API servers at varied versions in a cluster. For example,
+this is useful during a cluster upgrade, or when you&#x27;re rolling out the runtime configuration of
+the cluster&#x27;s control plane.
+What problem does this solve?
+When a cluster undergoes an upgrade, the kube-apiservers existing at different versions in that scenario can serve different sets (groups, versions, resources) of built-in resources. A resource request made in this scenario may be served by any of the available apiservers, potentially resulting in the request ending up at an apiserve…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-27 datetime="2023-08-27T08:29:00.000Z">2023-08-27</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-27 datetime="2023-08-27T08:29:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Seth Godin&#x27;s Blog on marketing, tribes and respect</button>
+                  <a class="source-heading__link" href="https://seths.blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://seths.blog/?p&#x3D;47019"
+                        open
+                      >
+                        <summary class="article-expander__title">Create value</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://feeds.feedblitz.com/~/790021583/0/sethsblog~Create-value/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>If your job feels like a dead end, it might be because you’ve traded agency and responsibility for the feeling of security. But real security lies in creating value. Creating value isn’t easy, but it’s resilient and generous and often profitable. “How do I create more value?” is a much more useful question than, “how […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-26 datetime="2023-08-26T10:05:09.000Z">2023-08-26</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-26 datetime="2023-08-26T10:05:09.000Z"></time>
           </button>
@@ -1440,7 +1543,7 @@ Workloads which require high performance, or low latency (or both) leverage thes
 The kubelet also can assign devices to containers.
 Collectively, these features which enable exclusive assignments are known as &quot;resource managers&quot;.
 Without an API like podresources, the only possible option to learn about resource assignment was to read the state files th…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                &ensp;<span class="article-reading-time">(&hairsp;15
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2355,40 +2458,6 @@ AVIS: Autonomous Visual Information Seeking with Large Language Models”, we i�
                               <span>Explore the top 10 use cases for hyperautomation with examples, and understand its incredible impact across industries.
 The post Top 10 Hyperautomation Examples and Use Cases appeared first on Camunda.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;19
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Seth Godin&#x27;s Blog on marketing, tribes and respect</button>
-                  <a class="source-heading__link" href="https://seths.blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://seths.blog/?p&#x3D;46956"
-                        open
-                      >
-                        <summary class="article-expander__title">The unsurprising confusion about ‘per capita’</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://feeds.feedblitz.com/~/782830184/0/sethsblog~The-unsurprising-confusion-about-per-capita/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806137-1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>A car cut me off on the highway the other day. The car was going nearly 100 mph. Was the car a new Porsche 911 GT3 or a used Toyota Camry? The thing is, there are more than 1,000 times as many Camrys on the road. But our instinct is to pick the vivid and […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4633,92 +4702,10 @@ The post Drinking Our Champagne: Chaos Experiments with Zeebe against Zeebe appe
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-28 datetime="2023-07-28T18:01:23.000Z">2023-07-28</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-28 datetime="2023-07-28T18:01:23.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >AWS News Blog</button>
-                  <a class="source-heading__link" href="https://aws.amazon.com/blogs/aws/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="2d97e4e447dec18920fdc7b501443ffb9cc7dfed"
-                        open
-                      >
-                        <summary class="article-expander__title">New – AWS Public IPv4 Address Charge + Public IP Insights</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://aws.amazon.com/blogs/aws/new-aws-public-ipv4-address-charge-public-ip-insights/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://d2908q01vomqb2.cloudfront.net/827bfc458708f0b442009c9c9836f7e4b65557fb/2020/06/03/Blog-Post_thumbnail.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>We are introducing a new charge for public IPv4 addresses. Effective February 1, 2024 there will be a charge of $0.005 per IP per hour for all public IPv4 addresses, whether attached to a service or not (there is already a charge for public IPv4 addresses you allocate in your account but don’t attach to […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >HashiCorp Blog</button>
-                  <a class="source-heading__link" href="https://hashicorp.com/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.hashicorp.com/blog/using-terraform-dynamic-provider-credentials-in-your-aws-landing-zones"
-                        open
-                      >
-                        <summary class="article-expander__title">Using Terraform dynamic provider credentials in your AWS landing zones</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.hashicorp.com/blog/using-terraform-dynamic-provider-credentials-in-your-aws-landing-zones">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.datocms-assets.com/2885/1620155432-blog-library-product-terraform-aws-logomarks-dark.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>See how Terraform Cloud’s dynamic credentials feature fits into an AWS Control Tower AFT workflow to secure landing zone creation at scale.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;19
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/vxavictor513/osmosfeed/actions/runs/5988021401">
-        <time id="build-timestamp" datetime="2023-08-27T01:10:23.108Z">2023-08-27T01:10:23.108Z</time>
+      <a class="footer-link" href="https://github.com/vxavictor513/osmosfeed/actions/runs/5994355099">
+        <time id="build-timestamp" datetime="2023-08-28T01:07:58.723Z">2023-08-28T01:07:58.723Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-08-27T01:10:23.147Z</id>
+    <id>urn:2023-08-28T01:07:58.755Z</id>
     <title>osmos::feed</title>
-    <updated>2023-08-27T01:10:23.147Z</updated>
+    <updated>2023-08-28T01:07:58.755Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Blog: Kubernetes 1.28: A New (alpha) Mechanism For Safer Cluster Upgrades]]></title>
+        <id>https://kubernetes.io/blog/2023/08/28/kubernetes-1-28-feature-mixed-version-proxy-alpha/</id>
+        <link href="https://kubernetes.io/blog/2023/08/28/kubernetes-1-28-feature-mixed-version-proxy-alpha/"/>
+        <updated>2023-08-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Author: Richa Banker (Google)
+This blog describes the mixed version proxy, a new alpha feature in Kubernetes 1.28. The
+mixed version proxy enables an HTTP request for a resource to be served by the correct API server
+in cases where there are multiple API servers at varied versions in a cluster. For example,
+this is useful during a cluster upgrade, or when you're rolling out the runtime configuration of
+the cluster's control plane.
+What problem does this solve?
+When a cluster undergoes an upgrade, the kube-apiservers existing at different versions in that scenario can serve different sets (groups, versions, resources) of built-in resources. A resource request made in this scenario may be served by any of the available apiservers, potentially resulting in the request ending up at an apiserve…]]></summary>
+        <author>
+            <name>Kubernetes – Production-Grade Container Orchestration</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Create value]]></title>
+        <id>https://seths.blog/?p=47019</id>
+        <link href="https://feeds.feedblitz.com/~/790021583/0/sethsblog~Create-value/"/>
+        <updated>2023-08-27T08:29:00.000Z</updated>
+        <summary type="html"><![CDATA[If your job feels like a dead end, it might be because you’ve traded agency and responsibility for the feeling of security. But real security lies in creating value. Creating value isn’t easy, but it’s resilient and generous and often profitable. “How do I create more value?” is a much more useful question than, “how […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The maverick and the status quo]]></title>
         <id>https://seths.blog/?p=47049</id>
@@ -875,16 +902,6 @@ The post Top 10 Hyperautomation Examples and Use Cases appeared first on Camunda
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The unsurprising confusion about ‘per capita’]]></title>
-        <id>https://seths.blog/?p=46956</id>
-        <link href="https://feeds.feedblitz.com/~/782830184/0/sethsblog~The-unsurprising-confusion-about-per-capita/"/>
-        <updated>2023-08-18T09:18:00.000Z</updated>
-        <summary type="html"><![CDATA[A car cut me off on the highway the other day. The car was going nearly 100 mph. Was the car a new Porsche 911 GT3 or a used Toyota Camry? The thing is, there are more than 1,000 times as many Camrys on the road. But our instinct is to pick the vivid and […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Electron Holes]]></title>
         <id>https://xkcd.com/2817/</id>
         <link href="https://xkcd.com/2817/"/>
@@ -1648,26 +1665,6 @@ The post Drinking Our Champagne: Chaos Experiments with Zeebe against Zeebe appe
         <link href="https://www.hashicorp.com/blog/terraform-cloud-now-supports-multiple-configurations-for-dynamic-provider-credent"/>
         <updated>2023-07-31T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[Create multiple configurations with unique dynamic credentials for the same provider within a single Terraform Cloud workspace.]]></summary>
-        <author>
-            <name>HashiCorp Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New – AWS Public IPv4 Address Charge + Public IP Insights]]></title>
-        <id>2d97e4e447dec18920fdc7b501443ffb9cc7dfed</id>
-        <link href="https://aws.amazon.com/blogs/aws/new-aws-public-ipv4-address-charge-public-ip-insights/"/>
-        <updated>2023-07-28T18:01:23.000Z</updated>
-        <summary type="html"><![CDATA[We are introducing a new charge for public IPv4 addresses. Effective February 1, 2024 there will be a charge of $0.005 per IP per hour for all public IPv4 addresses, whether attached to a service or not (there is already a charge for public IPv4 addresses you allocate in your account but don’t attach to […]]]></summary>
-        <author>
-            <name>Jeff Barr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Using Terraform dynamic provider credentials in your AWS landing zones]]></title>
-        <id>https://www.hashicorp.com/blog/using-terraform-dynamic-provider-credentials-in-your-aws-landing-zones</id>
-        <link href="https://www.hashicorp.com/blog/using-terraform-dynamic-provider-credentials-in-your-aws-landing-zones"/>
-        <updated>2023-07-28T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[See how Terraform Cloud’s dynamic credentials feature fits into an AWS Control Tower AFT workflow to secure landing zone creation at scale.]]></summary>
         <author>
             <name>HashiCorp Blog</name>
         </author>

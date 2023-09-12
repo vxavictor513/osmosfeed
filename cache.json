@@ -6,6 +6,16 @@
       "siteUrl": "https://spring.io",
       "articles": [
         {
+          "id": "https://spring.io/blog/2023/09/11/spring-boot-2-7-commercial-support-extension",
+          "author": "Michael Minella",
+          "description": "Level up your Java code and explore what Spring can do for you.",
+          "link": "https://spring.io/blog/2023/09/11/spring-boot-2-7-commercial-support-extension",
+          "publishedOn": "2023-09-11T00:00:00.000Z",
+          "wordCount": 7126,
+          "title": "Spring Commercial Support Extension",
+          "imageUrl": "https://spring.io/img/og-spring.png"
+        },
+        {
           "id": "https://spring.io/blog/2023/09/09/all-together-now-spring-boot-3-2-graalvm-native-images-java-21-and-virtual",
           "author": "Josh Long",
           "description": "Level up your Java code and explore what Spring can do for you.",
@@ -94,16 +104,6 @@
           "wordCount": 6828,
           "title": "A Bootiful Podcast: cloud native Chris Richardson",
           "imageUrl": "https://spring.io/img/og-spring.png"
-        },
-        {
-          "id": "https://spring.io/blog/2023/08/24/spring-boot-3-2-0-m2-available-now",
-          "author": "Stéphane Nicoll",
-          "description": "Level up your Java code and explore what Spring can do for you.",
-          "link": "https://spring.io/blog/2023/08/24/spring-boot-3-2-0-m2-available-now",
-          "publishedOn": "2023-08-24T00:00:00.000Z",
-          "wordCount": 6953,
-          "title": "Spring Boot 3.2.0-M2 available now",
-          "imageUrl": "https://spring.io/img/og-spring.png"
         }
       ]
     },
@@ -112,6 +112,16 @@
       "feedUrl": "https://www.hashicorp.com/blog/feed.xml",
       "siteUrl": "https://hashicorp.com/blog",
       "articles": [
+        {
+          "id": "https://www.hashicorp.com/blog/hashicorp-enters-gartner-pam-mq",
+          "author": null,
+          "description": "With Vault and Boundary, HashiCorp makes its debut in Gartner’s Magic Quadrant for privileged access management.",
+          "link": "https://www.hashicorp.com/blog/hashicorp-enters-gartner-pam-mq",
+          "publishedOn": "2023-09-11T15:00:00.000Z",
+          "wordCount": 3898,
+          "title": "HashiCorp enters Gartner PAM MQ",
+          "imageUrl": "https://www.datocms-assets.com/2885/1694447086-mq-social-share.png"
+        },
         {
           "id": "https://www.hashicorp.com/blog/new-version-of-servicenow-terraform-catalog-enables-resource-updates",
           "author": null,
@@ -138,7 +148,7 @@
           "description": "Visit us at Google Cloud Next ‘23 in San Francisco, Aug. 29 - 31, for breakout sessions, expert talks, and product demos to accelerate your cloud strategy.",
           "link": "https://www.hashicorp.com/blog/hashicorp-at-google-cloud-next-seamless-infrastructure-deployment-and-management",
           "publishedOn": "2023-08-23T16:00:00.000Z",
-          "wordCount": 3628,
+          "wordCount": 3614,
           "title": "HashiCorp at Google Cloud Next: Seamless infrastructure deployment and management",
           "imageUrl": "https://www.datocms-assets.com/2885/1620155403-blog-library-product-terraform-google-cloud-logomarks-dark.jpg"
         },
@@ -148,7 +158,7 @@
           "description": "HashiCorp continues to update our licensing FAQ based on questions from the community about our change to the Business Source License for future releases of HashiCorp products.",
           "link": "https://www.hashicorp.com/blog/hashicorp-updates-licensing-faq-based-on-community-questions",
           "publishedOn": "2023-08-21T20:15:00.000Z",
-          "wordCount": 3761,
+          "wordCount": 3747,
           "title": "HashiCorp updates licensing FAQ based on community questions",
           "imageUrl": "https://www.datocms-assets.com/2885/1600142862-blog-library-product-hashicorp.png"
         },
@@ -188,7 +198,7 @@
           "description": "HCP Vault Secrets extends secret sync capabilities to GitHub Actions secrets, improves secret versioning, and adds a tutorial on using HCP Vault Secrets with Terraform.",
           "link": "https://www.hashicorp.com/blog/hcp-vault-secrets-extends-secret-sync-to-github-actions",
           "publishedOn": "2023-08-14T16:00:00.000Z",
-          "wordCount": 1952,
+          "wordCount": 1936,
           "title": "HCP Vault Secrets extends secret sync to GitHub Actions",
           "imageUrl": "https://www.datocms-assets.com/2885/1686000600-vault-secrets-mobile.jpg"
         }
@@ -200,12 +210,32 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
+          "id": "https://www.elastic.co/blog/speedups-top-k-queries-high-frequency-terms",
+          "author": "Adrien Grand",
+          "description": "Apache Lucene is combining two optimizations for evaluating disjunctive queries, bringing significant speedups to top-k queries, especially with many terms and/or high-frequency terms.",
+          "link": "https://www.elastic.co/blog/speedups-top-k-queries-high-frequency-terms",
+          "publishedOn": "2023-09-11T00:00:00.000Z",
+          "wordCount": 16641,
+          "title": "Bringing speedups to top-k queries with many and/or high-frequency terms",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c3f329ce39c05a1/6297bad1ae6f0e4156d191df/enterprise-search-performing-website-dark-1680x980.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/speedups-top-k-queries-high-frequency-terms",
+          "author": "Adrien Grand",
+          "description": ",\nDisjunctive queries (term_1 OR term_2 OR ... OR term_n) are extremely commonly used, thus they are getting a lot of attention when it comes to improving query evaluation efficiency. Apache Lucene has two main optimizations for evaluating disjunctive queries: BS1 on the one hand for exhaustive evaluation, and MAXSCORE and WAND on the other hand to compute top hits. Until recently, these two optimizations were never used together, but this changed in order to improve query performance, especially with many clauses and/or high-frequency clauses. See annotation FK on the chart below taken from Lucene's nightly benchmarks.\nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt7cd0865960456e06/64fb34cd7db54e3bf2c194b9/elastic-blog-2-high-freq-graph.png,elastic-blog-2-high-freq-graph.p…",
+          "link": "https://www.elastic.co/blog/speedups-top-k-queries-high-frequency-terms",
+          "publishedOn": "2023-09-11T00:00:00.000Z",
+          "wordCount": 16641,
+          "title": "Bringing speedups to top-k queries with many and/or high-frequency terms",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c3f329ce39c05a1/6297bad1ae6f0e4156d191df/enterprise-search-performing-website-dark-1680x980.png"
+        },
+        {
           "id": "https://www.elastic.co/blog/uk-government-reduce-legacy-it-streamline-budget",
           "author": "Peter Dutton",
           "description": "Over 25% of the UK government’s digital budget is spent on reducing legacy IT and cybersecurity. An IT modernisation project can be daunting — but the upside is reduced risk, tool consolidation, operational efficiencies, and long-term cost savings.",
           "link": "https://www.elastic.co/blog/uk-government-reduce-legacy-it-streamline-budget",
           "publishedOn": "2023-09-08T00:00:00.000Z",
-          "wordCount": 14470,
+          "wordCount": 14438,
           "title": "4 steps UK government can take to reduce legacy IT and streamline budget",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltb4d920b23069a821/64efb314dfcd7b50f6f6fd6e/UKgovt-legacyITblog.png"
         },
@@ -215,7 +245,7 @@
           "description": ",\nAccording to the National Audit Office (NAO), more than 25% of the UK government’s total digital budget is being spent on reducing legacy IT and cybersecurity. That trend is also apparent when examining individual department spending. The NAO notes that the Department of Food and Rural Affairs (DEFRA) spends 76% of their digital budget on maintaining legacy IT.\n\nIn working with government leaders for years, I recognise that modernising legacy IT systems is undoubtedly a daunting endeavour, one which comes with disruption to teams, processes, and even departmental culture. \n\nIt can also be tempting to deem the problem as one limited to only the IT department. In reality, however, legacy IT can significantly compromise the security and operations of your entire organisation. As David Knott, CTO for the UK government, wrote recently on LinkedIn, “The practices used to manage your technology are as fundamental to your business success as the practices you use to manage your people and your processes. If your business is plagued by legacy technology, that is the result of a series of management choices, choices about the importance of infrastructure quality and code quality.”\n,The release and timing of any features or functionality described in this post remain at Elastic's sole discretion. Any features or functionality not currently available may not be delivered on time or at all.",
           "link": "https://www.elastic.co/blog/uk-government-reduce-legacy-it-streamline-budget",
           "publishedOn": "2023-09-08T00:00:00.000Z",
-          "wordCount": 14470,
+          "wordCount": 14438,
           "title": "4 steps UK government can take to reduce legacy IT and streamline budget",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltb4d920b23069a821/64efb314dfcd7b50f6f6fd6e/UKgovt-legacyITblog.png"
         },
@@ -225,7 +255,7 @@
           "description": "Read about the updates and bug fixes that have been included in this release.",
           "link": "https://www.elastic.co/blog/elastic-stack-7-17-13-released",
           "publishedOn": "2023-09-06T00:00:00.000Z",
-          "wordCount": 10490,
+          "wordCount": 15315,
           "title": "Elastic Stack 7.17.13 released",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c35d17afad9d20d/5f122812c31823015df6ef0a/blog-thumb-rocket-launch.png"
         },
@@ -235,7 +265,7 @@
           "description": "Read about the updates and bug fixes that have been included in this release.",
           "link": "https://www.elastic.co/blog/elastic-stack-8-9-2-released",
           "publishedOn": "2023-09-06T00:00:00.000Z",
-          "wordCount": 10490,
+          "wordCount": 15315,
           "title": "Elastic Stack 8.9.2 released",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6a26a8ec94e87272/6001ac6a96de49101cfb1e46/cta-illustration-space-launch-white-bg.png"
         },
@@ -245,7 +275,7 @@
           "description": "This blog post provides a troubleshooting guide for the Kibana® Discover UI view, including long loads, time outs, and errors.",
           "link": "https://www.elastic.co/blog/troubleshooting-guide-common-issues-kibana-discover-load",
           "publishedOn": "2023-09-06T00:00:00.000Z",
-          "wordCount": 14654,
+          "wordCount": 17674,
           "title": "Troubleshooting guide: Solving 6 common issues in Kibana Discover load",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltd46697b47f0f9fc4/64f5f7e49bf26174d06b9c4b/patterns-white-background-no-logo-stack.png"
         },
@@ -255,7 +285,7 @@
           "description": "Women in tech: Asuka Nakajima followed her childhood dream into cybersecurity. Now she’s a security research engineer.",
           "link": "https://www.elastic.co/blog/culture-asuka-nakajima-hacker-security-research-engineer",
           "publishedOn": "2023-09-06T00:00:00.000Z",
-          "wordCount": 12251,
+          "wordCount": 15630,
           "title": "Asuka Nakajima aspired to be a hacker. Now she’s a security research engineer.",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt71f49e1fde337fab/64d41991759dee83e1e00e20/LinkedIn-Banner_720x420-Asuka-Nakajima.png"
         },
@@ -265,7 +295,7 @@
           "description": ",\nVersion 7.17.13 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 7.17.13 over 7.17.12 and 7.16.x releases.\nThe 7.17.13 patch release contains fixes for potential security vulnerabilities. Please see our security advisory for more details.For details of the issues that have been fixed and a full list of changes for each product in this version, please refer to the release notes.",
           "link": "https://www.elastic.co/blog/elastic-stack-7-17-13-released",
           "publishedOn": "2023-09-06T00:00:00.000Z",
-          "wordCount": 10490,
+          "wordCount": 15315,
           "title": "Elastic Stack 7.17.13 released",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c35d17afad9d20d/5f122812c31823015df6ef0a/blog-thumb-rocket-launch.png"
         },
@@ -275,7 +305,7 @@
           "description": ",\nVersion 8.9.2 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 8.9.2 over 8.9.1 and 8.8.x releases.\nThe 8.9.2 patch release contains fixes for potential security vulnerabilities. Please see our security advisory for more details.\nFor details of the issues that have been fixed and a full list of changes for each product in this version, please refer to the release notes.",
           "link": "https://www.elastic.co/blog/elastic-stack-8-9-2-released",
           "publishedOn": "2023-09-06T00:00:00.000Z",
-          "wordCount": 10490,
+          "wordCount": 15315,
           "title": "Elastic Stack 8.9.2 released",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6a26a8ec94e87272/6001ac6a96de49101cfb1e46/cta-illustration-space-launch-white-bg.png"
         },
@@ -285,7 +315,7 @@
           "description": ",\nDiscover is Elastic®’s core Kibana® UI to search, filter, and inspect (time series) data. Visualizations are used for data aggregations/summaries. The Discover UI is resilient to large data Elasticsearch® responses, but it can sometimes experience issues due to (uncompressed) response size, mapping explosion, and browser limits. \n\nBelow, we’ll summarize the most common historical issues, including long loads, time outs, and errors, and provide a sequential troubleshooting walk-through for solving them. Note: This article’s APIs are written to v8.6, but the general troubleshooting flow applies to earlier and later versions.\nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt4d546fa9f18d5ffe/64f3ade84d5ab557c94a5282/elastic-blog-1-kibana-event-log.png,elastic-blog-1-kibana-even…",
           "link": "https://www.elastic.co/blog/troubleshooting-guide-common-issues-kibana-discover-load",
           "publishedOn": "2023-09-06T00:00:00.000Z",
-          "wordCount": 14654,
+          "wordCount": 17674,
           "title": "Troubleshooting guide: Solving 6 common issues in Kibana Discover load",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltd46697b47f0f9fc4/64f5f7e49bf26174d06b9c4b/patterns-white-background-no-logo-stack.png"
         },
@@ -295,7 +325,7 @@
           "description": ",\nAsuka Nakajima aspired to be a hacker after picking up a copy of Project SEVEN when she was 14 years old.\nThe book tells the story of a high school girl who was a hacker and saved the world from cyber terrorists. \nAsuka made that dream a reality. Now, she is a security research engineer at Elastic®, focusing on the endpoint security product’s (Elastic Defend) research and development. \n“More precisely, I am currently working on developing the EDR (Endpoint Detection and Response) feature, for Windows platform,” she says. \nAfter finishing Project SEVEN she realized how little she knew about IT, so she started an IT certification to learn the basics of computers. At university, she studied programming and security, and improved her technical skills by interning at various companies and par…",
           "link": "https://www.elastic.co/blog/culture-asuka-nakajima-hacker-security-research-engineer",
           "publishedOn": "2023-09-06T00:00:00.000Z",
-          "wordCount": 12251,
+          "wordCount": 15630,
           "title": "Asuka Nakajima aspired to be a hacker. Now she’s a security research engineer.",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt71f49e1fde337fab/64d41991759dee83e1e00e20/LinkedIn-Banner_720x420-Asuka-Nakajima.png"
         },
@@ -305,7 +335,7 @@
           "description": "Learn how to auto-instrument Python applications using OpenTelemetry. With standard commands in a Docker file, applications can be instrumented quickly without writing code in multiple places, enabling rapid change, scale, and easier management.",
           "link": "https://www.elastic.co/blog/auto-instrumentation-of-python-applications-opentelemetry",
           "publishedOn": "2023-09-05T00:00:00.000Z",
-          "wordCount": 14273,
+          "wordCount": 19929,
           "title": "Automatic instrumentation with OpenTelemetry for Python applications",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc0abd976fa30c357/64f72e4ada83c90985f97e26/observability-launch-series-2-python-auto_(1).jpg"
         },
@@ -335,19 +365,9 @@
           "description": "OpenTelemetry provides an observability framework for cloud-native software, allowing us to trace, monitor, and debug applications seamlessly. In this post, we'll explore how to manually instrument a Java application using OpenTelemetry.",
           "link": "https://www.elastic.co/blog/manual-instrumentation-of-java-applications-opentelemetry",
           "publishedOn": "2023-09-05T00:00:00.000Z",
-          "wordCount": 17620,
+          "wordCount": 22422,
           "title": "Manual instrumentation of Java applications with OpenTelemetry",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltafcdc77c569f0eda/64f72a3f29dd364dfb3b444d/observability-launch-series-3-java-manual.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/auto-instrument-nodejs-applications-opentelemetry",
-          "author": "Bahubali Shetti",
-          "description": "Learn how to auto-instrument Node.js applications using OpenTelemetry. With standard commands in a Docker file, applications can be instrumented quickly without writing code in multiple places, enabling rapid change, scale, and easier management.",
-          "link": "https://www.elastic.co/blog/auto-instrument-nodejs-applications-opentelemetry",
-          "publishedOn": "2023-09-05T00:00:00.000Z",
-          "wordCount": 14131,
-          "title": "Automatic instrumentation with OpenTelemetry for Node.js applications",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt65e8d5dee2640108/64f72ee29da015a7b81ea3ed/observability-launch-series-1-node-js-auto_(1).jpg"
         },
         {
           "id": "https://www.elastic.co/blog/auto-instrumentation-of-python-applications-opentelemetry",
@@ -355,7 +375,7 @@
           "description": ",\nDevOps and SRE teams are transforming the process of software development. While DevOps engineers focus on efficient software applications and service delivery, SRE teams are key to ensuring reliability, scalability, and performance. These teams must rely on a full-stack observability solution that allows them to manage and monitor systems and ensure issues are resolved before they impact the business.  \n\nObservability across the entire stack of modern distributed applications requires data collection, processing, and correlation often in the form of dashboards. Ingesting all system data requires installing agents across stacks, frameworks, and providers — a process that can be challenging and time-consuming for teams who have to deal with version changes, compatibility issues, and propr…",
           "link": "https://www.elastic.co/blog/auto-instrumentation-of-python-applications-opentelemetry",
           "publishedOn": "2023-09-05T00:00:00.000Z",
-          "wordCount": 14273,
+          "wordCount": 19929,
           "title": "Automatic instrumentation with OpenTelemetry for Python applications",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc0abd976fa30c357/64f72e4ada83c90985f97e26/observability-launch-series-2-python-auto_(1).jpg"
         },
@@ -385,19 +405,9 @@
           "description": ",\nIn the fast-paced universe of software development, especially in the cloud-native realm, DevOps and SRE teams are increasingly emerging as essential partners in application stability and growth.\nDevOps engineers continuously optimize software delivery, while SRE teams act as the stewards of application reliability, scalability, and top-tier performance. The challenge? These teams require a cutting-edge observability solution, one that encompasses full-stack insights, empowering them to rapidly manage, monitor, and rectify potential disruptions before they culminate into operational challenges.\nObservability in our modern distributed software ecosystem goes beyond mere monitoring—it demands limitless data collection, precision in processing, and the correlation of this data into actionab…",
           "link": "https://www.elastic.co/blog/manual-instrumentation-of-java-applications-opentelemetry",
           "publishedOn": "2023-09-05T00:00:00.000Z",
-          "wordCount": 17620,
+          "wordCount": 22422,
           "title": "Manual instrumentation of Java applications with OpenTelemetry",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltafcdc77c569f0eda/64f72a3f29dd364dfb3b444d/observability-launch-series-3-java-manual.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/auto-instrument-nodejs-applications-opentelemetry",
-          "author": "Bahubali Shetti",
-          "description": ",\nDevOps and SRE teams are transforming the process of software development. While DevOps engineers focus on efficient software applications and service delivery, SRE teams are key to ensuring reliability, scalability, and performance. These teams must rely on a full-stack observability solution that allows them to manage and monitor systems and ensure issues are resolved before they impact the business.  \n\nObservability across the entire stack of modern distributed applications requires data collection, processing, and correlation often in the form of dashboards. Ingesting all system data requires installing agents across stacks, frameworks, and providers — a process that can be challenging and time-consuming for teams who have to deal with version changes, compatibility issues, and propr…",
-          "link": "https://www.elastic.co/blog/auto-instrument-nodejs-applications-opentelemetry",
-          "publishedOn": "2023-09-05T00:00:00.000Z",
-          "wordCount": 14131,
-          "title": "Automatic instrumentation with OpenTelemetry for Node.js applications",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt65e8d5dee2640108/64f72ee29da015a7b81ea3ed/observability-launch-series-1-node-js-auto_(1).jpg"
         }
       ]
     },
@@ -406,6 +416,16 @@
       "feedUrl": "https://www.ansible.com/blog/rss.xml",
       "siteUrl": "https://www.ansible.com/blog",
       "articles": [
+        {
+          "id": "https://www.ansible.com/blog/welcome-to-the-new-ansible-community-forum",
+          "author": "The Ansible Community Team",
+          "description": "Today, we're delighted to announce the launch of the new Ansible Community Forum - a single starting point for questions and help, development discussions, events, and much more. Everyone is invited, whether you are an Ansible user, contributor or developer, we are all community! Register here to join us!",
+          "link": "https://www.ansible.com/blog/welcome-to-the-new-ansible-community-forum",
+          "publishedOn": "2023-09-11T13:00:00.000Z",
+          "wordCount": 1577,
+          "title": "Welcome to the new Ansible Community Forum",
+          "imageUrl": "https://www.ansible.com/hubfs/ansible-community-forum.png"
+        },
         {
           "id": "https://www.ansible.com/blog/automate-openshift-with-red-hat-ansible-automation-platform",
           "author": "Rachna Dodia",
@@ -474,6 +494,16 @@
       "siteUrl": "https://devblogs.microsoft.com/devops/",
       "articles": [
         {
+          "id": "https://devblogs.microsoft.com/devops/?p=67467",
+          "author": "Eric van Wijk",
+          "description": "Do you want to stop storing secrets and certificates in Azure service connections? Are you tired rotating these secrets whenever they expire? We are now announcing a public preview of workload identity federation for Azure service connections. Workload identity federation uses an industry-standard technology,\nThe post Public preview of Workload identity federation for Azure Pipelines appeared first on Azure DevOps Blog.",
+          "link": "https://devblogs.microsoft.com/devops/public-preview-of-workload-identity-federation-for-azure-pipelines/",
+          "publishedOn": "2023-09-11T08:01:30.000Z",
+          "wordCount": 5655,
+          "title": "Public preview of Workload identity federation for Azure Pipelines",
+          "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2023/09/oidc-collaboration-4.png"
+        },
+        {
           "id": "https://devblogs.microsoft.com/devops/?p=67425",
           "author": "Jorge Fernandez",
           "description": "Rust is earning its place as a go-to language for developers everywhere. Why? It’s fast, it’s safe, and the community around it is supportive and hands-on. With clear guides and a collective push to help each other out, Rust feels less like just another tool and more like a reliable coding partner for modern programming challenges.\nThe post Introducing Azure Artifacts support for Rust Crates appeared first on Azure DevOps Blog.",
@@ -496,6 +526,26 @@
       "feedUrl": "http://feeds.feedburner.com/AmazonWebServicesBlog",
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
+        {
+          "id": "64de4acd73459b1274a4808233a3fb07d4637598",
+          "author": "Channy Yun",
+          "description": "We launched the memory optimized Amazon EC2 R6a instances in July 2022 powered by 3rd Gen AMD EPYC (Milan) processors, running at frequencies up to 3.6 GHz. Many customers who run workloads that are dependent on x86 instructions, such as SAP, are looking for ways to optimize their cloud utilization. They’re taking advantage of the […]",
+          "link": "https://aws.amazon.com/blogs/aws/new-amazon-ec2-r7a-instances-powered-by-4th-gen-amd-epyc-processors-for-memory-optimized-workloads/",
+          "publishedOn": "2023-09-11T23:45:23.000Z",
+          "wordCount": 1319,
+          "title": "New – Amazon EC2 R7a Instances Powered By 4th Gen AMD EPYC Processors for Memory Optimized Workloads",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/11/Site-Merch_Amazon-EC2_R7a_Blog.png"
+        },
+        {
+          "id": "e1de18a127682dd7c4d5fdc0b14ca2c6dd79e1b2",
+          "author": "Jeff Barr",
+          "description": "Looks like it is my turn once again to write the AWS Weekly Roundup. I wrote and published the first one on April 16, 2012 — just 4,165 short day ago! Last Week’s Launches Here are some of the launches that caught my eye last week: R7iz Instances – Optimized for high CPU performance and […]",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-r7iz-instances-amazon-connect-cloudwatch-logs-and-lots-more-sept-11-2023/",
+          "publishedOn": "2023-09-11T18:52:20.000Z",
+          "wordCount": 1775,
+          "title": "AWS Weekly Roundup: R7iz Instances, Amazon Connect, CloudWatch Logs, and Lots More (Sept. 11, 2023)",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/21/AWS-WIR-default-2.png"
+        },
         {
           "id": "8ba74cddc223f444061c3b940056b7e5bf430c07",
           "author": "Veliswa Boya",
@@ -624,6 +674,16 @@
       "siteUrl": "https://xkcd.com/",
       "articles": [
         {
+          "id": "https://xkcd.com/2827/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/brassica.png\" title=\"Sequoia Brussels sprouts are delicious but it's pretty hard to finish one.\" alt=\"Sequoia Brussels sprouts are delicious but it's pretty hard to finish one.\" />",
+          "link": "https://xkcd.com/2827/",
+          "publishedOn": "2023-09-11T00:00:00.000Z",
+          "wordCount": 189,
+          "title": "Brassica",
+          "imageUrl": "https://imgs.xkcd.com/comics/brassica_2x.png"
+        },
+        {
           "id": "https://xkcd.com/2826/",
           "author": null,
           "description": "<img src=\"https://imgs.xkcd.com/comics/gold.png\" title=\"It can be expensive to hire a professional spectroscopist for your wedding, but the quality of the spectra you get is worth it.\" alt=\"It can be expensive to hire a professional spectroscopist for your wedding, but the quality of the spectra you get is worth it.\" />",
@@ -652,16 +712,6 @@
           "wordCount": 191,
           "title": "Abstract Pickup",
           "imageUrl": "https://imgs.xkcd.com/comics/abstract_pickup_2x.png"
-        },
-        {
-          "id": "https://xkcd.com/2823/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/fossil.png\" title=\"The two best reasons to get into fossils are booping trilobites and getting to say the word &quot;fossiliferous&quot; a lot.\" alt=\"The two best reasons to get into fossils are booping trilobites and getting to say the word &quot;fossiliferous&quot; a lot.\" />",
-          "link": "https://xkcd.com/2823/",
-          "publishedOn": "2023-09-01T00:00:00.000Z",
-          "wordCount": 189,
-          "title": "Fossil",
-          "imageUrl": "https://imgs.xkcd.com/comics/fossil_2x.png"
         }
       ]
     },
@@ -888,12 +938,22 @@
       "siteUrl": "https://kubernetes.io/",
       "articles": [
         {
+          "id": "https://kubernetes.io/blog/2023/09/12/local-k8s-development-tools/",
+          "author": null,
+          "description": "Author: Eyal Bukchin (MetalBear)\nThe Kubernetes development cycle is an evolving landscape with a myriad of tools seeking to streamline the process. Each tool has its unique approach, and the choice often comes down to individual project requirements, the team's expertise, and the preferred workflow.\nAmong the various solutions, a category we dubbed “Local K8S Development tools” has emerged, which seeks to enhance the Kubernetes development experience by connecting locally running components to the Kubernetes cluster. This facilitates rapid testing of new code in cloud conditions, circumventing the traditional cycle of Dockerization, CI, and deployment.\nIn this post, we compare three solutions in this category: Telepresence, Gefyra, and our own contender, mirrord.\nTelepresence\nThe oldest a…",
+          "link": "https://kubernetes.io/blog/2023/09/12/local-k8s-development-tools/",
+          "publishedOn": "2023-09-12T00:00:00.000Z",
+          "wordCount": 4075,
+          "title": "Blog: Comparing Local Kubernetes Development Tools: Telepresence, Gefyra, and mirrord",
+          "imageUrl": null
+        },
+        {
           "id": "https://kubernetes.io/blog/2023/08/31/legacy-package-repository-deprecation/",
           "author": null,
           "description": "Authors: Bob Killen (Google), Chris Short (AWS), Jeremy Rickard (Microsoft), Marko Mudrinić (Kubermatic), Tim Bannister (The Scale Factory)\nOn August 15, 2023, the Kubernetes project announced the general availability of\nthe community-owned package repositories for Debian and RPM packages available\nat pkgs.k8s.io. The new package repositories are replacement for the legacy\nGoogle-hosted package repositories: apt.kubernetes.io and yum.kubernetes.io.\nThe\nannouncement blog post for pkgs.k8s.io\nhighlighted that we will stop publishing packages to the legacy repositories in\nthe future.\nToday, we're formally deprecating the legacy package repositories (apt.kubernetes.io\nand yum.kubernetes.io), and we're announcing our plans to freeze the contents of\nthe repositories as of September 13, 2023.\nPle…",
           "link": "https://kubernetes.io/blog/2023/08/31/legacy-package-repository-deprecation/",
           "publishedOn": "2023-08-31T22:30:00.000Z",
-          "wordCount": 4844,
+          "wordCount": 4825,
           "title": "Blog: Kubernetes Legacy Package Repositories Will Be Frozen On September 13, 2023",
           "imageUrl": null
         },
@@ -903,7 +963,7 @@
           "description": "Authors: Flynn (Buoyant), John Howard (Google), Keith Mattix (Microsoft), Michael Beaumont (Kong), Mike Morris (independent), Rob Scott (Google)\nWe are thrilled to announce the v0.8.0 release of Gateway API! With this\nrelease, Gateway API support for service mesh has reached Experimental\nstatus. We look forward to your feedback!\nWe're especially delighted to announce that Kuma 2.3+, Linkerd 2.14+, and Istio\n1.16+ are all fully-conformant implementations of Gateway API service mesh\nsupport.\nService mesh support in Gateway API\nWhile the initial focus of Gateway API was always ingress (north-south)\ntraffic, it was clear almost from the beginning that the same basic routing\nconcepts should also be applicable to service mesh (east-west) traffic. In\n2022, the Gateway API subproject started the G…",
           "link": "https://kubernetes.io/blog/2023/08/29/gateway-api-v0-8/",
           "publishedOn": "2023-08-29T18:00:00.000Z",
-          "wordCount": 4547,
+          "wordCount": 4555,
           "title": "Blog: Gateway API v0.8.0: Introducing Service Mesh Support",
           "imageUrl": null
         },
@@ -913,7 +973,7 @@
           "description": "Author: Richa Banker (Google)\nThis blog describes the mixed version proxy, a new alpha feature in Kubernetes 1.28. The\nmixed version proxy enables an HTTP request for a resource to be served by the correct API server\nin cases where there are multiple API servers at varied versions in a cluster. For example,\nthis is useful during a cluster upgrade, or when you're rolling out the runtime configuration of\nthe cluster's control plane.\nWhat problem does this solve?\nWhen a cluster undergoes an upgrade, the kube-apiservers existing at different versions in that scenario can serve different sets (groups, versions, resources) of built-in resources. A resource request made in this scenario may be served by any of the available apiservers, potentially resulting in the request ending up at an apiserve…",
           "link": "https://kubernetes.io/blog/2023/08/28/kubernetes-1-28-feature-mixed-version-proxy-alpha/",
           "publishedOn": "2023-08-28T00:00:00.000Z",
-          "wordCount": 4174,
+          "wordCount": 4182,
           "title": "Blog: Kubernetes 1.28: A New (alpha) Mechanism For Safer Cluster Upgrades",
           "imageUrl": "/images/blog/2023-08-28-a-new-alpha-mechanism-for-safer-cluster-upgrades/mvp-flow-diagram.svg"
         },
@@ -923,7 +983,7 @@
           "description": "Authors: Todd Neal (AWS), Matthias Bertschy (ARMO), Sergey Kanzhelev (Google), Gunju Kim (NAVER), Shannon Kularathna (Google)\nThis post explains how to use the new sidecar feature, which enables restartable init containers and is available in alpha in Kubernetes 1.28. We want your feedback so that we can graduate this feature as soon as possible.\nThe concept of a “sidecar” has been part of Kubernetes since nearly the very beginning. In 2015, sidecars were described in a blog post about composite containers as additional containers that “extend and enhance the ‘main’ container”. Sidecar containers have become a common Kubernetes deployment pattern and are often used for network proxies or as part of a logging system. Until now, sidecars were a concept that Kubernetes users applied without n…",
           "link": "https://kubernetes.io/blog/2023/08/25/native-sidecar-containers/",
           "publishedOn": "2023-08-25T00:00:00.000Z",
-          "wordCount": 4536,
+          "wordCount": 4544,
           "title": "Blog: Kubernetes v1.28: Introducing native sidecar containers",
           "imageUrl": null
         },
@@ -933,7 +993,7 @@
           "description": "Author: Itamar Holder (Red Hat)\nThe 1.22 release introduced Alpha support\nfor configuring swap memory usage for Kubernetes workloads running on Linux on a per-node basis.\nNow, in release 1.28, support for swap on Linux nodes has graduated to Beta, along with many\nnew improvements.\nPrior to version 1.22, Kubernetes did not provide support for swap memory on Linux systems.\nThis was due to the inherent difficulty in guaranteeing and accounting for pod memory utilization\nwhen swap memory was involved. As a result, swap support was deemed out of scope in the initial\ndesign of Kubernetes, and the default behavior of a kubelet was to fail to start if swap memory\nwas detected on a node.\nIn version 1.22, the swap feature for Linux was initially introduced in its Alpha stage. This represented\na sign…",
           "link": "https://kubernetes.io/blog/2023/08/24/swap-linux-beta/",
           "publishedOn": "2023-08-24T18:00:00.000Z",
-          "wordCount": 5177,
+          "wordCount": 5185,
           "title": "Blog: Kubernetes 1.28: Beta support for using swap on Linux",
           "imageUrl": null
         },
@@ -943,7 +1003,7 @@
           "description": "Author:\nFrancesco Romani (Red Hat)\nThe podresources API is an API served by the kubelet locally on the node, which exposes the compute resources exclusively\nallocated to containers. With the release of Kubernetes 1.28, that API is now Generally Available.\nWhat problem does it solve?\nThe kubelet can allocate exclusive resources to containers, like\nCPUs, granting exclusive access to full cores\nor memory, either regions or hugepages.\nWorkloads which require high performance, or low latency (or both) leverage these features.\nThe kubelet also can assign devices to containers.\nCollectively, these features which enable exclusive assignments are known as \"resource managers\".\nWithout an API like podresources, the only possible option to learn about resource assignment was to read the state files th…",
           "link": "https://kubernetes.io/blog/2023/08/23/kubelet-podresources-api-ga/",
           "publishedOn": "2023-08-23T00:00:00.000Z",
-          "wordCount": 4376,
+          "wordCount": 4384,
           "title": "Blog: Kubernetes 1.28: Node podresources API Graduates to GA",
           "imageUrl": null
         },
@@ -953,7 +1013,7 @@
           "description": "Authors: Kevin Hannon (G-Research), Michał Woźniak (Google)\nThis blog discusses two new features in Kubernetes 1.28 to improve Jobs for batch\nusers: Pod replacement policy\nand Backoff limit per index.\nThese features continue the effort started by the\nPod failure policy\nto improve the handling of Pod failures in a Job.\nPod replacement policy\nBy default, when a pod enters a terminating state (e.g. due to preemption or\neviction), Kubernetes immediately creates a replacement Pod. Therefore, both Pods are running\nat the same time. In API terms, a pod is considered terminating when it has a\ndeletionTimestamp and it has a phase Pending or Running.\nThe scenario when two Pods are running at a given time is problematic for\nsome popular machine learning frameworks, such as\nTensorFlow and JAX, which r…",
           "link": "https://kubernetes.io/blog/2023/08/21/kubernetes-1-28-jobapi-update/",
           "publishedOn": "2023-08-21T00:00:00.000Z",
-          "wordCount": 4538,
+          "wordCount": 4546,
           "title": "Blog: Kubernetes 1.28: Improved failure handling for Jobs",
           "imageUrl": null
         },
@@ -963,7 +1023,7 @@
           "description": "Author: Roman Bednář (Red Hat)\nAnnouncing graduation to General Availability (GA) - Retroactive Default StorageClass Assignment in Kubernetes v1.28!\nKubernetes SIG Storage team is thrilled to announce that the \"Retroactive Default StorageClass Assignment\" feature,\nintroduced as an alpha in Kubernetes v1.25, has now graduated to GA and is officially part of the Kubernetes v1.28 release.\nThis enhancement brings a significant improvement to how default\nStorageClasses are assigned to PersistentVolumeClaims (PVCs).\nWith this feature enabled, you no longer need to create a default StorageClass first and then a PVC to assign the class.\nInstead, any PVCs without a StorageClass assigned will now be retroactively updated to include the default StorageClass.\nThis enhancement ensures that PVCs no longer get stuck in an unbound state, and storage provisioning works seamlessly,\neven when a default StorageClass is not defined at the time of PVC creation.\nWhat changed?\nThe PersistentVolume (PV) controller has been modified to automatically assign a default StorageClass to any unbound\nPersistentVolumeClaim with the storageClassName not set. Additionally, the PersistentVolumeClaim\nadmission validation mechanism within\nthe API server has been adjusted to allow changing values from an unset state to an actual StorageClass name.\nHow to use it?\nAs this feature has graduated to GA, there's no need to enable a feature gate anymore.\nSimply make sure you are running Kubernetes v1.28 or later, and the feature will be available for use.\nFor more details, read about\ndefault StorageClass assignment in the Kubernetes documentation.\nYou can also read the previous blog post announcing beta graduation in v1.26.\nTo provide feedback, join our Kubernetes Storage Special-Interest-Group (SIG)\nor participate in discussions on our public Slack channel.",
           "link": "https://kubernetes.io/blog/2023/08/18/retroactive-default-storage-class-ga/",
           "publishedOn": "2023-08-18T00:00:00.000Z",
-          "wordCount": 3734,
+          "wordCount": 3742,
           "title": "Blog: Kubernetes v1.28: Retroactive Default StorageClass move to GA",
           "imageUrl": null
         },
@@ -973,7 +1033,7 @@
           "description": "Authors: Xing Yang (VMware) and Ashutosh Kumar (Elastic)\nThe Kubernetes Non-Graceful Node Shutdown feature is now GA in Kubernetes v1.28.\nIt was introduced as\nalpha\nin Kubernetes v1.24, and promoted to\nbeta\nin Kubernetes v1.26.\nThis feature allows stateful workloads to restart on a different node if the\noriginal node is shutdown unexpectedly or ends up in a non-recoverable state\nsuch as the hardware failure or unresponsive OS.\nWhat is a Non-Graceful Node Shutdown\nIn a Kubernetes cluster, a node can be shutdown in a planned graceful way or\nunexpectedly because of reasons such as power outage or something else external.\nA node shutdown could lead to workload failure if the node is not drained\nbefore the shutdown. A node shutdown can be either graceful or non-graceful.\nThe Graceful Node Shutd…",
           "link": "https://kubernetes.io/blog/2023/08/16/kubernetes-1-28-non-graceful-node-shutdown-ga/",
           "publishedOn": "2023-08-16T18:00:00.000Z",
-          "wordCount": 4089,
+          "wordCount": 4097,
           "title": "Blog: Kubernetes 1.28: Non-Graceful Node Shutdown Moves to GA",
           "imageUrl": null
         },
@@ -983,7 +1043,7 @@
           "description": "Author: Marko Mudrinić (Kubermatic)\nOn behalf of Kubernetes SIG Release, I am very excited to introduce the\nKubernetes community-owned software\nrepositories for Debian and RPM packages: pkgs.k8s.io! The new package\nrepositories are replacement for the Google-hosted package repositories\n(apt.kubernetes.io and yum.kubernetes.io) that we've been using since\nKubernetes v1.5.\nThis blog post contains information about these new package repositories,\nwhat does it mean to you as an end user, and how to migrate to the new\nrepositories.\nℹ️ Update (August 31, 2023): the legacy Google-hosted repositories are deprecated\nand will be frozen starting with September 13, 2023.\nCheck out the deprecation announcement\nfor more details about this change.\nWhat you need to know about the new package repositories?…",
           "link": "https://kubernetes.io/blog/2023/08/15/pkgs-k8s-io-introduction/",
           "publishedOn": "2023-08-15T20:00:00.000Z",
-          "wordCount": 5070,
+          "wordCount": 5078,
           "title": "Blog: pkgs.k8s.io: Introducing Kubernetes Community-Owned Package Repositories",
           "imageUrl": null
         },
@@ -993,7 +1053,7 @@
           "description": "Authors: Kubernetes v1.28 Release Team\nAnnouncing the release of Kubernetes v1.28 Planternetes, the second release of 2023!\nThis release consists of 45 enhancements. Of those enhancements, 19 are entering Alpha, 14 have graduated to Beta, and 12 have graduated to Stable.\nRelease Theme And Logo\nKubernetes v1.28: Planternetes\nThe theme for Kubernetes v1.28 is Planternetes.\nEach Kubernetes release is the culmination of the hard work of thousands of individuals from our community. The people behind this release come from a wide range of backgrounds, some of us industry veterans, parents, others students and newcomers to open-source. We combine our unique experience to create a collective artifact with global impact.\nMuch like a garden, our release has ever-changing growth, challenges and oppor…",
           "link": "https://kubernetes.io/blog/2023/08/15/kubernetes-v1-28-release/",
           "publishedOn": "2023-08-15T12:00:00.000Z",
-          "wordCount": 6145,
+          "wordCount": 6153,
           "title": "Blog: Kubernetes v1.28: Planternetes",
           "imageUrl": null
         },
@@ -1003,7 +1063,7 @@
           "description": "Author: Fyka Ansari\nWelcome to the world of Kubernetes and its vibrant contributor\ncommunity! In this blog post, we'll be shining a spotlight on the\nSpecial Interest Group for Contributor\nExperience\n(SIG ContribEx), an essential component of the Kubernetes project.\nSIG ContribEx in Kubernetes is responsible for developing and\nmaintaining a healthy and productive community of contributors to the\nproject. This involves identifying and addressing bottlenecks that may\nhinder the project's growth and feature velocity, such as pull request\nlatency and the number of open pull requests and issues.\nSIG ContribEx works to improve the overall contributor experience by\ncreating and maintaining guidelines, tools, and processes that\nfacilitate collaboration and communication among contributors. They\nals…",
           "link": "https://kubernetes.io/blog/2023/08/14/sig-contribex-spotlight-2023/",
           "publishedOn": "2023-08-14T00:00:00.000Z",
-          "wordCount": 5378,
+          "wordCount": 5386,
           "title": "Blog: Spotlight on SIG ContribEx",
           "imageUrl": null
         }
@@ -1017,32 +1077,32 @@
         {
           "id": "https://medium.com/p/ac6483b52a51",
           "author": "Netflix Technology Blog",
-          "description": "Netflix’s service mesh adoption: history, motivations, and how we worked with the Envoy community on a feature to streamline mesh adoption",
+          "description": "",
           "link": "https://netflixtechblog.com/zero-configuration-service-mesh-with-on-demand-cluster-discovery-ac6483b52a51?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-08-29T23:08:45.000Z",
-          "wordCount": 5740,
+          "wordCount": null,
           "title": "Zero Configuration Service Mesh with On-Demand Cluster Discovery",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1000/0*xr1EBhghfcC8j4Uj"
+          "imageUrl": null
         },
         {
           "id": "https://medium.com/p/b8cd145491cc",
           "author": "Netflix Technology Blog",
-          "description": "By: Hamid Shahid, Laura Johnson, Tiffany Low",
+          "description": "",
           "link": "https://netflixtechblog.com/ava-discovery-view-surfacing-authentic-moments-b8cd145491cc?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-08-17T22:07:14.000Z",
-          "wordCount": 5777,
+          "wordCount": null,
           "title": "AVA Discovery View: Surfacing Authentic Moments",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:890/0*o3U-Eg_XXmXzmMMO"
+          "imageUrl": null
         },
         {
           "id": "https://medium.com/p/2feb273a3598",
           "author": "Netflix Technology Blog",
-          "description": "Netflix’s Zuul Gateway eliminated tens of millions of connections and reduced almost all connection churn to backends",
+          "description": "",
           "link": "https://netflixtechblog.com/curbing-connection-churn-in-zuul-2feb273a3598?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-08-16T17:55:48.000Z",
-          "wordCount": 5898,
+          "wordCount": null,
           "title": "Curbing Connection Churn in Zuul",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:734/0*lL_0weS3WX_b4cZC"
+          "imageUrl": null
         }
       ]
     },
@@ -1051,6 +1111,16 @@
       "feedUrl": "http://feeds.feedburner.com/blogspot/gJZg",
       "siteUrl": "http://blog.research.google/",
       "articles": [
+        {
+          "id": "http://blog.research.google/2023/09/differentially-private-median-and-more.html",
+          "author": null,
+          "description": "Posted by Edith Cohen and Uri Stemmer, Research Scientists, Google Research\n\n\n\n\n\nDifferential privacy (DP) is a rigorous mathematical definition of privacy. DP algorithms are randomized to protect user data by ensuring that the probability of any particular output is nearly unchanged when a data point is added or removed. Therefore, the output of a DP algorithm does not disclose the presence of any one data point. There has been significant progress in both foundational research and adoption of differential privacy with contributions such as the Privacy Sandbox and Google Open Source Library.\n\n\nML and data analytics algorithms can often be described as performing multiple basic computation steps on the same dataset. When each such step is differentially private, so is the output, but with …",
+          "link": "http://blog.research.google/2023/09/differentially-private-median-and-more.html",
+          "publishedOn": "2023-09-08T22:59:00.002Z",
+          "wordCount": 28146,
+          "title": "Differentially private median and more",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiY4hQkG4Ofm6plcTF56kw-L1RI613kh8ztTMZvJgmn2VpFF84K1TIfBymU6p_xVE0q-SRafCvZtrzdCgNz4qqsyqVTevfEffmxqhQ_Jg6rJQgo5vm3zoOkQ6JnxeMNQ4Y7LrOufGJB8lTnJoKSYZYke2qZi0rvO9PUB5POaYdou4O7lE2-IO7hD0__aJcy/w1200-h630-p-k-no-nu/dpmedian.png"
+        },
         {
           "id": "http://blog.research.google/2023/09/a-novel-computational-fluid-dynamics.html",
           "author": null,
@@ -1199,12 +1269,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=43973",
+          "author": "Seth Godin",
+          "description": "Steve Pressfield defines Resistance as the inertia, stories and excuses we manage to create to avoid powerful or creative work. Writer’s block, procrastination, overconfidence, or a belief in un-delivered talent are all symptoms of resistance. Knowing that it has a name helps us dance with it. We can’t make it go away (the more important […]",
+          "link": "https://feeds.feedblitz.com/~/793052528/0/sethsblog~Widespread-resistance/",
+          "publishedOn": "2023-09-11T09:10:00.000Z",
+          "wordCount": 1115,
+          "title": "Widespread resistance",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_180613-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=45507",
           "author": "Seth Godin",
           "description": "I used to drive 200 miles to Boston once a week or so. After a few trips on the highway, my subconscious figured out that getting behind a few trucks for the entire ride enabled me to spend four hours without using much conscious effort on driving. Every day, we make decisions. These require effort, […]",
           "link": "https://feeds.feedblitz.com/~/792939341/0/sethsblog~Digital-shortcuts-and-cognitive-load/",
           "publishedOn": "2023-09-10T08:38:00.000Z",
-          "wordCount": 1231,
+          "wordCount": 1232,
           "title": "Digital shortcuts and cognitive load",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806137-1.jpg"
         },
@@ -1287,16 +1367,6 @@
           "wordCount": 1289,
           "title": "Informed consent (rarely is)",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=45149",
-          "author": "Seth Godin",
-          "description": "When a friend shows you work in progress, your best contribution is to imagine the point of view and preferences of the person it is being created for. “I don’t like it,” isn’t useful, because it’s not for you. “I could imagine that someone who wants x, y or z would be looking for…” is […]",
-          "link": "https://feeds.feedblitz.com/~/791824298/0/sethsblog~The-empathy-of-useful-feedback/",
-          "publishedOn": "2023-09-02T08:47:00.000Z",
-          "wordCount": 1094,
-          "title": "The empathy of useful feedback",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_180613-1.jpg"
         }
       ]
     },
@@ -1306,13 +1376,33 @@
       "siteUrl": "https://blog.jetbrains.com",
       "articles": [
         {
+          "id": "https://blog.jetbrains.com/?post_type=idea&p=385197",
+          "author": "Yuriy Artamonov",
+          "description": "We are excited to announce that JPA Buddy and React Buddy have joined the JetBrains family. Positioned as powerful plugins for working with JPA data and React applications, respectively, they will offer even more functionality for IntelliJ IDEA and WebStorm developers moving forward. With this acquisition, the JPA Buddy and React Buddy teams will also […]",
+          "link": "https://blog.jetbrains.com/idea/2023/09/jpa-buddy-and-react-buddy-join-jetbrains/",
+          "publishedOn": "2023-09-11T12:59:15.000Z",
+          "wordCount": 2791,
+          "title": "JPA and React Plugins: From Buddies To Full Members of The JetBrains Family",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/09/Social-Share-Blog-image-1280x720-2x.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=idea&p=385562",
+          "author": "Anna Rovinskaia",
+          "description": "Join us for the new IntelliJ IDEA LiveStream episode with José Paumard to learn about the Java 21 release. Date: September 28, 2023 Time: 3:00 pm – 4:00 pm UTC REGISTER FOR THE LIVESTREAM Session abstract Java 21 is coming with many new features, two of which will have a tremendous impact on the way […]",
+          "link": "https://blog.jetbrains.com/idea/2023/09/new-livestream-java-21-focus-on-virtual-threads-and-pattern-matching/",
+          "publishedOn": "2023-09-11T09:08:43.000Z",
+          "wordCount": 2920,
+          "title": "New Livestream – Java 21: Focus on Virtual Threads and Pattern Matching",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/09/Sep-2023-IntelliJ-IDEA-LiveStream-Jose-Paumard-Blog_Social_share_image_1280x720-2x.png"
+        },
+        {
           "id": "https://blog.jetbrains.com/?post_type=clion&p=386308",
           "author": "Anastasia Kazakova",
           "description": "This is a cross-post from the Conan blog. In this post, we are thrilled to announce the launch of the new version of the Conan CLion Plugin, now compatible with the 2.X versions of Conan. The new plugin is designed to bring more ease and control to developers using CLion (with version higher than 2022.3) […]",
           "link": "https://blog.jetbrains.com/clion/2023/09/introducing-the-new-clion-conan-plugin/",
           "publishedOn": "2023-09-08T16:12:57.000Z",
           "wordCount": 3900,
-          "title": "Introducing the new CLion Conan Plugin",
+          "title": "Introducing the New CLion Conan Plugin",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/09/CLion-blog-post-on-Conan_Social_Share_1280x720-1.png"
         },
         {
@@ -1381,7 +1471,7 @@
           "description": "The September edition of Java Annotated Monthly is here! With this month’s release of Java 21 approaching, we’re excited to bring you a final sneak peek into its crucial features. But that’s not all! This edition is packed with helpful articles about cutting-edge AI technologies, including updates about the latest enhancements in IntelliJ IDEA’s AI […]",
           "link": "https://blog.jetbrains.com/idea/2023/09/java-annotated-monthly-september-2023/",
           "publishedOn": "2023-09-05T13:36:09.000Z",
-          "wordCount": 4690,
+          "wordCount": 4711,
           "title": "Java Annotated Monthly – September 2023",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/09/java-annotated-blog-social-share-image-1280x720-1.png"
         },
@@ -1404,26 +1494,6 @@
           "wordCount": 3567,
           "title": "Rider 2023.3 Roadmap",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/09/rd-how-tos-social_share_blog_1280x720.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=384712",
-          "author": "Matthias Koch",
-          "description": "The recording of our webinar, OSS Power-Ups: bUnit, with Egil Hansen and Steven Giesel, is available. This was the twelfth episode of our OSS Power-Ups series, where we put a spotlight on open-source .NET projects. Subscribe to our community newsletter to receive notifications about future webinars. In this talk, you will learn how to get started […]",
-          "link": "https://blog.jetbrains.com/dotnet/2023/09/04/oss-power-ups-bunit-webinar-recording/",
-          "publishedOn": "2023-09-04T13:44:06.000Z",
-          "wordCount": 3074,
-          "title": "OSS Power-Ups: bUnit – Webinar Recording",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/08/Blog_Social_share_image_1280x720.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=webstorm&p=384500",
-          "author": "David Watson",
-          "description": "We released WebStorm 2023.2, our second major update in 2023, just over a month ago. First of all, we’d like to thank every one of you that are already using it and providing us with feedback. Today, we’ll give you a little look into what we’ve got planned for the next release of WebStorm, which […]",
-          "link": "https://blog.jetbrains.com/webstorm/2023/09/2023-3-roadmap/",
-          "publishedOn": "2023-09-04T13:15:29.000Z",
-          "wordCount": 3019,
-          "title": "What’s Next: WebStorm 2023.3 Roadmap",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/09/ws-roadmap-social_share_blog_1280x720.png"
         }
       ]
     }

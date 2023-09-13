@@ -22,11 +22,758 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-09-12 datetime="2023-09-12T00:00:00.000Z">2023-09-12</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-09-12 datetime="2023-09-12T00:00:00.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-09-13 datetime="2023-09-13T00:00:00.000Z">2023-09-13</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-09-13 datetime="2023-09-13T00:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Kubernetes – Production-Grade Container Orchestration</button>
+                  <a class="source-heading__link" href="https://kubernetes.io/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kubernetes.io/blog/2023/09/13/userns-alpha/"
+                        open
+                      >
+                        <summary class="article-expander__title">Blog: User Namespaces: Now Supports Running Stateful Pods in Alpha!</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kubernetes.io/blog/2023/09/13/userns-alpha/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Authors: Rodrigo Campos Catelin (Microsoft), Giuseppe Scrivano (Red Hat), Sascha Grunert (Red Hat)
+Kubernetes v1.25 introduced support for user namespaces for only stateless
+pods. Kubernetes 1.28 lifted that restriction, after some design changes were
+done in 1.27.
+The beauty of this feature is that:
+it is trivial to adopt (you just need to set a bool in the pod spec)
+doesn&#x27;t need any changes for most applications
+improves security by drastically enhancing the isolation of containers and
+mitigating CVEs rated HIGH and CRITICAL.
+This post explains the basics of user namespaces and also shows:
+the changes that arrived in the recent Kubernetes v1.28 release
+a demo of a vulnerability rated as HIGH that is not exploitable with user namespaces
+the runtime requirements to use this feature
+what yo…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-09-12 datetime="2023-09-12T21:22:00.000Z">2023-09-12</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-09-12 datetime="2023-09-12T21:22:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Google AI Blog</button>
+                  <a class="source-heading__link" href="http://blog.research.google/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://blog.research.google/2023/09/world-scale-inverse-reinforcement.html"
+                        open
+                      >
+                        <summary class="article-expander__title">World scale inverse reinforcement learning in Google Maps</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://blog.research.google/2023/09/world-scale-inverse-reinforcement.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgA5ZpGidOzCqTYTLV8bj62lAG7yfVa0cson-09oo7hqGA9ayl7h6koU96mxkBOqP_NyqiKamaoFrSAHtBlY7UH7XMnoq5Hn1H0hoiC5Uk0mMOkunNi6-j08iSEmUXTYEmp1YuFEgWLRJtieseqhQseMpy6e8KY5wElwNKDcy99GjCO-j04G0TVaJb0Pcr/w1200-h630-p-k-no-nu/hero.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Posted by Matt Barnes, Software Engineer, Google Research
+
+
+
+
+Routing in Google Maps remains one of our most helpful and frequently used features. Determining the best route from A to B requires making complex trade-offs between factors including the estimated time of arrival (ETA), tolls, directness, surface conditions (e.g., paved, unpaved roads), and user preferences, which vary across transportation mode and local geography. Often, the most natural visibility we have into travelers&#x27; preferences is by analyzing real-world travel patterns.
+
+
+
+Learning preferences from observed sequential decision making behavior is a classic application of inverse reinforcement learning (IRL). Given a Markov decision process (MDP) — a formalization of the road network — and a set of demonstration traject…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;92
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Azure DevOps Blog</button>
+                  <a class="source-heading__link" href="https://devblogs.microsoft.com/devops/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://devblogs.microsoft.com/devops/?p&#x3D;67525"
+                        open
+                      >
+                        <summary class="article-expander__title">September patches for Azure DevOps Server and Team Foundation Server</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://devblogs.microsoft.com/devops/september-patches-for-azure-devops-server-2/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2019/02/index-hero.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>This month, we are releasing fixes that impact our self-hosted product, Azure DevOps Server.
+Azure DevOps Server 2022.0.1
+Azure DevOps Server 2020.1.2
+Azure DevOps Server 2020.0.2
+Azure DevOps Server 2019.1.2
+Azure DevOps Server 2019.0.1
+Team Foundation Server 2018.3.2
+Azure DevOps Server 2022.0.1 Patch 3
+Note: If you have Azure DevOps Server 2022,
+The post September patches for Azure DevOps Server and Team Foundation Server appeared first on Azure DevOps Blog.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;18
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >The GitHub Blog</button>
+                  <a class="source-heading__link" href="https://github.blog/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://github.blog/2023-09-12-codeql-team-uses-ai-to-power-vulnerability-detection-in-code/"
+                        open
+                      >
+                        <summary class="article-expander__title">CodeQL team uses AI to power vulnerability detection in code</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://github.blog/2023-09-12-codeql-team-uses-ai-to-power-vulnerability-detection-in-code/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://github.blog/wp-content/uploads/2023/09/1200x630-Security-Unfurl-DARK-Logo.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Learn how GitHub’s CodeQL leveraged AI modeling and multi-repository variant analysis to discover a new CVE in Gradle.
+The post CodeQL team uses AI to power vulnerability detection in code appeared first on The GitHub Blog.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Camunda</button>
+                  <a class="source-heading__link" href="https://camunda.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://camunda.com/?p&#x3D;89947"
+                        open
+                      >
+                        <summary class="article-expander__title">Camunda Alpha Release September 2023</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://camunda.com/blog/2023/09/camunda-alpha-release-september-2023/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://camunda.com/wp-content/uploads/2023/09/camunda-alpha-release-sept-2023.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>We&#x27;re excited to announce the August 2023 alpha release of Camunda. Check out what&#x27;s new.
+The post Camunda Alpha Release September 2023 appeared first on Camunda.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;16
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >The JetBrains Blog</button>
+                  <a class="source-heading__link" href="https://blog.jetbrains.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://blog.jetbrains.com/?post_type&#x3D;go&amp;p&#x3D;386532"
+                        open
+                      >
+                        <summary class="article-expander__title">What’s next: GoLand Roadmap 2023.3</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.jetbrains.com/go/2023/09/12/what-s-next-goland-roadmap-2023-3/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blog.jetbrains.com/wp-content/uploads/2023/09/go-roadmap-blog-featured-image-1280x600-1-768x360.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Hello, everyone! We recently released GoLand 2023.2. If you’re still using a previous version, make sure you don’t miss the update! With the new release, you get some great new features like: Check out this three and a half minute video to learn more about the latest improvements: And of course, feel free to explore […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;13
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://blog.jetbrains.com/?post_type&#x3D;fleet&amp;p&#x3D;386461"
+                        open
+                      >
+                        <summary class="article-expander__title">Fleet Preview Update 1.23: Updated Problems View, Rewrite Code… Feature, Download File To… Action for Remote Workspaces, and More</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.jetbrains.com/fleet/2023/09/fleet-preview-update-1-23-updated-problems-view-rewrite-code-feature-download-file-to-action-for-remote-workspaces-and-more/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blog.jetbrains.com/wp-content/uploads/2023/09/Fleet_1.23_problems_view.gif" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Fleet 1.23 is now available! To the Fleet team, the sequence 1-2-3 symbolizes both the step-by-step growth of Fleet and the natural progression of your coding journey. Dive into this release, where (1) coding simplicity, (2) balance, and (3) creative enhancements come together to elevate your development experience. We hope you enjoy this update, and […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://blog.jetbrains.com/?post_type&#x3D;kotlin&amp;p&#x3D;386537"
+                        open
+                      >
+                        <summary class="article-expander__title">Join Us for a Live Introduction to Algorithmic Challenges in Kotlin!</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.jetbrains.com/kotlin/2023/09/algorithmic-challenges-in-kotlin-live/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blog.jetbrains.com/wp-content/uploads/2023/09/Blog_Social_share_image_1280x720-5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Are you preparing for technical interviews, or do you simply want to master algorithms? Join us for a practical livestream where we’ll introduce the Algorithmic Challenges in Kotlin course! In this session, we’ll cover the main topics from the Algorithmic Challenges in Kotlin course, which prepares participants for coding interviews and provides a solid understanding […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://blog.jetbrains.com/?post_type&#x3D;teamcity&amp;p&#x3D;384625"
+                        open
+                      >
+                        <summary class="article-expander__title">How Gradle Uses TeamCity to Run 30,000 Green Builds Per Day</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.jetbrains.com/teamcity/2023/09/how-gradle-uses-teamcity/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blog.jetbrains.com/wp-content/uploads/2023/09/how-Gradle-uses-TeamCity_page-preview-1-1-1-768x432.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Gradle Build Tool is a popular open-source build automation tool used by millions of developers for building, testing, and deploying software. TeamCity is a general-purpose CI/CD solution that allows for flexible workflows, collaboration, and development practices. In this case study, we’ll take a deep look into how Gradle Build Tool uses TeamCity to run tens […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Seth Godin&#x27;s Blog on marketing, tribes and respect</button>
+                  <a class="source-heading__link" href="https://seths.blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://seths.blog/?p&#x3D;47195"
+                        open
+                      >
+                        <summary class="article-expander__title">Practical philosophy</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://feeds.feedblitz.com/~/793174475/0/sethsblog~Practical-philosophy/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Engineering is the powerful practice of being able to deliver artifacts that do what they’re supposed to. Bridges that don’t fall down, software that runs, IV lines that don’t get infected. But if we want to create something, it helps to know what it’s for. That simple question, “what’s it for?” is essential to ask […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Spring</button>
+                  <a class="source-heading__link" href="https://spring.io">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://spring.io/blog/2023/09/12/this-week-in-spring-september-12th-2023"
+                        open
+                      >
+                        <summary class="article-expander__title">This Week in Spring - September 12th, 2023</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://spring.io/blog/2023/09/12/this-week-in-spring-september-12th-2023">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://spring.io/img/og-spring.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Level up your Java code and explore what Spring can do for you.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;24
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Elastic Blog - Elasticsearch, Kibana, and ELK Stack</button>
+                  <a class="source-heading__link" href="https://www.elastic.co">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/whats-new-elastic-search-8-10-0"
+                        open
+                      >
+                        <summary class="article-expander__title">Elastic Search 8.10: Powerful personalized search powered by a comprehensive connector catalog</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/whats-new-elastic-search-8-10-0">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltbb4996d39a786d20/5ffe05b822252d41f72866fc/blog-thumb-release-enterprise-search.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Elastic Search 8.10 makes personalization more powerful with query rules and programmatic updates to synonyms for any search experience, including ML-powered ones. We expanded our connector catalog with integrations to cover a wider range of systems.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;49
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/continuous-profiling-is-generally-available"
+                        open
+                      >
+                        <summary class="article-expander__title">Elastic Universal Profiling™, a continuous profiling solution, is now GA</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/continuous-profiling-is-generally-available">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltdb7bfd32d83fcec9/64ffc9da539fa164864ae4c0/sustainability-software-blog.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Elastic is thrilled to announce the general availability of Elastic Universal Profiling™, an observability solution that embodies our commitment to sustainable software development and operations.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;60
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/whats-new-elastic-8-10-0"
+                        open
+                      >
+                        <summary class="article-expander__title">Elastic 8.10: Improved cross-cluster search and GA of Elastic AI Assistant for Security</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/whats-new-elastic-8-10-0">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt37047dfebb92299b/64f2278d21a9e66a64c4f4c7/8.10-announcement-header.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Elastic 8.10 delivers enhancements for cross-cluster search (CCS), GA of Elastic AI Assistant for Security, and the GA of Universal Profiling (Elastic Observability) which provides visibility into infrastructure performance with zero instrumentation.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;49
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/whats-new-elastic-observability-8-10-0"
+                        open
+                      >
+                        <summary class="article-expander__title">Elastic Observability 8.10: Elastic AI Assistant enhancements and GA of Universal Profiling</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/whats-new-elastic-observability-8-10-0">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt80837971b91f17db/5ffe08dd2c2bd44889c7e731/blog-thumb-release-observability.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Elastic Observability 8.10 introduces the general availability release of Elastic Universal Profiling™ and enhancements to the Elastic AI Assistant for Observability.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;59
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/manual-instrumentation-of-go-applications-opentelemetry"
+                        open
+                      >
+                        <summary class="article-expander__title">Manual instrumentation of Go applications with OpenTelemetry</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/manual-instrumentation-of-go-applications-opentelemetry">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt21fe211e4503fc89/64ffd2961d03ad317bdf403d/observability-launch-series-5-go-manual.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>In this blog post, we will show you how to manually instrument Go applications using OpenTelemetry. We will explore how to use the proper OpenTelemetry Go packages and, in particular, work on instrumenting tracing in a Go application.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;70
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/getting-started-opentelemetry-instrumentation-sample-app"
+                        open
+                      >
+                        <summary class="article-expander__title">Getting started with OpenTelemetry instrumentation with a sample application</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/getting-started-opentelemetry-instrumentation-sample-app">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt36f7767b0da55f94/64ff58fcb169ad1c0604b91c/email-thumbnail-generic-release-cloud_(1).png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>In this article, we’ll introduce you to a simple sample application: a UI for movie search, instrumented in different ways using Python, Go, Java, Node, and .NET. Additionally, we will show how to view your OpenTelemetry data in Elastic APM.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;61
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/whats-new-elastic-security-8-10-0"
+                        open
+                      >
+                        <summary class="article-expander__title">What’s new in Elastic Security 8.10: Scale your defenses and outpace attackers</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/whats-new-elastic-security-8-10-0">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt69323019f723d794/5ffe0811f093203f68d42e54/blog-thumb-release-security.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Elastic Security 8.10 brings richer alert contextualization, generative AI in GA, a MITRE ATT&amp;CK® coverage page, and cloud security posture management (CSPM) for GCP.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;49
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/whats-new-elasticsearch-platform-8-10-0"
+                        open
+                      >
+                        <summary class="article-expander__title">Elastic Stack 8.10: Simpler cross-cluster search and authentication, and more</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/whats-new-elasticsearch-platform-8-10-0">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltd2b695348ddc99f3/62fcf82cbcca746334bc3ddc/blog-thumb-release-platform.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Simplify configuring cross-cluster search, execute vector search faster, detect data drifts and log rate dips, stream Elastic Agent to Kafka, and authenticate Webhook connector using third-party security certificates with Elastic Stack 8.10.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;65
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/whats-new-elastic-search-8-10-0"
+                        open
+                      >
+                        <summary class="article-expander__title">Elastic Search 8.10: Powerful personalized search powered by a comprehensive connector catalog</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/whats-new-elastic-search-8-10-0">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltbb4996d39a786d20/5ffe05b822252d41f72866fc/blog-thumb-release-enterprise-search.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>,
+Elastic Search 8.10 brings programmatic personalization of your search experiences to a new level while expanding the open code integration catalog with knowledge base and communication systems connectors. 
+These new features allow customers to:
+
+Customize search results using tailored query rules for pinning results
+Update synonyms faster with programmatic access
+Easily integrate with new workplace and communication data sources
+
+Elastic Search 8.10 is available now on Elastic Cloud — the only hosted Elasticsearch® offering to include all of the new features in this latest release. You can also download the Elastic Stack and our cloud orchestration products, Elastic Cloud Enterprise and Elastic Cloud for Kubernetes, for a self-managed experience.
+What else is new in Elastic 8.10? Check out the 8.10 announcement post to learn more &gt;&gt;
+,The release and timing of any features or functionality described in this post remain at Elastic&#x27;s sole discretion. Any features or functionality not currently available may not be delivered on time or at all.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;49
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/continuous-profiling-is-generally-available"
+                        open
+                      >
+                        <summary class="article-expander__title">Elastic Universal Profiling™, a continuous profiling solution, is now GA</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/continuous-profiling-is-generally-available">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltdb7bfd32d83fcec9/64ffc9da539fa164864ae4c0/sustainability-software-blog.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>,
+In a world where software is ubiquitous and its impact is profound, the importance of efficiency extends beyond just the boundaries of the business. Efficient software is not only good for businesses; it’s also good for the planet. By making computational efficiency a core objective and empowering professionals with the right tools to achieve it, we&#x27;re not only driving toward more profitable business outcomes, but also fostering a more responsible and sustainable future. 
+Driven by our focus on optimizing computational efficiency –– resulting in measurable cost-savings and a reduction in the carbon footprint for our customers –– Elastic Observability charts new frontiers in sustainable software engineering. Today, we&#x27;re thrilled to announce the general availability of Elastic® Universal …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;60
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/whats-new-elastic-8-10-0"
+                        open
+                      >
+                        <summary class="article-expander__title">Elastic 8.10: Improved cross-cluster search and GA of Elastic AI Assistant for Security</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/whats-new-elastic-8-10-0">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt37047dfebb92299b/64f2278d21a9e66a64c4f4c7/8.10-announcement-header.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>,
+Today, we are pleased to announce the general availability of Elastic® 8.10.
+,The release and timing of any features or functionality described in this post remain at Elastic&#x27;s sole discretion. Any features or functionality not currently available may not be delivered on time or at all.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;49
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/whats-new-elastic-observability-8-10-0"
+                        open
+                      >
+                        <summary class="article-expander__title">Elastic Observability 8.10: Elastic AI Assistant enhancements and GA of Universal Profiling</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/whats-new-elastic-observability-8-10-0">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt80837971b91f17db/5ffe08dd2c2bd44889c7e731/blog-thumb-release-observability.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>,
+Elastic Observability 8.10 introduces the general availability release of Elastic Universal Profiling™ and enhancements to the Elastic AI Assistant for Observability.
+
+Elastic® Universal Profiling™ is a whole-system, always-on, continuous profiling solution that eliminates the need for code instrumentation, recompilation, on-host debug symbols, or service restarts. Leveraging eBPF, it operates within the Linux kernel space, capturing only necessary data with minimal overhead. It profiles every line of code, including application, kernel, and third-party libraries, providing whole-system code visibility across your entire fleet. 
+Elastic AI Assistant for Observability was introduced as a technical preview in Elastic Observability 8.9 and has been enhanced with new chat capabilities, inclu…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;59
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/manual-instrumentation-of-go-applications-opentelemetry"
+                        open
+                      >
+                        <summary class="article-expander__title">Manual instrumentation of Go applications with OpenTelemetry</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/manual-instrumentation-of-go-applications-opentelemetry">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt21fe211e4503fc89/64ffd2961d03ad317bdf403d/observability-launch-series-5-go-manual.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>,
+DevOps and SRE teams are transforming the process of software development. While DevOps engineers focus on efficient software applications and service delivery, SRE teams are key to ensuring reliability, scalability, and performance. These teams must rely on a full-stack observability solution that allows them to manage and monitor systems and ensure issues are resolved before they impact the business.  
+Observability across the entire stack of modern distributed applications requires data collection, processing, and correlation often in the form of dashboards. Ingesting all system data requires installing agents across stacks, frameworks, and providers — a process that can be challenging and time-consuming for teams who have to deal with version changes, compatibility issues, and propri…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;70
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/getting-started-opentelemetry-instrumentation-sample-app"
+                        open
+                      >
+                        <summary class="article-expander__title">Getting started with OpenTelemetry instrumentation with a sample application</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/getting-started-opentelemetry-instrumentation-sample-app">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt36f7767b0da55f94/64ff58fcb169ad1c0604b91c/email-thumbnail-generic-release-cloud_(1).png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>,
+Application performance management (APM) has moved beyond traditional monitoring to become an essential tool for developers, offering deep insights into applications at the code level. With APM, teams can not only detect issues but also understand their root causes, optimizing software performance and end-user experiences. The modern landscape presents a wide range of APM tools and companies offering different solutions. Additionally, OpenTelemetry is becoming the open ingestion standard for APM. With OpenTelemetry, DevOps teams have a consistent approach to collecting and ingesting telemetry data. 
+Elastic® offers its own APM Agents, which can be used for instrumenting your code. In addition, Elastic also supports OpenTelemtry natively.
+Navigating the differences and understanding how t…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;61
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/whats-new-elastic-security-8-10-0"
+                        open
+                      >
+                        <summary class="article-expander__title">What’s new in Elastic Security 8.10: Scale your defenses and outpace attackers</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/whats-new-elastic-security-8-10-0">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt69323019f723d794/5ffe0811f093203f68d42e54/blog-thumb-release-security.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>,
+Elastic Security brings a MITRE ATT&amp;CK®-aligned detection coverage view, richer alert contextualization, and extended cloud security posture management (CSPM) to Google Cloud Platform (GCP). Together, these capabilities help the SOC find and address gaps in detection coverage, investigate attacks faster, and proactively address cloud misconfigurations and vulnerabilities.
+Elastic Security 8.10 is available now on Elastic Cloud — the only hosted Elasticsearch offering to include all of the new features in this latest release. You can also download the Elastic Stack and our cloud orchestration products, Elastic Cloud Enterprise and Elastic Cloud for Kubernetes, for a self-managed experience.
+What else is new in Elastic 8.10? Check out the 8.10 announcement post to learn more &gt;&gt;
+,Analysts c…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;49
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/whats-new-elasticsearch-platform-8-10-0"
+                        open
+                      >
+                        <summary class="article-expander__title">Elastic Stack 8.10: Simpler cross-cluster search and authentication, and more</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/whats-new-elasticsearch-platform-8-10-0">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltd2b695348ddc99f3/62fcf82cbcca746334bc3ddc/blog-thumb-release-platform.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>,
+Elastic Stack 8.10 delivers enhancements to cross-cluster and vector search, data ingestion, Kibana®, and cloud registration.
+
+Gain more flexibility when configuring remote searches and more information to triage issues facilitates cross-cluster searches. 
+Accelerate vector search by allocating multiple threads per shard. Embedding models with up to 2048 dimensions are now GA. 
+In Kibana, you can detect drifts in your data using the Data Comparison view, analyze not only spikes but also dips in log rates, filter heat maps and partition charts by multiple values, and add change point detection charts to dashboards.
+
+
+Additionally, with Elastic® 8.10, integrate securely with almost any third party since we added client certificate support to our Webhook connector, and stream application da…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;65
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -382,7 +1129,7 @@ The post Public preview of Workload identity federation for Azure Pipelines appe
                               <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c3f329ce39c05a1/6297bad1ae6f0e4156d191df/enterprise-search-performing-website-dark-1680x980.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Apache Lucene is combining two optimizations for evaluating disjunctive queries, bringing significant speedups to top-k queries, especially with many terms and/or high-frequency terms.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;55
+                                &ensp;<span class="article-reading-time">(&hairsp;61
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -404,7 +1151,7 @@ The post Public preview of Workload identity federation for Azure Pipelines appe
                               <span>,
 Disjunctive queries (term_1 OR term_2 OR ... OR term_n) are extremely commonly used, thus they are getting a lot of attention when it comes to improving query evaluation efficiency. Apache Lucene has two main optimizations for evaluating disjunctive queries: BS1 on the one hand for exhaustive evaluation, and MAXSCORE and WAND on the other hand to compute top hits. Until recently, these two optimizations were never used together, but this changed in order to improve query performance, especially with many clauses and/or high-frequency clauses. See annotation FK on the chart below taken from Lucene&#x27;s nightly benchmarks.
 https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt7cd0865960456e06/64fb34cd7db54e3bf2c194b9/elastic-blog-2-high-freq-graph.png,elastic-blog-2-high-freq-graph.p…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;55
+                                &ensp;<span class="article-reading-time">(&hairsp;61
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -781,7 +1528,7 @@ ML and data analytics algorithms can often be described as performing multiple b
                               <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltb4d920b23069a821/64efb314dfcd7b50f6f6fd6e/UKgovt-legacyITblog.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Over 25% of the UK government’s digital budget is spent on reducing legacy IT and cybersecurity. An IT modernisation project can be daunting — but the upside is reduced risk, tool consolidation, operational efficiencies, and long-term cost savings.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;48
+                                &ensp;<span class="article-reading-time">(&hairsp;64
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -807,7 +1554,7 @@ In working with government leaders for years, I recognise that modernising legac
 
 It can also be tempting to deem the problem as one limited to only the IT department. In reality, however, legacy IT can significantly compromise the security and operations of your entire organisation. As David Knott, CTO for the UK government, wrote recently on LinkedIn, “The practices used to manage your technology are as fundamental to your business success as the practices you use to manage your people and your processes. If your business is plagued by legacy technology, that is the result of a series of management choices, choices about the importance of infrastructure quality and code quality.”
 ,The release and timing of any features or functionality described in this post remain at Elastic&#x27;s sole discretion. Any features or functionality not currently available may not be delivered on time or at all.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;48
+                                &ensp;<span class="article-reading-time">(&hairsp;64
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1123,8 +1870,8 @@ Turbulence is ubiquitous in environmental and engineering fluid flows, and is en
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-09-06 datetime="2023-09-06T19:47:00.000Z">2023-09-06</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-09-06 datetime="2023-09-06T19:47:00.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-09-06 datetime="2023-09-06T19:47:00.001Z">2023-09-06</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-09-06 datetime="2023-09-06T19:47:00.001Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -1155,8 +1902,9 @@ Turbulence is ubiquitous in environmental and engineering fluid flows, and is en
 
 
 
-
-Time series forecasting is critical to various real-world applications, from demand forecasting to pandemic spread prediction. In multivariate time series forecasting (forecasting multiple variants at the same time), one can split existing methods into two categories: univariate models and multivariate models. Univariate models focus on inter-series interactions or temporal patterns that encompass trends and seasonal patterns on a time series with a single variable. Examples of such trends and seasonal patterns might be the way mortgage rates increase due to inflation, and how traffic peaks during rush hour. In addition to inter-series patterns, multivariate models process intr…</span>
+  
+Update — 2023/09/12: This post has been updated as the work described is now published in Transactions on Machine Learning Research. 
+Time series forecasting is critical to various real-world applications, from demand forecasting to pandemic spread prediction. In multivariate time series forecasting (forecasting multiple variants at the same time), one can split existing methods into two categories: univariate models and multivariate models. Univariate models focus on inter-series interactions or temporal patterns that encompass trends and seasonal patterns on a time series with a single variable. Examples of such trends and seasonal patterns might be the way mortgage rates i…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;92
                                   min&hairsp;)</span>
                             </span>
@@ -1379,194 +2127,6 @@ The post How to build an enterprise LLM application: Lessons from GitHub Copilot
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Elastic Blog - Elasticsearch, Kibana, and ELK Stack</button>
-                  <a class="source-heading__link" href="https://www.elastic.co">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/elastic-stack-7-17-13-released"
-                        open
-                      >
-                        <summary class="article-expander__title">Elastic Stack 7.17.13 released</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/elastic-stack-7-17-13-released">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c35d17afad9d20d/5f122812c31823015df6ef0a/blog-thumb-rocket-launch.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Read about the updates and bug fixes that have been included in this release.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;51
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/elastic-stack-8-9-2-released"
-                        open
-                      >
-                        <summary class="article-expander__title">Elastic Stack 8.9.2 released</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/elastic-stack-8-9-2-released">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6a26a8ec94e87272/6001ac6a96de49101cfb1e46/cta-illustration-space-launch-white-bg.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Read about the updates and bug fixes that have been included in this release.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;51
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/troubleshooting-guide-common-issues-kibana-discover-load"
-                        open
-                      >
-                        <summary class="article-expander__title">Troubleshooting guide: Solving 6 common issues in Kibana Discover load</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/troubleshooting-guide-common-issues-kibana-discover-load">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltd46697b47f0f9fc4/64f5f7e49bf26174d06b9c4b/patterns-white-background-no-logo-stack.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>This blog post provides a troubleshooting guide for the Kibana® Discover UI view, including long loads, time outs, and errors.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;59
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/culture-asuka-nakajima-hacker-security-research-engineer"
-                        open
-                      >
-                        <summary class="article-expander__title">Asuka Nakajima aspired to be a hacker. Now she’s a security research engineer.</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/culture-asuka-nakajima-hacker-security-research-engineer">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt71f49e1fde337fab/64d41991759dee83e1e00e20/LinkedIn-Banner_720x420-Asuka-Nakajima.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Women in tech: Asuka Nakajima followed her childhood dream into cybersecurity. Now she’s a security research engineer.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;52
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/elastic-stack-7-17-13-released"
-                        open
-                      >
-                        <summary class="article-expander__title">Elastic Stack 7.17.13 released</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/elastic-stack-7-17-13-released">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9c35d17afad9d20d/5f122812c31823015df6ef0a/blog-thumb-rocket-launch.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>,
-Version 7.17.13 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 7.17.13 over 7.17.12 and 7.16.x releases.
-The 7.17.13 patch release contains fixes for potential security vulnerabilities. Please see our security advisory for more details.For details of the issues that have been fixed and a full list of changes for each product in this version, please refer to the release notes.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;51
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/elastic-stack-8-9-2-released"
-                        open
-                      >
-                        <summary class="article-expander__title">Elastic Stack 8.9.2 released</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/elastic-stack-8-9-2-released">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6a26a8ec94e87272/6001ac6a96de49101cfb1e46/cta-illustration-space-launch-white-bg.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>,
-Version 8.9.2 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 8.9.2 over 8.9.1 and 8.8.x releases.
-The 8.9.2 patch release contains fixes for potential security vulnerabilities. Please see our security advisory for more details.
-For details of the issues that have been fixed and a full list of changes for each product in this version, please refer to the release notes.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;51
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/troubleshooting-guide-common-issues-kibana-discover-load"
-                        open
-                      >
-                        <summary class="article-expander__title">Troubleshooting guide: Solving 6 common issues in Kibana Discover load</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/troubleshooting-guide-common-issues-kibana-discover-load">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltd46697b47f0f9fc4/64f5f7e49bf26174d06b9c4b/patterns-white-background-no-logo-stack.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>,
-Discover is Elastic®’s core Kibana® UI to search, filter, and inspect (time series) data. Visualizations are used for data aggregations/summaries. The Discover UI is resilient to large data Elasticsearch® responses, but it can sometimes experience issues due to (uncompressed) response size, mapping explosion, and browser limits. 
-
-Below, we’ll summarize the most common historical issues, including long loads, time outs, and errors, and provide a sequential troubleshooting walk-through for solving them. Note: This article’s APIs are written to v8.6, but the general troubleshooting flow applies to earlier and later versions.
-https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt4d546fa9f18d5ffe/64f3ade84d5ab557c94a5282/elastic-blog-1-kibana-event-log.png,elastic-blog-1-kibana-even…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;59
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/culture-asuka-nakajima-hacker-security-research-engineer"
-                        open
-                      >
-                        <summary class="article-expander__title">Asuka Nakajima aspired to be a hacker. Now she’s a security research engineer.</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/culture-asuka-nakajima-hacker-security-research-engineer">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt71f49e1fde337fab/64d41991759dee83e1e00e20/LinkedIn-Banner_720x420-Asuka-Nakajima.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>,
-Asuka Nakajima aspired to be a hacker after picking up a copy of Project SEVEN when she was 14 years old.
-The book tells the story of a high school girl who was a hacker and saved the world from cyber terrorists. 
-Asuka made that dream a reality. Now, she is a security research engineer at Elastic®, focusing on the endpoint security product’s (Elastic Defend) research and development. 
-“More precisely, I am currently working on developing the EDR (Endpoint Detection and Response) feature, for Windows platform,” she says. 
-After finishing Project SEVEN she realized how little she knew about IT, so she started an IT certification to learn the basics of computers. At university, she studied programming and security, and improved her technical skills by interning at various companies and par…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;52
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >xkcd.com</button>
                   <a class="source-heading__link" href="https://xkcd.com/">Open</a>
                 </h3>
@@ -1693,86 +2253,6 @@ After finishing Project SEVEN she realized how little she knew about IT, so she 
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.jetbrains.com/?post_type&#x3D;datalore&amp;p&#x3D;385018"
-                        open
-                      >
-                        <summary class="article-expander__title">What’s New in Datalore Enterprise 2023.4</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.jetbrains.com/datalore/2023/09/05/what-s-new-in-datalore-enterprise-2023-4/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blog.jetbrains.com/wp-content/uploads/2023/09/Blog_Social_1280x720_Datalore-2x.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Hello everyone, Datalore Enterprise 2023.4 is out! This version includes comments for notebooks and reports, a new Viewer license type, report sharing via email invitations, a new Export to database cell type, SMB/CIFS folder support, and other quality improvements and bug fixes.  Upgrade to the newest version and read on to discover what’s new in […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.jetbrains.com/?post_type&#x3D;idea&amp;p&#x3D;384951"
-                        open
-                      >
-                        <summary class="article-expander__title">Java Annotated Monthly – September 2023</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.jetbrains.com/idea/2023/09/java-annotated-monthly-september-2023/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blog.jetbrains.com/wp-content/uploads/2023/09/java-annotated-blog-social-share-image-1280x720-1.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The September edition of Java Annotated Monthly is here! With this month’s release of Java 21 approaching, we’re excited to bring you a final sneak peek into its crucial features. But that’s not all! This edition is packed with helpful articles about cutting-edge AI technologies, including updates about the latest enhancements in IntelliJ IDEA’s AI […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;16
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.jetbrains.com/?post_type&#x3D;dotnet&amp;p&#x3D;384826"
-                        open
-                      >
-                        <summary class="article-expander__title">ReSharper 2023.3 Roadmap</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.jetbrains.com/dotnet/2023/09/05/resharper-2023-3-roadmap/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blog.jetbrains.com/wp-content/uploads/2023/09/rs-how-tos-social_share_blog_1280x720.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The next Early Access Program (EAP) for ReSharper version 2023.3 is right around the corner, so it’s high time to let you know what we’ll be working on in the coming months. This roadmap is just a preliminary plan and may be adjusted depending on our priorities and resources as well as changes in the […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.jetbrains.com/?post_type&#x3D;dotnet&amp;p&#x3D;384823"
-                        open
-                      >
-                        <summary class="article-expander__title">Rider 2023.3 Roadmap</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.jetbrains.com/dotnet/2023/09/05/rider-2023-3-roadmap/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blog.jetbrains.com/wp-content/uploads/2023/09/rd-how-tos-social_share_blog_1280x720.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>As we gear up for the beginning of the Early Access Program (EAP) for Rider 2023.3, we wanted to take a moment to share our plans for this upcoming release.  These plans are subject to change, and some features and improvements may need to be pushed to a future version.  Additionally, be sure to check […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -1801,7 +2281,7 @@ After finishing Project SEVEN she realized how little she knew about IT, so she 
                             <span class="media-object__text">
                               <span>Explore the basics, learn the specifics, and get hands-on with examples of using REST API in Java. 
 The post What is REST API in Java? Guide with Examples appeared first on Camunda.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
+                                &ensp;<span class="article-reading-time">(&hairsp;19
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1870,193 +2350,6 @@ The post What is REST API in Java? Guide with Examples appeared first on Camunda
                             <span class="media-object__text">
                               <span>Level up your Java code and explore what Spring can do for you.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;23
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Elastic Blog - Elasticsearch, Kibana, and ELK Stack</button>
-                  <a class="source-heading__link" href="https://www.elastic.co">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/auto-instrumentation-of-python-applications-opentelemetry"
-                        open
-                      >
-                        <summary class="article-expander__title">Automatic instrumentation with OpenTelemetry for Python applications</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/auto-instrumentation-of-python-applications-opentelemetry">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc0abd976fa30c357/64f72e4ada83c90985f97e26/observability-launch-series-2-python-auto_(1).jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Learn how to auto-instrument Python applications using OpenTelemetry. With standard commands in a Docker file, applications can be instrumented quickly without writing code in multiple places, enabling rapid change, scale, and easier management.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;66
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/manual-instrumentation-of-net-applications-opentelemetry"
-                        open
-                      >
-                        <summary class="article-expander__title">Manual instrumentation of .NET applications with OpenTelemetry</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/manual-instrumentation-of-net-applications-opentelemetry">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt13a0b067b3ecf46b/64f244a193225e499e42fd6e/observability-launch-series-4-net-manual.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>In this blog, we will look at how to manually instrument your .NET applications using OpenTelemetry, which provides a set of APIs, libraries, and agents to capture distributed traces and metrics from your application. You can analyze them in Elastic.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;56
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/7-tech-challenges-collaboration-opportunities-global-governments"
-                        open
-                      >
-                        <summary class="article-expander__title">7 tech challenges that can be collaboration opportunities for global governments</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/7-tech-challenges-collaboration-opportunities-global-governments">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt18cb41c09bb584a0/64efacd31c9cdffeb2f68036/data-logging-IT-executives-A.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Governments around the world face similar challenges, such as cybersecurity, legacy IT, and the ethical use of AI. Rather than addressing each issue on their own, agencies can learn from each other&#x27;s experiences and collaborate when appropriate.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;43
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/manual-instrumentation-of-java-applications-opentelemetry"
-                        open
-                      >
-                        <summary class="article-expander__title">Manual instrumentation of Java applications with OpenTelemetry</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/manual-instrumentation-of-java-applications-opentelemetry">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltafcdc77c569f0eda/64f72a3f29dd364dfb3b444d/observability-launch-series-3-java-manual.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>OpenTelemetry provides an observability framework for cloud-native software, allowing us to trace, monitor, and debug applications seamlessly. In this post, we&#x27;ll explore how to manually instrument a Java application using OpenTelemetry.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;75
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/auto-instrumentation-of-python-applications-opentelemetry"
-                        open
-                      >
-                        <summary class="article-expander__title">Automatic instrumentation with OpenTelemetry for Python applications</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/auto-instrumentation-of-python-applications-opentelemetry">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc0abd976fa30c357/64f72e4ada83c90985f97e26/observability-launch-series-2-python-auto_(1).jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>,
-DevOps and SRE teams are transforming the process of software development. While DevOps engineers focus on efficient software applications and service delivery, SRE teams are key to ensuring reliability, scalability, and performance. These teams must rely on a full-stack observability solution that allows them to manage and monitor systems and ensure issues are resolved before they impact the business.  
-
-Observability across the entire stack of modern distributed applications requires data collection, processing, and correlation often in the form of dashboards. Ingesting all system data requires installing agents across stacks, frameworks, and providers — a process that can be challenging and time-consuming for teams who have to deal with version changes, compatibility issues, and propr…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;66
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/manual-instrumentation-of-net-applications-opentelemetry"
-                        open
-                      >
-                        <summary class="article-expander__title">Manual instrumentation of .NET applications with OpenTelemetry</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/manual-instrumentation-of-net-applications-opentelemetry">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt13a0b067b3ecf46b/64f244a193225e499e42fd6e/observability-launch-series-4-net-manual.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>,
-In the fast-paced universe of software development, especially in the cloud-native realm, DevOps and SRE teams are increasingly emerging as essential partners in application stability and growth.
-DevOps engineers continuously optimize software delivery, while SRE teams act as the stewards of application reliability, scalability, and top-tier performance. The challenge? These teams require a cutting-edge observability solution, one that encompasses full-stack insights, empowering them to rapidly manage, monitor, and rectify potential disruptions before they culminate into operational challenges.
-Observability in our modern distributed software ecosystem goes beyond mere monitoring — it demands limitless data collection, precision in processing, and the correlation of this data into action…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;56
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/7-tech-challenges-collaboration-opportunities-global-governments"
-                        open
-                      >
-                        <summary class="article-expander__title">7 tech challenges that can be collaboration opportunities for global governments</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/7-tech-challenges-collaboration-opportunities-global-governments">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt18cb41c09bb584a0/64efacd31c9cdffeb2f68036/data-logging-IT-executives-A.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>,
-So far the twenty-first century has unleashed a torrent of technological innovations, becoming a double-edged sword for governments worldwide. The growing burden of legacy IT systems, cybersecurity threats, AI incorporation, data privacy concerns, budgetary constraints, and shifting geopolitical landscapes puts governments at the forefront of a rapidly evolving environment. 
-
-Governments around the world face similar challenges, and — rather than addressing each issue on their own — they can learn from each other&#x27;s experiences. These seven technology obstacles are similar across regions and have the potential to spark larger conversations and collaboration, where appropriate.
-,The release and timing of any features or functionality described in this post remain at Elastic&#x27;s sole discretion. Any features or functionality not currently available may not be delivered on time or at all.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;43
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/manual-instrumentation-of-java-applications-opentelemetry"
-                        open
-                      >
-                        <summary class="article-expander__title">Manual instrumentation of Java applications with OpenTelemetry</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/manual-instrumentation-of-java-applications-opentelemetry">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltafcdc77c569f0eda/64f72a3f29dd364dfb3b444d/observability-launch-series-3-java-manual.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>,
-In the fast-paced universe of software development, especially in the cloud-native realm, DevOps and SRE teams are increasingly emerging as essential partners in application stability and growth.
-DevOps engineers continuously optimize software delivery, while SRE teams act as the stewards of application reliability, scalability, and top-tier performance. The challenge? These teams require a cutting-edge observability solution, one that encompasses full-stack insights, empowering them to rapidly manage, monitor, and rectify potential disruptions before they culminate into operational challenges.
-Observability in our modern distributed software ecosystem goes beyond mere monitoring—it demands limitless data collection, precision in processing, and the correlation of this data into actionab…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;75
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2191,54 +2484,6 @@ Observability in our modern distributed software ecosystem goes beyond mere moni
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-09-03 datetime="2023-09-03T08:52:00.000Z">2023-09-03</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-09-03 datetime="2023-09-03T08:52:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Seth Godin&#x27;s Blog on marketing, tribes and respect</button>
-                  <a class="source-heading__link" href="https://seths.blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://seths.blog/?p&#x3D;45008"
-                        open
-                      >
-                        <summary class="article-expander__title">Informed consent (rarely is)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://feeds.feedblitz.com/~/792014279/0/sethsblog~Informed-consent-rarely-is/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Adults make choices and live with the consequences. No one else should tell us what flavor of ice cream we prefer, or what career to choose. We’re good at knowing what we want. In practice, this works really well for certain kinds of decisions. But when we add the network effect, profit-seeking industrial entities, statistics, […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-09-01 datetime="2023-09-01T20:36:43.000Z">2023-09-01</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-09-01 datetime="2023-09-01T20:36:43.000Z"></time>
           </button>
@@ -2269,7 +2514,7 @@ Observability in our modern distributed software ecosystem goes beyond mere moni
                             <span class="media-object__text">
                               <span>CamundaCon 2023 is right around the corner. Check out everything there is to see and learn at the leading process orchestration conference.
 The post Join us at CamundaCon 2023 for Everything Process Orchestration appeared first on Camunda.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                &ensp;<span class="article-reading-time">(&hairsp;13
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2472,7 +2717,7 @@ In 1950, weather forecasting started its digital revolution when researchers use
                             <span class="media-object__text">
                               <span>See how much more you can get out of GitHub Codespaces by taking advantage of the improved processing power and increased headroom in the next generation of virtual machines.
 The post Optimize your GitHub Codespaces costs with upgraded virtual machines appeared first on The GitHub Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                &ensp;<span class="article-reading-time">(&hairsp;5
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2735,8 +2980,11 @@ The post Why Rust is the most admired language among developers appeared first o
                         <summary class="article-expander__title">Zero Configuration Service Mesh with On-Demand Cluster Discovery</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://netflixtechblog.com/zero-configuration-service-mesh-with-on-demand-cluster-discovery-ac6483b52a51?source&#x3D;rss----2615bd06b42e---4">
                           <div class="article-summary-box-inner media-object">
+                              <img src="https://miro.medium.com/v2/resize:fit:1000/0*xr1EBhghfcC8j4Uj" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>No content preview</span>
+                              <span>Netflix’s service mesh adoption: history, motivations, and how we worked with the Envoy community on a feature to streamline mesh adoption</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;19
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -3138,7 +3386,7 @@ When a cluster undergoes an upgrade, the kube-apiservers existing at different v
                             <span class="media-object__text">
                               <span>Missed the latest episode of the Camunda Community Podcast? Catch up with a quick recap.
 The post Camunda Community Podcast Recap: Inbound and Outbound Connectors: “Woah, it’s so easy!” appeared first on Camunda.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
+                                &ensp;<span class="article-reading-time">(&hairsp;14
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -3221,40 +3469,6 @@ Google’s Responsible AI research is built on a foundation of collaboration —
 
 Perception Fairness research spans the design, development, and deployment of…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;93
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Spring</button>
-                  <a class="source-heading__link" href="https://spring.io">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://spring.io/blog/2023/08/25/a-bootiful-podcast-cloud-native-chris-richardson"
-                        open
-                      >
-                        <summary class="article-expander__title">A Bootiful Podcast: cloud native Chris Richardson</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://spring.io/blog/2023/08/25/a-bootiful-podcast-cloud-native-chris-richardson">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://spring.io/img/og-spring.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Level up your Java code and explore what Spring can do for you.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;23
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -3558,42 +3772,7 @@ a sign…</span>
                             <span class="media-object__text">
                               <span>We held discussions with our users on whether custom icons or original BPMN symbols were preferable. The feedback was enlightening.
 The post Connectors: Custom Icons vs. BPMN Symbols appeared first on Camunda.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >The GitHub Blog</button>
-                  <a class="source-heading__link" href="https://github.blog/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://github.blog/2023-08-23-ai-powered-impact-github-social-impacts-year-ahead/"
-                        open
-                      >
-                        <summary class="article-expander__title">AI-powered impact: GitHub Social Impact’s year ahead</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://github.blog/2023-08-23-ai-powered-impact-github-social-impacts-year-ahead/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://github.blog/wp-content/uploads/2023/05/1200.630-Community-wLogo.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>How GitHub Social Impact is working with nonprofit organizations, employees, and more to create positive, lasting change in global communities.
-The post AI-powered impact: GitHub Social Impact’s year ahead appeared first on The GitHub Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                &ensp;<span class="article-reading-time">(&hairsp;14
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4090,7 +4269,7 @@ AVIS: Autonomous Visual Information Seeking with Large Language Models”, we i�
                             <span class="media-object__text">
                               <span>Explore the top 10 use cases for hyperautomation with examples, and understand its incredible impact across industries.
 The post Top 10 Hyperautomation Examples and Use Cases appeared first on Camunda.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;20
+                                &ensp;<span class="article-reading-time">(&hairsp;21
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4145,7 +4324,7 @@ default StorageClass assignment in the Kubernetes documentation.
 You can also read the previous blog post announcing beta graduation in v1.26.
 To provide feedback, join our Kubernetes Storage Special-Interest-Group (SIG)
 or participate in discussions on our public Slack channel.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                &ensp;<span class="article-reading-time">(&hairsp;13
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4190,8 +4369,11 @@ or participate in discussions on our public Slack channel.</span>
                         <summary class="article-expander__title">AVA Discovery View: Surfacing Authentic Moments</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://netflixtechblog.com/ava-discovery-view-surfacing-authentic-moments-b8cd145491cc?source&#x3D;rss----2615bd06b42e---4">
                           <div class="article-summary-box-inner media-object">
+                              <img src="https://miro.medium.com/v2/resize:fit:890/0*o3U-Eg_XXmXzmMMO" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>No content preview</span>
+                              <span>By: Hamid Shahid, Laura Johnson, Tiffany Low</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;19
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -4347,7 +4529,7 @@ Modern neural networks have achieved impressive performance across a variety of 
                             <span class="media-object__text">
                               <span>With KYC in banking, there are a lot of advantages that every bank should know about. Read on to learn more about KYC automation and how it works.
 The post KYC Automation for Banks: 5 Biggest Benefits appeared first on Camunda.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                &ensp;<span class="article-reading-time">(&hairsp;16
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4426,8 +4608,11 @@ The Graceful Node Shutd…</span>
                         <summary class="article-expander__title">Curbing Connection Churn in Zuul</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://netflixtechblog.com/curbing-connection-churn-in-zuul-2feb273a3598?source&#x3D;rss----2615bd06b42e---4">
                           <div class="article-summary-box-inner media-object">
+                              <img src="https://miro.medium.com/v2/resize:fit:734/0*lL_0weS3WX_b4cZC" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>No content preview</span>
+                              <span>Netflix’s Zuul Gateway eliminated tens of millions of connections and reduced almost all connection churn to backends</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;20
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -4543,7 +4728,7 @@ The Graceful Node Shutd…</span>
                             <span class="media-object__text">
                               <span>Read about why Achim Dannecker uses Camunda in his classroom, how students work with it and what he hopes everyone can take away from his course.
 The post Teaching Camunda – An Interview with Achim Dannecker appeared first on Camunda.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;16
+                                &ensp;<span class="article-reading-time">(&hairsp;17
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4781,95 +4966,12 @@ Reading has many benefits for young students, such as better linguistic and life
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Ansible Blog</button>
-                  <a class="source-heading__link" href="https://www.ansible.com/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.ansible.com/blog/interfaces-management-with-ansible-validated-content-using-the-network.interfaces-collection"
-                        open
-                      >
-                        <summary class="article-expander__title">Interfaces Management with Ansible validated content using the network.interfaces collection</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.ansible.com/blog/interfaces-management-with-ansible-validated-content-using-the-network.interfaces-collection">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lh6.googleusercontent.com/DsDqn-iFbW2DbVFJXYxoJd709uRiIdl4jCZCskDdDkpCFsOkivY6mnMguM4IeULXJzeaJy4sBvwa3H_ciPay_nKW6oioodbj34bKkw8ypJd9auMHfAoqI7UelQi3k2EyUoNj2AqQyNcevvkcRjpcVhU" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Introduction
- 
-At AnsibleFest 2022, we announced a new addition to the content ecosystem offered through Red Hat Ansible Automation Platform: Ansible validated content. Ansible validated content is use case-focused and provides an expert-guided path for performing operational tasks.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Kubernetes – Production-Grade Container Orchestration</button>
-                  <a class="source-heading__link" href="https://kubernetes.io/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://kubernetes.io/blog/2023/08/14/sig-contribex-spotlight-2023/"
-                        open
-                      >
-                        <summary class="article-expander__title">Blog: Spotlight on SIG ContribEx</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://kubernetes.io/blog/2023/08/14/sig-contribex-spotlight-2023/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Author: Fyka Ansari
-Welcome to the world of Kubernetes and its vibrant contributor
-community! In this blog post, we&#x27;ll be shining a spotlight on the
-Special Interest Group for Contributor
-Experience
-(SIG ContribEx), an essential component of the Kubernetes project.
-SIG ContribEx in Kubernetes is responsible for developing and
-maintaining a healthy and productive community of contributors to the
-project. This involves identifying and addressing bottlenecks that may
-hinder the project&#x27;s growth and feature velocity, such as pull request
-latency and the number of open pull requests and issues.
-SIG ContribEx works to improve the overall contributor experience by
-creating and maintaining guidelines, tools, and processes that
-facilitate collaboration and communication among contributors. They
-als…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/vxavictor513/osmosfeed/actions/runs/6153577374">
-        <time id="build-timestamp" datetime="2023-09-12T01:06:00.324Z">2023-09-12T01:06:00.324Z</time>
+      <a class="footer-link" href="https://github.com/vxavictor513/osmosfeed/actions/runs/6166658993">
+        <time id="build-timestamp" datetime="2023-09-13T01:08:47.512Z">2023-09-13T01:08:47.512Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

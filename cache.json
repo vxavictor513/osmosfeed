@@ -499,7 +499,7 @@
           "description": "We’re excited to announce that GitHub Advanced Security for Azure DevOps is now generally available and is ready for you to use in your own Azure DevOps repos! You can now enable code, secret, and dependency scanning within Azure Repos and take advantage of the new product updates.\nThe post Now Generally Available: GitHub Advanced Security for Azure DevOps is ready for you to use appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/now-generally-available-github-advanced-security-for-azure-devops-is-ready-for-you-to-use/",
           "publishedOn": "2023-09-20T15:03:50.000Z",
-          "wordCount": 6940,
+          "wordCount": 6837,
           "title": "Now Generally Available: GitHub Advanced Security for Azure DevOps is ready for you to use",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/10/AzDO-heart-Security.png"
         },
@@ -529,7 +529,7 @@
           "description": "Do you want to stop storing secrets and certificates in Azure service connections? Are you tired rotating these secrets whenever they expire? We are now announcing a public preview of workload identity federation for Azure service connections. Workload identity federation uses an industry-standard technology,\nThe post Public preview of Workload identity federation for Azure Pipelines appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/public-preview-of-workload-identity-federation-for-azure-pipelines/",
           "publishedOn": "2023-09-11T08:01:30.000Z",
-          "wordCount": 6198,
+          "wordCount": 5976,
           "title": "Public preview of Workload identity federation for Azure Pipelines",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2023/09/oidc-collaboration-4.png"
         }
@@ -819,21 +819,6 @@
           "wordCount": 3967,
           "title": "Join us at CamundaCon 2023 for Everything Process Orchestration",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/09/Camunda-Blog_August-2023_CamundaCon_1200x627.png"
-        },
-        {
-          "id": "https://camunda.com/?p=89567",
-          "author": "Danny Shain",
-          "description": "Missed the latest episode of the Camunda Community Podcast? Catch up with a quick recap.\nThe post Camunda Community Podcast Recap: Inbound and Outbound Connectors: “Woah, it’s so easy!” appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2023/08/camunda-community-podcast-recap-inbound-outbound-connectors-so-easy/",
-          "publishedOn": "2023-08-25T20:26:27.000Z",
-          "wordCount": 4111,
-          "title": "Camunda Community Podcast Recap: Inbound and Outbound Connectors: “Woah, it’s so easy!”",
-          "enclosure": {
-            "url": "https://www.buzzsprout.com/454051/13238361-inbound-and-outbound-connectors-woah-it-s-so-easy.mp3",
-            "length": "0",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": "https://camunda.com/wp-content/uploads/2023/08/Podcast-Recap_1200x627.png"
         }
       ]
     },
@@ -993,12 +978,22 @@
       "siteUrl": "https://kubernetes.io/",
       "articles": [
         {
+          "id": "https://kubernetes.io/blog/2023/09/25/kubeadm-use-etcd-learner-mode/",
+          "author": null,
+          "description": "Author: Paco Xu (DaoCloud)\nThe kubeadm tool now supports etcd learner mode, which\nallows you to enhance the resilience and stability\nof your Kubernetes clusters by leveraging the learner mode\nfeature introduced in etcd version 3.4.\nThis guide will walk you through using etcd learner mode with kubeadm. By default, kubeadm runs\na local etcd instance on each control plane node.\nIn v1.27, kubeadm introduced a new feature gate EtcdLearnerMode. With this feature gate enabled,\nwhen joining a new control plane node, a new etcd member will be created as a learner and\npromoted to a voting member only after the etcd data are fully aligned.\nWhat are the advantages of using etcd learner mode?\netcd learner mode offers several compelling reasons to consider its adoption\nin Kubernetes clusters:\nEnhanced R…",
+          "link": "https://kubernetes.io/blog/2023/09/25/kubeadm-use-etcd-learner-mode/",
+          "publishedOn": "2023-09-25T00:00:00.000Z",
+          "wordCount": 4150,
+          "title": "Blog: kubeadm: Use etcd Learner to Join a Control Plane Node Safely",
+          "imageUrl": null
+        },
+        {
           "id": "https://kubernetes.io/blog/2023/09/13/userns-alpha/",
           "author": null,
           "description": "Authors: Rodrigo Campos Catelin (Microsoft), Giuseppe Scrivano (Red Hat), Sascha Grunert (Red Hat)\nKubernetes v1.25 introduced support for user namespaces for only stateless\npods. Kubernetes 1.28 lifted that restriction, after some design changes were\ndone in 1.27.\nThe beauty of this feature is that:\nit is trivial to adopt (you just need to set a bool in the pod spec)\ndoesn't need any changes for most applications\nimproves security by drastically enhancing the isolation of containers and\nmitigating CVEs rated HIGH and CRITICAL.\nThis post explains the basics of user namespaces and also shows:\nthe changes that arrived in the recent Kubernetes v1.28 release\na demo of a vulnerability rated as HIGH that is not exploitable with user namespaces\nthe runtime requirements to use this feature\nwhat yo…",
           "link": "https://kubernetes.io/blog/2023/09/13/userns-alpha/",
           "publishedOn": "2023-09-13T00:00:00.000Z",
-          "wordCount": 4492,
+          "wordCount": 4502,
           "title": "Blog: User Namespaces: Now Supports Running Stateful Pods in Alpha!",
           "imageUrl": null
         },
@@ -1008,7 +1003,7 @@
           "description": "Author: Eyal Bukchin (MetalBear)\nThe Kubernetes development cycle is an evolving landscape with a myriad of tools seeking to streamline the process. Each tool has its unique approach, and the choice often comes down to individual project requirements, the team's expertise, and the preferred workflow.\nAmong the various solutions, a category we dubbed “Local K8S Development tools” has emerged, which seeks to enhance the Kubernetes development experience by connecting locally running components to the Kubernetes cluster. This facilitates rapid testing of new code in cloud conditions, circumventing the traditional cycle of Dockerization, CI, and deployment.\nIn this post, we compare three solutions in this category: Telepresence, Gefyra, and our own contender, mirrord.\nTelepresence\nThe oldest a…",
           "link": "https://kubernetes.io/blog/2023/09/12/local-k8s-development-tools/",
           "publishedOn": "2023-09-12T00:00:00.000Z",
-          "wordCount": 4079,
+          "wordCount": 4089,
           "title": "Blog: Comparing Local Kubernetes Development Tools: Telepresence, Gefyra, and mirrord",
           "imageUrl": null
         },
@@ -1018,7 +1013,7 @@
           "description": "Authors: Bob Killen (Google), Chris Short (AWS), Jeremy Rickard (Microsoft), Marko Mudrinić (Kubermatic), Tim Bannister (The Scale Factory)\nOn August 15, 2023, the Kubernetes project announced the general availability of\nthe community-owned package repositories for Debian and RPM packages available\nat pkgs.k8s.io. The new package repositories are replacement for the legacy\nGoogle-hosted package repositories: apt.kubernetes.io and yum.kubernetes.io.\nThe\nannouncement blog post for pkgs.k8s.io\nhighlighted that we will stop publishing packages to the legacy repositories in\nthe future.\nToday, we're formally deprecating the legacy package repositories (apt.kubernetes.io\nand yum.kubernetes.io), and we're announcing our plans to freeze the contents of\nthe repositories as of September 13, 2023.\nPle…",
           "link": "https://kubernetes.io/blog/2023/08/31/legacy-package-repository-deprecation/",
           "publishedOn": "2023-08-31T22:30:00.000Z",
-          "wordCount": 4829,
+          "wordCount": 4839,
           "title": "Blog: Kubernetes Legacy Package Repositories Will Be Frozen On September 13, 2023",
           "imageUrl": null
         },
@@ -1028,7 +1023,7 @@
           "description": "Authors: Flynn (Buoyant), John Howard (Google), Keith Mattix (Microsoft), Michael Beaumont (Kong), Mike Morris (independent), Rob Scott (Google)\nWe are thrilled to announce the v0.8.0 release of Gateway API! With this\nrelease, Gateway API support for service mesh has reached Experimental\nstatus. We look forward to your feedback!\nWe're especially delighted to announce that Kuma 2.3+, Linkerd 2.14+, and Istio\n1.16+ are all fully-conformant implementations of Gateway API service mesh\nsupport.\nService mesh support in Gateway API\nWhile the initial focus of Gateway API was always ingress (north-south)\ntraffic, it was clear almost from the beginning that the same basic routing\nconcepts should also be applicable to service mesh (east-west) traffic. In\n2022, the Gateway API subproject started the G…",
           "link": "https://kubernetes.io/blog/2023/08/29/gateway-api-v0-8/",
           "publishedOn": "2023-08-29T18:00:00.000Z",
-          "wordCount": 4559,
+          "wordCount": 4569,
           "title": "Blog: Gateway API v0.8.0: Introducing Service Mesh Support",
           "imageUrl": null
         },
@@ -1038,7 +1033,7 @@
           "description": "Author: Richa Banker (Google)\nThis blog describes the mixed version proxy, a new alpha feature in Kubernetes 1.28. The\nmixed version proxy enables an HTTP request for a resource to be served by the correct API server\nin cases where there are multiple API servers at varied versions in a cluster. For example,\nthis is useful during a cluster upgrade, or when you're rolling out the runtime configuration of\nthe cluster's control plane.\nWhat problem does this solve?\nWhen a cluster undergoes an upgrade, the kube-apiservers existing at different versions in that scenario can serve different sets (groups, versions, resources) of built-in resources. A resource request made in this scenario may be served by any of the available apiservers, potentially resulting in the request ending up at an apiserve…",
           "link": "https://kubernetes.io/blog/2023/08/28/kubernetes-1-28-feature-mixed-version-proxy-alpha/",
           "publishedOn": "2023-08-28T00:00:00.000Z",
-          "wordCount": 4186,
+          "wordCount": 4196,
           "title": "Blog: Kubernetes 1.28: A New (alpha) Mechanism For Safer Cluster Upgrades",
           "imageUrl": "/images/blog/2023-08-28-a-new-alpha-mechanism-for-safer-cluster-upgrades/mvp-flow-diagram.svg"
         }
@@ -1055,7 +1050,7 @@
           "description": "Netflix’s service mesh adoption: history, motivations, and how we worked with the Envoy community on a feature to streamline mesh adoption",
           "link": "https://netflixtechblog.com/zero-configuration-service-mesh-with-on-demand-cluster-discovery-ac6483b52a51?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-08-29T23:08:45.000Z",
-          "wordCount": 5720,
+          "wordCount": 5625,
           "title": "Zero Configuration Service Mesh with On-Demand Cluster Discovery",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1000/0*xr1EBhghfcC8j4Uj"
         }
@@ -1175,16 +1170,6 @@
           "wordCount": 27771,
           "title": "RO-ViT: Region-aware pre-training for open-vocabulary object detection with vision transformers",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9wOjJcc9-JUy0J6NEo8aRgBIeiHRY6YdneL3pBlAF4GszMf6MctGLuZG5ZClFHqMGK9j_RpgF-M2AvcScwa98FwLHtEt1rC7HCiSPhnNpG0podsHDn8uKlh9fVuIj5xYGUFytZWHkE4pANrDnXLknL-7_FTTEYVtL2MVR-DMwREMdxi3TeGZKw1OcLiPI/w1200-h630-p-k-no-nu/RO-ViT-hero.jpg"
-        },
-        {
-          "id": "http://blog.research.google/2023/08/responsible-ai-at-google-research.html",
-          "author": null,
-          "description": "Posted by Susanna Ricco and Utsav Prabhu, co-leads, Perception Fairness Team, Google Research\n\n\n\n\n\nGoogle’s Responsible AI research is built on a foundation of collaboration — between teams with diverse backgrounds and expertise, between researchers and product developers, and ultimately with the community at large. The Perception Fairness team drives progress by combining deep subject-matter expertise in both computer vision and machine learning (ML) fairness with direct connections to the researchers building the perception systems that power products across Google and beyond. Together, we are working to intentionally design our systems to be inclusive from the ground up, guided by Google’s AI Principles.\n\n\n\n\n\n\nPerception Fairness research spans the design, development, and deployment of…",
-          "link": "http://blog.research.google/2023/08/responsible-ai-at-google-research.html",
-          "publishedOn": "2023-08-25T17:38:00.003Z",
-          "wordCount": 27808,
-          "title": "Responsible AI at Google Research: Perception Fairness",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvTD0aWY1G5CHtuxdtUEk965xABcjRdBuilg_78JFVxqDTqLqgtyNAypbqx0PoBPsduY1Jf3MOHdsoPXm3T8gSCzvtQwyeNcwG5fxlX3-CSzNAHIjJe8K0EfkL34wX_S8NjwdtD81fX9FRGHck2KBM1GtQrP1-inoVXdrU1ZkgBMe_ZVdXPNTRyW5m92te/w1200-h630-p-k-no-nu/hero.gif"
         }
       ]
     },
@@ -1194,12 +1179,32 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=47253",
+          "author": "Seth Godin",
+          "description": "Make it easy! they insist. One of the longest-running direct response ads of all time was for a piano playing course. For more than forty years, people mailed in money for a simple, fast way to impress their friends by playing the piano. They sold a lot of manuals, but I’m guessing not many people […]",
+          "link": "https://feeds.feedblitz.com/~/794805557/0/sethsblog~While-standing-on-one-foot/",
+          "publishedOn": "2023-09-24T08:13:00.000Z",
+          "wordCount": 1087,
+          "title": "While standing on one foot",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061310-1.jpg"
+        },
+        {
+          "id": "https://seths.blog/?p=45630",
+          "author": "Seth Godin",
+          "description": "It might be the high fidelity of a good LP on a great turntable. It sounds just like the original recording. It might be the high fidelity of loyalty. No shopping around for a momentarily better deal. It might be the high fidelity of genre. This is just what you hoped it would be. And […]",
+          "link": "https://feeds.feedblitz.com/~/794804030/0/sethsblog~High-fidelity/",
+          "publishedOn": "2023-09-24T08:01:00.000Z",
+          "wordCount": 994,
+          "title": "High fidelity",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_180613-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=43253",
           "author": "Seth Godin",
           "description": "Many businesses thrive by helping people deal with projects that feel like they have high stakes. A kid’s first haircut, the offsite storage of data backup, an upcoming family reunion, a medical procedure or the inscription on a sentimental piece of jewelry or watch. But, if the inevitable glitch or failure arises, we’re inclined to […]",
           "link": "https://feeds.feedblitz.com/~/794499956/0/sethsblog~Two-sides-of-a-big-deal/",
           "publishedOn": "2023-09-23T08:06:00.000Z",
-          "wordCount": 1047,
+          "wordCount": 1048,
           "title": "Two sides of “a big deal”",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg"
         },
@@ -1272,26 +1277,6 @@
           "wordCount": 1032,
           "title": "I’ve been doing it wrong all along",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806139-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=46987",
-          "author": "Seth Godin",
-          "description": "If you knew then what you know now, would you have made the same decision? In the last fifty years, more than 25,000,000 Americans have died prematurely due to cigarette smoking. Worldwide, it’s significantly higher. That’s fifty times as many U.S. citizens as died in World War II. How did cigarette marketers manage to keep […]",
-          "link": "https://feeds.feedblitz.com/~/793561514/0/sethsblog~Tricked-again/",
-          "publishedOn": "2023-09-15T08:43:00.000Z",
-          "wordCount": 1365,
-          "title": "Tricked (again)",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806133-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=47199",
-          "author": "Seth Godin",
-          "description": "Consider purple.space a new community for professionals to connect without hustle. Peer-to-peer support, brainstorming, community workshops, coaching, dailies and more. Distributed work doesn’t have to be disconnected work. Freelancing, creating, and leading can feel solitary, even lonely, but they don’t need to be. And most of all, we can get better. Better together. Our best […]",
-          "link": "https://feeds.feedblitz.com/~/793437320/0/sethsblog~Finding-the-others/",
-          "publishedOn": "2023-09-14T08:37:00.000Z",
-          "wordCount": 1095,
-          "title": "Finding the others",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806134-1.jpg"
         }
       ]
     },

@@ -1,10 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-09-24T01:11:49.102Z</id>
+    <id>urn:2023-09-25T01:09:08.464Z</id>
     <title>osmos::feed</title>
-    <updated>2023-09-24T01:11:49.102Z</updated>
+    <updated>2023-09-25T01:09:08.464Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Blog: kubeadm: Use etcd Learner to Join a Control Plane Node Safely]]></title>
+        <id>https://kubernetes.io/blog/2023/09/25/kubeadm-use-etcd-learner-mode/</id>
+        <link href="https://kubernetes.io/blog/2023/09/25/kubeadm-use-etcd-learner-mode/"/>
+        <updated>2023-09-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Author: Paco Xu (DaoCloud)
+The kubeadm tool now supports etcd learner mode, which
+allows you to enhance the resilience and stability
+of your Kubernetes clusters by leveraging the learner mode
+feature introduced in etcd version 3.4.
+This guide will walk you through using etcd learner mode with kubeadm. By default, kubeadm runs
+a local etcd instance on each control plane node.
+In v1.27, kubeadm introduced a new feature gate EtcdLearnerMode. With this feature gate enabled,
+when joining a new control plane node, a new etcd member will be created as a learner and
+promoted to a voting member only after the etcd data are fully aligned.
+What are the advantages of using etcd learner mode?
+etcd learner mode offers several compelling reasons to consider its adoption
+in Kubernetes clusters:
+Enhanced R…]]></summary>
+        <author>
+            <name>Kubernetes – Production-Grade Container Orchestration</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[While standing on one foot]]></title>
+        <id>https://seths.blog/?p=47253</id>
+        <link href="https://feeds.feedblitz.com/~/794805557/0/sethsblog~While-standing-on-one-foot/"/>
+        <updated>2023-09-24T08:13:00.000Z</updated>
+        <summary type="html"><![CDATA[Make it easy! they insist. One of the longest-running direct response ads of all time was for a piano playing course. For more than forty years, people mailed in money for a simple, fast way to impress their friends by playing the piano. They sold a lot of manuals, but I’m guessing not many people […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[High fidelity]]></title>
+        <id>https://seths.blog/?p=45630</id>
+        <link href="https://feeds.feedblitz.com/~/794804030/0/sethsblog~High-fidelity/"/>
+        <updated>2023-09-24T08:01:00.000Z</updated>
+        <summary type="html"><![CDATA[It might be the high fidelity of a good LP on a great turntable. It sounds just like the original recording. It might be the high fidelity of loyalty. No shopping around for a momentarily better deal. It might be the high fidelity of genre. This is just what you hoped it would be. And […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Two sides of “a big deal”]]></title>
         <id>https://seths.blog/?p=43253</id>
@@ -905,16 +948,6 @@ In this post, we introduce MediaPipe FaceStylizer, an effi…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Tricked (again)]]></title>
-        <id>https://seths.blog/?p=46987</id>
-        <link href="https://feeds.feedblitz.com/~/793561514/0/sethsblog~Tricked-again/"/>
-        <updated>2023-09-15T08:43:00.000Z</updated>
-        <summary type="html"><![CDATA[If you knew then what you know now, would you have made the same decision? In the last fifty years, more than 25,000,000 Americans have died prematurely due to cigarette smoking. Worldwide, it’s significantly higher. That’s fifty times as many U.S. citizens as died in World War II. How did cigarette marketers manage to keep […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Iceberg Efficiency]]></title>
         <id>https://xkcd.com/2829/</id>
         <link href="https://xkcd.com/2829/"/>
@@ -952,16 +985,6 @@ To improve the user experience and make reading more accessible, Android and Chr
 <p>The post <a rel="nofollow" href="https://github.blog/2023-09-14-introducing-auto-triage-rules-for-dependabot/">Introducing auto-triage rules for Dependabot</a> appeared first on <a rel="nofollow" href="https://github.blog">The GitHub Blog</a>.</p>]]></summary>
         <author>
             <name>The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Finding the others]]></title>
-        <id>https://seths.blog/?p=47199</id>
-        <link href="https://feeds.feedblitz.com/~/793437320/0/sethsblog~Finding-the-others/"/>
-        <updated>2023-09-14T08:37:00.000Z</updated>
-        <summary type="html"><![CDATA[Consider purple.space a new community for professionals to connect without hustle. Peer-to-peer support, brainstorming, community workshops, coaching, dailies and more. Distributed work doesn’t have to be disconnected work. Freelancing, creating, and leading can feel solitary, even lonely, but they don’t need to be. And most of all, we can get better. Better together. Our best […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
         </author>
     </entry>
     <entry>
@@ -1493,40 +1516,6 @@ What problem does this solve?
 When a cluster undergoes an upgrade, the kube-apiservers existing at different versions in that scenario can serve different sets (groups, versions, resources) of built-in resources. A resource request made in this scenario may be served by any of the available apiservers, potentially resulting in the request ending up at an apiserve…]]></summary>
         <author>
             <name>Kubernetes – Production-Grade Container Orchestration</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Camunda Community Podcast Recap: Inbound and Outbound Connectors: “Woah, it’s so easy!”]]></title>
-        <id>https://camunda.com/?p=89567</id>
-        <link href="https://camunda.com/blog/2023/08/camunda-community-podcast-recap-inbound-outbound-connectors-so-easy/"/>
-        <updated>2023-08-25T20:26:27.000Z</updated>
-        <summary type="html"><![CDATA[Missed the latest episode of the Camunda Community Podcast? Catch up with a quick recap.
-The post Camunda Community Podcast Recap: Inbound and Outbound Connectors: “Woah, it’s so easy!” appeared first on Camunda.]]></summary>
-        <author>
-            <name>Danny Shain</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Responsible AI at Google Research: Perception Fairness]]></title>
-        <id>http://blog.research.google/2023/08/responsible-ai-at-google-research.html</id>
-        <link href="http://blog.research.google/2023/08/responsible-ai-at-google-research.html"/>
-        <updated>2023-08-25T17:38:00.003Z</updated>
-        <summary type="html"><![CDATA[Posted by Susanna Ricco and Utsav Prabhu, co-leads, Perception Fairness Team, Google Research
-
-
-
-
-
-Google’s Responsible AI research is built on a foundation of collaboration — between teams with diverse backgrounds and expertise, between researchers and product developers, and ultimately with the community at large. The Perception Fairness team drives progress by combining deep subject-matter expertise in both computer vision and machine learning (ML) fairness with direct connections to the researchers building the perception systems that power products across Google and beyond. Together, we are working to intentionally design our systems to be inclusive from the ground up, guided by Google’s AI Principles.
-
-
-
-
-
-
-Perception Fairness research spans the design, development, and deployment of…]]></summary>
-        <author>
-            <name>Google AI Blog</name>
         </author>
     </entry>
 </feed>

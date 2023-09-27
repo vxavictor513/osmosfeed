@@ -6,6 +6,16 @@
       "siteUrl": "https://spring.io",
       "articles": [
         {
+          "id": "https://spring.io/blog/2023/09/26/this-week-in-spring-september-26th-2023",
+          "author": "Josh Long",
+          "description": "Level up your Java code and explore what Spring can do for you.",
+          "link": "https://spring.io/blog/2023/09/26/this-week-in-spring-september-26th-2023",
+          "publishedOn": "2023-09-26T00:00:00.000Z",
+          "wordCount": 7065,
+          "title": "This Week in Spring - September 26th, 2023",
+          "imageUrl": "https://spring.io/img/og-spring.png"
+        },
+        {
           "id": "https://spring.io/blog/2023/09/22/paketo-buildpacks-bionic-end-of-support",
           "author": "Scott Frederick",
           "description": "Level up your Java code and explore what Spring can do for you.",
@@ -86,16 +96,6 @@
           "imageUrl": "https://spring.io/img/og-spring.png"
         },
         {
-          "id": "https://spring.io/blog/2023/09/21/spring-cloud-dataflow-2-11-0-released",
-          "author": "Chris Bono",
-          "description": "Level up your Java code and explore what Spring can do for you.",
-          "link": "https://spring.io/blog/2023/09/21/spring-cloud-dataflow-2-11-0-released",
-          "publishedOn": "2023-09-21T00:00:00.000Z",
-          "wordCount": 6932,
-          "title": "Spring Cloud Dataflow 2.11.0 Released",
-          "imageUrl": "https://spring.io/img/og-spring.png"
-        },
-        {
           "id": "https://spring.io/blog/2023/09/20/spring-integration-6-2-0-milestone-3-available",
           "author": "Artem Bilan",
           "description": "Level up your Java code and explore what Spring can do for you.",
@@ -118,7 +118,7 @@
           "description": "Learn how to use GitOps to deploy and synchronize a Consul cluster on Kubernetes with Argo CD.",
           "link": "https://www.hashicorp.com/blog/deploy-consul-on-kubernetes-with-argo-cd",
           "publishedOn": "2023-09-25T16:00:00.000Z",
-          "wordCount": 5968,
+          "wordCount": 5988,
           "title": "Deploy Consul on Kubernetes with Argo CD",
           "imageUrl": "https://www.datocms-assets.com/2885/1620082415-blog-library-product-kubernetes-consul-dark-logomark-lockup.jpg"
         },
@@ -240,12 +240,52 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
+          "id": "https://www.elastic.co/blog/introducing-filestream-fingerprint-mode",
+          "author": "Denis Rechkunov",
+          "description": "In Filebeat 8.10.0 and 7.17.12 we introduced a new fingerprint mode. This article covers the problem this new mode solves, what changes have been made to implement it, and details on how it works.",
+          "link": "https://www.elastic.co/blog/introducing-filestream-fingerprint-mode",
+          "publishedOn": "2023-09-26T00:00:00.000Z",
+          "wordCount": 19611,
+          "title": "Introducing Filestream fingerprint mode",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt3b843d3438ca6a1d/64ef5ca73a89e15fff679b32/filebeat-memory-allocation-blog-720x420.jpeg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/whole-system-visibility-elastic-universal-profiling",
+          "author": "Israel Ogbole,Francesco Gualazzi",
+          "description": "Visual profiling data can be overwhelming. This blog post aims to demystify continuous profiling and guide you through its unique visualizations. We will equip you with the knowledge to derive quick, actionable insights from Universal Profiling™.",
+          "link": "https://www.elastic.co/blog/whole-system-visibility-elastic-universal-profiling",
+          "publishedOn": "2023-09-26T00:00:00.000Z",
+          "wordCount": 20133,
+          "title": "Unlocking whole-system visibility with Elastic Universal Profiling™",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta7ff4350fab9d996/651229a7bc13842a6c7d3e7b/universal-profiling-blog-720x420.jpg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/introducing-filestream-fingerprint-mode",
+          "author": "Denis Rechkunov",
+          "description": ",\nIn Filebeat 8.10.0 and 7.17.12, we introduced a new fingerprint mode that gives our users an option to use hashing of the files’ content for identifying them instead of relying on file system metadata. This change is available in Filestream inputs.\nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt65f62324bd9ac6bd/6512334a69060a0304fc1d72/elastic-blog-1-Filestream-architecture.png,elastic-blog-1-Filestream-architecture.png,\nPeeling the onion of the top components:\nFile Scanner collects information about all files that match paths of the input.\nFile Watcher scans the file system every few seconds, as specified in the prospector.scanner.check_interval setting, and then compares the file system states between checks. If something changes, it emits an event describing the change…",
+          "link": "https://www.elastic.co/blog/introducing-filestream-fingerprint-mode",
+          "publishedOn": "2023-09-26T00:00:00.000Z",
+          "wordCount": 19611,
+          "title": "Introducing Filestream fingerprint mode",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt3b843d3438ca6a1d/64ef5ca73a89e15fff679b32/filebeat-memory-allocation-blog-720x420.jpeg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/whole-system-visibility-elastic-universal-profiling",
+          "author": "Israel Ogbole,Francesco Gualazzi",
+          "description": "Identify, optimize, measure, repeat! ,\nSREs and developers who want to maintain robust, efficient systems and achieve optimal code performance need effective tools to measure and improve code performance. Profilers are invaluable for these tasks, as they can help you boost your app's throughput, ensure consistent system reliability, and gain a deeper understanding of your code's behavior at runtime. However, traditional profilers can be cumbersome to use, as they often require code recompilation and are limited to specific languages. Additionally, they can also have a high overhead that negatively affects performance and makes them less suitable for quick, real-time debugging in production environments.\nTo address the limitations of traditional profilers, Elastic® recently announced the ge…",
+          "link": "https://www.elastic.co/blog/whole-system-visibility-elastic-universal-profiling",
+          "publishedOn": "2023-09-26T00:00:00.000Z",
+          "wordCount": 20133,
+          "title": "Unlocking whole-system visibility with Elastic Universal Profiling™",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta7ff4350fab9d996/651229a7bc13842a6c7d3e7b/universal-profiling-blog-720x420.jpg"
+        },
+        {
           "id": "https://www.elastic.co/blog/api-management-aws-api-gateway-integration-elastic",
           "author": "Udayasimha Theepireddy (Uday),Subhrata Kulshrestha",
           "description": "With Elastic's AWS API Gateway integration, application owners and developers unlock the capability to proactively identify and resolve problems, fine-tune resource utilization, and provide extraordinary digital experiences to their users.",
           "link": "https://www.elastic.co/blog/api-management-aws-api-gateway-integration-elastic",
           "publishedOn": "2023-09-25T00:00:00.000Z",
-          "wordCount": 14655,
+          "wordCount": 15873,
           "title": "Unlocking seamless API management: Introducing AWS API Gateway integration with Elastic",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt16ac2eb27b6257d4/6503205fe64971bb17692e27/illustration-midnight-bg-aws-elastic-1680x980.png"
         },
@@ -255,19 +295,9 @@
           "description": ",\nAWS API Gateway is a powerful service that redefines API management. It serves as a gateway for creating, deploying, and managing APIs, enabling businesses to establish seamless connections between different applications and services. With features like authentication, authorization, and traffic control, API Gateway ensures the security and reliability of API interactions. \nIn an era where APIs serve as the backbone of modern applications, having the means to maintain visibility and control over these vital components is absolutely essential. In this blog post, we dive deep into the comprehensive observability solution offered by Elastic®, ensuring real-time visibility, advanced analytics, and actionable insights, empowering you to fine-tune your API Gateway for optimal performance.\nFor …",
           "link": "https://www.elastic.co/blog/api-management-aws-api-gateway-integration-elastic",
           "publishedOn": "2023-09-25T00:00:00.000Z",
-          "wordCount": 14655,
+          "wordCount": 15873,
           "title": "Unlocking seamless API management: Introducing AWS API Gateway integration with Elastic",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt16ac2eb27b6257d4/6503205fe64971bb17692e27/illustration-midnight-bg-aws-elastic-1680x980.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/secure-elastic-cloud-deployment-aws-privatelink-traffic-filter",
-          "author": "Hemendra Singh Lodhi",
-          "description": "Secure your Elastic Cloud deployment using Elasticsearch AWS PrivateLink traffic filter. It improves security by establishing private connectivity between customer AWS VPC and customer Elastic Cloud deployments in the respective AWS region.",
-          "link": "https://www.elastic.co/blog/secure-elastic-cloud-deployment-aws-privatelink-traffic-filter",
-          "publishedOn": "2023-09-22T00:00:00.000Z",
-          "wordCount": 13086,
-          "title": "Secure your Elastic Cloud deployment with AWS PrivateLink traffic filter",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt154061e47c4e1131/650c4dbc09cbfbde1009d010/blog-security-laptop-720x420.png"
         },
         {
           "id": "https://www.elastic.co/blog/elastic-verified-designation-managed-service-provider-partners",
@@ -275,17 +305,17 @@
           "description": "Elastic invests in new partner programs designed to empower Managed Service Provider partners to sell, support, and embed Elastic solutions as part of your global portfolio.",
           "link": "https://www.elastic.co/blog/elastic-verified-designation-managed-service-provider-partners",
           "publishedOn": "2023-09-22T00:00:00.000Z",
-          "wordCount": 13064,
+          "wordCount": 16056,
           "title": "Elastic launches new Verified Designation for Managed Service Provider partners",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt70cd3215b0972f43/650c967ac5537c380f4d10a8/msp-blog-header.jpg"
         },
         {
           "id": "https://www.elastic.co/blog/secure-elastic-cloud-deployment-aws-privatelink-traffic-filter",
           "author": "Hemendra Singh Lodhi",
-          "description": ",\nOne of the security features available in Elasticsearch® Service (Elastic® Cloud) is traffic filtering. Traffic filtering enables network layer security by limiting access to the deployment from configured networks only. In addition to the security policies consisting of role based access control (RBAC) employing principle of least privilege, using traffic filtering in conjunction provides greater security.\n\nElasticsearch Service (Elastic Cloud) supports CIDR (Classless Inter-Domain Routing) or IP address based traffic filtering in the form of 199.226.244.0/24 or 82.102.25.74. It also integrates traffic from major cloud providers: Amazon Web Services (AWS) VPC over AWS PrivateLink, Azure Virtual Network (VNets), and Google Cloud (GCP) Private Service Connect, for their respective cloud p…",
+          "description": "Secure your Elastic Cloud deployment using Elasticsearch AWS PrivateLink traffic filter. It improves security by establishing private connectivity between customer AWS VPC and customer Elastic Cloud deployments in the respective AWS region.",
           "link": "https://www.elastic.co/blog/secure-elastic-cloud-deployment-aws-privatelink-traffic-filter",
           "publishedOn": "2023-09-22T00:00:00.000Z",
-          "wordCount": 13086,
+          "wordCount": 16078,
           "title": "Secure your Elastic Cloud deployment with AWS PrivateLink traffic filter",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt154061e47c4e1131/650c4dbc09cbfbde1009d010/blog-security-laptop-720x420.png"
         },
@@ -295,9 +325,19 @@
           "description": ",\nElastic® understands the need for quality, reliability, innovation, and support to foster strong relationships and partnerships. As such, Elastic is committed to investing in new partner programs designed to empower you to sell, support, and embed Elastic solutions as part of your global portfolio. \n\nAs part of our evolving partner strategy, we are focusing on helping our Managed Service Provider (MSP) partners better represent and differentiate themselves to new and prospective end customers. As such, we have designed a number of new program benefits, which include: Guided Support, Enablement, Service co-creation workshops, and go-to-market support. \n\nIn addition, Elastic is happy to announce a new special designation available to all of our MSPs: the Verified Managed Services Provider (MSP) designation. By capitalizing on exclusive benefits for our Verified MSP partners, you can further strengthen your partnership with Elastic, engage with your customers, and distinguish yourself in the market.\nHow to get started,\nIf you are interested in becoming a Verified MSP, simply sign up to be evaluated. To fill out the form, you need these three items:\n\n\nTwo Elastic certified engineers\n\nOne existing reference architecture or design document \n\nA list of your third-party vendors \n\n\nFor more information on the benefits of becoming Elastic Verified, visit our MSP partners page.\n,The release and timing of any features or functionality described in this post remain at Elastic's sole discretion. Any features or functionality not currently available may not be delivered on time or at all.",
           "link": "https://www.elastic.co/blog/elastic-verified-designation-managed-service-provider-partners",
           "publishedOn": "2023-09-22T00:00:00.000Z",
-          "wordCount": 13064,
+          "wordCount": 16056,
           "title": "Elastic launches new Verified Designation for Managed Service Provider partners",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt70cd3215b0972f43/650c967ac5537c380f4d10a8/msp-blog-header.jpg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/secure-elastic-cloud-deployment-aws-privatelink-traffic-filter",
+          "author": "Hemendra Singh Lodhi",
+          "description": ",\nOne of the security features available in Elasticsearch® Service (Elastic® Cloud) is traffic filtering. Traffic filtering enables network layer security by limiting access to the deployment from configured networks only. In addition to the security policies consisting of role based access control (RBAC) employing principle of least privilege, using traffic filtering in conjunction provides greater security.\n\nElasticsearch Service (Elastic Cloud) supports CIDR (Classless Inter-Domain Routing) or IP address based traffic filtering in the form of 199.226.244.0/24 or 82.102.25.74. It also integrates traffic from major cloud providers: Amazon Web Services (AWS) VPC over AWS PrivateLink, Azure Virtual Network (VNets), and Google Cloud (GCP) Private Service Connect, for their respective cloud p…",
+          "link": "https://www.elastic.co/blog/secure-elastic-cloud-deployment-aws-privatelink-traffic-filter",
+          "publishedOn": "2023-09-22T00:00:00.000Z",
+          "wordCount": 16078,
+          "title": "Secure your Elastic Cloud deployment with AWS PrivateLink traffic filter",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt154061e47c4e1131/650c4dbc09cbfbde1009d010/blog-security-laptop-720x420.png"
         },
         {
           "id": "https://www.elastic.co/blog/elastic-stack-8-10-2-released",
@@ -305,7 +345,7 @@
           "description": "Version 8.10.2 of the Elastic Stack was released today. We recommend you upgrade to this latest version especially if you use Cross-cluster search (CCS). We recommend 8.10.2 over the previous patch versions in 8.10.x.\nThe 8.10.2 patch release contains a fix for an issue with Cross-cluster search. After upgrading to 8.10.0/8.10.1, Kibana was incorrectly displaying a “Received partial response” error in various apps (e.g. Discover, Security) when the underlying Cross-cluster search (CCS) requests are returning partial results (i.e. with is_partial: true in their responses).\nFor details of the issues that have been fixed and a full list of changes for each product in this version, please refer to the release notes.",
           "link": "https://www.elastic.co/blog/elastic-stack-8-10-2-released",
           "publishedOn": "2023-09-21T00:00:00.000Z",
-          "wordCount": 10774,
+          "wordCount": 11992,
           "title": "Elastic Stack 8.10.2 released",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6a26a8ec94e87272/6001ac6a96de49101cfb1e46/cta-illustration-space-launch-white-bg.png"
         },
@@ -315,19 +355,9 @@
           "description": "Read about the updates and bug fixes that have been included in this release.",
           "link": "https://www.elastic.co/blog/elastic-stack-8-10-2-released",
           "publishedOn": "2023-09-21T00:00:00.000Z",
-          "wordCount": 10774,
+          "wordCount": 11992,
           "title": "Elastic Stack 8.10.2 released",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6a26a8ec94e87272/6001ac6a96de49101cfb1e46/cta-illustration-space-launch-white-bg.png"
-        },
-        {
-          "id": "https://www.elastic.co/blog/elastic-security-stops-memory-kernel-attacks-round-5-mitre-engenuity-evaluations",
-          "author": "Tamarian Del Conte,James Spiteri,Paul Ewing",
-          "description": "Elastic Security successfully defended against memory and kernel level attacks in the MITRE Engenuity ATT&CK 2023 Turla Enterprise Evaluations. Our deep visibility and machine learning capabilities were key to detecting and preventing the attacks.",
-          "link": "https://www.elastic.co/blog/elastic-security-stops-memory-kernel-attacks-round-5-mitre-engenuity-evaluations",
-          "publishedOn": "2023-09-20T00:00:00.000Z",
-          "wordCount": 14606,
-          "title": "Elastic Security stops memory and kernel attacks in Round 5 of MITRE Engenuity Evaluations",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltdc6ab2215ce8530d/650b676be0190576b8ecbd2b/blog-elastic-mitre-eval-logo.png"
         },
         {
           "id": "https://www.elastic.co/blog/data-compliance-public-sector-secure-accessible",
@@ -335,17 +365,17 @@
           "description": "For UK public sector organisations, operating in accordance with ICO is essential in serving the public with integrity and finding the balance between data transparency and privacy. Learn more about how Elastic and our partner Aiimi can help.",
           "link": "https://www.elastic.co/blog/data-compliance-public-sector-secure-accessible",
           "publishedOn": "2023-09-20T00:00:00.000Z",
-          "wordCount": 12414,
+          "wordCount": 15406,
           "title": "Data compliance in public sector: Making data secure <i>and</i> accessible isn’t mutually exclusive",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt18cb41c09bb584a0/64efacd31c9cdffeb2f68036/data-logging-IT-executives-A.jpg"
         },
         {
           "id": "https://www.elastic.co/blog/elastic-security-stops-memory-kernel-attacks-round-5-mitre-engenuity-evaluations",
           "author": "Tamarian Del Conte,James Spiteri,Paul Ewing",
-          "description": ",\nMITRE Engenuity is a nonprofit organization that provides adversarial threat intelligence and evaluation services to the security community. The ATT&CK framework is a comprehensive knowledge base of adversary tactics, techniques, and procedures (TTPs). The MITRE Engenuity Evaluations: Enterprise are a series of rigorous, adversarial evaluations that assess the effectiveness of security products against real-world threats.\nThis year, MITRE Engenuity focused on the Turla malware family — a Russian advanced persistent threat (APT) group that has been active since the early 2000s and has seen heightened activity since 2015. Turla is known for its use of sophisticated TTPs, including fileless malware, living-off-the-land attacks, and custom implants.\nElastic® participated in the MITRE Engenui…",
+          "description": "Elastic Security successfully defended against memory and kernel level attacks in the MITRE Engenuity ATT&CK 2023 Turla Enterprise Evaluations. Our deep visibility and machine learning capabilities were key to detecting and preventing the attacks.",
           "link": "https://www.elastic.co/blog/elastic-security-stops-memory-kernel-attacks-round-5-mitre-engenuity-evaluations",
           "publishedOn": "2023-09-20T00:00:00.000Z",
-          "wordCount": 14606,
+          "wordCount": 17604,
           "title": "Elastic Security stops memory and kernel attacks in Round 5 of MITRE Engenuity Evaluations",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltdc6ab2215ce8530d/650b676be0190576b8ecbd2b/blog-elastic-mitre-eval-logo.png"
         },
@@ -355,29 +385,19 @@
           "description": ",\nIn the UK, the Information Commissioner’s Office (ICO) has the responsibility of upholding information rights in the public interest. The ICO work with businesses and public sector organisations to offer guidance and best practices for using data and information responsibly, as well as regulating and enforcing relevant laws. \nFor public sector organisations especially, operating in accordance with the ICO is essential in serving the public with integrity and finding the balance between data transparency and privacy.\nIn their strategic plan ICO25, the ICO lays out their objectives for the next three years: \n\nEmpowering people to confidently share their information to use the products and services that drive our economy and our society\n\nEmpowering organisations to use information responsibly and confidently to invest and innovate\n\nEmpowering people to hold government to account, driving transparency that helps us all better trust in the decisions taken by public bodies\n\nIn a free and open society, these are important principles for governing public bodies and their interaction with citizens. Adhering to these objectives, however, can place significant and additional burden on already stretched public sector resources and at a time when data control and access is so high profile and fraught with risk. What’s more, the ICO also has powers to apply monetary penalties for organisations  — 54 such incidents are listed on the ICO website for 2023 as of this writing.So how can private sector technology companies like Elastic® and our partners help you align with the ICO’s goals?\n,The release and timing of any features or functionality described in this post remain at Elastic's sole discretion. Any features or functionality not currently available may not be delivered on time or at all.",
           "link": "https://www.elastic.co/blog/data-compliance-public-sector-secure-accessible",
           "publishedOn": "2023-09-20T00:00:00.000Z",
-          "wordCount": 12414,
+          "wordCount": 15406,
           "title": "Data compliance in public sector: Making data secure <i>and</i> accessible isn’t mutually exclusive",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt18cb41c09bb584a0/64efacd31c9cdffeb2f68036/data-logging-IT-executives-A.jpg"
         },
         {
-          "id": "https://www.elastic.co/blog/native-opentelemetry-support-in-elastic-observability",
-          "author": "Bahubali Shetti",
-          "description": "Elastic offers native support for OpenTelemetry by allowing for direct ingest of OpenTelemetry traces, metrics, and logs without conversion, and applying any Elastic feature against OTel data without degradation in capabilities.",
-          "link": "https://www.elastic.co/blog/native-opentelemetry-support-in-elastic-observability",
-          "publishedOn": "2023-09-19T00:00:00.000Z",
-          "wordCount": 17069,
-          "title": "Native OpenTelemetry support in Elastic Observability",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta570608c11c39e81/6501d12c9bcd1b21d91cfe9c/ecs-otel-announcement-2.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/transforming-observability-ai-assistant-otel-standardization-continuous-profiling-log-analytics",
-          "author": "Gagan Singh",
-          "description": "Elastic Observability delivers interactive AI-powered insights with AI Assistant, provides a solution standardized on OpenTelemetry, expands to include profiling, and enhances log analytics, breaking down silos and accelerating problem resolution.",
-          "link": "https://www.elastic.co/blog/transforming-observability-ai-assistant-otel-standardization-continuous-profiling-log-analytics",
-          "publishedOn": "2023-09-19T00:00:00.000Z",
-          "wordCount": 14750,
-          "title": "Transforming observability with AI Assistant, OTel standardization, continuous profiling, and enhanced log analytics",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltfc471bc4ae0e1d39/65087501065768b9cceae171/observability-launch-announcement-720x420.jpg"
+          "id": "https://www.elastic.co/blog/elastic-security-stops-memory-kernel-attacks-round-5-mitre-engenuity-evaluations",
+          "author": "Tamarian Del Conte,James Spiteri,Paul Ewing",
+          "description": ",\nMITRE Engenuity is a nonprofit organization that provides adversarial threat intelligence and evaluation services to the security community. The ATT&CK framework is a comprehensive knowledge base of adversary tactics, techniques, and procedures (TTPs). The MITRE Engenuity Evaluations: Enterprise are a series of rigorous, adversarial evaluations that assess the effectiveness of security products against real-world threats.\nThis year, MITRE Engenuity focused on the Turla malware family — a Russian advanced persistent threat (APT) group that has been active since the early 2000s and has seen heightened activity since 2015. Turla is known for its use of sophisticated TTPs, including fileless malware, living-off-the-land attacks, and custom implants.\nElastic® participated in the MITRE Engenui…",
+          "link": "https://www.elastic.co/blog/elastic-security-stops-memory-kernel-attacks-round-5-mitre-engenuity-evaluations",
+          "publishedOn": "2023-09-20T00:00:00.000Z",
+          "wordCount": 17604,
+          "title": "Elastic Security stops memory and kernel attacks in Round 5 of MITRE Engenuity Evaluations",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltdc6ab2215ce8530d/650b676be0190576b8ecbd2b/blog-elastic-mitre-eval-logo.png"
         },
         {
           "id": "https://www.elastic.co/blog/log-management-observability-operations",
@@ -385,39 +405,19 @@
           "description": "Improve your development and operations processes with effective log management strategies. Our blog offers insights into the importance of log management, best practices, and tools for managing logs efficiently. From identifying errors to troubleshooting issues, learn how to leverage log management for enhanced performance and streamlined operations.",
           "link": "https://www.elastic.co/blog/log-management-observability-operations",
           "publishedOn": "2023-09-19T00:00:00.000Z",
-          "wordCount": 20040,
+          "wordCount": 20034,
           "title": "The power of effective log management in software development and operations",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte073586ff9ae5210/644be27da6ac921a029a0b66/log-management-720x420_(1).jpeg"
         },
         {
-          "id": "https://www.elastic.co/blog/context-aware-insights-elastic-ai-assistant-observability",
-          "author": "Bahubali Shetti",
-          "description": "Harness the power of generative AI to turn insights into actions. Powered by the Elasticsearch Relevance Engine™, Elastic’s AI Assistant transforms problem identification with an interactive assistant that delivers context-aware remediation for SREs.",
-          "link": "https://www.elastic.co/blog/context-aware-insights-elastic-ai-assistant-observability",
-          "publishedOn": "2023-09-19T00:00:00.000Z",
-          "wordCount": 15346,
-          "title": "Context-aware insights using the Elastic AI Assistant for Observability",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltf56b72fe931c9705/65086dde75fde06ce031b36d/AIOps_blog-720x420.png"
-        },
-        {
           "id": "https://www.elastic.co/blog/native-opentelemetry-support-in-elastic-observability",
           "author": "Bahubali Shetti",
-          "description": ",\nOpenTelemetry is more than just becoming the open ingestion standard for observability. As one of the major Cloud Native Computing Foundation (CNCF) projects, with as many commits as Kubernetes, it is gaining support from major ISVs and cloud providers delivering support for the framework. Many global companies from finance, insurance, tech, and other industries are starting to standardize on OpenTelemetry. With OpenTelemetry, DevOps teams have a consistent approach to collecting and ingesting telemetry data providing a de-facto standard for observability. \n\nElastic® is strategically standardizing on OpenTelemetry for the main data collection architecture for observability and security. Additionally, Elastic is making a commitment to help OpenTelemetry become the best de facto data colle…",
+          "description": "Elastic offers native support for OpenTelemetry by allowing for direct ingest of OpenTelemetry traces, metrics, and logs without conversion, and applying any Elastic feature against OTel data without degradation in capabilities.",
           "link": "https://www.elastic.co/blog/native-opentelemetry-support-in-elastic-observability",
           "publishedOn": "2023-09-19T00:00:00.000Z",
-          "wordCount": 17069,
+          "wordCount": 19802,
           "title": "Native OpenTelemetry support in Elastic Observability",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta570608c11c39e81/6501d12c9bcd1b21d91cfe9c/ecs-otel-announcement-2.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/transforming-observability-ai-assistant-otel-standardization-continuous-profiling-log-analytics",
-          "author": "Gagan Singh",
-          "description": ",\nA more modern era of observability is being ushered in with the emergence of AI and generative AI. As these AI technologies go mainstream, expect observability to advance from a manual, reactive process to a more proactive AI-driven approach with auto-diagnosis of issues followed by remediation.\n\nLong gone are the days of monolithic applications running in data centers, where software updates were infrequent events. Operations teams relied on server, network, and storage tools to monitor their tech silos, manually analyzed data, and used an on-call conference bridge with others to identify, triage, and resolve issues. With the advent of cloud along with its complexity, abstraction of infrastructure, and faster development cycles, operations and SRE teams needed observability to help addr…",
-          "link": "https://www.elastic.co/blog/transforming-observability-ai-assistant-otel-standardization-continuous-profiling-log-analytics",
-          "publishedOn": "2023-09-19T00:00:00.000Z",
-          "wordCount": 14750,
-          "title": "Transforming observability with AI Assistant, OTel standardization, continuous profiling, and enhanced log analytics",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltfc471bc4ae0e1d39/65087501065768b9cceae171/observability-launch-announcement-720x420.jpg"
         },
         {
           "id": "https://www.elastic.co/blog/log-management-observability-operations",
@@ -425,19 +425,19 @@
           "description": ",\nThe rapid software development process that exists today requires an expanding and complex infrastructure and application components, and the job of operations and development teams is ever growing and multifaceted. Observability, which helps manage and analyze telemetry data, is the key to ensuring the performance and reliability of your applications and infrastructure. In particular, logs are the main default signal developers enable, providing a significant amount of detail for debugging, performance analysis, security, and compliance management. So how do you define a strategy to get the most out of your logs?\n\nIn this blog post, we'll explore:\n\nThe logging journey, which reviews the collection, processing and enrichment, and analysis and rationalization of logs\nThe difference betwee…",
           "link": "https://www.elastic.co/blog/log-management-observability-operations",
           "publishedOn": "2023-09-19T00:00:00.000Z",
-          "wordCount": 20040,
+          "wordCount": 20034,
           "title": "The power of effective log management in software development and operations",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte073586ff9ae5210/644be27da6ac921a029a0b66/log-management-720x420_(1).jpeg"
         },
         {
-          "id": "https://www.elastic.co/blog/context-aware-insights-elastic-ai-assistant-observability",
+          "id": "https://www.elastic.co/blog/native-opentelemetry-support-in-elastic-observability",
           "author": "Bahubali Shetti",
-          "description": ",\nElastic® is extending the Elastic AI Assistant — the open, generative AI Assistant powered by the Elasticsearch Relevance Engine™ (ESRE) — to enhance observability analysis and enable users of every skill level. Elastic’s AI Assistant (in technical preview for Observability) transforms problem identification and resolution and eliminates manual data chasing across silos with an interactive assistant that delivers context-aware information for SREs. \n\nThe Elastic AI Assistant enhances the understanding of application errors, log message interpretation, alert analysis, and suggestions for optimal code efficiency. Additionally, Elastic AI Assistant’s interactive chat interface allows SREs to chat and visualize all relevant telemetry cohesively in one place, while also leveraging proprietary…",
-          "link": "https://www.elastic.co/blog/context-aware-insights-elastic-ai-assistant-observability",
+          "description": ",\nOpenTelemetry is more than just becoming the open ingestion standard for observability. As one of the major Cloud Native Computing Foundation (CNCF) projects, with as many commits as Kubernetes, it is gaining support from major ISVs and cloud providers delivering support for the framework. Many global companies from finance, insurance, tech, and other industries are starting to standardize on OpenTelemetry. With OpenTelemetry, DevOps teams have a consistent approach to collecting and ingesting telemetry data providing a de-facto standard for observability. \n\nElastic® is strategically standardizing on OpenTelemetry for the main data collection architecture for observability and security. Additionally, Elastic is making a commitment to help OpenTelemetry become the best de facto data colle…",
+          "link": "https://www.elastic.co/blog/native-opentelemetry-support-in-elastic-observability",
           "publishedOn": "2023-09-19T00:00:00.000Z",
-          "wordCount": 15346,
-          "title": "Context-aware insights using the Elastic AI Assistant for Observability",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltf56b72fe931c9705/65086dde75fde06ce031b36d/AIOps_blog-720x420.png"
+          "wordCount": 19802,
+          "title": "Native OpenTelemetry support in Elastic Observability",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta570608c11c39e81/6501d12c9bcd1b21d91cfe9c/ecs-otel-announcement-2.jpg"
         }
       ]
     },
@@ -446,6 +446,16 @@
       "feedUrl": "https://www.ansible.com/blog/rss.xml",
       "siteUrl": "https://www.ansible.com/blog",
       "articles": [
+        {
+          "id": "https://www.ansible.com/blog/new-ansible-galaxy",
+          "author": "jhardy@redhat.com (John Hardy)",
+          "description": "For awhile, the Red Hat Ansible team behind the components Ansible automation hub and Ansible cloud automation hub at console.redhat.com have been on a special ops mission to enhance the galaxy_ng code base that serves the aforementioned components to also serve galaxy.ansible.com, with the intention of replacing galaxy.ansible.com with a fresh code base.",
+          "link": "https://www.ansible.com/blog/new-ansible-galaxy",
+          "publishedOn": "2023-09-26T13:00:00.000Z",
+          "wordCount": 2147,
+          "title": "New Ansible Galaxy",
+          "imageUrl": "https://www.ansible.com/hubfs/New-Ansible-Galaxy.png"
+        },
         {
           "id": "https://www.ansible.com/blog/ansible-contributor-summit-durham-2023",
           "author": "The Ansible Community Team",
@@ -509,7 +519,7 @@
           "description": "In July, we provided an overview on the steps for New Boards hub to go GA. In this blog post, we wanted to provide a short update on where things are at and what you can expect over the next couple of months.\nThe post New Boards Hub Rollout Update appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/new-boards-hub-rollout-update/",
           "publishedOn": "2023-09-25T18:54:55.000Z",
-          "wordCount": 4777,
+          "wordCount": 5069,
           "title": "New Boards Hub Rollout Update",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/03/agile.png"
         },
@@ -519,7 +529,7 @@
           "description": "We’re excited to announce that GitHub Advanced Security for Azure DevOps is now generally available and is ready for you to use in your own Azure DevOps repos! You can now enable code, secret, and dependency scanning within Azure Repos and take advantage of the new product updates.\nThe post Now Generally Available: GitHub Advanced Security for Azure DevOps is ready for you to use appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/now-generally-available-github-advanced-security-for-azure-devops-is-ready-for-you-to-use/",
           "publishedOn": "2023-09-20T15:03:50.000Z",
-          "wordCount": 7140,
+          "wordCount": 7547,
           "title": "Now Generally Available: GitHub Advanced Security for Azure DevOps is ready for you to use",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/10/AzDO-heart-Security.png"
         },
@@ -529,7 +539,7 @@
           "description": "Today we’re very excited to announce the first release candidate (RC1) of Azure DevOps Server 2022.1!\nLast Accessed column on Delivery Plans page\nThere are many more features with this release,\nThe post Introducing Azure DevOps Server 2022 Update 1 RC1 appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/introducing-azure-devops-server-2022-update-1-rc1/",
           "publishedOn": "2023-09-19T19:31:33.000Z",
-          "wordCount": 5277,
+          "wordCount": 5765,
           "title": "Introducing Azure DevOps Server 2022 Update 1 RC1",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2018/09/index-hero.jpg"
         },
@@ -539,7 +549,7 @@
           "description": "This month, we are releasing fixes that impact our self-hosted product, Azure DevOps Server.\nAzure DevOps Server 2022.0.1\nAzure DevOps Server 2020.1.2\nAzure DevOps Server 2020.0.2\nAzure DevOps Server 2019.1.2\nAzure DevOps Server 2019.0.1\nTeam Foundation Server 2018.3.2\nAzure DevOps Server 2022.0.1 Patch 3\nNote: If you have Azure DevOps Server 2022,\nThe post September patches for Azure DevOps Server and Team Foundation Server appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/september-patches-for-azure-devops-server-2/",
           "publishedOn": "2023-09-12T19:08:53.000Z",
-          "wordCount": 5672,
+          "wordCount": 5421,
           "title": "September patches for Azure DevOps Server and Team Foundation Server",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2019/02/index-hero.jpg"
         },
@@ -724,6 +734,16 @@
       "siteUrl": "https://xkcd.com/",
       "articles": [
         {
+          "id": "https://xkcd.com/2833/",
+          "author": null,
+          "description": "<img src=\"https://imgs.xkcd.com/comics/lying.png\" title=\"I was, at least at the start of this disastrous game night, your friend.\" alt=\"I was, at least at the start of this disastrous game night, your friend.\" />",
+          "link": "https://xkcd.com/2833/",
+          "publishedOn": "2023-09-25T00:00:00.000Z",
+          "wordCount": 189,
+          "title": "Lying",
+          "imageUrl": "https://imgs.xkcd.com/comics/lying_2x.png"
+        },
+        {
           "id": "https://xkcd.com/2832/",
           "author": null,
           "description": "<img src=\"https://imgs.xkcd.com/comics/urban_planning_opinion_progression.png\" title=\"If they're going to make people ride bikes and scooters in traffic, then it should at LEAST be legal to do the Snow Crash thing where you use a hook-shot-style harpoon to catch free rides from cars.\" alt=\"If they're going to make people ride bikes and scooters in traffic, then it should at LEAST be legal to do the Snow Crash thing where you use a hook-shot-style harpoon to catch free rides from cars.\" />",
@@ -752,16 +772,6 @@
           "wordCount": 191,
           "title": "Haunted House",
           "imageUrl": "https://imgs.xkcd.com/comics/haunted_house_2x.png"
-        },
-        {
-          "id": "https://xkcd.com/2829/",
-          "author": null,
-          "description": "<img src=\"https://imgs.xkcd.com/comics/iceberg_efficiency.png\" title=\"Our experimental aerogel iceberg with helium pockets manages true 100% efficiency, barely touching the water, and it can even lift off of the surface and fly to more efficiently pursue fleeing hubristic liners.\" alt=\"Our experimental aerogel iceberg with helium pockets manages true 100% efficiency, barely touching the water, and it can even lift off of the surface and fly to more efficiently pursue fleeing hubristic liners.\" />",
-          "link": "https://xkcd.com/2829/",
-          "publishedOn": "2023-09-15T00:00:00.000Z",
-          "wordCount": 191,
-          "title": "Iceberg Efficiency",
-          "imageUrl": "https://imgs.xkcd.com/comics/iceberg_efficiency_2x.png"
         }
       ]
     },
@@ -771,14 +781,24 @@
       "siteUrl": "https://camunda.com/",
       "articles": [
         {
+          "id": "https://camunda.com/?p=91276",
+          "author": "Pedro Arroyo",
+          "description": "Learn how Connectors from a process orchestration solution like Camunda can pair with RPA tools to make automation easier.\nThe post Connecting the Dots: How Camunda Connectors and RPA Simplify Process Automation appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2023/09/how-camunda-connectors-and-rpa-simplify-process-automation/",
+          "publishedOn": "2023-09-26T18:12:04.000Z",
+          "wordCount": 4333,
+          "title": "Connecting the Dots: How Camunda Connectors and RPA Simplify Process Automation",
+          "imageUrl": "https://camunda.com/wp-content/uploads/2023/09/Connecting-the-Dots-Camunda-Connectors-RPA_1200x627-2.png"
+        },
+        {
           "id": "https://camunda.com/?p=91192",
           "author": "Bryan Grover",
           "description": "Why Camunda Platform 8? Learn how real estate invester Heimstaden utilizes Camunda 8 to orchestrate their tenant support ticketing system.\nThe post Why Heimstaden chose Camunda Platform 8 for Their Tenant Ticketing System appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/09/why-camunda-platform-8-heimstaden/",
           "publishedOn": "2023-09-25T14:54:24.000Z",
-          "wordCount": 3933,
+          "wordCount": 3971,
           "title": "Why Heimstaden chose Camunda Platform 8 for Their Tenant Ticketing System",
-          "imageUrl": "https://camunda.com/wp-content/uploads/2022/05/2022_Camunda_Web-Social-Preview_1200x627_Camunda-Logo_On-Black.png"
+          "imageUrl": "https://camunda.com/wp-content/uploads/2023/09/Camunda-Blog_September-2023_Why-Heimstaden-chose-Camunda-Platform-8-for-Their-Tenant-Ticketing-System_1200x627.png"
         },
         {
           "id": "https://camunda.com/?p=91087",
@@ -786,7 +806,7 @@
           "description": "We've relaunched our Professional plan as the Starter plan with an updated offering and a new monthly price to help you get started faster.\nThe post Kickstart Your Next Automation Project with the New Camunda Starter Plan appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/09/camunda-starter/",
           "publishedOn": "2023-09-25T14:00:00.000Z",
-          "wordCount": 3820,
+          "wordCount": 3854,
           "title": "Kickstart Your Next Automation Project with the New Camunda Starter Plan",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/09/kickstart-automation-project-with-new-camunda-starter-plan_1200x627.png"
         },
@@ -796,7 +816,7 @@
           "description": "Did you know that you can keep your process instances moving with Operate? Learn how in this tutorial.\nThe post Resolving Process Incidents and Exceptions with Operate appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/09/resolving-process-incidents-exceptions-operate/",
           "publishedOn": "2023-09-22T18:24:27.000Z",
-          "wordCount": 4415,
+          "wordCount": 4449,
           "title": "Resolving Process Incidents and Exceptions with Operate",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/09/Resolving-Process-Incidents-and-Exceptions-with-Operate_1200x627.png"
         },
@@ -806,7 +826,7 @@
           "description": "Event-streaming technology has many advantages. Learn how your business processes can benefit from using it for process orchestration.\nThe post Top 6 Benefits of Event-Driven Business Process Orchestration appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/09/top-benefits-event-driven-business-process-orchestration/",
           "publishedOn": "2023-09-21T21:14:25.000Z",
-          "wordCount": 4377,
+          "wordCount": 4412,
           "title": "Top 6 Benefits of Event-Driven Business Process Orchestration",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/09/top-6-benefits-of-event-driven-business-process-orchestration_1200x627.png"
         },
@@ -816,7 +836,7 @@
           "description": "Combining a process orchestration solution like Camunda with an observability solution like Instana can break down silos and help teams better understand their systems.\nThe post Observing Camunda Environments with IBM Instana Business Monitoring appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/09/observing-camunda-environments-ibm-instana-business-monitoring/",
           "publishedOn": "2023-09-20T19:57:58.000Z",
-          "wordCount": 4051,
+          "wordCount": 4086,
           "title": "Observing Camunda Environments with IBM Instana Business Monitoring",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/09/observing-camunda-environments-ibm-instana-business-monitoring_1200x627.png"
         },
@@ -826,7 +846,7 @@
           "description": "Learn how to provide the status of running and completed instances in your own custom UIs.\nThe post Monitor Process Instance Progress on a BPMN diagram via the Operate API appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/09/monitor-process-instance-progress-bpmn-diagram-operate-api/",
           "publishedOn": "2023-09-20T12:30:00.000Z",
-          "wordCount": 3993,
+          "wordCount": 4028,
           "title": "Monitor Process Instance Progress on a BPMN diagram via the Operate API",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/09/monitor-process-instance-progress-bpmn-diagram-operate-api_1200x627.png"
         },
@@ -836,7 +856,7 @@
           "description": "Are you ready to become a Camunda Champion? Join our community and get some great benefits.\nThe post Are you a Camunda Champion? appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/09/are-you-a-camunda-champion/",
           "publishedOn": "2023-09-13T19:35:12.000Z",
-          "wordCount": 3822,
+          "wordCount": 3857,
           "title": "Are you a Camunda Champion?",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/09/2023_Camunda-Champion_1200x627.png"
         },
@@ -846,7 +866,7 @@
           "description": "We're excited to announce the August 2023 alpha release of Camunda. Check out what's new.\nThe post Camunda Alpha Release September 2023 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/09/camunda-alpha-release-september-2023/",
           "publishedOn": "2023-09-12T16:21:21.000Z",
-          "wordCount": 4927,
+          "wordCount": 4962,
           "title": "Camunda Alpha Release September 2023",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/09/camunda-alpha-release-sept-2023.png"
         },
@@ -856,19 +876,9 @@
           "description": "Explore the basics, learn the specifics, and get hands-on with examples of using REST API in Java. \nThe post What is REST API in Java? Guide with Examples appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/09/what-is-rest-api-in-java-guide-with-examples/",
           "publishedOn": "2023-09-05T14:00:00.000Z",
-          "wordCount": 5661,
+          "wordCount": 5696,
           "title": "What is REST API in Java? Guide with Examples",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/09/Camunda-Blog_August-2023_What-is-REST-API-in-Java_1200x627.png"
-        },
-        {
-          "id": "https://camunda.com/?p=89745",
-          "author": "Danny Shain",
-          "description": "CamundaCon 2023 is right around the corner. Check out everything there is to see and learn at the leading process orchestration conference.\nThe post Join us at CamundaCon 2023 for Everything Process Orchestration appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2023/09/join-us-camundacon-2023/",
-          "publishedOn": "2023-09-01T20:36:43.000Z",
-          "wordCount": 3950,
-          "title": "Join us at CamundaCon 2023 for Everything Process Orchestration",
-          "imageUrl": "https://camunda.com/wp-content/uploads/2023/09/Camunda-Blog_August-2023_CamundaCon_1200x627.png"
         }
       ]
     },
@@ -915,6 +925,36 @@
       "siteUrl": "https://github.blog/",
       "articles": [
         {
+          "id": "https://github.blog/2023-09-26-how-github-uses-github-actions-and-actions-larger-runners-to-build-and-test-github-com/",
+          "author": null,
+          "description": "<p>Recently, we’ve been working to make our CI experience better by leveraging the newly released GitHub feature, Actions larger runners, to run our CI. </p>\n<p>The post <a rel=\"nofollow\" href=\"https://github.blog/2023-09-26-how-github-uses-github-actions-and-actions-larger-runners-to-build-and-test-github-com/\">How GitHub uses GitHub Actions and Actions larger runners to build and test GitHub.com</a> appeared first on <a rel=\"nofollow\" href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+          "link": "https://github.blog/2023-09-26-how-github-uses-github-actions-and-actions-larger-runners-to-build-and-test-github-com/",
+          "publishedOn": "2023-09-26T17:30:14.000Z",
+          "wordCount": 2782,
+          "title": "How GitHub uses GitHub Actions and Actions larger runners to build and test GitHub.com",
+          "imageUrl": "https://github.blog/wp-content/uploads/2023/09/25ad265b-b9e2-43cf-81d4-cafe4f3c2526-1200x630-1.png?fit=1200%2C630"
+        },
+        {
+          "id": "https://github.blog/2023-09-26-your-ultimate-guide-to-the-github-universe-23-agenda/",
+          "author": null,
+          "description": "<p>Get a sneak peek into the must-attend sessions, speakers, workshops, and GitHub certifications available at our global developer event.</p>\n<p>The post <a rel=\"nofollow\" href=\"https://github.blog/2023-09-26-your-ultimate-guide-to-the-github-universe-23-agenda/\">Your ultimate guide to the GitHub Universe ‘23 agenda</a> appeared first on <a rel=\"nofollow\" href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+          "link": "https://github.blog/2023-09-26-your-ultimate-guide-to-the-github-universe-23-agenda/",
+          "publishedOn": "2023-09-26T16:00:52.000Z",
+          "wordCount": 2064,
+          "title": "Your ultimate guide to the GitHub Universe ‘23 agenda",
+          "imageUrl": "https://github.blog/wp-content/uploads/2023/09/1200x630-Blog-Master-Half@2x.png"
+        },
+        {
+          "id": "https://github.blog/2023-09-26-getting-rce-in-chrome-with-incorrect-side-effect-in-the-jit-compiler/",
+          "author": null,
+          "description": "<p>In this post, I'll exploit CVE-2023-3420, a type confusion in Chrome that allows remote code execution (RCE) in the renderer sandbox of Chrome by a single visit to a malicious site.</p>\n<p>The post <a rel=\"nofollow\" href=\"https://github.blog/2023-09-26-getting-rce-in-chrome-with-incorrect-side-effect-in-the-jit-compiler/\">Getting RCE in Chrome with incorrect side effect in the JIT compiler</a> appeared first on <a rel=\"nofollow\" href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+          "link": "https://github.blog/2023-09-26-getting-rce-in-chrome-with-incorrect-side-effect-in-the-jit-compiler/",
+          "publishedOn": "2023-09-26T15:00:54.000Z",
+          "wordCount": 5513,
+          "title": "Getting RCE in Chrome with incorrect side effect in the JIT compiler",
+          "imageUrl": "https://github.blog/wp-content/uploads/2023/04/1200.630-Global@2x-1.png?fit=1200%2C630"
+        },
+        {
           "id": "https://github.blog/2023-09-25-calling-all-teachers-learn-how-to-build-new-commands-on-the-github-classroom-cli/",
           "author": null,
           "description": "<p>In this step-by-step tutorial, we’ll dive into how you can become the next open source contributor to the GitHub Classroom CLI, building commands that you can use to improve your workflow as an educator!</p>\n<p>The post <a rel=\"nofollow\" href=\"https://github.blog/2023-09-25-calling-all-teachers-learn-how-to-build-new-commands-on-the-github-classroom-cli/\">Calling all teachers! Learn how to build new commands on the GitHub Classroom CLI</a> appeared first on <a rel=\"nofollow\" href=\"https://github.blog\">The GitHub Blog</a>.</p>",
@@ -940,7 +980,7 @@
           "description": "<p>All GitHub.com users can now register a passkey to sign in without a password.</p>\n<p>The post <a rel=\"nofollow\" href=\"https://github.blog/2023-09-21-passkeys-are-generally-available/\">Passkeys are generally available</a> appeared first on <a rel=\"nofollow\" href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2023-09-21-passkeys-are-generally-available/",
           "publishedOn": "2023-09-21T16:00:03.000Z",
-          "wordCount": 1987,
+          "wordCount": 2013,
           "title": "Passkeys are generally available",
           "imageUrl": "https://github.blog/wp-content/uploads/2023/09/1200x630-Security-Unfurl-DARK-Logo.png"
         },
@@ -960,7 +1000,7 @@
           "description": "<p>All GitHub Copilot for Individuals users now have access to GitHub Copilot Chat beta, bringing natural language-powered coding to every developer in all languages.</p>\n<p>The post <a rel=\"nofollow\" href=\"https://github.blog/2023-09-20-github-copilot-chat-beta-now-available-for-all-individuals/\">GitHub Copilot Chat beta now available for all individuals</a> appeared first on <a rel=\"nofollow\" href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2023-09-20-github-copilot-chat-beta-now-available-for-all-individuals/",
           "publishedOn": "2023-09-20T17:00:19.000Z",
-          "wordCount": 2561,
+          "wordCount": 1619,
           "title": "GitHub Copilot Chat beta now available for all individuals",
           "imageUrl": "https://github.blog/wp-content/uploads/2023/09/github-copilot-chat-2.png"
         },
@@ -980,39 +1020,9 @@
           "description": "<p>GitHub Advanced Security for Azure DevOps is now generally available. Enable secret scanning, dependency scanning, and code scanning on your organization directly in Azure DevOps configuration settings. </p>\n<p>The post <a rel=\"nofollow\" href=\"https://github.blog/2023-09-20-announcing-general-availability-of-github-advanced-security-for-azure-devops/\">Announcing general availability of GitHub Advanced Security for Azure DevOps</a> appeared first on <a rel=\"nofollow\" href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2023-09-20-announcing-general-availability-of-github-advanced-security-for-azure-devops/",
           "publishedOn": "2023-09-20T15:00:36.000Z",
-          "wordCount": 1539,
+          "wordCount": 1565,
           "title": "Announcing general availability of GitHub Advanced Security for Azure DevOps",
           "imageUrl": "https://github.blog/wp-content/uploads/2023/09/1200x630-Security-Unfurl-LIGHT-Logo.png"
-        },
-        {
-          "id": "https://github.blog/2023-09-18-switching-from-bitbucket-server-and-bamboo-to-github-just-got-easier/",
-          "author": null,
-          "description": "<p>Starting today, GitHub Enterprise Importer supports repository migrations from Bitbucket Server and Bitbucket Data Center, and GitHub Actions Importer offers CI/CD migrations from Bitbucket and Bamboo.</p>\n<p>The post <a rel=\"nofollow\" href=\"https://github.blog/2023-09-18-switching-from-bitbucket-server-and-bamboo-to-github-just-got-easier/\">Switching from Bitbucket Server and Bamboo to GitHub just got easier</a> appeared first on <a rel=\"nofollow\" href=\"https://github.blog\">The GitHub Blog</a>.</p>",
-          "link": "https://github.blog/2023-09-18-switching-from-bitbucket-server-and-bamboo-to-github-just-got-easier/",
-          "publishedOn": "2023-09-18T16:00:22.000Z",
-          "wordCount": 1653,
-          "title": "Switching from Bitbucket Server and Bamboo to GitHub just got easier",
-          "imageUrl": "https://github.blog/wp-content/uploads/2023/09/1200x630-Enterprise-Unfurl-DARK-Inverto.png"
-        },
-        {
-          "id": "https://github.blog/2023-09-14-introducing-auto-triage-rules-for-dependabot/",
-          "author": null,
-          "description": "<p>Make quick work of alerts with preset and custom rules.</p>\n<p>The post <a rel=\"nofollow\" href=\"https://github.blog/2023-09-14-introducing-auto-triage-rules-for-dependabot/\">Introducing auto-triage rules for Dependabot</a> appeared first on <a rel=\"nofollow\" href=\"https://github.blog\">The GitHub Blog</a>.</p>",
-          "link": "https://github.blog/2023-09-14-introducing-auto-triage-rules-for-dependabot/",
-          "publishedOn": "2023-09-14T17:34:10.000Z",
-          "wordCount": 1627,
-          "title": "Introducing auto-triage rules for Dependabot",
-          "imageUrl": "https://github.blog/wp-content/uploads/2023/09/autotriage-dependabot.png"
-        },
-        {
-          "id": "https://github.blog/2023-09-13-github-availability-report-august-2023/",
-          "author": null,
-          "description": "<p>In August, we experienced two incidents that resulted in degraded performance across GitHub services. </p>\n<p>The post <a rel=\"nofollow\" href=\"https://github.blog/2023-09-13-github-availability-report-august-2023/\">GitHub Availability Report: August 2023</a> appeared first on <a rel=\"nofollow\" href=\"https://github.blog\">The GitHub Blog</a>.</p>",
-          "link": "https://github.blog/2023-09-13-github-availability-report-august-2023/",
-          "publishedOn": "2023-09-13T19:00:20.000Z",
-          "wordCount": 1251,
-          "title": "GitHub Availability Report: August 2023",
-          "imageUrl": "https://github.blog/wp-content/uploads/2021/12/GitHub-availability-report_banner.png?fit=1200%2C630"
         }
       ]
     },
@@ -1086,16 +1096,6 @@
           "wordCount": 4572,
           "title": "Blog: Gateway API v0.8.0: Introducing Service Mesh Support",
           "imageUrl": null
-        },
-        {
-          "id": "https://kubernetes.io/blog/2023/08/28/kubernetes-1-28-feature-mixed-version-proxy-alpha/",
-          "author": null,
-          "description": "Author: Richa Banker (Google)\nThis blog describes the mixed version proxy, a new alpha feature in Kubernetes 1.28. The\nmixed version proxy enables an HTTP request for a resource to be served by the correct API server\nin cases where there are multiple API servers at varied versions in a cluster. For example,\nthis is useful during a cluster upgrade, or when you're rolling out the runtime configuration of\nthe cluster's control plane.\nWhat problem does this solve?\nWhen a cluster undergoes an upgrade, the kube-apiservers existing at different versions in that scenario can serve different sets (groups, versions, resources) of built-in resources. A resource request made in this scenario may be served by any of the available apiservers, potentially resulting in the request ending up at an apiserve…",
-          "link": "https://kubernetes.io/blog/2023/08/28/kubernetes-1-28-feature-mixed-version-proxy-alpha/",
-          "publishedOn": "2023-08-28T00:00:00.000Z",
-          "wordCount": 4199,
-          "title": "Blog: Kubernetes 1.28: A New (alpha) Mechanism For Safer Cluster Upgrades",
-          "imageUrl": "/images/blog/2023-08-28-a-new-alpha-mechanism-for-safer-cluster-upgrades/mvp-flow-diagram.svg"
         }
       ]
     },
@@ -1110,7 +1110,7 @@
           "description": "Netflix’s service mesh adoption: history, motivations, and how we worked with the Envoy community on a feature to streamline mesh adoption",
           "link": "https://netflixtechblog.com/zero-configuration-service-mesh-with-on-demand-cluster-discovery-ac6483b52a51?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-08-29T23:08:45.000Z",
-          "wordCount": 5638,
+          "wordCount": 5653,
           "title": "Zero Configuration Service Mesh with On-Demand Cluster Discovery",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1000/0*xr1EBhghfcC8j4Uj"
         }
@@ -1121,6 +1121,16 @@
       "feedUrl": "http://feeds.feedburner.com/blogspot/gJZg",
       "siteUrl": "http://blog.research.google/",
       "articles": [
+        {
+          "id": "http://blog.research.google/2023/09/google-research-embarks-on-effort-to.html",
+          "author": null,
+          "description": "Posted by Michał Januszewski, Research Scientist, Google Research\n\n\n\n\n\n\nThe human brain is perhaps the most computationally complex machine in existence, consisting of networks of billions of cells. Researchers currently don’t understand the full picture of how glitches in its network machinery contribute to mental illnesses and other diseases, such as dementia. However, the emerging connectomics field, which aims to precisely map the connections between every cell in the brain, could help solve that problem. While maps have only been created for simpler organisms, technological advances for mapping even larger brains can enable us to understand how the human brain works, and how to treat brain diseases.\n\n\n\nToday, we're excited to announce that the Connectomics team at Google Research and …",
+          "link": "http://blog.research.google/2023/09/google-research-embarks-on-effort-to.html",
+          "publishedOn": "2023-09-26T14:10:00.000Z",
+          "wordCount": 27682,
+          "title": "Google Research embarks on effort to map a mouse brain",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFf6_wflZxOT_rmYJu0VCRvigHGMvE2QXwYJeh6F7GHmxnEtg7_bEraidqQ8uii_-N5EtBr2LfOGV_ccWS2g1Qcjssq2HmmGCqbaL_ij-UroaO6JtJVhyNbxK5PN57OfVlmkfXGSg3DMFawUlj1btghs5Nb9tmvQVSZH3pDoLK0SoKlhMh028164YArWcc/w1200-h630-p-k-no-nu/connectome%20600x580.gif"
+        },
         {
           "id": "http://blog.research.google/2023/09/distilling-step-by-step-outperforming.html",
           "author": null,
@@ -1239,12 +1249,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=47315",
+          "author": "Seth Godin",
+          "description": "Getting the word out is easy to measure and exciting as well. Focusing on this misses the point. You might be able to get a song played on the radio, but will the song motivate listeners to show up at the concert? The math is simple: You can’t build a freelance career or a restaurant […]",
+          "link": "https://feeds.feedblitz.com/~/795419141/0/sethsblog~Toward-stickiness/",
+          "publishedOn": "2023-09-26T08:44:00.000Z",
+          "wordCount": 1166,
+          "title": "Toward stickiness",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_180613-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=47304",
           "author": "Seth Godin",
           "description": "If every building in the shopping district in a big city was owned by one landlord, rents would go up. So would the prices of everything sold. The landlord would keep a significant percentage of each store’s profits and innovation would suffer as well. Google’s monopoly is real. They pay Apple more than a million […]",
           "link": "https://feeds.feedblitz.com/~/795053633/0/sethsblog~More-vs-better/",
           "publishedOn": "2023-09-25T08:39:00.000Z",
-          "wordCount": 1175,
+          "wordCount": 1176,
           "title": "More vs. better",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061318.jpg"
         },
@@ -1327,16 +1347,6 @@
           "wordCount": 1158,
           "title": "Just looking",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061311.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=47222",
-          "author": "Seth Godin",
-          "description": "A phrase that’s been showing up recently is, “no pressure.” It usually comes in a pitch letter of some sort, written by someone who isn’t in a position to exert any pressure. So why say it? It’s a bit like, “while supplies last.” And “to be honest…” which is perhaps the most self-negating of the […]",
-          "link": "https://feeds.feedblitz.com/~/793722857/0/sethsblog~It-goes-without-saying/",
-          "publishedOn": "2023-09-17T08:10:00.000Z",
-          "wordCount": 1097,
-          "title": "It goes without saying",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061318.jpg"
         }
       ]
     },
@@ -1345,6 +1355,56 @@
       "feedUrl": "https://blog.jetbrains.com/feed/",
       "siteUrl": "https://blog.jetbrains.com",
       "articles": [
+        {
+          "id": "https://blog.jetbrains.com/?post_type=go&p=369865",
+          "author": "Sergey Kozlovskiy",
+          "description": "The Early Access Program for GoLand 2023.3 is now open! If you want to know our plans for the final release, check out the roadmap blog post.  You can get the first EAP build via the Toolbox App, download it from our website, use a snap package (for Ubuntu), or from inside GoLand, select Check […]",
+          "link": "https://blog.jetbrains.com/go/2023/09/25/the-goland-2023-3-early-access-program-has-started/",
+          "publishedOn": "2023-09-25T17:21:31.000Z",
+          "wordCount": 3690,
+          "title": "The GoLand 2023.3 Early Access Program Has Started!",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/09/Blog_Social_share_image_1280x720_GoLand.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=rscpp&p=390587",
+          "author": "Elvira Mustafina",
+          "description": "The ReSharper C++ 2023.3 Early Access Program starts today! In case you’ve never participated in our EAPs, in short, this means that we’ll be rolling out a new preview build every week, and these builds are free to use. We encourage you to try them out and share your thoughts on the latest improvements and […]",
+          "link": "https://blog.jetbrains.com/rscpp/2023/09/25/resharper-cpp-2023-3-eap/",
+          "publishedOn": "2023-09-25T13:14:10.000Z",
+          "wordCount": 2937,
+          "title": "The ReSharper C++ 2023.3 EAP Is Now Open",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/09/Blog-featured-image-for-the-eap-post_1280x720_ReSharperCPP-2x.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=390686",
+          "author": "Sasha Ivanova",
+          "description": "Hello everyone, The Early Access Program for ReSharper 2023.3 has started! Before you download the first EAP build, let’s take a look at what is in store for you. Working with aliases With this first EAP build, we are introducing support for C# 12’s ability for alias directives to reference any kind of type. We’ve […]",
+          "link": "https://blog.jetbrains.com/dotnet/2023/09/25/rsrp-2023-3-eap1/",
+          "publishedOn": "2023-09-25T13:13:14.000Z",
+          "wordCount": 3044,
+          "title": "ReSharper 2023.3 Early Access Program Begins!",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/09/Blog_Social_share_image_1280x720_ReSharper-2x-2.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=390606",
+          "author": "Sasha Ivanova",
+          "description": "The Early Access Program for Rider 2023.3 has just begun with the release of the Rider 2023.3 EAP 1 build. There are several ways to get your hands on it: If you haven’t already, we highly recommend that you check out the roadmap for the following release. It will give you a good idea about […]",
+          "link": "https://blog.jetbrains.com/dotnet/2023/09/25/rider-2023-3-eap1/",
+          "publishedOn": "2023-09-25T13:12:29.000Z",
+          "wordCount": 3494,
+          "title": "Rider Kicks Off the Early Access Program for the 2023.3 Release!",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/09/Blog_Social_share_image_1280x720_Rider-2x-1.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=qodana&p=388012",
+          "author": "Kerry Beetge",
+          "description": "Demands on developers are constantly increasing, and high-pressure deadlines often mean prioritizing quantity over quality, while being constantly asked to do more with less.  Then there’s the challenge of context-switching when toggling between applications, such as your CI solution and IDE. With this in mind, it’s easy to see how even something as important as […]",
+          "link": "https://blog.jetbrains.com/qodana/2023/09/code-quality-under-pressure-supporting-developers-with-qodana-integration-in-intellij-based-ides/",
+          "publishedOn": "2023-09-25T11:06:59.000Z",
+          "wordCount": 3340,
+          "title": "Code Quality Under Pressure: Supporting Developers With Qodana Integration in IntelliJ-based IDEs",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/09/Blog_Social_share_image_1280x720-1-1.png"
+        },
         {
           "id": "https://blog.jetbrains.com/?post_type=webstorm&p=390095",
           "author": "Aleksandra Aganezova",
@@ -1414,56 +1474,6 @@
           "wordCount": 3085,
           "title": "Critical Security Issue Affecting TeamCity On-Premises – Update to 2023.05.4 Now",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/09/tc-social_share_blog_1280x720.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=388891",
-          "author": "Maarten Balliauw",
-          "description": "Entity Framework Core (EF Core) supports a number of ways to load related data. There’s eager loading, lazy loading, and explicit loading. Each of these approaches have their own advantages and drawbacks. In this post, let’s have a quick look at each of these ways to load data for navigational properties! Eager loading Eager loading […]",
-          "link": "https://blog.jetbrains.com/dotnet/2023/09/21/eager-lazy-and-explicit-loading-with-entity-framework-core/",
-          "publishedOn": "2023-09-21T13:39:17.000Z",
-          "wordCount": 3558,
-          "title": "Eager, Lazy and Explicit Loading with Entity Framework Core",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/09/rs-how-tos-social_share_blog_1280x720-1.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=teamcity&p=386538",
-          "author": "Olga Bedrina",
-          "description": "In TeamCity Cloud 2023.09, we’re introducing the ability to stream files from agents to the log while the build is still running. TeamCity users will also be able to add parameter-based execution conditions thanks to the new ability to report the statuses of preceding build steps. We’ve also enhanced a number of TeamCity integrations, including […]",
-          "link": "https://blog.jetbrains.com/teamcity/2023/09/teamcity-cloud-202309/",
-          "publishedOn": "2023-09-21T13:37:54.000Z",
-          "wordCount": 3043,
-          "title": "TeamCity Cloud 2023.09 Is Here",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/09/tc-202309-social.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=teamcity&p=389060",
-          "author": "Olga Bedrina",
-          "description": "In the annual StackOverflow Developer Survey, almost 73% of respondents identified .NET as their favorite framework. And it’s no wonder – .NET offers multi-language support and allows developers to build many different types of applications. TeamCity, a CI/CD tool developed by JetBrains, supports all programming languages, integrates with all popular technologies, and comes with the built-in […]",
-          "link": "https://blog.jetbrains.com/teamcity/2023/09/teamcity-clearmeasure-webinar-oct3-2023/",
-          "publishedOn": "2023-09-21T12:10:48.000Z",
-          "wordCount": 2852,
-          "title": "Webinar: CI/CD Pipelines for .NET With TeamCity, October 3, 2023",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/09/Blog_Social_share_image_1280x720-2x-2-1.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=scala&p=388780",
-          "author": "Maciej Gorywoda",
-          "description": "On September 12 – 14, the Scala Plugin team was in Madrid for the Scala Days conference. JetBrains was a Gold Sponsor for the event and we are very proud of it. We came to Madrid with a booth, merchandise, and a talk about the IntelliJ Scala Plugin. The Scala Plugin has seen a lot […]",
-          "link": "https://blog.jetbrains.com/scala/2023/09/21/intellijscala-scala-days-2023-madrid/",
-          "publishedOn": "2023-09-21T11:06:52.000Z",
-          "wordCount": 2787,
-          "title": "IntelliJScala @ Scala Days 2023 Madrid",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/09/scaladaysbooth.jpg"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=mps&p=383457",
-          "author": "Vaclav Pech",
-          "description": "Today we’re releasing the Release Candidate for MPS 2023.2. We have finished implementing all the major changes and features, and now we need your help. Please test it out properly on your projects and let us know if you encounter any bugs so we can be sure to fix them before the final release. DOWNLOAD […]",
-          "link": "https://blog.jetbrains.com/mps/2023/09/mps-2023-2-rc-is-out/",
-          "publishedOn": "2023-09-20T17:17:23.000Z",
-          "wordCount": 2638,
-          "title": "MPS 2023.2 RC is out",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/08/DSGN-17263-MPS-2023.2-blog-post-banner-800x155-1.png"
         }
       ]
     }

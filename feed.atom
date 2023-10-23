@@ -1,10 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-10-22T01:13:42.185Z</id>
+    <id>urn:2023-10-23T01:09:31.678Z</id>
     <title>osmos::feed</title>
-    <updated>2023-10-22T01:13:42.185Z</updated>
+    <updated>2023-10-23T01:09:31.678Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Blog: PersistentVolume Last Phase Transition Time in Kubernetes]]></title>
+        <id>https://kubernetes.io/blog/2023/10/23/persistent-volume-last-phase-transition-time/</id>
+        <link href="https://kubernetes.io/blog/2023/10/23/persistent-volume-last-phase-transition-time/"/>
+        <updated>2023-10-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Author: Roman Bednář (Red Hat)
+In the recent Kubernetes v1.28 release, we (SIG Storage) introduced a new alpha feature that aims to improve PersistentVolume (PV)
+storage management and help cluster administrators gain better insights into the lifecycle of PVs.
+With the addition of the lastPhaseTransitionTime field into the status of a PV,
+cluster administrators are now able to track the last time a PV transitioned to a different
+phase, allowing for more efficient
+and informed resource management.
+Why do we need new PV field?
+PersistentVolumes in Kubernetes play a crucial role in providing storage resources to workloads running in the cluster.
+However, managing these PVs effectively can be challenging, especially when it comes
+to determining the last time a PV transitioned between different…]]></summary>
+        <author>
+            <name>Kubernetes – Production-Grade Container Orchestration</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Emotional labor and its consequences]]></title>
+        <id>https://seths.blog/?p=44675</id>
+        <link href="https://feeds.feedblitz.com/~/802870793/0/sethsblog~Emotional-labor-and-its-consequences/"/>
+        <updated>2023-10-22T08:16:00.000Z</updated>
+        <summary type="html"><![CDATA[Forty years ago, Arlie Russell Hochschild wrote about emotional labor. The work that frontline employees had to do (especially women) in managing and expressing emotions as part of their job. She talked about how exhausting it was for flight attendants to show up with a smile, even when they didn’t feel like it. Emotional labor […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Complex or complicated?]]></title>
         <id>https://seths.blog/?p=47601</id>
@@ -689,16 +719,6 @@ for i in $(cat images.txt); do
         <summary type="html"><![CDATA[You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are an Ubuntu user. You can also download it from our website. Download PyCharm 2023.2.3 PEP 701: Formalization of f-strings To address this change, PyCharm will adjust its inspections to allow reusing quotes, line breaks, escape sequences, and […]]]></summary>
         <author>
             <name>Valeria Letusheva</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Consider joining Purple Space]]></title>
-        <id>https://seths.blog/?p=47505</id>
-        <link href="https://feeds.feedblitz.com/~/799448036/0/sethsblog~Consider-joining-Purple-Space/"/>
-        <updated>2023-10-13T18:42:37.000Z</updated>
-        <summary type="html"><![CDATA[It’s not for everyone, but it might be for you. All the details are at purple.space It’s for creatives, independents, brand managers, strategists, founders, non-profit leaders and lifelong learners.]]></summary>
-        <author>
-            <name>Seth Godin</name>
         </author>
     </entry>
     <entry>
@@ -1591,16 +1611,6 @@ in Kubernetes clusters:
 Enhanced R…]]></summary>
         <author>
             <name>Kubernetes – Production-Grade Container Orchestration</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ansible Contributor Summit, Durham 2023]]></title>
-        <id>https://www.ansible.com/blog/ansible-contributor-summit-durham-2023</id>
-        <link href="https://www.ansible.com/blog/ansible-contributor-summit-durham-2023"/>
-        <updated>2023-09-22T14:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Announcing Ansible Contributor Summit in Durham, as well as how to register and propose topics for the event. This is a full day working session especially for community contributors to interact with one another, as well as with Ansible development teams.]]></summary>
-        <author>
-            <name>The Ansible Community Team</name>
         </author>
     </entry>
 </feed>

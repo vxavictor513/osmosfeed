@@ -565,16 +565,6 @@
           "wordCount": 2180,
           "title": "New Ansible Galaxy",
           "imageUrl": "https://www.ansible.com/hubfs/New-Ansible-Galaxy.png"
-        },
-        {
-          "id": "https://www.ansible.com/blog/ansible-contributor-summit-durham-2023",
-          "author": "The Ansible Community Team",
-          "description": "Announcing Ansible Contributor Summit in Durham, as well as how to register and propose topics for the event. This is a full day working session especially for community contributors to interact with one another, as well as with Ansible development teams.",
-          "link": "https://www.ansible.com/blog/ansible-contributor-summit-durham-2023",
-          "publishedOn": "2023-09-22T14:30:00.000Z",
-          "wordCount": 1793,
-          "title": "Ansible Contributor Summit, Durham 2023",
-          "imageUrl": "https://lh4.googleusercontent.com/qrNUGNxKpQ7XPMbzhlR0IMPw6eVBFNaCjv_BNw-dtBhU-13rbECxuAjytSRRhB0LIbw3Ds2HUw8rh8EuHTu3F8BTVx6cqiMmtJzoOkcHmN5tVbYvHak7yPOTr05ModUJ6OuOldPYX4ho3AU1kb90KIc"
         }
       ]
     },
@@ -609,7 +599,7 @@
           "description": "Customers have been requesting to automate state transitions for a while. Take this request from 2018:\nThe post Team Work Item Automation Rules (Private Preview) appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/team-backlog-automation-rules-private-preview/",
           "publishedOn": "2023-10-02T16:14:42.000Z",
-          "wordCount": 5381,
+          "wordCount": 5089,
           "title": "Team Work Item Automation Rules (Private Preview)",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/08/sketch-1.png"
         },
@@ -619,7 +609,7 @@
           "description": "We have added new Azure DevOps scopes for delegated OAuth apps on the Microsoft Identity platform, also colloquially known as Azure Active Directory OAuth apps. These new scopes will enable app developers to announce specifically which permissions they are hoping to request from the user in order to perform app duties.\nThe post New Azure DevOps scopes now available for Microsoft Identity OAuth delegated flow apps appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/new-azure-devops-scopes-now-available-for-microsoft-identity-oauth-delegated-flow-apps/",
           "publishedOn": "2023-09-28T14:57:08.000Z",
-          "wordCount": 4749,
+          "wordCount": 5041,
           "title": "New Azure DevOps scopes now available for Microsoft Identity OAuth delegated flow apps",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2019/11/swimlane-security.png"
         },
@@ -629,7 +619,7 @@
           "description": "After announcing the release of Managed Identity and Service Principal support in public preview last March, we were overcome by the positive response many of you had. We’re grateful to those who have taken the time to implement a managed identity within your apps and tools.\nThe post Managed identity and service principal support for Azure DevOps now in General Availability (GA) appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/managed-identity-and-service-principal-support-for-azure-devops-now-in-general-availability-ga/",
           "publishedOn": "2023-09-27T11:08:47.000Z",
-          "wordCount": 5420,
+          "wordCount": 5128,
           "title": "Managed identity and service principal support for Azure DevOps now in General Availability (GA)",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2021/01/sp_midentity_featured.jpg"
         },
@@ -639,7 +629,7 @@
           "description": "In July, we provided an overview on the steps for New Boards hub to go GA. In this blog post, we wanted to provide a short update on where things are at and what you can expect over the next couple of months.\nThe post New Boards Hub Rollout Update appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/new-boards-hub-rollout-update/",
           "publishedOn": "2023-09-25T18:54:55.000Z",
-          "wordCount": 5054,
+          "wordCount": 4762,
           "title": "New Boards Hub Rollout Update",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/03/agile.png"
         }
@@ -1080,7 +1070,7 @@
           "description": "<p>Findings show that code quality is better across the board and developers felt more confident, too.</p>\n<p>The post <a rel=\"nofollow\" href=\"https://github.blog/2023-10-10-research-quantifying-github-copilots-impact-on-code-quality/\">Research: Quantifying GitHub Copilot’s impact on code quality</a> appeared first on <a rel=\"nofollow\" href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2023-10-10-research-quantifying-github-copilots-impact-on-code-quality/",
           "publishedOn": "2023-10-10T16:00:26.000Z",
-          "wordCount": 2590,
+          "wordCount": 3561,
           "title": "Research: Quantifying GitHub Copilot’s impact on code quality",
           "imageUrl": "https://github.blog/wp-content/uploads/2023/10/AI-LightMode-2.png"
         }
@@ -1098,12 +1088,22 @@
       "siteUrl": "https://kubernetes.io/",
       "articles": [
         {
+          "id": "https://kubernetes.io/blog/2023/10/23/persistent-volume-last-phase-transition-time/",
+          "author": null,
+          "description": "Author: Roman Bednář (Red Hat)\nIn the recent Kubernetes v1.28 release, we (SIG Storage) introduced a new alpha feature that aims to improve PersistentVolume (PV)\nstorage management and help cluster administrators gain better insights into the lifecycle of PVs.\nWith the addition of the lastPhaseTransitionTime field into the status of a PV,\ncluster administrators are now able to track the last time a PV transitioned to a different\nphase, allowing for more efficient\nand informed resource management.\nWhy do we need new PV field?\nPersistentVolumes in Kubernetes play a crucial role in providing storage resources to workloads running in the cluster.\nHowever, managing these PVs effectively can be challenging, especially when it comes\nto determining the last time a PV transitioned between different…",
+          "link": "https://kubernetes.io/blog/2023/10/23/persistent-volume-last-phase-transition-time/",
+          "publishedOn": "2023-10-23T00:00:00.000Z",
+          "wordCount": 4301,
+          "title": "Blog: PersistentVolume Last Phase Transition Time in Kubernetes",
+          "imageUrl": null
+        },
+        {
           "id": "https://kubernetes.io/blog/2023/10/20/kcs-shanghai/",
           "author": null,
           "description": "Author: Paco Xu and Michael Yao (DaoCloud)\nOn September 26, 2023, the first day of\nKubeCon + CloudNativeCon + Open Source Summit China 2023,\nnearly 50 contributors gathered in Shanghai for the Kubernetes Contributor Summit.\n \nAll participants in the 2023 Kubernetes Contributor Summit\nThis marked the first in-person offline gathering held in China after three years of the pandemic.\nA joyful meetup\nThe event began with welcome speeches from Kevin Wang from Huawei Cloud,\none of the co-chairs of KubeCon, and Puja from Giant Swarm.\nFollowing the opening remarks, the contributors introduced themselves briefly. Most attendees were from China,\nwhile some contributors had made the journey from Europe and the United States specifically for the conference.\nTechnical experts from companies such as Mic…",
           "link": "https://kubernetes.io/blog/2023/10/20/kcs-shanghai/",
           "publishedOn": "2023-10-20T00:00:00.000Z",
-          "wordCount": 4274,
+          "wordCount": 4280,
           "title": "Blog: A Quick Recap of 2023 China Kubernetes Contributor Summit",
           "imageUrl": null
         },
@@ -1113,7 +1113,7 @@
           "description": "Author: Rob Mengert (Defense Unicorns)\nEver wonder how software gets deployed onto a system that is deliberately disconnected from the Internet and other networks? These systems are typically disconnected due to their sensitive nature. Sensitive as in utilities (power/water), banking, healthcare, weapons systems, other government use cases, etc. Sometimes it's technically a water gap, if you're running Kubernetes on an underwater vessel. Still, these environments need software to operate. This concept of deployment in a disconnected state is what it means to deploy to the other side of an air gap.\nAgain, despite this posture, software still needs to run in these environments. Traditionally, software artifacts are physically carried across the air gap on hard drives, USB sticks, CDs, or flo…",
           "link": "https://kubernetes.io/blog/2023/10/12/bootstrap-an-air-gapped-cluster-with-kubeadm/",
           "publishedOn": "2023-10-12T00:00:00.000Z",
-          "wordCount": 6488,
+          "wordCount": 6494,
           "title": "Blog: Bootstrap an Air Gapped Cluster With Kubeadm",
           "imageUrl": null
         },
@@ -1123,7 +1123,7 @@
           "description": "Author: Sascha Grunert\nThe Kubernetes community recently announced\nthat their legacy package repositories are frozen, and now they moved to\nintroduced community-owned package repositories powered by the\nOpenBuildService (OBS).\nCRI-O has a long history of utilizing\nOBS for their package builds,\nbut all of the packaging efforts have been done manually so far.\nThe CRI-O community absolutely loves Kubernetes, which means that they're\ndelighted to announce that:\nAll future CRI-O packages will be shipped as part of the officially supported\nKubernetes infrastructure hosted on pkgs.k8s.io!\nThere will be a deprecation phase for the existing packages, which is currently\nbeing discussed in the CRI-O community.\nThe new infrastructure will only support releases of CRI-O >= v1.28.2 as well as\nrelease br…",
           "link": "https://kubernetes.io/blog/2023/10/10/cri-o-community-package-infrastructure/",
           "publishedOn": "2023-10-10T00:00:00.000Z",
-          "wordCount": 4233,
+          "wordCount": 4239,
           "title": "Blog: CRI-O is moving towards pkgs.k8s.io",
           "imageUrl": null
         },
@@ -1133,7 +1133,7 @@
           "description": "Author: Frederico Muñoz (SAS Institute)\nThis is the first interview of a SIG Architecture Spotlight series\nthat will cover the different subprojects. We start with the SIG\nArchitecture: Conformance subproject\nIn this SIG\nArchitecture\nspotlight, we talked with Riaan\nKleinhans (ii-Team), Lead for the\nConformance\nsub-project.\nAbout SIG Architecture and the Conformance subproject\nFrederico (FSM): Hello Riaan, and welcome! For starters, tell us a\nbit about yourself, your role and how you got involved in Kubernetes.\nRiaan Kleinhans (RK): Hi! My name is Riaan Kleinhans and I live in\nSouth Africa. I am the Project manager for the ii-Team in New\nZealand. When I joined ii the plan was to move to New Zealand in April\n2020 and then Covid happened. Fortunately, being a flexible and\ndynamic team we were…",
           "link": "https://kubernetes.io/blog/2023/10/05/sig-architecture-conformance-spotlight-2023/",
           "publishedOn": "2023-10-05T00:00:00.000Z",
-          "wordCount": 4814,
+          "wordCount": 4820,
           "title": "Blog: Spotlight on SIG Architecture: Conformance",
           "imageUrl": null
         },
@@ -1143,7 +1143,7 @@
           "description": "Author: Kaslin Fields\nThe 2023 Steering Committee Election is now complete. The Kubernetes Steering Committee consists of 7 seats, 4 of which were up for election in 2023. Incoming committee members serve a term of 2 years, and all members are elected by the Kubernetes Community.\nThis community body is significant since it oversees the governance of the entire Kubernetes project. With that great power comes great responsibility. You can learn more about the steering committee’s role in their charter.\nThank you to everyone who voted in the election; your participation helps support the community’s continued health and success.\nResults\nCongratulations to the elected committee members whose two year terms begin immediately (listed in alphabetical order by GitHub handle):\nStephen Augustus (@ju…",
           "link": "https://kubernetes.io/blog/2023/10/02/steering-committee-results-2023/",
           "publishedOn": "2023-10-02T00:00:00.000Z",
-          "wordCount": 3849,
+          "wordCount": 3855,
           "title": "Blog: Announcing the 2023 Steering Committee Election Results",
           "imageUrl": null
         },
@@ -1153,7 +1153,7 @@
           "description": "Author: Fabrizio Pandini (VMware)\nWhat a journey so far!\nStarting from the initial blog post “How we made Kubernetes insanely easy to install” in September 2016, followed by an exciting growth that lead to general availability / “Production-Ready Kubernetes Cluster Creation with kubeadm” two years later.\nAnd later on a continuous, steady and reliable flow of small improvements that is still going on as of today.\nWhat is kubeadm? (quick refresher)\nkubeadm is focused on bootstrapping Kubernetes clusters on existing infrastructure and performing an essential set of maintenance tasks. The core of the kubeadm interface is quite simple: new control plane nodes\nare created by running kubeadm init and\nworker nodes are joined to the control plane by running\nkubeadm join.\nAlso included are utilities…",
           "link": "https://kubernetes.io/blog/2023/09/26/happy-7th-birthday-kubeadm/",
           "publishedOn": "2023-09-26T00:00:00.000Z",
-          "wordCount": 4099,
+          "wordCount": 4105,
           "title": "Blog: Happy 7th Birthday kubeadm!",
           "imageUrl": null
         },
@@ -1163,7 +1163,7 @@
           "description": "Author: Paco Xu (DaoCloud)\nThe kubeadm tool now supports etcd learner mode, which\nallows you to enhance the resilience and stability\nof your Kubernetes clusters by leveraging the learner mode\nfeature introduced in etcd version 3.4.\nThis guide will walk you through using etcd learner mode with kubeadm. By default, kubeadm runs\na local etcd instance on each control plane node.\nIn v1.27, kubeadm introduced a new feature gate EtcdLearnerMode. With this feature gate enabled,\nwhen joining a new control plane node, a new etcd member will be created as a learner and\npromoted to a voting member only after the etcd data are fully aligned.\nWhat are the advantages of using etcd learner mode?\netcd learner mode offers several compelling reasons to consider its adoption\nin Kubernetes clusters:\nEnhanced R…",
           "link": "https://kubernetes.io/blog/2023/09/25/kubeadm-use-etcd-learner-mode/",
           "publishedOn": "2023-09-25T00:00:00.000Z",
-          "wordCount": 4152,
+          "wordCount": 4158,
           "title": "Blog: kubeadm: Use etcd Learner to Join a Control Plane Node Safely",
           "imageUrl": null
         }
@@ -1268,12 +1268,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=44675",
+          "author": "Seth Godin",
+          "description": "Forty years ago, Arlie Russell Hochschild wrote about emotional labor. The work that frontline employees had to do (especially women) in managing and expressing emotions as part of their job. She talked about how exhausting it was for flight attendants to show up with a smile, even when they didn’t feel like it. Emotional labor […]",
+          "link": "https://feeds.feedblitz.com/~/802870793/0/sethsblog~Emotional-labor-and-its-consequences/",
+          "publishedOn": "2023-10-22T08:16:00.000Z",
+          "wordCount": 1106,
+          "title": "Emotional labor and its consequences",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=47601",
           "author": "Seth Godin",
           "description": "Complicated problems have a solution, and the solution can often be found by breaking the complicated portions into smaller pieces. And complicated problems often have an emotional component, because there are parts of the problem we don’t want to look at closely, or deal with personally. If you’re lucky enough to be handed a complicated […]",
           "link": "https://feeds.feedblitz.com/~/802704263/0/sethsblog~Complex-or-complicated/",
           "publishedOn": "2023-10-21T08:06:00.000Z",
-          "wordCount": 1230,
+          "wordCount": 1231,
           "title": "Complex or complicated?",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806134-1.jpg"
         },
@@ -1356,16 +1366,6 @@
           "wordCount": 946,
           "title": "The Pizza Principle",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=47505",
-          "author": "Seth Godin",
-          "description": "It’s not for everyone, but it might be for you. All the details are at purple.space It’s for creatives, independents, brand managers, strategists, founders, non-profit leaders and lifelong learners.",
-          "link": "https://feeds.feedblitz.com/~/799448036/0/sethsblog~Consider-joining-Purple-Space/",
-          "publishedOn": "2023-10-13T18:42:37.000Z",
-          "wordCount": 933,
-          "title": "Consider joining Purple Space",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg"
         }
       ]
     },

@@ -6,6 +6,26 @@
       "siteUrl": "https://spring.io",
       "articles": [
         {
+          "id": "https://spring.io/blog/2023/11/17/spring-data-2023-1-goes-ga",
+          "author": "Mark Paluch",
+          "description": "Level up your Java code and explore what Spring can do for you.",
+          "link": "https://spring.io/blog/2023/11/17/spring-data-2023-1-goes-ga",
+          "publishedOn": "2023-11-17T00:00:00.000Z",
+          "wordCount": 7424,
+          "title": "Spring Data 2023.1 goes GA",
+          "imageUrl": "https://spring.io/img/og-spring.png"
+        },
+        {
+          "id": "https://spring.io/blog/2023/11/17/spring-data-2023-0-6-2022-0-12-and-2021-2-18-available-now",
+          "author": "Mark Paluch",
+          "description": "Level up your Java code and explore what Spring can do for you.",
+          "link": "https://spring.io/blog/2023/11/17/spring-data-2023-0-6-2022-0-12-and-2021-2-18-available-now",
+          "publishedOn": "2023-11-17T00:00:00.000Z",
+          "wordCount": 7524,
+          "title": "Spring Data 2023.0.6, 2022.0.12 and 2021.2.18 available now",
+          "imageUrl": "https://spring.io/img/og-spring.png"
+        },
+        {
           "id": "https://spring.io/blog/2023/11/16/a-bootiful-podcast-google-developer-advocate-java-legend-alexis-moussine",
           "author": "Josh Long",
           "description": "Level up your Java code and explore what Spring can do for you.",
@@ -83,26 +103,6 @@
           "publishedOn": "2023-11-07T00:00:00.000Z",
           "wordCount": 7937,
           "title": "SSL hot reload in Spring Boot 3.2.0",
-          "imageUrl": "https://spring.io/img/og-spring.png"
-        },
-        {
-          "id": "https://spring.io/blog/2023/11/03/spring-modulith-1-1-rc2-release",
-          "author": "Oliver Drotbohm",
-          "description": "Level up your Java code and explore what Spring can do for you.",
-          "link": "https://spring.io/blog/2023/11/03/spring-modulith-1-1-rc2-release",
-          "publishedOn": "2023-11-03T00:00:00.000Z",
-          "wordCount": 7092,
-          "title": "Spring Modulith 1.1 RC2 released",
-          "imageUrl": "https://spring.io/img/og-spring.png"
-        },
-        {
-          "id": "https://spring.io/blog/2023/11/03/spring-boot-3-2-0-rc2-available-now",
-          "author": "Phil Webb",
-          "description": "Level up your Java code and explore what Spring can do for you.",
-          "link": "https://spring.io/blog/2023/11/03/spring-boot-3-2-0-rc2-available-now",
-          "publishedOn": "2023-11-03T00:00:00.000Z",
-          "wordCount": 7107,
-          "title": "Spring Boot 3.2.0-RC2 available now",
           "imageUrl": "https://spring.io/img/og-spring.png"
         }
       ]
@@ -281,16 +281,6 @@
           "wordCount": 4097,
           "title": "Five trends in cloud infrastructure and what they mean",
           "imageUrl": "https://www.datocms-assets.com/2885/1697823636-2023-hashicorp-hashiconf-1.jpg"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/hcp-expands-iam-enterprise-capabilities-by-introducing-groups",
-          "author": null,
-          "description": "Groups offer a new approach for managing identities and their access to HashiCorp Cloud Platform (HCP) resources.",
-          "link": "https://www.hashicorp.com/blog/hcp-expands-iam-enterprise-capabilities-by-introducing-groups",
-          "publishedOn": "2023-10-19T07:00:00.000Z",
-          "wordCount": 2086,
-          "title": "HCP expands IAM enterprise capabilities by introducing groups",
-          "imageUrl": "https://www.datocms-assets.com/2885/1620083279-blog-library-hcp-dark-gradient.jpg"
         }
       ]
     },
@@ -300,14 +290,24 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
-          "id": "https://www.elastic.co/blog/culture-kathleen-derusso-search-software-engineer",
-          "author": "Elastic Culture",
-          "description": "Kathleen DeRusso likes to solve problems, something she gets to do every day in her software engineering job. Read more about her career journey.",
-          "link": "https://www.elastic.co/blog/culture-kathleen-derusso-search-software-engineer",
-          "publishedOn": "2023-11-16T00:00:00.000Z",
-          "wordCount": 15027,
-          "title": "Switching majors led Kathleen DeRusso to a career in search",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltdb180651112759ba/655549078c5bd6f623c99dd8/Blog_Banner_720x420WhiteVer_Op1.png"
+          "id": "https://www.elastic.co/blog/troubleshooting-kibana-health",
+          "author": "Stef Nestor",
+          "description": "This blog post provides a troubleshooting framework for Kibana’s health overall, focusing on its Task Manager and Alerting framework.",
+          "link": "https://www.elastic.co/blog/troubleshooting-kibana-health",
+          "publishedOn": "2023-11-17T00:00:00.000Z",
+          "wordCount": 19512,
+          "title": "Troubleshooting Kibana health",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt996b4f399a69d9c8/6554db1ccefb983bc20910e6/134925_-_Blog_header-Troubleshooting_Kibana_health_V1.jpg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/troubleshooting-kibana-health",
+          "author": "Stef Nestor",
+          "description": ",\nYou can access the Elasticsearch® database through Elastic’s UI product: Kibana®. While most Elastic® services run from Elasticsearch, a handful of key features run from within Kibana’s servers: Telemetry, Rules (with associated Actions), Reporting, and Sessions. We’ll walk through troubleshooting overall Kibana health and its most popular plugins. This content is generally true for 7.x and 8.x, but it is tested directly against v8.7.1.\n# undocumented, internal API\n## ui\n> GET KIBANA_URL/status\n## api\n> GET kbn:/api/status\n\n# https://www.elastic.co/guide/en/kibana/current/task-manager-api-health.html\n> GET kbn:api/task_manager/_health\n,\nOnce you have these responses stored respectively as kibana_status.json and kibana_task_manager_health.json, then you have the two core APIs Support insp…",
+          "link": "https://www.elastic.co/blog/troubleshooting-kibana-health",
+          "publishedOn": "2023-11-17T00:00:00.000Z",
+          "wordCount": 19512,
+          "title": "Troubleshooting Kibana health",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt996b4f399a69d9c8/6554db1ccefb983bc20910e6/134925_-_Blog_header-Troubleshooting_Kibana_health_V1.jpg"
         },
         {
           "id": "https://www.elastic.co/blog/elastic-university-of-canberra-partnership-student-success",
@@ -315,9 +315,19 @@
           "description": "In this blog, learn about the partnership between Elastic and the University of Canberra as well as the benefits and outcomes of the partnership for the students, the university, and the industry.",
           "link": "https://www.elastic.co/blog/elastic-university-of-canberra-partnership-student-success",
           "publishedOn": "2023-11-16T00:00:00.000Z",
-          "wordCount": 17603,
+          "wordCount": 16528,
           "title": "Elastic and University of Canberra: A partnership for student success",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltac7b89388a092da2/655589fbc2479d872c782c2a/Screenshot_2023-11-15_at_10.18.04_PM.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/culture-kathleen-derusso-search-software-engineer",
+          "author": "Elastic Culture",
+          "description": "Kathleen DeRusso likes to solve problems, something she gets to do every day in her software engineering job. Read more about her career journey.",
+          "link": "https://www.elastic.co/blog/culture-kathleen-derusso-search-software-engineer",
+          "publishedOn": "2023-11-16T00:00:00.000Z",
+          "wordCount": 14899,
+          "title": "Switching majors led Kathleen DeRusso to a career in search",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltdb180651112759ba/655549078c5bd6f623c99dd8/Blog_Banner_720x420WhiteVer_Op1.png"
         },
         {
           "id": "https://www.elastic.co/blog/elastic-support-hub-moves-to-semantic-search",
@@ -325,7 +335,7 @@
           "description": "We transitioned our Support Hub to semantic search, a more advanced search method that understands user intent rather than relying on keywords. This transition helps provide customers with more relevant search results in Elastic's support content.",
           "link": "https://www.elastic.co/blog/elastic-support-hub-moves-to-semantic-search",
           "publishedOn": "2023-11-16T00:00:00.000Z",
-          "wordCount": 13232,
+          "wordCount": 15693,
           "title": "Elastic Support Hub moves to semantic search",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt757870e4eb051b35/654db48fc29c46040aaeef7d/04-door.jpeg"
         },
@@ -335,7 +345,7 @@
           "description": "During our instructor-led “Elasticsearch Engineer” training, one of the most common questions we get while teaching about snapshots is “what is the incremental nature of snapshots?” This blog post will cover that topic in detail.",
           "link": "https://www.elastic.co/blog/how-do-incremental-snapshots-work",
           "publishedOn": "2023-11-16T00:00:00.000Z",
-          "wordCount": 15827,
+          "wordCount": 14752,
           "title": "How do Elasticsearch snapshots work?",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt17dd3988f3a0348b/6297bad15711a40f708ca8d8/enterprise-search-magnifying-glass-1680x980-white.png"
         },
@@ -345,19 +355,9 @@
           "description": "Introducing Elastic Agent's new feature: native output to Kafka. With this latest addition, Elastic's users can now effortlessly route their data to Kafka clusters, unlocking unparalleled scalability and flexibility in data streaming and processing.",
           "link": "https://www.elastic.co/blog/elastic-agent-output-kafka-data-collection-streaming",
           "publishedOn": "2023-11-16T00:00:00.000Z",
-          "wordCount": 21394,
+          "wordCount": 20319,
           "title": "Elastic Agent’s new output to Kafka: Endless possibilities for data collection and streaming",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0e907602f7692b2a/645421a870a44784058b24cc/ebpf-monitoring.jpeg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/culture-kathleen-derusso-search-software-engineer",
-          "author": "Elastic Culture",
-          "description": ",\nAfter completing a Java developer course during college, Kathleen DeRusso liked it enough to change her major from business to computer science. \n\n“I like to solve interesting and challenging problems,” Kathleen says.\n\nEarly in her career, she worked for a B2B product company in their search organization where she evolved their search to enable electronic parts to be searchable by number. \n\n“I stayed on search the entire time,” she says. “I started in a role that would probably be thought of as SRE today and then moved into search development. We had a home grown search engine over manufacturer catalogs based on Lucene, then another search product searching electronic part numbers backed by SOLR. I led the project to migrate from both homegrown and SOLR search engines to Elasticsearch®.”…",
-          "link": "https://www.elastic.co/blog/culture-kathleen-derusso-search-software-engineer",
-          "publishedOn": "2023-11-16T00:00:00.000Z",
-          "wordCount": 15027,
-          "title": "Switching majors led Kathleen DeRusso to a career in search",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltdb180651112759ba/655549078c5bd6f623c99dd8/Blog_Banner_720x420WhiteVer_Op1.png"
         },
         {
           "id": "https://www.elastic.co/blog/elastic-university-of-canberra-partnership-student-success",
@@ -365,9 +365,19 @@
           "description": ",\nThe IT sector is one of the most dynamic and innovative industries in the world. However, it also faces a serious challenge of finding and retaining qualified talent. The Australian Information Industry Association (AIIA) survey for 2023 revealed that skill shortages are the single biggest inhibitor to business growth in Australia. The survey also found that 49% of IT graduates in Australia needed further training to be effective employees. To address this issue, the University of Canberra (UC) is committed to delivering work-ready graduates who can meet the industry’s needs and expectations. One of the ways UC does this is by offering its final year students Capstone projects, which help them apply and improve their skills for their future careers.\nElastic®, a leading provider of softwa…",
           "link": "https://www.elastic.co/blog/elastic-university-of-canberra-partnership-student-success",
           "publishedOn": "2023-11-16T00:00:00.000Z",
-          "wordCount": 17603,
+          "wordCount": 16528,
           "title": "Elastic and University of Canberra: A partnership for student success",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltac7b89388a092da2/655589fbc2479d872c782c2a/Screenshot_2023-11-15_at_10.18.04_PM.png"
+        },
+        {
+          "id": "https://www.elastic.co/blog/culture-kathleen-derusso-search-software-engineer",
+          "author": "Elastic Culture",
+          "description": ",\nAfter completing a Java developer course during college, Kathleen DeRusso liked it enough to change her major from business to computer science. \n\n“I like to solve interesting and challenging problems,” Kathleen says.\n\nEarly in her career, she worked for a B2B product company in their search organization where she evolved their search to enable electronic parts to be searchable by number. \n\n“I stayed on search the entire time,” she says. “I started in a role that would probably be thought of as SRE today and then moved into search development. We had a home grown search engine over manufacturer catalogs based on Lucene, then another search product searching electronic part numbers backed by SOLR. I led the project to migrate from both homegrown and SOLR search engines to Elasticsearch®.”…",
+          "link": "https://www.elastic.co/blog/culture-kathleen-derusso-search-software-engineer",
+          "publishedOn": "2023-11-16T00:00:00.000Z",
+          "wordCount": 14899,
+          "title": "Switching majors led Kathleen DeRusso to a career in search",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltdb180651112759ba/655549078c5bd6f623c99dd8/Blog_Banner_720x420WhiteVer_Op1.png"
         },
         {
           "id": "https://www.elastic.co/blog/elastic-support-hub-moves-to-semantic-search",
@@ -375,7 +385,7 @@
           "description": ",\nWe’re excited to share a recent enhancement made to the Elastic Support Hub: it’s now powered by semantic search!\nBut before we go into more detail on the changes we made to the Elastic® Support Hub and its impact on our customers, it's important that we take a moment to explain the concept of semantic search. At its core, semantic search is a method of search that uses AI to return more relevant search results. Take a look at this quick video explaining the concept:\n,As shown in the video, semantic search matches the intent of what the user searches to the content available rather than the words. You can read more about the AI behind it on our blog, Introducing Elastic Learned Sparse Encoder: Elastic’s AI model for semantic search. The rest of this blog tells our story about moving the …",
           "link": "https://www.elastic.co/blog/elastic-support-hub-moves-to-semantic-search",
           "publishedOn": "2023-11-16T00:00:00.000Z",
-          "wordCount": 13232,
+          "wordCount": 15693,
           "title": "Elastic Support Hub moves to semantic search",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt757870e4eb051b35/654db48fc29c46040aaeef7d/04-door.jpeg"
         },
@@ -385,7 +395,7 @@
           "description": ",\nElastic offers many instructor-led, in-person and virtual live trainings, as well as on-demand trainings. Our flagship courses are Elasticsearch Engineer, Data Analysis with Kibana, and Elastic Observability Engineer. All of these courses lead to certifications. \n\nWe recently released the latest version of Elasticsearch Engineer training in response to increased demand and new features. This course is designed for both new Elasticsearch users and Elasticsearch professionals. It begins with the basics for getting started with the Elastic Stack, then quickly dives deep into topics ranging from optimizing search performance to building efficient clusters. View the detailed course outline to find out more about what you’ll learn. All lessons include hands-on labs.\n\nDuring this instructor-led…",
           "link": "https://www.elastic.co/blog/how-do-incremental-snapshots-work",
           "publishedOn": "2023-11-16T00:00:00.000Z",
-          "wordCount": 15827,
+          "wordCount": 14752,
           "title": "How do Elasticsearch snapshots work?",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt17dd3988f3a0348b/6297bad15711a40f708ca8d8/enterprise-search-magnifying-glass-1680x980-white.png"
         },
@@ -395,7 +405,7 @@
           "description": ",\nIntroducing Elastic Agent's new feature: native output to Kafka. With this latest addition, Elastic®’s users can now effortlessly route their data to Kafka clusters, unlocking unparalleled scalability and flexibility in data streaming and processing. In this article, we'll delve into the benefits and use cases of this powerful integration.\nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0c705feae2ac6bf7/65563b759984b862c15aadcd/1-elastic-blog-fleet.png,1-elastic-blog-fleet.png,\nYou will be able to set partitioning rules and multiple topics to send data to, depending on specific rules you define. This will allow sorting events and logs collected by the Elastic Agent to be routed and segregated to the right dedicated topic, if needed.\nhttps://static-www.elastic.co/v3/assets/…",
           "link": "https://www.elastic.co/blog/elastic-agent-output-kafka-data-collection-streaming",
           "publishedOn": "2023-11-16T00:00:00.000Z",
-          "wordCount": 21394,
+          "wordCount": 20319,
           "title": "Elastic Agent’s new output to Kafka: Endless possibilities for data collection and streaming",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0e907602f7692b2a/645421a870a44784058b24cc/ebpf-monitoring.jpeg"
         },
@@ -405,7 +415,7 @@
           "description": "Elastic’s integration with Amazon Security Lake facilitates the collection of security-related log and event data. It also empowers organizations to analyze their security posture comprehensively to protect data across their entire organization.",
           "link": "https://www.elastic.co/blog/amazon-security-lake-elastic-security-integration",
           "publishedOn": "2023-11-15T00:00:00.000Z",
-          "wordCount": 13761,
+          "wordCount": 16222,
           "title": "Maximizing security insights: A deep dive into the Amazon Security Lake and Elastic Security integration",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt8914f61eaa4b2ba7/65524fcbcf9237785d1b92a7/data-lake-blog-720x420.jpeg"
         },
@@ -415,7 +425,7 @@
           "description": "Elastic’s serverless architecture is the easiest way to search, observe, and protect without needing to configure or manage. Do more with unprecedented scale, product experiences that streamline work, and ultra-fast search even on object stores.",
           "link": "https://www.elastic.co/blog/elastic-serverless-architecture",
           "publishedOn": "2023-11-15T00:00:00.000Z",
-          "wordCount": 18574,
+          "wordCount": 17499,
           "title": "Serve more with Serverless",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltee8e27ba61b4c53d/65550f0c7326a227751dc5f8/serverless-launch-diagram-image@2x.png"
         },
@@ -435,7 +445,7 @@
           "description": ",\nIn the ever-evolving landscape of cybersecurity, having a robust and efficient security information and event management (SIEM) system is crucial. One powerful solution that has gained significant traction is the Elastic® integration with Amazon Security Lake. This integration not only facilitates the collection of security-related log and event data, but also empowers organizations to analyze and understand their security posture comprehensively. \nIn this blog post, we will delve into the intricacies of this integration and explore how it can enhance the protection of workloads, applications, and data across the entire organization.\nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltcb4052649a34d27b/655254798c5bd6a581c98aad/elastic-blog-1-flowchart-aws-cloud.png,elastic-blog…",
           "link": "https://www.elastic.co/blog/amazon-security-lake-elastic-security-integration",
           "publishedOn": "2023-11-15T00:00:00.000Z",
-          "wordCount": 13761,
+          "wordCount": 16222,
           "title": "Maximizing security insights: A deep dive into the Amazon Security Lake and Elastic Security integration",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt8914f61eaa4b2ba7/65524fcbcf9237785d1b92a7/data-lake-blog-720x420.jpeg"
         },
@@ -445,7 +455,7 @@
           "description": ",\nWe’re constantly amazed by the ways people use Elasticsearch® to solve their biggest data challenges. This is clear in the over 4 billion downloads, 70,000 commits, 1,800 contributors, and feedback from our global community. Elastic®’s role across a wide range of use cases has driven us to simplify complexities by making it easier to harness search and take full advantage of all our solutions. That’s why we’re excited to expand the possibilities of Elasticsearch with a new serverless architecture. It streamlines operational responsibilities, extends Elasticsearch’s renowned high-speed performance to scalable object stores, and streamlines workflows with purpose-built product experiences for search, observability, and security. It's a new way to use Elastic along with our existing on-prem…",
           "link": "https://www.elastic.co/blog/elastic-serverless-architecture",
           "publishedOn": "2023-11-15T00:00:00.000Z",
-          "wordCount": 18574,
+          "wordCount": 17499,
           "title": "Serve more with Serverless",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltee8e27ba61b4c53d/65550f0c7326a227751dc5f8/serverless-launch-diagram-image@2x.png"
         },
@@ -470,16 +480,6 @@
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt13833c6cefd4146a/65539bb88c5bd62179c99194/133192_-_Blog_header_image_Take_control_of_your_spend_with_data_(1)_V1.jpg"
         },
         {
-          "id": "https://www.elastic.co/blog/streamline-kibana-dashboard-navigation-with-the-links-panel",
-          "author": "Teresa Soler",
-          "description": "Find out how to better organize your Kibana dashboards and carry over your filters and queries when navigating between dashboards.",
-          "link": "https://www.elastic.co/blog/streamline-kibana-dashboard-navigation-with-the-links-panel",
-          "publishedOn": "2023-11-14T00:00:00.000Z",
-          "wordCount": 13215,
-          "title": "Streamline Kibana dashboard navigation with the Links panel",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt8ceb09a20054b946/63e648571c653e112744c127/the-end-of-databases-B_(1).jpg"
-        },
-        {
           "id": "https://www.elastic.co/blog/evolution-workplace-search-private-data-elasticsearch",
           "author": "Dana Juratoni,Aditya Tripathi",
           "description": ",\nRecent advancements in generative AI technologies have opened up a wave of possibilities with search. As developers build new experiences, users are adopting new ways of using search — from search queries written in natural language, to searching by uploading images or voice samples. At Elastic®, we have been heads-down to make sure Elasticsearch® has the right machine learning tools developers need to build modern search.\nAs we continue on this journey, we want to share some developments about Workplace Search:\n\nElasticsearch is the recommended tool to build search experiences for internal knowledge search use cases going forward.\nThe standalone Workplace Search product will continue to be supported in its current form. New features will be added to Elasticsearch, Workplace Search will …",
@@ -488,16 +488,6 @@
           "wordCount": 17160,
           "title": "Evolution of Workplace Search: Search your private data with Elasticsearch",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt13833c6cefd4146a/65539bb88c5bd62179c99194/133192_-_Blog_header_image_Take_control_of_your_spend_with_data_(1)_V1.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/streamline-kibana-dashboard-navigation-with-the-links-panel",
-          "author": "Teresa Soler",
-          "description": ",\nWe’re excited to announce the latest feature release for Kibana® dashboards: the Links panel, an easy way to organize and navigate between your dashboards. This feature is available in technical preview in Kibana 8.11.\nThere are occasions in which you may want to create multiple thematically related dashboards and link them to each other. This is a better way to organize your visualizations that will result in smaller, more usable and more performant dashboards. In other situations, you may want to create an index where end users can find all the relevant dashboards listed together.\n,For these use cases (among others), you previously had to use the Markdown text panel, which had a series of issues. For example, users could not carry over their context such as filters and queries when nav…",
-          "link": "https://www.elastic.co/blog/streamline-kibana-dashboard-navigation-with-the-links-panel",
-          "publishedOn": "2023-11-14T00:00:00.000Z",
-          "wordCount": 13215,
-          "title": "Streamline Kibana dashboard navigation with the Links panel",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt8ceb09a20054b946/63e648571c653e112744c127/the-end-of-databases-B_(1).jpg"
         }
       ]
     },
@@ -579,7 +569,7 @@
           "description": "This month, we are releasing fixes that impact our self-hosted product, Azure DevOps Server, as well as Team Foundation Server 2018.3.2.\nNote: If you have Azure DevOps Server 2022, you should first update to Azure DevOps Server 2022.0.1 and then install Azure DevOps Server 2022.0.1 Patch 5.\nThe post November patches for Azure DevOps Server and Team Foundation Server appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/november-patches-for-azure-devops-server-and-team-foundation-server/",
           "publishedOn": "2023-11-14T18:41:24.000Z",
-          "wordCount": 4757,
+          "wordCount": 5051,
           "title": "November patches for Azure DevOps Server and Team Foundation Server",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2019/02/index-hero.jpg"
         },
@@ -599,7 +589,7 @@
           "description": "We have released Azure DevOps Server 2022.1 RC2. This is our last planned prerelease before our final release of Azure DevOps Server 2022.1. A direct upgrade is supported from Azure DevOps Server 2022.1 RC1, any version of TFS, including Team Foundation Server 2015 and newer.\nThe post Azure DevOps Server 2022.1 RC2 now available appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azure-devops-server-2022-1-rc2-now-available/",
           "publishedOn": "2023-10-31T18:41:34.000Z",
-          "wordCount": 5262,
+          "wordCount": 5554,
           "title": "Azure DevOps Server 2022.1 RC2 now available",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2018/09/index-hero.jpg"
         },
@@ -622,16 +612,6 @@
           "wordCount": 5062,
           "title": "Introducing Work Item Chart Filtering in Azure DevOps Dashboards",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2023/10/WIT-feature-1.png"
-        },
-        {
-          "id": "https://devblogs.microsoft.com/devops/?p=67794",
-          "author": "Vinayak Joshi",
-          "description": "If you’re using Azure DevOps for your CI/CD pipeline, you may be interested in our recent improvements to code coverage testing. Code coverage tests can help you identify areas of your code that are not tested, or not tested enough, and improve the quality of your automated tests and overall code quality.\nThe post Improved Code Coverage Tab Experience appeared first on Azure DevOps Blog.",
-          "link": "https://devblogs.microsoft.com/devops/improved-code-coverage-tab-experience/",
-          "publishedOn": "2023-10-19T09:39:01.000Z",
-          "wordCount": 5006,
-          "title": "Improved Code Coverage Tab Experience",
-          "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2018/08/vstsfeature.png"
         }
       ]
     },
@@ -906,12 +886,22 @@
       "siteUrl": "https://camunda.com/",
       "articles": [
         {
+          "id": "https://camunda.com/?p=94351",
+          "author": "Jason Bloomberg",
+          "description": "Digital transformation within the constraints of the telecom technology landscape has proven to be more challenging than expected. Read how process orchestration might be just the solution it needs.\nThe post Modernization in Telecom with Process Digitalization appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2023/11/modernization-in-telecom-with-process-digitalization/",
+          "publishedOn": "2023-11-17T16:04:32.000Z",
+          "wordCount": 4093,
+          "title": "Modernization in Telecom with Process Digitalization",
+          "imageUrl": "https://camunda.com/wp-content/uploads/2023/11/Camunda-Blog_November-2023_Modernization-Telecom_1200x627.png"
+        },
+        {
           "id": "https://camunda.com/?p=94128",
           "author": "Camunda Team",
           "description": "We're excited to announce the November 2023 alpha release of Camunda. Check out what's new.\nThe post Camunda Alpha Release November 2023 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/11/camunda-alpha-release-november-2023/",
           "publishedOn": "2023-11-14T15:39:59.000Z",
-          "wordCount": 4595,
+          "wordCount": 4597,
           "title": "Camunda Alpha Release November 2023",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/11/camunda-alpha-release-november-2023.png"
         },
@@ -921,7 +911,7 @@
           "description": "Camunda has received the highest scores possible in six criteria, including vision and innovation. The report cites Camunda’s market focus on endpoint orchestration and automation fabric goals.\nThe post Camunda: A Strong Performer in Forrester DPA Wave appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/11/camunda-strong-performer-forrester-dpa-wave/",
           "publishedOn": "2023-11-13T15:15:39.000Z",
-          "wordCount": 4014,
+          "wordCount": 4016,
           "title": "Camunda: A Strong Performer in Forrester DPA Wave",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/11/Forrester-Wave-DPA_Blog-Featured-Image_1200x627.png"
         },
@@ -931,7 +921,7 @@
           "description": "Unravel why API Orchestration is such an important topic and what  key concepts you need to understand.\nThe post What is API Orchestration? appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/11/what-is-api-orchestration/",
           "publishedOn": "2023-11-10T04:55:00.000Z",
-          "wordCount": 4970,
+          "wordCount": 4972,
           "title": "What is API Orchestration?",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/11/Camunda-Blog_September-2023_What-is-API-Orchestration_1200x627.png"
         },
@@ -941,7 +931,7 @@
           "description": "We’ve just released a WhatsApp Business Connector, joining Connectors such as SendGrid and Twilio in making it easier to incorporate communications in your business processes.\nThe post Elevate Customer Engagement with the WhatsApp Business Connector appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/11/elevate-customer-engagement-whatsapp-connector/",
           "publishedOn": "2023-11-09T04:38:08.000Z",
-          "wordCount": 3749,
+          "wordCount": 3763,
           "title": "Elevate Customer Engagement with the WhatsApp Business Connector",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/11/Customer-Engagement-WhatsApp-Business-Connector_1200x627.png"
         },
@@ -951,7 +941,7 @@
           "description": "Banking CEOs are now on notice: They need to demonstrate operational resiliency.\nThe post How Process Orchestration Strengthens Operational Resilience appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/11/process-orchestration-operational-resilience/",
           "publishedOn": "2023-11-07T19:52:01.000Z",
-          "wordCount": 4483,
+          "wordCount": 4497,
           "title": "How Process Orchestration Strengthens Operational Resilience",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/11/How-Process-Orchestration-Strengthens-Operational-Resilience_1200x627.png"
         },
@@ -961,7 +951,7 @@
           "description": "The Developer Experience team at Camunda aims to lower barriers for developers working in the Camunda ecosystem so they can be more effective.\nThe post DevEx at Camunda Turns 3! appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/11/devex-camunda-3-years/",
           "publishedOn": "2023-11-03T18:38:49.000Z",
-          "wordCount": 4510,
+          "wordCount": 4524,
           "title": "DevEx at Camunda Turns 3!",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/11/DevEx-at-Camunda-Turns-3_1200x627.png"
         },
@@ -971,7 +961,7 @@
           "description": "Learn how IT automation can boost efficiency, reduce costs, and streamline processes for your business, whether you're provisioning new servers to securing your infrastructure.\nThe post What is IT Automation? appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/11/what-is-it-automation/",
           "publishedOn": "2023-11-02T23:54:42.000Z",
-          "wordCount": 4831,
+          "wordCount": 4845,
           "title": "What is IT Automation?",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/11/Camunda-Blog_October-2023_What-is-IT-Automation_1200x627-1.png"
         },
@@ -991,19 +981,9 @@
           "description": "Why would you use both Camunda and Kafka in your architecture? Learn why and how to do it in this easy to follow tutorial.\nThe post Orchestration with Camunda and Kafka Confluent Cloud appeared first on Camunda.",
           "link": "https://camunda.com/blog/2023/11/orchestration-camunda-kafka/",
           "publishedOn": "2023-11-01T20:52:15.000Z",
-          "wordCount": 4594,
+          "wordCount": 4608,
           "title": "Orchestration with Camunda and Kafka Confluent Cloud",
           "imageUrl": "https://camunda.com/wp-content/uploads/2023/11/Orchestration-with-Camunda-8-and-Kafka-Confluent-Cloud_1200x627.png"
-        },
-        {
-          "id": "https://camunda.com/?p=93522",
-          "author": "Joyce Johnson",
-          "description": "Explore how Camunda's Play feature functions and how to test processes without disrupting your Zeebe cluster.\nThe post Using Play When You Have Connectors in Your Process appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2023/10/using-play-connectors-in-your-process/",
-          "publishedOn": "2023-10-31T21:36:35.000Z",
-          "wordCount": 4339,
-          "title": "Using Play When You Have Connectors in Your Process",
-          "imageUrl": "https://camunda.com/wp-content/uploads/2023/10/Camunda-Blog_October-2023_Play-Connectors_1200x627.png"
         }
       ]
     },
@@ -1041,21 +1021,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://cdn-img.tonarinoyj.jp/public/episode-thumbnail/14079602755396392866-6f8399083801b2b7feac9e634efffd6a"
-        },
-        {
-          "id": "tonarino_yj:episode:14079602755331321453",
-          "author": "原作/ＯＮＥ/漫画/村田雄介",
-          "description": "ワンパンマン",
-          "link": "https://tonarinoyj.jp/episode/14079602755331321453",
-          "publishedOn": "2023-10-18T15:00:00.000Z",
-          "wordCount": 195,
-          "title": "[第239話] ワンパンマン",
-          "enclosure": {
-            "url": "https://cdn-img.tonarinoyj.jp/public/episode-thumbnail/14079602755331321453-cc7cdd48a1b4b7acdfd0d12eaca8ff49",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://cdn-img.tonarinoyj.jp/public/episode-thumbnail/14079602755331321453-cc7cdd48a1b4b7acdfd0d12eaca8ff49"
         }
       ]
     },
@@ -1110,7 +1075,7 @@
           "description": "<p>GitHub is announcing general availability of GitHub Copilot Chat and previews of the new GitHub Copilot Enterprise offering, new AI-powered security features, and the GitHub Copilot Partner Program.</p>\n<p>The post <a rel=\"nofollow\" href=\"https://github.blog/2023-11-08-universe-2023-copilot-transforms-github-into-the-ai-powered-developer-platform/\">Universe 2023: Copilot transforms GitHub into the AI-powered developer platform</a> appeared first on <a rel=\"nofollow\" href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2023-11-08-universe-2023-copilot-transforms-github-into-the-ai-powered-developer-platform/",
           "publishedOn": "2023-11-08T17:10:52.000Z",
-          "wordCount": 4174,
+          "wordCount": 3137,
           "title": "Universe 2023: Copilot transforms GitHub into the AI-powered developer platform",
           "imageUrl": "https://github.blog/wp-content/uploads/2023/11/universe-blog-header.png"
         },
@@ -1273,7 +1238,7 @@
           "description": "Author: Paco Xu and Michael Yao (DaoCloud)\nOn September 26, 2023, the first day of\nKubeCon + CloudNativeCon + Open Source Summit China 2023,\nnearly 50 contributors gathered in Shanghai for the Kubernetes Contributor Summit.\n \nAll participants in the 2023 Kubernetes Contributor Summit\nThis marked the first in-person offline gathering held in China after three years of the pandemic.\nA joyful meetup\nThe event began with welcome speeches from Kevin Wang from Huawei Cloud,\none of the co-chairs of KubeCon, and Puja from Giant Swarm.\nFollowing the opening remarks, the contributors introduced themselves briefly. Most attendees were from China,\nwhile some contributors had made the journey from Europe and the United States specifically for the conference.\nTechnical experts from companies such as Mic…",
           "link": "https://kubernetes.io/blog/2023/10/20/kcs-shanghai/",
           "publishedOn": "2023-10-20T00:00:00.000Z",
-          "wordCount": 4297,
+          "wordCount": 4270,
           "title": "Blog: A Quick Recap of 2023 China Kubernetes Contributor Summit",
           "imageUrl": null
         }
@@ -1290,7 +1255,7 @@
           "description": "By Abhinaya Shetty, Bharath Mummadisetty",
           "link": "https://netflixtechblog.com/3-psyberg-automated-end-to-end-catch-up-260fbe366fe2?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-11-15T03:25:23.000Z",
-          "wordCount": 3884,
+          "wordCount": 3726,
           "title": "Psyberg: Automated end to end catch up",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*NhFne1sCHTTW8ZzahSZqAQ.png"
         },
@@ -1300,7 +1265,7 @@
           "description": "By Abhinaya Shetty, Bharath Mummadisetty",
           "link": "https://netflixtechblog.com/2-diving-deeper-into-psyberg-stateless-vs-stateful-data-processing-1d273b3aaefb?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-11-15T03:25:13.000Z",
-          "wordCount": 4374,
+          "wordCount": 4297,
           "title": "Diving Deeper into Psyberg: Stateless vs Stateful Data Processing",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:389/1*RnFDv0pCKpSxEiWBF_e2kw.png"
         },
@@ -1310,7 +1275,7 @@
           "description": "By Abhinaya Shetty, Bharath Mummadisetty",
           "link": "https://netflixtechblog.com/1-streamlining-membership-data-engineering-at-netflix-with-psyberg-f68830617dd1?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-11-15T03:24:49.000Z",
-          "wordCount": 4685,
+          "wordCount": 4624,
           "title": "1. Streamlining Membership Data Engineering at Netflix with Psyberg",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/0*i3Q9OtyFGyxh0Zon"
         },
@@ -1320,7 +1285,7 @@
           "description": "Iroro Orife, Chih-Wei Wu and Yun-Ning (Amy) Hung",
           "link": "https://netflixtechblog.com/detecting-speech-and-music-in-audio-content-afd64e6a5bf8?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-11-14T01:55:45.000Z",
-          "wordCount": 4671,
+          "wordCount": 4581,
           "title": "Detecting Speech and Music in Audio Content",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:720/1*W-4QTtWN_NDQt4HWr3EBBQ.gif"
         },
@@ -1330,7 +1295,7 @@
           "description": "Authors:Bruce Wobbe, Leticia Kwok",
           "link": "https://netflixtechblog.com/the-next-step-in-personalization-dynamic-sizzles-4dc4ce2011ef?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-11-08T20:56:53.000Z",
-          "wordCount": 4195,
+          "wordCount": 4157,
           "title": "The Next Step in Personalization: Dynamic Sizzles",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:948/0*OxP3aIMkQW6d-BjK"
         },
@@ -1340,7 +1305,7 @@
           "description": "Empowering video editors with multimodal machine learning to discover perfect moments across the entire Netflix catalog",
           "link": "https://netflixtechblog.com/building-in-video-search-936766f0017c?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-11-06T17:35:19.000Z",
-          "wordCount": 3940,
+          "wordCount": 3845,
           "title": "Building In-Video Search",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1000/0*32RfnKGMENXaqEX8"
         },
@@ -1350,7 +1315,7 @@
           "description": "Democratizing Stream Processing @ Netflix",
           "link": "https://netflixtechblog.com/streaming-sql-in-data-mesh-0d83f5a00d08?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-11-03T21:48:50.000Z",
-          "wordCount": 4649,
+          "wordCount": 4546,
           "title": "Streaming SQL in Data Mesh",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*VxZlXPDb8-d7Xf4kfSulnw.png"
         },
@@ -1360,7 +1325,7 @@
           "description": "How Netflix’s Container Platform Connects Linux Kernel Panics to Pods",
           "link": "https://netflixtechblog.com/kubernetes-and-kernel-panics-ed620b9c6225?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-10-27T16:05:58.000Z",
-          "wordCount": 4010,
+          "wordCount": 3931,
           "title": "Kubernetes And Kernel Panics",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*cjClRuyUQ67lu2shmjCObQ.png"
         }
@@ -1371,6 +1336,16 @@
       "feedUrl": "http://feeds.feedburner.com/blogspot/gJZg",
       "siteUrl": "http://blog.research.google/",
       "articles": [
+        {
+          "id": "http://blog.research.google/2023/11/emerging-practices-for-society-centered.html",
+          "author": null,
+          "description": "Posted by Anoop Sinha, Research Director, Technology & Society, and Yossi Matias, Vice President, Google Research\n\n\n\n\nThe first of Google’s AI Principles is to “Be socially beneficial.” As AI practitioners, we’re inspired by the transformative potential of AI technologies to benefit society and our shared environment at a scale and swiftness that wasn’t possible before. From helping address the climate crisis to helping transform healthcare, to making the digital world more accessible, our goal is to apply AI responsibly to be helpful to more people around the globe. Achieving global scale requires researchers and communities to think ahead — and act — collectively across the AI ecosystem.\n\n\n\nWe call this approach Society-Centered AI. It is both an extension and an expansion of Human-Cente…",
+          "link": "http://blog.research.google/2023/11/emerging-practices-for-society-centered.html",
+          "publishedOn": "2023-11-17T19:36:00.000Z",
+          "wordCount": 27945,
+          "title": "Emerging practices for Society-Centered AI",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghkgEei5l04Gs6hz4cLk9IqdDbXcx-41xZsRsJ-b2WHLDng1eZzJqo9eAwBZjZHc5P2akAKxT6vQLbn0-5nxy_OuPA5QIyWAV9Yy_4iIGch-zM2W-88Y-6e8HxkbG39hemnzheAx5GUvkMspUCaQiqE5RtxYvFKj-bI0pKzOhFVrWmSOgHJisYHBDfGdCl/w1200-h630-p-k-no-nu/lockup_GoogleResearch_FullColor_Hero.jpg"
+        },
         {
           "id": "http://blog.research.google/2023/11/responsible-ai-at-google-research_16.html",
           "author": null,
@@ -1530,16 +1505,6 @@
           "wordCount": 28075,
           "title": "English learners can now practice speaking on Search",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfHhrdHOFN2-ZoUw8hxN1Gdmd5WBtL5kVUe27TeajsI3nrES8Ah13W7MIKpZ2avrsxFTdkzk-sD1noswtk20cMyPS8GjDnVMPquyxc6EhR9r53bMzncRYlj5ZBM3jMF15ndusFp2fe9ipy4bksiTLfWJ1umdcUrQUxg78SOtXfjqMbSxW_OQsSTAVZ9HV6/w1200-h630-p-k-no-nu/Tivoli.gif"
-        },
-        {
-          "id": "http://blog.research.google/2023/10/measurement-induced-entanglement-phase.html",
-          "author": null,
-          "description": "Posted by Jesse Hoke, Student Researcher, and Pedram Roushan, Senior Research Scientist, Quantum AI Team\n\n\n\n\nQuantum mechanics allows many phenomena that are classically impossible: a quantum particle can exist in a superposition of two states simultaneously or be entangled with another particle, such that anything you do to one seems to instantaneously also affect the other, regardless of the space between them. But perhaps no aspect of quantum theory is as striking as the act of measurement. In classical mechanics, a measurement need not affect the system being studied. But a measurement on a quantum system can profoundly influence its behavior. For example, when a quantum bit of information, called a qubit, that is in a superposition of both “0” and “1” is measured, its state will sudde…",
-          "link": "http://blog.research.google/2023/10/measurement-induced-entanglement-phase.html",
-          "publishedOn": "2023-10-18T21:05:00.000Z",
-          "wordCount": 28081,
-          "title": "Measurement-induced entanglement phase transitions in a quantum circuit",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjD0d2Z3JPDRdCIvFvlT3VvnLnv7sx7HndEKEnek1t_g84zs__aAh3c2TAG5hPEPYjtjJM8hikDRiSHREYGrW_TrSbHeWVC6eCq6lN2nv4ZVqmtAEg2lTyK1G26q1T-Vo9TUL9YCxVD1tG_Q8hiWBU_cbvIUo_NWrs12hPFTvbJvML4x-OU_RBzidMcwAc_/w1200-h630-p-k-no-nu/order_param_blog_1200.jpg"
         }
       ]
     },
@@ -1549,12 +1514,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=46123",
+          "author": "Seth Godin",
+          "description": "For years, I’ve been using this picture of Neil Armstrong when I tell the story of meeting him and hearing his talk at one of his last public appearances: I wasn’t there when this photo was taken, so I relied on a Google image search to find it: I compounded Google’s error. Sorry, Buzz. Neil […]",
+          "link": "https://feeds.feedblitz.com/~/834592313/0/sethsblog~Whos-got-the-camera/",
+          "publishedOn": "2023-11-17T09:03:00.000Z",
+          "wordCount": 1048,
+          "title": "Who’s got the camera?",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061315.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=46121",
           "author": "Seth Godin",
           "description": "That’s the avoidable one and the one that usually causes the real trouble. When the first mistake flusters us, breaks our rhythm or messes with our confidence, we’re far more likely to make the second one. It’s almost impossible to avoid making a mistake. But avoiding the second mistake (or, just as likely, the cover-up) […]",
           "link": "https://feeds.feedblitz.com/~/834351925/0/sethsblog~The-second-mistake/",
           "publishedOn": "2023-11-16T09:01:00.000Z",
-          "wordCount": 978,
+          "wordCount": 979,
           "title": "The second mistake",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806132-1.jpg"
         },
@@ -1637,16 +1612,6 @@
           "wordCount": 1301,
           "title": "The paradigm flip",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061315.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=46061",
-          "author": "Seth Godin",
-          "description": "When electricity came along, there was a swath of industries that were trapped in an old way of thinking. The only ones that thrived were able to walk away from what they used to do and eagerly embrace something new. When the internet was young, the major book publishers had everything they needed to create […]",
-          "link": "https://feeds.feedblitz.com/~/820954448/0/sethsblog~We-used-to-do-that/",
-          "publishedOn": "2023-11-08T09:51:00.000Z",
-          "wordCount": 1068,
-          "title": "“We used to do that”",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg"
         }
       ]
     },
@@ -1655,6 +1620,46 @@
       "feedUrl": "https://blog.jetbrains.com/feed/",
       "siteUrl": "https://blog.jetbrains.com",
       "articles": [
+        {
+          "id": "https://blog.jetbrains.com/?post_type=clion&p=406624",
+          "author": "Anastasia Kazakova",
+          "description": "The Beta version of CLion Classic 2023.3 is now available with key improvements and changes that are expected in the upcoming release. Download build 233.11799.37 from our website, via the Toolbox App, or as a snap package for Ubuntu. If you are using CLion Nova, note that we do not plan to release it as […]",
+          "link": "https://blog.jetbrains.com/clion/2023/11/clion-2023-3-goes-beta/",
+          "publishedOn": "2023-11-17T10:45:40.000Z",
+          "wordCount": 2950,
+          "title": "CLion 2023.3 Goes Beta",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/11/Social_share_image_1280x720_CLion.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=teamcity&p=406651",
+          "author": "Olga Bedrina",
+          "description": "In this webinar, Daniel Gallo, a solutions engineer at JetBrains, and Kurt Dusek, a product manager at Appdome, discussed the integration of TeamCity and Appdome for building and securing Unity games in a continuous integration/continuous deployment (CI/CD) pipeline.  The webinar focused on automating this pipeline and integrating Appdome for runtime protection of mobile applications. It […]",
+          "link": "https://blog.jetbrains.com/teamcity/2023/11/webinar-recording-protect-unity-games-from-piracy-and-fraud-with-teamcity-and-appdome/",
+          "publishedOn": "2023-11-17T10:22:24.000Z",
+          "wordCount": 3108,
+          "title": "Webinar Recording: Protect Unity Games From Piracy and Fraud With TeamCity and Appdome",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/11/Frame-19-1.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=pycharm&p=406574",
+          "author": "Valeria Letusheva",
+          "description": "You can download the build from our website, get it from the free Toolbox App, or update to it using snaps if you’re an Ubuntu user. Download PyCharm 2023.3 EAP The seventh build of the Early Access Program for PyCharm 2023.3 brings improvements to: These are the most important updates for this build. For the full list […]",
+          "link": "https://blog.jetbrains.com/pycharm/2023/11/2023-3-eap-7/",
+          "publishedOn": "2023-11-17T09:42:14.000Z",
+          "wordCount": 2669,
+          "title": "PyCharm 2023.3 EAP 7 Is Out!",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/09/Blog_Social_share_image_1280x720_PyCharm-2x-2.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=research&p=406428",
+          "author": "Sofia Kulikova",
+          "description": "The Market Research & Analytics team at JetBrains formed more than 10 years ago as a group of marketing analysts and eventually transformed into the company’s Research Hub, which conducts research and helps other teams develop research competency. You may already be familiar with our work from the Developer Ecosystem Survey, but this is far […]",
+          "link": "https://blog.jetbrains.com/research/2023/11/crafting-the-perfect-name-the-story-of-jetbrains-aqua/",
+          "publishedOn": "2023-11-17T09:30:00.000Z",
+          "wordCount": 3763,
+          "title": "Crafting the Perfect Name: The Story of JetBrains Aqua",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/11/Blog_Social_share_image_1280x720-x2-1.png"
+        },
         {
           "id": "https://blog.jetbrains.com/?post_type=dataspell&p=405852",
           "author": "Stanislav Garkusha",
@@ -1693,7 +1698,7 @@
           "publishedOn": "2023-11-15T13:10:25.000Z",
           "wordCount": 2964,
           "title": "IntelliJ IDEA 2023.3 Beta 2 Is Out!",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/01/Blog_Social_share_image_1280x720.png"
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/11/2023.3-Beta-Blog_Social_share_image_1280x720_IntelliJIDEA-2x.png"
         },
         {
           "id": "https://blog.jetbrains.com/?post_type=pycharm&p=403384",
@@ -1701,7 +1706,7 @@
           "description": "Python 3.12 made its debut on October 2, 2023, in keeping with the annual tradition of releasing new versions every October. This latest iteration introduces a range of new features and enhancements that we will delve into in this blog post. For a comprehensive list of changes, you can refer to the official documentation. F-Strings […]",
           "link": "https://blog.jetbrains.com/pycharm/2023/11/python-3-12/",
           "publishedOn": "2023-11-15T11:15:16.000Z",
-          "wordCount": 4568,
+          "wordCount": 4575,
           "title": "Unveiling Python 3.12: What’s New in the World of Python?",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/11/Copy-of-Social_Share_1280x720.png"
         },
@@ -1721,7 +1726,7 @@
           "description": "You can download the build from our website, get it from the free Toolbox App, or update to it using snaps if you’re an Ubuntu user. Download PyCharm 2023.3 EAP The sixth build of the Early Access Program for PyCharm 2023.3 brings improvements to: These are the most important updates for this build. For the full list […]",
           "link": "https://blog.jetbrains.com/pycharm/2023/11/2023-3-eap-6/",
           "publishedOn": "2023-11-14T19:57:42.000Z",
-          "wordCount": 2704,
+          "wordCount": 2666,
           "title": "PyCharm 2023.3 EAP 6 Is Out!",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/09/Blog_Social_share_image_1280x720_PyCharm-2x-2.png"
         },
@@ -1734,46 +1739,6 @@
           "wordCount": 3022,
           "title": "Automatically Analyze ASP.NET Core Performance With Dynamic Program Analysis",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/11/rs-how-tos-social_share_blog_1280x720.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=phpstorm&p=405202",
-          "author": "Tania Goral",
-          "description": "Please welcome PhpStorm 2023.3 Beta. This release allows you to try new features from the upcoming PhpStorm 2023.3.  The Beta build is part of the EAP, which means that it’s free to use and you can install it side by side with a stable version of PhpStorm. If something doesn’t work correctly, you can quickly […]",
-          "link": "https://blog.jetbrains.com/phpstorm/2023/11/phpstorm-2023-3-beta/",
-          "publishedOn": "2023-11-13T19:21:19.000Z",
-          "wordCount": 2703,
-          "title": "PhpStorm 2023.3 Beta",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/11/ps-release-social_share_blog_phpstorm_20233_beta_1280x720.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=go&p=405245",
-          "author": "Ruslan Akhmetzianov",
-          "description": "Get the Beta build via the Toolbox App, from our website, by using a snap package (for Ubuntu), or right from inside GoLand by selecting Check IDE updates for: Early Access Program in Settings | Appearance & Behavior | System Settings | Updates. Download GoLand Beta The Beta version provides all the new features and […]",
-          "link": "https://blog.jetbrains.com/go/2023/11/13/goland-2023-3-beta-is-out/",
-          "publishedOn": "2023-11-13T16:20:07.000Z",
-          "wordCount": 3055,
-          "title": "Goland 2023.3 Beta Is Out!",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2019/01/GoLand_featured.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=webstorm&p=404323",
-          "author": "David Watson",
-          "description": "WebStorm 2023.2.5, the fifth bug-fix update for WebStorm 2023.2, is now available! You can update to v2023.2.5 by using the Toolbox App, installing it right from the IDE, or downloading it from our website. Notable fixes Here is what we’ve fixed in v2023.2.5: The IDE no longer encounters startup failures accompanied by the \"Cannot connect […]",
-          "link": "https://blog.jetbrains.com/webstorm/2023/11/webstorm-2023-2-5/",
-          "publishedOn": "2023-11-13T10:07:06.000Z",
-          "wordCount": 2554,
-          "title": "WebStorm 2023.2.5 Is Now Available",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/11/ws-2023-2-5-social.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=qodana&p=390170",
-          "author": "Maarten Balliauw",
-          "description": "Qodana is a platform that brings all of the inspections from JetBrains IDEs to the CI/CD pipeline, to help manage code quality. Today, we’d like to share the story of the cloud team at Zynex Monitoring Solutions, who have recently adopted Qodana to monitor the quality and security of their patient monitoring platform. We spoke […]",
-          "link": "https://blog.jetbrains.com/qodana/2023/11/how-zynex-monitoring-solutions-uses-qodana-to-manage-code-quality-for-their-net-applications-case-study/",
-          "publishedOn": "2023-11-13T09:57:22.000Z",
-          "wordCount": 3295,
-          "title": "How Zynex Monitoring Solutions uses Qodana to Manage Code Quality for their .NET Applications – Case Study",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/09/qd-features-social_share_blog_1280x720.png"
         }
       ]
     }

@@ -559,7 +559,7 @@
           "description": "This month, we are releasing fixes that impact our self-hosted product, Azure DevOps Server.\nAzure DevOps Server 2022.1\nAzure DevOps Server 2020.1.2\nAzure DevOps Server 2022.1 Patch 1\nThe post December patches for Azure DevOps Server appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/december-patches-for-azure-devops-server-3/",
           "publishedOn": "2023-12-12T19:05:36.000Z",
-          "wordCount": 5544,
+          "wordCount": 5586,
           "title": "December patches for Azure DevOps Server",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2019/02/index-hero.jpg"
         },
@@ -569,7 +569,7 @@
           "description": "Several years ago, with the introduction of Visual Studio 2019, we launched a completely revamped work item experience. This updated view operates entirely on REST, replacing the deprecated SOAP APIs utilized in the legacy version. Although Visual Studio 2022 still includes the option to revert to the legacy view,\nThe post Work Items in Visual Studio appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/work-items-in-visual-studio/",
           "publishedOn": "2023-12-01T14:21:15.000Z",
-          "wordCount": 5717,
+          "wordCount": 5419,
           "title": "Work Items in Visual Studio",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2022/10/sketch-3.png"
         },
@@ -903,7 +903,7 @@
           "description": "<p>Learn about how we run a scalable vulnerability management program built on top of GitHub. </p>\n<p>The post <a href=\"https://github.blog/2023-12-14-scaling-vulnerability-management-across-thousands-of-services-and-more-than-150-million-findings/\">Scaling vulnerability management across thousands of services and more than 150 million findings</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2023-12-14-scaling-vulnerability-management-across-thousands-of-services-and-more-than-150-million-findings/",
           "publishedOn": "2023-12-14T14:00:22.000Z",
-          "wordCount": 2885,
+          "wordCount": 3785,
           "title": "Scaling vulnerability management across thousands of services and more than 150 million findings",
           "imageUrl": "https://github.blog/wp-content/uploads/2023/12/Security-DarkMode-1-2.png"
         },
@@ -923,7 +923,7 @@
           "description": "<p>This blog post describes two linked vulnerabilities found in Frigate, an AI-powered security camera manager, that could have enabled an attacker to silently gain remote code execution.</p>\n<p>The post <a href=\"https://github.blog/2023-12-13-securing-our-home-labs-frigate-code-review/\">Securing our home labs: Frigate code review</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2023-12-13-securing-our-home-labs-frigate-code-review/",
           "publishedOn": "2023-12-13T17:00:50.000Z",
-          "wordCount": 3382,
+          "wordCount": 2482,
           "title": "Securing our home labs: Frigate code review",
           "imageUrl": "https://github.blog/wp-content/uploads/2023/10/Security-DarkMode-4.png?fit=1200%2C630"
         },
@@ -943,7 +943,7 @@
           "description": "<p>GitHub uses MySQL to store vast amounts of relational data. This is the story of how we seamlessly upgraded our production fleet to MySQL 8.0.</p>\n<p>The post <a href=\"https://github.blog/2023-12-07-upgrading-github-com-to-mysql-8-0/\">Upgrading GitHub.com to MySQL 8.0</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2023-12-07-upgrading-github-com-to-mysql-8-0/",
           "publishedOn": "2023-12-07T22:00:36.000Z",
-          "wordCount": 4294,
+          "wordCount": 3394,
           "title": "Upgrading GitHub.com to MySQL 8.0",
           "imageUrl": "https://github.blog/wp-content/uploads/2023/12/Productivity-DarkMode-1.png"
         },
@@ -1011,12 +1011,32 @@
       "siteUrl": "https://kubernetes.io/",
       "articles": [
         {
+          "id": "https://kubernetes.io/blog/2023/12/18/kubernetes-1-29-feature-loadbalancer-ip-mode-alpha/",
+          "author": null,
+          "description": "Author: Aohan Yang\nThis blog introduces a new alpha feature in Kubernetes 1.29.\nIt provides a configurable approach to define how Service implementations,\nexemplified in this blog by kube-proxy,\nhandle traffic from pods to the Service, within the cluster.\nBackground\nIn older Kubernetes releases, the kube-proxy would intercept traffic that was destined for the IP\naddress associated with a Service of type: LoadBalancer. This happened whatever mode you used\nfor kube-proxy.\nThe interception implemented the expected behavior (traffic eventually reaching the expected\nendpoints behind the Service). The mechanism to make that work depended on the mode for kube-proxy;\non Linux, kube-proxy in iptables mode would redirecting packets directly to the endpoint; in ipvs mode,\nkube-proxy would configure t…",
+          "link": "https://kubernetes.io/blog/2023/12/18/kubernetes-1-29-feature-loadbalancer-ip-mode-alpha/",
+          "publishedOn": "2023-12-18T00:00:00.000Z",
+          "wordCount": 4355,
+          "title": "Blog: Kubernetes 1.29: New (alpha) Feature, Load Balancer IP Mode for Services",
+          "imageUrl": null
+        },
+        {
+          "id": "https://kubernetes.io/blog/2023/12/18/read-write-once-pod-access-mode-ga/",
+          "author": null,
+          "description": "Author: Chris Henzie (Google)\nWith the release of Kubernetes v1.29, the ReadWriteOncePod volume access mode\nhas graduated to general availability: it's part of Kubernetes' stable API. In\nthis blog post, I'll take a closer look at this access mode and what it does.\nWhat is ReadWriteOncePod?\nReadWriteOncePod is an access mode for\nPersistentVolumes (PVs)\nand PersistentVolumeClaims (PVCs)\nintroduced in Kubernetes v1.22. This access mode enables you to restrict volume\naccess to a single pod in the cluster, ensuring that only one pod can write to\nthe volume at a time. This can be particularly useful for stateful workloads\nthat require single-writer access to storage.\nFor more context on access modes and how ReadWriteOncePod works read\nWhat are access modes and why are they important?\nin the Intr…",
+          "link": "https://kubernetes.io/blog/2023/12/18/read-write-once-pod-access-mode-ga/",
+          "publishedOn": "2023-12-18T00:00:00.000Z",
+          "wordCount": 4062,
+          "title": "Blog: Kubernetes 1.29: Single Pod Access Mode for PersistentVolumes Graduates to Stable",
+          "imageUrl": null
+        },
+        {
           "id": "https://kubernetes.io/blog/2023/12/15/csi-node-expand-secret-support-ga/",
           "author": null,
           "description": "Authors: Humble Chirammal (Vmware), Louis Koo (deeproute.ai)\nKubernetes version v1.29 brings generally available support for authentication\nduring CSI (Container Storage Interface) storage resize operations.\nLet's embark on the evolution of this feature, initially introduced in alpha in\nKubernetes v1.25, and unravel the changes accompanying its transition to GA.\nAuthenticated CSI storage resizing unveiled\nKubernetes harnesses the capabilities of CSI to seamlessly integrate with third-party\nstorage systems, empowering your cluster to seamlessly expand storage volumes\nmanaged by the CSI driver. The recent elevation of authentication secret support\nfor resizes from Beta to GA ushers in new horizons, enabling volume expansion in\nscenarios where the underlying storage operation demands credenti…",
           "link": "https://kubernetes.io/blog/2023/12/15/csi-node-expand-secret-support-ga/",
           "publishedOn": "2023-12-15T00:00:00.000Z",
-          "wordCount": 4143,
+          "wordCount": 4163,
           "title": "Blog: Kubernetes 1.29: CSI Storage Resizing Authenticated and Generally Available in v1.29",
           "imageUrl": null
         },
@@ -1026,7 +1046,7 @@
           "description": "Author: Sunny Song (Google)\nThe v1.29 release of Kubernetes introduced an alpha feature to support modifying a volume\nby changing the volumeAttributesClassName that was specified for a PersistentVolumeClaim (PVC).\nWith the feature enabled, Kubernetes can handle updates of volume attributes other than capacity.\nAllowing volume attributes to be changed without managing it through different\nprovider's APIs directly simplifies the current flow.\nYou can read about VolumeAttributesClass usage details in the Kubernetes documentation\nor you can read on to learn about why the Kubernetes project is supporting this feature.\nVolumeAttributesClass\nThe new storage.k8s.io/v1alpha1 API group provides two new types:\nVolumeAttributesClass\nRepresents a specification of mutable volume attributes defined by th…",
           "link": "https://kubernetes.io/blog/2023/12/15/kubernetes-1-29-volume-attributes-class/",
           "publishedOn": "2023-12-15T00:00:00.000Z",
-          "wordCount": 4174,
+          "wordCount": 4194,
           "title": "Blog: Kubernetes 1.29: VolumeAttributesClass for Volume Modification",
           "imageUrl": null
         },
@@ -1036,7 +1056,7 @@
           "description": "Authors: Michael McCune (Red Hat), Andrew Sy Kim (Google)\nFor Kubernetes v1.29, you need to use additional components to integrate your\nKubernetes cluster with a cloud infrastructure provider. By default, Kubernetes\nv1.29 components abort if you try to specify integration with any cloud provider using\none of the legacy compiled-in cloud provider integrations. If you want to use a legacy\nintegration, you have to opt back in - and a future release will remove even that option.\nIn 2018, the Kubernetes community agreed to form the Cloud Provider Special\nInterest Group (SIG), with a mission to externalize all cloud provider\nintegrations and remove all the existing in-tree cloud provider integrations.\nIn January 2019, the Kubernetes community approved the initial draft of\nKEP-2395: Removing In-T…",
           "link": "https://kubernetes.io/blog/2023/12/14/cloud-provider-integration-changes/",
           "publishedOn": "2023-12-14T17:30:00.000Z",
-          "wordCount": 5052,
+          "wordCount": 5072,
           "title": "Blog: Kubernetes 1.29: Cloud Provider Integrations Are Now Separate Components",
           "imageUrl": null
         },
@@ -1046,7 +1066,7 @@
           "description": "Authors: Kubernetes v1.29 Release Team\nEditors: Carol Valencia, Kristin Martin, Abigail McCarthy, James Quigley\nAnnouncing the release of Kubernetes v1.29: Mandala (The Universe), the last release of 2023!\nSimilar to previous releases, the release of Kubernetes v1.29 introduces new stable, beta, and alpha features. The consistent delivery of top-notch releases underscores the strength of our development cycle and the vibrant support from our community.\nThis release consists of 49 enhancements. Of those enhancements, 11 have graduated to Stable, 19 are entering Beta and 19 have graduated to Alpha.\nRelease theme and logo\nKubernetes v1.29: Mandala (The Universe) ✨🌌\nJoin us on a cosmic journey with Kubernetes v1.29!\nThis release is inspired by the beautiful art form that is Mandala—a symbol o…",
           "link": "https://kubernetes.io/blog/2023/12/13/kubernetes-v1-29-release/",
           "publishedOn": "2023-12-13T00:00:00.000Z",
-          "wordCount": 6066,
+          "wordCount": 6086,
           "title": "Blog: Kubernetes v1.29: Mandala",
           "imageUrl": null
         },
@@ -1056,7 +1076,7 @@
           "description": "Authors: Candace Holman (Red Hat), Dave Protasowski (VMware), Gaurav K Ghildiyal (Google), John Howard (Google), Simone Rodigari (IBM)\nRecently, the Gateway API announced its v1.0 GA release, marking a huge milestone for the project.\nAlong with stabilizing some of the core functionality in the API, a number of exciting new experimental features have been added.\nBackend TLS Policy\nBackendTLSPolicy is a new Gateway API type used for specifying the TLS configuration of the connection from the Gateway to backend Pods via the Service API object.\nIt is specified as a Direct PolicyAttachment without defaults or overrides, applied to a Service that accesses a backend, where the BackendTLSPolicy resides in the same namespace as the Service to which it is applied.\nAll Gateway API Routes that point t…",
           "link": "https://kubernetes.io/blog/2023/11/28/gateway-api-ga/",
           "publishedOn": "2023-11-28T18:00:00.000Z",
-          "wordCount": 5146,
+          "wordCount": 5166,
           "title": "Blog: New Experimental Features in Gateway API v1.0",
           "imageUrl": "https://gateway-api.sigs.k8s.io/geps/images/1897-TLStermtypes.png"
         },
@@ -1066,7 +1086,7 @@
           "description": "Author: Sandipan Panda\nWelcome to another edition of the SIG spotlight blog series, where we\nhighlight the incredible work being done by various Special Interest\nGroups (SIGs) within the Kubernetes project. In this edition, we turn\nour attention to SIG Testing,\na group interested in effective testing of Kubernetes and automating\naway project toil. SIG Testing focus on creating and running tools and\ninfrastructure that make it easier for the community to write and run\ntests, and to contribute, analyze and act upon test results.\nTo gain some insights into SIG Testing, Sandipan\nPanda spoke with Michelle Shepardson,\na senior software engineer at Google and a chair of SIG Testing, and\nPatrick Ohly, a software engineer and architect at\nIntel and a SIG Testing Tech Lead.\nMeet the contributors\nSan…",
           "link": "https://kubernetes.io/blog/2023/11/24/sig-testing-spotlight-2023/",
           "publishedOn": "2023-11-24T00:00:00.000Z",
-          "wordCount": 5117,
+          "wordCount": 5137,
           "title": "Blog: Spotlight on SIG Testing",
           "imageUrl": null
         }
@@ -1243,16 +1263,6 @@
           "wordCount": 27672,
           "title": "Open sourcing Project Guideline: A platform for computer vision accessibility technology",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrfdKR8ZnuQ1jMtsIsG9AViwd_vkXhbwavfXUC_RYoIeTF8EppGOxlWSp9DNCgzFlUY0Ea4q3deujDXSdXJ_C4lOC89eGfIXz_POk_upHVlx5DdBab8rh0FQuigi3fhluHAOX30GhT9LkZnpU5KMmDMp8jWNpjxKDI8nLwYTqAcExYk3tW7klykfOZ-Sm_/w1200-h630-p-k-no-nu/hero.jpg"
-        },
-        {
-          "id": "http://blog.research.google/2023/11/emerging-practices-for-society-centered.html",
-          "author": null,
-          "description": "Posted by Anoop Sinha, Research Director, Technology & Society, and Yossi Matias, Vice President, Google Research\n\n\n\n\nThe first of Google’s AI Principles is to “Be socially beneficial.” As AI practitioners, we’re inspired by the transformative potential of AI technologies to benefit society and our shared environment at a scale and swiftness that wasn’t possible before. From helping address the climate crisis to helping transform healthcare, to making the digital world more accessible, our goal is to apply AI responsibly to be helpful to more people around the globe. Achieving global scale requires researchers and communities to think ahead — and act — collectively across the AI ecosystem.\n\n\n\nWe call this approach Society-Centered AI. It is both an extension and an expansion of Human-Cente…",
-          "link": "http://blog.research.google/2023/11/emerging-practices-for-society-centered.html",
-          "publishedOn": "2023-11-17T19:36:00.000Z",
-          "wordCount": 27945,
-          "title": "Emerging practices for Society-Centered AI",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghkgEei5l04Gs6hz4cLk9IqdDbXcx-41xZsRsJ-b2WHLDng1eZzJqo9eAwBZjZHc5P2akAKxT6vQLbn0-5nxy_OuPA5QIyWAV9Yy_4iIGch-zM2W-88Y-6e8HxkbG39hemnzheAx5GUvkMspUCaQiqE5RtxYvFKj-bI0pKzOhFVrWmSOgHJisYHBDfGdCl/w1200-h630-p-k-no-nu/lockup_GoogleResearch_FullColor_Hero.jpg"
         }
       ]
     },
@@ -1262,12 +1272,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=48066",
+          "author": "Seth Godin",
+          "description": "“I’ll remember it later.” I’ll confess, I rarely do. It turns out, it’s easier to remember questions than answers. And tools like Google Docs and photos in the cloud give us a chance to build our own personal search engine. It takes 14 steps to construct the pages in one of my InDesign projects. Inevitably, […]",
+          "link": "https://feeds.feedblitz.com/~/851910074/0/sethsblog~Personal-process-notation/",
+          "publishedOn": "2023-12-17T09:29:00.000Z",
+          "wordCount": 1091,
+          "title": "Personal process notation",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=48064",
           "author": "Seth Godin",
           "description": "Friendly doesn’t mean saying ‘yes’ all the time, or changing every policy, or giving up our principles. Friendly is how it feels, not what it does.",
           "link": "https://feeds.feedblitz.com/~/851816768/0/sethsblog~The-friendly-professional/",
           "publishedOn": "2023-12-16T09:49:00.000Z",
-          "wordCount": 905,
+          "wordCount": 906,
           "title": "The friendly professional",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg"
         },
@@ -1350,16 +1370,6 @@
           "wordCount": 962,
           "title": "All species are invasive species",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061310-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=47944",
-          "author": "Seth Godin",
-          "description": "A colleague got an angry note. It concluded with, “you should know better.” The transgression? The sender was offended that my friend had written a post about a concept she’s been developing for nearly a decade. Of course, no idea is unique, and the posted idea sort of rhymed with one that the professor had […]",
-          "link": "https://feeds.feedblitz.com/~/846275930/0/sethsblog~Abundance-and-ideas/",
-          "publishedOn": "2023-12-07T09:14:00.000Z",
-          "wordCount": 1198,
-          "title": "Abundance and ideas",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806133-1.jpg"
         }
       ]
     },
@@ -1464,7 +1474,7 @@
           "description": "The power of generative AI is now freely available to teams using YouTrack! AI Assistant, powered by JetBrains AI, is available in YouTrack 2023.3. It helps you generate summaries for content in tasks, articles, and support tickets, provides a localized summary of content in any language, and composes replies and comments for you. You can […]",
           "link": "https://blog.jetbrains.com/youtrack/2023/12/discover-the-power-of-jetbrains-ai-in-youtrack-for-free/",
           "publishedOn": "2023-12-13T15:04:38.000Z",
-          "wordCount": 3870,
+          "wordCount": 3871,
           "title": "Discover the Power of JetBrains AI in YouTrack for Free",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/12/share_en.png"
         },

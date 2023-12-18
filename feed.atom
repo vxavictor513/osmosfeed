@@ -1,10 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-12-17T00:21:37.436Z</id>
+    <id>urn:2023-12-18T00:20:32.385Z</id>
     <title>osmos::feed</title>
-    <updated>2023-12-17T00:21:37.436Z</updated>
+    <updated>2023-12-18T00:20:32.385Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Blog: Kubernetes 1.29: New (alpha) Feature, Load Balancer IP Mode for Services]]></title>
+        <id>https://kubernetes.io/blog/2023/12/18/kubernetes-1-29-feature-loadbalancer-ip-mode-alpha/</id>
+        <link href="https://kubernetes.io/blog/2023/12/18/kubernetes-1-29-feature-loadbalancer-ip-mode-alpha/"/>
+        <updated>2023-12-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Author: Aohan Yang
+This blog introduces a new alpha feature in Kubernetes 1.29.
+It provides a configurable approach to define how Service implementations,
+exemplified in this blog by kube-proxy,
+handle traffic from pods to the Service, within the cluster.
+Background
+In older Kubernetes releases, the kube-proxy would intercept traffic that was destined for the IP
+address associated with a Service of type: LoadBalancer. This happened whatever mode you used
+for kube-proxy.
+The interception implemented the expected behavior (traffic eventually reaching the expected
+endpoints behind the Service). The mechanism to make that work depended on the mode for kube-proxy;
+on Linux, kube-proxy in iptables mode would redirecting packets directly to the endpoint; in ipvs mode,
+kube-proxy would configure t…]]></summary>
+        <author>
+            <name>Kubernetes – Production-Grade Container Orchestration</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blog: Kubernetes 1.29: Single Pod Access Mode for PersistentVolumes Graduates to Stable]]></title>
+        <id>https://kubernetes.io/blog/2023/12/18/read-write-once-pod-access-mode-ga/</id>
+        <link href="https://kubernetes.io/blog/2023/12/18/read-write-once-pod-access-mode-ga/"/>
+        <updated>2023-12-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Author: Chris Henzie (Google)
+With the release of Kubernetes v1.29, the ReadWriteOncePod volume access mode
+has graduated to general availability: it's part of Kubernetes' stable API. In
+this blog post, I'll take a closer look at this access mode and what it does.
+What is ReadWriteOncePod?
+ReadWriteOncePod is an access mode for
+PersistentVolumes (PVs)
+and PersistentVolumeClaims (PVCs)
+introduced in Kubernetes v1.22. This access mode enables you to restrict volume
+access to a single pod in the cluster, ensuring that only one pod can write to
+the volume at a time. This can be particularly useful for stateful workloads
+that require single-writer access to storage.
+For more context on access modes and how ReadWriteOncePod works read
+What are access modes and why are they important?
+in the Intr…]]></summary>
+        <author>
+            <name>Kubernetes – Production-Grade Container Orchestration</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Personal process notation]]></title>
+        <id>https://seths.blog/?p=48066</id>
+        <link href="https://feeds.feedblitz.com/~/851910074/0/sethsblog~Personal-process-notation/"/>
+        <updated>2023-12-17T09:29:00.000Z</updated>
+        <summary type="html"><![CDATA[“I’ll remember it later.” I’ll confess, I rarely do. It turns out, it’s easier to remember questions than answers. And tools like Google Docs and photos in the cloud give us a chance to build our own personal search engine. It takes 14 steps to construct the pages in one of my InDesign projects. Inevitably, […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The friendly professional]]></title>
         <id>https://seths.blog/?p=48064</id>
@@ -805,16 +861,6 @@ The use of avatars in experiments isn’t just about how users will interact and
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Abundance and ideas]]></title>
-        <id>https://seths.blog/?p=47944</id>
-        <link href="https://feeds.feedblitz.com/~/846275930/0/sethsblog~Abundance-and-ideas/"/>
-        <updated>2023-12-07T09:14:00.000Z</updated>
-        <summary type="html"><![CDATA[A colleague got an angry note. It concluded with, “you should know better.” The transgression? The sender was offended that my friend had written a post about a concept she’s been developing for nearly a decade. Of course, no idea is unique, and the posted idea sort of rhymed with one that the professor had […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[A Bootiful Podcast: Spring creator Rod Johnson and Oracle vice president Heather VanCura]]></title>
         <id>https://spring.io/blog/2023/12/07/spring-creator-rod-johnson-and-oracle-vice-president-heather-vancura</id>
         <link href="https://spring.io/blog/2023/12/07/spring-creator-rod-johnson-and-oracle-vice-president-heather-vancura"/>
@@ -1585,25 +1631,6 @@ The post New Boards Hub, Fall Update appeared first on Azure DevOps Blog.]]></su
         <summary type="html"><![CDATA[10 new HashiCorp Vault ecosystem integrations extend security use cases for customers.]]></summary>
         <author>
             <name>HashiCorp Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Emerging practices for Society-Centered AI]]></title>
-        <id>http://blog.research.google/2023/11/emerging-practices-for-society-centered.html</id>
-        <link href="http://blog.research.google/2023/11/emerging-practices-for-society-centered.html"/>
-        <updated>2023-11-17T19:36:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted by Anoop Sinha, Research Director, Technology & Society, and Yossi Matias, Vice President, Google Research
-
-
-
-
-The first of Google’s AI Principles is to “Be socially beneficial.” As AI practitioners, we’re inspired by the transformative potential of AI technologies to benefit society and our shared environment at a scale and swiftness that wasn’t possible before. From helping address the climate crisis to helping transform healthcare, to making the digital world more accessible, our goal is to apply AI responsibly to be helpful to more people around the globe. Achieving global scale requires researchers and communities to think ahead — and act — collectively across the AI ecosystem.
-
-
-
-We call this approach Society-Centered AI. It is both an extension and an expansion of Human-Cente…]]></summary>
-        <author>
-            <name>Google AI Blog</name>
         </author>
     </entry>
 </feed>

@@ -22,6 +22,54 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-12-30 datetime="2023-12-30T09:43:00.000Z">2023-12-30</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-12-30 datetime="2023-12-30T09:43:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Seth Godin&#x27;s Blog on marketing, tribes and respect</button>
+                  <a class="source-heading__link" href="https://seths.blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://seths.blog/?p&#x3D;46439"
+                        open
+                      >
+                        <summary class="article-expander__title">Benign vs. normal</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://feeds.feedblitz.com/~/856298360/0/sethsblog~Benign-vs-normal/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806137-1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>We evolved to be wary of change. Our attention is limited, new things can be a threat and the status quo feels comfortable. As a result, we spend a lot of time and energy being afraid (and arguing about) the upcoming changes in our lives, but almost no time at all thinking about the things […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-12-29 datetime="2023-12-29T17:00:24.000Z">2023-12-29</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-12-29 datetime="2023-12-29T17:00:24.000Z"></time>
           </button>
@@ -1462,40 +1510,6 @@ The go-logr API is designed arou…</span>
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Seth Godin&#x27;s Blog on marketing, tribes and respect</button>
-                  <a class="source-heading__link" href="https://seths.blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://seths.blog/?p&#x3D;46341"
-                        open
-                      >
-                        <summary class="article-expander__title">The clamp and the mallet</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://feeds.feedblitz.com/~/852306803/0/sethsblog~The-clamp-and-the-mallet/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>While building a project, I found that a key part was stuck. I tapped it with a mallet, then harder, and eventually whacked at it. No luck. Then I got smart and put three clamps around the part, gently turning each one, increasing the pressure, until it simply popped out. Persistent, gentle pressure almost always […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >Spring</button>
                   <a class="source-heading__link" href="https://spring.io">Open</a>
                 </h3>
@@ -2789,7 +2803,7 @@ The post Updates to Azure DevOps Demo Generator and Labs appeared first on Azure
                             <span class="media-object__text">
                               <span>Learn about how we run a scalable vulnerability management program built on top of GitHub. 
 The post Scaling vulnerability management across thousands of services and more than 150 million findings appeared first on The GitHub Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
+                                &ensp;<span class="article-reading-time">(&hairsp;10
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -3502,7 +3516,7 @@ Large embedding models have emerged as a fundamental tool for various applicatio
                             <span class="media-object__text">
                               <span>GitHub uses MySQL to store vast amounts of relational data. This is the story of how we seamlessly upgraded our production fleet to MySQL 8.0.
 The post Upgrading GitHub.com to MySQL 8.0 appeared first on The GitHub Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                &ensp;<span class="article-reading-time">(&hairsp;11
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -3931,178 +3945,10 @@ The post Work Items in Visual Studio appeared first on Azure DevOps Blog.</span>
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-11-30 datetime="2023-11-30T18:53:14.000Z">2023-11-30</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-11-30 datetime="2023-11-30T18:53:14.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >AWS News Blog</button>
-                  <a class="source-heading__link" href="https://aws.amazon.com/blogs/aws/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="b5f470ba74c346ed6f525a2a5e92522dc46cd4d3"
-                        open
-                      >
-                        <summary class="article-expander__title">Use AWS Fault Injection Service to demonstrate multi-region and multi-AZ application resilience</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://aws.amazon.com/blogs/aws/use-aws-fault-injection-service-to-demonstrate-multi-region-and-multi-az-application-resilience/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/11/24/FIS-blog-feat-img.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>AWS Fault Injection Service (FIS) helps you to put chaos engineering into practice at scale. Today we are launching new scenarios that will let you demonstrate that your applications perform as intended if an AWS Availability Zone experiences a full power interruption or connectivity from one AWS region to another is lost. You can use […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="f677c6705f71814fd999f39b325af14c6e9289e9"
-                        open
-                      >
-                        <summary class="article-expander__title">Zonal autoshift – Automatically shift your traffic away from Availability Zones when we detect potential issues</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://aws.amazon.com/blogs/aws/zonal-autoshift-automatically-shift-your-traffic-away-from-availability-zones-when-we-detect-potential-issues/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/11/18/Zonal-Autoshift-feat-img2-1260x630.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Today we’re launching zonal autoshift, a new capability of Amazon Route 53 Application Recovery Controller that you can enable to automatically and safely shift your workload’s traffic away from an Availability Zone when AWS identifies a potential failure affecting that Availability Zone and shift it back once the failure is resolved. When deploying resilient applications, […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="66dd6400ac1e7d9ba598572e5cd829f82e8b6c05"
-                        open
-                      >
-                        <summary class="article-expander__title">IDE extension for AWS Application Composer enhances visual modern applications development with AI-generated IaC</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://aws.amazon.com/blogs/aws/ide-extension-for-aws-application-composer-enhances-visual-modern-applications-development-with-ai-generated-iac/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/11/22/AWS-Application-Composer_Blog.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Today, I’m happy to share the integrated development environment (IDE) extension for AWS Application Composer. Now you can use AWS Application Composer directly in your IDE to visually build modern applications and iteratively develop your infrastructure as code templates with Amazon CodeWhisperer. Announced as preview at AWS re:Invent 2022 and generally available in March 2023, Application Composer is […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="8202e0701d0edec7189fd74a2684035983c2a23f"
-                        open
-                      >
-                        <summary class="article-expander__title">Amazon SageMaker Studio adds web-based interface, Code Editor, flexible workspaces, and streamlines user onboarding</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://aws.amazon.com/blogs/aws/amazon-sagemaker-studio-adds-web-based-interface-code-editor-flexible-workspaces-and-streamlines-user-onboarding/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/11/21/Site-Merch_Amazon-SageMaker-Studio_Blog.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Today, we are announcing an improved Amazon SageMaker Studio experience! The new SageMaker Studio web-based interface loads faster and provides consistent access to your preferred integrated development environment (IDE) and SageMaker resources and tooling, irrespective of your IDE choice. In addition to JupyterLab and RStudio, SageMaker Studio now includes a fully managed Code Editor based […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="dbd84d0e15dc49a513d11dc8814a2ace24c64aef"
-                        open
-                      >
-                        <summary class="article-expander__title">Three new capabilities for Amazon Inspector broaden the realm of vulnerability scanning for workloads</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://aws.amazon.com/blogs/aws/three-new-capabilities-for-amazon-inspector-broaden-the-realm-of-vulnerability-scanning-for-workloads/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/11/16/Site-Merch_Inspector_Blog.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Today, Amazon Inspector adds three new capabilities to increase the realm of possibilities when scanning your workloads for software vulnerabilities: Amazon Inspector introduces a new set of open source plugins and an API allowing you to assess your container images for software vulnerabilities at build time directly from your continuous integration and continuous delivery (CI/CD) […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="1d6092ef569153d497e5ee163eee98821d30bf12"
-                        open
-                      >
-                        <summary class="article-expander__title">Amazon CloudWatch Application Signals for automatic instrumentation of your applications (preview)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://aws.amazon.com/blogs/aws/amazon-cloudwatch-application-signals-for-automatic-instrumentation-of-your-applications-preview/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/11/17/Pulse-News-Blog-Image.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>One of the challenges with distributed systems is that they are made up of many interdependent services, which add a degree of complexity when you are trying to monitor their performance. Determining which services and APIs are experiencing high latencies or degraded availability requires manually putting together telemetry signals. This can result in time and […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="ec4fc257d1c6efc31dbdad1cfa3fa78ebe223b5a"
-                        open
-                      >
-                        <summary class="article-expander__title">New myApplications in the AWS Management Console simplifies managing your application resources</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://aws.amazon.com/blogs/aws/new-myapplications-in-the-aws-management-console-simplifies-managing-your-application-resources/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/11/17/myApplications-feat-img.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Today, we are announcing the general availability of myApplications supporting application operations, a new set of capabilities that help you get started with your applications on AWS, operate them with less effort, and move faster at scale. With myApplications in the AWS Management Console, you can more easily manage and monitor the cost, health, security […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/vxavictor513/osmosfeed/actions/runs/7360793161">
-        <time id="build-timestamp" datetime="2023-12-30T00:18:41.522Z">2023-12-30T00:18:41.522Z</time>
+      <a class="footer-link" href="https://github.com/vxavictor513/osmosfeed/actions/runs/7367183401">
+        <time id="build-timestamp" datetime="2023-12-31T00:21:41.282Z">2023-12-31T00:21:41.282Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

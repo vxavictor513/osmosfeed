@@ -6,6 +6,16 @@
       "siteUrl": "https://spring.io",
       "articles": [
         {
+          "id": "https://spring.io/blog/2024/01/04/a-bootiful-podcast-kubernetes-guru-leigh-capili-helps-us-ring-in-the-new",
+          "author": "Josh Long",
+          "description": "Level up your Java code and explore what Spring can do for you.",
+          "link": "https://spring.io/blog/2024/01/04/a-bootiful-podcast-kubernetes-guru-leigh-capili-helps-us-ring-in-the-new",
+          "publishedOn": "2024-01-04T00:00:00.000Z",
+          "wordCount": 7068,
+          "title": "A Bootiful Podcast: Kubernetes guru Leigh Capili helps us ring in the new year",
+          "imageUrl": "https://spring.io/img/og-spring.png"
+        },
+        {
           "id": "https://spring.io/blog/2024/01/03/spring-shell-3-1-7-and-3-2-0-are-now-available",
           "author": "Janne Valkealahti",
           "description": "Level up your Java code and explore what Spring can do for you.",
@@ -93,16 +103,6 @@
           "publishedOn": "2023-12-20T00:00:00.000Z",
           "wordCount": 7308,
           "title": "Spring Cloud 2021.0.9 (aka Jubilee) Is Now Available",
-          "imageUrl": "https://spring.io/img/og-spring.png"
-        },
-        {
-          "id": "https://spring.io/blog/2023/12/19/this-week-in-spring-december-19th-2023",
-          "author": "Josh Long",
-          "description": "Level up your Java code and explore what Spring can do for you.",
-          "link": "https://spring.io/blog/2023/12/19/this-week-in-spring-december-19th-2023",
-          "publishedOn": "2023-12-19T00:00:00.000Z",
-          "wordCount": 7201,
-          "title": "This Week in Spring - December 19th, 2023",
           "imageUrl": "https://spring.io/img/og-spring.png"
         }
       ]
@@ -479,7 +479,7 @@
           "description": "This month, we are releasing fixes that impact our self-hosted product, Azure DevOps Server.\nAzure DevOps Server 2022.1\nAzure DevOps Server 2020.1.2\nAzure DevOps Server 2022.1 Patch 1\nThe post December patches for Azure DevOps Server appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/december-patches-for-azure-devops-server-3/",
           "publishedOn": "2023-12-12T19:05:36.000Z",
-          "wordCount": 5705,
+          "wordCount": 5781,
           "title": "December patches for Azure DevOps Server",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2019/02/index-hero.jpg"
         }
@@ -728,7 +728,7 @@
           "description": "<p>Learn about how we run a scalable vulnerability management program built on top of GitHub. </p>\n<p>The post <a href=\"https://github.blog/2023-12-14-scaling-vulnerability-management-across-thousands-of-services-and-more-than-150-million-findings/\">Scaling vulnerability management across thousands of services and more than 150 million findings</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2023-12-14-scaling-vulnerability-management-across-thousands-of-services-and-more-than-150-million-findings/",
           "publishedOn": "2023-12-14T14:00:22.000Z",
-          "wordCount": 3782,
+          "wordCount": 2882,
           "title": "Scaling vulnerability management across thousands of services and more than 150 million findings",
           "imageUrl": "https://github.blog/wp-content/uploads/2023/12/Security-DarkMode-1-2.png"
         },
@@ -738,7 +738,7 @@
           "description": "<p>In November, we experienced one incident that resulted in degraded performance across GitHub services. </p>\n<p>The post <a href=\"https://github.blog/2023-12-13-github-availability-report-november-2023/\">GitHub Availability Report: November 2023</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2023-12-13-github-availability-report-november-2023/",
           "publishedOn": "2023-12-13T20:48:54.000Z",
-          "wordCount": 1101,
+          "wordCount": 2001,
           "title": "GitHub Availability Report: November 2023",
           "imageUrl": "https://github.blog/wp-content/uploads/2021/12/GitHub-availability-report_banner.png"
         },
@@ -768,7 +768,18 @@
       "title": "Martin Kleppmann's blog",
       "feedUrl": "https://feeds.feedburner.com/martinkl",
       "siteUrl": "http://martin.kleppmann.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "http://martin.kleppmann.com/2024/01/04/year-in-review.html",
+          "author": "Martin Kleppmann",
+          "description": "A lot has happened in the last year, so I thought it would be good to write up a review. My biggest change in 2023 was that my wife and I had a baby! This has brought a mixture of joys and frustrations, but overall it has been very good....",
+          "link": "http://martin.kleppmann.com/2024/01/04/year-in-review.html",
+          "publishedOn": "2024-01-04T00:00:00.000Z",
+          "wordCount": 2761,
+          "title": "2023 year in review",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Kubernetes Blog",
@@ -801,7 +812,7 @@
           "description": "Authors: Zefeng Chen (independent), Kevin Hannon (Red Hat)\nWith the recent release of Kubernetes 1.29, the PodReadyToStartContainers\ncondition is\navailable by default.\nThe kubelet manages the value for that condition throughout a Pod's lifecycle,\nin the status field of a Pod. The kubelet will use the PodReadyToStartContainers\ncondition to accurately surface the initialization state of a Pod,\nfrom the perspective of Pod sandbox creation and network configuration by a container runtime.\nWhat's the motivation for this feature?\nCluster administrators did not have a clear and easily accessible way to view the completion of Pod's sandbox creation\nand initialization. As of 1.28, the Initialized condition in Pods tracks the execution of init containers.\nHowever, it has limitations in accurately re…",
           "link": "https://kubernetes.io/blog/2023/12/19/pod-ready-to-start-containers-condition-now-in-beta/",
           "publishedOn": "2023-12-19T00:00:00.000Z",
-          "wordCount": 4115,
+          "wordCount": 4088,
           "title": "Kubernetes 1.29: PodReadyToStartContainers Condition Moves to Beta",
           "imageUrl": null
         },
@@ -968,16 +979,6 @@
           "wordCount": 27453,
           "title": "VALID: A perceptually validated virtual avatar library for inclusion and diversity",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmXa7LCZLvQy98sLB16VdQJa2RZqxfRzHvi_bfXYrUEdVaeqBqBo3yinO4yHFm8dmknahkVxAMt84i1Fv613KSBV0LLPZ0fXoj3ML2obxjHqpJkE8IXB-aFX95ahDzz6zgszPI2-9PH_6hGGAJfwA3lU2KGZcq8TPj4VKJH0UEl-UiH4FTzoUowwHjkOiA/w1200-h630-p-k-no-nu/image2.png"
-        },
-        {
-          "id": "http://blog.research.google/2023/12/google-at-emnlp-2023.html",
-          "author": null,
-          "description": "Posted by Malaya Jules, Program Manager, Google\n\n\n\n\n\nGoogle is proud to be a Diamond Sponsor of Empirical Methods in Natural Language Processing (EMNLP 2023), a premier annual conference, which is being held this week in Sentosa, Singapore. Google has a strong presence at this year’s conference with over 65 accepted papers and active involvement in 11 workshops and tutorials. Google is also happy to be a Major Sponsor for the Widening NLP workshop (WiNLP), which aims to highlight global representations of people, perspectives, and cultures in AI and ML. We look forward to sharing some of our extensive NLP research and expanding our partnership with the broader research community.\n\n\n\nWe hope you’ll visit the Google booth to chat with researchers who are actively pursuing the latest innovati…",
-          "link": "http://blog.research.google/2023/12/google-at-emnlp-2023.html",
-          "publishedOn": "2023-12-06T01:32:00.000Z",
-          "wordCount": 28831,
-          "title": "Google at EMNLP 2023",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi63HbbcxUJqps2nNQBmiEoOpsCkh24PH9YXd_Z7VSQ5f00T_shhNlDZ03_dPNw4ge8XALlXyvIfFMmNvWzWMzHWUs80ZVGz_O9dm-bz9p0dnl4bfXPuk34a-lXfU2IKReWUkshFPQFVpL4L6IOreL2Z7RnEUTm-iEKM2XAjj9PdyVXjwGNLi7CK4JhMxnV/w1200-h630-p-k-no-nu/EMNLP%202023.png"
         }
       ]
     },
@@ -987,12 +988,32 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=48193",
+          "author": "Seth Godin",
+          "description": "In an economy built on skill, knowledge, and attitude, the single most powerful way to improve your productivity is to learn something. You put in the effort once and it pays off for decades. There are more ways for an adult to learn now than at any time in our history, and all of it […]",
+          "link": "https://feeds.feedblitz.com/~/858786254/0/sethsblog~Productivity-week-Bonus/",
+          "publishedOn": "2024-01-04T17:16:00.000Z",
+          "wordCount": 1245,
+          "title": "Productivity week: Bonus",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061312.jpg"
+        },
+        {
+          "id": "https://seths.blog/?p=48105",
+          "author": "Seth Godin",
+          "description": "If productivity is useful work created by time or money, it’s worth thinking about what we mean by ‘useful’. There are areas where reliability is crucial. It turns out that building an airplane that works 95% of the time is incredibly easy compared to building one that never crashes. I think we’re all pleased that […]",
+          "link": "https://feeds.feedblitz.com/~/858597029/0/sethsblog~PW-Errors-and-productivity/",
+          "publishedOn": "2024-01-04T09:06:00.000Z",
+          "wordCount": 1082,
+          "title": "PW 3: Errors and productivity",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_180613-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=48101",
           "author": "Seth Godin",
           "description": "We need you. But only if you need us. Purple.space is six months old, and there are about a thousand of us now. It was an experiment, now it’s a useful tool. The initiative hat is often ill-fitting. We rush to take it off and get back to doing chores. And that’s why a community […]",
           "link": "https://feeds.feedblitz.com/~/857730608/0/sethsblog~PW-Productivity-in-community/",
           "publishedOn": "2024-01-03T09:58:00.000Z",
-          "wordCount": 1123,
+          "wordCount": 1124,
           "title": "PW 2: Productivity in community",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061312.jpg"
         },
@@ -1065,26 +1086,6 @@
           "wordCount": 985,
           "title": "Leverage",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_180613-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=44665",
-          "author": "Seth Godin",
-          "description": "Add up all the senses you use and the things you notice: that’s your umwelt. It’s pretty obvious that your dog has a different one than you do. They see fewer colors and smell far more intelligently. Sea slugs see a much wider range of colors, and bats can sense vibrations. Among humans, we each […]",
-          "link": "https://feeds.feedblitz.com/~/853926482/0/sethsblog~Finding-a-more-useful-umwelt/",
-          "publishedOn": "2023-12-26T09:00:00.000Z",
-          "wordCount": 1032,
-          "title": "Finding a more useful umwelt",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061315.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=46159",
-          "author": "Seth Godin",
-          "description": "In 1959, three years after Columbia Records spent a fortune rolling out stereo recording, a senior A&R executive named Ward Botsman told the New York Times, “Let’s face it, the craze for stereo has not been as intense as expected,” writing off the format that would end up thriving for, as far as I can […]",
-          "link": "https://feeds.feedblitz.com/~/853442909/0/sethsblog~Lets-face-it/",
-          "publishedOn": "2023-12-25T11:41:49.000Z",
-          "wordCount": 1093,
-          "title": "“Let’s face it”",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806133-1.jpg"
         }
       ]
     },
@@ -1093,6 +1094,16 @@
       "feedUrl": "https://blog.jetbrains.com/feed/",
       "siteUrl": "https://blog.jetbrains.com",
       "articles": [
+        {
+          "id": "https://blog.jetbrains.com/?post_type=pycharm&p=422955",
+          "author": "Maha Taqi",
+          "description": "Learning Django can be an exciting journey for anyone looking to develop web applications, but it can be intimidating at first. In this article, we’ll provide you with a comprehensive guide on how to learn Django effectively. We’ll explore the prerequisites, the time it takes to become proficient, and various resources to help you master […]",
+          "link": "https://blog.jetbrains.com/pycharm/2024/01/how-to-learn-django/",
+          "publishedOn": "2024-01-03T10:56:24.000Z",
+          "wordCount": 4728,
+          "title": "How To Learn Django: A Comprehensive Guide for Beginners",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/12/Social_Share_1280x720-x2-2.png"
+        },
         {
           "id": "https://blog.jetbrains.com/?post_type=phpstorm&p=423405",
           "author": "Roman Pronskiy",
@@ -1109,7 +1120,7 @@
           "description": "TL;DR There is an experimental WebStorm@next build, which introduces improved type inference for enhanced performance and accuracy. You can install it via the Toolbox App. Introduction The WebStorm team is currently undertaking a significant rework of the TypeScript language support. The new TypeScript engine will power future versions of WebStorm and other JetBrains IDEs with […]",
           "link": "https://blog.jetbrains.com/webstorm/2023/12/try-the-future-typescript-engine-with-the-webstorm-next-program/",
           "publishedOn": "2023-12-27T16:25:58.000Z",
-          "wordCount": 3464,
+          "wordCount": 3476,
           "title": "Try the Future TypeScript Engine With the WebStorm@next Program",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/12/ws-bug-fix-social_share_blog_1280x720.png"
         },
@@ -1149,7 +1160,7 @@
           "description": "WebStorm 2023.3.2, the second bug-fix update for WebStorm 2023.3, is now available! You can update to v2023.3.2 by using the Toolbox App, installing it right from the IDE, or downloading it from our website. Notable fixes Here are some of the notable fixes in v2023.3.2: We’ve added support for Angular 17 new control flow block […]",
           "link": "https://blog.jetbrains.com/webstorm/2023/12/webstorm-2023-3-2/",
           "publishedOn": "2023-12-21T14:57:22.000Z",
-          "wordCount": 2716,
+          "wordCount": 2727,
           "title": "WebStorm 2023.3.2 Is Out!",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/12/ws-2023-3-2-social.png"
         },
@@ -1202,16 +1213,6 @@
           "wordCount": 2833,
           "title": "Amper Update – December 2023",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/12/Blog-Social-Share-image-1280x720-2x-1.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=clion&p=421855",
-          "author": "Anastasia Kazakova",
-          "description": "The CLion 2023.3.2 bug-fix update is here! The fixes included in this update are listed below. Download build 233.13135.93 from our website, through the Toolbox App, as a snap package for Ubuntu, or via a patch from inside the IDE. DOWNLOAD CLION While bug-fix update 2023.3.1 was mostly focused on addressing AI Assistant licensing issues, […]",
-          "link": "https://blog.jetbrains.com/clion/2023/12/clion-2023-3-2-bug-fix-update/",
-          "publishedOn": "2023-12-20T20:31:02.000Z",
-          "wordCount": 3011,
-          "title": "CLion 2023.3.2 Bug-Fix Update",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2023/12/cl-bug-fix-social_share_blog_1280x720.png"
         }
       ]
     }

@@ -445,6 +445,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "ad10cf5aba53456f1f1f76f47ca45b34047b64ff",
+          "author": "Marcia Villalba",
+          "description": "We are in January, the start of a new year, and I imagine many of you have made a new year resolution to learn something new. If you want to learn something new and get a free Amazon Web Services (AWS) Learning Badge, check out the new Events and Workflows Learning Path. This learning path […]",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-route53-amazon-eventbridge-amazon-sagemaker-and-more-january-15-2024/",
+          "publishedOn": "2024-01-15T16:09:00.000Z",
+          "wordCount": 1612,
+          "title": "AWS Weekly Roundup—Amazon Route53, Amazon EventBridge, Amazon SageMaker, and more – January 15, 2024",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png"
+        },
+        {
           "id": "aa651b9a68332fa0b11be808f87f4175a6e2ddba",
           "author": "Channy Yun",
           "description": "Today we are announcing that Amazon Elastic Container Service (Amazon ECS) supports an integration with Amazon Elastic Block Store (Amazon EBS), making it easier to run a wider range of data processing workloads. You can provision Amazon EBS storage for your ECS tasks running on AWS Fargate and Amazon Elastic Compute Cloud (Amazon EC2) without […]",
@@ -718,7 +728,7 @@
           "description": "<p>During the second cycle of Git Commit Uruguay, students learned the basics of AI and built their own AI-powered projects.</p>\n<p>The post <a href=\"https://github.blog/2024-01-11-empowering-uruguays-future-workforce-with-ai/\">Empowering Uruguay’s future workforce with AI</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2024-01-11-empowering-uruguays-future-workforce-with-ai/",
           "publishedOn": "2024-01-11T20:44:16.000Z",
-          "wordCount": 2437,
+          "wordCount": 1537,
           "title": "Empowering Uruguay’s future workforce with AI",
           "imageUrl": "https://github.blog/wp-content/uploads/2024/01/Deskmat-Art.png"
         },
@@ -748,7 +758,7 @@
           "description": "<p>The GitHub Security Lab teamed up with Ekoparty once again to create some challenges for its yearly Capture the Flag competition!</p>\n<p>The post <a href=\"https://github.blog/2024-01-08-github-and-the-ekoparty-2023-capture-the-flag/\">GitHub and the Ekoparty 2023 Capture the Flag</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2024-01-08-github-and-the-ekoparty-2023-capture-the-flag/",
           "publishedOn": "2024-01-08T17:00:22.000Z",
-          "wordCount": 3566,
+          "wordCount": 2666,
           "title": "GitHub and the Ekoparty 2023 Capture the Flag",
           "imageUrl": "https://github.blog/wp-content/uploads/2023/10/Security-DarkMode-2.png?fit=1200%2C630"
         },
@@ -837,12 +847,22 @@
       "siteUrl": "https://kubernetes.io/",
       "articles": [
         {
+          "id": "https://kubernetes.io/blog/2024/01/15/sig-release-spotlight-2023/",
+          "author": null,
+          "description": "Author: Nitish Kumar\nThe Release Special Interest Group (SIG Release), where Kubernetes sharpens its blade\nwith cutting-edge features and bug fixes every 4 months. Have you ever considered how such a big\nproject like Kubernetes manages its timeline so efficiently to release its new version, or how\nthe internal workings of the Release Team look like? If you're curious about these questions or\nwant to know more and get involved with the work SIG Release does, read on!\nSIG Release plays a crucial role in the development and evolution of Kubernetes.\nIts primary responsibility is to manage the release process of new versions of Kubernetes.\nIt operates on a regular release cycle, typically every three to four months.\nDuring this cycle, the Kubernetes Release Team works closely with other SIGs an…",
+          "link": "https://kubernetes.io/blog/2024/01/15/sig-release-spotlight-2023/",
+          "publishedOn": "2024-01-15T00:00:00.000Z",
+          "wordCount": 5592,
+          "title": "Spotlight on SIG Release (Release Team Subproject)",
+          "imageUrl": "sig-release-overview.png"
+        },
+        {
           "id": "https://kubernetes.io/blog/2023/12/20/contextual-logging-in-kubernetes-1-29/",
           "author": null,
           "description": "Authors: Mengjiao Liu (DaoCloud), Patrick Ohly (Intel)\nOn behalf of the Structured Logging Working Group\nand SIG Instrumentation,\nwe are pleased to announce that the contextual logging feature\nintroduced in Kubernetes v1.24 has now been successfully migrated to\ntwo components (kube-scheduler and kube-controller-manager)\nas well as some directories. This feature aims to provide more useful logs\nfor better troubleshooting of Kubernetes and to empower developers to enhance Kubernetes.\nWhat is contextual logging?\nContextual logging\nis based on the go-logr API.\nThe key idea is that libraries are passed a logger instance by their caller\nand use that for logging instead of accessing a global logger.\nThe binary decides the logging implementation, not the libraries.\nThe go-logr API is designed arou…",
           "link": "https://kubernetes.io/blog/2023/12/20/contextual-logging-in-kubernetes-1-29/",
           "publishedOn": "2023-12-20T17:30:00.000Z",
-          "wordCount": 4719,
+          "wordCount": 4727,
           "title": "Contextual logging in Kubernetes 1.29: Better troubleshooting and enhanced logging",
           "imageUrl": null
         },
@@ -852,7 +872,7 @@
           "description": "Authors: Yuan Chen (Apple), Andrea Tosatto (Apple)\nThis blog discusses a new feature in Kubernetes 1.29 to improve the handling of taint-based pod eviction.\nBackground\nIn Kubernetes 1.29, an improvement has been introduced to enhance the taint-based pod eviction handling on nodes.\nThis blog discusses the changes made to node-lifecycle-controller\nto separate its responsibilities and improve overall code maintainability.\nSummary of changes\nnode-lifecycle-controller previously combined two independent functions:\nAdding a pre-defined set of NoExecute taints to Node based on Node's condition.\nPerforming pod eviction on NoExecute taint.\nWith the Kubernetes 1.29 release, the taint-based eviction implementation has been\nmoved out of node-lifecycle-controller into a separate and independent compone…",
           "link": "https://kubernetes.io/blog/2023/12/19/kubernetes-1-29-taint-eviction-controller/",
           "publishedOn": "2023-12-19T00:00:00.000Z",
-          "wordCount": 4054,
+          "wordCount": 4062,
           "title": "Kubernetes 1.29: Decoupling taint-manager from node-lifecycle-controller",
           "imageUrl": null
         },
@@ -862,7 +882,7 @@
           "description": "Authors: Zefeng Chen (independent), Kevin Hannon (Red Hat)\nWith the recent release of Kubernetes 1.29, the PodReadyToStartContainers\ncondition is\navailable by default.\nThe kubelet manages the value for that condition throughout a Pod's lifecycle,\nin the status field of a Pod. The kubelet will use the PodReadyToStartContainers\ncondition to accurately surface the initialization state of a Pod,\nfrom the perspective of Pod sandbox creation and network configuration by a container runtime.\nWhat's the motivation for this feature?\nCluster administrators did not have a clear and easily accessible way to view the completion of Pod's sandbox creation\nand initialization. As of 1.28, the Initialized condition in Pods tracks the execution of init containers.\nHowever, it has limitations in accurately re…",
           "link": "https://kubernetes.io/blog/2023/12/19/pod-ready-to-start-containers-condition-now-in-beta/",
           "publishedOn": "2023-12-19T00:00:00.000Z",
-          "wordCount": 4088,
+          "wordCount": 4096,
           "title": "Kubernetes 1.29: PodReadyToStartContainers Condition Moves to Beta",
           "imageUrl": null
         },
@@ -872,7 +892,7 @@
           "description": "Author: Aohan Yang\nThis blog introduces a new alpha feature in Kubernetes 1.29.\nIt provides a configurable approach to define how Service implementations,\nexemplified in this blog by kube-proxy,\nhandle traffic from pods to the Service, within the cluster.\nBackground\nIn older Kubernetes releases, the kube-proxy would intercept traffic that was destined for the IP\naddress associated with a Service of type: LoadBalancer. This happened whatever mode you used\nfor kube-proxy.\nThe interception implemented the expected behavior (traffic eventually reaching the expected\nendpoints behind the Service). The mechanism to make that work depended on the mode for kube-proxy;\non Linux, kube-proxy in iptables mode would redirecting packets directly to the endpoint; in ipvs mode,\nkube-proxy would configure t…",
           "link": "https://kubernetes.io/blog/2023/12/18/kubernetes-1-29-feature-loadbalancer-ip-mode-alpha/",
           "publishedOn": "2023-12-18T00:00:00.000Z",
-          "wordCount": 4346,
+          "wordCount": 4354,
           "title": "Kubernetes 1.29: New (alpha) Feature, Load Balancer IP Mode for Services",
           "imageUrl": null
         },
@@ -882,7 +902,7 @@
           "description": "Author: Chris Henzie (Google)\nWith the release of Kubernetes v1.29, the ReadWriteOncePod volume access mode\nhas graduated to general availability: it's part of Kubernetes' stable API. In\nthis blog post, I'll take a closer look at this access mode and what it does.\nWhat is ReadWriteOncePod?\nReadWriteOncePod is an access mode for\nPersistentVolumes (PVs)\nand PersistentVolumeClaims (PVCs)\nintroduced in Kubernetes v1.22. This access mode enables you to restrict volume\naccess to a single pod in the cluster, ensuring that only one pod can write to\nthe volume at a time. This can be particularly useful for stateful workloads\nthat require single-writer access to storage.\nFor more context on access modes and how ReadWriteOncePod works read\nWhat are access modes and why are they important?\nin the Intr…",
           "link": "https://kubernetes.io/blog/2023/12/18/read-write-once-pod-access-mode-ga/",
           "publishedOn": "2023-12-18T00:00:00.000Z",
-          "wordCount": 4080,
+          "wordCount": 4088,
           "title": "Kubernetes 1.29: Single Pod Access Mode for PersistentVolumes Graduates to Stable",
           "imageUrl": null
         }
@@ -978,12 +998,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=48118",
+          "author": "Seth Godin",
+          "description": "Dreams have consequences Hisham Matar Time passes, decisions are made, we face the consequences or enjoy the benefits. A few books for this moment, about navigating our days, and the possibility of light. It bends toward justice. The Return, by Hisham Matar. A beautiful and heartrending memoir of the costs and survival of a tyrant. […]",
+          "link": "https://feeds.feedblitz.com/~/860775230/0/sethsblog~Time-consequences-and-opportunities/",
+          "publishedOn": "2024-01-15T09:13:00.000Z",
+          "wordCount": 1061,
+          "title": "Time, consequences and opportunities",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806134-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=46554",
           "author": "Seth Godin",
           "description": "“If you don’t ask, you don’t get.” That’s problematic advice. Taken to an extreme, it turns us into hustlers. The alternative is to realize that the best asks are actually offers. When we offer to help someone get to where they were going, we’re approaching the relationship with generosity, not selfishness. What work would we […]",
           "link": "https://feeds.feedblitz.com/~/860711975/0/sethsblog~The-generous-ask/",
           "publishedOn": "2024-01-14T09:59:00.000Z",
-          "wordCount": 1017,
+          "wordCount": 1018,
           "title": "The generous ask",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806135-1.jpg"
         },
@@ -1066,16 +1096,6 @@
           "wordCount": 965,
           "title": "Trying harder",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=48109",
-          "author": "Seth Godin",
-          "description": "Last in the series… Most of us were indoctrinated to believe that completing chores is the appropriate measure of productivity. “I did all my homework.” Doing all your homework is a measure for industrial bosses. But what, precisely, did your homework ever do for you? The actual measures of productivity that might be useful range […]",
-          "link": "https://feeds.feedblitz.com/~/859299413/0/sethsblog~PW-Measuring-the-right-thing/",
-          "publishedOn": "2024-01-06T09:20:00.000Z",
-          "wordCount": 1077,
-          "title": "PW 5: Measuring the right thing",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806135-1.jpg"
         }
       ]
     },
@@ -1190,7 +1210,7 @@
           "description": "One of the most popular web frameworks, Django, has adopted the “batteries included” philosophy. This means that you can build a production-ready application using only the vanilla Django with no extensions or other frameworks. Even the database SQLite is available out of the box. SQLite is great for learning and developing small applications, but has […]",
           "link": "https://blog.jetbrains.com/pycharm/2024/01/how-to-connect-django-with-mongodb/",
           "publishedOn": "2024-01-09T14:06:57.000Z",
-          "wordCount": 5899,
+          "wordCount": 5908,
           "title": "How to Connect Django With MongoDB",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2024/01/Social_Share_1280x720-x2.png"
         },

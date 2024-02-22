@@ -1,10 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-02-21T00:18:56.527Z</id>
+    <id>urn:2024-02-22T00:19:04.328Z</id>
     <title>osmos::feed</title>
-    <updated>2024-02-21T00:18:56.527Z</updated>
+    <updated>2024-02-22T00:19:04.328Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Advances in private training for production on-device language models]]></title>
+        <id>http://blog.research.google/2024/02/advances-in-private-training-for.html</id>
+        <link href="http://blog.research.google/2024/02/advances-in-private-training-for.html"/>
+        <updated>2024-02-21T20:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted by Zheng Xu, Research Scientist, and Yanxiang Zhang, Software Engineer, Google
+
+
+
+
+Language models (LMs) trained to predict the next word given input text are the key technology for many applications [1, 2]. In Gboard, LMs are used to improve users’ typing experience by supporting features like next word prediction (NWP), Smart Compose, smart completion and suggestion, slide to type, and proofread. Deploying models on users’ devices rather than enterprise servers has advantages like lower latency and better privacy for model usage. While training on-device models directly from user data effectively improves the utility performance for applications such as NWP and smart text selection, protecting the privacy of user data for model training is important. 
+
+
+
+
+
+
+
+
+
+Gboard features powe…]]></summary>
+        <author>
+            <name>Google AI Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 AI search trends impacting developers in 2024]]></title>
+        <id>https://www.elastic.co/blog/ai-search-trends-developers</id>
+        <link href="https://www.elastic.co/blog/ai-search-trends-developers"/>
+        <updated>2024-02-21T18:49:28.000Z</updated>
+        <summary type="html"><![CDATA[After an incredibly fast-moving 2023, what does the future hold for AI and search? We assessed the current state of search and weighed in on a few key themes on the horizon for all things AI in 2024....]]></summary>
+        <author>
+            <name>Darren Meiss</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 AI search trends impacting developers in 2024]]></title>
+        <id>https://www.elastic.co/blog/ai-search-trends-developers</id>
+        <link href="https://www.elastic.co/blog/ai-search-trends-developers"/>
+        <updated>2024-02-21T18:49:28.000Z</updated>
+        <summary type="html"><![CDATA[After an incredibly fast-moving 2023, what does the future hold for AI and search? Conversational generative AI leapt into the public consciousness over the past year, and organizations scrambled to define their strategy for capitalizing on the trend. AI-boosted relevance is reshaping the way users experience search — and elevating their expectations for the quality of the interaction. 
+In a recent discussion with product and engineering leaders from Adobe, Hugging Face, You.com, and Elastic, we assessed the current state of search and weighed in on these AI-fueled trends. Here are a few key themes they see on the horizon for all things AI in 2024:
+https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt31b2b145b770ea9e/65ca676cf48bc2462850ec23/top-5-trends-search-ai-2024.png,top-5-…]]></summary>
+        <author>
+            <name>Darren Meiss</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to stay safe from repo-jacking]]></title>
+        <id>https://github.blog/2024-02-21-how-to-stay-safe-from-repo-jacking/</id>
+        <link href="https://github.blog/2024-02-21-how-to-stay-safe-from-repo-jacking/"/>
+        <updated>2024-02-21T17:00:38.000Z</updated>
+        <summary type="html"><![CDATA[<p>Repo-jacking is a specific type of supply chain attack. This blog post explains what it is, what the risk is, and what you can do to stay safe.</p>
+<p>The post <a href="https://github.blog/2024-02-21-how-to-stay-safe-from-repo-jacking/">How to stay safe from repo-jacking</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>]]></summary>
+        <author>
+            <name>The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Improving memory allocation with Libbeat output client and Elasticsearch]]></title>
+        <id>https://www.elastic.co/blog/improving-memory-allocation-libbeat-output-client-elasticsearch</id>
+        <link href="https://www.elastic.co/blog/improving-memory-allocation-libbeat-output-client-elasticsearch"/>
+        <updated>2024-02-21T16:24:48.000Z</updated>
+        <summary type="html"><![CDATA[When Filebeat or any other beat is publishing events to a remote Elasticsearch, it relies on its _bulk API, meaning that Beats doesn’t only make requests to Elasticsearch but also parses its responses...]]></summary>
+        <author>
+            <name>Alexandros Sapranidis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Improving memory allocation with Libbeat output client and Elasticsearch]]></title>
+        <id>https://www.elastic.co/blog/improving-memory-allocation-libbeat-output-client-elasticsearch</id>
+        <link href="https://www.elastic.co/blog/improving-memory-allocation-libbeat-output-client-elasticsearch"/>
+        <updated>2024-02-21T16:24:48.000Z</updated>
+        <summary type="html"><![CDATA[Our journey of improving performance is not complete without diving into the path events follow toward their destination. When Filebeat or any other beat is publishing events to a remote Elasticsearch®, it relies on its _bulk API. This means that Beats doesn’t only make requests to Elasticsearch, but it also parses its responses, which increases the memory utilization as a result. 
+
+Previously, we showed how we managed to reduce Beats allocation by reducing the use of Logger in the event’s hot path, which reduced the overall allocated memory.
+
+In this post, we will dive into the path of the publishing method and discuss how we managed to improve the memory allocation, which results in a direct increase of speed.
+https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta44802b59581cce…]]></summary>
+        <author>
+            <name>Alexandros Sapranidis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Empowering all developers to build without barriers]]></title>
+        <id>https://github.blog/2024-02-21-empowering-all-developers-to-build-without-barriers/</id>
+        <link href="https://github.blog/2024-02-21-empowering-all-developers-to-build-without-barriers/"/>
+        <updated>2024-02-21T15:37:57.000Z</updated>
+        <summary type="html"><![CDATA[<p>GitHub has been awarded the 2024 Axe Accessibility at Scale Award from Deque Systems. Read more about how we’ve implemented accessibility at scale.</p>
+<p>The post <a href="https://github.blog/2024-02-21-empowering-all-developers-to-build-without-barriers/">Empowering all developers to build without barriers</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>]]></summary>
+        <author>
+            <name>The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spire confusion]]></title>
+        <id>https://seths.blog/?p=46782</id>
+        <link href="https://feeds.feedblitz.com/~/871852679/0/sethsblog~Spire-confusion/"/>
+        <updated>2024-02-21T09:55:00.000Z</updated>
+        <summary type="html"><![CDATA[When architects show off their work, or propose a bold new building complex or even ask for a zoning variance, the public sees the external photos. The tall spire, the innovative use of glass, the weird hole in the center of the building. And when a car company shows off a new model at a […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Understanding AI search algorithms]]></title>
         <id>https://www.elastic.co/blog/understanding-ai-search-algorithms</id>
@@ -35,6 +139,145 @@ AI search algorithm use cases
 The challenges and…]]></summary>
         <author>
             <name>Jessica Taylor,Aditya Tripathi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Security 6.2.2, 6.1.7, and 5.8.10 are now available]]></title>
+        <id>https://spring.io/blog/2024/02/21/spring-security-6-2-2-6-1-7-and-5-8-10-are-now-available</id>
+        <link href="https://spring.io/blog/2024/02/21/spring-security-6-2-2-6-1-7-and-5-8-10-are-now-available"/>
+        <updated>2024-02-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <author>
+            <name>Josh Cummings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring LDAP 3.1.4 and 3.2.2 are available]]></title>
+        <id>https://spring.io/blog/2024/02/21/spring-ldap-3-1-4-and-3-2-2-are-available</id>
+        <link href="https://spring.io/blog/2024/02/21/spring-ldap-3-1-4-and-3-2-2-are-available"/>
+        <updated>2024-02-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <author>
+            <name>Josh Cummings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Batch 5.0.5 and 5.1.1 available now]]></title>
+        <id>https://spring.io/blog/2024/02/21/spring-batch-5-0-5-and-5-1-1-available-now</id>
+        <link href="https://spring.io/blog/2024/02/21/spring-batch-5-0-5-and-5-1-1-available-now"/>
+        <updated>2024-02-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <author>
+            <name>Mahmoud Ben Hassine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring for GraphQL 1.3 M1 Released]]></title>
+        <id>https://spring.io/blog/2024/02/21/spring-for-graphql-1-3-m1-released</id>
+        <link href="https://spring.io/blog/2024/02/21/spring-for-graphql-1-3-m1-released"/>
+        <updated>2024-02-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <author>
+            <name>Rossen Stoyanchev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring for GraphQL 1.2.5 released]]></title>
+        <id>https://spring.io/blog/2024/02/21/spring-for-graphql-1-2-5-released</id>
+        <link href="https://spring.io/blog/2024/02/21/spring-for-graphql-1-2-5-released"/>
+        <updated>2024-02-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <author>
+            <name>Brian Clozel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Authorization Server 1.3.0-M2 available now]]></title>
+        <id>https://spring.io/blog/2024/02/21/spring-authorization-server-1-3-0-m2-available-now</id>
+        <link href="https://spring.io/blog/2024/02/21/spring-authorization-server-1-3-0-m2-available-now"/>
+        <updated>2024-02-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <author>
+            <name>Joe Grandja</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Authorization Server 1.2.2 and 1.1.5 available now]]></title>
+        <id>https://spring.io/blog/2024/02/21/spring-authorization-server-1-2-2-and-1-1-5-available-now</id>
+        <link href="https://spring.io/blog/2024/02/21/spring-authorization-server-1-2-2-and-1-1-5-available-now"/>
+        <updated>2024-02-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <author>
+            <name>Joe Grandja</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring for Apache Pulsar 1.1.0-M1 available now]]></title>
+        <id>https://spring.io/blog/2024/02/21/spring-for-apache-pulsar-1-1-0-m1-available-now</id>
+        <link href="https://spring.io/blog/2024/02/21/spring-for-apache-pulsar-1-1-0-m1-available-now"/>
+        <updated>2024-02-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <author>
+            <name>Chris Bono</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Get to know the Elastic Community series: Meet Wagner Souza]]></title>
+        <id>https://www.elastic.co/blog/get-to-know-the-elastic-community-series-meet-wagner-souza</id>
+        <link href="https://www.elastic.co/blog/get-to-know-the-elastic-community-series-meet-wagner-souza"/>
+        <updated>2024-02-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Wagner Souza has been working in the information security area for five years. In this blog, he delves into his journey with Elastic, from his initial experience to participating in community events a...]]></summary>
+        <author>
+            <name>Ully Sampaio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Christine Weng on why she took time to explore and reflect before pivoting from accounting to tech]]></title>
+        <id>https://www.elastic.co/blog/culture-explore-reflect-before-pivoting-into-tech</id>
+        <link href="https://www.elastic.co/blog/culture-explore-reflect-before-pivoting-into-tech"/>
+        <updated>2024-02-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Christine reflected on what she wanted in her career before making the switch to software development. See how she pivoted from accounting to software engineering....]]></summary>
+        <author>
+            <name>Elastic Culture</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Get to know the Elastic Community series: Meet Wagner Souza]]></title>
+        <id>https://www.elastic.co/blog/get-to-know-the-elastic-community-series-meet-wagner-souza</id>
+        <link href="https://www.elastic.co/blog/get-to-know-the-elastic-community-series-meet-wagner-souza"/>
+        <updated>2024-02-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Wagner Souza has been working in the information security area for five years, specializing in computer network security and processes involving ISO/IEC 27001 audit projects and personal data protection (LGPD/GDPR). He is part of a Security Operation Center (SOC) team focused on monitoring, threat detection, and vulnerability management.
+When did you first embrace Elastic as a technology?
+In 2021, I was challenged to apply information security knowledge using Elastic Security in monitoring and threat detection activities in our clients' environments. This experience was very interesting as it gave me great learning and a desire to explore further the power of the Elastic Stack in security operations.
+What is the most memorable moment in your career?
+It was the recognition I received from t…]]></summary>
+        <author>
+            <name>Ully Sampaio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Christine Weng on why she took time to explore and reflect before pivoting from accounting to tech]]></title>
+        <id>https://www.elastic.co/blog/culture-explore-reflect-before-pivoting-into-tech</id>
+        <link href="https://www.elastic.co/blog/culture-explore-reflect-before-pivoting-into-tech"/>
+        <updated>2024-02-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Christine Weng began her career in accounting — tax accounting to be exact. But during her first year in a full-time accounting role she realized she was more interested in the technology side of things.
+“Ever since I started actually working, I realized I enjoyed automations, problem solving, and process development,” Christine says.
+She took the time to explore her options by working with a group at her company that did tech consulting, but was still focused on accounting.
+“Exploring isn’t a bad thing,” Christine says. “If you try something and you don’t like it then, at least you know.”
+Christine’s interests stem from pain points in her previous job, she says. The tools she was working with didn’t have certain features and there weren't the resources to fix that.
+She spent a few years t…]]></summary>
+        <author>
+            <name>Elastic Culture</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Light Leap Years]]></title>
+        <id>https://xkcd.com/2897/</id>
+        <link href="https://xkcd.com/2897/"/>
+        <updated>2024-02-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/light_leap_years.png" title="When Pope Gregory XIII briefly shortened the light-year in 1582, it led to navigational chaos and the loss of several Papal starships." alt="When Pope Gregory XIII briefly shortened the light-year in 1582, it led to navigational chaos and the loss of several Papal starships." />]]></summary>
+        <author>
+            <name>xkcd.com</name>
         </author>
     </entry>
     <entry>
@@ -75,16 +318,6 @@ The challenges and…]]></summary>
         <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
         <author>
             <name>Chris Bono</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spring for Apache Kafka 3.0.14, 3.1.2 and 3.2.0-M1 Available Now]]></title>
-        <id>https://spring.io/blog/2024/02/20/spring-for-apache-kafka-3-0-14-3-1-2-and-3-2-0-m1-available-now</id>
-        <link href="https://spring.io/blog/2024/02/20/spring-for-apache-kafka-3-0-14-3-1-2-and-3-2-0-m1-available-now"/>
-        <updated>2024-02-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
-        <author>
-            <name>Soby Chacko</name>
         </author>
     </entry>
     <entry>
@@ -307,26 +540,6 @@ The release and timing of any features or functionality described in this post r
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[First milestone of Spring Data 2024.0.0 available]]></title>
-        <id>https://spring.io/blog/2024/02/16/first-milestone-of-spring-data-2024-0-0-available</id>
-        <link href="https://spring.io/blog/2024/02/16/first-milestone-of-spring-data-2024-0-0-available"/>
-        <updated>2024-02-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
-        <author>
-            <name>Mark Paluch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spring Data 2023.1.3 and 2023.0.9 available]]></title>
-        <id>https://spring.io/blog/2024/02/16/spring-data-2023-1-3-and-2023-0-9-available</id>
-        <link href="https://spring.io/blog/2024/02/16/spring-data-2023-1-3-and-2023-0-9-available"/>
-        <updated>2024-02-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
-        <author>
-            <name>Mark Paluch</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Treasure Chests]]></title>
         <id>https://xkcd.com/2895/</id>
         <link href="https://xkcd.com/2895/"/>
@@ -472,26 +685,6 @@ Data visualization tools such as Kibana dashboards allow even the least design o
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[A Bootiful Podcast: Oracle Java Developer Advocate Nicolai Parlog on the latest and greatest in Java]]></title>
-        <id>https://spring.io/blog/2024/02/15/a-bootiful-podcast-oracle-java-developer-advocate-nicolai-parlog-on-the</id>
-        <link href="https://spring.io/blog/2024/02/15/a-bootiful-podcast-oracle-java-developer-advocate-nicolai-parlog-on-the"/>
-        <updated>2024-02-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
-        <author>
-            <name>Josh Long</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spring Framework 6.1.4, 6.0.17 and 5.3.32 Available Now]]></title>
-        <id>https://spring.io/blog/2024/02/15/spring-framework-6-1-4-6-0-17-and-5-3-32-available-now</id>
-        <link href="https://spring.io/blog/2024/02/15/spring-framework-6-1-4-6-0-17-and-5-3-32-available-now"/>
-        <updated>2024-02-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
-        <author>
-            <name>Sébastien Deleuze</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[GitHub Availability Report: January 2024]]></title>
         <id>https://github.blog/2024-02-14-github-availability-report-january-2024/</id>
         <link href="https://github.blog/2024-02-14-github-availability-report-january-2024/"/>
@@ -604,7 +797,6 @@ Part 1: Continuous Data]]></title>
         <id>https://medium.com/p/cba6c7ed49df</id>
         <link href="https://netflixtechblog.com/sequential-a-b-testing-keeps-the-world-streaming-netflix-part-1-continuous-data-cba6c7ed49df?source=rss----2615bd06b42e---4"/>
         <updated>2024-02-13T19:10:28.000Z</updated>
-        <summary type="html"><![CDATA[Michael Lindon, Chris Sanden, Vache Shirikian, Yanjun Liu, Minal Mishra, Martin Tingley]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -703,16 +895,6 @@ The post Workload identity federation for Azure deployments is now generally ava
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[This Week in Spring - February 14th, 2024]]></title>
-        <id>https://spring.io/blog/2024/02/13/this-week-in-spring-february-14th-2024</id>
-        <link href="https://spring.io/blog/2024/02/13/this-week-in-spring-february-14th-2024"/>
-        <updated>2024-02-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
-        <author>
-            <name>Josh Long</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Planning your Camunda Proof of Concept]]></title>
         <id>https://camunda.com/?p=101054</id>
         <link href="https://camunda.com/blog/2024/02/planning-your-camunda-proof-of-concept/"/>
@@ -786,53 +968,11 @@ The post Planning your Camunda Proof of Concept appeared first on Camunda.]]></s
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Bridging IT intelligence and business KPIs with AI: The elephant in the room]]></title>
-        <id>https://www.elastic.co/blog/portfolio/it-intelligence-business-KPIs-elephant-in-the-room</id>
-        <link href="https://www.elastic.co/blog/portfolio/it-intelligence-business-KPIs-elephant-in-the-room"/>
-        <updated>2024-02-12T15:53:26.000Z</updated>
-        <summary type="html"><![CDATA[Business observability provides a holistic view of the enterprise by integrating data from various domains while using AI for deep insights and real-time action. Discover how you can get business obse...]]></summary>
-        <author>
-            <name>Fermi Fang</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bridging IT intelligence and business KPIs with AI: The elephant in the room]]></title>
-        <id>https://www.elastic.co/blog/portfolio/it-intelligence-business-KPIs-elephant-in-the-room</id>
-        <link href="https://www.elastic.co/blog/portfolio/it-intelligence-business-KPIs-elephant-in-the-room"/>
-        <updated>2024-02-12T15:53:26.000Z</updated>
-        <summary type="html"><![CDATA[The wisdom of the elephant parable
-At the intersection of information technology and business leadership, the ancient parable of the blindfolded individuals and the elephant offers an insightful analogy. Originating from the Indian subcontinent, this story tells of six blindfolded individuals who encounter an elephant for the first time. Each individual touches a different part of the elephant — its side, tusk, trunk, knee, ear, and tail — and subsequently forms a distinct and limited understanding of what the elephant might be. The individual who feels the side believes the elephant to be a wall, the one who touches the tusk thinks it's a spear, and so forth. Subsequently, they argue fiercely, each convinced that their perception of the elephant is the whole truth. 
-https://static-www.ela…]]></summary>
-        <author>
-            <name>Fermi Fang</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[To be well published]]></title>
         <id>https://seths.blog/?p=48492</id>
         <link href="https://feeds.feedblitz.com/~/869669939/0/sethsblog~To-be-well-published/"/>
         <updated>2024-02-12T09:09:00.000Z</updated>
         <summary type="html"><![CDATA[Sooner or later, we benefit from being well-published. Publishing has nothing to do with printing. It’s the act of taking risks to bring a new idea to people who want to embrace it. It’s the head of the lab who works behind the scenes to be sure the talented scientist gets a gig at the […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sphere Tastiness]]></title>
-        <id>https://xkcd.com/2893/</id>
-        <link href="https://xkcd.com/2893/"/>
-        <updated>2024-02-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/sphere_tastiness.png" title="Baseballs do present a challenge to this theory, but I'm convinced we just haven't found the right seasoning." alt="Baseballs do present a challenge to this theory, but I'm convinced we just haven't found the right seasoning." />]]></summary>
-        <author>
-            <name>xkcd.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“I’ve never seen you paint”]]></title>
-        <id>https://seths.blog/?p=44931</id>
-        <link href="https://feeds.feedblitz.com/~/869600537/0/sethsblog~Ive-never-seen-you-paint/"/>
-        <updated>2024-02-11T09:37:00.000Z</updated>
-        <summary type="html"><![CDATA[… said the collector to the painter Jasper Johns. “Neither have I.” Watching is different than doing. Trying to do both at the same time is a challenge.]]></summary>
         <author>
             <name>Seth Godin</name>
         </author>
@@ -846,109 +986,6 @@ https://static-www.ela…]]></summary>
 <p>The post <a href="https://github.blog/2024-02-09-copilot-in-github-support-is-now-available/">Copilot in GitHub Support is now available!</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>]]></summary>
         <author>
             <name>The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Elastic APM for iOS and Android Native apps]]></title>
-        <id>https://www.elastic.co/blog/elastic-apm-for-ios-and-android-native-apps</id>
-        <link href="https://www.elastic.co/blog/elastic-apm-for-ios-and-android-native-apps"/>
-        <updated>2024-02-09T13:58:04.000Z</updated>
-        <summary type="html"><![CDATA[This blog provides an overview of the key capabilities included in the Elastic APM solution for iOS and Android native apps, as well as a walkthrough of the configuration details and troubleshooting w...]]></summary>
-        <author>
-            <name>Akhilesh Pokhariyal,Cesar Munoz,Bryce Buchanan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Elastic APM for iOS and Android Native apps]]></title>
-        <id>https://www.elastic.co/blog/elastic-apm-for-ios-and-android-native-apps</id>
-        <link href="https://www.elastic.co/blog/elastic-apm-for-ios-and-android-native-apps"/>
-        <updated>2024-02-09T13:58:04.000Z</updated>
-        <summary type="html"><![CDATA[Elastic® APM for iOS and Android native apps is generally available in the stack release v8.12. The Elastic iOS and Android APM agents are open-source and have been developed on-top, i.e., as a distribution of the OpenTelemetry Swift and Android SDK/API, respectively.
-https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltf202314f54def998/65c4f0fd17201a86f14ad0b5/1.png,1.png
-Further, the geographic distribution of user traffic is available on a map at a country and regional level. The service overview dashboard also shows trends of metrics such as throughput, latency, failed transaction rate, and distribution of traffic by device make-model, network connection type, and app version.  
-
-The Transactions view shown below highlights the performance of the different transaction groups,…]]></summary>
-        <author>
-            <name>Akhilesh Pokhariyal,Cesar Munoz,Bryce Buchanan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Migrating from self-managed Elastic Stack to Elastic Cloud using snapshot and restore with Azure Blob Storage]]></title>
-        <id>https://www.elastic.co/blog/elastic-stack-elastic-cloud-migration-snapshot-restore-azure-blob-storage</id>
-        <link href="https://www.elastic.co/blog/elastic-stack-elastic-cloud-migration-snapshot-restore-azure-blob-storage"/>
-        <updated>2024-02-08T17:33:56.000Z</updated>
-        <summary type="html"><![CDATA[Follow this step-by-step process to migrate the self-managed Elastic stack content to an Elastic Cloud deployment using the snapshot and restore migration approach of storing and accessing snapshots i...]]></summary>
-        <author>
-            <name>Jonathan Simon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Migrating from self-managed Elastic Stack to Elastic Cloud using snapshot and restore with Azure Blob Storage]]></title>
-        <id>https://www.elastic.co/blog/elastic-stack-elastic-cloud-migration-snapshot-restore-azure-blob-storage</id>
-        <link href="https://www.elastic.co/blog/elastic-stack-elastic-cloud-migration-snapshot-restore-azure-blob-storage"/>
-        <updated>2024-02-08T17:33:56.000Z</updated>
-        <summary type="html"><![CDATA[If you’re running your own self-managed Elastic® stack and are considering migrating to Elastic Cloud to take advantage of having Elastic manage your deployment so that it is always up-to-date with the latest features like the AI Assistant, this blog post is for you. 
-
-This blog post provides a walkthrough of how to migrate a self-managed Elastic stack’s contents to Elastic Cloud using a snapshot and restore migration method. For the storage location of the snapshot, we’ll use Microsoft Azure Blob Storage, an ideal service for saving and accessing files with fine grain control provided by Azure Storage Accounts.
-https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltfe72bccaf7df6906/65c3c1144cd3701f3e70e39a/1-elastic-blog-stack-cloud-migration.png,1-elastic-blog-stack-cloud-migrati…]]></summary>
-        <author>
-            <name>Jonathan Simon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub&#8217;s Engineering Fundamentals program: How we deliver on availability, security, and accessibility]]></title>
-        <id>https://github.blog/2024-02-08-githubs-engineering-fundamentals-program-how-we-deliver-on-availability-security-and-accessibility/</id>
-        <link href="https://github.blog/2024-02-08-githubs-engineering-fundamentals-program-how-we-deliver-on-availability-security-and-accessibility/"/>
-        <updated>2024-02-08T17:15:55.000Z</updated>
-        <summary type="html"><![CDATA[<p>The Fundamentals program has helped us address tech debt, improve reliability, and enhance observability of our engineering systems.</p>
-<p>The post <a href="https://github.blog/2024-02-08-githubs-engineering-fundamentals-program-how-we-deliver-on-availability-security-and-accessibility/">GitHub&#8217;s Engineering Fundamentals program: How we deliver on availability, security, and accessibility</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>]]></summary>
-        <author>
-            <name>The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Elastic wins Tencent Cloud 2023 Partner of the Year Award]]></title>
-        <id>https://www.elastic.co/blog/elastic-wins-tencent-cloud-2023-partner-of-the-year-award</id>
-        <link href="https://www.elastic.co/blog/elastic-wins-tencent-cloud-2023-partner-of-the-year-award"/>
-        <updated>2024-02-08T16:43:22.000Z</updated>
-        <summary type="html"><![CDATA[At the 2024 Tencent Industry Partner Conference, Elastic won the 2023 Tencent Cloud Partner of the Year Award. Learn more about our partnership with Tencent Cloud and its impact on the future of cloud...]]></summary>
-        <author>
-            <name>Yuki Jiang</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Elastic wins Tencent Cloud 2023 Partner of the Year Award]]></title>
-        <id>https://www.elastic.co/blog/elastic-wins-tencent-cloud-2023-partner-of-the-year-award</id>
-        <link href="https://www.elastic.co/blog/elastic-wins-tencent-cloud-2023-partner-of-the-year-award"/>
-        <updated>2024-02-08T16:43:22.000Z</updated>
-        <summary type="html"><![CDATA[Recently, the 2024 Tencent Industry Partner Conference with the theme of "Soaring into the Clouds and Chasing the Waves, Wisdom Across Thousands of Miles" was held in Sanya, Hainan. Many industry leaders and nearly a thousand partners gathered together to discuss and look forward to new trends in the development of the industrial ecosystem and opportunities.
-https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltac53cd4ed4efab50/65c264d0eed32eccefac2ff4/1-tencent-blog.png,1-tencent-blog.png
-As an important ecological partner of Tencent Cloud in the field of big data search and analysis, Elastic® was invited to attend and won the Tencent Cloud 2023 Partner of the Year Award.
-https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt316680a83439ceae/65c264f825aa94b02534fe9a/2-tencent-blog.png,2-tencent-blog.png
-Elastic and Tencent Cloud have established a strategic partnership since 2019. Both parties are in products, technology, and ecology and carried out in-depth cooperation in multiple dimensions.
-The release and timing of any features or functionality described in this post remain at Elastic's sole discretion. Any features or functionality not currently available may not be delivered on time or at all.]]></summary>
-        <author>
-            <name>Yuki Jiang</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Bootiful Podcast: Dr. Venkat Subramaniam, on the latest in Java]]></title>
-        <id>https://spring.io/blog/2024/02/08/a-bootiful-podcast-dr-venkat-subramaniam-on-the-latest-in-java</id>
-        <link href="https://spring.io/blog/2024/02/08/a-bootiful-podcast-dr-venkat-subramaniam-on-the-latest-in-java"/>
-        <updated>2024-02-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
-        <author>
-            <name>Josh Long</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spring Tips: Spring AI]]></title>
-        <id>https://spring.io/blog/2024/02/08/spring-tips-spring-ai</id>
-        <link href="https://spring.io/blog/2024/02/08/spring-tips-spring-ai"/>
-        <updated>2024-02-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
-        <author>
-            <name>Josh Long</name>
         </author>
     </entry>
     <entry>
@@ -1000,17 +1037,6 @@ Objects and their relationships are ubiquitous in the world around us, and relat
 Graph neural networks, or GNNs for short, have emerged…]]></summary>
         <author>
             <name>Google AI Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AppSec is harder than you think. Here’s how AI can help.]]></title>
-        <id>https://github.blog/2024-02-06-appsec-is-harder-than-you-think-heres-how-ai-can-help/</id>
-        <link href="https://github.blog/2024-02-06-appsec-is-harder-than-you-think-heres-how-ai-can-help/"/>
-        <updated>2024-02-06T18:19:05.000Z</updated>
-        <summary type="html"><![CDATA[<p>In practice, shifting left has been more about shifting the burden rather than the ability. But AI is bringing its promise closer to reality. Here’s how. </p>
-<p>The post <a href="https://github.blog/2024-02-06-appsec-is-harder-than-you-think-heres-how-ai-can-help/">AppSec is harder than you think. Here’s how AI can help.</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>]]></summary>
-        <author>
-            <name>The GitHub Blog</name>
         </author>
     </entry>
     <entry>
@@ -1288,35 +1314,6 @@ Graphs, in which objects and their relations are represented as nodes (or vertic
 A common approach to learning on graphs are graph neural networks (GNNs), which operate on graph data by applying an optimizable transformation on node, edge, and global attributes. The most typical class of GNNs operates via a message-passing framework,…]]></summary>
         <author>
             <name>Google AI Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Image Filesystem: Configuring Kubernetes to store containers on a separate filesystem]]></title>
-        <id>https://kubernetes.io/blog/2024/01/23/kubernetes-separate-image-filesystem/</id>
-        <link href="https://kubernetes.io/blog/2024/01/23/kubernetes-separate-image-filesystem/"/>
-        <updated>2024-01-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Author: Kevin Hannon (Red Hat)
-A common issue in running/operating Kubernetes clusters is running out of disk space.
-When the node is provisioned, you should aim to have a good amount of storage space for your container images and running containers.
-The container runtime usually writes to /var.
-This can be located as a separate partition or on the root filesystem.
-CRI-O, by default, writes its containers and images to /var/lib/containers, while containerd writes its containers and images to /var/lib/containerd.
-In this blog post, we want to bring attention to ways that you can configure your container runtime to store its content separately from the default partition.
-One area that needs more explaining is where/what Kubernetes is writing to disk.
-Understanding Kubernetes disk usage
-Kuber…]]></summary>
-        <author>
-            <name>Kubernetes Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWS Weekly Roundup — Amazon ECS, RDS for MySQL, EMR Studio, AWS Community, and more — January 22, 2024]]></title>
-        <id>b4a977dc5a5efd9f7b1f3fc77b19b96d7576caed</id>
-        <link href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-ecs-rds-for-mysql-emr-studio-aws-community-and-more-january-22-2024/"/>
-        <updated>2024-01-22T18:10:29.000Z</updated>
-        <summary type="html"><![CDATA[As usual, a lot has happened in the Amazon Web Services (AWS) universe this past week. I’m also excited about all the AWS Community events and initiatives that are happening around the world. Let’s take a look together! Last week’s launches Here are some launches that got my attention: Amazon Elastic Container Service (Amazon ECS) […]]]></summary>
-        <author>
-            <name>Antje Barth</name>
         </author>
     </entry>
 </feed>

@@ -230,6 +230,26 @@
       "siteUrl": "https://www.elastic.co",
       "articles": [
         {
+          "id": "https://www.elastic.co/blog/ml-vs-ai",
+          "author": "Aditya Tripathi,Jessica Taylor",
+          "description": "Uncover the world of machine learning and artificial intelligence. Learn how they’re different and where they intersect to drive innovation....",
+          "link": "https://www.elastic.co/blog/ml-vs-ai",
+          "publishedOn": "2024-03-07T15:08:27.000Z",
+          "wordCount": 27023,
+          "title": "Machine learning vs. AI: Understanding the differences",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltcae134a607e2477b/65e7398575a8f56df305f828/139686_-_Elastic_-_Headers_-_V1-4.jpg"
+        },
+        {
+          "id": "https://www.elastic.co/blog/ml-vs-ai",
+          "author": "Aditya Tripathi,Jessica Taylor",
+          "description": "For a long time, AI was almost exclusively the plaything of science fiction writers, where humans push technology too far, to the point it comes alive and — as Hollywood would have us believe — starts to wreak havoc. Cheery stuff! However, in recent years, we’ve seen an explosion of AI and machine learning technology that, so far, has shown us a fun side with people using AI for creating, planning, and ideating in a big way.\nThese emerging technologies are being used to revolutionize everything from healthcare to entertainment. But as with any new technology, people are still trying to wrap their heads around it. And one of the biggest sources of this confusion comes from the similarities and overlap between two of the key terms in this field: AI and machine learning. So in this article, w…",
+          "link": "https://www.elastic.co/blog/ml-vs-ai",
+          "publishedOn": "2024-03-07T15:08:27.000Z",
+          "wordCount": 27023,
+          "title": "Machine learning vs. AI: Understanding the differences",
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltcae134a607e2477b/65e7398575a8f56df305f828/139686_-_Elastic_-_Headers_-_V1-4.jpg"
+        },
+        {
           "id": "https://www.elastic.co/blog/observability-gai-aiops-tools-consolidation-opentelemetry",
           "author": "Gagan Singh",
           "description": "An overview of the observability industry through the eyes of over 500 IT decision makers. Find out what’s top of mind for observability in 2024, from AIOps to GAI, tool consolidation and more from yo...",
@@ -255,7 +275,7 @@
           "description": "Using a jdbc static filter connected to Elasticsearch might speed up your Logstash enrichment pipeline....",
           "link": "https://www.elastic.co/blog/enrich-your-elasticsearch-documents-with-logstash",
           "publishedOn": "2024-03-06T16:00:00.000Z",
-          "wordCount": 26231,
+          "wordCount": 25465,
           "title": "Enrich your Elasticsearch documents with Logstash",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte1506dc3594c116d/65e88a74a8b011fa095c765e/139799_-_Batch_of_7_images_for_Financial_Sector-02_(1).jpg"
         },
@@ -265,7 +285,7 @@
           "description": "input {\n  # Read all documents from Elasticsearch\n  elasticsearch {\n    hosts => [\"${ELASTICSEARCH_URL}\"]\n    user => \"elastic\"\n    password => \"${ELASTIC_PASSWORD}\"\n    index => \"kibana_sample_data_logs\"\n    docinfo => true\n    ecs_compatibility => \"disabled\"\n  }\n}\nfilter {\n  # Enrich every document with Elasticsearch\n  elasticsearch {\n    hosts => [\"${ELASTICSEARCH_URL}\"]\n    user => \"elastic\"\n    password => \"${ELASTIC_PASSWORD}\"\n    index => \"vip\"\n    query => \"ip:%{[clientip]}\"\n    sort => \"ip:desc\"\n    fields => {\n      \"[name]\" => \"[name]\"\n      \"[vip]\" => \"[vip]\"\n    }\n  }\n  mutate { \n    remove_field => [\"@version\", \"@timestamp\"] \n  }\n}\noutput {\n  if [name] {\n    # Write all modified documents to Elasticsearch\n    elasticsearch {\n      manage_template => false\n      hosts => [\"${E…",
           "link": "https://www.elastic.co/blog/enrich-your-elasticsearch-documents-with-logstash",
           "publishedOn": "2024-03-06T16:00:00.000Z",
-          "wordCount": 26231,
+          "wordCount": 25465,
           "title": "Enrich your Elasticsearch documents with Logstash",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte1506dc3594c116d/65e88a74a8b011fa095c765e/139799_-_Batch_of_7_images_for_Financial_Sector-02_(1).jpg"
         },
@@ -295,7 +315,7 @@
           "description": "Learn how to develop a chatbot effectively with this guide, covering do’s and don'ts for chatbot developers and other useful tips....",
           "link": "https://www.elastic.co/blog/how-to-make-a-chatbot",
           "publishedOn": "2024-03-05T19:22:25.000Z",
-          "wordCount": 31219,
+          "wordCount": 28954,
           "title": "How to make a chatbot: Dos and don'ts for developers in an AI-driven world",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0a5c18066bd50ec7/65e62018aca1712a71a00ce2/139686_-_Elastic_-_Headers_-_V1_7.jpg"
         },
@@ -305,7 +325,7 @@
           "description": "Every day the world is becoming increasingly powered by artificial intelligence. In fact, you’d struggle to find tech companies that have not announced AI integrations into their tech stack in one way or another. Cynics might say this is a passing phase, but the reason AI is so popular is that it’s a versatile set of capabilities that can help solve a lot of problems.\nThe most direct way AI can be utilized is in the form of a chatbot: a conversational interface that mimics human interaction, generating contextual responses based on what the user inputs. Sometimes these are text-based, such as the customer service bots you often see on websites or apps. And sometimes they’re voice-enabled, like Siri, Google Assistant, and Alexa. These specific examples only just scratch the surface of what …",
           "link": "https://www.elastic.co/blog/how-to-make-a-chatbot",
           "publishedOn": "2024-03-05T19:22:25.000Z",
-          "wordCount": 31219,
+          "wordCount": 28954,
           "title": "How to make a chatbot: Dos and don'ts for developers in an AI-driven world",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0a5c18066bd50ec7/65e62018aca1712a71a00ce2/139686_-_Elastic_-_Headers_-_V1_7.jpg"
         },
@@ -315,7 +335,7 @@
           "description": "Elastic Observability announces connectivity to AWS Bedrock for AI Assistant. Other enhancements include contextual awareness of the entry point into the AI Assistant and tech preview of editing and v...",
           "link": "https://www.elastic.co/blog/whats-new-elastic-observability-8-13-0",
           "publishedOn": "2024-03-04T17:11:13.000Z",
-          "wordCount": 26348,
+          "wordCount": 24083,
           "title": "Elastic Observability 8.13: GA of AI Assistant support for AWS Bedrock and enhancements for AI Assistant and SLO",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt13b5b91f5c4a51b3/65e604113b4c4f6a217af8e3/134704_-_Batch_blog_header_images_Observability.jpg"
         },
@@ -325,7 +345,7 @@
           "description": "Elastic® Observability 8.13 announces general availability (GA) for AWS Bedrock support in Elastic AI Assistant, along with enhancements for the AI Assistant and SLOs.\nAI Assistant enhancements \n\nElastic AI Assistant support for AWS Bedrock\n\nContextual awareness of the entry point into AI Assistant\n\nPerformance improvements\n\nTech preview of editing and visualizing ES|QL queries from the AI Assistant\n\nSLO enhancements\n\nAbility to group your SLOs by tag, SLI indicator type, or status\n\nAbility to triage burn rate alerts\n\nElastic Observability 8.13 is available now on Elastic Cloud — the only hosted Elasticsearch® offering to include all of the new features in this latest release. You can also download the Elastic Stack and our cloud orchestration products, Elastic Cloud Enterprise and Elastic…",
           "link": "https://www.elastic.co/blog/whats-new-elastic-observability-8-13-0",
           "publishedOn": "2024-03-04T17:11:13.000Z",
-          "wordCount": 26348,
+          "wordCount": 24083,
           "title": "Elastic Observability 8.13: GA of AI Assistant support for AWS Bedrock and enhancements for AI Assistant and SLO",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt13b5b91f5c4a51b3/65e604113b4c4f6a217af8e3/134704_-_Batch_blog_header_images_Observability.jpg"
         },
@@ -335,7 +355,7 @@
           "description": "In this blog, we'll unravel the key features, benefits, and unparalleled security solutions that Airtel brings to its B2B customers and explore the cutting-edge Airtel Managed Security Services, forti...",
           "link": "https://www.elastic.co/blog/airtel-managed-security-services-elastic-security",
           "publishedOn": "2024-03-04T15:34:04.000Z",
-          "wordCount": 26617,
+          "wordCount": 25851,
           "title": "Empowering businesses with Airtel Managed Security Services and Elastic Security",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt89822980961a7cf3/65e5fc1a2568ef68456cd09a/139849_-_Batch_of_7_Telecommunications_blog_header_images-02.jpg"
         },
@@ -345,7 +365,7 @@
           "description": "In the ever-evolving landscape of digital business, security is paramount. As businesses navigate the complexities of today's interconnected world, ensuring the safety of sensitive data and maintaining the integrity of operations becomes a top priority. Partner with Airtel, a trusted leader in telecommunications, and explore the cutting-edge Airtel Managed Security Services, fortified by the robust Elastic Security stack. In this blog, we'll unravel the key features, benefits, and unparalleled security solutions that Airtel brings to its B2B customers.\nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltda51aa555328c548/65e5fb31aca171625da00bc4/1-airtel-mdr-services.png,1-airtel-mdr-services.pngThe Elastic Security stack: A pillar of strength\nAirtel's choice of the Elastic Secur…",
           "link": "https://www.elastic.co/blog/airtel-managed-security-services-elastic-security",
           "publishedOn": "2024-03-04T15:34:04.000Z",
-          "wordCount": 26617,
+          "wordCount": 25851,
           "title": "Empowering businesses with Airtel Managed Security Services and Elastic Security",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt89822980961a7cf3/65e5fc1a2568ef68456cd09a/139849_-_Batch_of_7_Telecommunications_blog_header_images-02.jpg"
         },
@@ -355,7 +375,7 @@
           "description": "We have employee resource groups aligned with a variety of shared identities that allow Elasticians to build a sense of community and belonging at work. Here, we meet Women of Elastic....",
           "link": "https://www.elastic.co/blog/culture-ergs-encourage-you-to-come-as-you-are-meet-women-of-elastic",
           "publishedOn": "2024-03-01T00:00:00.000Z",
-          "wordCount": 26405,
+          "wordCount": 24140,
           "title": "ERGs encourage you to come as you are: Meet Women of Elastic",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltf13c8e50edba2a17/6238bab94b35ec6c2f699712/3.0-Women-of-Elastic-blog-1680x980.jpg"
         },
@@ -365,7 +385,7 @@
           "description": "Employee resource groups, or as we like to call them, Elastician resource groups, have been an informal part of Elastic’s culture since 2016. They started as Slack channels that any Elastician could join.\nThese ERGs were formalized in 2021 to ensure that the members would have structure, budget, and ultimately, a voice based on any dimension of diversity, allyship, and advocacy. This was an important step in our global diversity, equity, and inclusion journey.\nOur ERGs are aligned to shared identities, interests, affinities, or allyships. The goal is to create a community of people with something in common and to encourage sharing, learning, and networking. Each has visions and goals they are working towards besides building a sense of community and belonging.\nOur Core ERGs\nWe have seven f…",
           "link": "https://www.elastic.co/blog/culture-ergs-encourage-you-to-come-as-you-are-meet-women-of-elastic",
           "publishedOn": "2024-03-01T00:00:00.000Z",
-          "wordCount": 26405,
+          "wordCount": 24140,
           "title": "ERGs encourage you to come as you are: Meet Women of Elastic",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltf13c8e50edba2a17/6238bab94b35ec6c2f699712/3.0-Women-of-Elastic-blog-1680x980.jpg"
         },
@@ -375,7 +395,7 @@
           "description": "Simplify the process of building a search engine with Elastic and start exploring its endless possibilities....",
           "link": "https://www.elastic.co/blog/how-to-create-a-search-engine",
           "publishedOn": "2024-02-29T20:57:31.000Z",
-          "wordCount": 28421,
+          "wordCount": 27655,
           "title": "How to create a search engine",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt862c9042505a5c37/65df9e2f3b4c4fbc6d7adf6d/elastic-de-142343-blogheader.V1_V1.jpg"
         },
@@ -385,7 +405,7 @@
           "description": "Search engines are one of those things in life we take for granted. Whenever we’re looking for something, we throw a word or phrase into a search engine and, like magic, it gives us a list of matching results. It might not feel as magical nowadays because it’s something we do every day. But anyone who remembers the days of Alta Vista should understand how well we have it now.\nWhen I say “search engine,” it’s easy to picture popular web search engines like Google and — to a lesser extent — Bing. But the application of search engines goes far beyond just searching the web. Popular apps like Uber and Tinder include powerful search engines that match users to drivers and dates using geo-location and other characteristics exclusively from their platform. This is the same for streaming apps, aca…",
           "link": "https://www.elastic.co/blog/how-to-create-a-search-engine",
           "publishedOn": "2024-02-29T20:57:31.000Z",
-          "wordCount": 28421,
+          "wordCount": 27655,
           "title": "How to create a search engine",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt862c9042505a5c37/65df9e2f3b4c4fbc6d7adf6d/elastic-de-142343-blogheader.V1_V1.jpg"
         },
@@ -395,7 +415,7 @@
           "description": "This blog is part 2 of a series on Locked Shields, the world's largest cybersecurity exercise. Learn how Elastic is typically set up during Locked Shields and gain insights into the top incidents that...",
           "link": "https://www.elastic.co/blog/nation-states-cyber-threats-locked-shields",
           "publishedOn": "2024-02-29T17:38:43.000Z",
-          "wordCount": 31671,
+          "wordCount": 29406,
           "title": "A game of nations — How nation-states prepare for cyber threats with Locked Shields (part 2)",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt5aca1e4fbbbcc5b2/65df50de0f1d35f27eca4a1f/center-of-excellence-2.jpg"
         },
@@ -405,29 +425,9 @@
           "description": "This blog is part 2 of a previous blog, which introduced Locked Shields. It gives a brief overview of how Elastic® is typically set up during Locked Shields. There is also a focus on the meticulously executed comprehensive series of attack simulations on systems housing critical infrastructure in the fictitious country of Berylia. \n\nWithin the controlled Locked Shields environment, Elastic SIEM and Endpoint Security demonstrated their capabilities by successfully detecting and preventing a myriad of attack tactics and techniques. The blog encapsulates a brief summary of the top incidents that emerged during these simulations, offering valuable insights into the efficacy of Elastic Security as a unified cybersecurity solution. \n\nWhile the blog does not go into the specifics, high-level thre…",
           "link": "https://www.elastic.co/blog/nation-states-cyber-threats-locked-shields",
           "publishedOn": "2024-02-29T17:38:43.000Z",
-          "wordCount": 31671,
+          "wordCount": 29406,
           "title": "A game of nations — How nation-states prepare for cyber threats with Locked Shields (part 2)",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt5aca1e4fbbbcc5b2/65df50de0f1d35f27eca4a1f/center-of-excellence-2.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/financial-services-fraud-generative-ai-attack-surface",
-          "author": "Richard Towle,Brandon Mavleos",
-          "description": "AI technologies, particularly machine learning and advanced analytics, have emerged as powerful tools in the fight against fraud in financial services. Combined with Elastic, FSIs can better combat th...",
-          "link": "https://www.elastic.co/blog/financial-services-fraud-generative-ai-attack-surface",
-          "publishedOn": "2024-02-28T14:57:21.000Z",
-          "wordCount": 28425,
-          "title": "Fraud in financial services: Leaning on generative AI to protect a rapidly expanding attack surface",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9ce72d5ec72a2f87/65de3796d778b0308bad58df/elastic-de-143903-V2_V1.jpg"
-        },
-        {
-          "id": "https://www.elastic.co/blog/financial-services-fraud-generative-ai-attack-surface",
-          "author": "Richard Towle,Brandon Mavleos",
-          "description": "The financial ecosystem is experiencing an exciting evolution in global payment systems, driven by a digital first approach. The pandemic changed both consumer and business behavior toward adopting new and emerging forms of digital channels. The increased use of digital wallets, real-time payments, embedded payments (such as ApplePay and GooglePay), peer to peer payment systems, and other emerging vehicles ramped up. In fact, according to statista.com, digital payments are projected to reach $11.55 trillion in transaction value within 2024 — all while cash as a form of payment continues to decrease globally.\nWhile this revolution has greatly improved efficiency and reduced friction for customers, banks, and merchants, it has also resulted in an exponential growth in fraud in financial serv…",
-          "link": "https://www.elastic.co/blog/financial-services-fraud-generative-ai-attack-surface",
-          "publishedOn": "2024-02-28T14:57:21.000Z",
-          "wordCount": 28425,
-          "title": "Fraud in financial services: Leaning on generative AI to protect a rapidly expanding attack surface",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9ce72d5ec72a2f87/65de3796d778b0308bad58df/elastic-de-143903-V2_V1.jpg"
         }
       ]
     },
@@ -448,7 +448,7 @@
           "description": "Azure Pipelines includes around 150 build & release tasks as well as many more task extensions. Various included tasks have multiple (major) versions bringing the total to over included 200 tasks.\nThe post Azure Pipelines deprecated tasks retirement schedule appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azure-pipelines-deprecated-tasks-retirement-schedule/",
           "publishedOn": "2024-02-16T15:27:19.000Z",
-          "wordCount": 5543,
+          "wordCount": 5546,
           "title": "Azure Pipelines deprecated tasks retirement schedule",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2024/02/Screenshot-2024-02-16-at-16.31.33.png"
         },
@@ -458,7 +458,7 @@
           "description": "Azure Repos provides two methods for users to access a git repository in Azure Repos – HTTPS and SSH. To use SSH, you need to create a key pair using one of the supported encryption methods. In the past we’ve been supporting only SSH-RSA and we’ve asked users to enable the SSH-RSA here.\nThe post End of SSH-RSA support for Azure Repos appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/ssh-rsa-deprecation/",
           "publishedOn": "2024-02-15T17:36:09.000Z",
-          "wordCount": 6704,
+          "wordCount": 7006,
           "title": "End of SSH-RSA support for Azure Repos",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2018/08/vstsfeature.png"
         },
@@ -468,7 +468,7 @@
           "description": "We’ve recently made some improvements to the Publish Test Results task in Azure Pipelines. This task now supports file attachments when publishing test results from a JUnit report.\nThe post JUnit Attachments Support for Publish Test Results appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/junit-attachments-support-for-publish-test-results/",
           "publishedOn": "2024-02-15T16:28:33.000Z",
-          "wordCount": 4911,
+          "wordCount": 4910,
           "title": "JUnit Attachments Support for Publish Test Results",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2023/05/PIPELINES.png"
         },
@@ -478,7 +478,7 @@
           "description": "This month, we are releasing fixes that impact our self-hosted product, Azure DevOps Server.\nAzure DevOps Server 2022.1\nAzure DevOps Server 2020.1.2\nAzure DevOps Server 2019.1.2\nAzure DevOps Server 2022.1 Patch 2\nThe post February patches for Azure DevOps Server appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/february-patches-for-azure-devops-server-3/",
           "publishedOn": "2024-02-13T21:10:55.000Z",
-          "wordCount": 5048,
+          "wordCount": 5106,
           "title": "February patches for Azure DevOps Server",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2019/02/index-hero.jpg"
         },
@@ -488,7 +488,7 @@
           "description": "In September, we announced the ability to configure Azure service connections that do not need a secret. Azure service connections that use workload identity federation are easier to manage and more secure. Many customers have adopted this feature and we’re excited to announce it is now generally available!\nThe post Workload identity federation for Azure deployments is now generally available appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/workload-identity-federation-for-azure-deployments-is-now-generally-available/",
           "publishedOn": "2024-02-13T07:16:32.000Z",
-          "wordCount": 5331,
+          "wordCount": 5334,
           "title": "Workload identity federation for Azure deployments is now generally available",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2023/09/oidc-collaboration-4.png"
         }
@@ -680,12 +680,22 @@
       "siteUrl": "https://camunda.com/",
       "articles": [
         {
+          "id": "https://camunda.com/?p=102198",
+          "author": "Niall Deehan",
+          "description": "Event-based microservice architectures are popular but do have limitations. In this series, we'll think outside the box and learn new ideas for microservice orchestration.\nThe post Thinking Outside the Microservice Box: Decision Making (Part 1) appeared first on Camunda.",
+          "link": "https://camunda.com/blog/2024/03/thinking-outside-the-microservice-box-decision-making/",
+          "publishedOn": "2024-03-07T14:30:00.000Z",
+          "wordCount": 6603,
+          "title": "Thinking Outside the Microservice Box: Decision Making (Part 1)",
+          "imageUrl": "https://0097f9ca.flyingcdn.com/wp-content/uploads/2024/03/Thinking-Outside-the-Microservice-Box-Decision-Making-Part-1.png"
+        },
+        {
           "id": "https://camunda.com/?p=102164",
           "author": "Joyce Johnson",
           "description": "How can you measure and demonstrate success? Learn how to determine success for your Camunda proof of concept.\nThe post What Indicates Success for Your Camunda POC? appeared first on Camunda.",
           "link": "https://camunda.com/blog/2024/03/what-indicates-success-camunda-poc/",
           "publishedOn": "2024-03-06T20:40:51.000Z",
-          "wordCount": 6667,
+          "wordCount": 6669,
           "title": "What Indicates Success for Your Camunda POC?",
           "imageUrl": "https://0097f9ca.flyingcdn.com/wp-content/uploads/2024/03/What-is-Success-with-your-Camunda-POC-Blog-Series-Part-4.png"
         },
@@ -695,7 +705,7 @@
           "description": "What are business processes, and why are they important? Learn how they work, types of business processes, & why well-orchestrated processes are critical.\nThe post What is a Business Process and Why Should You Care appeared first on Camunda.",
           "link": "https://camunda.com/blog/2024/02/what-is-a-business-process-why-important/",
           "publishedOn": "2024-02-29T12:00:00.000Z",
-          "wordCount": 7538,
+          "wordCount": 7527,
           "title": "What is a Business Process and Why Should You Care",
           "imageUrl": "https://0097f9ca.flyingcdn.com/wp-content/uploads/2024/02/What-is-a-Business-Process-and-why-should-you-care.png"
         },
@@ -705,7 +715,7 @@
           "description": "Study demonstrates significant benefits to adopting Camunda and provides a powerful customizable tool to help you understand the impact it can have on your organization.\nThe post Camunda Delivered 408% ROI According to New Study appeared first on Camunda.",
           "link": "https://camunda.com/blog/2024/02/camunda-delivered-408-roi-new-study/",
           "publishedOn": "2024-02-27T16:33:24.000Z",
-          "wordCount": 6739,
+          "wordCount": 6728,
           "title": "Camunda Delivered 408% ROI According to New Study",
           "imageUrl": "https://0097f9ca.flyingcdn.com/wp-content/uploads/2024/02/Forrester-TEI-2024_Blog-1200x627-1.png"
         },
@@ -715,7 +725,7 @@
           "description": "Learn how Samantha, as a developer and a new Camunda user, explored Camunda Optimize to enhance their development process.\nThe post From Insights to Action: Harnessing Camunda Optimize for Effective Development appeared first on Camunda.",
           "link": "https://camunda.com/blog/2024/02/insights-to-action-camunda-optimize-effective-development/",
           "publishedOn": "2024-02-26T13:00:00.000Z",
-          "wordCount": 6408,
+          "wordCount": 6393,
           "title": "From Insights to Action: Harnessing Camunda Optimize for Effective Development",
           "imageUrl": "https://0097f9ca.flyingcdn.com/wp-content/uploads/2024/02/Insights-to-Action-Camunda-Optimize_1200x627.png"
         },
@@ -725,7 +735,7 @@
           "description": "Picking the right process to use for your proof-of-concept is critical. In the next post in our series on creating a Camunda POC, learn how to choose the right one.\nThe post Picking the Perfect Process for Your Camunda POC appeared first on Camunda.",
           "link": "https://camunda.com/blog/2024/02/picking-perfect-process-camunda-proof-of-concept/",
           "publishedOn": "2024-02-23T21:23:42.000Z",
-          "wordCount": 6683,
+          "wordCount": 6681,
           "title": "Picking the Perfect Process for Your Camunda POC",
           "imageUrl": "https://0097f9ca.flyingcdn.com/wp-content/uploads/2024/02/Right-Process-for-your-Camunda-POC-Blog-Series-Part-2.png"
         },
@@ -735,7 +745,7 @@
           "description": "Learn what workflow orchestration is, how it works, its benefits, and how you can get started using it today.\nThe post What is Workflow Orchestration? Guide with Use Cases appeared first on Camunda.",
           "link": "https://camunda.com/blog/2024/02/what-is-workflow-orchestration-guide-use-cases/",
           "publishedOn": "2024-02-22T00:00:00.000Z",
-          "wordCount": 7876,
+          "wordCount": 7870,
           "title": "What is Workflow Orchestration? Guide with Use Cases",
           "imageUrl": "https://0097f9ca.flyingcdn.com/wp-content/uploads/2024/02/What-is-Workflow-Orchestration.png"
         },
@@ -745,7 +755,7 @@
           "description": "See how NatWest accelerated their process automation and orchestration, even as their usage grew, with a CoE using Camunda.\nThe post Learn How NatWest Built a Center of Excellence to Improve Process Orchestration appeared first on Camunda.",
           "link": "https://camunda.com/blog/2024/02/learn-how-natwest-built-a-center-of-excellence-to-improve-process-orchestration/",
           "publishedOn": "2024-02-16T15:00:00.000Z",
-          "wordCount": 7007,
+          "wordCount": 7001,
           "title": "Learn How NatWest Built a Center of Excellence to Improve Process Orchestration",
           "imageUrl": "https://0097f9ca.flyingcdn.com/wp-content/uploads/2024/02/NatWest-Center-of-Excellence-Improve-Process-Orchestration.png"
         },
@@ -755,7 +765,7 @@
           "description": "Check out our cleaner and more intuitive modeling UI, coming later this month.\nThe post Start Modeling Faster with the New Simplified Modeling Canvas appeared first on Camunda.",
           "link": "https://camunda.com/blog/2024/02/model-faster-simplified-modeling-canvas/",
           "publishedOn": "2024-02-15T21:34:37.000Z",
-          "wordCount": 6397,
+          "wordCount": 6391,
           "title": "Start Modeling Faster with the New Simplified Modeling Canvas",
           "imageUrl": "https://0097f9ca.flyingcdn.com/wp-content/uploads/2024/02/Simplified-Modeling-Canvas_v2.png"
         },
@@ -765,24 +775,9 @@
           "description": "We're excited to announce the February 2024 alpha release of Camunda. Check out what's new.\nThe post Camunda Alpha Release February 2024 appeared first on Camunda.",
           "link": "https://camunda.com/blog/2024/02/camunda-alpha-release-february-2024/",
           "publishedOn": "2024-02-13T17:00:45.000Z",
-          "wordCount": 7513,
+          "wordCount": 7507,
           "title": "Camunda Alpha Release February 2024",
           "imageUrl": "https://0097f9ca.flyingcdn.com/wp-content/uploads/2024/02/camunda-alpha-release-february-2024.png"
-        },
-        {
-          "id": "https://camunda.com/?p=101054",
-          "author": "Joyce Johnson",
-          "description": "Over half of software projects fail. A well-planned and executed POC makes a difference, and this post will help show you how to plan yours.\nThe post Planning Your Camunda Proof of Concept appeared first on Camunda.",
-          "link": "https://camunda.com/blog/2024/02/planning-your-camunda-proof-of-concept/",
-          "publishedOn": "2024-02-12T22:02:16.000Z",
-          "wordCount": 7389,
-          "title": "Planning Your Camunda Proof of Concept",
-          "enclosure": {
-            "url": "https://camunda.com/wp-content/uploads/2024/02/response-example.mp4",
-            "length": "20182437",
-            "type": "video/mp4"
-          },
-          "imageUrl": "https://0097f9ca.flyingcdn.com/wp-content/uploads/2024/02/planning-your-camunda-poc.png"
         }
       ]
     },
@@ -792,34 +787,19 @@
       "siteUrl": "https://tonarinoyj.jp/episode/13932016480028985383",
       "articles": [
         {
-          "id": "tonarino_yj:episode:2550668106003104547",
+          "id": "tonarino_yj:episode:2550689798289615231",
           "author": "原作/ＯＮＥ/漫画/村田雄介",
           "description": "ワンパンマン",
-          "link": "https://tonarinoyj.jp/episode/2550668106003104547",
-          "publishedOn": "2024-02-21T15:00:00.000Z",
-          "wordCount": 103,
-          "title": "[第247話] ワンパンマン",
+          "link": "https://tonarinoyj.jp/episode/2550689798289615231",
+          "publishedOn": "2024-03-06T15:00:00.000Z",
+          "wordCount": 195,
+          "title": "[告知イラスト] ワンパンマン",
           "enclosure": {
-            "url": "https://cdn-img.tonarinoyj.jp/public/episode-thumbnail/2550668106003104547-00d15e11cb46f6869a77797fecbf346d",
+            "url": "https://cdn-img.tonarinoyj.jp/public/episode-thumbnail/2550689798289615231-2ab30b326f8ddea992d907eff0bd349b",
             "length": "0",
             "type": "image/jpeg"
           },
-          "imageUrl": "https://cdn-img.tonarinoyj.jp/public/episode-thumbnail/2550668106003104547-00d15e11cb46f6869a77797fecbf346d"
-        },
-        {
-          "id": "tonarino_yj:episode:11341664176591995253",
-          "author": "原作/ＯＮＥ/漫画/村田雄介",
-          "description": "ワンパンマン",
-          "link": "https://tonarinoyj.jp/episode/11341664176591995253",
-          "publishedOn": "2024-02-07T15:00:00.000Z",
-          "wordCount": 103,
-          "title": "[第246話] ワンパンマン",
-          "enclosure": {
-            "url": "https://cdn-img.tonarinoyj.jp/public/episode-thumbnail/11341664176591995253-3c1077a88b89a0d9a80620d41a433c2a",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://cdn-img.tonarinoyj.jp/public/episode-thumbnail/11341664176591995253-3c1077a88b89a0d9a80620d41a433c2a"
+          "imageUrl": "https://cdn-img.tonarinoyj.jp/public/episode-thumbnail/2550689798289615231-2ab30b326f8ddea992d907eff0bd349b"
         }
       ]
     },
@@ -829,12 +809,32 @@
       "siteUrl": "https://github.blog/",
       "articles": [
         {
+          "id": "https://github.blog/2024-03-07-exploring-an-increase-in-circumvention-claims-in-our-transparency-data/",
+          "author": null,
+          "description": "<p>Our full year of 2023 transparency reporting data is now available and we’re taking a deep dive into how a form change caused an abrupt increase in circumvention claims. </p>\n<p>The post <a href=\"https://github.blog/2024-03-07-exploring-an-increase-in-circumvention-claims-in-our-transparency-data/\">Exploring an increase in circumvention claims in our transparency data</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+          "link": "https://github.blog/2024-03-07-exploring-an-increase-in-circumvention-claims-in-our-transparency-data/",
+          "publishedOn": "2024-03-07T18:00:09.000Z",
+          "wordCount": 1825,
+          "title": "Exploring an increase in circumvention claims in our transparency data",
+          "imageUrl": "https://github.blog/wp-content/uploads/2023/10/hero-light.jpg?fit=1600%2C880"
+        },
+        {
+          "id": "https://github.blog/2024-03-07-hard-and-soft-skills-for-developers-coding-in-the-age-of-ai/",
+          "author": null,
+          "description": "<p>While AI revolutionizes software development, it still relies on developers to pilot its use. In this blog, we’ll cover the skills that developers need to have for navigating this new AI-powered coding frontier. </p>\n<p>The post <a href=\"https://github.blog/2024-03-07-hard-and-soft-skills-for-developers-coding-in-the-age-of-ai/\">Hard and soft skills for developers coding in the age of AI</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+          "link": "https://github.blog/2024-03-07-hard-and-soft-skills-for-developers-coding-in-the-age-of-ai/",
+          "publishedOn": "2024-03-07T17:00:54.000Z",
+          "wordCount": 3140,
+          "title": "Hard and soft skills for developers coding in the age of AI",
+          "imageUrl": "https://github.blog/wp-content/uploads/2024/03/AI-LightMode-2-1.png"
+        },
+        {
           "id": "https://github.blog/2024-03-06-how-github-uses-merge-queue-to-ship-hundreds-of-changes-every-day/",
           "author": null,
           "description": "<p>Here's how merge queue transformed the way GitHub deploys changes to production at scale, so you can do the same for your organization.</p>\n<p>The post <a href=\"https://github.blog/2024-03-06-how-github-uses-merge-queue-to-ship-hundreds-of-changes-every-day/\">How GitHub uses merge queue to ship hundreds of changes every day</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2024-03-06-how-github-uses-merge-queue-to-ship-hundreds-of-changes-every-day/",
           "publishedOn": "2024-03-06T16:43:39.000Z",
-          "wordCount": 2403,
+          "wordCount": 2437,
           "title": "How GitHub uses merge queue to ship hundreds of changes every day",
           "imageUrl": "https://github.blog/wp-content/uploads/2023/12/Productivity-DarkMode-1.png"
         },
@@ -844,7 +844,7 @@
           "description": "<p>With this version, customers can choose how to best scale their security strategy, gain more control over deployments, and so much more.</p>\n<p>The post <a href=\"https://github.blog/2024-03-06-github-enterprise-server-3-12-is-now-generally-available/\">GitHub Enterprise Server 3.12 is now generally available</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2024-03-06-github-enterprise-server-3-12-is-now-generally-available/",
           "publishedOn": "2024-03-06T16:43:17.000Z",
-          "wordCount": 2189,
+          "wordCount": 2197,
           "title": "GitHub Enterprise Server 3.12 is now generally available",
           "imageUrl": "https://github.blog/wp-content/uploads/2024/03/GHES-release-template.png"
         },
@@ -854,7 +854,7 @@
           "description": "<p>Discover how keeping repository maintainer information accurate through CODEOWNERS files and automating maintenance with tools like cleanowners fosters efficient collaboration and sustainable software projects.</p>\n<p>The post <a href=\"https://github.blog/2024-03-04-keeping-repository-maintainer-information-accurate/\">Keeping repository maintainer information accurate</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2024-03-04-keeping-repository-maintainer-information-accurate/",
           "publishedOn": "2024-03-04T21:07:45.000Z",
-          "wordCount": 1544,
+          "wordCount": 2463,
           "title": "Keeping repository maintainer information accurate",
           "imageUrl": "https://github.blog/wp-content/uploads/2023/10/Collaboration-DarkMode-3.png"
         },
@@ -864,7 +864,7 @@
           "description": "<p>Learn what GitHub Copilot can help your business achieve in this expert-guided GitHub Learning Pathway, featuring insights from tech leaders at top organizations.</p>\n<p>The post <a href=\"https://github.blog/2024-03-04-github-copilot-learning-pathway-accelerate-your-business-with-ai/\">GitHub Copilot Learning Pathway: Accelerate your business with AI</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2024-03-04-github-copilot-learning-pathway-accelerate-your-business-with-ai/",
           "publishedOn": "2024-03-04T17:34:12.000Z",
-          "wordCount": 1373,
+          "wordCount": 1401,
           "title": "GitHub Copilot Learning Pathway: Accelerate your business with AI",
           "imageUrl": "https://github.blog/wp-content/uploads/2024/03/Banner-Hero_text_2000x1200.png"
         },
@@ -874,7 +874,7 @@
           "description": "<p>Game Bytes is our monthly series taking a peek at the world of gamedev on GitHub—featuring game engine updates, game jam details, open source games, mods, maps, and more. Game on! 🕹️</p>\n<p>The post <a href=\"https://github.blog/2024-02-29-game-bytes-february-2024/\">Game Bytes · February 2024</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2024-02-29-game-bytes-february-2024/",
           "publishedOn": "2024-02-29T19:30:40.000Z",
-          "wordCount": 1913,
+          "wordCount": 1921,
           "title": "Game Bytes · February 2024",
           "imageUrl": "https://github.blog/wp-content/uploads/2024/02/game-bytes-feb.png"
         },
@@ -884,7 +884,7 @@
           "description": "<p>From learner to mentor, Kayla, an All In for Students ambassador, has become an open source leader on her campus.</p>\n<p>The post <a href=\"https://github.blog/2024-02-29-meet-kayla-a-college-student-and-open-source-ambassador/\">Meet Kayla: A college student and open source ambassador</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2024-02-29-meet-kayla-a-college-student-and-open-source-ambassador/",
           "publishedOn": "2024-02-29T18:00:41.000Z",
-          "wordCount": 1586,
+          "wordCount": 1594,
           "title": "Meet Kayla: A college student and open source ambassador",
           "imageUrl": "https://github.blog/wp-content/uploads/2024/02/Collaboration-DarkMode-2-3.png?fit=1200%2C630"
         },
@@ -894,7 +894,7 @@
           "description": "<p>With push protection now enabled by default, GitHub helps open source developers safeguard their secrets, and their reputations.</p>\n<p>The post <a href=\"https://github.blog/2024-02-29-keeping-secrets-out-of-public-repositories/\">Keeping secrets out of public repositories</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2024-02-29-keeping-secrets-out-of-public-repositories/",
           "publishedOn": "2024-02-29T17:00:41.000Z",
-          "wordCount": 1476,
+          "wordCount": 1484,
           "title": "Keeping secrets out of public repositories",
           "imageUrl": "https://github.blog/wp-content/uploads/2024/02/Prevent-secret-leaks-1200-x-630.jpg"
         },
@@ -904,29 +904,9 @@
           "description": "<p>Learn how your organization can customize its LLM-based solution through retrieval augmented generation and fine-tuning.</p>\n<p>The post <a href=\"https://github.blog/2024-02-28-customizing-and-fine-tuning-llms-what-you-need-to-know/\">Customizing and fine-tuning LLMs: What you need to know</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2024-02-28-customizing-and-fine-tuning-llms-what-you-need-to-know/",
           "publishedOn": "2024-02-28T18:00:52.000Z",
-          "wordCount": 3756,
+          "wordCount": 3780,
           "title": "Customizing and fine-tuning LLMs: What you need to know",
           "imageUrl": "https://github.blog/wp-content/uploads/2024/02/fine-tuning-header.png"
-        },
-        {
-          "id": "https://github.blog/2024-02-28-how-were-using-github-projects-to-standardize-our-workflows-and-stay-aligned/",
-          "author": null,
-          "description": "<p>Learn how we’re managing feature releases and establishing best practices within and across teams at GitHub using GitHub Projects.</p>\n<p>The post <a href=\"https://github.blog/2024-02-28-how-were-using-github-projects-to-standardize-our-workflows-and-stay-aligned/\">How we’re using GitHub Projects to standardize our workflows and stay aligned</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
-          "link": "https://github.blog/2024-02-28-how-were-using-github-projects-to-standardize-our-workflows-and-stay-aligned/",
-          "publishedOn": "2024-02-28T17:00:54.000Z",
-          "wordCount": 1949,
-          "title": "How we’re using GitHub Projects to standardize our workflows and stay aligned",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/02/Productivity-LightMode-4-1.png?fit=1200%2C630"
-        },
-        {
-          "id": "https://github.blog/2024-02-27-github-copilot-enterprise-is-now-generally-available/",
-          "author": null,
-          "description": "<p>Our most advanced AI offering to date is customized to your organization’s knowledge and codebase, infusing GitHub Copilot throughout the software development lifecycle.</p>\n<p>The post <a href=\"https://github.blog/2024-02-27-github-copilot-enterprise-is-now-generally-available/\">GitHub Copilot Enterprise is now generally available</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
-          "link": "https://github.blog/2024-02-27-github-copilot-enterprise-is-now-generally-available/",
-          "publishedOn": "2024-02-27T15:54:33.000Z",
-          "wordCount": 2512,
-          "title": "GitHub Copilot Enterprise is now generally available",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/02/Copilot-Enterprise-Blog-Header.png"
         }
       ]
     },
@@ -942,12 +922,22 @@
       "siteUrl": "https://kubernetes.io/",
       "articles": [
         {
+          "id": "https://kubernetes.io/blog/2024/03/07/cri-o-seccomp-oci-artifacts/",
+          "author": null,
+          "description": "Author: Sascha Grunert\nSeccomp stands for secure computing mode and has been a feature of the Linux\nkernel since version 2.6.12. It can be used to sandbox the privileges of a\nprocess, restricting the calls it is able to make from userspace into the\nkernel. Kubernetes lets you automatically apply seccomp profiles loaded onto a\nnode to your Pods and containers.\nBut distributing those seccomp profiles is a major challenge in Kubernetes,\nbecause the JSON files have to be available on all nodes where a workload can\npossibly run. Projects like the Security Profiles\nOperator solve that problem by\nrunning as a daemon within the cluster, which makes me wonder which part of that\ndistribution could be done by the container\nruntime.\nRuntimes usually apply the profiles from a local path, for example:\na…",
+          "link": "https://kubernetes.io/blog/2024/03/07/cri-o-seccomp-oci-artifacts/",
+          "publishedOn": "2024-03-07T00:00:00.000Z",
+          "wordCount": 5342,
+          "title": "CRI-O: Applying seccomp profiles from OCI registries",
+          "imageUrl": null
+        },
+        {
           "id": "https://kubernetes.io/blog/2024/03/01/sig-cloud-provider-spotlight-2024/",
           "author": null,
           "description": "Author: Arujjwal Negi\nOne of the most popular ways developers use Kubernetes-related services is via cloud providers, but\nhave you ever wondered how cloud providers can do that? How does this whole process of integration\nof Kubernetes to various cloud providers happen? To answer that, let's put the spotlight on SIG\nCloud Provider.\nSIG Cloud Provider works to create seamless integrations between Kubernetes and various cloud\nproviders. Their mission? Keeping the Kubernetes ecosystem fair and open for all. By setting clear\nstandards and requirements, they ensure every cloud provider plays nicely with Kubernetes. It is\ntheir responsibility to configure cluster components to enable cloud provider integrations.\nIn this blog of the SIG Spotlight series, Arujjwal Negi interviews\nMichael McCune (Re…",
           "link": "https://kubernetes.io/blog/2024/03/01/sig-cloud-provider-spotlight-2024/",
           "publishedOn": "2024-03-01T00:00:00.000Z",
-          "wordCount": 5058,
+          "wordCount": 5064,
           "title": "Spotlight on SIG Cloud Provider",
           "imageUrl": null
         },
@@ -957,7 +947,7 @@
           "description": "Author: Frederico Muñoz (SAS Institute)\nLearning Kubernetes and the entire ecosystem of technologies around it is not without its\nchallenges. In this interview, we will talk with Carlos Santana\n(AWS) to learn a bit more about how he created the\nKubernetes Book Club, how it works, and\nhow anyone can join in to take advantage of a community-based learning experience.\n\nFrederico Muñoz (FSM): Hello Carlos, thank you so much for your availability. To start with,\ncould you tell us a bit about yourself?\nCarlos Santana (CS): Of course. My experience in deploying Kubernetes in production six\nyears ago opened the door for me to join Knative and then contribute to\nKubernetes through the Release Team. Working on upstream Kubernetes has been one of the best\nexperiences I've had in open-source. Over the…",
           "link": "https://kubernetes.io/blog/2024/02/22/k8s-book-club/",
           "publishedOn": "2024-02-22T00:00:00.000Z",
-          "wordCount": 4632,
+          "wordCount": 4638,
           "title": "A look into the Kubernetes Book Club",
           "imageUrl": "csantana_k8s_book_club.jpg"
         }
@@ -968,6 +958,16 @@
       "feedUrl": "http://techblog.netflix.com/feeds/posts/default",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
+        {
+          "id": "https://medium.com/p/2d2e6b6d205d",
+          "author": "Netflix Technology Blog",
+          "description": "David J. Berg, Romain Cledat, Kayla Seeley, Shashank Srikanth, Chaoying Wang, Darin Yu",
+          "link": "https://netflixtechblog.com/supporting-diverse-ml-systems-at-netflix-2d2e6b6d205d?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-03-07T18:33:07.000Z",
+          "wordCount": 6313,
+          "title": "Supporting Diverse ML Systems at Netflix",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*4hoAg4FX6oeua708alTMlA.png"
+        },
         {
           "id": "https://medium.com/p/256629c9386b",
           "author": "Netflix Technology Blog",
@@ -981,42 +981,42 @@
         {
           "id": "https://medium.com/p/039d5efd115b",
           "author": "Netflix Technology Blog",
-          "description": "",
+          "description": "by Binbing Hou, Stephanie Vezich Tamayo, Xiao Chen, Liang Tian, Troy Ristow, Haoyuan Wang, Snehal Chennuru, Pawan Dixit",
           "link": "https://netflixtechblog.com/evolving-from-rule-based-classifier-machine-learning-powered-auto-remediation-in-netflix-data-039d5efd115b?source=rss----2615bd06b42e---4",
           "publishedOn": "2024-03-04T18:01:55.000Z",
-          "wordCount": null,
+          "wordCount": 6839,
           "title": "Evolving from Rule-based Classifier: Machine Learning Powered Auto Remediation in Netflix Data…",
-          "imageUrl": null
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*2eENd1mhwyGpMWNccEwqlQ.png"
         },
         {
           "id": "https://medium.com/p/6a727c1ae2e5",
           "author": "Netflix Technology Blog",
-          "description": "",
+          "description": "By Jose Fernandez",
           "link": "https://netflixtechblog.com/announcing-bpftop-streamlining-ebpf-performance-optimization-6a727c1ae2e5?source=rss----2615bd06b42e---4",
           "publishedOn": "2024-02-26T16:43:30.000Z",
-          "wordCount": null,
+          "wordCount": 1371,
           "title": "Announcing bpftop: Streamlining eBPF performance optimization",
-          "imageUrl": null
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/1*hLvLcNDb6RljixhN8la-lg.gif"
         },
         {
           "id": "https://medium.com/p/cba6c7ed49df",
           "author": "Netflix Technology Blog",
-          "description": "",
+          "description": "Michael Lindon, Chris Sanden, Vache Shirikian, Yanjun Liu, Minal Mishra, Martin Tingley",
           "link": "https://netflixtechblog.com/sequential-a-b-testing-keeps-the-world-streaming-netflix-part-1-continuous-data-cba6c7ed49df?source=rss----2615bd06b42e---4",
           "publishedOn": "2024-02-13T19:10:28.000Z",
-          "wordCount": null,
+          "wordCount": 5216,
           "title": "Sequential A/B Testing Keeps the World Streaming Netflix\nPart 1: Continuous Data",
-          "imageUrl": null
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1024/0*mK01JWbQB9QlCEsL"
         },
         {
           "id": "https://medium.com/p/37f9f88c152d",
           "author": "Netflix Technology Blog",
-          "description": "",
+          "description": "by Moshe Kolodny",
           "link": "https://netflixtechblog.com/introducing-safetest-a-novel-approach-to-front-end-testing-37f9f88c152d?source=rss----2615bd06b42e---4",
           "publishedOn": "2024-02-13T16:07:48.000Z",
-          "wordCount": null,
+          "wordCount": 4174,
           "title": "Introducing SafeTest: A Novel Approach to Front End Testing",
-          "imageUrl": null
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:995/1*OFmV3PX7Is8X48-V9ryeig.png"
         }
       ]
     },
@@ -1025,6 +1025,16 @@
       "feedUrl": "http://feeds.feedburner.com/blogspot/gJZg",
       "siteUrl": "http://blog.research.google/",
       "articles": [
+        {
+          "id": "http://blog.research.google/2024/03/social-learning-collaborative-learning.html",
+          "author": null,
+          "description": "Posted by Amirkeivan Mohtashami, Research Intern, and Florian Hartmann, Software Engineer, Google Research\n\n\n\n\nLarge language models (LLMs) have significantly improved the state of the art for solving tasks specified using natural language, often reaching performance close to that of people. As these models increasingly enable assistive agents, it could be beneficial for them to learn effectively from each other, much like people do in social settings, which would allow LLM-based agents to improve each other’s performance. \n\n \n\n\nTo discuss the learning processes of humans, Bandura and Walters described the concept of social learning in 1977, outlining different models of observational learning used by people. One common method of learning from others is through a verbal instruction (e.g., …",
+          "link": "http://blog.research.google/2024/03/social-learning-collaborative-learning.html",
+          "publishedOn": "2024-03-07T18:15:00.000Z",
+          "wordCount": 27681,
+          "title": "Social learning: Collaborative learning with large language models",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicN2GYOp9oUj5x0F20i550WuF5KmpD8iRqrdHmJFU_HmkdFY3RBF4mfn_99q8jtEPVm56a4NfjMGFJ79y3rygqjX46h23tlzSDde7iEbp8ytHsPa5-IsNKFFituSoPmtGk666gjyypTvVhhuin8FahZfhWPyDWqF5yWBIQ-Cf_DxQ7vrmTWIkA_tAJtm4v/w1200-h630-p-k-no-nu/image2.png"
+        },
         {
           "id": "http://blog.research.google/2024/03/croissant-metadata-format-for-ml-ready.html",
           "author": null,
@@ -1084,16 +1094,6 @@
           "wordCount": 27935,
           "title": "DP-Auditorium: A flexible library for auditing differential privacy",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNVpxjk-jj1rIYQ8AM3A-Syqxd3d8L8-wIy8NWwyobCXmTRK7mY9h94aJYgFCiC0gnehVFFoM8-in8HsOZjfhoNce03nbsrN5fxY07wADV6ULPC0POGmCc-8eL3OqA9KrDyzQxN38JKvh6xCmLV6FZ1g0UfaXtKORhtTy0WuJexlPqV6P2c9rPdg_W_5zP/w1200-h630-p-k-no-nu/hero.jpg"
-        },
-        {
-          "id": "http://blog.research.google/2024/02/graph-neural-networks-in-tensorflow.html",
-          "author": null,
-          "description": "Posted by Dustin Zelle, Software Engineer, Google Research, and Arno Eigenwillig, Software Engineer, CoreML\n\n\n\n\nObjects and their relationships are ubiquitous in the world around us, and relationships can be as important to understanding an object as its own attributes viewed in isolation — take for example transportation networks, production networks, knowledge graphs, or social networks. Discrete mathematics and computer science have a long history of formalizing such networks as graphs, consisting of nodes connected by edges in various irregular ways. Yet most machine learning (ML) algorithms allow only for regular and uniform relations between input objects, such as a grid of pixels, a sequence of words, or no relation at all. \n\n\n\n\nGraph neural networks, or GNNs for short, have emerged…",
-          "link": "http://blog.research.google/2024/02/graph-neural-networks-in-tensorflow.html",
-          "publishedOn": "2024-02-06T19:17:00.000Z",
-          "wordCount": 27781,
-          "title": "Graph neural networks in TensorFlow",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcnTwrjg8cyZhVY1c-qi2ZEenIrDlkmlKlX0GsAuiKiIoxUu6i-phANh8tsCG4mUm5i-7t3zdLwuwn5DCcuQI5FKq-C3eibPnuqfoLuKFUsx-I3Ovim1Teps_JKiKZH7XqgHupnsOa2Y3peUgWcPNYG4ZIqA2_KQwxJpflo0WM6gNW8tXg5eDndiWx_dKK/w1200-h630-p-k-no-nu/TFGNN%20hero.gif"
         }
       ]
     },
@@ -1103,12 +1103,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=46893",
+          "author": "Seth Godin",
+          "description": "Long after people forget the details, they’ll remember your kindness. There are many forms of hospitality, but resilience, goodwill and gratitude are often the ones that matter. PS here’s a short ebook I published almost a decade ago.",
+          "link": "https://feeds.feedblitz.com/~/873239180/0/sethsblog~Graceful/",
+          "publishedOn": "2024-03-07T09:46:00.000Z",
+          "wordCount": 987,
+          "title": "Graceful",
+          "imageUrl": "https://seths.blog/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=44896",
           "author": "Seth Godin",
           "description": "“The mean” is the average. Another word for “mediocre.” When an organization gets big enough, by definition, it’s the average. When you have enough customers, they represent the population as a whole. If you find yourself seeking to serve the largest possible number of people, you’ve signed up to be average. Without a doubt, you’re […]",
           "link": "https://feeds.feedblitz.com/~/873133262/0/sethsblog~Regressing-to-the-mean-all-by-yourself/",
           "publishedOn": "2024-03-06T08:57:00.000Z",
-          "wordCount": 1034,
+          "wordCount": 1035,
           "title": "Regressing to the mean all by yourself",
           "imageUrl": "https://seths.blog/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061311.jpg"
         },
@@ -1191,16 +1201,6 @@
           "wordCount": 1104,
           "title": "By association",
           "imageUrl": "https://seths.blog/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061310-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=48667",
-          "author": "Seth Godin",
-          "description": "Every four years, give or take, I make a big but cheap ask: Consider subscribing to this blog. If you’re already a subscriber, please ask five colleagues or friends to subscribe. It’s free. You can subscribe by email by putting your email address in the little box. Click below if you’re reading this in an […]",
-          "link": "https://feeds.feedblitz.com/~/872308334/0/sethsblog~Free-subscription-drive/",
-          "publishedOn": "2024-02-27T16:50:00.000Z",
-          "wordCount": 1086,
-          "title": "(Free) subscription drive",
-          "imageUrl": "https://seths.blog/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg"
         }
       ]
     },
@@ -1209,6 +1209,26 @@
       "feedUrl": "https://blog.jetbrains.com/feed/",
       "siteUrl": "https://blog.jetbrains.com",
       "articles": [
+        {
+          "id": "https://blog.jetbrains.com/?post_type=education&p=454074",
+          "author": "Alena Gupaisova",
+          "description": "Calling all high school students with a knack for coding and a thirst for challenge! Mark April 20–23, 2024, in your calendars and join the Algorithm and Code Training School (ACTS) – an online camp designed by JetBrains Academy and Constructor University to hone your skills for national and international contests. Why ACTS? Every day […]",
+          "link": "https://blog.jetbrains.com/education/2024/03/07/dive-into-the-world-of-coding-with-the-algorithm-and-code-training-school-2024/",
+          "publishedOn": "2024-03-07T13:01:00.000Z",
+          "wordCount": 2959,
+          "title": "Dive Into the World of Coding With the Algorithm and Code Training School 2024!",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2024/03/Twitter_1200x675.png"
+        },
+        {
+          "id": "https://blog.jetbrains.com/?post_type=education&p=453660",
+          "author": "Alena Gupaisova",
+          "description": "Join us on March 19, 2024, at 4:00 pm CET (3:00 pm UTC) for a livestream where we’ll introduce you to the Computer Science and Artificial Intelligence program team. Don’t miss this chance to ask questions about the admission process and find out how you can apply for a JetBrains scholarship. Meet our guests:  During […]",
+          "link": "https://blog.jetbrains.com/education/2024/03/06/csai-program-and-jetbrains-scholarship-at-neapolis-university-pafos/",
+          "publishedOn": "2024-03-06T10:30:16.000Z",
+          "wordCount": 2898,
+          "title": "CSAI Program and JetBrains Scholarship at Neapolis University Pafos",
+          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2024/03/Featured_Blog_1280x720-2x-4.png"
+        },
         {
           "id": "https://blog.jetbrains.com/?post_type=teamcity&p=453253",
           "author": "Daniel Gallo",
@@ -1235,7 +1255,7 @@
           "description": "In the new YouTrack version 2024.1, we’ve improved the experience of support teams working with YouTrack Helpdesk based on the most popular feature requests from our customers. Support teams working with several helpdesk projects for multiple customers or products can now restrict any helpdesk project for predefined groups of reporters and manage their tickets privately. […]",
           "link": "https://blog.jetbrains.com/youtrack/2024/03/youtrack-adds-more-flexibility-for-helpdesk-projects/",
           "publishedOn": "2024-03-05T13:23:07.000Z",
-          "wordCount": 3474,
+          "wordCount": 3482,
           "title": "YouTrack Adds More Flexibility for Helpdesk Projects",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2024/02/DSGN-18599-Release-banners-YouTrack-2024.1-Blog-Social-Share-1280x720-2x.png"
         },
@@ -1245,7 +1265,7 @@
           "description": "It’s time for our last EAP digest that will walk you through the new features and improvements in WebStorm 2024.1! For more information, check out our previous blog posts. The Toolbox App is the easiest way to get the EAP builds and keep both your stable and EAP versions up to date. You can also […]",
           "link": "https://blog.jetbrains.com/webstorm/2024/03/webstorm-2024-1-eap3/",
           "publishedOn": "2024-03-05T13:02:12.000Z",
-          "wordCount": 3849,
+          "wordCount": 3859,
           "title": "WebStorm 2024.1 EAP Digest #3: Full Line Code Completion, Language Services Widget, React Quick-Fixes, and More",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2024/01/Blog_Social_share_image_1280x720_WebStorm-2x.png"
         },
@@ -1275,7 +1295,7 @@
           "description": "This month’s Java Annotated Monthly is packed with the latest Java news ahead of Java 22’s release in March. It’s also full of Kotlin updates, tutorials for Spring and Hibernate, and more. If all that wasn’t enough, there’s also a podcast featuring AI-generated music!  Simply put, it’s full of cool stuff for anyone interested in […]",
           "link": "https://blog.jetbrains.com/idea/2024/03/java-annotated-monthly-march-2024/",
           "publishedOn": "2024-03-05T08:29:50.000Z",
-          "wordCount": 5058,
+          "wordCount": 5064,
           "title": "Java Annotated Monthly – March 2024",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2024/03/java-annotated-blog-social-share-image-1280x720-1.png"
         },
@@ -1308,26 +1328,6 @@
           "wordCount": 4205,
           "title": "Best PyCharm Plugins 2024",
           "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2024/02/Social_Share_1280x720-6.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=451417",
-          "author": "Alexander Kurakin",
-          "description": "The Early Access Program for Rider 2024.1 is in full swing!  Before you download Rider 2024.1 EAP 7, let’s take a look at what’s new. C# support You will get suggestions to convert more code constructions in your source code to collection expressions from C# 12, such as an empty array or the ImmutableArray declaration […]",
-          "link": "https://blog.jetbrains.com/dotnet/2024/03/01/rider-2024-1-eap-7/",
-          "publishedOn": "2024-03-01T19:15:53.000Z",
-          "wordCount": 3037,
-          "title": "Rider 2024.1 EAP 7: C# Updates, New Product Icons, Bundled Kubernetes Plugin",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2024/01/Blog_Social_share_image_1280x720_Rider-2x-2.png"
-        },
-        {
-          "id": "https://blog.jetbrains.com/?post_type=dotnet&p=451376",
-          "author": "Alexander Kurakin",
-          "description": "The ReSharper 2024.1 EAP 7 build has just been released and is ready for you to download!  This build contains several improvements to C# and C++ support. Let’s take a look! C# support You will get suggestions to convert more code constructions in your source code to collection expressions from C# 12, such as an […]",
-          "link": "https://blog.jetbrains.com/dotnet/2024/03/01/resharper-2024-1-eap-7/",
-          "publishedOn": "2024-03-01T19:15:40.000Z",
-          "wordCount": 3048,
-          "title": "ReSharper 2024.1 EAP 7: Updates to C# and C++ Support",
-          "imageUrl": "https://blog.jetbrains.com/wp-content/uploads/2024/02/Blog_Social_share_image_1280x720_ReSharper-2x-3.png"
         }
       ]
     }

@@ -245,7 +245,7 @@
           "description": "We regularly share stories from our female technologists, focusing on their roles, interests, and advice. Read them all here. ...",
           "link": "https://www.elastic.co/blog/culture-international-womens-day-2024",
           "publishedOn": "2024-03-08T00:00:00.000Z",
-          "wordCount": 25759,
+          "wordCount": 25553,
           "title": "Celebrating women in tech this International Women’s Day",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9156f31714e932b6/65e22b5aeef4e3b7901e7664/WHM_2024_blog-1680x980.png"
         },
@@ -255,7 +255,7 @@
           "description": "International Women’s Day is recognized globally on March 8th to celebrate the social, economic, cultural, and political achievements of women. This year, the theme is ‘Inspire Inclusion’ which encourages women’s economic empowerment, developing female talent, and supporting women and girls into leadership, decision-making, business and STEM. This theme deeply resonates with us. \nAt Elastic®, we strive to empower women and pride ourselves on fostering an inclusive global culture. In 2023, we began to spotlight female-identifying technologists around the world in various roles and at differing levels of seniority to give Elasticians the chance to share their personal stories and experiences. \nOver the last year, we’ve told real Elasticians’ stories and had discussions about technical roles,…",
           "link": "https://www.elastic.co/blog/culture-international-womens-day-2024",
           "publishedOn": "2024-03-08T00:00:00.000Z",
-          "wordCount": 25759,
+          "wordCount": 25553,
           "title": "Celebrating women in tech this International Women’s Day",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9156f31714e932b6/65e22b5aeef4e3b7901e7664/WHM_2024_blog-1680x980.png"
         },
@@ -285,7 +285,7 @@
           "description": "An overview of the observability industry through the eyes of over 500 IT decision makers. Find out what’s top of mind for observability in 2024, from AIOps to GAI, tool consolidation and more from yo...",
           "link": "https://www.elastic.co/blog/observability-gai-aiops-tools-consolidation-opentelemetry",
           "publishedOn": "2024-03-06T17:29:28.000Z",
-          "wordCount": 27078,
+          "wordCount": 26872,
           "title": "Emerging trends in observability: GAI, AIOps, tools consolidation, and OpenTelemetry",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt00f0b52ddede1e1d/65e8acf375a8f50bd80600eb/142234_-_Blog_header_image_Bridging_IT_intelligence_and_business-02.jpg"
         },
@@ -295,7 +295,7 @@
           "description": "As technology evolution continues at its rapid pace, so does observability. Observability is becoming critical to driving positive business outcomes, and we wanted to understand how users are evaluating trends and their impact over the coming years. And while every organization approaches observability around its own unique needs, there are usually specific trends and shifts that the broader industry undergoes. \n\nElastic® recently surveyed over 500 observability decision-makers around key topics in modern observability. Respondents were asked about the progress and benefits they are seeing in their observability initiatives, and the impact of generative AI and OpenTelemetry on observability. The survey, completed with Dimensional Research in January 2024, delivered some surprising results …",
           "link": "https://www.elastic.co/blog/observability-gai-aiops-tools-consolidation-opentelemetry",
           "publishedOn": "2024-03-06T17:29:28.000Z",
-          "wordCount": 27078,
+          "wordCount": 26872,
           "title": "Emerging trends in observability: GAI, AIOps, tools consolidation, and OpenTelemetry",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt00f0b52ddede1e1d/65e8acf375a8f50bd80600eb/142234_-_Blog_header_image_Bridging_IT_intelligence_and_business-02.jpg"
         },
@@ -305,7 +305,7 @@
           "description": "Using a jdbc static filter connected to Elasticsearch might speed up your Logstash enrichment pipeline....",
           "link": "https://www.elastic.co/blog/enrich-your-elasticsearch-documents-with-logstash",
           "publishedOn": "2024-03-06T16:00:00.000Z",
-          "wordCount": 27457,
+          "wordCount": 27251,
           "title": "Enrich your Elasticsearch documents with Logstash",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte1506dc3594c116d/65e88a74a8b011fa095c765e/139799_-_Batch_of_7_images_for_Financial_Sector-02_(1).jpg"
         },
@@ -315,7 +315,7 @@
           "description": "input {\n  # Read all documents from Elasticsearch\n  elasticsearch {\n    hosts => [\"${ELASTICSEARCH_URL}\"]\n    user => \"elastic\"\n    password => \"${ELASTIC_PASSWORD}\"\n    index => \"kibana_sample_data_logs\"\n    docinfo => true\n    ecs_compatibility => \"disabled\"\n  }\n}\nfilter {\n  # Enrich every document with Elasticsearch\n  elasticsearch {\n    hosts => [\"${ELASTICSEARCH_URL}\"]\n    user => \"elastic\"\n    password => \"${ELASTIC_PASSWORD}\"\n    index => \"vip\"\n    query => \"ip:%{[clientip]}\"\n    sort => \"ip:desc\"\n    fields => {\n      \"[name]\" => \"[name]\"\n      \"[vip]\" => \"[vip]\"\n    }\n  }\n  mutate { \n    remove_field => [\"@version\", \"@timestamp\"] \n  }\n}\noutput {\n  if [name] {\n    # Write all modified documents to Elasticsearch\n    elasticsearch {\n      manage_template => false\n      hosts => [\"${E…",
           "link": "https://www.elastic.co/blog/enrich-your-elasticsearch-documents-with-logstash",
           "publishedOn": "2024-03-06T16:00:00.000Z",
-          "wordCount": 27457,
+          "wordCount": 27251,
           "title": "Enrich your Elasticsearch documents with Logstash",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte1506dc3594c116d/65e88a74a8b011fa095c765e/139799_-_Batch_of_7_images_for_Financial_Sector-02_(1).jpg"
         },
@@ -325,7 +325,7 @@
           "description": "Elastic has achieved AWS Generative AI Partner Competency by working closely with AWS. This recognition highlights Elastic’s deep technical expertise with generative AI in AWS and proven customer succ...",
           "link": "https://www.elastic.co/blog/elastic-aws-generative-ai-competency",
           "publishedOn": "2024-03-06T15:28:45.000Z",
-          "wordCount": 27282,
+          "wordCount": 27076,
           "title": "Elastic continues to innovate and grow through AWS Generative AI Competency",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta29e8f0075dd50cd/654a939926f063040a8d7644/23-sparks.jpeg"
         },
@@ -335,7 +335,7 @@
           "description": "Elastic® is excited to share the achievement of the AWS Generative AI Competency status, a testament to our unwavering commitment to equip our valued customers with cutting-edge search technologies. This prestigious accolade underscores our dedication to helping you deliver exceptional search experiences that meet your end users' expectations, all while safeguarding your proprietary data from undue exposure to large language models (LLMs).\nThe AWS Generative AI Competency is a mark of distinction reserved for AWS partners who have consistently exhibited deep technical expertise and a track record of customer satisfaction in deploying generative AI-driven solutions. Elastic's attainment of this credential required an extensive evaluation of our technical capabilities and a thorough examinat…",
           "link": "https://www.elastic.co/blog/elastic-aws-generative-ai-competency",
           "publishedOn": "2024-03-06T15:28:45.000Z",
-          "wordCount": 27282,
+          "wordCount": 27076,
           "title": "Elastic continues to innovate and grow through AWS Generative AI Competency",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta29e8f0075dd50cd/654a939926f063040a8d7644/23-sparks.jpeg"
         },
@@ -345,7 +345,7 @@
           "description": "Learn how to develop a chatbot effectively with this guide, covering do’s and don'ts for chatbot developers and other useful tips....",
           "link": "https://www.elastic.co/blog/how-to-make-a-chatbot",
           "publishedOn": "2024-03-05T19:22:25.000Z",
-          "wordCount": 30946,
+          "wordCount": 30740,
           "title": "How to make a chatbot: Dos and don'ts for developers in an AI-driven world",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0a5c18066bd50ec7/65e62018aca1712a71a00ce2/139686_-_Elastic_-_Headers_-_V1_7.jpg"
         },
@@ -355,7 +355,7 @@
           "description": "Every day the world is becoming increasingly powered by artificial intelligence. In fact, you’d struggle to find tech companies that have not announced AI integrations into their tech stack in one way or another. Cynics might say this is a passing phase, but the reason AI is so popular is that it’s a versatile set of capabilities that can help solve a lot of problems.\nThe most direct way AI can be utilized is in the form of a chatbot: a conversational interface that mimics human interaction, generating contextual responses based on what the user inputs. Sometimes these are text-based, such as the customer service bots you often see on websites or apps. And sometimes they’re voice-enabled, like Siri, Google Assistant, and Alexa. These specific examples only just scratch the surface of what …",
           "link": "https://www.elastic.co/blog/how-to-make-a-chatbot",
           "publishedOn": "2024-03-05T19:22:25.000Z",
-          "wordCount": 30946,
+          "wordCount": 30740,
           "title": "How to make a chatbot: Dos and don'ts for developers in an AI-driven world",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0a5c18066bd50ec7/65e62018aca1712a71a00ce2/139686_-_Elastic_-_Headers_-_V1_7.jpg"
         },
@@ -385,18 +385,18 @@
           "description": "In this blog, we'll unravel the key features, benefits, and unparalleled security solutions that Airtel brings to its B2B customers and explore the cutting-edge Airtel Managed Security Services, forti...",
           "link": "https://www.elastic.co/blog/airtel-managed-security-services-elastic-security",
           "publishedOn": "2024-03-04T15:34:04.000Z",
-          "wordCount": 27843,
-          "title": "Empowering businesses with Airtel Managed Security Services and Elastic Security",
+          "wordCount": 27224,
+          "title": "Empowering businesses with Elastic Security at Airtel",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt89822980961a7cf3/65e5fc1a2568ef68456cd09a/139849_-_Batch_of_7_Telecommunications_blog_header_images-02.jpg"
         },
         {
           "id": "https://www.elastic.co/blog/airtel-managed-security-services-elastic-security",
           "author": "Arvind Bhat,Neeraj Gupta,Puneet Duggal,Ravindra Ramnani",
-          "description": "In the ever-evolving landscape of digital business, security is paramount. As businesses navigate the complexities of today's interconnected world, ensuring the safety of sensitive data and maintaining the integrity of operations becomes a top priority. Partner with Airtel, a trusted leader in telecommunications, and explore the cutting-edge Airtel Managed Security Services, fortified by the robust Elastic Security stack. In this blog, we'll unravel the key features, benefits, and unparalleled security solutions that Airtel brings to its B2B customers.\nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltda51aa555328c548/65e5fb31aca171625da00bc4/1-airtel-mdr-services.png,1-airtel-mdr-services.pngThe Elastic Security stack: A pillar of strength\nAirtel's choice of the Elastic Secur…",
+          "description": "As businesses navigate the complexities of today's interconnected world, ensuring the safety of sensitive data and maintaining the integrity of operations is a top priority. In this blog, we'll outline the key features and benefits delivered by Airtel Managed Security Services with Elastic Security.\nLeveraging its technological capabilities and decades of experience, Airtel operates a security operations centre (SOC) dedicated to enterprise cybersecurity. It is a combination of future-oriented cybersecurity innovations and skilled professionals committed to providing fool-proof protection to your business round-the-clock, around the globe.\nAirtel Secure offers a variety of cybersecurity services, including managed security services (WAF-as-service), VA/PT, MDR, DDOS-as-a-Service, and other…",
           "link": "https://www.elastic.co/blog/airtel-managed-security-services-elastic-security",
           "publishedOn": "2024-03-04T15:34:04.000Z",
-          "wordCount": 27843,
-          "title": "Empowering businesses with Airtel Managed Security Services and Elastic Security",
+          "wordCount": 27224,
+          "title": "Empowering businesses with Elastic Security at Airtel",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt89822980961a7cf3/65e5fc1a2568ef68456cd09a/139849_-_Batch_of_7_Telecommunications_blog_header_images-02.jpg"
         },
         {
@@ -405,7 +405,7 @@
           "description": "We have employee resource groups aligned with a variety of shared identities that allow Elasticians to build a sense of community and belonging at work. Here, we meet Women of Elastic....",
           "link": "https://www.elastic.co/blog/culture-ergs-encourage-you-to-come-as-you-are-meet-women-of-elastic",
           "publishedOn": "2024-03-01T00:00:00.000Z",
-          "wordCount": 26132,
+          "wordCount": 25926,
           "title": "ERGs encourage you to come as you are: Meet Women of Elastic",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltf13c8e50edba2a17/6238bab94b35ec6c2f699712/3.0-Women-of-Elastic-blog-1680x980.jpg"
         },
@@ -415,7 +415,7 @@
           "description": "Employee resource groups, or as we like to call them, Elastician resource groups, have been an informal part of Elastic’s culture since 2016. They started as Slack channels that any Elastician could join.\nThese ERGs were formalized in 2021 to ensure that the members would have structure, budget, and ultimately, a voice based on any dimension of diversity, allyship, and advocacy. This was an important step in our global diversity, equity, and inclusion journey.\nOur ERGs are aligned to shared identities, interests, affinities, or allyships. The goal is to create a community of people with something in common and to encourage sharing, learning, and networking. Each has visions and goals they are working towards besides building a sense of community and belonging.\nOur Core ERGs\nWe have seven f…",
           "link": "https://www.elastic.co/blog/culture-ergs-encourage-you-to-come-as-you-are-meet-women-of-elastic",
           "publishedOn": "2024-03-01T00:00:00.000Z",
-          "wordCount": 26132,
+          "wordCount": 25926,
           "title": "ERGs encourage you to come as you are: Meet Women of Elastic",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltf13c8e50edba2a17/6238bab94b35ec6c2f699712/3.0-Women-of-Elastic-blog-1680x980.jpg"
         }
@@ -448,7 +448,7 @@
           "description": "Azure Repos provides two methods for users to access a git repository in Azure Repos – HTTPS and SSH. To use SSH, you need to create a key pair using one of the supported encryption methods. In the past we’ve been supporting only SSH-RSA and we’ve asked users to enable the SSH-RSA here.\nThe post End of SSH-RSA support for Azure Repos appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/ssh-rsa-deprecation/",
           "publishedOn": "2024-02-15T17:36:09.000Z",
-          "wordCount": 6708,
+          "wordCount": 7006,
           "title": "End of SSH-RSA support for Azure Repos",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2018/08/vstsfeature.png"
         },
@@ -468,7 +468,7 @@
           "description": "This month, we are releasing fixes that impact our self-hosted product, Azure DevOps Server.\nAzure DevOps Server 2022.1\nAzure DevOps Server 2020.1.2\nAzure DevOps Server 2019.1.2\nAzure DevOps Server 2022.1 Patch 2\nThe post February patches for Azure DevOps Server appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/february-patches-for-azure-devops-server-3/",
           "publishedOn": "2024-02-13T21:10:55.000Z",
-          "wordCount": 5487,
+          "wordCount": 5189,
           "title": "February patches for Azure DevOps Server",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2019/02/index-hero.jpg"
         },
@@ -541,7 +541,7 @@
           "description": "In September 2023, we announced a strategic collaboration with Anthropic that brought together their respective technology and expertise in safer generative artificial intelligence (AI), to accelerate the development of Anthropic’s Claude foundation models (FMs) and make them widely accessible to AWS customers. You can get early access to unique features of Anthropic’s Claude model in […]",
           "link": "https://aws.amazon.com/blogs/aws/anthropics-claude-3-sonnet-foundation-model-is-now-available-in-amazon-bedrock/",
           "publishedOn": "2024-03-04T16:48:04.000Z",
-          "wordCount": 1945,
+          "wordCount": 1947,
           "title": "Anthropic’s Claude 3 Sonnet foundation model is now available in Amazon Bedrock",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/03/01/Anthropics-Claude-3-feat-img.png"
         },
@@ -951,62 +951,62 @@
         {
           "id": "https://medium.com/p/2d2e6b6d205d",
           "author": "Netflix Technology Blog",
-          "description": "David J. Berg, Romain Cledat, Kayla Seeley, Shashank Srikanth, Chaoying Wang, Darin Yu",
+          "description": "",
           "link": "https://netflixtechblog.com/supporting-diverse-ml-systems-at-netflix-2d2e6b6d205d?source=rss----2615bd06b42e---4",
           "publishedOn": "2024-03-07T18:33:07.000Z",
-          "wordCount": 6313,
+          "wordCount": null,
           "title": "Supporting Diverse ML Systems at Netflix",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*4hoAg4FX6oeua708alTMlA.png"
+          "imageUrl": null
         },
         {
           "id": "https://medium.com/p/256629c9386b",
           "author": "Netflix Technology Blog",
-          "description": "The surprising and not so surprising benefits of generations in the Z Garbage Collector.",
+          "description": "",
           "link": "https://netflixtechblog.com/bending-pause-times-to-your-will-with-generational-zgc-256629c9386b?source=rss----2615bd06b42e---4",
           "publishedOn": "2024-03-06T01:35:08.000Z",
-          "wordCount": 3115,
+          "wordCount": null,
           "title": "Bending pause times to your will with Generational ZGC",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*GuEZ-RMhzNnYgLQd"
+          "imageUrl": null
         },
         {
           "id": "https://medium.com/p/039d5efd115b",
           "author": "Netflix Technology Blog",
-          "description": "",
+          "description": "by Binbing Hou, Stephanie Vezich Tamayo, Xiao Chen, Liang Tian, Troy Ristow, Haoyuan Wang, Snehal Chennuru, Pawan Dixit",
           "link": "https://netflixtechblog.com/evolving-from-rule-based-classifier-machine-learning-powered-auto-remediation-in-netflix-data-039d5efd115b?source=rss----2615bd06b42e---4",
           "publishedOn": "2024-03-04T18:01:55.000Z",
-          "wordCount": null,
+          "wordCount": 6839,
           "title": "Evolving from Rule-based Classifier: Machine Learning Powered Auto Remediation in Netflix Data…",
-          "imageUrl": null
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*2eENd1mhwyGpMWNccEwqlQ.png"
         },
         {
           "id": "https://medium.com/p/6a727c1ae2e5",
           "author": "Netflix Technology Blog",
-          "description": "By Jose Fernandez",
+          "description": "",
           "link": "https://netflixtechblog.com/announcing-bpftop-streamlining-ebpf-performance-optimization-6a727c1ae2e5?source=rss----2615bd06b42e---4",
           "publishedOn": "2024-02-26T16:43:30.000Z",
-          "wordCount": 1371,
+          "wordCount": null,
           "title": "Announcing bpftop: Streamlining eBPF performance optimization",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/1*hLvLcNDb6RljixhN8la-lg.gif"
+          "imageUrl": null
         },
         {
           "id": "https://medium.com/p/cba6c7ed49df",
           "author": "Netflix Technology Blog",
-          "description": "Michael Lindon, Chris Sanden, Vache Shirikian, Yanjun Liu, Minal Mishra, Martin Tingley",
+          "description": "",
           "link": "https://netflixtechblog.com/sequential-a-b-testing-keeps-the-world-streaming-netflix-part-1-continuous-data-cba6c7ed49df?source=rss----2615bd06b42e---4",
           "publishedOn": "2024-02-13T19:10:28.000Z",
-          "wordCount": 5216,
+          "wordCount": null,
           "title": "Sequential A/B Testing Keeps the World Streaming Netflix\nPart 1: Continuous Data",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1024/0*mK01JWbQB9QlCEsL"
+          "imageUrl": null
         },
         {
           "id": "https://medium.com/p/37f9f88c152d",
           "author": "Netflix Technology Blog",
-          "description": "by Moshe Kolodny",
+          "description": "",
           "link": "https://netflixtechblog.com/introducing-safetest-a-novel-approach-to-front-end-testing-37f9f88c152d?source=rss----2615bd06b42e---4",
           "publishedOn": "2024-02-13T16:07:48.000Z",
-          "wordCount": 4174,
+          "wordCount": null,
           "title": "Introducing SafeTest: A Novel Approach to Front End Testing",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:995/1*OFmV3PX7Is8X48-V9ryeig.png"
+          "imageUrl": null
         }
       ]
     },
@@ -1103,12 +1103,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=46903",
+          "author": "Seth Godin",
+          "description": "Taste varies. That’s why we don’t call it utility. Taste is individual preference, not absolute truth. In team settings, then, it’s much more helpful to say, “I prefer this over that,” instead of, “this is wrong.” Some things are wrong. There are standards that we can all accept when it comes to utility, efficiency and […]",
+          "link": "https://feeds.feedblitz.com/~/873407816/0/sethsblog~Preference-and-utility/",
+          "publishedOn": "2024-03-10T08:52:00.000Z",
+          "wordCount": 1033,
+          "title": "Preference and utility",
+          "imageUrl": "https://seths.blog/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806139-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=48740",
           "author": "Seth Godin",
           "description": "AI chatbots highight a challenge that is worth understanding. It applies to customer service, bureaucracies and teachers as well… If you ask an AI a question and it’s not confident in the answer, it should say, “I’m not sure.” That could be followed up with, “do you want me to guess” or “if you could […]",
           "link": "https://feeds.feedblitz.com/~/873368081/0/sethsblog~Default-to-surrender/",
           "publishedOn": "2024-03-09T10:05:00.000Z",
-          "wordCount": 1019,
+          "wordCount": 1020,
           "title": "Default to surrender",
           "imageUrl": "https://seths.blog/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061314.jpg"
         },
@@ -1191,16 +1201,6 @@
           "wordCount": 1006,
           "title": "The weird math of halfway",
           "imageUrl": "https://seths.blog/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806139-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=46857",
-          "author": "Seth Godin",
-          "description": "In the old days, companies had a suggestion box. It was immortalized in cartoons, but the idea that an employee could anonymously submit a suggestion to make things better is a first step in engagement. Some companies took this much further and paid employees for suggestions that generated profits. Digital communication and more open workplaces […]",
-          "link": "https://feeds.feedblitz.com/~/872825138/0/sethsblog~The-question-book/",
-          "publishedOn": "2024-03-01T09:36:00.000Z",
-          "wordCount": 1119,
-          "title": "The question book",
-          "imageUrl": "https://seths.blog/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806137-1.jpg"
         }
       ]
     },

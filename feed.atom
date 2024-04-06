@@ -1,10 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-04-05T00:19:32.690Z</id>
+    <id>urn:2024-04-06T00:18:32.052Z</id>
     <title>osmos::feed</title>
-    <updated>2024-04-05T00:19:32.690Z</updated>
+    <updated>2024-04-06T00:18:32.052Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Backtesting a Trading Strategy in Python With Datalore and AI Assistant]]></title>
+        <id>https://blog.jetbrains.com/?post_type=datalore&amp;p=462917</id>
+        <link href="https://blog.jetbrains.com/datalore/2024/04/05/backtesting-a-trading-strategy-in-python-with-datalore-and-ai-assistant/"/>
+        <updated>2024-04-05T09:47:53.000Z</updated>
+        <summary type="html"><![CDATA[Introduction  Over lunch the other day, a friend mentioned his brother, a professional asset manager, swears by a simple mean reversion trading strategy. His strategy consists of buying the 10 biggest losers in the stock market each day and selling them at the close of the following trading session. I asked him if he knew […]]]></summary>
+        <author>
+            <name>Ryan O’Connell, CFA, FRM</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Non-fatal errors]]></title>
+        <id>https://seths.blog/?p=48908</id>
+        <link href="https://feeds.feedblitz.com/~/875112605/0/sethsblog~Nonfatal-errors/"/>
+        <updated>2024-04-05T08:33:00.000Z</updated>
+        <summary type="html"><![CDATA[Most of our errors are in this category. Yesterday, The New York Times sent this newsletter to a million people or so: I’m sure it wasn’t the best part of the day (or the week) for whoever messed up, but I also know that it had little impact on anything that matters. Being careful is […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DIY: Create Your Own Cloud with Kubernetes (Part 3)]]></title>
+        <id>https://kubernetes.io/blog/2024/04/05/diy-create-your-own-cloud-with-kubernetes-part-3/</id>
+        <link href="https://kubernetes.io/blog/2024/04/05/diy-create-your-own-cloud-with-kubernetes-part-3/"/>
+        <updated>2024-04-05T07:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Author: Andrei Kvapil (Ænix)
+Approaching the most interesting phase, this article delves into running Kubernetes within
+Kubernetes. Technologies such as Kamaji and Cluster API are highlighted, along with their
+integration with KubeVirt.
+Previous discussions have covered
+preparing Kubernetes on bare metal
+and
+how to turn Kubernetes into virtual machines management system.
+This article concludes the series by explaining how, using all of the above, you can build a
+full-fledged managed Kubernetes and run virtual Kubernetes clusters with just a click.
+First up, let's dive into the Cluster API.
+Cluster API
+Cluster API is an extension for Kubernetes that allows the management of Kubernetes clusters as
+custom resources within another Kubernetes cluster.
+The main goal of the Cluster API is to prov…]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DIY: Create Your Own Cloud with Kubernetes (Part 2)]]></title>
+        <id>https://kubernetes.io/blog/2024/04/05/diy-create-your-own-cloud-with-kubernetes-part-2/</id>
+        <link href="https://kubernetes.io/blog/2024/04/05/diy-create-your-own-cloud-with-kubernetes-part-2/"/>
+        <updated>2024-04-05T07:35:00.000Z</updated>
+        <summary type="html"><![CDATA[Author: Andrei Kvapil (Ænix)
+Continuing our series of posts on how to build your own cloud using just the Kubernetes ecosystem.
+In the previous article, we
+explained how we prepare a basic Kubernetes distribution based on Talos Linux and Flux CD.
+In this article, we'll show you a few various virtualization technologies in Kubernetes and prepare
+everything need to run virtual machines in Kubernetes, primarily storage and networking.
+We will talk about technologies such as KubeVirt, LINSTOR, and Kube-OVN.
+But first, let's explain what virtual machines are needed for, and why can't you just use docker
+containers for building cloud?
+The reason is that containers do not provide a sufficient level of isolation.
+Although the situation improves year by year, we often encounter vulnerabilities that…]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DIY: Create Your Own Cloud with Kubernetes (Part 1)]]></title>
+        <id>https://kubernetes.io/blog/2024/04/05/diy-create-your-own-cloud-with-kubernetes-part-1/</id>
+        <link href="https://kubernetes.io/blog/2024/04/05/diy-create-your-own-cloud-with-kubernetes-part-1/"/>
+        <updated>2024-04-05T07:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Author: Andrei Kvapil (Ænix)
+At Ænix, we have a deep affection for Kubernetes and dream that all modern technologies will soon
+start utilizing its remarkable patterns.
+Have you ever thought about building your own cloud? I bet you have. But is it possible to do this
+using only modern technologies and approaches, without leaving the cozy Kubernetes ecosystem?
+Our experience in developing Cozystack required us to delve deeply into it.
+You might argue that Kubernetes is not intended for this purpose and why not simply use OpenStack
+for bare metal servers and run Kubernetes inside it as intended. But by doing so, you would simply
+shift the responsibility from your hands to the hands of OpenStack administrators.
+This would add at least one more huge and complex system to your ecosystem.
+Why com…]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Ktor Plugin Registry Has Launched!]]></title>
+        <id>https://blog.jetbrains.com/?post_type=kotlin&amp;p=460743</id>
+        <link href="https://blog.jetbrains.com/kotlin/2024/04/the-ktor-plugin-registry/"/>
+        <updated>2024-04-05T07:13:06.000Z</updated>
+        <summary type="html"><![CDATA[Ktor uses plugins to give you fine-grained control over the functionality included in your application. Until now, third-party plugins were managed differently from those provided by the Ktor team. This was a barrier to growth for the Ktor ecosystem. Earlier this month, in the Ktor 2024 product roadmap, we announced our Ktor Plugin Registry. This […]]]></summary>
+        <author>
+            <name>Garth Gilmour</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reverse Searching Netflix’s Federated Graph]]></title>
         <id>https://medium.com/p/222ac5d23576</id>
@@ -48,6 +142,46 @@ The post AB links on GitHub pull request and scale improvements for large organi
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[DataSpell 2024.1: Full Line Code Completion, the Ability to Query Data Frames via SQL Cells, Import Data Cells, dbt Сore Support Improvements]]></title>
+        <id>https://blog.jetbrains.com/?post_type=dataspell&amp;p=462522</id>
+        <link href="https://blog.jetbrains.com/dataspell/2024/04/dataspell-2024-1-full-line-code-completion-the-ability-to-query-data-frames-via-sql-cells-import-data-cells-dbt-sore-support-improvements/"/>
+        <updated>2024-04-04T14:00:48.000Z</updated>
+        <summary type="html"><![CDATA[DataSpell 2024.1 introduces features designed to help you significantly boost your productivity.  Our ML team has enhanced the local model that powers ML-assisted full line code completion for Python, resulting in longer suggestions with more context taken into account, all without sending data to the internet and completely free of charge. In DataSpell 2024.1, you […]]]></summary>
+        <author>
+            <name>Olga Lavrichenko</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YouTrack Roadmap 2024]]></title>
+        <id>https://blog.jetbrains.com/?post_type=youtrack&amp;p=422146</id>
+        <link href="https://blog.jetbrains.com/youtrack/2024/04/youtrack-roadmap-2024/"/>
+        <updated>2024-04-04T12:31:38.000Z</updated>
+        <summary type="html"><![CDATA[We’re getting lots of feedback from teams that have recently started using YouTrack, and we’re adjusting our product development plan for YouTrack in response. This flexibility with regard to our medium-term plans is possible for us since, in the longer term, we remain committed to our product’s core values and our vision for it. We […]]]></summary>
+        <author>
+            <name>Elena Pishkova</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IntelliJ Scala Plugin 2024.1 Is Out!]]></title>
+        <id>https://blog.jetbrains.com/?post_type=scala&amp;p=456062</id>
+        <link href="https://blog.jetbrains.com/scala/2024/04/04/intellij-scala-plugin-2024-1-is-out/"/>
+        <updated>2024-04-04T12:23:11.000Z</updated>
+        <summary type="html"><![CDATA[It is nigh impossible to compare how much work goes into different releases of IntelliJ Scala Plugin (just as it is with any software). Sometimes, a lot of work results in only a small number of visible changes, while at the same time, it lays out the foundations for many more improvements in the next […]]]></summary>
+        <author>
+            <name>Maciej Gorywoda</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JetBrains AI Assistant 2024.1 Updates]]></title>
+        <id>https://blog.jetbrains.com/?post_type=blog&amp;p=458520</id>
+        <link href="https://blog.jetbrains.com/blog/2024/04/04/jetbrains-ai-assistant-2024-1-updates/"/>
+        <updated>2024-04-04T10:20:26.000Z</updated>
+        <summary type="html"><![CDATA[In the new JetBrains AI Assistant version 2024.1, we’ve implemented improved test generation, full line code completion for Java, Kotlin, Python, JavaScript, TypeScript, CSS, PHP, Go, and Ruby, custom prompts for commit messages, creation files from code snippets, and updated in-editor code generation. JetBrains AI Assistant, released in December 2023, has become the fastest-growing of […]]]></summary>
+        <author>
+            <name>Alexandra Charikova</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[PyCharm 2024.1 Is Here! Hugging Face Model Card Previews, Local Full Line Code Completion Updates, and more!]]></title>
         <id>https://blog.jetbrains.com/?post_type=pycharm&amp;p=459710</id>
         <link href="https://blog.jetbrains.com/pycharm/2024/04/pycharm-2024-1/"/>
@@ -62,7 +196,7 @@ The post AB links on GitHub pull request and scale improvements for large organi
         <id>https://blog.jetbrains.com/?post_type=idea&amp;p=459494</id>
         <link href="https://blog.jetbrains.com/idea/2024/04/intellij-idea-2024-1/"/>
         <updated>2024-04-04T10:00:54.000Z</updated>
-        <summary type="html"><![CDATA[IntelliJ IDEA 2024.1 has been released with an array of exciting upgrades to help streamline your workflows.  You can get the latest build from our website, through the free Toolbox App, or via snaps for Ubuntu. Download IntelliJ IDEA 2023.3 IntelliJ IDEA Ultimate now boasts full line code completion, providing comprehensive code-aware suggestions for entire […]]]></summary>
+        <summary type="html"><![CDATA[IntelliJ IDEA 2024.1 has been released with an array of exciting upgrades to help streamline your workflows.  You can get the latest build from our website, through the free Toolbox App, or via snaps for Ubuntu. Download IntelliJ IDEA 2024.1 IntelliJ IDEA Ultimate now boasts full line code completion, providing comprehensive code-aware suggestions for entire […]]]></summary>
         <author>
             <name>Maria Kosukhina</name>
         </author>
@@ -70,7 +204,7 @@ The post AB links on GitHub pull request and scale improvements for large organi
     <entry>
         <title type="html"><![CDATA[What’s New in PhpStorm 2024.1]]></title>
         <id>https://blog.jetbrains.com/?post_type=phpstorm&amp;p=462252</id>
-        <link href="https://blog.jetbrains.com/phpstorm/2024/04/what-s-new-in-phpstorm-2024-1/"/>
+        <link href="https://blog.jetbrains.com/phpstorm/2024/04/phpstorm-2024-1-is-now-available/"/>
         <updated>2024-04-04T09:49:49.000Z</updated>
         <summary type="html"><![CDATA[The latest update for PhpStorm is now live! It features AI-powered full line code completion that runs locally without sending any data over the internet, support for Symfony’s AssetMapper, a new terminal (Beta), improvements for Pest, PHPUnit 11.0 support, and more. Don’t forget to update your license or give PhpStorm a try! Download PhpStorm Full […]]]></summary>
         <author>
@@ -105,26 +239,6 @@ The post AB links on GitHub pull request and scale improvements for large organi
         <summary type="html"><![CDATA[Programming with AI is still a highly divisive topic, but there’s no denying that more and more developers are starting to incorporate AI into their daily workflows. Whether you’ve already picked your side in the debate or are still undecided, we’ve got a new feature in v2024.1 of JetBrains IDEs that might just pique your […]]]></summary>
         <author>
             <name>Ekaterina Ryabukha</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GoLand 2024.1 Is Out!]]></title>
-        <id>https://blog.jetbrains.com/?post_type=go&amp;p=461442</id>
-        <link href="https://blog.jetbrains.com/go/2024/04/04/goland-2024-1-is-out/"/>
-        <updated>2024-04-04T09:38:04.000Z</updated>
-        <summary type="html"><![CDATA[GoLand 2024.1 is out and comes with exciting new features like full line code completion for Go, a performance boost for indexing and code highlighting, major updates to remote development and dev containers, and support for some new Go 1.22 features. Download GoLand 2024.1 In this blog post, we’ll take a quick tour through the […]]]></summary>
-        <author>
-            <name>Ruslan Akhmetzianov</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Comprehensive Kotlin Learning Guide for All Levels]]></title>
-        <id>https://blog.jetbrains.com/?post_type=education&amp;p=457950</id>
-        <link href="https://blog.jetbrains.com/education/2024/04/04/kotlin-learning-guide/"/>
-        <updated>2024-04-04T08:47:01.000Z</updated>
-        <summary type="html"><![CDATA[So you want to learn Kotlin – now what? Beginners in any field often encounter a fundamental problem: They don’t know what they don’t know. This resource aims to help self-taught Kotlin learners get a better sense of the learning landscape, from their first fun() main to juggling coroutines with ease. This guide is for […]]]></summary>
-        <author>
-            <name>Clara Maine</name>
         </author>
     </entry>
     <entry>
@@ -181,16 +295,6 @@ This blog post presents a step-by-step guide on how to set up the AI Assistant f
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Giving Back to the Ecosystem: JetBrains Supports Volar]]></title>
-        <id>https://blog.jetbrains.com/?post_type=webstorm&amp;p=462019</id>
-        <link href="https://blog.jetbrains.com/webstorm/2024/04/giving-back-to-the-ecosystem-jetbrains-supports-volar/"/>
-        <updated>2024-04-03T20:06:46.000Z</updated>
-        <summary type="html"><![CDATA[In the world of web development, the strength of our tools can often be traced back to the vibrancy and innovation found within the open-source community. At JetBrains, our mission is not just to create sophisticated tools like WebStorm but also to foster a healthy ecosystem where developers can thrive. Today we’re excited to share […]]]></summary>
-        <author>
-            <name>Jan-Niklas Wortmann</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[End of Support for Microsoft products reliant on older Azure DevOps authentication]]></title>
         <id>https://devblogs.microsoft.com/devops/?p=68992</id>
         <link href="https://devblogs.microsoft.com/devops/end-of-support-for-microsoft-products-reliant-on-older-azure-devops-authentication/"/>
@@ -200,16 +304,6 @@ Visual Studio 2010 (end of support: July 14, 2020)
 The post End of Support for Microsoft products reliant on older Azure DevOps authentication appeared first on Azure DevOps Blog.]]></summary>
         <author>
             <name>Angel Wong</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mastering Algorithmic Problem Solving: Insights From Kotlin Heroes]]></title>
-        <id>https://blog.jetbrains.com/?post_type=kotlin&amp;p=462164</id>
-        <link href="https://blog.jetbrains.com/kotlin/2024/04/algorithmic-problem-solving-kotlin-heroes/"/>
-        <updated>2024-04-03T17:53:10.000Z</updated>
-        <summary type="html"><![CDATA[Prepare for technical interviews and hone your algorithm skills during our special event ‘Mastering Algorithmic Problem Solving: Insights From Kotlin Heroes’ featuring two ICPC World Champions, the most significant award in algorithmic problem-solving. Meet our expert presenters: During the ‘Mastering Algorithmic Problem Solving: Insights From Kotlin Heroes’ livestream, they’ll tackle problems from our last competition, […]]]></summary>
-        <author>
-            <name>Ksenia Shneyveys</name>
         </author>
     </entry>
     <entry>
@@ -243,16 +337,6 @@ The post End of Support for Microsoft products reliant on older Azure DevOps aut
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[DataGrip 2024.1: Database schema awareness for AI Assistant, simplified sessions, record view, local filtering in the data editor, and more!]]></title>
-        <id>https://blog.jetbrains.com/?post_type=datagrip&amp;p=461567</id>
-        <link href="https://blog.jetbrains.com/datagrip/2024/04/03/datagrip-2024-1-database-schema-awareness-for-ai-assistant-simplified-sessions-record-view-local-filtering-in-the-data-editor-and-more/"/>
-        <updated>2024-04-03T14:27:04.000Z</updated>
-        <summary type="html"><![CDATA[DataGrip 2024.1 is out! Here’s a glimpse of what awaits you in this new version. For a full overview of this update, please visit our What’s New page. AI Assistant Working with data  Simplification of sessions Users will no longer need to manually choose which session to run queries in, and this is now the […]]]></summary>
-        <author>
-            <name>Alisa Lukonina</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Security research without ever leaving GitHub: From code scanning to CVE via Codespaces and private vulnerability reporting]]></title>
         <id>https://github.blog/2024-04-03-security-research-without-ever-leaving-github-from-code-scanning-to-cve-via-codespaces-and-private-vulnerability-reporting/</id>
         <link href="https://github.blog/2024-04-03-security-research-without-ever-leaving-github-from-code-scanning-to-cve-via-codespaces-and-private-vulnerability-reporting/"/>
@@ -261,16 +345,6 @@ The post End of Support for Microsoft products reliant on older Azure DevOps aut
 <p>The post <a href="https://github.blog/2024-04-03-security-research-without-ever-leaving-github-from-code-scanning-to-cve-via-codespaces-and-private-vulnerability-reporting/">Security research without ever leaving GitHub: From code scanning to CVE via Codespaces and private vulnerability reporting</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>]]></summary>
         <author>
             <name>The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[dotInsights | April 2024]]></title>
-        <id>https://blog.jetbrains.com/?post_type=dotnet&amp;p=461565</id>
-        <link href="https://blog.jetbrains.com/dotnet/2024/04/03/dotinsights-april-2024/"/>
-        <updated>2024-04-03T10:05:11.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to dotInsights by JetBrains! This newsletter is the home for recent .NET and software development related content. Featured Content This month, we bring you featured content from Dennis Dietrich! Dennis Dietrich is a manager at Phoenix Contact’s Industrial Cabinet Solutions (ICS) business unit where he leads a software development team. He holds a master’s […]]]></summary>
-        <author>
-            <name>Rachel Appel</name>
         </author>
     </entry>
     <entry>
@@ -872,16 +946,6 @@ The post Camunda Migration Methodology appeared first on Camunda.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The drift to normal]]></title>
-        <id>https://seths.blog/?p=48842</id>
-        <link href="https://feeds.feedblitz.com/~/874462211/0/sethsblog~The-drift-to-normal/"/>
-        <updated>2024-03-26T08:26:00.000Z</updated>
-        <summary type="html"><![CDATA[As an organization grows in scale, the idiosyncrasy and distinctiveness that was originally informed by the taste of the founders moves toward the mean. Over time, things get more average. That’s because each new customer, each new supplier and each new employee wants or needs something a little more normal, at least sometimes. The drift […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[This Week in Spring - March 26th, 2024]]></title>
         <id>https://spring.io/blog/2024/03/26/this-week-in-spring-march-26th-2024</id>
         <link href="https://spring.io/blog/2024/03/26/this-week-in-spring-march-26th-2024"/>
@@ -1468,103 +1532,6 @@ Large language models (LLMs) have significantly improved the state of the art fo
 To discuss the learning processes of humans, Bandura and Walters described the concept of social learning in 1977, outlining different models of observational learning used by people. One common method of learning from others is through a verbal instruction (e.g., …]]></summary>
         <author>
             <name>Google AI Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CRI-O: Applying seccomp profiles from OCI registries]]></title>
-        <id>https://kubernetes.io/blog/2024/03/07/cri-o-seccomp-oci-artifacts/</id>
-        <link href="https://kubernetes.io/blog/2024/03/07/cri-o-seccomp-oci-artifacts/"/>
-        <updated>2024-03-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Author: Sascha Grunert
-Seccomp stands for secure computing mode and has been a feature of the Linux
-kernel since version 2.6.12. It can be used to sandbox the privileges of a
-process, restricting the calls it is able to make from userspace into the
-kernel. Kubernetes lets you automatically apply seccomp profiles loaded onto a
-node to your Pods and containers.
-But distributing those seccomp profiles is a major challenge in Kubernetes,
-because the JSON files have to be available on all nodes where a workload can
-possibly run. Projects like the Security Profiles
-Operator solve that problem by
-running as a daemon within the cluster, which makes me wonder which part of that
-distribution could be done by the container
-runtime.
-Runtimes usually apply the profiles from a local path, for example:
-a…]]></summary>
-        <author>
-            <name>Kubernetes Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amazon RDS now supports io2 Block Express volumes for mission-critical database workloads]]></title>
-        <id>e1f154044ec7ddbc580e087aadbcf76d2131d2a0</id>
-        <link href="https://aws.amazon.com/blogs/aws/amazon-rds-now-supports-io2-block-express-volumes-for-mission-critical-database-workloads/"/>
-        <updated>2024-03-06T18:56:32.000Z</updated>
-        <summary type="html"><![CDATA[March 7, 2024: Post updated to change GB to GiB. March 8, 2024: Post updated to reflect correct region availability. Today, I am pleased to announce the availability of Provisioned IOPS (PIOPS) io2 Block Express storage volumes for all database engines in Amazon Relational Database Service (Amazon RDS). Amazon RDS provides you the flexibility to […]]]></summary>
-        <author>
-            <name>Abhishek Gupta</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing the newest Heroes of the year – March 2024]]></title>
-        <id>1c28a1aa7d172c4f3ef6f586d0d873794d1f054c</id>
-        <link href="https://aws.amazon.com/blogs/aws/introducing-the-newest-heroes-of-the-year-march-2024/"/>
-        <updated>2024-03-06T18:54:28.000Z</updated>
-        <summary type="html"><![CDATA[AWS Heroes are inspirational thought leaders who go above and beyond to knowledge share in a variety of ways. You can find them speaking at local meetups, AWS Community Days, or even at re:Invent. And these technical experts are never done learning—they’re passionate about solving problems and creating content to enable the community to build […]]]></summary>
-        <author>
-            <name>Taylor Jacobsen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Croissant: a metadata format for ML-ready datasets]]></title>
-        <id>http://blog.research.google/2024/03/croissant-metadata-format-for-ml-ready.html</id>
-        <link href="http://blog.research.google/2024/03/croissant-metadata-format-for-ml-ready.html"/>
-        <updated>2024-03-06T18:26:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted by Omar Benjelloun, Software Engineer, Google Research, and Peter Mattson, Software Engineer, Google Core ML and President, MLCommons Association
-
-
-
-
-
-
-Machine learning (ML) practitioners looking to reuse existing datasets to train an ML model often spend a lot of time understanding the data, making sense of its organization, or figuring out what subset to use as features. So much time, in fact, that progress in the field of ML is hampered by a fundamental obstacle: the wide variety of data representations. 
-
-
-
-
-
-ML datasets cover a broad range of content types, from text and structured data to images, audio, and video. Even within datasets that cover the same types of content, every dataset has a unique ad hoc arrangement of files and data formats. This challenge reduces productivi…]]></summary>
-        <author>
-            <name>Google AI Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Consul 1.18 GA improves enterprise reliability with Long-Term Support]]></title>
-        <id>https://www.hashicorp.com/blog/consul-1-18-ga-improves-enterprise-reliability-with-long-term-support</id>
-        <link href="https://www.hashicorp.com/blog/consul-1-18-ga-improves-enterprise-reliability-with-long-term-support"/>
-        <updated>2024-03-06T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Consul 1.18 improves enterprise reliability with Long-Term Support, fault-injection capabilities, and expanded Amazon ECS support for multi-runtime deployments.]]></summary>
-        <author>
-            <name>HashiCorp Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Consul Enterprise Long-Term Support (LTS) improves operational efficiency]]></title>
-        <id>https://www.hashicorp.com/blog/consul-enterprise-long-term-support-lts-improves-operational-efficiency</id>
-        <link href="https://www.hashicorp.com/blog/consul-enterprise-long-term-support-lts-improves-operational-efficiency"/>
-        <updated>2024-03-06T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[HashiCorp Consul Enterprise adds Long-Term Support (LTS) releases, reducing operational overhead and risk with extended maintenance and upgrade compatibility.]]></summary>
-        <author>
-            <name>HashiCorp Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[告知イラスト] ワンパンマン]]></title>
-        <id>tonarino_yj:episode:2550689798289615231</id>
-        <link href="https://tonarinoyj.jp/episode/2550689798289615231"/>
-        <updated>2024-03-06T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[ワンパンマン]]></summary>
-        <author>
-            <name>原作/ＯＮＥ/漫画/村田雄介</name>
         </author>
     </entry>
 </feed>

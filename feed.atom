@@ -1,10 +1,235 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-15T00:21:35.681Z</id>
+    <id>urn:2024-08-16T00:22:05.416Z</id>
     <title>osmos::feed</title>
-    <updated>2024-08-15T00:21:35.681Z</updated>
+    <updated>2024-08-16T00:22:05.416Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes 1.31: MatchLabelKeys in PodAffinity graduates to beta]]></title>
+        <id>https://kubernetes.io/blog/2024/08/16/matchlabelkeys-podaffinity/</id>
+        <link href="https://kubernetes.io/blog/2024/08/16/matchlabelkeys-podaffinity/"/>
+        <updated>2024-08-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Kubernetes 1.29 introduced new fields MatchLabelKeys and MismatchLabelKeys in PodAffinity and PodAntiAffinity.
+In Kubernetes 1.31, this feature moves to beta and the corresponding feature gate (MatchLabelKeysInPodAffinity) gets enabled by default.
+MatchLabelKeys - Enhanced scheduling for versatile rolling updates
+During a workload's (e.g., Deployment) rolling update, a cluster may have Pods from multiple versions at the same time.
+However, the scheduler cannot distinguish between old and new versions based on the LabelSelector specified in PodAffinity or PodAntiAffinity. As a result, it will co-locate or disperse Pods regardless of their versions.
+This can lead to sub-optimal scheduling outcome, for example:
+New version Pods are co-located with old version Pods (PodAffinity), which will ev…]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes 1.31: Prevent PersistentVolume Leaks When Deleting out of Order]]></title>
+        <id>https://kubernetes.io/blog/2024/08/16/kubernetes-1-31-prevent-persistentvolume-leaks-when-deleting-out-of-order/</id>
+        <link href="https://kubernetes.io/blog/2024/08/16/kubernetes-1-31-prevent-persistentvolume-leaks-when-deleting-out-of-order/"/>
+        <updated>2024-08-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[PersistentVolume (or PVs for short) are
+associated with Reclaim Policy.
+The reclaim policy is used to determine the actions that need to be taken by the storage
+backend on deletion of the PVC Bound to a PV.
+When the reclaim policy is Delete, the expectation is that the storage backend
+releases the storage resource allocated for the PV. In essence, the reclaim
+policy needs to be honored on PV deletion.
+With the recent Kubernetes v1.31 release, a beta feature lets you configure your
+cluster to behave that way and honor the configured reclaim policy.
+How did reclaim work in previous Kubernetes releases?
+PersistentVolumeClaim (or PVC for short) is
+a user's request for storage. A PV and PVC are considered Bound
+if a newly created PV or a matching PV is found. The PVs themselves are
+backed by vo…]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes 1.31: Read Only Volumes Based On OCI Artifacts (alpha)]]></title>
+        <id>https://kubernetes.io/blog/2024/08/16/kubernetes-1-31-image-volume-source/</id>
+        <link href="https://kubernetes.io/blog/2024/08/16/kubernetes-1-31-image-volume-source/"/>
+        <updated>2024-08-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Kubernetes community is moving towards fulfilling more Artificial
+Intelligence (AI) and Machine Learning (ML) use cases in the future. While the
+project has been designed to fulfill microservice architectures in the past,
+it’s now time to listen to the end users and introduce features which have a
+stronger focus on AI/ML.
+One of these requirements is to support Open Container Initiative (OCI)
+compatible images and artifacts (referred as OCI objects) directly as a native
+volume source. This allows users to focus on OCI standards as well as enables
+them to store and distribute any content using OCI registries. A feature like
+this gives the Kubernetes project a chance to grow into use cases which go
+beyond running particular images.
+Given that, the Kubernetes community is proud to present…]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Automating open source: How Ersilia distributes AI models to advance global health equity]]></title>
+        <id>https://github.blog/open-source/social-impact/automating-open-source-how-ersilia-distributes-ai-models-to-advance-global-health-equity/</id>
+        <link href="https://github.blog/open-source/social-impact/automating-open-source-how-ersilia-distributes-ai-models-to-advance-global-health-equity/"/>
+        <updated>2024-08-15T20:17:09.000Z</updated>
+        <summary type="html"><![CDATA[<p>Discover how the Ersilia Open Source Initiative accelerates drug discovery by using GitHub Actions to disseminate AI/ML models.</p>
+<p>The post <a href="https://github.blog/open-source/social-impact/automating-open-source-how-ersilia-distributes-ai-models-to-advance-global-health-equity/">Automating open source: How Ersilia distributes AI models to advance global health equity</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>]]></summary>
+        <author>
+            <name>The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The 2024.2 Versions of JetBrains IDEs Are Here With Enhanced FLCC and Remote Development, the New UI as the Default, and More]]></title>
+        <id>https://blog.jetbrains.com/?post_type=blog&amp;p=497529</id>
+        <link href="https://blog.jetbrains.com/blog/2024/08/15/the-2024-2-versions-of-jetbrains-ides-are-here-with-enhanced-flcc-and-remote-development-the-new-ui-as-the-default-and-more/"/>
+        <updated>2024-08-15T09:17:55.000Z</updated>
+        <summary type="html"><![CDATA[JetBrains IDEs, .NET tools, and AI Assistant are ready to be updated to the 2024.2 versions, which introduce a plethora of new features and improvements.  We’ve seen high adoption rates for the new UI, and in the 2024.2 versions of JetBrains IDEs, the new UI is now the default for all users. The classic UI […]]]></summary>
+        <author>
+            <name>Aleksandra Krupskaya</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[dotCover, dotMemory, dotPeek, and dotTrace 2024.2 Have Been Released!]]></title>
+        <id>https://blog.jetbrains.com/?post_type=dotnet&amp;p=503465</id>
+        <link href="https://blog.jetbrains.com/dotnet/2024/08/15/dotnet-tools-242-release/"/>
+        <updated>2024-08-15T08:29:34.000Z</updated>
+        <summary type="html"><![CDATA[dotCover 2024.2, dotMemory 2024.2, dotPeek 2024.2, and dotTrace 2024.2 have been released and are ready for download!  Let’s take a look at what’s new with these .NET tools. dotMemory 2024.2 dotTrace 2024.2 dotCover 2024.2 dotPeek 2024.2 General enhancements Handling of external sources Build configuration detection If you’re also interested in learning more about ReSharper 2024.1 […]]]></summary>
+        <author>
+            <name>Sasha Ivanova</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ReSharper 2024.2: Deepened C#12 and Initial C#13 Support, New AI Capabilities, Localization, and More]]></title>
+        <id>https://blog.jetbrains.com/?post_type=dotnet&amp;p=502960</id>
+        <link href="https://blog.jetbrains.com/dotnet/2024/08/15/resharper-2024-2/"/>
+        <updated>2024-08-15T08:28:50.000Z</updated>
+        <summary type="html"><![CDATA[Hello everyone, ReSharper 2024.2 and the latest versions of other JetBrains .NET tools have just been released. This release brings support for the .NET 9 Preview SDK, new C# and C++ features, localization updates, AI Assistant enhancements, and much more. In this article, we’ll cover the highlights of this major update for ReSharper and touch […]]]></summary>
+        <author>
+            <name>Sasha Ivanova</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rider 2024.2: Full Line Code Completion, Reader Mode, Major Enhancements to Debugging, and More.]]></title>
+        <id>https://blog.jetbrains.com/?post_type=dotnet&amp;p=502548</id>
+        <link href="https://blog.jetbrains.com/dotnet/2024/08/15/rider-2024-2/"/>
+        <updated>2024-08-15T08:28:16.000Z</updated>
+        <summary type="html"><![CDATA[Hello everyone, We’re happy to announce the release of Rider 2024.2, which comes packed with a range of exciting features and improvements designed to elevate your .NET and game development experience. From enhanced language support to advanced AI capabilities, this update has something for everyone.  Now, let’s dive into the details!  Key features and enhancements […]]]></summary>
+        <author>
+            <name>Sasha Ivanova</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The paradox of lottery thinking]]></title>
+        <id>https://seths.blog/?p=49872</id>
+        <link href="https://feeds.feedblitz.com/~/902892602/0/sethsblog~The-paradox-of-lottery-thinking/"/>
+        <updated>2024-08-15T08:27:00.000Z</updated>
+        <summary type="html"><![CDATA[Tim Brownson points us to this recent poll of people in Great Britain. About one out of four people surveyed (of all ages) believe that they could qualify for the Olympics if they trained for the next four years. This is absurd. It’s the very absurdity of it that makes it common. “I could do […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Bootiful Podcast: Gradle and Develocity engineer and Spring community legend Eric Haag]]></title>
+        <id>https://spring.io/blog/2024/08/15/a-bootiful-podcast-gradle-and-develocity-engineer-and-spring-community</id>
+        <link href="https://spring.io/blog/2024/08/15/a-bootiful-podcast-gradle-and-develocity-engineer-and-spring-community"/>
+        <updated>2024-08-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <author>
+            <name>Josh Long</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Optimizing Lucene caching: A solution to lock contention]]></title>
+        <id>https://www.elastic.co/blog/optimizing-lucene-caching</id>
+        <link href="https://www.elastic.co/blog/optimizing-lucene-caching"/>
+        <updated>2024-08-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Tencent optimized Apache Lucene's cache system with read-write locks and significantly reduced lock contention and improved performance by 50% to 200%, enhancing query speed and scalability in Elastic...]]></summary>
+        <author>
+            <name>George Kobar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IBM partners with Elasticsearch to deliver Conversational Search with watsonx Assistant]]></title>
+        <id>https://www.elastic.co/blog/ibm-elasticsearch-partnership-conversational-search-watsonx-assistant</id>
+        <link href="https://www.elastic.co/blog/ibm-elasticsearch-partnership-conversational-search-watsonx-assistant"/>
+        <updated>2024-08-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[IBM partners with Elasticsearch to deliver retrieval augmented generation (RAG) capabilities that can be seamlessly integrated into the IBM watsonx Assistant’s new Conversational Search feature....]]></summary>
+        <author>
+            <name>Hemant Malik,Serena Chou,Eser Saydam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Optimizing Lucene caching: A solution to lock contention]]></title>
+        <id>https://www.elastic.co/blog/optimizing-lucene-caching</id>
+        <link href="https://www.elastic.co/blog/optimizing-lucene-caching"/>
+        <updated>2024-08-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Apache Lucene, a widely used open-source search library, excels in providing fast and accurate search capabilities, especially for projects built on top like Elasticsearch. However, Lucene can face performance challenges like any system under heavy use. One significant issue is lock contention in the cache system, which can become problematic as query volumes increase. 
+Tencent, a valued partner and community member, recently contributed to Lucene to address the lock contention in the cache system with read-write locks (RWLock). Contributions from partners like Tencent not only improve performance but also demonstrate the strength and collaborative spirit of the Elastic community.
+Challenges of lock contention
+In Lucene, caching is a critical feature used by almost all queries to enhance performance by storing the results of frequently executed queries, thus reducing the need to process the same data repeatedly. However, this caching mechanism can become a bottleneck under high query volumes due to the traditional approach of using an exclusive lock to manage cache access. While this ensures data integrity, it also introduces significant lock contention when multiple queries attempt to access the cache simultaneously. This contention can degrade performance, leading to slower query responses and a less efficient search experience.
+
+
+doc countfield cardinalityquery pointbaseline QPScandidate QPSdiff percentagediff
+300000001012481440878%using LongAdder. uniqueQueries to be Collections.synchronizedMap. cache to be IdentityHashMap.
+
+The release and timing of any features or functionality described in this post remain at Elastic's sole discretion. Any features or functionality not currently available may not be delivered on time or at all.]]></summary>
+        <author>
+            <name>George Kobar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IBM partners with Elasticsearch to deliver Conversational Search with watsonx Assistant]]></title>
+        <id>https://www.elastic.co/blog/ibm-elasticsearch-partnership-conversational-search-watsonx-assistant</id>
+        <link href="https://www.elastic.co/blog/ibm-elasticsearch-partnership-conversational-search-watsonx-assistant"/>
+        <updated>2024-08-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[To meet customer needs for scale, speed, and precision, IBM partners with Elasticsearch to deliver retrieval augmented generation (RAG) capabilities that can be seamlessly integrated into the IBM watsonx Assistant’s new Conversational Search feature. Customers using IBM watsonx Assistant and watsonx Orchestrate can now build conversational AI assistants grounded on their company data with comprehensive search capabilities with RAG.
+
+Integrating watsonx Discovery — an IBM pre-packaged solution powered by Elasticsearch — with Conversational Search gives businesses the tools to combine proprietary documentation with large language models (LLMs) like IBM Granite. This combination brings users chat experiences enriched by business context.
+https://static-www.elastic.co/v3/assets/bltefdd0b53724f…]]></summary>
+        <author>
+            <name>Hemant Malik,Serena Chou,Eser Saydam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes 1.31: VolumeAttributesClass for Volume Modification Beta]]></title>
+        <id>https://kubernetes.io/blog/2024/08/15/kubernetes-1-31-volume-attributes-class/</id>
+        <link href="https://kubernetes.io/blog/2024/08/15/kubernetes-1-31-volume-attributes-class/"/>
+        <updated>2024-08-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Volumes in Kubernetes have been described by two attributes: their storage class, and
+their capacity. The storage class is an immutable property of the volume, while the
+capacity can be changed dynamically with volume
+resize.
+This complicates vertical scaling of workloads with volumes. While cloud providers and
+storage vendors often offer volumes which allow specifying IO quality of service
+(Performance) parameters like IOPS or throughput and tuning them as workloads operate,
+Kubernetes has no API which allows changing them.
+We are pleased to announce that the VolumeAttributesClass
+KEP,
+alpha since Kubernetes 1.29, will be beta in 1.31. This provides a generic,
+Kubernetes-native API for modifying volume parameters like provisioned IO.
+Like all new volume features in Kubernetes, this API is…]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes v1.31: Accelerating Cluster Performance with Consistent Reads from Cache]]></title>
+        <id>https://kubernetes.io/blog/2024/08/15/consistent-read-from-cache-beta/</id>
+        <link href="https://kubernetes.io/blog/2024/08/15/consistent-read-from-cache-beta/"/>
+        <updated>2024-08-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Kubernetes is renowned for its robust orchestration of containerized applications,
+but as clusters grow, the demands on the control plane can become a bottleneck.
+A key challenge has been ensuring strongly consistent reads from the etcd datastore,
+requiring resource-intensive quorum reads.
+Today, the Kubernetes community is excited to announce a major improvement:
+consistent reads from cache, graduating to Beta in Kubernetes v1.31.
+Why consistent reads matter
+Consistent reads are essential for ensuring that Kubernetes components have an accurate view of the latest cluster state.
+Guaranteeing consistent reads is crucial for maintaining the accuracy and reliability of Kubernetes operations,
+enabling components to make informed decisions based on up-to-date information.
+In large-scale cluster…]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GitHub Availability Report: July 2024]]></title>
         <id>https://github.blog/news-insights/company-news/github-availability-report-july-2024/</id>
@@ -99,6 +324,16 @@ The post Scaling Workflow Engines at Intuit with Camunda 8 and Zeebe appeared fi
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[AI for the public good: The future is bright]]></title>
+        <id>https://www.elastic.co/blog/ai-for-the-public-good</id>
+        <link href="https://www.elastic.co/blog/ai-for-the-public-good"/>
+        <updated>2024-08-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[AI can offer significant opportunity to automate tedious tasks and free up time for public sector organisations around the world to focus on more strategic, impactful initiatives to serve the public....]]></summary>
+        <author>
+            <name>Peter Dutton</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Elastic named a Leader in the 2024 Gartner Magic Quadrant for Observability Platforms]]></title>
         <id>https://www.elastic.co/blog/elastic-leader-gartner-magic-quadrant-observability-platforms-2024</id>
         <link href="https://www.elastic.co/blog/elastic-leader-gartner-magic-quadrant-observability-platforms-2024"/>
@@ -113,7 +348,9 @@ The post Scaling Workflow Engines at Intuit with Camunda 8 and Zeebe appeared fi
         <id>https://www.elastic.co/blog/ai-for-the-public-good</id>
         <link href="https://www.elastic.co/blog/ai-for-the-public-good"/>
         <updated>2024-08-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[AI can offer significant opportunity to automate tedious tasks and free up time for public sector organisations around the world to focus on more strategic, impactful initiatives to serve the public....]]></summary>
+        <summary type="html"><![CDATA[How do we measure the impact of AI in government? Without a doubt, the benefits that AI will bring to operational processes and decision-making have been discussed at great length — from automating workflows to saving costs to reducing duplicated efforts. 
+But for organisations whose goals centre on serving the public, these benefits of AI aren’t limited to business indicators, such as efficiency or revenue growth. Rather, the potential efficiencies and cost-savings from AI can open up space and resources to devote to delivering meaningful public services that improve the quality of life for people around the globe. It may sound simplistic and idealistic — but it’s already happening. 
+In the UK, for example, the government has assembled an AI-focused team rapidly developing pilot programs …]]></summary>
         <author>
             <name>Peter Dutton</name>
         </author>
@@ -133,15 +370,13 @@ https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt5e5a9d071f93d5…
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[AI for the public good: The future is bright]]></title>
-        <id>https://www.elastic.co/blog/ai-for-the-public-good</id>
-        <link href="https://www.elastic.co/blog/ai-for-the-public-good"/>
+        <title type="html"><![CDATA[Helium Synthesis]]></title>
+        <id>https://xkcd.com/2972/</id>
+        <link href="https://xkcd.com/2972/"/>
         <updated>2024-08-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[How do we measure the impact of AI in government? Without a doubt, the benefits that AI will bring to operational processes and decision-making have been discussed at great length — from automating workflows to saving costs to reducing duplicated efforts. 
-But for organisations whose goals centre on serving the public, these benefits of AI aren’t limited to business indicators, such as efficiency or revenue growth. Rather, the potential efficiencies and cost-savings from AI can open up space and resources to devote to delivering meaningful public services that improve the quality of life for people around the globe. It may sound simplistic and idealistic — but it’s already happening. 
-In the UK, for example, the government has assembled an AI-focused team rapidly developing pilot programs …]]></summary>
+        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/helium_synthesis.png" title="Our lawyers were worried because it turns out the company inherits its debt from the parent universe, but luckily cosmic inflation reduced it to nearly zero." alt="Our lawyers were worried because it turns out the company inherits its debt from the parent universe, but luckily cosmic inflation reduced it to nearly zero." />]]></summary>
         <author>
-            <name>Peter Dutton</name>
+            <name>xkcd.com</name>
         </author>
     </entry>
     <entry>
@@ -429,26 +664,6 @@ The post Are you a Camunda Champion? appeared first on Camunda.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[RubyMine 2024.2 Is Out!]]></title>
-        <id>https://blog.jetbrains.com/?post_type=ruby&amp;p=498518</id>
-        <link href="https://blog.jetbrains.com/ruby/2024/08/rubymine-2024-2-is-out/"/>
-        <updated>2024-08-12T14:12:37.000Z</updated>
-        <summary type="html"><![CDATA[Hello everyone! We’re glad to announce that the new RubyMine version is now available. You can download it from our website, via the free Toolbox App, or by using snaps for Ubuntu. Starting with RubyMine 2024.2, you no longer need to install language support plugins if you use your IDE in Chinese, Korean, or Japanese. […]]]></summary>
-        <author>
-            <name>Anna Zykova</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PyCharm 2024.2 Is Here: Improvements for Jupyter Notebooks, Databricks Integration, New AI Assistant Features, and More!]]></title>
-        <id>https://blog.jetbrains.com/?post_type=pycharm&amp;p=501497</id>
-        <link href="https://blog.jetbrains.com/pycharm/2024/08/pycharm-2024-2/"/>
-        <updated>2024-08-12T14:06:59.000Z</updated>
-        <summary type="html"><![CDATA[Offering a wide range of new and improved functionality, including Hugging Face integration, new AI Assistant features, a new default UI, and an overall better user experience, PyCharm 2024.2 is a must for anyone looking to increase their productivity.  Learn about all the updates on our What’s New page, download the latest version from our […]]]></summary>
-        <author>
-            <name>Maha Taqi</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Beginner’s guide to GitHub: Creating a pull request]]></title>
         <id>https://github.blog/developer-skills/github/beginners-guide-to-github-creating-a-pull-request/</id>
         <link href="https://github.blog/developer-skills/github/beginners-guide-to-github-creating-a-pull-request/"/>
@@ -457,16 +672,6 @@ The post Are you a Camunda Champion? appeared first on Camunda.]]></summary>
 <p>The post <a href="https://github.blog/developer-skills/github/beginners-guide-to-github-creating-a-pull-request/">Beginner’s guide to GitHub: Creating a pull request</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>]]></summary>
         <author>
             <name>The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PhpStorm 2024.2 Is Now Available]]></title>
-        <id>https://blog.jetbrains.com/?post_type=phpstorm&amp;p=496168</id>
-        <link href="https://blog.jetbrains.com/phpstorm/2024/08/phpstorm-2024-2-is-now-available/"/>
-        <updated>2024-08-12T09:38:28.000Z</updated>
-        <summary type="html"><![CDATA[PhpStorm 2024.2 has been released now! Here are the highlights of the most impactful changes introduced in this update. Download PhpStorm 2024.2 Log files support Laravel, Symfony, and WordPress log files can now be viewed directly in the IDE with proper highlighting of dates, times, events (by severity level), and hyperlinks. The same functionality is […]]]></summary>
-        <author>
-            <name>Ilia Afanasiev</name>
         </author>
     </entry>
     <entry>
@@ -535,16 +740,6 @@ In the absence of client-go feature gates, each new feature separated feature av
 The post Driving Digital Transformation at NORD/LB with Center of Excellence Success appeared first on Camunda.]]></summary>
         <author>
             <name>Nik Hewitt</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cast Expressions, Primary Constructors, Collection Expressions, List Patterns – C# Language Support in 2024.2]]></title>
-        <id>https://blog.jetbrains.com/?post_type=dotnet&amp;p=501237</id>
-        <link href="https://blog.jetbrains.com/dotnet/2024/08/09/cast-expressions-primary-constructors-collection-expressions-list-patterns-csharp-language-support-in-2024-2/"/>
-        <updated>2024-08-09T14:28:10.000Z</updated>
-        <summary type="html"><![CDATA[Our release for ReSharper and Rider 2024.2 is just around the corner, and we have lots of exciting features shipping for the new C# 13 and current C# and VB.NET! Since there are so many, we will split them into multiple blog posts. So make sure to check those posts out as well! In this […]]]></summary>
-        <author>
-            <name>Matthias Koch</name>
         </author>
     </entry>
     <entry>
@@ -686,29 +881,6 @@ Elasti…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Elastic Search 8.15: Accessible semantic search with semantic text and reranking]]></title>
-        <id>https://www.elastic.co/blog/whats-new-elastic-search-8-15-0</id>
-        <link href="https://www.elastic.co/blog/whats-new-elastic-search-8-15-0"/>
-        <updated>2024-08-08T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Elastic Search 8.15 introduces the semantic_text field and semantic reranking. The Elastic open inference API enables more third-party model providers. Learning to rank and query rules are now GA....]]></summary>
-        <author>
-            <name>Nick Chow,Sunayana Vatassery</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Elastic Search 8.15: Accessible semantic search with semantic text and reranking]]></title>
-        <id>https://www.elastic.co/blog/whats-new-elastic-search-8-15-0</id>
-        <link href="https://www.elastic.co/blog/whats-new-elastic-search-8-15-0"/>
-        <updated>2024-08-08T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In 8.15, great search results are even more accessible for our customers. Our latest release brings semantic reranking, additional vector search tools, and more third-party model providers and promotes our native Learning to Rank (LTR) to generally available. And now search is more performant than ever with additional speed and efficiency improvements. 
-Elastic Search 8.15 is available now on Elastic Cloud — the only hosted Elasticsearch offering to include all of the new features in this latest release. You can also download the Elastic Stack and our cloud orchestration products, Elastic Cloud Enterprise and Elastic Cloud on Kubernetes, for a self-managed experience.
-What else is new in Elastic 8.15? Check out the 8.15 announcement post to learn more.
-https://static-www.elastic.co/v3/asse…]]></summary>
-        <author>
-            <name>Nick Chow,Sunayana Vatassery</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Silence vs noise]]></title>
         <id>https://seths.blog/?p=46350</id>
         <link href="https://feeds.feedblitz.com/~/902529389/0/sethsblog~Silence-vs-noise/"/>
@@ -726,29 +898,6 @@ https://static-www.elastic.co/v3/asse…]]></summary>
         <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
         <author>
             <name>Josh Long</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How we built Automatic Import, Attack Discovery, and Elastic AI Assistant using LangChain]]></title>
-        <id>https://www.elastic.co/blog/building-automatic-import-attack-discovery-langchain</id>
-        <link href="https://www.elastic.co/blog/building-automatic-import-attack-discovery-langchain"/>
-        <updated>2024-08-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Elastic Security is building innovative generative AI features, leveraging the Elastic Search AI Platform and partnering with LangChain. This technical blog shares the engineering underpinnings of thi...]]></summary>
-        <author>
-            <name>Dhrumil Patel,James Spiteri,Linda Ye, LangChain</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How we built Automatic Import, Attack Discovery, and Elastic AI Assistant using LangChain]]></title>
-        <id>https://www.elastic.co/blog/building-automatic-import-attack-discovery-langchain</id>
-        <link href="https://www.elastic.co/blog/building-automatic-import-attack-discovery-langchain"/>
-        <updated>2024-08-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Elastic Security is delivering innovative AI features for security teams, accelerating migration from legacy SIEM to AI-driven security analytics. We’ve released three capabilities — Automatic Import, Attack Discovery, and Elastic AI Assistant — that apply generative AI to expedite labor-intensive SecOps tasks, and we’re just getting started.
-Leveraging the Elastic Search AI Platform and generative AI, Elastic partners with LangChain, the de facto generative AI orchestration library, to build and deliver these features. This technical blog shares the engineering underpinnings of this work.
-https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltbe970308fa87eed9/66abcaecc3ff6a762609ee2a/image3.png,image3.pngExample workflow: ES|QL query generation
-ES|QL, our new piped query language,…]]></summary>
-        <author>
-            <name>Dhrumil Patel,James Spiteri,Linda Ye, LangChain</name>
         </author>
     </entry>
     <entry>
@@ -909,26 +1058,6 @@ The post Why BPMN Interchange Is So Important appeared first on Camunda.]]></sum
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Learning in August]]></title>
-        <id>https://seths.blog/?p=49787</id>
-        <link href="https://feeds.feedblitz.com/~/902357321/0/sethsblog~Learning-in-August/"/>
-        <updated>2024-08-05T08:47:00.000Z</updated>
-        <summary type="html"><![CDATA[What better time? An hour a day for a month and you can learn a skill you’ll have forever. Beach reads are a fine way to chill out, but a month spent to learn a skill is a fine way to take advantage of a quiet time. My brand new course on Strategy is now […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[University Age]]></title>
-        <id>https://xkcd.com/2968/</id>
-        <link href="https://xkcd.com/2968/"/>
-        <updated>2024-08-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/university_age.png" title="This only makes it more urgent that we adopt my roadmap for the next 10 years, which should put us solidly in the lead." alt="This only makes it more urgent that we adopt my roadmap for the next 10 years, which should put us solidly in the lead." />]]></summary>
-        <author>
-            <name>xkcd.com</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Announcing Public Preview of Managed DevOps Pools (MDP) for Azure DevOps]]></title>
         <id>https://devblogs.microsoft.com/devops/?p=69350</id>
         <link href="https://devblogs.microsoft.com/devops/managed-devops-pools/"/>
@@ -1009,27 +1138,6 @@ The post What is a Business Rules Engine: Benefits and Use Cases appeared first 
         <updated>2024-07-31T16:00:59.000Z</updated>
         <summary type="html"><![CDATA[<p>To enhance your coding experience, AI tools should excel at saving you time with repetitive, administrative tasks, while providing accurate solutions to assist developers. Today, we’re spotlighting three updates designed to increase efficiency and boost developer creativity. </p>
 <p>The post <a href="https://github.blog/ai-and-ml/github-copilot/whats-new-with-github-copilot-july-2024/">What’s new with GitHub Copilot: July 2024</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>]]></summary>
-        <author>
-            <name>The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spring Tips: Spring Security method security with special guest Rob Winch]]></title>
-        <id>https://spring.io/blog/2024/07/31/spring-tips-spring-security-method-security-with-special-guest-rob-winch</id>
-        <link href="https://spring.io/blog/2024/07/31/spring-tips-spring-security-method-security-with-special-guest-rob-winch"/>
-        <updated>2024-07-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
-        <author>
-            <name>Josh Long</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How GitHub harnesses AI to transform customer feedback into action]]></title>
-        <id>https://github.blog/ai-and-ml/machine-learning/how-github-harnesses-ai-to-transform-customer-feedback-into-action/</id>
-        <link href="https://github.blog/ai-and-ml/machine-learning/how-github-harnesses-ai-to-transform-customer-feedback-into-action/"/>
-        <updated>2024-07-30T17:00:12.000Z</updated>
-        <summary type="html"><![CDATA[<p>Learn how we’re experimenting with open source AI models to systematically incorporate customer feedback to supercharge our product roadmaps.</p>
-<p>The post <a href="https://github.blog/ai-and-ml/machine-learning/how-github-harnesses-ai-to-transform-customer-feedback-into-action/">How GitHub harnesses AI to transform customer feedback into action</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>]]></summary>
         <author>
             <name>The GitHub Blog</name>
         </author>
@@ -1178,26 +1286,6 @@ A deprecated API has been marked for remo…]]></summary>
         <link href="https://www.hashicorp.com/blog/the-2024-hashicorp-principle-awards"/>
         <updated>2024-07-18T17:00:00.000Z</updated>
         <summary type="html"><![CDATA[Each year, HashiCorp recognizes employees who embody our Principles, via the HashiCorp Principle Awards. Meet our 2024 winning team — and the runners-up.]]></summary>
-        <author>
-            <name>HashiCorp Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Simplifying assertions in Terraform using provider-defined functions]]></title>
-        <id>https://www.hashicorp.com/blog/simplifying-assertions-in-terraform-using-provider-defined-functions</id>
-        <link href="https://www.hashicorp.com/blog/simplifying-assertions-in-terraform-using-provider-defined-functions"/>
-        <updated>2024-07-17T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Learn about assertion and validation strategies for Terraform using the Terraform Assert utility provider. Plus: how to continuously validate your infrastructure using HCP Terraform.]]></summary>
-        <author>
-            <name>HashiCorp Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nomad Bench: Load testing and benchmarking for Nomad]]></title>
-        <id>https://www.hashicorp.com/blog/nomad-bench-load-testing-and-benchmarking-for-nomad</id>
-        <link href="https://www.hashicorp.com/blog/nomad-bench-load-testing-and-benchmarking-for-nomad"/>
-        <updated>2024-07-16T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Nomad Bench provides reusable infrastructure tooling, so you can load test and experiment with Nomad clusters running at scale.]]></summary>
         <author>
             <name>HashiCorp Blog</name>
         </author>

@@ -22,6 +22,512 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-08-16 datetime="2024-08-16T00:00:00.000Z">2024-08-16</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-08-16 datetime="2024-08-16T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Kubernetes Blog</button>
+                  <a class="source-heading__link" href="https://kubernetes.io/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kubernetes.io/blog/2024/08/16/matchlabelkeys-podaffinity/"
+                        open
+                      >
+                        <summary class="article-expander__title">Kubernetes 1.31: MatchLabelKeys in PodAffinity graduates to beta</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kubernetes.io/blog/2024/08/16/matchlabelkeys-podaffinity/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Kubernetes 1.29 introduced new fields MatchLabelKeys and MismatchLabelKeys in PodAffinity and PodAntiAffinity.
+In Kubernetes 1.31, this feature moves to beta and the corresponding feature gate (MatchLabelKeysInPodAffinity) gets enabled by default.
+MatchLabelKeys - Enhanced scheduling for versatile rolling updates
+During a workload&#x27;s (e.g., Deployment) rolling update, a cluster may have Pods from multiple versions at the same time.
+However, the scheduler cannot distinguish between old and new versions based on the LabelSelector specified in PodAffinity or PodAntiAffinity. As a result, it will co-locate or disperse Pods regardless of their versions.
+This can lead to sub-optimal scheduling outcome, for example:
+New version Pods are co-located with old version Pods (PodAffinity), which will ev…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kubernetes.io/blog/2024/08/16/kubernetes-1-31-prevent-persistentvolume-leaks-when-deleting-out-of-order/"
+                        open
+                      >
+                        <summary class="article-expander__title">Kubernetes 1.31: Prevent PersistentVolume Leaks When Deleting out of Order</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kubernetes.io/blog/2024/08/16/kubernetes-1-31-prevent-persistentvolume-leaks-when-deleting-out-of-order/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>PersistentVolume (or PVs for short) are
+associated with Reclaim Policy.
+The reclaim policy is used to determine the actions that need to be taken by the storage
+backend on deletion of the PVC Bound to a PV.
+When the reclaim policy is Delete, the expectation is that the storage backend
+releases the storage resource allocated for the PV. In essence, the reclaim
+policy needs to be honored on PV deletion.
+With the recent Kubernetes v1.31 release, a beta feature lets you configure your
+cluster to behave that way and honor the configured reclaim policy.
+How did reclaim work in previous Kubernetes releases?
+PersistentVolumeClaim (or PVC for short) is
+a user&#x27;s request for storage. A PV and PVC are considered Bound
+if a newly created PV or a matching PV is found. The PVs themselves are
+backed by vo…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;16
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kubernetes.io/blog/2024/08/16/kubernetes-1-31-image-volume-source/"
+                        open
+                      >
+                        <summary class="article-expander__title">Kubernetes 1.31: Read Only Volumes Based On OCI Artifacts (alpha)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kubernetes.io/blog/2024/08/16/kubernetes-1-31-image-volume-source/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>The Kubernetes community is moving towards fulfilling more Artificial
+Intelligence (AI) and Machine Learning (ML) use cases in the future. While the
+project has been designed to fulfill microservice architectures in the past,
+it’s now time to listen to the end users and introduce features which have a
+stronger focus on AI/ML.
+One of these requirements is to support Open Container Initiative (OCI)
+compatible images and artifacts (referred as OCI objects) directly as a native
+volume source. This allows users to focus on OCI standards as well as enables
+them to store and distribute any content using OCI registries. A feature like
+this gives the Kubernetes project a chance to grow into use cases which go
+beyond running particular images.
+Given that, the Kubernetes community is proud to present…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;16
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-08-15 datetime="2024-08-15T20:17:09.000Z">2024-08-15</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-08-15 datetime="2024-08-15T20:17:09.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >The GitHub Blog</button>
+                  <a class="source-heading__link" href="https://github.blog/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://github.blog/open-source/social-impact/automating-open-source-how-ersilia-distributes-ai-models-to-advance-global-health-equity/"
+                        open
+                      >
+                        <summary class="article-expander__title">Automating open source: How Ersilia distributes AI models to advance global health equity</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://github.blog/open-source/social-impact/automating-open-source-how-ersilia-distributes-ai-models-to-advance-global-health-equity/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://github.blog/wp-content/uploads/2024/05/Collaboration-LightMode-2-1.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Discover how the Ersilia Open Source Initiative accelerates drug discovery by using GitHub Actions to disseminate AI/ML models.
+The post Automating open source: How Ersilia distributes AI models to advance global health equity appeared first on The GitHub Blog.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;16
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >The JetBrains Blog</button>
+                  <a class="source-heading__link" href="https://blog.jetbrains.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://blog.jetbrains.com/?post_type&#x3D;blog&amp;p&#x3D;497529"
+                        open
+                      >
+                        <summary class="article-expander__title">The 2024.2 Versions of JetBrains IDEs Are Here With Enhanced FLCC and Remote Development, the New UI as the Default, and More</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.jetbrains.com/blog/2024/08/15/the-2024-2-versions-of-jetbrains-ides-are-here-with-enhanced-flcc-and-remote-development-the-new-ui-as-the-default-and-more/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blog.jetbrains.com/wp-content/uploads/2024/07/Social_Share_1280x720-2x-1.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>JetBrains IDEs, .NET tools, and AI Assistant are ready to be updated to the 2024.2 versions, which introduce a plethora of new features and improvements.  We’ve seen high adoption rates for the new UI, and in the 2024.2 versions of JetBrains IDEs, the new UI is now the default for all users. The classic UI […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;16
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://blog.jetbrains.com/?post_type&#x3D;dotnet&amp;p&#x3D;503465"
+                        open
+                      >
+                        <summary class="article-expander__title">dotCover, dotMemory, dotPeek, and dotTrace 2024.2 Have Been Released!</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.jetbrains.com/dotnet/2024/08/15/dotnet-tools-242-release/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blog.jetbrains.com/wp-content/uploads/2024/08/1280x720_4dotNet_social_share_jb.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>dotCover 2024.2, dotMemory 2024.2, dotPeek 2024.2, and dotTrace 2024.2 have been released and are ready for download!  Let’s take a look at what’s new with these .NET tools. dotMemory 2024.2 dotTrace 2024.2 dotCover 2024.2 dotPeek 2024.2 General enhancements Handling of external sources Build configuration detection If you’re also interested in learning more about ReSharper 2024.1 […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;13
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://blog.jetbrains.com/?post_type&#x3D;dotnet&amp;p&#x3D;502960"
+                        open
+                      >
+                        <summary class="article-expander__title">ReSharper 2024.2: Deepened C#12 and Initial C#13 Support, New AI Capabilities, Localization, and More</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.jetbrains.com/dotnet/2024/08/15/resharper-2024-2/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blog.jetbrains.com/wp-content/uploads/2024/08/Social_Share_Blog_1280x720-2x-5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Hello everyone, ReSharper 2024.2 and the latest versions of other JetBrains .NET tools have just been released. This release brings support for the .NET 9 Preview SDK, new C# and C++ features, localization updates, AI Assistant enhancements, and much more. In this article, we’ll cover the highlights of this major update for ReSharper and touch […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://blog.jetbrains.com/?post_type&#x3D;dotnet&amp;p&#x3D;502548"
+                        open
+                      >
+                        <summary class="article-expander__title">Rider 2024.2: Full Line Code Completion, Reader Mode, Major Enhancements to Debugging, and More.</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.jetbrains.com/dotnet/2024/08/15/rider-2024-2/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blog.jetbrains.com/wp-content/uploads/2024/08/Social_Share_Blog_1280x720-2x-4-1.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Hello everyone, We’re happy to announce the release of Rider 2024.2, which comes packed with a range of exciting features and improvements designed to elevate your .NET and game development experience. From enhanced language support to advanced AI capabilities, this update has something for everyone.  Now, let’s dive into the details!  Key features and enhancements […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;17
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Seth Godin&#x27;s Blog on marketing, tribes and respect</button>
+                  <a class="source-heading__link" href="https://seths.blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://seths.blog/?p&#x3D;49872"
+                        open
+                      >
+                        <summary class="article-expander__title">The paradox of lottery thinking</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://feeds.feedblitz.com/~/902892602/0/sethsblog~The-paradox-of-lottery-thinking/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://seths.blog/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806134-1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Tim Brownson points us to this recent poll of people in Great Britain. About one out of four people surveyed (of all ages) believe that they could qualify for the Olympics if they trained for the next four years. This is absurd. It’s the very absurdity of it that makes it common. “I could do […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Spring</button>
+                  <a class="source-heading__link" href="https://spring.io">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://spring.io/blog/2024/08/15/a-bootiful-podcast-gradle-and-develocity-engineer-and-spring-community"
+                        open
+                      >
+                        <summary class="article-expander__title">A Bootiful Podcast: Gradle and Develocity engineer and Spring community legend Eric Haag</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://spring.io/blog/2024/08/15/a-bootiful-podcast-gradle-and-develocity-engineer-and-spring-community">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://spring.io/img/og-spring.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Level up your Java code and explore what Spring can do for you.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;26
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Elastic Blog - Elasticsearch, Kibana, and ELK Stack</button>
+                  <a class="source-heading__link" href="https://www.elastic.co">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/optimizing-lucene-caching"
+                        open
+                      >
+                        <summary class="article-expander__title">Optimizing Lucene caching: A solution to lock contention</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/optimizing-lucene-caching">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltef05908232b54930/66bcb7604f0e47104c5a4ac3/Lock_on_fence.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Tencent optimized Apache Lucene&#x27;s cache system with read-write locks and significantly reduced lock contention and improved performance by 50% to 200%, enhancing query speed and scalability in Elastic...</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;46
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/ibm-elasticsearch-partnership-conversational-search-watsonx-assistant"
+                        open
+                      >
+                        <summary class="article-expander__title">IBM partners with Elasticsearch to deliver Conversational Search with watsonx Assistant</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/ibm-elasticsearch-partnership-conversational-search-watsonx-assistant">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt655836c52a6c433b/64a8675bb7aec3d83fd892ab/library-branding-elastic-midnight-1680x980.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>IBM partners with Elasticsearch to deliver retrieval augmented generation (RAG) capabilities that can be seamlessly integrated into the IBM watsonx Assistant’s new Conversational Search feature....</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;43
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/optimizing-lucene-caching"
+                        open
+                      >
+                        <summary class="article-expander__title">Optimizing Lucene caching: A solution to lock contention</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/optimizing-lucene-caching">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltef05908232b54930/66bcb7604f0e47104c5a4ac3/Lock_on_fence.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Apache Lucene, a widely used open-source search library, excels in providing fast and accurate search capabilities, especially for projects built on top like Elasticsearch. However, Lucene can face performance challenges like any system under heavy use. One significant issue is lock contention in the cache system, which can become problematic as query volumes increase. 
+Tencent, a valued partner and community member, recently contributed to Lucene to address the lock contention in the cache system with read-write locks (RWLock). Contributions from partners like Tencent not only improve performance but also demonstrate the strength and collaborative spirit of the Elastic community.
+Challenges of lock contention
+In Lucene, caching is a critical feature used by almost all queries to enhance performance by storing the results of frequently executed queries, thus reducing the need to process the same data repeatedly. However, this caching mechanism can become a bottleneck under high query volumes due to the traditional approach of using an exclusive lock to manage cache access. While this ensures data integrity, it also introduces significant lock contention when multiple queries attempt to access the cache simultaneously. This contention can degrade performance, leading to slower query responses and a less efficient search experience.
+
+
+doc countfield cardinalityquery pointbaseline QPScandidate QPSdiff percentagediff
+300000001012481440878%using LongAdder. uniqueQueries to be Collections.synchronizedMap. cache to be IdentityHashMap.
+
+The release and timing of any features or functionality described in this post remain at Elastic&#x27;s sole discretion. Any features or functionality not currently available may not be delivered on time or at all.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;46
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/ibm-elasticsearch-partnership-conversational-search-watsonx-assistant"
+                        open
+                      >
+                        <summary class="article-expander__title">IBM partners with Elasticsearch to deliver Conversational Search with watsonx Assistant</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/ibm-elasticsearch-partnership-conversational-search-watsonx-assistant">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt655836c52a6c433b/64a8675bb7aec3d83fd892ab/library-branding-elastic-midnight-1680x980.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>To meet customer needs for scale, speed, and precision, IBM partners with Elasticsearch to deliver retrieval augmented generation (RAG) capabilities that can be seamlessly integrated into the IBM watsonx Assistant’s new Conversational Search feature. Customers using IBM watsonx Assistant and watsonx Orchestrate can now build conversational AI assistants grounded on their company data with comprehensive search capabilities with RAG.
+
+Integrating watsonx Discovery — an IBM pre-packaged solution powered by Elasticsearch — with Conversational Search gives businesses the tools to combine proprietary documentation with large language models (LLMs) like IBM Granite. This combination brings users chat experiences enriched by business context.
+https://static-www.elastic.co/v3/assets/bltefdd0b53724f…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;43
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Kubernetes Blog</button>
+                  <a class="source-heading__link" href="https://kubernetes.io/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kubernetes.io/blog/2024/08/15/kubernetes-1-31-volume-attributes-class/"
+                        open
+                      >
+                        <summary class="article-expander__title">Kubernetes 1.31: VolumeAttributesClass for Volume Modification Beta</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kubernetes.io/blog/2024/08/15/kubernetes-1-31-volume-attributes-class/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Volumes in Kubernetes have been described by two attributes: their storage class, and
+their capacity. The storage class is an immutable property of the volume, while the
+capacity can be changed dynamically with volume
+resize.
+This complicates vertical scaling of workloads with volumes. While cloud providers and
+storage vendors often offer volumes which allow specifying IO quality of service
+(Performance) parameters like IOPS or throughput and tuning them as workloads operate,
+Kubernetes has no API which allows changing them.
+We are pleased to announce that the VolumeAttributesClass
+KEP,
+alpha since Kubernetes 1.29, will be beta in 1.31. This provides a generic,
+Kubernetes-native API for modifying volume parameters like provisioned IO.
+Like all new volume features in Kubernetes, this API is…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kubernetes.io/blog/2024/08/15/consistent-read-from-cache-beta/"
+                        open
+                      >
+                        <summary class="article-expander__title">Kubernetes v1.31: Accelerating Cluster Performance with Consistent Reads from Cache</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kubernetes.io/blog/2024/08/15/consistent-read-from-cache-beta/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Kubernetes is renowned for its robust orchestration of containerized applications,
+but as clusters grow, the demands on the control plane can become a bottleneck.
+A key challenge has been ensuring strongly consistent reads from the etcd datastore,
+requiring resource-intensive quorum reads.
+Today, the Kubernetes community is excited to announce a major improvement:
+consistent reads from cache, graduating to Beta in Kubernetes v1.31.
+Why consistent reads matter
+Consistent reads are essential for ensuring that Kubernetes components have an accurate view of the latest cluster state.
+Guaranteeing consistent reads is crucial for maintaining the accuracy and reliability of Kubernetes operations,
+enabling components to make informed decisions based on up-to-date information.
+In large-scale cluster…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-08-14 datetime="2024-08-14T22:00:06.000Z">2024-08-14</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-08-14 datetime="2024-08-14T22:00:06.000Z"></time>
           </button>
@@ -295,6 +801,26 @@ The post Scaling Workflow Engines at Intuit with Camunda 8 and Zeebe appeared fi
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.elastic.co/blog/ai-for-the-public-good"
+                        open
+                      >
+                        <summary class="article-expander__title">AI for the public good: The future is bright</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/ai-for-the-public-good">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltd111396e6b9bb7fd/66bba2999d2cb03ded3c2652/elastic-de_149846_720x420_07-A.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>AI can offer significant opportunity to automate tedious tasks and free up time for public sector organisations around the world to focus on more strategic, impactful initiatives to serve the public....</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;50
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.elastic.co/blog/elastic-leader-gartner-magic-quadrant-observability-platforms-2024"
                         open
                       >
@@ -304,7 +830,7 @@ The post Scaling Workflow Engines at Intuit with Camunda 8 and Zeebe appeared fi
                               <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt19c3a8b4f1a3c0c7/66bb6c646cbe3c49034414f0/social-share-1600x837.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Elastic is honored to be named a Leader in the 2024 Gartner® Magic Quadrant™ for Observability Platforms. Elastic was recognized as a Leader for its Ability to Execute and Completeness of Vision....</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;58
+                                &ensp;<span class="article-reading-time">(&hairsp;47
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -323,8 +849,10 @@ The post Scaling Workflow Engines at Intuit with Camunda 8 and Zeebe appeared fi
                           <div class="article-summary-box-inner media-object">
                               <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltd111396e6b9bb7fd/66bba2999d2cb03ded3c2652/elastic-de_149846_720x420_07-A.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>AI can offer significant opportunity to automate tedious tasks and free up time for public sector organisations around the world to focus on more strategic, impactful initiatives to serve the public....</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;62
+                              <span>How do we measure the impact of AI in government? Without a doubt, the benefits that AI will bring to operational processes and decision-making have been discussed at great length — from automating workflows to saving costs to reducing duplicated efforts. 
+But for organisations whose goals centre on serving the public, these benefits of AI aren’t limited to business indicators, such as efficiency or revenue growth. Rather, the potential efficiencies and cost-savings from AI can open up space and resources to devote to delivering meaningful public services that improve the quality of life for people around the globe. It may sound simplistic and idealistic — but it’s already happening. 
+In the UK, for example, the government has assembled an AI-focused team rapidly developing pilot programs …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;50
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -348,29 +876,41 @@ Elastic Observability, powered by Search AI, helps prevent outages through proac
 
 Let’s take a look at a few key considerations for an observability platform.
 https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt5e5a9d071f93d5…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;58
+                                &ensp;<span class="article-reading-time">(&hairsp;47
                                   min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
                       </details>
                     </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >xkcd.com</button>
+                  <a class="source-heading__link" href="https://xkcd.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
                     <article>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/ai-for-the-public-good"
+                        data-accordion-key="https://xkcd.com/2972/"
                         open
                       >
-                        <summary class="article-expander__title">AI for the public good: The future is bright</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/ai-for-the-public-good">
+                        <summary class="article-expander__title">Helium Synthesis</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://xkcd.com/2972/">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltd111396e6b9bb7fd/66bba2999d2cb03ded3c2652/elastic-de_149846_720x420_07-A.jpg" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://imgs.xkcd.com/comics/helium_synthesis_2x.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>How do we measure the impact of AI in government? Without a doubt, the benefits that AI will bring to operational processes and decision-making have been discussed at great length — from automating workflows to saving costs to reducing duplicated efforts. 
-But for organisations whose goals centre on serving the public, these benefits of AI aren’t limited to business indicators, such as efficiency or revenue growth. Rather, the potential efficiencies and cost-savings from AI can open up space and resources to devote to delivering meaningful public services that improve the quality of life for people around the globe. It may sound simplistic and idealistic — but it’s already happening. 
-In the UK, for example, the government has assembled an AI-focused team rapidly developing pilot programs …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;62
+                              <span>No content preview</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -522,7 +1062,7 @@ The post What are AI agents and why do they matter? appeared first on The GitHub
                             <span class="media-object__text">
                               <span>Five actionable tips and strategies to supercharge developer happiness—and a more innovative workplace. 
 The post The ultimate guide to developer happiness appeared first on The GitHub Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                &ensp;<span class="article-reading-time">(&hairsp;12
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -788,7 +1328,7 @@ The post Camunda Alpha Release August 2024 appeared first on Camunda.</span>
                               <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt968fbcfdbfd49851/66ba407000bccd07faeec42d/Trees_and_mountains.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Explore advanced strategies for AI applications in retrieval augmented generation (RAG). Learn from experts on enhancing LLMs with effective data integration techniques....</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;57
+                                &ensp;<span class="article-reading-time">(&hairsp;48
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -808,7 +1348,7 @@ The post Camunda Alpha Release August 2024 appeared first on Camunda.</span>
                               <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0d5167248fde2292/66ba971f316653117049c8c7/Blog_Banner_Header_Dark_Color_720x420.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Sunayana pivoted from sales to product marketing and returned to Elastic to work on generative AI. Here’s why returning to Elastic felt like coming home. ...</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;55
+                                &ensp;<span class="article-reading-time">(&hairsp;44
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -830,7 +1370,7 @@ The post Camunda Alpha Release August 2024 appeared first on Camunda.</span>
                               <span>Our recent virtual event with Cohere dove deep into the world of retrieval augmented generation (RAG), focusing on the critical considerations for building RAG applications beyond the proof-of-concept stage. Our speakers, Lily Adler, principal solutions architect at Elastic, and Maxime Voisin, senior product manager at Cohere, shared valuable insights on the challenges, solutions, and best practices in this evolving field of natural language processing (NLP).
 https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt1496b19e4c6f9e66/66ba412a46b3f4241b969f48/rag-in-action.jpeg,rag-in-action.jpegWhy build a stack of solutions to complement large language models?
 Large language models (LLMs) are powerful but far from perfect. They often make absurd mistakes like suggesting putting glue o…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;57
+                                &ensp;<span class="article-reading-time">(&hairsp;48
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -856,7 +1396,7 @@ Sunayana is now Sr. Product Marketing Manager, but when she joined Elastic the f
 “In 2020 I got a great opportunity to take yet another organization to the level of acquisition and/or IPO. I remember thinking back then, I wanted one more run with a smaller private company before growing my career at a public one,” she says. 
 
 Sunayana returned in March 2024 with a new role to a compan…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;55
+                                &ensp;<span class="article-reading-time">(&hairsp;44
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1058,66 +1598,6 @@ The post Are you a Camunda Champion? appeared first on Camunda.</span>
                             <span class="media-object__text">
                               <span>Today I want to look at a new feature in PhpStorm, one that I think many Laravel developers will find very interesting. Now, to be clear, I’m a Developer Advocate at JetBrains, so you might think it’s obvious I’m excited about PhpStorm. Well, I wouldn’t be writing this post if I weren’t genuinely thrilled about […]</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.jetbrains.com/?post_type&#x3D;ruby&amp;p&#x3D;498518"
-                        open
-                      >
-                        <summary class="article-expander__title">RubyMine 2024.2 Is Out!</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.jetbrains.com/ruby/2024/08/rubymine-2024-2-is-out/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blog.jetbrains.com/wp-content/uploads/2024/08/Social_Share_Blog_1280x720-2x.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Hello everyone! We’re glad to announce that the new RubyMine version is now available. You can download it from our website, via the free Toolbox App, or by using snaps for Ubuntu. Starting with RubyMine 2024.2, you no longer need to install language support plugins if you use your IDE in Chinese, Korean, or Japanese. […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.jetbrains.com/?post_type&#x3D;pycharm&amp;p&#x3D;501497"
-                        open
-                      >
-                        <summary class="article-expander__title">PyCharm 2024.2 Is Here: Improvements for Jupyter Notebooks, Databricks Integration, New AI Assistant Features, and More!</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.jetbrains.com/pycharm/2024/08/pycharm-2024-2/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blog.jetbrains.com/wp-content/uploads/2024/08/Social_Share_Blog_1280x720-2x-4.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Offering a wide range of new and improved functionality, including Hugging Face integration, new AI Assistant features, a new default UI, and an overall better user experience, PyCharm 2024.2 is a must for anyone looking to increase their productivity.  Learn about all the updates on our What’s New page, download the latest version from our […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.jetbrains.com/?post_type&#x3D;phpstorm&amp;p&#x3D;496168"
-                        open
-                      >
-                        <summary class="article-expander__title">PhpStorm 2024.2 Is Now Available</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.jetbrains.com/phpstorm/2024/08/phpstorm-2024-2-is-now-available/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blog.jetbrains.com/wp-content/uploads/2024/08/Social_Share_Blog_ps-20242-1280x720-2x.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PhpStorm 2024.2 has been released now! Here are the highlights of the most impactful changes introduced in this update. Download PhpStorm 2024.2 Log files support Laravel, Symfony, and WordPress log files can now be viewed directly in the IDE with proper highlighting of dates, times, events (by severity level), and hyperlinks. The same functionality is […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1477,40 +1957,6 @@ The post Demystifying Automation: Common Myths and Misconceptions about Automati
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >The JetBrains Blog</button>
-                  <a class="source-heading__link" href="https://blog.jetbrains.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.jetbrains.com/?post_type&#x3D;dotnet&amp;p&#x3D;501237"
-                        open
-                      >
-                        <summary class="article-expander__title">Cast Expressions, Primary Constructors, Collection Expressions, List Patterns – C# Language Support in 2024.2</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.jetbrains.com/dotnet/2024/08/09/cast-expressions-primary-constructors-collection-expressions-list-patterns-csharp-language-support-in-2024-2/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blog.jetbrains.com/wp-content/uploads/2024/08/cast-expressions-primary-constructors-collection-expressions-list-patterns-csharp-language-support-in-20242-social.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Our release for ReSharper and Rider 2024.2 is just around the corner, and we have lots of exciting features shipping for the new C# 13 and current C# and VB.NET! Since there are so many, we will split them into multiple blog posts. So make sure to check those posts out as well! In this […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >Seth Godin&#x27;s Blog on marketing, tribes and respect</button>
                   <a class="source-heading__link" href="https://seths.blog">Open</a>
                 </h3>
@@ -1644,7 +2090,7 @@ The post Demystifying Automation: Common Myths and Misconceptions about Automati
                               <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt1a16fe71d638623d/66a2660c4e822d0c3d0e44da/8.15-blog-2x.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Elastic 8.15 includes enhancements in semantic search, new OTel collector distribution, AI-driven SIEM data onboarding, LLM integrations, additions to cross-cluster search (CCS), and more functionalit...</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;50
+                                &ensp;<span class="article-reading-time">(&hairsp;43
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1665,7 +2111,7 @@ The post Demystifying Automation: Common Myths and Misconceptions about Automati
                             <span class="media-object__text">
                               <span>Today, we are pleased to announce the general availability of Elastic 8.15.
 The release and timing of any features or functionality described in this post remain at Elastic&#x27;s sole discretion. Any features or functionality not currently available may not be delivered on time or at all.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;50
+                                &ensp;<span class="article-reading-time">(&hairsp;43
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1685,7 +2131,7 @@ The release and timing of any features or functionality described in this post r
                               <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt51b1e697c0c14e97/65a02549d6cafb1e25f75010/platform-release-blog.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Elasticsearch native vector database now supports bit vectors, SIMD acceleration, and int4 quantization. The new semantic_text field type makes generating embeddings simple. ES|QL has new query capabi...</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;69
+                                &ensp;<span class="article-reading-time">(&hairsp;62
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1712,7 +2158,7 @@ Use Elasticsearch as a vector database for semantic search more easily and with 
 Use our new Elasticsearch Query Language (ES|QL) inside Kibana Discover with an expanded set of aggregations and geospatial functionality
 
 Be…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;69
+                                &ensp;<span class="article-reading-time">(&hairsp;62
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1732,7 +2178,7 @@ Be…</span>
                               <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt473597eef3b47f82/65f321515caa4b339060ac50/Security-release-header-image.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Elastic Security 8.15 introduces Automatic Import, support for Gemini 1.5 Pro/Flash Models, on-demand scanning for the Elastic Defend integration, a full set of APIs for the Elastic AI Assistant, and ...</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;53
+                                &ensp;<span class="article-reading-time">(&hairsp;44
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1754,7 +2200,7 @@ Be…</span>
                               <span>Elastic Security 8.15 is now available, enhancing our mission to modernize security operations with AI-driven security analytics. Key features include the brand new Automatic Import to streamline data ingestion and onboarding, support for Google’s Gemini 1.5 Pro and Flash large language models (LLMs), a new set of APIs for the Elastic AI Assistant, on-demand file scans for the Elastic Defend integration, and a redesigned way of pivoting between different contexts.
 Elastic Security 8.15 is available now on Elastic Cloud — the only hosted Elasticsearch offering to include all of the new features in this latest release. You can also download the Elastic Stack and our cloud orchestration products — Elastic Cloud Enterprise and Elastic Cloud on Kubernetes — for a self-managed experience.
 What e…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;53
+                                &ensp;<span class="article-reading-time">(&hairsp;44
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1774,7 +2220,7 @@ What e…</span>
                               <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltfc5be1e0932088bf/65a00c979853393343116dab/observability-release-blog.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Introducing Elastic Observability 8.15: Elastic Distribution for OTel Collector, native OTLP profiling, AI Assistant support for Google Vertex (Gemini 1.5 Pro model), LLM observability for Azure OpenA...</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;55
+                                &ensp;<span class="article-reading-time">(&hairsp;48
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1801,93 +2247,7 @@ Elastic Distribution for OpenTelemetry Collector: This release enables users to 
 Support for OpenTelemetry Protocol (OTLP) Universal Profiling in Elastic Cloud: We have added support for Elastic Cloud to accept OTLP profiling data to complement the work we have been doing in the OpenTelemetry project after the successful donation of our profiling agent to the OpenTelemetry project.
 
 Elasti…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;55
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/whats-new-elastic-search-8-15-0"
-                        open
-                      >
-                        <summary class="article-expander__title">Elastic Search 8.15: Accessible semantic search with semantic text and reranking</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/whats-new-elastic-search-8-15-0">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt3fbb9aad7493fc22/65f318f2fc863184bcd70663/Search-release-header-image.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Elastic Search 8.15 introduces the semantic_text field and semantic reranking. The Elastic open inference API enables more third-party model providers. Learning to rank and query rules are now GA....</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;53
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/whats-new-elastic-search-8-15-0"
-                        open
-                      >
-                        <summary class="article-expander__title">Elastic Search 8.15: Accessible semantic search with semantic text and reranking</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/whats-new-elastic-search-8-15-0">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt3fbb9aad7493fc22/65f318f2fc863184bcd70663/Search-release-header-image.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>In 8.15, great search results are even more accessible for our customers. Our latest release brings semantic reranking, additional vector search tools, and more third-party model providers and promotes our native Learning to Rank (LTR) to generally available. And now search is more performant than ever with additional speed and efficiency improvements. 
-Elastic Search 8.15 is available now on Elastic Cloud — the only hosted Elasticsearch offering to include all of the new features in this latest release. You can also download the Elastic Stack and our cloud orchestration products, Elastic Cloud Enterprise and Elastic Cloud on Kubernetes, for a self-managed experience.
-What else is new in Elastic 8.15? Check out the 8.15 announcement post to learn more.
-https://static-www.elastic.co/v3/asse…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;53
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/building-automatic-import-attack-discovery-langchain"
-                        open
-                      >
-                        <summary class="article-expander__title">How we built Automatic Import, Attack Discovery, and Elastic AI Assistant using LangChain</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/building-automatic-import-attack-discovery-langchain">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta6bbee07c92f506e/66abc8e8c10344199a06991a/langchain-partner-blog_(1).png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Elastic Security is building innovative generative AI features, leveraging the Elastic Search AI Platform and partnering with LangChain. This technical blog shares the engineering underpinnings of thi...</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;52
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.elastic.co/blog/building-automatic-import-attack-discovery-langchain"
-                        open
-                      >
-                        <summary class="article-expander__title">How we built Automatic Import, Attack Discovery, and Elastic AI Assistant using LangChain</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/blog/building-automatic-import-attack-discovery-langchain">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta6bbee07c92f506e/66abc8e8c10344199a06991a/langchain-partner-blog_(1).png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Elastic Security is delivering innovative AI features for security teams, accelerating migration from legacy SIEM to AI-driven security analytics. We’ve released three capabilities — Automatic Import, Attack Discovery, and Elastic AI Assistant — that apply generative AI to expedite labor-intensive SecOps tasks, and we’re just getting started.
-Leveraging the Elastic Search AI Platform and generative AI, Elastic partners with LangChain, the de facto generative AI orchestration library, to build and deliver these features. This technical blog shares the engineering underpinnings of this work.
-https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltbe970308fa87eed9/66abcaecc3ff6a762609ee2a/image3.png,image3.pngExample workflow: ES|QL query generation
-ES|QL, our new piped query language,…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;52
+                                &ensp;<span class="article-reading-time">(&hairsp;48
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1921,7 +2281,7 @@ ES|QL, our new piped query language,…</span>
                               <img src="https://seths.blog/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806133-1.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>When a group comes together, noise is easy. Just a few people have to make a commotion for noise to happen. But silence requires everyone to be in sync.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2039,7 +2399,7 @@ The post T-Systems Austria: Streamlining IT Operations with Camunda appeared fir
                             <span class="media-object__text">
                               <span>Explore how AI coding tools like GitHub Copilot can accelerate your journey to learn new programming languages. 
 The post How to use AI coding tools to learn a new programming language appeared first on The GitHub Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
+                                &ensp;<span class="article-reading-time">(&hairsp;15
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2471,74 +2831,6 @@ The post Why BPMN Interchange Is So Important appeared first on Camunda.</span>
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Seth Godin&#x27;s Blog on marketing, tribes and respect</button>
-                  <a class="source-heading__link" href="https://seths.blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://seths.blog/?p&#x3D;49787"
-                        open
-                      >
-                        <summary class="article-expander__title">Learning in August</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://feeds.feedblitz.com/~/902357321/0/sethsblog~Learning-in-August/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://seths.blog/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>What better time? An hour a day for a month and you can learn a skill you’ll have forever. Beach reads are a fine way to chill out, but a month spent to learn a skill is a fine way to take advantage of a quiet time. My brand new course on Strategy is now […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >xkcd.com</button>
-                  <a class="source-heading__link" href="https://xkcd.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://xkcd.com/2968/"
-                        open
-                      >
-                        <summary class="article-expander__title">University Age</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://xkcd.com/2968/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://imgs.xkcd.com/comics/university_age_2x.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -2578,7 +2870,7 @@ The post Why BPMN Interchange Is So Important appeared first on Camunda.</span>
                             <span class="media-object__text">
                               <span>Engineering teams ideally want to spend all their time writing code to create applications and services for their users! In reality, many end up spending a significant portion of their time on other tasks, such as maintaining DevOps infrastructure.
 The post Announcing Public Preview of Managed DevOps Pools (MDP) for Azure DevOps appeared first on Azure DevOps Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;23
+                                &ensp;<span class="article-reading-time">(&hairsp;24
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2848,90 +3140,7 @@ The post What is a Business Rules Engine: Benefits and Use Cases appeared first 
                             <span class="media-object__text">
                               <span>To enhance your coding experience, AI tools should excel at saving you time with repetitive, administrative tasks, while providing accurate solutions to assist developers. Today, we’re spotlighting three updates designed to increase efficiency and boost developer creativity. 
 The post What’s new with GitHub Copilot: July 2024 appeared first on The GitHub Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Spring</button>
-                  <a class="source-heading__link" href="https://spring.io">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://spring.io/blog/2024/07/31/spring-tips-spring-security-method-security-with-special-guest-rob-winch"
-                        open
-                      >
-                        <summary class="article-expander__title">Spring Tips: Spring Security method security with special guest Rob Winch</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://spring.io/blog/2024/07/31/spring-tips-spring-security-method-security-with-special-guest-rob-winch">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://spring.io/img/og-spring.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Level up your Java code and explore what Spring can do for you.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;26
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-07-30 datetime="2024-07-30T17:00:12.000Z">2024-07-30</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-07-30 datetime="2024-07-30T17:00:12.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >The GitHub Blog</button>
-                  <a class="source-heading__link" href="https://github.blog/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://github.blog/ai-and-ml/machine-learning/how-github-harnesses-ai-to-transform-customer-feedback-into-action/"
-                        open
-                      >
-                        <summary class="article-expander__title">How GitHub harnesses AI to transform customer feedback into action</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://github.blog/ai-and-ml/machine-learning/how-github-harnesses-ai-to-transform-customer-feedback-into-action/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://github.blog/wp-content/uploads/2024/07/AI-DarkMode-2-1.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Learn how we’re experimenting with open source AI models to systematically incorporate customer feedback to supercharge our product roadmaps.
-The post How GitHub harnesses AI to transform customer feedback into action appeared first on The GitHub Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
+                                &ensp;<span class="article-reading-time">(&hairsp;9
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -3116,7 +3325,7 @@ The post How GitHub harnesses AI to transform customer feedback into action appe
                             <span class="media-object__text">
                               <span>It’s been a few months since our last update on the initiative to enhance the integration between Azure Boards and GitHub. We’re excited to share that many new features have been completed and are in the process of being rolled out.
 The post Update on Azure Boards + GitHub Integration appeared first on Azure DevOps Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;19
+                                &ensp;<span class="article-reading-time">(&hairsp;20
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -3436,7 +3645,7 @@ The Kubernetes API removal and deprecation process
 The Kubernetes project has a well-documented deprecation policy for features.
 This policy states that stable APIs may only be deprecated when a newer, stable version of that API is available and that APIs have a minimum lifetime for each stability level.
 A deprecated API has been marked for remo…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;16
+                                &ensp;<span class="article-reading-time">(&hairsp;17
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -3496,106 +3705,10 @@ A deprecated API has been marked for remo…</span>
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-07-17 datetime="2024-07-17T07:00:00.000Z">2024-07-17</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-07-17 datetime="2024-07-17T07:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >HashiCorp Blog</button>
-                  <a class="source-heading__link" href="https://hashicorp.com/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.hashicorp.com/blog/simplifying-assertions-in-terraform-using-provider-defined-functions"
-                        open
-                      >
-                        <summary class="article-expander__title">Simplifying assertions in Terraform using provider-defined functions</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.hashicorp.com/blog/simplifying-assertions-in-terraform-using-provider-defined-functions">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.datocms-assets.com/2885/1714171194-blog-library-product-terraform-black.jpg?w&#x3D;1200&amp;h&#x3D;630&amp;fit&#x3D;crop&amp;auto&#x3D;format" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Learn about assertion and validation strategies for Terraform using the Terraform Assert utility provider. Plus: how to continuously validate your infrastructure using HCP Terraform.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;16
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-07-16 datetime="2024-07-16T17:00:00.000Z">2024-07-16</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-07-16 datetime="2024-07-16T17:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >HashiCorp Blog</button>
-                  <a class="source-heading__link" href="https://hashicorp.com/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.hashicorp.com/blog/nomad-bench-load-testing-and-benchmarking-for-nomad"
-                        open
-                      >
-                        <summary class="article-expander__title">Nomad Bench: Load testing and benchmarking for Nomad</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.hashicorp.com/blog/nomad-bench-load-testing-and-benchmarking-for-nomad">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.datocms-assets.com/2885/1714086686-blog-library-product-nomad-dark-gradient.jpg?w&#x3D;1200&amp;h&#x3D;630&amp;fit&#x3D;crop&amp;auto&#x3D;format" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Nomad Bench provides reusable infrastructure tooling, so you can load test and experiment with Nomad clusters running at scale.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/vxavictor513/osmosfeed/actions/runs/10396614394">
-        <time id="build-timestamp" datetime="2024-08-15T00:21:35.661Z">2024-08-15T00:21:35.661Z</time>
+      <a class="footer-link" href="https://github.com/vxavictor513/osmosfeed/actions/runs/10412480068">
+        <time id="build-timestamp" datetime="2024-08-16T00:22:05.397Z">2024-08-16T00:22:05.397Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

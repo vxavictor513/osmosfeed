@@ -1,10 +1,182 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-21T00:22:02.669Z</id>
+    <id>urn:2024-08-22T00:22:09.584Z</id>
     <title>osmos::feed</title>
-    <updated>2024-08-21T00:22:02.669Z</updated>
+    <updated>2024-08-22T00:22:09.584Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes 1.31: Custom Profiling in Kubectl Debug Graduates to Beta]]></title>
+        <id>https://kubernetes.io/blog/2024/08/22/kubernetes-1-31-custom-profiling-kubectl-debug/</id>
+        <link href="https://kubernetes.io/blog/2024/08/22/kubernetes-1-31-custom-profiling-kubectl-debug/"/>
+        <updated>2024-08-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[There are many ways of troubleshooting the pods and nodes in the cluster. However, kubectl debug is one of the easiest, highly used and most prominent ones. It
+provides a set of static profiles and each profile serves for a different kind of role. For instance, from the network administrator's point of view,
+debugging the node should be as easy as this:
+$ kubectl debug node/mynode -it --image=busybox --profile=netadmin
+
+
+On the other hand, static profiles also bring about inherent rigidity, which has some implications for some pods contrary to their ease of use.
+Because there are various kinds of pods (or nodes) that all have their specific
+necessities, and unfortunately, some can't be debugged by only using the static profiles.
+Take an instance of a simple pod consisting of a container wh…]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes 1.31: Fine-grained SupplementalGroups control]]></title>
+        <id>https://kubernetes.io/blog/2024/08/22/fine-grained-supplementalgroups-control/</id>
+        <link href="https://kubernetes.io/blog/2024/08/22/fine-grained-supplementalgroups-control/"/>
+        <updated>2024-08-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This blog discusses a new feature in Kubernetes 1.31 to improve the handling of supplementary groups in containers within Pods.
+Motivation: Implicit group memberships defined in /etc/group in the container image
+Although this behavior may not be popular with many Kubernetes cluster users/admins, kubernetes, by default, merges group information from the Pod with information defined in /etc/group in the container image.
+Let's see an example, below Pod specifies runAsUser=1000, runAsGroup=3000 and supplementalGroups=4000 in the Pod's security context.
+implicit-groups.yaml
+
+
+apiVersion: v1
+kind: Pod
+metadata:
+ name: implicit-groups
+spec:
+ securityContext:
+ runAsUser: 1000
+ runAsGroup: 3000
+ supplementalGroups: [4000]
+ containers:
+ - name: ctr
+ image: registry.k8s.io/e2e-test-images/agnhost:2.4…]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes v1.31: New Kubernetes CPUManager Static Policy: Distribute CPUs Across Cores]]></title>
+        <id>https://kubernetes.io/blog/2024/08/22/cpumanager-static-policy-distributed-cpu-across-cores/</id>
+        <link href="https://kubernetes.io/blog/2024/08/22/cpumanager-static-policy-distributed-cpu-across-cores/"/>
+        <updated>2024-08-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In Kubernetes v1.31, we are excited to introduce a significant enhancement to CPU management capabilities: the distribute-cpus-across-cores option for the CPUManager static policy. This feature is currently in alpha and hidden by default, marking a strategic shift aimed at optimizing CPU utilization and improving system performance across multi-core processors.
+Understanding the feature
+Traditionally, Kubernetes' CPUManager tends to allocate CPUs as compactly as possible, typically packing them onto the fewest number of physical cores. However, allocation strategy matters, CPUs on the same physical host still share some resources of the physical core, such as the cache and execution units, etc.
+While default approach minimizes inter-core communication and can be beneficial under certain sc…]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ReSharper Tips & Tricks with Matt Ellis – Livestream]]></title>
+        <id>https://blog.jetbrains.com/?post_type=dotnet&amp;p=503092</id>
+        <link href="https://blog.jetbrains.com/dotnet/2024/08/21/resharper-tips-tricks-with-matt-ellis-livestream/"/>
+        <updated>2024-08-21T13:58:37.000Z</updated>
+        <summary type="html"><![CDATA[Join us on September 12, 2024, at 2:00 PM UTC for another JetBrains livestream event. You can register for the event using the link below or subscribe to our YouTube channel, JetBrainsTV, to get a notification closer to the event. With over 20 years of ReSharper setting the standard for the .NET development experience, it’s […]]]></summary>
+        <author>
+            <name>Khalid Abuhakmeh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Build Chatbots With LangChain]]></title>
+        <id>https://blog.jetbrains.com/?post_type=pycharm&amp;p=503887</id>
+        <link href="https://blog.jetbrains.com/pycharm/2024/08/how-to-build-chatbots-with-langchain/"/>
+        <updated>2024-08-21T10:06:08.000Z</updated>
+        <summary type="html"><![CDATA[This is a guest post from Dido Grigorov, a deep learning engineer and Python programmer with 17 years of experience in the field. Chatbots have evolved far beyond simple question-and-answer tools. With the power of large language models (LLMs), they can understand the context of conversations and generate human-like responses, making them invaluable for customer […]]]></summary>
+        <author>
+            <name>Evgenia Verbina</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Anonymity and Bugs Bunny]]></title>
+        <id>https://seths.blog/?p=48172</id>
+        <link href="https://feeds.feedblitz.com/~/903222179/0/sethsblog~Anonymity-and-Bugs-Bunny/"/>
+        <updated>2024-08-21T08:05:00.000Z</updated>
+        <summary type="html"><![CDATA[I came across this (ironically) anonymous quote recently: “The offline world is full of sticks, but the internet only has carrots.” When we come together in groups, it can bring out the best in people. When those groups are anonymous, porous and transient, though, the opposite can happen. And mobs never helped anyone, ever.]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Making Sense of the Automation Landscape]]></title>
+        <id>https://camunda.com/?p=116437</id>
+        <link href="https://camunda.com/blog/2024/08/making-sense-automation-landscape/"/>
+        <updated>2024-08-21T01:42:00.000Z</updated>
+        <summary type="html"><![CDATA[How can you determine what solution will truly provide the level of automation and orchestration you need, now and in the future? Read on to find out.
+The post Making Sense of the Automation Landscape appeared first on Camunda.]]></summary>
+        <author>
+            <name>Amy Johnston</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Session 3.3.2 and 3.2.5 are available now]]></title>
+        <id>https://spring.io/blog/2024/08/21/spring-session-3-3-2-and-3-2-5-are-available-now</id>
+        <link href="https://spring.io/blog/2024/08/21/spring-session-3-3-2-and-3-2-5-are-available-now"/>
+        <updated>2024-08-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <author>
+            <name>Marcus Hert Da Coregio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Session 3.4.0-M2 is available now]]></title>
+        <id>https://spring.io/blog/2024/08/21/spring-session-3-4-0-m2-is-available-now</id>
+        <link href="https://spring.io/blog/2024/08/21/spring-session-3-4-0-m2-is-available-now"/>
+        <updated>2024-08-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <author>
+            <name>Marcus Hert Da Coregio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Security 6.4.0-M2 is available now]]></title>
+        <id>https://spring.io/blog/2024/08/21/spring-security-6-4-0-m2-is-available-now</id>
+        <link href="https://spring.io/blog/2024/08/21/spring-security-6-4-0-m2-is-available-now"/>
+        <updated>2024-08-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
+        <author>
+            <name>Marcus Hert Da Coregio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Classical Periodic Table]]></title>
+        <id>https://xkcd.com/2975/</id>
+        <link href="https://xkcd.com/2975/"/>
+        <updated>2024-08-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/classical_periodic_table.png" title="Personally I think mercury is more of a 'wet earth' hybrid element." alt="Personally I think mercury is more of a 'wet earth' hybrid element." />]]></summary>
+        <author>
+            <name>xkcd.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes 1.31: Autoconfiguration For Node Cgroup Driver (beta)]]></title>
+        <id>https://kubernetes.io/blog/2024/08/21/cri-cgroup-driver-lookup-now-beta/</id>
+        <link href="https://kubernetes.io/blog/2024/08/21/cri-cgroup-driver-lookup-now-beta/"/>
+        <updated>2024-08-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Historically, configuring the correct cgroup driver has been a pain point for users running new
+Kubernetes clusters. On Linux systems, there are two different cgroup drivers:
+cgroupfs and systemd. In the past, both the kubelet
+and CRI implementation (like CRI-O or containerd) needed to be configured to use
+the same cgroup driver, or else the kubelet would exit with an error. This was a
+source of headaches for many cluster admins. However, there is light at the end of the tunnel!
+Automated cgroup driver detection
+In v1.28.0, the SIG Node community introduced the feature gate
+KubeletCgroupDriverFromCRI, which instructs the kubelet to ask the CRI
+implementation which cgroup driver to use. A few minor releases of Kubernetes
+happened whilst we waited for support to land in the major two CRI implementations
+(containerd and CRI-O), but as of v1.31.0, this feature is now beta!
+In addition to setting the feature gate, a cluster admin needs to ensure their
+CRI implementation is new enough:
+containerd: Support was added in v2.0.0
+CRI-O: Support was added in v1.28.0
+Then, they should ensure their CRI implementation is configured to the
+cgroup_driver they would like to use.
+Future work
+Eventually, support for the kubelet's cgroupDriver configuration field will be
+dropped, and the kubelet will fail to start if the CRI implementation isn't new
+enough to have support for this feature.]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[New Boards Hub Rollout Update]]></title>
         <id>https://devblogs.microsoft.com/devops/?p=69422</id>
@@ -138,16 +310,6 @@ The post New Boards Hub Rollout Update appeared first on Azure DevOps Blog.]]></
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[This Week in Spring - August 20th, 2024]]></title>
-        <id>https://spring.io/blog/2024/08/20/this-week-in-spring-august-20th-2024</id>
-        <link href="https://spring.io/blog/2024/08/20/this-week-in-spring-august-20th-2024"/>
-        <updated>2024-08-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
-        <author>
-            <name>Josh Long</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Encryption at rest in Elastic Cloud: Bring your own key with Azure Key Vault]]></title>
         <id>https://www.elastic.co/blog/elastic-cloud-azure-key-vault</id>
         <link href="https://www.elastic.co/blog/elastic-cloud-azure-key-vault"/>
@@ -275,16 +437,6 @@ The post New Azure DevOps Server Roadmap appeared first on Azure DevOps Blog.]]>
         <summary type="html"><![CDATA[It doesn’t matter how hard you try, you’re not going to change the direction of the wind. That doesn’t mean you can’t get good at sailing, though. And yes, if we do try, we can change the conditions in our household, community or workplace. It might feel like wind, but it’s caused by us and […]]]></summary>
         <author>
             <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spring Data 2024.0.3 and 2023.1.9 released]]></title>
-        <id>https://spring.io/blog/2024/08/19/spring-data-2024-0-3-and-2023-1-9-released</id>
-        <link href="https://spring.io/blog/2024/08/19/spring-data-2024-0-3-and-2023-1-9-released"/>
-        <updated>2024-08-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
-        <author>
-            <name>Jens Schauder</name>
         </author>
     </entry>
     <entry>
@@ -527,7 +679,7 @@ Given that, the Kubernetes community is proud to present…]]></summary>
         <id>https://blog.jetbrains.com/?post_type=dotnet&amp;p=502548</id>
         <link href="https://blog.jetbrains.com/dotnet/2024/08/15/rider-2024-2/"/>
         <updated>2024-08-15T08:28:16.000Z</updated>
-        <summary type="html"><![CDATA[Hello everyone, We’re happy to announce the release of Rider 2024.2, which comes packed with a range of exciting features and improvements designed to elevate your .NET and game development experience. From enhanced language support to advanced AI capabilities, this update has something for everyone.  Now, let’s dive into the details!  Key features and enhancements […]]]></summary>
+        <summary type="html"><![CDATA[Hello everyone, We’re happy to announce the release of Rider 2024.2, which comes packed with a range of exciting features and improvements designed to elevate your .NET and game development experience. From enhanced language support to advanced AI capabilities, this update has something for everyone.  Now, let’s dive into the details!  👀 Would you rather […]]]></summary>
         <author>
             <name>Sasha Ivanova</name>
         </author>
@@ -540,16 +692,6 @@ Given that, the Kubernetes community is proud to present…]]></summary>
         <summary type="html"><![CDATA[Tim Brownson points us to this recent poll of people in Great Britain. About one out of four people surveyed (of all ages) believe that they could qualify for the Olympics if they trained for the next four years. This is absurd. It’s the very absurdity of it that makes it common. “I could do […]]]></summary>
         <author>
             <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Bootiful Podcast: Gradle and Develocity engineer and Spring community legend Eric Haag]]></title>
-        <id>https://spring.io/blog/2024/08/15/a-bootiful-podcast-gradle-and-develocity-engineer-and-spring-community</id>
-        <link href="https://spring.io/blog/2024/08/15/a-bootiful-podcast-gradle-and-develocity-engineer-and-spring-community"/>
-        <updated>2024-08-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Level up your Java code and explore what Spring can do for you.]]></summary>
-        <author>
-            <name>Josh Long</name>
         </author>
     </entry>
     <entry>
@@ -680,16 +822,6 @@ The post Scaling Workflow Engines at Intuit with Camunda 8 and Zeebe appeared fi
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Remote Development and Code With Me for Nova, Full Line Code Completion, and Zephyr West Support Are Available in CLion 2024.2!]]></title>
-        <id>https://blog.jetbrains.com/?post_type=clion&amp;p=503246</id>
-        <link href="https://blog.jetbrains.com/clion/2024/08/2024-2-available/"/>
-        <updated>2024-08-14T12:18:01.000Z</updated>
-        <summary type="html"><![CDATA[CLion 2024.2 is now available! This version of the powerful JetBrains IDE for C and C++ introduces several new features and improvements: CLion 2024.2 is available in the Toolbox App, as a snap package (on Ubuntu), from our website, or via a patch update from version 2024.1. DOWNLOAD CLION 2024.2 CLion Nova Full line code […]]]></summary>
-        <author>
-            <name>Andrey Gushchin</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Long-term selfish]]></title>
         <id>https://seths.blog/?p=46504</id>
         <link href="https://feeds.feedblitz.com/~/902834795/0/sethsblog~Longterm-selfish/"/>
@@ -697,16 +829,6 @@ The post Scaling Workflow Engines at Intuit with Camunda 8 and Zeebe appeared fi
         <summary type="html"><![CDATA[Everyone is selfish. We do things that increase our chances of survival, help us achieve our goals and give us a story we can tell ourselves about our role in the community. But short-term selfish is something we try to grow out of. Short-term selfish runs a red light because we’re in a hurry. It […]]]></summary>
         <author>
             <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[More New UI Icons for Your Plugins!]]></title>
-        <id>https://blog.jetbrains.com/?post_type=platform&amp;p=503134</id>
-        <link href="https://blog.jetbrains.com/platform/2024/08/more-new-ui-icons-for-your-plugins/"/>
-        <updated>2024-08-14T08:02:25.000Z</updated>
-        <summary type="html"><![CDATA[We’ve made a major update to our IntelliJ Platform Icons website, adding over 1,000 new icons tailored to the new UI! This makes it easier than ever for plugin developers to find the perfect icons for their projects. If you’ve been struggling to find icons that fit the new UI, your search is over! Most […]]]></summary>
-        <author>
-            <name>Yuriy Artamonov</name>
         </author>
     </entry>
     <entry>
@@ -1001,16 +1123,6 @@ The post Are you a Camunda Champion? appeared first on Camunda.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Celestial Event]]></title>
-        <id>https://xkcd.com/2971/</id>
-        <link href="https://xkcd.com/2971/"/>
-        <updated>2024-08-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<img src="https://imgs.xkcd.com/comics/celestial_event.png" title="If we can get a brood of 13-year cicadas going, we might have a chance at making this happen before the oceans evaporate under the expanding sun." alt="If we can get a brood of 13-year cicadas going, we might have a chance at making this happen before the oceans evaporate under the expanding sun." />]]></summary>
-        <author>
-            <name>xkcd.com</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Introducing Feature Gates to Client-Go: Enhancing Flexibility and Control]]></title>
         <id>https://kubernetes.io/blog/2024/08/12/feature-gates-in-client-go/</id>
         <link href="https://kubernetes.io/blog/2024/08/12/feature-gates-in-client-go/"/>
@@ -1025,16 +1137,6 @@ Motivation
 In the absence of client-go feature gates, each new feature separated feature availability from enablement i…]]></summary>
         <author>
             <name>Kubernetes Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fire inspectors]]></title>
-        <id>https://seths.blog/?p=42701</id>
-        <link href="https://feeds.feedblitz.com/~/902674802/0/sethsblog~Fire-inspectors/"/>
-        <updated>2024-08-11T08:34:00.000Z</updated>
-        <summary type="html"><![CDATA[Running into a burning building is heroic work. Keeping buildings from burning down in the first place is actually just as important. And it scales more reliably.]]></summary>
-        <author>
-            <name>Seth Godin</name>
         </author>
     </entry>
     <entry>
@@ -1199,17 +1301,6 @@ The post DevRel “Dream Team”—How we Empower Camunda Users appeared first o
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[What is a Business Rules Engine: Benefits and Use Cases]]></title>
-        <id>https://camunda.com/?p=115050</id>
-        <link href="https://camunda.com/blog/2024/07/the-business-process-rules-engine/"/>
-        <updated>2024-07-31T22:50:48.000Z</updated>
-        <summary type="html"><![CDATA[Streamline your organization, optimize decision-making, and enhance agility.
-The post What is a Business Rules Engine: Benefits and Use Cases appeared first on Camunda.]]></summary>
-        <author>
-            <name>Joyce Johnson</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Plan your advertising campaigns with Amazon Marketing Cloud on AWS Clean Rooms, now generally available]]></title>
         <id>0845eeabbaa8bb45492bdd2b7c000edbcba69b50</id>
         <link href="https://aws.amazon.com/blogs/aws/plan-your-advertising-campaigns-with-amazon-marketing-cloud-on-aws-clean-rooms-now-generally-available/"/>
@@ -1296,46 +1387,6 @@ The post Update on Azure Boards + GitHub Integration appeared first on Azure Dev
         <link href="https://www.hashicorp.com/blog/why-use-vault-backed-dynamic-credentials-to-secure-hcp-terraform-infrastructure"/>
         <updated>2024-07-23T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[Learn how HCP Terraform and Terraform Enterprise users can use Vault-backed dynamic credentials to secure their infrastructure during provisioning better than the base-level dynamic provider credentials.]]></summary>
-        <author>
-            <name>HashiCorp Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Maestro: Netflix’s Workflow Orchestrator]]></title>
-        <id>https://medium.com/p/ee13a06f9c78</id>
-        <link href="https://netflixtechblog.com/maestro-netflixs-workflow-orchestrator-ee13a06f9c78?source=rss----2615bd06b42e---4"/>
-        <updated>2024-07-22T17:38:23.000Z</updated>
-        <summary type="html"><![CDATA[By Jun He, Natallia Dzenisenka, Praneeth Yenugutala, Yingyi Zhang, and Anjali Norwood]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWS Weekly Roundup: Global AWS Heroes Summit, AWS Lambda, Amazon Redshift, and more (July 22, 2024)]]></title>
-        <id>3b081c60311072864e5cf1c6d6441da57ae491ca</id>
-        <link href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-global-aws-heroes-summit-aws-lambda-amazon-redshift-and-more-july-22-2024/"/>
-        <updated>2024-07-22T17:03:59.000Z</updated>
-        <summary type="html"><![CDATA[Last week, AWS Heroes from around the world gathered to celebrate the 10th anniversary of the AWS Heroes program at Global AWS Heroes Summit. This program recognizes a select group of AWS experts worldwide who go above and beyond in sharing their knowledge and making an impact within developer communities. Matt Garman, CEO of AWS […]]]></summary>
-        <author>
-            <name>Donnie Prakoso</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Just-in-time approval workflow with Boundary and Azure]]></title>
-        <id>https://www.hashicorp.com/blog/just-in-time-approval-workflow-with-boundary-and-azure</id>
-        <link href="https://www.hashicorp.com/blog/just-in-time-approval-workflow-with-boundary-and-azure"/>
-        <updated>2024-07-22T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Boundary’s rich partner ecosystem extends its capabilities with Microsoft Privileged Identity Management (PIM) for temporary access based on request and approval workflows.]]></summary>
-        <author>
-            <name>HashiCorp Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HCP Terraform adds granular API access for audit trails]]></title>
-        <id>https://www.hashicorp.com/blog/hcp-terraform-adds-granular-api-access-for-audit-trails</id>
-        <link href="https://www.hashicorp.com/blog/hcp-terraform-adds-granular-api-access-for-audit-trails"/>
-        <updated>2024-07-22T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[HCP Terraform eliminates the need to rely on organization permissions to the audit trails endpoint, streamlining permissions workflows and reducing risk.]]></summary>
         <author>
             <name>HashiCorp Blog</name>
         </author>

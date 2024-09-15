@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-14T00:23:03.401Z</id>
+    <id>urn:2024-09-15T00:26:57.559Z</id>
     <title>osmos::feed</title>
-    <updated>2024-09-14T00:23:03.401Z</updated>
+    <updated>2024-09-15T00:26:57.559Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The hierarchy of insight]]></title>
+        <id>https://seths.blog/?p=48415</id>
+        <link href="https://feeds.feedblitz.com/~/904583723/0/sethsblog~The-hierarchy-of-insight/"/>
+        <updated>2024-09-14T09:01:00.000Z</updated>
+        <summary type="html"><![CDATA[It looks like this: Which do we measure the most, spend the most obtaining and argue about most often? We might have it backwards. HT Russ Ackoff.]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Meet Kausar Belgaum, Senior Sales Manager at Camunda]]></title>
         <id>https://camunda.com/?p=117947</id>
@@ -787,16 +797,6 @@ The post Increasing Efficiency and Simplicity at AXA Insurance with Process Orch
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Compared to perfect]]></title>
-        <id>https://seths.blog/?p=48846</id>
-        <link href="https://feeds.feedblitz.com/~/904007072/0/sethsblog~Compared-to-perfect/"/>
-        <updated>2024-09-04T09:44:00.000Z</updated>
-        <summary type="html"><![CDATA[Perfect is useful. It’s an absolute measure, a north star, a chance to improve our work. But it’s also a shortcut to persistent dissatisfaction. Compared to perfect is helpful when we’re creating something. But it’s also worth noting that perfect is unattainable. What’s on offer is never perfect, but what’s on offer might be exactly […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[GenAI for customer support: Explore the Elastic Support Assistant]]></title>
         <id>https://www.elastic.co/blog/generative-ai-customer-support-elastic-support-assistant</id>
         <link href="https://www.elastic.co/blog/generative-ai-customer-support-elastic-support-assistant"/>
@@ -1303,66 +1303,6 @@ during Job execution. However, if you set a large value for the backoffLimit fie
 and rely solely on this field, you might notice unnecessary increases in operating
 costs as Pods restart excessively until the backoffLimit is met.
 This becomes particularly problematic when running large-sc…]]></summary>
-        <author>
-            <name>Kubernetes Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kubernetes 1.31: MatchLabelKeys in PodAffinity graduates to beta]]></title>
-        <id>https://kubernetes.io/blog/2024/08/16/matchlabelkeys-podaffinity/</id>
-        <link href="https://kubernetes.io/blog/2024/08/16/matchlabelkeys-podaffinity/"/>
-        <updated>2024-08-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Kubernetes 1.29 introduced new fields matchLabelKeys and mismatchLabelKeys in podAffinity and podAntiAffinity.
-In Kubernetes 1.31, this feature moves to beta and the corresponding feature gate (MatchLabelKeysInPodAffinity) gets enabled by default.
-matchLabelKeys - Enhanced scheduling for versatile rolling updates
-During a workload's (e.g., Deployment) rolling update, a cluster may have Pods from multiple versions at the same time.
-However, the scheduler cannot distinguish between old and new versions based on the labelSelector specified in podAffinity or podAntiAffinity. As a result, it will co-locate or disperse Pods regardless of their versions.
-This can lead to sub-optimal scheduling outcome, for example:
-New version Pods are co-located with old version Pods (podAffinity), which will ev…]]></summary>
-        <author>
-            <name>Kubernetes Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kubernetes 1.31: Prevent PersistentVolume Leaks When Deleting out of Order]]></title>
-        <id>https://kubernetes.io/blog/2024/08/16/kubernetes-1-31-prevent-persistentvolume-leaks-when-deleting-out-of-order/</id>
-        <link href="https://kubernetes.io/blog/2024/08/16/kubernetes-1-31-prevent-persistentvolume-leaks-when-deleting-out-of-order/"/>
-        <updated>2024-08-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[PersistentVolume (or PVs for short) are
-associated with Reclaim Policy.
-The reclaim policy is used to determine the actions that need to be taken by the storage
-backend on deletion of the PVC Bound to a PV.
-When the reclaim policy is Delete, the expectation is that the storage backend
-releases the storage resource allocated for the PV. In essence, the reclaim
-policy needs to be honored on PV deletion.
-With the recent Kubernetes v1.31 release, a beta feature lets you configure your
-cluster to behave that way and honor the configured reclaim policy.
-How did reclaim work in previous Kubernetes releases?
-PersistentVolumeClaim (or PVC for short) is
-a user's request for storage. A PV and PVC are considered Bound
-if a newly created PV or a matching PV is found. The PVs themselves are
-backed by vo…]]></summary>
-        <author>
-            <name>Kubernetes Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kubernetes 1.31: Read Only Volumes Based On OCI Artifacts (alpha)]]></title>
-        <id>https://kubernetes.io/blog/2024/08/16/kubernetes-1-31-image-volume-source/</id>
-        <link href="https://kubernetes.io/blog/2024/08/16/kubernetes-1-31-image-volume-source/"/>
-        <updated>2024-08-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Kubernetes community is moving towards fulfilling more Artificial
-Intelligence (AI) and Machine Learning (ML) use cases in the future. While the
-project has been designed to fulfill microservice architectures in the past,
-it’s now time to listen to the end users and introduce features which have a
-stronger focus on AI/ML.
-One of these requirements is to support Open Container Initiative (OCI)
-compatible images and artifacts (referred as OCI objects) directly as a native
-volume source. This allows users to focus on OCI standards as well as enables
-them to store and distribute any content using OCI registries. A feature like
-this gives the Kubernetes project a chance to grow into use cases which go
-beyond running particular images.
-Given that, the Kubernetes community is proud to present…]]></summary>
         <author>
             <name>Kubernetes Blog</name>
         </author>

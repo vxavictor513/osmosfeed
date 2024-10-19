@@ -6,6 +6,26 @@
       "siteUrl": "https://spring.io",
       "articles": [
         {
+          "id": "https://spring.io/blog/2024/10/18/spring-data-2024-1-0-goes-rc1",
+          "author": "Mark Paluch",
+          "description": "Level up your Java code and explore what Spring can do for you.",
+          "link": "https://spring.io/blog/2024/10/18/spring-data-2024-1-0-goes-rc1",
+          "publishedOn": "2024-10-18T00:00:00.000Z",
+          "wordCount": 7879,
+          "title": "Spring Data 2024.1.0 goes RC1",
+          "imageUrl": "https://spring.io/img/og-spring.png"
+        },
+        {
+          "id": "https://spring.io/blog/2024/10/18/spring-data-2024-0-5-and-2023-1-11-released",
+          "author": "Mark Paluch",
+          "description": "Level up your Java code and explore what Spring can do for you.",
+          "link": "https://spring.io/blog/2024/10/18/spring-data-2024-0-5-and-2023-1-11-released",
+          "publishedOn": "2024-10-18T00:00:00.000Z",
+          "wordCount": 7918,
+          "title": "Spring Data 2024.0.5 and 2023.1.11 released",
+          "imageUrl": "https://spring.io/img/og-spring.png"
+        },
+        {
           "id": "https://spring.io/blog/2024/10/17/spring-tools-4-26-0-released",
           "author": "Martin Lippert",
           "description": "Level up your Java code and explore what Spring can do for you.",
@@ -83,26 +103,6 @@
           "publishedOn": "2024-10-10T00:00:00.000Z",
           "wordCount": 7668,
           "title": "A Bootiful Podcast: New York Java SIG chair and founder Frank Greco on community, AI, and more",
-          "imageUrl": "https://spring.io/img/og-spring.png"
-        },
-        {
-          "id": "https://spring.io/blog/2024/10/09/spring-cloud-2024-0-0-m2-aka-moorgate-has-been-released",
-          "author": "Ryan Baxter",
-          "description": "Level up your Java code and explore what Spring can do for you.",
-          "link": "https://spring.io/blog/2024/10/09/spring-cloud-2024-0-0-m2-aka-moorgate-has-been-released",
-          "publishedOn": "2024-10-09T00:00:00.000Z",
-          "wordCount": 8017,
-          "title": "Spring Cloud 2024.0.0-M2 (aka Moorgate) Has Been Released",
-          "imageUrl": "https://spring.io/img/og-spring.png"
-        },
-        {
-          "id": "https://spring.io/blog/2024/10/08/spring-ai-1-0-0-m3-released",
-          "author": "Mark Pollack",
-          "description": "Level up your Java code and explore what Spring can do for you.",
-          "link": "https://spring.io/blog/2024/10/08/spring-ai-1-0-0-m3-released",
-          "publishedOn": "2024-10-08T00:00:00.000Z",
-          "wordCount": 8570,
-          "title": "Spring AI 1.0.0 M3 Released",
           "imageUrl": "https://spring.io/img/og-spring.png"
         }
       ]
@@ -271,26 +271,6 @@
           "wordCount": 5201,
           "title": "How to use Vault namespaces",
           "imageUrl": "https://www.datocms-assets.com/2885/1714171245-blog-library-product-vault-dark-gradient.jpg?w=1200&h=630&fit=crop&auto=format"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/configuring-vault-as-an-identity-provider",
-          "author": null,
-          "description": "Learn how to configure HashiCorp Vault as an identity provider (IdP) for your applications.",
-          "link": "https://www.hashicorp.com/blog/configuring-vault-as-an-identity-provider",
-          "publishedOn": "2024-09-19T07:00:00.000Z",
-          "wordCount": 7998,
-          "title": "Configuring Vault as an identity provider",
-          "imageUrl": "https://www.datocms-assets.com/2885/1714171245-blog-library-product-vault-dark-gradient.jpg?w=1200&h=630&fit=crop&auto=format"
-        },
-        {
-          "id": "https://www.hashicorp.com/blog/hcp-terraform-adds-run-queue-visibility-and-new-ephemeral-workspace-features",
-          "author": null,
-          "description": "HCP Terraform and Terraform Enterprise gain new features related to ephemeral workspaces along with run queue visibility for HCP Terraform specifically.",
-          "link": "https://www.hashicorp.com/blog/hcp-terraform-adds-run-queue-visibility-and-new-ephemeral-workspace-features",
-          "publishedOn": "2024-09-18T16:00:00.000Z",
-          "wordCount": 2792,
-          "title": "HCP Terraform adds run queue visibility and new ephemeral workspace features",
-          "imageUrl": "https://www.datocms-assets.com/2885/1714146885-blog-library-product-hcp-terraform-dark-gradient.jpg?w=1200&h=630&fit=crop&auto=format"
         }
       ]
     },
@@ -445,7 +425,7 @@
           "description": "In this edition of our newsletter blog, we cover the simplest and fastest way to get Elasticsearch and Kibana running locally, the Elastic AI Assistant with a private LLM, and the Vertex AI integratio...",
           "link": "https://www.elastic.co/blog/devrel-newsletter-october-2024",
           "publishedOn": "2024-10-10T00:00:00.000Z",
-          "wordCount": 11479,
+          "wordCount": 11231,
           "title": "DevRel newsletter — October 2024",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt696883955f9c5c66/66214016b8b5ce078fdbef6e/community-blog-series-04_(1)_(1).png"
         },
@@ -475,7 +455,7 @@
           "description": "Hello from the Elastic DevRel team! In this edition of our newsletter blog, we cover the simplest and fastest way to get Elasticsearch and Kibana running locally, the Elastic AI Assistant with a private LLM, and the Vertex AI integration with Elasticsearch. Plus, our usual updates on interesting content and upcoming events.\nWhat’s new?\nStart local — it has never been easier to start Elasticsearch and Kibana locally: All you need to do is to have Docker running and run curl -fsSL https://elastic.co/start-local | sh in your shell. The command generates a Docker Compose setup with the latest images and a random password and starts it up. You can then access Kibana on http://localhost:5601 with the generated password. If you want to make any changes to the installation, take a look at the gene…",
           "link": "https://www.elastic.co/blog/devrel-newsletter-october-2024",
           "publishedOn": "2024-10-10T00:00:00.000Z",
-          "wordCount": 11479,
+          "wordCount": 11231,
           "title": "DevRel newsletter — October 2024",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt696883955f9c5c66/66214016b8b5ce078fdbef6e/community-blog-series-04_(1)_(1).png"
         },
@@ -485,7 +465,7 @@
           "description": "Security leaders default to tackling the “on fire” problems first and often for obvious reasons. While challenging, allotting more time for forward-looking initiatives will ultimately increase their o...",
           "link": "https://www.elastic.co/blog/cybersecurity-leader-top-priorities",
           "publishedOn": "2024-10-09T00:00:00.000Z",
-          "wordCount": 9735,
+          "wordCount": 9487,
           "title": "Top priorities of today’s cybersecurity leader",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt2b3f2f5cf10852a4/66fc51fcc79828447a8f4661/02-Option_01.jpg"
         },
@@ -495,7 +475,7 @@
           "description": "The role of a security leader requires navigating a complex web of responsibilities while protecting the organization from an increasingly dynamic threat environment. Balancing time between strategic and operational initiatives is challenging. After all, it’s easy to default to tackling the “on fire” problems first for obvious reasons. More challenging, however, is allotting time for forward-looking initiatives that may ultimately save your security team time and effort — and increase your security posture — in the long run. \nAccounting for both the reactive and proactive job functions a security leader must juggle, here are the top 10 responsibilities of today’s security leader.\nhttps://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6d6a4b78c243d391/66fae5877538db51fc9adfcd/cybersec-leaders.png,cybersec-leaders.png\nThe release and timing of any features or functionality described in this post remain at Elastic's sole discretion. Any features or functionality not currently available may not be delivered on time or at all.",
           "link": "https://www.elastic.co/blog/cybersecurity-leader-top-priorities",
           "publishedOn": "2024-10-09T00:00:00.000Z",
-          "wordCount": 9735,
+          "wordCount": 9487,
           "title": "Top priorities of today’s cybersecurity leader",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt2b3f2f5cf10852a4/66fc51fcc79828447a8f4661/02-Option_01.jpg"
         }
@@ -518,7 +498,7 @@
           "description": "In the world of software development, security is paramount. As developers, we strive to write clean, efficient, and most importantly, secure code. GitHub Advanced Security for Azure DevOps has always been at the forefront of providing tools that make it easier to build and release high-quality software. Today, we’re excited to announce a new feature […]\nThe post Introducing Pull Request Annotation for CodeQL and Dependency Scanning in GitHub Advanced Security for Azure DevOps appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/introducing-pull-request-annotation-for-codeql-and-dependency-scanning-in-github-advanced-security-for-azure-devops/",
           "publishedOn": "2024-10-17T00:18:17.000Z",
-          "wordCount": 6480,
+          "wordCount": 6771,
           "title": "Introducing Pull Request Annotation for CodeQL and Dependency Scanning in GitHub Advanced Security for Azure DevOps",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2024/10/pr-annotation-detail.png"
         },
@@ -528,7 +508,7 @@
           "description": "Azure DevOps is starting the deprecation process for the macOS-12 (Monterey) hosted pilelines image. While the image is being deprecated, you may experience longer queue times during peak usage hours. Deprecation will begin on October 7 and the image will be fully unsupported by December 3. Pipeline jobs using the macOS-12 image label should be […]\nThe post Deprecation of the macOS-12 Hosted Pipeline Image appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/upcoming-deprecation-of-macos-12-hosted-pipeline-image/",
           "publishedOn": "2024-10-01T12:44:03.000Z",
-          "wordCount": 6139,
+          "wordCount": 6430,
           "title": "Deprecation of the macOS-12 Hosted Pipeline Image",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2018/08/vstsfeature.png"
         },
@@ -538,7 +518,7 @@
           "description": "September was a productive month for Azure Boards, and we’re excited to share some of the new features coming your way. Area and Iteration Level Fields Area and iteration level fields have been crucial for querying or displaying results based on their specific levels: (Root) Level 1 / Level 2 / Level 3 / etc. […]\nThe post Azure Boards, September Update appeared first on Azure DevOps Blog.",
           "link": "https://devblogs.microsoft.com/devops/azure-boards-september-update/",
           "publishedOn": "2024-09-27T13:47:52.000Z",
-          "wordCount": 7219,
+          "wordCount": 6928,
           "title": "Azure Boards, September Update",
           "imageUrl": "https://devblogs.microsoft.com/devops/wp-content/uploads/sites/6/2023/03/sketch-1.png"
         }
@@ -561,7 +541,7 @@
           "description": "Unlock insights instantly with Amazon Redshift's new zero-ETL integrations for Aurora PostgreSQL and DynamoDB, eliminating complex ETL pipelines.",
           "link": "https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-and-amazon-dynamodb-zero-etl-integrations-with-amazon-redshift-now-generally-available/",
           "publishedOn": "2024-10-15T19:59:43.000Z",
-          "wordCount": 2463,
+          "wordCount": 2465,
           "title": "Amazon Aurora PostgreSQL and Amazon DynamoDB zero-ETL integrations with Amazon Redshift now generally available",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/09/26/Aurora-zero-ETL-Redshift.png"
         },
@@ -571,7 +551,7 @@
           "description": "Last week, AWS hosted free half-day conferences in London and Paris. My colleagues and I demonstrated how developers can use generative AI tools to speed up their design, analysis, code writing, debugging, and deployment workflows. These events were held at the GenAI Lofts. These lofts are open until October 25 (London) and November 5 (Paris). […]",
           "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-whats-app-aws-lambda-load-balancers-aws-console-and-more-oct-14-2024/",
           "publishedOn": "2024-10-14T16:51:29.000Z",
-          "wordCount": 1914,
+          "wordCount": 1916,
           "title": "AWS Weekly Roundup: What’s App, AWS Lambda, Load Balancers, AWS Console, and more (Oct 14, 2024)",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png"
         },
@@ -581,7 +561,7 @@
           "description": "AWS Console-to-Code generates reusable infrastructure as code from your AWS console actions, supporting Amazon EC2, RDS, and VPC. With a few clicks, get CloudFormation, CDK (TypeScript, Python, Java), or CLI code - a game-changer for streamlining cloud automation workflows.",
           "link": "https://aws.amazon.com/blogs/aws/convert-aws-console-actions-to-reusable-code-with-aws-console-to-code-now-generally-available/",
           "publishedOn": "2024-10-10T16:38:35.000Z",
-          "wordCount": 1897,
+          "wordCount": 1899,
           "title": "Convert AWS console actions to reusable code with AWS Console-to-Code, now generally available",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/08/30/Console-code-feat-imgB.png"
         },
@@ -591,7 +571,7 @@
           "description": "Last Friday, I had the privilege of attending China Engineer’s Day 2024(CED 2024) in Hangzhou as the Amazon Web Services (AWS) speaker. The event was organized by the China Computer Federation (CCF), one of the most influential professional developer communities in China. At CED 2024, I spoke about how AI development tools can improve developer […]",
           "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-q-business-is-hipaa-eligible-amazon-dcv-aws-repost-agent-and-more-oct-07-2024/",
           "publishedOn": "2024-10-07T17:36:37.000Z",
-          "wordCount": 2023,
+          "wordCount": 2025,
           "title": "AWS Weekly Roundup: HIPAA eligible with Amazon Q Business, Amazon DCV, AWS re:Post Agent, and more (Oct 07, 2024)",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png"
         },
@@ -601,7 +581,7 @@
           "description": "Discover how this high-performance remote protocol securely streams graphics-intensive apps from cloud to device, with QUIC, client enhancements, and extended OS support.",
           "link": "https://aws.amazon.com/blogs/aws/nice-desktop-cloud-visualization-dcv-is-now-amazon-dcv/",
           "publishedOn": "2024-10-01T19:05:59.000Z",
-          "wordCount": 2000,
+          "wordCount": 2002,
           "title": "NICE DCV is now Amazon DCV with 2024.0 release",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/09/24/NiceIMG2.png"
         },
@@ -611,7 +591,7 @@
           "description": "Every week, there’s a new Amazon Web Services (AWS) community event where you can network, learn something new, and immerse yourself in the community. When you’re in a community, everyone grows together, and no one is left behind. Last week was no exception. I can highlight the Dach AWS Community Day where Viktoria Semaan closed […]",
           "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-jamba-1-5-family-llama-3-2-amazon-ec2-c8g-and-m8g-instances-and-more-sep-30-2024/",
           "publishedOn": "2024-09-30T16:53:23.000Z",
-          "wordCount": 2201,
+          "wordCount": 2198,
           "title": "AWS Weekly Roundup: Jamba 1.5 family, Llama 3.2, Amazon EC2 C8g and M8g instances and more (Sep 30, 2024)",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png"
         },
@@ -621,7 +601,7 @@
           "description": "Unleash unparalleled computing prowess and energy efficiency for memory-intensive workloads, from in-memory databases to real-time analytics, with C8g and M8g instances powered by AWS Graviton4 processors.",
           "link": "https://aws.amazon.com/blogs/aws/run-your-compute-intensive-and-general-purpose-workloads-sustainably-with-the-new-amazon-ec2-c8g-m8g-instances/",
           "publishedOn": "2024-09-25T21:16:39.000Z",
-          "wordCount": 1492,
+          "wordCount": 1489,
           "title": "Run your compute-intensive and general purpose workloads sustainably with the new Amazon EC2 C8g, M8g instances",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/08/29/Graviton-blog-feat-img.png"
         },
@@ -631,7 +611,7 @@
           "description": "Pushing the boundaries of generative AI, Meta unveils Llama 3.2, a groundbreaking language model family featuring enhanced capabilities, broader applicability, and multimodal image support, now available in Amazon Bedrock.",
           "link": "https://aws.amazon.com/blogs/aws/introducing-llama-3-2-models-from-meta-in-amazon-bedrock-a-new-generation-of-multimodal-vision-and-lightweight-models/",
           "publishedOn": "2024-09-25T18:18:52.000Z",
-          "wordCount": 2682,
+          "wordCount": 2679,
           "title": "Introducing Llama 3.2 models from Meta in Amazon Bedrock: A new generation of multimodal vision and lightweight models",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/07/22/Bedrock-models-feat-img.png"
         },
@@ -641,7 +621,7 @@
           "description": "AI21's Jamba 1.5 models enable high-performance long-context language processing up to 256K tokens, with JSON output support and multilingual capabilities across 9 languages.",
           "link": "https://aws.amazon.com/blogs/aws/jamba-1-5-family-of-models-by-ai21-labs-is-now-available-in-amazon-bedrock/",
           "publishedOn": "2024-09-23T17:59:18.000Z",
-          "wordCount": 1654,
+          "wordCount": 1651,
           "title": "Jamba 1.5 family of models by AI21 Labs is now available in Amazon Bedrock",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/09/06/BedrockJamba3.png"
         },
@@ -651,7 +631,7 @@
           "description": "AWS Community Days have been in full swing around the world. I am going to put the spotlight on AWS Community Day Argentina where Jeff Barr delivered the keynote, talks and shared his nuggets of wisdom with the community, including a fun story of how he once followed Bill Gates to a McDonald’s! I encourage […]",
           "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-ec2-x8g-instances-amazon-q-generative-sql-for-amazon-redshift-aws-sdk-for-swift-and-more-sep-23-2024/",
           "publishedOn": "2024-09-23T17:54:32.000Z",
-          "wordCount": 1834,
+          "wordCount": 1831,
           "title": "AWS Weekly Roundup: Amazon EC2 X8g Instances, Amazon Q generative SQL for Amazon Redshift, AWS SDK for Swift, and more (Sep 23, 2024)",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png"
         },
@@ -661,29 +641,9 @@
           "description": "The 2024 Gartner Magic Quadrant positions AWS as a Leader, reflecting our commitment to diverse virtual desktop solutions and operational excellence - driving innovation for remote and hybrid workforces.",
           "link": "https://aws.amazon.com/blogs/aws/aws-named-as-a-leader-in-the-2024-gartner-magic-quadrant-for-desktop-as-a-service-daas/",
           "publishedOn": "2024-09-19T18:54:08.000Z",
-          "wordCount": 1426,
+          "wordCount": 1423,
           "title": "AWS named as a Leader in the 2024 Gartner Magic Quadrant for Desktop as a Service (DaaS)",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/08/29/DaaS-blog-feat-img.png"
-        },
-        {
-          "id": "7812a543b049dc928be3d9f6c4a97e0231eb9baa",
-          "author": "Jeff Barr",
-          "description": "New memory-optimized X8g instances offer up to 3 TiB DDR5 memory, 192 vCPUs, and 50 Gbps network bandwidth, designed for memory-intensive workloads like databases, analytics, and caching with unparalleled price/performance and efficiency.",
-          "link": "https://aws.amazon.com/blogs/aws/now-available-graviton4-powered-memory-optimized-amazon-ec2-x8g-instances/",
-          "publishedOn": "2024-09-18T19:46:35.000Z",
-          "wordCount": 1651,
-          "title": "Now available: Graviton4-powered memory-optimized Amazon EC2 X8g instances",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/08/29/Graviton-blog-feat-img.png"
-        },
-        {
-          "id": "985360e0d64907d9a064c7b368f96ac8e90b72b5",
-          "author": "Betty Zheng (郑予彬)",
-          "description": "Gain indispensable data engineering expertise through a hands-on specialization by DeepLearning.AI and AWS. This professional certificate covers ingestion, storage, querying, modeling, and more.",
-          "link": "https://aws.amazon.com/blogs/aws/data-engineering-professional-certificate-new-hands-on-specialization-by-deeplearning-ai-and-aws/",
-          "publishedOn": "2024-09-18T18:50:29.000Z",
-          "wordCount": 2024,
-          "title": "Data engineering professional certificate: New hands-on specialization by DeepLearning.AI and AWS",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/08/26/V2_-AWS-deep-learning-blog-img-1260x630.png"
         }
       ]
     },
@@ -797,7 +757,7 @@
           "publishedOn": "2024-10-10T22:27:00.000Z",
           "wordCount": 11333,
           "title": "Unveiling the Mysteries of Europa: NASA’s Europa Clipper Mission",
-          "imageUrl": "https://camunda.com/wp-content/uploads/2024/10/europa-temp.png"
+          "imageUrl": "https://camunda.com/wp-content/uploads/2024/10/Unveiling-the-Mysteries-of-Europa-NASAs-Europa-Clipper-Mission.png"
         },
         {
           "id": "https://camunda.com/?p=119639",
@@ -875,21 +835,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://cdn-img.tonarinoyj.jp/public/episode-thumbnail/2550912964704280061-5b589216547f4da21878d8c9fd022683?1727866593"
-        },
-        {
-          "id": "tonarino_yj:episode:2550912964642848604",
-          "author": "原作/ＯＮＥ/漫画/村田雄介",
-          "description": "ワンパンマン",
-          "link": "https://tonarinoyj.jp/episode/2550912964642848604",
-          "publishedOn": "2024-09-18T15:00:00.000Z",
-          "wordCount": 194,
-          "title": "[第249話] ワンパンマン",
-          "enclosure": {
-            "url": "https://cdn-img.tonarinoyj.jp/public/episode-thumbnail/2550912964642848604-1c4359b4d837cee9df6eec1ff649d3eb?1726648556",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://cdn-img.tonarinoyj.jp/public/episode-thumbnail/2550912964642848604-1c4359b4d837cee9df6eec1ff649d3eb?1726648556"
         }
       ]
     },
@@ -914,7 +859,7 @@
           "description": "<p>Dive into a whirlwind of insights, inspiring sessions, and mingle with industry leaders at this year’s Universe. Get your tickets now before they’re gone! </p>\n<p>The post <a href=\"https://github.blog/news-insights/company-news/career-growth-learning-and-fun-oh-my-your-guide-to-github-universe-2024/\">Career growth, learning, and fun, oh my! Your guide to GitHub Universe 2024</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/news-insights/company-news/career-growth-learning-and-fun-oh-my-your-guide-to-github-universe-2024/",
           "publishedOn": "2024-10-17T16:00:06.000Z",
-          "wordCount": 4076,
+          "wordCount": 3422,
           "title": "Career growth, learning, and fun, oh my! Your guide to GitHub Universe 2024",
           "imageUrl": "https://github.blog/wp-content/uploads/2024/10/1200x630-Blog-Banner-Light-Mode-1.png"
         },
@@ -944,7 +889,7 @@
           "description": "<p>Learn about a community-developed framework for how to think about this problem holistically and how to use GitHub, particularly, to improve the security in the second half of your software supply chain.</p>\n<p>The post <a href=\"https://github.blog/security/supply-chain-security/the-second-half-of-software-supply-chain-security-on-github/\">The second half of software supply chain security on GitHub</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/security/supply-chain-security/the-second-half-of-software-supply-chain-security-on-github/",
           "publishedOn": "2024-10-08T18:54:34.000Z",
-          "wordCount": 3175,
+          "wordCount": 3829,
           "title": "The second half of software supply chain security on GitHub",
           "imageUrl": "https://github.blog/wp-content/uploads/2023/10/Security-DarkMode-3.png"
         },
@@ -1067,16 +1012,6 @@
           "wordCount": 9042,
           "title": "Introducing Netflix’s TimeSeries Data Abstraction Layer",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*jl30Jl559Fnd29in"
-        },
-        {
-          "id": "https://medium.com/p/1ea8a0a11b30",
-          "author": "Netflix Technology Blog",
-          "description": "Vidhya Arvind, Rajasekhar Ummadisetty, Joey Lynch, Vinay Chella",
-          "link": "https://netflixtechblog.com/introducing-netflixs-key-value-data-abstraction-layer-1ea8a0a11b30?source=rss----2615bd06b42e---4",
-          "publishedOn": "2024-09-18T22:49:04.000Z",
-          "wordCount": 6634,
-          "title": "Introducing Netflix’s Key-Value Data Abstraction Layer",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:755/0*9Ny8Uc-diSDnVGnk"
         }
       ]
     },
@@ -1092,12 +1027,22 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=46878",
+          "author": "Seth Godin",
+          "description": "“Ease” isn’t the same as “easy.” In fact, they’re often at odds. Easy work is hardly worth our effort. It can deaden us instead of giving us the chance to bring our best selves to life. Ease, on the other hand, is the feeling of doing something worthwhile, and doing it well. When we choose […]",
+          "link": "https://feeds.feedblitz.com/~/906400994/0/sethsblog~Moving-toward-ease/",
+          "publishedOn": "2024-10-18T08:56:00.000Z",
+          "wordCount": 1554,
+          "title": "Moving toward ease",
+          "imageUrl": "https://seths.blog/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=48711",
           "author": "Seth Godin",
           "description": "Why are we more likely to get tasks done than to take on new initiatives? Checking something off a to-do list requires far less emotional energy than adding something to the list was in the first place. As is often the case, “resistance” is the answer. It’s easy to type a book, hard to write […]",
           "link": "https://feeds.feedblitz.com/~/906344750/0/sethsblog~Decisions-as-effort/",
           "publishedOn": "2024-10-17T09:18:00.000Z",
-          "wordCount": 1630,
+          "wordCount": 1631,
           "title": "Decisions as effort",
           "imageUrl": "https://seths.blog/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806135-1.jpg"
         },
@@ -1107,7 +1052,7 @@
           "description": "It’s going to get busy around here. I wanted to share some upcoming events (online and in person) so you can plan ahead… there are five more for the end of the week, but here we go: Linda Rottenberg is joining me on LinkedIn on Monday. She’s built an extraordinary organization that most people have […]",
           "link": "https://feeds.feedblitz.com/~/906322412/0/sethsblog~Early-next-week/",
           "publishedOn": "2024-10-16T21:50:12.000Z",
-          "wordCount": 1699,
+          "wordCount": 1702,
           "title": "Early next week…",
           "imageUrl": "https://seths.blog/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061312.jpg"
         },
@@ -1137,7 +1082,7 @@
           "description": "Collaborating on documents and projects has never been easier, which is why we screw it up so often. Sharing and interacting with intent will save you heartache and wasted time. Some things to consider: Naming: Begin by naming your file with a digit and concept and a date. Something like “1 Book Presentation October 24”. […]",
           "link": "https://feeds.feedblitz.com/~/906172061/0/sethsblog~Some-simple-rules-for-source-control/",
           "publishedOn": "2024-10-14T09:03:00.000Z",
-          "wordCount": 1822,
+          "wordCount": 1819,
           "title": "Some simple rules for source control",
           "imageUrl": "https://seths.blog/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg"
         },
@@ -1147,7 +1092,7 @@
           "description": "Culture is: “People like us do things like this.” We might even have a chance to choose our group. Hipsters do this, hippies do that. People in this town wear this outfit, students at this school hang out here on Saturdays… We might be born into a culture. Less agency, but just as much identity. […]",
           "link": "https://feeds.feedblitz.com/~/906130058/0/sethsblog~Amplifying-the-fringes/",
           "publishedOn": "2024-10-13T09:03:00.000Z",
-          "wordCount": 1951,
+          "wordCount": 1948,
           "title": "Amplifying the fringes",
           "imageUrl": "https://seths.blog/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg"
         },
@@ -1167,7 +1112,7 @@
           "description": "The first step in building a successful and elegant strategy is to see the systems that are part of our lives. October is a fine month to take a moment to look closely at one: the system that brings us cheap chocolate. Like most systems, it’s largely invisible. The people in it don’t mean to […]",
           "link": "https://feeds.feedblitz.com/~/906038213/0/sethsblog~The-cheap-chocolate-system/",
           "publishedOn": "2024-10-11T09:03:00.000Z",
-          "wordCount": 1967,
+          "wordCount": 1964,
           "title": "The cheap chocolate system",
           "imageUrl": "https://seths.blog/wp-content/uploads/2018/06/seth_godin_ogimages_v02_180613-1.jpg"
         },
@@ -1177,19 +1122,9 @@
           "description": "There are now 280 cities being organized. You can find the list and all the details by clicking here. It’s free, and it works better when you become a part of it. Find the others. Connect, inspire and lead. It’s a great excuse to organize some friends and colleagues and have a conversation that can […]",
           "link": "https://feeds.feedblitz.com/~/905998883/0/sethsblog~Twelve-days-until-the-first-worldwide-strategy-meetup/",
           "publishedOn": "2024-10-10T16:03:00.000Z",
-          "wordCount": 1529,
+          "wordCount": 1526,
           "title": "Twelve days until the first worldwide strategy meetup",
           "imageUrl": "https://seths.blog/wp-content/uploads/2018/06/seth_godin_ogimages_v02_180613-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=46463",
-          "author": "Seth Godin",
-          "description": "When the person you could have been meets the person you are becoming, is it going to be a cause for celebration or heartbreak? This is something we must work on right now, and tomorrow, and every single day until the meeting happens.",
-          "link": "https://feeds.feedblitz.com/~/905979416/0/sethsblog~The-inevitable-meeting/",
-          "publishedOn": "2024-10-10T08:35:00.000Z",
-          "wordCount": 1472,
-          "title": "The inevitable meeting",
-          "imageUrl": "https://seths.blog/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061310-1.jpg"
         }
       ]
     },

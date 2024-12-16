@@ -22,6 +22,106 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-12-16 datetime="2024-12-16T00:00:00.000Z">2024-12-16</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-12-16 datetime="2024-12-16T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Kubernetes Blog</button>
+                  <a class="source-heading__link" href="https://kubernetes.io/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kubernetes.io/blog/2024/12/16/cpumanager-strict-cpu-reservation/"
+                        open
+                      >
+                        <summary class="article-expander__title">Kubernetes v1.32 Adds A New CPU Manager Static Policy Option For Strict CPU Reservation</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kubernetes.io/blog/2024/12/16/cpumanager-strict-cpu-reservation/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>In Kubernetes v1.32, after years of community discussion, we are excited to introduce a
+strict-cpu-reservation option for the CPU Manager static policy.
+This feature is currently in alpha, with the associated policy hidden by default. You can only use the
+policy if you explicitly enable the alpha behavior in your cluster.
+Understanding the feature
+The CPU Manager static policy is used to reduce latency or improve performance. The reservedSystemCPUs defines an explicit CPU set for OS system daemons and kubernetes system daemons. This option is designed for Telco/NFV type use cases where uncontrolled interrupts/timers may impact the workload performance. you can use this option to define the explicit cpuset for the system/kubernetes daemons as well as the interrupts/timers, so the rest CPUs …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-12-15 datetime="2024-12-15T10:03:00.000Z">2024-12-15</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-12-15 datetime="2024-12-15T10:03:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Seth Godin&#x27;s Blog on marketing, tribes and respect</button>
+                  <a class="source-heading__link" href="https://seths.blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://seths.blog/?p&#x3D;50984"
+                        open
+                      >
+                        <summary class="article-expander__title">Change your shoes</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://feeds.feedblitz.com/~/909428273/0/sethsblog~Change-your-shoes/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://seths.blog/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061314.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Like all good metaphors, it might be practical too. Your ‘shoes’ are the point of greatest leverage. The spot where you have traction and engage with the world most directly. For a freelancer, it might be the way you engage with customers, or your software tools. It might be the reputation (or lack of reputation) […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-12-14 datetime="2024-12-14T10:03:00.000Z">2024-12-14</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-12-14 datetime="2024-12-14T10:03:00.000Z"></time>
           </button>
@@ -554,7 +654,7 @@ The post Capital One Streamlines Risk Management with Camunda Modeler appeared f
                             <span class="media-object__text">
                               <span>We released a new open source byte-pair tokenizer that is faster and more flexible than popular alternatives.
 The post So many tokens, so little time: Introducing a faster, more flexible byte-pair tokenizer appeared first on The GitHub Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                &ensp;<span class="article-reading-time">(&hairsp;16
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1052,7 +1152,7 @@ The post New Boards Hub Rollout Expectations appeared first on Azure DevOps Blog
                             <span class="media-object__text">
                               <span>Learn how I discovered 11 new vulnerabilities by writing CodeQL models for Gradio framework and how you can do it, too.
 The post CodeQL zero to hero part 4: Gradio framework case study appeared first on The GitHub Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;25
+                                &ensp;<span class="article-reading-time">(&hairsp;27
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1542,7 +1642,7 @@ The post Camunda Alpha Release December 2024 appeared first on Camunda.</span>
                             <span class="media-object__text">
                               <span>The EU Cyber Resilience Act will introduce new cybersecurity requirements for software released in the EU. Learn what it means for your open source projects and  what GitHub is doing to ensure the law will be a net win for open source maintainers.
 The post What the EU’s new software legislation means for developers appeared first on The GitHub Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                &ensp;<span class="article-reading-time">(&hairsp;13
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1824,40 +1924,6 @@ The post What the EU’s new software legislation means for developers appeared 
                               <span>Whether you’re hunting for the perfect gift for your significant other, the colleague you drew in the office gift exchange, or maybe (just maybe) even for yourself, we’ve got you covered with our top 10 gifts that any developer would love. 
 The post The top 10 gifts for the developer in your life appeared first on The GitHub Blog.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Seth Godin&#x27;s Blog on marketing, tribes and respect</button>
-                  <a class="source-heading__link" href="https://seths.blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://seths.blog/?p&#x3D;50884"
-                        open
-                      >
-                        <summary class="article-expander__title">The problem with shock design</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://feeds.feedblitz.com/~/908954054/0/sethsblog~The-problem-with-shock-design/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://seths.blog/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061310-1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>If attention is what you seek and attention is what you measure, it’s likely you’ll create drama. And drama is inherently short-lived. The managing director of Jaguar said, “We’ve certainly gathered an awful lot of attention over the last few weeks.” Choosing the word “awful” was appropriate. Here’s the design that made Jaguar iconic: Sixty […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2521,7 +2587,7 @@ Fast-forward to today, and we have launched our internal generative AI assistant
                             <span class="media-object__text">
                               <span>The Microsoft DevLabs publisher was created as a hub for internal teams at Microsoft to channel their passion for Azure DevOps into experimental extensions. These extensions helped address product gaps and fostered innovation, ultimately benefiting Azure DevOps customers via the public marketplace. The challenge Over time, as the original creators of these extensions moved on […]
 The post Microsoft DevLabs Extensions appeared first on Azure DevOps Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;24
+                                &ensp;<span class="article-reading-time">(&hairsp;23
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -3602,8 +3668,8 @@ The post Announcing the General Availability of Managed DevOps Pools (MDP) for A
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/vxavictor513/osmosfeed/actions/runs/12334304177">
-        <time id="build-timestamp" datetime="2024-12-15T00:30:14.982Z">2024-12-15T00:30:14.982Z</time>
+      <a class="footer-link" href="https://github.com/vxavictor513/osmosfeed/actions/runs/12343636488">
+        <time id="build-timestamp" datetime="2024-12-16T00:28:55.966Z">2024-12-16T00:28:55.966Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-12-15T00:30:15.002Z</id>
+    <id>urn:2024-12-16T00:28:55.987Z</id>
     <title>osmos::feed</title>
-    <updated>2024-12-15T00:30:15.002Z</updated>
+    <updated>2024-12-16T00:28:55.987Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes v1.32 Adds A New CPU Manager Static Policy Option For Strict CPU Reservation]]></title>
+        <id>https://kubernetes.io/blog/2024/12/16/cpumanager-strict-cpu-reservation/</id>
+        <link href="https://kubernetes.io/blog/2024/12/16/cpumanager-strict-cpu-reservation/"/>
+        <updated>2024-12-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In Kubernetes v1.32, after years of community discussion, we are excited to introduce a
+strict-cpu-reservation option for the CPU Manager static policy.
+This feature is currently in alpha, with the associated policy hidden by default. You can only use the
+policy if you explicitly enable the alpha behavior in your cluster.
+Understanding the feature
+The CPU Manager static policy is used to reduce latency or improve performance. The reservedSystemCPUs defines an explicit CPU set for OS system daemons and kubernetes system daemons. This option is designed for Telco/NFV type use cases where uncontrolled interrupts/timers may impact the workload performance. you can use this option to define the explicit cpuset for the system/kubernetes daemons as well as the interrupts/timers, so the rest CPUs …]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Change your shoes]]></title>
+        <id>https://seths.blog/?p=50984</id>
+        <link href="https://feeds.feedblitz.com/~/909428273/0/sethsblog~Change-your-shoes/"/>
+        <updated>2024-12-15T10:03:00.000Z</updated>
+        <summary type="html"><![CDATA[Like all good metaphors, it might be practical too. Your ‘shoes’ are the point of greatest leverage. The spot where you have traction and engage with the world most directly. For a freelancer, it might be the way you engage with customers, or your software tools. It might be the reputation (or lack of reputation) […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The opportunity for AI formbots]]></title>
         <id>https://seths.blog/?p=50969</id>
@@ -636,16 +661,6 @@ The post Camunda Alpha Release December 2024 appeared first on Camunda.]]></summ
 <p>The post <a href="https://github.blog/news-insights/company-news/the-top-10-gifts-for-the-developer-in-your-life/">The top 10 gifts for the developer in your life</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>]]></summary>
         <author>
             <name>The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The problem with shock design]]></title>
-        <id>https://seths.blog/?p=50884</id>
-        <link href="https://feeds.feedblitz.com/~/908954054/0/sethsblog~The-problem-with-shock-design/"/>
-        <updated>2024-12-06T10:03:00.000Z</updated>
-        <summary type="html"><![CDATA[If attention is what you seek and attention is what you measure, it’s likely you’ll create drama. And drama is inherently short-lived. The managing director of Jaguar said, “We’ve certainly gathered an awful lot of attention over the last few weeks.” Choosing the word “awful” was appropriate. Here’s the design that made Jaguar iconic: Sixty […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
         </author>
     </entry>
     <entry>
